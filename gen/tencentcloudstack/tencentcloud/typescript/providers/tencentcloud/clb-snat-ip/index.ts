@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_snat_ip
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_snat_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClbSnatIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * CLB instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_snat_ip#clb_id ClbSnatIp#clb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_snat_ip#clb_id ClbSnatIp#clb_id}
   */
   readonly clbId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_snat_ip#id ClbSnatIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_snat_ip#id ClbSnatIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface ClbSnatIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_snat_ip#ips ClbSnatIp#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_snat_ip#ips ClbSnatIp#ips}
   */
   readonly ips?: ClbSnatIpIps[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface ClbSnatIpIps {
   /**
   * Snat IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_snat_ip#ip ClbSnatIp#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_snat_ip#ip ClbSnatIp#ip}
   */
   readonly ip: string;
   /**
   * Subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_snat_ip#subnet_id ClbSnatIp#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_snat_ip#subnet_id ClbSnatIp#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -176,7 +176,7 @@ export class ClbSnatIpIpsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_snat_ip tencentcloud_clb_snat_ip}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_snat_ip tencentcloud_clb_snat_ip}
 */
 export class ClbSnatIp extends cdktf.TerraformResource {
 
@@ -192,7 +192,7 @@ export class ClbSnatIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClbSnatIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClbSnatIp to import
-  * @param importFromId The id of the existing ClbSnatIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_snat_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClbSnatIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_snat_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClbSnatIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -204,7 +204,7 @@ export class ClbSnatIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_snat_ip tencentcloud_clb_snat_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_snat_ip tencentcloud_clb_snat_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -215,8 +215,8 @@ export class ClbSnatIp extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clb_snat_ip',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

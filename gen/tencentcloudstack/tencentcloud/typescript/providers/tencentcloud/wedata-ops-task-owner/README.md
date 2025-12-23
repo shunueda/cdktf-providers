@@ -1,3 +1,3 @@
 # `tencentcloud_wedata_ops_task_owner`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_wedata_ops_task_owner`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_ops_task_owner).
+Refer to the Terraform Registry for docs: [`tencentcloud_wedata_ops_task_owner`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_ops_task_owner).

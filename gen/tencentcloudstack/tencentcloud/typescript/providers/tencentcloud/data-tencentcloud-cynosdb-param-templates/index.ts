@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudCynosdbParamTemplatesConfig extends cdktf.Terra
   /**
   * Database mode, optional values: NORMAL, SERVERLESS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#db_modes DataTencentcloudCynosdbParamTemplates#db_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#db_modes DataTencentcloudCynosdbParamTemplates#db_modes}
   */
   readonly dbModes?: string[];
   /**
   * Engine types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#engine_types DataTencentcloudCynosdbParamTemplates#engine_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#engine_types DataTencentcloudCynosdbParamTemplates#engine_types}
   */
   readonly engineTypes?: string[];
   /**
   * Database engine version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#engine_versions DataTencentcloudCynosdbParamTemplates#engine_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#engine_versions DataTencentcloudCynosdbParamTemplates#engine_versions}
   */
   readonly engineVersions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#id DataTencentcloudCynosdbParamTemplates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#id DataTencentcloudCynosdbParamTemplates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface DataTencentcloudCynosdbParamTemplatesConfig extends cdktf.Terra
   /**
   * Query limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#limit DataTencentcloudCynosdbParamTemplates#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#limit DataTencentcloudCynosdbParamTemplates#limit}
   */
   readonly limit?: number;
   /**
   * Page offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#offset DataTencentcloudCynosdbParamTemplates#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#offset DataTencentcloudCynosdbParamTemplates#offset}
   */
   readonly offset?: number;
   /**
   * The sort field for the returned results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#order_by DataTencentcloudCynosdbParamTemplates#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#order_by DataTencentcloudCynosdbParamTemplates#order_by}
   */
   readonly orderBy?: string;
   /**
   * Sort by (asc, desc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#order_direction DataTencentcloudCynosdbParamTemplates#order_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#order_direction DataTencentcloudCynosdbParamTemplates#order_direction}
   */
   readonly orderDirection?: string;
   /**
   * The product type corresponding to the query template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#products DataTencentcloudCynosdbParamTemplates#products}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#products DataTencentcloudCynosdbParamTemplates#products}
   */
   readonly products?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#result_output_file DataTencentcloudCynosdbParamTemplates#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#result_output_file DataTencentcloudCynosdbParamTemplates#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The id list of templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#template_ids DataTencentcloudCynosdbParamTemplates#template_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#template_ids DataTencentcloudCynosdbParamTemplates#template_ids}
   */
   readonly templateIds?: number[];
   /**
   * The name list of templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#template_names DataTencentcloudCynosdbParamTemplates#template_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#template_names DataTencentcloudCynosdbParamTemplates#template_names}
   */
   readonly templateNames?: string[];
   /**
   * Template types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#template_types DataTencentcloudCynosdbParamTemplates#template_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#template_types DataTencentcloudCynosdbParamTemplates#template_types}
   */
   readonly templateTypes?: string[];
 }
@@ -305,7 +305,7 @@ export class DataTencentcloudCynosdbParamTemplatesItemsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates tencentcloud_cynosdb_param_templates}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates tencentcloud_cynosdb_param_templates}
 */
 export class DataTencentcloudCynosdbParamTemplates extends cdktf.TerraformDataSource {
 
@@ -321,7 +321,7 @@ export class DataTencentcloudCynosdbParamTemplates extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudCynosdbParamTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCynosdbParamTemplates to import
-  * @param importFromId The id of the existing DataTencentcloudCynosdbParamTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCynosdbParamTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCynosdbParamTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -333,7 +333,7 @@ export class DataTencentcloudCynosdbParamTemplates extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cynosdb_param_templates tencentcloud_cynosdb_param_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_param_templates tencentcloud_cynosdb_param_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -344,8 +344,8 @@ export class DataTencentcloudCynosdbParamTemplates extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_cynosdb_param_templates',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ciam_user_store
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ciam_user_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CiamUserStoreConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ciam_user_store#id CiamUserStore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ciam_user_store#id CiamUserStore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface CiamUserStoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * User Store Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ciam_user_store#user_pool_desc CiamUserStore#user_pool_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ciam_user_store#user_pool_desc CiamUserStore#user_pool_desc}
   */
   readonly userPoolDesc?: string;
   /**
   * User Store Logo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ciam_user_store#user_pool_logo CiamUserStore#user_pool_logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ciam_user_store#user_pool_logo CiamUserStore#user_pool_logo}
   */
   readonly userPoolLogo?: string;
   /**
   * User Store Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ciam_user_store#user_pool_name CiamUserStore#user_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ciam_user_store#user_pool_name CiamUserStore#user_pool_name}
   */
   readonly userPoolName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ciam_user_store tencentcloud_ciam_user_store}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ciam_user_store tencentcloud_ciam_user_store}
 */
 export class CiamUserStore extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CiamUserStore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CiamUserStore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CiamUserStore to import
-  * @param importFromId The id of the existing CiamUserStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ciam_user_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CiamUserStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ciam_user_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CiamUserStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CiamUserStore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ciam_user_store tencentcloud_ciam_user_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ciam_user_store tencentcloud_ciam_user_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class CiamUserStore extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ciam_user_store',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

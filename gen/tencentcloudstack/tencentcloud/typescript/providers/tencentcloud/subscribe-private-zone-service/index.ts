@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/subscribe_private_zone_service
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/subscribe_private_zone_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SubscribePrivateZoneServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/subscribe_private_zone_service#id SubscribePrivateZoneService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/subscribe_private_zone_service#id SubscribePrivateZoneService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface SubscribePrivateZoneServiceConfig extends cdktf.TerraformMetaAr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/subscribe_private_zone_service tencentcloud_subscribe_private_zone_service}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/subscribe_private_zone_service tencentcloud_subscribe_private_zone_service}
 */
 export class SubscribePrivateZoneService extends cdktf.TerraformResource {
 
@@ -33,7 +33,7 @@ export class SubscribePrivateZoneService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SubscribePrivateZoneService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SubscribePrivateZoneService to import
-  * @param importFromId The id of the existing SubscribePrivateZoneService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/subscribe_private_zone_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SubscribePrivateZoneService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/subscribe_private_zone_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SubscribePrivateZoneService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -45,7 +45,7 @@ export class SubscribePrivateZoneService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/subscribe_private_zone_service tencentcloud_subscribe_private_zone_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/subscribe_private_zone_service tencentcloud_subscribe_private_zone_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -56,8 +56,8 @@ export class SubscribePrivateZoneService extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_subscribe_private_zone_service',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

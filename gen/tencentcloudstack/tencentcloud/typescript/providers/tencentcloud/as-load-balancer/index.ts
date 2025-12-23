@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AsLoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of a scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer#auto_scaling_group_id AsLoadBalancer#auto_scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer#auto_scaling_group_id AsLoadBalancer#auto_scaling_group_id}
   */
   readonly autoScalingGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer#id AsLoadBalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer#id AsLoadBalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface AsLoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * forward_load_balancers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer#forward_load_balancers AsLoadBalancer#forward_load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer#forward_load_balancers AsLoadBalancer#forward_load_balancers}
   */
   readonly forwardLoadBalancers?: AsLoadBalancerForwardLoadBalancers[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface AsLoadBalancerForwardLoadBalancersTargetAttributes {
   /**
   * Target port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer#port AsLoadBalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer#port AsLoadBalancer#port}
   */
   readonly port: number;
   /**
   * Target weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer#weight AsLoadBalancer#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer#weight AsLoadBalancer#weight}
   */
   readonly weight: number;
 }
@@ -178,31 +178,31 @@ export interface AsLoadBalancerForwardLoadBalancers {
   /**
   * Application load balancer listener ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer#listener_id AsLoadBalancer#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer#listener_id AsLoadBalancer#listener_id}
   */
   readonly listenerId: string;
   /**
   * Application load balancer instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer#load_balancer_id AsLoadBalancer#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer#load_balancer_id AsLoadBalancer#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
   * Application load balancer location ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer#location_id AsLoadBalancer#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer#location_id AsLoadBalancer#location_id}
   */
   readonly locationId?: string;
   /**
   * Load balancer instance region. Default value is the region of current auto scaling group. The format is the same as the public parameter Region, for example: ap-guangzhou.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer#region AsLoadBalancer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer#region AsLoadBalancer#region}
   */
   readonly region?: string;
   /**
   * target_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer#target_attributes AsLoadBalancer#target_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer#target_attributes AsLoadBalancer#target_attributes}
   */
   readonly targetAttributes: AsLoadBalancerForwardLoadBalancersTargetAttributes[] | cdktf.IResolvable;
 }
@@ -425,7 +425,7 @@ export class AsLoadBalancerForwardLoadBalancersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer tencentcloud_as_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer tencentcloud_as_load_balancer}
 */
 export class AsLoadBalancer extends cdktf.TerraformResource {
 
@@ -441,7 +441,7 @@ export class AsLoadBalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsLoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsLoadBalancer to import
-  * @param importFromId The id of the existing AsLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsLoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -453,7 +453,7 @@ export class AsLoadBalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_load_balancer tencentcloud_as_load_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_load_balancer tencentcloud_as_load_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -464,8 +464,8 @@ export class AsLoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_as_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

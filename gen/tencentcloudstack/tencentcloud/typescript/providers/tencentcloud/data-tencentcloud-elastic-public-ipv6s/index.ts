@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elastic_public_ipv6s
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elastic_public_ipv6s
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudElasticPublicIpv6SConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elastic_public_ipv6s#id DataTencentcloudElasticPublicIpv6S#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elastic_public_ipv6s#id DataTencentcloudElasticPublicIpv6S#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -20,25 +20,25 @@ export interface DataTencentcloudElasticPublicIpv6SConfig extends cdktf.Terrafor
   * 	- Elastic IPv6 unique ID is like: `eipv6 -11112222`
   * Note: Parameters do not support specifying both IPv6AddressIds and Filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elastic_public_ipv6s#ipv6_address_ids DataTencentcloudElasticPublicIpv6S#ipv6_address_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elastic_public_ipv6s#ipv6_address_ids DataTencentcloudElasticPublicIpv6S#ipv6_address_ids}
   */
   readonly ipv6AddressIds?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elastic_public_ipv6s#result_output_file DataTencentcloudElasticPublicIpv6S#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elastic_public_ipv6s#result_output_file DataTencentcloudElasticPublicIpv6S#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Whether to query traditional IPv6 address information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elastic_public_ipv6s#traditional DataTencentcloudElasticPublicIpv6S#traditional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elastic_public_ipv6s#traditional DataTencentcloudElasticPublicIpv6S#traditional}
   */
   readonly traditional?: boolean | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elastic_public_ipv6s#filters DataTencentcloudElasticPublicIpv6S#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elastic_public_ipv6s#filters DataTencentcloudElasticPublicIpv6S#filters}
   */
   readonly filters?: DataTencentcloudElasticPublicIpv6SFilters[] | cdktf.IResolvable;
 }
@@ -413,13 +413,13 @@ export interface DataTencentcloudElasticPublicIpv6SFilters {
   /**
   * Property name. If there are multiple Filters, the relationship between Filters is a logical AND (AND) relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elastic_public_ipv6s#name DataTencentcloudElasticPublicIpv6S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elastic_public_ipv6s#name DataTencentcloudElasticPublicIpv6S#name}
   */
   readonly name: string;
   /**
   * Attribute value. If there are multiple Values in the same Filter, the relationship between Values under the same Filter is a logical OR relationship. When the value type is a Boolean type, the value can be directly taken to the string TRUE or FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elastic_public_ipv6s#values DataTencentcloudElasticPublicIpv6S#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elastic_public_ipv6s#values DataTencentcloudElasticPublicIpv6S#values}
   */
   readonly values: string[];
 }
@@ -558,7 +558,7 @@ export class DataTencentcloudElasticPublicIpv6SFiltersList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elastic_public_ipv6s tencentcloud_elastic_public_ipv6s}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elastic_public_ipv6s tencentcloud_elastic_public_ipv6s}
 */
 export class DataTencentcloudElasticPublicIpv6S extends cdktf.TerraformDataSource {
 
@@ -574,7 +574,7 @@ export class DataTencentcloudElasticPublicIpv6S extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudElasticPublicIpv6S resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudElasticPublicIpv6S to import
-  * @param importFromId The id of the existing DataTencentcloudElasticPublicIpv6S that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elastic_public_ipv6s#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudElasticPublicIpv6S that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elastic_public_ipv6s#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudElasticPublicIpv6S to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -586,7 +586,7 @@ export class DataTencentcloudElasticPublicIpv6S extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elastic_public_ipv6s tencentcloud_elastic_public_ipv6s} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elastic_public_ipv6s tencentcloud_elastic_public_ipv6s} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -597,8 +597,8 @@ export class DataTencentcloudElasticPublicIpv6S extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_elastic_public_ipv6s',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

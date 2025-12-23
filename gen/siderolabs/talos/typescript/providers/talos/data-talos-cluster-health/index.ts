@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataTalosClusterHealthConfig extends cdktf.TerraformMetaArgumen
   /**
   * The client configuration data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health#client_configuration DataTalosClusterHealth#client_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health#client_configuration DataTalosClusterHealth#client_configuration}
   */
   readonly clientConfiguration: DataTalosClusterHealthClientConfiguration;
   /**
   * List of control plane nodes to check for health.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health#control_plane_nodes DataTalosClusterHealth#control_plane_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health#control_plane_nodes DataTalosClusterHealth#control_plane_nodes}
   */
   readonly controlPlaneNodes: string[];
   /**
   * endpoints to use for the health check client. Use at least one control plane endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health#endpoints DataTalosClusterHealth#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health#endpoints DataTalosClusterHealth#endpoints}
   */
   readonly endpoints: string[];
   /**
   * Skip Kubernetes component checks, this is useful to check if the nodes has finished booting up and kubelet is running. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health#skip_kubernetes_checks DataTalosClusterHealth#skip_kubernetes_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health#skip_kubernetes_checks DataTalosClusterHealth#skip_kubernetes_checks}
   */
   readonly skipKubernetesChecks?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health#timeouts DataTalosClusterHealth#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health#timeouts DataTalosClusterHealth#timeouts}
   */
   readonly timeouts?: DataTalosClusterHealthTimeouts;
   /**
   * List of worker nodes to check for health.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health#worker_nodes DataTalosClusterHealth#worker_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health#worker_nodes DataTalosClusterHealth#worker_nodes}
   */
   readonly workerNodes?: string[];
 }
@@ -46,19 +46,19 @@ export interface DataTalosClusterHealthClientConfiguration {
   /**
   * The client CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health#ca_certificate DataTalosClusterHealth#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health#ca_certificate DataTalosClusterHealth#ca_certificate}
   */
   readonly caCertificate: string;
   /**
   * The client certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health#client_certificate DataTalosClusterHealth#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health#client_certificate DataTalosClusterHealth#client_certificate}
   */
   readonly clientCertificate: string;
   /**
   * The client key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health#client_key DataTalosClusterHealth#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health#client_key DataTalosClusterHealth#client_key}
   */
   readonly clientKey: string;
 }
@@ -203,7 +203,7 @@ export interface DataTalosClusterHealthTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health#read DataTalosClusterHealth#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health#read DataTalosClusterHealth#read}
   */
   readonly read?: string;
 }
@@ -297,7 +297,7 @@ export class DataTalosClusterHealthTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health talos_cluster_health}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health talos_cluster_health}
 */
 export class DataTalosClusterHealth extends cdktf.TerraformDataSource {
 
@@ -313,7 +313,7 @@ export class DataTalosClusterHealth extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTalosClusterHealth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTalosClusterHealth to import
-  * @param importFromId The id of the existing DataTalosClusterHealth that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTalosClusterHealth that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTalosClusterHealth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -325,7 +325,7 @@ export class DataTalosClusterHealth extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_health talos_cluster_health} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_health talos_cluster_health} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,8 +336,8 @@ export class DataTalosClusterHealth extends cdktf.TerraformDataSource {
       terraformResourceType: 'talos_cluster_health',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

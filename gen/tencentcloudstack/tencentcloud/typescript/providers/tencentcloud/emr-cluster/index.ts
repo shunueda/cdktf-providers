@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface EmrClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * 0 means turn off automatic renewal, 1 means turn on automatic renewal. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#auto_renew EmrCluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#auto_renew EmrCluster#auto_renew}
   */
   readonly autoRenew?: number;
   /**
   * Display strategy of EMR instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#display_strategy EmrCluster#display_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#display_strategy EmrCluster#display_strategy}
   */
   readonly displayStrategy?: string;
   /**
   * Access the external file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#extend_fs_field EmrCluster#extend_fs_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#extend_fs_field EmrCluster#extend_fs_field}
   */
   readonly extendFsField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#id EmrCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#id EmrCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface EmrClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the instance, which can contain 6 to 36 English letters, Chinese characters, digits, dashes(-), or underscores(_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#instance_name EmrCluster#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#instance_name EmrCluster#instance_name}
   */
   readonly instanceName: string;
   /**
   * Instance login settings. There are two optional fields:- password: Instance login password: 8-16 characters, including uppercase letters, lowercase letters, numbers and special characters. Special symbols only support! @% ^ *. The first bit of the password cannot be a special character;- public_key_id: Public key id. After the key is associated, the instance can be accessed through the corresponding private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#login_settings EmrCluster#login_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#login_settings EmrCluster#login_settings}
   */
   readonly loginSettings?: { [key: string]: string };
   /**
   * true means that cross-AZ deployment is enabled; it is only a user parameter when creating a new cluster, and no subsequent adjustment is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#multi_zone EmrCluster#multi_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#multi_zone EmrCluster#multi_zone}
   */
   readonly multiZone?: boolean | cdktf.IResolvable;
   /**
@@ -56,19 +56,19 @@ export interface EmrClusterConfig extends cdktf.TerraformMetaArguments {
   * 				- NOT_NEED_MASTER_WAN: Indicates that it is not turned on.
   * 				By default, the cluster Master node internet is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#need_master_wan EmrCluster#need_master_wan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#need_master_wan EmrCluster#need_master_wan}
   */
   readonly needMasterWan?: string;
   /**
   * The pay mode of instance. 0 represent POSTPAID_BY_HOUR, 1 represent PREPAID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#pay_mode EmrCluster#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#pay_mode EmrCluster#pay_mode}
   */
   readonly payMode: number;
   /**
   * The location of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#placement EmrCluster#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#placement EmrCluster#placement}
   */
   readonly placement?: { [key: string]: string };
   /**
@@ -88,7 +88,7 @@ export interface EmrClusterConfig extends cdktf.TerraformMetaArguments {
   * 	- 53: represents EMR-V3.6.0
   * 	- 54: represents STARROCKS-V2.0.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#product_id EmrCluster#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#product_id EmrCluster#product_id}
   */
   readonly productId: number;
   /**
@@ -98,80 +98,80 @@ export interface EmrClusterConfig extends cdktf.TerraformMetaArguments {
   * 	- Hadoop-Presto
   * 	- Hadoop-Hbase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#scene_name EmrCluster#scene_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#scene_name EmrCluster#scene_name}
   */
   readonly sceneName?: string;
   /**
   * The ID of the security group to which the instance belongs, in the form of sg-xxxxxxxx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#sg_id EmrCluster#sg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#sg_id EmrCluster#sg_id}
   */
   readonly sgId?: string;
   /**
   * The softwares of a EMR instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#softwares EmrCluster#softwares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#softwares EmrCluster#softwares}
   */
   readonly softwares: string[];
   /**
   * The flag whether the instance support high availability.(0=>not support, 1=>support).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#support_ha EmrCluster#support_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#support_ha EmrCluster#support_ha}
   */
   readonly supportHa: number;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#tags EmrCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#tags EmrCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The length of time the instance was purchased. Use with TimeUnit.When TimeUnit is s, the parameter can only be filled in at 3600, representing a metered instance.
   * When TimeUnit is m, the number filled in by this parameter indicates the length of purchase of the monthly instance of the package year, such as 1 for one month of purchase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#time_span EmrCluster#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#time_span EmrCluster#time_span}
   */
   readonly timeSpan?: number;
   /**
   * The unit of time in which the instance was purchased. When PayMode is 0, TimeUnit can only take values of s(second). When PayMode is 1, TimeUnit can only take the value m(month).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#time_unit EmrCluster#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#time_unit EmrCluster#time_unit}
   */
   readonly timeUnit?: string;
   /**
   * The private net config of EMR instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#vpc_settings EmrCluster#vpc_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#vpc_settings EmrCluster#vpc_settings}
   */
   readonly vpcSettings: { [key: string]: string };
   /**
   * multi_zone_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#multi_zone_setting EmrCluster#multi_zone_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#multi_zone_setting EmrCluster#multi_zone_setting}
   */
   readonly multiZoneSetting?: EmrClusterMultiZoneSetting[] | cdktf.IResolvable;
   /**
   * placement_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#placement_info EmrCluster#placement_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#placement_info EmrCluster#placement_info}
   */
   readonly placementInfo?: EmrClusterPlacementInfo;
   /**
   * pre_executed_file_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#pre_executed_file_settings EmrCluster#pre_executed_file_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#pre_executed_file_settings EmrCluster#pre_executed_file_settings}
   */
   readonly preExecutedFileSettings?: EmrClusterPreExecutedFileSettings[] | cdktf.IResolvable;
   /**
   * resource_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#resource_spec EmrCluster#resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#resource_spec EmrCluster#resource_spec}
   */
   readonly resourceSpec?: EmrClusterResourceSpec;
   /**
   * terminate_node_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#terminate_node_info EmrCluster#terminate_node_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#terminate_node_info EmrCluster#terminate_node_info}
   */
   readonly terminateNodeInfo?: EmrClusterTerminateNodeInfo[] | cdktf.IResolvable;
 }
@@ -179,7 +179,7 @@ export interface EmrClusterMultiZoneSettingPlacement {
   /**
   * Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#zone EmrCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#zone EmrCluster#zone}
   */
   readonly zone: string;
 }
@@ -262,7 +262,7 @@ export interface EmrClusterMultiZoneSettingResourceSpecCommonResourceSpecMultiDi
   /**
   * Number of cloud disks of this type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#count EmrCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#count EmrCluster#count}
   */
   readonly count?: number;
   /**
@@ -271,13 +271,13 @@ export interface EmrClusterMultiZoneSettingResourceSpecCommonResourceSpecMultiDi
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_HSSD: Represents enhanced SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Cloud disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#volume EmrCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#volume EmrCluster#volume}
   */
   readonly volume?: number;
 }
@@ -453,13 +453,13 @@ export interface EmrClusterMultiZoneSettingResourceSpecCommonResourceSpec {
   /**
   * Number of CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cpu EmrCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cpu EmrCluster#cpu}
   */
   readonly cpu?: number;
   /**
   * Data disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
@@ -468,25 +468,25 @@ export interface EmrClusterMultiZoneSettingResourceSpecCommonResourceSpec {
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_BASIC: Represents Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Memory size in M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
   */
   readonly memSize?: number;
   /**
   * Root disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#root_size EmrCluster#root_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#root_size EmrCluster#root_size}
   */
   readonly rootSize?: number;
   /**
   * Node specification description, such as CVM.SA2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#spec EmrCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#spec EmrCluster#spec}
   */
   readonly spec?: string;
   /**
@@ -497,13 +497,13 @@ export interface EmrClusterMultiZoneSettingResourceSpecCommonResourceSpec {
   * 	- 11: Represents throughput Cloud Block Storage;
   * 	- 12: Represents extremely fast SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
   */
   readonly storageType?: number;
   /**
   * multi_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
   */
   readonly multiDisks?: EmrClusterMultiZoneSettingResourceSpecCommonResourceSpecMultiDisks[] | cdktf.IResolvable;
 }
@@ -792,7 +792,7 @@ export interface EmrClusterMultiZoneSettingResourceSpecCoreResourceSpecMultiDisk
   /**
   * Number of cloud disks of this type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#count EmrCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#count EmrCluster#count}
   */
   readonly count?: number;
   /**
@@ -801,13 +801,13 @@ export interface EmrClusterMultiZoneSettingResourceSpecCoreResourceSpecMultiDisk
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_HSSD: Represents enhanced SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Cloud disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#volume EmrCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#volume EmrCluster#volume}
   */
   readonly volume?: number;
 }
@@ -983,13 +983,13 @@ export interface EmrClusterMultiZoneSettingResourceSpecCoreResourceSpec {
   /**
   * Number of CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cpu EmrCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cpu EmrCluster#cpu}
   */
   readonly cpu?: number;
   /**
   * Data disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
@@ -998,25 +998,25 @@ export interface EmrClusterMultiZoneSettingResourceSpecCoreResourceSpec {
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_BASIC: Represents Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Memory size in M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
   */
   readonly memSize?: number;
   /**
   * Root disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#root_size EmrCluster#root_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#root_size EmrCluster#root_size}
   */
   readonly rootSize?: number;
   /**
   * Node specification description, such as CVM.SA2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#spec EmrCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#spec EmrCluster#spec}
   */
   readonly spec?: string;
   /**
@@ -1027,13 +1027,13 @@ export interface EmrClusterMultiZoneSettingResourceSpecCoreResourceSpec {
   * 	- 11: Represents throughput Cloud Block Storage;
   * 	- 12: Represents extremely fast SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
   */
   readonly storageType?: number;
   /**
   * multi_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
   */
   readonly multiDisks?: EmrClusterMultiZoneSettingResourceSpecCoreResourceSpecMultiDisks[] | cdktf.IResolvable;
 }
@@ -1322,7 +1322,7 @@ export interface EmrClusterMultiZoneSettingResourceSpecMasterResourceSpecMultiDi
   /**
   * Number of cloud disks of this type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#count EmrCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#count EmrCluster#count}
   */
   readonly count?: number;
   /**
@@ -1331,13 +1331,13 @@ export interface EmrClusterMultiZoneSettingResourceSpecMasterResourceSpecMultiDi
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_HSSD: Represents enhanced SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Cloud disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#volume EmrCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#volume EmrCluster#volume}
   */
   readonly volume?: number;
 }
@@ -1513,13 +1513,13 @@ export interface EmrClusterMultiZoneSettingResourceSpecMasterResourceSpec {
   /**
   * Number of CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cpu EmrCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cpu EmrCluster#cpu}
   */
   readonly cpu?: number;
   /**
   * Data disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
@@ -1528,25 +1528,25 @@ export interface EmrClusterMultiZoneSettingResourceSpecMasterResourceSpec {
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_BASIC: Represents Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Memory size in M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
   */
   readonly memSize?: number;
   /**
   * Root disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#root_size EmrCluster#root_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#root_size EmrCluster#root_size}
   */
   readonly rootSize?: number;
   /**
   * Node specification description, such as CVM.SA2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#spec EmrCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#spec EmrCluster#spec}
   */
   readonly spec?: string;
   /**
@@ -1557,13 +1557,13 @@ export interface EmrClusterMultiZoneSettingResourceSpecMasterResourceSpec {
   * 	- 11: Represents throughput Cloud Block Storage;
   * 	- 12: Represents extremely fast SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
   */
   readonly storageType?: number;
   /**
   * multi_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
   */
   readonly multiDisks?: EmrClusterMultiZoneSettingResourceSpecMasterResourceSpecMultiDisks[] | cdktf.IResolvable;
 }
@@ -1852,7 +1852,7 @@ export interface EmrClusterMultiZoneSettingResourceSpecTaskResourceSpecMultiDisk
   /**
   * Number of cloud disks of this type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#count EmrCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#count EmrCluster#count}
   */
   readonly count?: number;
   /**
@@ -1861,13 +1861,13 @@ export interface EmrClusterMultiZoneSettingResourceSpecTaskResourceSpecMultiDisk
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_HSSD: Represents enhanced SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Cloud disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#volume EmrCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#volume EmrCluster#volume}
   */
   readonly volume?: number;
 }
@@ -2043,13 +2043,13 @@ export interface EmrClusterMultiZoneSettingResourceSpecTaskResourceSpec {
   /**
   * Number of CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cpu EmrCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cpu EmrCluster#cpu}
   */
   readonly cpu?: number;
   /**
   * Data disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
@@ -2058,25 +2058,25 @@ export interface EmrClusterMultiZoneSettingResourceSpecTaskResourceSpec {
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_BASIC: Represents Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Memory size in M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
   */
   readonly memSize?: number;
   /**
   * Root disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#root_size EmrCluster#root_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#root_size EmrCluster#root_size}
   */
   readonly rootSize?: number;
   /**
   * Node specification description, such as CVM.SA2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#spec EmrCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#spec EmrCluster#spec}
   */
   readonly spec?: string;
   /**
@@ -2087,13 +2087,13 @@ export interface EmrClusterMultiZoneSettingResourceSpecTaskResourceSpec {
   * 	- 11: Represents throughput Cloud Block Storage;
   * 	- 12: Represents extremely fast SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
   */
   readonly storageType?: number;
   /**
   * multi_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
   */
   readonly multiDisks?: EmrClusterMultiZoneSettingResourceSpecTaskResourceSpecMultiDisks[] | cdktf.IResolvable;
 }
@@ -2382,49 +2382,49 @@ export interface EmrClusterMultiZoneSettingResourceSpec {
   /**
   * The number of common node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#common_count EmrCluster#common_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#common_count EmrCluster#common_count}
   */
   readonly commonCount?: number;
   /**
   * The number of core node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#core_count EmrCluster#core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#core_count EmrCluster#core_count}
   */
   readonly coreCount?: number;
   /**
   * The number of master node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#master_count EmrCluster#master_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#master_count EmrCluster#master_count}
   */
   readonly masterCount?: number;
   /**
   * The number of core node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#task_count EmrCluster#task_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#task_count EmrCluster#task_count}
   */
   readonly taskCount?: number;
   /**
   * common_resource_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#common_resource_spec EmrCluster#common_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#common_resource_spec EmrCluster#common_resource_spec}
   */
   readonly commonResourceSpec?: EmrClusterMultiZoneSettingResourceSpecCommonResourceSpec;
   /**
   * core_resource_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#core_resource_spec EmrCluster#core_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#core_resource_spec EmrCluster#core_resource_spec}
   */
   readonly coreResourceSpec?: EmrClusterMultiZoneSettingResourceSpecCoreResourceSpec;
   /**
   * master_resource_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#master_resource_spec EmrCluster#master_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#master_resource_spec EmrCluster#master_resource_spec}
   */
   readonly masterResourceSpec?: EmrClusterMultiZoneSettingResourceSpecMasterResourceSpec;
   /**
   * task_resource_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#task_resource_spec EmrCluster#task_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#task_resource_spec EmrCluster#task_resource_spec}
   */
   readonly taskResourceSpec?: EmrClusterMultiZoneSettingResourceSpecTaskResourceSpec;
 }
@@ -2713,19 +2713,19 @@ export interface EmrClusterMultiZoneSetting {
   /**
   * The private net config of EMR instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#vpc_settings EmrCluster#vpc_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#vpc_settings EmrCluster#vpc_settings}
   */
   readonly vpcSettings: { [key: string]: string };
   /**
   * placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#placement EmrCluster#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#placement EmrCluster#placement}
   */
   readonly placement?: EmrClusterMultiZoneSettingPlacement;
   /**
   * resource_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#resource_spec EmrCluster#resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#resource_spec EmrCluster#resource_spec}
   */
   readonly resourceSpec?: EmrClusterMultiZoneSettingResourceSpec;
 }
@@ -2898,13 +2898,13 @@ export interface EmrClusterPlacementInfo {
   /**
   * Project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#project_id EmrCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#project_id EmrCluster#project_id}
   */
   readonly projectId?: number;
   /**
   * Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#zone EmrCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#zone EmrCluster#zone}
   */
   readonly zone: string;
 }
@@ -3016,49 +3016,49 @@ export interface EmrClusterPreExecutedFileSettings {
   /**
   * Execution script parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#args EmrCluster#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#args EmrCluster#args}
   */
   readonly args?: string[];
   /**
   * Script file name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cos_file_name EmrCluster#cos_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cos_file_name EmrCluster#cos_file_name}
   */
   readonly cosFileName?: string;
   /**
   * The cos address of the script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cos_file_uri EmrCluster#cos_file_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cos_file_uri EmrCluster#cos_file_uri}
   */
   readonly cosFileUri?: string;
   /**
   * Cos secretId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cos_secret_id EmrCluster#cos_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cos_secret_id EmrCluster#cos_secret_id}
   */
   readonly cosSecretId?: string;
   /**
   * Cos secretKey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cos_secret_key EmrCluster#cos_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cos_secret_key EmrCluster#cos_secret_key}
   */
   readonly cosSecretKey?: string;
   /**
   * Remark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#remark EmrCluster#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#remark EmrCluster#remark}
   */
   readonly remark?: string;
   /**
   * Run order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#run_order EmrCluster#run_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#run_order EmrCluster#run_order}
   */
   readonly runOrder?: number;
   /**
   * `resourceAfter` or `clusterAfter`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#when_run EmrCluster#when_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#when_run EmrCluster#when_run}
   */
   readonly whenRun?: string;
 }
@@ -3379,7 +3379,7 @@ export interface EmrClusterResourceSpecCommonResourceSpecMultiDisks {
   /**
   * Number of cloud disks of this type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#count EmrCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#count EmrCluster#count}
   */
   readonly count?: number;
   /**
@@ -3388,13 +3388,13 @@ export interface EmrClusterResourceSpecCommonResourceSpecMultiDisks {
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_HSSD: Represents enhanced SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Cloud disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#volume EmrCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#volume EmrCluster#volume}
   */
   readonly volume?: number;
 }
@@ -3570,13 +3570,13 @@ export interface EmrClusterResourceSpecCommonResourceSpec {
   /**
   * Number of CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cpu EmrCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cpu EmrCluster#cpu}
   */
   readonly cpu?: number;
   /**
   * Data disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
@@ -3585,25 +3585,25 @@ export interface EmrClusterResourceSpecCommonResourceSpec {
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_BASIC: Represents Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Memory size in M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
   */
   readonly memSize?: number;
   /**
   * Root disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#root_size EmrCluster#root_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#root_size EmrCluster#root_size}
   */
   readonly rootSize?: number;
   /**
   * Node specification description, such as CVM.SA2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#spec EmrCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#spec EmrCluster#spec}
   */
   readonly spec?: string;
   /**
@@ -3614,13 +3614,13 @@ export interface EmrClusterResourceSpecCommonResourceSpec {
   * 	- 11: Represents throughput Cloud Block Storage;
   * 	- 12: Represents extremely fast SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
   */
   readonly storageType?: number;
   /**
   * multi_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
   */
   readonly multiDisks?: EmrClusterResourceSpecCommonResourceSpecMultiDisks[] | cdktf.IResolvable;
 }
@@ -3909,7 +3909,7 @@ export interface EmrClusterResourceSpecCoreResourceSpecMultiDisks {
   /**
   * Number of cloud disks of this type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#count EmrCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#count EmrCluster#count}
   */
   readonly count?: number;
   /**
@@ -3918,13 +3918,13 @@ export interface EmrClusterResourceSpecCoreResourceSpecMultiDisks {
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_HSSD: Represents enhanced SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Cloud disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#volume EmrCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#volume EmrCluster#volume}
   */
   readonly volume?: number;
 }
@@ -4100,13 +4100,13 @@ export interface EmrClusterResourceSpecCoreResourceSpec {
   /**
   * Number of CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cpu EmrCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cpu EmrCluster#cpu}
   */
   readonly cpu?: number;
   /**
   * Data disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
@@ -4115,25 +4115,25 @@ export interface EmrClusterResourceSpecCoreResourceSpec {
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_BASIC: Represents Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Memory size in M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
   */
   readonly memSize?: number;
   /**
   * Root disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#root_size EmrCluster#root_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#root_size EmrCluster#root_size}
   */
   readonly rootSize?: number;
   /**
   * Node specification description, such as CVM.SA2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#spec EmrCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#spec EmrCluster#spec}
   */
   readonly spec?: string;
   /**
@@ -4144,13 +4144,13 @@ export interface EmrClusterResourceSpecCoreResourceSpec {
   * 	- 11: Represents throughput Cloud Block Storage;
   * 	- 12: Represents extremely fast SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
   */
   readonly storageType?: number;
   /**
   * multi_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
   */
   readonly multiDisks?: EmrClusterResourceSpecCoreResourceSpecMultiDisks[] | cdktf.IResolvable;
 }
@@ -4439,7 +4439,7 @@ export interface EmrClusterResourceSpecMasterResourceSpecMultiDisks {
   /**
   * Number of cloud disks of this type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#count EmrCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#count EmrCluster#count}
   */
   readonly count?: number;
   /**
@@ -4448,13 +4448,13 @@ export interface EmrClusterResourceSpecMasterResourceSpecMultiDisks {
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_HSSD: Represents enhanced SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Cloud disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#volume EmrCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#volume EmrCluster#volume}
   */
   readonly volume?: number;
 }
@@ -4630,13 +4630,13 @@ export interface EmrClusterResourceSpecMasterResourceSpec {
   /**
   * Number of CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cpu EmrCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cpu EmrCluster#cpu}
   */
   readonly cpu?: number;
   /**
   * Data disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
@@ -4645,25 +4645,25 @@ export interface EmrClusterResourceSpecMasterResourceSpec {
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_BASIC: Represents Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Memory size in M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
   */
   readonly memSize?: number;
   /**
   * Root disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#root_size EmrCluster#root_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#root_size EmrCluster#root_size}
   */
   readonly rootSize?: number;
   /**
   * Node specification description, such as CVM.SA2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#spec EmrCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#spec EmrCluster#spec}
   */
   readonly spec?: string;
   /**
@@ -4674,13 +4674,13 @@ export interface EmrClusterResourceSpecMasterResourceSpec {
   * 	- 11: Represents throughput Cloud Block Storage;
   * 	- 12: Represents extremely fast SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
   */
   readonly storageType?: number;
   /**
   * multi_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
   */
   readonly multiDisks?: EmrClusterResourceSpecMasterResourceSpecMultiDisks[] | cdktf.IResolvable;
 }
@@ -4969,7 +4969,7 @@ export interface EmrClusterResourceSpecTaskResourceSpecMultiDisks {
   /**
   * Number of cloud disks of this type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#count EmrCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#count EmrCluster#count}
   */
   readonly count?: number;
   /**
@@ -4978,13 +4978,13 @@ export interface EmrClusterResourceSpecTaskResourceSpecMultiDisks {
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_HSSD: Represents enhanced SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Cloud disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#volume EmrCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#volume EmrCluster#volume}
   */
   readonly volume?: number;
 }
@@ -5160,13 +5160,13 @@ export interface EmrClusterResourceSpecTaskResourceSpec {
   /**
   * Number of CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cpu EmrCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cpu EmrCluster#cpu}
   */
   readonly cpu?: number;
   /**
   * Data disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_size EmrCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
@@ -5175,25 +5175,25 @@ export interface EmrClusterResourceSpecTaskResourceSpec {
   * 	- CLOUD_PREMIUM: Represents efficient cloud disk;
   * 	- CLOUD_BASIC: Represents Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Memory size in M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#mem_size EmrCluster#mem_size}
   */
   readonly memSize?: number;
   /**
   * Root disk capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#root_size EmrCluster#root_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#root_size EmrCluster#root_size}
   */
   readonly rootSize?: number;
   /**
   * Node specification description, such as CVM.SA2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#spec EmrCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#spec EmrCluster#spec}
   */
   readonly spec?: string;
   /**
@@ -5204,13 +5204,13 @@ export interface EmrClusterResourceSpecTaskResourceSpec {
   * 	- 11: Represents throughput Cloud Block Storage;
   * 	- 12: Represents extremely fast SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#storage_type EmrCluster#storage_type}
   */
   readonly storageType?: number;
   /**
   * multi_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#multi_disks EmrCluster#multi_disks}
   */
   readonly multiDisks?: EmrClusterResourceSpecTaskResourceSpecMultiDisks[] | cdktf.IResolvable;
 }
@@ -5499,49 +5499,49 @@ export interface EmrClusterResourceSpec {
   /**
   * The number of common node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#common_count EmrCluster#common_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#common_count EmrCluster#common_count}
   */
   readonly commonCount?: number;
   /**
   * The number of core node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#core_count EmrCluster#core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#core_count EmrCluster#core_count}
   */
   readonly coreCount?: number;
   /**
   * The number of master node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#master_count EmrCluster#master_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#master_count EmrCluster#master_count}
   */
   readonly masterCount?: number;
   /**
   * The number of core node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#task_count EmrCluster#task_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#task_count EmrCluster#task_count}
   */
   readonly taskCount?: number;
   /**
   * common_resource_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#common_resource_spec EmrCluster#common_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#common_resource_spec EmrCluster#common_resource_spec}
   */
   readonly commonResourceSpec?: EmrClusterResourceSpecCommonResourceSpec;
   /**
   * core_resource_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#core_resource_spec EmrCluster#core_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#core_resource_spec EmrCluster#core_resource_spec}
   */
   readonly coreResourceSpec?: EmrClusterResourceSpecCoreResourceSpec;
   /**
   * master_resource_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#master_resource_spec EmrCluster#master_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#master_resource_spec EmrCluster#master_resource_spec}
   */
   readonly masterResourceSpec?: EmrClusterResourceSpecMasterResourceSpec;
   /**
   * task_resource_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#task_resource_spec EmrCluster#task_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#task_resource_spec EmrCluster#task_resource_spec}
   */
   readonly taskResourceSpec?: EmrClusterResourceSpecTaskResourceSpec;
 }
@@ -5830,13 +5830,13 @@ export interface EmrClusterTerminateNodeInfo {
   /**
   * Destroy resource list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#cvm_instance_ids EmrCluster#cvm_instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#cvm_instance_ids EmrCluster#cvm_instance_ids}
   */
   readonly cvmInstanceIds?: string[];
   /**
   * Value range of destruction node type: `MASTER`, `TASK`, `CORE`, `ROUTER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#node_flag EmrCluster#node_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#node_flag EmrCluster#node_flag}
   */
   readonly nodeFlag?: string;
 }
@@ -5981,7 +5981,7 @@ export class EmrClusterTerminateNodeInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster tencentcloud_emr_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster tencentcloud_emr_cluster}
 */
 export class EmrCluster extends cdktf.TerraformResource {
 
@@ -5997,7 +5997,7 @@ export class EmrCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EmrCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrCluster to import
-  * @param importFromId The id of the existing EmrCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6009,7 +6009,7 @@ export class EmrCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/emr_cluster tencentcloud_emr_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/emr_cluster tencentcloud_emr_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6020,8 +6020,8 @@ export class EmrCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_emr_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

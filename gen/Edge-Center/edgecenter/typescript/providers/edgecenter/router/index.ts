@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RouterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#id Router#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#id Router#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface RouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The timestamp of the last update (use with update context).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#last_updated Router#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#last_updated Router#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * The name of the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#name Router#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#name Router#name}
   */
   readonly name: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#project_id Router#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#project_id Router#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#project_name Router#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#project_name Router#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#region_id Router#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#region_id Router#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#region_name Router#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#region_name Router#region_name}
   */
   readonly regionName?: string;
   /**
   * external_gateway_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#external_gateway_info Router#external_gateway_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#external_gateway_info Router#external_gateway_info}
   */
   readonly externalGatewayInfo?: RouterExternalGatewayInfo;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#interfaces Router#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#interfaces Router#interfaces}
   */
   readonly interfaces?: RouterInterfaces[] | cdktf.IResolvable;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#routes Router#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#routes Router#routes}
   */
   readonly routes?: RouterRoutes[] | cdktf.IResolvable;
 }
@@ -153,13 +153,13 @@ export interface RouterExternalGatewayInfo {
   /**
   * Id of the external network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#network_id Router#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#network_id Router#network_id}
   */
   readonly networkId?: string;
   /**
   * Must be 'manual' or 'default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#type Router#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#type Router#type}
   */
   readonly type?: string;
 }
@@ -285,13 +285,13 @@ export interface RouterInterfaces {
   /**
   * Subnet for router interface must have a gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#subnet_id Router#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#subnet_id Router#subnet_id}
   */
   readonly subnetId: string;
   /**
   * must be 'subnet'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#type Router#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#type Router#type}
   */
   readonly type: string;
 }
@@ -450,13 +450,13 @@ export class RouterInterfacesList extends cdktf.ComplexList {
 }
 export interface RouterRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#destination Router#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#destination Router#destination}
   */
   readonly destination: string;
   /**
   * IPv4 address to forward traffic to if it's destination IP matches 'destination' CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#nexthop Router#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#nexthop Router#nexthop}
   */
   readonly nexthop: string;
 }
@@ -595,7 +595,7 @@ export class RouterRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router edgecenter_router}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router edgecenter_router}
 */
 export class Router extends cdktf.TerraformResource {
 
@@ -611,7 +611,7 @@ export class Router extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Router resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Router to import
-  * @param importFromId The id of the existing Router that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Router that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Router to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -623,7 +623,7 @@ export class Router extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/router edgecenter_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/router edgecenter_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -634,8 +634,8 @@ export class Router extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_router',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

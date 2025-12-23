@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/availability_zone
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/availability_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEdgecenterAvailabilityZoneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/availability_zone#id DataEdgecenterAvailabilityZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/availability_zone#id DataEdgecenterAvailabilityZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataEdgecenterAvailabilityZoneConfig extends cdktf.TerraformMet
   /**
   * The ID of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/availability_zone#region_id DataEdgecenterAvailabilityZone#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/availability_zone#region_id DataEdgecenterAvailabilityZone#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/availability_zone#region_name DataEdgecenterAvailabilityZone#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/availability_zone#region_name DataEdgecenterAvailabilityZone#region_name}
   */
   readonly regionName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/availability_zone edgecenter_availability_zone}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/availability_zone edgecenter_availability_zone}
 */
 export class DataEdgecenterAvailabilityZone extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataEdgecenterAvailabilityZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEdgecenterAvailabilityZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterAvailabilityZone to import
-  * @param importFromId The id of the existing DataEdgecenterAvailabilityZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/availability_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterAvailabilityZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/availability_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterAvailabilityZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataEdgecenterAvailabilityZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/availability_zone edgecenter_availability_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/availability_zone edgecenter_availability_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataEdgecenterAvailabilityZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_availability_zone',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

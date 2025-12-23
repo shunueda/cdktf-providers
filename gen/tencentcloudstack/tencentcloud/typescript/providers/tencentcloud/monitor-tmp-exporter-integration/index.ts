@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_tmp_exporter_integration
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_tmp_exporter_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MonitorTmpExporterIntegrationConfig extends cdktf.TerraformMeta
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_tmp_exporter_integration#cluster_id MonitorTmpExporterIntegration#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_tmp_exporter_integration#cluster_id MonitorTmpExporterIntegration#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Integration config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_tmp_exporter_integration#content MonitorTmpExporterIntegration#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_tmp_exporter_integration#content MonitorTmpExporterIntegration#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_tmp_exporter_integration#id MonitorTmpExporterIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_tmp_exporter_integration#id MonitorTmpExporterIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface MonitorTmpExporterIntegrationConfig extends cdktf.TerraformMeta
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_tmp_exporter_integration#instance_id MonitorTmpExporterIntegration#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_tmp_exporter_integration#instance_id MonitorTmpExporterIntegration#instance_id}
   */
   readonly instanceId: string;
   /**
   * Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_tmp_exporter_integration#kind MonitorTmpExporterIntegration#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_tmp_exporter_integration#kind MonitorTmpExporterIntegration#kind}
   */
   readonly kind: string;
   /**
   * Integration config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_tmp_exporter_integration#kube_type MonitorTmpExporterIntegration#kube_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_tmp_exporter_integration#kube_type MonitorTmpExporterIntegration#kube_type}
   */
   readonly kubeType: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_tmp_exporter_integration tencentcloud_monitor_tmp_exporter_integration}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_tmp_exporter_integration tencentcloud_monitor_tmp_exporter_integration}
 */
 export class MonitorTmpExporterIntegration extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class MonitorTmpExporterIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorTmpExporterIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorTmpExporterIntegration to import
-  * @param importFromId The id of the existing MonitorTmpExporterIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_tmp_exporter_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorTmpExporterIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_tmp_exporter_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorTmpExporterIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class MonitorTmpExporterIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_tmp_exporter_integration tencentcloud_monitor_tmp_exporter_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_tmp_exporter_integration tencentcloud_monitor_tmp_exporter_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class MonitorTmpExporterIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_tmp_exporter_integration',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

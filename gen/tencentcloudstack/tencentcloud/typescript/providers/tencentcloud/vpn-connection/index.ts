@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface VpnConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the customer gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#customer_gateway_id VpnConnection#customer_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#customer_gateway_id VpnConnection#customer_gateway_id}
   */
   readonly customerGatewayId: string;
   /**
   * The action after DPD timeout. Valid values: clear (disconnect) and restart (try again). It is valid when DpdEnable is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#dpd_action VpnConnection#dpd_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#dpd_action VpnConnection#dpd_action}
   */
   readonly dpdAction?: string;
   /**
   * Specifies whether to enable DPD. Valid values: 0 (disable) and 1 (enable).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#dpd_enable VpnConnection#dpd_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#dpd_enable VpnConnection#dpd_enable}
   */
   readonly dpdEnable?: number;
   /**
   * DPD timeout period.Valid value ranges: [30~60], Default: 30; unit: second. If the request is not responded within this period, the peer end is considered not exists. This parameter is valid when the value of DpdEnable is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#dpd_timeout VpnConnection#dpd_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#dpd_timeout VpnConnection#dpd_timeout}
   */
   readonly dpdTimeout?: number;
   /**
   * Whether intra-tunnel health checks are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#enable_health_check VpnConnection#enable_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#enable_health_check VpnConnection#enable_health_check}
   */
   readonly enableHealthCheck?: boolean | cdktf.IResolvable;
   /**
   * Health check the address of this terminal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#health_check_local_ip VpnConnection#health_check_local_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#health_check_local_ip VpnConnection#health_check_local_ip}
   */
   readonly healthCheckLocalIp?: string;
   /**
   * Health check peer address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#health_check_remote_ip VpnConnection#health_check_remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#health_check_remote_ip VpnConnection#health_check_remote_ip}
   */
   readonly healthCheckRemoteIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#id VpnConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#id VpnConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,163 +59,163 @@ export interface VpnConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * DH group name of the IKE operation specification. Valid values: `GROUP1`, `GROUP2`, `GROUP5`, `GROUP14`, `GROUP24`. Default value is `GROUP1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ike_dh_group_name VpnConnection#ike_dh_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ike_dh_group_name VpnConnection#ike_dh_group_name}
   */
   readonly ikeDhGroupName?: string;
   /**
   * Exchange mode of the IKE operation specification. Valid values: `AGGRESSIVE`, `MAIN`. Default value is `MAIN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ike_exchange_mode VpnConnection#ike_exchange_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ike_exchange_mode VpnConnection#ike_exchange_mode}
   */
   readonly ikeExchangeMode?: string;
   /**
   * Local address of IKE operation specification, valid when ike_local_identity is `ADDRESS`, generally the value is `public_ip_address` of the related VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ike_local_address VpnConnection#ike_local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ike_local_address VpnConnection#ike_local_address}
   */
   readonly ikeLocalAddress?: string;
   /**
   * Local FQDN name of the IKE operation specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ike_local_fqdn_name VpnConnection#ike_local_fqdn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ike_local_fqdn_name VpnConnection#ike_local_fqdn_name}
   */
   readonly ikeLocalFqdnName?: string;
   /**
   * Local identity way of IKE operation specification. Valid values: `ADDRESS`, `FQDN`. Default value is `ADDRESS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ike_local_identity VpnConnection#ike_local_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ike_local_identity VpnConnection#ike_local_identity}
   */
   readonly ikeLocalIdentity?: string;
   /**
   * Proto authenticate algorithm of the IKE operation specification. Valid values: `MD5`, `SHA`, `SHA-256`. Default Value is `MD5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ike_proto_authen_algorithm VpnConnection#ike_proto_authen_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ike_proto_authen_algorithm VpnConnection#ike_proto_authen_algorithm}
   */
   readonly ikeProtoAuthenAlgorithm?: string;
   /**
   * Proto encrypt algorithm of the IKE operation specification. Valid values: `3DES-CBC`, `AES-CBC-128`, `AES-CBC-192`, `AES-CBC-256`, `DES-CBC`, `SM4`, `AES128GCM128`, `AES192GCM128`, `AES256GCM128`,`AES128GCM128`, `AES192GCM128`, `AES256GCM128`. Default value is `3DES-CBC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ike_proto_encry_algorithm VpnConnection#ike_proto_encry_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ike_proto_encry_algorithm VpnConnection#ike_proto_encry_algorithm}
   */
   readonly ikeProtoEncryAlgorithm?: string;
   /**
   * Remote address of IKE operation specification, valid when ike_remote_identity is `ADDRESS`, generally the value is `public_ip_address` of the related customer gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ike_remote_address VpnConnection#ike_remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ike_remote_address VpnConnection#ike_remote_address}
   */
   readonly ikeRemoteAddress?: string;
   /**
   * Remote FQDN name of the IKE operation specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ike_remote_fqdn_name VpnConnection#ike_remote_fqdn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ike_remote_fqdn_name VpnConnection#ike_remote_fqdn_name}
   */
   readonly ikeRemoteFqdnName?: string;
   /**
   * Remote identity way of IKE operation specification. Valid values: `ADDRESS`, `FQDN`. Default value is `ADDRESS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ike_remote_identity VpnConnection#ike_remote_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ike_remote_identity VpnConnection#ike_remote_identity}
   */
   readonly ikeRemoteIdentity?: string;
   /**
   * SA lifetime of the IKE operation specification, unit is `second`. The value ranges from 60 to 604800. Default value is 86400 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ike_sa_lifetime_seconds VpnConnection#ike_sa_lifetime_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ike_sa_lifetime_seconds VpnConnection#ike_sa_lifetime_seconds}
   */
   readonly ikeSaLifetimeSeconds?: number;
   /**
   * Version of the IKE operation specification, values: `IKEV1`, `IKEV2`. Default value is `IKEV1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ike_version VpnConnection#ike_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ike_version VpnConnection#ike_version}
   */
   readonly ikeVersion?: string;
   /**
   * Encrypt algorithm of the IPSEC operation specification. Valid values: `3DES-CBC`, `AES-CBC-128`, `AES-CBC-192`, `AES-CBC-256`, `DES-CBC`, `SM4`, `NULL`, `AES128GCM128`, `AES192GCM128`, `AES256GCM128`. Default value is `3DES-CBC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ipsec_encrypt_algorithm VpnConnection#ipsec_encrypt_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ipsec_encrypt_algorithm VpnConnection#ipsec_encrypt_algorithm}
   */
   readonly ipsecEncryptAlgorithm?: string;
   /**
   * Integrity algorithm of the IPSEC operation specification. Valid values: `SHA1`, `MD5`, `SHA-256`. Default value is `MD5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ipsec_integrity_algorithm VpnConnection#ipsec_integrity_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ipsec_integrity_algorithm VpnConnection#ipsec_integrity_algorithm}
   */
   readonly ipsecIntegrityAlgorithm?: string;
   /**
   * PFS DH group. Valid value: `DH-GROUP1`, `DH-GROUP2`, `DH-GROUP5`, `DH-GROUP14`, `DH-GROUP24`, `NULL`. Default value is `NULL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ipsec_pfs_dh_group VpnConnection#ipsec_pfs_dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ipsec_pfs_dh_group VpnConnection#ipsec_pfs_dh_group}
   */
   readonly ipsecPfsDhGroup?: string;
   /**
   * SA lifetime of the IPSEC operation specification, unit is second. Valid value ranges: [180~604800]. Default value is 3600 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ipsec_sa_lifetime_seconds VpnConnection#ipsec_sa_lifetime_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ipsec_sa_lifetime_seconds VpnConnection#ipsec_sa_lifetime_seconds}
   */
   readonly ipsecSaLifetimeSeconds?: number;
   /**
   * SA lifetime of the IPSEC operation specification, unit is KB. The value should not be less then 2560. Default value is 1843200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#ipsec_sa_lifetime_traffic VpnConnection#ipsec_sa_lifetime_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#ipsec_sa_lifetime_traffic VpnConnection#ipsec_sa_lifetime_traffic}
   */
   readonly ipsecSaLifetimeTraffic?: number;
   /**
   * Name of the VPN connection. The length of character is limited to 1-60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#name VpnConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#name VpnConnection#name}
   */
   readonly name: string;
   /**
   * The default negotiation type is `active`. Optional values: `active` (active negotiation), `passive` (passive negotiation), `flowTrigger` (traffic negotiation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#negotiation_type VpnConnection#negotiation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#negotiation_type VpnConnection#negotiation_type}
   */
   readonly negotiationType?: string;
   /**
   * Pre-shared key of the VPN connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#pre_share_key VpnConnection#pre_share_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#pre_share_key VpnConnection#pre_share_key}
   */
   readonly preShareKey: string;
   /**
   * Route type of the VPN connection. Valid value: `STATIC`, `StaticRoute`, `Policy`, `Bgp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#route_type VpnConnection#route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#route_type VpnConnection#route_type}
   */
   readonly routeType?: string;
   /**
   * A list of tags used to associate different resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#tags VpnConnection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#tags VpnConnection#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * ID of the VPC. Required if vpn gateway is not in `CCN` type, and doesn't make sense for `CCN` vpn gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#vpc_id VpnConnection#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#vpc_id VpnConnection#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * ID of the VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#vpn_gateway_id VpnConnection#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#vpn_gateway_id VpnConnection#vpn_gateway_id}
   */
   readonly vpnGatewayId: string;
   /**
   * bgp_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#bgp_config VpnConnection#bgp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#bgp_config VpnConnection#bgp_config}
   */
   readonly bgpConfig?: VpnConnectionBgpConfig;
   /**
   * health_check_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#health_check_config VpnConnection#health_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#health_check_config VpnConnection#health_check_config}
   */
   readonly healthCheckConfig?: VpnConnectionHealthCheckConfig;
   /**
   * security_group_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#security_group_policy VpnConnection#security_group_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#security_group_policy VpnConnection#security_group_policy}
   */
   readonly securityGroupPolicy?: VpnConnectionSecurityGroupPolicy[] | cdktf.IResolvable;
 }
@@ -223,19 +223,19 @@ export interface VpnConnectionBgpConfig {
   /**
   * Cloud BGP address. It must be allocated from within the BGP tunnel network segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#local_bgp_ip VpnConnection#local_bgp_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#local_bgp_ip VpnConnection#local_bgp_ip}
   */
   readonly localBgpIp: string;
   /**
   * User side BGP address. It must be allocated from within the BGP tunnel network segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#remote_bgp_ip VpnConnection#remote_bgp_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#remote_bgp_ip VpnConnection#remote_bgp_ip}
   */
   readonly remoteBgpIp: string;
   /**
   * BGP tunnel segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#tunnel_cidr VpnConnection#tunnel_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#tunnel_cidr VpnConnection#tunnel_cidr}
   */
   readonly tunnelCidr: string;
 }
@@ -370,25 +370,25 @@ export interface VpnConnectionHealthCheckConfig {
   /**
   * Detection interval, Tencent Cloud's interval between two health checks, range [1000-5000], Unit: ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#probe_interval VpnConnection#probe_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#probe_interval VpnConnection#probe_interval}
   */
   readonly probeInterval?: number;
   /**
   * Detection times, perform route switching after N consecutive health check failures, range [3-8], Unit: times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#probe_threshold VpnConnection#probe_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#probe_threshold VpnConnection#probe_threshold}
   */
   readonly probeThreshold?: number;
   /**
   * Detection timeout, range [10-5000], Unit: ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#probe_timeout VpnConnection#probe_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#probe_timeout VpnConnection#probe_timeout}
   */
   readonly probeTimeout?: number;
   /**
   * Detection mode, default is `NQA`, cannot be modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#probe_type VpnConnection#probe_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#probe_type VpnConnection#probe_type}
   */
   readonly probeType?: string;
 }
@@ -561,13 +561,13 @@ export interface VpnConnectionSecurityGroupPolicy {
   /**
   * Local cidr block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#local_cidr_block VpnConnection#local_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#local_cidr_block VpnConnection#local_cidr_block}
   */
   readonly localCidrBlock: string;
   /**
   * Remote cidr block list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#remote_cidr_block VpnConnection#remote_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#remote_cidr_block VpnConnection#remote_cidr_block}
   */
   readonly remoteCidrBlock: string[];
 }
@@ -706,7 +706,7 @@ export class VpnConnectionSecurityGroupPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection tencentcloud_vpn_connection}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection tencentcloud_vpn_connection}
 */
 export class VpnConnection extends cdktf.TerraformResource {
 
@@ -722,7 +722,7 @@ export class VpnConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnConnection to import
-  * @param importFromId The id of the existing VpnConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -734,7 +734,7 @@ export class VpnConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_connection tencentcloud_vpn_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpn_connection tencentcloud_vpn_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -745,8 +745,8 @@ export class VpnConnection extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpn_connection',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

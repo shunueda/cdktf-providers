@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_hosts
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_hosts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCvmChcHostsConfig extends cdktf.TerraformMetaAr
   /**
   * CHC host ID. Up to 100 instances per request is allowed. ChcIds and Filters cannot be specified at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_hosts#chc_ids DataTencentcloudCvmChcHosts#chc_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_hosts#chc_ids DataTencentcloudCvmChcHosts#chc_ids}
   */
   readonly chcIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_hosts#id DataTencentcloudCvmChcHosts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_hosts#id DataTencentcloudCvmChcHosts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudCvmChcHostsConfig extends cdktf.TerraformMetaAr
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_hosts#result_output_file DataTencentcloudCvmChcHosts#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_hosts#result_output_file DataTencentcloudCvmChcHosts#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_hosts#filters DataTencentcloudCvmChcHosts#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_hosts#filters DataTencentcloudCvmChcHosts#filters}
   */
   readonly filters?: DataTencentcloudCvmChcHostsFilters[] | cdktf.IResolvable;
 }
@@ -500,13 +500,13 @@ export interface DataTencentcloudCvmChcHostsFilters {
   /**
   * Filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_hosts#name DataTencentcloudCvmChcHosts#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_hosts#name DataTencentcloudCvmChcHosts#name}
   */
   readonly name: string;
   /**
   * Filter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_hosts#values DataTencentcloudCvmChcHosts#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_hosts#values DataTencentcloudCvmChcHosts#values}
   */
   readonly values: string[];
 }
@@ -645,7 +645,7 @@ export class DataTencentcloudCvmChcHostsFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_hosts tencentcloud_cvm_chc_hosts}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_hosts tencentcloud_cvm_chc_hosts}
 */
 export class DataTencentcloudCvmChcHosts extends cdktf.TerraformDataSource {
 
@@ -661,7 +661,7 @@ export class DataTencentcloudCvmChcHosts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCvmChcHosts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCvmChcHosts to import
-  * @param importFromId The id of the existing DataTencentcloudCvmChcHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_hosts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCvmChcHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_hosts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCvmChcHosts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -673,7 +673,7 @@ export class DataTencentcloudCvmChcHosts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_hosts tencentcloud_cvm_chc_hosts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_hosts tencentcloud_cvm_chc_hosts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -684,8 +684,8 @@ export class DataTencentcloudCvmChcHosts extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cvm_chc_hosts',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

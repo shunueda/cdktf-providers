@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VodWatermarkTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Template description. Length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#comment VodWatermarkTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#comment VodWatermarkTemplate#comment}
   */
   readonly comment?: string;
   /**
   * Origin position. Valid values: TopLeft: the origin of coordinates is in the top-left corner of the video, and the origin of the watermark is in the top-left corner of the image or text; TopRight: the origin of coordinates is in the top-right corner of the video, and the origin of the watermark is in the top-right corner of the image or text; BottomLeft: the origin of coordinates is in the bottom-left corner of the video, and the origin of the watermark is in the bottom-left corner of the image or text; BottomRight: the origin of coordinates is in the bottom-right corner of the video, and the origin of the watermark is in the bottom-right corner of the image or text.Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#coordinate_origin VodWatermarkTemplate#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#coordinate_origin VodWatermarkTemplate#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#id VodWatermarkTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#id VodWatermarkTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface VodWatermarkTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Watermarking template name. Length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#name VodWatermarkTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#name VodWatermarkTemplate#name}
   */
   readonly name?: string;
   /**
   * The VOD [application](https://intl.cloud.tencent.com/document/product/266/14574) ID. For customers who activate VOD service from December 25, 2023, if they want to access resources in a VOD application (whether it's the default application or a newly created one), they must fill in this field with the application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#sub_app_id VodWatermarkTemplate#sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#sub_app_id VodWatermarkTemplate#sub_app_id}
   */
   readonly subAppId: number;
   /**
   * Watermarking type. Valid values: image: image watermark; text: text watermark; svg: SVG watermark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#type VodWatermarkTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#type VodWatermarkTemplate#type}
   */
   readonly type: string;
   /**
   * The horizontal position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported: If the string ends in %, the `XPos` of the watermark will be the specified percentage of the video width; for example, `10%` means that `XPos` is 10% of the video width; If the string ends in px, the `XPos` of the watermark will be the specified px; for example, `100px` means that `XPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#x_pos VodWatermarkTemplate#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#x_pos VodWatermarkTemplate#x_pos}
   */
   readonly xPos?: string;
   /**
   * The vertical position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported: If the string ends in %, the `YPos` of the watermark will be the specified percentage of the video height; for example, `10%` means that `YPos` is 10% of the video height; If the string ends in px, the `YPos` of the watermark will be the specified px; for example, `100px` means that `YPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#y_pos VodWatermarkTemplate#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#y_pos VodWatermarkTemplate#y_pos}
   */
   readonly yPos?: string;
   /**
   * image_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#image_template VodWatermarkTemplate#image_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#image_template VodWatermarkTemplate#image_template}
   */
   readonly imageTemplate?: VodWatermarkTemplateImageTemplate;
   /**
   * svg_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#svg_template VodWatermarkTemplate#svg_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#svg_template VodWatermarkTemplate#svg_template}
   */
   readonly svgTemplate?: VodWatermarkTemplateSvgTemplate;
   /**
   * text_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#text_template VodWatermarkTemplate#text_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#text_template VodWatermarkTemplate#text_template}
   */
   readonly textTemplate?: VodWatermarkTemplateTextTemplate;
 }
@@ -79,31 +79,31 @@ export interface VodWatermarkTemplateImageTemplate {
   /**
   * Watermark height. % and px formats are supported: If the string ends in %, the `Height` of the watermark will be the specified percentage of the video height; for example, `10%` means that `Height` is 10% of the video height;  If the string ends in px, the `Height` of the watermark will be in px; for example, `100px` means that `Height` is 100 px. Valid values: 0 or [8,4096]. Default value: 0 px, which means that `Height` will be proportionally scaled according to the aspect ratio of the original watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#height VodWatermarkTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#height VodWatermarkTemplate#height}
   */
   readonly height?: string;
   /**
   * The [Base64](https://tools.ietf.org/html/rfc4648) encoded string of a watermark image. Only JPEG, PNG, and GIF images are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#image_content VodWatermarkTemplate#image_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#image_content VodWatermarkTemplate#image_content}
   */
   readonly imageContent: string;
   /**
   * Repeat type of an animated watermark. Valid values: once: no longer appears after watermark playback ends.  repeat_last_frame: stays on the last frame after watermark playback ends.  repeat (default): repeats the playback until the video ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#repeat_type VodWatermarkTemplate#repeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#repeat_type VodWatermarkTemplate#repeat_type}
   */
   readonly repeatType?: string;
   /**
   * Image watermark transparency: 0: completely opaque  100: completely transparent Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#transparency VodWatermarkTemplate#transparency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#transparency VodWatermarkTemplate#transparency}
   */
   readonly transparency?: number;
   /**
   * Watermark width. % and px formats are supported: If the string ends in %, the `Width` of the watermark will be the specified percentage of the video width. For example, `10%` means that `Width` is 10% of the video width;  If the string ends in px, the `Width` of the watermark will be in pixels. For example, `100px` means that `Width` is 100 pixels. Value range: [8, 4096]. Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#width VodWatermarkTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#width VodWatermarkTemplate#width}
   */
   readonly width?: string;
 }
@@ -302,13 +302,13 @@ export interface VodWatermarkTemplateSvgTemplate {
   /**
   * Watermark height, which supports six formats of px, %, W%, H%, S%, and L%: If the string ends in px, the `Height` of the watermark will be in px; for example, `100px` means that `Height` is 100 px; if `0px` is entered and `Width` is not `0px`, the watermark height will be proportionally scaled based on the source SVG image; if `0px` is entered for both `Width` and `Height`, the watermark height will be the height of the source SVG image;  If the string ends in `W%`, the `Height` of the watermark will be the specified percentage of the video width; for example, `10W%` means that `Height` is 10% of the video width;  If the string ends in `H%`, the `Height` of the watermark will be the specified percentage of the video height; for example, `10H%` means that `Height` is 10% of the video height;  If the string ends in `S%`, the `Height` of the watermark will be the specified percentage of the short side of the video; for example, `10S%` means that `Height` is 10% of the short side of the video;  If the string ends in `L%`, the `Height` of the watermark will be the specified percentage of the long side of the video; for example, `10L%` means that `Height` is 10% of the long side of the video;  If the string ends in %, the meaning is the same as `H%`. Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#height VodWatermarkTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#height VodWatermarkTemplate#height}
   */
   readonly height?: string;
   /**
   * Watermark width, which supports six formats of px, %, W%, H%, S%, and L%: If the string ends in px, the `Width` of the watermark will be in px; for example, `100px` means that `Width` is 100 px; if `0px` is entered and `Height` is not `0px`, the watermark width will be proportionally scaled based on the source SVG image; if `0px` is entered for both `Width` and `Height`, the watermark width will be the width of the source SVG image;  If the string ends in `W%`, the `Width` of the watermark will be the specified percentage of the video width; for example, `10W%` means that `Width` is 10% of the video width;  If the string ends in `H%`, the `Width` of the watermark will be the specified percentage of the video height; for example, `10H%` means that `Width` is 10% of the video height;  If the string ends in `S%`, the `Width` of the watermark will be the specified percentage of the short side of the video; for example, `10S%` means that `Width` is 10% of the short side of the video;  If the string ends in `L%`, the `Width` of the watermark will be the specified percentage of the long side of the video; for example, `10L%` means that `Width` is 10% of the long side of the video;  If the string ends in %, the meaning is the same as `W%`. Default value: 10W%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#width VodWatermarkTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#width VodWatermarkTemplate#width}
   */
   readonly width?: string;
 }
@@ -423,25 +423,25 @@ export interface VodWatermarkTemplateTextTemplate {
   /**
   * Text transparency. Value range: (0, 1] 0: completely transparent  1: completely opaque Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#font_alpha VodWatermarkTemplate#font_alpha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#font_alpha VodWatermarkTemplate#font_alpha}
   */
   readonly fontAlpha: number;
   /**
   * Font color in 0xRRGGBB format. Default value: 0xFFFFFF (white).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#font_color VodWatermarkTemplate#font_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#font_color VodWatermarkTemplate#font_color}
   */
   readonly fontColor: string;
   /**
   * Font size in Npx format where N is a numeric value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#font_size VodWatermarkTemplate#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#font_size VodWatermarkTemplate#font_size}
   */
   readonly fontSize: string;
   /**
   * Font type. Currently, two types are supported: simkai.ttf: both Chinese and English are supported;  arial.ttf: only English is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#font_type VodWatermarkTemplate#font_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#font_type VodWatermarkTemplate#font_type}
   */
   readonly fontType: string;
 }
@@ -600,7 +600,7 @@ export class VodWatermarkTemplateTextTemplateOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template tencentcloud_vod_watermark_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template tencentcloud_vod_watermark_template}
 */
 export class VodWatermarkTemplate extends cdktf.TerraformResource {
 
@@ -616,7 +616,7 @@ export class VodWatermarkTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VodWatermarkTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VodWatermarkTemplate to import
-  * @param importFromId The id of the existing VodWatermarkTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VodWatermarkTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VodWatermarkTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -628,7 +628,7 @@ export class VodWatermarkTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_watermark_template tencentcloud_vod_watermark_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_watermark_template tencentcloud_vod_watermark_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -639,8 +639,8 @@ export class VodWatermarkTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vod_watermark_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

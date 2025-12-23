@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LblistenerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The allowed CIDRs for listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#allowed_cidrs Lblistener#allowed_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#allowed_cidrs Lblistener#allowed_cidrs}
   */
   readonly allowedCidrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#id Lblistener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#id Lblistener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,107 +23,107 @@ export interface LblistenerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Insert *-forwarded headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#insert_x_forwarded Lblistener#insert_x_forwarded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#insert_x_forwarded Lblistener#insert_x_forwarded}
   */
   readonly insertXForwarded?: boolean | cdktf.IResolvable;
   /**
   * The timestamp of the last update (use with update context).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#last_updated Lblistener#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#last_updated Lblistener#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * The uuid for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#loadbalancer_id Lblistener#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#loadbalancer_id Lblistener#loadbalancer_id}
   */
   readonly loadbalancerId: string;
   /**
   * The name of the load balancer listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#name Lblistener#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#name Lblistener#name}
   */
   readonly name: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#project_id Lblistener#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#project_id Lblistener#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#project_name Lblistener#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#project_name Lblistener#project_name}
   */
   readonly projectName?: string;
   /**
   * Available values are 'TCP', 'UDP', 'HTTP', 'HTTPS' and 'TERMINATED_HTTPS'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#protocol Lblistener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#protocol Lblistener#protocol}
   */
   readonly protocol: string;
   /**
   * The port on which the protocol is bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#protocol_port Lblistener#protocol_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#protocol_port Lblistener#protocol_port}
   */
   readonly protocolPort: number;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#region_id Lblistener#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#region_id Lblistener#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#region_name Lblistener#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#region_name Lblistener#region_name}
   */
   readonly regionName?: string;
   /**
   * The identifier for the associated secret, typically used for SSL configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#secret_id Lblistener#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#secret_id Lblistener#secret_id}
   */
   readonly secretId?: string;
   /**
   * List of secret identifiers used for Server Name Indication (SNI).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#sni_secret_id Lblistener#sni_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#sni_secret_id Lblistener#sni_secret_id}
   */
   readonly sniSecretId?: string[];
   /**
   * The timeout for the frontend client inactivity (in milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#timeout_client_data Lblistener#timeout_client_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#timeout_client_data Lblistener#timeout_client_data}
   */
   readonly timeoutClientData?: number;
   /**
   * The timeout for the backend member connection (in milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#timeout_member_connect Lblistener#timeout_member_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#timeout_member_connect Lblistener#timeout_member_connect}
   */
   readonly timeoutMemberConnect?: number;
   /**
   * The timeout for the backend member inactivity (in milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#timeout_member_data Lblistener#timeout_member_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#timeout_member_data Lblistener#timeout_member_data}
   */
   readonly timeoutMemberData?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#timeouts Lblistener#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#timeouts Lblistener#timeouts}
   */
   readonly timeouts?: LblistenerTimeouts;
 }
 export interface LblistenerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#create Lblistener#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#create Lblistener#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#delete Lblistener#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#delete Lblistener#delete}
   */
   readonly delete?: string;
 }
@@ -246,7 +246,7 @@ export class LblistenerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener edgecenter_lblistener}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener edgecenter_lblistener}
 */
 export class Lblistener extends cdktf.TerraformResource {
 
@@ -262,7 +262,7 @@ export class Lblistener extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lblistener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lblistener to import
-  * @param importFromId The id of the existing Lblistener that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lblistener that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lblistener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -274,7 +274,7 @@ export class Lblistener extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lblistener edgecenter_lblistener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lblistener edgecenter_lblistener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,8 +285,8 @@ export class Lblistener extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_lblistener',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

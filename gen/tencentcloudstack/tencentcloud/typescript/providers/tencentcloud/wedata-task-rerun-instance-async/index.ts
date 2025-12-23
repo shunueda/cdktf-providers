@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WedataTaskRerunInstanceAsyncConfig extends cdktf.TerraformMetaA
   /**
   * Whether to check upstream tasks: ALL, MAKE_SCOPE (selected), NONE (do not check anything), default is NONE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#check_parent_type WedataTaskRerunInstanceAsync#check_parent_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#check_parent_type WedataTaskRerunInstanceAsync#check_parent_type}
   */
   readonly checkParentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#id WedataTaskRerunInstanceAsync#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#id WedataTaskRerunInstanceAsync#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface WedataTaskRerunInstanceAsyncConfig extends cdktf.TerraformMetaA
   /**
   * Instance id list, which can be obtained from ListInstances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#instance_key_list WedataTaskRerunInstanceAsync#instance_key_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#instance_key_list WedataTaskRerunInstanceAsync#instance_key_list}
   */
   readonly instanceKeyList: string[];
   /**
   * Project Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#project_id WedataTaskRerunInstanceAsync#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#project_id WedataTaskRerunInstanceAsync#project_id}
   */
   readonly projectId: string;
   /**
   * Customize the instance running concurrency. If not configured, the original self-dependency of the task will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#redefine_parallel_num WedataTaskRerunInstanceAsync#redefine_parallel_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#redefine_parallel_num WedataTaskRerunInstanceAsync#redefine_parallel_num}
   */
   readonly redefineParallelNum?: number;
   /**
   * Customized workflow self-dependence: yes to enable, no to disable. If not configured, the original workflow self-dependence will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#redefine_self_workflow_dependency WedataTaskRerunInstanceAsync#redefine_self_workflow_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#redefine_self_workflow_dependency WedataTaskRerunInstanceAsync#redefine_self_workflow_dependency}
   */
   readonly redefineSelfWorkflowDependency?: string;
   /**
   * Rerun type, 1: self; 3: children; 2: self and children, default 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#rerun_type WedataTaskRerunInstanceAsync#rerun_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#rerun_type WedataTaskRerunInstanceAsync#rerun_type}
   */
   readonly rerunType?: string;
   /**
   * Whether to ignore event monitoring when rerunning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#skip_event_listening WedataTaskRerunInstanceAsync#skip_event_listening}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#skip_event_listening WedataTaskRerunInstanceAsync#skip_event_listening}
   */
   readonly skipEventListening?: boolean | cdktf.IResolvable;
   /**
   * Downstream instance scope WORKFLOW: workflow PROJECT: project ALL: all cross-workflow dependent projects, default WORKFLOW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#son_range_type WedataTaskRerunInstanceAsync#son_range_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#son_range_type WedataTaskRerunInstanceAsync#son_range_type}
   */
   readonly sonRangeType?: string;
   /**
   * redefine_param_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#redefine_param_list WedataTaskRerunInstanceAsync#redefine_param_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#redefine_param_list WedataTaskRerunInstanceAsync#redefine_param_list}
   */
   readonly redefineParamList?: WedataTaskRerunInstanceAsyncRedefineParamListStruct;
 }
@@ -73,13 +73,13 @@ export interface WedataTaskRerunInstanceAsyncRedefineParamListStruct {
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#k WedataTaskRerunInstanceAsync#k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#k WedataTaskRerunInstanceAsync#k}
   */
   readonly k?: string;
   /**
   * Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#v WedataTaskRerunInstanceAsync#v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#v WedataTaskRerunInstanceAsync#v}
   */
   readonly v?: string;
 }
@@ -192,7 +192,7 @@ export class WedataTaskRerunInstanceAsyncRedefineParamListStructOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async tencentcloud_wedata_task_rerun_instance_async}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async tencentcloud_wedata_task_rerun_instance_async}
 */
 export class WedataTaskRerunInstanceAsync extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class WedataTaskRerunInstanceAsync extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataTaskRerunInstanceAsync resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataTaskRerunInstanceAsync to import
-  * @param importFromId The id of the existing WedataTaskRerunInstanceAsync that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataTaskRerunInstanceAsync that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataTaskRerunInstanceAsync to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class WedataTaskRerunInstanceAsync extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_task_rerun_instance_async tencentcloud_wedata_task_rerun_instance_async} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_rerun_instance_async tencentcloud_wedata_task_rerun_instance_async} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class WedataTaskRerunInstanceAsync extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_task_rerun_instance_async',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

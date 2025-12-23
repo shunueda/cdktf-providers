@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdn_url_push
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdn_url_push
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CdnUrlPushConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify push area. NOTE: only push same area cache contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdn_url_push#area CdnUrlPush#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdn_url_push#area CdnUrlPush#area}
   */
   readonly area?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdn_url_push#id CdnUrlPush#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdn_url_push#id CdnUrlPush#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface CdnUrlPushConfig extends cdktf.TerraformMetaArguments {
   /**
   * Layer to push.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdn_url_push#layer CdnUrlPush#layer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdn_url_push#layer CdnUrlPush#layer}
   */
   readonly layer?: string;
   /**
   * Whether to recursive parse m3u8 files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdn_url_push#parse_m3u8 CdnUrlPush#parse_m3u8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdn_url_push#parse_m3u8 CdnUrlPush#parse_m3u8}
   */
   readonly parseM3U8?: boolean | cdktf.IResolvable;
   /**
   * Change to push again. NOTE: this argument only works while resource update, if set to `0` or null will not be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdn_url_push#redo CdnUrlPush#redo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdn_url_push#redo CdnUrlPush#redo}
   */
   readonly redo?: number;
   /**
   * List of url to push. NOTE: urls need include protocol prefix `http://` or `https://`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdn_url_push#urls CdnUrlPush#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdn_url_push#urls CdnUrlPush#urls}
   */
   readonly urls: string[];
   /**
   * Specify `User-Agent` HTTP header, default: `TencentCdn`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdn_url_push#user_agent CdnUrlPush#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdn_url_push#user_agent CdnUrlPush#user_agent}
   */
   readonly userAgent?: string;
 }
@@ -158,7 +158,7 @@ export class CdnUrlPushPushHistoryList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdn_url_push tencentcloud_cdn_url_push}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdn_url_push tencentcloud_cdn_url_push}
 */
 export class CdnUrlPush extends cdktf.TerraformResource {
 
@@ -174,7 +174,7 @@ export class CdnUrlPush extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnUrlPush resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnUrlPush to import
-  * @param importFromId The id of the existing CdnUrlPush that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdn_url_push#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnUrlPush that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdn_url_push#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnUrlPush to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class CdnUrlPush extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdn_url_push tencentcloud_cdn_url_push} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdn_url_push tencentcloud_cdn_url_push} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class CdnUrlPush extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cdn_url_push',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

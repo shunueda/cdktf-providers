@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MonitorAlarmPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of trigger condition template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#conditon_template_id MonitorAlarmPolicy#conditon_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#conditon_template_id MonitorAlarmPolicy#conditon_template_id}
   */
   readonly conditonTemplateId?: number;
   /**
   * Whether to enable, default is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#enable MonitorAlarmPolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#enable MonitorAlarmPolicy#enable}
   */
   readonly enable?: number;
   /**
   * Aggregate dimension list, specify which dimension keys to use for group by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#group_by MonitorAlarmPolicy#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#group_by MonitorAlarmPolicy#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#id MonitorAlarmPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#id MonitorAlarmPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface MonitorAlarmPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The type of monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#monitor_type MonitorAlarmPolicy#monitor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#monitor_type MonitorAlarmPolicy#monitor_type}
   */
   readonly monitorType: string;
   /**
   * The type of alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#namespace MonitorAlarmPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#namespace MonitorAlarmPolicy#namespace}
   */
   readonly namespace: string;
   /**
   * List of notification rule IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#notice_ids MonitorAlarmPolicy#notice_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#notice_ids MonitorAlarmPolicy#notice_ids}
   */
   readonly noticeIds?: string[];
   /**
   * The name of policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#policy_name MonitorAlarmPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#policy_name MonitorAlarmPolicy#policy_name}
   */
   readonly policyName: string;
   /**
   * Project ID. For products with different projects, a value other than -1 must be passed in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#project_id MonitorAlarmPolicy#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#project_id MonitorAlarmPolicy#project_id}
   */
   readonly projectId?: number;
   /**
   * The remark of policy group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#remark MonitorAlarmPolicy#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#remark MonitorAlarmPolicy#remark}
   */
   readonly remark?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#conditions MonitorAlarmPolicy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#conditions MonitorAlarmPolicy#conditions}
   */
   readonly conditions?: MonitorAlarmPolicyConditions;
   /**
   * event_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#event_conditions MonitorAlarmPolicy#event_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#event_conditions MonitorAlarmPolicy#event_conditions}
   */
   readonly eventConditions?: MonitorAlarmPolicyEventConditions[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#filter MonitorAlarmPolicy#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#filter MonitorAlarmPolicy#filter}
   */
   readonly filter?: MonitorAlarmPolicyFilter;
   /**
   * policy_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#policy_tag MonitorAlarmPolicy#policy_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#policy_tag MonitorAlarmPolicy#policy_tag}
   */
   readonly policyTag?: MonitorAlarmPolicyPolicyTag[] | cdktf.IResolvable;
   /**
   * trigger_tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#trigger_tasks MonitorAlarmPolicy#trigger_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#trigger_tasks MonitorAlarmPolicy#trigger_tasks}
   */
   readonly triggerTasks?: MonitorAlarmPolicyTriggerTasks[] | cdktf.IResolvable;
 }
@@ -103,13 +103,13 @@ export interface MonitorAlarmPolicyConditionsRulesFilter {
   /**
   * JSON string generated by serializing the AlarmPolicyDimension two-dimensional array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#dimensions MonitorAlarmPolicy#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#dimensions MonitorAlarmPolicy#dimensions}
   */
   readonly dimensions?: string;
   /**
   * Filter condition type. Valid values: DIMENSION (uses dimensions for filtering).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#type MonitorAlarmPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#type MonitorAlarmPolicy#type}
   */
   readonly type?: string;
 }
@@ -224,67 +224,67 @@ export interface MonitorAlarmPolicyConditionsRules {
   /**
   * Number of periods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#continue_period MonitorAlarmPolicy#continue_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#continue_period MonitorAlarmPolicy#continue_period}
   */
   readonly continuePeriod?: number;
   /**
   * Metric display name, which is used in the output parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#description MonitorAlarmPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#description MonitorAlarmPolicy#description}
   */
   readonly description?: string;
   /**
   * Whether the alarm frequency increases exponentially.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#is_power_notice MonitorAlarmPolicy#is_power_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#is_power_notice MonitorAlarmPolicy#is_power_notice}
   */
   readonly isPowerNotice?: number;
   /**
   * Metric name or event name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#metric_name MonitorAlarmPolicy#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#metric_name MonitorAlarmPolicy#metric_name}
   */
   readonly metricName?: string;
   /**
   * Alarm interval in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#notice_frequency MonitorAlarmPolicy#notice_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#notice_frequency MonitorAlarmPolicy#notice_frequency}
   */
   readonly noticeFrequency?: number;
   /**
   * Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#operator MonitorAlarmPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#operator MonitorAlarmPolicy#operator}
   */
   readonly operator?: string;
   /**
   * Statistical period in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#period MonitorAlarmPolicy#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#period MonitorAlarmPolicy#period}
   */
   readonly period?: number;
   /**
   * Trigger condition type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#rule_type MonitorAlarmPolicy#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#rule_type MonitorAlarmPolicy#rule_type}
   */
   readonly ruleType?: string;
   /**
   * Unit, which is used in the output parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#unit MonitorAlarmPolicy#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#unit MonitorAlarmPolicy#unit}
   */
   readonly unit?: string;
   /**
   * Threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#value MonitorAlarmPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#value MonitorAlarmPolicy#value}
   */
   readonly value?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#filter MonitorAlarmPolicy#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#filter MonitorAlarmPolicy#filter}
   */
   readonly filter?: MonitorAlarmPolicyConditionsRulesFilter;
 }
@@ -692,13 +692,13 @@ export interface MonitorAlarmPolicyConditions {
   /**
   * The and or relation of indicator alarm rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#is_union_rule MonitorAlarmPolicy#is_union_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#is_union_rule MonitorAlarmPolicy#is_union_rule}
   */
   readonly isUnionRule?: number;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#rules MonitorAlarmPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#rules MonitorAlarmPolicy#rules}
   */
   readonly rules?: MonitorAlarmPolicyConditionsRules[] | cdktf.IResolvable;
 }
@@ -813,13 +813,13 @@ export interface MonitorAlarmPolicyEventConditionsFilter {
   /**
   * JSON string generated by serializing the AlarmPolicyDimension two-dimensional array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#dimensions MonitorAlarmPolicy#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#dimensions MonitorAlarmPolicy#dimensions}
   */
   readonly dimensions?: string;
   /**
   * Filter condition type. Valid values: DIMENSION (uses dimensions for filtering).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#type MonitorAlarmPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#type MonitorAlarmPolicy#type}
   */
   readonly type?: string;
 }
@@ -934,67 +934,67 @@ export interface MonitorAlarmPolicyEventConditions {
   /**
   * Number of periods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#continue_period MonitorAlarmPolicy#continue_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#continue_period MonitorAlarmPolicy#continue_period}
   */
   readonly continuePeriod?: number;
   /**
   * Metric display name, which is used in the output parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#description MonitorAlarmPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#description MonitorAlarmPolicy#description}
   */
   readonly description?: string;
   /**
   * Whether the alarm frequency increases exponentially.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#is_power_notice MonitorAlarmPolicy#is_power_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#is_power_notice MonitorAlarmPolicy#is_power_notice}
   */
   readonly isPowerNotice?: number;
   /**
   * Metric name or event name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#metric_name MonitorAlarmPolicy#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#metric_name MonitorAlarmPolicy#metric_name}
   */
   readonly metricName?: string;
   /**
   * Alarm interval in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#notice_frequency MonitorAlarmPolicy#notice_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#notice_frequency MonitorAlarmPolicy#notice_frequency}
   */
   readonly noticeFrequency?: number;
   /**
   * Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#operator MonitorAlarmPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#operator MonitorAlarmPolicy#operator}
   */
   readonly operator?: string;
   /**
   * Statistical period in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#period MonitorAlarmPolicy#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#period MonitorAlarmPolicy#period}
   */
   readonly period?: number;
   /**
   * Trigger condition type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#rule_type MonitorAlarmPolicy#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#rule_type MonitorAlarmPolicy#rule_type}
   */
   readonly ruleType?: string;
   /**
   * Unit, which is used in the output parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#unit MonitorAlarmPolicy#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#unit MonitorAlarmPolicy#unit}
   */
   readonly unit?: string;
   /**
   * Threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#value MonitorAlarmPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#value MonitorAlarmPolicy#value}
   */
   readonly value?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#filter MonitorAlarmPolicy#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#filter MonitorAlarmPolicy#filter}
   */
   readonly filter?: MonitorAlarmPolicyEventConditionsFilter;
 }
@@ -1402,13 +1402,13 @@ export interface MonitorAlarmPolicyFilter {
   /**
   * JSON string generated by serializing the AlarmPolicyDimension two-dimensional array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#dimensions MonitorAlarmPolicy#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#dimensions MonitorAlarmPolicy#dimensions}
   */
   readonly dimensions?: string;
   /**
   * Filter condition type. Valid values: DIMENSION (uses dimensions for filtering).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#type MonitorAlarmPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#type MonitorAlarmPolicy#type}
   */
   readonly type: string;
 }
@@ -1520,13 +1520,13 @@ export interface MonitorAlarmPolicyPolicyTag {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#key MonitorAlarmPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#key MonitorAlarmPolicy#key}
   */
   readonly key: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#value MonitorAlarmPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#value MonitorAlarmPolicy#value}
   */
   readonly value: string;
 }
@@ -1667,13 +1667,13 @@ export interface MonitorAlarmPolicyTriggerTasks {
   /**
   * Configuration information in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#task_config MonitorAlarmPolicy#task_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#task_config MonitorAlarmPolicy#task_config}
   */
   readonly taskConfig: string;
   /**
   * Triggered task type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#type MonitorAlarmPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#type MonitorAlarmPolicy#type}
   */
   readonly type: string;
 }
@@ -1812,7 +1812,7 @@ export class MonitorAlarmPolicyTriggerTasksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy tencentcloud_monitor_alarm_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy tencentcloud_monitor_alarm_policy}
 */
 export class MonitorAlarmPolicy extends cdktf.TerraformResource {
 
@@ -1828,7 +1828,7 @@ export class MonitorAlarmPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorAlarmPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorAlarmPolicy to import
-  * @param importFromId The id of the existing MonitorAlarmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorAlarmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorAlarmPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1840,7 +1840,7 @@ export class MonitorAlarmPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_alarm_policy tencentcloud_monitor_alarm_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_alarm_policy tencentcloud_monitor_alarm_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1851,8 +1851,8 @@ export class MonitorAlarmPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_alarm_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

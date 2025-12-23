@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_bind_device_resource
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dasb_bind_device_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DasbBindDeviceResourceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Asset ID collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_bind_device_resource#device_id_set DasbBindDeviceResource#device_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dasb_bind_device_resource#device_id_set DasbBindDeviceResource#device_id_set}
   */
   readonly deviceIdSet: number[];
   /**
   * Network Domain ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_bind_device_resource#domain_id DasbBindDeviceResource#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dasb_bind_device_resource#domain_id DasbBindDeviceResource#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_bind_device_resource#id DasbBindDeviceResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dasb_bind_device_resource#id DasbBindDeviceResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DasbBindDeviceResourceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Bastion host service ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_bind_device_resource#resource_id DasbBindDeviceResource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dasb_bind_device_resource#resource_id DasbBindDeviceResource#resource_id}
   */
   readonly resourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_bind_device_resource tencentcloud_dasb_bind_device_resource}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dasb_bind_device_resource tencentcloud_dasb_bind_device_resource}
 */
 export class DasbBindDeviceResource extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class DasbBindDeviceResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DasbBindDeviceResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DasbBindDeviceResource to import
-  * @param importFromId The id of the existing DasbBindDeviceResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_bind_device_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DasbBindDeviceResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dasb_bind_device_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DasbBindDeviceResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DasbBindDeviceResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_bind_device_resource tencentcloud_dasb_bind_device_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dasb_bind_device_resource tencentcloud_dasb_bind_device_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DasbBindDeviceResource extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dasb_bind_device_resource',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

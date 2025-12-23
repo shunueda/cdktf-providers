@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_list_column_lineage
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_list_column_lineage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudWedataListColumnLineageConfig extends cdktf.Ter
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_list_column_lineage#column_name DataTencentcloudWedataListColumnLineage#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_list_column_lineage#column_name DataTencentcloudWedataListColumnLineage#column_name}
   */
   readonly columnName: string;
   /**
   * Lineage direction INPUT|OUTPUT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_list_column_lineage#direction DataTencentcloudWedataListColumnLineage#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_list_column_lineage#direction DataTencentcloudWedataListColumnLineage#direction}
   */
   readonly direction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_list_column_lineage#id DataTencentcloudWedataListColumnLineage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_list_column_lineage#id DataTencentcloudWedataListColumnLineage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudWedataListColumnLineageConfig extends cdktf.Ter
   /**
   * Source: WEDATA|THIRD, default WEDATA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_list_column_lineage#platform DataTencentcloudWedataListColumnLineage#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_list_column_lineage#platform DataTencentcloudWedataListColumnLineage#platform}
   */
   readonly platform: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_list_column_lineage#result_output_file DataTencentcloudWedataListColumnLineage#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_list_column_lineage#result_output_file DataTencentcloudWedataListColumnLineage#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Table unique ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_list_column_lineage#table_unique_id DataTencentcloudWedataListColumnLineage#table_unique_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_list_column_lineage#table_unique_id DataTencentcloudWedataListColumnLineage#table_unique_id}
   */
   readonly tableUniqueId: string;
 }
@@ -597,7 +597,7 @@ export class DataTencentcloudWedataListColumnLineageItemsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_list_column_lineage tencentcloud_wedata_list_column_lineage}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_list_column_lineage tencentcloud_wedata_list_column_lineage}
 */
 export class DataTencentcloudWedataListColumnLineage extends cdktf.TerraformDataSource {
 
@@ -613,7 +613,7 @@ export class DataTencentcloudWedataListColumnLineage extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTencentcloudWedataListColumnLineage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataListColumnLineage to import
-  * @param importFromId The id of the existing DataTencentcloudWedataListColumnLineage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_list_column_lineage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataListColumnLineage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_list_column_lineage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataListColumnLineage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -625,7 +625,7 @@ export class DataTencentcloudWedataListColumnLineage extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_list_column_lineage tencentcloud_wedata_list_column_lineage} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_list_column_lineage tencentcloud_wedata_list_column_lineage} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -636,8 +636,8 @@ export class DataTencentcloudWedataListColumnLineage extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_wedata_list_column_lineage',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

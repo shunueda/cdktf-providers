@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SqlserverGeneralCloudRoInstanceConfig extends cdktf.TerraformMe
   /**
   * System character set collation, default: Chinese_PRC_CI_AS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#collation SqlserverGeneralCloudRoInstance#collation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#collation SqlserverGeneralCloudRoInstance#collation}
   */
   readonly collation?: string;
   /**
   * Number of instance cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#cpu SqlserverGeneralCloudRoInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#cpu SqlserverGeneralCloudRoInstance#cpu}
   */
   readonly cpu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#id SqlserverGeneralCloudRoInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#id SqlserverGeneralCloudRoInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,133 +29,133 @@ export interface SqlserverGeneralCloudRoInstanceConfig extends cdktf.TerraformMe
   /**
   * Payment mode, the value supports PREPAID (prepaid), POSTPAID (postpaid).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#instance_charge_type SqlserverGeneralCloudRoInstance#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#instance_charge_type SqlserverGeneralCloudRoInstance#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * Primary instance ID, in the format: mssql-3l3fgqn7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#instance_id SqlserverGeneralCloudRoInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#instance_id SqlserverGeneralCloudRoInstance#instance_id}
   */
   readonly instanceId: string;
   /**
   * The host disk type of the purchased instance, CLOUD_HSSD-enhanced SSD cloud disk for virtual machines, CLOUD_TSSD-extremely fast SSD cloud disk for virtual machines, CLOUD_BSSD-universal SSD cloud disk for virtual machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#machine_type SqlserverGeneralCloudRoInstance#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#machine_type SqlserverGeneralCloudRoInstance#machine_type}
   */
   readonly machineType: string;
   /**
   * Instance memory size, in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#memory SqlserverGeneralCloudRoInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#memory SqlserverGeneralCloudRoInstance#memory}
   */
   readonly memory: number;
   /**
   * Purchase instance period, the default value is 1, which means one month. The value cannot exceed 48.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#period SqlserverGeneralCloudRoInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#period SqlserverGeneralCloudRoInstance#period}
   */
   readonly period?: number;
   /**
   * Required when ReadOnlyGroupType=3, existing read-only group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#read_only_group_id SqlserverGeneralCloudRoInstance#read_only_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#read_only_group_id SqlserverGeneralCloudRoInstance#read_only_group_id}
   */
   readonly readOnlyGroupId?: string;
   /**
   * Required when ReadOnlyGroupType=2, whether to enable the delayed elimination function for the newly created read-only group, 1-on, 0-off. When the delay between the read-only replica and the primary instance is greater than the threshold, it will be automatically removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#read_only_group_is_offline_delay SqlserverGeneralCloudRoInstance#read_only_group_is_offline_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#read_only_group_is_offline_delay SqlserverGeneralCloudRoInstance#read_only_group_is_offline_delay}
   */
   readonly readOnlyGroupIsOfflineDelay?: number;
   /**
   * Mandatory when ReadOnlyGroupType=2 and ReadOnlyGroupIsOfflineDelay=1, the threshold for delay culling of newly created read-only groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#read_only_group_max_delay_time SqlserverGeneralCloudRoInstance#read_only_group_max_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#read_only_group_max_delay_time SqlserverGeneralCloudRoInstance#read_only_group_max_delay_time}
   */
   readonly readOnlyGroupMaxDelayTime?: number;
   /**
   * Required when ReadOnlyGroupType=2 and ReadOnlyGroupIsOfflineDelay=1, the newly created read-only group retains at least the number of read-only replicas after delay elimination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#read_only_group_min_in_group SqlserverGeneralCloudRoInstance#read_only_group_min_in_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#read_only_group_min_in_group SqlserverGeneralCloudRoInstance#read_only_group_min_in_group}
   */
   readonly readOnlyGroupMinInGroup?: number;
   /**
   * Required when ReadOnlyGroupType=2, the name of the newly created read-only group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#read_only_group_name SqlserverGeneralCloudRoInstance#read_only_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#read_only_group_name SqlserverGeneralCloudRoInstance#read_only_group_name}
   */
   readonly readOnlyGroupName?: string;
   /**
   * Read-only group type option, 1- Ship according to one instance and one read-only group, 2 - Ship after creating a read-only group, all instances are under this read-only group, 3 - All instances shipped are in the existing Some read-only groups below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#read_only_group_type SqlserverGeneralCloudRoInstance#read_only_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#read_only_group_type SqlserverGeneralCloudRoInstance#read_only_group_type}
   */
   readonly readOnlyGroupType: number;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#resource_tags SqlserverGeneralCloudRoInstance#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#resource_tags SqlserverGeneralCloudRoInstance#resource_tags}
   */
   readonly resourceTags?: { [key: string]: string };
   /**
   * Security group list, fill in the security group ID in the form of sg-xxx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#security_group_list SqlserverGeneralCloudRoInstance#security_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#security_group_list SqlserverGeneralCloudRoInstance#security_group_list}
   */
   readonly securityGroupList?: string[];
   /**
   * Instance disk size, in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#storage SqlserverGeneralCloudRoInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#storage SqlserverGeneralCloudRoInstance#storage}
   */
   readonly storage: number;
   /**
   * VPC subnet ID, in the form of subnet-bdoe83fa; SubnetId and VpcId need to be set at the same time or not set at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#subnet_id SqlserverGeneralCloudRoInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#subnet_id SqlserverGeneralCloudRoInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * System time zone, default: China Standard Time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#time_zone SqlserverGeneralCloudRoInstance#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#time_zone SqlserverGeneralCloudRoInstance#time_zone}
   */
   readonly timeZone?: string;
   /**
   * VPC network ID, in the form of vpc-dsp338hz; SubnetId and VpcId need to be set at the same time or not set at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#vpc_id SqlserverGeneralCloudRoInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#vpc_id SqlserverGeneralCloudRoInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * Instance Availability Zone, similar to ap-guangzhou-1 (Guangzhou District 1); the instance sales area can be obtained through the interface DescribeZones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#zone SqlserverGeneralCloudRoInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#zone SqlserverGeneralCloudRoInstance#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#timeouts SqlserverGeneralCloudRoInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#timeouts SqlserverGeneralCloudRoInstance#timeouts}
   */
   readonly timeouts?: SqlserverGeneralCloudRoInstanceTimeouts;
 }
 export interface SqlserverGeneralCloudRoInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#create SqlserverGeneralCloudRoInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#create SqlserverGeneralCloudRoInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#delete SqlserverGeneralCloudRoInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#delete SqlserverGeneralCloudRoInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#read SqlserverGeneralCloudRoInstance#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#read SqlserverGeneralCloudRoInstance#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#update SqlserverGeneralCloudRoInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#update SqlserverGeneralCloudRoInstance#update}
   */
   readonly update?: string;
 }
@@ -336,7 +336,7 @@ export class SqlserverGeneralCloudRoInstanceTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance tencentcloud_sqlserver_general_cloud_ro_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance tencentcloud_sqlserver_general_cloud_ro_instance}
 */
 export class SqlserverGeneralCloudRoInstance extends cdktf.TerraformResource {
 
@@ -352,7 +352,7 @@ export class SqlserverGeneralCloudRoInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverGeneralCloudRoInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverGeneralCloudRoInstance to import
-  * @param importFromId The id of the existing SqlserverGeneralCloudRoInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverGeneralCloudRoInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverGeneralCloudRoInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -364,7 +364,7 @@ export class SqlserverGeneralCloudRoInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_general_cloud_ro_instance tencentcloud_sqlserver_general_cloud_ro_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_general_cloud_ro_instance tencentcloud_sqlserver_general_cloud_ro_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,8 +375,8 @@ export class SqlserverGeneralCloudRoInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_general_cloud_ro_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

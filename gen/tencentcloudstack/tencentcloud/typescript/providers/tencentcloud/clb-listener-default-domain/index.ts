@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_listener_default_domain
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_listener_default_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ClbListenerDefaultDomainConfig extends cdktf.TerraformMetaArgum
   /**
   * ID of CLB instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_listener_default_domain#clb_id ClbListenerDefaultDomain#clb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_listener_default_domain#clb_id ClbListenerDefaultDomain#clb_id}
   */
   readonly clbId: string;
   /**
   * Domain name of the listener rule. Single domain rules are passed to `domain`, and multi domain rules are passed to `domains`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_listener_default_domain#domain ClbListenerDefaultDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_listener_default_domain#domain ClbListenerDefaultDomain#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_listener_default_domain#id ClbListenerDefaultDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_listener_default_domain#id ClbListenerDefaultDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ClbListenerDefaultDomainConfig extends cdktf.TerraformMetaArgum
   /**
   * ID of CLB listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_listener_default_domain#listener_id ClbListenerDefaultDomain#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_listener_default_domain#listener_id ClbListenerDefaultDomain#listener_id}
   */
   readonly listenerId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_listener_default_domain tencentcloud_clb_listener_default_domain}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_listener_default_domain tencentcloud_clb_listener_default_domain}
 */
 export class ClbListenerDefaultDomain extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ClbListenerDefaultDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClbListenerDefaultDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClbListenerDefaultDomain to import
-  * @param importFromId The id of the existing ClbListenerDefaultDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_listener_default_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClbListenerDefaultDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_listener_default_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClbListenerDefaultDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ClbListenerDefaultDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_listener_default_domain tencentcloud_clb_listener_default_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_listener_default_domain tencentcloud_clb_listener_default_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ClbListenerDefaultDomain extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clb_listener_default_domain',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

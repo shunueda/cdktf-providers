@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface VodSuperPlayerConfigConfig extends cdktf.TerraformMetaArguments
   /**
   * ID of the unencrypted adaptive bitrate streaming template that allows output, which is required if `drm_switch` is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#adaptive_dynamic_streaming_definition VodSuperPlayerConfig#adaptive_dynamic_streaming_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#adaptive_dynamic_streaming_definition VodSuperPlayerConfig#adaptive_dynamic_streaming_definition}
   */
   readonly adaptiveDynamicStreamingDefinition?: string;
   /**
   * Template description. Length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#comment VodSuperPlayerConfig#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#comment VodSuperPlayerConfig#comment}
   */
   readonly comment?: string;
   /**
   * Domain name used for playback. If it is left empty or set to `Default`, the domain name configured in [Default Distribution Configuration](https://cloud.tencent.com/document/product/266/33373) will be used. `Default` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#domain VodSuperPlayerConfig#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#domain VodSuperPlayerConfig#domain}
   */
   readonly domain?: string;
   /**
   * Switch of DRM-protected adaptive bitstream playback: `true`: enabled, indicating to play back only output adaptive bitstreams protected by DRM; `false`: disabled, indicating to play back unencrypted output adaptive bitstreams. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#drm_switch VodSuperPlayerConfig#drm_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#drm_switch VodSuperPlayerConfig#drm_switch}
   */
   readonly drmSwitch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#id VodSuperPlayerConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#id VodSuperPlayerConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface VodSuperPlayerConfigConfig extends cdktf.TerraformMetaArguments
   /**
   * ID of the image sprite template that allows output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#image_sprite_definition VodSuperPlayerConfig#image_sprite_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#image_sprite_definition VodSuperPlayerConfig#image_sprite_definition}
   */
   readonly imageSpriteDefinition?: string;
   /**
   * Player configuration name, which can contain up to 64 letters, digits, underscores, and hyphens (such as test_ABC-123) and must be unique under a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#name VodSuperPlayerConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#name VodSuperPlayerConfig#name}
   */
   readonly name: string;
   /**
   * Scheme used for playback. If it is left empty or set to `Default`, the scheme configured in [Default Distribution Configuration](https://cloud.tencent.com/document/product/266/33373) will be used. Other valid values: `HTTP`; `HTTPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#scheme VodSuperPlayerConfig#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#scheme VodSuperPlayerConfig#scheme}
   */
   readonly scheme?: string;
   /**
   * Subapplication ID in VOD. If you need to access a resource in a subapplication, enter the subapplication ID in this field; otherwise, leave it empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#sub_app_id VodSuperPlayerConfig#sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#sub_app_id VodSuperPlayerConfig#sub_app_id}
   */
   readonly subAppId?: number;
   /**
   * drm_streaming_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#drm_streaming_info VodSuperPlayerConfig#drm_streaming_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#drm_streaming_info VodSuperPlayerConfig#drm_streaming_info}
   */
   readonly drmStreamingInfo?: VodSuperPlayerConfigDrmStreamingInfo;
   /**
   * resolution_names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#resolution_names VodSuperPlayerConfig#resolution_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#resolution_names VodSuperPlayerConfig#resolution_names}
   */
   readonly resolutionNames?: VodSuperPlayerConfigResolutionNames[] | cdktf.IResolvable;
 }
@@ -79,7 +79,7 @@ export interface VodSuperPlayerConfigDrmStreamingInfo {
   /**
   * ID of the adaptive dynamic streaming template whose protection type is `SimpleAES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#simple_aes_definition VodSuperPlayerConfig#simple_aes_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#simple_aes_definition VodSuperPlayerConfig#simple_aes_definition}
   */
   readonly simpleAesDefinition?: string;
 }
@@ -165,13 +165,13 @@ export interface VodSuperPlayerConfigResolutionNames {
   /**
   * Length of video short side in px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#min_edge_length VodSuperPlayerConfig#min_edge_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#min_edge_length VodSuperPlayerConfig#min_edge_length}
   */
   readonly minEdgeLength: number;
   /**
   * Display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#name VodSuperPlayerConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#name VodSuperPlayerConfig#name}
   */
   readonly name: string;
 }
@@ -310,7 +310,7 @@ export class VodSuperPlayerConfigResolutionNamesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config tencentcloud_vod_super_player_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config tencentcloud_vod_super_player_config}
 */
 export class VodSuperPlayerConfig extends cdktf.TerraformResource {
 
@@ -326,7 +326,7 @@ export class VodSuperPlayerConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VodSuperPlayerConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VodSuperPlayerConfig to import
-  * @param importFromId The id of the existing VodSuperPlayerConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VodSuperPlayerConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VodSuperPlayerConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -338,7 +338,7 @@ export class VodSuperPlayerConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_super_player_config tencentcloud_vod_super_player_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vod_super_player_config tencentcloud_vod_super_player_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -349,8 +349,8 @@ export class VodSuperPlayerConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vod_super_player_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

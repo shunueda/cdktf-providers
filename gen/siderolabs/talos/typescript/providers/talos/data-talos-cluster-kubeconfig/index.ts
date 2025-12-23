@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTalosClusterKubeconfigConfig extends cdktf.TerraformMetaArg
   /**
   * The client configuration data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig#client_configuration DataTalosClusterKubeconfig#client_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig#client_configuration DataTalosClusterKubeconfig#client_configuration}
   */
   readonly clientConfiguration: DataTalosClusterKubeconfigClientConfiguration;
   /**
   * endpoint to use for the talosclient. If not set, the node value will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig#endpoint DataTalosClusterKubeconfig#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig#endpoint DataTalosClusterKubeconfig#endpoint}
   */
   readonly endpoint?: string;
   /**
   * controlplane node to retrieve the kubeconfig from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig#node DataTalosClusterKubeconfig#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig#node DataTalosClusterKubeconfig#node}
   */
   readonly nodeAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig#timeouts DataTalosClusterKubeconfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig#timeouts DataTalosClusterKubeconfig#timeouts}
   */
   readonly timeouts?: DataTalosClusterKubeconfigTimeouts;
   /**
   * Wait for the kubernetes api to be available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig#wait DataTalosClusterKubeconfig#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig#wait DataTalosClusterKubeconfig#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
 }
@@ -40,19 +40,19 @@ export interface DataTalosClusterKubeconfigClientConfiguration {
   /**
   * The client CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig#ca_certificate DataTalosClusterKubeconfig#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig#ca_certificate DataTalosClusterKubeconfig#ca_certificate}
   */
   readonly caCertificate: string;
   /**
   * The client certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig#client_certificate DataTalosClusterKubeconfig#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig#client_certificate DataTalosClusterKubeconfig#client_certificate}
   */
   readonly clientCertificate: string;
   /**
   * The client key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig#client_key DataTalosClusterKubeconfig#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig#client_key DataTalosClusterKubeconfig#client_key}
   */
   readonly clientKey: string;
 }
@@ -266,7 +266,7 @@ export interface DataTalosClusterKubeconfigTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig#read DataTalosClusterKubeconfig#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig#read DataTalosClusterKubeconfig#read}
   */
   readonly read?: string;
 }
@@ -360,7 +360,7 @@ export class DataTalosClusterKubeconfigTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig talos_cluster_kubeconfig}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig talos_cluster_kubeconfig}
 */
 export class DataTalosClusterKubeconfig extends cdktf.TerraformDataSource {
 
@@ -376,7 +376,7 @@ export class DataTalosClusterKubeconfig extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTalosClusterKubeconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTalosClusterKubeconfig to import
-  * @param importFromId The id of the existing DataTalosClusterKubeconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTalosClusterKubeconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTalosClusterKubeconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -388,7 +388,7 @@ export class DataTalosClusterKubeconfig extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/cluster_kubeconfig talos_cluster_kubeconfig} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/cluster_kubeconfig talos_cluster_kubeconfig} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -399,8 +399,8 @@ export class DataTalosClusterKubeconfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'talos_cluster_kubeconfig',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

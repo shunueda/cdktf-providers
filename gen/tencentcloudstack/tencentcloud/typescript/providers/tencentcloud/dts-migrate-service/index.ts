@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DtsMigrateServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * destination database type, optional value is mysql/redis/percona/mongodb/postgresql/sqlserver/mariadb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service#dst_database_type DtsMigrateService#dst_database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service#dst_database_type DtsMigrateService#dst_database_type}
   */
   readonly dstDatabaseType: string;
   /**
   * destination region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service#dst_region DtsMigrateService#dst_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service#dst_region DtsMigrateService#dst_region}
   */
   readonly dstRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service#id DtsMigrateService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service#id DtsMigrateService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DtsMigrateServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * instance class, optional value is small/medium/large/xlarge/2xlarge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service#instance_class DtsMigrateService#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service#instance_class DtsMigrateService#instance_class}
   */
   readonly instanceClass: string;
   /**
   * job name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service#job_name DtsMigrateService#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service#job_name DtsMigrateService#job_name}
   */
   readonly jobName?: string;
   /**
   * source database type, optional value is mysql/redis/percona/mongodb/postgresql/sqlserver/mariadb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service#src_database_type DtsMigrateService#src_database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service#src_database_type DtsMigrateService#src_database_type}
   */
   readonly srcDatabaseType: string;
   /**
   * source region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service#src_region DtsMigrateService#src_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service#src_region DtsMigrateService#src_region}
   */
   readonly srcRegion: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service#tags DtsMigrateService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service#tags DtsMigrateService#tags}
   */
   readonly tags?: DtsMigrateServiceTags[] | cdktf.IResolvable;
 }
@@ -61,13 +61,13 @@ export interface DtsMigrateServiceTags {
   /**
   * tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service#tag_key DtsMigrateService#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service#tag_key DtsMigrateService#tag_key}
   */
   readonly tagKey?: string;
   /**
   * tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service#tag_value DtsMigrateService#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service#tag_value DtsMigrateService#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -212,7 +212,7 @@ export class DtsMigrateServiceTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service tencentcloud_dts_migrate_service}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service tencentcloud_dts_migrate_service}
 */
 export class DtsMigrateService extends cdktf.TerraformResource {
 
@@ -228,7 +228,7 @@ export class DtsMigrateService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtsMigrateService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtsMigrateService to import
-  * @param importFromId The id of the existing DtsMigrateService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtsMigrateService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtsMigrateService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class DtsMigrateService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dts_migrate_service tencentcloud_dts_migrate_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dts_migrate_service tencentcloud_dts_migrate_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class DtsMigrateService extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dts_migrate_service',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

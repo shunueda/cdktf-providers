@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/api_gateway_bind_api_apps_status
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_bind_api_apps_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudApiGatewayBindApiAppsStatusConfig extends cdktf
   /**
   * Array of API IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/api_gateway_bind_api_apps_status#api_ids DataTencentcloudApiGatewayBindApiAppsStatus#api_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_bind_api_apps_status#api_ids DataTencentcloudApiGatewayBindApiAppsStatus#api_ids}
   */
   readonly apiIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/api_gateway_bind_api_apps_status#id DataTencentcloudApiGatewayBindApiAppsStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_bind_api_apps_status#id DataTencentcloudApiGatewayBindApiAppsStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudApiGatewayBindApiAppsStatusConfig extends cdktf
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/api_gateway_bind_api_apps_status#result_output_file DataTencentcloudApiGatewayBindApiAppsStatus#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_bind_api_apps_status#result_output_file DataTencentcloudApiGatewayBindApiAppsStatus#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Service ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/api_gateway_bind_api_apps_status#service_id DataTencentcloudApiGatewayBindApiAppsStatus#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_bind_api_apps_status#service_id DataTencentcloudApiGatewayBindApiAppsStatus#service_id}
   */
   readonly serviceId: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/api_gateway_bind_api_apps_status#filters DataTencentcloudApiGatewayBindApiAppsStatus#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_bind_api_apps_status#filters DataTencentcloudApiGatewayBindApiAppsStatus#filters}
   */
   readonly filters?: DataTencentcloudApiGatewayBindApiAppsStatusFilters[] | cdktf.IResolvable;
 }
@@ -229,13 +229,13 @@ export interface DataTencentcloudApiGatewayBindApiAppsStatusFilters {
   /**
   * Field to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/api_gateway_bind_api_apps_status#name DataTencentcloudApiGatewayBindApiAppsStatus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_bind_api_apps_status#name DataTencentcloudApiGatewayBindApiAppsStatus#name}
   */
   readonly name: string;
   /**
   * Filter value of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/api_gateway_bind_api_apps_status#values DataTencentcloudApiGatewayBindApiAppsStatus#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_bind_api_apps_status#values DataTencentcloudApiGatewayBindApiAppsStatus#values}
   */
   readonly values: string[];
 }
@@ -374,7 +374,7 @@ export class DataTencentcloudApiGatewayBindApiAppsStatusFiltersList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/api_gateway_bind_api_apps_status tencentcloud_api_gateway_bind_api_apps_status}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_bind_api_apps_status tencentcloud_api_gateway_bind_api_apps_status}
 */
 export class DataTencentcloudApiGatewayBindApiAppsStatus extends cdktf.TerraformDataSource {
 
@@ -390,7 +390,7 @@ export class DataTencentcloudApiGatewayBindApiAppsStatus extends cdktf.Terraform
   * Generates CDKTF code for importing a DataTencentcloudApiGatewayBindApiAppsStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudApiGatewayBindApiAppsStatus to import
-  * @param importFromId The id of the existing DataTencentcloudApiGatewayBindApiAppsStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/api_gateway_bind_api_apps_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudApiGatewayBindApiAppsStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_bind_api_apps_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudApiGatewayBindApiAppsStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -402,7 +402,7 @@ export class DataTencentcloudApiGatewayBindApiAppsStatus extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/api_gateway_bind_api_apps_status tencentcloud_api_gateway_bind_api_apps_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_bind_api_apps_status tencentcloud_api_gateway_bind_api_apps_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -413,8 +413,8 @@ export class DataTencentcloudApiGatewayBindApiAppsStatus extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_api_gateway_bind_api_apps_status',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

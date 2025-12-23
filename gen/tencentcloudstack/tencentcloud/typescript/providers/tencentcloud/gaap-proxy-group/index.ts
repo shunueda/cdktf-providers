@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_proxy_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gaap_proxy_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GaapProxyGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Channel group alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_proxy_group#group_name GaapProxyGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gaap_proxy_group#group_name GaapProxyGroup#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_proxy_group#id GaapProxyGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gaap_proxy_group#id GaapProxyGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface GaapProxyGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP version, can be taken as IPv4 or IPv6 with a default value of IPv4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_proxy_group#ip_address_version GaapProxyGroup#ip_address_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gaap_proxy_group#ip_address_version GaapProxyGroup#ip_address_version}
   */
   readonly ipAddressVersion?: string;
   /**
   * Package type of channel group. Available values: Thunder and Accelerator. Default is Thunder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_proxy_group#package_type GaapProxyGroup#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gaap_proxy_group#package_type GaapProxyGroup#package_type}
   */
   readonly packageType?: string;
   /**
   * ID of the project to which the proxy group belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_proxy_group#project_id GaapProxyGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gaap_proxy_group#project_id GaapProxyGroup#project_id}
   */
   readonly projectId: number;
   /**
   * real server region, refer to the interface DescribeDestRegions to return the RegionId in the parameter RegionDetail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_proxy_group#real_server_region GaapProxyGroup#real_server_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gaap_proxy_group#real_server_region GaapProxyGroup#real_server_region}
   */
   readonly realServerRegion: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_proxy_group tencentcloud_gaap_proxy_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gaap_proxy_group tencentcloud_gaap_proxy_group}
 */
 export class GaapProxyGroup extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class GaapProxyGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaapProxyGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaapProxyGroup to import
-  * @param importFromId The id of the existing GaapProxyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_proxy_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaapProxyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gaap_proxy_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaapProxyGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class GaapProxyGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_proxy_group tencentcloud_gaap_proxy_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gaap_proxy_group tencentcloud_gaap_proxy_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class GaapProxyGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_gaap_proxy_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

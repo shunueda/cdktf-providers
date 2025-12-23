@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CkafkaTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Clear log policy, log clear mode, default is `delete`. `delete`: logs are deleted according to the storage time. `compact`: logs are compressed according to the key. `compact, delete`: logs are compressed according to the key and will be deleted according to the storage time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#clean_up_policy CkafkaTopic#clean_up_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#clean_up_policy CkafkaTopic#clean_up_policy}
   */
   readonly cleanUpPolicy?: string;
   /**
   * Whether to open the ip whitelist, `true`: open, `false`: close.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#enable_white_list CkafkaTopic#enable_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#enable_white_list CkafkaTopic#enable_white_list}
   */
   readonly enableWhiteList?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#id CkafkaTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#id CkafkaTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,73 +29,73 @@ export interface CkafkaTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ckafka instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#instance_id CkafkaTopic#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#instance_id CkafkaTopic#instance_id}
   */
   readonly instanceId: string;
   /**
   * Ip whitelist, quota limit, required when enableWhileList=true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#ip_white_list CkafkaTopic#ip_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#ip_white_list CkafkaTopic#ip_white_list}
   */
   readonly ipWhiteList?: string[];
   /**
   * Max message bytes. min: 1024 Byte(1KB), max: 8388608 Byte(8MB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#max_message_bytes CkafkaTopic#max_message_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#max_message_bytes CkafkaTopic#max_message_bytes}
   */
   readonly maxMessageBytes?: number;
   /**
   * The subject note. It must start with a letter, and the remaining part can contain letters, numbers and dashes (-).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#note CkafkaTopic#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#note CkafkaTopic#note}
   */
   readonly note?: string;
   /**
   * The number of partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#partition_num CkafkaTopic#partition_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#partition_num CkafkaTopic#partition_num}
   */
   readonly partitionNum: number;
   /**
   * The number of replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#replica_num CkafkaTopic#replica_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#replica_num CkafkaTopic#replica_num}
   */
   readonly replicaNum: number;
   /**
   * Message can be selected. Retention time, unit is ms, the current minimum value is 60000ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#retention CkafkaTopic#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#retention CkafkaTopic#retention}
   */
   readonly retention?: number;
   /**
   * Segment scrolling time, in ms, the current minimum is 3600000ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#segment CkafkaTopic#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#segment CkafkaTopic#segment}
   */
   readonly segment?: number;
   /**
   * Min number of sync replicas, Default is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#sync_replica_min_num CkafkaTopic#sync_replica_min_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#sync_replica_min_num CkafkaTopic#sync_replica_min_num}
   */
   readonly syncReplicaMinNum?: number;
   /**
   * Name of the CKafka topic. It must start with a letter, the rest can contain letters, numbers and dashes(-).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#topic_name CkafkaTopic#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#topic_name CkafkaTopic#topic_name}
   */
   readonly topicName: string;
   /**
   * Whether to allow unsynchronized replicas to be selected as leader, default is `false`, `true: `allowed, `false`: not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#unclean_leader_election_enable CkafkaTopic#unclean_leader_election_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#unclean_leader_election_enable CkafkaTopic#unclean_leader_election_enable}
   */
   readonly uncleanLeaderElectionEnable?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic tencentcloud_ckafka_topic}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic tencentcloud_ckafka_topic}
 */
 export class CkafkaTopic extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class CkafkaTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CkafkaTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CkafkaTopic to import
-  * @param importFromId The id of the existing CkafkaTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CkafkaTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CkafkaTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class CkafkaTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_topic tencentcloud_ckafka_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_topic tencentcloud_ckafka_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class CkafkaTopic extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ckafka_topic',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ClusterKubeconfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * The duration in hours before the certificate is renewed, defaults to 720h. Must be a valid duration string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig#certificate_renewal_duration ClusterKubeconfig#certificate_renewal_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig#certificate_renewal_duration ClusterKubeconfig#certificate_renewal_duration}
   */
   readonly certificateRenewalDuration?: string;
   /**
   * The client configuration data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig#client_configuration ClusterKubeconfig#client_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig#client_configuration ClusterKubeconfig#client_configuration}
   */
   readonly clientConfiguration: ClusterKubeconfigClientConfiguration;
   /**
   * endpoint to use for the talosclient. If not set, the node value will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig#endpoint ClusterKubeconfig#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig#endpoint ClusterKubeconfig#endpoint}
   */
   readonly endpoint?: string;
   /**
   * controlplane node to retrieve the kubeconfig from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig#node ClusterKubeconfig#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig#node ClusterKubeconfig#node}
   */
   readonly nodeAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig#timeouts ClusterKubeconfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig#timeouts ClusterKubeconfig#timeouts}
   */
   readonly timeouts?: ClusterKubeconfigTimeouts;
 }
@@ -40,19 +40,19 @@ export interface ClusterKubeconfigClientConfiguration {
   /**
   * The client CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig#ca_certificate ClusterKubeconfig#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig#ca_certificate ClusterKubeconfig#ca_certificate}
   */
   readonly caCertificate: string;
   /**
   * The client certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig#client_certificate ClusterKubeconfig#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig#client_certificate ClusterKubeconfig#client_certificate}
   */
   readonly clientCertificate: string;
   /**
   * The client key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig#client_key ClusterKubeconfig#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig#client_key ClusterKubeconfig#client_key}
   */
   readonly clientKey: string;
 }
@@ -266,13 +266,13 @@ export interface ClusterKubeconfigTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig#create ClusterKubeconfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig#create ClusterKubeconfig#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig#update ClusterKubeconfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig#update ClusterKubeconfig#update}
   */
   readonly update?: string;
 }
@@ -395,7 +395,7 @@ export class ClusterKubeconfigTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig talos_cluster_kubeconfig}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig talos_cluster_kubeconfig}
 */
 export class ClusterKubeconfig extends cdktf.TerraformResource {
 
@@ -411,7 +411,7 @@ export class ClusterKubeconfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterKubeconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterKubeconfig to import
-  * @param importFromId The id of the existing ClusterKubeconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterKubeconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterKubeconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -423,7 +423,7 @@ export class ClusterKubeconfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/cluster_kubeconfig talos_cluster_kubeconfig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/cluster_kubeconfig talos_cluster_kubeconfig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -434,8 +434,8 @@ export class ClusterKubeconfig extends cdktf.TerraformResource {
       terraformResourceType: 'talos_cluster_kubeconfig',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

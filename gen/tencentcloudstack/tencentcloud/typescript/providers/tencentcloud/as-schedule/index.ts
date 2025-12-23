@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,28 @@ export interface AsScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The desired number of CVM instances that should be running in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule#desired_capacity AsSchedule#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule#desired_capacity AsSchedule#desired_capacity}
   */
   readonly desiredCapacity: number;
   /**
+  * This flag disables the normal update of the DesiredCapacityproperty that would otherwise occur when a scheduled scaling task is triggered.
+  * Specifies whether the scheduled task triggers proactive modification of the DesiredCapacity when the value is True. DesiredCapacity may be modified by the minSize and maxSize mechanism.
+  * The following cases assume that DisableUpdateDesiredCapacity is True:
+  * - When scheduled task triggered, the original DesiredCapacity is 5. The scheduled task changes the minSize to 10, the maxSize to 20, and the DesiredCapacity to 15. Since the DesiredCapacity update is disabled, 15 does not take effect. However, the original DesiredCapacity 5 is less than minSize 10, so the final new DesiredCapacity is 10.
+  * - When scheduled task triggered, the original DesiredCapacity is 25. The scheduled task changes the minSize to 10 and the maxSize to 20, and the DesiredCapacity to 15. Since the DesiredCapacity update is disabled, 15 does not take effect. However, the original DesiredCapacity 25 is greater than the maxSize 20, so the final new DesiredCapacity is 20.
+  * - When scheduled task triggered, the original DesiredCapacity is 13. The scheduled task changes the minSize to 10 and the maxSize to 20, and the DesiredCapacity to 15. Since the DesiredCapacity update is disabled, 15 does not take effect, and the DesiredCapacity is still 13.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule#disable_update_desired_capacity AsSchedule#disable_update_desired_capacity}
+  */
+  readonly disableUpdateDesiredCapacity?: boolean | cdktf.IResolvable;
+  /**
   * The time for this action to end, in "YYYY-MM-DDThh:mm:ss+08:00" format (UTC+8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule#end_time AsSchedule#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule#end_time AsSchedule#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule#id AsSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule#id AsSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +40,43 @@ export interface AsScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum size for the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule#max_size AsSchedule#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule#max_size AsSchedule#max_size}
   */
   readonly maxSize: number;
   /**
   * The minimum size for the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule#min_size AsSchedule#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule#min_size AsSchedule#min_size}
   */
   readonly minSize: number;
   /**
   * The time when recurring future actions will start. Start time is specified by the user following the Unix cron syntax format. And this argument should be set with end_time together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule#recurrence AsSchedule#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule#recurrence AsSchedule#recurrence}
   */
   readonly recurrence?: string;
   /**
   * ID of a scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule#scaling_group_id AsSchedule#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule#scaling_group_id AsSchedule#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
   * The name of this scaling action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule#schedule_action_name AsSchedule#schedule_action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule#schedule_action_name AsSchedule#schedule_action_name}
   */
   readonly scheduleActionName: string;
   /**
   * The time for this action to start, in "YYYY-MM-DDThh:mm:ss+08:00" format (UTC+8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule#start_time AsSchedule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule#start_time AsSchedule#start_time}
   */
   readonly startTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule tencentcloud_as_schedule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule tencentcloud_as_schedule}
 */
 export class AsSchedule extends cdktf.TerraformResource {
 
@@ -81,7 +92,7 @@ export class AsSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsSchedule to import
-  * @param importFromId The id of the existing AsSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +104,7 @@ export class AsSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_schedule tencentcloud_as_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_schedule tencentcloud_as_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +115,8 @@ export class AsSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_as_schedule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -116,6 +127,7 @@ export class AsSchedule extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._desiredCapacity = config.desiredCapacity;
+    this._disableUpdateDesiredCapacity = config.disableUpdateDesiredCapacity;
     this._endTime = config.endTime;
     this._id = config.id;
     this._maxSize = config.maxSize;
@@ -141,6 +153,22 @@ export class AsSchedule extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get desiredCapacityInput() {
     return this._desiredCapacity;
+  }
+
+  // disable_update_desired_capacity - computed: true, optional: true, required: false
+  private _disableUpdateDesiredCapacity?: boolean | cdktf.IResolvable; 
+  public get disableUpdateDesiredCapacity() {
+    return this.getBooleanAttribute('disable_update_desired_capacity');
+  }
+  public set disableUpdateDesiredCapacity(value: boolean | cdktf.IResolvable) {
+    this._disableUpdateDesiredCapacity = value;
+  }
+  public resetDisableUpdateDesiredCapacity() {
+    this._disableUpdateDesiredCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableUpdateDesiredCapacityInput() {
+    return this._disableUpdateDesiredCapacity;
   }
 
   // end_time - computed: false, optional: true, required: false
@@ -263,6 +291,7 @@ export class AsSchedule extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       desired_capacity: cdktf.numberToTerraform(this._desiredCapacity),
+      disable_update_desired_capacity: cdktf.booleanToTerraform(this._disableUpdateDesiredCapacity),
       end_time: cdktf.stringToTerraform(this._endTime),
       id: cdktf.stringToTerraform(this._id),
       max_size: cdktf.numberToTerraform(this._maxSize),
@@ -281,6 +310,12 @@ export class AsSchedule extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      disable_update_desired_capacity: {
+        value: cdktf.booleanToHclTerraform(this._disableUpdateDesiredCapacity),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       end_time: {
         value: cdktf.stringToHclTerraform(this._endTime),

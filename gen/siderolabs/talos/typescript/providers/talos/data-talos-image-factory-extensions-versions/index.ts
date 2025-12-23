@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_extensions_versions
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_extensions_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataTalosImageFactoryExtensionsVersionsConfig extends cdktf.Ter
   /**
   * The filter to apply to the extensions list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_extensions_versions#filters DataTalosImageFactoryExtensionsVersions#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_extensions_versions#filters DataTalosImageFactoryExtensionsVersions#filters}
   */
   readonly filters?: DataTalosImageFactoryExtensionsVersionsFilters;
   /**
   * The talos version to get extensions for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_extensions_versions#talos_version DataTalosImageFactoryExtensionsVersions#talos_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_extensions_versions#talos_version DataTalosImageFactoryExtensionsVersions#talos_version}
   */
   readonly talosVersion: string;
 }
@@ -119,7 +119,7 @@ export interface DataTalosImageFactoryExtensionsVersionsFilters {
   /**
   * The name of the extension to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_extensions_versions#names DataTalosImageFactoryExtensionsVersions#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_extensions_versions#names DataTalosImageFactoryExtensionsVersions#names}
   */
   readonly names?: string[];
 }
@@ -213,7 +213,7 @@ export class DataTalosImageFactoryExtensionsVersionsFiltersOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_extensions_versions talos_image_factory_extensions_versions}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_extensions_versions talos_image_factory_extensions_versions}
 */
 export class DataTalosImageFactoryExtensionsVersions extends cdktf.TerraformDataSource {
 
@@ -229,7 +229,7 @@ export class DataTalosImageFactoryExtensionsVersions extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTalosImageFactoryExtensionsVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTalosImageFactoryExtensionsVersions to import
-  * @param importFromId The id of the existing DataTalosImageFactoryExtensionsVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_extensions_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTalosImageFactoryExtensionsVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_extensions_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTalosImageFactoryExtensionsVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class DataTalosImageFactoryExtensionsVersions extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_extensions_versions talos_image_factory_extensions_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_extensions_versions talos_image_factory_extensions_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class DataTalosImageFactoryExtensionsVersions extends cdktf.TerraformData
       terraformResourceType: 'talos_image_factory_extensions_versions',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

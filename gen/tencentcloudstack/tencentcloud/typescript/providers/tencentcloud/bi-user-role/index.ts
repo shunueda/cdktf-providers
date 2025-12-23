@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bi_user_role
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bi_user_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BiUserRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mobile area code(Note: This field may return null, indicating that no valid value can be obtained).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bi_user_role#area_code BiUserRole#area_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bi_user_role#area_code BiUserRole#area_code}
   */
   readonly areaCode: string;
   /**
   * E-mail(Note: This field may return null, indicating that no valid value can be obtained).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bi_user_role#email BiUserRole#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bi_user_role#email BiUserRole#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bi_user_role#id BiUserRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bi_user_role#id BiUserRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface BiUserRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Phone number(Note: This field may return null, indicating that no valid value can be obtained).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bi_user_role#phone_number BiUserRole#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bi_user_role#phone_number BiUserRole#phone_number}
   */
   readonly phoneNumber: string;
   /**
   * Role id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bi_user_role#role_id_list BiUserRole#role_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bi_user_role#role_id_list BiUserRole#role_id_list}
   */
   readonly roleIdList: number[];
   /**
   * User id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bi_user_role#user_id BiUserRole#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bi_user_role#user_id BiUserRole#user_id}
   */
   readonly userId: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bi_user_role#user_name BiUserRole#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bi_user_role#user_name BiUserRole#user_name}
   */
   readonly userName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bi_user_role tencentcloud_bi_user_role}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bi_user_role tencentcloud_bi_user_role}
 */
 export class BiUserRole extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class BiUserRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BiUserRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BiUserRole to import
-  * @param importFromId The id of the existing BiUserRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bi_user_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BiUserRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bi_user_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BiUserRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class BiUserRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bi_user_role tencentcloud_bi_user_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bi_user_role tencentcloud_bi_user_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class BiUserRole extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_bi_user_role',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

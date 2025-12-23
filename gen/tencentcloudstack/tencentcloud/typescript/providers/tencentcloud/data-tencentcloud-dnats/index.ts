@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudDnatsConfig extends cdktf.TerraformMetaArgument
   /**
   * Description of the NAT forward.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats#description DataTencentcloudDnats#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats#description DataTencentcloudDnats#description}
   */
   readonly description?: string;
   /**
   * Network address of the EIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats#elastic_ip DataTencentcloudDnats#elastic_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats#elastic_ip DataTencentcloudDnats#elastic_ip}
   */
   readonly elasticIp?: string;
   /**
   * Port of the EIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats#elastic_port DataTencentcloudDnats#elastic_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats#elastic_port DataTencentcloudDnats#elastic_port}
   */
   readonly elasticPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats#id DataTencentcloudDnats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats#id DataTencentcloudDnats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DataTencentcloudDnatsConfig extends cdktf.TerraformMetaArgument
   /**
   * ID of the NAT gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats#nat_id DataTencentcloudDnats#nat_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats#nat_id DataTencentcloudDnats#nat_id}
   */
   readonly natId?: string;
   /**
   * Network address of the backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats#private_ip DataTencentcloudDnats#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats#private_ip DataTencentcloudDnats#private_ip}
   */
   readonly privateIp?: string;
   /**
   * Port of intranet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats#private_port DataTencentcloudDnats#private_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats#private_port DataTencentcloudDnats#private_port}
   */
   readonly privatePort?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats#result_output_file DataTencentcloudDnats#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats#result_output_file DataTencentcloudDnats#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats#vpc_id DataTencentcloudDnats#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats#vpc_id DataTencentcloudDnats#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -175,7 +175,7 @@ export class DataTencentcloudDnatsDnatListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats tencentcloud_dnats}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats tencentcloud_dnats}
 */
 export class DataTencentcloudDnats extends cdktf.TerraformDataSource {
 
@@ -191,7 +191,7 @@ export class DataTencentcloudDnats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDnats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDnats to import
-  * @param importFromId The id of the existing DataTencentcloudDnats that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDnats that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDnats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -203,7 +203,7 @@ export class DataTencentcloudDnats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dnats tencentcloud_dnats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnats tencentcloud_dnats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,8 +214,8 @@ export class DataTencentcloudDnats extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dnats',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface PostgresqlCloneDbInstanceConfig extends cdktf.TerraformMetaArgu
   /**
   * Campaign ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#activity_id PostgresqlCloneDbInstance#activity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#activity_id PostgresqlCloneDbInstance#activity_id}
   */
   readonly activityId?: number;
   /**
@@ -21,23 +21,23 @@ export interface PostgresqlCloneDbInstanceConfig extends cdktf.TerraformMetaArgu
   * 
   * Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#auto_renew_flag PostgresqlCloneDbInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#auto_renew_flag PostgresqlCloneDbInstance#auto_renew_flag}
   */
   readonly autoRenewFlag: number;
   /**
   * Basic backup set ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#backup_set_id PostgresqlCloneDbInstance#backup_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#backup_set_id PostgresqlCloneDbInstance#backup_set_id}
   */
   readonly backupSetId?: string;
   /**
   * ID of the original instance to be cloned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#db_instance_id PostgresqlCloneDbInstance#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#db_instance_id PostgresqlCloneDbInstance#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#id PostgresqlCloneDbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#id PostgresqlCloneDbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,13 +51,13 @@ export interface PostgresqlCloneDbInstanceConfig extends cdktf.TerraformMetaArgu
   * 
   * Default value: PREPAID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#instance_charge_type PostgresqlCloneDbInstance#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#instance_charge_type PostgresqlCloneDbInstance#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * Name of the newly purchased instance, which can contain up to 60 letters, digits, or symbols (-_). If this parameter is not specified, "Unnamed" will be displayed by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#name PostgresqlCloneDbInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#name PostgresqlCloneDbInstance#name}
   */
   readonly name?: string;
   /**
@@ -65,43 +65,43 @@ export interface PostgresqlCloneDbInstanceConfig extends cdktf.TerraformMetaArgu
   * - Prepaid: Supports `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `24`, and `36`.
   * - Pay-as-you-go: Only supports `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#period PostgresqlCloneDbInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#period PostgresqlCloneDbInstance#period}
   */
   readonly period: number;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#project_id PostgresqlCloneDbInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#project_id PostgresqlCloneDbInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * Restoration point in time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#recovery_target_time PostgresqlCloneDbInstance#recovery_target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#recovery_target_time PostgresqlCloneDbInstance#recovery_target_time}
   */
   readonly recoveryTargetTime?: string;
   /**
   * Security group of the instance, which can be obtained from the `sgld` field in the return value of the [DescribeSecurityGroups](https://intl.cloud.tencent.com/document/api/215/15808?from_cn_redirect=1) API. If this parameter is not specified, the default security group will be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#security_group_ids PostgresqlCloneDbInstance#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#security_group_ids PostgresqlCloneDbInstance#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Purchasable code, which can be obtained from the `SpecCode` field in the return value of the [DescribeClasses](https://intl.cloud.tencent.com/document/api/409/89019?from_cn_redirect=1) API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#spec_code PostgresqlCloneDbInstance#spec_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#spec_code PostgresqlCloneDbInstance#spec_code}
   */
   readonly specCode: string;
   /**
   * Instance storage capacity in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#storage PostgresqlCloneDbInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#storage PostgresqlCloneDbInstance#storage}
   */
   readonly storage: number;
   /**
   * VPC subnet ID in the format of `subnet-xxxxxxxx`, which can be obtained in the console or from the `unSubnetId` field in the return value of the [DescribeSubnets](https://intl.cloud.tencent.com/document/api/215/15784?from_cn_redirect=1) API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#subnet_id PostgresqlCloneDbInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#subnet_id PostgresqlCloneDbInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
@@ -111,25 +111,25 @@ export interface PostgresqlCloneDbInstanceConfig extends cdktf.TerraformMetaArgu
   * Default value for the primary instance: Semi-sync
   * Default value for the read-only instance: Async.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#sync_mode PostgresqlCloneDbInstance#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#sync_mode PostgresqlCloneDbInstance#sync_mode}
   */
   readonly syncMode?: string;
   /**
   * VPC ID in the format of `vpc-xxxxxxx`, which can be obtained in the console or from the `unVpcId` field in the return value of the [DescribeVpcEx](https://intl.cloud.tencent.com/document/api/215/1372?from_cn_redirect=1) API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#vpc_id PostgresqlCloneDbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#vpc_id PostgresqlCloneDbInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * db_node_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#db_node_set PostgresqlCloneDbInstance#db_node_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#db_node_set PostgresqlCloneDbInstance#db_node_set}
   */
   readonly dbNodeSet?: PostgresqlCloneDbInstanceDbNodeSet[] | cdktf.IResolvable;
   /**
   * tag_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#tag_list PostgresqlCloneDbInstance#tag_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#tag_list PostgresqlCloneDbInstance#tag_list}
   */
   readonly tagList?: PostgresqlCloneDbInstanceTagListStruct[] | cdktf.IResolvable;
 }
@@ -137,7 +137,7 @@ export interface PostgresqlCloneDbInstanceDbNodeSet {
   /**
   * Dedicated cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#dedicated_cluster_id PostgresqlCloneDbInstance#dedicated_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#dedicated_cluster_id PostgresqlCloneDbInstance#dedicated_cluster_id}
   */
   readonly dedicatedClusterId?: string;
   /**
@@ -145,13 +145,13 @@ export interface PostgresqlCloneDbInstanceDbNodeSet {
   * `Primary`;
   * `Standby`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#role PostgresqlCloneDbInstance#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#role PostgresqlCloneDbInstance#role}
   */
   readonly role: string;
   /**
   * AZ where the node resides, such as ap-guangzhou-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#zone PostgresqlCloneDbInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#zone PostgresqlCloneDbInstance#zone}
   */
   readonly zone: string;
 }
@@ -321,13 +321,13 @@ export interface PostgresqlCloneDbInstanceTagListStruct {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#tag_key PostgresqlCloneDbInstance#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#tag_key PostgresqlCloneDbInstance#tag_key}
   */
   readonly tagKey: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#tag_value PostgresqlCloneDbInstance#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#tag_value PostgresqlCloneDbInstance#tag_value}
   */
   readonly tagValue: string;
 }
@@ -466,7 +466,7 @@ export class PostgresqlCloneDbInstanceTagListStructList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance tencentcloud_postgresql_clone_db_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance tencentcloud_postgresql_clone_db_instance}
 */
 export class PostgresqlCloneDbInstance extends cdktf.TerraformResource {
 
@@ -482,7 +482,7 @@ export class PostgresqlCloneDbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresqlCloneDbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlCloneDbInstance to import
-  * @param importFromId The id of the existing PostgresqlCloneDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlCloneDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlCloneDbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -494,7 +494,7 @@ export class PostgresqlCloneDbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/postgresql_clone_db_instance tencentcloud_postgresql_clone_db_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_clone_db_instance tencentcloud_postgresql_clone_db_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -505,8 +505,8 @@ export class PostgresqlCloneDbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_postgresql_clone_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

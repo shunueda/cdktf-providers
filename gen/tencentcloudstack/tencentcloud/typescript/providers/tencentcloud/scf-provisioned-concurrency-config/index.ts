@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ScfProvisionedConcurrencyConfigConfig extends cdktf.TerraformMe
   /**
   * Name of the function for which to set the provisioned concurrency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#function_name ScfProvisionedConcurrencyConfig#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#function_name ScfProvisionedConcurrencyConfig#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#id ScfProvisionedConcurrencyConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#id ScfProvisionedConcurrencyConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface ScfProvisionedConcurrencyConfigConfig extends cdktf.TerraformMe
   /**
   * The maximum number of instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#max_capacity ScfProvisionedConcurrencyConfig#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#max_capacity ScfProvisionedConcurrencyConfig#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
   * The minimum number of instances. It can not be smaller than 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#min_capacity ScfProvisionedConcurrencyConfig#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#min_capacity ScfProvisionedConcurrencyConfig#min_capacity}
   */
   readonly minCapacity?: number;
   /**
   * Function namespace. Default value: default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#namespace ScfProvisionedConcurrencyConfig#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#namespace ScfProvisionedConcurrencyConfig#namespace}
   */
   readonly namespace?: string;
   /**
   * Specifies the provisioned concurrency type. Default: Static provisioned concurrency. ConcurrencyUtilizationTracking: Scales the concurrency automatically according to the concurrency utilization. If ConcurrencyUtilizationTracking is passed in, TrackingTarget, MinCapacity and MaxCapacity are required, and VersionProvisionedConcurrencyNum must be 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#provisioned_type ScfProvisionedConcurrencyConfig#provisioned_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#provisioned_type ScfProvisionedConcurrencyConfig#provisioned_type}
   */
   readonly provisionedType?: string;
   /**
   * Function version number. Note: the $LATEST version does not support provisioned concurrency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#qualifier ScfProvisionedConcurrencyConfig#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#qualifier ScfProvisionedConcurrencyConfig#qualifier}
   */
   readonly qualifier: string;
   /**
   * The target concurrency utilization. Range: (0,1) (two decimal places).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#tracking_target ScfProvisionedConcurrencyConfig#tracking_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#tracking_target ScfProvisionedConcurrencyConfig#tracking_target}
   */
   readonly trackingTarget?: number;
   /**
   * Provisioned concurrency amount. Note: there is an upper limit for the sum of provisioned concurrency amounts of all versions, which currently is the function&amp;#39;s maximum concurrency quota minus 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#version_provisioned_concurrency_num ScfProvisionedConcurrencyConfig#version_provisioned_concurrency_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#version_provisioned_concurrency_num ScfProvisionedConcurrencyConfig#version_provisioned_concurrency_num}
   */
   readonly versionProvisionedConcurrencyNum: number;
   /**
   * trigger_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#trigger_actions ScfProvisionedConcurrencyConfig#trigger_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#trigger_actions ScfProvisionedConcurrencyConfig#trigger_actions}
   */
   readonly triggerActions?: ScfProvisionedConcurrencyConfigTriggerActions[] | cdktf.IResolvable;
 }
@@ -73,25 +73,25 @@ export interface ScfProvisionedConcurrencyConfigTriggerActions {
   /**
   * The provision type. Value: Default Note: This field may return null, indicating that no valid value can be found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#provisioned_type ScfProvisionedConcurrencyConfig#provisioned_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#provisioned_type ScfProvisionedConcurrencyConfig#provisioned_type}
   */
   readonly provisionedType?: string;
   /**
   * Trigger time of the scheduled action in Cron expression. Seven fields are required and should be separated with a space. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#trigger_cron_config ScfProvisionedConcurrencyConfig#trigger_cron_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#trigger_cron_config ScfProvisionedConcurrencyConfig#trigger_cron_config}
   */
   readonly triggerCronConfig: string;
   /**
   * Scheduled action name Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#trigger_name ScfProvisionedConcurrencyConfig#trigger_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#trigger_name ScfProvisionedConcurrencyConfig#trigger_name}
   */
   readonly triggerName: string;
   /**
   * Target provisioned concurrency of the scheduled scaling action Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#trigger_provisioned_concurrency_num ScfProvisionedConcurrencyConfig#trigger_provisioned_concurrency_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#trigger_provisioned_concurrency_num ScfProvisionedConcurrencyConfig#trigger_provisioned_concurrency_num}
   */
   readonly triggerProvisionedConcurrencyNum: number;
 }
@@ -285,7 +285,7 @@ export class ScfProvisionedConcurrencyConfigTriggerActionsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config tencentcloud_scf_provisioned_concurrency_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config tencentcloud_scf_provisioned_concurrency_config}
 */
 export class ScfProvisionedConcurrencyConfig extends cdktf.TerraformResource {
 
@@ -301,7 +301,7 @@ export class ScfProvisionedConcurrencyConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScfProvisionedConcurrencyConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScfProvisionedConcurrencyConfig to import
-  * @param importFromId The id of the existing ScfProvisionedConcurrencyConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScfProvisionedConcurrencyConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScfProvisionedConcurrencyConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +313,7 @@ export class ScfProvisionedConcurrencyConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_provisioned_concurrency_config tencentcloud_scf_provisioned_concurrency_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_provisioned_concurrency_config tencentcloud_scf_provisioned_concurrency_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,8 +324,8 @@ export class ScfProvisionedConcurrencyConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_scf_provisioned_concurrency_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

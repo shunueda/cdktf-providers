@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance_transparent_data_encryption
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mongodb_instance_transparent_data_encryption
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MongodbInstanceTransparentDataEncryptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance_transparent_data_encryption#id MongodbInstanceTransparentDataEncryption#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mongodb_instance_transparent_data_encryption#id MongodbInstanceTransparentDataEncryption#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface MongodbInstanceTransparentDataEncryptionConfig extends cdktf.Te
   /**
   * Instance ID, for example: cmgo-p8vn ***. Currently supported general versions include: 4.4 and 5.0, but the cloud disk version is not currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance_transparent_data_encryption#instance_id MongodbInstanceTransparentDataEncryption#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mongodb_instance_transparent_data_encryption#instance_id MongodbInstanceTransparentDataEncryption#instance_id}
   */
   readonly instanceId: string;
   /**
   * Key ID. If this parameter is not set and the specific key ID is not specified, Tencent Cloud will automatically generate the key and this key will be beyond the control of Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance_transparent_data_encryption#key_id MongodbInstanceTransparentDataEncryption#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mongodb_instance_transparent_data_encryption#key_id MongodbInstanceTransparentDataEncryption#key_id}
   */
   readonly keyId?: string;
   /**
   * The region where the Key Management Service (KMS) serves, such as ap-shanghai.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance_transparent_data_encryption#kms_region MongodbInstanceTransparentDataEncryption#kms_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mongodb_instance_transparent_data_encryption#kms_region MongodbInstanceTransparentDataEncryption#kms_region}
   */
   readonly kmsRegion: string;
 }
@@ -135,7 +135,7 @@ export class MongodbInstanceTransparentDataEncryptionKeyInfoListStructList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance_transparent_data_encryption tencentcloud_mongodb_instance_transparent_data_encryption}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mongodb_instance_transparent_data_encryption tencentcloud_mongodb_instance_transparent_data_encryption}
 */
 export class MongodbInstanceTransparentDataEncryption extends cdktf.TerraformResource {
 
@@ -151,7 +151,7 @@ export class MongodbInstanceTransparentDataEncryption extends cdktf.TerraformRes
   * Generates CDKTF code for importing a MongodbInstanceTransparentDataEncryption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbInstanceTransparentDataEncryption to import
-  * @param importFromId The id of the existing MongodbInstanceTransparentDataEncryption that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance_transparent_data_encryption#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbInstanceTransparentDataEncryption that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mongodb_instance_transparent_data_encryption#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbInstanceTransparentDataEncryption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class MongodbInstanceTransparentDataEncryption extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance_transparent_data_encryption tencentcloud_mongodb_instance_transparent_data_encryption} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mongodb_instance_transparent_data_encryption tencentcloud_mongodb_instance_transparent_data_encryption} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class MongodbInstanceTransparentDataEncryption extends cdktf.TerraformRes
       terraformResourceType: 'tencentcloud_mongodb_instance_transparent_data_encryption',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_topic
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TdmqTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Dedicated Cluster Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_topic#cluster_id TdmqTopic#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_topic#cluster_id TdmqTopic#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The name of tdmq namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_topic#environ_id TdmqTopic#environ_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_topic#environ_id TdmqTopic#environ_id}
   */
   readonly environId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_topic#id TdmqTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_topic#id TdmqTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface TdmqTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * The partitions of topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_topic#partitions TdmqTopic#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_topic#partitions TdmqTopic#partitions}
   */
   readonly partitions: number;
   /**
   * Pulsar Topic Type 0: Non-persistent non-partitioned 1: Non-persistent partitioned 2: Persistent non-partitioned 3: Persistent partitioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_topic#pulsar_topic_type TdmqTopic#pulsar_topic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_topic#pulsar_topic_type TdmqTopic#pulsar_topic_type}
   */
   readonly pulsarTopicType?: number;
   /**
   * Description of the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_topic#remark TdmqTopic#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_topic#remark TdmqTopic#remark}
   */
   readonly remark?: string;
   /**
   * The name of topic to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_topic#topic_name TdmqTopic#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_topic#topic_name TdmqTopic#topic_name}
   */
   readonly topicName: string;
   /**
   * The type of topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_topic#topic_type TdmqTopic#topic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_topic#topic_type TdmqTopic#topic_type}
   */
   readonly topicType?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_topic tencentcloud_tdmq_topic}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_topic tencentcloud_tdmq_topic}
 */
 export class TdmqTopic extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class TdmqTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqTopic to import
-  * @param importFromId The id of the existing TdmqTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class TdmqTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_topic tencentcloud_tdmq_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_topic tencentcloud_tdmq_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class TdmqTopic extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_topic',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

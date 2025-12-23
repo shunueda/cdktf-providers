@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/loadbalancer
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/loadbalancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEdgecenterLoadbalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/loadbalancer#id DataEdgecenterLoadbalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/loadbalancer#id DataEdgecenterLoadbalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface DataEdgecenterLoadbalancerConfig extends cdktf.TerraformMetaArg
   /**
   * Filtration query opts (only key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/loadbalancer#metadata_k DataEdgecenterLoadbalancer#metadata_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/loadbalancer#metadata_k DataEdgecenterLoadbalancer#metadata_k}
   */
   readonly metadataK?: string;
   /**
   * Filtration query opts, for example, {offset = "10", limit = "10"}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/loadbalancer#metadata_kv DataEdgecenterLoadbalancer#metadata_kv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/loadbalancer#metadata_kv DataEdgecenterLoadbalancer#metadata_kv}
   */
   readonly metadataKv?: { [key: string]: string };
   /**
   * The name of the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/loadbalancer#name DataEdgecenterLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/loadbalancer#name DataEdgecenterLoadbalancer#name}
   */
   readonly name: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/loadbalancer#project_id DataEdgecenterLoadbalancer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/loadbalancer#project_id DataEdgecenterLoadbalancer#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/loadbalancer#project_name DataEdgecenterLoadbalancer#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/loadbalancer#project_name DataEdgecenterLoadbalancer#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/loadbalancer#region_id DataEdgecenterLoadbalancer#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/loadbalancer#region_id DataEdgecenterLoadbalancer#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/loadbalancer#region_name DataEdgecenterLoadbalancer#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/loadbalancer#region_name DataEdgecenterLoadbalancer#region_name}
   */
   readonly regionName?: string;
 }
@@ -234,7 +234,7 @@ export class DataEdgecenterLoadbalancerMetadataReadOnlyList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/loadbalancer edgecenter_loadbalancer}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/loadbalancer edgecenter_loadbalancer}
 */
 export class DataEdgecenterLoadbalancer extends cdktf.TerraformDataSource {
 
@@ -250,7 +250,7 @@ export class DataEdgecenterLoadbalancer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEdgecenterLoadbalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterLoadbalancer to import
-  * @param importFromId The id of the existing DataEdgecenterLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/loadbalancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/loadbalancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterLoadbalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class DataEdgecenterLoadbalancer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/loadbalancer edgecenter_loadbalancer} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/loadbalancer edgecenter_loadbalancer} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,8 +273,8 @@ export class DataEdgecenterLoadbalancer extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

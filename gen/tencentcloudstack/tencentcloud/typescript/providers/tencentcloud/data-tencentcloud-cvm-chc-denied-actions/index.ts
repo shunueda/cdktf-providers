@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_denied_actions
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_denied_actions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCvmChcDeniedActionsConfig extends cdktf.Terrafo
   /**
   * CHC host IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_denied_actions#chc_ids DataTencentcloudCvmChcDeniedActions#chc_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_denied_actions#chc_ids DataTencentcloudCvmChcDeniedActions#chc_ids}
   */
   readonly chcIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_denied_actions#id DataTencentcloudCvmChcDeniedActions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_denied_actions#id DataTencentcloudCvmChcDeniedActions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudCvmChcDeniedActionsConfig extends cdktf.Terrafo
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_denied_actions#result_output_file DataTencentcloudCvmChcDeniedActions#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_denied_actions#result_output_file DataTencentcloudCvmChcDeniedActions#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -114,7 +114,7 @@ export class DataTencentcloudCvmChcDeniedActionsChcHostDeniedActionSetList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_denied_actions tencentcloud_cvm_chc_denied_actions}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_denied_actions tencentcloud_cvm_chc_denied_actions}
 */
 export class DataTencentcloudCvmChcDeniedActions extends cdktf.TerraformDataSource {
 
@@ -130,7 +130,7 @@ export class DataTencentcloudCvmChcDeniedActions extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudCvmChcDeniedActions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCvmChcDeniedActions to import
-  * @param importFromId The id of the existing DataTencentcloudCvmChcDeniedActions that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_denied_actions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCvmChcDeniedActions that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_denied_actions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCvmChcDeniedActions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class DataTencentcloudCvmChcDeniedActions extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cvm_chc_denied_actions tencentcloud_cvm_chc_denied_actions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cvm_chc_denied_actions tencentcloud_cvm_chc_denied_actions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class DataTencentcloudCvmChcDeniedActions extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_cvm_chc_denied_actions',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

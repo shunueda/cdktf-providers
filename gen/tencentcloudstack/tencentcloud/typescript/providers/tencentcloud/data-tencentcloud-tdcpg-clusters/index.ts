@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdcpg_clusters
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tdcpg_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudTdcpgClustersConfig extends cdktf.TerraformMeta
   /**
   * cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdcpg_clusters#cluster_id DataTencentcloudTdcpgClusters#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tdcpg_clusters#cluster_id DataTencentcloudTdcpgClusters#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdcpg_clusters#cluster_name DataTencentcloudTdcpgClusters#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tdcpg_clusters#cluster_name DataTencentcloudTdcpgClusters#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdcpg_clusters#id DataTencentcloudTdcpgClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tdcpg_clusters#id DataTencentcloudTdcpgClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataTencentcloudTdcpgClustersConfig extends cdktf.TerraformMeta
   /**
   * pay mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdcpg_clusters#pay_mode DataTencentcloudTdcpgClusters#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tdcpg_clusters#pay_mode DataTencentcloudTdcpgClusters#pay_mode}
   */
   readonly payMode?: string;
   /**
   * project id, default to 0, means default project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdcpg_clusters#project_id DataTencentcloudTdcpgClusters#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tdcpg_clusters#project_id DataTencentcloudTdcpgClusters#project_id}
   */
   readonly projectId?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdcpg_clusters#result_output_file DataTencentcloudTdcpgClusters#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tdcpg_clusters#result_output_file DataTencentcloudTdcpgClusters#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * cluster status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdcpg_clusters#status DataTencentcloudTdcpgClusters#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tdcpg_clusters#status DataTencentcloudTdcpgClusters#status}
   */
   readonly status?: string;
 }
@@ -349,7 +349,7 @@ export class DataTencentcloudTdcpgClustersListStructList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdcpg_clusters tencentcloud_tdcpg_clusters}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tdcpg_clusters tencentcloud_tdcpg_clusters}
 */
 export class DataTencentcloudTdcpgClusters extends cdktf.TerraformDataSource {
 
@@ -365,7 +365,7 @@ export class DataTencentcloudTdcpgClusters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudTdcpgClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTdcpgClusters to import
-  * @param importFromId The id of the existing DataTencentcloudTdcpgClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdcpg_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTdcpgClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tdcpg_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTdcpgClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -377,7 +377,7 @@ export class DataTencentcloudTdcpgClusters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdcpg_clusters tencentcloud_tdcpg_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tdcpg_clusters tencentcloud_tdcpg_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -388,8 +388,8 @@ export class DataTencentcloudTdcpgClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_tdcpg_clusters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

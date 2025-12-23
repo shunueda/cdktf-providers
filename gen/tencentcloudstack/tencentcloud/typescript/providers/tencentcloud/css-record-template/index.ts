@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CssRecordTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#description CssRecordTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#description CssRecordTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#id CssRecordTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#id CssRecordTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,61 +23,61 @@ export interface CssRecordTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Live broadcast type, 0 by default. 0: Ordinary live broadcast, 1: Slow broadcast.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#is_delay_live CssRecordTemplate#is_delay_live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#is_delay_live CssRecordTemplate#is_delay_live}
   */
   readonly isDelayLive?: number;
   /**
   * Whether to remove the watermark. This parameter is invalid when the type is slow live broadcast.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#remove_watermark CssRecordTemplate#remove_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#remove_watermark CssRecordTemplate#remove_watermark}
   */
   readonly removeWatermark?: boolean | cdktf.IResolvable;
   /**
   * Template name. Only `Chinese`, `English`, `numbers`, `_`, `-` are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#template_name CssRecordTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#template_name CssRecordTemplate#template_name}
   */
   readonly templateName: string;
   /**
   * aac_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#aac_param CssRecordTemplate#aac_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#aac_param CssRecordTemplate#aac_param}
   */
   readonly aacParam?: CssRecordTemplateAacParam;
   /**
   * flv_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#flv_param CssRecordTemplate#flv_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#flv_param CssRecordTemplate#flv_param}
   */
   readonly flvParam?: CssRecordTemplateFlvParam;
   /**
   * flv_special_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#flv_special_param CssRecordTemplate#flv_special_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#flv_special_param CssRecordTemplate#flv_special_param}
   */
   readonly flvSpecialParam?: CssRecordTemplateFlvSpecialParam;
   /**
   * hls_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#hls_param CssRecordTemplate#hls_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#hls_param CssRecordTemplate#hls_param}
   */
   readonly hlsParam?: CssRecordTemplateHlsParam;
   /**
   * hls_special_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#hls_special_param CssRecordTemplate#hls_special_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#hls_special_param CssRecordTemplate#hls_special_param}
   */
   readonly hlsSpecialParam?: CssRecordTemplateHlsSpecialParam;
   /**
   * mp3_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#mp3_param CssRecordTemplate#mp3_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#mp3_param CssRecordTemplate#mp3_param}
   */
   readonly mp3Param?: CssRecordTemplateMp3Param;
   /**
   * mp4_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#mp4_param CssRecordTemplate#mp4_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#mp4_param CssRecordTemplate#mp4_param}
   */
   readonly mp4Param?: CssRecordTemplateMp4Param;
 }
@@ -85,49 +85,49 @@ export interface CssRecordTemplateAacParam {
   /**
   * Classification of on-demand applications. This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#class_id CssRecordTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#class_id CssRecordTemplate#class_id}
   */
   readonly classId?: number;
   /**
   * Whether to enable recording in the current format. The default value is 0. 0: No, 1: Yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#enable CssRecordTemplate#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#enable CssRecordTemplate#enable}
   */
   readonly enable?: number;
   /**
   * Task flow. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#procedure CssRecordTemplate#procedure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#procedure CssRecordTemplate#procedure}
   */
   readonly procedure?: string;
   /**
   * Recording interval. Unit: second, default: 1800. Value range: 30-7200. This parameter is invalid for HLS. When recording HLS, a file is generated from streaming to streaming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#record_interval CssRecordTemplate#record_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#record_interval CssRecordTemplate#record_interval}
   */
   readonly recordInterval?: number;
   /**
   * Video storage strategy. Normal: standard storage. Cold: low frequency storage. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#storage_mode CssRecordTemplate#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#storage_mode CssRecordTemplate#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * Recording storage duration. Unit: second. Value range: 0 - 1500 days. 0: indicates permanent storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#storage_time CssRecordTemplate#storage_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#storage_time CssRecordTemplate#storage_time}
   */
   readonly storageTime?: number;
   /**
   * Record file name.Special placeholders supported are: `StreamID`: Stream ID,`StartYear`: Start time - year,`StartMonth`: Start time - month,`StartDay`: Start time - day,`StartHour`: Start time - hour,`StartMinute`: Start time - minutes,`StartSecond`: Start time - seconds,`StartMillisecond`: Start time - milliseconds,`EndYear`: End time - year,`EndMonth`: End time - month,`EndDay`: End time - day,`EndHour`: End time - hour,`EndMinute`: End time - minutes,`EndSecond`: End time - seconds,`EndMillisecond`: End time - millisecondsIf the default recording file name is not set as ,`StreamID`,`StartYear`,`StartMonth`,`StartDay`,`StartHour`,`StartMinute`,`StartSecond`,`EndYear`,`EndMonth`,`EndDay`,`EndHour`,`EndMinute`,`EndSecond`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#vod_file_name CssRecordTemplate#vod_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#vod_file_name CssRecordTemplate#vod_file_name}
   */
   readonly vodFileName?: string;
   /**
   * The ID of the on-demand sub app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#vod_sub_app_id CssRecordTemplate#vod_sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#vod_sub_app_id CssRecordTemplate#vod_sub_app_id}
   */
   readonly vodSubAppId?: number;
 }
@@ -416,49 +416,49 @@ export interface CssRecordTemplateFlvParam {
   /**
   * Classification of on-demand applications. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#class_id CssRecordTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#class_id CssRecordTemplate#class_id}
   */
   readonly classId?: number;
   /**
   * Whether to enable recording in the current format. The default value is 0. 0: No, 1: Yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#enable CssRecordTemplate#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#enable CssRecordTemplate#enable}
   */
   readonly enable?: number;
   /**
   * Task flow. This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#procedure CssRecordTemplate#procedure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#procedure CssRecordTemplate#procedure}
   */
   readonly procedure?: string;
   /**
   * Recording interval.  Unit: second, default: 1800.  Value range: 30-7200.  This parameter is invalid for HLS. When recording HLS, a file is generated from streaming to streaming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#record_interval CssRecordTemplate#record_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#record_interval CssRecordTemplate#record_interval}
   */
   readonly recordInterval?: number;
   /**
   * Video storage strategy. Normal: standard storage. Cold: low frequency storage. This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#storage_mode CssRecordTemplate#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#storage_mode CssRecordTemplate#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * Recording storage duration.  Unit: second. Value range: 0 - 1500 days.  0: indicates permanent storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#storage_time CssRecordTemplate#storage_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#storage_time CssRecordTemplate#storage_time}
   */
   readonly storageTime?: number;
   /**
   * Record file name.Special placeholders supported are: `StreamID`: Stream ID,`StartYear`: Start time - year,`StartMonth`: Start time - month,`StartDay`: Start time - day,`StartHour`: Start time - hour,`StartMinute`: Start time - minutes,`StartSecond`: Start time - seconds,`StartMillisecond`: Start time - milliseconds,`EndYear`: End time - year,`EndMonth`: End time - month,`EndDay`: End time - day,`EndHour`: End time - hour,`EndMinute`: End time - minutes,`EndSecond`: End time - seconds,`EndMillisecond`: End time - millisecondsIf the default recording file name is not set as ,`StreamID`_ ,`StartYear`-,`StartMonth`-,`StartDay`-,`StartHour`-,`StartMinute`-,`StartSecond`_ ,`EndYear`-,`EndMonth`-,`EndDay`-,`EndHour`-,`EndMinute`-,`EndSecond`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#vod_file_name CssRecordTemplate#vod_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#vod_file_name CssRecordTemplate#vod_file_name}
   */
   readonly vodFileName?: string;
   /**
   *  The ID of the vodSub app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#vod_sub_app_id CssRecordTemplate#vod_sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#vod_sub_app_id CssRecordTemplate#vod_sub_app_id}
   */
   readonly vodSubAppId?: number;
 }
@@ -747,7 +747,7 @@ export interface CssRecordTemplateFlvSpecialParam {
   /**
   * Whether to enable the transfer while recording is valid only in the flv format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#upload_in_recording CssRecordTemplate#upload_in_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#upload_in_recording CssRecordTemplate#upload_in_recording}
   */
   readonly uploadInRecording?: boolean | cdktf.IResolvable;
 }
@@ -833,49 +833,49 @@ export interface CssRecordTemplateHlsParam {
   /**
   * Classification of on-demand applications. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#class_id CssRecordTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#class_id CssRecordTemplate#class_id}
   */
   readonly classId?: number;
   /**
   * Whether to enable recording in the current format. The default value is 0. 0: No, 1: Yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#enable CssRecordTemplate#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#enable CssRecordTemplate#enable}
   */
   readonly enable?: number;
   /**
   * Task flow. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#procedure CssRecordTemplate#procedure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#procedure CssRecordTemplate#procedure}
   */
   readonly procedure?: string;
   /**
   * Recording interval. Unit: second, default: 1800. Value range: 30-7200. This parameter is invalid for HLS. When recording HLS, a file is generated from streaming to streaming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#record_interval CssRecordTemplate#record_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#record_interval CssRecordTemplate#record_interval}
   */
   readonly recordInterval?: number;
   /**
   * Video storage strategy. Normal: standard storage. Cold: low frequency storage. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#storage_mode CssRecordTemplate#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#storage_mode CssRecordTemplate#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * Recording storage duration. Unit: second. Value range: 0 - 1500 days. 0: indicates permanent storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#storage_time CssRecordTemplate#storage_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#storage_time CssRecordTemplate#storage_time}
   */
   readonly storageTime?: number;
   /**
   * Record file name.Special placeholders supported are: `StreamID`: Stream ID,`StartYear`: Start time - year,`StartMonth`: Start time - month,`StartDay`: Start time - day,`StartHour`: Start time - hour,`StartMinute`: Start time - minutes,`StartSecond`: Start time - seconds,`StartMillisecond`: Start time - milliseconds,`EndYear`: End time - year,`EndMonth`: End time - month,`EndDay`: End time - day,`EndHour`: End time - hour,`EndMinute`: End time - minutes,`EndSecond`: End time - seconds,`EndMillisecond`: End time - millisecondsIf the default recording file name is not set as ,`StreamID`,`StartYear`,`StartMonth`,`StartDay`,`StartHour`,`StartMinute`,`StartSecond`,`EndYear`,`EndMonth`,`EndDay`,`EndHour`,`EndMinute`,`EndSecond`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#vod_file_name CssRecordTemplate#vod_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#vod_file_name CssRecordTemplate#vod_file_name}
   */
   readonly vodFileName?: string;
   /**
   * The ID of the vodSub app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#vod_sub_app_id CssRecordTemplate#vod_sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#vod_sub_app_id CssRecordTemplate#vod_sub_app_id}
   */
   readonly vodSubAppId?: number;
 }
@@ -1164,7 +1164,7 @@ export interface CssRecordTemplateHlsSpecialParam {
   /**
   * HLS freewheeling timeout. Value range [0, 1800].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#flow_continue_duration CssRecordTemplate#flow_continue_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#flow_continue_duration CssRecordTemplate#flow_continue_duration}
   */
   readonly flowContinueDuration?: number;
 }
@@ -1250,49 +1250,49 @@ export interface CssRecordTemplateMp3Param {
   /**
   * Classification of vod applications. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#class_id CssRecordTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#class_id CssRecordTemplate#class_id}
   */
   readonly classId?: number;
   /**
   * Whether to enable recording in the current format. The default value is 0. 0: No, 1: Yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#enable CssRecordTemplate#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#enable CssRecordTemplate#enable}
   */
   readonly enable?: number;
   /**
   * Task flow. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#procedure CssRecordTemplate#procedure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#procedure CssRecordTemplate#procedure}
   */
   readonly procedure?: string;
   /**
   * Recording interval. Unit: second, default: 1800. Value range: 30-7200. This parameter is invalid for HLS. When recording HLS, a file is generated from streaming to streaming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#record_interval CssRecordTemplate#record_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#record_interval CssRecordTemplate#record_interval}
   */
   readonly recordInterval?: number;
   /**
   * Video storage strategy. Normal: standard storage. Cold: low frequency storage. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#storage_mode CssRecordTemplate#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#storage_mode CssRecordTemplate#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * Recording storage duration. Unit: second. Value range: 0 - 1500 days. 0: indicates permanent storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#storage_time CssRecordTemplate#storage_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#storage_time CssRecordTemplate#storage_time}
   */
   readonly storageTime?: number;
   /**
   * Record file name.Special placeholders supported are: `StreamID`: Stream ID,`StartYear`: Start time - year,`StartMonth`: Start time - month,`StartDay`: Start time - day,`StartHour`: Start time - hour,`StartMinute`: Start time - minutes,`StartSecond`: Start time - seconds,`StartMillisecond`: Start time - milliseconds,`EndYear`: End time - year,`EndMonth`: End time - month,`EndDay`: End time - day,`EndHour`: End time - hour,`EndMinute`: End time - minutes,`EndSecond`: End time - seconds,`EndMillisecond`: End time - millisecondsIf the default recording file name is not set as ,`StreamID`,`StartYear`,`StartMonth`,`StartDay`,`StartHour`,`StartMinute`, `StartSecond`,`EndYear`,`EndMonth`,`EndDay`,`EndHour`,`EndMinute`,`EndSecond`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#vod_file_name CssRecordTemplate#vod_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#vod_file_name CssRecordTemplate#vod_file_name}
   */
   readonly vodFileName?: string;
   /**
   * The ID of the on-demand sub app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#vod_sub_app_id CssRecordTemplate#vod_sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#vod_sub_app_id CssRecordTemplate#vod_sub_app_id}
   */
   readonly vodSubAppId?: number;
 }
@@ -1581,49 +1581,49 @@ export interface CssRecordTemplateMp4Param {
   /**
   * Classification of on-demand applications. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#class_id CssRecordTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#class_id CssRecordTemplate#class_id}
   */
   readonly classId?: number;
   /**
   * Whether to enable recording in the current format. The default value is 0. 0: No, 1: Yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#enable CssRecordTemplate#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#enable CssRecordTemplate#enable}
   */
   readonly enable?: number;
   /**
   * Task flow. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#procedure CssRecordTemplate#procedure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#procedure CssRecordTemplate#procedure}
   */
   readonly procedure?: string;
   /**
   * Recording interval. Unit: second, default: 1800. Value range: 30-7200. This parameter is invalid for HLS. When recording HLS, a file is generated from streaming to streaming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#record_interval CssRecordTemplate#record_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#record_interval CssRecordTemplate#record_interval}
   */
   readonly recordInterval?: number;
   /**
   * Video storage strategy. Normal: standard storage. Cold: low frequency storage. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#storage_mode CssRecordTemplate#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#storage_mode CssRecordTemplate#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * Recording storage duration. Unit: second. Value range: 0 - 1500 days. 0: indicates permanent storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#storage_time CssRecordTemplate#storage_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#storage_time CssRecordTemplate#storage_time}
   */
   readonly storageTime?: number;
   /**
   * Record file name.Special placeholders supported are: `StreamID`: Stream ID,`StartYear`: Start time - year,`StartMonth`: Start time - month,`StartDay`: Start time - day,`StartHour`: Start time - hour,`StartMinute`: Start time - minutes,`StartSecond`: Start time - seconds,`StartMillisecond`: Start time - milliseconds,`EndYear`: End time - year,`EndMonth`: End time - month,`EndDay`: End time - day,`EndHour`: End time - hour,`EndMinute`: End time - minutes,`EndSecond`: End time - seconds,`EndMillisecond`: End time - millisecondsIf the default recording file name is not set as ,`StreamID`,`StartYear`,`StartMonth`,`StartDay`,`StartHour`,`StartMinute`,`StartSecond`,`EndYear`,`EndMonth`,`EndDay`,`EndHour`,`EndMinute`,`EndSecond`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#vod_file_name CssRecordTemplate#vod_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#vod_file_name CssRecordTemplate#vod_file_name}
   */
   readonly vodFileName?: string;
   /**
   * The ID of the on-demand sub app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#vod_sub_app_id CssRecordTemplate#vod_sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#vod_sub_app_id CssRecordTemplate#vod_sub_app_id}
   */
   readonly vodSubAppId?: number;
 }
@@ -1910,7 +1910,7 @@ export class CssRecordTemplateMp4ParamOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template tencentcloud_css_record_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template tencentcloud_css_record_template}
 */
 export class CssRecordTemplate extends cdktf.TerraformResource {
 
@@ -1926,7 +1926,7 @@ export class CssRecordTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssRecordTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssRecordTemplate to import
-  * @param importFromId The id of the existing CssRecordTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssRecordTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssRecordTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1938,7 +1938,7 @@ export class CssRecordTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_record_template tencentcloud_css_record_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_template tencentcloud_css_record_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1949,8 +1949,8 @@ export class CssRecordTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_record_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

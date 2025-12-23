@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_diag_event
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_diag_event
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDbbrainDiagEventConfig extends cdktf.TerraformM
   /**
   * Event ID. Obtain it through `Get Instance Diagnosis History DescribeDBDiagHistory`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_diag_event#event_id DataTencentcloudDbbrainDiagEvent#event_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_diag_event#event_id DataTencentcloudDbbrainDiagEvent#event_id}
   */
   readonly eventId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_diag_event#id DataTencentcloudDbbrainDiagEvent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_diag_event#id DataTencentcloudDbbrainDiagEvent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudDbbrainDiagEventConfig extends cdktf.TerraformM
   /**
   * isntance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_diag_event#instance_id DataTencentcloudDbbrainDiagEvent#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_diag_event#instance_id DataTencentcloudDbbrainDiagEvent#instance_id}
   */
   readonly instanceId: string;
   /**
   * Service product type, supported values include: `mysql` - cloud database MySQL, `cynosdb` - cloud database CynosDB for MySQL, the default is `mysql`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_diag_event#product DataTencentcloudDbbrainDiagEvent#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_diag_event#product DataTencentcloudDbbrainDiagEvent#product}
   */
   readonly product?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_diag_event#result_output_file DataTencentcloudDbbrainDiagEvent#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_diag_event#result_output_file DataTencentcloudDbbrainDiagEvent#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_diag_event tencentcloud_dbbrain_diag_event}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_diag_event tencentcloud_dbbrain_diag_event}
 */
 export class DataTencentcloudDbbrainDiagEvent extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataTencentcloudDbbrainDiagEvent extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudDbbrainDiagEvent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDbbrainDiagEvent to import
-  * @param importFromId The id of the existing DataTencentcloudDbbrainDiagEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_diag_event#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDbbrainDiagEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_diag_event#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDbbrainDiagEvent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataTencentcloudDbbrainDiagEvent extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_diag_event tencentcloud_dbbrain_diag_event} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_diag_event tencentcloud_dbbrain_diag_event} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataTencentcloudDbbrainDiagEvent extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_dbbrain_diag_event',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

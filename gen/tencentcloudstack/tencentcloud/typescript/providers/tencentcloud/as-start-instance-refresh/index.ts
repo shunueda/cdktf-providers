@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AsStartInstanceRefreshConfig extends cdktf.TerraformMetaArgumen
   /**
   * Scaling group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#auto_scaling_group_id AsStartInstanceRefresh#auto_scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#auto_scaling_group_id AsStartInstanceRefresh#auto_scaling_group_id}
   */
   readonly autoScalingGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#id AsStartInstanceRefresh#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#id AsStartInstanceRefresh#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface AsStartInstanceRefreshConfig extends cdktf.TerraformMetaArgumen
   /**
   * Refresh mode. Value range: ROLLING_UPDATE_RESET: Reinstall the system for rolling update; ROLLING_UPDATE_REPLACE: Create a new instance for rolling update. This mode does not support the rollback interface yet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#refresh_mode AsStartInstanceRefresh#refresh_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#refresh_mode AsStartInstanceRefresh#refresh_mode}
   */
   readonly refreshMode?: string;
   /**
   * refresh_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#refresh_settings AsStartInstanceRefresh#refresh_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#refresh_settings AsStartInstanceRefresh#refresh_settings}
   */
   readonly refreshSettings: AsStartInstanceRefreshRefreshSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#timeouts AsStartInstanceRefresh#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#timeouts AsStartInstanceRefresh#timeouts}
   */
   readonly timeouts?: AsStartInstanceRefreshTimeouts;
 }
@@ -43,25 +43,25 @@ export interface AsStartInstanceRefreshRefreshSettingsRollingUpdateSettings {
   /**
   * Batch quantity. The batch quantity should be a positive integer greater than 0, but cannot exceed the total number of instances pending refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#batch_number AsStartInstanceRefresh#batch_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#batch_number AsStartInstanceRefresh#batch_number}
   */
   readonly batchNumber: number;
   /**
   * Pause policy between batches. Default value: Automatic. Valid values: <br><li>FIRST_BATCH_PAUSE: Pause after the first batch update completes.</li> <li>BATCH_INTERVAL_PAUSE: Pause between each batch update.</li> <li>AUTOMATIC: No pauses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#batch_pause AsStartInstanceRefresh#batch_pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#batch_pause AsStartInstanceRefresh#batch_pause}
   */
   readonly batchPause?: string;
   /**
   * Failure Handling Policy. The default value is `AUTO_PAUSE`. The values are as follows, `AUTO_PAUSE`: Pause after refresh fails; `AUTO_ROLLBACK`: Roll back after refresh fails; `AUTO_CANCEL`: Cancel after refresh fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#fail_process AsStartInstanceRefresh#fail_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#fail_process AsStartInstanceRefresh#fail_process}
   */
   readonly failProcess?: string;
   /**
   * Maximum Extra Quantity. After setting this parameter, a batch of pay-as-you-go extra instances will be created according to the launch configuration before the rolling update starts, and the extra instances will be destroyed after the rolling update is completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#max_surge AsStartInstanceRefresh#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#max_surge AsStartInstanceRefresh#max_surge}
   */
   readonly maxSurge?: number;
 }
@@ -231,19 +231,19 @@ export interface AsStartInstanceRefreshRefreshSettings {
   /**
   * Backend service health check status for instances, defaults to FALSE. This setting takes effect only for scaling groups bound with application load balancers. When enabled, if an instance fails the check after being refreshed, its load balancer port weight remains 0 and is marked as a refresh failure. Valid values: <br><li>TRUE: Enable the check.</li> <li>FALSE: Do not enable the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#check_instance_target_health AsStartInstanceRefresh#check_instance_target_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#check_instance_target_health AsStartInstanceRefresh#check_instance_target_health}
   */
   readonly checkInstanceTargetHealth?: boolean | cdktf.IResolvable;
   /**
   * The timeout period for backend service health status checks, in seconds. The valid range is [60, 7200], with a default value of 1800 seconds. This takes effect only when the CheckInstanceTargetHealth parameter is enabled. If the instance health check times out, it will be marked as a refresh failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#check_instance_target_health_timeout AsStartInstanceRefresh#check_instance_target_health_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#check_instance_target_health_timeout AsStartInstanceRefresh#check_instance_target_health_timeout}
   */
   readonly checkInstanceTargetHealthTimeout?: number;
   /**
   * rolling_update_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#rolling_update_settings AsStartInstanceRefresh#rolling_update_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#rolling_update_settings AsStartInstanceRefresh#rolling_update_settings}
   */
   readonly rollingUpdateSettings: AsStartInstanceRefreshRefreshSettingsRollingUpdateSettings;
 }
@@ -382,7 +382,7 @@ export class AsStartInstanceRefreshRefreshSettingsOutputReference extends cdktf.
 }
 export interface AsStartInstanceRefreshTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#create AsStartInstanceRefresh#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#create AsStartInstanceRefresh#create}
   */
   readonly create?: string;
 }
@@ -476,7 +476,7 @@ export class AsStartInstanceRefreshTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh tencentcloud_as_start_instance_refresh}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh tencentcloud_as_start_instance_refresh}
 */
 export class AsStartInstanceRefresh extends cdktf.TerraformResource {
 
@@ -492,7 +492,7 @@ export class AsStartInstanceRefresh extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsStartInstanceRefresh resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsStartInstanceRefresh to import
-  * @param importFromId The id of the existing AsStartInstanceRefresh that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsStartInstanceRefresh that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsStartInstanceRefresh to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -504,7 +504,7 @@ export class AsStartInstanceRefresh extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/as_start_instance_refresh tencentcloud_as_start_instance_refresh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_start_instance_refresh tencentcloud_as_start_instance_refresh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -515,8 +515,8 @@ export class AsStartInstanceRefresh extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_as_start_instance_refresh',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_security_audit_log_export_tasks
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_security_audit_log_export_tasks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDbbrainSecurityAuditLogExportTasksConfig extend
   /**
   * async request id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_security_audit_log_export_tasks#async_request_ids DataTencentcloudDbbrainSecurityAuditLogExportTasks#async_request_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_security_audit_log_export_tasks#async_request_ids DataTencentcloudDbbrainSecurityAuditLogExportTasks#async_request_ids}
   */
   readonly asyncRequestIds?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_security_audit_log_export_tasks#id DataTencentcloudDbbrainSecurityAuditLogExportTasks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_security_audit_log_export_tasks#id DataTencentcloudDbbrainSecurityAuditLogExportTasks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudDbbrainSecurityAuditLogExportTasksConfig extend
   /**
   * product, optional value is mysql.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_security_audit_log_export_tasks#product DataTencentcloudDbbrainSecurityAuditLogExportTasks#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_security_audit_log_export_tasks#product DataTencentcloudDbbrainSecurityAuditLogExportTasks#product}
   */
   readonly product: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_security_audit_log_export_tasks#result_output_file DataTencentcloudDbbrainSecurityAuditLogExportTasks#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_security_audit_log_export_tasks#result_output_file DataTencentcloudDbbrainSecurityAuditLogExportTasks#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * security audit group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_security_audit_log_export_tasks#sec_audit_group_id DataTencentcloudDbbrainSecurityAuditLogExportTasks#sec_audit_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_security_audit_log_export_tasks#sec_audit_group_id DataTencentcloudDbbrainSecurityAuditLogExportTasks#sec_audit_group_id}
   */
   readonly secAuditGroupId: string;
 }
@@ -161,7 +161,7 @@ export class DataTencentcloudDbbrainSecurityAuditLogExportTasksListStructList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_security_audit_log_export_tasks tencentcloud_dbbrain_security_audit_log_export_tasks}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_security_audit_log_export_tasks tencentcloud_dbbrain_security_audit_log_export_tasks}
 */
 export class DataTencentcloudDbbrainSecurityAuditLogExportTasks extends cdktf.TerraformDataSource {
 
@@ -177,7 +177,7 @@ export class DataTencentcloudDbbrainSecurityAuditLogExportTasks extends cdktf.Te
   * Generates CDKTF code for importing a DataTencentcloudDbbrainSecurityAuditLogExportTasks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDbbrainSecurityAuditLogExportTasks to import
-  * @param importFromId The id of the existing DataTencentcloudDbbrainSecurityAuditLogExportTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_security_audit_log_export_tasks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDbbrainSecurityAuditLogExportTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_security_audit_log_export_tasks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDbbrainSecurityAuditLogExportTasks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DataTencentcloudDbbrainSecurityAuditLogExportTasks extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_security_audit_log_export_tasks tencentcloud_dbbrain_security_audit_log_export_tasks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_security_audit_log_export_tasks tencentcloud_dbbrain_security_audit_log_export_tasks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DataTencentcloudDbbrainSecurityAuditLogExportTasks extends cdktf.Te
       terraformResourceType: 'tencentcloud_dbbrain_security_audit_log_export_tasks',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

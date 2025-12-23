@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataTalosMachineDisksConfig extends cdktf.TerraformMetaArgument
   /**
   * The client configuration data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks#client_configuration DataTalosMachineDisks#client_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks#client_configuration DataTalosMachineDisks#client_configuration}
   */
   readonly clientConfiguration: DataTalosMachineDisksClientConfiguration;
   /**
   * endpoint to use for the talosclient. If not set, the node value will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks#endpoint DataTalosMachineDisks#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks#endpoint DataTalosMachineDisks#endpoint}
   */
   readonly endpoint?: string;
   /**
   * controlplane node to retrieve the kubeconfig from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks#node DataTalosMachineDisks#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks#node DataTalosMachineDisks#node}
   */
   readonly nodeAttribute: string;
   /**
@@ -30,11 +30,11 @@ export interface DataTalosMachineDisksConfig extends cdktf.TerraformMetaArgument
   * If not set, all disks will be returned.
   * See [CEL documentation](https://www.talos.dev/latest/talos-guides/configuration/disk-management/#disk-selector).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks#selector DataTalosMachineDisks#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks#selector DataTalosMachineDisks#selector}
   */
   readonly selector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks#timeouts DataTalosMachineDisks#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks#timeouts DataTalosMachineDisks#timeouts}
   */
   readonly timeouts?: DataTalosMachineDisksTimeouts;
 }
@@ -42,19 +42,19 @@ export interface DataTalosMachineDisksClientConfiguration {
   /**
   * The client CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks#ca_certificate DataTalosMachineDisks#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks#ca_certificate DataTalosMachineDisks#ca_certificate}
   */
   readonly caCertificate: string;
   /**
   * The client certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks#client_certificate DataTalosMachineDisks#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks#client_certificate DataTalosMachineDisks#client_certificate}
   */
   readonly clientCertificate: string;
   /**
   * The client key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks#client_key DataTalosMachineDisks#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks#client_key DataTalosMachineDisks#client_key}
   */
   readonly clientKey: string;
 }
@@ -359,7 +359,7 @@ export interface DataTalosMachineDisksTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks#read DataTalosMachineDisks#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks#read DataTalosMachineDisks#read}
   */
   readonly read?: string;
 }
@@ -453,7 +453,7 @@ export class DataTalosMachineDisksTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks talos_machine_disks}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks talos_machine_disks}
 */
 export class DataTalosMachineDisks extends cdktf.TerraformDataSource {
 
@@ -469,7 +469,7 @@ export class DataTalosMachineDisks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTalosMachineDisks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTalosMachineDisks to import
-  * @param importFromId The id of the existing DataTalosMachineDisks that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTalosMachineDisks that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTalosMachineDisks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -481,7 +481,7 @@ export class DataTalosMachineDisks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_disks talos_machine_disks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_disks talos_machine_disks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -492,8 +492,8 @@ export class DataTalosMachineDisks extends cdktf.TerraformDataSource {
       terraformResourceType: 'talos_machine_disks',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

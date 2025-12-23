@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_diagnose
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_diagnose
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ElasticsearchDiagnoseConfig extends cdktf.TerraformMetaArgument
   /**
   * Intelligent operation and maintenance staff regularly patrol the inspection time every day, the time format is HH:00:00, such as 15:00:00.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_diagnose#cron_time ElasticsearchDiagnose#cron_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_diagnose#cron_time ElasticsearchDiagnose#cron_time}
   */
   readonly cronTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_diagnose#id ElasticsearchDiagnose#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_diagnose#id ElasticsearchDiagnose#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface ElasticsearchDiagnoseConfig extends cdktf.TerraformMetaArgument
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_diagnose#instance_id ElasticsearchDiagnose#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_diagnose#instance_id ElasticsearchDiagnose#instance_id}
   */
   readonly instanceId: string;
 }
@@ -114,7 +114,7 @@ export class ElasticsearchDiagnoseDiagnoseJobMetasList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_diagnose tencentcloud_elasticsearch_diagnose}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_diagnose tencentcloud_elasticsearch_diagnose}
 */
 export class ElasticsearchDiagnose extends cdktf.TerraformResource {
 
@@ -130,7 +130,7 @@ export class ElasticsearchDiagnose extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchDiagnose resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchDiagnose to import
-  * @param importFromId The id of the existing ElasticsearchDiagnose that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_diagnose#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchDiagnose that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_diagnose#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchDiagnose to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class ElasticsearchDiagnose extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_diagnose tencentcloud_elasticsearch_diagnose} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_diagnose tencentcloud_elasticsearch_diagnose} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class ElasticsearchDiagnose extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_elasticsearch_diagnose',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

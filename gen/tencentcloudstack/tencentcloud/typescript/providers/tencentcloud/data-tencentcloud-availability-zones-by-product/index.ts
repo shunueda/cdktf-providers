@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/availability_zones_by_product
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/availability_zones_by_product
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudAvailabilityZonesByProductConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/availability_zones_by_product#id DataTencentcloudAvailabilityZonesByProduct#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/availability_zones_by_product#id DataTencentcloudAvailabilityZonesByProduct#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudAvailabilityZonesByProductConfig extends cdktf.
   /**
   * A bool variable indicates that the query will include `UNAVAILABLE` zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/availability_zones_by_product#include_unavailable DataTencentcloudAvailabilityZonesByProduct#include_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/availability_zones_by_product#include_unavailable DataTencentcloudAvailabilityZonesByProduct#include_unavailable}
   */
   readonly includeUnavailable?: boolean | cdktf.IResolvable;
   /**
   * When specified, only the zone with the exactly name match will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/availability_zones_by_product#name DataTencentcloudAvailabilityZonesByProduct#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/availability_zones_by_product#name DataTencentcloudAvailabilityZonesByProduct#name}
   */
   readonly name?: string;
   /**
   * A string variable indicates that the query will use product information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/availability_zones_by_product#product DataTencentcloudAvailabilityZonesByProduct#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/availability_zones_by_product#product DataTencentcloudAvailabilityZonesByProduct#product}
   */
   readonly product: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/availability_zones_by_product#result_output_file DataTencentcloudAvailabilityZonesByProduct#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/availability_zones_by_product#result_output_file DataTencentcloudAvailabilityZonesByProduct#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -131,7 +131,7 @@ export class DataTencentcloudAvailabilityZonesByProductZonesList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/availability_zones_by_product tencentcloud_availability_zones_by_product}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/availability_zones_by_product tencentcloud_availability_zones_by_product}
 */
 export class DataTencentcloudAvailabilityZonesByProduct extends cdktf.TerraformDataSource {
 
@@ -147,7 +147,7 @@ export class DataTencentcloudAvailabilityZonesByProduct extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataTencentcloudAvailabilityZonesByProduct resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudAvailabilityZonesByProduct to import
-  * @param importFromId The id of the existing DataTencentcloudAvailabilityZonesByProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/availability_zones_by_product#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudAvailabilityZonesByProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/availability_zones_by_product#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudAvailabilityZonesByProduct to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DataTencentcloudAvailabilityZonesByProduct extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/availability_zones_by_product tencentcloud_availability_zones_by_product} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/availability_zones_by_product tencentcloud_availability_zones_by_product} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class DataTencentcloudAvailabilityZonesByProduct extends cdktf.TerraformD
       terraformResourceType: 'tencentcloud_availability_zones_by_product',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

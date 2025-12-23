@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CiMediaVoiceSeparateTemplateConfig extends cdktf.TerraformMetaA
   /**
   * Output audio IsAudio: output human voice, IsBackground: output background sound, AudioAndBackground: output vocal and background sound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template#audio_mode CiMediaVoiceSeparateTemplate#audio_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template#audio_mode CiMediaVoiceSeparateTemplate#audio_mode}
   */
   readonly audioMode: string;
   /**
   * bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template#bucket CiMediaVoiceSeparateTemplate#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template#bucket CiMediaVoiceSeparateTemplate#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template#id CiMediaVoiceSeparateTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template#id CiMediaVoiceSeparateTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface CiMediaVoiceSeparateTemplateConfig extends cdktf.TerraformMetaA
   /**
   * The template name only supports `Chinese`, `English`, `numbers`, `_`, `-` and `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template#name CiMediaVoiceSeparateTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template#name CiMediaVoiceSeparateTemplate#name}
   */
   readonly name: string;
   /**
   * audio_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template#audio_config CiMediaVoiceSeparateTemplate#audio_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template#audio_config CiMediaVoiceSeparateTemplate#audio_config}
   */
   readonly audioConfig: CiMediaVoiceSeparateTemplateAudioConfig;
 }
@@ -43,25 +43,25 @@ export interface CiMediaVoiceSeparateTemplateAudioConfig {
   /**
   * Original audio bit rate, unit: Kbps, Value range: [8, 1000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template#bitrate CiMediaVoiceSeparateTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template#bitrate CiMediaVoiceSeparateTemplate#bitrate}
   */
   readonly bitrate?: string;
   /**
   * number of channels- When Codec is set to aac/flac, support 1, 2, 4, 5, 6, 8- When Codec is set to mp3, support 1, 2- When Codec is set to amr, only 1 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template#channels CiMediaVoiceSeparateTemplate#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template#channels CiMediaVoiceSeparateTemplate#channels}
   */
   readonly channels?: string;
   /**
   * Codec format, value aac, mp3, flac, amr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template#codec CiMediaVoiceSeparateTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template#codec CiMediaVoiceSeparateTemplate#codec}
   */
   readonly codec: string;
   /**
   * Sampling Rate- 1: Unit: Hz- 2: Optional 8000, 11025, 22050, 32000, 44100, 48000, 96000- 3: When Codec is set to aac/flac, 8000 is not supported- 4: When Codec is set to mp3, 8000 and 96000 are not supported- 5: When Codec is set to amr, only 8000 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template#samplerate CiMediaVoiceSeparateTemplate#samplerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template#samplerate CiMediaVoiceSeparateTemplate#samplerate}
   */
   readonly samplerate?: string;
 }
@@ -229,7 +229,7 @@ export class CiMediaVoiceSeparateTemplateAudioConfigOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template tencentcloud_ci_media_voice_separate_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template tencentcloud_ci_media_voice_separate_template}
 */
 export class CiMediaVoiceSeparateTemplate extends cdktf.TerraformResource {
 
@@ -245,7 +245,7 @@ export class CiMediaVoiceSeparateTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CiMediaVoiceSeparateTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CiMediaVoiceSeparateTemplate to import
-  * @param importFromId The id of the existing CiMediaVoiceSeparateTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CiMediaVoiceSeparateTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CiMediaVoiceSeparateTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -257,7 +257,7 @@ export class CiMediaVoiceSeparateTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ci_media_voice_separate_template tencentcloud_ci_media_voice_separate_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ci_media_voice_separate_template tencentcloud_ci_media_voice_separate_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -268,8 +268,8 @@ export class CiMediaVoiceSeparateTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ci_media_voice_separate_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

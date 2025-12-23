@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_restart_kibana_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_restart_kibana_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ElasticsearchRestartKibanaOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_restart_kibana_operation#id ElasticsearchRestartKibanaOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_restart_kibana_operation#id ElasticsearchRestartKibanaOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ElasticsearchRestartKibanaOperationConfig extends cdktf.Terrafo
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_restart_kibana_operation#instance_id ElasticsearchRestartKibanaOperation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_restart_kibana_operation#instance_id ElasticsearchRestartKibanaOperation#instance_id}
   */
   readonly instanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_restart_kibana_operation tencentcloud_elasticsearch_restart_kibana_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_restart_kibana_operation tencentcloud_elasticsearch_restart_kibana_operation}
 */
 export class ElasticsearchRestartKibanaOperation extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class ElasticsearchRestartKibanaOperation extends cdktf.TerraformResource
   * Generates CDKTF code for importing a ElasticsearchRestartKibanaOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchRestartKibanaOperation to import
-  * @param importFromId The id of the existing ElasticsearchRestartKibanaOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_restart_kibana_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchRestartKibanaOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_restart_kibana_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchRestartKibanaOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class ElasticsearchRestartKibanaOperation extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/elasticsearch_restart_kibana_operation tencentcloud_elasticsearch_restart_kibana_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_restart_kibana_operation tencentcloud_elasticsearch_restart_kibana_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class ElasticsearchRestartKibanaOperation extends cdktf.TerraformResource
       terraformResourceType: 'tencentcloud_elasticsearch_restart_kibana_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

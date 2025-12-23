@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDlcDescribeUserInfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info#id DataTencentcloudDlcDescribeUserInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info#id DataTencentcloudDlcDescribeUserInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataTencentcloudDlcDescribeUserInfoConfig extends cdktf.Terrafo
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info#result_output_file DataTencentcloudDlcDescribeUserInfo#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info#result_output_file DataTencentcloudDlcDescribeUserInfo#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Sort fields.When the type is Group, the create-time and group-name are supported.When the type is DataAuth, create-time is supported.When the type is EngineAuth, create-time is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info#sort_by DataTencentcloudDlcDescribeUserInfo#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info#sort_by DataTencentcloudDlcDescribeUserInfo#sort_by}
   */
   readonly sortBy?: string;
   /**
   * Sorting methods: desc means in order; asc means in reverse order; it is asc by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info#sorting DataTencentcloudDlcDescribeUserInfo#sorting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info#sorting DataTencentcloudDlcDescribeUserInfo#sorting}
   */
   readonly sorting?: string;
   /**
   * Type of queried information. Group: working group; DataAuth: data permission; EngineAuth: engine permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info#type DataTencentcloudDlcDescribeUserInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info#type DataTencentcloudDlcDescribeUserInfo#type}
   */
   readonly type?: string;
   /**
   * User ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info#user_id DataTencentcloudDlcDescribeUserInfo#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info#user_id DataTencentcloudDlcDescribeUserInfo#user_id}
   */
   readonly userId?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info#filters DataTencentcloudDlcDescribeUserInfo#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info#filters DataTencentcloudDlcDescribeUserInfo#filters}
   */
   readonly filters?: DataTencentcloudDlcDescribeUserInfoFilters[] | cdktf.IResolvable;
 }
@@ -1305,13 +1305,13 @@ export interface DataTencentcloudDlcDescribeUserInfoFilters {
   /**
   * Attribute name. If more than one filter exists, the logical relationship between these filters is `OR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info#name DataTencentcloudDlcDescribeUserInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info#name DataTencentcloudDlcDescribeUserInfo#name}
   */
   readonly name: string;
   /**
   * Attribute value. If multiple values exist in one filter, the logical relationship between these values is `OR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info#values DataTencentcloudDlcDescribeUserInfo#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info#values DataTencentcloudDlcDescribeUserInfo#values}
   */
   readonly values: string[];
 }
@@ -1450,7 +1450,7 @@ export class DataTencentcloudDlcDescribeUserInfoFiltersList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info tencentcloud_dlc_describe_user_info}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info tencentcloud_dlc_describe_user_info}
 */
 export class DataTencentcloudDlcDescribeUserInfo extends cdktf.TerraformDataSource {
 
@@ -1466,7 +1466,7 @@ export class DataTencentcloudDlcDescribeUserInfo extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudDlcDescribeUserInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDlcDescribeUserInfo to import
-  * @param importFromId The id of the existing DataTencentcloudDlcDescribeUserInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDlcDescribeUserInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDlcDescribeUserInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1478,7 +1478,7 @@ export class DataTencentcloudDlcDescribeUserInfo extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_user_info tencentcloud_dlc_describe_user_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_user_info tencentcloud_dlc_describe_user_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1489,8 +1489,8 @@ export class DataTencentcloudDlcDescribeUserInfo extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_dlc_describe_user_info',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DnsZoneRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * A domain of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#domain DnsZoneRecord#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#domain DnsZoneRecord#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#id DnsZoneRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#id DnsZoneRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DnsZoneRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * A ttl of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#ttl DnsZoneRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#ttl DnsZoneRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * A type of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#type DnsZoneRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#type DnsZoneRecord#type}
   */
   readonly type: string;
   /**
   * A zone of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#zone DnsZoneRecord#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#zone DnsZoneRecord#zone}
   */
   readonly zone: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#filter DnsZoneRecord#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#filter DnsZoneRecord#filter}
   */
   readonly filter?: DnsZoneRecordFilter[] | cdktf.IResolvable;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#meta DnsZoneRecord#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#meta DnsZoneRecord#meta}
   */
   readonly meta: DnsZoneRecordMeta;
   /**
   * resource_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#resource_record DnsZoneRecord#resource_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#resource_record DnsZoneRecord#resource_record}
   */
   readonly resourceRecord: DnsZoneRecordResourceRecord[] | cdktf.IResolvable;
 }
@@ -61,19 +61,19 @@ export interface DnsZoneRecordFilter {
   /**
   * A DNS Zone Record filter option that describe how many records will be percolated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#limit DnsZoneRecord#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#limit DnsZoneRecord#limit}
   */
   readonly limit?: number;
   /**
   * A DNS Zone Record filter option that describe possibility to return answers if no records were percolated through filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#strict DnsZoneRecord#strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#strict DnsZoneRecord#strict}
   */
   readonly strict?: boolean | cdktf.IResolvable;
   /**
   * A DNS Zone Record filter option that describe a name of filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#type DnsZoneRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#type DnsZoneRecord#type}
   */
   readonly type: string;
 }
@@ -246,67 +246,67 @@ export interface DnsZoneRecordMetaFailover {
   /**
   * A failover frequency of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#frequency DnsZoneRecord#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#frequency DnsZoneRecord#frequency}
   */
   readonly frequency: number;
   /**
   * A failover host of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#host DnsZoneRecord#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#host DnsZoneRecord#host}
   */
   readonly host?: string;
   /**
   * A failover http status code of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#http_status_code DnsZoneRecord#http_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#http_status_code DnsZoneRecord#http_status_code}
   */
   readonly httpStatusCode?: number;
   /**
   * A failover method of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#method DnsZoneRecord#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#method DnsZoneRecord#method}
   */
   readonly method?: string;
   /**
   * A failover port of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#port DnsZoneRecord#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#port DnsZoneRecord#port}
   */
   readonly port?: number;
   /**
   * A failover protocol of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#protocol DnsZoneRecord#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#protocol DnsZoneRecord#protocol}
   */
   readonly protocol: string;
   /**
   * A failover regexp of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#regexp DnsZoneRecord#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#regexp DnsZoneRecord#regexp}
   */
   readonly regexp?: string;
   /**
   * A failover timeout of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#timeout DnsZoneRecord#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#timeout DnsZoneRecord#timeout}
   */
   readonly timeout: number;
   /**
   * A failover tls of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#tls DnsZoneRecord#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#tls DnsZoneRecord#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
   * A failover url of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#url DnsZoneRecord#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#url DnsZoneRecord#url}
   */
   readonly url?: string;
   /**
   * A failover verify of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#verify DnsZoneRecord#verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#verify DnsZoneRecord#verify}
   */
   readonly verify?: boolean | cdktf.IResolvable;
 }
@@ -673,7 +673,7 @@ export interface DnsZoneRecordMeta {
   /**
   * failover block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#failover DnsZoneRecord#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#failover DnsZoneRecord#failover}
   */
   readonly failover?: DnsZoneRecordMetaFailover;
 }
@@ -759,43 +759,43 @@ export interface DnsZoneRecordResourceRecordMeta {
   /**
   * An asn meta (e.g. 12345) of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#asn DnsZoneRecord#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#asn DnsZoneRecord#asn}
   */
   readonly asn?: number[];
   /**
   * Continents meta (e.g. Asia) of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#continents DnsZoneRecord#continents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#continents DnsZoneRecord#continents}
   */
   readonly continents?: string[];
   /**
   * Countries meta (e.g. USA) of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#countries DnsZoneRecord#countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#countries DnsZoneRecord#countries}
   */
   readonly countries?: string[];
   /**
   * Fallback meta equals true marks records which are used as a default answer (when nothing was selected by specified meta fields).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#default DnsZoneRecord#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#default DnsZoneRecord#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * An ip meta (e.g. 127.0.0.0) of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#ip DnsZoneRecord#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#ip DnsZoneRecord#ip}
   */
   readonly ip?: string[];
   /**
   * A latlong meta (e.g. 27.988056, 86.925278) of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#latlong DnsZoneRecord#latlong}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#latlong DnsZoneRecord#latlong}
   */
   readonly latlong?: number[];
   /**
   * A notes meta (e.g. Miami DC) of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#notes DnsZoneRecord#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#notes DnsZoneRecord#notes}
   */
   readonly notes?: string[];
 }
@@ -1055,19 +1055,19 @@ export interface DnsZoneRecordResourceRecord {
   /**
   * A content of DNS Zone Record resource. (TXT: 'anyString', MX: '50 mail.company.io.', CAA: '0 issue "company.org; account=12345"')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#content DnsZoneRecord#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#content DnsZoneRecord#content}
   */
   readonly content: string;
   /**
   * Manage of public appearing of DNS Zone Record resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#enabled DnsZoneRecord#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#enabled DnsZoneRecord#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#meta DnsZoneRecord#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#meta DnsZoneRecord#meta}
   */
   readonly meta?: DnsZoneRecordResourceRecordMeta;
 }
@@ -1238,7 +1238,7 @@ export class DnsZoneRecordResourceRecordList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record edgecenter_dns_zone_record}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record edgecenter_dns_zone_record}
 */
 export class DnsZoneRecord extends cdktf.TerraformResource {
 
@@ -1254,7 +1254,7 @@ export class DnsZoneRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsZoneRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsZoneRecord to import
-  * @param importFromId The id of the existing DnsZoneRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsZoneRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsZoneRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1266,7 +1266,7 @@ export class DnsZoneRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/dns_zone_record edgecenter_dns_zone_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/dns_zone_record edgecenter_dns_zone_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1277,8 +1277,8 @@ export class DnsZoneRecord extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_dns_zone_record',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_rollback_time
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_rollback_time
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudSqlserverRollbackTimeConfig extends cdktf.Terra
   /**
   * List of databases to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_rollback_time#dbs DataTencentcloudSqlserverRollbackTime#dbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_rollback_time#dbs DataTencentcloudSqlserverRollbackTime#dbs}
   */
   readonly dbs: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_rollback_time#id DataTencentcloudSqlserverRollbackTime#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_rollback_time#id DataTencentcloudSqlserverRollbackTime#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudSqlserverRollbackTimeConfig extends cdktf.Terra
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_rollback_time#instance_id DataTencentcloudSqlserverRollbackTime#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_rollback_time#instance_id DataTencentcloudSqlserverRollbackTime#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_rollback_time#result_output_file DataTencentcloudSqlserverRollbackTime#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_rollback_time#result_output_file DataTencentcloudSqlserverRollbackTime#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -120,7 +120,7 @@ export class DataTencentcloudSqlserverRollbackTimeDetailsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_rollback_time tencentcloud_sqlserver_rollback_time}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_rollback_time tencentcloud_sqlserver_rollback_time}
 */
 export class DataTencentcloudSqlserverRollbackTime extends cdktf.TerraformDataSource {
 
@@ -136,7 +136,7 @@ export class DataTencentcloudSqlserverRollbackTime extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudSqlserverRollbackTime resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSqlserverRollbackTime to import
-  * @param importFromId The id of the existing DataTencentcloudSqlserverRollbackTime that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_rollback_time#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSqlserverRollbackTime that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_rollback_time#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSqlserverRollbackTime to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +148,7 @@ export class DataTencentcloudSqlserverRollbackTime extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_rollback_time tencentcloud_sqlserver_rollback_time} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_rollback_time tencentcloud_sqlserver_rollback_time} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +159,8 @@ export class DataTencentcloudSqlserverRollbackTime extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_sqlserver_rollback_time',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

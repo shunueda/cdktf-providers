@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cvm_renew_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CvmRenewInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_instance#id CvmRenewInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cvm_renew_instance#id CvmRenewInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface CvmRenewInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_instance#instance_id CvmRenewInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cvm_renew_instance#instance_id CvmRenewInstance#instance_id}
   */
   readonly instanceId: string;
   /**
@@ -26,13 +26,13 @@ export interface CvmRenewInstanceConfig extends cdktf.TerraformMetaArguments {
   * - `FALSE`: Indicates that the subscription instance will be renewed and the elastic data disk attached to it will not be renewed
   * Default value: TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_instance#renew_portable_data_disk CvmRenewInstance#renew_portable_data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cvm_renew_instance#renew_portable_data_disk CvmRenewInstance#renew_portable_data_disk}
   */
   readonly renewPortableDataDisk?: boolean | cdktf.IResolvable;
   /**
   * instance_charge_prepaid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_instance#instance_charge_prepaid CvmRenewInstance#instance_charge_prepaid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cvm_renew_instance#instance_charge_prepaid CvmRenewInstance#instance_charge_prepaid}
   */
   readonly instanceChargePrepaid?: CvmRenewInstanceInstanceChargePrepaid;
 }
@@ -40,7 +40,7 @@ export interface CvmRenewInstanceInstanceChargePrepaid {
   /**
   * Subscription period; unit: month; valid values: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 24, 36, 48, 60. Note: This field may return null, indicating that no valid value is found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_instance#period CvmRenewInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cvm_renew_instance#period CvmRenewInstance#period}
   */
   readonly period: number;
   /**
@@ -50,7 +50,7 @@ export interface CvmRenewInstanceInstanceChargePrepaid {
   * - `DISABLE_NOTIFY_AND_MANUAL_RENEW`: neither notify upon expiration nor renew automatically;
   * Default value: NOTIFY_AND_MANUAL_RENEW. If this parameter is specified as NOTIFY_AND_AUTO_RENEW, the instance will be automatically renewed on a monthly basis if the account balance is sufficient. Note: This field may return null, indicating that no valid value is found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_instance#renew_flag CvmRenewInstance#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cvm_renew_instance#renew_flag CvmRenewInstance#renew_flag}
   */
   readonly renewFlag?: string;
 }
@@ -160,7 +160,7 @@ export class CvmRenewInstanceInstanceChargePrepaidOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_instance tencentcloud_cvm_renew_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cvm_renew_instance tencentcloud_cvm_renew_instance}
 */
 export class CvmRenewInstance extends cdktf.TerraformResource {
 
@@ -176,7 +176,7 @@ export class CvmRenewInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvmRenewInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvmRenewInstance to import
-  * @param importFromId The id of the existing CvmRenewInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvmRenewInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cvm_renew_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvmRenewInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -188,7 +188,7 @@ export class CvmRenewInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_instance tencentcloud_cvm_renew_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cvm_renew_instance tencentcloud_cvm_renew_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -199,8 +199,8 @@ export class CvmRenewInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cvm_renew_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TcaplusTableConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the TcaplusDB cluster to which the table belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table#cluster_id TcaplusTable#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table#cluster_id TcaplusTable#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Description of the TcaplusDB table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table#description TcaplusTable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table#description TcaplusTable#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table#id TcaplusTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table#id TcaplusTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface TcaplusTableConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the IDL File.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table#idl_id TcaplusTable#idl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table#idl_id TcaplusTable#idl_id}
   */
   readonly idlId: string;
   /**
   * Reserved read capacity units of the TcaplusDB table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table#reserved_read_cu TcaplusTable#reserved_read_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table#reserved_read_cu TcaplusTable#reserved_read_cu}
   */
   readonly reservedReadCu: number;
   /**
   * Reserved storage capacity of the TcaplusDB table (unit: GB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table#reserved_volume TcaplusTable#reserved_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table#reserved_volume TcaplusTable#reserved_volume}
   */
   readonly reservedVolume: number;
   /**
   * Reserved write capacity units of the TcaplusDB table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table#reserved_write_cu TcaplusTable#reserved_write_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table#reserved_write_cu TcaplusTable#reserved_write_cu}
   */
   readonly reservedWriteCu: number;
   /**
   * IDL type of the TcaplusDB table. Valid values: `PROTO` and `TDR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table#table_idl_type TcaplusTable#table_idl_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table#table_idl_type TcaplusTable#table_idl_type}
   */
   readonly tableIdlType: string;
   /**
   * Name of the TcaplusDB table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table#table_name TcaplusTable#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table#table_name TcaplusTable#table_name}
   */
   readonly tableName: string;
   /**
   * Type of the TcaplusDB table. Valid values are `GENERIC` and `LIST`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table#table_type TcaplusTable#table_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table#table_type TcaplusTable#table_type}
   */
   readonly tableType: string;
   /**
   * ID of the table group to which the table belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table#tablegroup_id TcaplusTable#tablegroup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table#tablegroup_id TcaplusTable#tablegroup_id}
   */
   readonly tablegroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table tencentcloud_tcaplus_table}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table tencentcloud_tcaplus_table}
 */
 export class TcaplusTable extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class TcaplusTable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcaplusTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcaplusTable to import
-  * @param importFromId The id of the existing TcaplusTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcaplusTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcaplusTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class TcaplusTable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcaplus_table tencentcloud_tcaplus_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcaplus_table tencentcloud_tcaplus_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class TcaplusTable extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcaplus_table',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

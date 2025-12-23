@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_account_db_attachments
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_account_db_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudSqlserverAccountDbAttachmentsConfig extends cdk
   /**
   * Name of the SQL Server account to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_account_db_attachments#account_name DataTencentcloudSqlserverAccountDbAttachments#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_account_db_attachments#account_name DataTencentcloudSqlserverAccountDbAttachments#account_name}
   */
   readonly accountName?: string;
   /**
   * Name of the DB to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_account_db_attachments#db_name DataTencentcloudSqlserverAccountDbAttachments#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_account_db_attachments#db_name DataTencentcloudSqlserverAccountDbAttachments#db_name}
   */
   readonly dbName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_account_db_attachments#id DataTencentcloudSqlserverAccountDbAttachments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_account_db_attachments#id DataTencentcloudSqlserverAccountDbAttachments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataTencentcloudSqlserverAccountDbAttachmentsConfig extends cdk
   /**
   * SQL Server instance ID that the account belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_account_db_attachments#instance_id DataTencentcloudSqlserverAccountDbAttachments#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_account_db_attachments#instance_id DataTencentcloudSqlserverAccountDbAttachments#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to store results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_account_db_attachments#result_output_file DataTencentcloudSqlserverAccountDbAttachments#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_account_db_attachments#result_output_file DataTencentcloudSqlserverAccountDbAttachments#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -131,7 +131,7 @@ export class DataTencentcloudSqlserverAccountDbAttachmentsListStructList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_account_db_attachments tencentcloud_sqlserver_account_db_attachments}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_account_db_attachments tencentcloud_sqlserver_account_db_attachments}
 */
 export class DataTencentcloudSqlserverAccountDbAttachments extends cdktf.TerraformDataSource {
 
@@ -147,7 +147,7 @@ export class DataTencentcloudSqlserverAccountDbAttachments extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataTencentcloudSqlserverAccountDbAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSqlserverAccountDbAttachments to import
-  * @param importFromId The id of the existing DataTencentcloudSqlserverAccountDbAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_account_db_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSqlserverAccountDbAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_account_db_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSqlserverAccountDbAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DataTencentcloudSqlserverAccountDbAttachments extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/sqlserver_account_db_attachments tencentcloud_sqlserver_account_db_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/sqlserver_account_db_attachments tencentcloud_sqlserver_account_db_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class DataTencentcloudSqlserverAccountDbAttachments extends cdktf.Terrafo
       terraformResourceType: 'tencentcloud_sqlserver_account_db_attachments',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

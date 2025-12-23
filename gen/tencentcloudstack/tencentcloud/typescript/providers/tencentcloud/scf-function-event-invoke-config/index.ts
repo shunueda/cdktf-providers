@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_function_event_invoke_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_function_event_invoke_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ScfFunctionEventInvokeConfigConfig extends cdktf.TerraformMetaA
   /**
   * Function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_function_event_invoke_config#function_name ScfFunctionEventInvokeConfig#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_function_event_invoke_config#function_name ScfFunctionEventInvokeConfig#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_function_event_invoke_config#id ScfFunctionEventInvokeConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_function_event_invoke_config#id ScfFunctionEventInvokeConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ScfFunctionEventInvokeConfigConfig extends cdktf.TerraformMetaA
   /**
   * Function namespace. Default value: default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_function_event_invoke_config#namespace ScfFunctionEventInvokeConfig#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_function_event_invoke_config#namespace ScfFunctionEventInvokeConfig#namespace}
   */
   readonly namespace?: string;
   /**
   * async_trigger_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_function_event_invoke_config#async_trigger_config ScfFunctionEventInvokeConfig#async_trigger_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_function_event_invoke_config#async_trigger_config ScfFunctionEventInvokeConfig#async_trigger_config}
   */
   readonly asyncTriggerConfig: ScfFunctionEventInvokeConfigAsyncTriggerConfig;
 }
@@ -37,7 +37,7 @@ export interface ScfFunctionEventInvokeConfigAsyncTriggerConfigRetryConfig {
   /**
   * Number of retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_function_event_invoke_config#retry_num ScfFunctionEventInvokeConfig#retry_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_function_event_invoke_config#retry_num ScfFunctionEventInvokeConfig#retry_num}
   */
   readonly retryNum: number;
 }
@@ -152,13 +152,13 @@ export interface ScfFunctionEventInvokeConfigAsyncTriggerConfig {
   /**
   * Message retention period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_function_event_invoke_config#msg_ttl ScfFunctionEventInvokeConfig#msg_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_function_event_invoke_config#msg_ttl ScfFunctionEventInvokeConfig#msg_ttl}
   */
   readonly msgTtl: number;
   /**
   * retry_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_function_event_invoke_config#retry_config ScfFunctionEventInvokeConfig#retry_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_function_event_invoke_config#retry_config ScfFunctionEventInvokeConfig#retry_config}
   */
   readonly retryConfig: ScfFunctionEventInvokeConfigAsyncTriggerConfigRetryConfig[] | cdktf.IResolvable;
 }
@@ -265,7 +265,7 @@ export class ScfFunctionEventInvokeConfigAsyncTriggerConfigOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_function_event_invoke_config tencentcloud_scf_function_event_invoke_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_function_event_invoke_config tencentcloud_scf_function_event_invoke_config}
 */
 export class ScfFunctionEventInvokeConfig extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class ScfFunctionEventInvokeConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScfFunctionEventInvokeConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScfFunctionEventInvokeConfig to import
-  * @param importFromId The id of the existing ScfFunctionEventInvokeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_function_event_invoke_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScfFunctionEventInvokeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_function_event_invoke_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScfFunctionEventInvokeConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class ScfFunctionEventInvokeConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_function_event_invoke_config tencentcloud_scf_function_event_invoke_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_function_event_invoke_config tencentcloud_scf_function_event_invoke_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class ScfFunctionEventInvokeConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_scf_function_event_invoke_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

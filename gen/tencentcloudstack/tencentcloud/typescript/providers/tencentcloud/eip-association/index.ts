@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/eip_association
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eip_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EipAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of EIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/eip_association#eip_id EipAssociation#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eip_association#eip_id EipAssociation#eip_id}
   */
   readonly eipId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/eip_association#id EipAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eip_association#id EipAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface EipAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The CVM, SaaS WAF or CLB instance id going to bind with the EIP. This field is conflict with `network_interface_id` and `private_ip fields`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/eip_association#instance_id EipAssociation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eip_association#instance_id EipAssociation#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Indicates the network interface id like `eni-xxxxxx`. This field is conflict with `instance_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/eip_association#network_interface_id EipAssociation#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eip_association#network_interface_id EipAssociation#network_interface_id}
   */
   readonly networkInterfaceId?: string;
   /**
   * Indicates an IP belongs to the `network_interface_id`. This field is conflict with `instance_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/eip_association#private_ip EipAssociation#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eip_association#private_ip EipAssociation#private_ip}
   */
   readonly privateIp?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/eip_association tencentcloud_eip_association}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eip_association tencentcloud_eip_association}
 */
 export class EipAssociation extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class EipAssociation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EipAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EipAssociation to import
-  * @param importFromId The id of the existing EipAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/eip_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EipAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eip_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EipAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class EipAssociation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/eip_association tencentcloud_eip_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eip_association tencentcloud_eip_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class EipAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_eip_association',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

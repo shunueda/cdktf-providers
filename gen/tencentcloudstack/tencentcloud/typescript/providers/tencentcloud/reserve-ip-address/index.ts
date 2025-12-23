@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/reserve_ip_address
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reserve_ip_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ReserveIpAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IP description is retained on the intranet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/reserve_ip_address#description ReserveIpAddress#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reserve_ip_address#description ReserveIpAddress#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/reserve_ip_address#id ReserveIpAddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reserve_ip_address#id ReserveIpAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface ReserveIpAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify the reserved IP address of the intranet for which the IP application is requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/reserve_ip_address#ip_address ReserveIpAddress#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reserve_ip_address#ip_address ReserveIpAddress#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * The IP name is reserved for the intranet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/reserve_ip_address#name ReserveIpAddress#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reserve_ip_address#name ReserveIpAddress#name}
   */
   readonly name?: string;
   /**
   * Subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/reserve_ip_address#subnet_id ReserveIpAddress#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reserve_ip_address#subnet_id ReserveIpAddress#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/reserve_ip_address#tags ReserveIpAddress#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reserve_ip_address#tags ReserveIpAddress#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * VPC unique ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/reserve_ip_address#vpc_id ReserveIpAddress#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reserve_ip_address#vpc_id ReserveIpAddress#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/reserve_ip_address tencentcloud_reserve_ip_address}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reserve_ip_address tencentcloud_reserve_ip_address}
 */
 export class ReserveIpAddress extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ReserveIpAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReserveIpAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReserveIpAddress to import
-  * @param importFromId The id of the existing ReserveIpAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/reserve_ip_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReserveIpAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reserve_ip_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReserveIpAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ReserveIpAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/reserve_ip_address tencentcloud_reserve_ip_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reserve_ip_address tencentcloud_reserve_ip_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ReserveIpAddress extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_reserve_ip_address',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

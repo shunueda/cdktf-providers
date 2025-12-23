@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ScfCustomDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Domain names, pan-domain names are not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#domain ScfCustomDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#domain ScfCustomDomain#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#id ScfCustomDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#id ScfCustomDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface ScfCustomDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Protocol, value range: HTTP, HTTPS, HTTP&HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#protocol ScfCustomDomain#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#protocol ScfCustomDomain#protocol}
   */
   readonly protocol: string;
   /**
   * cert_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#cert_config ScfCustomDomain#cert_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#cert_config ScfCustomDomain#cert_config}
   */
   readonly certConfig?: ScfCustomDomainCertConfig;
   /**
   * endpoints_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#endpoints_config ScfCustomDomain#endpoints_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#endpoints_config ScfCustomDomain#endpoints_config}
   */
   readonly endpointsConfig: ScfCustomDomainEndpointsConfig[] | cdktf.IResolvable;
   /**
   * waf_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#waf_config ScfCustomDomain#waf_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#waf_config ScfCustomDomain#waf_config}
   */
   readonly wafConfig?: ScfCustomDomainWafConfig;
 }
@@ -49,7 +49,7 @@ export interface ScfCustomDomainCertConfig {
   /**
   * SSL Certificates ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#certificate_id ScfCustomDomain#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#certificate_id ScfCustomDomain#certificate_id}
   */
   readonly certificateId?: string;
 }
@@ -135,19 +135,19 @@ export interface ScfCustomDomainEndpointsConfigPathRewrite {
   /**
   * Path that needs to be rerouted, value specification: /,/*,/xxx,/xxx/a,/xxx/*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#path ScfCustomDomain#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#path ScfCustomDomain#path}
   */
   readonly path: string;
   /**
   * Replacement values: such as/, /$.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#rewrite ScfCustomDomain#rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#rewrite ScfCustomDomain#rewrite}
   */
   readonly rewrite: string;
   /**
   * Matching rules, value range: WildcardRules wildcard matching, ExactRules exact matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#type ScfCustomDomain#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#type ScfCustomDomain#type}
   */
   readonly type: string;
 }
@@ -314,31 +314,31 @@ export interface ScfCustomDomainEndpointsConfig {
   /**
   * Function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#function_name ScfCustomDomain#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#function_name ScfCustomDomain#function_name}
   */
   readonly functionName: string;
   /**
   * Function namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#namespace ScfCustomDomain#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#namespace ScfCustomDomain#namespace}
   */
   readonly namespace: string;
   /**
   * Path, value specification: /,/*,/xxx,/xxx/a,/xxx/*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#path_match ScfCustomDomain#path_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#path_match ScfCustomDomain#path_match}
   */
   readonly pathMatch: string;
   /**
   * Function alias or version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#qualifier ScfCustomDomain#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#qualifier ScfCustomDomain#qualifier}
   */
   readonly qualifier: string;
   /**
   * path_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#path_rewrite ScfCustomDomain#path_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#path_rewrite ScfCustomDomain#path_rewrite}
   */
   readonly pathRewrite?: ScfCustomDomainEndpointsConfigPathRewrite[] | cdktf.IResolvable;
 }
@@ -560,13 +560,13 @@ export interface ScfCustomDomainWafConfig {
   /**
   * Web Application Firewall Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#waf_instance_id ScfCustomDomain#waf_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#waf_instance_id ScfCustomDomain#waf_instance_id}
   */
   readonly wafInstanceId?: string;
   /**
   * Whether the Web Application Firewall is turned on, value range:OPEN, CLOSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#waf_open ScfCustomDomain#waf_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#waf_open ScfCustomDomain#waf_open}
   */
   readonly wafOpen?: string;
 }
@@ -679,7 +679,7 @@ export class ScfCustomDomainWafConfigOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain tencentcloud_scf_custom_domain}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain tencentcloud_scf_custom_domain}
 */
 export class ScfCustomDomain extends cdktf.TerraformResource {
 
@@ -695,7 +695,7 @@ export class ScfCustomDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScfCustomDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScfCustomDomain to import
-  * @param importFromId The id of the existing ScfCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScfCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScfCustomDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -707,7 +707,7 @@ export class ScfCustomDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/scf_custom_domain tencentcloud_scf_custom_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/scf_custom_domain tencentcloud_scf_custom_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -718,8 +718,8 @@ export class ScfCustomDomain extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_scf_custom_domain',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface K8SConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether auto-healing is enabled for the Kubernetes cluster. true by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#auto_healing_enabled K8S#auto_healing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#auto_healing_enabled K8S#auto_healing_enabled}
   */
   readonly autoHealingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Fixed network (uuid) associated with the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#fixed_network K8S#fixed_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#fixed_network K8S#fixed_network}
   */
   readonly fixedNetwork: string;
   /**
   * Subnet (uuid) associated with the fixed network. Ensure there's a router on this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#fixed_subnet K8S#fixed_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#fixed_subnet K8S#fixed_subnet}
   */
   readonly fixedSubnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#id K8S#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#id K8S#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,111 +35,111 @@ export interface K8SConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the keypair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#keypair K8S#keypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#keypair K8S#keypair}
   */
   readonly keypair: string;
   /**
   * The timestamp of the last update (use with update context).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#last_updated K8S#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#last_updated K8S#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * Flag indicating if the master LoadBalancer should have a floating IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#master_lb_floating_ip_enabled K8S#master_lb_floating_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#master_lb_floating_ip_enabled K8S#master_lb_floating_ip_enabled}
   */
   readonly masterLbFloatingIpEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#name K8S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#name K8S#name}
   */
   readonly name: string;
   /**
   * IP pool to be used for pods within the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#pods_ip_pool K8S#pods_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#pods_ip_pool K8S#pods_ip_pool}
   */
   readonly podsIpPool?: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#project_id K8S#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#project_id K8S#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#project_name K8S#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#project_name K8S#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#region_id K8S#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#region_id K8S#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#region_name K8S#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#region_name K8S#region_name}
   */
   readonly regionName?: string;
   /**
   * IP pool to be used for services within the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#services_ip_pool K8S#services_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#services_ip_pool K8S#services_ip_pool}
   */
   readonly servicesIpPool?: string;
   /**
   * The version of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#version K8S#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#version K8S#version}
   */
   readonly version: string;
   /**
   * pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#pool K8S#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#pool K8S#pool}
   */
   readonly pool: K8SPool;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#timeouts K8S#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#timeouts K8S#timeouts}
   */
   readonly timeouts?: K8STimeouts;
 }
 export interface K8SPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#docker_volume_size K8S#docker_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#docker_volume_size K8S#docker_volume_size}
   */
   readonly dockerVolumeSize?: number;
   /**
   * Available value is 'standard', 'ssd_hiiops', 'cold', 'ultra'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#docker_volume_type K8S#docker_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#docker_volume_type K8S#docker_volume_type}
   */
   readonly dockerVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#flavor_id K8S#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#flavor_id K8S#flavor_id}
   */
   readonly flavorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#max_node_count K8S#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#max_node_count K8S#max_node_count}
   */
   readonly maxNodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#min_node_count K8S#min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#min_node_count K8S#min_node_count}
   */
   readonly minNodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#name K8S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#name K8S#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#node_count K8S#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#node_count K8S#node_count}
   */
   readonly nodeCount: number;
 }
@@ -397,11 +397,11 @@ export class K8SPoolOutputReference extends cdktf.ComplexObject {
 }
 export interface K8STimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#create K8S#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#create K8S#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#update K8S#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#update K8S#update}
   */
   readonly update?: string;
 }
@@ -524,7 +524,7 @@ export class K8STimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s edgecenter_k8s}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s edgecenter_k8s}
 */
 export class K8S extends cdktf.TerraformResource {
 
@@ -540,7 +540,7 @@ export class K8S extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8S resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8S to import
-  * @param importFromId The id of the existing K8S that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8S that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8S to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +552,7 @@ export class K8S extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/k8s edgecenter_k8s} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/k8s edgecenter_k8s} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +563,8 @@ export class K8S extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_k8s',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

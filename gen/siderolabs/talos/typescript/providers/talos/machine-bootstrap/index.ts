@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_bootstrap
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_bootstrap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MachineBootstrapConfig extends cdktf.TerraformMetaArguments {
   /**
   * The client configuration data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_bootstrap#client_configuration MachineBootstrap#client_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_bootstrap#client_configuration MachineBootstrap#client_configuration}
   */
   readonly clientConfiguration: MachineBootstrapClientConfiguration;
   /**
   * The endpoint of the machine to bootstrap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_bootstrap#endpoint MachineBootstrap#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_bootstrap#endpoint MachineBootstrap#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The name of the node to bootstrap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_bootstrap#node MachineBootstrap#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_bootstrap#node MachineBootstrap#node}
   */
   readonly nodeAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_bootstrap#timeouts MachineBootstrap#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_bootstrap#timeouts MachineBootstrap#timeouts}
   */
   readonly timeouts?: MachineBootstrapTimeouts;
 }
@@ -34,19 +34,19 @@ export interface MachineBootstrapClientConfiguration {
   /**
   * The client CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_bootstrap#ca_certificate MachineBootstrap#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_bootstrap#ca_certificate MachineBootstrap#ca_certificate}
   */
   readonly caCertificate: string;
   /**
   * The client certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_bootstrap#client_certificate MachineBootstrap#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_bootstrap#client_certificate MachineBootstrap#client_certificate}
   */
   readonly clientCertificate: string;
   /**
   * The client key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_bootstrap#client_key MachineBootstrap#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_bootstrap#client_key MachineBootstrap#client_key}
   */
   readonly clientKey: string;
 }
@@ -191,7 +191,7 @@ export interface MachineBootstrapTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_bootstrap#create MachineBootstrap#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_bootstrap#create MachineBootstrap#create}
   */
   readonly create?: string;
 }
@@ -285,7 +285,7 @@ export class MachineBootstrapTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_bootstrap talos_machine_bootstrap}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_bootstrap talos_machine_bootstrap}
 */
 export class MachineBootstrap extends cdktf.TerraformResource {
 
@@ -301,7 +301,7 @@ export class MachineBootstrap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MachineBootstrap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MachineBootstrap to import
-  * @param importFromId The id of the existing MachineBootstrap that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_bootstrap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MachineBootstrap that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_bootstrap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MachineBootstrap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +313,7 @@ export class MachineBootstrap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_bootstrap talos_machine_bootstrap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_bootstrap talos_machine_bootstrap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,8 +324,8 @@ export class MachineBootstrap extends cdktf.TerraformResource {
       terraformResourceType: 'talos_machine_bootstrap',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

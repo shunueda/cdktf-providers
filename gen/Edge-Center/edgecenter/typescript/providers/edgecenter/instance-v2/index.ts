@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface InstanceV2Config extends cdktf.TerraformMetaArguments {
   /**
   * A boolean indicating whether to allow application ports on the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#allow_app_ports InstanceV2#allow_app_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#allow_app_ports InstanceV2#allow_app_ports}
   */
   readonly allowAppPorts?: boolean | cdktf.IResolvable;
   /**
   * The availability zone in which to create the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#availability_zone InstanceV2#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#availability_zone InstanceV2#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The ID of the flavor to be used for the instance, determining its compute and memory, for example 'g1-standard-2-4'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#flavor_id InstanceV2#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#flavor_id InstanceV2#flavor_id}
   */
   readonly flavorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#id InstanceV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#id InstanceV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface InstanceV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The name of the key pair to be associated with the instance for SSH access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#keypair_name InstanceV2#keypair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#keypair_name InstanceV2#keypair_name}
   */
   readonly keypairName?: string;
   /**
   * A map containing metadata, for example tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#metadata InstanceV2#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#metadata InstanceV2#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The name of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#name InstanceV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#name InstanceV2#name}
   */
   readonly name?: string;
   /**
   * A template used to generate the instance name. This field cannot be used with 'name_templates'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#name_template InstanceV2#name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#name_template InstanceV2#name_template}
   */
   readonly nameTemplate?: string;
   /**
@@ -61,87 +61,87 @@ export interface InstanceV2Config extends cdktf.TerraformMetaArguments {
   * 								This parameter is used to set the password either for the "Admin" user on 
   * 								a Windows VM orthe default user or a new user on a Linux VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#password InstanceV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#password InstanceV2#password}
   */
   readonly password?: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#project_id InstanceV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#project_id InstanceV2#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#project_name InstanceV2#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#project_name InstanceV2#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#region_id InstanceV2#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#region_id InstanceV2#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#region_name InstanceV2#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#region_name InstanceV2#region_name}
   */
   readonly regionName?: string;
   /**
   * The ID (uuid) of the server group to which the instance should belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#server_group InstanceV2#server_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#server_group InstanceV2#server_group}
   */
   readonly serverGroup?: string;
   /**
   * The current status of the instance. This is computed automatically and can be used to track the instance's state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#status InstanceV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#status InstanceV2#status}
   */
   readonly status?: string;
   /**
   * A field for specifying user data to be used for configuring the instance at launch time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#user_data InstanceV2#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#user_data InstanceV2#user_data}
   */
   readonly userData?: string;
   /**
   * The username to be used for accessing the instance. Required with password.
   * 								This parameter is used to set the user on a Linux VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#username InstanceV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#username InstanceV2#username}
   */
   readonly username?: string;
   /**
   * The current virtual machine state of the instance, 
   * allowing you to start or stop the VM. Possible values are stopped and active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#vm_state InstanceV2#vm_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#vm_state InstanceV2#vm_state}
   */
   readonly vmState?: string;
   /**
   * boot_volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#boot_volumes InstanceV2#boot_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#boot_volumes InstanceV2#boot_volumes}
   */
   readonly bootVolumes: InstanceV2BootVolumes[] | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#configuration InstanceV2#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#configuration InstanceV2#configuration}
   */
   readonly configuration?: InstanceV2Configuration[] | cdktf.IResolvable;
   /**
   * data_volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#data_volumes InstanceV2#data_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#data_volumes InstanceV2#data_volumes}
   */
   readonly dataVolumes?: InstanceV2DataVolumes[] | cdktf.IResolvable;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#interfaces InstanceV2#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#interfaces InstanceV2#interfaces}
   */
   readonly interfaces: InstanceV2Interfaces[] | cdktf.IResolvable;
 }
@@ -149,19 +149,19 @@ export interface InstanceV2BootVolumes {
   /**
   * The block device attachment tag (exposed in the metadata).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#attachment_tag InstanceV2#attachment_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#attachment_tag InstanceV2#attachment_tag}
   */
   readonly attachmentTag?: string;
   /**
   * If boot_index==0 volumes can not detached. It is used only when creating an instance. This attribute can't be updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#boot_index InstanceV2#boot_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#boot_index InstanceV2#boot_index}
   */
   readonly bootIndex: number;
   /**
   * The ID of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#volume_id InstanceV2#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#volume_id InstanceV2#volume_id}
   */
   readonly volumeId: string;
 }
@@ -344,11 +344,11 @@ export class InstanceV2BootVolumesList extends cdktf.ComplexList {
 }
 export interface InstanceV2Configuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#key InstanceV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#key InstanceV2#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#value InstanceV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#value InstanceV2#value}
   */
   readonly value: string;
 }
@@ -489,13 +489,13 @@ export interface InstanceV2DataVolumes {
   /**
   * The block device attachment tag (exposed in the metadata).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#attachment_tag InstanceV2#attachment_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#attachment_tag InstanceV2#attachment_tag}
   */
   readonly attachmentTag?: string;
   /**
   * The ID of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#volume_id InstanceV2#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#volume_id InstanceV2#volume_id}
   */
   readonly volumeId: string;
 }
@@ -657,31 +657,31 @@ export interface InstanceV2Interfaces {
   * connected earlier than the selected new default interface will be reattached and it's IP addresses can be changed, if the reserved IP address is not used in these 
   * interfaces. You must always have exactly one interface with set attribute 'is_default.'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#is_default InstanceV2#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#is_default InstanceV2#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Required if type is 'subnet'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#network_id InstanceV2#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#network_id InstanceV2#network_id}
   */
   readonly networkId?: string;
   /**
   * required if type is  'reserved_fixed_ip'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#reserved_fixed_ip_port_id InstanceV2#reserved_fixed_ip_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#reserved_fixed_ip_port_id InstanceV2#reserved_fixed_ip_port_id}
   */
   readonly reservedFixedIpPortId?: string;
   /**
   * Required if type is 'subnet'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#subnet_id InstanceV2#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#subnet_id InstanceV2#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Available values are 'subnet', 'external', 'reserved_fixed_ip'. You can't create more than one interface on the same subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#type InstanceV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#type InstanceV2#type}
   */
   readonly type: string;
 }
@@ -925,7 +925,7 @@ export class InstanceV2InterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2 edgecenter_instanceV2}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2 edgecenter_instanceV2}
 */
 export class InstanceV2 extends cdktf.TerraformResource {
 
@@ -941,7 +941,7 @@ export class InstanceV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InstanceV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InstanceV2 to import
-  * @param importFromId The id of the existing InstanceV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InstanceV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InstanceV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -953,7 +953,7 @@ export class InstanceV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/instance_v2 edgecenter_instanceV2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/instance_v2 edgecenter_instanceV2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -964,8 +964,8 @@ export class InstanceV2 extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_instanceV2',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

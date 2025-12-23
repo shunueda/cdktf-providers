@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_grafana_sso_account
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_grafana_sso_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorGrafanaSsoAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_grafana_sso_account#id MonitorGrafanaSsoAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_grafana_sso_account#id MonitorGrafanaSsoAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface MonitorGrafanaSsoAccountConfig extends cdktf.TerraformMetaArgum
   /**
   * grafana instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_grafana_sso_account#instance_id MonitorGrafanaSsoAccount#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_grafana_sso_account#instance_id MonitorGrafanaSsoAccount#instance_id}
   */
   readonly instanceId: string;
   /**
   * account related description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_grafana_sso_account#notes MonitorGrafanaSsoAccount#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_grafana_sso_account#notes MonitorGrafanaSsoAccount#notes}
   */
   readonly notes?: string;
   /**
   * sub account uin of specific user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_grafana_sso_account#user_id MonitorGrafanaSsoAccount#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_grafana_sso_account#user_id MonitorGrafanaSsoAccount#user_id}
   */
   readonly userId: string;
   /**
   * role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_grafana_sso_account#role MonitorGrafanaSsoAccount#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_grafana_sso_account#role MonitorGrafanaSsoAccount#role}
   */
   readonly role?: MonitorGrafanaSsoAccountRole[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface MonitorGrafanaSsoAccountRole {
   /**
   * Grafana organization id string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_grafana_sso_account#organization MonitorGrafanaSsoAccount#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_grafana_sso_account#organization MonitorGrafanaSsoAccount#organization}
   */
   readonly organization: string;
   /**
   * Grafana role, one of {Admin,Editor,Viewer}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_grafana_sso_account#role MonitorGrafanaSsoAccount#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_grafana_sso_account#role MonitorGrafanaSsoAccount#role}
   */
   readonly role: string;
 }
@@ -188,7 +188,7 @@ export class MonitorGrafanaSsoAccountRoleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_grafana_sso_account tencentcloud_monitor_grafana_sso_account}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_grafana_sso_account tencentcloud_monitor_grafana_sso_account}
 */
 export class MonitorGrafanaSsoAccount extends cdktf.TerraformResource {
 
@@ -204,7 +204,7 @@ export class MonitorGrafanaSsoAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorGrafanaSsoAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorGrafanaSsoAccount to import
-  * @param importFromId The id of the existing MonitorGrafanaSsoAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_grafana_sso_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorGrafanaSsoAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_grafana_sso_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorGrafanaSsoAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class MonitorGrafanaSsoAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_grafana_sso_account tencentcloud_monitor_grafana_sso_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_grafana_sso_account tencentcloud_monitor_grafana_sso_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class MonitorGrafanaSsoAccount extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_grafana_sso_account',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `tencentcloud_mqtt_jwks_authenticator`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_mqtt_jwks_authenticator`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mqtt_jwks_authenticator).
+Refer to the Terraform Registry for docs: [`tencentcloud_mqtt_jwks_authenticator`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_jwks_authenticator).

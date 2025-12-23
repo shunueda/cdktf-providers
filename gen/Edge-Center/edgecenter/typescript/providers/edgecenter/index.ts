@@ -49,6 +49,7 @@ export * as useractionsSubscriptionLog from './useractions-subscription-log';
 export * as volume from './volume';
 export * as dataEdgecenterAvailabilityZone from './data-edgecenter-availability-zone';
 export * as dataEdgecenterCdnShieldingLocation from './data-edgecenter-cdn-shielding-location';
+export * as dataEdgecenterFlavor from './data-edgecenter-flavor';
 export * as dataEdgecenterFloatingip from './data-edgecenter-floatingip';
 export * as dataEdgecenterImage from './data-edgecenter-image';
 export * as dataEdgecenterInstance from './data-edgecenter-instance';

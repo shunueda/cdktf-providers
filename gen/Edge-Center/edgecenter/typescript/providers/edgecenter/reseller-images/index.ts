@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/reseller_images
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ResellerImagesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images#id ResellerImages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/reseller_images#id ResellerImages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ResellerImagesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the reseller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images#reseller_id ResellerImages#reseller_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/reseller_images#reseller_id ResellerImages#reseller_id}
   */
   readonly resellerId: number;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images#options ResellerImages#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/reseller_images#options ResellerImages#options}
   */
   readonly options: ResellerImagesOptions[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface ResellerImagesOptions {
   /**
   * A list of image IDs available for clients of the reseller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images#image_ids ResellerImages#image_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/reseller_images#image_ids ResellerImages#image_ids}
   */
   readonly imageIds?: string[];
   /**
   * The ID of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images#region_id ResellerImages#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/reseller_images#region_id ResellerImages#region_id}
   */
   readonly regionId: number;
 }
@@ -189,7 +189,7 @@ export class ResellerImagesOptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images edgecenter_reseller_images}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/reseller_images edgecenter_reseller_images}
 */
 export class ResellerImages extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class ResellerImages extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResellerImages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResellerImages to import
-  * @param importFromId The id of the existing ResellerImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResellerImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/reseller_images#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResellerImages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class ResellerImages extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/reseller_images edgecenter_reseller_images} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/reseller_images edgecenter_reseller_images} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class ResellerImages extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_reseller_images',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

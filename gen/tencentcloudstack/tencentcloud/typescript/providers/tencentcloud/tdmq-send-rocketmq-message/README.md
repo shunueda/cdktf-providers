@@ -1,3 +1,3 @@
 # `tencentcloud_tdmq_send_rocketmq_message`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_tdmq_send_rocketmq_message`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tdmq_send_rocketmq_message).
+Refer to the Terraform Registry for docs: [`tencentcloud_tdmq_send_rocketmq_message`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_send_rocketmq_message).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MachineConfigurationApplyConfig extends cdktf.TerraformMetaArgu
   /**
   * The mode of the apply operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#apply_mode MachineConfigurationApply#apply_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#apply_mode MachineConfigurationApply#apply_mode}
   */
   readonly applyMode?: string;
   /**
   * The client configuration data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#client_configuration MachineConfigurationApply#client_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#client_configuration MachineConfigurationApply#client_configuration}
   */
   readonly clientConfiguration: MachineConfigurationApplyClientConfiguration;
   /**
   * The list of config patches to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#config_patches MachineConfigurationApply#config_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#config_patches MachineConfigurationApply#config_patches}
   */
   readonly configPatches?: string[];
   /**
   * The endpoint of the machine to bootstrap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#endpoint MachineConfigurationApply#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#endpoint MachineConfigurationApply#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The machine configuration to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#machine_configuration_input MachineConfigurationApply#machine_configuration_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#machine_configuration_input MachineConfigurationApply#machine_configuration_input}
   */
   readonly machineConfigurationInput: string;
   /**
   * The name of the node to bootstrap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#node MachineConfigurationApply#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#node MachineConfigurationApply#node}
   */
   readonly nodeAttribute: string;
   /**
@@ -50,11 +50,11 @@ export interface MachineConfigurationApplyConfig extends cdktf.TerraformMetaArgu
   * then a subsequent *terraform destroy* for the changes to take effect due to limitations in Terraform provider framework.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#on_destroy MachineConfigurationApply#on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#on_destroy MachineConfigurationApply#on_destroy}
   */
   readonly onDestroy?: MachineConfigurationApplyOnDestroy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#timeouts MachineConfigurationApply#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#timeouts MachineConfigurationApply#timeouts}
   */
   readonly timeouts?: MachineConfigurationApplyTimeouts;
 }
@@ -62,19 +62,19 @@ export interface MachineConfigurationApplyClientConfiguration {
   /**
   * The client CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#ca_certificate MachineConfigurationApply#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#ca_certificate MachineConfigurationApply#ca_certificate}
   */
   readonly caCertificate: string;
   /**
   * The client certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#client_certificate MachineConfigurationApply#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#client_certificate MachineConfigurationApply#client_certificate}
   */
   readonly clientCertificate: string;
   /**
   * The client key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#client_key MachineConfigurationApply#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#client_key MachineConfigurationApply#client_key}
   */
   readonly clientKey: string;
 }
@@ -219,19 +219,19 @@ export interface MachineConfigurationApplyOnDestroy {
   /**
   * Graceful indicates whether node should leave etcd before the upgrade, it also enforces etcd checks before leaving. Default true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#graceful MachineConfigurationApply#graceful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#graceful MachineConfigurationApply#graceful}
   */
   readonly graceful?: boolean | cdktf.IResolvable;
   /**
   * Reboot indicates whether node should reboot or halt after resetting. Default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#reboot MachineConfigurationApply#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#reboot MachineConfigurationApply#reboot}
   */
   readonly reboot?: boolean | cdktf.IResolvable;
   /**
   * Reset the machine to the initial state (STATE and EPHEMERAL will be wiped). Default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#reset MachineConfigurationApply#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#reset MachineConfigurationApply#reset}
   */
   readonly reset?: boolean | cdktf.IResolvable;
 }
@@ -385,19 +385,19 @@ export interface MachineConfigurationApplyTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#create MachineConfigurationApply#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#create MachineConfigurationApply#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#delete MachineConfigurationApply#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#delete MachineConfigurationApply#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#update MachineConfigurationApply#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#update MachineConfigurationApply#update}
   */
   readonly update?: string;
 }
@@ -549,7 +549,7 @@ export class MachineConfigurationApplyTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply talos_machine_configuration_apply}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply talos_machine_configuration_apply}
 */
 export class MachineConfigurationApply extends cdktf.TerraformResource {
 
@@ -565,7 +565,7 @@ export class MachineConfigurationApply extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MachineConfigurationApply resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MachineConfigurationApply to import
-  * @param importFromId The id of the existing MachineConfigurationApply that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MachineConfigurationApply that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MachineConfigurationApply to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -577,7 +577,7 @@ export class MachineConfigurationApply extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_configuration_apply talos_machine_configuration_apply} Resource
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_configuration_apply talos_machine_configuration_apply} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -588,8 +588,8 @@ export class MachineConfigurationApply extends cdktf.TerraformResource {
       terraformResourceType: 'talos_machine_configuration_apply',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

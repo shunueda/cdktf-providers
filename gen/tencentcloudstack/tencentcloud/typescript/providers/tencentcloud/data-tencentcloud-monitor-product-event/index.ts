@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudMonitorProductEventConfig extends cdktf.Terrafo
   /**
   * End timestamp for this query, eg:`1588232111`. Default start time is `now-3000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#end_time DataTencentcloudMonitorProductEvent#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#end_time DataTencentcloudMonitorProductEvent#end_time}
   */
   readonly endTime?: number;
   /**
   * Event name filtering, such as `guest_reboot` indicates that the machine restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#event_name DataTencentcloudMonitorProductEvent#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#event_name DataTencentcloudMonitorProductEvent#event_name}
   */
   readonly eventName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#id DataTencentcloudMonitorProductEvent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#id DataTencentcloudMonitorProductEvent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface DataTencentcloudMonitorProductEventConfig extends cdktf.Terrafo
   /**
   * Affect objects, such as `ins-19708ino`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#instance_id DataTencentcloudMonitorProductEvent#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#instance_id DataTencentcloudMonitorProductEvent#instance_id}
   */
   readonly instanceId?: string[];
   /**
   * Alarm status configuration filter, 1means configured, 0(default) means not configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#is_alarm_config DataTencentcloudMonitorProductEvent#is_alarm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#is_alarm_config DataTencentcloudMonitorProductEvent#is_alarm_config}
   */
   readonly isAlarmConfig?: number;
   /**
   * Product type filtering, such as `cvm` for cloud server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#product_name DataTencentcloudMonitorProductEvent#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#product_name DataTencentcloudMonitorProductEvent#product_name}
   */
   readonly productName?: string[];
   /**
   * Project ID filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#project_id DataTencentcloudMonitorProductEvent#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#project_id DataTencentcloudMonitorProductEvent#project_id}
   */
   readonly projectId?: string[];
   /**
   * Region filter, such as `gz`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#region_list DataTencentcloudMonitorProductEvent#region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#region_list DataTencentcloudMonitorProductEvent#region_list}
   */
   readonly regionList?: string[];
   /**
   * Used to store results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#result_output_file DataTencentcloudMonitorProductEvent#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#result_output_file DataTencentcloudMonitorProductEvent#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start timestamp for this query, eg:`1588230000`. Default start time is `now-3600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#start_time DataTencentcloudMonitorProductEvent#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#start_time DataTencentcloudMonitorProductEvent#start_time}
   */
   readonly startTime?: number;
   /**
   * Event status filter, value range `-`,`alarm`,`recover`, indicating recovered, unrecovered and stateless.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#status DataTencentcloudMonitorProductEvent#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#status DataTencentcloudMonitorProductEvent#status}
   */
   readonly status?: string[];
   /**
   * Event type filtering, with value range `abnormal`,`status_change`, indicating state change and abnormal events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#type DataTencentcloudMonitorProductEvent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#type DataTencentcloudMonitorProductEvent#type}
   */
   readonly type?: string[];
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#dimensions DataTencentcloudMonitorProductEvent#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#dimensions DataTencentcloudMonitorProductEvent#dimensions}
   */
   readonly dimensions?: DataTencentcloudMonitorProductEventDimensions[] | cdktf.IResolvable;
 }
@@ -514,13 +514,13 @@ export interface DataTencentcloudMonitorProductEventDimensions {
   /**
   * Instance dimension name, eg: `deviceWanIp` for internet ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#name DataTencentcloudMonitorProductEvent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#name DataTencentcloudMonitorProductEvent#name}
   */
   readonly name?: string;
   /**
   * Instance dimension value, eg: `119.119.119.119` for internet ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#value DataTencentcloudMonitorProductEvent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#value DataTencentcloudMonitorProductEvent#value}
   */
   readonly value?: string;
 }
@@ -665,7 +665,7 @@ export class DataTencentcloudMonitorProductEventDimensionsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event tencentcloud_monitor_product_event}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event tencentcloud_monitor_product_event}
 */
 export class DataTencentcloudMonitorProductEvent extends cdktf.TerraformDataSource {
 
@@ -681,7 +681,7 @@ export class DataTencentcloudMonitorProductEvent extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudMonitorProductEvent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMonitorProductEvent to import
-  * @param importFromId The id of the existing DataTencentcloudMonitorProductEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMonitorProductEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMonitorProductEvent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -693,7 +693,7 @@ export class DataTencentcloudMonitorProductEvent extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/monitor_product_event tencentcloud_monitor_product_event} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/monitor_product_event tencentcloud_monitor_product_event} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -704,8 +704,8 @@ export class DataTencentcloudMonitorProductEvent extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_monitor_product_event',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

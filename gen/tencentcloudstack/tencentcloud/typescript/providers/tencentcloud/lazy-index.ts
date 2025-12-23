@@ -4,6 +4,7 @@ Object.defineProperty(exports, 'addressExtraTemplate', { get: function () { retu
 Object.defineProperty(exports, 'addressTemplate', { get: function () { return require('./address-template'); } });
 Object.defineProperty(exports, 'addressTemplateGroup', { get: function () { return require('./address-template-group'); } });
 Object.defineProperty(exports, 'albServerAttachment', { get: function () { return require('./alb-server-attachment'); } });
+Object.defineProperty(exports, 'antiddosBgpInstance', { get: function () { return require('./antiddos-bgp-instance'); } });
 Object.defineProperty(exports, 'antiddosCcBlackWhiteIp', { get: function () { return require('./antiddos-cc-black-white-ip'); } });
 Object.defineProperty(exports, 'antiddosCcPrecisionPolicy', { get: function () { return require('./antiddos-cc-precision-policy'); } });
 Object.defineProperty(exports, 'antiddosDdosBlackWhiteIp', { get: function () { return require('./antiddos-ddos-black-white-ip'); } });
@@ -961,6 +962,7 @@ Object.defineProperty(exports, 'tcrImmutableTagRule', { get: function () { retur
 Object.defineProperty(exports, 'tcrInstance', { get: function () { return require('./tcr-instance'); } });
 Object.defineProperty(exports, 'tcrManageReplicationOperation', { get: function () { return require('./tcr-manage-replication-operation'); } });
 Object.defineProperty(exports, 'tcrNamespace', { get: function () { return require('./tcr-namespace'); } });
+Object.defineProperty(exports, 'tcrReplication', { get: function () { return require('./tcr-replication'); } });
 Object.defineProperty(exports, 'tcrRepository', { get: function () { return require('./tcr-repository'); } });
 Object.defineProperty(exports, 'tcrServiceAccount', { get: function () { return require('./tcr-service-account'); } });
 Object.defineProperty(exports, 'tcrTagRetentionExecutionConfig', { get: function () { return require('./tcr-tag-retention-execution-config'); } });
@@ -1197,6 +1199,7 @@ Object.defineProperty(exports, 'dataTencentcloudAddressTemplateGroups', { get: f
 Object.defineProperty(exports, 'dataTencentcloudAddressTemplates', { get: function () { return require('./data-tencentcloud-address-templates'); } });
 Object.defineProperty(exports, 'dataTencentcloudAntiddosBasicDeviceStatus', { get: function () { return require('./data-tencentcloud-antiddos-basic-device-status'); } });
 Object.defineProperty(exports, 'dataTencentcloudAntiddosBgpBizTrend', { get: function () { return require('./data-tencentcloud-antiddos-bgp-biz-trend'); } });
+Object.defineProperty(exports, 'dataTencentcloudAntiddosBgpInstances', { get: function () { return require('./data-tencentcloud-antiddos-bgp-instances'); } });
 Object.defineProperty(exports, 'dataTencentcloudAntiddosListListener', { get: function () { return require('./data-tencentcloud-antiddos-list-listener'); } });
 Object.defineProperty(exports, 'dataTencentcloudAntiddosOverviewAttackTrend', { get: function () { return require('./data-tencentcloud-antiddos-overview-attack-trend'); } });
 Object.defineProperty(exports, 'dataTencentcloudAntiddosOverviewCcTrend', { get: function () { return require('./data-tencentcloud-antiddos-overview-cc-trend'); } });

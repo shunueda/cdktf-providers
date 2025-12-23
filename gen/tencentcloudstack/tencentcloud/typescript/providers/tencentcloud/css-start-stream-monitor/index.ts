@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_start_stream_monitor
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_start_stream_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CssStartStreamMonitorConfig extends cdktf.TerraformMetaArgument
   /**
   * The input index for monitoring the screen audio, supports multiple input audio sources.The valid range for InputIndex is that it must already exist.If left blank, there will be no audio output by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_start_stream_monitor#audible_input_index_list CssStartStreamMonitor#audible_input_index_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_start_stream_monitor#audible_input_index_list CssStartStreamMonitor#audible_input_index_list}
   */
   readonly audibleInputIndexList?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_start_stream_monitor#id CssStartStreamMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_start_stream_monitor#id CssStartStreamMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CssStartStreamMonitorConfig extends cdktf.TerraformMetaArgument
   /**
   * Monitor id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_start_stream_monitor#monitor_id CssStartStreamMonitor#monitor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_start_stream_monitor#monitor_id CssStartStreamMonitor#monitor_id}
   */
   readonly monitorId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_start_stream_monitor tencentcloud_css_start_stream_monitor}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_start_stream_monitor tencentcloud_css_start_stream_monitor}
 */
 export class CssStartStreamMonitor extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class CssStartStreamMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssStartStreamMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssStartStreamMonitor to import
-  * @param importFromId The id of the existing CssStartStreamMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_start_stream_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssStartStreamMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_start_stream_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssStartStreamMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class CssStartStreamMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/css_start_stream_monitor tencentcloud_css_start_stream_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_start_stream_monitor tencentcloud_css_start_stream_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class CssStartStreamMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_start_stream_monitor',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

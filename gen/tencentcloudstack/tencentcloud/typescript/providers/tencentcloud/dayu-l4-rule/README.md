@@ -1,3 +1,3 @@
 # `tencentcloud_dayu_l4_rule`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_dayu_l4_rule`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dayu_l4_rule).
+Refer to the Terraform Registry for docs: [`tencentcloud_dayu_l4_rule`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_l4_rule).

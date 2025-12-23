@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_version
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_task_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudWedataTaskVersionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_version#id DataTencentcloudWedataTaskVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_task_version#id DataTencentcloudWedataTaskVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudWedataTaskVersionConfig extends cdktf.Terraform
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_version#project_id DataTencentcloudWedataTaskVersion#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_task_version#project_id DataTencentcloudWedataTaskVersion#project_id}
   */
   readonly projectId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_version#result_output_file DataTencentcloudWedataTaskVersion#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_task_version#result_output_file DataTencentcloudWedataTaskVersion#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Task ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_version#task_id DataTencentcloudWedataTaskVersion#task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_task_version#task_id DataTencentcloudWedataTaskVersion#task_id}
   */
   readonly taskId: string;
   /**
   * Submit version ID. If not specified, the latest submit version will be used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_version#version_id DataTencentcloudWedataTaskVersion#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_task_version#version_id DataTencentcloudWedataTaskVersion#version_id}
   */
   readonly versionId?: string;
 }
@@ -1731,7 +1731,7 @@ export class DataTencentcloudWedataTaskVersionDataList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_version tencentcloud_wedata_task_version}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_task_version tencentcloud_wedata_task_version}
 */
 export class DataTencentcloudWedataTaskVersion extends cdktf.TerraformDataSource {
 
@@ -1747,7 +1747,7 @@ export class DataTencentcloudWedataTaskVersion extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudWedataTaskVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataTaskVersion to import
-  * @param importFromId The id of the existing DataTencentcloudWedataTaskVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataTaskVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_task_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataTaskVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1759,7 +1759,7 @@ export class DataTencentcloudWedataTaskVersion extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_version tencentcloud_wedata_task_version} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_task_version tencentcloud_wedata_task_version} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1770,8 +1770,8 @@ export class DataTencentcloudWedataTaskVersion extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_wedata_task_version',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

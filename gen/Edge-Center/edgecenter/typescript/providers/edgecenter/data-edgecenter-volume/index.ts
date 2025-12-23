@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/volume
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEdgecenterVolumeConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the volume. Either 'id' or 'name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/volume#id DataEdgecenterVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/volume#id DataEdgecenterVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,43 +19,43 @@ export interface DataEdgecenterVolumeConfig extends cdktf.TerraformMetaArguments
   /**
   * Filtration query opts (only key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/volume#metadata_k DataEdgecenterVolume#metadata_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/volume#metadata_k DataEdgecenterVolume#metadata_k}
   */
   readonly metadataK?: string;
   /**
   * Filtration query opts, for example, {offset = "10", limit = "10"}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/volume#metadata_kv DataEdgecenterVolume#metadata_kv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/volume#metadata_kv DataEdgecenterVolume#metadata_kv}
   */
   readonly metadataKv?: { [key: string]: string };
   /**
   * The name of the volume. Either 'id' or 'name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/volume#name DataEdgecenterVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/volume#name DataEdgecenterVolume#name}
   */
   readonly name?: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/volume#project_id DataEdgecenterVolume#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/volume#project_id DataEdgecenterVolume#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/volume#project_name DataEdgecenterVolume#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/volume#project_name DataEdgecenterVolume#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/volume#region_id DataEdgecenterVolume#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/volume#region_id DataEdgecenterVolume#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/volume#region_name DataEdgecenterVolume#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/volume#region_name DataEdgecenterVolume#region_name}
   */
   readonly regionName?: string;
 }
@@ -146,7 +146,7 @@ export class DataEdgecenterVolumeMetadataReadOnlyList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/volume edgecenter_volume}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/volume edgecenter_volume}
 */
 export class DataEdgecenterVolume extends cdktf.TerraformDataSource {
 
@@ -162,7 +162,7 @@ export class DataEdgecenterVolume extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEdgecenterVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterVolume to import
-  * @param importFromId The id of the existing DataEdgecenterVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class DataEdgecenterVolume extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/volume edgecenter_volume} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/volume edgecenter_volume} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class DataEdgecenterVolume extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_volume',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

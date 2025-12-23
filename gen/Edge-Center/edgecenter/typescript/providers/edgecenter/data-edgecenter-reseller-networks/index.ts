@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reseller_networks
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/reseller_networks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEdgecenterResellerNetworksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reseller_networks#id DataEdgecenterResellerNetworks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/reseller_networks#id DataEdgecenterResellerNetworks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataEdgecenterResellerNetworksConfig extends cdktf.TerraformMet
   /**
   * Filter by metadata keys. Must be a valid JSON string. "metadata_k=["value", "sense"]"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reseller_networks#metadata_k DataEdgecenterResellerNetworks#metadata_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/reseller_networks#metadata_k DataEdgecenterResellerNetworks#metadata_k}
   */
   readonly metadataK?: string[];
   /**
   * Filtration query opts, for example, {key = "value", key_1 = "value_1"}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reseller_networks#metadata_kv DataEdgecenterResellerNetworks#metadata_kv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/reseller_networks#metadata_kv DataEdgecenterResellerNetworks#metadata_kv}
   */
   readonly metadataKv?: { [key: string]: string };
   /**
   * Filter networks by the type of the network (vlan or vxlan).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reseller_networks#network_type DataEdgecenterResellerNetworks#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/reseller_networks#network_type DataEdgecenterResellerNetworks#network_type}
   */
   readonly networkType?: string;
   /**
   * Order networks by transmitted fields and directions (name.asc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reseller_networks#order_by DataEdgecenterResellerNetworks#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/reseller_networks#order_by DataEdgecenterResellerNetworks#order_by}
   */
   readonly orderBy?: string;
   /**
   * Can be used to only show networks with the shared state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reseller_networks#shared DataEdgecenterResellerNetworks#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/reseller_networks#shared DataEdgecenterResellerNetworks#shared}
   */
   readonly shared?: boolean | cdktf.IResolvable;
 }
@@ -495,7 +495,7 @@ export class DataEdgecenterResellerNetworksNetworksList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reseller_networks edgecenter_reseller_networks}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/reseller_networks edgecenter_reseller_networks}
 */
 export class DataEdgecenterResellerNetworks extends cdktf.TerraformDataSource {
 
@@ -511,7 +511,7 @@ export class DataEdgecenterResellerNetworks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEdgecenterResellerNetworks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEdgecenterResellerNetworks to import
-  * @param importFromId The id of the existing DataEdgecenterResellerNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reseller_networks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEdgecenterResellerNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/reseller_networks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEdgecenterResellerNetworks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -523,7 +523,7 @@ export class DataEdgecenterResellerNetworks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/data-sources/reseller_networks edgecenter_reseller_networks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/data-sources/reseller_networks edgecenter_reseller_networks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -534,8 +534,8 @@ export class DataEdgecenterResellerNetworks extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_reseller_networks',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

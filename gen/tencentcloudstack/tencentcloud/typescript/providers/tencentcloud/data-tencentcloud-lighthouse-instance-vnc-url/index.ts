@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/lighthouse_instance_vnc_url
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_instance_vnc_url
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudLighthouseInstanceVncUrlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/lighthouse_instance_vnc_url#id DataTencentcloudLighthouseInstanceVncUrl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_instance_vnc_url#id DataTencentcloudLighthouseInstanceVncUrl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudLighthouseInstanceVncUrlConfig extends cdktf.Te
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/lighthouse_instance_vnc_url#instance_id DataTencentcloudLighthouseInstanceVncUrl#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_instance_vnc_url#instance_id DataTencentcloudLighthouseInstanceVncUrl#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/lighthouse_instance_vnc_url#result_output_file DataTencentcloudLighthouseInstanceVncUrl#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_instance_vnc_url#result_output_file DataTencentcloudLighthouseInstanceVncUrl#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/lighthouse_instance_vnc_url tencentcloud_lighthouse_instance_vnc_url}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_instance_vnc_url tencentcloud_lighthouse_instance_vnc_url}
 */
 export class DataTencentcloudLighthouseInstanceVncUrl extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataTencentcloudLighthouseInstanceVncUrl extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudLighthouseInstanceVncUrl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudLighthouseInstanceVncUrl to import
-  * @param importFromId The id of the existing DataTencentcloudLighthouseInstanceVncUrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/lighthouse_instance_vnc_url#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudLighthouseInstanceVncUrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_instance_vnc_url#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudLighthouseInstanceVncUrl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataTencentcloudLighthouseInstanceVncUrl extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/lighthouse_instance_vnc_url tencentcloud_lighthouse_instance_vnc_url} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_instance_vnc_url tencentcloud_lighthouse_instance_vnc_url} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataTencentcloudLighthouseInstanceVncUrl extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_lighthouse_instance_vnc_url',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

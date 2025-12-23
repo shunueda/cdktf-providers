@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/redis_renew_instance_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_renew_instance_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RedisRenewInstanceOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/redis_renew_instance_operation#id RedisRenewInstanceOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_renew_instance_operation#id RedisRenewInstanceOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface RedisRenewInstanceOperationConfig extends cdktf.TerraformMetaAr
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/redis_renew_instance_operation#instance_id RedisRenewInstanceOperation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_renew_instance_operation#instance_id RedisRenewInstanceOperation#instance_id}
   */
   readonly instanceId: string;
   /**
   * Identifies whether the billing model is modified:The current instance billing mode is pay-as-you-go, which is prepaid and renewed.The billing mode of the current instance is subscription and you can not set this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/redis_renew_instance_operation#modify_pay_mode RedisRenewInstanceOperation#modify_pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_renew_instance_operation#modify_pay_mode RedisRenewInstanceOperation#modify_pay_mode}
   */
   readonly modifyPayMode?: string;
   /**
   * Purchase duration, in months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/redis_renew_instance_operation#period RedisRenewInstanceOperation#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_renew_instance_operation#period RedisRenewInstanceOperation#period}
   */
   readonly period: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/redis_renew_instance_operation tencentcloud_redis_renew_instance_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_renew_instance_operation tencentcloud_redis_renew_instance_operation}
 */
 export class RedisRenewInstanceOperation extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class RedisRenewInstanceOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisRenewInstanceOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisRenewInstanceOperation to import
-  * @param importFromId The id of the existing RedisRenewInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/redis_renew_instance_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisRenewInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_renew_instance_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisRenewInstanceOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class RedisRenewInstanceOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/redis_renew_instance_operation tencentcloud_redis_renew_instance_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_renew_instance_operation tencentcloud_redis_renew_instance_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class RedisRenewInstanceOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_redis_renew_instance_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

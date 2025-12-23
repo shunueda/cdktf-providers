@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudGaapCheckProxyCreateConfig extends cdktf.Terraf
   /**
   * The access (acceleration) area of the proxy. The value can be obtained through the interface DescribeAccessRegionsByDestRegion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create#access_region DataTencentcloudGaapCheckProxyCreate#access_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create#access_region DataTencentcloudGaapCheckProxyCreate#access_region}
   */
   readonly accessRegion: string;
   /**
   * The upper limit of proxy bandwidth, in Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create#bandwidth DataTencentcloudGaapCheckProxyCreate#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create#bandwidth DataTencentcloudGaapCheckProxyCreate#bandwidth}
   */
   readonly bandwidth: number;
   /**
   * The upper limit of chanproxynel concurrency, representing the number of simultaneous online connections, in tens of thousands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create#concurrent DataTencentcloudGaapCheckProxyCreate#concurrent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create#concurrent DataTencentcloudGaapCheckProxyCreate#concurrent}
   */
   readonly concurrent: number;
   /**
   * If creating a proxy under a proxy group, you need to fill in the ID of the proxy group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create#group_id DataTencentcloudGaapCheckProxyCreate#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create#group_id DataTencentcloudGaapCheckProxyCreate#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create#id DataTencentcloudGaapCheckProxyCreate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create#id DataTencentcloudGaapCheckProxyCreate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface DataTencentcloudGaapCheckProxyCreateConfig extends cdktf.Terraf
   /**
   * IP version, can be taken as IPv4 or IPv6, with a default value of IPv4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create#ip_address_version DataTencentcloudGaapCheckProxyCreate#ip_address_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create#ip_address_version DataTencentcloudGaapCheckProxyCreate#ip_address_version}
   */
   readonly ipAddressVersion?: string;
   /**
   * Network type, can take values &amp;#39;normal&amp;#39;, &amp;#39;cn2&amp;#39;, default value normal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create#network_type DataTencentcloudGaapCheckProxyCreate#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create#network_type DataTencentcloudGaapCheckProxyCreate#network_type}
   */
   readonly networkType?: string;
   /**
   * Channel package type. Thunder represents the standard proxy group, Accelerator represents the game accelerator proxy, and CrossBorder represents the cross-border proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create#package_type DataTencentcloudGaapCheckProxyCreate#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create#package_type DataTencentcloudGaapCheckProxyCreate#package_type}
   */
   readonly packageType?: string;
   /**
   * The origin area of the proxy. The value can be obtained through the interface DescribeDestRegions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create#real_server_region DataTencentcloudGaapCheckProxyCreate#real_server_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create#real_server_region DataTencentcloudGaapCheckProxyCreate#real_server_region}
   */
   readonly realServerRegion: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create#result_output_file DataTencentcloudGaapCheckProxyCreate#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create#result_output_file DataTencentcloudGaapCheckProxyCreate#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create tencentcloud_gaap_check_proxy_create}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create tencentcloud_gaap_check_proxy_create}
 */
 export class DataTencentcloudGaapCheckProxyCreate extends cdktf.TerraformDataSource {
 
@@ -87,7 +87,7 @@ export class DataTencentcloudGaapCheckProxyCreate extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudGaapCheckProxyCreate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudGaapCheckProxyCreate to import
-  * @param importFromId The id of the existing DataTencentcloudGaapCheckProxyCreate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudGaapCheckProxyCreate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudGaapCheckProxyCreate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class DataTencentcloudGaapCheckProxyCreate extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_check_proxy_create tencentcloud_gaap_check_proxy_create} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_check_proxy_create tencentcloud_gaap_check_proxy_create} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class DataTencentcloudGaapCheckProxyCreate extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_gaap_check_proxy_create',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

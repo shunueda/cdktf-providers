@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_gateways
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_group_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTsfGroupGatewaysConfig extends cdktf.TerraformM
   /**
   * gateway group Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_gateways#gateway_deploy_group_id DataTencentcloudTsfGroupGateways#gateway_deploy_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_group_gateways#gateway_deploy_group_id DataTencentcloudTsfGroupGateways#gateway_deploy_group_id}
   */
   readonly gatewayDeployGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_gateways#id DataTencentcloudTsfGroupGateways#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_group_gateways#id DataTencentcloudTsfGroupGateways#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudTsfGroupGatewaysConfig extends cdktf.TerraformM
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_gateways#result_output_file DataTencentcloudTsfGroupGateways#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_group_gateways#result_output_file DataTencentcloudTsfGroupGateways#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * search word.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_gateways#search_word DataTencentcloudTsfGroupGateways#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_group_gateways#search_word DataTencentcloudTsfGroupGateways#search_word}
   */
   readonly searchWord?: string;
 }
@@ -382,7 +382,7 @@ export class DataTencentcloudTsfGroupGatewaysResultList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_gateways tencentcloud_tsf_group_gateways}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_group_gateways tencentcloud_tsf_group_gateways}
 */
 export class DataTencentcloudTsfGroupGateways extends cdktf.TerraformDataSource {
 
@@ -398,7 +398,7 @@ export class DataTencentcloudTsfGroupGateways extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudTsfGroupGateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfGroupGateways to import
-  * @param importFromId The id of the existing DataTencentcloudTsfGroupGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfGroupGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_group_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfGroupGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -410,7 +410,7 @@ export class DataTencentcloudTsfGroupGateways extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_gateways tencentcloud_tsf_group_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_group_gateways tencentcloud_tsf_group_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -421,8 +421,8 @@ export class DataTencentcloudTsfGroupGateways extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_tsf_group_gateways',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

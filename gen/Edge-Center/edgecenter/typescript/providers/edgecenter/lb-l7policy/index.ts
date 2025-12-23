@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,11 +11,11 @@ export interface LbL7PolicyConfig extends cdktf.TerraformMetaArguments {
   * Enum: "REDIRECT_PREFIX" "REDIRECT_TO_POOL" "REDIRECT_TO_URL" "REJECT"
   * The action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#action LbL7Policy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#action LbL7Policy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#id LbL7Policy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#id LbL7Policy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,93 +24,93 @@ export interface LbL7PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#listener_id LbL7Policy#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#listener_id LbL7Policy#listener_id}
   */
   readonly listenerId: string;
   /**
   * The human-readable name of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#name LbL7Policy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#name LbL7Policy#name}
   */
   readonly name?: string;
   /**
   * The position of this policy on the listener. Positions start at 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#position LbL7Policy#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#position LbL7Policy#position}
   */
   readonly position?: number;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#project_id LbL7Policy#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#project_id LbL7Policy#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#project_name LbL7Policy#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#project_name LbL7Policy#project_name}
   */
   readonly projectName?: string;
   /**
   * Requests matching this policy will be redirected to the specified URL or Prefix URL with the HTTP response code. Valid if action is REDIRECT_TO_URL or REDIRECT_PREFIX. Valid options are 301, 302, 303, 307, or 308. Default is 302
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#redirect_http_code LbL7Policy#redirect_http_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#redirect_http_code LbL7Policy#redirect_http_code}
   */
   readonly redirectHttpCode?: number;
   /**
   * Requests matching this policy will be redirected to the pool with this ID. Only valid if the action is REDIRECT_TO_POOL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#redirect_pool_id LbL7Policy#redirect_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#redirect_pool_id LbL7Policy#redirect_pool_id}
   */
   readonly redirectPoolId?: string;
   /**
   * Requests matching this policy will be redirected to this Prefix URL. Only valid if the action is REDIRECT_PREFIX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#redirect_prefix LbL7Policy#redirect_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#redirect_prefix LbL7Policy#redirect_prefix}
   */
   readonly redirectPrefix?: string;
   /**
   * Requests matching this policy will be redirected to this URL. Only valid if the action is REDIRECT_TO_URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#redirect_url LbL7Policy#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#redirect_url LbL7Policy#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#region_id LbL7Policy#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#region_id LbL7Policy#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#region_name LbL7Policy#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#region_name LbL7Policy#region_name}
   */
   readonly regionName?: string;
   /**
   * A list of simple strings assigned to the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#tags LbL7Policy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#tags LbL7Policy#tags}
   */
   readonly tags?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#timeouts LbL7Policy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#timeouts LbL7Policy#timeouts}
   */
   readonly timeouts?: LbL7PolicyTimeouts;
 }
 export interface LbL7PolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#create LbL7Policy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#create LbL7Policy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#delete LbL7Policy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#delete LbL7Policy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#update LbL7Policy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#update LbL7Policy#update}
   */
   readonly update?: string;
 }
@@ -262,7 +262,7 @@ export class LbL7PolicyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy edgecenter_lb_l7policy}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy edgecenter_lb_l7policy}
 */
 export class LbL7Policy extends cdktf.TerraformResource {
 
@@ -278,7 +278,7 @@ export class LbL7Policy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbL7Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbL7Policy to import
-  * @param importFromId The id of the existing LbL7Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbL7Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbL7Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -290,7 +290,7 @@ export class LbL7Policy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lb_l7policy edgecenter_lb_l7policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lb_l7policy edgecenter_lb_l7policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -301,8 +301,8 @@ export class LbL7Policy extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_lb_l7policy',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

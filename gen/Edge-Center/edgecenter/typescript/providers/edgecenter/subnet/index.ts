@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Represents the IP address range of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#cidr Subnet#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#cidr Subnet#cidr}
   */
   readonly cidr: string;
   /**
   * True if the network's router should get a gateway in this subnet. Must be explicitly 'false' when gateway_ip is null. Default true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#connect_to_network_router Subnet#connect_to_network_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#connect_to_network_router Subnet#connect_to_network_router}
   */
   readonly connectToNetworkRouter?: boolean | cdktf.IResolvable;
   /**
   * List of DNS name servers for the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#dns_nameservers Subnet#dns_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#dns_nameservers Subnet#dns_nameservers}
   */
   readonly dnsNameservers?: string[];
   /**
   * Enable DHCP for this subnet. If true, DHCP will be used to assign IP addresses to instances within this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#enable_dhcp Subnet#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#enable_dhcp Subnet#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * The IP address of the gateway for this subnet. The subnet will be recreated if the gateway IP is changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#gateway_ip Subnet#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#gateway_ip Subnet#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#id Subnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#id Subnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,55 +47,55 @@ export interface SubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map containing metadata, for example tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#metadata_map Subnet#metadata_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#metadata_map Subnet#metadata_map}
   */
   readonly metadataMap?: { [key: string]: string };
   /**
   * The name of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#name Subnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#name Subnet#name}
   */
   readonly name: string;
   /**
   * The ID of the network to which this subnet belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#network_id Subnet#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#network_id Subnet#network_id}
   */
   readonly networkId: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#project_id Subnet#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#project_id Subnet#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#project_name Subnet#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#project_name Subnet#project_name}
   */
   readonly projectName?: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#region_id Subnet#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#region_id Subnet#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#region_name Subnet#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#region_name Subnet#region_name}
   */
   readonly regionName?: string;
   /**
   * allocation_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#allocation_pools Subnet#allocation_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#allocation_pools Subnet#allocation_pools}
   */
   readonly allocationPools?: SubnetAllocationPools[] | cdktf.IResolvable;
   /**
   * host_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#host_routes Subnet#host_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#host_routes Subnet#host_routes}
   */
   readonly hostRoutes?: SubnetHostRoutes[] | cdktf.IResolvable;
 }
@@ -188,13 +188,13 @@ export interface SubnetAllocationPools {
   /**
   * End IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#end Subnet#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#end Subnet#end}
   */
   readonly end: string;
   /**
   * Start IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#start Subnet#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#start Subnet#start}
   */
   readonly start: string;
 }
@@ -335,13 +335,13 @@ export interface SubnetHostRoutes {
   /**
   * The CIDR of the destination IPv4 subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#destination Subnet#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#destination Subnet#destination}
   */
   readonly destination: string;
   /**
   * IPv4 address to forward traffic to if it's destination IP matches 'destination' CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#nexthop Subnet#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#nexthop Subnet#nexthop}
   */
   readonly nexthop: string;
 }
@@ -480,7 +480,7 @@ export class SubnetHostRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet edgecenter_subnet}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet edgecenter_subnet}
 */
 export class Subnet extends cdktf.TerraformResource {
 
@@ -496,7 +496,7 @@ export class Subnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Subnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Subnet to import
-  * @param importFromId The id of the existing Subnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Subnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Subnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -508,7 +508,7 @@ export class Subnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/subnet edgecenter_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/subnet edgecenter_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -519,8 +519,8 @@ export class Subnet extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_subnet',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

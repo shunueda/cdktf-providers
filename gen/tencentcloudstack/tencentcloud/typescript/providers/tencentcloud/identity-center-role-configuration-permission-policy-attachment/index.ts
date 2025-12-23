@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_role_configuration_permission_policy_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/identity_center_role_configuration_permission_policy_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityCenterRoleConfigurationPermissionPolicyAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_role_configuration_permission_policy_attachment#id IdentityCenterRoleConfigurationPermissionPolicyAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/identity_center_role_configuration_permission_policy_attachment#id IdentityCenterRoleConfigurationPermissionPolicyAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface IdentityCenterRoleConfigurationPermissionPolicyAttachmentConfig
   /**
   * Permission configuration ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_role_configuration_permission_policy_attachment#role_configuration_id IdentityCenterRoleConfigurationPermissionPolicyAttachment#role_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/identity_center_role_configuration_permission_policy_attachment#role_configuration_id IdentityCenterRoleConfigurationPermissionPolicyAttachment#role_configuration_id}
   */
   readonly roleConfigurationId: string;
   /**
   * Role policy id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_role_configuration_permission_policy_attachment#role_policy_id IdentityCenterRoleConfigurationPermissionPolicyAttachment#role_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/identity_center_role_configuration_permission_policy_attachment#role_policy_id IdentityCenterRoleConfigurationPermissionPolicyAttachment#role_policy_id}
   */
   readonly rolePolicyId: number;
   /**
   * Role policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_role_configuration_permission_policy_attachment#role_policy_name IdentityCenterRoleConfigurationPermissionPolicyAttachment#role_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/identity_center_role_configuration_permission_policy_attachment#role_policy_name IdentityCenterRoleConfigurationPermissionPolicyAttachment#role_policy_name}
   */
   readonly rolePolicyName?: string;
   /**
   * Space ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_role_configuration_permission_policy_attachment#zone_id IdentityCenterRoleConfigurationPermissionPolicyAttachment#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/identity_center_role_configuration_permission_policy_attachment#zone_id IdentityCenterRoleConfigurationPermissionPolicyAttachment#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_role_configuration_permission_policy_attachment tencentcloud_identity_center_role_configuration_permission_policy_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/identity_center_role_configuration_permission_policy_attachment tencentcloud_identity_center_role_configuration_permission_policy_attachment}
 */
 export class IdentityCenterRoleConfigurationPermissionPolicyAttachment extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class IdentityCenterRoleConfigurationPermissionPolicyAttachment extends c
   * Generates CDKTF code for importing a IdentityCenterRoleConfigurationPermissionPolicyAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityCenterRoleConfigurationPermissionPolicyAttachment to import
-  * @param importFromId The id of the existing IdentityCenterRoleConfigurationPermissionPolicyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_role_configuration_permission_policy_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityCenterRoleConfigurationPermissionPolicyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/identity_center_role_configuration_permission_policy_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityCenterRoleConfigurationPermissionPolicyAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class IdentityCenterRoleConfigurationPermissionPolicyAttachment extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_role_configuration_permission_policy_attachment tencentcloud_identity_center_role_configuration_permission_policy_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/identity_center_role_configuration_permission_policy_attachment tencentcloud_identity_center_role_configuration_permission_policy_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class IdentityCenterRoleConfigurationPermissionPolicyAttachment extends c
       terraformResourceType: 'tencentcloud_identity_center_role_configuration_permission_policy_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

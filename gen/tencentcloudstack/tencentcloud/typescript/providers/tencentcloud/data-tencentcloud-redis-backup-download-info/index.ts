@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudRedisBackupDownloadInfoConfig extends cdktf.Ter
   /**
   * The backup ID, which can be accessed via [DescribeInstanceBackups](https://cloud.tencent.com/document/product/239/20011) interface returns the parameter RedisBackupSet to get.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info#backup_id DataTencentcloudRedisBackupDownloadInfo#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info#backup_id DataTencentcloudRedisBackupDownloadInfo#backup_id}
   */
   readonly backupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info#id DataTencentcloudRedisBackupDownloadInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info#id DataTencentcloudRedisBackupDownloadInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface DataTencentcloudRedisBackupDownloadInfoConfig extends cdktf.Ter
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info#instance_id DataTencentcloudRedisBackupDownloadInfo#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info#instance_id DataTencentcloudRedisBackupDownloadInfo#instance_id}
   */
   readonly instanceId: string;
   /**
   * Identifies whether the customized LimitIP address can download the backup file.- In: Custom IP addresses are available for download.- NotIn: Custom IPs are not available for download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info#ip_comparison_symbol DataTencentcloudRedisBackupDownloadInfo#ip_comparison_symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info#ip_comparison_symbol DataTencentcloudRedisBackupDownloadInfo#ip_comparison_symbol}
   */
   readonly ipComparisonSymbol?: string;
   /**
   * A custom VPC IP address for downloadable backup files.If the parameter LimitType is **Customize**, you need to configure this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info#limit_ip DataTencentcloudRedisBackupDownloadInfo#limit_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info#limit_ip DataTencentcloudRedisBackupDownloadInfo#limit_ip}
   */
   readonly limitIp?: string[];
   /**
   * Types of network restrictions for downloading backup files:- NoLimit: There is no limit, and backup files can be downloaded from both Tencent Cloud and internal and external networks.- LimitOnlyIntranet: Only intranet addresses automatically assigned by Tencent Cloud can download backup files.- Customize: refers to a user-defined private network downloadable backup file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info#limit_type DataTencentcloudRedisBackupDownloadInfo#limit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info#limit_type DataTencentcloudRedisBackupDownloadInfo#limit_type}
   */
   readonly limitType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info#result_output_file DataTencentcloudRedisBackupDownloadInfo#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info#result_output_file DataTencentcloudRedisBackupDownloadInfo#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * This parameter only supports entering In, which means that the custom LimitVpc can download the backup file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info#vpc_comparison_symbol DataTencentcloudRedisBackupDownloadInfo#vpc_comparison_symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info#vpc_comparison_symbol DataTencentcloudRedisBackupDownloadInfo#vpc_comparison_symbol}
   */
   readonly vpcComparisonSymbol?: string;
   /**
   * limit_vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info#limit_vpc DataTencentcloudRedisBackupDownloadInfo#limit_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info#limit_vpc DataTencentcloudRedisBackupDownloadInfo#limit_vpc}
   */
   readonly limitVpc?: DataTencentcloudRedisBackupDownloadInfoLimitVpc[] | cdktf.IResolvable;
 }
@@ -157,13 +157,13 @@ export interface DataTencentcloudRedisBackupDownloadInfoLimitVpc {
   /**
   * Customize the region of the VPC to which the backup file is downloaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info#region DataTencentcloudRedisBackupDownloadInfo#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info#region DataTencentcloudRedisBackupDownloadInfo#region}
   */
   readonly region: string;
   /**
   * Customize the list of VPCs to download backup files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info#vpc_list DataTencentcloudRedisBackupDownloadInfo#vpc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info#vpc_list DataTencentcloudRedisBackupDownloadInfo#vpc_list}
   */
   readonly vpcList: string[];
 }
@@ -302,7 +302,7 @@ export class DataTencentcloudRedisBackupDownloadInfoLimitVpcList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info tencentcloud_redis_backup_download_info}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info tencentcloud_redis_backup_download_info}
 */
 export class DataTencentcloudRedisBackupDownloadInfo extends cdktf.TerraformDataSource {
 
@@ -318,7 +318,7 @@ export class DataTencentcloudRedisBackupDownloadInfo extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTencentcloudRedisBackupDownloadInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudRedisBackupDownloadInfo to import
-  * @param importFromId The id of the existing DataTencentcloudRedisBackupDownloadInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudRedisBackupDownloadInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudRedisBackupDownloadInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -330,7 +330,7 @@ export class DataTencentcloudRedisBackupDownloadInfo extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_backup_download_info tencentcloud_redis_backup_download_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/redis_backup_download_info tencentcloud_redis_backup_download_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -341,8 +341,8 @@ export class DataTencentcloudRedisBackupDownloadInfo extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_redis_backup_download_info',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

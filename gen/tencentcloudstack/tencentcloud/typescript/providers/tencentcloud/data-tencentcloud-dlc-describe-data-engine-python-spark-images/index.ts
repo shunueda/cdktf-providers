@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_data_engine_python_spark_images
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_data_engine_python_spark_images
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDlcDescribeDataEnginePythonSparkImagesConfig ex
   /**
   * ID of the minor version of the cluster image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_data_engine_python_spark_images#child_image_version_id DataTencentcloudDlcDescribeDataEnginePythonSparkImages#child_image_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_data_engine_python_spark_images#child_image_version_id DataTencentcloudDlcDescribeDataEnginePythonSparkImages#child_image_version_id}
   */
   readonly childImageVersionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_data_engine_python_spark_images#id DataTencentcloudDlcDescribeDataEnginePythonSparkImages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_data_engine_python_spark_images#id DataTencentcloudDlcDescribeDataEnginePythonSparkImages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudDlcDescribeDataEnginePythonSparkImagesConfig ex
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_data_engine_python_spark_images#result_output_file DataTencentcloudDlcDescribeDataEnginePythonSparkImages#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_data_engine_python_spark_images#result_output_file DataTencentcloudDlcDescribeDataEnginePythonSparkImages#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -129,7 +129,7 @@ export class DataTencentcloudDlcDescribeDataEnginePythonSparkImagesPythonSparkIm
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_data_engine_python_spark_images tencentcloud_dlc_describe_data_engine_python_spark_images}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_data_engine_python_spark_images tencentcloud_dlc_describe_data_engine_python_spark_images}
 */
 export class DataTencentcloudDlcDescribeDataEnginePythonSparkImages extends cdktf.TerraformDataSource {
 
@@ -145,7 +145,7 @@ export class DataTencentcloudDlcDescribeDataEnginePythonSparkImages extends cdkt
   * Generates CDKTF code for importing a DataTencentcloudDlcDescribeDataEnginePythonSparkImages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDlcDescribeDataEnginePythonSparkImages to import
-  * @param importFromId The id of the existing DataTencentcloudDlcDescribeDataEnginePythonSparkImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_data_engine_python_spark_images#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDlcDescribeDataEnginePythonSparkImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_data_engine_python_spark_images#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDlcDescribeDataEnginePythonSparkImages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -157,7 +157,7 @@ export class DataTencentcloudDlcDescribeDataEnginePythonSparkImages extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_data_engine_python_spark_images tencentcloud_dlc_describe_data_engine_python_spark_images} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dlc_describe_data_engine_python_spark_images tencentcloud_dlc_describe_data_engine_python_spark_images} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,8 +168,8 @@ export class DataTencentcloudDlcDescribeDataEnginePythonSparkImages extends cdkt
       terraformResourceType: 'tencentcloud_dlc_describe_data_engine_python_spark_images',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LbpoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#id Lbpool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#id Lbpool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,79 +17,79 @@ export interface LbpoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The timestamp of the last update (use with update context).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#last_updated Lbpool#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#last_updated Lbpool#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * The algorithm of the load balancer. Available values are `ROUND_ROBIN`, `LEAST_CONNECTIONS`, `SOURCE_IP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#lb_algorithm Lbpool#lb_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#lb_algorithm Lbpool#lb_algorithm}
   */
   readonly lbAlgorithm: string;
   /**
   * The uuid for the load balancer listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#listener_id Lbpool#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#listener_id Lbpool#listener_id}
   */
   readonly listenerId?: string;
   /**
   * The uuid for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#loadbalancer_id Lbpool#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#loadbalancer_id Lbpool#loadbalancer_id}
   */
   readonly loadbalancerId?: string;
   /**
   * The name of the load balancer listener pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#name Lbpool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#name Lbpool#name}
   */
   readonly name: string;
   /**
   * The uuid of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#project_id Lbpool#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#project_id Lbpool#project_id}
   */
   readonly projectId?: number;
   /**
   * The name of the project. Either 'project_id' or 'project_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#project_name Lbpool#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#project_name Lbpool#project_name}
   */
   readonly projectName?: string;
   /**
   * The protocol. Available values are `HTTP` (currently work, other do not work on ed-8), `HTTPS`, `TCP`, `UDP`, `PROXY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#protocol Lbpool#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#protocol Lbpool#protocol}
   */
   readonly protocol: string;
   /**
   * The uuid of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#region_id Lbpool#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#region_id Lbpool#region_id}
   */
   readonly regionId?: number;
   /**
   * The name of the region. Either 'region_id' or 'region_name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#region_name Lbpool#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#region_name Lbpool#region_name}
   */
   readonly regionName?: string;
   /**
   * health_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#health_monitor Lbpool#health_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#health_monitor Lbpool#health_monitor}
   */
   readonly healthMonitor?: LbpoolHealthMonitor;
   /**
   * session_persistence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#session_persistence Lbpool#session_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#session_persistence Lbpool#session_persistence}
   */
   readonly sessionPersistence?: LbpoolSessionPersistence;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#timeouts Lbpool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#timeouts Lbpool#timeouts}
   */
   readonly timeouts?: LbpoolTimeouts;
 }
@@ -97,25 +97,25 @@ export interface LbpoolHealthMonitor {
   /**
   * The time between sending probes to members (in seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#delay Lbpool#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#delay Lbpool#delay}
   */
   readonly delay: number;
   /**
   * The expected HTTP status codes. Multiple codes can be specified as a comma-separated string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#expected_codes Lbpool#expected_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#expected_codes Lbpool#expected_codes}
   */
   readonly expectedCodes?: string;
   /**
   * The HTTP method. Available values are `CONNECT`, `DELETE`, `GET`, `HEAD`, `OPTIONS`, `PATCH`,`POST`, `PUT`, `TRACE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#http_method Lbpool#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#http_method Lbpool#http_method}
   */
   readonly httpMethod?: string;
   /**
   * The ID of the health monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#id Lbpool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#id Lbpool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -124,31 +124,31 @@ export interface LbpoolHealthMonitor {
   /**
   * The number of successes before the member is switched to the ONLINE state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#max_retries Lbpool#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#max_retries Lbpool#max_retries}
   */
   readonly maxRetries: number;
   /**
   * The number of failures before the member is switched to the ERROR state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#max_retries_down Lbpool#max_retries_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#max_retries_down Lbpool#max_retries_down}
   */
   readonly maxRetriesDown?: number;
   /**
   * The maximum time to connect. Must be less than the delay value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#timeout Lbpool#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#timeout Lbpool#timeout}
   */
   readonly timeout: number;
   /**
   * The type of the health monitor. Available values are `HTTP`, `HTTPS`, `PING`, `TCP`, `TLS-HELLO`, `UDP-CONNECT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#type Lbpool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#type Lbpool#type}
   */
   readonly type: string;
   /**
   * The URL path. Defaults to `/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#url_path Lbpool#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#url_path Lbpool#url_path}
   */
   readonly urlPath?: string;
 }
@@ -454,25 +454,25 @@ export interface LbpoolSessionPersistence {
   /**
   * The name of the cookie. Should be set if app cookie or http cookie is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#cookie_name Lbpool#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#cookie_name Lbpool#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * The subnet mask if source_ip is used. For UDP ports only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#persistence_granularity Lbpool#persistence_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#persistence_granularity Lbpool#persistence_granularity}
   */
   readonly persistenceGranularity?: string;
   /**
   * The timeout for the session persistence. For UDP ports only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#persistence_timeout Lbpool#persistence_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#persistence_timeout Lbpool#persistence_timeout}
   */
   readonly persistenceTimeout?: number;
   /**
   * The type of the session persistence. Available values are `APP_COOKIE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#type Lbpool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#type Lbpool#type}
   */
   readonly type?: string;
 }
@@ -643,11 +643,11 @@ export class LbpoolSessionPersistenceOutputReference extends cdktf.ComplexObject
 }
 export interface LbpoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#create Lbpool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#create Lbpool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#delete Lbpool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#delete Lbpool#delete}
   */
   readonly delete?: string;
 }
@@ -770,7 +770,7 @@ export class LbpoolTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool edgecenter_lbpool}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool edgecenter_lbpool}
 */
 export class Lbpool extends cdktf.TerraformResource {
 
@@ -786,7 +786,7 @@ export class Lbpool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lbpool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lbpool to import
-  * @param importFromId The id of the existing Lbpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lbpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lbpool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -798,7 +798,7 @@ export class Lbpool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/lbpool edgecenter_lbpool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/lbpool edgecenter_lbpool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -809,8 +809,8 @@ export class Lbpool extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_lbpool',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

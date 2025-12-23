@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_urls
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_urls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataTalosImageFactoryUrlsConfig extends cdktf.TerraformMetaArgu
   /**
   * The platform architecture for which the URLs are generated. Defaults to amd64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_urls#architecture DataTalosImageFactoryUrls#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_urls#architecture DataTalosImageFactoryUrls#architecture}
   */
   readonly architecture?: string;
   /**
@@ -41,7 +41,7 @@ export interface DataTalosImageFactoryUrlsConfig extends cdktf.TerraformMetaArgu
   *         - scaleway
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_urls#platform DataTalosImageFactoryUrls#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_urls#platform DataTalosImageFactoryUrls#platform}
   */
   readonly platform?: string;
   /**
@@ -70,21 +70,26 @@ export interface DataTalosImageFactoryUrlsConfig extends cdktf.TerraformMetaArgu
   *         - orangepi-5
   *         - orangepi-5-plus
   *         - rockpro64
+  *         - odroid-m1
+  *         - radxa-zero-3e
+  *         - rock3b
+  *         - orangepi-5-max
+  *         - rock5t
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_urls#sbc DataTalosImageFactoryUrls#sbc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_urls#sbc DataTalosImageFactoryUrls#sbc}
   */
   readonly sbc?: string;
   /**
   * The schematic ID for which the URLs are generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_urls#schematic_id DataTalosImageFactoryUrls#schematic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_urls#schematic_id DataTalosImageFactoryUrls#schematic_id}
   */
   readonly schematicId: string;
   /**
   * The Talos version for which the URLs are generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_urls#talos_version DataTalosImageFactoryUrls#talos_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_urls#talos_version DataTalosImageFactoryUrls#talos_version}
   */
   readonly talosVersion: string;
 }
@@ -194,7 +199,7 @@ export class DataTalosImageFactoryUrlsUrlsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_urls talos_image_factory_urls}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_urls talos_image_factory_urls}
 */
 export class DataTalosImageFactoryUrls extends cdktf.TerraformDataSource {
 
@@ -210,7 +215,7 @@ export class DataTalosImageFactoryUrls extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTalosImageFactoryUrls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTalosImageFactoryUrls to import
-  * @param importFromId The id of the existing DataTalosImageFactoryUrls that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_urls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTalosImageFactoryUrls that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_urls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTalosImageFactoryUrls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +227,7 @@ export class DataTalosImageFactoryUrls extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_urls talos_image_factory_urls} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_urls talos_image_factory_urls} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +238,8 @@ export class DataTalosImageFactoryUrls extends cdktf.TerraformDataSource {
       terraformResourceType: 'talos_image_factory_urls',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

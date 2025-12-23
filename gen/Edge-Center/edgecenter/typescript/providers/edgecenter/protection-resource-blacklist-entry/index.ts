@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_blacklist_entry
+// https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/protection_resource_blacklist_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ProtectionResourceBlacklistEntryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_blacklist_entry#id ProtectionResourceBlacklistEntry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/protection_resource_blacklist_entry#id ProtectionResourceBlacklistEntry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ProtectionResourceBlacklistEntryConfig extends cdktf.TerraformM
   /**
   * Blocked IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_blacklist_entry#ip ProtectionResourceBlacklistEntry#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/protection_resource_blacklist_entry#ip ProtectionResourceBlacklistEntry#ip}
   */
   readonly ip: string;
   /**
   * ID of the DDoS protection resource to add blacklist to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_blacklist_entry#resource ProtectionResourceBlacklistEntry#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/protection_resource_blacklist_entry#resource ProtectionResourceBlacklistEntry#resource}
   */
   readonly resource: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_blacklist_entry edgecenter_protection_resource_blacklist_entry}
+* Represents a {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/protection_resource_blacklist_entry edgecenter_protection_resource_blacklist_entry}
 */
 export class ProtectionResourceBlacklistEntry extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ProtectionResourceBlacklistEntry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtectionResourceBlacklistEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtectionResourceBlacklistEntry to import
-  * @param importFromId The id of the existing ProtectionResourceBlacklistEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_blacklist_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtectionResourceBlacklistEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/protection_resource_blacklist_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtectionResourceBlacklistEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ProtectionResourceBlacklistEntry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.6/docs/resources/protection_resource_blacklist_entry edgecenter_protection_resource_blacklist_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/edge-center/edgecenter/0.10.7/docs/resources/protection_resource_blacklist_entry edgecenter_protection_resource_blacklist_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class ProtectionResourceBlacklistEntry extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_protection_resource_blacklist_entry',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.6',
-        providerVersionConstraint: '0.10.6'
+        providerVersion: '0.10.7',
+        providerVersionConstraint: '0.10.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

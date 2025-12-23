@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CdwdorisInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the table name is case sensitive, 0 refers to sensitive, 1 refers to insensitive, compared in lowercase; 2 refers to insensitive, and the table name is changed to lowercase for storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#case_sensitive CdwdorisInstance#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#case_sensitive CdwdorisInstance#case_sensitive}
   */
   readonly caseSensitive?: number;
   /**
   * Database password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#doris_user_pwd CdwdorisInstance#doris_user_pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#doris_user_pwd CdwdorisInstance#doris_user_pwd}
   */
   readonly dorisUserPwd: string;
   /**
   * Whether to enable multi-availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#enable_multi_zones CdwdorisInstance#enable_multi_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#enable_multi_zones CdwdorisInstance#enable_multi_zones}
   */
   readonly enableMultiZones?: boolean | cdktf.IResolvable;
   /**
   * Whether it is highly available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#ha_flag CdwdorisInstance#ha_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#ha_flag CdwdorisInstance#ha_flag}
   */
   readonly haFlag: boolean | cdktf.IResolvable;
   /**
   * High availability type: 0 indicates non-high availability (only one FE, FeSpec.CreateInstanceSpec.Count=1), 1 indicates read high availability (at least 3 FEs must be deployed, FeSpec.CreateInstanceSpec.Count>=3, and it must be an odd number), 2 indicates read and write high availability (at least 5 FEs must be deployed, FeSpec.CreateInstanceSpec.Count>=5, and it must be an odd number).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#ha_type CdwdorisInstance#ha_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#ha_type CdwdorisInstance#ha_type}
   */
   readonly haType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#id CdwdorisInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#id CdwdorisInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,73 +47,73 @@ export interface CdwdorisInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#instance_name CdwdorisInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#instance_name CdwdorisInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Product version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#product_version CdwdorisInstance#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#product_version CdwdorisInstance#product_version}
   */
   readonly productVersion: string;
   /**
   * Security Group Id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#security_group_ids CdwdorisInstance#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#security_group_ids CdwdorisInstance#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * User subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#user_subnet_id CdwdorisInstance#user_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#user_subnet_id CdwdorisInstance#user_subnet_id}
   */
   readonly userSubnetId: string;
   /**
   * User VPCID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#user_vpc_id CdwdorisInstance#user_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#user_vpc_id CdwdorisInstance#user_vpc_id}
   */
   readonly userVpcId: string;
   /**
   * Whether to enable resource group. `open` - enable, `close` - disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#workload_group_status CdwdorisInstance#workload_group_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#workload_group_status CdwdorisInstance#workload_group_status}
   */
   readonly workloadGroupStatus: string;
   /**
   * Availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#zone CdwdorisInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#zone CdwdorisInstance#zone}
   */
   readonly zone: string;
   /**
   * be_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#be_spec CdwdorisInstance#be_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#be_spec CdwdorisInstance#be_spec}
   */
   readonly beSpec: CdwdorisInstanceBeSpec;
   /**
   * charge_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#charge_properties CdwdorisInstance#charge_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#charge_properties CdwdorisInstance#charge_properties}
   */
   readonly chargeProperties: CdwdorisInstanceChargeProperties;
   /**
   * fe_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#fe_spec CdwdorisInstance#fe_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#fe_spec CdwdorisInstance#fe_spec}
   */
   readonly feSpec: CdwdorisInstanceFeSpec;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#tags CdwdorisInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#tags CdwdorisInstance#tags}
   */
   readonly tags?: CdwdorisInstanceTags[] | cdktf.IResolvable;
   /**
   * user_multi_zone_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#user_multi_zone_infos CdwdorisInstance#user_multi_zone_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#user_multi_zone_infos CdwdorisInstance#user_multi_zone_infos}
   */
   readonly userMultiZoneInfos?: CdwdorisInstanceUserMultiZoneInfos;
 }
@@ -121,19 +121,19 @@ export interface CdwdorisInstanceBeSpec {
   /**
   * Quantities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#count CdwdorisInstance#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#count CdwdorisInstance#count}
   */
   readonly count: number;
   /**
   * Cloud disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#disk_size CdwdorisInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#disk_size CdwdorisInstance#disk_size}
   */
   readonly diskSize: number;
   /**
   * Specification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#spec_name CdwdorisInstance#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#spec_name CdwdorisInstance#spec_name}
   */
   readonly specName: string;
 }
@@ -268,25 +268,25 @@ export interface CdwdorisInstanceChargeProperties {
   /**
   * Billing type: `PREPAID` for prepayment, and `POSTPAID_BY_HOUR` for postpayment. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#charge_type CdwdorisInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#charge_type CdwdorisInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Whether to automatically renew. 1 means automatic renewal is enabled. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#renew_flag CdwdorisInstance#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#renew_flag CdwdorisInstance#renew_flag}
   */
   readonly renewFlag?: number;
   /**
   * Billing duration Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#time_span CdwdorisInstance#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#time_span CdwdorisInstance#time_span}
   */
   readonly timeSpan?: number;
   /**
   * Billing time unit, and `m` means month, etc. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#time_unit CdwdorisInstance#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#time_unit CdwdorisInstance#time_unit}
   */
   readonly timeUnit?: string;
 }
@@ -459,19 +459,19 @@ export interface CdwdorisInstanceFeSpec {
   /**
   * Quantities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#count CdwdorisInstance#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#count CdwdorisInstance#count}
   */
   readonly count: number;
   /**
   * Cloud disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#disk_size CdwdorisInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#disk_size CdwdorisInstance#disk_size}
   */
   readonly diskSize: number;
   /**
   * Specification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#spec_name CdwdorisInstance#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#spec_name CdwdorisInstance#spec_name}
   */
   readonly specName: string;
 }
@@ -606,13 +606,13 @@ export interface CdwdorisInstanceTags {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#tag_key CdwdorisInstance#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#tag_key CdwdorisInstance#tag_key}
   */
   readonly tagKey: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#tag_value CdwdorisInstance#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#tag_value CdwdorisInstance#tag_value}
   */
   readonly tagValue: string;
 }
@@ -753,19 +753,19 @@ export interface CdwdorisInstanceUserMultiZoneInfos {
   /**
   * Subnet ID Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#subnet_id CdwdorisInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#subnet_id CdwdorisInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The number of available IP addresses in the current subnet Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#subnet_ip_num CdwdorisInstance#subnet_ip_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#subnet_ip_num CdwdorisInstance#subnet_ip_num}
   */
   readonly subnetIpNum?: number;
   /**
   * Availability zone Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#zone CdwdorisInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#zone CdwdorisInstance#zone}
   */
   readonly zone?: string;
 }
@@ -907,7 +907,7 @@ export class CdwdorisInstanceUserMultiZoneInfosOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance tencentcloud_cdwdoris_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance tencentcloud_cdwdoris_instance}
 */
 export class CdwdorisInstance extends cdktf.TerraformResource {
 
@@ -923,7 +923,7 @@ export class CdwdorisInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdwdorisInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdwdorisInstance to import
-  * @param importFromId The id of the existing CdwdorisInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdwdorisInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdwdorisInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -935,7 +935,7 @@ export class CdwdorisInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cdwdoris_instance tencentcloud_cdwdoris_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cdwdoris_instance tencentcloud_cdwdoris_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -946,8 +946,8 @@ export class CdwdorisInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cdwdoris_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

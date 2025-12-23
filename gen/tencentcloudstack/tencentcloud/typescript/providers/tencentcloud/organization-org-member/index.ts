@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OrganizationOrgMemberConfig extends cdktf.TerraformMetaArgument
   /**
   * Whether to force delete the member account when deleting the organization member. It is only applicable to member accounts of the creation type, not to member accounts of the invitation type. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member#force_delete_account OrganizationOrgMember#force_delete_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member#force_delete_account OrganizationOrgMember#force_delete_account}
   */
   readonly forceDeleteAccount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member#id OrganizationOrgMember#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member#id OrganizationOrgMember#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface OrganizationOrgMemberConfig extends cdktf.TerraformMetaArgument
   /**
   * Member name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member#name OrganizationOrgMember#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member#name OrganizationOrgMember#name}
   */
   readonly name: string;
   /**
   * Organization node ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member#node_id OrganizationOrgMember#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member#node_id OrganizationOrgMember#node_id}
   */
   readonly nodeId: number;
   /**
   * The uin which is payment account on behalf.When `PermissionIds` contains 7, is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member#pay_uin OrganizationOrgMember#pay_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member#pay_uin OrganizationOrgMember#pay_uin}
   */
   readonly payUin?: string;
   /**
   * Financial management permission IDs.Valid values:- `1`: View bill.- `2`: Check balance.- `3`: Fund transfer.- `4`: Combine bill.- `5`: Issue an invoice.- `6`: Inherit discount.- `7`: Pay on behalf.value 1,2 is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member#permission_ids OrganizationOrgMember#permission_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member#permission_ids OrganizationOrgMember#permission_ids}
   */
   readonly permissionIds: number[];
   /**
   * Organization policy type.- `Financial`: Financial management policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member#policy_type OrganizationOrgMember#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member#policy_type OrganizationOrgMember#policy_type}
   */
   readonly policyType: string;
   /**
   * Create member record ID.When create failed and needs to be recreated, is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member#record_id OrganizationOrgMember#record_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member#record_id OrganizationOrgMember#record_id}
   */
   readonly recordId?: number;
   /**
   * Notes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member#remark OrganizationOrgMember#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member#remark OrganizationOrgMember#remark}
   */
   readonly remark?: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member#tags OrganizationOrgMember#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member#tags OrganizationOrgMember#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -151,7 +151,7 @@ export class OrganizationOrgMemberOrgPermissionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member tencentcloud_organization_org_member}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member tencentcloud_organization_org_member}
 */
 export class OrganizationOrgMember extends cdktf.TerraformResource {
 
@@ -167,7 +167,7 @@ export class OrganizationOrgMember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationOrgMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationOrgMember to import
-  * @param importFromId The id of the existing OrganizationOrgMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationOrgMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationOrgMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class OrganizationOrgMember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/organization_org_member tencentcloud_organization_org_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_org_member tencentcloud_organization_org_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class OrganizationOrgMember extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_organization_org_member',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

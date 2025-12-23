@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TsfInstancesAttachmentConfig extends cdktf.TerraformMetaArgumen
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#cluster_id TsfInstancesAttachment#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#cluster_id TsfInstancesAttachment#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Image feature ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#feature_id_list TsfInstancesAttachment#feature_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#feature_id_list TsfInstancesAttachment#feature_id_list}
   */
   readonly featureIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#id TsfInstancesAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#id TsfInstancesAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface TsfInstancesAttachmentConfig extends cdktf.TerraformMetaArgumen
   /**
   * Operating system image ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#image_id TsfInstancesAttachment#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#image_id TsfInstancesAttachment#image_id}
   */
   readonly imageId?: string;
   /**
   * Cloud server ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#instance_id TsfInstancesAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#instance_id TsfInstancesAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
   * Cloud server import mode, required for virtual machine clusters, not required for container clusters. R: Reinstall TSF system image, M: Manual installation of agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#instance_import_mode TsfInstancesAttachment#instance_import_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#instance_import_mode TsfInstancesAttachment#instance_import_mode}
   */
   readonly instanceImportMode?: string;
   /**
   * Associated key for system reinstallation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#key_id TsfInstancesAttachment#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#key_id TsfInstancesAttachment#key_id}
   */
   readonly keyId?: string;
   /**
   * Image customization type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#os_customize_type TsfInstancesAttachment#os_customize_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#os_customize_type TsfInstancesAttachment#os_customize_type}
   */
   readonly osCustomizeType?: string;
   /**
   * Operating system name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#os_name TsfInstancesAttachment#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#os_name TsfInstancesAttachment#os_name}
   */
   readonly osName?: string;
   /**
   * Reset system password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#password TsfInstancesAttachment#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#password TsfInstancesAttachment#password}
   */
   readonly password?: string;
   /**
   * Security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#security_group_ids TsfInstancesAttachment#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#security_group_ids TsfInstancesAttachment#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Security group setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#sg_id TsfInstancesAttachment#sg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#sg_id TsfInstancesAttachment#sg_id}
   */
   readonly sgId?: string;
   /**
   * instance_advanced_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#instance_advanced_settings TsfInstancesAttachment#instance_advanced_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#instance_advanced_settings TsfInstancesAttachment#instance_advanced_settings}
   */
   readonly instanceAdvancedSettings?: TsfInstancesAttachmentInstanceAdvancedSettings;
 }
@@ -91,13 +91,13 @@ export interface TsfInstancesAttachmentInstanceAdvancedSettings {
   /**
   * Dockerd --graph specifies the value, default is /var/lib/docker Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#docker_graph_path TsfInstancesAttachment#docker_graph_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#docker_graph_path TsfInstancesAttachment#docker_graph_path}
   */
   readonly dockerGraphPath: string;
   /**
   * Data disk mount point, data disks are not mounted by default. Data disks with formatted ext3, ext4, xfs file systems will be mounted directly, other file systems or unformatted data disks will be automatically formatted as ext4 and mounted. Please back up your data! This setting does not take effect for cloud servers with no data disks or multiple data disks. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#mount_target TsfInstancesAttachment#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#mount_target TsfInstancesAttachment#mount_target}
   */
   readonly mountTarget: string;
 }
@@ -204,7 +204,7 @@ export class TsfInstancesAttachmentInstanceAdvancedSettingsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment tencentcloud_tsf_instances_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment tencentcloud_tsf_instances_attachment}
 */
 export class TsfInstancesAttachment extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class TsfInstancesAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfInstancesAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfInstancesAttachment to import
-  * @param importFromId The id of the existing TsfInstancesAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfInstancesAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfInstancesAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class TsfInstancesAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tsf_instances_attachment tencentcloud_tsf_instances_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_instances_attachment tencentcloud_tsf_instances_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class TsfInstancesAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_instances_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

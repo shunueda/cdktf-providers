@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_secrets
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_secrets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface MachineSecretsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The version of talos features to use in generated machine configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_secrets#talos_version MachineSecrets#talos_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_secrets#talos_version MachineSecrets#talos_version}
   */
   readonly talosVersion?: string;
 }
@@ -699,7 +699,7 @@ export class MachineSecretsMachineSecretsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_secrets talos_machine_secrets}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_secrets talos_machine_secrets}
 */
 export class MachineSecrets extends cdktf.TerraformResource {
 
@@ -715,7 +715,7 @@ export class MachineSecrets extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MachineSecrets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MachineSecrets to import
-  * @param importFromId The id of the existing MachineSecrets that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_secrets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MachineSecrets that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_secrets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MachineSecrets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -727,7 +727,7 @@ export class MachineSecrets extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/resources/machine_secrets talos_machine_secrets} Resource
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/resources/machine_secrets talos_machine_secrets} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -738,8 +738,8 @@ export class MachineSecrets extends cdktf.TerraformResource {
       terraformResourceType: 'talos_machine_secrets',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

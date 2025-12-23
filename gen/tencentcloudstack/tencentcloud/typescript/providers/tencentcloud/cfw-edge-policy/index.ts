@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CfwEdgePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#description CfwEdgePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#description CfwEdgePolicy#description}
   */
   readonly description?: string;
   /**
   * Rule direction: 1, inbound; 0, outbound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#direction CfwEdgePolicy#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#direction CfwEdgePolicy#direction}
   */
   readonly direction: number;
   /**
   * Rule status, true means enabled, false means disabled. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#enable CfwEdgePolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#enable CfwEdgePolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#id CfwEdgePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#id CfwEdgePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface CfwEdgePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Parameter template id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#param_template_id CfwEdgePolicy#param_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#param_template_id CfwEdgePolicy#param_template_id}
   */
   readonly paramTemplateId?: string;
   /**
   * The port for the access control policy. Value: -1/-1: All ports 80: Port 80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#port CfwEdgePolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#port CfwEdgePolicy#port}
   */
   readonly port: string;
   /**
   * Protocol. If Direction=1 && Scope=serial, optional values: TCP UDP ICMP ANY HTTP HTTPS HTTP/HTTPS SMTP SMTPS SMTP/SMTPS FTP DNS; If Direction=1 && Scope!=serial, optional values: TCP; If Direction=0 && Scope=serial, optional values: TCP UDP ICMP ANY HTTP HTTPS HTTP/HTTPS SMTP SMTPS SMTP/SMTPS FTP DNS; If Direction=0 && Scope!=serial, optional values: TCP HTTP/HTTPS TLS/SSL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#protocol CfwEdgePolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#protocol CfwEdgePolicy#protocol}
   */
   readonly protocol: string;
   /**
   * How the traffic set in the access control policy passes through the cloud firewall. Values: accept: allow; drop: reject; log: observe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#rule_action CfwEdgePolicy#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#rule_action CfwEdgePolicy#rule_action}
   */
   readonly ruleAction: string;
   /**
   * Effective range. serial: serial; side: bypass; all: global, Default is all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#scope CfwEdgePolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#scope CfwEdgePolicy#scope}
   */
   readonly scope?: string;
   /**
   * Access source example: net:IP/CIDR(192.168.0.2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#source_content CfwEdgePolicy#source_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#source_content CfwEdgePolicy#source_content}
   */
   readonly sourceContent: string;
   /**
   * Access source type: for inbound rules, the type can be net, location, vendor, template; for outbound rules, it can be net, instance, tag, template, group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#source_type CfwEdgePolicy#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#source_type CfwEdgePolicy#source_type}
   */
   readonly sourceType: string;
   /**
   * Example of access purpose: net: IP/CIDR(192.168.0.2) domain: domain name rules, such as *.qq.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#target_content CfwEdgePolicy#target_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#target_content CfwEdgePolicy#target_content}
   */
   readonly targetContent: string;
   /**
   * Access purpose type: For inbound rules, the type can be net, instance, tag, template, group; for outbound rules, it can be net, location, vendor, template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#target_type CfwEdgePolicy#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#target_type CfwEdgePolicy#target_type}
   */
   readonly targetType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy tencentcloud_cfw_edge_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy tencentcloud_cfw_edge_policy}
 */
 export class CfwEdgePolicy extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class CfwEdgePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwEdgePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwEdgePolicy to import
-  * @param importFromId The id of the existing CfwEdgePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwEdgePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwEdgePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class CfwEdgePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_edge_policy tencentcloud_cfw_edge_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cfw_edge_policy tencentcloud_cfw_edge_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class CfwEdgePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cfw_edge_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

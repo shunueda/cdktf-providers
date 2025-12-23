@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ClbAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the CLB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment#clb_id ClbAttachment#clb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment#clb_id ClbAttachment#clb_id}
   */
   readonly clbId: string;
   /**
   * Domain of the target forwarding rule. Does not take effect when parameter `rule_id` is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment#domain ClbAttachment#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment#domain ClbAttachment#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment#id ClbAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment#id ClbAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface ClbAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the CLB listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment#listener_id ClbAttachment#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment#listener_id ClbAttachment#listener_id}
   */
   readonly listenerId: string;
   /**
   * ID of the CLB listener rule. Only supports listeners of `HTTPS` and `HTTP` protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment#rule_id ClbAttachment#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment#rule_id ClbAttachment#rule_id}
   */
   readonly ruleId?: string;
   /**
   * URL of the target forwarding rule. Does not take effect when parameter `rule_id` is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment#url ClbAttachment#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment#url ClbAttachment#url}
   */
   readonly url?: string;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment#targets ClbAttachment#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment#targets ClbAttachment#targets}
   */
   readonly targets: ClbAttachmentTargets[] | cdktf.IResolvable;
 }
@@ -55,25 +55,25 @@ export interface ClbAttachmentTargets {
   /**
   * Eni IP address of the backend server, conflict with `instance_id` but must specify one of them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment#eni_ip ClbAttachment#eni_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment#eni_ip ClbAttachment#eni_ip}
   */
   readonly eniIp?: string;
   /**
   * CVM Instance Id of the backend server, conflict with `eni_ip` but must specify one of them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment#instance_id ClbAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment#instance_id ClbAttachment#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Port of the backend server. Valid value ranges: (0~65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment#port ClbAttachment#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment#port ClbAttachment#port}
   */
   readonly port: number;
   /**
   * Forwarding weight of the backend service. Valid value ranges: (0~100). defaults to `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment#weight ClbAttachment#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment#weight ClbAttachment#weight}
   */
   readonly weight?: number;
 }
@@ -273,7 +273,7 @@ export class ClbAttachmentTargetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment tencentcloud_clb_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment tencentcloud_clb_attachment}
 */
 export class ClbAttachment extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class ClbAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClbAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClbAttachment to import
-  * @param importFromId The id of the existing ClbAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClbAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClbAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class ClbAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_attachment tencentcloud_clb_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_attachment tencentcloud_clb_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class ClbAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clb_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

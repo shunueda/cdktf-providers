@@ -1,3 +1,3 @@
 # `tencentcloud_redis_read_only`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_redis_read_only`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/redis_read_only).
+Refer to the Terraform Registry for docs: [`tencentcloud_redis_read_only`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_read_only).

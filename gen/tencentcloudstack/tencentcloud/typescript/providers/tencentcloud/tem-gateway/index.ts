@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TemGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#id TemGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#id TemGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface TemGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * ingress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#ingress TemGateway#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#ingress TemGateway#ingress}
   */
   readonly ingress?: TemGatewayIngress;
 }
@@ -25,13 +25,13 @@ export interface TemGatewayIngressRulesHttpPathsBackend {
   /**
   * backend name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#service_name TemGateway#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#service_name TemGateway#service_name}
   */
   readonly serviceName: string;
   /**
   * backend port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#service_port TemGateway#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#service_port TemGateway#service_port}
   */
   readonly servicePort: number;
 }
@@ -140,13 +140,13 @@ export interface TemGatewayIngressRulesHttpPaths {
   /**
   * path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#path TemGateway#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#path TemGateway#path}
   */
   readonly path: string;
   /**
   * backend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#backend TemGateway#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#backend TemGateway#backend}
   */
   readonly backend: TemGatewayIngressRulesHttpPathsBackend;
 }
@@ -287,7 +287,7 @@ export interface TemGatewayIngressRulesHttp {
   /**
   * paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#paths TemGateway#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#paths TemGateway#paths}
   */
   readonly paths: TemGatewayIngressRulesHttpPaths[] | cdktf.IResolvable;
 }
@@ -370,19 +370,19 @@ export interface TemGatewayIngressRules {
   /**
   * host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#host TemGateway#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#host TemGateway#host}
   */
   readonly host?: string;
   /**
   * protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#protocol TemGateway#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#protocol TemGateway#protocol}
   */
   readonly protocol?: string;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#http TemGateway#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#http TemGateway#http}
   */
   readonly http: TemGatewayIngressRulesHttp;
 }
@@ -555,19 +555,19 @@ export interface TemGatewayIngressTls {
   /**
   * certificate ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#certificate_id TemGateway#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#certificate_id TemGateway#certificate_id}
   */
   readonly certificateId: string;
   /**
   * host names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#hosts TemGateway#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#hosts TemGateway#hosts}
   */
   readonly hosts: string[];
   /**
   * secret name, if you use a certificate, you don't need to fill in this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#secret_name TemGateway#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#secret_name TemGateway#secret_name}
   */
   readonly secretName?: string;
 }
@@ -737,49 +737,49 @@ export interface TemGatewayIngress {
   /**
   * ip version, support IPV4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#address_ip_version TemGateway#address_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#address_ip_version TemGateway#address_ip_version}
   */
   readonly addressIpVersion: string;
   /**
   * related CLB ID, support binding existing clb, does not support modification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#clb_id TemGateway#clb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#clb_id TemGateway#clb_id}
   */
   readonly clbId?: string;
   /**
   * environment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#environment_id TemGateway#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#environment_id TemGateway#environment_id}
   */
   readonly environmentId: string;
   /**
   * gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#ingress_name TemGateway#ingress_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#ingress_name TemGateway#ingress_name}
   */
   readonly ingressName: string;
   /**
   * mixing HTTP and HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#mixed TemGateway#mixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#mixed TemGateway#mixed}
   */
   readonly mixed: boolean | cdktf.IResolvable;
   /**
   * redirect mode, support AUTO and NONE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#rewrite_type TemGateway#rewrite_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#rewrite_type TemGateway#rewrite_type}
   */
   readonly rewriteType?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#rules TemGateway#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#rules TemGateway#rules}
   */
   readonly rules: TemGatewayIngressRules[] | cdktf.IResolvable;
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#tls TemGateway#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#tls TemGateway#tls}
   */
   readonly tls?: TemGatewayIngressTls[] | cdktf.IResolvable;
 }
@@ -1061,7 +1061,7 @@ export class TemGatewayIngressOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway tencentcloud_tem_gateway}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway tencentcloud_tem_gateway}
 */
 export class TemGateway extends cdktf.TerraformResource {
 
@@ -1077,7 +1077,7 @@ export class TemGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemGateway to import
-  * @param importFromId The id of the existing TemGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1089,7 +1089,7 @@ export class TemGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_gateway tencentcloud_tem_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tem_gateway tencentcloud_tem_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1100,8 +1100,8 @@ export class TemGateway extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tem_gateway',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

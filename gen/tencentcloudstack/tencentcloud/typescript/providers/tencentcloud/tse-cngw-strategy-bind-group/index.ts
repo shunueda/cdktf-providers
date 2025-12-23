@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tse_cngw_strategy_bind_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tse_cngw_strategy_bind_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TseCngwStrategyBindGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tse_cngw_strategy_bind_group#gateway_id TseCngwStrategyBindGroup#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tse_cngw_strategy_bind_group#gateway_id TseCngwStrategyBindGroup#gateway_id}
   */
   readonly gatewayId: string;
   /**
   * group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tse_cngw_strategy_bind_group#group_id TseCngwStrategyBindGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tse_cngw_strategy_bind_group#group_id TseCngwStrategyBindGroup#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tse_cngw_strategy_bind_group#id TseCngwStrategyBindGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tse_cngw_strategy_bind_group#id TseCngwStrategyBindGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface TseCngwStrategyBindGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * `bind` or `unbind`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tse_cngw_strategy_bind_group#option TseCngwStrategyBindGroup#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tse_cngw_strategy_bind_group#option TseCngwStrategyBindGroup#option}
   */
   readonly option: string;
   /**
   * strategy ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tse_cngw_strategy_bind_group#strategy_id TseCngwStrategyBindGroup#strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tse_cngw_strategy_bind_group#strategy_id TseCngwStrategyBindGroup#strategy_id}
   */
   readonly strategyId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tse_cngw_strategy_bind_group tencentcloud_tse_cngw_strategy_bind_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tse_cngw_strategy_bind_group tencentcloud_tse_cngw_strategy_bind_group}
 */
 export class TseCngwStrategyBindGroup extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class TseCngwStrategyBindGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TseCngwStrategyBindGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TseCngwStrategyBindGroup to import
-  * @param importFromId The id of the existing TseCngwStrategyBindGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tse_cngw_strategy_bind_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TseCngwStrategyBindGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tse_cngw_strategy_bind_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TseCngwStrategyBindGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class TseCngwStrategyBindGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tse_cngw_strategy_bind_group tencentcloud_tse_cngw_strategy_bind_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tse_cngw_strategy_bind_group tencentcloud_tse_cngw_strategy_bind_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class TseCngwStrategyBindGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tse_cngw_strategy_bind_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

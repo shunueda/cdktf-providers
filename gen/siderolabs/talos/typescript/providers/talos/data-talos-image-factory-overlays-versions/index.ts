@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_overlays_versions
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_overlays_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataTalosImageFactoryOverlaysVersionsConfig extends cdktf.Terra
   /**
   * The filter to apply to the overlays list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_overlays_versions#filters DataTalosImageFactoryOverlaysVersions#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_overlays_versions#filters DataTalosImageFactoryOverlaysVersions#filters}
   */
   readonly filters?: DataTalosImageFactoryOverlaysVersionsFilters;
   /**
   * The talos version to get overlays for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_overlays_versions#talos_version DataTalosImageFactoryOverlaysVersions#talos_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_overlays_versions#talos_version DataTalosImageFactoryOverlaysVersions#talos_version}
   */
   readonly talosVersion: string;
 }
@@ -24,7 +24,7 @@ export interface DataTalosImageFactoryOverlaysVersionsFilters {
   /**
   * The name of the overlay to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_overlays_versions#name DataTalosImageFactoryOverlaysVersions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_overlays_versions#name DataTalosImageFactoryOverlaysVersions#name}
   */
   readonly name?: string;
 }
@@ -208,7 +208,7 @@ export class DataTalosImageFactoryOverlaysVersionsOverlaysInfoList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_overlays_versions talos_image_factory_overlays_versions}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_overlays_versions talos_image_factory_overlays_versions}
 */
 export class DataTalosImageFactoryOverlaysVersions extends cdktf.TerraformDataSource {
 
@@ -224,7 +224,7 @@ export class DataTalosImageFactoryOverlaysVersions extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTalosImageFactoryOverlaysVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTalosImageFactoryOverlaysVersions to import
-  * @param importFromId The id of the existing DataTalosImageFactoryOverlaysVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_overlays_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTalosImageFactoryOverlaysVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_overlays_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTalosImageFactoryOverlaysVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class DataTalosImageFactoryOverlaysVersions extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_overlays_versions talos_image_factory_overlays_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_overlays_versions talos_image_factory_overlays_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class DataTalosImageFactoryOverlaysVersions extends cdktf.TerraformDataSo
       terraformResourceType: 'talos_image_factory_overlays_versions',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

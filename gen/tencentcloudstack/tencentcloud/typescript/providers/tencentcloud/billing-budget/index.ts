@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface BillingBudgetConfig extends cdktf.TerraformMetaArguments {
   /**
   * BILL: system bill, CONSUMPTION: consumption bill.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#bill_type BillingBudget#bill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#bill_type BillingBudget#bill_type}
   */
   readonly billType: string;
   /**
   * Budget name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#budget_name BillingBudget#budget_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#budget_name BillingBudget#budget_name}
   */
   readonly budgetName: string;
   /**
   * Budget remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#budget_note BillingBudget#budget_note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#budget_note BillingBudget#budget_note}
   */
   readonly budgetNote?: string;
   /**
   * Budget value limit. Transfer fixed value when the budget plan type is FIX(Fixed Budget); Passed when the budget plan type is CYCLE(Planned Budget)[{"dateDesc":"2025-07","quota":"1000"},{"dateDesc":"2025-08","quota":"2000"}].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#budget_quota BillingBudget#budget_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#budget_quota BillingBudget#budget_quota}
   */
   readonly budgetQuota: string;
   /**
   * Cycle type, valid values: DAY, MONTH, QUARTER, YEAR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#cycle_type BillingBudget#cycle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#cycle_type BillingBudget#cycle_type}
   */
   readonly cycleType: string;
   /**
   * COST original price, REAL_COST actual cost, CASH cash, INCENTIVE gift, VOUCHER voucher, TRANSFER share, TAX tax, AMOUNT_BEFORE_TAX cash payment (before tax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#fee_type BillingBudget#fee_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#fee_type BillingBudget#fee_type}
   */
   readonly feeType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#id BillingBudget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#id BillingBudget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,37 +53,37 @@ export interface BillingBudgetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Valid period starting time 2025-01-01(cycle: days) / 2025-01 (cycle: months).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#period_begin BillingBudget#period_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#period_begin BillingBudget#period_begin}
   */
   readonly periodBegin: string;
   /**
   * Expiration period end time 2025-12-01(cycle: days) / 2025-12 (cycle: months).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#period_end BillingBudget#period_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#period_end BillingBudget#period_end}
   */
   readonly periodEnd: string;
   /**
   * FIX: fixed budget, CYCLE: planned budget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#plan_type BillingBudget#plan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#plan_type BillingBudget#plan_type}
   */
   readonly planType: string;
   /**
   * dimensions_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#dimensions_range BillingBudget#dimensions_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#dimensions_range BillingBudget#dimensions_range}
   */
   readonly dimensionsRange?: BillingBudgetDimensionsRange;
   /**
   * warn_json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#warn_json BillingBudget#warn_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#warn_json BillingBudget#warn_json}
   */
   readonly warnJson: BillingBudgetWarnJson[] | cdktf.IResolvable;
   /**
   * wave_threshold_json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#wave_threshold_json BillingBudget#wave_threshold_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#wave_threshold_json BillingBudget#wave_threshold_json}
   */
   readonly waveThresholdJson?: BillingBudgetWaveThresholdJson[] | cdktf.IResolvable;
 }
@@ -91,13 +91,13 @@ export interface BillingBudgetDimensionsRangeTags {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#tag_key BillingBudget#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#tag_key BillingBudget#tag_key}
   */
   readonly tagKey?: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#tag_value BillingBudget#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#tag_value BillingBudget#tag_value}
   */
   readonly tagValue?: string[];
 }
@@ -244,79 +244,79 @@ export interface BillingBudgetDimensionsRange {
   /**
   * Action types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#action_types BillingBudget#action_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#action_types BillingBudget#action_types}
   */
   readonly actionTypes?: string[];
   /**
   * Products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#business BillingBudget#business}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#business BillingBudget#business}
   */
   readonly business?: string[];
   /**
   * Component codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#component_codes BillingBudget#component_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#component_codes BillingBudget#component_codes}
   */
   readonly componentCodes?: string[];
   /**
   * Consumption types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#consumption_types BillingBudget#consumption_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#consumption_types BillingBudget#consumption_types}
   */
   readonly consumptionTypes?: string[];
   /**
   * Owner uins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#owner_uins BillingBudget#owner_uins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#owner_uins BillingBudget#owner_uins}
   */
   readonly ownerUins?: string[];
   /**
   * Pay mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#pay_mode BillingBudget#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#pay_mode BillingBudget#pay_mode}
   */
   readonly payMode?: string[];
   /**
   * Payer uins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#payer_uins BillingBudget#payer_uins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#payer_uins BillingBudget#payer_uins}
   */
   readonly payerUins?: string[];
   /**
   * Sub-product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#product_codes BillingBudget#product_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#product_codes BillingBudget#product_codes}
   */
   readonly productCodes?: string[];
   /**
   * Project ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#project_ids BillingBudget#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#project_ids BillingBudget#project_ids}
   */
   readonly projectIds?: string[];
   /**
   * Region ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#region_ids BillingBudget#region_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#region_ids BillingBudget#region_ids}
   */
   readonly regionIds?: string[];
   /**
   * Unique key for end-level ledger unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#tree_node_uniq_keys BillingBudget#tree_node_uniq_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#tree_node_uniq_keys BillingBudget#tree_node_uniq_keys}
   */
   readonly treeNodeUniqKeys?: string[];
   /**
   * Zone ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#zone_ids BillingBudget#zone_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#zone_ids BillingBudget#zone_ids}
   */
   readonly zoneIds?: string[];
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#tags BillingBudget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#tags BillingBudget#tags}
   */
   readonly tags?: BillingBudgetDimensionsRangeTags[] | cdktf.IResolvable;
 }
@@ -750,19 +750,19 @@ export interface BillingBudgetWarnJson {
   /**
   * PERCENTAGE: Percentage of budget amount, ABS: fixed value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#cal_type BillingBudget#cal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#cal_type BillingBudget#cal_type}
   */
   readonly calType: string;
   /**
   * Threshold (greater than or equal to 0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#threshold_value BillingBudget#threshold_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#threshold_value BillingBudget#threshold_value}
   */
   readonly thresholdValue: string;
   /**
   * ACTUAL: actual amount, FORECAST: forecast amount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#warn_type BillingBudget#warn_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#warn_type BillingBudget#warn_type}
   */
   readonly warnType: string;
 }
@@ -930,26 +930,26 @@ export interface BillingBudgetWaveThresholdJson {
   * Alarm type: chain month-on-month, yoy year-on-year, fix fixed value
   *  (Supported types: daily month-on-month chain day, daily month-on-year chain weekday, daily month-on-year monthly month-on-year fixed value fix day, month-on-month chain month, monthly fixed value fix month).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#meta_type BillingBudget#meta_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#meta_type BillingBudget#meta_type}
   */
   readonly metaType?: string;
   /**
   * Alarm dimension: day day, month month, weekday week
   *  (Support types: day-to-day chain day, day-to-year weekly dimension chain weekday, day-to-year monthly dimension yoy day, daily fixed value fix day, month-to-month chain month, monthly fixed value fix month).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#period_type BillingBudget#period_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#period_type BillingBudget#period_type}
   */
   readonly periodType?: string;
   /**
   * Volatility threshold (greater than or equal to 0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#threshold BillingBudget#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#threshold BillingBudget#threshold}
   */
   readonly threshold?: string;
   /**
   * ACTUAL: actual amount, FORECAST: forecast amount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#warn_type BillingBudget#warn_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#warn_type BillingBudget#warn_type}
   */
   readonly warnType?: string;
 }
@@ -1152,7 +1152,7 @@ export class BillingBudgetWaveThresholdJsonList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget tencentcloud_billing_budget}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget tencentcloud_billing_budget}
 */
 export class BillingBudget extends cdktf.TerraformResource {
 
@@ -1168,7 +1168,7 @@ export class BillingBudget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BillingBudget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BillingBudget to import
-  * @param importFromId The id of the existing BillingBudget that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BillingBudget that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BillingBudget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1180,7 +1180,7 @@ export class BillingBudget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/billing_budget tencentcloud_billing_budget} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/billing_budget tencentcloud_billing_budget} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1191,8 +1191,8 @@ export class BillingBudget extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_billing_budget',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

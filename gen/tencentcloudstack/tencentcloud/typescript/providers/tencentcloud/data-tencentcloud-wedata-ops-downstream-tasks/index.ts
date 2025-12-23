@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_ops_downstream_tasks
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_ops_downstream_tasks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudWedataOpsDownstreamTasksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_ops_downstream_tasks#id DataTencentcloudWedataOpsDownstreamTasks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_ops_downstream_tasks#id DataTencentcloudWedataOpsDownstreamTasks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudWedataOpsDownstreamTasksConfig extends cdktf.Te
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_ops_downstream_tasks#project_id DataTencentcloudWedataOpsDownstreamTasks#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_ops_downstream_tasks#project_id DataTencentcloudWedataOpsDownstreamTasks#project_id}
   */
   readonly projectId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_ops_downstream_tasks#result_output_file DataTencentcloudWedataOpsDownstreamTasks#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_ops_downstream_tasks#result_output_file DataTencentcloudWedataOpsDownstreamTasks#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Task ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_ops_downstream_tasks#task_id DataTencentcloudWedataOpsDownstreamTasks#task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_ops_downstream_tasks#task_id DataTencentcloudWedataOpsDownstreamTasks#task_id}
   */
   readonly taskId: string;
 }
@@ -291,7 +291,7 @@ export class DataTencentcloudWedataOpsDownstreamTasksDataList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_ops_downstream_tasks tencentcloud_wedata_ops_downstream_tasks}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_ops_downstream_tasks tencentcloud_wedata_ops_downstream_tasks}
 */
 export class DataTencentcloudWedataOpsDownstreamTasks extends cdktf.TerraformDataSource {
 
@@ -307,7 +307,7 @@ export class DataTencentcloudWedataOpsDownstreamTasks extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudWedataOpsDownstreamTasks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataOpsDownstreamTasks to import
-  * @param importFromId The id of the existing DataTencentcloudWedataOpsDownstreamTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_ops_downstream_tasks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataOpsDownstreamTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_ops_downstream_tasks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataOpsDownstreamTasks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class DataTencentcloudWedataOpsDownstreamTasks extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_ops_downstream_tasks tencentcloud_wedata_ops_downstream_tasks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_ops_downstream_tasks tencentcloud_wedata_ops_downstream_tasks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class DataTencentcloudWedataOpsDownstreamTasks extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_wedata_ops_downstream_tasks',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

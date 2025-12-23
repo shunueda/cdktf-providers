@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cam_service_linked_role
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_service_linked_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CamServiceLinkedRoleConfig extends cdktf.TerraformMetaArguments
   /**
   * The custom suffix, based on the string you provide, is combined with the prefix provided by the service to form the full role name. This field is not allowed to contain the character `_`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cam_service_linked_role#custom_suffix CamServiceLinkedRole#custom_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_service_linked_role#custom_suffix CamServiceLinkedRole#custom_suffix}
   */
   readonly customSuffix?: string;
   /**
   * role description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cam_service_linked_role#description CamServiceLinkedRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_service_linked_role#description CamServiceLinkedRole#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cam_service_linked_role#id CamServiceLinkedRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_service_linked_role#id CamServiceLinkedRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface CamServiceLinkedRoleConfig extends cdktf.TerraformMetaArguments
   /**
   * Authorization service, the Tencent Cloud service principal with this role attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cam_service_linked_role#qcs_service_name CamServiceLinkedRole#qcs_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_service_linked_role#qcs_service_name CamServiceLinkedRole#qcs_service_name}
   */
   readonly qcsServiceName: string[];
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cam_service_linked_role#tags CamServiceLinkedRole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_service_linked_role#tags CamServiceLinkedRole#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cam_service_linked_role tencentcloud_cam_service_linked_role}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_service_linked_role tencentcloud_cam_service_linked_role}
 */
 export class CamServiceLinkedRole extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class CamServiceLinkedRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CamServiceLinkedRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CamServiceLinkedRole to import
-  * @param importFromId The id of the existing CamServiceLinkedRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cam_service_linked_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CamServiceLinkedRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_service_linked_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CamServiceLinkedRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class CamServiceLinkedRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cam_service_linked_role tencentcloud_cam_service_linked_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_service_linked_role tencentcloud_cam_service_linked_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class CamServiceLinkedRole extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cam_service_linked_role',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_versions
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataTalosImageFactoryVersionsConfig extends cdktf.TerraformMeta
   /**
   * The filter to apply to the overlays list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_versions#filters DataTalosImageFactoryVersions#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_versions#filters DataTalosImageFactoryVersions#filters}
   */
   readonly filters?: DataTalosImageFactoryVersionsFilters;
 }
@@ -18,7 +18,7 @@ export interface DataTalosImageFactoryVersionsFilters {
   /**
   * If set to true, only stable versions will be returned. If set to false, all versions will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_versions#stable_versions_only DataTalosImageFactoryVersions#stable_versions_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_versions#stable_versions_only DataTalosImageFactoryVersions#stable_versions_only}
   */
   readonly stableVersionsOnly?: boolean | cdktf.IResolvable;
 }
@@ -112,7 +112,7 @@ export class DataTalosImageFactoryVersionsFiltersOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_versions talos_image_factory_versions}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_versions talos_image_factory_versions}
 */
 export class DataTalosImageFactoryVersions extends cdktf.TerraformDataSource {
 
@@ -128,7 +128,7 @@ export class DataTalosImageFactoryVersions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTalosImageFactoryVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTalosImageFactoryVersions to import
-  * @param importFromId The id of the existing DataTalosImageFactoryVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTalosImageFactoryVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTalosImageFactoryVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class DataTalosImageFactoryVersions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/image_factory_versions talos_image_factory_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/image_factory_versions talos_image_factory_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class DataTalosImageFactoryVersions extends cdktf.TerraformDataSource {
       terraformResourceType: 'talos_image_factory_versions',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

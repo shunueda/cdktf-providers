@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/client_configuration
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/client_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataTalosClientConfigurationConfig extends cdktf.TerraformMetaA
   /**
   * The client configuration data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/client_configuration#client_configuration DataTalosClientConfiguration#client_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/client_configuration#client_configuration DataTalosClientConfiguration#client_configuration}
   */
   readonly clientConfiguration: DataTalosClientConfigurationClientConfiguration;
   /**
   * The name of the cluster in the generated config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/client_configuration#cluster_name DataTalosClientConfiguration#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/client_configuration#cluster_name DataTalosClientConfiguration#cluster_name}
   */
   readonly clusterName: string;
   /**
   * endpoints to set in the generated config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/client_configuration#endpoints DataTalosClientConfiguration#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/client_configuration#endpoints DataTalosClientConfiguration#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * nodes to set in the generated config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/client_configuration#nodes DataTalosClientConfiguration#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/client_configuration#nodes DataTalosClientConfiguration#nodes}
   */
   readonly nodes?: string[];
 }
@@ -36,19 +36,19 @@ export interface DataTalosClientConfigurationClientConfiguration {
   /**
   * The client CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/client_configuration#ca_certificate DataTalosClientConfiguration#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/client_configuration#ca_certificate DataTalosClientConfiguration#ca_certificate}
   */
   readonly caCertificate: string;
   /**
   * The client certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/client_configuration#client_certificate DataTalosClientConfiguration#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/client_configuration#client_certificate DataTalosClientConfiguration#client_certificate}
   */
   readonly clientCertificate: string;
   /**
   * The client key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/client_configuration#client_key DataTalosClientConfiguration#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/client_configuration#client_key DataTalosClientConfiguration#client_key}
   */
   readonly clientKey: string;
 }
@@ -191,7 +191,7 @@ export class DataTalosClientConfigurationClientConfigurationOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/client_configuration talos_client_configuration}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/client_configuration talos_client_configuration}
 */
 export class DataTalosClientConfiguration extends cdktf.TerraformDataSource {
 
@@ -207,7 +207,7 @@ export class DataTalosClientConfiguration extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTalosClientConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTalosClientConfiguration to import
-  * @param importFromId The id of the existing DataTalosClientConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/client_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTalosClientConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/client_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTalosClientConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class DataTalosClientConfiguration extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/client_configuration talos_client_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/client_configuration talos_client_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class DataTalosClientConfiguration extends cdktf.TerraformDataSource {
       terraformResourceType: 'talos_client_configuration',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

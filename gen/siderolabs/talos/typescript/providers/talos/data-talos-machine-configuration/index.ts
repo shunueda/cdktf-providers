@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration
+// https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DataTalosMachineConfigurationConfig extends cdktf.TerraformMeta
   /**
   * The endpoint of the talos kubernetes cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#cluster_endpoint DataTalosMachineConfiguration#cluster_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#cluster_endpoint DataTalosMachineConfiguration#cluster_endpoint}
   */
   readonly clusterEndpoint: string;
   /**
   * The name of the talos kubernetes cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#cluster_name DataTalosMachineConfiguration#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#cluster_name DataTalosMachineConfiguration#cluster_name}
   */
   readonly clusterName: string;
   /**
   * The list of config patches to apply to the generated configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#config_patches DataTalosMachineConfiguration#config_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#config_patches DataTalosMachineConfiguration#config_patches}
   */
   readonly configPatches?: string[];
   /**
   * Whether to generate documentation for the generated configuration. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#docs DataTalosMachineConfiguration#docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#docs DataTalosMachineConfiguration#docs}
   */
   readonly docs?: boolean | cdktf.IResolvable;
   /**
   * Whether to generate examples for the generated configuration. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#examples DataTalosMachineConfiguration#examples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#examples DataTalosMachineConfiguration#examples}
   */
   readonly examples?: boolean | cdktf.IResolvable;
   /**
   * The version of kubernetes to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#kubernetes_version DataTalosMachineConfiguration#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#kubernetes_version DataTalosMachineConfiguration#kubernetes_version}
   */
   readonly kubernetesVersion?: string;
   /**
   * The secrets for the talos cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#machine_secrets DataTalosMachineConfiguration#machine_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#machine_secrets DataTalosMachineConfiguration#machine_secrets}
   */
   readonly machineSecrets: DataTalosMachineConfigurationMachineSecrets;
   /**
   * The type of machine to generate the configuration for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#machine_type DataTalosMachineConfiguration#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#machine_type DataTalosMachineConfiguration#machine_type}
   */
   readonly machineType: string;
   /**
   * The version of talos features to use in generated machine configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#talos_version DataTalosMachineConfiguration#talos_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#talos_version DataTalosMachineConfiguration#talos_version}
   */
   readonly talosVersion?: string;
 }
@@ -66,13 +66,13 @@ export interface DataTalosMachineConfigurationMachineSecretsCertsEtcd {
   /**
   * certificate data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#cert DataTalosMachineConfiguration#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#cert DataTalosMachineConfiguration#cert}
   */
   readonly cert: string;
   /**
   * key data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#key DataTalosMachineConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#key DataTalosMachineConfiguration#key}
   */
   readonly key: string;
 }
@@ -191,13 +191,13 @@ export interface DataTalosMachineConfigurationMachineSecretsCertsK8S {
   /**
   * certificate data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#cert DataTalosMachineConfiguration#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#cert DataTalosMachineConfiguration#cert}
   */
   readonly cert: string;
   /**
   * key data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#key DataTalosMachineConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#key DataTalosMachineConfiguration#key}
   */
   readonly key: string;
 }
@@ -316,13 +316,13 @@ export interface DataTalosMachineConfigurationMachineSecretsCertsK8SAggregator {
   /**
   * certificate data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#cert DataTalosMachineConfiguration#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#cert DataTalosMachineConfiguration#cert}
   */
   readonly cert: string;
   /**
   * key data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#key DataTalosMachineConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#key DataTalosMachineConfiguration#key}
   */
   readonly key: string;
 }
@@ -441,7 +441,7 @@ export interface DataTalosMachineConfigurationMachineSecretsCertsK8SServiceaccou
   /**
   * The key for the k8s service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#key DataTalosMachineConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#key DataTalosMachineConfiguration#key}
   */
   readonly key: string;
 }
@@ -534,13 +534,13 @@ export interface DataTalosMachineConfigurationMachineSecretsCertsOs {
   /**
   * certificate data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#cert DataTalosMachineConfiguration#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#cert DataTalosMachineConfiguration#cert}
   */
   readonly cert: string;
   /**
   * key data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#key DataTalosMachineConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#key DataTalosMachineConfiguration#key}
   */
   readonly key: string;
 }
@@ -659,29 +659,29 @@ export interface DataTalosMachineConfigurationMachineSecretsCerts {
   /**
   * The certificate and key pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#etcd DataTalosMachineConfiguration#etcd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#etcd DataTalosMachineConfiguration#etcd}
   */
   readonly etcd: DataTalosMachineConfigurationMachineSecretsCertsEtcd;
   /**
   * The certificate and key pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#k8s DataTalosMachineConfiguration#k8s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#k8s DataTalosMachineConfiguration#k8s}
   */
   readonly k8S: DataTalosMachineConfigurationMachineSecretsCertsK8S;
   /**
   * The certificate and key pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#k8s_aggregator DataTalosMachineConfiguration#k8s_aggregator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#k8s_aggregator DataTalosMachineConfiguration#k8s_aggregator}
   */
   readonly k8SAggregator: DataTalosMachineConfigurationMachineSecretsCertsK8SAggregator;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#k8s_serviceaccount DataTalosMachineConfiguration#k8s_serviceaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#k8s_serviceaccount DataTalosMachineConfiguration#k8s_serviceaccount}
   */
   readonly k8SServiceaccount: DataTalosMachineConfigurationMachineSecretsCertsK8SServiceaccount;
   /**
   * The certificate and key pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#os DataTalosMachineConfiguration#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#os DataTalosMachineConfiguration#os}
   */
   readonly os: DataTalosMachineConfigurationMachineSecretsCertsOs;
 }
@@ -878,7 +878,7 @@ export interface DataTalosMachineConfigurationMachineSecretsCluster {
   /**
   * The cluster id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#id DataTalosMachineConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#id DataTalosMachineConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -887,7 +887,7 @@ export interface DataTalosMachineConfigurationMachineSecretsCluster {
   /**
   * The cluster secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#secret DataTalosMachineConfiguration#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#secret DataTalosMachineConfiguration#secret}
   */
   readonly secret: string;
 }
@@ -1006,19 +1006,19 @@ export interface DataTalosMachineConfigurationMachineSecretsSecrets {
   /**
   * The aescbc encryption secret for the talos kubernetes cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#aescbc_encryption_secret DataTalosMachineConfiguration#aescbc_encryption_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#aescbc_encryption_secret DataTalosMachineConfiguration#aescbc_encryption_secret}
   */
   readonly aescbcEncryptionSecret?: string;
   /**
   * The bootstrap token for the talos kubernetes cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#bootstrap_token DataTalosMachineConfiguration#bootstrap_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#bootstrap_token DataTalosMachineConfiguration#bootstrap_token}
   */
   readonly bootstrapToken: string;
   /**
   * The secretbox encryption secret for the talos kubernetes cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#secretbox_encryption_secret DataTalosMachineConfiguration#secretbox_encryption_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#secretbox_encryption_secret DataTalosMachineConfiguration#secretbox_encryption_secret}
   */
   readonly secretboxEncryptionSecret: string;
 }
@@ -1166,7 +1166,7 @@ export interface DataTalosMachineConfigurationMachineSecretsTrustdinfo {
   /**
   * The trustd token for the talos kubernetes cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#token DataTalosMachineConfiguration#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#token DataTalosMachineConfiguration#token}
   */
   readonly token: string;
 }
@@ -1259,25 +1259,25 @@ export interface DataTalosMachineConfigurationMachineSecrets {
   /**
   * The certs for the talos kubernetes cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#certs DataTalosMachineConfiguration#certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#certs DataTalosMachineConfiguration#certs}
   */
   readonly certs: DataTalosMachineConfigurationMachineSecretsCerts;
   /**
   * The cluster secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#cluster DataTalosMachineConfiguration#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#cluster DataTalosMachineConfiguration#cluster}
   */
   readonly cluster: DataTalosMachineConfigurationMachineSecretsCluster;
   /**
   * The secrets for the talos kubernetes cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#secrets DataTalosMachineConfiguration#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#secrets DataTalosMachineConfiguration#secrets}
   */
   readonly secrets: DataTalosMachineConfigurationMachineSecretsSecrets;
   /**
   * The trustd info for the talos kubernetes cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#trustdinfo DataTalosMachineConfiguration#trustdinfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#trustdinfo DataTalosMachineConfiguration#trustdinfo}
   */
   readonly trustdinfo: DataTalosMachineConfigurationMachineSecretsTrustdinfo;
 }
@@ -1446,7 +1446,7 @@ export class DataTalosMachineConfigurationMachineSecretsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration talos_machine_configuration}
+* Represents a {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration talos_machine_configuration}
 */
 export class DataTalosMachineConfiguration extends cdktf.TerraformDataSource {
 
@@ -1462,7 +1462,7 @@ export class DataTalosMachineConfiguration extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTalosMachineConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTalosMachineConfiguration to import
-  * @param importFromId The id of the existing DataTalosMachineConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTalosMachineConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTalosMachineConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1474,7 +1474,7 @@ export class DataTalosMachineConfiguration extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.9.0/docs/data-sources/machine_configuration talos_machine_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/siderolabs/talos/0.10.0/docs/data-sources/machine_configuration talos_machine_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1485,8 +1485,8 @@ export class DataTalosMachineConfiguration extends cdktf.TerraformDataSource {
       terraformResourceType: 'talos_machine_configuration',
       terraformGeneratorMetadata: {
         providerName: 'talos',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

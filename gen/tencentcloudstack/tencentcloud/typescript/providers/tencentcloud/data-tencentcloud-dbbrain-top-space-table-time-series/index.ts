@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_top_space_table_time_series
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_top_space_table_time_series
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDbbrainTopSpaceTableTimeSeriesConfig extends cd
   /**
   * The deadline, such as 2021-01-01, the earliest is the 29th day before the current day, and the default is the current day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_top_space_table_time_series#end_date DataTencentcloudDbbrainTopSpaceTableTimeSeries#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_top_space_table_time_series#end_date DataTencentcloudDbbrainTopSpaceTableTimeSeries#end_date}
   */
   readonly endDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_top_space_table_time_series#id DataTencentcloudDbbrainTopSpaceTableTimeSeries#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_top_space_table_time_series#id DataTencentcloudDbbrainTopSpaceTableTimeSeries#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DataTencentcloudDbbrainTopSpaceTableTimeSeriesConfig extends cd
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_top_space_table_time_series#instance_id DataTencentcloudDbbrainTopSpaceTableTimeSeries#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_top_space_table_time_series#instance_id DataTencentcloudDbbrainTopSpaceTableTimeSeries#instance_id}
   */
   readonly instanceId: string;
   /**
   * The number of Top tables returned, the maximum value is 100, and the default is 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_top_space_table_time_series#limit DataTencentcloudDbbrainTopSpaceTableTimeSeries#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_top_space_table_time_series#limit DataTencentcloudDbbrainTopSpaceTableTimeSeries#limit}
   */
   readonly limit?: number;
   /**
   * Service product type, supported values include: mysql - cloud database MySQL, cynosdb - cloud database CynosDB for MySQL, the default is mysql.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_top_space_table_time_series#product DataTencentcloudDbbrainTopSpaceTableTimeSeries#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_top_space_table_time_series#product DataTencentcloudDbbrainTopSpaceTableTimeSeries#product}
   */
   readonly product?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_top_space_table_time_series#result_output_file DataTencentcloudDbbrainTopSpaceTableTimeSeries#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_top_space_table_time_series#result_output_file DataTencentcloudDbbrainTopSpaceTableTimeSeries#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The sorting field used to filter the Top table. The optional fields include DataLength, IndexLength, TotalLength, DataFree, FragRatio, TableRows, and PhysicalFileSize. The default is PhysicalFileSize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_top_space_table_time_series#sort_by DataTencentcloudDbbrainTopSpaceTableTimeSeries#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_top_space_table_time_series#sort_by DataTencentcloudDbbrainTopSpaceTableTimeSeries#sort_by}
   */
   readonly sortBy?: string;
   /**
   * The start date, such as 2021-01-01, the earliest is the 29th day before the current day, and the default is the 6th day before the deadline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_top_space_table_time_series#start_date DataTencentcloudDbbrainTopSpaceTableTimeSeries#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_top_space_table_time_series#start_date DataTencentcloudDbbrainTopSpaceTableTimeSeries#start_date}
   */
   readonly startDate?: string;
 }
@@ -316,7 +316,7 @@ export class DataTencentcloudDbbrainTopSpaceTableTimeSeriesTopSpaceTableTimeSeri
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_top_space_table_time_series tencentcloud_dbbrain_top_space_table_time_series}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_top_space_table_time_series tencentcloud_dbbrain_top_space_table_time_series}
 */
 export class DataTencentcloudDbbrainTopSpaceTableTimeSeries extends cdktf.TerraformDataSource {
 
@@ -332,7 +332,7 @@ export class DataTencentcloudDbbrainTopSpaceTableTimeSeries extends cdktf.Terraf
   * Generates CDKTF code for importing a DataTencentcloudDbbrainTopSpaceTableTimeSeries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDbbrainTopSpaceTableTimeSeries to import
-  * @param importFromId The id of the existing DataTencentcloudDbbrainTopSpaceTableTimeSeries that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_top_space_table_time_series#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDbbrainTopSpaceTableTimeSeries that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_top_space_table_time_series#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDbbrainTopSpaceTableTimeSeries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -344,7 +344,7 @@ export class DataTencentcloudDbbrainTopSpaceTableTimeSeries extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_top_space_table_time_series tencentcloud_dbbrain_top_space_table_time_series} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dbbrain_top_space_table_time_series tencentcloud_dbbrain_top_space_table_time_series} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -355,8 +355,8 @@ export class DataTencentcloudDbbrainTopSpaceTableTimeSeries extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_dbbrain_top_space_table_time_series',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

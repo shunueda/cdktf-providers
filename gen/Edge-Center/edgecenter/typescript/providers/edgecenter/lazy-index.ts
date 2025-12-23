@@ -49,6 +49,7 @@ Object.defineProperty(exports, 'useractionsSubscriptionLog', { get: function () 
 Object.defineProperty(exports, 'volume', { get: function () { return require('./volume'); } });
 Object.defineProperty(exports, 'dataEdgecenterAvailabilityZone', { get: function () { return require('./data-edgecenter-availability-zone'); } });
 Object.defineProperty(exports, 'dataEdgecenterCdnShieldingLocation', { get: function () { return require('./data-edgecenter-cdn-shielding-location'); } });
+Object.defineProperty(exports, 'dataEdgecenterFlavor', { get: function () { return require('./data-edgecenter-flavor'); } });
 Object.defineProperty(exports, 'dataEdgecenterFloatingip', { get: function () { return require('./data-edgecenter-floatingip'); } });
 Object.defineProperty(exports, 'dataEdgecenterImage', { get: function () { return require('./data-edgecenter-image'); } });
 Object.defineProperty(exports, 'dataEdgecenterInstance', { get: function () { return require('./data-edgecenter-instance'); } });

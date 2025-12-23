@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface BhResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto-renewal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#auto_renew_flag BhResource#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#auto_renew_flag BhResource#auto_renew_flag}
   */
   readonly autoRenewFlag: number;
   /**
   * CIDR block of the bastion host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#cidr_block BhResource#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#cidr_block BhResource#cidr_block}
   */
   readonly cidrBlock: string;
   /**
   * 0 - Disable client access to the bastion host; 1 - Enable client access to the bastion host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#client_access BhResource#client_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#client_access BhResource#client_access}
   */
   readonly clientAccess?: number;
   /**
   * Deployment region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#deploy_region BhResource#deploy_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#deploy_region BhResource#deploy_region}
   */
   readonly deployRegion: string;
   /**
   * Deployment zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#deploy_zone BhResource#deploy_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#deploy_zone BhResource#deploy_zone}
   */
   readonly deployZone: string;
   /**
   * 0 - Disable public network access to the bastion host; 1 - Enable public network access to the bastion host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#external_access BhResource#external_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#external_access BhResource#external_access}
   */
   readonly externalAccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#id BhResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#id BhResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,79 +53,79 @@ export interface BhResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * 0 - Disable internal network access bastion host; 1 - Enable internal network access bastion host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#intranet_access BhResource#intranet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#intranet_access BhResource#intranet_access}
   */
   readonly intranetAccess?: number;
   /**
   * Billing mode, 1 for prepaid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#pay_mode BhResource#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#pay_mode BhResource#pay_mode}
   */
   readonly payMode: number;
   /**
   * Resource type. Values: standard/pro.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#resource_edition BhResource#resource_edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#resource_edition BhResource#resource_edition}
   */
   readonly resourceEdition: string;
   /**
   * Number of resource nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#resource_node BhResource#resource_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#resource_node BhResource#resource_node}
   */
   readonly resourceNode: number;
   /**
   * Whether to share CLB, 0: not shared, 1: shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#share_clb BhResource#share_clb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#share_clb BhResource#share_clb}
   */
   readonly shareClb?: number;
   /**
   * Subnet ID for deploying the bastion host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#subnet_id BhResource#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#subnet_id BhResource#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Billing duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#time_span BhResource#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#time_span BhResource#time_span}
   */
   readonly timeSpan: number;
   /**
   * Billing cycle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#time_unit BhResource#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#time_unit BhResource#time_unit}
   */
   readonly timeUnit: string;
   /**
   * 0 for non-trial version, 1 for trial version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#trial BhResource#trial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#trial BhResource#trial}
   */
   readonly trial?: number;
   /**
   * The network segment corresponding to the VPC that needs to activate the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#vpc_cidr_block BhResource#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#vpc_cidr_block BhResource#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * VPC ID for deploying the bastion host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#vpc_id BhResource#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#vpc_id BhResource#vpc_id}
   */
   readonly vpcId: string;
   /**
   * 0 - Disable web access bastion host; 1 - Enable web access bastion host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#web_access BhResource#web_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#web_access BhResource#web_access}
   */
   readonly webAccess?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource tencentcloud_bh_resource}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource tencentcloud_bh_resource}
 */
 export class BhResource extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class BhResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BhResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BhResource to import
-  * @param importFromId The id of the existing BhResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BhResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BhResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class BhResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_resource tencentcloud_bh_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/bh_resource tencentcloud_bh_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class BhResource extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_bh_resource',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

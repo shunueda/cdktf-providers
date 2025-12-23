@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_binding_object
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_binding_object
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MonitorBindingObjectConfig extends cdktf.TerraformMetaArguments
   /**
   * Policy group ID for binding objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_binding_object#group_id MonitorBindingObject#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_binding_object#group_id MonitorBindingObject#group_id}
   */
   readonly groupId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_binding_object#id MonitorBindingObject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_binding_object#id MonitorBindingObject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface MonitorBindingObjectConfig extends cdktf.TerraformMetaArguments
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_binding_object#dimensions MonitorBindingObject#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_binding_object#dimensions MonitorBindingObject#dimensions}
   */
   readonly dimensions: MonitorBindingObjectDimensions[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface MonitorBindingObjectDimensions {
   /**
   * Represents a collection of dimensions of an object instance, json format.eg:'{"unInstanceId":"ins-ot3cq4bi"}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_binding_object#dimensions_json MonitorBindingObject#dimensions_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_binding_object#dimensions_json MonitorBindingObject#dimensions_json}
   */
   readonly dimensionsJson: string;
 }
@@ -149,7 +149,7 @@ export class MonitorBindingObjectDimensionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_binding_object tencentcloud_monitor_binding_object}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_binding_object tencentcloud_monitor_binding_object}
 */
 export class MonitorBindingObject extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class MonitorBindingObject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorBindingObject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorBindingObject to import
-  * @param importFromId The id of the existing MonitorBindingObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_binding_object#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorBindingObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_binding_object#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorBindingObject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class MonitorBindingObject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/monitor_binding_object tencentcloud_monitor_binding_object} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/monitor_binding_object tencentcloud_monitor_binding_object} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class MonitorBindingObject extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_binding_object',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

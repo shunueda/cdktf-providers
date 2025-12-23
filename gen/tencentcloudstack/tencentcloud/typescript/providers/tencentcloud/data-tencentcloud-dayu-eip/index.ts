@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dayu_eip
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dayu_eip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDayuEipConfig extends cdktf.TerraformMetaArgume
   /**
   * The binding state of the instance, value range [BINDING, BIND, UNBINDING, UNBIND], default is [BINDING, BIND, UNBINDING, UNBIND].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dayu_eip#bind_status DataTencentcloudDayuEip#bind_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dayu_eip#bind_status DataTencentcloudDayuEip#bind_status}
   */
   readonly bindStatus?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dayu_eip#id DataTencentcloudDayuEip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dayu_eip#id DataTencentcloudDayuEip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudDayuEipConfig extends cdktf.TerraformMetaArgume
   /**
   * The number of pages, default is `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dayu_eip#limit DataTencentcloudDayuEip#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dayu_eip#limit DataTencentcloudDayuEip#limit}
   */
   readonly limit?: number;
   /**
   * The page start offset, default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dayu_eip#offset DataTencentcloudDayuEip#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dayu_eip#offset DataTencentcloudDayuEip#offset}
   */
   readonly offset?: number;
   /**
   * Id of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dayu_eip#resource_id DataTencentcloudDayuEip#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dayu_eip#resource_id DataTencentcloudDayuEip#resource_id}
   */
   readonly resourceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dayu_eip#result_output_file DataTencentcloudDayuEip#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dayu_eip#result_output_file DataTencentcloudDayuEip#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -172,7 +172,7 @@ export class DataTencentcloudDayuEipListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dayu_eip tencentcloud_dayu_eip}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dayu_eip tencentcloud_dayu_eip}
 */
 export class DataTencentcloudDayuEip extends cdktf.TerraformDataSource {
 
@@ -188,7 +188,7 @@ export class DataTencentcloudDayuEip extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDayuEip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDayuEip to import
-  * @param importFromId The id of the existing DataTencentcloudDayuEip that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dayu_eip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDayuEip that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dayu_eip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDayuEip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class DataTencentcloudDayuEip extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dayu_eip tencentcloud_dayu_eip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dayu_eip tencentcloud_dayu_eip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,8 +211,8 @@ export class DataTencentcloudDayuEip extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dayu_eip',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.47',
-        providerVersionConstraint: '1.82.47'
+        providerVersion: '1.82.48',
+        providerVersionConstraint: '1.82.48'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
