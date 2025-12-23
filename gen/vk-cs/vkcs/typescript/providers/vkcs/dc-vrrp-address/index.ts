@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_address
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DcVrrpAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * VRRP ID to attach. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_address#dc_vrrp_id DcVrrpAddress#dc_vrrp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_address#dc_vrrp_id DcVrrpAddress#dc_vrrp_id}
   */
   readonly dcVrrpId: string;
   /**
   * Description of the VRRP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_address#description DcVrrpAddress#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_address#description DcVrrpAddress#description}
   */
   readonly description?: string;
   /**
   * IP address to assign. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_address#ip_address DcVrrpAddress#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_address#ip_address DcVrrpAddress#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Name of the VRRP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_address#name DcVrrpAddress#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_address#name DcVrrpAddress#name}
   */
   readonly name?: string;
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`. Changing this creates a new vrrp_address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_address#region DcVrrpAddress#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_address#region DcVrrpAddress#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_address vkcs_dc_vrrp_address}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_address vkcs_dc_vrrp_address}
 */
 export class DcVrrpAddress extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class DcVrrpAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcVrrpAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcVrrpAddress to import
-  * @param importFromId The id of the existing DcVrrpAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcVrrpAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcVrrpAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class DcVrrpAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_address vkcs_dc_vrrp_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_address vkcs_dc_vrrp_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class DcVrrpAddress extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_dc_vrrp_address',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

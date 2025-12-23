@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/netflow_agent
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/netflow_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NetflowAgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable L7 mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/netflow_agent#enable_l7_mode NetflowAgent#enable_l7_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/netflow_agent#enable_l7_mode NetflowAgent#enable_l7_mode}
   */
   readonly enableL7Mode?: boolean | cdktf.IResolvable;
   /**
   * List of excluded gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/netflow_agent#excluded_gateways NetflowAgent#excluded_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/netflow_agent#excluded_gateways NetflowAgent#excluded_gateways}
   */
   readonly excludedGateways?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/netflow_agent#id NetflowAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/netflow_agent#id NetflowAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface NetflowAgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Netflow server port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/netflow_agent#port NetflowAgent#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/netflow_agent#port NetflowAgent#port}
   */
   readonly port: number;
   /**
   * Netflow server IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/netflow_agent#server_ip NetflowAgent#server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/netflow_agent#server_ip NetflowAgent#server_ip}
   */
   readonly serverIp: string;
   /**
   * Netflow version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/netflow_agent#version NetflowAgent#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/netflow_agent#version NetflowAgent#version}
   */
   readonly version?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/netflow_agent aviatrix_netflow_agent}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/netflow_agent aviatrix_netflow_agent}
 */
 export class NetflowAgent extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class NetflowAgent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetflowAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetflowAgent to import
-  * @param importFromId The id of the existing NetflowAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/netflow_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetflowAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/netflow_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetflowAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class NetflowAgent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/netflow_agent aviatrix_netflow_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/netflow_agent aviatrix_netflow_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class NetflowAgent extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_netflow_agent',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

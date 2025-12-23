@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface WafcrsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#allowed_request_content_type_charsets Wafcrs#allowed_request_content_type_charsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#allowed_request_content_type_charsets Wafcrs#allowed_request_content_type_charsets}
   */
   readonly allowedRequestContentTypeCharsets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#description Wafcrs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#description Wafcrs#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#id Wafcrs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#id Wafcrs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#integrity Wafcrs#integrity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#integrity Wafcrs#integrity}
   */
   readonly integrity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#integrity_values Wafcrs#integrity_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#integrity_values Wafcrs#integrity_values}
   */
   readonly integrityValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#name Wafcrs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#name Wafcrs#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#release_date Wafcrs#release_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#release_date Wafcrs#release_date}
   */
   readonly releaseDate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#restricted_extensions Wafcrs#restricted_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#restricted_extensions Wafcrs#restricted_extensions}
   */
   readonly restrictedExtensions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#restricted_headers Wafcrs#restricted_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#restricted_headers Wafcrs#restricted_headers}
   */
   readonly restrictedHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#tenant_ref Wafcrs#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#tenant_ref Wafcrs#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#uuid Wafcrs#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#uuid Wafcrs#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#version Wafcrs#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#version Wafcrs#version}
   */
   readonly version: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#configpb_attributes Wafcrs#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#configpb_attributes Wafcrs#configpb_attributes}
   */
   readonly configpbAttributes?: WafcrsConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#files Wafcrs#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#files Wafcrs#files}
   */
   readonly files?: WafcrsFiles[] | cdktf.IResolvable;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#groups Wafcrs#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#groups Wafcrs#groups}
   */
   readonly groups?: WafcrsGroups[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#markers Wafcrs#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#markers Wafcrs#markers}
   */
   readonly markers?: WafcrsMarkers[] | cdktf.IResolvable;
 }
 export interface WafcrsConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#version Wafcrs#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#version Wafcrs#version}
   */
   readonly version?: string;
 }
@@ -201,15 +201,15 @@ export class WafcrsConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface WafcrsFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#data Wafcrs#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#data Wafcrs#data}
   */
   readonly data: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#name Wafcrs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#name Wafcrs#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#type Wafcrs#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#type Wafcrs#type}
   */
   readonly type?: string;
 }
@@ -377,11 +377,11 @@ export class WafcrsFilesList extends cdktf.ComplexList {
 }
 export interface WafcrsGroupsExcludeListClientSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#addr Wafcrs#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#addr Wafcrs#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#type Wafcrs#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#type Wafcrs#type}
   */
   readonly type: string;
 }
@@ -520,13 +520,13 @@ export class WafcrsGroupsExcludeListClientSubnetIpAddrList extends cdktf.Complex
 }
 export interface WafcrsGroupsExcludeListClientSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#mask Wafcrs#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#mask Wafcrs#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#ip_addr Wafcrs#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#ip_addr Wafcrs#ip_addr}
   */
   readonly ipAddr: WafcrsGroupsExcludeListClientSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -665,11 +665,11 @@ export class WafcrsGroupsExcludeListClientSubnetList extends cdktf.ComplexList {
 }
 export interface WafcrsGroupsExcludeListMatchElementCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#match_case Wafcrs#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#match_case Wafcrs#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#match_op Wafcrs#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#match_op Wafcrs#match_op}
   */
   readonly matchOp?: string;
 }
@@ -814,11 +814,11 @@ export class WafcrsGroupsExcludeListMatchElementCriteriaList extends cdktf.Compl
 }
 export interface WafcrsGroupsExcludeListUriMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#match_case Wafcrs#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#match_case Wafcrs#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#match_op Wafcrs#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#match_op Wafcrs#match_op}
   */
   readonly matchOp?: string;
 }
@@ -963,33 +963,33 @@ export class WafcrsGroupsExcludeListUriMatchCriteriaList extends cdktf.ComplexLi
 }
 export interface WafcrsGroupsExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#description Wafcrs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#description Wafcrs#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#match_element Wafcrs#match_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#match_element Wafcrs#match_element}
   */
   readonly matchElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#uri_path Wafcrs#uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#uri_path Wafcrs#uri_path}
   */
   readonly uriPath?: string;
   /**
   * client_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#client_subnet Wafcrs#client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#client_subnet Wafcrs#client_subnet}
   */
   readonly clientSubnet?: WafcrsGroupsExcludeListClientSubnet[] | cdktf.IResolvable;
   /**
   * match_element_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#match_element_criteria Wafcrs#match_element_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#match_element_criteria Wafcrs#match_element_criteria}
   */
   readonly matchElementCriteria?: WafcrsGroupsExcludeListMatchElementCriteria[] | cdktf.IResolvable;
   /**
   * uri_match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#uri_match_criteria Wafcrs#uri_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#uri_match_criteria Wafcrs#uri_match_criteria}
   */
   readonly uriMatchCriteria?: WafcrsGroupsExcludeListUriMatchCriteria[] | cdktf.IResolvable;
 }
@@ -1250,11 +1250,11 @@ export class WafcrsGroupsExcludeListStructList extends cdktf.ComplexList {
 }
 export interface WafcrsGroupsRulesExcludeListClientSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#addr Wafcrs#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#addr Wafcrs#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#type Wafcrs#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#type Wafcrs#type}
   */
   readonly type: string;
 }
@@ -1393,13 +1393,13 @@ export class WafcrsGroupsRulesExcludeListClientSubnetIpAddrList extends cdktf.Co
 }
 export interface WafcrsGroupsRulesExcludeListClientSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#mask Wafcrs#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#mask Wafcrs#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#ip_addr Wafcrs#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#ip_addr Wafcrs#ip_addr}
   */
   readonly ipAddr: WafcrsGroupsRulesExcludeListClientSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -1538,11 +1538,11 @@ export class WafcrsGroupsRulesExcludeListClientSubnetList extends cdktf.ComplexL
 }
 export interface WafcrsGroupsRulesExcludeListMatchElementCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#match_case Wafcrs#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#match_case Wafcrs#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#match_op Wafcrs#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#match_op Wafcrs#match_op}
   */
   readonly matchOp?: string;
 }
@@ -1687,11 +1687,11 @@ export class WafcrsGroupsRulesExcludeListMatchElementCriteriaList extends cdktf.
 }
 export interface WafcrsGroupsRulesExcludeListUriMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#match_case Wafcrs#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#match_case Wafcrs#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#match_op Wafcrs#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#match_op Wafcrs#match_op}
   */
   readonly matchOp?: string;
 }
@@ -1836,33 +1836,33 @@ export class WafcrsGroupsRulesExcludeListUriMatchCriteriaList extends cdktf.Comp
 }
 export interface WafcrsGroupsRulesExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#description Wafcrs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#description Wafcrs#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#match_element Wafcrs#match_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#match_element Wafcrs#match_element}
   */
   readonly matchElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#uri_path Wafcrs#uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#uri_path Wafcrs#uri_path}
   */
   readonly uriPath?: string;
   /**
   * client_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#client_subnet Wafcrs#client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#client_subnet Wafcrs#client_subnet}
   */
   readonly clientSubnet?: WafcrsGroupsRulesExcludeListClientSubnet[] | cdktf.IResolvable;
   /**
   * match_element_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#match_element_criteria Wafcrs#match_element_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#match_element_criteria Wafcrs#match_element_criteria}
   */
   readonly matchElementCriteria?: WafcrsGroupsRulesExcludeListMatchElementCriteria[] | cdktf.IResolvable;
   /**
   * uri_match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#uri_match_criteria Wafcrs#uri_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#uri_match_criteria Wafcrs#uri_match_criteria}
   */
   readonly uriMatchCriteria?: WafcrsGroupsRulesExcludeListUriMatchCriteria[] | cdktf.IResolvable;
 }
@@ -2123,49 +2123,49 @@ export class WafcrsGroupsRulesExcludeListStructList extends cdktf.ComplexList {
 }
 export interface WafcrsGroupsRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#enable Wafcrs#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#enable Wafcrs#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#index Wafcrs#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#index Wafcrs#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#is_sensitive Wafcrs#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#is_sensitive Wafcrs#is_sensitive}
   */
   readonly isSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#mode Wafcrs#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#mode Wafcrs#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#name Wafcrs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#name Wafcrs#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#paranoia_level Wafcrs#paranoia_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#paranoia_level Wafcrs#paranoia_level}
   */
   readonly paranoiaLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#phase Wafcrs#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#phase Wafcrs#phase}
   */
   readonly phase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#rule Wafcrs#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#rule Wafcrs#rule}
   */
   readonly rule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#rule_id Wafcrs#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#rule_id Wafcrs#rule_id}
   */
   readonly ruleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#tags Wafcrs#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#tags Wafcrs#tags}
   */
   readonly tags?: string[];
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#exclude_list Wafcrs#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#exclude_list Wafcrs#exclude_list}
   */
   readonly excludeList?: WafcrsGroupsRulesExcludeListStruct[] | cdktf.IResolvable;
 }
@@ -2565,27 +2565,27 @@ export class WafcrsGroupsRulesList extends cdktf.ComplexList {
 }
 export interface WafcrsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#enable Wafcrs#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#enable Wafcrs#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#index Wafcrs#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#index Wafcrs#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#name Wafcrs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#name Wafcrs#name}
   */
   readonly name: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#exclude_list Wafcrs#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#exclude_list Wafcrs#exclude_list}
   */
   readonly excludeList?: WafcrsGroupsExcludeListStruct[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#rules Wafcrs#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#rules Wafcrs#rules}
   */
   readonly rules?: WafcrsGroupsRules[] | cdktf.IResolvable;
 }
@@ -2811,11 +2811,11 @@ export class WafcrsGroupsList extends cdktf.ComplexList {
 }
 export interface WafcrsMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#key Wafcrs#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#key Wafcrs#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#values Wafcrs#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#values Wafcrs#values}
   */
   readonly values?: string[];
 }
@@ -2957,7 +2957,7 @@ export class WafcrsMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs avi_wafcrs}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs avi_wafcrs}
 */
 export class Wafcrs extends cdktf.TerraformResource {
 
@@ -2973,7 +2973,7 @@ export class Wafcrs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Wafcrs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wafcrs to import
-  * @param importFromId The id of the existing Wafcrs that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wafcrs that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wafcrs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2985,7 +2985,7 @@ export class Wafcrs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafcrs avi_wafcrs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafcrs avi_wafcrs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2996,8 +2996,8 @@ export class Wafcrs extends cdktf.TerraformResource {
       terraformResourceType: 'avi_wafcrs',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

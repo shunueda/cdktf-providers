@@ -1,12 +1,12 @@
 import * as cdktf from 'cdktf';
-import { ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectHost,
+import { ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokens,
+applicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokensToTerraform,
+applicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokensToHclTerraform,
+ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokensList,
+ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectHost,
 applicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectHostToTerraform,
 applicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectHostToHclTerraform,
 ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectHostList,
-ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath,
-applicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathToTerraform,
-applicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathToHclTerraform,
-ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathList,
 ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionFile,
 applicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionFileToTerraform,
 applicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionFileToHclTerraform,
@@ -55,37 +55,182 @@ ApplicationprofileDosRlProfileDosProfile,
 applicationprofileDosRlProfileDosProfileToTerraform,
 applicationprofileDosRlProfileDosProfileToHclTerraform,
 ApplicationprofileDosRlProfileDosProfileList } from './structs0'
+export interface ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#type Applicationprofile#type}
+  */
+  readonly type: string;
+  /**
+  * tokens block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#tokens Applicationprofile#tokens}
+  */
+  readonly tokens: ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokens[] | cdktf.IResolvable;
+}
+
+export function applicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathToTerraform(struct?: ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+    tokens: cdktf.listMapper(applicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokensToTerraform, true)(struct!.tokens),
+  }
+}
+
+
+export function applicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathToHclTerraform(struct?: ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tokens: {
+      value: cdktf.listMapperHcl(applicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokensToHclTerraform, true)(struct!.tokens),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokensList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._tokens?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tokens = this._tokens?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._type = undefined;
+      this._tokens.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._type = value.type;
+      this._tokens.internalValue = value.tokens;
+    }
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // tokens - computed: false, optional: false, required: true
+  private _tokens = new ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokensList(this, "tokens", false);
+  public get tokens() {
+    return this._tokens;
+  }
+  public putTokens(value: ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokens[] | cdktf.IResolvable) {
+    this._tokens.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tokensInput() {
+    return this._tokens.internalValue;
+  }
+}
+
+export class ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathList extends cdktf.ComplexList {
+  public internalValue? : ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathOutputReference {
+    return new ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#add_string Applicationprofile#add_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#add_string Applicationprofile#add_string}
   */
   readonly addString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#keep_query Applicationprofile#keep_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#keep_query Applicationprofile#keep_query}
   */
   readonly keepQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#port Applicationprofile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#port Applicationprofile#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#protocol Applicationprofile#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#protocol Applicationprofile#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#status_code Applicationprofile#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#status_code Applicationprofile#status_code}
   */
   readonly statusCode?: string;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#host Applicationprofile#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#host Applicationprofile#host}
   */
   readonly host?: ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectHost[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#path Applicationprofile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#path Applicationprofile#path}
   */
   readonly path?: ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath[] | cdktf.IResolvable;
 }
@@ -372,23 +517,23 @@ export class ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimit
 }
 export interface ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#status_code Applicationprofile#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#status_code Applicationprofile#status_code}
   */
   readonly statusCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#type Applicationprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#type Applicationprofile#type}
   */
   readonly type?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#file Applicationprofile#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#file Applicationprofile#file}
   */
   readonly file?: ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionFile[] | cdktf.IResolvable;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#redirect Applicationprofile#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#redirect Applicationprofile#redirect}
   */
   readonly redirect?: ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirect[] | cdktf.IResolvable;
 }
@@ -591,19 +736,19 @@ export class ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimit
 }
 export interface ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitRateLimiter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#burst_sz Applicationprofile#burst_sz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#burst_sz Applicationprofile#burst_sz}
   */
   readonly burstSz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#count Applicationprofile#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#count Applicationprofile#count}
   */
   readonly count?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#name Applicationprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#name Applicationprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#period Applicationprofile#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#period Applicationprofile#period}
   */
   readonly period?: string;
 }
@@ -806,31 +951,31 @@ export class ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimit
 }
 export interface ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#explicit_tracking Applicationprofile#explicit_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#explicit_tracking Applicationprofile#explicit_tracking}
   */
   readonly explicitTracking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#fine_grain Applicationprofile#fine_grain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#fine_grain Applicationprofile#fine_grain}
   */
   readonly fineGrain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#http_cookie Applicationprofile#http_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#http_cookie Applicationprofile#http_cookie}
   */
   readonly httpCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#http_header Applicationprofile#http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#http_header Applicationprofile#http_header}
   */
   readonly httpHeader?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#action Applicationprofile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#action Applicationprofile#action}
   */
   readonly action: ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitAction[] | cdktf.IResolvable;
   /**
   * rate_limiter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#rate_limiter Applicationprofile#rate_limiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#rate_limiter Applicationprofile#rate_limiter}
   */
   readonly rateLimiter?: ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitRateLimiter[] | cdktf.IResolvable;
 }
@@ -1090,67 +1235,67 @@ export interface ApplicationprofileDosRlProfileRlProfile {
   /**
   * client_ip_connections_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#client_ip_connections_rate_limit Applicationprofile#client_ip_connections_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#client_ip_connections_rate_limit Applicationprofile#client_ip_connections_rate_limit}
   */
   readonly clientIpConnectionsRateLimit?: ApplicationprofileDosRlProfileRlProfileClientIpConnectionsRateLimit[] | cdktf.IResolvable;
   /**
   * client_ip_failed_requests_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#client_ip_failed_requests_rate_limit Applicationprofile#client_ip_failed_requests_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#client_ip_failed_requests_rate_limit Applicationprofile#client_ip_failed_requests_rate_limit}
   */
   readonly clientIpFailedRequestsRateLimit?: ApplicationprofileDosRlProfileRlProfileClientIpFailedRequestsRateLimit[] | cdktf.IResolvable;
   /**
   * client_ip_requests_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#client_ip_requests_rate_limit Applicationprofile#client_ip_requests_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#client_ip_requests_rate_limit Applicationprofile#client_ip_requests_rate_limit}
   */
   readonly clientIpRequestsRateLimit?: ApplicationprofileDosRlProfileRlProfileClientIpRequestsRateLimit[] | cdktf.IResolvable;
   /**
   * client_ip_scanners_requests_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#client_ip_scanners_requests_rate_limit Applicationprofile#client_ip_scanners_requests_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#client_ip_scanners_requests_rate_limit Applicationprofile#client_ip_scanners_requests_rate_limit}
   */
   readonly clientIpScannersRequestsRateLimit?: ApplicationprofileDosRlProfileRlProfileClientIpScannersRequestsRateLimit[] | cdktf.IResolvable;
   /**
   * client_ip_to_uri_failed_requests_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#client_ip_to_uri_failed_requests_rate_limit Applicationprofile#client_ip_to_uri_failed_requests_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#client_ip_to_uri_failed_requests_rate_limit Applicationprofile#client_ip_to_uri_failed_requests_rate_limit}
   */
   readonly clientIpToUriFailedRequestsRateLimit?: ApplicationprofileDosRlProfileRlProfileClientIpToUriFailedRequestsRateLimit[] | cdktf.IResolvable;
   /**
   * client_ip_to_uri_requests_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#client_ip_to_uri_requests_rate_limit Applicationprofile#client_ip_to_uri_requests_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#client_ip_to_uri_requests_rate_limit Applicationprofile#client_ip_to_uri_requests_rate_limit}
   */
   readonly clientIpToUriRequestsRateLimit?: ApplicationprofileDosRlProfileRlProfileClientIpToUriRequestsRateLimit[] | cdktf.IResolvable;
   /**
   * custom_requests_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#custom_requests_rate_limit Applicationprofile#custom_requests_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#custom_requests_rate_limit Applicationprofile#custom_requests_rate_limit}
   */
   readonly customRequestsRateLimit?: ApplicationprofileDosRlProfileRlProfileCustomRequestsRateLimit[] | cdktf.IResolvable;
   /**
   * http_header_rate_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#http_header_rate_limits Applicationprofile#http_header_rate_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#http_header_rate_limits Applicationprofile#http_header_rate_limits}
   */
   readonly httpHeaderRateLimits?: ApplicationprofileDosRlProfileRlProfileHttpHeaderRateLimits[] | cdktf.IResolvable;
   /**
   * uri_failed_requests_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#uri_failed_requests_rate_limit Applicationprofile#uri_failed_requests_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#uri_failed_requests_rate_limit Applicationprofile#uri_failed_requests_rate_limit}
   */
   readonly uriFailedRequestsRateLimit?: ApplicationprofileDosRlProfileRlProfileUriFailedRequestsRateLimit[] | cdktf.IResolvable;
   /**
   * uri_requests_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#uri_requests_rate_limit Applicationprofile#uri_requests_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#uri_requests_rate_limit Applicationprofile#uri_requests_rate_limit}
   */
   readonly uriRequestsRateLimit?: ApplicationprofileDosRlProfileRlProfileUriRequestsRateLimit[] | cdktf.IResolvable;
   /**
   * uri_scanners_requests_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#uri_scanners_requests_rate_limit Applicationprofile#uri_scanners_requests_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#uri_scanners_requests_rate_limit Applicationprofile#uri_scanners_requests_rate_limit}
   */
   readonly uriScannersRequestsRateLimit?: ApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimit[] | cdktf.IResolvable;
 }
@@ -1558,13 +1703,13 @@ export interface ApplicationprofileDosRlProfile {
   /**
   * dos_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#dos_profile Applicationprofile#dos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#dos_profile Applicationprofile#dos_profile}
   */
   readonly dosProfile?: ApplicationprofileDosRlProfileDosProfile[] | cdktf.IResolvable;
   /**
   * rl_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#rl_profile Applicationprofile#rl_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#rl_profile Applicationprofile#rl_profile}
   */
   readonly rlProfile?: ApplicationprofileDosRlProfileRlProfile[] | cdktf.IResolvable;
 }
@@ -1709,23 +1854,23 @@ export class ApplicationprofileDosRlProfileList extends cdktf.ComplexList {
 }
 export interface ApplicationprofileHttpProfileCacheConfigUriNonCacheable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#match_case Applicationprofile#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#match_case Applicationprofile#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#match_criteria Applicationprofile#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#match_criteria Applicationprofile#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#match_decoded_string Applicationprofile#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#match_decoded_string Applicationprofile#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#match_str Applicationprofile#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#match_str Applicationprofile#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#string_group_refs Applicationprofile#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#string_group_refs Applicationprofile#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -1954,73 +2099,73 @@ export class ApplicationprofileHttpProfileCacheConfigUriNonCacheableList extends
 }
 export interface ApplicationprofileHttpProfileCacheConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#age_header Applicationprofile#age_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#age_header Applicationprofile#age_header}
   */
   readonly ageHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#aggressive Applicationprofile#aggressive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#aggressive Applicationprofile#aggressive}
   */
   readonly aggressive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#date_header Applicationprofile#date_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#date_header Applicationprofile#date_header}
   */
   readonly dateHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#default_expire Applicationprofile#default_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#default_expire Applicationprofile#default_expire}
   */
   readonly defaultExpire?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#enabled Applicationprofile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#enabled Applicationprofile#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#heuristic_expire Applicationprofile#heuristic_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#heuristic_expire Applicationprofile#heuristic_expire}
   */
   readonly heuristicExpire?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#ignore_request_cache_control Applicationprofile#ignore_request_cache_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#ignore_request_cache_control Applicationprofile#ignore_request_cache_control}
   */
   readonly ignoreRequestCacheControl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_cache_size Applicationprofile#max_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_cache_size Applicationprofile#max_cache_size}
   */
   readonly maxCacheSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_object_size Applicationprofile#max_object_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_object_size Applicationprofile#max_object_size}
   */
   readonly maxObjectSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#mime_types_block_group_refs Applicationprofile#mime_types_block_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#mime_types_block_group_refs Applicationprofile#mime_types_block_group_refs}
   */
   readonly mimeTypesBlockGroupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#mime_types_block_lists Applicationprofile#mime_types_block_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#mime_types_block_lists Applicationprofile#mime_types_block_lists}
   */
   readonly mimeTypesBlockLists?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#mime_types_group_refs Applicationprofile#mime_types_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#mime_types_group_refs Applicationprofile#mime_types_group_refs}
   */
   readonly mimeTypesGroupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#mime_types_list Applicationprofile#mime_types_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#mime_types_list Applicationprofile#mime_types_list}
   */
   readonly mimeTypesList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#min_object_size Applicationprofile#min_object_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#min_object_size Applicationprofile#min_object_size}
   */
   readonly minObjectSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#query_cacheable Applicationprofile#query_cacheable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#query_cacheable Applicationprofile#query_cacheable}
   */
   readonly queryCacheable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#xcache_header Applicationprofile#xcache_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#xcache_header Applicationprofile#xcache_header}
   */
   readonly xcacheHeader?: string;
   /**
   * uri_non_cacheable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#uri_non_cacheable Applicationprofile#uri_non_cacheable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#uri_non_cacheable Applicationprofile#uri_non_cacheable}
   */
   readonly uriNonCacheable?: ApplicationprofileHttpProfileCacheConfigUriNonCacheable[] | cdktf.IResolvable;
 }
@@ -2600,11 +2745,11 @@ export class ApplicationprofileHttpProfileCacheConfigList extends cdktf.ComplexL
 }
 export interface ApplicationprofileHttpProfileCompressionProfileFilterIpAddrPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#addr Applicationprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#addr Applicationprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#type Applicationprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#type Applicationprofile#type}
   */
   readonly type: string;
 }
@@ -2743,13 +2888,13 @@ export class ApplicationprofileHttpProfileCompressionProfileFilterIpAddrPrefixes
 }
 export interface ApplicationprofileHttpProfileCompressionProfileFilterIpAddrPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#mask Applicationprofile#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#mask Applicationprofile#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#ip_addr Applicationprofile#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#ip_addr Applicationprofile#ip_addr}
   */
   readonly ipAddr: ApplicationprofileHttpProfileCompressionProfileFilterIpAddrPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -2888,11 +3033,11 @@ export class ApplicationprofileHttpProfileCompressionProfileFilterIpAddrPrefixes
 }
 export interface ApplicationprofileHttpProfileCompressionProfileFilterIpAddrRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#addr Applicationprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#addr Applicationprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#type Applicationprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#type Applicationprofile#type}
   */
   readonly type: string;
 }
@@ -3031,11 +3176,11 @@ export class ApplicationprofileHttpProfileCompressionProfileFilterIpAddrRangesBe
 }
 export interface ApplicationprofileHttpProfileCompressionProfileFilterIpAddrRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#addr Applicationprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#addr Applicationprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#type Applicationprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#type Applicationprofile#type}
   */
   readonly type: string;
 }
@@ -3176,13 +3321,13 @@ export interface ApplicationprofileHttpProfileCompressionProfileFilterIpAddrRang
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#begin Applicationprofile#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#begin Applicationprofile#begin}
   */
   readonly begin: ApplicationprofileHttpProfileCompressionProfileFilterIpAddrRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#end Applicationprofile#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#end Applicationprofile#end}
   */
   readonly end: ApplicationprofileHttpProfileCompressionProfileFilterIpAddrRangesEnd[] | cdktf.IResolvable;
 }
@@ -3321,11 +3466,11 @@ export class ApplicationprofileHttpProfileCompressionProfileFilterIpAddrRangesLi
 }
 export interface ApplicationprofileHttpProfileCompressionProfileFilterIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#addr Applicationprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#addr Applicationprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#type Applicationprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#type Applicationprofile#type}
   */
   readonly type: string;
 }
@@ -3464,49 +3609,49 @@ export class ApplicationprofileHttpProfileCompressionProfileFilterIpAddrsList ex
 }
 export interface ApplicationprofileHttpProfileCompressionProfileFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#devices_ref Applicationprofile#devices_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#devices_ref Applicationprofile#devices_ref}
   */
   readonly devicesRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#index Applicationprofile#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#index Applicationprofile#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#ip_addrs_ref Applicationprofile#ip_addrs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#ip_addrs_ref Applicationprofile#ip_addrs_ref}
   */
   readonly ipAddrsRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#level Applicationprofile#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#level Applicationprofile#level}
   */
   readonly level: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#match Applicationprofile#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#match Applicationprofile#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#name Applicationprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#name Applicationprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#user_agent Applicationprofile#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#user_agent Applicationprofile#user_agent}
   */
   readonly userAgent?: string[];
   /**
   * ip_addr_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#ip_addr_prefixes Applicationprofile#ip_addr_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#ip_addr_prefixes Applicationprofile#ip_addr_prefixes}
   */
   readonly ipAddrPrefixes?: ApplicationprofileHttpProfileCompressionProfileFilterIpAddrPrefixes[] | cdktf.IResolvable;
   /**
   * ip_addr_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#ip_addr_ranges Applicationprofile#ip_addr_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#ip_addr_ranges Applicationprofile#ip_addr_ranges}
   */
   readonly ipAddrRanges?: ApplicationprofileHttpProfileCompressionProfileFilterIpAddrRanges[] | cdktf.IResolvable;
   /**
   * ip_addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#ip_addrs Applicationprofile#ip_addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#ip_addrs Applicationprofile#ip_addrs}
   */
   readonly ipAddrs?: ApplicationprofileHttpProfileCompressionProfileFilterIpAddrs[] | cdktf.IResolvable;
 }
@@ -3874,65 +4019,65 @@ export class ApplicationprofileHttpProfileCompressionProfileFilterList extends c
 }
 export interface ApplicationprofileHttpProfileCompressionProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#buf_num Applicationprofile#buf_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#buf_num Applicationprofile#buf_num}
   */
   readonly bufNum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#buf_size Applicationprofile#buf_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#buf_size Applicationprofile#buf_size}
   */
   readonly bufSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#compressible_content_ref Applicationprofile#compressible_content_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#compressible_content_ref Applicationprofile#compressible_content_ref}
   */
   readonly compressibleContentRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#compression Applicationprofile#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#compression Applicationprofile#compression}
   */
   readonly compression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#hash_size Applicationprofile#hash_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#hash_size Applicationprofile#hash_size}
   */
   readonly hashSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#level_aggressive Applicationprofile#level_aggressive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#level_aggressive Applicationprofile#level_aggressive}
   */
   readonly levelAggressive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#level_normal Applicationprofile#level_normal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#level_normal Applicationprofile#level_normal}
   */
   readonly levelNormal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_low_rtt Applicationprofile#max_low_rtt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_low_rtt Applicationprofile#max_low_rtt}
   */
   readonly maxLowRtt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#min_high_rtt Applicationprofile#min_high_rtt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#min_high_rtt Applicationprofile#min_high_rtt}
   */
   readonly minHighRtt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#min_length Applicationprofile#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#min_length Applicationprofile#min_length}
   */
   readonly minLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#mobile_str_ref Applicationprofile#mobile_str_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#mobile_str_ref Applicationprofile#mobile_str_ref}
   */
   readonly mobileStrRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#remove_accept_encoding_header Applicationprofile#remove_accept_encoding_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#remove_accept_encoding_header Applicationprofile#remove_accept_encoding_header}
   */
   readonly removeAcceptEncodingHeader: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#type Applicationprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#type Applicationprofile#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#window_size Applicationprofile#window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#window_size Applicationprofile#window_size}
   */
   readonly windowSize?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#filter Applicationprofile#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#filter Applicationprofile#filter}
   */
   readonly filter?: ApplicationprofileHttpProfileCompressionProfileFilter[] | cdktf.IResolvable;
 }
@@ -4445,39 +4590,39 @@ export class ApplicationprofileHttpProfileCompressionProfileList extends cdktf.C
 }
 export interface ApplicationprofileHttpProfileHttp2Profile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#enable_http2_server_push Applicationprofile#enable_http2_server_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#enable_http2_server_push Applicationprofile#enable_http2_server_push}
   */
   readonly enableHttp2ServerPush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#http2_initial_window_size Applicationprofile#http2_initial_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#http2_initial_window_size Applicationprofile#http2_initial_window_size}
   */
   readonly http2InitialWindowSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_http2_concurrent_pushes_per_connection Applicationprofile#max_http2_concurrent_pushes_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_http2_concurrent_pushes_per_connection Applicationprofile#max_http2_concurrent_pushes_per_connection}
   */
   readonly maxHttp2ConcurrentPushesPerConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_http2_concurrent_streams_per_connection Applicationprofile#max_http2_concurrent_streams_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_http2_concurrent_streams_per_connection Applicationprofile#max_http2_concurrent_streams_per_connection}
   */
   readonly maxHttp2ConcurrentStreamsPerConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_http2_control_frames_per_connection Applicationprofile#max_http2_control_frames_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_http2_control_frames_per_connection Applicationprofile#max_http2_control_frames_per_connection}
   */
   readonly maxHttp2ControlFramesPerConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_http2_empty_data_frames_per_connection Applicationprofile#max_http2_empty_data_frames_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_http2_empty_data_frames_per_connection Applicationprofile#max_http2_empty_data_frames_per_connection}
   */
   readonly maxHttp2EmptyDataFramesPerConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_http2_header_field_size Applicationprofile#max_http2_header_field_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_http2_header_field_size Applicationprofile#max_http2_header_field_size}
   */
   readonly maxHttp2HeaderFieldSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_http2_queued_frames_to_client_per_connection Applicationprofile#max_http2_queued_frames_to_client_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_http2_queued_frames_to_client_per_connection Applicationprofile#max_http2_queued_frames_to_client_per_connection}
   */
   readonly maxHttp2QueuedFramesToClientPerConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_http2_requests_per_connection Applicationprofile#max_http2_requests_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_http2_requests_per_connection Applicationprofile#max_http2_requests_per_connection}
   */
   readonly maxHttp2RequestsPerConnection?: string;
 }
@@ -4825,31 +4970,31 @@ export class ApplicationprofileHttpProfileHttp2ProfileList extends cdktf.Complex
 }
 export interface ApplicationprofileHttpProfileSessionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#session_cookie_httponly Applicationprofile#session_cookie_httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#session_cookie_httponly Applicationprofile#session_cookie_httponly}
   */
   readonly sessionCookieHttponly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#session_cookie_name Applicationprofile#session_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#session_cookie_name Applicationprofile#session_cookie_name}
   */
   readonly sessionCookieName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#session_cookie_samesite Applicationprofile#session_cookie_samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#session_cookie_samesite Applicationprofile#session_cookie_samesite}
   */
   readonly sessionCookieSamesite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#session_cookie_secure Applicationprofile#session_cookie_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#session_cookie_secure Applicationprofile#session_cookie_secure}
   */
   readonly sessionCookieSecure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#session_establishment_timeout Applicationprofile#session_establishment_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#session_establishment_timeout Applicationprofile#session_establishment_timeout}
   */
   readonly sessionEstablishmentTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#session_idle_timeout Applicationprofile#session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#session_idle_timeout Applicationprofile#session_idle_timeout}
   */
   readonly sessionIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#session_maximum_timeout Applicationprofile#session_maximum_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#session_maximum_timeout Applicationprofile#session_maximum_timeout}
   */
   readonly sessionMaximumTimeout?: string;
 }
@@ -5139,11 +5284,11 @@ export class ApplicationprofileHttpProfileSessionConfigList extends cdktf.Comple
 }
 export interface ApplicationprofileHttpProfileSslClientCertificateActionHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#request_header Applicationprofile#request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#request_header Applicationprofile#request_header}
   */
   readonly requestHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#request_header_value Applicationprofile#request_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#request_header_value Applicationprofile#request_header_value}
   */
   readonly requestHeaderValue?: string;
 }
@@ -5288,13 +5433,13 @@ export class ApplicationprofileHttpProfileSslClientCertificateActionHeadersList 
 }
 export interface ApplicationprofileHttpProfileSslClientCertificateAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#close_connection Applicationprofile#close_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#close_connection Applicationprofile#close_connection}
   */
   readonly closeConnection?: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#headers Applicationprofile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#headers Applicationprofile#headers}
   */
   readonly headers?: ApplicationprofileHttpProfileSslClientCertificateActionHeaders[] | cdktf.IResolvable;
 }
@@ -5439,15 +5584,15 @@ export class ApplicationprofileHttpProfileSslClientCertificateActionList extends
 }
 export interface ApplicationprofileHttpProfileTrueClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#direction Applicationprofile#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#direction Applicationprofile#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#headers Applicationprofile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#headers Applicationprofile#headers}
   */
   readonly headers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#index_in_header Applicationprofile#index_in_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#index_in_header Applicationprofile#index_in_header}
   */
   readonly indexInHeader?: string;
 }
@@ -5621,243 +5766,243 @@ export class ApplicationprofileHttpProfileTrueClientIpList extends cdktf.Complex
 }
 export interface ApplicationprofileHttpProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#allow_dots_in_header_name Applicationprofile#allow_dots_in_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#allow_dots_in_header_name Applicationprofile#allow_dots_in_header_name}
   */
   readonly allowDotsInHeaderName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#client_body_timeout Applicationprofile#client_body_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#client_body_timeout Applicationprofile#client_body_timeout}
   */
   readonly clientBodyTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#client_header_timeout Applicationprofile#client_header_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#client_header_timeout Applicationprofile#client_header_timeout}
   */
   readonly clientHeaderTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#client_max_body_size Applicationprofile#client_max_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#client_max_body_size Applicationprofile#client_max_body_size}
   */
   readonly clientMaxBodySize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#client_max_header_size Applicationprofile#client_max_header_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#client_max_header_size Applicationprofile#client_max_header_size}
   */
   readonly clientMaxHeaderSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#client_max_request_size Applicationprofile#client_max_request_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#client_max_request_size Applicationprofile#client_max_request_size}
   */
   readonly clientMaxRequestSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#close_server_side_connection_on_error Applicationprofile#close_server_side_connection_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#close_server_side_connection_on_error Applicationprofile#close_server_side_connection_on_error}
   */
   readonly closeServerSideConnectionOnError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#collect_client_tls_fingerprint Applicationprofile#collect_client_tls_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#collect_client_tls_fingerprint Applicationprofile#collect_client_tls_fingerprint}
   */
   readonly collectClientTlsFingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#connection_multiplexing_enabled Applicationprofile#connection_multiplexing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#connection_multiplexing_enabled Applicationprofile#connection_multiplexing_enabled}
   */
   readonly connectionMultiplexingEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#detect_ntlm_app Applicationprofile#detect_ntlm_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#detect_ntlm_app Applicationprofile#detect_ntlm_app}
   */
   readonly detectNtlmApp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#disable_keepalive_posts_msie6 Applicationprofile#disable_keepalive_posts_msie6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#disable_keepalive_posts_msie6 Applicationprofile#disable_keepalive_posts_msie6}
   */
   readonly disableKeepalivePostsMsie6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#disable_sni_hostname_check Applicationprofile#disable_sni_hostname_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#disable_sni_hostname_check Applicationprofile#disable_sni_hostname_check}
   */
   readonly disableSniHostnameCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#enable_chunk_merge Applicationprofile#enable_chunk_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#enable_chunk_merge Applicationprofile#enable_chunk_merge}
   */
   readonly enableChunkMerge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#enable_fire_and_forget Applicationprofile#enable_fire_and_forget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#enable_fire_and_forget Applicationprofile#enable_fire_and_forget}
   */
   readonly enableFireAndForget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#enable_request_body_buffering Applicationprofile#enable_request_body_buffering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#enable_request_body_buffering Applicationprofile#enable_request_body_buffering}
   */
   readonly enableRequestBodyBuffering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#enable_request_body_metrics Applicationprofile#enable_request_body_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#enable_request_body_metrics Applicationprofile#enable_request_body_metrics}
   */
   readonly enableRequestBodyMetrics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#fwd_close_hdr_for_bound_connections Applicationprofile#fwd_close_hdr_for_bound_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#fwd_close_hdr_for_bound_connections Applicationprofile#fwd_close_hdr_for_bound_connections}
   */
   readonly fwdCloseHdrForBoundConnections?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#hsts_enabled Applicationprofile#hsts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#hsts_enabled Applicationprofile#hsts_enabled}
   */
   readonly hstsEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#hsts_max_age Applicationprofile#hsts_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#hsts_max_age Applicationprofile#hsts_max_age}
   */
   readonly hstsMaxAge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#hsts_subdomains_enabled Applicationprofile#hsts_subdomains_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#hsts_subdomains_enabled Applicationprofile#hsts_subdomains_enabled}
   */
   readonly hstsSubdomainsEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#http_to_https Applicationprofile#http_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#http_to_https Applicationprofile#http_to_https}
   */
   readonly httpToHttps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#http_upstream_buffer_size Applicationprofile#http_upstream_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#http_upstream_buffer_size Applicationprofile#http_upstream_buffer_size}
   */
   readonly httpUpstreamBufferSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#httponly_enabled Applicationprofile#httponly_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#httponly_enabled Applicationprofile#httponly_enabled}
   */
   readonly httponlyEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#keepalive_header Applicationprofile#keepalive_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#keepalive_header Applicationprofile#keepalive_header}
   */
   readonly keepaliveHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#keepalive_timeout Applicationprofile#keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#keepalive_timeout Applicationprofile#keepalive_timeout}
   */
   readonly keepaliveTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_bad_rps_cip Applicationprofile#max_bad_rps_cip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_bad_rps_cip Applicationprofile#max_bad_rps_cip}
   */
   readonly maxBadRpsCip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_bad_rps_cip_uri Applicationprofile#max_bad_rps_cip_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_bad_rps_cip_uri Applicationprofile#max_bad_rps_cip_uri}
   */
   readonly maxBadRpsCipUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_bad_rps_uri Applicationprofile#max_bad_rps_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_bad_rps_uri Applicationprofile#max_bad_rps_uri}
   */
   readonly maxBadRpsUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_header_count Applicationprofile#max_header_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_header_count Applicationprofile#max_header_count}
   */
   readonly maxHeaderCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_keepalive_requests Applicationprofile#max_keepalive_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_keepalive_requests Applicationprofile#max_keepalive_requests}
   */
   readonly maxKeepaliveRequests?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_response_headers_size Applicationprofile#max_response_headers_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_response_headers_size Applicationprofile#max_response_headers_size}
   */
   readonly maxResponseHeadersSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_rps_cip Applicationprofile#max_rps_cip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_rps_cip Applicationprofile#max_rps_cip}
   */
   readonly maxRpsCip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_rps_cip_uri Applicationprofile#max_rps_cip_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_rps_cip_uri Applicationprofile#max_rps_cip_uri}
   */
   readonly maxRpsCipUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_rps_unknown_cip Applicationprofile#max_rps_unknown_cip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_rps_unknown_cip Applicationprofile#max_rps_unknown_cip}
   */
   readonly maxRpsUnknownCip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_rps_unknown_uri Applicationprofile#max_rps_unknown_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_rps_unknown_uri Applicationprofile#max_rps_unknown_uri}
   */
   readonly maxRpsUnknownUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#max_rps_uri Applicationprofile#max_rps_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#max_rps_uri Applicationprofile#max_rps_uri}
   */
   readonly maxRpsUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#pass_through_x_accel_headers Applicationprofile#pass_through_x_accel_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#pass_through_x_accel_headers Applicationprofile#pass_through_x_accel_headers}
   */
   readonly passThroughXAccelHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#pki_profile_ref Applicationprofile#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#pki_profile_ref Applicationprofile#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#post_accept_timeout Applicationprofile#post_accept_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#post_accept_timeout Applicationprofile#post_accept_timeout}
   */
   readonly postAcceptTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#reset_conn_http_on_ssl_port Applicationprofile#reset_conn_http_on_ssl_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#reset_conn_http_on_ssl_port Applicationprofile#reset_conn_http_on_ssl_port}
   */
   readonly resetConnHttpOnSslPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#respond_with_100_continue Applicationprofile#respond_with_100_continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#respond_with_100_continue Applicationprofile#respond_with_100_continue}
   */
   readonly respondWith100Continue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#secure_cookie_enabled Applicationprofile#secure_cookie_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#secure_cookie_enabled Applicationprofile#secure_cookie_enabled}
   */
   readonly secureCookieEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#server_side_redirect_to_https Applicationprofile#server_side_redirect_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#server_side_redirect_to_https Applicationprofile#server_side_redirect_to_https}
   */
   readonly serverSideRedirectToHttps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#ssl_client_certificate_mode Applicationprofile#ssl_client_certificate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#ssl_client_certificate_mode Applicationprofile#ssl_client_certificate_mode}
   */
   readonly sslClientCertificateMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#use_app_keepalive_timeout Applicationprofile#use_app_keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#use_app_keepalive_timeout Applicationprofile#use_app_keepalive_timeout}
   */
   readonly useAppKeepaliveTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#use_true_client_ip Applicationprofile#use_true_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#use_true_client_ip Applicationprofile#use_true_client_ip}
   */
   readonly useTrueClientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#websockets_enabled Applicationprofile#websockets_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#websockets_enabled Applicationprofile#websockets_enabled}
   */
   readonly websocketsEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#x_forwarded_proto_enabled Applicationprofile#x_forwarded_proto_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#x_forwarded_proto_enabled Applicationprofile#x_forwarded_proto_enabled}
   */
   readonly xForwardedProtoEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#xff_alternate_name Applicationprofile#xff_alternate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#xff_alternate_name Applicationprofile#xff_alternate_name}
   */
   readonly xffAlternateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#xff_enabled Applicationprofile#xff_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#xff_enabled Applicationprofile#xff_enabled}
   */
   readonly xffEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#xff_update Applicationprofile#xff_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#xff_update Applicationprofile#xff_update}
   */
   readonly xffUpdate?: string;
   /**
   * cache_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#cache_config Applicationprofile#cache_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#cache_config Applicationprofile#cache_config}
   */
   readonly cacheConfig?: ApplicationprofileHttpProfileCacheConfig[] | cdktf.IResolvable;
   /**
   * compression_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#compression_profile Applicationprofile#compression_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#compression_profile Applicationprofile#compression_profile}
   */
   readonly compressionProfile?: ApplicationprofileHttpProfileCompressionProfile[] | cdktf.IResolvable;
   /**
   * http2_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#http2_profile Applicationprofile#http2_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#http2_profile Applicationprofile#http2_profile}
   */
   readonly http2Profile?: ApplicationprofileHttpProfileHttp2Profile[] | cdktf.IResolvable;
   /**
   * session_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#session_config Applicationprofile#session_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#session_config Applicationprofile#session_config}
   */
   readonly sessionConfig?: ApplicationprofileHttpProfileSessionConfig[] | cdktf.IResolvable;
   /**
   * ssl_client_certificate_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#ssl_client_certificate_action Applicationprofile#ssl_client_certificate_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#ssl_client_certificate_action Applicationprofile#ssl_client_certificate_action}
   */
   readonly sslClientCertificateAction?: ApplicationprofileHttpProfileSslClientCertificateAction[] | cdktf.IResolvable;
   /**
   * true_client_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#true_client_ip Applicationprofile#true_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#true_client_ip Applicationprofile#true_client_ip}
   */
   readonly trueClientIp?: ApplicationprofileHttpProfileTrueClientIp[] | cdktf.IResolvable;
 }
@@ -7597,7 +7742,7 @@ export class ApplicationprofileHttpProfileList extends cdktf.ComplexList {
 }
 export interface ApplicationprofileL4SslProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#ssl_stream_idle_timeout Applicationprofile#ssl_stream_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#ssl_stream_idle_timeout Applicationprofile#ssl_stream_idle_timeout}
   */
   readonly sslStreamIdleTimeout?: string;
 }
@@ -7713,11 +7858,11 @@ export class ApplicationprofileL4SslProfileList extends cdktf.ComplexList {
 }
 export interface ApplicationprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#key Applicationprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#key Applicationprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#values Applicationprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#values Applicationprofile#values}
   */
   readonly values?: string[];
 }
@@ -7859,7 +8004,7 @@ export class ApplicationprofileMarkersList extends cdktf.ComplexList {
 }
 export interface ApplicationprofileSipServiceProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#transaction_timeout Applicationprofile#transaction_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#transaction_timeout Applicationprofile#transaction_timeout}
   */
   readonly transactionTimeout?: string;
 }
@@ -7975,11 +8120,11 @@ export class ApplicationprofileSipServiceProfileList extends cdktf.ComplexList {
 }
 export interface ApplicationprofileTcpAppProfileFtpProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#deactivate_active Applicationprofile#deactivate_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#deactivate_active Applicationprofile#deactivate_active}
   */
   readonly deactivateActive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#deactivate_passive Applicationprofile#deactivate_passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#deactivate_passive Applicationprofile#deactivate_passive}
   */
   readonly deactivatePassive?: string;
 }
@@ -8124,25 +8269,25 @@ export class ApplicationprofileTcpAppProfileFtpProfileList extends cdktf.Complex
 }
 export interface ApplicationprofileTcpAppProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#pki_profile_ref Applicationprofile#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#pki_profile_ref Applicationprofile#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#proxy_protocol_enabled Applicationprofile#proxy_protocol_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#proxy_protocol_enabled Applicationprofile#proxy_protocol_enabled}
   */
   readonly proxyProtocolEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#proxy_protocol_version Applicationprofile#proxy_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#proxy_protocol_version Applicationprofile#proxy_protocol_version}
   */
   readonly proxyProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#ssl_client_certificate_mode Applicationprofile#ssl_client_certificate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#ssl_client_certificate_mode Applicationprofile#ssl_client_certificate_mode}
   */
   readonly sslClientCertificateMode?: string;
   /**
   * ftp_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#ftp_profile Applicationprofile#ftp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#ftp_profile Applicationprofile#ftp_profile}
   */
   readonly ftpProfile?: ApplicationprofileTcpAppProfileFtpProfile[] | cdktf.IResolvable;
 }

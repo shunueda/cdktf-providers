@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbcrmruntime
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbcrmruntime
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviGslbcrmruntimeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbcrmruntime#id DataAviGslbcrmruntime#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbcrmruntime#id DataAviGslbcrmruntime#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbcrmruntime#name DataAviGslbcrmruntime#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbcrmruntime#name DataAviGslbcrmruntime#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbcrmruntime#tenant_ref DataAviGslbcrmruntime#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbcrmruntime#tenant_ref DataAviGslbcrmruntime#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbcrmruntime#uuid DataAviGslbcrmruntime#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbcrmruntime#uuid DataAviGslbcrmruntime#uuid}
   */
   readonly uuid?: string;
 }
@@ -156,6 +156,11 @@ export class DataAviGslbcrmruntimeEventsOutputReference extends cdktf.ComplexObj
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
     }
+  }
+
+  // agent_id - computed: true, optional: false, required: false
+  public get agentId() {
+    return this.getStringAttribute('agent_id');
   }
 
   // msg - computed: true, optional: false, required: false
@@ -2244,11 +2249,6 @@ export class DataAviGslbcrmruntimeReplicationPolicyOutputReference extends cdktf
     }
   }
 
-  // checkpoint_ref - computed: true, optional: false, required: false
-  public get checkpointRef() {
-    return this.getStringAttribute('checkpoint_ref');
-  }
-
   // replication_mode - computed: true, optional: false, required: false
   public get replicationMode() {
     return this.getStringAttribute('replication_mode');
@@ -2410,6 +2410,21 @@ export class DataAviGslbcrmruntimeStatusInfoOutputReference extends cdktf.Comple
     return this._lastChangedTime;
   }
 
+  // num_vs_completed - computed: true, optional: false, required: false
+  public get numVsCompleted() {
+    return this.getStringAttribute('num_vs_completed');
+  }
+
+  // num_vs_failed - computed: true, optional: false, required: false
+  public get numVsFailed() {
+    return this.getStringAttribute('num_vs_failed');
+  }
+
+  // num_vs_total - computed: true, optional: false, required: false
+  public get numVsTotal() {
+    return this.getStringAttribute('num_vs_total');
+  }
+
   // reason - computed: true, optional: false, required: false
   public get reason() {
     return this.getListAttribute('reason');
@@ -2451,7 +2466,7 @@ export class DataAviGslbcrmruntimeStatusInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbcrmruntime avi_gslbcrmruntime}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbcrmruntime avi_gslbcrmruntime}
 */
 export class DataAviGslbcrmruntime extends cdktf.TerraformDataSource {
 
@@ -2467,7 +2482,7 @@ export class DataAviGslbcrmruntime extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviGslbcrmruntime resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviGslbcrmruntime to import
-  * @param importFromId The id of the existing DataAviGslbcrmruntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbcrmruntime#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviGslbcrmruntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbcrmruntime#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviGslbcrmruntime to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2479,7 +2494,7 @@ export class DataAviGslbcrmruntime extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbcrmruntime avi_gslbcrmruntime} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbcrmruntime avi_gslbcrmruntime} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2490,7 +2505,8 @@ export class DataAviGslbcrmruntime extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_gslbcrmruntime',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

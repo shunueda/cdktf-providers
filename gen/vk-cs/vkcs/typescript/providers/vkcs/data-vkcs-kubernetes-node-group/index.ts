@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataVkcsKubernetesNodeGroupConfig extends cdktf.TerraformMetaAr
   /**
   * `Deprecated: read-only field.` Determines whether the autoscaling is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#autoscaling_enabled DataVkcsKubernetesNodeGroup#autoscaling_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#autoscaling_enabled DataVkcsKubernetesNodeGroup#autoscaling_enabled}
   */
   readonly autoscalingEnabled?: boolean | cdktf.IResolvable;
   /**
   * `Deprecated: read-only field.` The id of the flavor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#flavor_id DataVkcsKubernetesNodeGroup#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#flavor_id DataVkcsKubernetesNodeGroup#flavor_id}
   */
   readonly flavorId?: string;
   /**
   * The UUID of the cluster's node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#id DataVkcsKubernetesNodeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#id DataVkcsKubernetesNodeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,55 +31,55 @@ export interface DataVkcsKubernetesNodeGroupConfig extends cdktf.TerraformMetaAr
   /**
   * `Deprecated: read-only field.` Specified as a percentage. The maximum number of nodes that can fail during an upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#max_node_unavailable DataVkcsKubernetesNodeGroup#max_node_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#max_node_unavailable DataVkcsKubernetesNodeGroup#max_node_unavailable}
   */
   readonly maxNodeUnavailable?: number;
   /**
   * `Deprecated: read-only field.` The maximum amount of nodes in the node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#max_nodes DataVkcsKubernetesNodeGroup#max_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#max_nodes DataVkcsKubernetesNodeGroup#max_nodes}
   */
   readonly maxNodes?: number;
   /**
   * `Deprecated: read-only field.` The minimum amount of nodes in the node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#min_nodes DataVkcsKubernetesNodeGroup#min_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#min_nodes DataVkcsKubernetesNodeGroup#min_nodes}
   */
   readonly minNodes?: number;
   /**
   * `Deprecated: read-only field.` The name of the node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#name DataVkcsKubernetesNodeGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#name DataVkcsKubernetesNodeGroup#name}
   */
   readonly name?: string;
   /**
   * `Deprecated: read-only field.` The count of nodes in the node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#node_count DataVkcsKubernetesNodeGroup#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#node_count DataVkcsKubernetesNodeGroup#node_count}
   */
   readonly nodeCount?: number;
   /**
   * The region to obtain the service client. If omitted, the `region` argument of the provider is used._new_since_v0.4.0_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#region DataVkcsKubernetesNodeGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#region DataVkcsKubernetesNodeGroup#region}
   */
   readonly region?: string;
   /**
   * The UUID of the cluster's node group. **Deprecated** This argument is deprecated, please, use the `id` attribute instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#uuid DataVkcsKubernetesNodeGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#uuid DataVkcsKubernetesNodeGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * `Deprecated: read-only field.` The amount of memory in the volume in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#volume_size DataVkcsKubernetesNodeGroup#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#volume_size DataVkcsKubernetesNodeGroup#volume_size}
   */
   readonly volumeSize?: number;
   /**
   * `Deprecated: read-only field.` The type of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#volume_type DataVkcsKubernetesNodeGroup#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#volume_type DataVkcsKubernetesNodeGroup#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -180,7 +180,7 @@ export class DataVkcsKubernetesNodeGroupNodesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group vkcs_kubernetes_node_group}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group vkcs_kubernetes_node_group}
 */
 export class DataVkcsKubernetesNodeGroup extends cdktf.TerraformDataSource {
 
@@ -196,7 +196,7 @@ export class DataVkcsKubernetesNodeGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsKubernetesNodeGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsKubernetesNodeGroup to import
-  * @param importFromId The id of the existing DataVkcsKubernetesNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsKubernetesNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsKubernetesNodeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class DataVkcsKubernetesNodeGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_node_group vkcs_kubernetes_node_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_node_group vkcs_kubernetes_node_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class DataVkcsKubernetesNodeGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_kubernetes_node_group',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/sslkeyandcertificate
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/sslkeyandcertificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviSslkeyandcertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/sslkeyandcertificate#id DataAviSslkeyandcertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/sslkeyandcertificate#id DataAviSslkeyandcertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/sslkeyandcertificate#name DataAviSslkeyandcertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/sslkeyandcertificate#name DataAviSslkeyandcertificate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/sslkeyandcertificate#tenant_ref DataAviSslkeyandcertificate#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/sslkeyandcertificate#tenant_ref DataAviSslkeyandcertificate#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/sslkeyandcertificate#uuid DataAviSslkeyandcertificate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/sslkeyandcertificate#uuid DataAviSslkeyandcertificate#uuid}
   */
   readonly uuid?: string;
 }
@@ -292,6 +292,81 @@ export class DataAviSslkeyandcertificateCertificateKeyParamsEcParamsList extends
     return new DataAviSslkeyandcertificateCertificateKeyParamsEcParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAviSslkeyandcertificateCertificateKeyParamsMldsaParams {
+}
+
+export function dataAviSslkeyandcertificateCertificateKeyParamsMldsaParamsToTerraform(struct?: DataAviSslkeyandcertificateCertificateKeyParamsMldsaParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviSslkeyandcertificateCertificateKeyParamsMldsaParamsToHclTerraform(struct?: DataAviSslkeyandcertificateCertificateKeyParamsMldsaParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviSslkeyandcertificateCertificateKeyParamsMldsaParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviSslkeyandcertificateCertificateKeyParamsMldsaParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviSslkeyandcertificateCertificateKeyParamsMldsaParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // algorithm - computed: true, optional: false, required: false
+  public get algorithm() {
+    return this.getStringAttribute('algorithm');
+  }
+}
+
+export class DataAviSslkeyandcertificateCertificateKeyParamsMldsaParamsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviSslkeyandcertificateCertificateKeyParamsMldsaParamsOutputReference {
+    return new DataAviSslkeyandcertificateCertificateKeyParamsMldsaParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataAviSslkeyandcertificateCertificateKeyParamsRsaParams {
 }
 
@@ -432,6 +507,12 @@ export class DataAviSslkeyandcertificateCertificateKeyParamsOutputReference exte
   private _ecParams = new DataAviSslkeyandcertificateCertificateKeyParamsEcParamsList(this, "ec_params", true);
   public get ecParams() {
     return this._ecParams;
+  }
+
+  // mldsa_params - computed: true, optional: false, required: false
+  private _mldsaParams = new DataAviSslkeyandcertificateCertificateKeyParamsMldsaParamsList(this, "mldsa_params", true);
+  public get mldsaParams() {
+    return this._mldsaParams;
   }
 
   // rsa_params - computed: true, optional: false, required: false
@@ -977,6 +1058,81 @@ export class DataAviSslkeyandcertificateKeyParamsEcParamsList extends cdktf.Comp
     return new DataAviSslkeyandcertificateKeyParamsEcParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAviSslkeyandcertificateKeyParamsMldsaParams {
+}
+
+export function dataAviSslkeyandcertificateKeyParamsMldsaParamsToTerraform(struct?: DataAviSslkeyandcertificateKeyParamsMldsaParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviSslkeyandcertificateKeyParamsMldsaParamsToHclTerraform(struct?: DataAviSslkeyandcertificateKeyParamsMldsaParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviSslkeyandcertificateKeyParamsMldsaParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviSslkeyandcertificateKeyParamsMldsaParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviSslkeyandcertificateKeyParamsMldsaParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // algorithm - computed: true, optional: false, required: false
+  public get algorithm() {
+    return this.getStringAttribute('algorithm');
+  }
+}
+
+export class DataAviSslkeyandcertificateKeyParamsMldsaParamsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviSslkeyandcertificateKeyParamsMldsaParamsOutputReference {
+    return new DataAviSslkeyandcertificateKeyParamsMldsaParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataAviSslkeyandcertificateKeyParamsRsaParams {
 }
 
@@ -1117,6 +1273,12 @@ export class DataAviSslkeyandcertificateKeyParamsOutputReference extends cdktf.C
   private _ecParams = new DataAviSslkeyandcertificateKeyParamsEcParamsList(this, "ec_params", true);
   public get ecParams() {
     return this._ecParams;
+  }
+
+  // mldsa_params - computed: true, optional: false, required: false
+  private _mldsaParams = new DataAviSslkeyandcertificateKeyParamsMldsaParamsList(this, "mldsa_params", true);
+  public get mldsaParams() {
+    return this._mldsaParams;
   }
 
   // rsa_params - computed: true, optional: false, required: false
@@ -1431,7 +1593,7 @@ export class DataAviSslkeyandcertificateOcspResponseInfoList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/sslkeyandcertificate avi_sslkeyandcertificate}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/sslkeyandcertificate avi_sslkeyandcertificate}
 */
 export class DataAviSslkeyandcertificate extends cdktf.TerraformDataSource {
 
@@ -1447,7 +1609,7 @@ export class DataAviSslkeyandcertificate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviSslkeyandcertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviSslkeyandcertificate to import
-  * @param importFromId The id of the existing DataAviSslkeyandcertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/sslkeyandcertificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviSslkeyandcertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/sslkeyandcertificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviSslkeyandcertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1459,7 +1621,7 @@ export class DataAviSslkeyandcertificate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/sslkeyandcertificate avi_sslkeyandcertificate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/sslkeyandcertificate avi_sslkeyandcertificate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1470,8 +1632,8 @@ export class DataAviSslkeyandcertificate extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_sslkeyandcertificate',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

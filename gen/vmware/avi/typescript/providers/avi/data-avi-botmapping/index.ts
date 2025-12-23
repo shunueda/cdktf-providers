@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/botmapping
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/botmapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,99 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviBotmappingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/botmapping#id DataAviBotmapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/botmapping#id DataAviBotmapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/botmapping#name DataAviBotmapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/botmapping#name DataAviBotmapping#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/botmapping#tenant_ref DataAviBotmapping#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/botmapping#tenant_ref DataAviBotmapping#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/botmapping#uuid DataAviBotmapping#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/botmapping#uuid DataAviBotmapping#uuid}
   */
   readonly uuid?: string;
+}
+export interface DataAviBotmappingConfigpbAttributes {
+}
+
+export function dataAviBotmappingConfigpbAttributesToTerraform(struct?: DataAviBotmappingConfigpbAttributes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviBotmappingConfigpbAttributesToHclTerraform(struct?: DataAviBotmappingConfigpbAttributes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviBotmappingConfigpbAttributesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviBotmappingConfigpbAttributes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviBotmappingConfigpbAttributes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // version - computed: true, optional: false, required: false
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+}
+
+export class DataAviBotmappingConfigpbAttributesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviBotmappingConfigpbAttributesOutputReference {
+    return new DataAviBotmappingConfigpbAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataAviBotmappingMappingRulesClassification {
 }
@@ -834,6 +909,11 @@ export class DataAviBotmappingMappingRulesMatchHdrsOutputReference extends cdktf
     return this.getStringAttribute('match_criteria');
   }
 
+  // string_group_refs - computed: true, optional: false, required: false
+  public get stringGroupRefs() {
+    return this.getListAttribute('string_group_refs');
+  }
+
   // value - computed: true, optional: false, required: false
   public get value() {
     return this.getListAttribute('value');
@@ -1500,7 +1580,7 @@ export class DataAviBotmappingMappingRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/botmapping avi_botmapping}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/botmapping avi_botmapping}
 */
 export class DataAviBotmapping extends cdktf.TerraformDataSource {
 
@@ -1516,7 +1596,7 @@ export class DataAviBotmapping extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviBotmapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviBotmapping to import
-  * @param importFromId The id of the existing DataAviBotmapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/botmapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviBotmapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/botmapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviBotmapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1528,7 +1608,7 @@ export class DataAviBotmapping extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/botmapping avi_botmapping} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/botmapping avi_botmapping} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1539,8 +1619,8 @@ export class DataAviBotmapping extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_botmapping',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1559,6 +1639,12 @@ export class DataAviBotmapping extends cdktf.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // configpb_attributes - computed: true, optional: false, required: false
+  private _configpbAttributes = new DataAviBotmappingConfigpbAttributesList(this, "configpb_attributes", true);
+  public get configpbAttributes() {
+    return this._configpbAttributes;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/data-sources/frameworks
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/data-sources/frameworks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMondooFrameworksConfig extends cdktf.TerraformMetaArguments
   /**
   * Space ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/data-sources/frameworks#space_id DataMondooFrameworks#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/data-sources/frameworks#space_id DataMondooFrameworks#space_id}
   */
   readonly spaceId?: string;
   /**
   * Space MRN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/data-sources/frameworks#space_mrn DataMondooFrameworks#space_mrn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/data-sources/frameworks#space_mrn DataMondooFrameworks#space_mrn}
   */
   readonly spaceMrn?: string;
 }
@@ -365,7 +365,7 @@ export class DataMondooFrameworksFrameworksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/data-sources/frameworks mondoo_frameworks}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/data-sources/frameworks mondoo_frameworks}
 */
 export class DataMondooFrameworks extends cdktf.TerraformDataSource {
 
@@ -381,7 +381,7 @@ export class DataMondooFrameworks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMondooFrameworks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMondooFrameworks to import
-  * @param importFromId The id of the existing DataMondooFrameworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/data-sources/frameworks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMondooFrameworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/data-sources/frameworks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMondooFrameworks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class DataMondooFrameworks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/data-sources/frameworks mondoo_frameworks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/data-sources/frameworks mondoo_frameworks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class DataMondooFrameworks extends cdktf.TerraformDataSource {
       terraformResourceType: 'mondoo_frameworks',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.2',
-        providerVersionConstraint: '0.35.2'
+        providerVersion: '0.35.3',
+        providerVersionConstraint: '0.35.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

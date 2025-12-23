@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TrafficClassifierConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#id TrafficClassifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#id TrafficClassifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface TrafficClassifierConfig extends cdktf.TerraformMetaArguments {
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#policies TrafficClassifier#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#policies TrafficClassifier#policies}
   */
   readonly policies: TrafficClassifierPolicies[] | cdktf.IResolvable;
 }
@@ -25,13 +25,13 @@ export interface TrafficClassifierPoliciesPortRanges {
   /**
   * High port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#high TrafficClassifier#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#high TrafficClassifier#high}
   */
   readonly high?: number;
   /**
   * Low port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#low TrafficClassifier#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#low TrafficClassifier#low}
   */
   readonly low?: number;
 }
@@ -178,55 +178,55 @@ export interface TrafficClassifierPolicies {
   /**
   * List of destination smart group UUIDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#destination_smart_group_uuids TrafficClassifier#destination_smart_group_uuids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#destination_smart_group_uuids TrafficClassifier#destination_smart_group_uuids}
   */
   readonly destinationSmartGroupUuids: string[];
   /**
   * Enable logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#enable_logging TrafficClassifier#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#enable_logging TrafficClassifier#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
   * Link hierarchy UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#link_hierarchy_uuid TrafficClassifier#link_hierarchy_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#link_hierarchy_uuid TrafficClassifier#link_hierarchy_uuid}
   */
   readonly linkHierarchyUuid?: string;
   /**
   * Policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#name TrafficClassifier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#name TrafficClassifier#name}
   */
   readonly name: string;
   /**
   * Protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#protocol TrafficClassifier#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#protocol TrafficClassifier#protocol}
   */
   readonly protocol?: string;
   /**
   * Route type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#route_type TrafficClassifier#route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#route_type TrafficClassifier#route_type}
   */
   readonly routeType?: string;
   /**
   * SLA class UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#sla_class_uuid TrafficClassifier#sla_class_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#sla_class_uuid TrafficClassifier#sla_class_uuid}
   */
   readonly slaClassUuid?: string;
   /**
   * List of source smart group UUIDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#source_smart_group_uuids TrafficClassifier#source_smart_group_uuids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#source_smart_group_uuids TrafficClassifier#source_smart_group_uuids}
   */
   readonly sourceSmartGroupUuids: string[];
   /**
   * port_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#port_ranges TrafficClassifier#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#port_ranges TrafficClassifier#port_ranges}
   */
   readonly portRanges?: TrafficClassifierPoliciesPortRanges[] | cdktf.IResolvable;
 }
@@ -570,7 +570,7 @@ export class TrafficClassifierPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier aviatrix_traffic_classifier}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier aviatrix_traffic_classifier}
 */
 export class TrafficClassifier extends cdktf.TerraformResource {
 
@@ -586,7 +586,7 @@ export class TrafficClassifier extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrafficClassifier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrafficClassifier to import
-  * @param importFromId The id of the existing TrafficClassifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrafficClassifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrafficClassifier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -598,7 +598,7 @@ export class TrafficClassifier extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/traffic_classifier aviatrix_traffic_classifier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/traffic_classifier aviatrix_traffic_classifier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -609,8 +609,8 @@ export class TrafficClassifier extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_traffic_classifier',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

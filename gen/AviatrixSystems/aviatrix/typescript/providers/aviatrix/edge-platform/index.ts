@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,119 +10,119 @@ export interface EdgePlatformConfig extends cdktf.TerraformMetaArguments {
   /**
   * Edge CSP account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#account_name EdgePlatform#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#account_name EdgePlatform#account_name}
   */
   readonly accountName: string;
   /**
   * Approved learned CIDRs for BGP Spoke Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#approved_learned_cidrs EdgePlatform#approved_learned_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#approved_learned_cidrs EdgePlatform#approved_learned_cidrs}
   */
   readonly approvedLearnedCidrs?: string[];
   /**
   * BGP Hold Time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 12 and 360.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#bgp_hold_time EdgePlatform#bgp_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#bgp_hold_time EdgePlatform#bgp_hold_time}
   */
   readonly bgpHoldTime?: number;
   /**
   * BGP neighbor status polling time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 1 and 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#bgp_neighbor_status_polling_time EdgePlatform#bgp_neighbor_status_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#bgp_neighbor_status_polling_time EdgePlatform#bgp_neighbor_status_polling_time}
   */
   readonly bgpNeighborStatusPollingTime?: number;
   /**
   * BGP route polling time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 10 and 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#bgp_polling_time EdgePlatform#bgp_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#bgp_polling_time EdgePlatform#bgp_polling_time}
   */
   readonly bgpPollingTime?: number;
   /**
   * Edge NEO device ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#device_id EdgePlatform#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#device_id EdgePlatform#device_id}
   */
   readonly deviceId: string;
   /**
   * DNS profile to be associated with gateway, select an existing template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#dns_profile_name EdgePlatform#dns_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#dns_profile_name EdgePlatform#dns_profile_name}
   */
   readonly dnsProfileName?: string;
   /**
   * DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#dns_server_ip EdgePlatform#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#dns_server_ip EdgePlatform#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable auto advertise LAN CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#enable_auto_advertise_lan_cidrs EdgePlatform#enable_auto_advertise_lan_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#enable_auto_advertise_lan_cidrs EdgePlatform#enable_auto_advertise_lan_cidrs}
   */
   readonly enableAutoAdvertiseLanCidrs?: boolean | cdktf.IResolvable;
   /**
   * Enables Edge Active-Standby Mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#enable_edge_active_standby EdgePlatform#enable_edge_active_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#enable_edge_active_standby EdgePlatform#enable_edge_active_standby}
   */
   readonly enableEdgeActiveStandby?: boolean | cdktf.IResolvable;
   /**
   * Enables Preemptive Mode for Edge Active-Standby, available only with Active-Standby enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#enable_edge_active_standby_preemptive EdgePlatform#enable_edge_active_standby_preemptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#enable_edge_active_standby_preemptive EdgePlatform#enable_edge_active_standby_preemptive}
   */
   readonly enableEdgeActiveStandbyPreemptive?: boolean | cdktf.IResolvable;
   /**
   * Enable Edge transitive routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#enable_edge_transitive_routing EdgePlatform#enable_edge_transitive_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#enable_edge_transitive_routing EdgePlatform#enable_edge_transitive_routing}
   */
   readonly enableEdgeTransitiveRouting?: boolean | cdktf.IResolvable;
   /**
   * Enable jumbo frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#enable_jumbo_frame EdgePlatform#enable_jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#enable_jumbo_frame EdgePlatform#enable_jumbo_frame}
   */
   readonly enableJumboFrame?: boolean | cdktf.IResolvable;
   /**
   * Switch to enable/disable learned CIDR approval for BGP Spoke Gateway. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#enable_learned_cidrs_approval EdgePlatform#enable_learned_cidrs_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#enable_learned_cidrs_approval EdgePlatform#enable_learned_cidrs_approval}
   */
   readonly enableLearnedCidrsApproval?: boolean | cdktf.IResolvable;
   /**
   * Enable management over private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#enable_management_over_private_network EdgePlatform#enable_management_over_private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#enable_management_over_private_network EdgePlatform#enable_management_over_private_network}
   */
   readonly enableManagementOverPrivateNetwork?: boolean | cdktf.IResolvable;
   /**
   * Enable preserve as path when advertising manual summary CIDRs on BGP spoke gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#enable_preserve_as_path EdgePlatform#enable_preserve_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#enable_preserve_as_path EdgePlatform#enable_preserve_as_path}
   */
   readonly enablePreserveAsPath?: boolean | cdktf.IResolvable;
   /**
   * Enable Single IP SNAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#enable_single_ip_snat EdgePlatform#enable_single_ip_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#enable_single_ip_snat EdgePlatform#enable_single_ip_snat}
   */
   readonly enableSingleIpSnat?: boolean | cdktf.IResolvable;
   /**
   * Edge CSP name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#gw_name EdgePlatform#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#gw_name EdgePlatform#gw_name}
   */
   readonly gwName: string;
   /**
   * Gateway size (CPU and Memory).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#gw_size EdgePlatform#gw_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#gw_size EdgePlatform#gw_size}
   */
   readonly gwSize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#id EdgePlatform#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#id EdgePlatform#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -131,91 +131,91 @@ export interface EdgePlatformConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of CIDRs to be advertised to on-prem as 'Included CIDR List'. When configured, it will replace all advertised routes from this VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#included_advertised_spoke_routes EdgePlatform#included_advertised_spoke_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#included_advertised_spoke_routes EdgePlatform#included_advertised_spoke_routes}
   */
   readonly includedAdvertisedSpokeRoutes?: string[];
   /**
   * List of LAN interface names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#lan_interface_names EdgePlatform#lan_interface_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#lan_interface_names EdgePlatform#lan_interface_names}
   */
   readonly lanInterfaceNames: string[];
   /**
   * The latitude of the Edge as a Spoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#latitude EdgePlatform#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#latitude EdgePlatform#latitude}
   */
   readonly latitude?: string;
   /**
   * Local AS number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#local_as_number EdgePlatform#local_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#local_as_number EdgePlatform#local_as_number}
   */
   readonly localAsNumber?: string;
   /**
   * The longitude of the Edge as a Spoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#longitude EdgePlatform#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#longitude EdgePlatform#longitude}
   */
   readonly longitude?: string;
   /**
   * Set of management egress gateway IP/prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#management_egress_ip_prefix_list EdgePlatform#management_egress_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#management_egress_ip_prefix_list EdgePlatform#management_egress_ip_prefix_list}
   */
   readonly managementEgressIpPrefixList?: string[];
   /**
   * List of management interface names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#management_interface_names EdgePlatform#management_interface_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#management_interface_names EdgePlatform#management_interface_names}
   */
   readonly managementInterfaceNames: string[];
   /**
   * List of AS numbers to prepend gateway BGP AS_Path field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#prepend_as_path EdgePlatform#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#prepend_as_path EdgePlatform#prepend_as_path}
   */
   readonly prependAsPath?: string[];
   /**
   * Ethernet interface RX queue size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#rx_queue_size EdgePlatform#rx_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#rx_queue_size EdgePlatform#rx_queue_size}
   */
   readonly rxQueueSize?: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#secondary_dns_server_ip EdgePlatform#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#secondary_dns_server_ip EdgePlatform#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#site_id EdgePlatform#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#site_id EdgePlatform#site_id}
   */
   readonly siteId: string;
   /**
   * Intended CIDR list to be advertised to external BGP router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#spoke_bgp_manual_advertise_cidrs EdgePlatform#spoke_bgp_manual_advertise_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#spoke_bgp_manual_advertise_cidrs EdgePlatform#spoke_bgp_manual_advertise_cidrs}
   */
   readonly spokeBgpManualAdvertiseCidrs?: string[];
   /**
   * List of WAN interface names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#wan_interface_names EdgePlatform#wan_interface_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#wan_interface_names EdgePlatform#wan_interface_names}
   */
   readonly wanInterfaceNames: string[];
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#interfaces EdgePlatform#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#interfaces EdgePlatform#interfaces}
   */
   readonly interfaces: EdgePlatformInterfaces[] | cdktf.IResolvable;
   /**
   * vlan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#vlan EdgePlatform#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#vlan EdgePlatform#vlan}
   */
   readonly vlan?: EdgePlatformVlan[] | cdktf.IResolvable;
 }
@@ -223,73 +223,85 @@ export interface EdgePlatformInterfaces {
   /**
   * The rate of data can be moved through the interface, requires an integer value. Unit is in Mb/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#bandwidth EdgePlatform#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#bandwidth EdgePlatform#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Primary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#dns_server_ip EdgePlatform#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#dns_server_ip EdgePlatform#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#enable_dhcp EdgePlatform#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#enable_dhcp EdgePlatform#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * Enable VRRP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#enable_vrrp EdgePlatform#enable_vrrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#enable_vrrp EdgePlatform#enable_vrrp}
   */
   readonly enableVrrp?: boolean | cdktf.IResolvable;
   /**
   * Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#gateway_ip EdgePlatform#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#gateway_ip EdgePlatform#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
+  * Gateway IPv6 IP.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#gateway_ipv6 EdgePlatform#gateway_ipv6}
+  */
+  readonly gatewayIpv6?: string;
+  /**
   * Interface static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#ip_address EdgePlatform#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#ip_address EdgePlatform#ip_address}
   */
   readonly ipAddress?: string;
   /**
+  * Interface static IPv6 address.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#ipv6_address EdgePlatform#ipv6_address}
+  */
+  readonly ipv6Address?: string;
+  /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#name EdgePlatform#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#name EdgePlatform#name}
   */
   readonly name: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#secondary_dns_server_ip EdgePlatform#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#secondary_dns_server_ip EdgePlatform#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#tag EdgePlatform#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#tag EdgePlatform#tag}
   */
   readonly tag?: string;
   /**
   * Interface type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#type EdgePlatform#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#type EdgePlatform#type}
   */
   readonly type: string;
   /**
   * VRRP virtual IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#vrrp_virtual_ip EdgePlatform#vrrp_virtual_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#vrrp_virtual_ip EdgePlatform#vrrp_virtual_ip}
   */
   readonly vrrpVirtualIp?: string;
   /**
   * WAN interface public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#wan_public_ip EdgePlatform#wan_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#wan_public_ip EdgePlatform#wan_public_ip}
   */
   readonly wanPublicIp?: string;
 }
@@ -305,7 +317,9 @@ export function edgePlatformInterfacesToTerraform(struct?: EdgePlatformInterface
     enable_dhcp: cdktf.booleanToTerraform(struct!.enableDhcp),
     enable_vrrp: cdktf.booleanToTerraform(struct!.enableVrrp),
     gateway_ip: cdktf.stringToTerraform(struct!.gatewayIp),
+    gateway_ipv6: cdktf.stringToTerraform(struct!.gatewayIpv6),
     ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+    ipv6_address: cdktf.stringToTerraform(struct!.ipv6Address),
     name: cdktf.stringToTerraform(struct!.name),
     secondary_dns_server_ip: cdktf.stringToTerraform(struct!.secondaryDnsServerIp),
     tag: cdktf.stringToTerraform(struct!.tag),
@@ -352,8 +366,20 @@ export function edgePlatformInterfacesToHclTerraform(struct?: EdgePlatformInterf
       type: "simple",
       storageClassType: "string",
     },
+    gateway_ipv6: {
+      value: cdktf.stringToHclTerraform(struct!.gatewayIpv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     ip_address: {
       value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ipv6_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6Address),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -440,9 +466,17 @@ export class EdgePlatformInterfacesOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.gatewayIp = this._gatewayIp;
     }
+    if (this._gatewayIpv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gatewayIpv6 = this._gatewayIpv6;
+    }
     if (this._ipAddress !== undefined) {
       hasAnyValues = true;
       internalValueResult.ipAddress = this._ipAddress;
+    }
+    if (this._ipv6Address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Address = this._ipv6Address;
     }
     if (this._name !== undefined) {
       hasAnyValues = true;
@@ -480,7 +514,9 @@ export class EdgePlatformInterfacesOutputReference extends cdktf.ComplexObject {
       this._enableDhcp = undefined;
       this._enableVrrp = undefined;
       this._gatewayIp = undefined;
+      this._gatewayIpv6 = undefined;
       this._ipAddress = undefined;
+      this._ipv6Address = undefined;
       this._name = undefined;
       this._secondaryDnsServerIp = undefined;
       this._tag = undefined;
@@ -500,7 +536,9 @@ export class EdgePlatformInterfacesOutputReference extends cdktf.ComplexObject {
       this._enableDhcp = value.enableDhcp;
       this._enableVrrp = value.enableVrrp;
       this._gatewayIp = value.gatewayIp;
+      this._gatewayIpv6 = value.gatewayIpv6;
       this._ipAddress = value.ipAddress;
+      this._ipv6Address = value.ipv6Address;
       this._name = value.name;
       this._secondaryDnsServerIp = value.secondaryDnsServerIp;
       this._tag = value.tag;
@@ -590,6 +628,22 @@ export class EdgePlatformInterfacesOutputReference extends cdktf.ComplexObject {
     return this._gatewayIp;
   }
 
+  // gateway_ipv6 - computed: false, optional: true, required: false
+  private _gatewayIpv6?: string; 
+  public get gatewayIpv6() {
+    return this.getStringAttribute('gateway_ipv6');
+  }
+  public set gatewayIpv6(value: string) {
+    this._gatewayIpv6 = value;
+  }
+  public resetGatewayIpv6() {
+    this._gatewayIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gatewayIpv6Input() {
+    return this._gatewayIpv6;
+  }
+
   // ip_address - computed: false, optional: true, required: false
   private _ipAddress?: string; 
   public get ipAddress() {
@@ -604,6 +658,22 @@ export class EdgePlatformInterfacesOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get ipAddressInput() {
     return this._ipAddress;
+  }
+
+  // ipv6_address - computed: false, optional: true, required: false
+  private _ipv6Address?: string; 
+  public get ipv6Address() {
+    return this.getStringAttribute('ipv6_address');
+  }
+  public set ipv6Address(value: string) {
+    this._ipv6Address = value;
+  }
+  public resetIpv6Address() {
+    this._ipv6Address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6AddressInput() {
+    return this._ipv6Address;
   }
 
   // name - computed: false, optional: false, required: true
@@ -720,49 +790,49 @@ export interface EdgePlatformVlan {
   /**
   * LAN sub-interface gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#gateway_ip EdgePlatform#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#gateway_ip EdgePlatform#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * LAN sub-interface IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#ip_address EdgePlatform#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#ip_address EdgePlatform#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Parent interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#parent_interface_name EdgePlatform#parent_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#parent_interface_name EdgePlatform#parent_interface_name}
   */
   readonly parentInterfaceName: string;
   /**
   * LAN sub-interface gateway IP on HA gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#peer_gateway_ip EdgePlatform#peer_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#peer_gateway_ip EdgePlatform#peer_gateway_ip}
   */
   readonly peerGatewayIp?: string;
   /**
   * LAN sub-interface IP address on HA gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#peer_ip_address EdgePlatform#peer_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#peer_ip_address EdgePlatform#peer_ip_address}
   */
   readonly peerIpAddress?: string;
   /**
   * Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#tag EdgePlatform#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#tag EdgePlatform#tag}
   */
   readonly tag?: string;
   /**
   * VLAN ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#vlan_id EdgePlatform#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#vlan_id EdgePlatform#vlan_id}
   */
   readonly vlanId: number;
   /**
   * LAN sub-interface virtual IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#vrrp_virtual_ip EdgePlatform#vrrp_virtual_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#vrrp_virtual_ip EdgePlatform#vrrp_virtual_ip}
   */
   readonly vrrpVirtualIp?: string;
 }
@@ -1072,7 +1142,7 @@ export class EdgePlatformVlanList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform aviatrix_edge_platform}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform aviatrix_edge_platform}
 */
 export class EdgePlatform extends cdktf.TerraformResource {
 
@@ -1088,7 +1158,7 @@ export class EdgePlatform extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgePlatform resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgePlatform to import
-  * @param importFromId The id of the existing EdgePlatform that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgePlatform that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgePlatform to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1100,7 +1170,7 @@ export class EdgePlatform extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform aviatrix_edge_platform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform aviatrix_edge_platform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1111,8 +1181,8 @@ export class EdgePlatform extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_platform',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

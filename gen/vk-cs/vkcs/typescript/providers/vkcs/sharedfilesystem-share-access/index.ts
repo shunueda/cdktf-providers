@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SharedfilesystemShareAccessConfig extends cdktf.TerraformMetaAr
   /**
   * The access level to the share. Can either be `rw` or `ro`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access#access_level SharedfilesystemShareAccess#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access#access_level SharedfilesystemShareAccess#access_level}
   */
   readonly accessLevel: string;
   /**
   * The value that defines the access. Can either be an IP address or a username verified by configured Security Service of the Share Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access#access_to SharedfilesystemShareAccess#access_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access#access_to SharedfilesystemShareAccess#access_to}
   */
   readonly accessTo: string;
   /**
   * The access rule type. Can either be an ip, user, cert, or cephx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access#access_type SharedfilesystemShareAccess#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access#access_type SharedfilesystemShareAccess#access_type}
   */
   readonly accessType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access#id SharedfilesystemShareAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access#id SharedfilesystemShareAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,33 +35,33 @@ export interface SharedfilesystemShareAccessConfig extends cdktf.TerraformMetaAr
   /**
   * The region in which to obtain the Shared File System client. A Shared File System client is needed to create a share access. Changing this creates a new share access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access#region SharedfilesystemShareAccess#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access#region SharedfilesystemShareAccess#region}
   */
   readonly region?: string;
   /**
   * The UUID of the share to which you are granted access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access#share_id SharedfilesystemShareAccess#share_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access#share_id SharedfilesystemShareAccess#share_id}
   */
   readonly shareId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access#timeouts SharedfilesystemShareAccess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access#timeouts SharedfilesystemShareAccess#timeouts}
   */
   readonly timeouts?: SharedfilesystemShareAccessTimeouts;
 }
 export interface SharedfilesystemShareAccessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access#create SharedfilesystemShareAccess#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access#create SharedfilesystemShareAccess#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access#delete SharedfilesystemShareAccess#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access#delete SharedfilesystemShareAccess#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access#update SharedfilesystemShareAccess#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access#update SharedfilesystemShareAccess#update}
   */
   readonly update?: string;
 }
@@ -213,7 +213,7 @@ export class SharedfilesystemShareAccessTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access vkcs_sharedfilesystem_share_access}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access vkcs_sharedfilesystem_share_access}
 */
 export class SharedfilesystemShareAccess extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class SharedfilesystemShareAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SharedfilesystemShareAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SharedfilesystemShareAccess to import
-  * @param importFromId The id of the existing SharedfilesystemShareAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SharedfilesystemShareAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SharedfilesystemShareAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class SharedfilesystemShareAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share_access vkcs_sharedfilesystem_share_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_share_access vkcs_sharedfilesystem_share_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class SharedfilesystemShareAccess extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_sharedfilesystem_share_access',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BlockstorageSnapshotConfig extends cdktf.TerraformMetaArguments
   /**
   * The description of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot#description BlockstorageSnapshot#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot#description BlockstorageSnapshot#description}
   */
   readonly description?: string;
   /**
   * Allows or disallows snapshot of a volume when the volume is attached to an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot#force BlockstorageSnapshot#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot#force BlockstorageSnapshot#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot#id BlockstorageSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot#id BlockstorageSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,35 +29,35 @@ export interface BlockstorageSnapshotConfig extends cdktf.TerraformMetaArguments
   /**
   * Map of key-value metadata of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot#metadata BlockstorageSnapshot#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot#metadata BlockstorageSnapshot#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The name of the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot#name BlockstorageSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot#name BlockstorageSnapshot#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot#region BlockstorageSnapshot#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot#region BlockstorageSnapshot#region}
   */
   readonly region?: string;
   /**
   * ID of the volume to create snapshot for. Changing this creates a new snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot#volume_id BlockstorageSnapshot#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot#volume_id BlockstorageSnapshot#volume_id}
   */
   readonly volumeId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot#timeouts BlockstorageSnapshot#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot#timeouts BlockstorageSnapshot#timeouts}
   */
   readonly timeouts?: BlockstorageSnapshotTimeouts;
 }
 export interface BlockstorageSnapshotTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot#create BlockstorageSnapshot#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot#create BlockstorageSnapshot#create}
   */
   readonly create?: string;
 }
@@ -151,7 +151,7 @@ export class BlockstorageSnapshotTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot vkcs_blockstorage_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot vkcs_blockstorage_snapshot}
 */
 export class BlockstorageSnapshot extends cdktf.TerraformResource {
 
@@ -167,7 +167,7 @@ export class BlockstorageSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockstorageSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockstorageSnapshot to import
-  * @param importFromId The id of the existing BlockstorageSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockstorageSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockstorageSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class BlockstorageSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_snapshot vkcs_blockstorage_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_snapshot vkcs_blockstorage_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class BlockstorageSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_blockstorage_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

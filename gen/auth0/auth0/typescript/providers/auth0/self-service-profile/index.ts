@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SelfServiceProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of IdP strategies that will be shown to users during the Self-Service SSO flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#allowed_strategies SelfServiceProfile#allowed_strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#allowed_strategies SelfServiceProfile#allowed_strategies}
   */
   readonly allowedStrategies?: string[];
   /**
   * The description of the self-service Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#description SelfServiceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#description SelfServiceProfile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#id SelfServiceProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#id SelfServiceProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface SelfServiceProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the self-service Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#name SelfServiceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#name SelfServiceProfile#name}
   */
   readonly name: string;
   /**
   * The ID of the user attribute profile to use for this self-service profile. Cannot be used with user_attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#user_attribute_profile_id SelfServiceProfile#user_attribute_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#user_attribute_profile_id SelfServiceProfile#user_attribute_profile_id}
   */
   readonly userAttributeProfileId?: string;
   /**
   * branding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#branding SelfServiceProfile#branding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#branding SelfServiceProfile#branding}
   */
   readonly branding?: SelfServiceProfileBranding;
   /**
   * user_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#user_attributes SelfServiceProfile#user_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#user_attributes SelfServiceProfile#user_attributes}
   */
   readonly userAttributes?: SelfServiceProfileUserAttributes[] | cdktf.IResolvable;
 }
@@ -55,7 +55,7 @@ export interface SelfServiceProfileBrandingColors {
   /**
   * Primary button background color in hexadecimal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#primary SelfServiceProfile#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#primary SelfServiceProfile#primary}
   */
   readonly primary?: string;
 }
@@ -141,13 +141,13 @@ export interface SelfServiceProfileBranding {
   /**
   * URL of logo to display on login page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#logo_url SelfServiceProfile#logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#logo_url SelfServiceProfile#logo_url}
   */
   readonly logoUrl?: string;
   /**
   * colors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#colors SelfServiceProfile#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#colors SelfServiceProfile#colors}
   */
   readonly colors?: SelfServiceProfileBrandingColors;
 }
@@ -262,19 +262,19 @@ export interface SelfServiceProfileUserAttributes {
   /**
   *  A human readable description of the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#description SelfServiceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#description SelfServiceProfile#description}
   */
   readonly description: string;
   /**
   * Indicates if this attribute is optional or if it has to be provided by the customer for the application to function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#is_optional SelfServiceProfile#is_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#is_optional SelfServiceProfile#is_optional}
   */
   readonly isOptional: boolean | cdktf.IResolvable;
   /**
   * Attribute’s name on Auth0 side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#name SelfServiceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#name SelfServiceProfile#name}
   */
   readonly name: string;
 }
@@ -439,7 +439,7 @@ export class SelfServiceProfileUserAttributesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile auth0_self_service_profile}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile auth0_self_service_profile}
 */
 export class SelfServiceProfile extends cdktf.TerraformResource {
 
@@ -455,7 +455,7 @@ export class SelfServiceProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SelfServiceProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SelfServiceProfile to import
-  * @param importFromId The id of the existing SelfServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SelfServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SelfServiceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -467,7 +467,7 @@ export class SelfServiceProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/self_service_profile auth0_self_service_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/self_service_profile auth0_self_service_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -478,8 +478,8 @@ export class SelfServiceProfile extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_self_service_profile',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EdgeEquinixHaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#id EdgeEquinixHa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#id EdgeEquinixHa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface EdgeEquinixHaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set of management egress gateway IP/prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#management_egress_ip_prefix_list EdgeEquinixHa#management_egress_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#management_egress_ip_prefix_list EdgeEquinixHa#management_egress_ip_prefix_list}
   */
   readonly managementEgressIpPrefixList?: string[];
   /**
   * Primary gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#primary_gw_name EdgeEquinixHa#primary_gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#primary_gw_name EdgeEquinixHa#primary_gw_name}
   */
   readonly primaryGwName: string;
   /**
   * The location where the ZTP file will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#ztp_file_download_path EdgeEquinixHa#ztp_file_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#ztp_file_download_path EdgeEquinixHa#ztp_file_download_path}
   */
   readonly ztpFileDownloadPath: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#interfaces EdgeEquinixHa#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#interfaces EdgeEquinixHa#interfaces}
   */
   readonly interfaces: EdgeEquinixHaInterfaces[] | cdktf.IResolvable;
 }
@@ -43,61 +43,61 @@ export interface EdgeEquinixHaInterfaces {
   /**
   * The rate of data can be moved through the interface, requires an integer value. Unit is in Mb/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#bandwidth EdgeEquinixHa#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#bandwidth EdgeEquinixHa#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Primary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#dns_server_ip EdgeEquinixHa#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#dns_server_ip EdgeEquinixHa#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#enable_dhcp EdgeEquinixHa#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#enable_dhcp EdgeEquinixHa#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#gateway_ip EdgeEquinixHa#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#gateway_ip EdgeEquinixHa#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Interface static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#ip_address EdgeEquinixHa#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#ip_address EdgeEquinixHa#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#name EdgeEquinixHa#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#name EdgeEquinixHa#name}
   */
   readonly name: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#secondary_dns_server_ip EdgeEquinixHa#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#secondary_dns_server_ip EdgeEquinixHa#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#tag EdgeEquinixHa#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#tag EdgeEquinixHa#tag}
   */
   readonly tag?: string;
   /**
   * Interface type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#type EdgeEquinixHa#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#type EdgeEquinixHa#type}
   */
   readonly type: string;
   /**
   * WAN interface public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#wan_public_ip EdgeEquinixHa#wan_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#wan_public_ip EdgeEquinixHa#wan_public_ip}
   */
   readonly wanPublicIp?: string;
 }
@@ -468,7 +468,7 @@ export class EdgeEquinixHaInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha aviatrix_edge_equinix_ha}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha aviatrix_edge_equinix_ha}
 */
 export class EdgeEquinixHa extends cdktf.TerraformResource {
 
@@ -484,7 +484,7 @@ export class EdgeEquinixHa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeEquinixHa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeEquinixHa to import
-  * @param importFromId The id of the existing EdgeEquinixHa that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeEquinixHa that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeEquinixHa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +496,7 @@ export class EdgeEquinixHa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix_ha aviatrix_edge_equinix_ha} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix_ha aviatrix_edge_equinix_ha} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +507,8 @@ export class EdgeEquinixHa extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_equinix_ha',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_access_allow_list_config
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_access_allow_list_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ControllerAccessAllowListConfigConfig extends cdktf.TerraformMe
   /**
   * Set to true to enable enforcement of the `allow_list {}`'s IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_access_allow_list_config#enable_enforce ControllerAccessAllowListConfig#enable_enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_access_allow_list_config#enable_enforce ControllerAccessAllowListConfig#enable_enforce}
   */
   readonly enableEnforce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_access_allow_list_config#id ControllerAccessAllowListConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_access_allow_list_config#id ControllerAccessAllowListConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface ControllerAccessAllowListConfigConfig extends cdktf.TerraformMe
   /**
   * allow_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_access_allow_list_config#allow_list ControllerAccessAllowListConfig#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_access_allow_list_config#allow_list ControllerAccessAllowListConfig#allow_list}
   */
   readonly allowList: ControllerAccessAllowListConfigAllowListStruct[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface ControllerAccessAllowListConfigAllowListStruct {
   /**
   * Description of the IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_access_allow_list_config#description ControllerAccessAllowListConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_access_allow_list_config#description ControllerAccessAllowListConfig#description}
   */
   readonly description?: string;
   /**
   * IP address allowed access to the Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_access_allow_list_config#ip_address ControllerAccessAllowListConfig#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_access_allow_list_config#ip_address ControllerAccessAllowListConfig#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -179,7 +179,7 @@ export class ControllerAccessAllowListConfigAllowListStructList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_access_allow_list_config aviatrix_controller_access_allow_list_config}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_access_allow_list_config aviatrix_controller_access_allow_list_config}
 */
 export class ControllerAccessAllowListConfig extends cdktf.TerraformResource {
 
@@ -195,7 +195,7 @@ export class ControllerAccessAllowListConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ControllerAccessAllowListConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ControllerAccessAllowListConfig to import
-  * @param importFromId The id of the existing ControllerAccessAllowListConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_access_allow_list_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ControllerAccessAllowListConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_access_allow_list_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ControllerAccessAllowListConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class ControllerAccessAllowListConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_access_allow_list_config aviatrix_controller_access_allow_list_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_access_allow_list_config aviatrix_controller_access_allow_list_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class ControllerAccessAllowListConfig extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_controller_access_allow_list_config',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

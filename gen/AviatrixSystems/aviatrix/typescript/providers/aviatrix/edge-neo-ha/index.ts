@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EdgeNeoHaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Edge NEO device ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#device_id EdgeNeoHa#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#device_id EdgeNeoHa#device_id}
   */
   readonly deviceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#id EdgeNeoHa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#id EdgeNeoHa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface EdgeNeoHaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set of management egress gateway IP/prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#management_egress_ip_prefix_list EdgeNeoHa#management_egress_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#management_egress_ip_prefix_list EdgeNeoHa#management_egress_ip_prefix_list}
   */
   readonly managementEgressIpPrefixList?: string[];
   /**
   * Primary gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#primary_gw_name EdgeNeoHa#primary_gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#primary_gw_name EdgeNeoHa#primary_gw_name}
   */
   readonly primaryGwName: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#interfaces EdgeNeoHa#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#interfaces EdgeNeoHa#interfaces}
   */
   readonly interfaces: EdgeNeoHaInterfaces[] | cdktf.IResolvable;
 }
@@ -43,61 +43,61 @@ export interface EdgeNeoHaInterfaces {
   /**
   * The rate of data can be moved through the interface, requires an integer value. Unit is in Mb/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#bandwidth EdgeNeoHa#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#bandwidth EdgeNeoHa#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Primary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#dns_server_ip EdgeNeoHa#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#dns_server_ip EdgeNeoHa#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#enable_dhcp EdgeNeoHa#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#enable_dhcp EdgeNeoHa#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#gateway_ip EdgeNeoHa#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#gateway_ip EdgeNeoHa#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Interface static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#ip_address EdgeNeoHa#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#ip_address EdgeNeoHa#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#name EdgeNeoHa#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#name EdgeNeoHa#name}
   */
   readonly name: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#secondary_dns_server_ip EdgeNeoHa#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#secondary_dns_server_ip EdgeNeoHa#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#tag EdgeNeoHa#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#tag EdgeNeoHa#tag}
   */
   readonly tag?: string;
   /**
   * Interface type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#type EdgeNeoHa#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#type EdgeNeoHa#type}
   */
   readonly type: string;
   /**
   * WAN interface public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#wan_public_ip EdgeNeoHa#wan_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#wan_public_ip EdgeNeoHa#wan_public_ip}
   */
   readonly wanPublicIp?: string;
 }
@@ -468,7 +468,7 @@ export class EdgeNeoHaInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha aviatrix_edge_neo_ha}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha aviatrix_edge_neo_ha}
 */
 export class EdgeNeoHa extends cdktf.TerraformResource {
 
@@ -484,7 +484,7 @@ export class EdgeNeoHa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeNeoHa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeNeoHa to import
-  * @param importFromId The id of the existing EdgeNeoHa that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeNeoHa that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeNeoHa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +496,7 @@ export class EdgeNeoHa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo_ha aviatrix_edge_neo_ha} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo_ha aviatrix_edge_neo_ha} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +507,8 @@ export class EdgeNeoHa extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_neo_ha',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

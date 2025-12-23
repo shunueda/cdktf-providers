@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_interface
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DcVrrpInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * DC Interface ID to attach. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_interface#dc_interface_id DcVrrpInterface#dc_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_interface#dc_interface_id DcVrrpInterface#dc_interface_id}
   */
   readonly dcInterfaceId: string;
   /**
   * VRRP ID to attach. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_interface#dc_vrrp_id DcVrrpInterface#dc_vrrp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_interface#dc_vrrp_id DcVrrpInterface#dc_vrrp_id}
   */
   readonly dcVrrpId: string;
   /**
   * Description of the VRRP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_interface#description DcVrrpInterface#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_interface#description DcVrrpInterface#description}
   */
   readonly description?: string;
   /**
   * Start VRRP instance on interface as VRRP Master. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_interface#master DcVrrpInterface#master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_interface#master DcVrrpInterface#master}
   */
   readonly master?: boolean | cdktf.IResolvable;
   /**
   * Name of the VRRP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_interface#name DcVrrpInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_interface#name DcVrrpInterface#name}
   */
   readonly name?: string;
   /**
   * VRRP interface preempt behavior. Default is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_interface#preempt DcVrrpInterface#preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_interface#preempt DcVrrpInterface#preempt}
   */
   readonly preempt?: boolean | cdktf.IResolvable;
   /**
   * VRRP interface priority. Default is 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_interface#priority DcVrrpInterface#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_interface#priority DcVrrpInterface#priority}
   */
   readonly priority?: number;
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`. Changing this creates a new vrrp_interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_interface#region DcVrrpInterface#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_interface#region DcVrrpInterface#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_interface vkcs_dc_vrrp_interface}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_interface vkcs_dc_vrrp_interface}
 */
 export class DcVrrpInterface extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class DcVrrpInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcVrrpInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcVrrpInterface to import
-  * @param importFromId The id of the existing DcVrrpInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcVrrpInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcVrrpInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class DcVrrpInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp_interface vkcs_dc_vrrp_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp_interface vkcs_dc_vrrp_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class DcVrrpInterface extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_dc_vrrp_interface',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

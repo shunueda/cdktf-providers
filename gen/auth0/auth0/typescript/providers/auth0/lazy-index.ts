@@ -2,6 +2,7 @@
 Object.defineProperty(exports, 'action', { get: function () { return require('./action'); } });
 Object.defineProperty(exports, 'attackProtection', { get: function () { return require('./attack-protection'); } });
 Object.defineProperty(exports, 'branding', { get: function () { return require('./branding'); } });
+Object.defineProperty(exports, 'brandingPhoneNotificationTemplate', { get: function () { return require('./branding-phone-notification-template'); } });
 Object.defineProperty(exports, 'brandingTheme', { get: function () { return require('./branding-theme'); } });
 Object.defineProperty(exports, 'client', { get: function () { return require('./client'); } });
 Object.defineProperty(exports, 'clientCredentials', { get: function () { return require('./client-credentials'); } });
@@ -9,6 +10,7 @@ Object.defineProperty(exports, 'clientGrant', { get: function () { return requir
 Object.defineProperty(exports, 'connection', { get: function () { return require('./connection'); } });
 Object.defineProperty(exports, 'connectionClient', { get: function () { return require('./connection-client'); } });
 Object.defineProperty(exports, 'connectionClients', { get: function () { return require('./connection-clients'); } });
+Object.defineProperty(exports, 'connectionDirectory', { get: function () { return require('./connection-directory'); } });
 Object.defineProperty(exports, 'connectionKeys', { get: function () { return require('./connection-keys'); } });
 Object.defineProperty(exports, 'connectionProfile', { get: function () { return require('./connection-profile'); } });
 Object.defineProperty(exports, 'connectionScimConfiguration', { get: function () { return require('./connection-scim-configuration'); } });
@@ -37,6 +39,7 @@ Object.defineProperty(exports, 'organizationMemberRole', { get: function () { re
 Object.defineProperty(exports, 'organizationMemberRoles', { get: function () { return require('./organization-member-roles'); } });
 Object.defineProperty(exports, 'organizationMembers', { get: function () { return require('./organization-members'); } });
 Object.defineProperty(exports, 'pages', { get: function () { return require('./pages'); } });
+Object.defineProperty(exports, 'phoneNotificationTemplate', { get: function () { return require('./phone-notification-template'); } });
 Object.defineProperty(exports, 'phoneProvider', { get: function () { return require('./phone-provider'); } });
 Object.defineProperty(exports, 'prompt', { get: function () { return require('./prompt'); } });
 Object.defineProperty(exports, 'promptCustomText', { get: function () { return require('./prompt-custom-text'); } });
@@ -69,11 +72,14 @@ Object.defineProperty(exports, 'userRoles', { get: function () { return require(
 Object.defineProperty(exports, 'dataAuth0Action', { get: function () { return require('./data-auth0-action'); } });
 Object.defineProperty(exports, 'dataAuth0AttackProtection', { get: function () { return require('./data-auth0-attack-protection'); } });
 Object.defineProperty(exports, 'dataAuth0Branding', { get: function () { return require('./data-auth0-branding'); } });
+Object.defineProperty(exports, 'dataAuth0BrandingPhoneNotificationTemplate', { get: function () { return require('./data-auth0-branding-phone-notification-template'); } });
 Object.defineProperty(exports, 'dataAuth0BrandingTheme', { get: function () { return require('./data-auth0-branding-theme'); } });
 Object.defineProperty(exports, 'dataAuth0Client', { get: function () { return require('./data-auth0-client'); } });
 Object.defineProperty(exports, 'dataAuth0ClientGrants', { get: function () { return require('./data-auth0-client-grants'); } });
 Object.defineProperty(exports, 'dataAuth0Clients', { get: function () { return require('./data-auth0-clients'); } });
 Object.defineProperty(exports, 'dataAuth0Connection', { get: function () { return require('./data-auth0-connection'); } });
+Object.defineProperty(exports, 'dataAuth0ConnectionDirectory', { get: function () { return require('./data-auth0-connection-directory'); } });
+Object.defineProperty(exports, 'dataAuth0ConnectionDirectoryDefaultMapping', { get: function () { return require('./data-auth0-connection-directory-default-mapping'); } });
 Object.defineProperty(exports, 'dataAuth0ConnectionKeys', { get: function () { return require('./data-auth0-connection-keys'); } });
 Object.defineProperty(exports, 'dataAuth0ConnectionProfile', { get: function () { return require('./data-auth0-connection-profile'); } });
 Object.defineProperty(exports, 'dataAuth0ConnectionScimConfiguration', { get: function () { return require('./data-auth0-connection-scim-configuration'); } });
@@ -87,6 +93,7 @@ Object.defineProperty(exports, 'dataAuth0NetworkAcl', { get: function () { retur
 Object.defineProperty(exports, 'dataAuth0Organization', { get: function () { return require('./data-auth0-organization'); } });
 Object.defineProperty(exports, 'dataAuth0OutboundIps', { get: function () { return require('./data-auth0-outbound-ips'); } });
 Object.defineProperty(exports, 'dataAuth0Pages', { get: function () { return require('./data-auth0-pages'); } });
+Object.defineProperty(exports, 'dataAuth0PhoneNotificationTemplate', { get: function () { return require('./data-auth0-phone-notification-template'); } });
 Object.defineProperty(exports, 'dataAuth0PhoneProvider', { get: function () { return require('./data-auth0-phone-provider'); } });
 Object.defineProperty(exports, 'dataAuth0PromptScreenPartials', { get: function () { return require('./data-auth0-prompt-screen-partials'); } });
 Object.defineProperty(exports, 'dataAuth0PromptScreenRenderer', { get: function () { return require('./data-auth0-prompt-screen-renderer'); } });

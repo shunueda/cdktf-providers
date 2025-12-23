@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface BrandingConfig extends cdktf.TerraformMetaArguments {
   /**
   * URL for the favicon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding#favicon_url Branding#favicon_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding#favicon_url Branding#favicon_url}
   */
   readonly faviconUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding#id Branding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding#id Branding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface BrandingConfig extends cdktf.TerraformMetaArguments {
   /**
   * URL of logo for branding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding#logo_url Branding#logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding#logo_url Branding#logo_url}
   */
   readonly logoUrl?: string;
   /**
   * colors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding#colors Branding#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding#colors Branding#colors}
   */
   readonly colors?: BrandingColors;
   /**
   * font block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding#font Branding#font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding#font Branding#font}
   */
   readonly font?: BrandingFont;
   /**
   * universal_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding#universal_login Branding#universal_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding#universal_login Branding#universal_login}
   */
   readonly universalLogin?: BrandingUniversalLogin;
 }
@@ -49,13 +49,13 @@ export interface BrandingColors {
   /**
   * Background color of login pages in hexadecimal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding#page_background Branding#page_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding#page_background Branding#page_background}
   */
   readonly pageBackground?: string;
   /**
   * Primary button background color in hexadecimal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding#primary Branding#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding#primary Branding#primary}
   */
   readonly primary?: string;
 }
@@ -170,7 +170,7 @@ export interface BrandingFont {
   /**
   * URL for the custom font.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding#url Branding#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding#url Branding#url}
   */
   readonly url: string;
 }
@@ -253,7 +253,7 @@ export interface BrandingUniversalLogin {
   /**
   * The html template for the New Universal Login Experience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding#body Branding#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding#body Branding#body}
   */
   readonly body: string;
 }
@@ -334,7 +334,7 @@ export class BrandingUniversalLoginOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding auth0_branding}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding auth0_branding}
 */
 export class Branding extends cdktf.TerraformResource {
 
@@ -350,7 +350,7 @@ export class Branding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Branding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Branding to import
-  * @param importFromId The id of the existing Branding that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Branding that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Branding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -362,7 +362,7 @@ export class Branding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding auth0_branding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding auth0_branding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -373,8 +373,8 @@ export class Branding extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_branding',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

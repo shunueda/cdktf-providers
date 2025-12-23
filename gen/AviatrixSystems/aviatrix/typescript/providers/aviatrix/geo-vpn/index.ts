@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/geo_vpn
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/geo_vpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface GeoVpnConfig extends cdktf.TerraformMetaArguments {
   /**
   * This parameter represents the name of a Cloud-Account in Aviatrix controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/geo_vpn#account_name GeoVpn#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/geo_vpn#account_name GeoVpn#account_name}
   */
   readonly accountName: string;
   /**
   * Type of cloud service provider, requires an integer value. Currently only AWS(1) is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/geo_vpn#cloud_type GeoVpn#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/geo_vpn#cloud_type GeoVpn#cloud_type}
   */
   readonly cloudType: number;
   /**
   * The hosted domain name. It must be hosted by AWS Route53 or Azure DNS in the selected account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/geo_vpn#domain_name GeoVpn#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/geo_vpn#domain_name GeoVpn#domain_name}
   */
   readonly domainName: string;
   /**
   * List of ELB names to attach to this Geo VPN name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/geo_vpn#elb_dns_names GeoVpn#elb_dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/geo_vpn#elb_dns_names GeoVpn#elb_dns_names}
   */
   readonly elbDnsNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/geo_vpn#id GeoVpn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/geo_vpn#id GeoVpn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface GeoVpnConfig extends cdktf.TerraformMetaArguments {
   /**
   * The hostname that users will connect to. A DNS record will be created for this name in the specified domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/geo_vpn#service_name GeoVpn#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/geo_vpn#service_name GeoVpn#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/geo_vpn aviatrix_geo_vpn}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/geo_vpn aviatrix_geo_vpn}
 */
 export class GeoVpn extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class GeoVpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GeoVpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GeoVpn to import
-  * @param importFromId The id of the existing GeoVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/geo_vpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GeoVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/geo_vpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GeoVpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class GeoVpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/geo_vpn aviatrix_geo_vpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/geo_vpn aviatrix_geo_vpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class GeoVpn extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_geo_vpn',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

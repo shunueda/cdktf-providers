@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botconfigconsolidator
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botconfigconsolidator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,158 @@ import * as cdktf from 'cdktf';
 
 export interface BotconfigconsolidatorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botconfigconsolidator#description Botconfigconsolidator#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botconfigconsolidator#description Botconfigconsolidator#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botconfigconsolidator#id Botconfigconsolidator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botconfigconsolidator#id Botconfigconsolidator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botconfigconsolidator#name Botconfigconsolidator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botconfigconsolidator#name Botconfigconsolidator#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botconfigconsolidator#script Botconfigconsolidator#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botconfigconsolidator#script Botconfigconsolidator#script}
   */
   readonly script?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botconfigconsolidator#tenant_ref Botconfigconsolidator#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botconfigconsolidator#tenant_ref Botconfigconsolidator#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botconfigconsolidator#uuid Botconfigconsolidator#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botconfigconsolidator#uuid Botconfigconsolidator#uuid}
   */
   readonly uuid?: string;
+  /**
+  * configpb_attributes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botconfigconsolidator#configpb_attributes Botconfigconsolidator#configpb_attributes}
+  */
+  readonly configpbAttributes?: BotconfigconsolidatorConfigpbAttributes[] | cdktf.IResolvable;
+}
+export interface BotconfigconsolidatorConfigpbAttributes {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botconfigconsolidator#version Botconfigconsolidator#version}
+  */
+  readonly version?: string;
+}
+
+export function botconfigconsolidatorConfigpbAttributesToTerraform(struct?: BotconfigconsolidatorConfigpbAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    version: cdktf.stringToTerraform(struct!.version),
+  }
+}
+
+
+export function botconfigconsolidatorConfigpbAttributesToHclTerraform(struct?: BotconfigconsolidatorConfigpbAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    version: {
+      value: cdktf.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BotconfigconsolidatorConfigpbAttributesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BotconfigconsolidatorConfigpbAttributes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BotconfigconsolidatorConfigpbAttributes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._version = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._version = value.version;
+    }
+  }
+
+  // version - computed: true, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+
+export class BotconfigconsolidatorConfigpbAttributesList extends cdktf.ComplexList {
+  public internalValue? : BotconfigconsolidatorConfigpbAttributes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BotconfigconsolidatorConfigpbAttributesOutputReference {
+    return new BotconfigconsolidatorConfigpbAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botconfigconsolidator avi_botconfigconsolidator}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botconfigconsolidator avi_botconfigconsolidator}
 */
 export class Botconfigconsolidator extends cdktf.TerraformResource {
 
@@ -53,7 +175,7 @@ export class Botconfigconsolidator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Botconfigconsolidator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Botconfigconsolidator to import
-  * @param importFromId The id of the existing Botconfigconsolidator that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botconfigconsolidator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Botconfigconsolidator that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botconfigconsolidator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Botconfigconsolidator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +187,7 @@ export class Botconfigconsolidator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botconfigconsolidator avi_botconfigconsolidator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botconfigconsolidator avi_botconfigconsolidator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +198,8 @@ export class Botconfigconsolidator extends cdktf.TerraformResource {
       terraformResourceType: 'avi_botconfigconsolidator',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -93,6 +215,7 @@ export class Botconfigconsolidator extends cdktf.TerraformResource {
     this._script = config.script;
     this._tenantRef = config.tenantRef;
     this._uuid = config.uuid;
+    this._configpbAttributes.internalValue = config.configpbAttributes;
   }
 
   // ==========
@@ -192,6 +315,22 @@ export class Botconfigconsolidator extends cdktf.TerraformResource {
     return this._uuid;
   }
 
+  // configpb_attributes - computed: false, optional: true, required: false
+  private _configpbAttributes = new BotconfigconsolidatorConfigpbAttributesList(this, "configpb_attributes", true);
+  public get configpbAttributes() {
+    return this._configpbAttributes;
+  }
+  public putConfigpbAttributes(value: BotconfigconsolidatorConfigpbAttributes[] | cdktf.IResolvable) {
+    this._configpbAttributes.internalValue = value;
+  }
+  public resetConfigpbAttributes() {
+    this._configpbAttributes.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configpbAttributesInput() {
+    return this._configpbAttributes.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -204,6 +343,7 @@ export class Botconfigconsolidator extends cdktf.TerraformResource {
       script: cdktf.stringToTerraform(this._script),
       tenant_ref: cdktf.stringToTerraform(this._tenantRef),
       uuid: cdktf.stringToTerraform(this._uuid),
+      configpb_attributes: cdktf.listMapper(botconfigconsolidatorConfigpbAttributesToTerraform, true)(this._configpbAttributes.internalValue),
     };
   }
 
@@ -244,6 +384,12 @@ export class Botconfigconsolidator extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      configpb_attributes: {
+        value: cdktf.listMapperHcl(botconfigconsolidatorConfigpbAttributesToHclTerraform, true)(this._configpbAttributes.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "BotconfigconsolidatorConfigpbAttributesList",
       },
     };
 

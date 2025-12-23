@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_network_domain
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_network_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AwsTgwNetworkDomainConfig extends cdktf.TerraformMetaArguments 
   /**
   * Set to true if the network domain is an aviatrix firewall domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_network_domain#aviatrix_firewall AwsTgwNetworkDomain#aviatrix_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_network_domain#aviatrix_firewall AwsTgwNetworkDomain#aviatrix_firewall}
   */
   readonly aviatrixFirewall?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_network_domain#id AwsTgwNetworkDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_network_domain#id AwsTgwNetworkDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface AwsTgwNetworkDomainConfig extends cdktf.TerraformMetaArguments 
   /**
   * Network domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_network_domain#name AwsTgwNetworkDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_network_domain#name AwsTgwNetworkDomain#name}
   */
   readonly name: string;
   /**
   * Set to true if the network domain is a native egress domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_network_domain#native_egress AwsTgwNetworkDomain#native_egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_network_domain#native_egress AwsTgwNetworkDomain#native_egress}
   */
   readonly nativeEgress?: boolean | cdktf.IResolvable;
   /**
   * Set to true if the network domain is a native firewall domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_network_domain#native_firewall AwsTgwNetworkDomain#native_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_network_domain#native_firewall AwsTgwNetworkDomain#native_firewall}
   */
   readonly nativeFirewall?: boolean | cdktf.IResolvable;
   /**
   * AWS TGW name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_network_domain#tgw_name AwsTgwNetworkDomain#tgw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_network_domain#tgw_name AwsTgwNetworkDomain#tgw_name}
   */
   readonly tgwName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_network_domain aviatrix_aws_tgw_network_domain}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_network_domain aviatrix_aws_tgw_network_domain}
 */
 export class AwsTgwNetworkDomain extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class AwsTgwNetworkDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsTgwNetworkDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsTgwNetworkDomain to import
-  * @param importFromId The id of the existing AwsTgwNetworkDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_network_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsTgwNetworkDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_network_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsTgwNetworkDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class AwsTgwNetworkDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_network_domain aviatrix_aws_tgw_network_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_network_domain aviatrix_aws_tgw_network_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class AwsTgwNetworkDomain extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_aws_tgw_network_domain',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

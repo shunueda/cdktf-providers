@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,365 +10,371 @@ export interface AccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account name. This can be used for logging in to CloudN console or UserConnect controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#account_name Account#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#account_name Account#account_name}
   */
   readonly accountName: string;
   /**
   * Alibaba Cloud Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#alicloud_access_key Account#alicloud_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#alicloud_access_key Account#alicloud_access_key}
   */
   readonly alicloudAccessKey?: string;
   /**
   * Alibaba Cloud Account ID to associate with Aviatrix account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#alicloud_account_id Account#alicloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#alicloud_account_id Account#alicloud_account_id}
   */
   readonly alicloudAccountId?: string;
   /**
   * Alibaba Cloud Secret Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#alicloud_secret_key Account#alicloud_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#alicloud_secret_key Account#alicloud_secret_key}
   */
   readonly alicloudSecretKey?: string;
   /**
   * Azure Application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#arm_application_id Account#arm_application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#arm_application_id Account#arm_application_id}
   */
   readonly armApplicationId?: string;
   /**
   * Azure Application Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#arm_application_key Account#arm_application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#arm_application_key Account#arm_application_key}
   */
   readonly armApplicationKey?: string;
   /**
   * Azure Directory ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#arm_directory_id Account#arm_directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#arm_directory_id Account#arm_directory_id}
   */
   readonly armDirectoryId?: string;
   /**
   * Azure Subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#arm_subscription_id Account#arm_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#arm_subscription_id Account#arm_subscription_id}
   */
   readonly armSubscriptionId?: string;
   /**
   * Enable account audit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#audit_account Account#audit_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#audit_account Account#audit_account}
   */
   readonly auditAccount?: boolean | cdktf.IResolvable;
   /**
   * AWS Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#aws_access_key Account#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#aws_access_key Account#aws_access_key}
   */
   readonly awsAccessKey?: string;
   /**
   * AWS Account number to associate with Aviatrix account. Should be 12 digits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#aws_account_number Account#aws_account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#aws_account_number Account#aws_account_number}
   */
   readonly awsAccountNumber?: string;
   /**
   * AWS App role ARN for gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#aws_gateway_role_app Account#aws_gateway_role_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#aws_gateway_role_app Account#aws_gateway_role_app}
   */
   readonly awsGatewayRoleApp?: string;
   /**
   * AWS EC2 role ARN for gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#aws_gateway_role_ec2 Account#aws_gateway_role_ec2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#aws_gateway_role_ec2 Account#aws_gateway_role_ec2}
   */
   readonly awsGatewayRoleEc2?: string;
   /**
   * AWS IAM-role based flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#aws_iam Account#aws_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#aws_iam Account#aws_iam}
   */
   readonly awsIam?: boolean | cdktf.IResolvable;
   /**
   * AWS App role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#aws_role_app Account#aws_role_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#aws_role_app Account#aws_role_app}
   */
   readonly awsRoleApp?: string;
   /**
   * AWS EC2 role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#aws_role_ec2 Account#aws_role_ec2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#aws_role_ec2 Account#aws_role_ec2}
   */
   readonly awsRoleEc2?: string;
   /**
   * AWS Secret Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#aws_secret_key Account#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#aws_secret_key Account#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * AWS China Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awschina_access_key Account#awschina_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awschina_access_key Account#awschina_access_key}
   */
   readonly awschinaAccessKey?: string;
   /**
   * AWS China Account Number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awschina_account_number Account#awschina_account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awschina_account_number Account#awschina_account_number}
   */
   readonly awschinaAccountNumber?: string;
   /**
   * AWS China IAM-role based flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awschina_iam Account#awschina_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awschina_iam Account#awschina_iam}
   */
   readonly awschinaIam?: boolean | cdktf.IResolvable;
   /**
   * AWS China App Role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awschina_role_app Account#awschina_role_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awschina_role_app Account#awschina_role_app}
   */
   readonly awschinaRoleApp?: string;
   /**
   * AWS China EC2 Role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awschina_role_ec2 Account#awschina_role_ec2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awschina_role_ec2 Account#awschina_role_ec2}
   */
   readonly awschinaRoleEc2?: string;
   /**
   * AWS China Secret Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awschina_secret_key Account#awschina_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awschina_secret_key Account#awschina_secret_key}
   */
   readonly awschinaSecretKey?: string;
   /**
   * AWS Gov Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsgov_access_key Account#awsgov_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsgov_access_key Account#awsgov_access_key}
   */
   readonly awsgovAccessKey?: string;
   /**
   * AWS Gov Account number to associate with Aviatrix account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsgov_account_number Account#awsgov_account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsgov_account_number Account#awsgov_account_number}
   */
   readonly awsgovAccountNumber?: string;
   /**
   * AWSGov IAM-role based flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsgov_iam Account#awsgov_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsgov_iam Account#awsgov_iam}
   */
   readonly awsgovIam?: boolean | cdktf.IResolvable;
   /**
   * AWSGov App role ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsgov_role_app Account#awsgov_role_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsgov_role_app Account#awsgov_role_app}
   */
   readonly awsgovRoleApp?: string;
   /**
   * AWSGov EC2 role ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsgov_role_ec2 Account#awsgov_role_ec2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsgov_role_ec2 Account#awsgov_role_ec2}
   */
   readonly awsgovRoleEc2?: string;
   /**
   * AWS Gov Secret Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsgov_secret_key Account#awsgov_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsgov_secret_key Account#awsgov_secret_key}
   */
   readonly awsgovSecretKey?: string;
   /**
   * AWS Secret Region Account Number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awss_account_number Account#awss_account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awss_account_number Account#awss_account_number}
   */
   readonly awssAccountNumber?: string;
   /**
   * AWS Secret Region Custom Certificate Authority file path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awss_ca_chain_cert Account#awss_ca_chain_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awss_ca_chain_cert Account#awss_ca_chain_cert}
   */
   readonly awssCaChainCert?: string;
   /**
   * AWS Secret Region CAP Account Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awss_cap_account_name Account#awss_cap_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awss_cap_account_name Account#awss_cap_account_name}
   */
   readonly awssCapAccountName?: string;
   /**
   * AWS Secret Region CAP Agency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awss_cap_agency Account#awss_cap_agency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awss_cap_agency Account#awss_cap_agency}
   */
   readonly awssCapAgency?: string;
   /**
   * AWS Secret Region CAP Certificate file path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awss_cap_cert Account#awss_cap_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awss_cap_cert Account#awss_cap_cert}
   */
   readonly awssCapCert?: string;
   /**
   * AWS Secret Region CAP Certificate Key file path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awss_cap_cert_key Account#awss_cap_cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awss_cap_cert_key Account#awss_cap_cert_key}
   */
   readonly awssCapCertKey?: string;
   /**
   * AWS Secret Region CAP Role Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awss_cap_role_name Account#awss_cap_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awss_cap_role_name Account#awss_cap_role_name}
   */
   readonly awssCapRoleName?: string;
   /**
   * AWS Secret Region CAP Endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awss_cap_url Account#awss_cap_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awss_cap_url Account#awss_cap_url}
   */
   readonly awssCapUrl?: string;
   /**
   * AWS Top Secret Region Account Number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsts_account_number Account#awsts_account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsts_account_number Account#awsts_account_number}
   */
   readonly awstsAccountNumber?: string;
   /**
   * AWS Top Secret Region Custom Certificate Authority file path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsts_ca_chain_cert Account#awsts_ca_chain_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsts_ca_chain_cert Account#awsts_ca_chain_cert}
   */
   readonly awstsCaChainCert?: string;
   /**
   * AWS Top Secret Region CAP Agency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsts_cap_agency Account#awsts_cap_agency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsts_cap_agency Account#awsts_cap_agency}
   */
   readonly awstsCapAgency?: string;
   /**
   * AWS Top Secret Region CAP Certificate file path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsts_cap_cert Account#awsts_cap_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsts_cap_cert Account#awsts_cap_cert}
   */
   readonly awstsCapCert?: string;
   /**
   * AWS Top Secret Region CAP Certificate Key file path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsts_cap_cert_key Account#awsts_cap_cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsts_cap_cert_key Account#awsts_cap_cert_key}
   */
   readonly awstsCapCertKey?: string;
   /**
   * AWS Top Secret Region CAP Mission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsts_cap_mission Account#awsts_cap_mission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsts_cap_mission Account#awsts_cap_mission}
   */
   readonly awstsCapMission?: string;
   /**
   * AWS Top Secret Region CAP Role Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsts_cap_role_name Account#awsts_cap_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsts_cap_role_name Account#awsts_cap_role_name}
   */
   readonly awstsCapRoleName?: string;
   /**
   * AWS Top Secret Region CAP Endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#awsts_cap_url Account#awsts_cap_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#awsts_cap_url Account#awsts_cap_url}
   */
   readonly awstsCapUrl?: string;
   /**
   * Azure China Application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#azurechina_application_id Account#azurechina_application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#azurechina_application_id Account#azurechina_application_id}
   */
   readonly azurechinaApplicationId?: string;
   /**
   * Azure China Application Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#azurechina_application_key Account#azurechina_application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#azurechina_application_key Account#azurechina_application_key}
   */
   readonly azurechinaApplicationKey?: string;
   /**
   * Azure China Directory ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#azurechina_directory_id Account#azurechina_directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#azurechina_directory_id Account#azurechina_directory_id}
   */
   readonly azurechinaDirectoryId?: string;
   /**
   * Azure China Subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#azurechina_subscription_id Account#azurechina_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#azurechina_subscription_id Account#azurechina_subscription_id}
   */
   readonly azurechinaSubscriptionId?: string;
   /**
   * Azure Gov Application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#azuregov_application_id Account#azuregov_application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#azuregov_application_id Account#azuregov_application_id}
   */
   readonly azuregovApplicationId?: string;
   /**
   * Azure Gov Application Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#azuregov_application_key Account#azuregov_application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#azuregov_application_key Account#azuregov_application_key}
   */
   readonly azuregovApplicationKey?: string;
   /**
   * Azure Gov Directory ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#azuregov_directory_id Account#azuregov_directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#azuregov_directory_id Account#azuregov_directory_id}
   */
   readonly azuregovDirectoryId?: string;
   /**
   * Azure Gov Subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#azuregov_subscription_id Account#azuregov_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#azuregov_subscription_id Account#azuregov_subscription_id}
   */
   readonly azuregovSubscriptionId?: string;
   /**
   * Type of cloud service provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#cloud_type Account#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#cloud_type Account#cloud_type}
   */
   readonly cloudType: number;
   /**
+  * Edge CSP API endpoint URL
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#edge_csp_api_endpoint Account#edge_csp_api_endpoint}
+  */
+  readonly edgeCspApiEndpoint?: string;
+  /**
   * Edge CSP password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#edge_csp_password Account#edge_csp_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#edge_csp_password Account#edge_csp_password}
   */
   readonly edgeCspPassword?: string;
   /**
   * Edge CSP username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#edge_csp_username Account#edge_csp_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#edge_csp_username Account#edge_csp_username}
   */
   readonly edgeCspUsername?: string;
   /**
   * Edge Zededa password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#edge_zededa_password Account#edge_zededa_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#edge_zededa_password Account#edge_zededa_password}
   */
   readonly edgeZededaPassword?: string;
   /**
   * Edge Zededa username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#edge_zededa_username Account#edge_zededa_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#edge_zededa_username Account#edge_zededa_username}
   */
   readonly edgeZededaUsername?: string;
   /**
   * GCloud Project credentials local file path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#gcloud_project_credentials_filepath Account#gcloud_project_credentials_filepath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#gcloud_project_credentials_filepath Account#gcloud_project_credentials_filepath}
   */
   readonly gcloudProjectCredentialsFilepath?: string;
   /**
   * GCloud Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#gcloud_project_id Account#gcloud_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#gcloud_project_id Account#gcloud_project_id}
   */
   readonly gcloudProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#id Account#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#id Account#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -377,37 +383,37 @@ export interface AccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * OCI API Private Key local file path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#oci_api_private_key_filepath Account#oci_api_private_key_filepath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#oci_api_private_key_filepath Account#oci_api_private_key_filepath}
   */
   readonly ociApiPrivateKeyFilepath?: string;
   /**
   * OCI Compartment OCID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#oci_compartment_id Account#oci_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#oci_compartment_id Account#oci_compartment_id}
   */
   readonly ociCompartmentId?: string;
   /**
   * OCI Tenancy OCID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#oci_tenancy_id Account#oci_tenancy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#oci_tenancy_id Account#oci_tenancy_id}
   */
   readonly ociTenancyId?: string;
   /**
   * OCI User OCID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#oci_user_id Account#oci_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#oci_user_id Account#oci_user_id}
   */
   readonly ociUserId?: string;
   /**
   * List of RBAC permission group names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#rbac_groups Account#rbac_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#rbac_groups Account#rbac_groups}
   */
   readonly rbacGroups?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account aviatrix_account}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account aviatrix_account}
 */
 export class Account extends cdktf.TerraformResource {
 
@@ -423,7 +429,7 @@ export class Account extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Account resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Account to import
-  * @param importFromId The id of the existing Account that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Account that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Account to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -435,7 +441,7 @@ export class Account extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/account aviatrix_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/account aviatrix_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -446,8 +452,8 @@ export class Account extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_account',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -511,6 +517,7 @@ export class Account extends cdktf.TerraformResource {
     this._azuregovDirectoryId = config.azuregovDirectoryId;
     this._azuregovSubscriptionId = config.azuregovSubscriptionId;
     this._cloudType = config.cloudType;
+    this._edgeCspApiEndpoint = config.edgeCspApiEndpoint;
     this._edgeCspPassword = config.edgeCspPassword;
     this._edgeCspUsername = config.edgeCspUsername;
     this._edgeZededaPassword = config.edgeZededaPassword;
@@ -1412,6 +1419,22 @@ export class Account extends cdktf.TerraformResource {
     return this._cloudType;
   }
 
+  // edge_csp_api_endpoint - computed: false, optional: true, required: false
+  private _edgeCspApiEndpoint?: string; 
+  public get edgeCspApiEndpoint() {
+    return this.getStringAttribute('edge_csp_api_endpoint');
+  }
+  public set edgeCspApiEndpoint(value: string) {
+    this._edgeCspApiEndpoint = value;
+  }
+  public resetEdgeCspApiEndpoint() {
+    this._edgeCspApiEndpoint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get edgeCspApiEndpointInput() {
+    return this._edgeCspApiEndpoint;
+  }
+
   // edge_csp_password - computed: false, optional: true, required: false
   private _edgeCspPassword?: string; 
   public get edgeCspPassword() {
@@ -1664,6 +1687,7 @@ export class Account extends cdktf.TerraformResource {
       azuregov_directory_id: cdktf.stringToTerraform(this._azuregovDirectoryId),
       azuregov_subscription_id: cdktf.stringToTerraform(this._azuregovSubscriptionId),
       cloud_type: cdktf.numberToTerraform(this._cloudType),
+      edge_csp_api_endpoint: cdktf.stringToTerraform(this._edgeCspApiEndpoint),
       edge_csp_password: cdktf.stringToTerraform(this._edgeCspPassword),
       edge_csp_username: cdktf.stringToTerraform(this._edgeCspUsername),
       edge_zededa_password: cdktf.stringToTerraform(this._edgeZededaPassword),
@@ -2004,6 +2028,12 @@ export class Account extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      edge_csp_api_endpoint: {
+        value: cdktf.stringToHclTerraform(this._edgeCspApiEndpoint),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       edge_csp_password: {
         value: cdktf.stringToHclTerraform(this._edgeCspPassword),

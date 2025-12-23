@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FirewallPolicyAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Valid values: 'allow', 'deny' or 'force-drop'(in stateful firewall rule to allow immediate packet dropping on established sessions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy#action FirewallPolicyA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy#action FirewallPolicyA#action}
   */
   readonly action: string;
   /**
   * Description of this firewall policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy#description FirewallPolicyA#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy#description FirewallPolicyA#description}
   */
   readonly description?: string;
   /**
   * CIDRs separated by comma or tag names such 'HR' or 'marketing' etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy#dst_ip FirewallPolicyA#dst_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy#dst_ip FirewallPolicyA#dst_ip}
   */
   readonly dstIp: string;
   /**
   * The name of gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy#gw_name FirewallPolicyA#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy#gw_name FirewallPolicyA#gw_name}
   */
   readonly gwName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy#id FirewallPolicyA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy#id FirewallPolicyA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface FirewallPolicyAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Valid values: true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy#log_enabled FirewallPolicyA#log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy#log_enabled FirewallPolicyA#log_enabled}
   */
   readonly logEnabled?: boolean | cdktf.IResolvable;
   /**
   * A single port or a range of port numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy#port FirewallPolicyA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy#port FirewallPolicyA#port}
   */
   readonly port: string;
   /**
   * Position in the policy list, where the firewall policy will be inserted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy#position FirewallPolicyA#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy#position FirewallPolicyA#position}
   */
   readonly position?: number;
   /**
   * 'all', 'tcp', 'udp', 'icmp', 'sctp', 'rdp', 'dccp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy#protocol FirewallPolicyA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy#protocol FirewallPolicyA#protocol}
   */
   readonly protocol?: string;
   /**
   * CIDRs separated by comma or tag names such 'HR' or 'marketing' etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy#src_ip FirewallPolicyA#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy#src_ip FirewallPolicyA#src_ip}
   */
   readonly srcIp: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy aviatrix_firewall_policy}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy aviatrix_firewall_policy}
 */
 export class FirewallPolicyA extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class FirewallPolicyA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallPolicyA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallPolicyA to import
-  * @param importFromId The id of the existing FirewallPolicyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallPolicyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallPolicyA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class FirewallPolicyA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_policy aviatrix_firewall_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_policy aviatrix_firewall_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class FirewallPolicyA extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_firewall_policy',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SamlEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint#access_set_by SamlEndpoint#access_set_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint#access_set_by SamlEndpoint#access_set_by}
   */
   readonly accessSetBy?: string;
   /**
   * Switch to differentiate if it is for controller login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint#controller_login SamlEndpoint#controller_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint#controller_login SamlEndpoint#controller_login}
   */
   readonly controllerLogin?: boolean | cdktf.IResolvable;
   /**
   * Custom Entity ID. Required to be non-empty for 'Custom' Entity ID type, empty for 'Hostname'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint#custom_entity_id SamlEndpoint#custom_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint#custom_entity_id SamlEndpoint#custom_entity_id}
   */
   readonly customEntityId?: string;
   /**
   * Custom SAML Request Template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint#custom_saml_request_template SamlEndpoint#custom_saml_request_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint#custom_saml_request_template SamlEndpoint#custom_saml_request_template}
   */
   readonly customSamlRequestTemplate?: string;
   /**
   * SAML Endpoint Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint#endpoint_name SamlEndpoint#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint#endpoint_name SamlEndpoint#endpoint_name}
   */
   readonly endpointName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint#id SamlEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint#id SamlEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface SamlEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
   * IDP Metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint#idp_metadata SamlEndpoint#idp_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint#idp_metadata SamlEndpoint#idp_metadata}
   */
   readonly idpMetadata?: string;
   /**
   * Type of IDP Metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint#idp_metadata_type SamlEndpoint#idp_metadata_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint#idp_metadata_type SamlEndpoint#idp_metadata_type}
   */
   readonly idpMetadataType: string;
   /**
   * IDP Metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint#idp_metadata_url SamlEndpoint#idp_metadata_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint#idp_metadata_url SamlEndpoint#idp_metadata_url}
   */
   readonly idpMetadataUrl?: string;
   /**
   * List of RBAC groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint#rbac_groups SamlEndpoint#rbac_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint#rbac_groups SamlEndpoint#rbac_groups}
   */
   readonly rbacGroups?: string[];
   /**
   * Whether to sign SAML AuthnRequests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint#sign_authn_requests SamlEndpoint#sign_authn_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint#sign_authn_requests SamlEndpoint#sign_authn_requests}
   */
   readonly signAuthnRequests?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint aviatrix_saml_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint aviatrix_saml_endpoint}
 */
 export class SamlEndpoint extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class SamlEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SamlEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SamlEndpoint to import
-  * @param importFromId The id of the existing SamlEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SamlEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SamlEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class SamlEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/saml_endpoint aviatrix_saml_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/saml_endpoint aviatrix_saml_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class SamlEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_saml_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

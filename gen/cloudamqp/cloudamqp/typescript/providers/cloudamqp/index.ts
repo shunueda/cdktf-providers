@@ -19,6 +19,7 @@ export * as privatelinkAws from './privatelink-aws';
 export * as privatelinkAzure from './privatelink-azure';
 export * as rabbitmqConfiguration from './rabbitmq-configuration';
 export * as securityFirewall from './security-firewall';
+export * as trustStore from './trust-store';
 export * as upgradeLavinmq from './upgrade-lavinmq';
 export * as upgradeRabbitmq from './upgrade-rabbitmq';
 export * as vpc from './vpc';

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_interface
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DcInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable BGP announce of subnet attached to interface. Default is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_interface#bgp_announce_enabled DcInterface#bgp_announce_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_interface#bgp_announce_enabled DcInterface#bgp_announce_enabled}
   */
   readonly bgpAnnounceEnabled?: boolean | cdktf.IResolvable;
   /**
   * Direct Connect Router ID to attach. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_interface#dc_router_id DcInterface#dc_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_interface#dc_router_id DcInterface#dc_router_id}
   */
   readonly dcRouterId: string;
   /**
   * Description of the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_interface#description DcInterface#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_interface#description DcInterface#description}
   */
   readonly description?: string;
   /**
   * IP Address of the interface. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_interface#ip_address DcInterface#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_interface#ip_address DcInterface#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Name of the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_interface#name DcInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_interface#name DcInterface#name}
   */
   readonly name?: string;
   /**
   * Network ID to attach. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_interface#network_id DcInterface#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_interface#network_id DcInterface#network_id}
   */
   readonly networkId: string;
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`. Changing this creates a new interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_interface#region DcInterface#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_interface#region DcInterface#region}
   */
   readonly region?: string;
   /**
   * Subnet ID to attach. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_interface#subnet_id DcInterface#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_interface#subnet_id DcInterface#subnet_id}
   */
   readonly subnetId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_interface vkcs_dc_interface}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_interface vkcs_dc_interface}
 */
 export class DcInterface extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class DcInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcInterface to import
-  * @param importFromId The id of the existing DcInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class DcInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_interface vkcs_dc_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_interface vkcs_dc_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class DcInterface extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_dc_interface',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

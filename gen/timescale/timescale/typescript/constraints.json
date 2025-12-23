@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "timescale": "2.6.0"
+    "timescale": "2.7.0"
   }
 }

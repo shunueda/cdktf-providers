@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/custom_querypack
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/custom_querypack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CustomQuerypackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Data as string to be uploaded. Must be defined if source is not. Note: The content field is marked as sensitive. To view the raw contents of the object, please define an output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/custom_querypack#content CustomQuerypack#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/custom_querypack#content CustomQuerypack#content}
   */
   readonly content?: string;
   /**
   * If set to true, existing policies are overwritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/custom_querypack#overwrite CustomQuerypack#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/custom_querypack#overwrite CustomQuerypack#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
   * A path to the data you want to upload. Must be defined if content is not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/custom_querypack#source CustomQuerypack#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/custom_querypack#source CustomQuerypack#source}
   */
   readonly source?: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/custom_querypack#space_id CustomQuerypack#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/custom_querypack#space_id CustomQuerypack#space_id}
   */
   readonly spaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/custom_querypack mondoo_custom_querypack}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/custom_querypack mondoo_custom_querypack}
 */
 export class CustomQuerypack extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class CustomQuerypack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomQuerypack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomQuerypack to import
-  * @param importFromId The id of the existing CustomQuerypack that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/custom_querypack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomQuerypack that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/custom_querypack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomQuerypack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class CustomQuerypack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/custom_querypack mondoo_custom_querypack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/custom_querypack mondoo_custom_querypack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class CustomQuerypack extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_custom_querypack',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.2',
-        providerVersionConstraint: '0.35.2'
+        providerVersion: '0.35.3',
+        providerVersionConstraint: '0.35.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PublicdnsRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * The content of the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#content PublicdnsRecord#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#content PublicdnsRecord#content}
   */
   readonly content?: string;
   /**
   * The domain name of the target host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#host PublicdnsRecord#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#host PublicdnsRecord#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#id PublicdnsRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#id PublicdnsRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,83 +29,83 @@ export interface PublicdnsRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IP address of the record. It should be IPv4 for record of type "A" and IPv6 for record of type "AAAA".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#ip PublicdnsRecord#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#ip PublicdnsRecord#ip}
   */
   readonly ip?: string;
   /**
   * The name of the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#name PublicdnsRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#name PublicdnsRecord#name}
   */
   readonly name?: string;
   /**
   * The port on the target host of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#port PublicdnsRecord#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#port PublicdnsRecord#port}
   */
   readonly port?: number;
   /**
   * The priority of the record's server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#priority PublicdnsRecord#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#priority PublicdnsRecord#priority}
   */
   readonly priority?: number;
   /**
   * The name of the desired protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#proto PublicdnsRecord#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#proto PublicdnsRecord#proto}
   */
   readonly proto?: string;
   /**
   * The region in which to obtain the V2 Public DNS client. If omitted, the `region` argument of the provider is used. Changing this creates a new record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#region PublicdnsRecord#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#region PublicdnsRecord#region}
   */
   readonly region?: string;
   /**
   * The name of the desired service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#service PublicdnsRecord#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#service PublicdnsRecord#service}
   */
   readonly service?: string;
   /**
   * The time to live of the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#ttl PublicdnsRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#ttl PublicdnsRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * The type of the record. Must be one of following: "A", "AAAA", "CNAME", "MX", "NS", "SRV", "TXT".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#type PublicdnsRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#type PublicdnsRecord#type}
   */
   readonly type: string;
   /**
   * The relative weight of the record's server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#weight PublicdnsRecord#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#weight PublicdnsRecord#weight}
   */
   readonly weight?: number;
   /**
   * The ID of the zone to attach the record to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#zone_id PublicdnsRecord#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#zone_id PublicdnsRecord#zone_id}
   */
   readonly zoneId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#timeouts PublicdnsRecord#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#timeouts PublicdnsRecord#timeouts}
   */
   readonly timeouts?: PublicdnsRecordTimeouts;
 }
 export interface PublicdnsRecordTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#create PublicdnsRecord#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#create PublicdnsRecord#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#delete PublicdnsRecord#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#delete PublicdnsRecord#delete}
   */
   readonly delete?: string;
 }
@@ -228,7 +228,7 @@ export class PublicdnsRecordTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record vkcs_publicdns_record}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record vkcs_publicdns_record}
 */
 export class PublicdnsRecord extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class PublicdnsRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PublicdnsRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PublicdnsRecord to import
-  * @param importFromId The id of the existing PublicdnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PublicdnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PublicdnsRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class PublicdnsRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_record vkcs_publicdns_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/publicdns_record vkcs_publicdns_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class PublicdnsRecord extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_publicdns_record',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/link_hierarchy
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/link_hierarchy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LinkHierarchyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/link_hierarchy#id LinkHierarchy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/link_hierarchy#id LinkHierarchy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface LinkHierarchyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of link hierarchy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/link_hierarchy#name LinkHierarchy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/link_hierarchy#name LinkHierarchy#name}
   */
   readonly name: string;
   /**
   * links block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/link_hierarchy#links LinkHierarchy#links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/link_hierarchy#links LinkHierarchy#links}
   */
   readonly links: LinkHierarchyLinks[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface LinkHierarchyLinksWanLink {
   /**
   * WAN tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/link_hierarchy#wan_tag LinkHierarchy#wan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/link_hierarchy#wan_tag LinkHierarchy#wan_tag}
   */
   readonly wanTag: string;
 }
@@ -146,13 +146,13 @@ export interface LinkHierarchyLinks {
   /**
   * Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/link_hierarchy#name LinkHierarchy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/link_hierarchy#name LinkHierarchy#name}
   */
   readonly name: string;
   /**
   * wan_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/link_hierarchy#wan_link LinkHierarchy#wan_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/link_hierarchy#wan_link LinkHierarchy#wan_link}
   */
   readonly wanLink: LinkHierarchyLinksWanLink[] | cdktf.IResolvable;
 }
@@ -291,7 +291,7 @@ export class LinkHierarchyLinksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/link_hierarchy aviatrix_link_hierarchy}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/link_hierarchy aviatrix_link_hierarchy}
 */
 export class LinkHierarchy extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class LinkHierarchy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LinkHierarchy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LinkHierarchy to import
-  * @param importFromId The id of the existing LinkHierarchy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/link_hierarchy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LinkHierarchy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/link_hierarchy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LinkHierarchy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class LinkHierarchy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/link_hierarchy aviatrix_link_hierarchy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/link_hierarchy aviatrix_link_hierarchy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class LinkHierarchy extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_link_hierarchy',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

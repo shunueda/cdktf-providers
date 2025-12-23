@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name used in login screen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#display_name Connection#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#display_name Connection#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#id Connection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#id Connection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,61 +23,61 @@ export interface ConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether the connection is domain level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#is_domain_connection Connection#is_domain_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#is_domain_connection Connection#is_domain_connection}
   */
   readonly isDomainConnection?: boolean | cdktf.IResolvable;
   /**
   * Metadata associated with the connection, in the form of a map of string values (max 255 chars).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#metadata Connection#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#metadata Connection#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Name of the connection. This value is immutable and changing it requires the creation of a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#name Connection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#name Connection#name}
   */
   readonly name: string;
   /**
   * Defines the realms for which the connection will be used (e.g., email domains). If not specified, the connection name is added as the realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#realms Connection#realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#realms Connection#realms}
   */
   readonly realms?: string[];
   /**
   * Display connection as a button. Only available on enterprise connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#show_as_button Connection#show_as_button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#show_as_button Connection#show_as_button}
   */
   readonly showAsButton?: boolean | cdktf.IResolvable;
   /**
   * Type of the connection, which indicates the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#strategy Connection#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#strategy Connection#strategy}
   */
   readonly strategy: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#authentication Connection#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#authentication Connection#authentication}
   */
   readonly authentication?: ConnectionAuthentication;
   /**
   * connected_accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#connected_accounts Connection#connected_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#connected_accounts Connection#connected_accounts}
   */
   readonly connectedAccounts?: ConnectionConnectedAccounts;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#options Connection#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#options Connection#options}
   */
   readonly options?: ConnectionOptions;
 }
 export interface ConnectionAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#active Connection#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#active Connection#active}
   */
   readonly active: boolean | cdktf.IResolvable;
 }
@@ -158,7 +158,7 @@ export class ConnectionAuthenticationOutputReference extends cdktf.ComplexObject
 }
 export interface ConnectionConnectedAccounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#active Connection#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#active Connection#active}
   */
   readonly active: boolean | cdktf.IResolvable;
 }
@@ -241,19 +241,19 @@ export interface ConnectionOptionsAttributeMap {
   /**
   * This property is an object containing mapping information that allows Auth0 to interpret incoming claims from the IdP. Mapping information must be provided as key/value pairs. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#attributes Connection#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#attributes Connection#attributes}
   */
   readonly attributes?: string;
   /**
   * Method used to map incoming claims. Possible values: `use_map` (Okta or OIDC), `bind_all` (OIDC) or `basic_profile` (Okta).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#mapping_mode Connection#mapping_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#mapping_mode Connection#mapping_mode}
   */
   readonly mappingMode: string;
   /**
   * This property defines the scopes that Auth0 sends to the IdP’s UserInfo endpoint when requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#userinfo_scope Connection#userinfo_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#userinfo_scope Connection#userinfo_scope}
   */
   readonly userinfoScope?: string;
 }
@@ -394,7 +394,7 @@ export interface ConnectionOptionsAttributesEmailIdentifier {
   /**
   * Defines whether email attribute is active as an identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#active Connection#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#active Connection#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -512,7 +512,7 @@ export interface ConnectionOptionsAttributesEmailSignupVerification {
   /**
   * Defines verification settings for signup attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#active Connection#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#active Connection#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -630,13 +630,13 @@ export interface ConnectionOptionsAttributesEmailSignup {
   /**
   * Defines signup status for Email Attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#status Connection#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#status Connection#status}
   */
   readonly status?: string;
   /**
   * verification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#verification Connection#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#verification Connection#verification}
   */
   readonly verification?: ConnectionOptionsAttributesEmailSignupVerification[] | cdktf.IResolvable;
 }
@@ -783,31 +783,31 @@ export interface ConnectionOptionsAttributesEmail {
   /**
   * Defines whether Profile is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#profile_required Connection#profile_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#profile_required Connection#profile_required}
   */
   readonly profileRequired?: boolean | cdktf.IResolvable;
   /**
   * If set to false, it allow multiple accounts with the same email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#unique Connection#unique}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#unique Connection#unique}
   */
   readonly unique?: boolean | cdktf.IResolvable;
   /**
   * Defines whether whether user will receive a link or an OTP during user signup for email verification and password reset for email verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#verification_method Connection#verification_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#verification_method Connection#verification_method}
   */
   readonly verificationMethod?: string;
   /**
   * identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#identifier Connection#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#identifier Connection#identifier}
   */
   readonly identifier?: ConnectionOptionsAttributesEmailIdentifier[] | cdktf.IResolvable;
   /**
   * signup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#signup Connection#signup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#signup Connection#signup}
   */
   readonly signup?: ConnectionOptionsAttributesEmailSignup[] | cdktf.IResolvable;
 }
@@ -1041,7 +1041,7 @@ export interface ConnectionOptionsAttributesPhoneNumberIdentifier {
   /**
   * Defines whether Phone Number attribute is active as an identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#active Connection#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#active Connection#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -1159,7 +1159,7 @@ export interface ConnectionOptionsAttributesPhoneNumberSignupVerification {
   /**
   * Defines verification settings for Phone Number attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#active Connection#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#active Connection#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -1277,13 +1277,13 @@ export interface ConnectionOptionsAttributesPhoneNumberSignup {
   /**
   * Defines status of signup for Phone Number attribute 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#status Connection#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#status Connection#status}
   */
   readonly status?: string;
   /**
   * verification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#verification Connection#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#verification Connection#verification}
   */
   readonly verification?: ConnectionOptionsAttributesPhoneNumberSignupVerification[] | cdktf.IResolvable;
 }
@@ -1430,19 +1430,19 @@ export interface ConnectionOptionsAttributesPhoneNumber {
   /**
   * Defines whether Profile is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#profile_required Connection#profile_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#profile_required Connection#profile_required}
   */
   readonly profileRequired?: boolean | cdktf.IResolvable;
   /**
   * identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#identifier Connection#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#identifier Connection#identifier}
   */
   readonly identifier?: ConnectionOptionsAttributesPhoneNumberIdentifier[] | cdktf.IResolvable;
   /**
   * signup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#signup Connection#signup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#signup Connection#signup}
   */
   readonly signup?: ConnectionOptionsAttributesPhoneNumberSignup[] | cdktf.IResolvable;
 }
@@ -1618,7 +1618,7 @@ export interface ConnectionOptionsAttributesUsernameIdentifier {
   /**
   * Defines whether UserName attribute is active as an identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#active Connection#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#active Connection#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
 }
@@ -1736,7 +1736,7 @@ export interface ConnectionOptionsAttributesUsernameSignup {
   /**
   * Defines whether User Name attribute is active as an identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#status Connection#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#status Connection#status}
   */
   readonly status?: string;
 }
@@ -1854,13 +1854,13 @@ export interface ConnectionOptionsAttributesUsernameValidationAllowedTypes {
   /**
   * One of the allowed types for UserName signup attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#email Connection#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#email Connection#email}
   */
   readonly email?: boolean | cdktf.IResolvable;
   /**
   * One of the allowed types for UserName signup attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#phone_number Connection#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#phone_number Connection#phone_number}
   */
   readonly phoneNumber?: boolean | cdktf.IResolvable;
 }
@@ -2007,19 +2007,19 @@ export interface ConnectionOptionsAttributesUsernameValidation {
   /**
   * Defines Max Length for User Name attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#max_length Connection#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#max_length Connection#max_length}
   */
   readonly maxLength?: number;
   /**
   * Defines Min Length for User Name attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#min_length Connection#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#min_length Connection#min_length}
   */
   readonly minLength?: number;
   /**
   * allowed_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#allowed_types Connection#allowed_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#allowed_types Connection#allowed_types}
   */
   readonly allowedTypes?: ConnectionOptionsAttributesUsernameValidationAllowedTypes[] | cdktf.IResolvable;
 }
@@ -2195,25 +2195,25 @@ export interface ConnectionOptionsAttributesUsername {
   /**
   * Defines whether Profile is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#profile_required Connection#profile_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#profile_required Connection#profile_required}
   */
   readonly profileRequired?: boolean | cdktf.IResolvable;
   /**
   * identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#identifier Connection#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#identifier Connection#identifier}
   */
   readonly identifier?: ConnectionOptionsAttributesUsernameIdentifier[] | cdktf.IResolvable;
   /**
   * signup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#signup Connection#signup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#signup Connection#signup}
   */
   readonly signup?: ConnectionOptionsAttributesUsernameSignup[] | cdktf.IResolvable;
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#validation Connection#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#validation Connection#validation}
   */
   readonly validation?: ConnectionOptionsAttributesUsernameValidation[] | cdktf.IResolvable;
 }
@@ -2418,19 +2418,19 @@ export interface ConnectionOptionsAttributes {
   /**
   * email block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#email Connection#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#email Connection#email}
   */
   readonly email?: ConnectionOptionsAttributesEmail[] | cdktf.IResolvable;
   /**
   * phone_number block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#phone_number Connection#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#phone_number Connection#phone_number}
   */
   readonly phoneNumber?: ConnectionOptionsAttributesPhoneNumber[] | cdktf.IResolvable;
   /**
   * username block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#username Connection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#username Connection#username}
   */
   readonly username?: ConnectionOptionsAttributesUsername[] | cdktf.IResolvable;
 }
@@ -2606,7 +2606,7 @@ export interface ConnectionOptionsAuthenticationMethodsPasskey {
   /**
   * Enables passkey authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#enabled Connection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#enabled Connection#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2692,7 +2692,7 @@ export interface ConnectionOptionsAuthenticationMethodsPassword {
   /**
   * Enables password authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#enabled Connection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#enabled Connection#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2778,13 +2778,13 @@ export interface ConnectionOptionsAuthenticationMethods {
   /**
   * passkey block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#passkey Connection#passkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#passkey Connection#passkey}
   */
   readonly passkey?: ConnectionOptionsAuthenticationMethodsPasskey;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#password Connection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#password Connection#password}
   */
   readonly password?: ConnectionOptionsAuthenticationMethodsPassword;
 }
@@ -2931,7 +2931,7 @@ export interface ConnectionOptionsConnectionSettings {
   /**
   * PKCE configuration. Possible values: `auto` (uses the strongest algorithm available), `S256` (uses the SHA-256 algorithm), `plain` (uses plaintext as described in the PKCE specification) or `disabled` (disables support for PKCE).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#pkce Connection#pkce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#pkce Connection#pkce}
   */
   readonly pkce: string;
 }
@@ -3012,11 +3012,11 @@ export class ConnectionOptionsConnectionSettingsOutputReference extends cdktf.Co
 }
 export interface ConnectionOptionsCustomHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#header Connection#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#header Connection#header}
   */
   readonly header: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#value Connection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#value Connection#value}
   */
   readonly value: string;
 }
@@ -3155,11 +3155,11 @@ export class ConnectionOptionsCustomHeadersList extends cdktf.ComplexList {
 }
 export interface ConnectionOptionsDecryptionKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#cert Connection#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#cert Connection#cert}
   */
   readonly cert: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#key Connection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#key Connection#key}
   */
   readonly key: string;
 }
@@ -3268,31 +3268,31 @@ export interface ConnectionOptionsGatewayAuthentication {
   /**
   * Audience claim for the HS256 token sent to `gateway_url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#audience Connection#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#audience Connection#audience}
   */
   readonly audience?: string;
   /**
   * Authentication method (default is `bearer` token).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#method Connection#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#method Connection#method}
   */
   readonly method?: string;
   /**
   * Secret used to sign the HS256 token sent to `gateway_url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#secret Connection#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#secret Connection#secret}
   */
   readonly secret?: string;
   /**
   * Specifies whether or not the secret is Base64-encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#secret_base64_encoded Connection#secret_base64_encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#secret_base64_encoded Connection#secret_base64_encoded}
   */
   readonly secretBase64Encoded?: boolean | cdktf.IResolvable;
   /**
   * Subject claim for the HS256 token sent to `gateway_url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#subject Connection#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#subject Connection#subject}
   */
   readonly subject?: string;
 }
@@ -3492,19 +3492,19 @@ export class ConnectionOptionsGatewayAuthenticationOutputReference extends cdktf
 }
 export interface ConnectionOptionsIdpInitiated {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#client_authorize_query Connection#client_authorize_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#client_authorize_query Connection#client_authorize_query}
   */
   readonly clientAuthorizeQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#client_id Connection#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#client_id Connection#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#client_protocol Connection#client_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#client_protocol Connection#client_protocol}
   */
   readonly clientProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#enabled Connection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#enabled Connection#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3677,13 +3677,13 @@ export interface ConnectionOptionsMfa {
   /**
   * Indicates whether multifactor authentication is enabled for this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#active Connection#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#active Connection#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether multifactor authentication enrollment settings will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#return_enroll_settings Connection#return_enroll_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#return_enroll_settings Connection#return_enroll_settings}
   */
   readonly returnEnrollSettings?: boolean | cdktf.IResolvable;
 }
@@ -3798,19 +3798,19 @@ export interface ConnectionOptionsPasskeyOptions {
   /**
   * Controls the UI used to challenge the user for their passkey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#challenge_ui Connection#challenge_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#challenge_ui Connection#challenge_ui}
   */
   readonly challengeUi?: string;
   /**
   * Enables or disables enrollment prompt for local passkey when user authenticates using a cross-device passkey for the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#local_enrollment_enabled Connection#local_enrollment_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#local_enrollment_enabled Connection#local_enrollment_enabled}
   */
   readonly localEnrollmentEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables progressive enrollment of passkeys for the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#progressive_enrollment_enabled Connection#progressive_enrollment_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#progressive_enrollment_enabled Connection#progressive_enrollment_enabled}
   */
   readonly progressiveEnrollmentEnabled?: boolean | cdktf.IResolvable;
 }
@@ -3954,7 +3954,7 @@ export interface ConnectionOptionsPasswordComplexityOptions {
   /**
   * Minimum number of characters allowed in passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#min_length Connection#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#min_length Connection#min_length}
   */
   readonly minLength?: number;
 }
@@ -4040,13 +4040,13 @@ export interface ConnectionOptionsPasswordDictionary {
   /**
   * Customized contents of the password dictionary. By default, the password dictionary contains a list of the [10,000 most common passwords](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10k-most-common.txt); your customized content is used in addition to the default password dictionary. Matching is not case-sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#dictionary Connection#dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#dictionary Connection#dictionary}
   */
   readonly dictionary?: string[];
   /**
   * Indicates whether the password dictionary check is enabled for this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#enable Connection#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#enable Connection#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -4159,11 +4159,11 @@ export class ConnectionOptionsPasswordDictionaryOutputReference extends cdktf.Co
 }
 export interface ConnectionOptionsPasswordHistory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#enable Connection#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#enable Connection#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#size Connection#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#size Connection#size}
   */
   readonly size?: number;
 }
@@ -4308,7 +4308,7 @@ export class ConnectionOptionsPasswordHistoryList extends cdktf.ComplexList {
 }
 export interface ConnectionOptionsPasswordNoPersonalInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#enable Connection#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#enable Connection#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -4392,11 +4392,11 @@ export class ConnectionOptionsPasswordNoPersonalInfoOutputReference extends cdkt
 }
 export interface ConnectionOptionsSigningKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#cert Connection#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#cert Connection#cert}
   */
   readonly cert: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#key Connection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#key Connection#key}
   */
   readonly key: string;
 }
@@ -4505,13 +4505,13 @@ export interface ConnectionOptionsTotp {
   /**
   * Length of the one-time password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#length Connection#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#length Connection#length}
   */
   readonly length?: number;
   /**
   * Seconds between allowed generation of new passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#time_step Connection#time_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#time_step Connection#time_step}
   */
   readonly timeStep?: number;
 }
@@ -4624,11 +4624,11 @@ export class ConnectionOptionsTotpOutputReference extends cdktf.ComplexObject {
 }
 export interface ConnectionOptionsValidationUsername {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#max Connection#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#max Connection#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#min Connection#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#min Connection#min}
   */
   readonly min?: number;
 }
@@ -4743,7 +4743,7 @@ export interface ConnectionOptionsValidation {
   /**
   * username block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#username Connection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#username Connection#username}
   */
   readonly username?: ConnectionOptionsValidationUsername;
 }
@@ -4829,643 +4829,643 @@ export interface ConnectionOptions {
   /**
   * URL used to exchange a user-authorized request token for an access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#access_token_url Connection#access_token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#access_token_url Connection#access_token_url}
   */
   readonly accessTokenUrl?: string;
   /**
   * ADFS URL where to fetch the metadata source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#adfs_server Connection#adfs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#adfs_server Connection#adfs_server}
   */
   readonly adfsServer?: string;
   /**
   * List of allowed audiences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#allowed_audiences Connection#allowed_audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#allowed_audiences Connection#allowed_audiences}
   */
   readonly allowedAudiences?: string[];
   /**
   * Enable API Access to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#api_enable_users Connection#api_enable_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#api_enable_users Connection#api_enable_users}
   */
   readonly apiEnableUsers?: boolean | cdktf.IResolvable;
   /**
   * App ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#app_id Connection#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#app_id Connection#app_id}
   */
   readonly appId?: string;
   /**
   * Query string parameters to be included as part of the generated passwordless email link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#auth_params Connection#auth_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#auth_params Connection#auth_params}
   */
   readonly authParams?: { [key: string]: string };
   /**
   * Authorization endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#authorization_endpoint Connection#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#authorization_endpoint Connection#authorization_endpoint}
   */
   readonly authorizationEndpoint?: string;
   /**
   * Indicates whether to enable brute force protection, which will limit the number of signups and failed logins from a suspicious IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#brute_force_protection Connection#brute_force_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#brute_force_protection Connection#brute_force_protection}
   */
   readonly bruteForceProtection?: boolean | cdktf.IResolvable;
   /**
   * The strategy's client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#client_id Connection#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#client_id Connection#client_id}
   */
   readonly clientId?: string;
   /**
   * The strategy's client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#client_secret Connection#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#client_secret Connection#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Salesforce community base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#community_base_url Connection#community_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#community_base_url Connection#community_base_url}
   */
   readonly communityBaseUrl?: string;
   /**
   * A case-sensitive map of key value pairs used as configuration variables for the `custom_script`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#configuration Connection#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#configuration Connection#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * Identifies the client to the service provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#consumer_key Connection#consumer_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#consumer_key Connection#consumer_key}
   */
   readonly consumerKey?: string;
   /**
   * Secret used to establish ownership of the consumer key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#consumer_secret Connection#consumer_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#consumer_secret Connection#consumer_secret}
   */
   readonly consumerSecret?: string;
   /**
   * A map of scripts used to integrate with a custom database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#custom_scripts Connection#custom_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#custom_scripts Connection#custom_scripts}
   */
   readonly customScripts?: { [key: string]: string };
   /**
   * When enabled, additional debug information will be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#debug Connection#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#debug Connection#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Sign Request Algorithm Digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#digest_algorithm Connection#digest_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#digest_algorithm Connection#digest_algorithm}
   */
   readonly digestAlgorithm?: string;
   /**
   * Indicates whether to disable the cache or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#disable_cache Connection#disable_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#disable_cache Connection#disable_cache}
   */
   readonly disableCache?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to remove the forgot password link within the New Universal Login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#disable_self_service_change_password Connection#disable_self_service_change_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#disable_self_service_change_password Connection#disable_self_service_change_password}
   */
   readonly disableSelfServiceChangePassword?: boolean | cdktf.IResolvable;
   /**
   * When enabled, will disable sign out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#disable_sign_out Connection#disable_sign_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#disable_sign_out Connection#disable_sign_out}
   */
   readonly disableSignOut?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to allow user sign-ups to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#disable_signup Connection#disable_signup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#disable_signup Connection#disable_signup}
   */
   readonly disableSignup?: boolean | cdktf.IResolvable;
   /**
   * OpenID discovery URL, e.g. `https://auth.example.com/.well-known/openid-configuration`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#discovery_url Connection#discovery_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#discovery_url Connection#discovery_url}
   */
   readonly discoveryUrl?: string;
   /**
   * Domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#domain Connection#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#domain Connection#domain}
   */
   readonly domain?: string;
   /**
   * List of the domains that can be authenticated using the identity provider. Only needed for Identifier First authentication flows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#domain_aliases Connection#domain_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#domain_aliases Connection#domain_aliases}
   */
   readonly domainAliases?: string[];
   /**
   * Set to `true` to inject context into custom DB scripts (warning: cannot be disabled once enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#enable_script_context Connection#enable_script_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#enable_script_context Connection#enable_script_context}
   */
   readonly enableScriptContext?: boolean | cdktf.IResolvable;
   /**
   * Set to `true` to use a legacy user store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#enabled_database_customization Connection#enabled_database_customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#enabled_database_customization Connection#enabled_database_customization}
   */
   readonly enabledDatabaseCustomization?: boolean | cdktf.IResolvable;
   /**
   * Custom Entity ID for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#entity_id Connection#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#entity_id Connection#entity_id}
   */
   readonly entityId?: string;
   /**
   * Federation Metadata for the ADFS connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#fed_metadata_xml Connection#fed_metadata_xml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#fed_metadata_xml Connection#fed_metadata_xml}
   */
   readonly fedMetadataXml?: string;
   /**
   * If you're configuring a SAML enterprise connection for a non-standard PingFederate Server, you must update the attribute mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#fields_map Connection#fields_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#fields_map Connection#fields_map}
   */
   readonly fieldsMap?: string;
   /**
   * Specifies whether or not request info should be forwarded to sms gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#forward_request_info Connection#forward_request_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#forward_request_info Connection#forward_request_info}
   */
   readonly forwardRequestInfo?: boolean | cdktf.IResolvable;
   /**
   * Address to use as the sender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#from Connection#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#from Connection#from}
   */
   readonly from?: string;
   /**
   * Defines a custom sms gateway to use instead of Twilio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#gateway_url Connection#gateway_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#gateway_url Connection#gateway_url}
   */
   readonly gatewayUrl?: string;
   /**
   * Specifies the issuer of the JWT used for global token revocation for the SAML connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#global_token_revocation_jwt_iss Connection#global_token_revocation_jwt_iss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#global_token_revocation_jwt_iss Connection#global_token_revocation_jwt_iss}
   */
   readonly globalTokenRevocationJwtIss?: string;
   /**
   * Specifies the subject of the JWT used for global token revocation for the SAML connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#global_token_revocation_jwt_sub Connection#global_token_revocation_jwt_sub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#global_token_revocation_jwt_sub Connection#global_token_revocation_jwt_sub}
   */
   readonly globalTokenRevocationJwtSub?: string;
   /**
   * Icon URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#icon_url Connection#icon_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#icon_url Connection#icon_url}
   */
   readonly iconUrl?: string;
   /**
   * Azure AD Identity API. Available options are: `microsoft-identity-platform-v2.0` or `azure-active-directory-v1.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#identity_api Connection#identity_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#identity_api Connection#identity_api}
   */
   readonly identityApi?: string;
   /**
   * Indicates whether you have a legacy user store and want to gradually migrate those users to the Auth0 user store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#import_mode Connection#import_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#import_mode Connection#import_mode}
   */
   readonly importMode?: boolean | cdktf.IResolvable;
   /**
   * A list of IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#ips Connection#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#ips Connection#ips}
   */
   readonly ips?: string[];
   /**
   * Issuer URL, e.g. `https://auth.example.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#issuer Connection#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#issuer Connection#issuer}
   */
   readonly issuer?: string;
   /**
   * JWKS URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#jwks_uri Connection#jwks_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#jwks_uri Connection#jwks_uri}
   */
   readonly jwksUri?: string;
   /**
   * Apple Key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#key_id Connection#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#key_id Connection#key_id}
   */
   readonly keyId?: string;
   /**
   * By default Auth0 maps `user_id` to `email`. Enabling this setting changes the behavior to map `user_id` to 'id' instead. This can only be defined on a new Google Workspace connection and can not be changed once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#map_user_id_to_id Connection#map_user_id_to_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#map_user_id_to_id Connection#map_user_id_to_id}
   */
   readonly mapUserIdToId?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of groups to retrieve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#max_groups_to_retrieve Connection#max_groups_to_retrieve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#max_groups_to_retrieve Connection#max_groups_to_retrieve}
   */
   readonly maxGroupsToRetrieve?: string;
   /**
   * SID for Copilot. Used when SMS Source is Copilot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#messaging_service_sid Connection#messaging_service_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#messaging_service_sid Connection#messaging_service_sid}
   */
   readonly messagingServiceSid?: string;
   /**
   * The URL of the SAML metadata document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#metadata_url Connection#metadata_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#metadata_url Connection#metadata_url}
   */
   readonly metadataUrl?: string;
   /**
   * The XML content for the SAML metadata document. Values within the xml will take precedence over other attributes set on the options block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#metadata_xml Connection#metadata_xml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#metadata_xml Connection#metadata_xml}
   */
   readonly metadataXml?: string;
   /**
   * The public name of the email or SMS Connection. In most cases this is the same name as the connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#name Connection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#name Connection#name}
   */
   readonly name?: string;
   /**
   * If there are user fields that should not be stored in Auth0 databases due to privacy reasons, you can add them to the DenyList here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#non_persistent_attrs Connection#non_persistent_attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#non_persistent_attrs Connection#non_persistent_attrs}
   */
   readonly nonPersistentAttrs?: string[];
   /**
   * Indicates level of password strength to enforce during authentication. A strong password policy will make it difficult, if not improbable, for someone to guess a password through either manual or automated means. Options include `none`, `low`, `fair`, `good`, `excellent`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#password_policy Connection#password_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#password_policy Connection#password_policy}
   */
   readonly passwordPolicy?: string;
   /**
   * Ping Federate Server URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#ping_federate_base_url Connection#ping_federate_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#ping_federate_base_url Connection#ping_federate_base_url}
   */
   readonly pingFederateBaseUrl?: string;
   /**
   * Enables Proof Key for Code Exchange (PKCE) functionality for OAuth2 connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#pkce_enabled Connection#pkce_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#pkce_enabled Connection#pkce_enabled}
   */
   readonly pkceEnabled?: boolean | cdktf.IResolvable;
   /**
   * Order of attributes for precedence in identification.Valid values: email, phone_number, username. If Precedence is set, it must contain all values (email, phone_number, username) in specific order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#precedence Connection#precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#precedence Connection#precedence}
   */
   readonly precedence?: string[];
   /**
   * The SAML Response Binding: how the SAML token is received by Auth0 from the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#protocol_binding Connection#protocol_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#protocol_binding Connection#protocol_binding}
   */
   readonly protocolBinding?: string;
   /**
   * Defines the custom `sms_gateway` provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#provider Connection#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#provider Connection#provider}
   */
   readonly provider?: string;
   /**
   * Allows configuration if connections_realm_fallback flag is enabled for the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#realm_fallback Connection#realm_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#realm_fallback Connection#realm_fallback}
   */
   readonly realmFallback?: boolean | cdktf.IResolvable;
   /**
   * Template that formats the SAML request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#request_template Connection#request_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#request_template Connection#request_template}
   */
   readonly requestTemplate?: string;
   /**
   * URL used to obtain an unauthorized request token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#request_token_url Connection#request_token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#request_token_url Connection#request_token_url}
   */
   readonly requestTokenUrl?: string;
   /**
   * Indicates whether the user is required to provide a username in addition to an email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#requires_username Connection#requires_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#requires_username Connection#requires_username}
   */
   readonly requiresUsername?: boolean | cdktf.IResolvable;
   /**
   * Permissions to grant to the connection. Within the Auth0 dashboard these appear under the "Attributes" and "Extended Attributes" sections. Some examples: `basic_profile`, `ext_profile`, `ext_nested_groups`, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#scopes Connection#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#scopes Connection#scopes}
   */
   readonly scopes?: string[];
   /**
   * A map of scripts used for an OAuth connection. Only accepts a `fetchUserProfile` script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#scripts Connection#scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#scripts Connection#scripts}
   */
   readonly scripts?: { [key: string]: string };
   /**
   * Session Key for storing the request token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#session_key Connection#session_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#session_key Connection#session_key}
   */
   readonly sessionKey?: string;
   /**
   * Determines whether to sync user profile attributes (`name`, `given_name`, `family_name`, `nickname`, `picture`) at each login or only on the first login. Options include: `on_each_login`, `on_first_login`, `never_on_login`. Default value: `on_each_login`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#set_user_root_attributes Connection#set_user_root_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#set_user_root_attributes Connection#set_user_root_attributes}
   */
   readonly setUserRootAttributes?: string;
   /**
   * Choose how Auth0 sets the email_verified field in the user profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#should_trust_email_verified_connection Connection#should_trust_email_verified_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#should_trust_email_verified_connection Connection#should_trust_email_verified_connection}
   */
   readonly shouldTrustEmailVerifiedConnection?: string;
   /**
   * SAML single login URL for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#sign_in_endpoint Connection#sign_in_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#sign_in_endpoint Connection#sign_in_endpoint}
   */
   readonly signInEndpoint?: string;
   /**
   * SAML single logout URL for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#sign_out_endpoint Connection#sign_out_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#sign_out_endpoint Connection#sign_out_endpoint}
   */
   readonly signOutEndpoint?: string;
   /**
   * When enabled, the SAML authentication request will be signed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#sign_saml_request Connection#sign_saml_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#sign_saml_request Connection#sign_saml_request}
   */
   readonly signSamlRequest?: boolean | cdktf.IResolvable;
   /**
   * Sign Request Algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#signature_algorithm Connection#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#signature_algorithm Connection#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
   * Signature method used to sign the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#signature_method Connection#signature_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#signature_method Connection#signature_method}
   */
   readonly signatureMethod?: string;
   /**
   * X.509 signing certificate (encoded in PEM or CER) you retrieved from the IdP, Base64-encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#signing_cert Connection#signing_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#signing_cert Connection#signing_cert}
   */
   readonly signingCert?: string;
   /**
   * Version 1 is deprecated, use version 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#strategy_version Connection#strategy_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#strategy_version Connection#strategy_version}
   */
   readonly strategyVersion?: number;
   /**
   * Subject line of the email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#subject Connection#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#subject Connection#subject}
   */
   readonly subject?: string;
   /**
   * Syntax of the template body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#syntax Connection#syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#syntax Connection#syntax}
   */
   readonly syntax?: string;
   /**
   * Apple Team ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#team_id Connection#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#team_id Connection#team_id}
   */
   readonly teamId?: string;
   /**
   * Body of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#template Connection#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#template Connection#template}
   */
   readonly template?: string;
   /**
   * Tenant domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#tenant_domain Connection#tenant_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#tenant_domain Connection#tenant_domain}
   */
   readonly tenantDomain?: string;
   /**
   * Token endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#token_endpoint Connection#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#token_endpoint Connection#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * Specifies the authentication method for the token endpoint. (Okta/OIDC Connections)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#token_endpoint_auth_method Connection#token_endpoint_auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#token_endpoint_auth_method Connection#token_endpoint_auth_method}
   */
   readonly tokenEndpointAuthMethod?: string;
   /**
   * Specifies the signing algorithm for the token endpoint. (Okta/OIDC Connections)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#token_endpoint_auth_signing_alg Connection#token_endpoint_auth_signing_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#token_endpoint_auth_signing_alg Connection#token_endpoint_auth_signing_alg}
   */
   readonly tokenEndpointAuthSigningAlg?: string;
   /**
   * SID for your Twilio account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#twilio_sid Connection#twilio_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#twilio_sid Connection#twilio_sid}
   */
   readonly twilioSid?: string;
   /**
   * AuthToken for your Twilio account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#twilio_token Connection#twilio_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#twilio_token Connection#twilio_token}
   */
   readonly twilioToken?: string;
   /**
   * Value can be `back_channel` or `front_channel`. Front Channel will use OIDC protocol with `response_mode=form_post` and `response_type=id_token`. Back Channel will use `response_type=code`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#type Connection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#type Connection#type}
   */
   readonly type?: string;
   /**
   * You can pass provider-specific parameters to an identity provider during authentication. The values can either be static per connection or dynamic per user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#upstream_params Connection#upstream_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#upstream_params Connection#upstream_params}
   */
   readonly upstreamParams?: string;
   /**
   * Indicates whether to use cert auth or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#use_cert_auth Connection#use_cert_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#use_cert_auth Connection#use_cert_auth}
   */
   readonly useCertAuth?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to use Kerberos or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#use_kerberos Connection#use_kerberos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#use_kerberos Connection#use_kerberos}
   */
   readonly useKerberos?: boolean | cdktf.IResolvable;
   /**
   * Whether to use WS-Fed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#use_wsfed Connection#use_wsfed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#use_wsfed Connection#use_wsfed}
   */
   readonly useWsfed?: boolean | cdktf.IResolvable;
   /**
   * URL used to obtain user authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#user_authorization_url Connection#user_authorization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#user_authorization_url Connection#user_authorization_url}
   */
   readonly userAuthorizationUrl?: string;
   /**
   * Attribute in the token that will be mapped to the user_id property in Auth0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#user_id_attribute Connection#user_id_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#user_id_attribute Connection#user_id_attribute}
   */
   readonly userIdAttribute?: string;
   /**
   * User info endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#userinfo_endpoint Connection#userinfo_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#userinfo_endpoint Connection#userinfo_endpoint}
   */
   readonly userinfoEndpoint?: string;
   /**
   * Indicates whether to use the common endpoint rather than the default endpoint. Typically enabled if you're using this for a multi-tenant application in Azure AD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#waad_common_endpoint Connection#waad_common_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#waad_common_endpoint Connection#waad_common_endpoint}
   */
   readonly waadCommonEndpoint?: boolean | cdktf.IResolvable;
   /**
   * Protocol to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#waad_protocol Connection#waad_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#waad_protocol Connection#waad_protocol}
   */
   readonly waadProtocol?: string;
   /**
   * attribute_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#attribute_map Connection#attribute_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#attribute_map Connection#attribute_map}
   */
   readonly attributeMap?: ConnectionOptionsAttributeMap;
   /**
   * attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#attributes Connection#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#attributes Connection#attributes}
   */
   readonly attributes?: ConnectionOptionsAttributes[] | cdktf.IResolvable;
   /**
   * authentication_methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#authentication_methods Connection#authentication_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#authentication_methods Connection#authentication_methods}
   */
   readonly authenticationMethods?: ConnectionOptionsAuthenticationMethods[] | cdktf.IResolvable;
   /**
   * connection_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#connection_settings Connection#connection_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#connection_settings Connection#connection_settings}
   */
   readonly connectionSettings?: ConnectionOptionsConnectionSettings;
   /**
   * custom_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#custom_headers Connection#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#custom_headers Connection#custom_headers}
   */
   readonly customHeaders?: ConnectionOptionsCustomHeaders[] | cdktf.IResolvable;
   /**
   * decryption_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#decryption_key Connection#decryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#decryption_key Connection#decryption_key}
   */
   readonly decryptionKey?: ConnectionOptionsDecryptionKey;
   /**
   * gateway_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#gateway_authentication Connection#gateway_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#gateway_authentication Connection#gateway_authentication}
   */
   readonly gatewayAuthentication?: ConnectionOptionsGatewayAuthentication;
   /**
   * idp_initiated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#idp_initiated Connection#idp_initiated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#idp_initiated Connection#idp_initiated}
   */
   readonly idpInitiated?: ConnectionOptionsIdpInitiated;
   /**
   * mfa block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#mfa Connection#mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#mfa Connection#mfa}
   */
   readonly mfa?: ConnectionOptionsMfa;
   /**
   * passkey_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#passkey_options Connection#passkey_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#passkey_options Connection#passkey_options}
   */
   readonly passkeyOptions?: ConnectionOptionsPasskeyOptions;
   /**
   * password_complexity_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#password_complexity_options Connection#password_complexity_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#password_complexity_options Connection#password_complexity_options}
   */
   readonly passwordComplexityOptions?: ConnectionOptionsPasswordComplexityOptions;
   /**
   * password_dictionary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#password_dictionary Connection#password_dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#password_dictionary Connection#password_dictionary}
   */
   readonly passwordDictionary?: ConnectionOptionsPasswordDictionary;
   /**
   * password_history block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#password_history Connection#password_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#password_history Connection#password_history}
   */
   readonly passwordHistory?: ConnectionOptionsPasswordHistory[] | cdktf.IResolvable;
   /**
   * password_no_personal_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#password_no_personal_info Connection#password_no_personal_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#password_no_personal_info Connection#password_no_personal_info}
   */
   readonly passwordNoPersonalInfo?: ConnectionOptionsPasswordNoPersonalInfo;
   /**
   * signing_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#signing_key Connection#signing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#signing_key Connection#signing_key}
   */
   readonly signingKey?: ConnectionOptionsSigningKey;
   /**
   * totp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#totp Connection#totp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#totp Connection#totp}
   */
   readonly totp?: ConnectionOptionsTotp;
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#validation Connection#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#validation Connection#validation}
   */
   readonly validation?: ConnectionOptionsValidation;
 }
@@ -8623,7 +8623,7 @@ export class ConnectionOptionsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection auth0_connection}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection auth0_connection}
 */
 export class Connection extends cdktf.TerraformResource {
 
@@ -8639,7 +8639,7 @@ export class Connection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Connection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Connection to import
-  * @param importFromId The id of the existing Connection that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Connection that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Connection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8651,7 +8651,7 @@ export class Connection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection auth0_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection auth0_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8662,8 +8662,8 @@ export class Connection extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_connection',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface VpnaasIpsecPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The authentication hash algorithm. Valid values are sha1, sha256, sha384, sha512. Default is sha1. Changing this updates the algorithm of the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#auth_algorithm VpnaasIpsecPolicy#auth_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#auth_algorithm VpnaasIpsecPolicy#auth_algorithm}
   */
   readonly authAlgorithm?: string;
   /**
   * The human-readable description for the policy. Changing this updates the description of the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#description VpnaasIpsecPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#description VpnaasIpsecPolicy#description}
   */
   readonly description?: string;
   /**
   * The encapsulation mode. Valid values are tunnel and transport. Default is tunnel. Changing this updates the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#encapsulation_mode VpnaasIpsecPolicy#encapsulation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#encapsulation_mode VpnaasIpsecPolicy#encapsulation_mode}
   */
   readonly encapsulationMode?: string;
   /**
   * The encryption algorithm. Valid values are 3des, aes-128, aes-192 and so on. The default value is aes-128. Changing this updates the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#encryption_algorithm VpnaasIpsecPolicy#encryption_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#encryption_algorithm VpnaasIpsecPolicy#encryption_algorithm}
   */
   readonly encryptionAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#id VpnaasIpsecPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#id VpnaasIpsecPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface VpnaasIpsecPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the policy. Changing this updates the name of the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#name VpnaasIpsecPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#name VpnaasIpsecPolicy#name}
   */
   readonly name?: string;
   /**
   * The perfect forward secrecy mode. Valid values are Group2, Group5 and Group14. Default is Group5. Changing this updates the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#pfs VpnaasIpsecPolicy#pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#pfs VpnaasIpsecPolicy#pfs}
   */
   readonly pfs?: string;
   /**
   * The region in which to obtain the Networking client. A Networking client is needed to create an IPSec policy. If omitted, the `region` argument of the provider is used. Changing this creates a new policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#region VpnaasIpsecPolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#region VpnaasIpsecPolicy#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN._new_since_v0.5.3_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#sdn VpnaasIpsecPolicy#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#sdn VpnaasIpsecPolicy#sdn}
   */
   readonly sdn?: string;
   /**
   * The transform protocol. Valid values are ESP, AH and AH-ESP. Changing this updates the existing policy. Default is ESP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#transform_protocol VpnaasIpsecPolicy#transform_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#transform_protocol VpnaasIpsecPolicy#transform_protocol}
   */
   readonly transformProtocol?: string;
   /**
   * lifetime block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#lifetime VpnaasIpsecPolicy#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#lifetime VpnaasIpsecPolicy#lifetime}
   */
   readonly lifetime?: VpnaasIpsecPolicyLifetime[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#timeouts VpnaasIpsecPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#timeouts VpnaasIpsecPolicy#timeouts}
   */
   readonly timeouts?: VpnaasIpsecPolicyTimeouts;
 }
@@ -85,13 +85,13 @@ export interface VpnaasIpsecPolicyLifetime {
   /**
   * The units for the lifetime of the security association. Can be either seconds or kilobytes. Default is seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#units VpnaasIpsecPolicy#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#units VpnaasIpsecPolicy#units}
   */
   readonly units?: string;
   /**
   * The value for the lifetime of the security association. Must be a positive integer. Default is 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#value VpnaasIpsecPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#value VpnaasIpsecPolicy#value}
   */
   readonly value?: number;
 }
@@ -236,7 +236,7 @@ export class VpnaasIpsecPolicyLifetimeList extends cdktf.ComplexList {
 }
 export interface VpnaasIpsecPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#create VpnaasIpsecPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#create VpnaasIpsecPolicy#create}
   */
   readonly create?: string;
 }
@@ -330,7 +330,7 @@ export class VpnaasIpsecPolicyTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy vkcs_vpnaas_ipsec_policy}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy vkcs_vpnaas_ipsec_policy}
 */
 export class VpnaasIpsecPolicy extends cdktf.TerraformResource {
 
@@ -346,7 +346,7 @@ export class VpnaasIpsecPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnaasIpsecPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnaasIpsecPolicy to import
-  * @param importFromId The id of the existing VpnaasIpsecPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnaasIpsecPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnaasIpsecPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -358,7 +358,7 @@ export class VpnaasIpsecPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ipsec_policy vkcs_vpnaas_ipsec_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_ipsec_policy vkcs_vpnaas_ipsec_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,8 +369,8 @@ export class VpnaasIpsecPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_vpnaas_ipsec_policy',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

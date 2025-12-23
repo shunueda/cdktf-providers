@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs
+// https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface TimescaleProviderConfig {
   /**
   * Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs#access_key TimescaleProvider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs#access_key TimescaleProvider#access_key}
   */
   readonly accessKey?: string;
   /**
   * Access Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs#access_token TimescaleProvider#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs#access_token TimescaleProvider#access_token}
   */
   readonly accessToken?: string;
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs#project_id TimescaleProvider#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs#project_id TimescaleProvider#project_id}
   */
   readonly projectId: string;
   /**
   * Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs#secret_key TimescaleProvider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs#secret_key TimescaleProvider#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs#alias TimescaleProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs#alias TimescaleProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs timescale}
+* Represents a {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs timescale}
 */
 export class TimescaleProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class TimescaleProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a TimescaleProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TimescaleProvider to import
-  * @param importFromId The id of the existing TimescaleProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TimescaleProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TimescaleProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class TimescaleProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs timescale} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs timescale} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class TimescaleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'timescale',
       terraformGeneratorMetadata: {
         providerName: 'timescale',
-        providerVersion: '2.6.0',
-        providerVersionConstraint: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       terraformProviderSource: 'timescale/timescale'
     });

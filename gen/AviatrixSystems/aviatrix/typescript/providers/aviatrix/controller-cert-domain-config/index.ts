@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_cert_domain_config
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_cert_domain_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ControllerCertDomainConfigConfig extends cdktf.TerraformMetaArg
   /**
   * Domain name that is used in FQDN for generating cert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_cert_domain_config#cert_domain ControllerCertDomainConfig#cert_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_cert_domain_config#cert_domain ControllerCertDomainConfig#cert_domain}
   */
   readonly certDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_cert_domain_config#id ControllerCertDomainConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_cert_domain_config#id ControllerCertDomainConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface ControllerCertDomainConfigConfig extends cdktf.TerraformMetaArg
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_cert_domain_config aviatrix_controller_cert_domain_config}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_cert_domain_config aviatrix_controller_cert_domain_config}
 */
 export class ControllerCertDomainConfig extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class ControllerCertDomainConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ControllerCertDomainConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ControllerCertDomainConfig to import
-  * @param importFromId The id of the existing ControllerCertDomainConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_cert_domain_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ControllerCertDomainConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_cert_domain_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ControllerCertDomainConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class ControllerCertDomainConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_cert_domain_config aviatrix_controller_cert_domain_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_cert_domain_config aviatrix_controller_cert_domain_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class ControllerCertDomainConfig extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_controller_cert_domain_config',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

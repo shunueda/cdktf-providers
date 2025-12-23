@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,107 +10,107 @@ export interface EdgeEquinixConfig extends cdktf.TerraformMetaArguments {
   /**
   * Edge Equinix account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#account_name EdgeEquinix#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#account_name EdgeEquinix#account_name}
   */
   readonly accountName: string;
   /**
   * Approved learned CIDRs for BGP Spoke Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#approved_learned_cidrs EdgeEquinix#approved_learned_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#approved_learned_cidrs EdgeEquinix#approved_learned_cidrs}
   */
   readonly approvedLearnedCidrs?: string[];
   /**
   * BGP route polling time for BGP spoke gateway in seconds. Valid values are between 12 and 360.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#bgp_hold_time EdgeEquinix#bgp_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#bgp_hold_time EdgeEquinix#bgp_hold_time}
   */
   readonly bgpHoldTime?: number;
   /**
   * BGP neighbor status polling time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 1 and 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#bgp_neighbor_status_polling_time EdgeEquinix#bgp_neighbor_status_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#bgp_neighbor_status_polling_time EdgeEquinix#bgp_neighbor_status_polling_time}
   */
   readonly bgpNeighborStatusPollingTime?: number;
   /**
   * BGP route polling time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 10 and 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#bgp_polling_time EdgeEquinix#bgp_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#bgp_polling_time EdgeEquinix#bgp_polling_time}
   */
   readonly bgpPollingTime?: number;
   /**
   * DNS profile to be associated with gateway, select an existing template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#dns_profile_name EdgeEquinix#dns_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#dns_profile_name EdgeEquinix#dns_profile_name}
   */
   readonly dnsProfileName?: string;
   /**
   * DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#dns_server_ip EdgeEquinix#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#dns_server_ip EdgeEquinix#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable auto advertise LAN CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#enable_auto_advertise_lan_cidrs EdgeEquinix#enable_auto_advertise_lan_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#enable_auto_advertise_lan_cidrs EdgeEquinix#enable_auto_advertise_lan_cidrs}
   */
   readonly enableAutoAdvertiseLanCidrs?: boolean | cdktf.IResolvable;
   /**
   * Enables Edge Active-Standby Mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#enable_edge_active_standby EdgeEquinix#enable_edge_active_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#enable_edge_active_standby EdgeEquinix#enable_edge_active_standby}
   */
   readonly enableEdgeActiveStandby?: boolean | cdktf.IResolvable;
   /**
   * Enables Preemptive Mode for Edge Active-Standby, available only with Active-Standby enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#enable_edge_active_standby_preemptive EdgeEquinix#enable_edge_active_standby_preemptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#enable_edge_active_standby_preemptive EdgeEquinix#enable_edge_active_standby_preemptive}
   */
   readonly enableEdgeActiveStandbyPreemptive?: boolean | cdktf.IResolvable;
   /**
   * Enable Edge transitive routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#enable_edge_transitive_routing EdgeEquinix#enable_edge_transitive_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#enable_edge_transitive_routing EdgeEquinix#enable_edge_transitive_routing}
   */
   readonly enableEdgeTransitiveRouting?: boolean | cdktf.IResolvable;
   /**
   * Enable jumbo frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#enable_jumbo_frame EdgeEquinix#enable_jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#enable_jumbo_frame EdgeEquinix#enable_jumbo_frame}
   */
   readonly enableJumboFrame?: boolean | cdktf.IResolvable;
   /**
   * Switch to enable/disable learned CIDR approval for BGP Spoke Gateway. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#enable_learned_cidrs_approval EdgeEquinix#enable_learned_cidrs_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#enable_learned_cidrs_approval EdgeEquinix#enable_learned_cidrs_approval}
   */
   readonly enableLearnedCidrsApproval?: boolean | cdktf.IResolvable;
   /**
   * Enable management over private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#enable_management_over_private_network EdgeEquinix#enable_management_over_private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#enable_management_over_private_network EdgeEquinix#enable_management_over_private_network}
   */
   readonly enableManagementOverPrivateNetwork?: boolean | cdktf.IResolvable;
   /**
   * Enable preserve as path when advertising manual summary CIDRs on BGP spoke gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#enable_preserve_as_path EdgeEquinix#enable_preserve_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#enable_preserve_as_path EdgeEquinix#enable_preserve_as_path}
   */
   readonly enablePreserveAsPath?: boolean | cdktf.IResolvable;
   /**
   * Enable Single IP SNAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#enable_single_ip_snat EdgeEquinix#enable_single_ip_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#enable_single_ip_snat EdgeEquinix#enable_single_ip_snat}
   */
   readonly enableSingleIpSnat?: boolean | cdktf.IResolvable;
   /**
   * Edge Equinix name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#gw_name EdgeEquinix#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#gw_name EdgeEquinix#gw_name}
   */
   readonly gwName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#id EdgeEquinix#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#id EdgeEquinix#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,79 +119,79 @@ export interface EdgeEquinixConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of CIDRs to be advertised to on-prem as 'Included CIDR List'. When configured, it will replace all advertised routes from this VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#included_advertised_spoke_routes EdgeEquinix#included_advertised_spoke_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#included_advertised_spoke_routes EdgeEquinix#included_advertised_spoke_routes}
   */
   readonly includedAdvertisedSpokeRoutes?: string[];
   /**
   * The latitude of the Edge as a Spoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#latitude EdgeEquinix#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#latitude EdgeEquinix#latitude}
   */
   readonly latitude?: string;
   /**
   * Local AS number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#local_as_number EdgeEquinix#local_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#local_as_number EdgeEquinix#local_as_number}
   */
   readonly localAsNumber?: string;
   /**
   * The longitude of the Edge as a Spoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#longitude EdgeEquinix#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#longitude EdgeEquinix#longitude}
   */
   readonly longitude?: string;
   /**
   * Set of management egress gateway IP/prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#management_egress_ip_prefix_list EdgeEquinix#management_egress_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#management_egress_ip_prefix_list EdgeEquinix#management_egress_ip_prefix_list}
   */
   readonly managementEgressIpPrefixList?: string[];
   /**
   * List of AS numbers to prepend gateway BGP AS_Path field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#prepend_as_path EdgeEquinix#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#prepend_as_path EdgeEquinix#prepend_as_path}
   */
   readonly prependAsPath?: string[];
   /**
   * Ethernet interface RX queue size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#rx_queue_size EdgeEquinix#rx_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#rx_queue_size EdgeEquinix#rx_queue_size}
   */
   readonly rxQueueSize?: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#secondary_dns_server_ip EdgeEquinix#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#secondary_dns_server_ip EdgeEquinix#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#site_id EdgeEquinix#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#site_id EdgeEquinix#site_id}
   */
   readonly siteId: string;
   /**
   * Intended CIDR list to be advertised to external BGP router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#spoke_bgp_manual_advertise_cidrs EdgeEquinix#spoke_bgp_manual_advertise_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#spoke_bgp_manual_advertise_cidrs EdgeEquinix#spoke_bgp_manual_advertise_cidrs}
   */
   readonly spokeBgpManualAdvertiseCidrs?: string[];
   /**
   * The location where the ZTP file will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#ztp_file_download_path EdgeEquinix#ztp_file_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#ztp_file_download_path EdgeEquinix#ztp_file_download_path}
   */
   readonly ztpFileDownloadPath: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#interfaces EdgeEquinix#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#interfaces EdgeEquinix#interfaces}
   */
   readonly interfaces: EdgeEquinixInterfaces[] | cdktf.IResolvable;
   /**
   * vlan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#vlan EdgeEquinix#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#vlan EdgeEquinix#vlan}
   */
   readonly vlan?: EdgeEquinixVlan[] | cdktf.IResolvable;
 }
@@ -199,73 +199,73 @@ export interface EdgeEquinixInterfaces {
   /**
   * The rate of data can be moved through the interface, requires an integer value. Unit is in Mb/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#bandwidth EdgeEquinix#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#bandwidth EdgeEquinix#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Primary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#dns_server_ip EdgeEquinix#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#dns_server_ip EdgeEquinix#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#enable_dhcp EdgeEquinix#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#enable_dhcp EdgeEquinix#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * Enable VRRP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#enable_vrrp EdgeEquinix#enable_vrrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#enable_vrrp EdgeEquinix#enable_vrrp}
   */
   readonly enableVrrp?: boolean | cdktf.IResolvable;
   /**
   * Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#gateway_ip EdgeEquinix#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#gateway_ip EdgeEquinix#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Interface static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#ip_address EdgeEquinix#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#ip_address EdgeEquinix#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#name EdgeEquinix#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#name EdgeEquinix#name}
   */
   readonly name: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#secondary_dns_server_ip EdgeEquinix#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#secondary_dns_server_ip EdgeEquinix#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#tag EdgeEquinix#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#tag EdgeEquinix#tag}
   */
   readonly tag?: string;
   /**
   * Interface type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#type EdgeEquinix#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#type EdgeEquinix#type}
   */
   readonly type: string;
   /**
   * VRRP virtual IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#vrrp_virtual_ip EdgeEquinix#vrrp_virtual_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#vrrp_virtual_ip EdgeEquinix#vrrp_virtual_ip}
   */
   readonly vrrpVirtualIp?: string;
   /**
   * WAN interface public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#wan_public_ip EdgeEquinix#wan_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#wan_public_ip EdgeEquinix#wan_public_ip}
   */
   readonly wanPublicIp?: string;
 }
@@ -696,49 +696,49 @@ export interface EdgeEquinixVlan {
   /**
   * LAN sub-interface gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#gateway_ip EdgeEquinix#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#gateway_ip EdgeEquinix#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * LAN sub-interface IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#ip_address EdgeEquinix#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#ip_address EdgeEquinix#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Parent interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#parent_interface_name EdgeEquinix#parent_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#parent_interface_name EdgeEquinix#parent_interface_name}
   */
   readonly parentInterfaceName: string;
   /**
   * LAN sub-interface gateway IP on HA gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#peer_gateway_ip EdgeEquinix#peer_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#peer_gateway_ip EdgeEquinix#peer_gateway_ip}
   */
   readonly peerGatewayIp?: string;
   /**
   * LAN sub-interface IP address on HA gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#peer_ip_address EdgeEquinix#peer_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#peer_ip_address EdgeEquinix#peer_ip_address}
   */
   readonly peerIpAddress?: string;
   /**
   * Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#tag EdgeEquinix#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#tag EdgeEquinix#tag}
   */
   readonly tag?: string;
   /**
   * VLAN ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#vlan_id EdgeEquinix#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#vlan_id EdgeEquinix#vlan_id}
   */
   readonly vlanId: number;
   /**
   * LAN sub-interface virtual IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#vrrp_virtual_ip EdgeEquinix#vrrp_virtual_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#vrrp_virtual_ip EdgeEquinix#vrrp_virtual_ip}
   */
   readonly vrrpVirtualIp?: string;
 }
@@ -1048,7 +1048,7 @@ export class EdgeEquinixVlanList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix aviatrix_edge_equinix}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix aviatrix_edge_equinix}
 */
 export class EdgeEquinix extends cdktf.TerraformResource {
 
@@ -1064,7 +1064,7 @@ export class EdgeEquinix extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeEquinix resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeEquinix to import
-  * @param importFromId The id of the existing EdgeEquinix that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeEquinix that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeEquinix to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1076,7 +1076,7 @@ export class EdgeEquinix extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_equinix aviatrix_edge_equinix} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_equinix aviatrix_edge_equinix} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1087,8 +1087,8 @@ export class EdgeEquinix extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_equinix',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

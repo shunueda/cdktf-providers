@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source
+// https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AlertSourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Email address this alert source receives alerts to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#email_address AlertSource#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#email_address AlertSource#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#http_custom_options AlertSource#http_custom_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#http_custom_options AlertSource#http_custom_options}
   */
   readonly httpCustomOptions?: AlertSourceHttpCustomOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#jira_options AlertSource#jira_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#jira_options AlertSource#jira_options}
   */
   readonly jiraOptions?: AlertSourceJiraOptions;
   /**
   * Unique name of the alert source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#name AlertSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#name AlertSource#name}
   */
   readonly name: string;
   /**
   * Type of alert source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#source_type AlertSource#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#source_type AlertSource#source_type}
   */
   readonly sourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#template AlertSource#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#template AlertSource#template}
   */
   readonly template: AlertSourceTemplate;
 }
@@ -42,13 +42,13 @@ export interface AlertSourceHttpCustomOptions {
   /**
   * JSON path to extract the deduplication key from the payload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#deduplication_key_path AlertSource#deduplication_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#deduplication_key_path AlertSource#deduplication_key_path}
   */
   readonly deduplicationKeyPath: string;
   /**
   * JavaScript expression that returns an object with all alert fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#transform_expression AlertSource#transform_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#transform_expression AlertSource#transform_expression}
   */
   readonly transformExpression: string;
 }
@@ -167,7 +167,7 @@ export interface AlertSourceJiraOptions {
   /**
   * Which projects in Jira should this alert source watch for new issues? IDs can either be IDs of the projects in Jira, or ID of catalog entries in the 'Jira Project' catalog type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#project_ids AlertSource#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#project_ids AlertSource#project_ids}
   */
   readonly projectIds?: string[];
 }
@@ -263,13 +263,13 @@ export interface AlertSourceTemplateAttributesBindingArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#literal AlertSource#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference?: string;
 }
@@ -416,13 +416,13 @@ export interface AlertSourceTemplateAttributesBindingValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#literal AlertSource#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference?: string;
 }
@@ -547,13 +547,13 @@ export interface AlertSourceTemplateAttributesBinding {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#array_value AlertSource#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#array_value AlertSource#array_value}
   */
   readonly arrayValue?: AlertSourceTemplateAttributesBindingArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#value AlertSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#value AlertSource#value}
   */
   readonly value?: AlertSourceTemplateAttributesBindingValue;
 }
@@ -678,11 +678,11 @@ export interface AlertSourceTemplateAttributes {
   /**
   * ID of the alert attribute to set with this binding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#alert_attribute_id AlertSource#alert_attribute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#alert_attribute_id AlertSource#alert_attribute_id}
   */
   readonly alertAttributeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#binding AlertSource#binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#binding AlertSource#binding}
   */
   readonly binding: AlertSourceTemplateAttributesBinding;
 }
@@ -823,13 +823,13 @@ export interface AlertSourceTemplateDescription {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#literal AlertSource#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference?: string;
 }
@@ -954,13 +954,13 @@ export interface AlertSourceTemplateExpressionsElseBranchResultArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#literal AlertSource#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference?: string;
 }
@@ -1107,13 +1107,13 @@ export interface AlertSourceTemplateExpressionsElseBranchResultValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#literal AlertSource#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference?: string;
 }
@@ -1238,13 +1238,13 @@ export interface AlertSourceTemplateExpressionsElseBranchResult {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#array_value AlertSource#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#array_value AlertSource#array_value}
   */
   readonly arrayValue?: AlertSourceTemplateExpressionsElseBranchResultArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#value AlertSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#value AlertSource#value}
   */
   readonly value?: AlertSourceTemplateExpressionsElseBranchResultValue;
 }
@@ -1369,7 +1369,7 @@ export interface AlertSourceTemplateExpressionsElseBranch {
   /**
   * The result assumed if the else branch is reached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#result AlertSource#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#result AlertSource#result}
   */
   readonly result: AlertSourceTemplateExpressionsElseBranchResult;
 }
@@ -1462,13 +1462,13 @@ export interface AlertSourceTemplateExpressionsOperationsBranchesBranchesConditi
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#literal AlertSource#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference?: string;
 }
@@ -1615,13 +1615,13 @@ export interface AlertSourceTemplateExpressionsOperationsBranchesBranchesConditi
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#literal AlertSource#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference?: string;
 }
@@ -1746,13 +1746,13 @@ export interface AlertSourceTemplateExpressionsOperationsBranchesBranchesConditi
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#array_value AlertSource#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#array_value AlertSource#array_value}
   */
   readonly arrayValue?: AlertSourceTemplateExpressionsOperationsBranchesBranchesConditionGroupsConditionsParamBindingsArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#value AlertSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#value AlertSource#value}
   */
   readonly value?: AlertSourceTemplateExpressionsOperationsBranchesBranchesConditionGroupsConditionsParamBindingsValue;
 }
@@ -1899,19 +1899,19 @@ export interface AlertSourceTemplateExpressionsOperationsBranchesBranchesConditi
   /**
   * The logical operation to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#operation AlertSource#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#operation AlertSource#operation}
   */
   readonly operation: string;
   /**
   * Bindings for the operation parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#param_bindings AlertSource#param_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#param_bindings AlertSource#param_bindings}
   */
   readonly paramBindings: AlertSourceTemplateExpressionsOperationsBranchesBranchesConditionGroupsConditionsParamBindings[] | cdktf.IResolvable;
   /**
   * The subject of the condition, on which the operation is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#subject AlertSource#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#subject AlertSource#subject}
   */
   readonly subject: string;
 }
@@ -2078,7 +2078,7 @@ export interface AlertSourceTemplateExpressionsOperationsBranchesBranchesConditi
   /**
   * The prerequisite conditions that must all be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#conditions AlertSource#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#conditions AlertSource#conditions}
   */
   readonly conditions: AlertSourceTemplateExpressionsOperationsBranchesBranchesConditionGroupsConditions[] | cdktf.IResolvable;
 }
@@ -2193,13 +2193,13 @@ export interface AlertSourceTemplateExpressionsOperationsBranchesBranchesResultA
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#literal AlertSource#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference?: string;
 }
@@ -2346,13 +2346,13 @@ export interface AlertSourceTemplateExpressionsOperationsBranchesBranchesResultV
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#literal AlertSource#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference?: string;
 }
@@ -2477,13 +2477,13 @@ export interface AlertSourceTemplateExpressionsOperationsBranchesBranchesResult 
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#array_value AlertSource#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#array_value AlertSource#array_value}
   */
   readonly arrayValue?: AlertSourceTemplateExpressionsOperationsBranchesBranchesResultArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#value AlertSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#value AlertSource#value}
   */
   readonly value?: AlertSourceTemplateExpressionsOperationsBranchesBranchesResultValue;
 }
@@ -2608,13 +2608,13 @@ export interface AlertSourceTemplateExpressionsOperationsBranchesBranches {
   /**
   * Groups of prerequisite conditions. All conditions in at least one group must be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#condition_groups AlertSource#condition_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#condition_groups AlertSource#condition_groups}
   */
   readonly conditionGroups: AlertSourceTemplateExpressionsOperationsBranchesBranchesConditionGroups[] | cdktf.IResolvable;
   /**
   * The result assumed if the condition groups are satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#result AlertSource#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#result AlertSource#result}
   */
   readonly result: AlertSourceTemplateExpressionsOperationsBranchesBranchesResult;
 }
@@ -2755,13 +2755,13 @@ export interface AlertSourceTemplateExpressionsOperationsBranchesReturns {
   /**
   * Whether the return value should be single or multi-value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#array AlertSource#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#array AlertSource#array}
   */
   readonly array: boolean | cdktf.IResolvable;
   /**
   * Expected return type of this expression (what to try casting the result to)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#type AlertSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#type AlertSource#type}
   */
   readonly type: string;
 }
@@ -2880,13 +2880,13 @@ export interface AlertSourceTemplateExpressionsOperationsBranches {
   /**
   * The branches to apply for this operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#branches AlertSource#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#branches AlertSource#branches}
   */
   readonly branches: AlertSourceTemplateExpressionsOperationsBranchesBranches[] | cdktf.IResolvable;
   /**
   * The return type of an operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#returns AlertSource#returns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#returns AlertSource#returns}
   */
   readonly returns: AlertSourceTemplateExpressionsOperationsBranchesReturns;
 }
@@ -3005,13 +3005,13 @@ export interface AlertSourceTemplateExpressionsOperationsFilterConditionGroupsCo
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#literal AlertSource#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference?: string;
 }
@@ -3158,13 +3158,13 @@ export interface AlertSourceTemplateExpressionsOperationsFilterConditionGroupsCo
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#literal AlertSource#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference?: string;
 }
@@ -3289,13 +3289,13 @@ export interface AlertSourceTemplateExpressionsOperationsFilterConditionGroupsCo
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#array_value AlertSource#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#array_value AlertSource#array_value}
   */
   readonly arrayValue?: AlertSourceTemplateExpressionsOperationsFilterConditionGroupsConditionsParamBindingsArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#value AlertSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#value AlertSource#value}
   */
   readonly value?: AlertSourceTemplateExpressionsOperationsFilterConditionGroupsConditionsParamBindingsValue;
 }
@@ -3442,19 +3442,19 @@ export interface AlertSourceTemplateExpressionsOperationsFilterConditionGroupsCo
   /**
   * The logical operation to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#operation AlertSource#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#operation AlertSource#operation}
   */
   readonly operation: string;
   /**
   * Bindings for the operation parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#param_bindings AlertSource#param_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#param_bindings AlertSource#param_bindings}
   */
   readonly paramBindings: AlertSourceTemplateExpressionsOperationsFilterConditionGroupsConditionsParamBindings[] | cdktf.IResolvable;
   /**
   * The subject of the condition, on which the operation is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#subject AlertSource#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#subject AlertSource#subject}
   */
   readonly subject: string;
 }
@@ -3621,7 +3621,7 @@ export interface AlertSourceTemplateExpressionsOperationsFilterConditionGroups {
   /**
   * The prerequisite conditions that must all be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#conditions AlertSource#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#conditions AlertSource#conditions}
   */
   readonly conditions: AlertSourceTemplateExpressionsOperationsFilterConditionGroupsConditions[] | cdktf.IResolvable;
 }
@@ -3736,7 +3736,7 @@ export interface AlertSourceTemplateExpressionsOperationsFilter {
   /**
   * Groups of prerequisite conditions. All conditions in at least one group must be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#condition_groups AlertSource#condition_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#condition_groups AlertSource#condition_groups}
   */
   readonly conditionGroups: AlertSourceTemplateExpressionsOperationsFilterConditionGroups[] | cdktf.IResolvable;
 }
@@ -3827,7 +3827,7 @@ export class AlertSourceTemplateExpressionsOperationsFilterOutputReference exten
 }
 export interface AlertSourceTemplateExpressionsOperationsNavigate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference: string;
 }
@@ -3920,13 +3920,13 @@ export interface AlertSourceTemplateExpressionsOperationsParseReturns {
   /**
   * Whether the return value should be single or multi-value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#array AlertSource#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#array AlertSource#array}
   */
   readonly array: boolean | cdktf.IResolvable;
   /**
   * Expected return type of this expression (what to try casting the result to)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#type AlertSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#type AlertSource#type}
   */
   readonly type: string;
 }
@@ -4045,13 +4045,13 @@ export interface AlertSourceTemplateExpressionsOperationsParse {
   /**
   * The return type of an operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#returns AlertSource#returns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#returns AlertSource#returns}
   */
   readonly returns: AlertSourceTemplateExpressionsOperationsParseReturns;
   /**
   * The ES5 Javascript expression to execute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#source AlertSource#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#source AlertSource#source}
   */
   readonly source: string;
 }
@@ -4170,31 +4170,31 @@ export interface AlertSourceTemplateExpressionsOperations {
   /**
   * An operation type that allows for a value to be set conditionally by a series of logical branches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#branches AlertSource#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#branches AlertSource#branches}
   */
   readonly branches?: AlertSourceTemplateExpressionsOperationsBranches;
   /**
   * An operation type that allows values to be filtered out by conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#filter AlertSource#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#filter AlertSource#filter}
   */
   readonly filter?: AlertSourceTemplateExpressionsOperationsFilter;
   /**
   * An operation type that allows attributes of a type to be accessed by reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#navigate AlertSource#navigate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#navigate AlertSource#navigate}
   */
   readonly navigate?: AlertSourceTemplateExpressionsOperationsNavigate;
   /**
   * Indicates which operation type to execute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#operation_type AlertSource#operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#operation_type AlertSource#operation_type}
   */
   readonly operationType: string;
   /**
   * An operation type that allows a value to parsed from within a JSON object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#parse AlertSource#parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#parse AlertSource#parse}
   */
   readonly parse?: AlertSourceTemplateExpressionsOperationsParse;
 }
@@ -4425,31 +4425,31 @@ export interface AlertSourceTemplateExpressions {
   /**
   * The else branch to resort to if all operations fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#else_branch AlertSource#else_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#else_branch AlertSource#else_branch}
   */
   readonly elseBranch?: AlertSourceTemplateExpressionsElseBranch;
   /**
   * The human readable label of the expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#label AlertSource#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#label AlertSource#label}
   */
   readonly label: string;
   /**
   * The operations to execute in sequence for this expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#operations AlertSource#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#operations AlertSource#operations}
   */
   readonly operations: AlertSourceTemplateExpressionsOperations[] | cdktf.IResolvable;
   /**
   * A short ID that can be used to reference the expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference: string;
   /**
   * The root reference for this expression (i.e. where the expression starts)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#root_reference AlertSource#root_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#root_reference AlertSource#root_reference}
   */
   readonly rootReference: string;
 }
@@ -4671,13 +4671,13 @@ export interface AlertSourceTemplateTitle {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#literal AlertSource#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#reference AlertSource#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
   */
   readonly reference?: string;
 }
@@ -4798,27 +4798,452 @@ export class AlertSourceTemplateTitleOutputReference extends cdktf.ComplexObject
     return this._reference;
   }
 }
+export interface AlertSourceTemplateVisibleToTeamsArrayValue {
+  /**
+  * If set, this is the literal value of the step parameter
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
+  */
+  readonly literal?: string;
+  /**
+  * If set, this is the reference into the trigger scope that is the value of this parameter
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
+  */
+  readonly reference?: string;
+}
+
+export function alertSourceTemplateVisibleToTeamsArrayValueToTerraform(struct?: AlertSourceTemplateVisibleToTeamsArrayValue | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    literal: cdktf.stringToTerraform(struct!.literal),
+    reference: cdktf.stringToTerraform(struct!.reference),
+  }
+}
+
+
+export function alertSourceTemplateVisibleToTeamsArrayValueToHclTerraform(struct?: AlertSourceTemplateVisibleToTeamsArrayValue | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    literal: {
+      value: cdktf.stringToHclTerraform(struct!.literal),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    reference: {
+      value: cdktf.stringToHclTerraform(struct!.reference),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AlertSourceTemplateVisibleToTeamsArrayValueOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): AlertSourceTemplateVisibleToTeamsArrayValue | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._literal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.literal = this._literal;
+    }
+    if (this._reference !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reference = this._reference;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AlertSourceTemplateVisibleToTeamsArrayValue | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._literal = undefined;
+      this._reference = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._literal = value.literal;
+      this._reference = value.reference;
+    }
+  }
+
+  // literal - computed: false, optional: true, required: false
+  private _literal?: string; 
+  public get literal() {
+    return this.getStringAttribute('literal');
+  }
+  public set literal(value: string) {
+    this._literal = value;
+  }
+  public resetLiteral() {
+    this._literal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get literalInput() {
+    return this._literal;
+  }
+
+  // reference - computed: false, optional: true, required: false
+  private _reference?: string; 
+  public get reference() {
+    return this.getStringAttribute('reference');
+  }
+  public set reference(value: string) {
+    this._reference = value;
+  }
+  public resetReference() {
+    this._reference = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get referenceInput() {
+    return this._reference;
+  }
+}
+
+export class AlertSourceTemplateVisibleToTeamsArrayValueList extends cdktf.ComplexList {
+  public internalValue? : AlertSourceTemplateVisibleToTeamsArrayValue[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): AlertSourceTemplateVisibleToTeamsArrayValueOutputReference {
+    return new AlertSourceTemplateVisibleToTeamsArrayValueOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface AlertSourceTemplateVisibleToTeamsValue {
+  /**
+  * If set, this is the literal value of the step parameter
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#literal AlertSource#literal}
+  */
+  readonly literal?: string;
+  /**
+  * If set, this is the reference into the trigger scope that is the value of this parameter
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#reference AlertSource#reference}
+  */
+  readonly reference?: string;
+}
+
+export function alertSourceTemplateVisibleToTeamsValueToTerraform(struct?: AlertSourceTemplateVisibleToTeamsValue | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    literal: cdktf.stringToTerraform(struct!.literal),
+    reference: cdktf.stringToTerraform(struct!.reference),
+  }
+}
+
+
+export function alertSourceTemplateVisibleToTeamsValueToHclTerraform(struct?: AlertSourceTemplateVisibleToTeamsValue | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    literal: {
+      value: cdktf.stringToHclTerraform(struct!.literal),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    reference: {
+      value: cdktf.stringToHclTerraform(struct!.reference),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AlertSourceTemplateVisibleToTeamsValueOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AlertSourceTemplateVisibleToTeamsValue | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._literal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.literal = this._literal;
+    }
+    if (this._reference !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reference = this._reference;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AlertSourceTemplateVisibleToTeamsValue | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._literal = undefined;
+      this._reference = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._literal = value.literal;
+      this._reference = value.reference;
+    }
+  }
+
+  // literal - computed: false, optional: true, required: false
+  private _literal?: string; 
+  public get literal() {
+    return this.getStringAttribute('literal');
+  }
+  public set literal(value: string) {
+    this._literal = value;
+  }
+  public resetLiteral() {
+    this._literal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get literalInput() {
+    return this._literal;
+  }
+
+  // reference - computed: false, optional: true, required: false
+  private _reference?: string; 
+  public get reference() {
+    return this.getStringAttribute('reference');
+  }
+  public set reference(value: string) {
+    this._reference = value;
+  }
+  public resetReference() {
+    this._reference = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get referenceInput() {
+    return this._reference;
+  }
+}
+export interface AlertSourceTemplateVisibleToTeams {
+  /**
+  * The array of literal or reference parameter values
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#array_value AlertSource#array_value}
+  */
+  readonly arrayValue?: AlertSourceTemplateVisibleToTeamsArrayValue[] | cdktf.IResolvable;
+  /**
+  * The literal or reference parameter value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#value AlertSource#value}
+  */
+  readonly value?: AlertSourceTemplateVisibleToTeamsValue;
+}
+
+export function alertSourceTemplateVisibleToTeamsToTerraform(struct?: AlertSourceTemplateVisibleToTeams | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    array_value: cdktf.listMapper(alertSourceTemplateVisibleToTeamsArrayValueToTerraform, false)(struct!.arrayValue),
+    value: alertSourceTemplateVisibleToTeamsValueToTerraform(struct!.value),
+  }
+}
+
+
+export function alertSourceTemplateVisibleToTeamsToHclTerraform(struct?: AlertSourceTemplateVisibleToTeams | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    array_value: {
+      value: cdktf.listMapperHcl(alertSourceTemplateVisibleToTeamsArrayValueToHclTerraform, false)(struct!.arrayValue),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AlertSourceTemplateVisibleToTeamsArrayValueList",
+    },
+    value: {
+      value: alertSourceTemplateVisibleToTeamsValueToHclTerraform(struct!.value),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "AlertSourceTemplateVisibleToTeamsValue",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AlertSourceTemplateVisibleToTeamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AlertSourceTemplateVisibleToTeams | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._arrayValue?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.arrayValue = this._arrayValue?.internalValue;
+    }
+    if (this._value?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AlertSourceTemplateVisibleToTeams | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._arrayValue.internalValue = undefined;
+      this._value.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._arrayValue.internalValue = value.arrayValue;
+      this._value.internalValue = value.value;
+    }
+  }
+
+  // array_value - computed: false, optional: true, required: false
+  private _arrayValue = new AlertSourceTemplateVisibleToTeamsArrayValueList(this, "array_value", false);
+  public get arrayValue() {
+    return this._arrayValue;
+  }
+  public putArrayValue(value: AlertSourceTemplateVisibleToTeamsArrayValue[] | cdktf.IResolvable) {
+    this._arrayValue.internalValue = value;
+  }
+  public resetArrayValue() {
+    this._arrayValue.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get arrayValueInput() {
+    return this._arrayValue.internalValue;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value = new AlertSourceTemplateVisibleToTeamsValueOutputReference(this, "value");
+  public get value() {
+    return this._value;
+  }
+  public putValue(value: AlertSourceTemplateVisibleToTeamsValue) {
+    this._value.internalValue = value;
+  }
+  public resetValue() {
+    this._value.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value.internalValue;
+  }
+}
 export interface AlertSourceTemplate {
   /**
   * Attributes to set on alerts coming from this source, with a binding describing how to set them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#attributes AlertSource#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#attributes AlertSource#attributes}
   */
   readonly attributes: AlertSourceTemplateAttributes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#description AlertSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#description AlertSource#description}
   */
   readonly description: AlertSourceTemplateDescription;
   /**
   * The expressions to be prepared for use by steps and conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#expressions AlertSource#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#expressions AlertSource#expressions}
   */
   readonly expressions: AlertSourceTemplateExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#title AlertSource#title}
+  * Whether or not alerts produced by this source should be private
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#is_private AlertSource#is_private}
+  */
+  readonly isPrivate?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#title AlertSource#title}
   */
   readonly title: AlertSourceTemplateTitle;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#visible_to_teams AlertSource#visible_to_teams}
+  */
+  readonly visibleToTeams?: AlertSourceTemplateVisibleToTeams;
 }
 
 export function alertSourceTemplateToTerraform(struct?: AlertSourceTemplate | cdktf.IResolvable): any {
@@ -4830,7 +5255,9 @@ export function alertSourceTemplateToTerraform(struct?: AlertSourceTemplate | cd
     attributes: cdktf.listMapper(alertSourceTemplateAttributesToTerraform, false)(struct!.attributes),
     description: alertSourceTemplateDescriptionToTerraform(struct!.description),
     expressions: cdktf.listMapper(alertSourceTemplateExpressionsToTerraform, false)(struct!.expressions),
+    is_private: cdktf.booleanToTerraform(struct!.isPrivate),
     title: alertSourceTemplateTitleToTerraform(struct!.title),
+    visible_to_teams: alertSourceTemplateVisibleToTeamsToTerraform(struct!.visibleToTeams),
   }
 }
 
@@ -4859,11 +5286,23 @@ export function alertSourceTemplateToHclTerraform(struct?: AlertSourceTemplate |
       type: "set",
       storageClassType: "AlertSourceTemplateExpressionsList",
     },
+    is_private: {
+      value: cdktf.booleanToHclTerraform(struct!.isPrivate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     title: {
       value: alertSourceTemplateTitleToHclTerraform(struct!.title),
       isBlock: true,
       type: "struct",
       storageClassType: "AlertSourceTemplateTitle",
+    },
+    visible_to_teams: {
+      value: alertSourceTemplateVisibleToTeamsToHclTerraform(struct!.visibleToTeams),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "AlertSourceTemplateVisibleToTeams",
     },
   };
 
@@ -4901,9 +5340,17 @@ export class AlertSourceTemplateOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.expressions = this._expressions?.internalValue;
     }
+    if (this._isPrivate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isPrivate = this._isPrivate;
+    }
     if (this._title?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.title = this._title?.internalValue;
+    }
+    if (this._visibleToTeams?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.visibleToTeams = this._visibleToTeams?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -4915,7 +5362,9 @@ export class AlertSourceTemplateOutputReference extends cdktf.ComplexObject {
       this._attributes.internalValue = undefined;
       this._description.internalValue = undefined;
       this._expressions.internalValue = undefined;
+      this._isPrivate = undefined;
       this._title.internalValue = undefined;
+      this._visibleToTeams.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -4927,7 +5376,9 @@ export class AlertSourceTemplateOutputReference extends cdktf.ComplexObject {
       this._attributes.internalValue = value.attributes;
       this._description.internalValue = value.description;
       this._expressions.internalValue = value.expressions;
+      this._isPrivate = value.isPrivate;
       this._title.internalValue = value.title;
+      this._visibleToTeams.internalValue = value.visibleToTeams;
     }
   }
 
@@ -4970,6 +5421,22 @@ export class AlertSourceTemplateOutputReference extends cdktf.ComplexObject {
     return this._expressions.internalValue;
   }
 
+  // is_private - computed: true, optional: true, required: false
+  private _isPrivate?: boolean | cdktf.IResolvable; 
+  public get isPrivate() {
+    return this.getBooleanAttribute('is_private');
+  }
+  public set isPrivate(value: boolean | cdktf.IResolvable) {
+    this._isPrivate = value;
+  }
+  public resetIsPrivate() {
+    this._isPrivate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isPrivateInput() {
+    return this._isPrivate;
+  }
+
   // title - computed: false, optional: false, required: true
   private _title = new AlertSourceTemplateTitleOutputReference(this, "title");
   public get title() {
@@ -4982,10 +5449,26 @@ export class AlertSourceTemplateOutputReference extends cdktf.ComplexObject {
   public get titleInput() {
     return this._title.internalValue;
   }
+
+  // visible_to_teams - computed: false, optional: true, required: false
+  private _visibleToTeams = new AlertSourceTemplateVisibleToTeamsOutputReference(this, "visible_to_teams");
+  public get visibleToTeams() {
+    return this._visibleToTeams;
+  }
+  public putVisibleToTeams(value: AlertSourceTemplateVisibleToTeams) {
+    this._visibleToTeams.internalValue = value;
+  }
+  public resetVisibleToTeams() {
+    this._visibleToTeams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get visibleToTeamsInput() {
+    return this._visibleToTeams.internalValue;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source incident_alert_source}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source incident_alert_source}
 */
 export class AlertSource extends cdktf.TerraformResource {
 
@@ -5001,7 +5484,7 @@ export class AlertSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertSource to import
-  * @param importFromId The id of the existing AlertSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5013,7 +5496,7 @@ export class AlertSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.23.1/docs/resources/alert_source incident_alert_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_source incident_alert_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5024,8 +5507,8 @@ export class AlertSource extends cdktf.TerraformResource {
       terraformResourceType: 'incident_alert_source',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.23.1',
-        providerVersionConstraint: '5.23.1'
+        providerVersion: '5.24.0',
+        providerVersionConstraint: '5.24.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

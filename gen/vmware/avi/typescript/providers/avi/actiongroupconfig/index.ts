@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface ActiongroupconfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#action_script_config_ref Actiongroupconfig#action_script_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#action_script_config_ref Actiongroupconfig#action_script_config_ref}
   */
   readonly actionScriptConfigRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#autoscale_trigger_notification Actiongroupconfig#autoscale_trigger_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#autoscale_trigger_notification Actiongroupconfig#autoscale_trigger_notification}
   */
   readonly autoscaleTriggerNotification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#description Actiongroupconfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#description Actiongroupconfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#email_config_ref Actiongroupconfig#email_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#email_config_ref Actiongroupconfig#email_config_ref}
   */
   readonly emailConfigRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#external_only Actiongroupconfig#external_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#external_only Actiongroupconfig#external_only}
   */
   readonly externalOnly: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#id Actiongroupconfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#id Actiongroupconfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#level Actiongroupconfig#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#level Actiongroupconfig#level}
   */
   readonly level: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#name Actiongroupconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#name Actiongroupconfig#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#snmp_trap_profile_ref Actiongroupconfig#snmp_trap_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#snmp_trap_profile_ref Actiongroupconfig#snmp_trap_profile_ref}
   */
   readonly snmpTrapProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#syslog_config_ref Actiongroupconfig#syslog_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#syslog_config_ref Actiongroupconfig#syslog_config_ref}
   */
   readonly syslogConfigRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#tenant_ref Actiongroupconfig#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#tenant_ref Actiongroupconfig#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#uuid Actiongroupconfig#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#uuid Actiongroupconfig#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#configpb_attributes Actiongroupconfig#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#configpb_attributes Actiongroupconfig#configpb_attributes}
   */
   readonly configpbAttributes?: ActiongroupconfigConfigpbAttributes[] | cdktf.IResolvable;
 }
 export interface ActiongroupconfigConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#version Actiongroupconfig#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#version Actiongroupconfig#version}
   */
   readonly version?: string;
 }
@@ -183,7 +183,7 @@ export class ActiongroupconfigConfigpbAttributesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig avi_actiongroupconfig}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig avi_actiongroupconfig}
 */
 export class Actiongroupconfig extends cdktf.TerraformResource {
 
@@ -199,7 +199,7 @@ export class Actiongroupconfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Actiongroupconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Actiongroupconfig to import
-  * @param importFromId The id of the existing Actiongroupconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Actiongroupconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Actiongroupconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class Actiongroupconfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/actiongroupconfig avi_actiongroupconfig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/actiongroupconfig avi_actiongroupconfig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class Actiongroupconfig extends cdktf.TerraformResource {
       terraformResourceType: 'avi_actiongroupconfig',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,197 +10,221 @@ export interface TransitExternalDeviceConnConfig extends cdktf.TerraformMetaArgu
   /**
   * Set of approved cidrs. Requires 'enable_learned_cidrs_approval' to be true. Type: Set(String).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#approved_cidrs TransitExternalDeviceConn#approved_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#approved_cidrs TransitExternalDeviceConn#approved_cidrs}
   */
   readonly approvedCidrs?: string[];
   /**
   * Backup BGP MD5 authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#backup_bgp_md5_key TransitExternalDeviceConn#backup_bgp_md5_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#backup_bgp_md5_key TransitExternalDeviceConn#backup_bgp_md5_key}
   */
   readonly backupBgpMd5Key?: string;
   /**
   * Backup BGP remote ASN (Autonomous System Number). Integer between 1-4294967294.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#backup_bgp_remote_as_num TransitExternalDeviceConn#backup_bgp_remote_as_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#backup_bgp_remote_as_num TransitExternalDeviceConn#backup_bgp_remote_as_num}
   */
   readonly backupBgpRemoteAsNum?: string;
   /**
   * Backup direct connect for backup external device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#backup_direct_connect TransitExternalDeviceConn#backup_direct_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#backup_direct_connect TransitExternalDeviceConn#backup_direct_connect}
   */
   readonly backupDirectConnect?: boolean | cdktf.IResolvable;
   /**
   * Backup Local LAN IP. Required for GCP BGP over LAN Connection with HA enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#backup_local_lan_ip TransitExternalDeviceConn#backup_local_lan_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#backup_local_lan_ip TransitExternalDeviceConn#backup_local_lan_ip}
   */
   readonly backupLocalLanIp?: string;
   /**
   * Source CIDR for the tunnel from the backup Aviatrix transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#backup_local_tunnel_cidr TransitExternalDeviceConn#backup_local_tunnel_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#backup_local_tunnel_cidr TransitExternalDeviceConn#backup_local_tunnel_cidr}
   */
   readonly backupLocalTunnelCidr?: string;
   /**
   * Backup pre shared key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#backup_pre_shared_key TransitExternalDeviceConn#backup_pre_shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#backup_pre_shared_key TransitExternalDeviceConn#backup_pre_shared_key}
   */
   readonly backupPreSharedKey?: string;
   /**
   * Backup remote gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#backup_remote_gateway_ip TransitExternalDeviceConn#backup_remote_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#backup_remote_gateway_ip TransitExternalDeviceConn#backup_remote_gateway_ip}
   */
   readonly backupRemoteGatewayIp?: string;
   /**
   * Backup Remote LAN IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#backup_remote_lan_ip TransitExternalDeviceConn#backup_remote_lan_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#backup_remote_lan_ip TransitExternalDeviceConn#backup_remote_lan_ip}
   */
   readonly backupRemoteLanIp?: string;
   /**
+  * Backup Remote LAN IPv6 address.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#backup_remote_lan_ipv6_ip TransitExternalDeviceConn#backup_remote_lan_ipv6_ip}
+  */
+  readonly backupRemoteLanIpv6Ip?: string;
+  /**
   * Destination CIDR for the tunnel to the backup external device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#backup_remote_tunnel_cidr TransitExternalDeviceConn#backup_remote_tunnel_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#backup_remote_tunnel_cidr TransitExternalDeviceConn#backup_remote_tunnel_cidr}
   */
   readonly backupRemoteTunnelCidr?: string;
   /**
   * BGP local ASN (Autonomous System Number). Integer between 1-4294967294.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#bgp_local_as_num TransitExternalDeviceConn#bgp_local_as_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#bgp_local_as_num TransitExternalDeviceConn#bgp_local_as_num}
   */
   readonly bgpLocalAsNum?: string;
   /**
   * BGP MD5 authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#bgp_md5_key TransitExternalDeviceConn#bgp_md5_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#bgp_md5_key TransitExternalDeviceConn#bgp_md5_key}
   */
   readonly bgpMd5Key?: string;
   /**
   * BGP remote ASN (Autonomous System Number). Integer between 1-4294967294.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#bgp_remote_as_num TransitExternalDeviceConn#bgp_remote_as_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#bgp_remote_as_num TransitExternalDeviceConn#bgp_remote_as_num}
   */
   readonly bgpRemoteAsNum?: string;
   /**
   * Connection based additional BGP communities to be sent. E.g. 111:111, 444:444
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#connection_bgp_send_communities TransitExternalDeviceConn#connection_bgp_send_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#connection_bgp_send_communities TransitExternalDeviceConn#connection_bgp_send_communities}
   */
   readonly connectionBgpSendCommunities?: string;
   /**
   * Do additive operation instead of replacement operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#connection_bgp_send_communities_additive TransitExternalDeviceConn#connection_bgp_send_communities_additive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#connection_bgp_send_communities_additive TransitExternalDeviceConn#connection_bgp_send_communities_additive}
   */
   readonly connectionBgpSendCommunitiesAdditive?: boolean | cdktf.IResolvable;
   /**
   * Block advertisement of any BGP communities on this connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#connection_bgp_send_communities_block TransitExternalDeviceConn#connection_bgp_send_communities_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#connection_bgp_send_communities_block TransitExternalDeviceConn#connection_bgp_send_communities_block}
   */
   readonly connectionBgpSendCommunitiesBlock?: boolean | cdktf.IResolvable;
   /**
   * The name of the transit external device connection which is going to be created. Required when 'enable_edge_underlay' is false, must set to empty when 'enable_edge_underlay' is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#connection_name TransitExternalDeviceConn#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#connection_name TransitExternalDeviceConn#connection_name}
   */
   readonly connectionName?: string;
   /**
   * Connection type. Valid values: 'bgp', 'static'. Default value: 'bgp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#connection_type TransitExternalDeviceConn#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#connection_type TransitExternalDeviceConn#connection_type}
   */
   readonly connectionType?: string;
   /**
   * Switch to enable custom/non-default algorithms for IPSec Authentication/Encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#custom_algorithms TransitExternalDeviceConn#custom_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#custom_algorithms TransitExternalDeviceConn#custom_algorithms}
   */
   readonly customAlgorithms?: boolean | cdktf.IResolvable;
   /**
   * Set true for private network infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#direct_connect TransitExternalDeviceConn#direct_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#direct_connect TransitExternalDeviceConn#direct_connect}
   */
   readonly directConnect?: boolean | cdktf.IResolvable;
   /**
   * Disable ActiveMesh, no crossing tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#disable_activemesh TransitExternalDeviceConn#disable_activemesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#disable_activemesh TransitExternalDeviceConn#disable_activemesh}
   */
   readonly disableActivemesh?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP BFD connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#enable_bfd TransitExternalDeviceConn#enable_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#enable_bfd TransitExternalDeviceConn#enable_bfd}
   */
   readonly enableBfd?: boolean | cdktf.IResolvable;
   /**
   * Switch to enable BGP LAN ActiveMesh. Only valid for GCP and Azure with Remote Gateway HA enabled. Requires Azure Remote Gateway insane mode enabled. Valid values: true, false. Default: false. Available as of provider version R2.21+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#enable_bgp_lan_activemesh TransitExternalDeviceConn#enable_bgp_lan_activemesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#enable_bgp_lan_activemesh TransitExternalDeviceConn#enable_bgp_lan_activemesh}
   */
   readonly enableBgpLanActivemesh?: boolean | cdktf.IResolvable;
   /**
   * Enable multihop on BGP connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#enable_bgp_multihop TransitExternalDeviceConn#enable_bgp_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#enable_bgp_multihop TransitExternalDeviceConn#enable_bgp_multihop}
   */
   readonly enableBgpMultihop?: boolean | cdktf.IResolvable;
   /**
   * Switch to allow this connection to communicate with a Network Domain via Connection Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#enable_edge_segmentation TransitExternalDeviceConn#enable_edge_segmentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#enable_edge_segmentation TransitExternalDeviceConn#enable_edge_segmentation}
   */
   readonly enableEdgeSegmentation?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP over WAN underlay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#enable_edge_underlay TransitExternalDeviceConn#enable_edge_underlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#enable_edge_underlay TransitExternalDeviceConn#enable_edge_underlay}
   */
   readonly enableEdgeUnderlay?: boolean | cdktf.IResolvable;
   /**
   * Enable Event Triggered HA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#enable_event_triggered_ha TransitExternalDeviceConn#enable_event_triggered_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#enable_event_triggered_ha TransitExternalDeviceConn#enable_event_triggered_ha}
   */
   readonly enableEventTriggeredHa?: boolean | cdktf.IResolvable;
   /**
   * Set as true if use IKEv2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#enable_ikev2 TransitExternalDeviceConn#enable_ikev2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#enable_ikev2 TransitExternalDeviceConn#enable_ikev2}
   */
   readonly enableIkev2?: boolean | cdktf.IResolvable;
   /**
+  * Enable IPv6 on this connection
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#enable_ipv6 TransitExternalDeviceConn#enable_ipv6}
+  */
+  readonly enableIpv6?: boolean | cdktf.IResolvable;
+  /**
   * Enable Jumbo Frame for the transit external device connection. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#enable_jumbo_frame TransitExternalDeviceConn#enable_jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#enable_jumbo_frame TransitExternalDeviceConn#enable_jumbo_frame}
   */
   readonly enableJumboFrame?: boolean | cdktf.IResolvable;
   /**
   * Enable learned CIDR approval for the connection. Only valid with 'connection_type' = 'bgp'. Requires the transit_gateway's 'learned_cidrs_approval_mode' attribute be set to 'connection'. Valid values: true, false. Default value: false. Available as of provider version R2.18+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#enable_learned_cidrs_approval TransitExternalDeviceConn#enable_learned_cidrs_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#enable_learned_cidrs_approval TransitExternalDeviceConn#enable_learned_cidrs_approval}
   */
   readonly enableLearnedCidrsApproval?: boolean | cdktf.IResolvable;
   /**
+  * Backup External device IPv6 address.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#external_device_backup_ipv6 TransitExternalDeviceConn#external_device_backup_ipv6}
+  */
+  readonly externalDeviceBackupIpv6?: string;
+  /**
+  * External device IPv6 address.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#external_device_ipv6 TransitExternalDeviceConn#external_device_ipv6}
+  */
+  readonly externalDeviceIpv6?: string;
+  /**
   * Name of the Transit Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#gw_name TransitExternalDeviceConn#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#gw_name TransitExternalDeviceConn#gw_name}
   */
   readonly gwName: string;
   /**
   * Set as true if there are two external devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#ha_enabled TransitExternalDeviceConn#ha_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#ha_enabled TransitExternalDeviceConn#ha_enabled}
   */
   readonly haEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#id TransitExternalDeviceConn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#id TransitExternalDeviceConn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -209,139 +233,145 @@ export interface TransitExternalDeviceConnConfig extends cdktf.TerraformMetaArgu
   /**
   * Local LAN IP. Required for GCP BGP over LAN Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#local_lan_ip TransitExternalDeviceConn#local_lan_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#local_lan_ip TransitExternalDeviceConn#local_lan_ip}
   */
   readonly localLanIp?: string;
   /**
   * Source CIDR for the tunnel from the Aviatrix transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#local_tunnel_cidr TransitExternalDeviceConn#local_tunnel_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#local_tunnel_cidr TransitExternalDeviceConn#local_tunnel_cidr}
   */
   readonly localTunnelCidr?: string;
   /**
   * Configure manual BGP advertised CIDRs for this connection. Only valid with 'connection_type' = 'bgp'. Available as of provider version R2.18+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#manual_bgp_advertised_cidrs TransitExternalDeviceConn#manual_bgp_advertised_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#manual_bgp_advertised_cidrs TransitExternalDeviceConn#manual_bgp_advertised_cidrs}
   */
   readonly manualBgpAdvertisedCidrs?: string[];
   /**
   * By default, gateway’s public IP is configured as the Local Identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#phase1_local_identifier TransitExternalDeviceConn#phase1_local_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#phase1_local_identifier TransitExternalDeviceConn#phase1_local_identifier}
   */
   readonly phase1LocalIdentifier?: string;
   /**
   * List of phase 1 remote identifier of the IPsec tunnel. This can be configured as a list of any string, including empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#phase1_remote_identifier TransitExternalDeviceConn#phase1_remote_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#phase1_remote_identifier TransitExternalDeviceConn#phase1_remote_identifier}
   */
   readonly phase1RemoteIdentifier?: string[];
   /**
   * Phase one Authentication. Valid values: 'SHA-1', 'SHA-256', 'SHA-384' and 'SHA-512'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#phase_1_authentication TransitExternalDeviceConn#phase_1_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#phase_1_authentication TransitExternalDeviceConn#phase_1_authentication}
   */
   readonly phase1Authentication?: string;
   /**
   * Phase one DH Groups. Valid values: '1', '2', '5', '14', '15', '16', '17', '18', '19', '20' and '21'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#phase_1_dh_groups TransitExternalDeviceConn#phase_1_dh_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#phase_1_dh_groups TransitExternalDeviceConn#phase_1_dh_groups}
   */
   readonly phase1DhGroups?: string;
   /**
   * Phase one Encryption. Valid values: '3DES', 'AES-128-CBC', 'AES-192-CBC' and 'AES-256-CBC', 'AES-128-GCM-64', 'AES-128-GCM-96', 'AES-128-GCM-128', 'AES-256-GCM-64', 'AES-256-GCM-96', and 'AES-256-GCM-128'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#phase_1_encryption TransitExternalDeviceConn#phase_1_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#phase_1_encryption TransitExternalDeviceConn#phase_1_encryption}
   */
   readonly phase1Encryption?: string;
   /**
   * Phase two Authentication. Valid values: 'NO-AUTH', 'HMAC-SHA-1', 'HMAC-SHA-256', 'HMAC-SHA-384' and 'HMAC-SHA-512'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#phase_2_authentication TransitExternalDeviceConn#phase_2_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#phase_2_authentication TransitExternalDeviceConn#phase_2_authentication}
   */
   readonly phase2Authentication?: string;
   /**
   * Phase two DH Groups. Valid values: '1', '2', '5', '14', '15', '16', '17', '18', '19', '20' and '21'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#phase_2_dh_groups TransitExternalDeviceConn#phase_2_dh_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#phase_2_dh_groups TransitExternalDeviceConn#phase_2_dh_groups}
   */
   readonly phase2DhGroups?: string;
   /**
   * Phase two Encryption. Valid values: '3DES', 'AES-128-CBC', 'AES-192-CBC', 'AES-256-CBC', 'AES-128-GCM-64', 'AES-128-GCM-96', 'AES-128-GCM-128', 'AES-256-GCM-64', 'AES-256-GCM-96', 'AES-256-GCM-128', and 'NULL-ENCR'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#phase_2_encryption TransitExternalDeviceConn#phase_2_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#phase_2_encryption TransitExternalDeviceConn#phase_2_encryption}
   */
   readonly phase2Encryption?: string;
   /**
   * If left blank, the pre-shared key will be auto generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#pre_shared_key TransitExternalDeviceConn#pre_shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#pre_shared_key TransitExternalDeviceConn#pre_shared_key}
   */
   readonly preSharedKey?: string;
   /**
   * Connection AS Path Prepend customized by specifying AS PATH for a BGP connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#prepend_as_path TransitExternalDeviceConn#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#prepend_as_path TransitExternalDeviceConn#prepend_as_path}
   */
   readonly prependAsPath?: string[];
   /**
   * Remote Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#remote_gateway_ip TransitExternalDeviceConn#remote_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#remote_gateway_ip TransitExternalDeviceConn#remote_gateway_ip}
   */
   readonly remoteGatewayIp?: string;
   /**
   * Remote LAN IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#remote_lan_ip TransitExternalDeviceConn#remote_lan_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#remote_lan_ip TransitExternalDeviceConn#remote_lan_ip}
   */
   readonly remoteLanIp?: string;
   /**
+  * Remote LAN IPv6 address.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#remote_lan_ipv6_ip TransitExternalDeviceConn#remote_lan_ipv6_ip}
+  */
+  readonly remoteLanIpv6Ip?: string;
+  /**
   * Remote CIDRs joined as a string with ','. Required for a 'static' type connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#remote_subnet TransitExternalDeviceConn#remote_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#remote_subnet TransitExternalDeviceConn#remote_subnet}
   */
   readonly remoteSubnet?: string;
   /**
   * Destination CIDR for the tunnel to the external device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#remote_tunnel_cidr TransitExternalDeviceConn#remote_tunnel_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#remote_tunnel_cidr TransitExternalDeviceConn#remote_tunnel_cidr}
   */
   readonly remoteTunnelCidr?: string;
   /**
   * Name of the remote VPC for a LAN BGP connection. Only valid when 'connection_type' = 'bgp' and tunnel_protocol' = 'LAN' with an Azure transit gateway. Must be in the form "<VNET-name>:<resource-group-name>". Available as of provider version R2.18+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#remote_vpc_name TransitExternalDeviceConn#remote_vpc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#remote_vpc_name TransitExternalDeviceConn#remote_vpc_name}
   */
   readonly remoteVpcName?: string;
   /**
   * Only valid for Transit Gateway's with Active-Standby Mode enabled. Valid values: true, false. Default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#switch_to_ha_standby_gateway TransitExternalDeviceConn#switch_to_ha_standby_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#switch_to_ha_standby_gateway TransitExternalDeviceConn#switch_to_ha_standby_gateway}
   */
   readonly switchToHaStandbyGateway?: boolean | cdktf.IResolvable;
   /**
   * Tunnel Protocol. Valid values: 'IPsec', 'GRE' or 'LAN'. Default value: 'IPsec'. Case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#tunnel_protocol TransitExternalDeviceConn#tunnel_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#tunnel_protocol TransitExternalDeviceConn#tunnel_protocol}
   */
   readonly tunnelProtocol?: string;
   /**
   * Local gateway tunnel source IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#tunnel_src_ip TransitExternalDeviceConn#tunnel_src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#tunnel_src_ip TransitExternalDeviceConn#tunnel_src_ip}
   */
   readonly tunnelSrcIp?: string;
   /**
   * ID of the VPC where the Transit Gateway is located. For GCP BGP over LAN connection, it is in the format of 'vpc_name~-~account_name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#vpc_id TransitExternalDeviceConn#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#vpc_id TransitExternalDeviceConn#vpc_id}
   */
   readonly vpcId: string;
   /**
   * bgp_bfd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#bgp_bfd TransitExternalDeviceConn#bgp_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#bgp_bfd TransitExternalDeviceConn#bgp_bfd}
   */
   readonly bgpBfd?: TransitExternalDeviceConnBgpBfd;
 }
@@ -349,19 +379,19 @@ export interface TransitExternalDeviceConnBgpBfd {
   /**
   * BFD detection multiplier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#multiplier TransitExternalDeviceConn#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#multiplier TransitExternalDeviceConn#multiplier}
   */
   readonly multiplier?: number;
   /**
   * BFD receive interval in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#receive_interval TransitExternalDeviceConn#receive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#receive_interval TransitExternalDeviceConn#receive_interval}
   */
   readonly receiveInterval?: number;
   /**
   * BFD transmit interval in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#transmit_interval TransitExternalDeviceConn#transmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#transmit_interval TransitExternalDeviceConn#transmit_interval}
   */
   readonly transmitInterval?: number;
 }
@@ -503,7 +533,7 @@ export class TransitExternalDeviceConnBgpBfdOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn aviatrix_transit_external_device_conn}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn aviatrix_transit_external_device_conn}
 */
 export class TransitExternalDeviceConn extends cdktf.TerraformResource {
 
@@ -519,7 +549,7 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TransitExternalDeviceConn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransitExternalDeviceConn to import
-  * @param importFromId The id of the existing TransitExternalDeviceConn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransitExternalDeviceConn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransitExternalDeviceConn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -531,7 +561,7 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_external_device_conn aviatrix_transit_external_device_conn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_external_device_conn aviatrix_transit_external_device_conn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -542,8 +572,8 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_transit_external_device_conn',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -562,6 +592,7 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
     this._backupPreSharedKey = config.backupPreSharedKey;
     this._backupRemoteGatewayIp = config.backupRemoteGatewayIp;
     this._backupRemoteLanIp = config.backupRemoteLanIp;
+    this._backupRemoteLanIpv6Ip = config.backupRemoteLanIpv6Ip;
     this._backupRemoteTunnelCidr = config.backupRemoteTunnelCidr;
     this._bgpLocalAsNum = config.bgpLocalAsNum;
     this._bgpMd5Key = config.bgpMd5Key;
@@ -581,8 +612,11 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
     this._enableEdgeUnderlay = config.enableEdgeUnderlay;
     this._enableEventTriggeredHa = config.enableEventTriggeredHa;
     this._enableIkev2 = config.enableIkev2;
+    this._enableIpv6 = config.enableIpv6;
     this._enableJumboFrame = config.enableJumboFrame;
     this._enableLearnedCidrsApproval = config.enableLearnedCidrsApproval;
+    this._externalDeviceBackupIpv6 = config.externalDeviceBackupIpv6;
+    this._externalDeviceIpv6 = config.externalDeviceIpv6;
     this._gwName = config.gwName;
     this._haEnabled = config.haEnabled;
     this._id = config.id;
@@ -601,6 +635,7 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
     this._prependAsPath = config.prependAsPath;
     this._remoteGatewayIp = config.remoteGatewayIp;
     this._remoteLanIp = config.remoteLanIp;
+    this._remoteLanIpv6Ip = config.remoteLanIpv6Ip;
     this._remoteSubnet = config.remoteSubnet;
     this._remoteTunnelCidr = config.remoteTunnelCidr;
     this._remoteVpcName = config.remoteVpcName;
@@ -757,6 +792,22 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get backupRemoteLanIpInput() {
     return this._backupRemoteLanIp;
+  }
+
+  // backup_remote_lan_ipv6_ip - computed: true, optional: true, required: false
+  private _backupRemoteLanIpv6Ip?: string; 
+  public get backupRemoteLanIpv6Ip() {
+    return this.getStringAttribute('backup_remote_lan_ipv6_ip');
+  }
+  public set backupRemoteLanIpv6Ip(value: string) {
+    this._backupRemoteLanIpv6Ip = value;
+  }
+  public resetBackupRemoteLanIpv6Ip() {
+    this._backupRemoteLanIpv6Ip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backupRemoteLanIpv6IpInput() {
+    return this._backupRemoteLanIpv6Ip;
   }
 
   // backup_remote_tunnel_cidr - computed: true, optional: true, required: false
@@ -935,7 +986,7 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
     return this._directConnect;
   }
 
-  // disable_activemesh - computed: false, optional: true, required: false
+  // disable_activemesh - computed: true, optional: true, required: false
   private _disableActivemesh?: boolean | cdktf.IResolvable; 
   public get disableActivemesh() {
     return this.getBooleanAttribute('disable_activemesh');
@@ -1063,6 +1114,22 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
     return this._enableIkev2;
   }
 
+  // enable_ipv6 - computed: false, optional: true, required: false
+  private _enableIpv6?: boolean | cdktf.IResolvable; 
+  public get enableIpv6() {
+    return this.getBooleanAttribute('enable_ipv6');
+  }
+  public set enableIpv6(value: boolean | cdktf.IResolvable) {
+    this._enableIpv6 = value;
+  }
+  public resetEnableIpv6() {
+    this._enableIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableIpv6Input() {
+    return this._enableIpv6;
+  }
+
   // enable_jumbo_frame - computed: false, optional: true, required: false
   private _enableJumboFrame?: boolean | cdktf.IResolvable; 
   public get enableJumboFrame() {
@@ -1093,6 +1160,38 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get enableLearnedCidrsApprovalInput() {
     return this._enableLearnedCidrsApproval;
+  }
+
+  // external_device_backup_ipv6 - computed: true, optional: true, required: false
+  private _externalDeviceBackupIpv6?: string; 
+  public get externalDeviceBackupIpv6() {
+    return this.getStringAttribute('external_device_backup_ipv6');
+  }
+  public set externalDeviceBackupIpv6(value: string) {
+    this._externalDeviceBackupIpv6 = value;
+  }
+  public resetExternalDeviceBackupIpv6() {
+    this._externalDeviceBackupIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get externalDeviceBackupIpv6Input() {
+    return this._externalDeviceBackupIpv6;
+  }
+
+  // external_device_ipv6 - computed: true, optional: true, required: false
+  private _externalDeviceIpv6?: string; 
+  public get externalDeviceIpv6() {
+    return this.getStringAttribute('external_device_ipv6');
+  }
+  public set externalDeviceIpv6(value: string) {
+    this._externalDeviceIpv6 = value;
+  }
+  public resetExternalDeviceIpv6() {
+    this._externalDeviceIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get externalDeviceIpv6Input() {
+    return this._externalDeviceIpv6;
   }
 
   // gw_name - computed: false, optional: false, required: true
@@ -1380,6 +1479,22 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
     return this._remoteLanIp;
   }
 
+  // remote_lan_ipv6_ip - computed: true, optional: true, required: false
+  private _remoteLanIpv6Ip?: string; 
+  public get remoteLanIpv6Ip() {
+    return this.getStringAttribute('remote_lan_ipv6_ip');
+  }
+  public set remoteLanIpv6Ip(value: string) {
+    this._remoteLanIpv6Ip = value;
+  }
+  public resetRemoteLanIpv6Ip() {
+    this._remoteLanIpv6Ip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get remoteLanIpv6IpInput() {
+    return this._remoteLanIpv6Ip;
+  }
+
   // remote_subnet - computed: false, optional: true, required: false
   private _remoteSubnet?: string; 
   public get remoteSubnet() {
@@ -1520,6 +1635,7 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
       backup_pre_shared_key: cdktf.stringToTerraform(this._backupPreSharedKey),
       backup_remote_gateway_ip: cdktf.stringToTerraform(this._backupRemoteGatewayIp),
       backup_remote_lan_ip: cdktf.stringToTerraform(this._backupRemoteLanIp),
+      backup_remote_lan_ipv6_ip: cdktf.stringToTerraform(this._backupRemoteLanIpv6Ip),
       backup_remote_tunnel_cidr: cdktf.stringToTerraform(this._backupRemoteTunnelCidr),
       bgp_local_as_num: cdktf.stringToTerraform(this._bgpLocalAsNum),
       bgp_md5_key: cdktf.stringToTerraform(this._bgpMd5Key),
@@ -1539,8 +1655,11 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
       enable_edge_underlay: cdktf.booleanToTerraform(this._enableEdgeUnderlay),
       enable_event_triggered_ha: cdktf.booleanToTerraform(this._enableEventTriggeredHa),
       enable_ikev2: cdktf.booleanToTerraform(this._enableIkev2),
+      enable_ipv6: cdktf.booleanToTerraform(this._enableIpv6),
       enable_jumbo_frame: cdktf.booleanToTerraform(this._enableJumboFrame),
       enable_learned_cidrs_approval: cdktf.booleanToTerraform(this._enableLearnedCidrsApproval),
+      external_device_backup_ipv6: cdktf.stringToTerraform(this._externalDeviceBackupIpv6),
+      external_device_ipv6: cdktf.stringToTerraform(this._externalDeviceIpv6),
       gw_name: cdktf.stringToTerraform(this._gwName),
       ha_enabled: cdktf.booleanToTerraform(this._haEnabled),
       id: cdktf.stringToTerraform(this._id),
@@ -1559,6 +1678,7 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
       prepend_as_path: cdktf.listMapper(cdktf.stringToTerraform, false)(this._prependAsPath),
       remote_gateway_ip: cdktf.stringToTerraform(this._remoteGatewayIp),
       remote_lan_ip: cdktf.stringToTerraform(this._remoteLanIp),
+      remote_lan_ipv6_ip: cdktf.stringToTerraform(this._remoteLanIpv6Ip),
       remote_subnet: cdktf.stringToTerraform(this._remoteSubnet),
       remote_tunnel_cidr: cdktf.stringToTerraform(this._remoteTunnelCidr),
       remote_vpc_name: cdktf.stringToTerraform(this._remoteVpcName),
@@ -1622,6 +1742,12 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
       },
       backup_remote_lan_ip: {
         value: cdktf.stringToHclTerraform(this._backupRemoteLanIp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      backup_remote_lan_ipv6_ip: {
+        value: cdktf.stringToHclTerraform(this._backupRemoteLanIpv6Ip),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1740,6 +1866,12 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      enable_ipv6: {
+        value: cdktf.booleanToHclTerraform(this._enableIpv6),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       enable_jumbo_frame: {
         value: cdktf.booleanToHclTerraform(this._enableJumboFrame),
         isBlock: false,
@@ -1751,6 +1883,18 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      external_device_backup_ipv6: {
+        value: cdktf.stringToHclTerraform(this._externalDeviceBackupIpv6),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      external_device_ipv6: {
+        value: cdktf.stringToHclTerraform(this._externalDeviceIpv6),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       gw_name: {
         value: cdktf.stringToHclTerraform(this._gwName),
@@ -1856,6 +2000,12 @@ export class TransitExternalDeviceConn extends cdktf.TerraformResource {
       },
       remote_lan_ip: {
         value: cdktf.stringToHclTerraform(this._remoteLanIp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      remote_lan_ipv6_ip: {
+        value: cdktf.stringToHclTerraform(this._remoteLanIpv6Ip),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

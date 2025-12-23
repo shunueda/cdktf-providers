@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SpokeTransitAttachmentConfig extends cdktf.TerraformMetaArgumen
   /**
   * Indicates whether the maximum amount of HPE tunnels will be created. Only valid when transit and spoke gateways are each launched in Insane Mode and in the same cloud type. Available as of provider version R2.22.2+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment#enable_max_performance SpokeTransitAttachment#enable_max_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment#enable_max_performance SpokeTransitAttachment#enable_max_performance}
   */
   readonly enableMaxPerformance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment#id SpokeTransitAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment#id SpokeTransitAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface SpokeTransitAttachmentConfig extends cdktf.TerraformMetaArgumen
   /**
   * Learned routes will be propagated to these route tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment#route_tables SpokeTransitAttachment#route_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment#route_tables SpokeTransitAttachment#route_tables}
   */
   readonly routeTables?: string[];
   /**
   * Name of the spoke gateway to attach to transit network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment#spoke_gw_name SpokeTransitAttachment#spoke_gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment#spoke_gw_name SpokeTransitAttachment#spoke_gw_name}
   */
   readonly spokeGwName: string;
   /**
   * AS Path Prepend customized by specifying AS PATH for a BGP connection. Applies on spoke gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment#spoke_prepend_as_path SpokeTransitAttachment#spoke_prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment#spoke_prepend_as_path SpokeTransitAttachment#spoke_prepend_as_path}
   */
   readonly spokePrependAsPath?: string[];
   /**
   * Transit gateway logical interface names for edge gateways, where the peering terminates. Required for all edge gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment#transit_gateway_logical_ifnames SpokeTransitAttachment#transit_gateway_logical_ifnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment#transit_gateway_logical_ifnames SpokeTransitAttachment#transit_gateway_logical_ifnames}
   */
   readonly transitGatewayLogicalIfnames?: string[];
   /**
   * Name of the transit gateway to attach the spoke gateway to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment#transit_gw_name SpokeTransitAttachment#transit_gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment#transit_gw_name SpokeTransitAttachment#transit_gw_name}
   */
   readonly transitGwName: string;
   /**
   * AS Path Prepend customized by specifying AS PATH for a BGP connection. Applies on transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment#transit_prepend_as_path SpokeTransitAttachment#transit_prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment#transit_prepend_as_path SpokeTransitAttachment#transit_prepend_as_path}
   */
   readonly transitPrependAsPath?: string[];
   /**
   * (Optional) Advanced option. Number of public tunnels. Required with both Spoke and Transitto be insane mode enabled and max performance enabled. Type: Integer. Valid Range: 1-49.Available as of provider version R3.1.3+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment#tunnel_count SpokeTransitAttachment#tunnel_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment#tunnel_count SpokeTransitAttachment#tunnel_count}
   */
   readonly tunnelCount?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment aviatrix_spoke_transit_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment aviatrix_spoke_transit_attachment}
 */
 export class SpokeTransitAttachment extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class SpokeTransitAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SpokeTransitAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SpokeTransitAttachment to import
-  * @param importFromId The id of the existing SpokeTransitAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SpokeTransitAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SpokeTransitAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class SpokeTransitAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_transit_attachment aviatrix_spoke_transit_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_transit_attachment aviatrix_spoke_transit_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class SpokeTransitAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_spoke_transit_attachment',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

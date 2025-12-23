@@ -19,6 +19,7 @@ Object.defineProperty(exports, 'privatelinkAws', { get: function () { return req
 Object.defineProperty(exports, 'privatelinkAzure', { get: function () { return require('./privatelink-azure'); } });
 Object.defineProperty(exports, 'rabbitmqConfiguration', { get: function () { return require('./rabbitmq-configuration'); } });
 Object.defineProperty(exports, 'securityFirewall', { get: function () { return require('./security-firewall'); } });
+Object.defineProperty(exports, 'trustStore', { get: function () { return require('./trust-store'); } });
 Object.defineProperty(exports, 'upgradeLavinmq', { get: function () { return require('./upgrade-lavinmq'); } });
 Object.defineProperty(exports, 'upgradeRabbitmq', { get: function () { return require('./upgrade-rabbitmq'); } });
 Object.defineProperty(exports, 'vpc', { get: function () { return require('./vpc'); } });

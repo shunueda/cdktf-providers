@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/spoke_gateway_inspection_subnets
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/spoke_gateway_inspection_subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAviatrixSpokeGatewayInspectionSubnetsConfig extends cdktf.T
   /**
   * Spoke gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/spoke_gateway_inspection_subnets#gw_name DataAviatrixSpokeGatewayInspectionSubnets#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/spoke_gateway_inspection_subnets#gw_name DataAviatrixSpokeGatewayInspectionSubnets#gw_name}
   */
   readonly gwName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/spoke_gateway_inspection_subnets#id DataAviatrixSpokeGatewayInspectionSubnets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/spoke_gateway_inspection_subnets#id DataAviatrixSpokeGatewayInspectionSubnets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataAviatrixSpokeGatewayInspectionSubnetsConfig extends cdktf.T
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/spoke_gateway_inspection_subnets aviatrix_spoke_gateway_inspection_subnets}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/spoke_gateway_inspection_subnets aviatrix_spoke_gateway_inspection_subnets}
 */
 export class DataAviatrixSpokeGatewayInspectionSubnets extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataAviatrixSpokeGatewayInspectionSubnets extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataAviatrixSpokeGatewayInspectionSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviatrixSpokeGatewayInspectionSubnets to import
-  * @param importFromId The id of the existing DataAviatrixSpokeGatewayInspectionSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/spoke_gateway_inspection_subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviatrixSpokeGatewayInspectionSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/spoke_gateway_inspection_subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviatrixSpokeGatewayInspectionSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataAviatrixSpokeGatewayInspectionSubnets extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/spoke_gateway_inspection_subnets aviatrix_spoke_gateway_inspection_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/spoke_gateway_inspection_subnets aviatrix_spoke_gateway_inspection_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataAviatrixSpokeGatewayInspectionSubnets extends cdktf.TerraformDa
       terraformResourceType: 'aviatrix_spoke_gateway_inspection_subnets',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

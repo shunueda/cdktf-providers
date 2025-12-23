@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "aviatrix": "8.1.10"
+    "aviatrix": "8.2.0"
   }
 }

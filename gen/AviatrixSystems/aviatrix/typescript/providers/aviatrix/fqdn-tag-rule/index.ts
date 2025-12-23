@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn_tag_rule
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn_tag_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface FqdnTagRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * What action should happen to matching requests. Possible values are: 'Base Policy', 'Allow' or 'Deny'. Defaults to 'Base Policy' if no value is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn_tag_rule#action FqdnTagRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn_tag_rule#action FqdnTagRule#action}
   */
   readonly action?: string;
   /**
   * FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn_tag_rule#fqdn FqdnTagRule#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn_tag_rule#fqdn FqdnTagRule#fqdn}
   */
   readonly fqdn: string;
   /**
   * FQDN Filter Tag Name to attach this domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn_tag_rule#fqdn_tag_name FqdnTagRule#fqdn_tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn_tag_rule#fqdn_tag_name FqdnTagRule#fqdn_tag_name}
   */
   readonly fqdnTagName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn_tag_rule#id FqdnTagRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn_tag_rule#id FqdnTagRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface FqdnTagRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn_tag_rule#port FqdnTagRule#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn_tag_rule#port FqdnTagRule#port}
   */
   readonly port: string;
   /**
   * Protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn_tag_rule#protocol FqdnTagRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn_tag_rule#protocol FqdnTagRule#protocol}
   */
   readonly protocol: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn_tag_rule aviatrix_fqdn_tag_rule}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn_tag_rule aviatrix_fqdn_tag_rule}
 */
 export class FqdnTagRule extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class FqdnTagRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FqdnTagRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FqdnTagRule to import
-  * @param importFromId The id of the existing FqdnTagRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn_tag_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FqdnTagRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn_tag_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FqdnTagRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class FqdnTagRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn_tag_rule aviatrix_fqdn_tag_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn_tag_rule aviatrix_fqdn_tag_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class FqdnTagRule extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_fqdn_tag_rule',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

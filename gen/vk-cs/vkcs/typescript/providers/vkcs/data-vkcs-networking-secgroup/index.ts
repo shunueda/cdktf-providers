@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_secgroup
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_secgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVkcsNetworkingSecgroupConfig extends cdktf.TerraformMetaArg
   /**
   * Human-readable description the the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_secgroup#description DataVkcsNetworkingSecgroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_secgroup#description DataVkcsNetworkingSecgroup#description}
   */
   readonly description?: string;
   /**
   * The ID of the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_secgroup#id DataVkcsNetworkingSecgroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_secgroup#id DataVkcsNetworkingSecgroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,43 +25,43 @@ export interface DataVkcsNetworkingSecgroupConfig extends cdktf.TerraformMetaArg
   /**
   * The name of the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_secgroup#name DataVkcsNetworkingSecgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_secgroup#name DataVkcsNetworkingSecgroup#name}
   */
   readonly name?: string;
   /**
   * The region in which to obtain the Network client. A Network client is needed to retrieve security groups ids. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_secgroup#region DataVkcsNetworkingSecgroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_secgroup#region DataVkcsNetworkingSecgroup#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_secgroup#sdn DataVkcsNetworkingSecgroup#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_secgroup#sdn DataVkcsNetworkingSecgroup#sdn}
   */
   readonly sdn?: string;
   /**
   * The ID of the security group. **Deprecated** This argument is deprecated, please, use the `id` attribute instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_secgroup#secgroup_id DataVkcsNetworkingSecgroup#secgroup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_secgroup#secgroup_id DataVkcsNetworkingSecgroup#secgroup_id}
   */
   readonly secgroupId?: string;
   /**
   * The list of security group tags to filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_secgroup#tags DataVkcsNetworkingSecgroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_secgroup#tags DataVkcsNetworkingSecgroup#tags}
   */
   readonly tags?: string[];
   /**
   * The owner of the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_secgroup#tenant_id DataVkcsNetworkingSecgroup#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_secgroup#tenant_id DataVkcsNetworkingSecgroup#tenant_id}
   */
   readonly tenantId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_secgroup vkcs_networking_secgroup}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_secgroup vkcs_networking_secgroup}
 */
 export class DataVkcsNetworkingSecgroup extends cdktf.TerraformDataSource {
 
@@ -77,7 +77,7 @@ export class DataVkcsNetworkingSecgroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsNetworkingSecgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsNetworkingSecgroup to import
-  * @param importFromId The id of the existing DataVkcsNetworkingSecgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_secgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsNetworkingSecgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_secgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsNetworkingSecgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class DataVkcsNetworkingSecgroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_secgroup vkcs_networking_secgroup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_secgroup vkcs_networking_secgroup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class DataVkcsNetworkingSecgroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_networking_secgroup',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

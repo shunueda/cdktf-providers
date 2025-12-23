@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud_ca_cert_tag
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud_ca_cert_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Site2CloudCaCertTagConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud_ca_cert_tag#id Site2CloudCaCertTag#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud_ca_cert_tag#id Site2CloudCaCertTag#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface Site2CloudCaCertTagConfig extends cdktf.TerraformMetaArguments 
   /**
   * Unique name of the ca cert tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud_ca_cert_tag#tag_name Site2CloudCaCertTag#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud_ca_cert_tag#tag_name Site2CloudCaCertTag#tag_name}
   */
   readonly tagName: string;
   /**
   * ca_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud_ca_cert_tag#ca_certificates Site2CloudCaCertTag#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud_ca_cert_tag#ca_certificates Site2CloudCaCertTag#ca_certificates}
   */
   readonly caCertificates: Site2CloudCaCertTagCaCertificates[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface Site2CloudCaCertTagCaCertificates {
   /**
   * Content of cert certificate to create only one cert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud_ca_cert_tag#cert_content Site2CloudCaCertTag#cert_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud_ca_cert_tag#cert_content Site2CloudCaCertTag#cert_content}
   */
   readonly certContent: string;
 }
@@ -169,7 +169,7 @@ export class Site2CloudCaCertTagCaCertificatesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud_ca_cert_tag aviatrix_site2cloud_ca_cert_tag}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud_ca_cert_tag aviatrix_site2cloud_ca_cert_tag}
 */
 export class Site2CloudCaCertTag extends cdktf.TerraformResource {
 
@@ -185,7 +185,7 @@ export class Site2CloudCaCertTag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Site2CloudCaCertTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Site2CloudCaCertTag to import
-  * @param importFromId The id of the existing Site2CloudCaCertTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud_ca_cert_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Site2CloudCaCertTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud_ca_cert_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Site2CloudCaCertTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class Site2CloudCaCertTag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud_ca_cert_tag aviatrix_site2cloud_ca_cert_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud_ca_cert_tag aviatrix_site2cloud_ca_cert_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class Site2CloudCaCertTag extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_site2cloud_ca_cert_tag',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

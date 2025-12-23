@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/node_actions
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/node_actions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,45 @@ import * as cdktf from 'cdktf';
 
 export interface NodeActionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The action to perform on the node
+  * The action to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/node_actions#action NodeActions#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/node_actions#action NodeActions#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/node_actions#id NodeActions#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/node_actions#instance_id NodeActions#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/node_actions#instance_id NodeActions#instance_id}
   */
   readonly instanceId: number;
   /**
-  * The name of the node
+  * The name of the node (deprecated: use node_names instead)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/node_actions#node_name NodeActions#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/node_actions#node_name NodeActions#node_name}
   */
-  readonly nodeName: string;
+  readonly nodeName?: string;
+  /**
+  * List of node names to perform the action on. For cluster-level actions (cluster.start, cluster.stop, cluster.restart), this can be omitted or should include all nodes.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/node_actions#node_names NodeActions#node_names}
+  */
+  readonly nodeNames?: string[];
+  /**
+  * Sleep interval in seconds between polling for node status (default: 10)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/node_actions#sleep NodeActions#sleep}
+  */
+  readonly sleep?: number;
+  /**
+  * Timeout in seconds for the action to complete (default: 1800)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/node_actions#timeout NodeActions#timeout}
+  */
+  readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/node_actions cloudamqp_node_actions}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/node_actions cloudamqp_node_actions}
 */
 export class NodeActions extends cdktf.TerraformResource {
 
@@ -51,7 +62,7 @@ export class NodeActions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NodeActions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NodeActions to import
-  * @param importFromId The id of the existing NodeActions that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/node_actions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NodeActions that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/node_actions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NodeActions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +74,7 @@ export class NodeActions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/node_actions cloudamqp_node_actions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/node_actions cloudamqp_node_actions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +85,8 @@ export class NodeActions extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_node_actions',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -86,9 +97,11 @@ export class NodeActions extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._action = config.action;
-    this._id = config.id;
     this._instanceId = config.instanceId;
     this._nodeName = config.nodeName;
+    this._nodeNames = config.nodeNames;
+    this._sleep = config.sleep;
+    this._timeout = config.timeout;
   }
 
   // ==========
@@ -108,20 +121,9 @@ export class NodeActions extends cdktf.TerraformResource {
     return this._action;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // instance_id - computed: false, optional: false, required: true
@@ -137,7 +139,7 @@ export class NodeActions extends cdktf.TerraformResource {
     return this._instanceId;
   }
 
-  // node_name - computed: false, optional: false, required: true
+  // node_name - computed: false, optional: true, required: false
   private _nodeName?: string; 
   public get nodeName() {
     return this.getStringAttribute('node_name');
@@ -145,14 +147,60 @@ export class NodeActions extends cdktf.TerraformResource {
   public set nodeName(value: string) {
     this._nodeName = value;
   }
+  public resetNodeName() {
+    this._nodeName = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get nodeNameInput() {
     return this._nodeName;
   }
 
-  // running - computed: true, optional: false, required: false
-  public get running() {
-    return this.getBooleanAttribute('running');
+  // node_names - computed: false, optional: true, required: false
+  private _nodeNames?: string[]; 
+  public get nodeNames() {
+    return this.getListAttribute('node_names');
+  }
+  public set nodeNames(value: string[]) {
+    this._nodeNames = value;
+  }
+  public resetNodeNames() {
+    this._nodeNames = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeNamesInput() {
+    return this._nodeNames;
+  }
+
+  // sleep - computed: true, optional: true, required: false
+  private _sleep?: number; 
+  public get sleep() {
+    return this.getNumberAttribute('sleep');
+  }
+  public set sleep(value: number) {
+    this._sleep = value;
+  }
+  public resetSleep() {
+    this._sleep = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sleepInput() {
+    return this._sleep;
+  }
+
+  // timeout - computed: true, optional: true, required: false
+  private _timeout?: number; 
+  public get timeout() {
+    return this.getNumberAttribute('timeout');
+  }
+  public set timeout(value: number) {
+    this._timeout = value;
+  }
+  public resetTimeout() {
+    this._timeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutInput() {
+    return this._timeout;
   }
 
   // =========
@@ -162,9 +210,11 @@ export class NodeActions extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       action: cdktf.stringToTerraform(this._action),
-      id: cdktf.stringToTerraform(this._id),
       instance_id: cdktf.numberToTerraform(this._instanceId),
       node_name: cdktf.stringToTerraform(this._nodeName),
+      node_names: cdktf.listMapper(cdktf.stringToTerraform, false)(this._nodeNames),
+      sleep: cdktf.numberToTerraform(this._sleep),
+      timeout: cdktf.numberToTerraform(this._timeout),
     };
   }
 
@@ -172,12 +222,6 @@ export class NodeActions extends cdktf.TerraformResource {
     const attrs = {
       action: {
         value: cdktf.stringToHclTerraform(this._action),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -193,6 +237,24 @@ export class NodeActions extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      node_names: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._nodeNames),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      sleep: {
+        value: cdktf.numberToHclTerraform(this._sleep),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      timeout: {
+        value: cdktf.numberToHclTerraform(this._timeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
     };
 

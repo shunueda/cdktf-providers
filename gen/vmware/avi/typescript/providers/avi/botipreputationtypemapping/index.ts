@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,164 @@ import * as cdktf from 'cdktf';
 
 export interface BotipreputationtypemappingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#id Botipreputationtypemapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#id Botipreputationtypemapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#name Botipreputationtypemapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#name Botipreputationtypemapping#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#tenant_ref Botipreputationtypemapping#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#tenant_ref Botipreputationtypemapping#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#uuid Botipreputationtypemapping#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#uuid Botipreputationtypemapping#uuid}
   */
   readonly uuid?: string;
   /**
+  * configpb_attributes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#configpb_attributes Botipreputationtypemapping#configpb_attributes}
+  */
+  readonly configpbAttributes?: BotipreputationtypemappingConfigpbAttributes[] | cdktf.IResolvable;
+  /**
   * ip_reputation_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#ip_reputation_mappings Botipreputationtypemapping#ip_reputation_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#ip_reputation_mappings Botipreputationtypemapping#ip_reputation_mappings}
   */
   readonly ipReputationMappings?: BotipreputationtypemappingIpReputationMappings[] | cdktf.IResolvable;
 }
+export interface BotipreputationtypemappingConfigpbAttributes {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#version Botipreputationtypemapping#version}
+  */
+  readonly version?: string;
+}
+
+export function botipreputationtypemappingConfigpbAttributesToTerraform(struct?: BotipreputationtypemappingConfigpbAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    version: cdktf.stringToTerraform(struct!.version),
+  }
+}
+
+
+export function botipreputationtypemappingConfigpbAttributesToHclTerraform(struct?: BotipreputationtypemappingConfigpbAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    version: {
+      value: cdktf.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BotipreputationtypemappingConfigpbAttributesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BotipreputationtypemappingConfigpbAttributes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BotipreputationtypemappingConfigpbAttributes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._version = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._version = value.version;
+    }
+  }
+
+  // version - computed: true, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+
+export class BotipreputationtypemappingConfigpbAttributesList extends cdktf.ComplexList {
+  public internalValue? : BotipreputationtypemappingConfigpbAttributes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BotipreputationtypemappingConfigpbAttributesOutputReference {
+    return new BotipreputationtypemappingConfigpbAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface BotipreputationtypemappingIpReputationMappingsBotIdentification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#class Botipreputationtypemapping#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#class Botipreputationtypemapping#class}
   */
   readonly class?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#identifier Botipreputationtypemapping#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#identifier Botipreputationtypemapping#identifier}
   */
   readonly identifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#type Botipreputationtypemapping#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#type Botipreputationtypemapping#type}
   */
   readonly type?: string;
 }
@@ -217,13 +339,13 @@ export class BotipreputationtypemappingIpReputationMappingsBotIdentificationList
 }
 export interface BotipreputationtypemappingIpReputationMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#ip_reputation_type Botipreputationtypemapping#ip_reputation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#ip_reputation_type Botipreputationtypemapping#ip_reputation_type}
   */
   readonly ipReputationType: string;
   /**
   * bot_identification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#bot_identification Botipreputationtypemapping#bot_identification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#bot_identification Botipreputationtypemapping#bot_identification}
   */
   readonly botIdentification: BotipreputationtypemappingIpReputationMappingsBotIdentification[] | cdktf.IResolvable;
 }
@@ -362,7 +484,7 @@ export class BotipreputationtypemappingIpReputationMappingsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping avi_botipreputationtypemapping}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping avi_botipreputationtypemapping}
 */
 export class Botipreputationtypemapping extends cdktf.TerraformResource {
 
@@ -378,7 +500,7 @@ export class Botipreputationtypemapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Botipreputationtypemapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Botipreputationtypemapping to import
-  * @param importFromId The id of the existing Botipreputationtypemapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Botipreputationtypemapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Botipreputationtypemapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -390,7 +512,7 @@ export class Botipreputationtypemapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping avi_botipreputationtypemapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botipreputationtypemapping avi_botipreputationtypemapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -401,8 +523,8 @@ export class Botipreputationtypemapping extends cdktf.TerraformResource {
       terraformResourceType: 'avi_botipreputationtypemapping',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -416,6 +538,7 @@ export class Botipreputationtypemapping extends cdktf.TerraformResource {
     this._name = config.name;
     this._tenantRef = config.tenantRef;
     this._uuid = config.uuid;
+    this._configpbAttributes.internalValue = config.configpbAttributes;
     this._ipReputationMappings.internalValue = config.ipReputationMappings;
   }
 
@@ -484,6 +607,22 @@ export class Botipreputationtypemapping extends cdktf.TerraformResource {
     return this._uuid;
   }
 
+  // configpb_attributes - computed: false, optional: true, required: false
+  private _configpbAttributes = new BotipreputationtypemappingConfigpbAttributesList(this, "configpb_attributes", true);
+  public get configpbAttributes() {
+    return this._configpbAttributes;
+  }
+  public putConfigpbAttributes(value: BotipreputationtypemappingConfigpbAttributes[] | cdktf.IResolvable) {
+    this._configpbAttributes.internalValue = value;
+  }
+  public resetConfigpbAttributes() {
+    this._configpbAttributes.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configpbAttributesInput() {
+    return this._configpbAttributes.internalValue;
+  }
+
   // ip_reputation_mappings - computed: false, optional: true, required: false
   private _ipReputationMappings = new BotipreputationtypemappingIpReputationMappingsList(this, "ip_reputation_mappings", false);
   public get ipReputationMappings() {
@@ -510,6 +649,7 @@ export class Botipreputationtypemapping extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       tenant_ref: cdktf.stringToTerraform(this._tenantRef),
       uuid: cdktf.stringToTerraform(this._uuid),
+      configpb_attributes: cdktf.listMapper(botipreputationtypemappingConfigpbAttributesToTerraform, true)(this._configpbAttributes.internalValue),
       ip_reputation_mappings: cdktf.listMapper(botipreputationtypemappingIpReputationMappingsToTerraform, true)(this._ipReputationMappings.internalValue),
     };
   }
@@ -539,6 +679,12 @@ export class Botipreputationtypemapping extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      configpb_attributes: {
+        value: cdktf.listMapperHcl(botipreputationtypemappingConfigpbAttributesToHclTerraform, true)(this._configpbAttributes.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "BotipreputationtypemappingConfigpbAttributesList",
       },
       ip_reputation_mappings: {
         value: cdktf.listMapperHcl(botipreputationtypemappingIpReputationMappingsToHclTerraform, true)(this._ipReputationMappings.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/hardwaresecuritymodulegroup
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/hardwaresecuritymodulegroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,735 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviHardwaresecuritymodulegroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/hardwaresecuritymodulegroup#id DataAviHardwaresecuritymodulegroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/hardwaresecuritymodulegroup#id DataAviHardwaresecuritymodulegroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/hardwaresecuritymodulegroup#name DataAviHardwaresecuritymodulegroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/hardwaresecuritymodulegroup#name DataAviHardwaresecuritymodulegroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/hardwaresecuritymodulegroup#tenant_ref DataAviHardwaresecuritymodulegroup#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/hardwaresecuritymodulegroup#tenant_ref DataAviHardwaresecuritymodulegroup#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/hardwaresecuritymodulegroup#uuid DataAviHardwaresecuritymodulegroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/hardwaresecuritymodulegroup#uuid DataAviHardwaresecuritymodulegroup#uuid}
   */
   readonly uuid?: string;
+}
+export interface DataAviHardwaresecuritymodulegroupCaCertsIssuer {
+}
+
+export function dataAviHardwaresecuritymodulegroupCaCertsIssuerToTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCertsIssuer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviHardwaresecuritymodulegroupCaCertsIssuerToHclTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCertsIssuer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsIssuerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviHardwaresecuritymodulegroupCaCertsIssuer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviHardwaresecuritymodulegroupCaCertsIssuer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // common_name - computed: true, optional: false, required: false
+  public get commonName() {
+    return this.getStringAttribute('common_name');
+  }
+
+  // country - computed: true, optional: false, required: false
+  public get country() {
+    return this.getStringAttribute('country');
+  }
+
+  // distinguished_name - computed: true, optional: false, required: false
+  public get distinguishedName() {
+    return this.getStringAttribute('distinguished_name');
+  }
+
+  // email_address - computed: true, optional: false, required: false
+  public get emailAddress() {
+    return this.getStringAttribute('email_address');
+  }
+
+  // locality - computed: true, optional: false, required: false
+  public get locality() {
+    return this.getStringAttribute('locality');
+  }
+
+  // organization - computed: true, optional: false, required: false
+  public get organization() {
+    return this.getStringAttribute('organization');
+  }
+
+  // organization_unit - computed: true, optional: false, required: false
+  public get organizationUnit() {
+    return this.getStringAttribute('organization_unit');
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsIssuerList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviHardwaresecuritymodulegroupCaCertsIssuerOutputReference {
+    return new DataAviHardwaresecuritymodulegroupCaCertsIssuerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviHardwaresecuritymodulegroupCaCertsKeyParamsEcParams {
+}
+
+export function dataAviHardwaresecuritymodulegroupCaCertsKeyParamsEcParamsToTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCertsKeyParamsEcParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviHardwaresecuritymodulegroupCaCertsKeyParamsEcParamsToHclTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCertsKeyParamsEcParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsKeyParamsEcParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviHardwaresecuritymodulegroupCaCertsKeyParamsEcParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviHardwaresecuritymodulegroupCaCertsKeyParamsEcParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // curve - computed: true, optional: false, required: false
+  public get curve() {
+    return this.getStringAttribute('curve');
+  }
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsKeyParamsEcParamsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviHardwaresecuritymodulegroupCaCertsKeyParamsEcParamsOutputReference {
+    return new DataAviHardwaresecuritymodulegroupCaCertsKeyParamsEcParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviHardwaresecuritymodulegroupCaCertsKeyParamsMldsaParams {
+}
+
+export function dataAviHardwaresecuritymodulegroupCaCertsKeyParamsMldsaParamsToTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCertsKeyParamsMldsaParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviHardwaresecuritymodulegroupCaCertsKeyParamsMldsaParamsToHclTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCertsKeyParamsMldsaParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsKeyParamsMldsaParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviHardwaresecuritymodulegroupCaCertsKeyParamsMldsaParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviHardwaresecuritymodulegroupCaCertsKeyParamsMldsaParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // algorithm - computed: true, optional: false, required: false
+  public get algorithm() {
+    return this.getStringAttribute('algorithm');
+  }
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsKeyParamsMldsaParamsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviHardwaresecuritymodulegroupCaCertsKeyParamsMldsaParamsOutputReference {
+    return new DataAviHardwaresecuritymodulegroupCaCertsKeyParamsMldsaParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviHardwaresecuritymodulegroupCaCertsKeyParamsRsaParams {
+}
+
+export function dataAviHardwaresecuritymodulegroupCaCertsKeyParamsRsaParamsToTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCertsKeyParamsRsaParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviHardwaresecuritymodulegroupCaCertsKeyParamsRsaParamsToHclTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCertsKeyParamsRsaParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsKeyParamsRsaParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviHardwaresecuritymodulegroupCaCertsKeyParamsRsaParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviHardwaresecuritymodulegroupCaCertsKeyParamsRsaParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // exponent - computed: true, optional: false, required: false
+  public get exponent() {
+    return this.getStringAttribute('exponent');
+  }
+
+  // key_size - computed: true, optional: false, required: false
+  public get keySize() {
+    return this.getStringAttribute('key_size');
+  }
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsKeyParamsRsaParamsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviHardwaresecuritymodulegroupCaCertsKeyParamsRsaParamsOutputReference {
+    return new DataAviHardwaresecuritymodulegroupCaCertsKeyParamsRsaParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviHardwaresecuritymodulegroupCaCertsKeyParams {
+}
+
+export function dataAviHardwaresecuritymodulegroupCaCertsKeyParamsToTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCertsKeyParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviHardwaresecuritymodulegroupCaCertsKeyParamsToHclTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCertsKeyParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsKeyParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviHardwaresecuritymodulegroupCaCertsKeyParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviHardwaresecuritymodulegroupCaCertsKeyParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // algorithm - computed: true, optional: false, required: false
+  public get algorithm() {
+    return this.getStringAttribute('algorithm');
+  }
+
+  // ec_params - computed: true, optional: false, required: false
+  private _ecParams = new DataAviHardwaresecuritymodulegroupCaCertsKeyParamsEcParamsList(this, "ec_params", true);
+  public get ecParams() {
+    return this._ecParams;
+  }
+
+  // mldsa_params - computed: true, optional: false, required: false
+  private _mldsaParams = new DataAviHardwaresecuritymodulegroupCaCertsKeyParamsMldsaParamsList(this, "mldsa_params", true);
+  public get mldsaParams() {
+    return this._mldsaParams;
+  }
+
+  // rsa_params - computed: true, optional: false, required: false
+  private _rsaParams = new DataAviHardwaresecuritymodulegroupCaCertsKeyParamsRsaParamsList(this, "rsa_params", true);
+  public get rsaParams() {
+    return this._rsaParams;
+  }
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsKeyParamsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviHardwaresecuritymodulegroupCaCertsKeyParamsOutputReference {
+    return new DataAviHardwaresecuritymodulegroupCaCertsKeyParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviHardwaresecuritymodulegroupCaCertsSubject {
+}
+
+export function dataAviHardwaresecuritymodulegroupCaCertsSubjectToTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCertsSubject): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviHardwaresecuritymodulegroupCaCertsSubjectToHclTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCertsSubject): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsSubjectOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviHardwaresecuritymodulegroupCaCertsSubject | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviHardwaresecuritymodulegroupCaCertsSubject | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // common_name - computed: true, optional: false, required: false
+  public get commonName() {
+    return this.getStringAttribute('common_name');
+  }
+
+  // country - computed: true, optional: false, required: false
+  public get country() {
+    return this.getStringAttribute('country');
+  }
+
+  // distinguished_name - computed: true, optional: false, required: false
+  public get distinguishedName() {
+    return this.getStringAttribute('distinguished_name');
+  }
+
+  // email_address - computed: true, optional: false, required: false
+  public get emailAddress() {
+    return this.getStringAttribute('email_address');
+  }
+
+  // locality - computed: true, optional: false, required: false
+  public get locality() {
+    return this.getStringAttribute('locality');
+  }
+
+  // organization - computed: true, optional: false, required: false
+  public get organization() {
+    return this.getStringAttribute('organization');
+  }
+
+  // organization_unit - computed: true, optional: false, required: false
+  public get organizationUnit() {
+    return this.getStringAttribute('organization_unit');
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsSubjectList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviHardwaresecuritymodulegroupCaCertsSubjectOutputReference {
+    return new DataAviHardwaresecuritymodulegroupCaCertsSubjectOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviHardwaresecuritymodulegroupCaCerts {
+}
+
+export function dataAviHardwaresecuritymodulegroupCaCertsToTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCerts): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviHardwaresecuritymodulegroupCaCertsToHclTerraform(struct?: DataAviHardwaresecuritymodulegroupCaCerts): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviHardwaresecuritymodulegroupCaCerts | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviHardwaresecuritymodulegroupCaCerts | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // certificate - computed: true, optional: false, required: false
+  public get certificate() {
+    return this.getStringAttribute('certificate');
+  }
+
+  // certificate_signing_request - computed: true, optional: false, required: false
+  public get certificateSigningRequest() {
+    return this.getStringAttribute('certificate_signing_request');
+  }
+
+  // chain_verified - computed: true, optional: false, required: false
+  public get chainVerified() {
+    return this.getStringAttribute('chain_verified');
+  }
+
+  // days_until_expire - computed: true, optional: false, required: false
+  public get daysUntilExpire() {
+    return this.getStringAttribute('days_until_expire');
+  }
+
+  // expiry_status - computed: true, optional: false, required: false
+  public get expiryStatus() {
+    return this.getStringAttribute('expiry_status');
+  }
+
+  // fingerprint - computed: true, optional: false, required: false
+  public get fingerprint() {
+    return this.getStringAttribute('fingerprint');
+  }
+
+  // issuer - computed: true, optional: false, required: false
+  private _issuer = new DataAviHardwaresecuritymodulegroupCaCertsIssuerList(this, "issuer", true);
+  public get issuer() {
+    return this._issuer;
+  }
+
+  // key_params - computed: true, optional: false, required: false
+  private _keyParams = new DataAviHardwaresecuritymodulegroupCaCertsKeyParamsList(this, "key_params", true);
+  public get keyParams() {
+    return this._keyParams;
+  }
+
+  // not_after - computed: true, optional: false, required: false
+  public get notAfter() {
+    return this.getStringAttribute('not_after');
+  }
+
+  // not_before - computed: true, optional: false, required: false
+  public get notBefore() {
+    return this.getStringAttribute('not_before');
+  }
+
+  // public_key - computed: true, optional: false, required: false
+  public get publicKey() {
+    return this.getStringAttribute('public_key');
+  }
+
+  // self_signed - computed: true, optional: false, required: false
+  public get selfSigned() {
+    return this.getStringAttribute('self_signed');
+  }
+
+  // serial_number - computed: true, optional: false, required: false
+  public get serialNumber() {
+    return this.getStringAttribute('serial_number');
+  }
+
+  // signature - computed: true, optional: false, required: false
+  public get signature() {
+    return this.getStringAttribute('signature');
+  }
+
+  // signature_algorithm - computed: true, optional: false, required: false
+  public get signatureAlgorithm() {
+    return this.getStringAttribute('signature_algorithm');
+  }
+
+  // subject - computed: true, optional: false, required: false
+  private _subject = new DataAviHardwaresecuritymodulegroupCaCertsSubjectList(this, "subject", true);
+  public get subject() {
+    return this._subject;
+  }
+
+  // subject_alt_names - computed: true, optional: false, required: false
+  public get subjectAltNames() {
+    return this.getListAttribute('subject_alt_names');
+  }
+
+  // text - computed: true, optional: false, required: false
+  public get text() {
+    return this.getStringAttribute('text');
+  }
+
+  // version - computed: true, optional: false, required: false
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+}
+
+export class DataAviHardwaresecuritymodulegroupCaCertsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviHardwaresecuritymodulegroupCaCertsOutputReference {
+    return new DataAviHardwaresecuritymodulegroupCaCertsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataAviHardwaresecuritymodulegroupConfigpbAttributes {
 }
@@ -1022,7 +1733,7 @@ export class DataAviHardwaresecuritymodulegroupMarkersList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/hardwaresecuritymodulegroup avi_hardwaresecuritymodulegroup}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/hardwaresecuritymodulegroup avi_hardwaresecuritymodulegroup}
 */
 export class DataAviHardwaresecuritymodulegroup extends cdktf.TerraformDataSource {
 
@@ -1038,7 +1749,7 @@ export class DataAviHardwaresecuritymodulegroup extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataAviHardwaresecuritymodulegroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviHardwaresecuritymodulegroup to import
-  * @param importFromId The id of the existing DataAviHardwaresecuritymodulegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/hardwaresecuritymodulegroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviHardwaresecuritymodulegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/hardwaresecuritymodulegroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviHardwaresecuritymodulegroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1050,7 +1761,7 @@ export class DataAviHardwaresecuritymodulegroup extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/hardwaresecuritymodulegroup avi_hardwaresecuritymodulegroup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/hardwaresecuritymodulegroup avi_hardwaresecuritymodulegroup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1061,8 +1772,8 @@ export class DataAviHardwaresecuritymodulegroup extends cdktf.TerraformDataSourc
       terraformResourceType: 'avi_hardwaresecuritymodulegroup',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1081,6 +1792,12 @@ export class DataAviHardwaresecuritymodulegroup extends cdktf.TerraformDataSourc
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // ca_certs - computed: true, optional: false, required: false
+  private _caCerts = new DataAviHardwaresecuritymodulegroupCaCertsList(this, "ca_certs", false);
+  public get caCerts() {
+    return this._caCerts;
+  }
 
   // configpb_attributes - computed: true, optional: false, required: false
   private _configpbAttributes = new DataAviHardwaresecuritymodulegroupConfigpbAttributesList(this, "configpb_attributes", true);

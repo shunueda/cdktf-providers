@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface TrustedhostprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile#id Trustedhostprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile#id Trustedhostprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile#name Trustedhostprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile#name Trustedhostprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile#tenant_ref Trustedhostprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile#tenant_ref Trustedhostprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile#uuid Trustedhostprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile#uuid Trustedhostprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile#configpb_attributes Trustedhostprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile#configpb_attributes Trustedhostprofile#configpb_attributes}
   */
   readonly configpbAttributes?: TrustedhostprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile#hosts Trustedhostprofile#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile#hosts Trustedhostprofile#hosts}
   */
   readonly hosts: TrustedhostprofileHosts[] | cdktf.IResolvable;
 }
 export interface TrustedhostprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile#version Trustedhostprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile#version Trustedhostprofile#version}
   */
   readonly version?: string;
 }
@@ -157,11 +157,11 @@ export class TrustedhostprofileConfigpbAttributesList extends cdktf.ComplexList 
 }
 export interface TrustedhostprofileHostsHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile#addr Trustedhostprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile#addr Trustedhostprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile#type Trustedhostprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile#type Trustedhostprofile#type}
   */
   readonly type: string;
 }
@@ -300,13 +300,13 @@ export class TrustedhostprofileHostsHostList extends cdktf.ComplexList {
 }
 export interface TrustedhostprofileHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile#port Trustedhostprofile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile#port Trustedhostprofile#port}
   */
   readonly port?: string;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile#host Trustedhostprofile#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile#host Trustedhostprofile#host}
   */
   readonly host: TrustedhostprofileHostsHost[] | cdktf.IResolvable;
 }
@@ -448,7 +448,7 @@ export class TrustedhostprofileHostsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile avi_trustedhostprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile avi_trustedhostprofile}
 */
 export class Trustedhostprofile extends cdktf.TerraformResource {
 
@@ -464,7 +464,7 @@ export class Trustedhostprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Trustedhostprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Trustedhostprofile to import
-  * @param importFromId The id of the existing Trustedhostprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Trustedhostprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Trustedhostprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -476,7 +476,7 @@ export class Trustedhostprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/trustedhostprofile avi_trustedhostprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/trustedhostprofile avi_trustedhostprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -487,7 +487,8 @@ export class Trustedhostprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_trustedhostprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface CustomipamdnsprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#id Customipamdnsprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#id Customipamdnsprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#name Customipamdnsprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#name Customipamdnsprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#script_uri Customipamdnsprofile#script_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#script_uri Customipamdnsprofile#script_uri}
   */
   readonly scriptUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#tenant_ref Customipamdnsprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#tenant_ref Customipamdnsprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#uuid Customipamdnsprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#uuid Customipamdnsprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#configpb_attributes Customipamdnsprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#configpb_attributes Customipamdnsprofile#configpb_attributes}
   */
   readonly configpbAttributes?: CustomipamdnsprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * script_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#script_params Customipamdnsprofile#script_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#script_params Customipamdnsprofile#script_params}
   */
   readonly scriptParams?: CustomipamdnsprofileScriptParams[] | cdktf.IResolvable;
 }
 export interface CustomipamdnsprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#version Customipamdnsprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#version Customipamdnsprofile#version}
   */
   readonly version?: string;
 }
@@ -161,19 +161,19 @@ export class CustomipamdnsprofileConfigpbAttributesList extends cdktf.ComplexLis
 }
 export interface CustomipamdnsprofileScriptParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#is_dynamic Customipamdnsprofile#is_dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#is_dynamic Customipamdnsprofile#is_dynamic}
   */
   readonly isDynamic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#is_sensitive Customipamdnsprofile#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#is_sensitive Customipamdnsprofile#is_sensitive}
   */
   readonly isSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#name Customipamdnsprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#name Customipamdnsprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#value Customipamdnsprofile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#value Customipamdnsprofile#value}
   */
   readonly value?: string;
 }
@@ -373,7 +373,7 @@ export class CustomipamdnsprofileScriptParamsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile avi_customipamdnsprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile avi_customipamdnsprofile}
 */
 export class Customipamdnsprofile extends cdktf.TerraformResource {
 
@@ -389,7 +389,7 @@ export class Customipamdnsprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Customipamdnsprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Customipamdnsprofile to import
-  * @param importFromId The id of the existing Customipamdnsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Customipamdnsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Customipamdnsprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class Customipamdnsprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/customipamdnsprofile avi_customipamdnsprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/customipamdnsprofile avi_customipamdnsprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class Customipamdnsprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_customipamdnsprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

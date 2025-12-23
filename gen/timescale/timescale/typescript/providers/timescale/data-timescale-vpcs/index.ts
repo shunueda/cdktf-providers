@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/data-sources/vpcs
+// https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/data-sources/vpcs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -276,7 +276,7 @@ export class DataTimescaleVpcsVpcsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/data-sources/vpcs timescale_vpcs}
+* Represents a {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/data-sources/vpcs timescale_vpcs}
 */
 export class DataTimescaleVpcs extends cdktf.TerraformDataSource {
 
@@ -292,7 +292,7 @@ export class DataTimescaleVpcs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTimescaleVpcs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTimescaleVpcs to import
-  * @param importFromId The id of the existing DataTimescaleVpcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/data-sources/vpcs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTimescaleVpcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/data-sources/vpcs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTimescaleVpcs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -304,7 +304,7 @@ export class DataTimescaleVpcs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/data-sources/vpcs timescale_vpcs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/data-sources/vpcs timescale_vpcs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -315,8 +315,8 @@ export class DataTimescaleVpcs extends cdktf.TerraformDataSource {
       terraformResourceType: 'timescale_vpcs',
       terraformGeneratorMetadata: {
         providerName: 'timescale',
-        providerVersion: '2.6.0',
-        providerVersionConstraint: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

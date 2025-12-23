@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DbDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of charset used for the database. Changing this creates a new database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database#charset DbDatabase#charset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database#charset DbDatabase#charset}
   */
   readonly charset?: string;
   /**
   * Collate option of the database.  Changing this creates a new database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database#collate DbDatabase#collate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database#collate DbDatabase#collate}
   */
   readonly collate?: string;
   /**
   * ID of the instance or cluster that database is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database#dbms_id DbDatabase#dbms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database#dbms_id DbDatabase#dbms_id}
   */
   readonly dbmsId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database#id DbDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database#id DbDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,29 +35,29 @@ export interface DbDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the database. Changing this creates a new database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database#name DbDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database#name DbDatabase#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database#timeouts DbDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database#timeouts DbDatabase#timeouts}
   */
   readonly timeouts?: DbDatabaseTimeouts;
   /**
   * vendor_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database#vendor_options DbDatabase#vendor_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database#vendor_options DbDatabase#vendor_options}
   */
   readonly vendorOptions?: DbDatabaseVendorOptions;
 }
 export interface DbDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database#create DbDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database#create DbDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database#delete DbDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database#delete DbDatabase#delete}
   */
   readonly delete?: string;
 }
@@ -182,7 +182,7 @@ export interface DbDatabaseVendorOptions {
   /**
   * Whether to try to force delete the database. Some datastores restricts regular database deletion in some circumstances but provides force deletion for that cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database#force_deletion DbDatabase#force_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database#force_deletion DbDatabase#force_deletion}
   */
   readonly forceDeletion?: boolean | cdktf.IResolvable;
 }
@@ -266,7 +266,7 @@ export class DbDatabaseVendorOptionsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database vkcs_db_database}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database vkcs_db_database}
 */
 export class DbDatabase extends cdktf.TerraformResource {
 
@@ -282,7 +282,7 @@ export class DbDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbDatabase to import
-  * @param importFromId The id of the existing DbDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class DbDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_database vkcs_db_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_database vkcs_db_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class DbDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_db_database',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

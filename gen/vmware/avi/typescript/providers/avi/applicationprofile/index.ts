@@ -4,6 +4,10 @@ import { ApplicationprofileConfigpbAttributes,
 applicationprofileConfigpbAttributesToTerraform, 
 applicationprofileConfigpbAttributesToHclTerraform, 
 ApplicationprofileConfigpbAttributesList, 
+ApplicationprofileDiameterServiceProfile, 
+applicationprofileDiameterServiceProfileToTerraform, 
+applicationprofileDiameterServiceProfileToHclTerraform, 
+ApplicationprofileDiameterServiceProfileList, 
 ApplicationprofileDnsServiceProfile, 
 applicationprofileDnsServiceProfileToTerraform, 
 applicationprofileDnsServiceProfileToHclTerraform, 
@@ -37,108 +41,114 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface ApplicationprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#app_service_type Applicationprofile#app_service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#app_service_type Applicationprofile#app_service_type}
   */
   readonly appServiceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#cloud_config_cksum Applicationprofile#cloud_config_cksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#cloud_config_cksum Applicationprofile#cloud_config_cksum}
   */
   readonly cloudConfigCksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#created_by Applicationprofile#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#created_by Applicationprofile#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#description Applicationprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#description Applicationprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#id Applicationprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#id Applicationprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#name Applicationprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#name Applicationprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#preserve_client_ip Applicationprofile#preserve_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#preserve_client_ip Applicationprofile#preserve_client_ip}
   */
   readonly preserveClientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#preserve_client_port Applicationprofile#preserve_client_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#preserve_client_port Applicationprofile#preserve_client_port}
   */
   readonly preserveClientPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#preserve_dest_ip_port Applicationprofile#preserve_dest_ip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#preserve_dest_ip_port Applicationprofile#preserve_dest_ip_port}
   */
   readonly preserveDestIpPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#tenant_ref Applicationprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#tenant_ref Applicationprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#type Applicationprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#type Applicationprofile#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#uuid Applicationprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#uuid Applicationprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#configpb_attributes Applicationprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#configpb_attributes Applicationprofile#configpb_attributes}
   */
   readonly configpbAttributes?: ApplicationprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
+  * diameter_service_profile block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#diameter_service_profile Applicationprofile#diameter_service_profile}
+  */
+  readonly diameterServiceProfile?: ApplicationprofileDiameterServiceProfile[] | cdktf.IResolvable;
+  /**
   * dns_service_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#dns_service_profile Applicationprofile#dns_service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#dns_service_profile Applicationprofile#dns_service_profile}
   */
   readonly dnsServiceProfile?: ApplicationprofileDnsServiceProfile[] | cdktf.IResolvable;
   /**
   * dos_rl_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#dos_rl_profile Applicationprofile#dos_rl_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#dos_rl_profile Applicationprofile#dos_rl_profile}
   */
   readonly dosRlProfile?: ApplicationprofileDosRlProfile[] | cdktf.IResolvable;
   /**
   * http_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#http_profile Applicationprofile#http_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#http_profile Applicationprofile#http_profile}
   */
   readonly httpProfile?: ApplicationprofileHttpProfile[] | cdktf.IResolvable;
   /**
   * l4_ssl_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#l4_ssl_profile Applicationprofile#l4_ssl_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#l4_ssl_profile Applicationprofile#l4_ssl_profile}
   */
   readonly l4SslProfile?: ApplicationprofileL4SslProfile[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#markers Applicationprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#markers Applicationprofile#markers}
   */
   readonly markers?: ApplicationprofileMarkers[] | cdktf.IResolvable;
   /**
   * sip_service_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#sip_service_profile Applicationprofile#sip_service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#sip_service_profile Applicationprofile#sip_service_profile}
   */
   readonly sipServiceProfile?: ApplicationprofileSipServiceProfile[] | cdktf.IResolvable;
   /**
   * tcp_app_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#tcp_app_profile Applicationprofile#tcp_app_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#tcp_app_profile Applicationprofile#tcp_app_profile}
   */
   readonly tcpAppProfile?: ApplicationprofileTcpAppProfile[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile avi_applicationprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile avi_applicationprofile}
 */
 export class Applicationprofile extends cdktf.TerraformResource {
 
@@ -154,7 +164,7 @@ export class Applicationprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Applicationprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Applicationprofile to import
-  * @param importFromId The id of the existing Applicationprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Applicationprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Applicationprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +176,7 @@ export class Applicationprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationprofile avi_applicationprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/applicationprofile avi_applicationprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +187,8 @@ export class Applicationprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_applicationprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -201,6 +211,7 @@ export class Applicationprofile extends cdktf.TerraformResource {
     this._type = config.type;
     this._uuid = config.uuid;
     this._configpbAttributes.internalValue = config.configpbAttributes;
+    this._diameterServiceProfile.internalValue = config.diameterServiceProfile;
     this._dnsServiceProfile.internalValue = config.dnsServiceProfile;
     this._dosRlProfile.internalValue = config.dosRlProfile;
     this._httpProfile.internalValue = config.httpProfile;
@@ -416,6 +427,22 @@ export class Applicationprofile extends cdktf.TerraformResource {
     return this._configpbAttributes.internalValue;
   }
 
+  // diameter_service_profile - computed: false, optional: true, required: false
+  private _diameterServiceProfile = new ApplicationprofileDiameterServiceProfileList(this, "diameter_service_profile", true);
+  public get diameterServiceProfile() {
+    return this._diameterServiceProfile;
+  }
+  public putDiameterServiceProfile(value: ApplicationprofileDiameterServiceProfile[] | cdktf.IResolvable) {
+    this._diameterServiceProfile.internalValue = value;
+  }
+  public resetDiameterServiceProfile() {
+    this._diameterServiceProfile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diameterServiceProfileInput() {
+    return this._diameterServiceProfile.internalValue;
+  }
+
   // dns_service_profile - computed: false, optional: true, required: false
   private _dnsServiceProfile = new ApplicationprofileDnsServiceProfileList(this, "dns_service_profile", true);
   public get dnsServiceProfile() {
@@ -547,6 +574,7 @@ export class Applicationprofile extends cdktf.TerraformResource {
       type: cdktf.stringToTerraform(this._type),
       uuid: cdktf.stringToTerraform(this._uuid),
       configpb_attributes: cdktf.listMapper(applicationprofileConfigpbAttributesToTerraform, true)(this._configpbAttributes.internalValue),
+      diameter_service_profile: cdktf.listMapper(applicationprofileDiameterServiceProfileToTerraform, true)(this._diameterServiceProfile.internalValue),
       dns_service_profile: cdktf.listMapper(applicationprofileDnsServiceProfileToTerraform, true)(this._dnsServiceProfile.internalValue),
       dos_rl_profile: cdktf.listMapper(applicationprofileDosRlProfileToTerraform, true)(this._dosRlProfile.internalValue),
       http_profile: cdktf.listMapper(applicationprofileHttpProfileToTerraform, true)(this._httpProfile.internalValue),
@@ -636,6 +664,12 @@ export class Applicationprofile extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "ApplicationprofileConfigpbAttributesList",
+      },
+      diameter_service_profile: {
+        value: cdktf.listMapperHcl(applicationprofileDiameterServiceProfileToHclTerraform, true)(this._diameterServiceProfile.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ApplicationprofileDiameterServiceProfileList",
       },
       dns_service_profile: {
         value: cdktf.listMapperHcl(applicationprofileDnsServiceProfileToHclTerraform, true)(this._dnsServiceProfile.internalValue),

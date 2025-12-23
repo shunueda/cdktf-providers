@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface VcenterserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#cloud_ref Vcenterserver#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#cloud_ref Vcenterserver#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#id Vcenterserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#id Vcenterserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#name Vcenterserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#name Vcenterserver#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#tenant_ref Vcenterserver#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#tenant_ref Vcenterserver#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#uuid Vcenterserver#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#uuid Vcenterserver#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#vcenter_credentials_ref Vcenterserver#vcenter_credentials_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#vcenter_credentials_ref Vcenterserver#vcenter_credentials_ref}
   */
   readonly vcenterCredentialsRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#vcenter_url Vcenterserver#vcenter_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#vcenter_url Vcenterserver#vcenter_url}
   */
   readonly vcenterUrl?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#configpb_attributes Vcenterserver#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#configpb_attributes Vcenterserver#configpb_attributes}
   */
   readonly configpbAttributes?: VcenterserverConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * content_lib block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#content_lib Vcenterserver#content_lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#content_lib Vcenterserver#content_lib}
   */
   readonly contentLib?: VcenterserverContentLib[] | cdktf.IResolvable;
 }
 export interface VcenterserverConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#version Vcenterserver#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#version Vcenterserver#version}
   */
   readonly version?: string;
 }
@@ -169,14 +169,14 @@ export class VcenterserverConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface VcenterserverContentLib {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#id Vcenterserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#id Vcenterserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#name Vcenterserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#name Vcenterserver#name}
   */
   readonly name?: string;
 }
@@ -321,7 +321,7 @@ export class VcenterserverContentLibList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver avi_vcenterserver}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver avi_vcenterserver}
 */
 export class Vcenterserver extends cdktf.TerraformResource {
 
@@ -337,7 +337,7 @@ export class Vcenterserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vcenterserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vcenterserver to import
-  * @param importFromId The id of the existing Vcenterserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vcenterserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vcenterserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -349,7 +349,7 @@ export class Vcenterserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vcenterserver avi_vcenterserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vcenterserver avi_vcenterserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -360,8 +360,8 @@ export class Vcenterserver extends cdktf.TerraformResource {
       terraformResourceType: 'avi_vcenterserver',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/server
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/server#id DataAviServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/server#id DataAviServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/server#ip DataAviServer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/server#ip DataAviServer#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/server#pool_ref DataAviServer#pool_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/server#pool_ref DataAviServer#pool_ref}
   */
   readonly poolRef: string;
 }
@@ -522,9 +522,94 @@ export class DataAviServerLocationList extends cdktf.ComplexList {
     return new DataAviServerLocationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAviServerSrvRdata {
+}
+
+export function dataAviServerSrvRdataToTerraform(struct?: DataAviServerSrvRdata): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviServerSrvRdataToHclTerraform(struct?: DataAviServerSrvRdata): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviServerSrvRdataOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviServerSrvRdata | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviServerSrvRdata | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // port - computed: true, optional: false, required: false
+  public get port() {
+    return this.getStringAttribute('port');
+  }
+
+  // priority - computed: true, optional: false, required: false
+  public get priority() {
+    return this.getStringAttribute('priority');
+  }
+
+  // weight - computed: true, optional: false, required: false
+  public get weight() {
+    return this.getStringAttribute('weight');
+  }
+}
+
+export class DataAviServerSrvRdataList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviServerSrvRdataOutputReference {
+    return new DataAviServerSrvRdataOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/server avi_server}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/server avi_server}
 */
 export class DataAviServer extends cdktf.TerraformDataSource {
 
@@ -540,7 +625,7 @@ export class DataAviServer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviServer to import
-  * @param importFromId The id of the existing DataAviServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +637,7 @@ export class DataAviServer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/server avi_server} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/server avi_server} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +648,8 @@ export class DataAviServer extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_server',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -617,6 +702,11 @@ export class DataAviServer extends cdktf.TerraformDataSource {
   // external_uuid - computed: true, optional: false, required: false
   public get externalUuid() {
     return this.getStringAttribute('external_uuid');
+  }
+
+  // health_monitor_refs - computed: true, optional: false, required: false
+  public get healthMonitorRefs() {
+    return this.getListAttribute('health_monitor_refs');
   }
 
   // hostname - computed: true, optional: false, required: false
@@ -715,6 +805,12 @@ export class DataAviServer extends cdktf.TerraformDataSource {
   // server_node - computed: true, optional: false, required: false
   public get serverNode() {
     return this.getStringAttribute('server_node');
+  }
+
+  // srv_rdata - computed: true, optional: false, required: false
+  private _srvRdata = new DataAviServerSrvRdataList(this, "srv_rdata", true);
+  public get srvRdata() {
+    return this._srvRdata;
   }
 
   // static - computed: true, optional: false, required: false

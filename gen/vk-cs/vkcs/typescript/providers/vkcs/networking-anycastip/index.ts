@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface NetworkingAnycastipConfig extends cdktf.TerraformMetaArguments 
   /**
   * List of port associations with anycast IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip#associations NetworkingAnycastip#associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip#associations NetworkingAnycastip#associations}
   */
   readonly associations?: NetworkingAnycastipAssociations[] | cdktf.IResolvable;
   /**
   * Description of the anycast IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip#description NetworkingAnycastip#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip#description NetworkingAnycastip#description}
   */
   readonly description?: string;
   /**
   * Health check settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip#health_check NetworkingAnycastip#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip#health_check NetworkingAnycastip#health_check}
   */
   readonly healthCheck?: NetworkingAnycastipHealthCheck;
   /**
   * Name of the anycast IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip#name NetworkingAnycastip#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip#name NetworkingAnycastip#name}
   */
   readonly name?: string;
   /**
   * ID of the external network to choose ip for anycast IP from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip#network_id NetworkingAnycastip#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip#network_id NetworkingAnycastip#network_id}
   */
   readonly networkId: string;
   /**
   * The region in which to obtain the Networking client. If omitted, the `region` argument of the provider is used. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip#region NetworkingAnycastip#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip#region NetworkingAnycastip#region}
   */
   readonly region?: string;
 }
@@ -48,7 +48,7 @@ export interface NetworkingAnycastipAssociations {
   /**
   * ID of port / dc interface / octavia loadbalancer vip port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip#id NetworkingAnycastip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip#id NetworkingAnycastip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ export interface NetworkingAnycastipAssociations {
   /**
   * Type of association. Can be one of: port, dc_interface, octavia.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip#type NetworkingAnycastip#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip#type NetworkingAnycastip#type}
   */
   readonly type: string;
 }
@@ -198,13 +198,13 @@ export interface NetworkingAnycastipHealthCheck {
   /**
   * Port for check to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip#port NetworkingAnycastip#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip#port NetworkingAnycastip#port}
   */
   readonly port?: number;
   /**
   * Check type. Can be one of: TCP, ICMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip#type NetworkingAnycastip#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip#type NetworkingAnycastip#type}
   */
   readonly type?: string;
 }
@@ -327,7 +327,7 @@ export class NetworkingAnycastipHealthCheckOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip vkcs_networking_anycastip}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip vkcs_networking_anycastip}
 */
 export class NetworkingAnycastip extends cdktf.TerraformResource {
 
@@ -343,7 +343,7 @@ export class NetworkingAnycastip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingAnycastip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingAnycastip to import
-  * @param importFromId The id of the existing NetworkingAnycastip that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingAnycastip that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingAnycastip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -355,7 +355,7 @@ export class NetworkingAnycastip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_anycastip vkcs_networking_anycastip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_anycastip vkcs_networking_anycastip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -366,8 +366,8 @@ export class NetworkingAnycastip extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_networking_anycastip',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway_subnet_group
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway_subnet_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SpokeGatewaySubnetGroupConfig extends cdktf.TerraformMetaArgume
   /**
   * Spoke gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway_subnet_group#gw_name SpokeGatewaySubnetGroup#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway_subnet_group#gw_name SpokeGatewaySubnetGroup#gw_name}
   */
   readonly gwName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway_subnet_group#id SpokeGatewaySubnetGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway_subnet_group#id SpokeGatewaySubnetGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface SpokeGatewaySubnetGroupConfig extends cdktf.TerraformMetaArgume
   /**
   * Subnet group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway_subnet_group#name SpokeGatewaySubnetGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway_subnet_group#name SpokeGatewaySubnetGroup#name}
   */
   readonly name: string;
   /**
   * A set of subnets in the subnet group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway_subnet_group#subnets SpokeGatewaySubnetGroup#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway_subnet_group#subnets SpokeGatewaySubnetGroup#subnets}
   */
   readonly subnets?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway_subnet_group aviatrix_spoke_gateway_subnet_group}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway_subnet_group aviatrix_spoke_gateway_subnet_group}
 */
 export class SpokeGatewaySubnetGroup extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class SpokeGatewaySubnetGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SpokeGatewaySubnetGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SpokeGatewaySubnetGroup to import
-  * @param importFromId The id of the existing SpokeGatewaySubnetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway_subnet_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SpokeGatewaySubnetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway_subnet_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SpokeGatewaySubnetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class SpokeGatewaySubnetGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway_subnet_group aviatrix_spoke_gateway_subnet_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway_subnet_group aviatrix_spoke_gateway_subnet_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class SpokeGatewaySubnetGroup extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_spoke_gateway_subnet_group',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AwsTgwVpnConnConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique name of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#connection_name AwsTgwVpnConn#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#connection_name AwsTgwVpnConn#connection_name}
   */
   readonly connectionName: string;
   /**
   * Connection type. Valid values: 'dynamic', 'static'. 'dynamic' stands for a BGP VPN connection; 'static' stands for a static VPN connection. Default value: 'dynamic'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#connection_type AwsTgwVpnConn#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#connection_type AwsTgwVpnConn#connection_type}
   */
   readonly connectionType?: string;
   /**
   * Enable Global Acceleration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#enable_global_acceleration AwsTgwVpnConn#enable_global_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#enable_global_acceleration AwsTgwVpnConn#enable_global_acceleration}
   */
   readonly enableGlobalAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Switch to enable/disable encrypted transit approval for vpn connection. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#enable_learned_cidrs_approval AwsTgwVpnConn#enable_learned_cidrs_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#enable_learned_cidrs_approval AwsTgwVpnConn#enable_learned_cidrs_approval}
   */
   readonly enableLearnedCidrsApproval?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#id AwsTgwVpnConn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#id AwsTgwVpnConn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface AwsTgwVpnConnConfig extends cdktf.TerraformMetaArguments {
   /**
   * Inside IP CIDR for Tunnel 1. A /30 CIDR in 169.254.0.0/16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#inside_ip_cidr_tun_1 AwsTgwVpnConn#inside_ip_cidr_tun_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#inside_ip_cidr_tun_1 AwsTgwVpnConn#inside_ip_cidr_tun_1}
   */
   readonly insideIpCidrTun1?: string;
   /**
   * Inside IP CIDR for Tunnel 2. A /30 CIDR in 169.254.0.0/16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#inside_ip_cidr_tun_2 AwsTgwVpnConn#inside_ip_cidr_tun_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#inside_ip_cidr_tun_2 AwsTgwVpnConn#inside_ip_cidr_tun_2}
   */
   readonly insideIpCidrTun2?: string;
   /**
   * Pre-Shared Key for Tunnel 1. A 8-64 character string with alphanumeric, underscore(_) and dot(.). It cannot start with 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#pre_shared_key_tun_1 AwsTgwVpnConn#pre_shared_key_tun_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#pre_shared_key_tun_1 AwsTgwVpnConn#pre_shared_key_tun_1}
   */
   readonly preSharedKeyTun1?: string;
   /**
   * Pre-Shared Key for Tunnel 2. A 8-64 character string with alphanumeric, underscore(_) and dot(.). It cannot start with 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#pre_shared_key_tun_2 AwsTgwVpnConn#pre_shared_key_tun_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#pre_shared_key_tun_2 AwsTgwVpnConn#pre_shared_key_tun_2}
   */
   readonly preSharedKeyTun2?: string;
   /**
   * Public IP address. Example: '40.0.0.0'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#public_ip AwsTgwVpnConn#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#public_ip AwsTgwVpnConn#public_ip}
   */
   readonly publicIp: string;
   /**
   * AWS side as a number. Integer between 1-4294967294. Example: '12'. Required for a dynamic VPN connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#remote_as_number AwsTgwVpnConn#remote_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#remote_as_number AwsTgwVpnConn#remote_as_number}
   */
   readonly remoteAsNumber?: string;
   /**
   * Remote CIDRs joined as a string with ','. Required for a static VPN connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#remote_cidr AwsTgwVpnConn#remote_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#remote_cidr AwsTgwVpnConn#remote_cidr}
   */
   readonly remoteCidr?: string;
   /**
   * The name of a route domain, to which the vpn will be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#route_domain_name AwsTgwVpnConn#route_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#route_domain_name AwsTgwVpnConn#route_domain_name}
   */
   readonly routeDomainName: string;
   /**
   * This parameter represents the name of an AWS TGW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#tgw_name AwsTgwVpnConn#tgw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#tgw_name AwsTgwVpnConn#tgw_name}
   */
   readonly tgwName: string;
 }
@@ -205,7 +205,7 @@ export class AwsTgwVpnConnVpnTunnelDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn aviatrix_aws_tgw_vpn_conn}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn aviatrix_aws_tgw_vpn_conn}
 */
 export class AwsTgwVpnConn extends cdktf.TerraformResource {
 
@@ -221,7 +221,7 @@ export class AwsTgwVpnConn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsTgwVpnConn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsTgwVpnConn to import
-  * @param importFromId The id of the existing AwsTgwVpnConn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsTgwVpnConn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsTgwVpnConn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class AwsTgwVpnConn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpn_conn aviatrix_aws_tgw_vpn_conn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpn_conn aviatrix_aws_tgw_vpn_conn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class AwsTgwVpnConn extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_aws_tgw_vpn_conn',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

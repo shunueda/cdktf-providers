@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_partials
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/prompt_partials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PromptPartialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Content that goes at the end of the form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_partials#form_content_end PromptPartials#form_content_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/prompt_partials#form_content_end PromptPartials#form_content_end}
   */
   readonly formContentEnd?: string;
   /**
   * Content that goes at the start of the form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_partials#form_content_start PromptPartials#form_content_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/prompt_partials#form_content_start PromptPartials#form_content_start}
   */
   readonly formContentStart?: string;
   /**
   * Footer content for the end of the footer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_partials#form_footer_end PromptPartials#form_footer_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/prompt_partials#form_footer_end PromptPartials#form_footer_end}
   */
   readonly formFooterEnd?: string;
   /**
   * Footer content for the start of the footer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_partials#form_footer_start PromptPartials#form_footer_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/prompt_partials#form_footer_start PromptPartials#form_footer_start}
   */
   readonly formFooterStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_partials#id PromptPartials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/prompt_partials#id PromptPartials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface PromptPartialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The prompt that you are adding partials for. Options are: `login-id`, `login`, `login-password`, `signup`, `signup-id`, `signup-password`, `login-passwordless`, `customized-consent`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_partials#prompt PromptPartials#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/prompt_partials#prompt PromptPartials#prompt}
   */
   readonly prompt: string;
   /**
   * Actions that go at the end of secondary actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_partials#secondary_actions_end PromptPartials#secondary_actions_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/prompt_partials#secondary_actions_end PromptPartials#secondary_actions_end}
   */
   readonly secondaryActionsEnd?: string;
   /**
   * Actions that go at the start of secondary actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_partials#secondary_actions_start PromptPartials#secondary_actions_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/prompt_partials#secondary_actions_start PromptPartials#secondary_actions_start}
   */
   readonly secondaryActionsStart?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_partials auth0_prompt_partials}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/prompt_partials auth0_prompt_partials}
 */
 export class PromptPartials extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class PromptPartials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PromptPartials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PromptPartials to import
-  * @param importFromId The id of the existing PromptPartials that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_partials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PromptPartials that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/prompt_partials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PromptPartials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class PromptPartials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/prompt_partials auth0_prompt_partials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/prompt_partials auth0_prompt_partials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class PromptPartials extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_prompt_partials',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

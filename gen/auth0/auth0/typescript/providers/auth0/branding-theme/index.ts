@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface BrandingThemeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The display name for the branding theme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#display_name BrandingTheme#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#display_name BrandingTheme#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#id BrandingTheme#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#id BrandingTheme#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface BrandingThemeConfig extends cdktf.TerraformMetaArguments {
   /**
   * borders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#borders BrandingTheme#borders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#borders BrandingTheme#borders}
   */
   readonly borders: BrandingThemeBorders;
   /**
   * colors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#colors BrandingTheme#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#colors BrandingTheme#colors}
   */
   readonly colors: BrandingThemeColors;
   /**
   * fonts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#fonts BrandingTheme#fonts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#fonts BrandingTheme#fonts}
   */
   readonly fonts: BrandingThemeFonts;
   /**
   * page_background block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#page_background BrandingTheme#page_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#page_background BrandingTheme#page_background}
   */
   readonly pageBackground: BrandingThemePageBackground;
   /**
   * widget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#widget BrandingTheme#widget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#widget BrandingTheme#widget}
   */
   readonly widget: BrandingThemeWidget;
 }
@@ -55,55 +55,55 @@ export interface BrandingThemeBorders {
   /**
   * Button border radius. Value needs to be between `1` and `10`. Defaults to `3.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#button_border_radius BrandingTheme#button_border_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#button_border_radius BrandingTheme#button_border_radius}
   */
   readonly buttonBorderRadius?: number;
   /**
   * Button border weight. Value needs to be between `0` and `10`. Defaults to `1.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#button_border_weight BrandingTheme#button_border_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#button_border_weight BrandingTheme#button_border_weight}
   */
   readonly buttonBorderWeight?: number;
   /**
   * Buttons style. Available options: `pill`, `rounded`, `sharp`. Defaults to `rounded`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#buttons_style BrandingTheme#buttons_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#buttons_style BrandingTheme#buttons_style}
   */
   readonly buttonsStyle?: string;
   /**
   * Input border radius. Value needs to be between `0` and `10`. Defaults to `3.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#input_border_radius BrandingTheme#input_border_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#input_border_radius BrandingTheme#input_border_radius}
   */
   readonly inputBorderRadius?: number;
   /**
   * Input border weight. Value needs to be between `0` and `3`. Defaults to `1.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#input_border_weight BrandingTheme#input_border_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#input_border_weight BrandingTheme#input_border_weight}
   */
   readonly inputBorderWeight?: number;
   /**
   * Inputs style. Available options: `pill`, `rounded`, `sharp`. Defaults to `rounded`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#inputs_style BrandingTheme#inputs_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#inputs_style BrandingTheme#inputs_style}
   */
   readonly inputsStyle?: string;
   /**
   * Show widget shadow. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#show_widget_shadow BrandingTheme#show_widget_shadow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#show_widget_shadow BrandingTheme#show_widget_shadow}
   */
   readonly showWidgetShadow?: boolean | cdktf.IResolvable;
   /**
   * Widget border weight. Value needs to be between `0` and `10`. Defaults to `0.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#widget_border_weight BrandingTheme#widget_border_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#widget_border_weight BrandingTheme#widget_border_weight}
   */
   readonly widgetBorderWeight?: number;
   /**
   * Widget corner radius. Value needs to be between `0` and `50`. Defaults to `5.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#widget_corner_radius BrandingTheme#widget_corner_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#widget_corner_radius BrandingTheme#widget_corner_radius}
   */
   readonly widgetCornerRadius?: number;
 }
@@ -421,115 +421,115 @@ export interface BrandingThemeColors {
   /**
   * Base focus color. Defaults to `#635dff`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#base_focus_color BrandingTheme#base_focus_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#base_focus_color BrandingTheme#base_focus_color}
   */
   readonly baseFocusColor?: string;
   /**
   * Base hover color. Defaults to `#000000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#base_hover_color BrandingTheme#base_hover_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#base_hover_color BrandingTheme#base_hover_color}
   */
   readonly baseHoverColor?: string;
   /**
   * Body text. Defaults to `#1e212a`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#body_text BrandingTheme#body_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#body_text BrandingTheme#body_text}
   */
   readonly bodyText?: string;
   /**
   * Captcha Widget Theme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#captcha_widget_theme BrandingTheme#captcha_widget_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#captcha_widget_theme BrandingTheme#captcha_widget_theme}
   */
   readonly captchaWidgetTheme?: string;
   /**
   * Error. Defaults to `#d03c38`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#error BrandingTheme#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#error BrandingTheme#error}
   */
   readonly error?: string;
   /**
   * Header. Defaults to `#1e212a`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#header BrandingTheme#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#header BrandingTheme#header}
   */
   readonly header?: string;
   /**
   * Icons. Defaults to `#65676e`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#icons BrandingTheme#icons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#icons BrandingTheme#icons}
   */
   readonly icons?: string;
   /**
   * Input background. Defaults to `#ffffff`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#input_background BrandingTheme#input_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#input_background BrandingTheme#input_background}
   */
   readonly inputBackground?: string;
   /**
   * Input border. Defaults to `#c9cace`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#input_border BrandingTheme#input_border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#input_border BrandingTheme#input_border}
   */
   readonly inputBorder?: string;
   /**
   * Input filled text. Defaults to `#000000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#input_filled_text BrandingTheme#input_filled_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#input_filled_text BrandingTheme#input_filled_text}
   */
   readonly inputFilledText?: string;
   /**
   * Input labels & placeholders. Defaults to `#65676e`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#input_labels_placeholders BrandingTheme#input_labels_placeholders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#input_labels_placeholders BrandingTheme#input_labels_placeholders}
   */
   readonly inputLabelsPlaceholders?: string;
   /**
   * Links & focused components. Defaults to `#635dff`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#links_focused_components BrandingTheme#links_focused_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#links_focused_components BrandingTheme#links_focused_components}
   */
   readonly linksFocusedComponents?: string;
   /**
   * Primary button. Defaults to `#635dff`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#primary_button BrandingTheme#primary_button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#primary_button BrandingTheme#primary_button}
   */
   readonly primaryButton?: string;
   /**
   * Primary button label. Defaults to `#ffffff`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#primary_button_label BrandingTheme#primary_button_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#primary_button_label BrandingTheme#primary_button_label}
   */
   readonly primaryButtonLabel?: string;
   /**
   * Secondary button border. Defaults to `#c9cace`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#secondary_button_border BrandingTheme#secondary_button_border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#secondary_button_border BrandingTheme#secondary_button_border}
   */
   readonly secondaryButtonBorder?: string;
   /**
   * Secondary button label. Defaults to `#1e212a`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#secondary_button_label BrandingTheme#secondary_button_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#secondary_button_label BrandingTheme#secondary_button_label}
   */
   readonly secondaryButtonLabel?: string;
   /**
   * Success. Defaults to `#13a688`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#success BrandingTheme#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#success BrandingTheme#success}
   */
   readonly success?: string;
   /**
   * Widget background. Defaults to `#ffffff`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#widget_background BrandingTheme#widget_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#widget_background BrandingTheme#widget_background}
   */
   readonly widgetBackground?: string;
   /**
   * Widget border. Defaults to `#c9cace`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#widget_border BrandingTheme#widget_border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#widget_border BrandingTheme#widget_border}
   */
   readonly widgetBorder?: string;
 }
@@ -1137,13 +1137,13 @@ export interface BrandingThemeFontsBodyText {
   /**
   * Body text bold. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#bold BrandingTheme#bold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#bold BrandingTheme#bold}
   */
   readonly bold?: boolean | cdktf.IResolvable;
   /**
   * Body text size. Value needs to be between `0` and `150`. Defaults to `87.5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#size BrandingTheme#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#size BrandingTheme#size}
   */
   readonly size?: number;
 }
@@ -1258,13 +1258,13 @@ export interface BrandingThemeFontsButtonsText {
   /**
   * Buttons text bold. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#bold BrandingTheme#bold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#bold BrandingTheme#bold}
   */
   readonly bold?: boolean | cdktf.IResolvable;
   /**
   * Buttons text size. Value needs to be between `0` and `150`. Defaults to `100.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#size BrandingTheme#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#size BrandingTheme#size}
   */
   readonly size?: number;
 }
@@ -1379,13 +1379,13 @@ export interface BrandingThemeFontsInputLabels {
   /**
   * Input labels bold. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#bold BrandingTheme#bold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#bold BrandingTheme#bold}
   */
   readonly bold?: boolean | cdktf.IResolvable;
   /**
   * Input labels size. Value needs to be between `0` and `150`. Defaults to `100.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#size BrandingTheme#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#size BrandingTheme#size}
   */
   readonly size?: number;
 }
@@ -1500,13 +1500,13 @@ export interface BrandingThemeFontsLinks {
   /**
   * Links bold. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#bold BrandingTheme#bold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#bold BrandingTheme#bold}
   */
   readonly bold?: boolean | cdktf.IResolvable;
   /**
   * Links size. Value needs to be between `0` and `150`. Defaults to `87.5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#size BrandingTheme#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#size BrandingTheme#size}
   */
   readonly size?: number;
 }
@@ -1621,13 +1621,13 @@ export interface BrandingThemeFontsSubtitle {
   /**
   * Subtitle bold. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#bold BrandingTheme#bold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#bold BrandingTheme#bold}
   */
   readonly bold?: boolean | cdktf.IResolvable;
   /**
   * Subtitle size. Value needs to be between `0` and `150`. Defaults to `87.5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#size BrandingTheme#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#size BrandingTheme#size}
   */
   readonly size?: number;
 }
@@ -1742,13 +1742,13 @@ export interface BrandingThemeFontsTitle {
   /**
   * Title bold. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#bold BrandingTheme#bold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#bold BrandingTheme#bold}
   */
   readonly bold?: boolean | cdktf.IResolvable;
   /**
   * Title size. Value needs to be between `75` and `150`. Defaults to `150.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#size BrandingTheme#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#size BrandingTheme#size}
   */
   readonly size?: number;
 }
@@ -1863,55 +1863,55 @@ export interface BrandingThemeFonts {
   /**
   * Font URL. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#font_url BrandingTheme#font_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#font_url BrandingTheme#font_url}
   */
   readonly fontUrl?: string;
   /**
   * Links style. Defaults to `normal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#links_style BrandingTheme#links_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#links_style BrandingTheme#links_style}
   */
   readonly linksStyle?: string;
   /**
   * Reference text size. Value needs to be between `12` and `24`. Defaults to `16.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#reference_text_size BrandingTheme#reference_text_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#reference_text_size BrandingTheme#reference_text_size}
   */
   readonly referenceTextSize?: number;
   /**
   * body_text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#body_text BrandingTheme#body_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#body_text BrandingTheme#body_text}
   */
   readonly bodyText: BrandingThemeFontsBodyText;
   /**
   * buttons_text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#buttons_text BrandingTheme#buttons_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#buttons_text BrandingTheme#buttons_text}
   */
   readonly buttonsText: BrandingThemeFontsButtonsText;
   /**
   * input_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#input_labels BrandingTheme#input_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#input_labels BrandingTheme#input_labels}
   */
   readonly inputLabels: BrandingThemeFontsInputLabels;
   /**
   * links block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#links BrandingTheme#links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#links BrandingTheme#links}
   */
   readonly links: BrandingThemeFontsLinks;
   /**
   * subtitle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#subtitle BrandingTheme#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#subtitle BrandingTheme#subtitle}
   */
   readonly subtitle: BrandingThemeFontsSubtitle;
   /**
   * title block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#title BrandingTheme#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#title BrandingTheme#title}
   */
   readonly title: BrandingThemeFontsTitle;
 }
@@ -2211,19 +2211,19 @@ export interface BrandingThemePageBackground {
   /**
   * Background color. Defaults to `#000000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#background_color BrandingTheme#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#background_color BrandingTheme#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * Background image url. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#background_image_url BrandingTheme#background_image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#background_image_url BrandingTheme#background_image_url}
   */
   readonly backgroundImageUrl?: string;
   /**
   * Page layout. Available options: `center`, `left`, `right`. Defaults to `center`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#page_layout BrandingTheme#page_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#page_layout BrandingTheme#page_layout}
   */
   readonly pageLayout?: string;
 }
@@ -2367,31 +2367,31 @@ export interface BrandingThemeWidget {
   /**
   * Header text alignment. Available options: `center`, `left`, `right`. Defaults to `center`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#header_text_alignment BrandingTheme#header_text_alignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#header_text_alignment BrandingTheme#header_text_alignment}
   */
   readonly headerTextAlignment?: string;
   /**
   * Logo height. Value needs to be between `1` and `100`. Defaults to `52.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#logo_height BrandingTheme#logo_height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#logo_height BrandingTheme#logo_height}
   */
   readonly logoHeight?: number;
   /**
   * Logo position. Available options: `center`, `left`, `right`, `none`. Defaults to `center`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#logo_position BrandingTheme#logo_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#logo_position BrandingTheme#logo_position}
   */
   readonly logoPosition?: string;
   /**
   * Logo url. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#logo_url BrandingTheme#logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#logo_url BrandingTheme#logo_url}
   */
   readonly logoUrl?: string;
   /**
   * Social buttons layout. Available options: `bottom`, `top`. Defaults to `bottom`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#social_buttons_layout BrandingTheme#social_buttons_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#social_buttons_layout BrandingTheme#social_buttons_layout}
   */
   readonly socialButtonsLayout?: string;
 }
@@ -2591,7 +2591,7 @@ export class BrandingThemeWidgetOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme auth0_branding_theme}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme auth0_branding_theme}
 */
 export class BrandingTheme extends cdktf.TerraformResource {
 
@@ -2607,7 +2607,7 @@ export class BrandingTheme extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BrandingTheme resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BrandingTheme to import
-  * @param importFromId The id of the existing BrandingTheme that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BrandingTheme that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BrandingTheme to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2619,7 +2619,7 @@ export class BrandingTheme extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/branding_theme auth0_branding_theme} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/branding_theme auth0_branding_theme} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2630,8 +2630,8 @@ export class BrandingTheme extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_branding_theme',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

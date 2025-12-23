@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/host_info
+// https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/host_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,13 +17,13 @@ export interface HostInfoConfig extends cdktf.TerraformMetaArguments {
   * - `transport.ssh.passphrase` (String) a passphrase if the private key requires one
   * - `transport.ssh.passphrase_path` (String) a path to a file with the passphrase for the private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/host_info#transport HostInfo#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/host_info#transport HostInfo#transport}
   */
   readonly transport?: { [key: string]: any };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/host_info enos_host_info}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/host_info enos_host_info}
 */
 export class HostInfo extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class HostInfo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HostInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HostInfo to import
-  * @param importFromId The id of the existing HostInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/host_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HostInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/host_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HostInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class HostInfo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/host_info enos_host_info} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/host_info enos_host_info} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class HostInfo extends cdktf.TerraformResource {
       terraformResourceType: 'enos_host_info',
       terraformGeneratorMetadata: {
         providerName: 'enos',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

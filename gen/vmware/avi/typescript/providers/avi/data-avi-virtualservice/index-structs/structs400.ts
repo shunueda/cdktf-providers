@@ -1,9 +1,327 @@
 import * as cdktf from 'cdktf';
-import { DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesBeginList,
-DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesEndList,
-DataAviVirtualserviceVhMatchesRulesMatchesClientIpAddrsList,
-DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesList,
+import { DataAviVirtualserviceVhMatchesRulesMatchesClientIpAddrsList,
 DataAviVirtualserviceVhMatchesRulesMatchesBotDetectionResultList } from './structs0'
+export interface DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr {
+}
+
+export function dataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrToTerraform(struct?: DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrToHclTerraform(struct?: DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // addr - computed: true, optional: false, required: false
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrOutputReference {
+    return new DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixes {
+}
+
+export function dataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesToTerraform(struct?: DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesToHclTerraform(struct?: DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // ip_addr - computed: true, optional: false, required: false
+  private _ipAddr = new DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrList(this, "ip_addr", true);
+  public get ipAddr() {
+    return this._ipAddr;
+  }
+
+  // mask - computed: true, optional: false, required: false
+  public get mask() {
+    return this.getStringAttribute('mask');
+  }
+}
+
+export class DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesOutputReference {
+    return new DataAviVirtualserviceVhMatchesRulesMatchesClientIpPrefixesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesBegin {
+}
+
+export function dataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesBeginToTerraform(struct?: DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesBegin): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesBeginToHclTerraform(struct?: DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesBegin): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesBeginOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesBegin | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesBegin | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // addr - computed: true, optional: false, required: false
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesBeginList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesBeginOutputReference {
+    return new DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesBeginOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesEnd {
+}
+
+export function dataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesEndToTerraform(struct?: DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesEnd): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesEndToHclTerraform(struct?: DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesEnd): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesEndOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesEnd | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesEnd | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // addr - computed: true, optional: false, required: false
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesEndList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesEndOutputReference {
+    return new DataAviVirtualserviceVhMatchesRulesMatchesClientIpRangesEndOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataAviVirtualserviceVhMatchesRulesMatchesClientIpRanges {
 }
 
@@ -423,6 +741,11 @@ export class DataAviVirtualserviceVhMatchesRulesMatchesHdrsOutputReference exten
   // match_criteria - computed: true, optional: false, required: false
   public get matchCriteria() {
     return this.getStringAttribute('match_criteria');
+  }
+
+  // string_group_refs - computed: true, optional: false, required: false
+  public get stringGroupRefs() {
+    return this.getListAttribute('string_group_refs');
   }
 
   // value - computed: true, optional: false, required: false
@@ -2841,6 +3164,490 @@ export class DataAviVirtualserviceVipIpAddressList extends cdktf.ComplexList {
     return new DataAviVirtualserviceVipIpAddressOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeBegin {
+}
+
+export function dataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeBeginToTerraform(struct?: DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeBegin): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeBeginToHclTerraform(struct?: DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeBegin): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeBeginOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeBegin | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeBegin | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // addr - computed: true, optional: false, required: false
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeBeginList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeBeginOutputReference {
+    return new DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeBeginOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeEnd {
+}
+
+export function dataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeEndToTerraform(struct?: DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeEnd): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeEndToHclTerraform(struct?: DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeEnd): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeEndOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeEnd | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeEnd | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // addr - computed: true, optional: false, required: false
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeEndList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeEndOutputReference {
+    return new DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeEndOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviVirtualserviceVipIpamNetworkSubnetIpv6Range {
+}
+
+export function dataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeToTerraform(struct?: DataAviVirtualserviceVipIpamNetworkSubnetIpv6Range): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeToHclTerraform(struct?: DataAviVirtualserviceVipIpamNetworkSubnetIpv6Range): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviVirtualserviceVipIpamNetworkSubnetIpv6Range | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviVirtualserviceVipIpamNetworkSubnetIpv6Range | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // begin - computed: true, optional: false, required: false
+  private _begin = new DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeBeginList(this, "begin", true);
+  public get begin() {
+    return this._begin;
+  }
+
+  // end - computed: true, optional: false, required: false
+  private _end = new DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeEndList(this, "end", true);
+  public get end() {
+    return this._end;
+  }
+}
+
+export class DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeOutputReference {
+    return new DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviVirtualserviceVipIpamNetworkSubnetRangeBegin {
+}
+
+export function dataAviVirtualserviceVipIpamNetworkSubnetRangeBeginToTerraform(struct?: DataAviVirtualserviceVipIpamNetworkSubnetRangeBegin): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviVirtualserviceVipIpamNetworkSubnetRangeBeginToHclTerraform(struct?: DataAviVirtualserviceVipIpamNetworkSubnetRangeBegin): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviVirtualserviceVipIpamNetworkSubnetRangeBeginOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviVirtualserviceVipIpamNetworkSubnetRangeBegin | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviVirtualserviceVipIpamNetworkSubnetRangeBegin | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // addr - computed: true, optional: false, required: false
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataAviVirtualserviceVipIpamNetworkSubnetRangeBeginList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviVirtualserviceVipIpamNetworkSubnetRangeBeginOutputReference {
+    return new DataAviVirtualserviceVipIpamNetworkSubnetRangeBeginOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviVirtualserviceVipIpamNetworkSubnetRangeEnd {
+}
+
+export function dataAviVirtualserviceVipIpamNetworkSubnetRangeEndToTerraform(struct?: DataAviVirtualserviceVipIpamNetworkSubnetRangeEnd): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviVirtualserviceVipIpamNetworkSubnetRangeEndToHclTerraform(struct?: DataAviVirtualserviceVipIpamNetworkSubnetRangeEnd): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviVirtualserviceVipIpamNetworkSubnetRangeEndOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviVirtualserviceVipIpamNetworkSubnetRangeEnd | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviVirtualserviceVipIpamNetworkSubnetRangeEnd | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // addr - computed: true, optional: false, required: false
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataAviVirtualserviceVipIpamNetworkSubnetRangeEndList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviVirtualserviceVipIpamNetworkSubnetRangeEndOutputReference {
+    return new DataAviVirtualserviceVipIpamNetworkSubnetRangeEndOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviVirtualserviceVipIpamNetworkSubnetRange {
+}
+
+export function dataAviVirtualserviceVipIpamNetworkSubnetRangeToTerraform(struct?: DataAviVirtualserviceVipIpamNetworkSubnetRange): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviVirtualserviceVipIpamNetworkSubnetRangeToHclTerraform(struct?: DataAviVirtualserviceVipIpamNetworkSubnetRange): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviVirtualserviceVipIpamNetworkSubnetRangeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviVirtualserviceVipIpamNetworkSubnetRange | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviVirtualserviceVipIpamNetworkSubnetRange | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // begin - computed: true, optional: false, required: false
+  private _begin = new DataAviVirtualserviceVipIpamNetworkSubnetRangeBeginList(this, "begin", true);
+  public get begin() {
+    return this._begin;
+  }
+
+  // end - computed: true, optional: false, required: false
+  private _end = new DataAviVirtualserviceVipIpamNetworkSubnetRangeEndList(this, "end", true);
+  public get end() {
+    return this._end;
+  }
+}
+
+export class DataAviVirtualserviceVipIpamNetworkSubnetRangeList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviVirtualserviceVipIpamNetworkSubnetRangeOutputReference {
+    return new DataAviVirtualserviceVipIpamNetworkSubnetRangeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataAviVirtualserviceVipIpamNetworkSubnetSubnetIpAddr {
 }
 
@@ -3214,9 +4021,21 @@ export class DataAviVirtualserviceVipIpamNetworkSubnetOutputReference extends cd
     }
   }
 
+  // ipv6_range - computed: true, optional: false, required: false
+  private _ipv6Range = new DataAviVirtualserviceVipIpamNetworkSubnetIpv6RangeList(this, "ipv6_range", true);
+  public get ipv6Range() {
+    return this._ipv6Range;
+  }
+
   // network_ref - computed: true, optional: false, required: false
   public get networkRef() {
     return this.getStringAttribute('network_ref');
+  }
+
+  // range - computed: true, optional: false, required: false
+  private _range = new DataAviVirtualserviceVipIpamNetworkSubnetRangeList(this, "range", true);
+  public get range() {
+    return this._range;
   }
 
   // subnet - computed: true, optional: false, required: false

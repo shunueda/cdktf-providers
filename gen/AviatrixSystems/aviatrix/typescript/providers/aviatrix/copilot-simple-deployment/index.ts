@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CopilotSimpleDeploymentConfig extends cdktf.TerraformMetaArgume
   /**
   * Aviatrix access account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment#account_name CopilotSimpleDeployment#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment#account_name CopilotSimpleDeployment#account_name}
   */
   readonly accountName: string;
   /**
   * Cloud type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment#cloud_type CopilotSimpleDeployment#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment#cloud_type CopilotSimpleDeployment#cloud_type}
   */
   readonly cloudType: number;
   /**
   * Controller service account password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment#controller_service_account_password CopilotSimpleDeployment#controller_service_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment#controller_service_account_password CopilotSimpleDeployment#controller_service_account_password}
   */
   readonly controllerServiceAccountPassword: string;
   /**
   * Controller service account username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment#controller_service_account_username CopilotSimpleDeployment#controller_service_account_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment#controller_service_account_username CopilotSimpleDeployment#controller_service_account_username}
   */
   readonly controllerServiceAccountUsername: string;
   /**
   * Data volume size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment#data_volume_size CopilotSimpleDeployment#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment#data_volume_size CopilotSimpleDeployment#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment#id CopilotSimpleDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment#id CopilotSimpleDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface CopilotSimpleDeploymentConfig extends cdktf.TerraformMetaArgume
   /**
   * Instance size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment#instance_size CopilotSimpleDeployment#instance_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment#instance_size CopilotSimpleDeployment#instance_size}
   */
   readonly instanceSize?: string;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment#region CopilotSimpleDeployment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment#region CopilotSimpleDeployment#region}
   */
   readonly region: string;
   /**
   * Subnet CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment#subnet CopilotSimpleDeployment#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment#subnet CopilotSimpleDeployment#subnet}
   */
   readonly subnet: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment#vpc_id CopilotSimpleDeployment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment#vpc_id CopilotSimpleDeployment#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment aviatrix_copilot_simple_deployment}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment aviatrix_copilot_simple_deployment}
 */
 export class CopilotSimpleDeployment extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class CopilotSimpleDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CopilotSimpleDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CopilotSimpleDeployment to import
-  * @param importFromId The id of the existing CopilotSimpleDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CopilotSimpleDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CopilotSimpleDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class CopilotSimpleDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_simple_deployment aviatrix_copilot_simple_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_simple_deployment aviatrix_copilot_simple_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class CopilotSimpleDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_copilot_simple_deployment',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

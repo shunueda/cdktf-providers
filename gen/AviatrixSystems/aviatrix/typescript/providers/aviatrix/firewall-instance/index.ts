@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,95 +10,95 @@ export interface FirewallInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Availability domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#availability_domain FirewallInstance#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#availability_domain FirewallInstance#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
   * Advanced option. Bootstrap bucket name. Only available for AWS and GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#bootstrap_bucket_name FirewallInstance#bootstrap_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#bootstrap_bucket_name FirewallInstance#bootstrap_bucket_name}
   */
   readonly bootstrapBucketName?: string;
   /**
   * Advanced option. Bootstrap storage name. Applicable to Azure and Palo Alto Networks VM-Series/Fortinet Series deployment only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#bootstrap_storage_name FirewallInstance#bootstrap_storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#bootstrap_storage_name FirewallInstance#bootstrap_storage_name}
   */
   readonly bootstrapStorageName?: string;
   /**
   * Advanced option. Bootstrap storage name. Applicable to Azure and Fortinet Series deployment only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#container_folder FirewallInstance#container_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#container_folder FirewallInstance#container_folder}
   */
   readonly containerFolder?: string;
   /**
   * Egress Interface Subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#egress_subnet FirewallInstance#egress_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#egress_subnet FirewallInstance#egress_subnet}
   */
   readonly egressSubnet: string;
   /**
   * Egress VPC ID. Required for GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#egress_vpc_id FirewallInstance#egress_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#egress_vpc_id FirewallInstance#egress_vpc_id}
   */
   readonly egressVpcId?: string;
   /**
   * Fault domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#fault_domain FirewallInstance#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#fault_domain FirewallInstance#fault_domain}
   */
   readonly faultDomain?: string;
   /**
   * Advanced option. File share folder. Applicable to Azure and Palo Alto Networks VM-Series deployment only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#file_share_folder FirewallInstance#file_share_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#file_share_folder FirewallInstance#file_share_folder}
   */
   readonly fileShareFolder?: string;
   /**
   * Name of the primary FireNet gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#firenet_gw_name FirewallInstance#firenet_gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#firenet_gw_name FirewallInstance#firenet_gw_name}
   */
   readonly firenetGwName?: string;
   /**
   * One of the AWS AMIs from Palo Alto Networks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#firewall_image FirewallInstance#firewall_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#firewall_image FirewallInstance#firewall_image}
   */
   readonly firewallImage: string;
   /**
   * Firewall image ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#firewall_image_id FirewallInstance#firewall_image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#firewall_image_id FirewallInstance#firewall_image_id}
   */
   readonly firewallImageId?: string;
   /**
   * Version of firewall image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#firewall_image_version FirewallInstance#firewall_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#firewall_image_version FirewallInstance#firewall_image_version}
   */
   readonly firewallImageVersion?: string;
   /**
   * Name of the firewall instance to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#firewall_name FirewallInstance#firewall_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#firewall_name FirewallInstance#firewall_name}
   */
   readonly firewallName: string;
   /**
   * Instance size of the firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#firewall_size FirewallInstance#firewall_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#firewall_size FirewallInstance#firewall_size}
   */
   readonly firewallSize: string;
   /**
   * Advanced option. IAM role. Only available for AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#iam_role FirewallInstance#iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#iam_role FirewallInstance#iam_role}
   */
   readonly iamRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#id FirewallInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#id FirewallInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,97 +107,97 @@ export interface FirewallInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Applicable to AWS deployment only. AWS Key Pair name. If not provided, a Key Pair will be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#key_name FirewallInstance#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#key_name FirewallInstance#key_name}
   */
   readonly keyName?: string;
   /**
   * Management Interface Subnet. Required for Palo Alto Networks VM-Series, and required to be empty for Check Point or Fortinet series.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#management_subnet FirewallInstance#management_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#management_subnet FirewallInstance#management_subnet}
   */
   readonly managementSubnet?: string;
   /**
   * Management VPC ID. Required for GCP Palo Alto Networks VM-Series. Required to be empty for GCP Check Point or Fortinet series.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#management_vpc_id FirewallInstance#management_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#management_vpc_id FirewallInstance#management_vpc_id}
   */
   readonly managementVpcId?: string;
   /**
   * Authentication method. Applicable to Azure deployment only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#password FirewallInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#password FirewallInstance#password}
   */
   readonly password?: string;
   /**
   * Advanced option. Bootstrap storage name. Applicable to Azure and Fortinet Series deployment only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#sas_url_config FirewallInstance#sas_url_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#sas_url_config FirewallInstance#sas_url_config}
   */
   readonly sasUrlConfig?: string;
   /**
   * Advanced option. Bootstrap storage name. Applicable to Azure and Fortinet Series deployment only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#sas_url_license FirewallInstance#sas_url_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#sas_url_license FirewallInstance#sas_url_license}
   */
   readonly sasUrlLicense?: string;
   /**
   * Advanced option. Share directory. Applicable to Azure and Palo Alto Networks VM-Series deployment only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#share_directory FirewallInstance#share_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#share_directory FirewallInstance#share_directory}
   */
   readonly shareDirectory?: string;
   /**
   * Advanced option. Bic key. Applicable to Azure and Check Point Series deployment only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#sic_key FirewallInstance#sic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#sic_key FirewallInstance#sic_key}
   */
   readonly sicKey?: string;
   /**
   * Authentication method. Applicable to Azure deployment only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#ssh_public_key FirewallInstance#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#ssh_public_key FirewallInstance#ssh_public_key}
   */
   readonly sshPublicKey?: string;
   /**
   * Advanced option. Storage access key. Applicable to Azure and Palo Alto Networks VM-Series deployment only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#storage_access_key FirewallInstance#storage_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#storage_access_key FirewallInstance#storage_access_key}
   */
   readonly storageAccessKey?: string;
   /**
   * A map of tags to assign to the firewall instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#tags FirewallInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#tags FirewallInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Advanced option. Bootstrap storage name. Applicable to Check Point Series and Fortinet Series deployment only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#user_data FirewallInstance#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#user_data FirewallInstance#user_data}
   */
   readonly userData?: string;
   /**
   * Applicable to Azure deployment only. 'admin' as a username is not accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#username FirewallInstance#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#username FirewallInstance#username}
   */
   readonly username?: string;
   /**
   * ID of the Security VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#vpc_id FirewallInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#vpc_id FirewallInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * Availability Zone. Only available for AWS, GCP and Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#zone FirewallInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#zone FirewallInstance#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance aviatrix_firewall_instance}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance aviatrix_firewall_instance}
 */
 export class FirewallInstance extends cdktf.TerraformResource {
 
@@ -213,7 +213,7 @@ export class FirewallInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallInstance to import
-  * @param importFromId The id of the existing FirewallInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +225,7 @@ export class FirewallInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_instance aviatrix_firewall_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_instance aviatrix_firewall_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +236,8 @@ export class FirewallInstance extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_firewall_instance',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/upgradestatussummary
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradestatussummary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviUpgradestatussummaryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/upgradestatussummary#id DataAviUpgradestatussummary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradestatussummary#id DataAviUpgradestatussummary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/upgradestatussummary#name DataAviUpgradestatussummary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradestatussummary#name DataAviUpgradestatussummary#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/upgradestatussummary#tenant_ref DataAviUpgradestatussummary#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradestatussummary#tenant_ref DataAviUpgradestatussummary#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/upgradestatussummary#uuid DataAviUpgradestatussummary#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradestatussummary#uuid DataAviUpgradestatussummary#uuid}
   */
   readonly uuid?: string;
 }
@@ -200,7 +200,7 @@ export class DataAviUpgradestatussummaryStateList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/upgradestatussummary avi_upgradestatussummary}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradestatussummary avi_upgradestatussummary}
 */
 export class DataAviUpgradestatussummary extends cdktf.TerraformDataSource {
 
@@ -216,7 +216,7 @@ export class DataAviUpgradestatussummary extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviUpgradestatussummary resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviUpgradestatussummary to import
-  * @param importFromId The id of the existing DataAviUpgradestatussummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/upgradestatussummary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviUpgradestatussummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradestatussummary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviUpgradestatussummary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class DataAviUpgradestatussummary extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/upgradestatussummary avi_upgradestatussummary} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradestatussummary avi_upgradestatussummary} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class DataAviUpgradestatussummary extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_upgradestatussummary',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/blockstorage_snapshot
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/blockstorage_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataVkcsBlockstorageSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/blockstorage_snapshot#id DataVkcsBlockstorageSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/blockstorage_snapshot#id DataVkcsBlockstorageSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataVkcsBlockstorageSnapshotConfig extends cdktf.TerraformMetaA
   /**
   * Pick the most recently created snapshot if there are multiple results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/blockstorage_snapshot#most_recent DataVkcsBlockstorageSnapshot#most_recent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/blockstorage_snapshot#most_recent DataVkcsBlockstorageSnapshot#most_recent}
   */
   readonly mostRecent?: boolean | cdktf.IResolvable;
   /**
   * The name of the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/blockstorage_snapshot#name DataVkcsBlockstorageSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/blockstorage_snapshot#name DataVkcsBlockstorageSnapshot#name}
   */
   readonly name?: string;
   /**
   * The region in which to obtain the Block Storage client. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/blockstorage_snapshot#region DataVkcsBlockstorageSnapshot#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/blockstorage_snapshot#region DataVkcsBlockstorageSnapshot#region}
   */
   readonly region?: string;
   /**
   * The status of the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/blockstorage_snapshot#status DataVkcsBlockstorageSnapshot#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/blockstorage_snapshot#status DataVkcsBlockstorageSnapshot#status}
   */
   readonly status?: string;
   /**
   * The ID of the snapshot's volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/blockstorage_snapshot#volume_id DataVkcsBlockstorageSnapshot#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/blockstorage_snapshot#volume_id DataVkcsBlockstorageSnapshot#volume_id}
   */
   readonly volumeId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/blockstorage_snapshot vkcs_blockstorage_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/blockstorage_snapshot vkcs_blockstorage_snapshot}
 */
 export class DataVkcsBlockstorageSnapshot extends cdktf.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataVkcsBlockstorageSnapshot extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsBlockstorageSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsBlockstorageSnapshot to import
-  * @param importFromId The id of the existing DataVkcsBlockstorageSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/blockstorage_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsBlockstorageSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/blockstorage_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsBlockstorageSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataVkcsBlockstorageSnapshot extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/blockstorage_snapshot vkcs_blockstorage_snapshot} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/blockstorage_snapshot vkcs_blockstorage_snapshot} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DataVkcsBlockstorageSnapshot extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_blockstorage_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

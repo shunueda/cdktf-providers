@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface NetworkingRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Administrative up/down status for the router (must be "true" or "false" if provided). Changing this updates the `admin_state_up` of an existing router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#admin_state_up NetworkingRouter#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#admin_state_up NetworkingRouter#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
   * Human-readable description for the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#description NetworkingRouter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#description NetworkingRouter#description}
   */
   readonly description?: string;
   /**
   * The network UUID of an external gateway for the router. A router with an external gateway is required if any compute instances or load balancers will be using floating IPs. Changing this updates the external gateway of the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#external_network_id NetworkingRouter#external_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#external_network_id NetworkingRouter#external_network_id}
   */
   readonly externalNetworkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#id NetworkingRouter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#id NetworkingRouter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface NetworkingRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * A unique name for the router. Changing this updates the `name` of an existing router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#name NetworkingRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#name NetworkingRouter#name}
   */
   readonly name?: string;
   /**
   * The region in which to obtain the networking client. A networking client is needed to create a router. If omitted, the `region` argument of the provider is used. Changing this creates a new router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#region NetworkingRouter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#region NetworkingRouter#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#sdn NetworkingRouter#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#sdn NetworkingRouter#sdn}
   */
   readonly sdn?: string;
   /**
   * A set of string tags for the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#tags NetworkingRouter#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#tags NetworkingRouter#tags}
   */
   readonly tags?: string[];
   /**
   * Map of additional driver-specific options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#value_specs NetworkingRouter#value_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#value_specs NetworkingRouter#value_specs}
   */
   readonly valueSpecs?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#timeouts NetworkingRouter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#timeouts NetworkingRouter#timeouts}
   */
   readonly timeouts?: NetworkingRouterTimeouts;
   /**
   * vendor_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#vendor_options NetworkingRouter#vendor_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#vendor_options NetworkingRouter#vendor_options}
   */
   readonly vendorOptions?: NetworkingRouterVendorOptions;
 }
@@ -157,11 +157,11 @@ export class NetworkingRouterExternalFixedIpsList extends cdktf.ComplexList {
 }
 export interface NetworkingRouterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#create NetworkingRouter#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#create NetworkingRouter#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#delete NetworkingRouter#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#delete NetworkingRouter#delete}
   */
   readonly delete?: string;
 }
@@ -286,7 +286,7 @@ export interface NetworkingRouterVendorOptions {
   /**
   * Boolean to control whether the Router gateway is assigned during creation or updated after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#set_router_gateway_after_create NetworkingRouter#set_router_gateway_after_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#set_router_gateway_after_create NetworkingRouter#set_router_gateway_after_create}
   */
   readonly setRouterGatewayAfterCreate?: boolean | cdktf.IResolvable;
 }
@@ -370,7 +370,7 @@ export class NetworkingRouterVendorOptionsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router vkcs_networking_router}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router vkcs_networking_router}
 */
 export class NetworkingRouter extends cdktf.TerraformResource {
 
@@ -386,7 +386,7 @@ export class NetworkingRouter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingRouter to import
-  * @param importFromId The id of the existing NetworkingRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -398,7 +398,7 @@ export class NetworkingRouter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router vkcs_networking_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_router vkcs_networking_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -409,8 +409,8 @@ export class NetworkingRouter extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_networking_router',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

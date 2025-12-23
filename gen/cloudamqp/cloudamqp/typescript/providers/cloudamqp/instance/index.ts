@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface InstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#id Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#id Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface InstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Keep associated VPC when deleting instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#keep_associated_vpc Instance#keep_associated_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#keep_associated_vpc Instance#keep_associated_vpc}
   */
   readonly keepAssociatedVpc?: boolean | cdktf.IResolvable;
   /**
   * Name of the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#name Instance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#name Instance#name}
   */
   readonly name: string;
   /**
   * Set to true to not create default alarms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#no_default_alarms Instance#no_default_alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#no_default_alarms Instance#no_default_alarms}
   */
   readonly noDefaultAlarms?: boolean | cdktf.IResolvable;
   /**
   * Number of nodes in cluster (plan must support it)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#nodes Instance#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#nodes Instance#nodes}
   */
   readonly nodes?: number;
   /**
   * Name of the plan, see documentation for valid plans
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#plan Instance#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#plan Instance#plan}
   */
   readonly plan: string;
   /**
   * Preferred availability zone for the instance(s), one entry per node in the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#preferred_az Instance#preferred_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#preferred_az Instance#preferred_az}
   */
   readonly preferredAz?: string[];
   /**
   * Name of the region you want to create your instance in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#region Instance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#region Instance#region}
   */
   readonly region: string;
   /**
   * RabbitMQ version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#rmq_version Instance#rmq_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#rmq_version Instance#rmq_version}
   */
   readonly rmqVersion?: string;
   /**
   * Tag the instances with optional tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#tags Instance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#tags Instance#tags}
   */
   readonly tags?: string[];
   /**
   * The ID of the VPC to create your instance in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#vpc_id Instance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#vpc_id Instance#vpc_id}
   */
   readonly vpcId?: number;
   /**
   * Dedicated VPC subnet, shouldn't overlap with your current VPC's subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#vpc_subnet Instance#vpc_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#vpc_subnet Instance#vpc_subnet}
   */
   readonly vpcSubnet?: string;
   /**
   * copy_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#copy_settings Instance#copy_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#copy_settings Instance#copy_settings}
   */
   readonly copySettings?: InstanceCopySettings[] | cdktf.IResolvable;
 }
@@ -91,13 +91,13 @@ export interface InstanceCopySettings {
   /**
   * Settings to be copied. [alarms, config, definitions, firewall, logs, metrics, plugins]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#settings Instance#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#settings Instance#settings}
   */
   readonly settings: string[];
   /**
   * Instance identifier of the CloudAMQP instance to copy settings from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#subscription_id Instance#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#subscription_id Instance#subscription_id}
   */
   readonly subscriptionId: string;
 }
@@ -236,7 +236,7 @@ export class InstanceCopySettingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance cloudamqp_instance}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance cloudamqp_instance}
 */
 export class Instance extends cdktf.TerraformResource {
 
@@ -252,7 +252,7 @@ export class Instance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Instance to import
-  * @param importFromId The id of the existing Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -264,7 +264,7 @@ export class Instance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/instance cloudamqp_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/instance cloudamqp_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,8 +275,8 @@ export class Instance extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_instance',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

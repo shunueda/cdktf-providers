@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GuardianConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether email MFA is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#email Guardian#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#email Guardian#email}
   */
   readonly email?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#id Guardian#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#id Guardian#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface GuardianConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether one time password MFA is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#otp Guardian#otp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#otp Guardian#otp}
   */
   readonly otp?: boolean | cdktf.IResolvable;
   /**
   * Policy to use. Available options are `never`, `all-applications` and `confidence-score`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#policy Guardian#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#policy Guardian#policy}
   */
   readonly policy: string;
   /**
   * Indicates whether recovery code MFA is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#recovery_code Guardian#recovery_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#recovery_code Guardian#recovery_code}
   */
   readonly recoveryCode?: boolean | cdktf.IResolvable;
   /**
   * duo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#duo Guardian#duo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#duo Guardian#duo}
   */
   readonly duo?: GuardianDuo;
   /**
   * phone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#phone Guardian#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#phone Guardian#phone}
   */
   readonly phone?: GuardianPhone;
   /**
   * push block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#push Guardian#push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#push Guardian#push}
   */
   readonly push?: GuardianPush;
   /**
   * webauthn_platform block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#webauthn_platform Guardian#webauthn_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#webauthn_platform Guardian#webauthn_platform}
   */
   readonly webauthnPlatform?: GuardianWebauthnPlatform;
   /**
   * webauthn_roaming block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#webauthn_roaming Guardian#webauthn_roaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#webauthn_roaming Guardian#webauthn_roaming}
   */
   readonly webauthnRoaming?: GuardianWebauthnRoaming;
 }
@@ -73,25 +73,25 @@ export interface GuardianDuo {
   /**
   * Indicates whether Duo MFA is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#enabled Guardian#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#enabled Guardian#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Duo API Hostname, see the Duo documentation for more details on Duo setup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#hostname Guardian#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#hostname Guardian#hostname}
   */
   readonly hostname?: string;
   /**
   * Duo client ID, see the Duo documentation for more details on Duo setup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#integration_key Guardian#integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#integration_key Guardian#integration_key}
   */
   readonly integrationKey?: string;
   /**
   * Duo client secret, see the Duo documentation for more details on Duo setup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#secret_key Guardian#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#secret_key Guardian#secret_key}
   */
   readonly secretKey?: string;
 }
@@ -261,37 +261,37 @@ export interface GuardianPhoneOptions {
   /**
   * AuthToken for your Twilio account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#auth_token Guardian#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#auth_token Guardian#auth_token}
   */
   readonly authToken?: string;
   /**
   * This message will be sent whenever a user enrolls a new device for the first time using MFA. Supports Liquid syntax, see [Auth0 docs](https://auth0.com/docs/customize/customize-sms-or-voice-messages).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#enrollment_message Guardian#enrollment_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#enrollment_message Guardian#enrollment_message}
   */
   readonly enrollmentMessage?: string;
   /**
   * Phone number to use as the sender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#from Guardian#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#from Guardian#from}
   */
   readonly from?: string;
   /**
   * Messaging service SID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#messaging_service_sid Guardian#messaging_service_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#messaging_service_sid Guardian#messaging_service_sid}
   */
   readonly messagingServiceSid?: string;
   /**
   * SID for your Twilio account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#sid Guardian#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#sid Guardian#sid}
   */
   readonly sid?: string;
   /**
   * This message will be sent whenever a user logs in after the enrollment. Supports Liquid syntax, see [Auth0 docs](https://auth0.com/docs/customize/customize-sms-or-voice-messages).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#verification_message Guardian#verification_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#verification_message Guardian#verification_message}
   */
   readonly verificationMessage?: string;
 }
@@ -522,25 +522,25 @@ export interface GuardianPhone {
   /**
   * Indicates whether Phone MFA is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#enabled Guardian#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#enabled Guardian#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Message types to use, array of `sms` and/or `voice`. Adding both to the array should enable the user to choose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#message_types Guardian#message_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#message_types Guardian#message_types}
   */
   readonly messageTypes?: string[];
   /**
   * Provider to use, one of `auth0`, `twilio` or `phone-message-hook`. Selecting `phone-message-hook` will require a Phone Message Action to be created before. [Learn how](https://auth0.com/docs/customize/actions/flows-and-triggers/send-phone-message-flow).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#provider Guardian#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#provider Guardian#provider}
   */
   readonly provider?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#options Guardian#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#options Guardian#options}
   */
   readonly options?: GuardianPhoneOptions;
 }
@@ -710,31 +710,31 @@ export interface GuardianPushAmazonSns {
   /**
   * Your AWS Access Key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#aws_access_key_id Guardian#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#aws_access_key_id Guardian#aws_access_key_id}
   */
   readonly awsAccessKeyId: string;
   /**
   * Your AWS application's region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#aws_region Guardian#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#aws_region Guardian#aws_region}
   */
   readonly awsRegion: string;
   /**
   * Your AWS Secret Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#aws_secret_access_key Guardian#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#aws_secret_access_key Guardian#aws_secret_access_key}
   */
   readonly awsSecretAccessKey: string;
   /**
   * The Amazon Resource Name for your Apple Push Notification Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#sns_apns_platform_application_arn Guardian#sns_apns_platform_application_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#sns_apns_platform_application_arn Guardian#sns_apns_platform_application_arn}
   */
   readonly snsApnsPlatformApplicationArn: string;
   /**
   * The Amazon Resource Name for your Firebase Cloud Messaging Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#sns_gcm_platform_application_arn Guardian#sns_gcm_platform_application_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#sns_gcm_platform_application_arn Guardian#sns_gcm_platform_application_arn}
   */
   readonly snsGcmPlatformApplicationArn: string;
 }
@@ -921,19 +921,19 @@ export interface GuardianPushCustomApp {
   /**
   * Custom Application Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#app_name Guardian#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#app_name Guardian#app_name}
   */
   readonly appName?: string;
   /**
   * Apple App Store URL. Must be HTTPS or an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#apple_app_link Guardian#apple_app_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#apple_app_link Guardian#apple_app_link}
   */
   readonly appleAppLink?: string;
   /**
   * Google Store URL. Must be HTTPS or an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#google_app_link Guardian#google_app_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#google_app_link Guardian#google_app_link}
   */
   readonly googleAppLink?: string;
 }
@@ -1077,25 +1077,25 @@ export interface GuardianPushDirectApns {
   /**
   * The Apple Push Notification service Bundle ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#bundle_id Guardian#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#bundle_id Guardian#bundle_id}
   */
   readonly bundleId: string;
   /**
   * Indicates whether the Apple Push Notification service is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#enabled Guardian#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#enabled Guardian#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The base64 encoded certificate in P12 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#p12 Guardian#p12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#p12 Guardian#p12}
   */
   readonly p12: string;
   /**
   * Set to true to use the sandbox iOS app environment, otherwise set to false to use the production iOS app environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#sandbox Guardian#sandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#sandbox Guardian#sandbox}
   */
   readonly sandbox: boolean | cdktf.IResolvable;
 }
@@ -1259,7 +1259,7 @@ export interface GuardianPushDirectFcm {
   /**
   * The Firebase Cloud Messaging Server Key. For security purposes, we don’t retrieve your existing FCM server key to check for drift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#server_key Guardian#server_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#server_key Guardian#server_key}
   */
   readonly serverKey: string;
 }
@@ -1342,37 +1342,37 @@ export interface GuardianPush {
   /**
   * Indicates whether Push MFA is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#enabled Guardian#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#enabled Guardian#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Provider to use, one of `direct`, `guardian`, `sns`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#provider Guardian#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#provider Guardian#provider}
   */
   readonly provider?: string;
   /**
   * amazon_sns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#amazon_sns Guardian#amazon_sns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#amazon_sns Guardian#amazon_sns}
   */
   readonly amazonSns?: GuardianPushAmazonSns;
   /**
   * custom_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#custom_app Guardian#custom_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#custom_app Guardian#custom_app}
   */
   readonly customApp?: GuardianPushCustomApp;
   /**
   * direct_apns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#direct_apns Guardian#direct_apns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#direct_apns Guardian#direct_apns}
   */
   readonly directApns?: GuardianPushDirectApns;
   /**
   * direct_fcm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#direct_fcm Guardian#direct_fcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#direct_fcm Guardian#direct_fcm}
   */
   readonly directFcm?: GuardianPushDirectFcm;
 }
@@ -1600,19 +1600,19 @@ export interface GuardianWebauthnPlatform {
   /**
   * Indicates whether WebAuthn with FIDO Device Biometrics MFA is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#enabled Guardian#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#enabled Guardian#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The Relying Party is the domain for which the WebAuthn keys will be issued, set to `true` if you are customizing the identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#override_relying_party Guardian#override_relying_party}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#override_relying_party Guardian#override_relying_party}
   */
   readonly overrideRelyingParty?: boolean | cdktf.IResolvable;
   /**
   * The Relying Party should be a suffix of the custom domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#relying_party_identifier Guardian#relying_party_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#relying_party_identifier Guardian#relying_party_identifier}
   */
   readonly relyingPartyIdentifier?: string;
 }
@@ -1753,25 +1753,25 @@ export interface GuardianWebauthnRoaming {
   /**
   * Indicates whether WebAuthn with FIDO Security Keys MFA is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#enabled Guardian#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#enabled Guardian#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The Relying Party is the domain for which the WebAuthn keys will be issued, set to `true` if you are customizing the identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#override_relying_party Guardian#override_relying_party}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#override_relying_party Guardian#override_relying_party}
   */
   readonly overrideRelyingParty?: boolean | cdktf.IResolvable;
   /**
   * The Relying Party should be a suffix of the custom domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#relying_party_identifier Guardian#relying_party_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#relying_party_identifier Guardian#relying_party_identifier}
   */
   readonly relyingPartyIdentifier?: string;
   /**
   * User verification, one of `discouraged`, `preferred` or `required`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#user_verification Guardian#user_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#user_verification Guardian#user_verification}
   */
   readonly userVerification?: string;
 }
@@ -1939,7 +1939,7 @@ export class GuardianWebauthnRoamingOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian auth0_guardian}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian auth0_guardian}
 */
 export class Guardian extends cdktf.TerraformResource {
 
@@ -1955,7 +1955,7 @@ export class Guardian extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Guardian resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Guardian to import
-  * @param importFromId The id of the existing Guardian that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Guardian that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Guardian to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1967,7 +1967,7 @@ export class Guardian extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/guardian auth0_guardian} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/guardian auth0_guardian} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1978,8 +1978,8 @@ export class Guardian extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_guardian',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ClientCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure the method to use when making requests to any endpoint that requires this client to authenticate. Options include `none` (public client without a client secret), `client_secret_post` (confidential client using HTTP POST parameters), `client_secret_basic` (confidential client using HTTP Basic), `private_key_jwt` (confidential client using a Private Key JWT), `tls_client_auth` (confidential client using CA-based mTLS authentication), `self_signed_tls_client_auth` (confidential client using mTLS authentication utilizing a self-signed certificate).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#authentication_method ClientCredentials#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#authentication_method ClientCredentials#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * The ID of the client for which to configure the authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#client_id ClientCredentials#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#client_id ClientCredentials#client_id}
   */
   readonly clientId: string;
   /**
   * Secret for the client when using `client_secret_post` or `client_secret_basic` authentication method. Keep this private. To access this attribute you need to add the `read:client_keys` scope to the Terraform client. Otherwise, the attribute will contain an empty string. The attribute will also be an empty string in case `private_key_jwt` is selected as an authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#client_secret ClientCredentials#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#client_secret ClientCredentials#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#id ClientCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#id ClientCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface ClientCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * private_key_jwt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#private_key_jwt ClientCredentials#private_key_jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#private_key_jwt ClientCredentials#private_key_jwt}
   */
   readonly privateKeyJwt?: ClientCredentialsPrivateKeyJwt;
   /**
   * self_signed_tls_client_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#self_signed_tls_client_auth ClientCredentials#self_signed_tls_client_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#self_signed_tls_client_auth ClientCredentials#self_signed_tls_client_auth}
   */
   readonly selfSignedTlsClientAuth?: ClientCredentialsSelfSignedTlsClientAuth;
   /**
   * signed_request_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#signed_request_object ClientCredentials#signed_request_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#signed_request_object ClientCredentials#signed_request_object}
   */
   readonly signedRequestObject?: ClientCredentialsSignedRequestObject;
   /**
   * tls_client_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#tls_client_auth ClientCredentials#tls_client_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#tls_client_auth ClientCredentials#tls_client_auth}
   */
   readonly tlsClientAuth?: ClientCredentialsTlsClientAuth;
 }
@@ -61,37 +61,37 @@ export interface ClientCredentialsPrivateKeyJwtCredentials {
   /**
   * Algorithm which will be used with the credential. Can be one of `RS256`, `RS384`, `PS256`. If not specified, `RS256` will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#algorithm ClientCredentials#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#algorithm ClientCredentials#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Credential type. Supported types: `public_key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#credential_type ClientCredentials#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#credential_type ClientCredentials#credential_type}
   */
   readonly credentialType: string;
   /**
   * The ISO 8601 formatted date representing the expiration of the credential. It is not possible to set this to never expire after it has been set. Recreate the certificate if needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#expires_at ClientCredentials#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#expires_at ClientCredentials#expires_at}
   */
   readonly expiresAt?: string;
   /**
   * Friendly name for a credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#name ClientCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#name ClientCredentials#name}
   */
   readonly name?: string;
   /**
   * Parse expiry from x509 certificate. If true, attempts to parse the expiry date from the provided PEM. If also the `expires_at` is set the credential expiry will be set to the explicit `expires_at` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#parse_expiry_from_cert ClientCredentials#parse_expiry_from_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#parse_expiry_from_cert ClientCredentials#parse_expiry_from_cert}
   */
   readonly parseExpiryFromCert?: boolean | cdktf.IResolvable;
   /**
   * PEM-formatted public key (SPKI and PKCS1) or X509 certificate. Must be JSON escaped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#pem ClientCredentials#pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#pem ClientCredentials#pem}
   */
   readonly pem: string;
 }
@@ -368,7 +368,7 @@ export interface ClientCredentialsPrivateKeyJwt {
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#credentials ClientCredentials#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#credentials ClientCredentials#credentials}
   */
   readonly credentials: ClientCredentialsPrivateKeyJwtCredentials[] | cdktf.IResolvable;
 }
@@ -451,19 +451,19 @@ export interface ClientCredentialsSelfSignedTlsClientAuthCredentials {
   /**
   * Credential type. Supported types: `x509_cert`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#credential_type ClientCredentials#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#credential_type ClientCredentials#credential_type}
   */
   readonly credentialType?: string;
   /**
   * Friendly name for a credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#name ClientCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#name ClientCredentials#name}
   */
   readonly name?: string;
   /**
   * PEM-formatted X509 certificate. Must be JSON escaped. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#pem ClientCredentials#pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#pem ClientCredentials#pem}
   */
   readonly pem: string;
 }
@@ -661,7 +661,7 @@ export interface ClientCredentialsSelfSignedTlsClientAuth {
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#credentials ClientCredentials#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#credentials ClientCredentials#credentials}
   */
   readonly credentials: ClientCredentialsSelfSignedTlsClientAuthCredentials[] | cdktf.IResolvable;
 }
@@ -744,37 +744,37 @@ export interface ClientCredentialsSignedRequestObjectCredentials {
   /**
   * Algorithm which will be used with the credential. Can be one of `RS256`, `RS384`, `PS256`. If not specified, `RS256` will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#algorithm ClientCredentials#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#algorithm ClientCredentials#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Credential type. Supported types: `public_key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#credential_type ClientCredentials#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#credential_type ClientCredentials#credential_type}
   */
   readonly credentialType: string;
   /**
   * The ISO 8601 formatted date representing the expiration of the credential. It is not possible to set this to never expire after it has been set. Recreate the certificate if needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#expires_at ClientCredentials#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#expires_at ClientCredentials#expires_at}
   */
   readonly expiresAt?: string;
   /**
   * Friendly name for a credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#name ClientCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#name ClientCredentials#name}
   */
   readonly name?: string;
   /**
   * Parse expiry from x509 certificate. If true, attempts to parse the expiry date from the provided PEM. If also the `expires_at` is set the credential expiry will be set to the explicit `expires_at` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#parse_expiry_from_cert ClientCredentials#parse_expiry_from_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#parse_expiry_from_cert ClientCredentials#parse_expiry_from_cert}
   */
   readonly parseExpiryFromCert?: boolean | cdktf.IResolvable;
   /**
   * PEM-formatted public key (SPKI and PKCS1) or X509 certificate. Must be JSON escaped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#pem ClientCredentials#pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#pem ClientCredentials#pem}
   */
   readonly pem: string;
 }
@@ -1051,13 +1051,13 @@ export interface ClientCredentialsSignedRequestObject {
   /**
   * Require JWT-secured authorization requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#required ClientCredentials#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#required ClientCredentials#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#credentials ClientCredentials#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#credentials ClientCredentials#credentials}
   */
   readonly credentials: ClientCredentialsSignedRequestObjectCredentials[] | cdktf.IResolvable;
 }
@@ -1169,25 +1169,25 @@ export interface ClientCredentialsTlsClientAuthCredentials {
   /**
   * Credential type. Supported types: `cert_subject_dn`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#credential_type ClientCredentials#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#credential_type ClientCredentials#credential_type}
   */
   readonly credentialType: string;
   /**
   * Friendly name for a credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#name ClientCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#name ClientCredentials#name}
   */
   readonly name?: string;
   /**
   * PEM-formatted X509 certificate. Must be JSON escaped. Mutually exlusive with `subject_dn` property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#pem ClientCredentials#pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#pem ClientCredentials#pem}
   */
   readonly pem?: string;
   /**
   * Subject Distinguished Name. Mutually exlusive with `pem` property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#subject_dn ClientCredentials#subject_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#subject_dn ClientCredentials#subject_dn}
   */
   readonly subjectDn?: string;
 }
@@ -1404,7 +1404,7 @@ export interface ClientCredentialsTlsClientAuth {
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#credentials ClientCredentials#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#credentials ClientCredentials#credentials}
   */
   readonly credentials: ClientCredentialsTlsClientAuthCredentials[] | cdktf.IResolvable;
 }
@@ -1485,7 +1485,7 @@ export class ClientCredentialsTlsClientAuthOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials auth0_client_credentials}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials auth0_client_credentials}
 */
 export class ClientCredentials extends cdktf.TerraformResource {
 
@@ -1501,7 +1501,7 @@ export class ClientCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClientCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClientCredentials to import
-  * @param importFromId The id of the existing ClientCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClientCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClientCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1513,7 +1513,7 @@ export class ClientCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/client_credentials auth0_client_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/client_credentials auth0_client_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1524,8 +1524,8 @@ export class ClientCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_client_credentials',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

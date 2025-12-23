@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DataVkcsImagesImagesConfig extends cdktf.TerraformMetaArguments
   /**
   * Date filter to select images with created_at matching the specified criteria. Value should be either RFC3339 formatted time or time filter in format `filter:time`, where `filter` is one of [eq, neq, gt, gte, lt, lte] and `time` is RFC3339 formatted time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images#created_at DataVkcsImagesImages#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images#created_at DataVkcsImagesImages#created_at}
   */
   readonly createdAt?: string;
   /**
   * The flag used to filter images based on whether they are available for virtual machine creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images#default DataVkcsImagesImages#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images#default DataVkcsImagesImages#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * The ID of the owner of images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images#owner DataVkcsImagesImages#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images#owner DataVkcsImagesImages#owner}
   */
   readonly owner?: string;
   /**
   * Search for images with specific properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images#properties DataVkcsImagesImages#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images#properties DataVkcsImagesImages#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The region in which to obtain the Images client. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images#region DataVkcsImagesImages#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images#region DataVkcsImagesImages#region}
   */
   readonly region?: string;
   /**
   * The maximum size (in bytes) of images to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images#size_max DataVkcsImagesImages#size_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images#size_max DataVkcsImagesImages#size_max}
   */
   readonly sizeMax?: number;
   /**
   * The minimum size (in bytes) of images to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images#size_min DataVkcsImagesImages#size_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images#size_min DataVkcsImagesImages#size_min}
   */
   readonly sizeMin?: number;
   /**
   * Search for images with specific tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images#tags DataVkcsImagesImages#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images#tags DataVkcsImagesImages#tags}
   */
   readonly tags?: string[];
   /**
   * Date filter to select images with updated_at matching the specified criteria. Value should be either RFC3339 formatted time or time filter in format `filter:time`, where `filter` is one of [eq, neq, gt, gte, lt, lte] and `time` is RFC3339 formatted time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images#updated_at DataVkcsImagesImages#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images#updated_at DataVkcsImagesImages#updated_at}
   */
   readonly updatedAt?: string;
   /**
   * The visibility of images. Must be one of "public", "private", "community", or "shared".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images#visibility DataVkcsImagesImages#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images#visibility DataVkcsImagesImages#visibility}
   */
   readonly visibility?: string;
 }
@@ -156,7 +156,7 @@ export class DataVkcsImagesImagesImagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images vkcs_images_images}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images vkcs_images_images}
 */
 export class DataVkcsImagesImages extends cdktf.TerraformDataSource {
 
@@ -172,7 +172,7 @@ export class DataVkcsImagesImages extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsImagesImages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsImagesImages to import
-  * @param importFromId The id of the existing DataVkcsImagesImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsImagesImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsImagesImages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class DataVkcsImagesImages extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_images vkcs_images_images} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/images_images vkcs_images_images} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class DataVkcsImagesImages extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_images_images',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

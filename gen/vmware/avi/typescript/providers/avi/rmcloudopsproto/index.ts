@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/rmcloudopsproto
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/rmcloudopsproto
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface RmcloudopsprotoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/rmcloudopsproto#id Rmcloudopsproto#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/rmcloudopsproto#id Rmcloudopsproto#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/rmcloudopsproto#last_queried_se_creation_limit Rmcloudopsproto#last_queried_se_creation_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/rmcloudopsproto#last_queried_se_creation_limit Rmcloudopsproto#last_queried_se_creation_limit}
   */
   readonly lastQueriedSeCreationLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/rmcloudopsproto#name Rmcloudopsproto#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/rmcloudopsproto#name Rmcloudopsproto#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/rmcloudopsproto#pending_se_creation_count Rmcloudopsproto#pending_se_creation_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/rmcloudopsproto#pending_se_creation_count Rmcloudopsproto#pending_se_creation_count}
   */
   readonly pendingSeCreationCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/rmcloudopsproto#pending_vnic_op_count Rmcloudopsproto#pending_vnic_op_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/rmcloudopsproto#pending_vnic_op_count Rmcloudopsproto#pending_vnic_op_count}
   */
   readonly pendingVnicOpCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/rmcloudopsproto#uuid Rmcloudopsproto#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/rmcloudopsproto#se_create_limit_reached Rmcloudopsproto#se_create_limit_reached}
+  */
+  readonly seCreateLimitReached?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/rmcloudopsproto#uuid Rmcloudopsproto#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/rmcloudopsproto avi_rmcloudopsproto}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/rmcloudopsproto avi_rmcloudopsproto}
 */
 export class Rmcloudopsproto extends cdktf.TerraformResource {
 
@@ -53,7 +57,7 @@ export class Rmcloudopsproto extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Rmcloudopsproto resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Rmcloudopsproto to import
-  * @param importFromId The id of the existing Rmcloudopsproto that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/rmcloudopsproto#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Rmcloudopsproto that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/rmcloudopsproto#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Rmcloudopsproto to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +69,7 @@ export class Rmcloudopsproto extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/rmcloudopsproto avi_rmcloudopsproto} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/rmcloudopsproto avi_rmcloudopsproto} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +80,8 @@ export class Rmcloudopsproto extends cdktf.TerraformResource {
       terraformResourceType: 'avi_rmcloudopsproto',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -92,6 +96,7 @@ export class Rmcloudopsproto extends cdktf.TerraformResource {
     this._name = config.name;
     this._pendingSeCreationCount = config.pendingSeCreationCount;
     this._pendingVnicOpCount = config.pendingVnicOpCount;
+    this._seCreateLimitReached = config.seCreateLimitReached;
     this._uuid = config.uuid;
   }
 
@@ -179,6 +184,22 @@ export class Rmcloudopsproto extends cdktf.TerraformResource {
     return this._pendingVnicOpCount;
   }
 
+  // se_create_limit_reached - computed: false, optional: true, required: false
+  private _seCreateLimitReached?: string; 
+  public get seCreateLimitReached() {
+    return this.getStringAttribute('se_create_limit_reached');
+  }
+  public set seCreateLimitReached(value: string) {
+    this._seCreateLimitReached = value;
+  }
+  public resetSeCreateLimitReached() {
+    this._seCreateLimitReached = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get seCreateLimitReachedInput() {
+    return this._seCreateLimitReached;
+  }
+
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -206,6 +227,7 @@ export class Rmcloudopsproto extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       pending_se_creation_count: cdktf.stringToTerraform(this._pendingSeCreationCount),
       pending_vnic_op_count: cdktf.stringToTerraform(this._pendingVnicOpCount),
+      se_create_limit_reached: cdktf.stringToTerraform(this._seCreateLimitReached),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -238,6 +260,12 @@ export class Rmcloudopsproto extends cdktf.TerraformResource {
       },
       pending_vnic_op_count: {
         value: cdktf.stringToHclTerraform(this._pendingVnicOpCount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      se_create_limit_reached: {
+        value: cdktf.stringToHclTerraform(this._seCreateLimitReached),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

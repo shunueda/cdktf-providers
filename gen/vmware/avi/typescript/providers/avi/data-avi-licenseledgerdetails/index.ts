@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/licenseledgerdetails
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/licenseledgerdetails
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,14 +8,14 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviLicenseledgerdetailsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/licenseledgerdetails#id DataAviLicenseledgerdetails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/licenseledgerdetails#id DataAviLicenseledgerdetails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/licenseledgerdetails#uuid DataAviLicenseledgerdetails#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/licenseledgerdetails#uuid DataAviLicenseledgerdetails#uuid}
   */
   readonly uuid?: string;
 }
@@ -114,6 +114,91 @@ export class DataAviLicenseledgerdetailsEscrowInfosList extends cdktf.ComplexLis
     return new DataAviLicenseledgerdetailsEscrowInfosOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAviLicenseledgerdetailsSeGroupInfos {
+}
+
+export function dataAviLicenseledgerdetailsSeGroupInfosToTerraform(struct?: DataAviLicenseledgerdetailsSeGroupInfos): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviLicenseledgerdetailsSeGroupInfosToHclTerraform(struct?: DataAviLicenseledgerdetailsSeGroupInfos): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviLicenseledgerdetailsSeGroupInfosOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviLicenseledgerdetailsSeGroupInfos | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviLicenseledgerdetailsSeGroupInfos | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // consumed - computed: true, optional: false, required: false
+  public get consumed() {
+    return this.getStringAttribute('consumed');
+  }
+
+  // escrow - computed: true, optional: false, required: false
+  public get escrow() {
+    return this.getStringAttribute('escrow');
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+
+export class DataAviLicenseledgerdetailsSeGroupInfosList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviLicenseledgerdetailsSeGroupInfosOutputReference {
+    return new DataAviLicenseledgerdetailsSeGroupInfosOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataAviLicenseledgerdetailsSeInfos {
 }
 
@@ -207,6 +292,86 @@ export class DataAviLicenseledgerdetailsSeInfosList extends cdktf.ComplexList {
   */
   public get(index: number): DataAviLicenseledgerdetailsSeInfosOutputReference {
     return new DataAviLicenseledgerdetailsSeInfosOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviLicenseledgerdetailsTenantInfos {
+}
+
+export function dataAviLicenseledgerdetailsTenantInfosToTerraform(struct?: DataAviLicenseledgerdetailsTenantInfos): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviLicenseledgerdetailsTenantInfosToHclTerraform(struct?: DataAviLicenseledgerdetailsTenantInfos): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviLicenseledgerdetailsTenantInfosOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviLicenseledgerdetailsTenantInfos | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviLicenseledgerdetailsTenantInfos | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // reserved - computed: true, optional: false, required: false
+  public get reserved() {
+    return this.getStringAttribute('reserved');
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+
+export class DataAviLicenseledgerdetailsTenantInfosList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviLicenseledgerdetailsTenantInfosOutputReference {
+    return new DataAviLicenseledgerdetailsTenantInfosOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataAviLicenseledgerdetailsTierUsagesUsage {
@@ -382,7 +547,7 @@ export class DataAviLicenseledgerdetailsTierUsagesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/licenseledgerdetails avi_licenseledgerdetails}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/licenseledgerdetails avi_licenseledgerdetails}
 */
 export class DataAviLicenseledgerdetails extends cdktf.TerraformDataSource {
 
@@ -398,7 +563,7 @@ export class DataAviLicenseledgerdetails extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviLicenseledgerdetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviLicenseledgerdetails to import
-  * @param importFromId The id of the existing DataAviLicenseledgerdetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/licenseledgerdetails#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviLicenseledgerdetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/licenseledgerdetails#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviLicenseledgerdetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -410,7 +575,7 @@ export class DataAviLicenseledgerdetails extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/licenseledgerdetails avi_licenseledgerdetails} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/licenseledgerdetails avi_licenseledgerdetails} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -421,8 +586,8 @@ export class DataAviLicenseledgerdetails extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_licenseledgerdetails',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -462,16 +627,33 @@ export class DataAviLicenseledgerdetails extends cdktf.TerraformDataSource {
     return this._id;
   }
 
+  // se_group_infos - computed: true, optional: false, required: false
+  private _seGroupInfos = new DataAviLicenseledgerdetailsSeGroupInfosList(this, "se_group_infos", false);
+  public get seGroupInfos() {
+    return this._seGroupInfos;
+  }
+
   // se_infos - computed: true, optional: false, required: false
   private _seInfos = new DataAviLicenseledgerdetailsSeInfosList(this, "se_infos", false);
   public get seInfos() {
     return this._seInfos;
   }
 
+  // tenant_infos - computed: true, optional: false, required: false
+  private _tenantInfos = new DataAviLicenseledgerdetailsTenantInfosList(this, "tenant_infos", false);
+  public get tenantInfos() {
+    return this._tenantInfos;
+  }
+
   // tier_usages - computed: true, optional: false, required: false
   private _tierUsages = new DataAviLicenseledgerdetailsTierUsagesList(this, "tier_usages", false);
   public get tierUsages() {
     return this._tierUsages;
+  }
+
+  // total_licenses_reserved - computed: true, optional: false, required: false
+  public get totalLicensesReserved() {
+    return this.getStringAttribute('total_licenses_reserved');
   }
 
   // uuid - computed: true, optional: true, required: false

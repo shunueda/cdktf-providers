@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dc_api_options
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dc_api_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVkcsDcApiOptionsConfig extends cdktf.TerraformMetaArguments
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dc_api_options#region DataVkcsDcApiOptions#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dc_api_options#region DataVkcsDcApiOptions#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dc_api_options vkcs_dc_api_options}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dc_api_options vkcs_dc_api_options}
 */
 export class DataVkcsDcApiOptions extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataVkcsDcApiOptions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsDcApiOptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsDcApiOptions to import
-  * @param importFromId The id of the existing DataVkcsDcApiOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dc_api_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsDcApiOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dc_api_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsDcApiOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataVkcsDcApiOptions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dc_api_options vkcs_dc_api_options} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dc_api_options vkcs_dc_api_options} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataVkcsDcApiOptions extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_dc_api_options',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

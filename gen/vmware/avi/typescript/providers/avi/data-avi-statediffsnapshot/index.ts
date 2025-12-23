@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/statediffsnapshot
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/statediffsnapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviStatediffsnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/statediffsnapshot#id DataAviStatediffsnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/statediffsnapshot#id DataAviStatediffsnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/statediffsnapshot#name DataAviStatediffsnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/statediffsnapshot#name DataAviStatediffsnapshot#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/statediffsnapshot#tenant_ref DataAviStatediffsnapshot#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/statediffsnapshot#tenant_ref DataAviStatediffsnapshot#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/statediffsnapshot#uuid DataAviStatediffsnapshot#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/statediffsnapshot#uuid DataAviStatediffsnapshot#uuid}
   */
   readonly uuid?: string;
 }
@@ -162,6 +162,21 @@ export class DataAviStatediffsnapshotPostSnapshotGssnapshotOperStatusOutputRefer
   private _lastChangedTime = new DataAviStatediffsnapshotPostSnapshotGssnapshotOperStatusLastChangedTimeList(this, "last_changed_time", true);
   public get lastChangedTime() {
     return this._lastChangedTime;
+  }
+
+  // num_vs_completed - computed: true, optional: false, required: false
+  public get numVsCompleted() {
+    return this.getStringAttribute('num_vs_completed');
+  }
+
+  // num_vs_failed - computed: true, optional: false, required: false
+  public get numVsFailed() {
+    return this.getStringAttribute('num_vs_failed');
+  }
+
+  // num_vs_total - computed: true, optional: false, required: false
+  public get numVsTotal() {
+    return this.getStringAttribute('num_vs_total');
   }
 
   // reason - computed: true, optional: false, required: false
@@ -416,6 +431,21 @@ export class DataAviStatediffsnapshotPostSnapshotPoolsnapshotOperStatusOutputRef
     return this._lastChangedTime;
   }
 
+  // num_vs_completed - computed: true, optional: false, required: false
+  public get numVsCompleted() {
+    return this.getStringAttribute('num_vs_completed');
+  }
+
+  // num_vs_failed - computed: true, optional: false, required: false
+  public get numVsFailed() {
+    return this.getStringAttribute('num_vs_failed');
+  }
+
+  // num_vs_total - computed: true, optional: false, required: false
+  public get numVsTotal() {
+    return this.getStringAttribute('num_vs_total');
+  }
+
   // reason - computed: true, optional: false, required: false
   public get reason() {
     return this.getListAttribute('reason');
@@ -668,6 +698,21 @@ export class DataAviStatediffsnapshotPostSnapshotSesnapshotOperStatusOutputRefer
     return this._lastChangedTime;
   }
 
+  // num_vs_completed - computed: true, optional: false, required: false
+  public get numVsCompleted() {
+    return this.getStringAttribute('num_vs_completed');
+  }
+
+  // num_vs_failed - computed: true, optional: false, required: false
+  public get numVsFailed() {
+    return this.getStringAttribute('num_vs_failed');
+  }
+
+  // num_vs_total - computed: true, optional: false, required: false
+  public get numVsTotal() {
+    return this.getStringAttribute('num_vs_total');
+  }
+
   // reason - computed: true, optional: false, required: false
   public get reason() {
     return this.getListAttribute('reason');
@@ -918,6 +963,21 @@ export class DataAviStatediffsnapshotPostSnapshotVssnapshotOperStatusOutputRefer
   private _lastChangedTime = new DataAviStatediffsnapshotPostSnapshotVssnapshotOperStatusLastChangedTimeList(this, "last_changed_time", true);
   public get lastChangedTime() {
     return this._lastChangedTime;
+  }
+
+  // num_vs_completed - computed: true, optional: false, required: false
+  public get numVsCompleted() {
+    return this.getStringAttribute('num_vs_completed');
+  }
+
+  // num_vs_failed - computed: true, optional: false, required: false
+  public get numVsFailed() {
+    return this.getStringAttribute('num_vs_failed');
+  }
+
+  // num_vs_total - computed: true, optional: false, required: false
+  public get numVsTotal() {
+    return this.getStringAttribute('num_vs_total');
   }
 
   // reason - computed: true, optional: false, required: false
@@ -1266,6 +1326,21 @@ export class DataAviStatediffsnapshotPreSnapshotGssnapshotOperStatusOutputRefere
     return this._lastChangedTime;
   }
 
+  // num_vs_completed - computed: true, optional: false, required: false
+  public get numVsCompleted() {
+    return this.getStringAttribute('num_vs_completed');
+  }
+
+  // num_vs_failed - computed: true, optional: false, required: false
+  public get numVsFailed() {
+    return this.getStringAttribute('num_vs_failed');
+  }
+
+  // num_vs_total - computed: true, optional: false, required: false
+  public get numVsTotal() {
+    return this.getStringAttribute('num_vs_total');
+  }
+
   // reason - computed: true, optional: false, required: false
   public get reason() {
     return this.getListAttribute('reason');
@@ -1516,6 +1591,21 @@ export class DataAviStatediffsnapshotPreSnapshotPoolsnapshotOperStatusOutputRefe
   private _lastChangedTime = new DataAviStatediffsnapshotPreSnapshotPoolsnapshotOperStatusLastChangedTimeList(this, "last_changed_time", true);
   public get lastChangedTime() {
     return this._lastChangedTime;
+  }
+
+  // num_vs_completed - computed: true, optional: false, required: false
+  public get numVsCompleted() {
+    return this.getStringAttribute('num_vs_completed');
+  }
+
+  // num_vs_failed - computed: true, optional: false, required: false
+  public get numVsFailed() {
+    return this.getStringAttribute('num_vs_failed');
+  }
+
+  // num_vs_total - computed: true, optional: false, required: false
+  public get numVsTotal() {
+    return this.getStringAttribute('num_vs_total');
   }
 
   // reason - computed: true, optional: false, required: false
@@ -1770,6 +1860,21 @@ export class DataAviStatediffsnapshotPreSnapshotSesnapshotOperStatusOutputRefere
     return this._lastChangedTime;
   }
 
+  // num_vs_completed - computed: true, optional: false, required: false
+  public get numVsCompleted() {
+    return this.getStringAttribute('num_vs_completed');
+  }
+
+  // num_vs_failed - computed: true, optional: false, required: false
+  public get numVsFailed() {
+    return this.getStringAttribute('num_vs_failed');
+  }
+
+  // num_vs_total - computed: true, optional: false, required: false
+  public get numVsTotal() {
+    return this.getStringAttribute('num_vs_total');
+  }
+
   // reason - computed: true, optional: false, required: false
   public get reason() {
     return this.getListAttribute('reason');
@@ -2022,6 +2127,21 @@ export class DataAviStatediffsnapshotPreSnapshotVssnapshotOperStatusOutputRefere
     return this._lastChangedTime;
   }
 
+  // num_vs_completed - computed: true, optional: false, required: false
+  public get numVsCompleted() {
+    return this.getStringAttribute('num_vs_completed');
+  }
+
+  // num_vs_failed - computed: true, optional: false, required: false
+  public get numVsFailed() {
+    return this.getStringAttribute('num_vs_failed');
+  }
+
+  // num_vs_total - computed: true, optional: false, required: false
+  public get numVsTotal() {
+    return this.getStringAttribute('num_vs_total');
+  }
+
   // reason - computed: true, optional: false, required: false
   public get reason() {
     return this.getListAttribute('reason');
@@ -2233,7 +2353,7 @@ export class DataAviStatediffsnapshotPreSnapshotList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/statediffsnapshot avi_statediffsnapshot}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/statediffsnapshot avi_statediffsnapshot}
 */
 export class DataAviStatediffsnapshot extends cdktf.TerraformDataSource {
 
@@ -2249,7 +2369,7 @@ export class DataAviStatediffsnapshot extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviStatediffsnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviStatediffsnapshot to import
-  * @param importFromId The id of the existing DataAviStatediffsnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/statediffsnapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviStatediffsnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/statediffsnapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviStatediffsnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2261,7 +2381,7 @@ export class DataAviStatediffsnapshot extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/statediffsnapshot avi_statediffsnapshot} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/statediffsnapshot avi_statediffsnapshot} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2272,8 +2392,8 @@ export class DataAviStatediffsnapshot extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_statediffsnapshot',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

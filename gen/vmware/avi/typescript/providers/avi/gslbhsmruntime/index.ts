@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface GslbhsmruntimeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#cluster_uuid Gslbhsmruntime#cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#cluster_uuid Gslbhsmruntime#cluster_uuid}
   */
   readonly clusterUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#enabled Gslbhsmruntime#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#enabled Gslbhsmruntime#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#id Gslbhsmruntime#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#id Gslbhsmruntime#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#name Gslbhsmruntime#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#name Gslbhsmruntime#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#obj_uuid Gslbhsmruntime#obj_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#obj_uuid Gslbhsmruntime#obj_uuid}
   */
   readonly objUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#send_interval Gslbhsmruntime#send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#send_interval Gslbhsmruntime#send_interval}
   */
   readonly sendInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#site_name Gslbhsmruntime#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#site_name Gslbhsmruntime#site_name}
   */
   readonly siteName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#tenant_ref Gslbhsmruntime#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#tenant_ref Gslbhsmruntime#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#uuid Gslbhsmruntime#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#uuid Gslbhsmruntime#uuid}
   */
   readonly uuid?: string;
   /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#events Gslbhsmruntime#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#events Gslbhsmruntime#events}
   */
   readonly events?: GslbhsmruntimeEvents[] | cdktf.IResolvable;
   /**
   * local_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#local_info Gslbhsmruntime#local_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#local_info Gslbhsmruntime#local_info}
   */
   readonly localInfo?: GslbhsmruntimeLocalInfo[] | cdktf.IResolvable;
   /**
   * oper_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#oper_status Gslbhsmruntime#oper_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#oper_status Gslbhsmruntime#oper_status}
   */
   readonly operStatus?: GslbhsmruntimeOperStatus[] | cdktf.IResolvable;
   /**
   * remote_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#remote_info Gslbhsmruntime#remote_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#remote_info Gslbhsmruntime#remote_info}
   */
   readonly remoteInfo?: GslbhsmruntimeRemoteInfo[] | cdktf.IResolvable;
 }
 export interface GslbhsmruntimeEventsTimestamp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
   */
   readonly usecs: string;
 }
@@ -216,21 +216,25 @@ export class GslbhsmruntimeEventsTimestampList extends cdktf.ComplexList {
 }
 export interface GslbhsmruntimeEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#msg Gslbhsmruntime#msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#agent_id Gslbhsmruntime#agent_id}
+  */
+  readonly agentId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#msg Gslbhsmruntime#msg}
   */
   readonly msg?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#name Gslbhsmruntime#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#name Gslbhsmruntime#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#uuid Gslbhsmruntime#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#uuid Gslbhsmruntime#uuid}
   */
   readonly uuid?: string;
   /**
   * timestamp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#timestamp Gslbhsmruntime#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#timestamp Gslbhsmruntime#timestamp}
   */
   readonly timestamp?: GslbhsmruntimeEventsTimestamp[] | cdktf.IResolvable;
 }
@@ -241,6 +245,7 @@ export function gslbhsmruntimeEventsToTerraform(struct?: GslbhsmruntimeEvents | 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    agent_id: cdktf.stringToTerraform(struct!.agentId),
     msg: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.msg),
     name: cdktf.stringToTerraform(struct!.name),
     uuid: cdktf.stringToTerraform(struct!.uuid),
@@ -255,6 +260,12 @@ export function gslbhsmruntimeEventsToHclTerraform(struct?: GslbhsmruntimeEvents
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    agent_id: {
+      value: cdktf.stringToHclTerraform(struct!.agentId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     msg: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.msg),
       isBlock: false,
@@ -305,6 +316,10 @@ export class GslbhsmruntimeEventsOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._agentId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentId = this._agentId;
+    }
     if (this._msg !== undefined) {
       hasAnyValues = true;
       internalValueResult.msg = this._msg;
@@ -328,6 +343,7 @@ export class GslbhsmruntimeEventsOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._agentId = undefined;
       this._msg = undefined;
       this._name = undefined;
       this._uuid = undefined;
@@ -340,11 +356,28 @@ export class GslbhsmruntimeEventsOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._agentId = value.agentId;
       this._msg = value.msg;
       this._name = value.name;
       this._uuid = value.uuid;
       this._timestamp.internalValue = value.timestamp;
     }
+  }
+
+  // agent_id - computed: true, optional: true, required: false
+  private _agentId?: string; 
+  public get agentId() {
+    return this.getStringAttribute('agent_id');
+  }
+  public set agentId(value: string) {
+    this._agentId = value;
+  }
+  public resetAgentId() {
+    this._agentId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentIdInput() {
+    return this._agentId;
   }
 
   // msg - computed: false, optional: true, required: false
@@ -433,11 +466,11 @@ export class GslbhsmruntimeEventsList extends cdktf.ComplexList {
 }
 export interface GslbhsmruntimeLocalInfoGsStatusLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
   */
   readonly usecs: string;
 }
@@ -576,25 +609,25 @@ export class GslbhsmruntimeLocalInfoGsStatusLastChangedTimeList extends cdktf.Co
 }
 export interface GslbhsmruntimeLocalInfoGsStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#num_partial_updates Gslbhsmruntime#num_partial_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#num_partial_updates Gslbhsmruntime#num_partial_updates}
   */
   readonly numPartialUpdates?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#partial_update_threshold Gslbhsmruntime#partial_update_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#partial_update_threshold Gslbhsmruntime#partial_update_threshold}
   */
   readonly partialUpdateThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#state Gslbhsmruntime#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#state Gslbhsmruntime#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#type Gslbhsmruntime#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#type Gslbhsmruntime#type}
   */
   readonly type?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#last_changed_time Gslbhsmruntime#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#last_changed_time Gslbhsmruntime#last_changed_time}
   */
   readonly lastChangedTime?: GslbhsmruntimeLocalInfoGsStatusLastChangedTime[] | cdktf.IResolvable;
 }
@@ -826,11 +859,11 @@ export class GslbhsmruntimeLocalInfoGsStatusList extends cdktf.ComplexList {
 }
 export interface GslbhsmruntimeLocalInfoGslbInfoReplStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
   */
   readonly usecs: string;
 }
@@ -969,11 +1002,11 @@ export class GslbhsmruntimeLocalInfoGslbInfoReplStateLastChangedTimeList extends
 }
 export interface GslbhsmruntimeLocalInfoGslbInfoReplStateLocalConfigVsgsInfoTimestamp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
   */
   readonly usecs: string;
 }
@@ -1112,17 +1145,17 @@ export class GslbhsmruntimeLocalInfoGslbInfoReplStateLocalConfigVsgsInfoTimestam
 }
 export interface GslbhsmruntimeLocalInfoGslbInfoReplStateLocalConfigVsgsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#dnsvs_uuid Gslbhsmruntime#dnsvs_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#dnsvs_uuid Gslbhsmruntime#dnsvs_uuid}
   */
   readonly dnsvsUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#ops Gslbhsmruntime#ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#ops Gslbhsmruntime#ops}
   */
   readonly ops?: string;
   /**
   * timestamp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#timestamp Gslbhsmruntime#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#timestamp Gslbhsmruntime#timestamp}
   */
   readonly timestamp?: GslbhsmruntimeLocalInfoGslbInfoReplStateLocalConfigVsgsInfoTimestamp[] | cdktf.IResolvable;
 }
@@ -1298,7 +1331,7 @@ export interface GslbhsmruntimeLocalInfoGslbInfoReplStateLocalConfig {
   /**
   * vsgs_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#vsgs_info Gslbhsmruntime#vsgs_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#vsgs_info Gslbhsmruntime#vsgs_info}
   */
   readonly vsgsInfo?: GslbhsmruntimeLocalInfoGslbInfoReplStateLocalConfigVsgsInfo[] | cdktf.IResolvable;
 }
@@ -1414,39 +1447,39 @@ export class GslbhsmruntimeLocalInfoGslbInfoReplStateLocalConfigList extends cdk
 }
 export interface GslbhsmruntimeLocalInfoGslbInfoReplState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#cfg_version Gslbhsmruntime#cfg_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#cfg_version Gslbhsmruntime#cfg_version}
   */
   readonly cfgVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#cfg_version_in_flight Gslbhsmruntime#cfg_version_in_flight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#cfg_version_in_flight Gslbhsmruntime#cfg_version_in_flight}
   */
   readonly cfgVersionInFlight?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#reason Gslbhsmruntime#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#reason Gslbhsmruntime#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#site_uuid Gslbhsmruntime#site_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#site_uuid Gslbhsmruntime#site_uuid}
   */
   readonly siteUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#status Gslbhsmruntime#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#status Gslbhsmruntime#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#uuid Gslbhsmruntime#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#uuid Gslbhsmruntime#uuid}
   */
   readonly uuid?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#last_changed_time Gslbhsmruntime#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#last_changed_time Gslbhsmruntime#last_changed_time}
   */
   readonly lastChangedTime?: GslbhsmruntimeLocalInfoGslbInfoReplStateLastChangedTime[] | cdktf.IResolvable;
   /**
   * local_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#local_config Gslbhsmruntime#local_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#local_config Gslbhsmruntime#local_config}
   */
   readonly localConfig?: GslbhsmruntimeLocalInfoGslbInfoReplStateLocalConfig[] | cdktf.IResolvable;
 }
@@ -1767,7 +1800,7 @@ export interface GslbhsmruntimeLocalInfoGslbInfo {
   /**
   * repl_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#repl_state Gslbhsmruntime#repl_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#repl_state Gslbhsmruntime#repl_state}
   */
   readonly replState?: GslbhsmruntimeLocalInfoGslbInfoReplState[] | cdktf.IResolvable;
 }
@@ -1885,13 +1918,13 @@ export interface GslbhsmruntimeLocalInfo {
   /**
   * gs_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#gs_status Gslbhsmruntime#gs_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#gs_status Gslbhsmruntime#gs_status}
   */
   readonly gsStatus?: GslbhsmruntimeLocalInfoGsStatus[] | cdktf.IResolvable;
   /**
   * gslb_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#gslb_info Gslbhsmruntime#gslb_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#gslb_info Gslbhsmruntime#gslb_info}
   */
   readonly gslbInfo?: GslbhsmruntimeLocalInfoGslbInfo[] | cdktf.IResolvable;
 }
@@ -2036,11 +2069,11 @@ export class GslbhsmruntimeLocalInfoList extends cdktf.ComplexList {
 }
 export interface GslbhsmruntimeOperStatusLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
   */
   readonly usecs: string;
 }
@@ -2179,25 +2212,37 @@ export class GslbhsmruntimeOperStatusLastChangedTimeList extends cdktf.ComplexLi
 }
 export interface GslbhsmruntimeOperStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#reason Gslbhsmruntime#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#num_vs_completed Gslbhsmruntime#num_vs_completed}
+  */
+  readonly numVsCompleted?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#num_vs_failed Gslbhsmruntime#num_vs_failed}
+  */
+  readonly numVsFailed?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#num_vs_total Gslbhsmruntime#num_vs_total}
+  */
+  readonly numVsTotal?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#reason Gslbhsmruntime#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#reason_code Gslbhsmruntime#reason_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#reason_code Gslbhsmruntime#reason_code}
   */
   readonly reasonCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#reason_code_string Gslbhsmruntime#reason_code_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#reason_code_string Gslbhsmruntime#reason_code_string}
   */
   readonly reasonCodeString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#state Gslbhsmruntime#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#state Gslbhsmruntime#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#last_changed_time Gslbhsmruntime#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#last_changed_time Gslbhsmruntime#last_changed_time}
   */
   readonly lastChangedTime?: GslbhsmruntimeOperStatusLastChangedTime[] | cdktf.IResolvable;
 }
@@ -2208,6 +2253,9 @@ export function gslbhsmruntimeOperStatusToTerraform(struct?: GslbhsmruntimeOperS
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    num_vs_completed: cdktf.stringToTerraform(struct!.numVsCompleted),
+    num_vs_failed: cdktf.stringToTerraform(struct!.numVsFailed),
+    num_vs_total: cdktf.stringToTerraform(struct!.numVsTotal),
     reason: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.reason),
     reason_code: cdktf.stringToTerraform(struct!.reasonCode),
     reason_code_string: cdktf.stringToTerraform(struct!.reasonCodeString),
@@ -2223,6 +2271,24 @@ export function gslbhsmruntimeOperStatusToHclTerraform(struct?: GslbhsmruntimeOp
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    num_vs_completed: {
+      value: cdktf.stringToHclTerraform(struct!.numVsCompleted),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    num_vs_failed: {
+      value: cdktf.stringToHclTerraform(struct!.numVsFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    num_vs_total: {
+      value: cdktf.stringToHclTerraform(struct!.numVsTotal),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     reason: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.reason),
       isBlock: false,
@@ -2279,6 +2345,18 @@ export class GslbhsmruntimeOperStatusOutputReference extends cdktf.ComplexObject
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._numVsCompleted !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numVsCompleted = this._numVsCompleted;
+    }
+    if (this._numVsFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numVsFailed = this._numVsFailed;
+    }
+    if (this._numVsTotal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numVsTotal = this._numVsTotal;
+    }
     if (this._reason !== undefined) {
       hasAnyValues = true;
       internalValueResult.reason = this._reason;
@@ -2306,6 +2384,9 @@ export class GslbhsmruntimeOperStatusOutputReference extends cdktf.ComplexObject
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._numVsCompleted = undefined;
+      this._numVsFailed = undefined;
+      this._numVsTotal = undefined;
       this._reason = undefined;
       this._reasonCode = undefined;
       this._reasonCodeString = undefined;
@@ -2319,12 +2400,63 @@ export class GslbhsmruntimeOperStatusOutputReference extends cdktf.ComplexObject
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._numVsCompleted = value.numVsCompleted;
+      this._numVsFailed = value.numVsFailed;
+      this._numVsTotal = value.numVsTotal;
       this._reason = value.reason;
       this._reasonCode = value.reasonCode;
       this._reasonCodeString = value.reasonCodeString;
       this._state = value.state;
       this._lastChangedTime.internalValue = value.lastChangedTime;
     }
+  }
+
+  // num_vs_completed - computed: true, optional: true, required: false
+  private _numVsCompleted?: string; 
+  public get numVsCompleted() {
+    return this.getStringAttribute('num_vs_completed');
+  }
+  public set numVsCompleted(value: string) {
+    this._numVsCompleted = value;
+  }
+  public resetNumVsCompleted() {
+    this._numVsCompleted = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numVsCompletedInput() {
+    return this._numVsCompleted;
+  }
+
+  // num_vs_failed - computed: true, optional: true, required: false
+  private _numVsFailed?: string; 
+  public get numVsFailed() {
+    return this.getStringAttribute('num_vs_failed');
+  }
+  public set numVsFailed(value: string) {
+    this._numVsFailed = value;
+  }
+  public resetNumVsFailed() {
+    this._numVsFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numVsFailedInput() {
+    return this._numVsFailed;
+  }
+
+  // num_vs_total - computed: true, optional: true, required: false
+  private _numVsTotal?: string; 
+  public get numVsTotal() {
+    return this.getStringAttribute('num_vs_total');
+  }
+  public set numVsTotal(value: string) {
+    this._numVsTotal = value;
+  }
+  public resetNumVsTotal() {
+    this._numVsTotal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numVsTotalInput() {
+    return this._numVsTotal;
   }
 
   // reason - computed: false, optional: true, required: false
@@ -2429,11 +2561,11 @@ export class GslbhsmruntimeOperStatusList extends cdktf.ComplexList {
 }
 export interface GslbhsmruntimeRemoteInfoGslbInfoReplStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
   */
   readonly usecs: string;
 }
@@ -2572,11 +2704,11 @@ export class GslbhsmruntimeRemoteInfoGslbInfoReplStateLastChangedTimeList extend
 }
 export interface GslbhsmruntimeRemoteInfoGslbInfoReplStateLocalConfigVsgsInfoTimestamp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
   */
   readonly usecs: string;
 }
@@ -2715,17 +2847,17 @@ export class GslbhsmruntimeRemoteInfoGslbInfoReplStateLocalConfigVsgsInfoTimesta
 }
 export interface GslbhsmruntimeRemoteInfoGslbInfoReplStateLocalConfigVsgsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#dnsvs_uuid Gslbhsmruntime#dnsvs_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#dnsvs_uuid Gslbhsmruntime#dnsvs_uuid}
   */
   readonly dnsvsUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#ops Gslbhsmruntime#ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#ops Gslbhsmruntime#ops}
   */
   readonly ops?: string;
   /**
   * timestamp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#timestamp Gslbhsmruntime#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#timestamp Gslbhsmruntime#timestamp}
   */
   readonly timestamp?: GslbhsmruntimeRemoteInfoGslbInfoReplStateLocalConfigVsgsInfoTimestamp[] | cdktf.IResolvable;
 }
@@ -2901,7 +3033,7 @@ export interface GslbhsmruntimeRemoteInfoGslbInfoReplStateLocalConfig {
   /**
   * vsgs_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#vsgs_info Gslbhsmruntime#vsgs_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#vsgs_info Gslbhsmruntime#vsgs_info}
   */
   readonly vsgsInfo?: GslbhsmruntimeRemoteInfoGslbInfoReplStateLocalConfigVsgsInfo[] | cdktf.IResolvable;
 }
@@ -3017,39 +3149,39 @@ export class GslbhsmruntimeRemoteInfoGslbInfoReplStateLocalConfigList extends cd
 }
 export interface GslbhsmruntimeRemoteInfoGslbInfoReplState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#cfg_version Gslbhsmruntime#cfg_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#cfg_version Gslbhsmruntime#cfg_version}
   */
   readonly cfgVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#cfg_version_in_flight Gslbhsmruntime#cfg_version_in_flight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#cfg_version_in_flight Gslbhsmruntime#cfg_version_in_flight}
   */
   readonly cfgVersionInFlight?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#reason Gslbhsmruntime#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#reason Gslbhsmruntime#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#site_uuid Gslbhsmruntime#site_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#site_uuid Gslbhsmruntime#site_uuid}
   */
   readonly siteUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#status Gslbhsmruntime#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#status Gslbhsmruntime#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#uuid Gslbhsmruntime#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#uuid Gslbhsmruntime#uuid}
   */
   readonly uuid?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#last_changed_time Gslbhsmruntime#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#last_changed_time Gslbhsmruntime#last_changed_time}
   */
   readonly lastChangedTime?: GslbhsmruntimeRemoteInfoGslbInfoReplStateLastChangedTime[] | cdktf.IResolvable;
   /**
   * local_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#local_config Gslbhsmruntime#local_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#local_config Gslbhsmruntime#local_config}
   */
   readonly localConfig?: GslbhsmruntimeRemoteInfoGslbInfoReplStateLocalConfig[] | cdktf.IResolvable;
 }
@@ -3370,7 +3502,7 @@ export interface GslbhsmruntimeRemoteInfoGslbInfo {
   /**
   * repl_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#repl_state Gslbhsmruntime#repl_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#repl_state Gslbhsmruntime#repl_state}
   */
   readonly replState?: GslbhsmruntimeRemoteInfoGslbInfoReplState[] | cdktf.IResolvable;
 }
@@ -3486,7 +3618,7 @@ export class GslbhsmruntimeRemoteInfoGslbInfoList extends cdktf.ComplexList {
 }
 export interface GslbhsmruntimeRemoteInfoOpsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#rrtoken Gslbhsmruntime#rrtoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#rrtoken Gslbhsmruntime#rrtoken}
   */
   readonly rrtoken?: string[];
 }
@@ -3602,27 +3734,27 @@ export class GslbhsmruntimeRemoteInfoOpsInfoList extends cdktf.ComplexList {
 }
 export interface GslbhsmruntimeRemoteInfoSyncInfoErroredObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#ds_name Gslbhsmruntime#ds_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#ds_name Gslbhsmruntime#ds_name}
   */
   readonly dsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#name Gslbhsmruntime#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#name Gslbhsmruntime#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#ops Gslbhsmruntime#ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#ops Gslbhsmruntime#ops}
   */
   readonly ops?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#reason Gslbhsmruntime#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#reason Gslbhsmruntime#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#status Gslbhsmruntime#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#status Gslbhsmruntime#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#uuid Gslbhsmruntime#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#uuid Gslbhsmruntime#uuid}
   */
   readonly uuid?: string;
 }
@@ -3883,11 +4015,11 @@ export class GslbhsmruntimeRemoteInfoSyncInfoErroredObjectsList extends cdktf.Co
 }
 export interface GslbhsmruntimeRemoteInfoSyncInfoLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#secs Gslbhsmruntime#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#usecs Gslbhsmruntime#usecs}
   */
   readonly usecs: string;
 }
@@ -4026,15 +4158,15 @@ export class GslbhsmruntimeRemoteInfoSyncInfoLastChangedTimeList extends cdktf.C
 }
 export interface GslbhsmruntimeRemoteInfoSyncInfoLastFailObj {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#event_type Gslbhsmruntime#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#event_type Gslbhsmruntime#event_type}
   */
   readonly eventType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#obj_name Gslbhsmruntime#obj_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#obj_name Gslbhsmruntime#obj_name}
   */
   readonly objName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#obj_uuid Gslbhsmruntime#obj_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#obj_uuid Gslbhsmruntime#obj_uuid}
   */
   readonly objUuid?: string;
 }
@@ -4208,45 +4340,45 @@ export class GslbhsmruntimeRemoteInfoSyncInfoLastFailObjList extends cdktf.Compl
 }
 export interface GslbhsmruntimeRemoteInfoSyncInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#prev_target_version Gslbhsmruntime#prev_target_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#prev_target_version Gslbhsmruntime#prev_target_version}
   */
   readonly prevTargetVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#reason Gslbhsmruntime#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#reason Gslbhsmruntime#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#recommendation Gslbhsmruntime#recommendation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#recommendation Gslbhsmruntime#recommendation}
   */
   readonly recommendation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#site_version Gslbhsmruntime#site_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#site_version Gslbhsmruntime#site_version}
   */
   readonly siteVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#sync_state Gslbhsmruntime#sync_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#sync_state Gslbhsmruntime#sync_state}
   */
   readonly syncState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#target_version Gslbhsmruntime#target_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#target_version Gslbhsmruntime#target_version}
   */
   readonly targetVersion?: string;
   /**
   * errored_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#errored_objects Gslbhsmruntime#errored_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#errored_objects Gslbhsmruntime#errored_objects}
   */
   readonly erroredObjects?: GslbhsmruntimeRemoteInfoSyncInfoErroredObjects[] | cdktf.IResolvable;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#last_changed_time Gslbhsmruntime#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#last_changed_time Gslbhsmruntime#last_changed_time}
   */
   readonly lastChangedTime?: GslbhsmruntimeRemoteInfoSyncInfoLastChangedTime[] | cdktf.IResolvable;
   /**
   * last_fail_obj block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#last_fail_obj Gslbhsmruntime#last_fail_obj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#last_fail_obj Gslbhsmruntime#last_fail_obj}
   */
   readonly lastFailObj?: GslbhsmruntimeRemoteInfoSyncInfoLastFailObj[] | cdktf.IResolvable;
 }
@@ -4594,15 +4726,15 @@ export class GslbhsmruntimeRemoteInfoSyncInfoList extends cdktf.ComplexList {
 }
 export interface GslbhsmruntimeRemoteInfoSyncStats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#acknowledged_version Gslbhsmruntime#acknowledged_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#acknowledged_version Gslbhsmruntime#acknowledged_version}
   */
   readonly acknowledgedVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#pending_object_count Gslbhsmruntime#pending_object_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#pending_object_count Gslbhsmruntime#pending_object_count}
   */
   readonly pendingObjectCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#received_version Gslbhsmruntime#received_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#received_version Gslbhsmruntime#received_version}
   */
   readonly receivedVersion?: string;
 }
@@ -4778,25 +4910,25 @@ export interface GslbhsmruntimeRemoteInfo {
   /**
   * gslb_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#gslb_info Gslbhsmruntime#gslb_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#gslb_info Gslbhsmruntime#gslb_info}
   */
   readonly gslbInfo?: GslbhsmruntimeRemoteInfoGslbInfo[] | cdktf.IResolvable;
   /**
   * ops_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#ops_info Gslbhsmruntime#ops_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#ops_info Gslbhsmruntime#ops_info}
   */
   readonly opsInfo?: GslbhsmruntimeRemoteInfoOpsInfo[] | cdktf.IResolvable;
   /**
   * sync_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#sync_info Gslbhsmruntime#sync_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#sync_info Gslbhsmruntime#sync_info}
   */
   readonly syncInfo?: GslbhsmruntimeRemoteInfoSyncInfo[] | cdktf.IResolvable;
   /**
   * sync_stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#sync_stats Gslbhsmruntime#sync_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#sync_stats Gslbhsmruntime#sync_stats}
   */
   readonly syncStats?: GslbhsmruntimeRemoteInfoSyncStats[] | cdktf.IResolvable;
 }
@@ -4999,7 +5131,7 @@ export class GslbhsmruntimeRemoteInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime avi_gslbhsmruntime}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime avi_gslbhsmruntime}
 */
 export class Gslbhsmruntime extends cdktf.TerraformResource {
 
@@ -5015,7 +5147,7 @@ export class Gslbhsmruntime extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gslbhsmruntime resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gslbhsmruntime to import
-  * @param importFromId The id of the existing Gslbhsmruntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gslbhsmruntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gslbhsmruntime to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5027,7 +5159,7 @@ export class Gslbhsmruntime extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/gslbhsmruntime avi_gslbhsmruntime} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbhsmruntime avi_gslbhsmruntime} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5038,7 +5170,8 @@ export class Gslbhsmruntime extends cdktf.TerraformResource {
       terraformResourceType: 'avi_gslbhsmruntime',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

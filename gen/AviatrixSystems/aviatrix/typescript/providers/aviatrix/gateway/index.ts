@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,191 +10,191 @@ export interface GatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account name. This account will be used to launch Aviatrix gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#account_name Gateway#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#account_name Gateway#account_name}
   */
   readonly accountName: string;
   /**
   * A list of destination CIDR ranges that will also go through the VPN tunnel when Split Tunnel Mode is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#additional_cidrs Gateway#additional_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#additional_cidrs Gateway#additional_cidrs}
   */
   readonly additionalCidrs?: string;
   /**
   * A list of CIDR ranges separated by comma to configure when 'designated_gateway' feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#additional_cidrs_designated_gateway Gateway#additional_cidrs_designated_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#additional_cidrs_designated_gateway Gateway#additional_cidrs_designated_gateway}
   */
   readonly additionalCidrsDesignatedGateway?: string;
   /**
   * When value is false, reuse an idle address in Elastic IP pool for this gateway. Otherwise, allocate a new Elastic IP and use it for this gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#allocate_new_eip Gateway#allocate_new_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#allocate_new_eip Gateway#allocate_new_eip}
   */
   readonly allocateNewEip?: boolean | cdktf.IResolvable;
   /**
   * Availability domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#availability_domain Gateway#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#availability_domain Gateway#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
   * The name of the public IP address and its resource group in Azure to assign to this Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#azure_eip_name_resource_group Gateway#azure_eip_name_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#azure_eip_name_resource_group Gateway#azure_eip_name_resource_group}
   */
   readonly azureEipNameResourceGroup?: string;
   /**
   * Type of cloud service provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#cloud_type Gateway#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#cloud_type Gateway#cloud_type}
   */
   readonly cloudType: number;
   /**
   * Customer managed key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#customer_managed_keys Gateway#customer_managed_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#customer_managed_keys Gateway#customer_managed_keys}
   */
   readonly customerManagedKeys?: string;
   /**
   * If set true, the spot instance will be deleted on eviction. Otherwise, the instance will be deallocated on eviction. Only supports Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#delete_spot Gateway#delete_spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#delete_spot Gateway#delete_spot}
   */
   readonly deleteSpot?: boolean | cdktf.IResolvable;
   /**
   * API hostname for DUO auth mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#duo_api_hostname Gateway#duo_api_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#duo_api_hostname Gateway#duo_api_hostname}
   */
   readonly duoApiHostname?: string;
   /**
   * Integration key for DUO auth mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#duo_integration_key Gateway#duo_integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#duo_integration_key Gateway#duo_integration_key}
   */
   readonly duoIntegrationKey?: string;
   /**
   * Push mode for DUO auth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#duo_push_mode Gateway#duo_push_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#duo_push_mode Gateway#duo_push_mode}
   */
   readonly duoPushMode?: string;
   /**
   * Secret key for DUO auth mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#duo_secret_key Gateway#duo_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#duo_secret_key Gateway#duo_secret_key}
   */
   readonly duoSecretKey?: string;
   /**
   * Required when allocate_new_eip is false. It uses specified EIP for this gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#eip Gateway#eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#eip Gateway#eip}
   */
   readonly eip?: string;
   /**
   * A name for the ELB that is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#elb_name Gateway#elb_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#elb_name Gateway#elb_name}
   */
   readonly elbName?: string;
   /**
   * Enable 'designated_gateway' feature for Gateway. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#enable_designated_gateway Gateway#enable_designated_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#enable_designated_gateway Gateway#enable_designated_gateway}
   */
   readonly enableDesignatedGateway?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to enable ELB or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#enable_elb Gateway#enable_elb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#enable_elb Gateway#enable_elb}
   */
   readonly enableElb?: boolean | cdktf.IResolvable;
   /**
   * Enable encrypt gateway EBS volume. Only supported for AWS provider. Valid values: true, false. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#enable_encrypt_volume Gateway#enable_encrypt_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#enable_encrypt_volume Gateway#enable_encrypt_volume}
   */
   readonly enableEncryptVolume?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to disable GRO/GSO or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#enable_gro_gso Gateway#enable_gro_gso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#enable_gro_gso Gateway#enable_gro_gso}
   */
   readonly enableGroGso?: boolean | cdktf.IResolvable;
   /**
   * Enable jumbo frame support for Gateway. Valid values: true or false. Default value: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#enable_jumbo_frame Gateway#enable_jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#enable_jumbo_frame Gateway#enable_jumbo_frame}
   */
   readonly enableJumboFrame?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to enable LDAP or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#enable_ldap Gateway#enable_ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#enable_ldap Gateway#enable_ldap}
   */
   readonly enableLdap?: boolean | cdktf.IResolvable;
   /**
   * Enable monitor gateway subnets. Valid values: true, false. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#enable_monitor_gateway_subnets Gateway#enable_monitor_gateway_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#enable_monitor_gateway_subnets Gateway#enable_monitor_gateway_subnets}
   */
   readonly enableMonitorGatewaySubnets?: boolean | cdktf.IResolvable;
   /**
   * Create a [Public Subnet Filtering gateway](https://docs.aviatrix.com/HowTos/public_subnet_filtering_faq.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#enable_public_subnet_filtering Gateway#enable_public_subnet_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#enable_public_subnet_filtering Gateway#enable_public_subnet_filtering}
   */
   readonly enablePublicSubnetFiltering?: boolean | cdktf.IResolvable;
   /**
   * Enable spot instance. NOT supported for production deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#enable_spot_instance Gateway#enable_spot_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#enable_spot_instance Gateway#enable_spot_instance}
   */
   readonly enableSpotInstance?: boolean | cdktf.IResolvable;
   /**
   * Enable vpc_dns_server for Gateway. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#enable_vpc_dns_server Gateway#enable_vpc_dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#enable_vpc_dns_server Gateway#enable_vpc_dns_server}
   */
   readonly enableVpcDnsServer?: boolean | cdktf.IResolvable;
   /**
   * This field indicates whether to enable VPN NAT or not. Only supported for VPN gateway. Valid values: true, false. Default value: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#enable_vpn_nat Gateway#enable_vpn_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#enable_vpn_nat Gateway#enable_vpn_nat}
   */
   readonly enableVpnNat?: boolean | cdktf.IResolvable;
   /**
   * Fault domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#fault_domain Gateway#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#fault_domain Gateway#fault_domain}
   */
   readonly faultDomain?: string;
   /**
   * FQDN gateway lan interface cidr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#fqdn_lan_cidr Gateway#fqdn_lan_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#fqdn_lan_cidr Gateway#fqdn_lan_cidr}
   */
   readonly fqdnLanCidr?: string;
   /**
   * LAN VPC ID. Only used for GCP FQDN Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#fqdn_lan_vpc_id Gateway#fqdn_lan_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#fqdn_lan_vpc_id Gateway#fqdn_lan_vpc_id}
   */
   readonly fqdnLanVpcId?: string;
   /**
   * Aviatrix gateway unique name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#gw_name Gateway#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#gw_name Gateway#gw_name}
   */
   readonly gwName: string;
   /**
   * Size of Gateway Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#gw_size Gateway#gw_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#gw_size Gateway#gw_size}
   */
   readonly gwSize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#id Gateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#id Gateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -203,289 +203,289 @@ export interface GatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Typed value when modifying idle_timeout. If it's -1, this feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#idle_timeout Gateway#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#idle_timeout Gateway#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * image_version can be used to set the desired image version of the gateway. If set, we will attempt to update the gateway to the specified version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#image_version Gateway#image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#image_version Gateway#image_version}
   */
   readonly imageVersion?: string;
   /**
   * Enable Insane Mode for Gateway. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#insane_mode Gateway#insane_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#insane_mode Gateway#insane_mode}
   */
   readonly insaneMode?: boolean | cdktf.IResolvable;
   /**
   * AZ of subnet being created for Insane Mode Gateway. Required if insane_mode is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#insane_mode_az Gateway#insane_mode_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#insane_mode_az Gateway#insane_mode_az}
   */
   readonly insaneModeAz?: string;
   /**
   * LDAP base DN. Required: Yes if enable_ldap is 'yes'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#ldap_base_dn Gateway#ldap_base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#ldap_base_dn Gateway#ldap_base_dn}
   */
   readonly ldapBaseDn?: string;
   /**
   * LDAP bind DN. Required: Yes if enable_ldap is 'yes'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#ldap_bind_dn Gateway#ldap_bind_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#ldap_bind_dn Gateway#ldap_bind_dn}
   */
   readonly ldapBindDn?: string;
   /**
   * LDAP password. Required: Yes if enable_ldap is 'yes'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#ldap_password Gateway#ldap_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#ldap_password Gateway#ldap_password}
   */
   readonly ldapPassword?: string;
   /**
   * LDAP server address. Required: Yes if enable_ldap is 'yes'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#ldap_server Gateway#ldap_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#ldap_server Gateway#ldap_server}
   */
   readonly ldapServer?: string;
   /**
   * LDAP user attribute. Required: Yes if enable_ldap is 'yes'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#ldap_username_attribute Gateway#ldap_username_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#ldap_username_attribute Gateway#ldap_username_attribute}
   */
   readonly ldapUsernameAttribute?: string;
   /**
   * Maximum connection of VPN access. Valid for VPN gateway only. If not set, '100' will be default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#max_vpn_conn Gateway#max_vpn_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#max_vpn_conn Gateway#max_vpn_conn}
   */
   readonly maxVpnConn?: string;
   /**
   * A set of monitored instance ids. Only valid when 'enable_monitor_gateway_subnets' = true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#monitor_exclude_list Gateway#monitor_exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#monitor_exclude_list Gateway#monitor_exclude_list}
   */
   readonly monitorExcludeList?: string[];
   /**
   * A list of DNS servers used to resolve domain names by a connected VPN user when Split Tunnel Mode is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#name_servers Gateway#name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#name_servers Gateway#name_servers}
   */
   readonly nameServers?: string;
   /**
   * Token for Okta auth mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#okta_token Gateway#okta_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#okta_token Gateway#okta_token}
   */
   readonly oktaToken?: string;
   /**
   * URL for Okta auth mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#okta_url Gateway#okta_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#okta_url Gateway#okta_url}
   */
   readonly oktaUrl?: string;
   /**
   * Username suffix for Okta auth mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#okta_username_suffix Gateway#okta_username_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#okta_username_suffix Gateway#okta_username_suffix}
   */
   readonly oktaUsernameSuffix?: string;
   /**
   * Two step authentication mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#otp_mode Gateway#otp_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#otp_mode Gateway#otp_mode}
   */
   readonly otpMode?: string;
   /**
   * Peering HA availability domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#peering_ha_availability_domain Gateway#peering_ha_availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#peering_ha_availability_domain Gateway#peering_ha_availability_domain}
   */
   readonly peeringHaAvailabilityDomain?: string;
   /**
   * The name of the public IP address and its resource group in Azure to assign to the Peering HA Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#peering_ha_azure_eip_name_resource_group Gateway#peering_ha_azure_eip_name_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#peering_ha_azure_eip_name_resource_group Gateway#peering_ha_azure_eip_name_resource_group}
   */
   readonly peeringHaAzureEipNameResourceGroup?: string;
   /**
   * Public IP address that you want assigned to the HA peering instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#peering_ha_eip Gateway#peering_ha_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#peering_ha_eip Gateway#peering_ha_eip}
   */
   readonly peeringHaEip?: string;
   /**
   * Peering HA fault domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#peering_ha_fault_domain Gateway#peering_ha_fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#peering_ha_fault_domain Gateway#peering_ha_fault_domain}
   */
   readonly peeringHaFaultDomain?: string;
   /**
   * Peering HA Gateway Size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#peering_ha_gw_size Gateway#peering_ha_gw_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#peering_ha_gw_size Gateway#peering_ha_gw_size}
   */
   readonly peeringHaGwSize?: string;
   /**
   * peering_ha_image_version can be used to set the desired image version of the HA gateway. If set, we will attempt to update the gateway to the specified version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#peering_ha_image_version Gateway#peering_ha_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#peering_ha_image_version Gateway#peering_ha_image_version}
   */
   readonly peeringHaImageVersion?: string;
   /**
   * AZ of subnet being created for Insane Mode Peering HA Gateway. Required if insane_mode is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#peering_ha_insane_mode_az Gateway#peering_ha_insane_mode_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#peering_ha_insane_mode_az Gateway#peering_ha_insane_mode_az}
   */
   readonly peeringHaInsaneModeAz?: string;
   /**
   * peering_ha_software_version can be used to set the desired software version of the HA gateway. If set, we will attempt to update the gateway to the specified version. If left blank, the gateway software version will continue to be managed through the aviatrix_controller_config resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#peering_ha_software_version Gateway#peering_ha_software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#peering_ha_software_version Gateway#peering_ha_software_version}
   */
   readonly peeringHaSoftwareVersion?: string;
   /**
   * Public Subnet Information while creating Peering HA Gateway, only subnet is accepted. Required to create peering ha gateway if cloud_type = 1 or 8 (AWS or Azure). Optional if cloud_type = 4 (GCP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#peering_ha_subnet Gateway#peering_ha_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#peering_ha_subnet Gateway#peering_ha_subnet}
   */
   readonly peeringHaSubnet?: string;
   /**
   * Zone information for creating Peering HA Gateway. Required to create peering ha gateway if cloud_type = 4 (GCP). Optional for cloud_type = 8 (Azure).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#peering_ha_zone Gateway#peering_ha_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#peering_ha_zone Gateway#peering_ha_zone}
   */
   readonly peeringHaZone?: string;
   /**
   * Whether to enforce Guard Duty IP blocking. Required when `enable_public_subnet_filtering` attribute is true. Valid values: true or false. Default value: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#public_subnet_filtering_guard_duty_enforced Gateway#public_subnet_filtering_guard_duty_enforced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#public_subnet_filtering_guard_duty_enforced Gateway#public_subnet_filtering_guard_duty_enforced}
   */
   readonly publicSubnetFilteringGuardDutyEnforced?: boolean | cdktf.IResolvable;
   /**
   * Route tables whose associated public subnets are protected for the HA PSF gateway. Required when enable_public_subnet_filtering and peering_ha_subnet are set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#public_subnet_filtering_ha_route_tables Gateway#public_subnet_filtering_ha_route_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#public_subnet_filtering_ha_route_tables Gateway#public_subnet_filtering_ha_route_tables}
   */
   readonly publicSubnetFilteringHaRouteTables?: string[];
   /**
   * Route tables whose associated public subnets are protected. Required when `enable_public_subnet_filtering` attribute is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#public_subnet_filtering_route_tables Gateway#public_subnet_filtering_route_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#public_subnet_filtering_route_tables Gateway#public_subnet_filtering_route_tables}
   */
   readonly publicSubnetFilteringRouteTables?: string[];
   /**
   * Typed value when modifying renegotiation_interval. If it's -1, this feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#renegotiation_interval Gateway#renegotiation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#renegotiation_interval Gateway#renegotiation_interval}
   */
   readonly renegotiationInterval?: number;
   /**
   * Gateway ethernet interface RX queue size. Supported for AWS related clouds only. Applies on HA as well if enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#rx_queue_size Gateway#rx_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#rx_queue_size Gateway#rx_queue_size}
   */
   readonly rxQueueSize?: string;
   /**
   * This field indicates whether to enable SAML or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#saml_enabled Gateway#saml_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#saml_enabled Gateway#saml_enabled}
   */
   readonly samlEnabled?: boolean | cdktf.IResolvable;
   /**
   * A list of domain names that will use the NameServer when a specific name is not in the destination when Split Tunnel Mode is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#search_domains Gateway#search_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#search_domains Gateway#search_domains}
   */
   readonly searchDomains?: string;
   /**
   * Set to true if this feature is desired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#single_az_ha Gateway#single_az_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#single_az_ha Gateway#single_az_ha}
   */
   readonly singleAzHa?: boolean | cdktf.IResolvable;
   /**
   * Enable Source NAT for this container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#single_ip_snat Gateway#single_ip_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#single_ip_snat Gateway#single_ip_snat}
   */
   readonly singleIpSnat?: boolean | cdktf.IResolvable;
   /**
   * software_version can be used to set the desired software version of the gateway. If set, we will attempt to update the gateway to the specified version. If left blank, the gateway software version will continue to be managed through the aviatrix_controller_config resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#software_version Gateway#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#software_version Gateway#software_version}
   */
   readonly softwareVersion?: string;
   /**
   * Specify split tunnel mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#split_tunnel Gateway#split_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#split_tunnel Gateway#split_tunnel}
   */
   readonly splitTunnel?: boolean | cdktf.IResolvable;
   /**
   * Price for spot instance. NOT supported for production deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#spot_price Gateway#spot_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#spot_price Gateway#spot_price}
   */
   readonly spotPrice?: string;
   /**
   * A VPC Network address range selected from one of the available network ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#subnet Gateway#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#subnet Gateway#subnet}
   */
   readonly subnet: string;
   /**
   * A map of tags to assign to the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#tags Gateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#tags Gateway#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The IPSec tunnel down detection time for the Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#tunnel_detection_time Gateway#tunnel_detection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#tunnel_detection_time Gateway#tunnel_detection_time}
   */
   readonly tunnelDetectionTime?: number;
   /**
   * ID of legacy VPC/Vnet to be connected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#vpc_id Gateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#vpc_id Gateway#vpc_id}
   */
   readonly vpcId: string;
   /**
   * Region where this gateway will be launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#vpc_reg Gateway#vpc_reg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#vpc_reg Gateway#vpc_reg}
   */
   readonly vpcReg: string;
   /**
   * Enable user access through VPN to this container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#vpn_access Gateway#vpn_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#vpn_access Gateway#vpn_access}
   */
   readonly vpnAccess?: boolean | cdktf.IResolvable;
   /**
   * VPN CIDR block for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#vpn_cidr Gateway#vpn_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#vpn_cidr Gateway#vpn_cidr}
   */
   readonly vpnCidr?: string;
   /**
   * Elb protocol for VPN gateway with elb enabled. Only supports AWS provider. Valid values: 'TCP', 'UDP'. If not specified, 'TCP'' will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#vpn_protocol Gateway#vpn_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#vpn_protocol Gateway#vpn_protocol}
   */
   readonly vpnProtocol?: string;
   /**
   * Availability Zone. Only available for Azure (8), Azure GOV (32), Azure CHINA (2048) and Public Subnet Filtering gateway. Must be in the form 'az-n', for example, 'az-2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#zone Gateway#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#zone Gateway#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway aviatrix_gateway}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway aviatrix_gateway}
 */
 export class Gateway extends cdktf.TerraformResource {
 
@@ -501,7 +501,7 @@ export class Gateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gateway to import
-  * @param importFromId The id of the existing Gateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -513,7 +513,7 @@ export class Gateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway aviatrix_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway aviatrix_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -524,8 +524,8 @@ export class Gateway extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_gateway',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

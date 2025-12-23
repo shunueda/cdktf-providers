@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_cluster
+// https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface LocalKindClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The path to the kubeconfig file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_cluster#kubeconfig_path LocalKindCluster#kubeconfig_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_cluster#kubeconfig_path LocalKindCluster#kubeconfig_path}
   */
   readonly kubeconfigPath?: string;
   /**
   * The name of the kind cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_cluster#name LocalKindCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_cluster#name LocalKindCluster#name}
   */
   readonly name: string;
   /**
   * The amount of time to wait for the control plan to be ready, defaults to 30s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_cluster#wait_timeout LocalKindCluster#wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_cluster#wait_timeout LocalKindCluster#wait_timeout}
   */
   readonly waitTimeout?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_cluster enos_local_kind_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_cluster enos_local_kind_cluster}
 */
 export class LocalKindCluster extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class LocalKindCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LocalKindCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LocalKindCluster to import
-  * @param importFromId The id of the existing LocalKindCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LocalKindCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LocalKindCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class LocalKindCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_cluster enos_local_kind_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_cluster enos_local_kind_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class LocalKindCluster extends cdktf.TerraformResource {
       terraformResourceType: 'enos_local_kind_cluster',
       terraformGeneratorMetadata: {
         providerName: 'enos',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

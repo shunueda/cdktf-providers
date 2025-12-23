@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app
+// https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface AppConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#config App#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#config App#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#env_id App#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#env_id App#env_id}
   */
   readonly envId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#handle App#handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#handle App#handle}
   */
   readonly handle: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#id App#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#id App#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface AppConfig extends cdktf.TerraformMetaArguments {
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#service App#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#service App#service}
   */
   readonly service?: AppService[] | cdktf.IResolvable;
 }
@@ -37,111 +37,111 @@ export interface AppServiceAutoscalingPolicy {
   /**
   * The type of autoscaling, must be either 'vertical' or 'horizontal'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#autoscaling_type App#autoscaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#autoscaling_type App#autoscaling_type}
   */
   readonly autoscalingType: string;
   /**
   * The maximum number of containers for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#max_containers App#max_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#max_containers App#max_containers}
   */
   readonly maxContainers?: number;
   /**
   * The maximum CPU utilization threshold for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#max_cpu_threshold App#max_cpu_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#max_cpu_threshold App#max_cpu_threshold}
   */
   readonly maxCpuThreshold?: number;
   /**
   * The maximum memory allocation in MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#maximum_memory App#maximum_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#maximum_memory App#maximum_memory}
   */
   readonly maximumMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#mem_cpu_ratio_c_threshold App#mem_cpu_ratio_c_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#mem_cpu_ratio_c_threshold App#mem_cpu_ratio_c_threshold}
   */
   readonly memCpuRatioCThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#mem_cpu_ratio_r_threshold App#mem_cpu_ratio_r_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#mem_cpu_ratio_r_threshold App#mem_cpu_ratio_r_threshold}
   */
   readonly memCpuRatioRThreshold?: number;
   /**
   * The memory usage threshold for scaling down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#mem_scale_down_threshold App#mem_scale_down_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#mem_scale_down_threshold App#mem_scale_down_threshold}
   */
   readonly memScaleDownThreshold?: number;
   /**
   * The memory usage threshold for scaling up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#mem_scale_up_threshold App#mem_scale_up_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#mem_scale_up_threshold App#mem_scale_up_threshold}
   */
   readonly memScaleUpThreshold?: number;
   /**
   * The lookback period for metrics in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#metric_lookback_seconds App#metric_lookback_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#metric_lookback_seconds App#metric_lookback_seconds}
   */
   readonly metricLookbackSeconds?: number;
   /**
   * The minimum number of containers for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#min_containers App#min_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#min_containers App#min_containers}
   */
   readonly minContainers?: number;
   /**
   * The minimum CPU utilization threshold for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#min_cpu_threshold App#min_cpu_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#min_cpu_threshold App#min_cpu_threshold}
   */
   readonly minCpuThreshold?: number;
   /**
   * The minimum memory allocation in MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#minimum_memory App#minimum_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#minimum_memory App#minimum_memory}
   */
   readonly minimumMemory?: number;
   /**
   * The percentile threshold used for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#percentile App#percentile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#percentile App#percentile}
   */
   readonly percentile?: number;
   /**
   * Seconds to ignore in metrics after a release event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#post_release_cooldown_seconds App#post_release_cooldown_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#post_release_cooldown_seconds App#post_release_cooldown_seconds}
   */
   readonly postReleaseCooldownSeconds?: number;
   /**
   * Cooldown period in seconds after a scale-down event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#post_scale_down_cooldown_seconds App#post_scale_down_cooldown_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#post_scale_down_cooldown_seconds App#post_scale_down_cooldown_seconds}
   */
   readonly postScaleDownCooldownSeconds?: number;
   /**
   * Cooldown period in seconds after a scale-up event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#post_scale_up_cooldown_seconds App#post_scale_up_cooldown_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#post_scale_up_cooldown_seconds App#post_scale_up_cooldown_seconds}
   */
   readonly postScaleUpCooldownSeconds?: number;
   /**
   * The number of containers to remove in each scale-down event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#scale_down_step App#scale_down_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#scale_down_step App#scale_down_step}
   */
   readonly scaleDownStep?: number;
   /**
   * The number of containers to add in each scale-up event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#scale_up_step App#scale_up_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#scale_up_step App#scale_up_step}
   */
   readonly scaleUpStep?: number;
   /**
   * Whether to use restart-free scaling for this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#use_horizontal_scale App#use_horizontal_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#use_horizontal_scale App#use_horizontal_scale}
   */
   readonly useHorizontalScale?: boolean | cdktf.IResolvable;
 }
@@ -783,111 +783,111 @@ export interface AppServiceServiceSizingPolicy {
   /**
   * The type of autoscaling, must be either 'vertical' or 'horizontal'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#autoscaling_type App#autoscaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#autoscaling_type App#autoscaling_type}
   */
   readonly autoscalingType: string;
   /**
   * The maximum number of containers for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#max_containers App#max_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#max_containers App#max_containers}
   */
   readonly maxContainers?: number;
   /**
   * The maximum CPU utilization threshold for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#max_cpu_threshold App#max_cpu_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#max_cpu_threshold App#max_cpu_threshold}
   */
   readonly maxCpuThreshold?: number;
   /**
   * The maximum memory allocation in MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#maximum_memory App#maximum_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#maximum_memory App#maximum_memory}
   */
   readonly maximumMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#mem_cpu_ratio_c_threshold App#mem_cpu_ratio_c_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#mem_cpu_ratio_c_threshold App#mem_cpu_ratio_c_threshold}
   */
   readonly memCpuRatioCThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#mem_cpu_ratio_r_threshold App#mem_cpu_ratio_r_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#mem_cpu_ratio_r_threshold App#mem_cpu_ratio_r_threshold}
   */
   readonly memCpuRatioRThreshold?: number;
   /**
   * The memory usage threshold for scaling down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#mem_scale_down_threshold App#mem_scale_down_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#mem_scale_down_threshold App#mem_scale_down_threshold}
   */
   readonly memScaleDownThreshold?: number;
   /**
   * The memory usage threshold for scaling up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#mem_scale_up_threshold App#mem_scale_up_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#mem_scale_up_threshold App#mem_scale_up_threshold}
   */
   readonly memScaleUpThreshold?: number;
   /**
   * The lookback period for metrics in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#metric_lookback_seconds App#metric_lookback_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#metric_lookback_seconds App#metric_lookback_seconds}
   */
   readonly metricLookbackSeconds?: number;
   /**
   * The minimum number of containers for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#min_containers App#min_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#min_containers App#min_containers}
   */
   readonly minContainers?: number;
   /**
   * The minimum CPU utilization threshold for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#min_cpu_threshold App#min_cpu_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#min_cpu_threshold App#min_cpu_threshold}
   */
   readonly minCpuThreshold?: number;
   /**
   * The minimum memory allocation in MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#minimum_memory App#minimum_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#minimum_memory App#minimum_memory}
   */
   readonly minimumMemory?: number;
   /**
   * The percentile threshold used for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#percentile App#percentile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#percentile App#percentile}
   */
   readonly percentile?: number;
   /**
   * Seconds to ignore in metrics after a release event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#post_release_cooldown_seconds App#post_release_cooldown_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#post_release_cooldown_seconds App#post_release_cooldown_seconds}
   */
   readonly postReleaseCooldownSeconds?: number;
   /**
   * Cooldown period in seconds after a scale-down event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#post_scale_down_cooldown_seconds App#post_scale_down_cooldown_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#post_scale_down_cooldown_seconds App#post_scale_down_cooldown_seconds}
   */
   readonly postScaleDownCooldownSeconds?: number;
   /**
   * Cooldown period in seconds after a scale-up event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#post_scale_up_cooldown_seconds App#post_scale_up_cooldown_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#post_scale_up_cooldown_seconds App#post_scale_up_cooldown_seconds}
   */
   readonly postScaleUpCooldownSeconds?: number;
   /**
   * The number of containers to remove in each scale-down event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#scale_down_step App#scale_down_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#scale_down_step App#scale_down_step}
   */
   readonly scaleDownStep?: number;
   /**
   * The number of containers to add in each scale-up event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#scale_up_step App#scale_up_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#scale_up_step App#scale_up_step}
   */
   readonly scaleUpStep?: number;
   /**
   * Whether to use restart-free scaling for this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#use_horizontal_scale App#use_horizontal_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#use_horizontal_scale App#use_horizontal_scale}
   */
   readonly useHorizontalScale?: boolean | cdktf.IResolvable;
 }
@@ -1527,43 +1527,47 @@ export class AppServiceServiceSizingPolicyList extends cdktf.ComplexList {
 }
 export interface AppService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#container_count App#container_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#container_count App#container_count}
   */
   readonly containerCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#container_memory_limit App#container_memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#container_memory_limit App#container_memory_limit}
   */
   readonly containerMemoryLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#container_profile App#container_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#container_profile App#container_profile}
   */
   readonly containerProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#force_zero_downtime App#force_zero_downtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#force_zero_downtime App#force_zero_downtime}
   */
   readonly forceZeroDowntime?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#process_type App#process_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#process_type App#process_type}
   */
   readonly processType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#simple_health_check App#simple_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#restart_free_scaling App#restart_free_scaling}
+  */
+  readonly restartFreeScaling?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#simple_health_check App#simple_health_check}
   */
   readonly simpleHealthCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#stop_timeout App#stop_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#stop_timeout App#stop_timeout}
   */
   readonly stopTimeout?: number;
   /**
   * autoscaling_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#autoscaling_policy App#autoscaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#autoscaling_policy App#autoscaling_policy}
   */
   readonly autoscalingPolicy?: AppServiceAutoscalingPolicy[] | cdktf.IResolvable;
   /**
   * service_sizing_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#service_sizing_policy App#service_sizing_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#service_sizing_policy App#service_sizing_policy}
   */
   readonly serviceSizingPolicy?: AppServiceServiceSizingPolicy[] | cdktf.IResolvable;
 }
@@ -1579,6 +1583,7 @@ export function appServiceToTerraform(struct?: AppService | cdktf.IResolvable): 
     container_profile: cdktf.stringToTerraform(struct!.containerProfile),
     force_zero_downtime: cdktf.booleanToTerraform(struct!.forceZeroDowntime),
     process_type: cdktf.stringToTerraform(struct!.processType),
+    restart_free_scaling: cdktf.booleanToTerraform(struct!.restartFreeScaling),
     simple_health_check: cdktf.booleanToTerraform(struct!.simpleHealthCheck),
     stop_timeout: cdktf.numberToTerraform(struct!.stopTimeout),
     autoscaling_policy: cdktf.listMapper(appServiceAutoscalingPolicyToTerraform, true)(struct!.autoscalingPolicy),
@@ -1622,6 +1627,12 @@ export function appServiceToHclTerraform(struct?: AppService | cdktf.IResolvable
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    restart_free_scaling: {
+      value: cdktf.booleanToHclTerraform(struct!.restartFreeScaling),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     simple_health_check: {
       value: cdktf.booleanToHclTerraform(struct!.simpleHealthCheck),
@@ -1693,6 +1704,10 @@ export class AppServiceOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.processType = this._processType;
     }
+    if (this._restartFreeScaling !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.restartFreeScaling = this._restartFreeScaling;
+    }
     if (this._simpleHealthCheck !== undefined) {
       hasAnyValues = true;
       internalValueResult.simpleHealthCheck = this._simpleHealthCheck;
@@ -1721,6 +1736,7 @@ export class AppServiceOutputReference extends cdktf.ComplexObject {
       this._containerProfile = undefined;
       this._forceZeroDowntime = undefined;
       this._processType = undefined;
+      this._restartFreeScaling = undefined;
       this._simpleHealthCheck = undefined;
       this._stopTimeout = undefined;
       this._autoscalingPolicy.internalValue = undefined;
@@ -1738,6 +1754,7 @@ export class AppServiceOutputReference extends cdktf.ComplexObject {
       this._containerProfile = value.containerProfile;
       this._forceZeroDowntime = value.forceZeroDowntime;
       this._processType = value.processType;
+      this._restartFreeScaling = value.restartFreeScaling;
       this._simpleHealthCheck = value.simpleHealthCheck;
       this._stopTimeout = value.stopTimeout;
       this._autoscalingPolicy.internalValue = value.autoscalingPolicy;
@@ -1823,6 +1840,22 @@ export class AppServiceOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get processTypeInput() {
     return this._processType;
+  }
+
+  // restart_free_scaling - computed: false, optional: true, required: false
+  private _restartFreeScaling?: boolean | cdktf.IResolvable; 
+  public get restartFreeScaling() {
+    return this.getBooleanAttribute('restart_free_scaling');
+  }
+  public set restartFreeScaling(value: boolean | cdktf.IResolvable) {
+    this._restartFreeScaling = value;
+  }
+  public resetRestartFreeScaling() {
+    this._restartFreeScaling = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get restartFreeScalingInput() {
+    return this._restartFreeScaling;
   }
 
   // simple_health_check - computed: false, optional: true, required: false
@@ -1911,7 +1944,7 @@ export class AppServiceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app aptible_app}
+* Represents a {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app aptible_app}
 */
 export class App extends cdktf.TerraformResource {
 
@@ -1927,7 +1960,7 @@ export class App extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a App resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the App to import
-  * @param importFromId The id of the existing App that should be imported. Refer to the {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing App that should be imported. Refer to the {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the App to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1939,7 +1972,7 @@ export class App extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/app aptible_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/app aptible_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1950,8 +1983,8 @@ export class App extends cdktf.TerraformResource {
       terraformResourceType: 'aptible_app',
       terraformGeneratorMetadata: {
         providerName: 'aptible',
-        providerVersion: '0.9.18',
-        providerVersionConstraint: '0.9.18'
+        providerVersion: '0.9.19',
+        providerVersionConstraint: '0.9.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

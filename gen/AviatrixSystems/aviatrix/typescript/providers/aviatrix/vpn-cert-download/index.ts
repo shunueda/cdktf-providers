@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_cert_download
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_cert_download
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VpnCertDownloadConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the VPN Certificate download is enabled. Supported Values: "true", "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_cert_download#download_enabled VpnCertDownload#download_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_cert_download#download_enabled VpnCertDownload#download_enabled}
   */
   readonly downloadEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_cert_download#id VpnCertDownload#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_cert_download#id VpnCertDownload#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface VpnCertDownloadConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of SAML endpoint names for which the downloading should be enabled . Currently, only a single endpoint is supported. Example: ["saml_endpoint_1"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_cert_download#saml_endpoints VpnCertDownload#saml_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_cert_download#saml_endpoints VpnCertDownload#saml_endpoints}
   */
   readonly samlEndpoints?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_cert_download aviatrix_vpn_cert_download}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_cert_download aviatrix_vpn_cert_download}
 */
 export class VpnCertDownload extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class VpnCertDownload extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnCertDownload resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnCertDownload to import
-  * @param importFromId The id of the existing VpnCertDownload that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_cert_download#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnCertDownload that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_cert_download#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnCertDownload to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class VpnCertDownload extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_cert_download aviatrix_vpn_cert_download} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_cert_download aviatrix_vpn_cert_download} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class VpnCertDownload extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_vpn_cert_download',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

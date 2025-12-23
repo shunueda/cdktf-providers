@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface AlbservicesfiledownloadConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#destination_dir Albservicesfiledownload#destination_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#destination_dir Albservicesfiledownload#destination_dir}
   */
   readonly destinationDir: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#file_type Albservicesfiledownload#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#file_type Albservicesfiledownload#file_type}
   */
   readonly fileType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#file_uri Albservicesfiledownload#file_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#file_uri Albservicesfiledownload#file_uri}
   */
   readonly fileUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#id Albservicesfiledownload#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#id Albservicesfiledownload#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#message Albservicesfiledownload#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#message Albservicesfiledownload#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#name Albservicesfiledownload#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#name Albservicesfiledownload#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#status Albservicesfiledownload#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#status Albservicesfiledownload#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#tenant_ref Albservicesfiledownload#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#tenant_ref Albservicesfiledownload#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#uuid Albservicesfiledownload#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#uuid Albservicesfiledownload#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#configpb_attributes Albservicesfiledownload#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#configpb_attributes Albservicesfiledownload#configpb_attributes}
   */
   readonly configpbAttributes?: AlbservicesfiledownloadConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#metadata Albservicesfiledownload#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#metadata Albservicesfiledownload#metadata}
   */
   readonly metadata?: AlbservicesfiledownloadMetadata[] | cdktf.IResolvable;
 }
 export interface AlbservicesfiledownloadConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#version Albservicesfiledownload#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#version Albservicesfiledownload#version}
   */
   readonly version?: string;
 }
@@ -177,27 +177,27 @@ export class AlbservicesfiledownloadConfigpbAttributesList extends cdktf.Complex
 }
 export interface AlbservicesfiledownloadMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#checksum Albservicesfiledownload#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#checksum Albservicesfiledownload#checksum}
   */
   readonly checksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#checksum_type Albservicesfiledownload#checksum_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#checksum_type Albservicesfiledownload#checksum_type}
   */
   readonly checksumType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#chunk_size Albservicesfiledownload#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#chunk_size Albservicesfiledownload#chunk_size}
   */
   readonly chunkSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#is_multi_part_download Albservicesfiledownload#is_multi_part_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#is_multi_part_download Albservicesfiledownload#is_multi_part_download}
   */
   readonly isMultiPartDownload: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#signed_url Albservicesfiledownload#signed_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#signed_url Albservicesfiledownload#signed_url}
   */
   readonly signedUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#total_size Albservicesfiledownload#total_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#total_size Albservicesfiledownload#total_size}
   */
   readonly totalSize: string;
 }
@@ -449,7 +449,7 @@ export class AlbservicesfiledownloadMetadataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload avi_albservicesfiledownload}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload avi_albservicesfiledownload}
 */
 export class Albservicesfiledownload extends cdktf.TerraformResource {
 
@@ -465,7 +465,7 @@ export class Albservicesfiledownload extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Albservicesfiledownload resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Albservicesfiledownload to import
-  * @param importFromId The id of the existing Albservicesfiledownload that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Albservicesfiledownload that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Albservicesfiledownload to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -477,7 +477,7 @@ export class Albservicesfiledownload extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesfiledownload avi_albservicesfiledownload} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesfiledownload avi_albservicesfiledownload} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -488,8 +488,8 @@ export class Albservicesfiledownload extends cdktf.TerraformResource {
       terraformResourceType: 'avi_albservicesfiledownload',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LbLoadbalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The administrative state of the Loadbalancer. A valid value is true (UP) or false (DOWN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#admin_state_up LbLoadbalancer#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#admin_state_up LbLoadbalancer#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
   * The availability zone of the Loadbalancer. Changing this creates a new loadbalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#availability_zone LbLoadbalancer#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#availability_zone LbLoadbalancer#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Human-readable description for the Loadbalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#description LbLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#description LbLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#id LbLoadbalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#id LbLoadbalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,69 +35,69 @@ export interface LbLoadbalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Human-readable name for the Loadbalancer. Does not have to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#name LbLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#name LbLoadbalancer#name}
   */
   readonly name?: string;
   /**
   * The region in which to obtain the Loadbalancer client. If omitted, the `region` argument of the provider is used. Changing this creates a new LB loadbalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#region LbLoadbalancer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#region LbLoadbalancer#region}
   */
   readonly region?: string;
   /**
   * A list of security group IDs to apply to the loadbalancer. The security groups must be specified by ID and not name (as opposed to how they are configured with the Compute Instance). **Deprecated** This argument is deprecated, please do not use it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#security_group_ids LbLoadbalancer#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#security_group_ids LbLoadbalancer#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * A list of simple strings assigned to the loadbalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#tags LbLoadbalancer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#tags LbLoadbalancer#tags}
   */
   readonly tags?: string[];
   /**
   * The ip address of the load balancer. Changing this creates a new loadbalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#vip_address LbLoadbalancer#vip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#vip_address LbLoadbalancer#vip_address}
   */
   readonly vipAddress?: string;
   /**
   * The network on which to allocate the Loadbalancer's address. A tenant can only create Loadbalancers on networks authorized by policy (e.g. networks that belong to them or networks that are shared).  Changing this creates a new loadbalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#vip_network_id LbLoadbalancer#vip_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#vip_network_id LbLoadbalancer#vip_network_id}
   */
   readonly vipNetworkId?: string;
   /**
   * The port UUID that the loadbalancer will use. Changing this creates a new loadbalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#vip_port_id LbLoadbalancer#vip_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#vip_port_id LbLoadbalancer#vip_port_id}
   */
   readonly vipPortId?: string;
   /**
   * The subnet on which to allocate the Loadbalancer's address. A tenant can only create Loadbalancers on networks authorized by policy (e.g. networks that belong to them or networks that are shared).  Changing this creates a new loadbalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#vip_subnet_id LbLoadbalancer#vip_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#vip_subnet_id LbLoadbalancer#vip_subnet_id}
   */
   readonly vipSubnetId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#timeouts LbLoadbalancer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#timeouts LbLoadbalancer#timeouts}
   */
   readonly timeouts?: LbLoadbalancerTimeouts;
 }
 export interface LbLoadbalancerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#create LbLoadbalancer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#create LbLoadbalancer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#delete LbLoadbalancer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#delete LbLoadbalancer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#update LbLoadbalancer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#update LbLoadbalancer#update}
   */
   readonly update?: string;
 }
@@ -249,7 +249,7 @@ export class LbLoadbalancerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer vkcs_lb_loadbalancer}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer vkcs_lb_loadbalancer}
 */
 export class LbLoadbalancer extends cdktf.TerraformResource {
 
@@ -265,7 +265,7 @@ export class LbLoadbalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbLoadbalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbLoadbalancer to import
-  * @param importFromId The id of the existing LbLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbLoadbalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +277,7 @@ export class LbLoadbalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_loadbalancer vkcs_lb_loadbalancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/lb_loadbalancer vkcs_lb_loadbalancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +288,8 @@ export class LbLoadbalancer extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_lb_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

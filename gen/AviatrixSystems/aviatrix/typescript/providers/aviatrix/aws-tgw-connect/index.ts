@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_connect
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_connect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AwsTgwConnectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_connect#connection_name AwsTgwConnect#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_connect#connection_name AwsTgwConnect#connection_name}
   */
   readonly connectionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_connect#id AwsTgwConnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_connect#id AwsTgwConnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface AwsTgwConnectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Network Domain Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_connect#network_domain_name AwsTgwConnect#network_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_connect#network_domain_name AwsTgwConnect#network_domain_name}
   */
   readonly networkDomainName: string;
   /**
   * AWS TGW Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_connect#tgw_name AwsTgwConnect#tgw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_connect#tgw_name AwsTgwConnect#tgw_name}
   */
   readonly tgwName: string;
   /**
   * Transport Attachment VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_connect#transport_vpc_id AwsTgwConnect#transport_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_connect#transport_vpc_id AwsTgwConnect#transport_vpc_id}
   */
   readonly transportVpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_connect aviatrix_aws_tgw_connect}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_connect aviatrix_aws_tgw_connect}
 */
 export class AwsTgwConnect extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AwsTgwConnect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsTgwConnect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsTgwConnect to import
-  * @param importFromId The id of the existing AwsTgwConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_connect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsTgwConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_connect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsTgwConnect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AwsTgwConnect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_connect aviatrix_aws_tgw_connect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_connect aviatrix_aws_tgw_connect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AwsTgwConnect extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_aws_tgw_connect',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

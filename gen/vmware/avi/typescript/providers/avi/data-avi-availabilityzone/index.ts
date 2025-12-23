@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/availabilityzone
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/availabilityzone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,273 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviAvailabilityzoneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/availabilityzone#cloud_ref DataAviAvailabilityzone#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/availabilityzone#cloud_ref DataAviAvailabilityzone#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/availabilityzone#id DataAviAvailabilityzone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/availabilityzone#id DataAviAvailabilityzone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/availabilityzone#name DataAviAvailabilityzone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/availabilityzone#name DataAviAvailabilityzone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/availabilityzone#tenant_ref DataAviAvailabilityzone#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/availabilityzone#tenant_ref DataAviAvailabilityzone#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/availabilityzone#uuid DataAviAvailabilityzone#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/availabilityzone#uuid DataAviAvailabilityzone#uuid}
   */
   readonly uuid?: string;
+}
+export interface DataAviAvailabilityzoneAzClusters {
+}
+
+export function dataAviAvailabilityzoneAzClustersToTerraform(struct?: DataAviAvailabilityzoneAzClusters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviAvailabilityzoneAzClustersToHclTerraform(struct?: DataAviAvailabilityzoneAzClusters): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviAvailabilityzoneAzClustersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviAvailabilityzoneAzClusters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviAvailabilityzoneAzClusters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // cluster_ids - computed: true, optional: false, required: false
+  public get clusterIds() {
+    return this.getListAttribute('cluster_ids');
+  }
+
+  // vcenter_ref - computed: true, optional: false, required: false
+  public get vcenterRef() {
+    return this.getStringAttribute('vcenter_ref');
+  }
+}
+
+export class DataAviAvailabilityzoneAzClustersList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviAvailabilityzoneAzClustersOutputReference {
+    return new DataAviAvailabilityzoneAzClustersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviAvailabilityzoneAzDatastores {
+}
+
+export function dataAviAvailabilityzoneAzDatastoresToTerraform(struct?: DataAviAvailabilityzoneAzDatastores): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviAvailabilityzoneAzDatastoresToHclTerraform(struct?: DataAviAvailabilityzoneAzDatastores): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviAvailabilityzoneAzDatastoresOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviAvailabilityzoneAzDatastores | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviAvailabilityzoneAzDatastores | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // ds_ids - computed: true, optional: false, required: false
+  public get dsIds() {
+    return this.getListAttribute('ds_ids');
+  }
+
+  // include - computed: true, optional: false, required: false
+  public get include() {
+    return this.getStringAttribute('include');
+  }
+
+  // vcenter_ref - computed: true, optional: false, required: false
+  public get vcenterRef() {
+    return this.getStringAttribute('vcenter_ref');
+  }
+}
+
+export class DataAviAvailabilityzoneAzDatastoresList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviAvailabilityzoneAzDatastoresOutputReference {
+    return new DataAviAvailabilityzoneAzDatastoresOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviAvailabilityzoneAzHosts {
+}
+
+export function dataAviAvailabilityzoneAzHostsToTerraform(struct?: DataAviAvailabilityzoneAzHosts): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviAvailabilityzoneAzHostsToHclTerraform(struct?: DataAviAvailabilityzoneAzHosts): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviAvailabilityzoneAzHostsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviAvailabilityzoneAzHosts | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviAvailabilityzoneAzHosts | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // host_ids - computed: true, optional: false, required: false
+  public get hostIds() {
+    return this.getListAttribute('host_ids');
+  }
+
+  // vcenter_ref - computed: true, optional: false, required: false
+  public get vcenterRef() {
+    return this.getStringAttribute('vcenter_ref');
+  }
+}
+
+export class DataAviAvailabilityzoneAzHostsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviAvailabilityzoneAzHostsOutputReference {
+    return new DataAviAvailabilityzoneAzHostsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataAviAvailabilityzoneConfigpbAttributes {
 }
@@ -108,7 +353,7 @@ export class DataAviAvailabilityzoneConfigpbAttributesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/availabilityzone avi_availabilityzone}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/availabilityzone avi_availabilityzone}
 */
 export class DataAviAvailabilityzone extends cdktf.TerraformDataSource {
 
@@ -124,7 +369,7 @@ export class DataAviAvailabilityzone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviAvailabilityzone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviAvailabilityzone to import
-  * @param importFromId The id of the existing DataAviAvailabilityzone that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/availabilityzone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviAvailabilityzone that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/availabilityzone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviAvailabilityzone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -136,7 +381,7 @@ export class DataAviAvailabilityzone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/availabilityzone avi_availabilityzone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/availabilityzone avi_availabilityzone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,8 +392,8 @@ export class DataAviAvailabilityzone extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_availabilityzone',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -168,6 +413,24 @@ export class DataAviAvailabilityzone extends cdktf.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // az_clusters - computed: true, optional: false, required: false
+  private _azClusters = new DataAviAvailabilityzoneAzClustersList(this, "az_clusters", false);
+  public get azClusters() {
+    return this._azClusters;
+  }
+
+  // az_datastores - computed: true, optional: false, required: false
+  private _azDatastores = new DataAviAvailabilityzoneAzDatastoresList(this, "az_datastores", false);
+  public get azDatastores() {
+    return this._azDatastores;
+  }
+
+  // az_hosts - computed: true, optional: false, required: false
+  private _azHosts = new DataAviAvailabilityzoneAzHostsList(this, "az_hosts", false);
+  public get azHosts() {
+    return this._azHosts;
+  }
 
   // cloud_ref - computed: true, optional: true, required: false
   private _cloudRef?: string; 
@@ -253,11 +516,6 @@ export class DataAviAvailabilityzone extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
-  }
-
-  // vcenter_refs - computed: true, optional: false, required: false
-  public get vcenterRefs() {
-    return this.getListAttribute('vcenter_refs');
   }
 
   // =========

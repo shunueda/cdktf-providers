@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_user
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataVkcsDbUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of names of the databases, that user is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_user#databases DataVkcsDbUser#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_user#databases DataVkcsDbUser#databases}
   */
   readonly databases?: string[];
   /**
   * ID of the instance or cluster that user is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_user#dbms_id DataVkcsDbUser#dbms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_user#dbms_id DataVkcsDbUser#dbms_id}
   */
   readonly dbmsId?: string;
   /**
   * IP address of the host that user will be accessible from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_user#host DataVkcsDbUser#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_user#host DataVkcsDbUser#host}
   */
   readonly host?: string;
   /**
   * The id of the user in form "dbms_id/user_name".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_user#id DataVkcsDbUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_user#id DataVkcsDbUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,19 +37,19 @@ export interface DataVkcsDbUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the user. Changing this creates a new user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_user#name DataVkcsDbUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_user#name DataVkcsDbUser#name}
   */
   readonly name?: string;
   /**
   * The password of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_user#password DataVkcsDbUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_user#password DataVkcsDbUser#password}
   */
   readonly password?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_user vkcs_db_user}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_user vkcs_db_user}
 */
 export class DataVkcsDbUser extends cdktf.TerraformDataSource {
 
@@ -65,7 +65,7 @@ export class DataVkcsDbUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsDbUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsDbUser to import
-  * @param importFromId The id of the existing DataVkcsDbUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsDbUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsDbUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class DataVkcsDbUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_user vkcs_db_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_user vkcs_db_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class DataVkcsDbUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_db_user',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

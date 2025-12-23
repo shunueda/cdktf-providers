@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ComputeInterfaceAttachConfig extends cdktf.TerraformMetaArgumen
   /**
   * An IP address to assosciate with the port. _note_ This option cannot be used with port_id. You must specify a network_id. The IP address must lie in a range on the supplied network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach#fixed_ip ComputeInterfaceAttach#fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach#fixed_ip ComputeInterfaceAttach#fixed_ip}
   */
   readonly fixedIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach#id ComputeInterfaceAttach#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach#id ComputeInterfaceAttach#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface ComputeInterfaceAttachConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the Instance to attach the Port or Network to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach#instance_id ComputeInterfaceAttach#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach#instance_id ComputeInterfaceAttach#instance_id}
   */
   readonly instanceId: string;
   /**
   * The ID of the Network to attach to an Instance. A port will be created automatically. _note_ This option and `port_id` are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach#network_id ComputeInterfaceAttach#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach#network_id ComputeInterfaceAttach#network_id}
   */
   readonly networkId?: string;
   /**
   * The ID of the Port to attach to an Instance. _note_ This option and `network_id` are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach#port_id ComputeInterfaceAttach#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach#port_id ComputeInterfaceAttach#port_id}
   */
   readonly portId?: string;
   /**
   * The region in which to create the interface attachment. If omitted, the `region` argument of the provider is used. Changing this creates a new attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach#region ComputeInterfaceAttach#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach#region ComputeInterfaceAttach#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach#timeouts ComputeInterfaceAttach#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach#timeouts ComputeInterfaceAttach#timeouts}
   */
   readonly timeouts?: ComputeInterfaceAttachTimeouts;
 }
 export interface ComputeInterfaceAttachTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach#create ComputeInterfaceAttach#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach#create ComputeInterfaceAttach#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach#delete ComputeInterfaceAttach#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach#delete ComputeInterfaceAttach#delete}
   */
   readonly delete?: string;
 }
@@ -180,7 +180,7 @@ export class ComputeInterfaceAttachTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach vkcs_compute_interface_attach}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach vkcs_compute_interface_attach}
 */
 export class ComputeInterfaceAttach extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class ComputeInterfaceAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeInterfaceAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeInterfaceAttach to import
-  * @param importFromId The id of the existing ComputeInterfaceAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeInterfaceAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeInterfaceAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class ComputeInterfaceAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_interface_attach vkcs_compute_interface_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_interface_attach vkcs_compute_interface_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class ComputeInterfaceAttach extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_compute_interface_attach',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

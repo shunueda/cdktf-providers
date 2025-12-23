@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface SnmptrapprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#id Snmptrapprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#id Snmptrapprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#name Snmptrapprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#name Snmptrapprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#tenant_ref Snmptrapprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#tenant_ref Snmptrapprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#uuid Snmptrapprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#uuid Snmptrapprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#configpb_attributes Snmptrapprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#configpb_attributes Snmptrapprofile#configpb_attributes}
   */
   readonly configpbAttributes?: SnmptrapprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * trap_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#trap_servers Snmptrapprofile#trap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#trap_servers Snmptrapprofile#trap_servers}
   */
   readonly trapServers?: SnmptrapprofileTrapServers[] | cdktf.IResolvable;
 }
 export interface SnmptrapprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#version Snmptrapprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#version Snmptrapprofile#version}
   */
   readonly version?: string;
 }
@@ -157,11 +157,11 @@ export class SnmptrapprofileConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface SnmptrapprofileTrapServersIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#addr Snmptrapprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#addr Snmptrapprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#type Snmptrapprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#type Snmptrapprofile#type}
   */
   readonly type: string;
 }
@@ -300,23 +300,23 @@ export class SnmptrapprofileTrapServersIpAddrList extends cdktf.ComplexList {
 }
 export interface SnmptrapprofileTrapServersUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#auth_passphrase Snmptrapprofile#auth_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#auth_passphrase Snmptrapprofile#auth_passphrase}
   */
   readonly authPassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#auth_type Snmptrapprofile#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#auth_type Snmptrapprofile#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#priv_passphrase Snmptrapprofile#priv_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#priv_passphrase Snmptrapprofile#priv_passphrase}
   */
   readonly privPassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#priv_type Snmptrapprofile#priv_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#priv_type Snmptrapprofile#priv_type}
   */
   readonly privType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#username Snmptrapprofile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#username Snmptrapprofile#username}
   */
   readonly username?: string;
 }
@@ -548,27 +548,27 @@ export class SnmptrapprofileTrapServersUserList extends cdktf.ComplexList {
 }
 export interface SnmptrapprofileTrapServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#community Snmptrapprofile#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#community Snmptrapprofile#community}
   */
   readonly community?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#port Snmptrapprofile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#port Snmptrapprofile#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#version Snmptrapprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#version Snmptrapprofile#version}
   */
   readonly version?: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#ip_addr Snmptrapprofile#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#ip_addr Snmptrapprofile#ip_addr}
   */
   readonly ipAddr: SnmptrapprofileTrapServersIpAddr[] | cdktf.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#user Snmptrapprofile#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#user Snmptrapprofile#user}
   */
   readonly user?: SnmptrapprofileTrapServersUser[] | cdktf.IResolvable;
 }
@@ -797,7 +797,7 @@ export class SnmptrapprofileTrapServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile avi_snmptrapprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile avi_snmptrapprofile}
 */
 export class Snmptrapprofile extends cdktf.TerraformResource {
 
@@ -813,7 +813,7 @@ export class Snmptrapprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Snmptrapprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Snmptrapprofile to import
-  * @param importFromId The id of the existing Snmptrapprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Snmptrapprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Snmptrapprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -825,7 +825,7 @@ export class Snmptrapprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/snmptrapprofile avi_snmptrapprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/snmptrapprofile avi_snmptrapprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -836,8 +836,8 @@ export class Snmptrapprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_snmptrapprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

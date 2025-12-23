@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,36 +10,36 @@ export interface VpnProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Base policy rule of the profile to be added. Enter 'allow_all' or 'deny_all'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile#base_rule VpnProfile#base_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile#base_rule VpnProfile#base_rule}
   */
   readonly baseRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile#id VpnProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile#id VpnProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile#manage_user_attachment VpnProfile#manage_user_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile#manage_user_attachment VpnProfile#manage_user_attachment}
   */
   readonly manageUserAttachment?: boolean | cdktf.IResolvable;
   /**
   * name for the VPN profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile#name VpnProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile#name VpnProfile#name}
   */
   readonly name: string;
   /**
   * List of VPN users to attach to this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile#users VpnProfile#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile#users VpnProfile#users}
   */
   readonly users?: string[];
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile#policy VpnProfile#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile#policy VpnProfile#policy}
   */
   readonly policy?: VpnProfilePolicy[] | cdktf.IResolvable;
 }
@@ -47,25 +47,25 @@ export interface VpnProfilePolicy {
   /**
   * The opposite of the base rule for correct behaviour. 'allow' or 'deny'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile#action VpnProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile#action VpnProfile#action}
   */
   readonly action: string;
   /**
   * Port to be allowed or denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile#port VpnProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile#port VpnProfile#port}
   */
   readonly port: string;
   /**
   * Protocol to allow or deny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile#proto VpnProfile#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile#proto VpnProfile#proto}
   */
   readonly proto: string;
   /**
   * CIDR to be allowed or denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile#target VpnProfile#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile#target VpnProfile#target}
   */
   readonly target: string;
 }
@@ -256,7 +256,7 @@ export class VpnProfilePolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile aviatrix_vpn_profile}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile aviatrix_vpn_profile}
 */
 export class VpnProfile extends cdktf.TerraformResource {
 
@@ -272,7 +272,7 @@ export class VpnProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnProfile to import
-  * @param importFromId The id of the existing VpnProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -284,7 +284,7 @@ export class VpnProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_profile aviatrix_vpn_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_profile aviatrix_vpn_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,8 +295,8 @@ export class VpnProfile extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_vpn_profile',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

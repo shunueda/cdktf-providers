@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NetworkingNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The administrative state of the network. Acceptable values are "true" and "false". Changing this value updates the state of the existing network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#admin_state_up NetworkingNetwork#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#admin_state_up NetworkingNetwork#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
   * Human-readable description of the network. Changing this updates the name of the existing network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#description NetworkingNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#description NetworkingNetwork#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#id NetworkingNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#id NetworkingNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,65 +29,65 @@ export interface NetworkingNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the network. Changing this updates the name of the existing network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#name NetworkingNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#name NetworkingNetwork#name}
   */
   readonly name?: string;
   /**
   * Whether to explicitly enable or disable port security on the network. Port Security is usually enabled by default, so omitting this argument will usually result in a value of "true". Setting this explicitly to `false` will disable port security. Valid values are `true` and `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#port_security_enabled NetworkingNetwork#port_security_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#port_security_enabled NetworkingNetwork#port_security_enabled}
   */
   readonly portSecurityEnabled?: boolean | cdktf.IResolvable;
   /**
   * Private dns domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#private_dns_domain NetworkingNetwork#private_dns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#private_dns_domain NetworkingNetwork#private_dns_domain}
   */
   readonly privateDnsDomain?: string;
   /**
   * The region in which to obtain the Networking client. A Networking client is needed to create a network. If omitted, the `region` argument of the provider is used. Changing this creates a new network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#region NetworkingNetwork#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#region NetworkingNetwork#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#sdn NetworkingNetwork#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#sdn NetworkingNetwork#sdn}
   */
   readonly sdn?: string;
   /**
   * A set of string tags for the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#tags NetworkingNetwork#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#tags NetworkingNetwork#tags}
   */
   readonly tags?: string[];
   /**
   * Map of additional options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#value_specs NetworkingNetwork#value_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#value_specs NetworkingNetwork#value_specs}
   */
   readonly valueSpecs?: { [key: string]: string };
   /**
   * Whether VKCS services access is enabled. This feature should be enabled globally for your project. Access can be enabled for new or existing networks, but cannot be disabled for existing networks. Valid values are `true` and `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#vkcs_services_access NetworkingNetwork#vkcs_services_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#vkcs_services_access NetworkingNetwork#vkcs_services_access}
   */
   readonly vkcsServicesAccess?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#timeouts NetworkingNetwork#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#timeouts NetworkingNetwork#timeouts}
   */
   readonly timeouts?: NetworkingNetworkTimeouts;
 }
 export interface NetworkingNetworkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#create NetworkingNetwork#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#create NetworkingNetwork#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#delete NetworkingNetwork#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#delete NetworkingNetwork#delete}
   */
   readonly delete?: string;
 }
@@ -210,7 +210,7 @@ export class NetworkingNetworkTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network vkcs_networking_network}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network vkcs_networking_network}
 */
 export class NetworkingNetwork extends cdktf.TerraformResource {
 
@@ -226,7 +226,7 @@ export class NetworkingNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingNetwork to import
-  * @param importFromId The id of the existing NetworkingNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +238,7 @@ export class NetworkingNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_network vkcs_networking_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_network vkcs_networking_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +249,8 @@ export class NetworkingNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_networking_network',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/rbac_group_access_account_attachment
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/rbac_group_access_account_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RbacGroupAccessAccountAttachmentConfig extends cdktf.TerraformM
   /**
   * Access account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/rbac_group_access_account_attachment#access_account_name RbacGroupAccessAccountAttachment#access_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/rbac_group_access_account_attachment#access_account_name RbacGroupAccessAccountAttachment#access_account_name}
   */
   readonly accessAccountName: string;
   /**
   * RBAC permission group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/rbac_group_access_account_attachment#group_name RbacGroupAccessAccountAttachment#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/rbac_group_access_account_attachment#group_name RbacGroupAccessAccountAttachment#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/rbac_group_access_account_attachment#id RbacGroupAccessAccountAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/rbac_group_access_account_attachment#id RbacGroupAccessAccountAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface RbacGroupAccessAccountAttachmentConfig extends cdktf.TerraformM
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/rbac_group_access_account_attachment aviatrix_rbac_group_access_account_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/rbac_group_access_account_attachment aviatrix_rbac_group_access_account_attachment}
 */
 export class RbacGroupAccessAccountAttachment extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class RbacGroupAccessAccountAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RbacGroupAccessAccountAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RbacGroupAccessAccountAttachment to import
-  * @param importFromId The id of the existing RbacGroupAccessAccountAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/rbac_group_access_account_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RbacGroupAccessAccountAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/rbac_group_access_account_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RbacGroupAccessAccountAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class RbacGroupAccessAccountAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/rbac_group_access_account_attachment aviatrix_rbac_group_access_account_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/rbac_group_access_account_attachment aviatrix_rbac_group_access_account_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class RbacGroupAccessAccountAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_rbac_group_access_account_attachment',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel3
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface Testsedatastorelevel3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel3#id Testsedatastorelevel3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel3#id Testsedatastorelevel3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel3#name Testsedatastorelevel3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel3#name Testsedatastorelevel3#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel3#tenant_ref Testsedatastorelevel3#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel3#tenant_ref Testsedatastorelevel3#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel3#uuid Testsedatastorelevel3#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel3#uuid Testsedatastorelevel3#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel3#configpb_attributes Testsedatastorelevel3#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel3#configpb_attributes Testsedatastorelevel3#configpb_attributes}
   */
   readonly configpbAttributes?: Testsedatastorelevel3ConfigpbAttributes[] | cdktf.IResolvable;
 }
 export interface Testsedatastorelevel3ConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel3#version Testsedatastorelevel3#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel3#version Testsedatastorelevel3#version}
   */
   readonly version?: string;
 }
@@ -151,7 +151,7 @@ export class Testsedatastorelevel3ConfigpbAttributesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel3 avi_testsedatastorelevel3}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel3 avi_testsedatastorelevel3}
 */
 export class Testsedatastorelevel3 extends cdktf.TerraformResource {
 
@@ -167,7 +167,7 @@ export class Testsedatastorelevel3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Testsedatastorelevel3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Testsedatastorelevel3 to import
-  * @param importFromId The id of the existing Testsedatastorelevel3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Testsedatastorelevel3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Testsedatastorelevel3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class Testsedatastorelevel3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel3 avi_testsedatastorelevel3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel3 avi_testsedatastorelevel3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class Testsedatastorelevel3 extends cdktf.TerraformResource {
       terraformResourceType: 'avi_testsedatastorelevel3',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

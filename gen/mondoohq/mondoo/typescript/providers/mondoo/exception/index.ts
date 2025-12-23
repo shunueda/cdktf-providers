@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/exception
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/exception
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ExceptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action to perform. Default is `RISK_ACCEPTED`. Other valid values are `WORKAROUND`, `FALSE_POSITIVE`, `ENABLE`, `DISABLE`, `OUT_OF_SCOPE` and `SNOOZE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/exception#action Exception#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/exception#action Exception#action}
   */
   readonly action?: string;
   /**
   * List of check MRNs to set exceptions for. If set, `vulnerability_mrns` must not be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/exception#check_mrns Exception#check_mrns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/exception#check_mrns Exception#check_mrns}
   */
   readonly checkMrns?: string[];
   /**
   * The ID of the exception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/exception#exception_id Exception#exception_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/exception#exception_id Exception#exception_id}
   */
   readonly exceptionId?: string;
   /**
   * Description why the exception is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/exception#justification Exception#justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/exception#justification Exception#justification}
   */
   readonly justification?: string;
   /**
   * The MRN of the scope (either asset mrn or space mrn).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/exception#scope_mrn Exception#scope_mrn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/exception#scope_mrn Exception#scope_mrn}
   */
   readonly scopeMrn?: string;
   /**
   * The date when the exception is no longer valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/exception#valid_until Exception#valid_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/exception#valid_until Exception#valid_until}
   */
   readonly validUntil?: string;
   /**
   * List of vulnerability MRNs to set exceptions for. If set, `check_mrns` must not be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/exception#vulnerability_mrns Exception#vulnerability_mrns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/exception#vulnerability_mrns Exception#vulnerability_mrns}
   */
   readonly vulnerabilityMrns?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/exception mondoo_exception}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/exception mondoo_exception}
 */
 export class Exception extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class Exception extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Exception resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Exception to import
-  * @param importFromId The id of the existing Exception that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/exception#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Exception that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/exception#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Exception to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class Exception extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/exception mondoo_exception} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/exception mondoo_exception} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class Exception extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_exception',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.2',
-        providerVersionConstraint: '0.35.2'
+        providerVersion: '0.35.3',
+        providerVersionConstraint: '0.35.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface NetworkingSecgroupRuleConfig extends cdktf.TerraformMetaArgumen
   /**
   * A description of the rule. Changing this creates a new security group rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#description NetworkingSecgroupRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#description NetworkingSecgroupRule#description}
   */
   readonly description?: string;
   /**
   * The direction of the rule, valid values are __ingress__ or __egress__. Changing this creates a new security group rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#direction NetworkingSecgroupRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#direction NetworkingSecgroupRule#direction}
   */
   readonly direction: string;
   /**
   * The layer 3 protocol type, the only valid value is __IPv4__. Changing this creates a new security group rule. **Deprecated** Only IPv4 can be used as ethertype. This argument is deprecated, please do not use it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#ethertype NetworkingSecgroupRule#ethertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#ethertype NetworkingSecgroupRule#ethertype}
   */
   readonly ethertype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#id NetworkingSecgroupRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#id NetworkingSecgroupRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface NetworkingSecgroupRuleConfig extends cdktf.TerraformMetaArgumen
   /**
   * The higher part of the allowed port range, valid integer value needs to be between 1 and 65535. To specify all ports, `port_range_min` and `port_range_max` arguments must be absent. Changing this creates a new security group rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#port_range_max NetworkingSecgroupRule#port_range_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#port_range_max NetworkingSecgroupRule#port_range_max}
   */
   readonly portRangeMax?: number;
   /**
   * The lower part of the allowed port range, valid integer value needs to be between 1 and 65535. To specify all ports, `port_range_min` and `port_range_max` arguments must be absent. Changing this creates a new security group rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#port_range_min NetworkingSecgroupRule#port_range_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#port_range_min NetworkingSecgroupRule#port_range_min}
   */
   readonly portRangeMin?: number;
   /**
@@ -62,49 +62,49 @@ export interface NetworkingSecgroupRuleConfig extends cdktf.TerraformMetaArgumen
   *   * __udplite__
   *   * __vrrp__
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#protocol NetworkingSecgroupRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#protocol NetworkingSecgroupRule#protocol}
   */
   readonly protocol?: string;
   /**
   * The region in which to obtain the networking client. A networking client is needed to create a port. If omitted, the `region` argument of the provider is used. Changing this creates a new security group rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#region NetworkingSecgroupRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#region NetworkingSecgroupRule#region}
   */
   readonly region?: string;
   /**
   * The remote group id, the value needs to be an ID of a security group in the same tenant. Changing this creates a new security group rule. _note_ Only one of `remote_group_id` or `remote_ip_prefix` may be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#remote_group_id NetworkingSecgroupRule#remote_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#remote_group_id NetworkingSecgroupRule#remote_group_id}
   */
   readonly remoteGroupId?: string;
   /**
   * The remote CIDR, the value needs to be a valid CIDR (i.e. 192.168.0.0/16). Changing this creates a new security group rule. _note_ Only one of `remote_group_id` or `remote_ip_prefix` may be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#remote_ip_prefix NetworkingSecgroupRule#remote_ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#remote_ip_prefix NetworkingSecgroupRule#remote_ip_prefix}
   */
   readonly remoteIpPrefix?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#sdn NetworkingSecgroupRule#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#sdn NetworkingSecgroupRule#sdn}
   */
   readonly sdn?: string;
   /**
   * The security group id the rule should belong to, the value needs to be an ID of a security group in the same tenant. Changing this creates a new security group rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#security_group_id NetworkingSecgroupRule#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#security_group_id NetworkingSecgroupRule#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#timeouts NetworkingSecgroupRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#timeouts NetworkingSecgroupRule#timeouts}
   */
   readonly timeouts?: NetworkingSecgroupRuleTimeouts;
 }
 export interface NetworkingSecgroupRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#delete NetworkingSecgroupRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#delete NetworkingSecgroupRule#delete}
   */
   readonly delete?: string;
 }
@@ -198,7 +198,7 @@ export class NetworkingSecgroupRuleTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule vkcs_networking_secgroup_rule}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule vkcs_networking_secgroup_rule}
 */
 export class NetworkingSecgroupRule extends cdktf.TerraformResource {
 
@@ -214,7 +214,7 @@ export class NetworkingSecgroupRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingSecgroupRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingSecgroupRule to import
-  * @param importFromId The id of the existing NetworkingSecgroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingSecgroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingSecgroupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class NetworkingSecgroupRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_secgroup_rule vkcs_networking_secgroup_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_secgroup_rule vkcs_networking_secgroup_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class NetworkingSecgroupRule extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_networking_secgroup_rule',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

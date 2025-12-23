@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/qos_policy_list
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/qos_policy_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface QosPolicyListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/qos_policy_list#id QosPolicyList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/qos_policy_list#id QosPolicyList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface QosPolicyListConfig extends cdktf.TerraformMetaArguments {
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/qos_policy_list#policies QosPolicyList#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/qos_policy_list#policies QosPolicyList#policies}
   */
   readonly policies: QosPolicyListPolicies[] | cdktf.IResolvable;
 }
@@ -25,19 +25,19 @@ export interface QosPolicyListPolicies {
   /**
   * List of DSCP values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/qos_policy_list#dscp_values QosPolicyList#dscp_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/qos_policy_list#dscp_values QosPolicyList#dscp_values}
   */
   readonly dscpValues: string[];
   /**
   * QoS policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/qos_policy_list#name QosPolicyList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/qos_policy_list#name QosPolicyList#name}
   */
   readonly name: string;
   /**
   * QoS class UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/qos_policy_list#qos_class_uuid QosPolicyList#qos_class_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/qos_policy_list#qos_class_uuid QosPolicyList#qos_class_uuid}
   */
   readonly qosClassUuid: string;
 }
@@ -207,7 +207,7 @@ export class QosPolicyListPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/qos_policy_list aviatrix_qos_policy_list}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/qos_policy_list aviatrix_qos_policy_list}
 */
 export class QosPolicyList extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class QosPolicyList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QosPolicyList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QosPolicyList to import
-  * @param importFromId The id of the existing QosPolicyList that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/qos_policy_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QosPolicyList that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/qos_policy_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QosPolicyList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class QosPolicyList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/qos_policy_list aviatrix_qos_policy_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/qos_policy_list aviatrix_qos_policy_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class QosPolicyList extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_qos_policy_list',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

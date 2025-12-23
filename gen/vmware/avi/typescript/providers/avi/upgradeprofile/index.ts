@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktf from 'cdktf';
 
 export interface UpgradeprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#id Upgradeprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#id Upgradeprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#uuid Upgradeprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#uuid Upgradeprofile#uuid}
   */
   readonly uuid?: string;
   /**
-  * controller block
+  * controller_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#controller Upgradeprofile#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#controller_params Upgradeprofile#controller_params}
   */
-  readonly controller?: UpgradeprofileController[] | cdktf.IResolvable;
+  readonly controllerParams?: UpgradeprofileControllerParams[] | cdktf.IResolvable;
   /**
   * dry_run block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#dry_run Upgradeprofile#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#dry_run Upgradeprofile#dry_run}
   */
   readonly dryRun?: UpgradeprofileDryRun[] | cdktf.IResolvable;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#image Upgradeprofile#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#image Upgradeprofile#image}
   */
   readonly image?: UpgradeprofileImage[] | cdktf.IResolvable;
   /**
   * pre_checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#pre_checks Upgradeprofile#pre_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#pre_checks Upgradeprofile#pre_checks}
   */
   readonly preChecks?: UpgradeprofilePreChecks[] | cdktf.IResolvable;
   /**
   * service_engine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#service_engine Upgradeprofile#service_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#service_engine Upgradeprofile#service_engine}
   */
   readonly serviceEngine?: UpgradeprofileServiceEngine[] | cdktf.IResolvable;
 }
-export interface UpgradeprofileController {
+export interface UpgradeprofileControllerParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#task_base_timeout Upgradeprofile#task_base_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#task_base_timeout Upgradeprofile#task_base_timeout}
   */
   readonly taskBaseTimeout?: string;
 }
 
-export function upgradeprofileControllerToTerraform(struct?: UpgradeprofileController | cdktf.IResolvable): any {
+export function upgradeprofileControllerParamsToTerraform(struct?: UpgradeprofileControllerParams | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -67,7 +67,7 @@ export function upgradeprofileControllerToTerraform(struct?: UpgradeprofileContr
 }
 
 
-export function upgradeprofileControllerToHclTerraform(struct?: UpgradeprofileController | cdktf.IResolvable): any {
+export function upgradeprofileControllerParamsToHclTerraform(struct?: UpgradeprofileControllerParams | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -85,7 +85,7 @@ export function upgradeprofileControllerToHclTerraform(struct?: UpgradeprofileCo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class UpgradeprofileControllerOutputReference extends cdktf.ComplexObject {
+export class UpgradeprofileControllerParamsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -99,7 +99,7 @@ export class UpgradeprofileControllerOutputReference extends cdktf.ComplexObject
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): UpgradeprofileController | cdktf.IResolvable | undefined {
+  public get internalValue(): UpgradeprofileControllerParams | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -112,7 +112,7 @@ export class UpgradeprofileControllerOutputReference extends cdktf.ComplexObject
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: UpgradeprofileController | cdktf.IResolvable | undefined) {
+  public set internalValue(value: UpgradeprofileControllerParams | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -146,8 +146,8 @@ export class UpgradeprofileControllerOutputReference extends cdktf.ComplexObject
   }
 }
 
-export class UpgradeprofileControllerList extends cdktf.ComplexList {
-  public internalValue? : UpgradeprofileController[] | cdktf.IResolvable
+export class UpgradeprofileControllerParamsList extends cdktf.ComplexList {
+  public internalValue? : UpgradeprofileControllerParams[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -161,25 +161,25 @@ export class UpgradeprofileControllerList extends cdktf.ComplexList {
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): UpgradeprofileControllerOutputReference {
-    return new UpgradeprofileControllerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): UpgradeprofileControllerParamsOutputReference {
+    return new UpgradeprofileControllerParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface UpgradeprofileDryRun {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#allow_single_node Upgradeprofile#allow_single_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#allow_single_node Upgradeprofile#allow_single_node}
   */
   readonly allowSingleNode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#memory Upgradeprofile#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#memory Upgradeprofile#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#num_cpu Upgradeprofile#num_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#num_cpu Upgradeprofile#num_cpu}
   */
   readonly numCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#preferred_worker Upgradeprofile#preferred_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#preferred_worker Upgradeprofile#preferred_worker}
   */
   readonly preferredWorker?: string;
 }
@@ -382,11 +382,11 @@ export class UpgradeprofileDryRunList extends cdktf.ComplexList {
 }
 export interface UpgradeprofileImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#image_replication_timeout Upgradeprofile#image_replication_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#image_replication_timeout Upgradeprofile#image_replication_timeout}
   */
   readonly imageReplicationTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#max_image_size Upgradeprofile#max_image_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#max_image_size Upgradeprofile#max_image_size}
   */
   readonly maxImageSize?: string;
 }
@@ -531,11 +531,11 @@ export class UpgradeprofileImageList extends cdktf.ComplexList {
 }
 export interface UpgradeprofilePreChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#export_config_timeout Upgradeprofile#export_config_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#export_config_timeout Upgradeprofile#export_config_timeout}
   */
   readonly exportConfigTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#max_alerts Upgradeprofile#max_alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#max_alerts Upgradeprofile#max_alerts}
   */
   readonly maxAlerts?: string;
 }
@@ -680,27 +680,27 @@ export class UpgradeprofilePreChecksList extends cdktf.ComplexList {
 }
 export interface UpgradeprofileServiceEngine {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#concurrent_segroup_upgrades Upgradeprofile#concurrent_segroup_upgrades}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#concurrent_segroup_upgrades Upgradeprofile#concurrent_segroup_upgrades}
   */
   readonly concurrentSegroupUpgrades?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#image_data_transfer_size Upgradeprofile#image_data_transfer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#image_data_transfer_size Upgradeprofile#image_data_transfer_size}
   */
   readonly imageDataTransferSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#large_se_connect_timeout Upgradeprofile#large_se_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#large_se_connect_timeout Upgradeprofile#large_se_connect_timeout}
   */
   readonly largeSeConnectTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#se_connect_timeout Upgradeprofile#se_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#se_connect_timeout Upgradeprofile#se_connect_timeout}
   */
   readonly seConnectTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#simultaneous_image_downloads Upgradeprofile#simultaneous_image_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#simultaneous_image_downloads Upgradeprofile#simultaneous_image_downloads}
   */
   readonly simultaneousImageDownloads?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#task_base_timeout Upgradeprofile#task_base_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#task_base_timeout Upgradeprofile#task_base_timeout}
   */
   readonly taskBaseTimeout?: string;
 }
@@ -961,7 +961,7 @@ export class UpgradeprofileServiceEngineList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile avi_upgradeprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile avi_upgradeprofile}
 */
 export class Upgradeprofile extends cdktf.TerraformResource {
 
@@ -977,7 +977,7 @@ export class Upgradeprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Upgradeprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Upgradeprofile to import
-  * @param importFromId The id of the existing Upgradeprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Upgradeprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Upgradeprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -989,7 +989,7 @@ export class Upgradeprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradeprofile avi_upgradeprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/upgradeprofile avi_upgradeprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1000,7 +1000,8 @@ export class Upgradeprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_upgradeprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1012,7 +1013,7 @@ export class Upgradeprofile extends cdktf.TerraformResource {
     });
     this._id = config.id;
     this._uuid = config.uuid;
-    this._controller.internalValue = config.controller;
+    this._controllerParams.internalValue = config.controllerParams;
     this._dryRun.internalValue = config.dryRun;
     this._image.internalValue = config.image;
     this._preChecks.internalValue = config.preChecks;
@@ -1055,20 +1056,20 @@ export class Upgradeprofile extends cdktf.TerraformResource {
     return this._uuid;
   }
 
-  // controller - computed: false, optional: true, required: false
-  private _controller = new UpgradeprofileControllerList(this, "controller", true);
-  public get controller() {
-    return this._controller;
+  // controller_params - computed: false, optional: true, required: false
+  private _controllerParams = new UpgradeprofileControllerParamsList(this, "controller_params", true);
+  public get controllerParams() {
+    return this._controllerParams;
   }
-  public putController(value: UpgradeprofileController[] | cdktf.IResolvable) {
-    this._controller.internalValue = value;
+  public putControllerParams(value: UpgradeprofileControllerParams[] | cdktf.IResolvable) {
+    this._controllerParams.internalValue = value;
   }
-  public resetController() {
-    this._controller.internalValue = undefined;
+  public resetControllerParams() {
+    this._controllerParams.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get controllerInput() {
-    return this._controller.internalValue;
+  public get controllerParamsInput() {
+    return this._controllerParams.internalValue;
   }
 
   // dry_run - computed: false, optional: true, required: false
@@ -1143,7 +1144,7 @@ export class Upgradeprofile extends cdktf.TerraformResource {
     return {
       id: cdktf.stringToTerraform(this._id),
       uuid: cdktf.stringToTerraform(this._uuid),
-      controller: cdktf.listMapper(upgradeprofileControllerToTerraform, true)(this._controller.internalValue),
+      controller_params: cdktf.listMapper(upgradeprofileControllerParamsToTerraform, true)(this._controllerParams.internalValue),
       dry_run: cdktf.listMapper(upgradeprofileDryRunToTerraform, true)(this._dryRun.internalValue),
       image: cdktf.listMapper(upgradeprofileImageToTerraform, true)(this._image.internalValue),
       pre_checks: cdktf.listMapper(upgradeprofilePreChecksToTerraform, true)(this._preChecks.internalValue),
@@ -1165,11 +1166,11 @@ export class Upgradeprofile extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      controller: {
-        value: cdktf.listMapperHcl(upgradeprofileControllerToHclTerraform, true)(this._controller.internalValue),
+      controller_params: {
+        value: cdktf.listMapperHcl(upgradeprofileControllerParamsToHclTerraform, true)(this._controllerParams.internalValue),
         isBlock: true,
         type: "set",
-        storageClassType: "UpgradeprofileControllerList",
+        storageClassType: "UpgradeprofileControllerParamsList",
       },
       dry_run: {
         value: cdktf.listMapperHcl(upgradeprofileDryRunToHclTerraform, true)(this._dryRun.internalValue),

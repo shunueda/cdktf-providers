@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_sharenetwork
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_sharenetwork
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DataVkcsSharedfilesystemSharenetworkConfig extends cdktf.Terraf
   /**
   * The human-readable description of the share network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_sharenetwork#description DataVkcsSharedfilesystemSharenetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_sharenetwork#description DataVkcsSharedfilesystemSharenetwork#description}
   */
   readonly description?: string;
   /**
   * The name of the share network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_sharenetwork#name DataVkcsSharedfilesystemSharenetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_sharenetwork#name DataVkcsSharedfilesystemSharenetwork#name}
   */
   readonly name?: string;
   /**
   * The neutron network UUID of the share network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_sharenetwork#neutron_net_id DataVkcsSharedfilesystemSharenetwork#neutron_net_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_sharenetwork#neutron_net_id DataVkcsSharedfilesystemSharenetwork#neutron_net_id}
   */
   readonly neutronNetId?: string;
   /**
   * The neutron subnet UUID of the share network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_sharenetwork#neutron_subnet_id DataVkcsSharedfilesystemSharenetwork#neutron_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_sharenetwork#neutron_subnet_id DataVkcsSharedfilesystemSharenetwork#neutron_subnet_id}
   */
   readonly neutronSubnetId?: string;
   /**
   * The region in which to obtain the Shared File System client. A Shared File System client is needed to read a share network. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_sharenetwork#region DataVkcsSharedfilesystemSharenetwork#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_sharenetwork#region DataVkcsSharedfilesystemSharenetwork#region}
   */
   readonly region?: string;
   /**
   * The security service IDs associated with the share network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_sharenetwork#security_service_id DataVkcsSharedfilesystemSharenetwork#security_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_sharenetwork#security_service_id DataVkcsSharedfilesystemSharenetwork#security_service_id}
   */
   readonly securityServiceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_sharenetwork vkcs_sharedfilesystem_sharenetwork}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_sharenetwork vkcs_sharedfilesystem_sharenetwork}
 */
 export class DataVkcsSharedfilesystemSharenetwork extends cdktf.TerraformDataSource {
 
@@ -62,7 +62,7 @@ export class DataVkcsSharedfilesystemSharenetwork extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataVkcsSharedfilesystemSharenetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsSharedfilesystemSharenetwork to import
-  * @param importFromId The id of the existing DataVkcsSharedfilesystemSharenetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_sharenetwork#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsSharedfilesystemSharenetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_sharenetwork#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsSharedfilesystemSharenetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class DataVkcsSharedfilesystemSharenetwork extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_sharenetwork vkcs_sharedfilesystem_sharenetwork} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_sharenetwork vkcs_sharedfilesystem_sharenetwork} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class DataVkcsSharedfilesystemSharenetwork extends cdktf.TerraformDataSou
       terraformResourceType: 'vkcs_sharedfilesystem_sharenetwork',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

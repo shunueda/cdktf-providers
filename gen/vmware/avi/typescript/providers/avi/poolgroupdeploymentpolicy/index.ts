@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface PoolgroupdeploymentpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#auto_disable_old_prod_pools Poolgroupdeploymentpolicy#auto_disable_old_prod_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#auto_disable_old_prod_pools Poolgroupdeploymentpolicy#auto_disable_old_prod_pools}
   */
   readonly autoDisableOldProdPools?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#description Poolgroupdeploymentpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#description Poolgroupdeploymentpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#evaluation_duration Poolgroupdeploymentpolicy#evaluation_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#evaluation_duration Poolgroupdeploymentpolicy#evaluation_duration}
   */
   readonly evaluationDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#id Poolgroupdeploymentpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#id Poolgroupdeploymentpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#name Poolgroupdeploymentpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#name Poolgroupdeploymentpolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#scheme Poolgroupdeploymentpolicy#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#scheme Poolgroupdeploymentpolicy#scheme}
   */
   readonly scheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#target_test_traffic_ratio Poolgroupdeploymentpolicy#target_test_traffic_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#target_test_traffic_ratio Poolgroupdeploymentpolicy#target_test_traffic_ratio}
   */
   readonly targetTestTrafficRatio?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#tenant_ref Poolgroupdeploymentpolicy#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#tenant_ref Poolgroupdeploymentpolicy#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#test_traffic_ratio_rampup Poolgroupdeploymentpolicy#test_traffic_ratio_rampup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#test_traffic_ratio_rampup Poolgroupdeploymentpolicy#test_traffic_ratio_rampup}
   */
   readonly testTrafficRatioRampup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#uuid Poolgroupdeploymentpolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#uuid Poolgroupdeploymentpolicy#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#webhook_ref Poolgroupdeploymentpolicy#webhook_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#webhook_ref Poolgroupdeploymentpolicy#webhook_ref}
   */
   readonly webhookRef?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#configpb_attributes Poolgroupdeploymentpolicy#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#configpb_attributes Poolgroupdeploymentpolicy#configpb_attributes}
   */
   readonly configpbAttributes?: PoolgroupdeploymentpolicyConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#markers Poolgroupdeploymentpolicy#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#markers Poolgroupdeploymentpolicy#markers}
   */
   readonly markers?: PoolgroupdeploymentpolicyMarkers[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#rules Poolgroupdeploymentpolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#rules Poolgroupdeploymentpolicy#rules}
   */
   readonly rules?: PoolgroupdeploymentpolicyRules[] | cdktf.IResolvable;
 }
 export interface PoolgroupdeploymentpolicyConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#version Poolgroupdeploymentpolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#version Poolgroupdeploymentpolicy#version}
   */
   readonly version?: string;
 }
@@ -191,11 +191,11 @@ export class PoolgroupdeploymentpolicyConfigpbAttributesList extends cdktf.Compl
 }
 export interface PoolgroupdeploymentpolicyMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#key Poolgroupdeploymentpolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#key Poolgroupdeploymentpolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#values Poolgroupdeploymentpolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#values Poolgroupdeploymentpolicy#values}
   */
   readonly values?: string[];
 }
@@ -337,15 +337,15 @@ export class PoolgroupdeploymentpolicyMarkersList extends cdktf.ComplexList {
 }
 export interface PoolgroupdeploymentpolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#metric_id Poolgroupdeploymentpolicy#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#metric_id Poolgroupdeploymentpolicy#metric_id}
   */
   readonly metricId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#operator Poolgroupdeploymentpolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#operator Poolgroupdeploymentpolicy#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#threshold Poolgroupdeploymentpolicy#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#threshold Poolgroupdeploymentpolicy#threshold}
   */
   readonly threshold?: string;
 }
@@ -519,7 +519,7 @@ export class PoolgroupdeploymentpolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy avi_poolgroupdeploymentpolicy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy avi_poolgroupdeploymentpolicy}
 */
 export class Poolgroupdeploymentpolicy extends cdktf.TerraformResource {
 
@@ -535,7 +535,7 @@ export class Poolgroupdeploymentpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Poolgroupdeploymentpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Poolgroupdeploymentpolicy to import
-  * @param importFromId The id of the existing Poolgroupdeploymentpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Poolgroupdeploymentpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Poolgroupdeploymentpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -547,7 +547,7 @@ export class Poolgroupdeploymentpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroupdeploymentpolicy avi_poolgroupdeploymentpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroupdeploymentpolicy avi_poolgroupdeploymentpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -558,8 +558,8 @@ export class Poolgroupdeploymentpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'avi_poolgroupdeploymentpolicy',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

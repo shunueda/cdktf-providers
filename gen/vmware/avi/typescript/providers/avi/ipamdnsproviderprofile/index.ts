@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,112 @@ import * as cdktf from 'cdktf';
 
 export interface IpamdnsproviderprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#allocate_ip_in_vrf Ipamdnsproviderprofile#allocate_ip_in_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#allocate_ip_in_vrf Ipamdnsproviderprofile#allocate_ip_in_vrf}
   */
   readonly allocateIpInVrf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#id Ipamdnsproviderprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#id Ipamdnsproviderprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#name Ipamdnsproviderprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#name Ipamdnsproviderprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#tenant_ref Ipamdnsproviderprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#tenant_ref Ipamdnsproviderprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#uuid Ipamdnsproviderprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#uuid Ipamdnsproviderprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * aws_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#aws_profile Ipamdnsproviderprofile#aws_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#aws_profile Ipamdnsproviderprofile#aws_profile}
   */
   readonly awsProfile?: IpamdnsproviderprofileAwsProfile[] | cdktf.IResolvable;
   /**
   * azure_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#azure_profile Ipamdnsproviderprofile#azure_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#azure_profile Ipamdnsproviderprofile#azure_profile}
   */
   readonly azureProfile?: IpamdnsproviderprofileAzureProfile[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#configpb_attributes Ipamdnsproviderprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#configpb_attributes Ipamdnsproviderprofile#configpb_attributes}
   */
   readonly configpbAttributes?: IpamdnsproviderprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * custom_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#custom_profile Ipamdnsproviderprofile#custom_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#custom_profile Ipamdnsproviderprofile#custom_profile}
   */
   readonly customProfile?: IpamdnsproviderprofileCustomProfile[] | cdktf.IResolvable;
   /**
   * gcp_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#gcp_profile Ipamdnsproviderprofile#gcp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#gcp_profile Ipamdnsproviderprofile#gcp_profile}
   */
   readonly gcpProfile?: IpamdnsproviderprofileGcpProfile[] | cdktf.IResolvable;
   /**
   * infoblox_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#infoblox_profile Ipamdnsproviderprofile#infoblox_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#infoblox_profile Ipamdnsproviderprofile#infoblox_profile}
   */
   readonly infobloxProfile?: IpamdnsproviderprofileInfobloxProfile[] | cdktf.IResolvable;
   /**
   * internal_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#internal_profile Ipamdnsproviderprofile#internal_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#internal_profile Ipamdnsproviderprofile#internal_profile}
   */
   readonly internalProfile?: IpamdnsproviderprofileInternalProfile[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#markers Ipamdnsproviderprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#markers Ipamdnsproviderprofile#markers}
   */
   readonly markers?: IpamdnsproviderprofileMarkers[] | cdktf.IResolvable;
   /**
   * oci_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#oci_profile Ipamdnsproviderprofile#oci_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#oci_profile Ipamdnsproviderprofile#oci_profile}
   */
   readonly ociProfile?: IpamdnsproviderprofileOciProfile[] | cdktf.IResolvable;
   /**
   * openstack_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#openstack_profile Ipamdnsproviderprofile#openstack_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#openstack_profile Ipamdnsproviderprofile#openstack_profile}
   */
   readonly openstackProfile?: IpamdnsproviderprofileOpenstackProfile[] | cdktf.IResolvable;
   /**
   * proxy_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#proxy_configuration Ipamdnsproviderprofile#proxy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#proxy_configuration Ipamdnsproviderprofile#proxy_configuration}
   */
   readonly proxyConfiguration?: IpamdnsproviderprofileProxyConfiguration[] | cdktf.IResolvable;
   /**
   * tencent_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#tencent_profile Ipamdnsproviderprofile#tencent_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#tencent_profile Ipamdnsproviderprofile#tencent_profile}
   */
   readonly tencentProfile?: IpamdnsproviderprofileTencentProfile[] | cdktf.IResolvable;
 }
 export interface IpamdnsproviderprofileAwsProfileZones {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#availability_zone Ipamdnsproviderprofile#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#availability_zone Ipamdnsproviderprofile#availability_zone}
   */
   readonly availabilityZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_network_uuids Ipamdnsproviderprofile#usable_network_uuids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_network_uuids Ipamdnsproviderprofile#usable_network_uuids}
   */
   readonly usableNetworkUuids?: string[];
 }
@@ -255,57 +255,57 @@ export class IpamdnsproviderprofileAwsProfileZonesList extends cdktf.ComplexList
 }
 export interface IpamdnsproviderprofileAwsProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#access_key_id Ipamdnsproviderprofile#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#access_key_id Ipamdnsproviderprofile#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#egress_service_subnets Ipamdnsproviderprofile#egress_service_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#egress_service_subnets Ipamdnsproviderprofile#egress_service_subnets}
   */
   readonly egressServiceSubnets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#iam_assume_role Ipamdnsproviderprofile#iam_assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#iam_assume_role Ipamdnsproviderprofile#iam_assume_role}
   */
   readonly iamAssumeRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#publish_vip_to_public_zone Ipamdnsproviderprofile#publish_vip_to_public_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#publish_vip_to_public_zone Ipamdnsproviderprofile#publish_vip_to_public_zone}
   */
   readonly publishVipToPublicZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#region Ipamdnsproviderprofile#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#region Ipamdnsproviderprofile#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#secret_access_key Ipamdnsproviderprofile#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#secret_access_key Ipamdnsproviderprofile#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#ttl Ipamdnsproviderprofile#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#ttl Ipamdnsproviderprofile#ttl}
   */
   readonly ttl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_domains Ipamdnsproviderprofile#usable_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_domains Ipamdnsproviderprofile#usable_domains}
   */
   readonly usableDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_network_uuids Ipamdnsproviderprofile#usable_network_uuids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_network_uuids Ipamdnsproviderprofile#usable_network_uuids}
   */
   readonly usableNetworkUuids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#use_iam_roles Ipamdnsproviderprofile#use_iam_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#use_iam_roles Ipamdnsproviderprofile#use_iam_roles}
   */
   readonly useIamRoles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#vpc Ipamdnsproviderprofile#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#vpc Ipamdnsproviderprofile#vpc}
   */
   readonly vpc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#vpc_id Ipamdnsproviderprofile#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#vpc_id Ipamdnsproviderprofile#vpc_id}
   */
   readonly vpcId: string;
   /**
   * zones block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#zones Ipamdnsproviderprofile#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#zones Ipamdnsproviderprofile#zones}
   */
   readonly zones?: IpamdnsproviderprofileAwsProfileZones[] | cdktf.IResolvable;
 }
@@ -766,15 +766,15 @@ export class IpamdnsproviderprofileAwsProfileList extends cdktf.ComplexList {
 }
 export interface IpamdnsproviderprofileAzureProfileAzureServiceprincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#application_id Ipamdnsproviderprofile#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#application_id Ipamdnsproviderprofile#application_id}
   */
   readonly applicationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#authentication_token Ipamdnsproviderprofile#authentication_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#authentication_token Ipamdnsproviderprofile#authentication_token}
   */
   readonly authenticationToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#tenant_id Ipamdnsproviderprofile#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#tenant_id Ipamdnsproviderprofile#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -948,15 +948,15 @@ export class IpamdnsproviderprofileAzureProfileAzureServiceprincipalList extends
 }
 export interface IpamdnsproviderprofileAzureProfileAzureUserpass {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#password Ipamdnsproviderprofile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#password Ipamdnsproviderprofile#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#tenant_name Ipamdnsproviderprofile#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#tenant_name Ipamdnsproviderprofile#tenant_name}
   */
   readonly tenantName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#username Ipamdnsproviderprofile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#username Ipamdnsproviderprofile#username}
   */
   readonly username?: string;
 }
@@ -1130,47 +1130,47 @@ export class IpamdnsproviderprofileAzureProfileAzureUserpassList extends cdktf.C
 }
 export interface IpamdnsproviderprofileAzureProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#egress_service_subnets Ipamdnsproviderprofile#egress_service_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#egress_service_subnets Ipamdnsproviderprofile#egress_service_subnets}
   */
   readonly egressServiceSubnets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#resource_group Ipamdnsproviderprofile#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#resource_group Ipamdnsproviderprofile#resource_group}
   */
   readonly resourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#subscription_id Ipamdnsproviderprofile#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#subscription_id Ipamdnsproviderprofile#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_domains Ipamdnsproviderprofile#usable_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_domains Ipamdnsproviderprofile#usable_domains}
   */
   readonly usableDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_network_uuids Ipamdnsproviderprofile#usable_network_uuids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_network_uuids Ipamdnsproviderprofile#usable_network_uuids}
   */
   readonly usableNetworkUuids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#use_enhanced_ha Ipamdnsproviderprofile#use_enhanced_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#use_enhanced_ha Ipamdnsproviderprofile#use_enhanced_ha}
   */
   readonly useEnhancedHa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#use_standard_alb Ipamdnsproviderprofile#use_standard_alb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#use_standard_alb Ipamdnsproviderprofile#use_standard_alb}
   */
   readonly useStandardAlb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#virtual_network_ids Ipamdnsproviderprofile#virtual_network_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#virtual_network_ids Ipamdnsproviderprofile#virtual_network_ids}
   */
   readonly virtualNetworkIds?: string[];
   /**
   * azure_serviceprincipal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#azure_serviceprincipal Ipamdnsproviderprofile#azure_serviceprincipal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#azure_serviceprincipal Ipamdnsproviderprofile#azure_serviceprincipal}
   */
   readonly azureServiceprincipal?: IpamdnsproviderprofileAzureProfileAzureServiceprincipal[] | cdktf.IResolvable;
   /**
   * azure_userpass block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#azure_userpass Ipamdnsproviderprofile#azure_userpass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#azure_userpass Ipamdnsproviderprofile#azure_userpass}
   */
   readonly azureUserpass?: IpamdnsproviderprofileAzureProfileAzureUserpass[] | cdktf.IResolvable;
 }
@@ -1547,7 +1547,7 @@ export class IpamdnsproviderprofileAzureProfileList extends cdktf.ComplexList {
 }
 export interface IpamdnsproviderprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#version Ipamdnsproviderprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#version Ipamdnsproviderprofile#version}
   */
   readonly version?: string;
 }
@@ -1663,19 +1663,19 @@ export class IpamdnsproviderprofileConfigpbAttributesList extends cdktf.ComplexL
 }
 export interface IpamdnsproviderprofileCustomProfileDynamicParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#is_dynamic Ipamdnsproviderprofile#is_dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#is_dynamic Ipamdnsproviderprofile#is_dynamic}
   */
   readonly isDynamic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#is_sensitive Ipamdnsproviderprofile#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#is_sensitive Ipamdnsproviderprofile#is_sensitive}
   */
   readonly isSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#name Ipamdnsproviderprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#name Ipamdnsproviderprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#value Ipamdnsproviderprofile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#value Ipamdnsproviderprofile#value}
   */
   readonly value?: string;
 }
@@ -1875,11 +1875,11 @@ export class IpamdnsproviderprofileCustomProfileDynamicParamsList extends cdktf.
 }
 export interface IpamdnsproviderprofileCustomProfileUsableAllocSubnetsSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#addr Ipamdnsproviderprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#addr Ipamdnsproviderprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
   */
   readonly type: string;
 }
@@ -2018,13 +2018,13 @@ export class IpamdnsproviderprofileCustomProfileUsableAllocSubnetsSubnetIpAddrLi
 }
 export interface IpamdnsproviderprofileCustomProfileUsableAllocSubnetsSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#mask Ipamdnsproviderprofile#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#mask Ipamdnsproviderprofile#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#ip_addr Ipamdnsproviderprofile#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#ip_addr Ipamdnsproviderprofile#ip_addr}
   */
   readonly ipAddr: IpamdnsproviderprofileCustomProfileUsableAllocSubnetsSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -2163,11 +2163,11 @@ export class IpamdnsproviderprofileCustomProfileUsableAllocSubnetsSubnetList ext
 }
 export interface IpamdnsproviderprofileCustomProfileUsableAllocSubnetsSubnet6IpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#addr Ipamdnsproviderprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#addr Ipamdnsproviderprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
   */
   readonly type: string;
 }
@@ -2306,13 +2306,13 @@ export class IpamdnsproviderprofileCustomProfileUsableAllocSubnetsSubnet6IpAddrL
 }
 export interface IpamdnsproviderprofileCustomProfileUsableAllocSubnetsSubnet6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#mask Ipamdnsproviderprofile#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#mask Ipamdnsproviderprofile#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#ip_addr Ipamdnsproviderprofile#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#ip_addr Ipamdnsproviderprofile#ip_addr}
   */
   readonly ipAddr: IpamdnsproviderprofileCustomProfileUsableAllocSubnetsSubnet6IpAddr[] | cdktf.IResolvable;
 }
@@ -2451,19 +2451,19 @@ export class IpamdnsproviderprofileCustomProfileUsableAllocSubnetsSubnet6List ex
 }
 export interface IpamdnsproviderprofileCustomProfileUsableAllocSubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#network_id Ipamdnsproviderprofile#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#network_id Ipamdnsproviderprofile#network_id}
   */
   readonly networkId: string;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#subnet Ipamdnsproviderprofile#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#subnet Ipamdnsproviderprofile#subnet}
   */
   readonly subnet?: IpamdnsproviderprofileCustomProfileUsableAllocSubnetsSubnet[] | cdktf.IResolvable;
   /**
   * subnet6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#subnet6 Ipamdnsproviderprofile#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#subnet6 Ipamdnsproviderprofile#subnet6}
   */
   readonly subnet6?: IpamdnsproviderprofileCustomProfileUsableAllocSubnetsSubnet6[] | cdktf.IResolvable;
 }
@@ -2634,23 +2634,23 @@ export class IpamdnsproviderprofileCustomProfileUsableAllocSubnetsList extends c
 }
 export interface IpamdnsproviderprofileCustomProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#custom_ipam_dns_profile_ref Ipamdnsproviderprofile#custom_ipam_dns_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#custom_ipam_dns_profile_ref Ipamdnsproviderprofile#custom_ipam_dns_profile_ref}
   */
   readonly customIpamDnsProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_domains Ipamdnsproviderprofile#usable_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_domains Ipamdnsproviderprofile#usable_domains}
   */
   readonly usableDomains?: string[];
   /**
   * dynamic_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#dynamic_params Ipamdnsproviderprofile#dynamic_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#dynamic_params Ipamdnsproviderprofile#dynamic_params}
   */
   readonly dynamicParams?: IpamdnsproviderprofileCustomProfileDynamicParams[] | cdktf.IResolvable;
   /**
   * usable_alloc_subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_alloc_subnets Ipamdnsproviderprofile#usable_alloc_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_alloc_subnets Ipamdnsproviderprofile#usable_alloc_subnets}
   */
   readonly usableAllocSubnets?: IpamdnsproviderprofileCustomProfileUsableAllocSubnets[] | cdktf.IResolvable;
 }
@@ -2853,31 +2853,31 @@ export class IpamdnsproviderprofileCustomProfileList extends cdktf.ComplexList {
 }
 export interface IpamdnsproviderprofileGcpProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#match_se_group_subnet Ipamdnsproviderprofile#match_se_group_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#match_se_group_subnet Ipamdnsproviderprofile#match_se_group_subnet}
   */
   readonly matchSeGroupSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#network_host_project_id Ipamdnsproviderprofile#network_host_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#network_host_project_id Ipamdnsproviderprofile#network_host_project_id}
   */
   readonly networkHostProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#region_name Ipamdnsproviderprofile#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#region_name Ipamdnsproviderprofile#region_name}
   */
   readonly regionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#se_project_id Ipamdnsproviderprofile#se_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#se_project_id Ipamdnsproviderprofile#se_project_id}
   */
   readonly seProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_network_refs Ipamdnsproviderprofile#usable_network_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_network_refs Ipamdnsproviderprofile#usable_network_refs}
   */
   readonly usableNetworkRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#use_gcp_network Ipamdnsproviderprofile#use_gcp_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#use_gcp_network Ipamdnsproviderprofile#use_gcp_network}
   */
   readonly useGcpNetwork?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#vpc_network_name Ipamdnsproviderprofile#vpc_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#vpc_network_name Ipamdnsproviderprofile#vpc_network_name}
   */
   readonly vpcNetworkName?: string;
 }
@@ -3167,19 +3167,19 @@ export class IpamdnsproviderprofileGcpProfileList extends cdktf.ComplexList {
 }
 export interface IpamdnsproviderprofileInfobloxProfileExtensibleAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#is_dynamic Ipamdnsproviderprofile#is_dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#is_dynamic Ipamdnsproviderprofile#is_dynamic}
   */
   readonly isDynamic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#is_sensitive Ipamdnsproviderprofile#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#is_sensitive Ipamdnsproviderprofile#is_sensitive}
   */
   readonly isSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#name Ipamdnsproviderprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#name Ipamdnsproviderprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#value Ipamdnsproviderprofile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#value Ipamdnsproviderprofile#value}
   */
   readonly value?: string;
 }
@@ -3379,11 +3379,11 @@ export class IpamdnsproviderprofileInfobloxProfileExtensibleAttributesList exten
 }
 export interface IpamdnsproviderprofileInfobloxProfileIp6Address {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#addr Ipamdnsproviderprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#addr Ipamdnsproviderprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
   */
   readonly type: string;
 }
@@ -3522,11 +3522,11 @@ export class IpamdnsproviderprofileInfobloxProfileIp6AddressList extends cdktf.C
 }
 export interface IpamdnsproviderprofileInfobloxProfileIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#addr Ipamdnsproviderprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#addr Ipamdnsproviderprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
   */
   readonly type: string;
 }
@@ -3665,11 +3665,11 @@ export class IpamdnsproviderprofileInfobloxProfileIpAddressList extends cdktf.Co
 }
 export interface IpamdnsproviderprofileInfobloxProfileUsableAllocSubnetsSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#addr Ipamdnsproviderprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#addr Ipamdnsproviderprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
   */
   readonly type: string;
 }
@@ -3808,13 +3808,13 @@ export class IpamdnsproviderprofileInfobloxProfileUsableAllocSubnetsSubnetIpAddr
 }
 export interface IpamdnsproviderprofileInfobloxProfileUsableAllocSubnetsSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#mask Ipamdnsproviderprofile#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#mask Ipamdnsproviderprofile#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#ip_addr Ipamdnsproviderprofile#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#ip_addr Ipamdnsproviderprofile#ip_addr}
   */
   readonly ipAddr: IpamdnsproviderprofileInfobloxProfileUsableAllocSubnetsSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -3953,11 +3953,11 @@ export class IpamdnsproviderprofileInfobloxProfileUsableAllocSubnetsSubnetList e
 }
 export interface IpamdnsproviderprofileInfobloxProfileUsableAllocSubnetsSubnet6IpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#addr Ipamdnsproviderprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#addr Ipamdnsproviderprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#type Ipamdnsproviderprofile#type}
   */
   readonly type: string;
 }
@@ -4096,13 +4096,13 @@ export class IpamdnsproviderprofileInfobloxProfileUsableAllocSubnetsSubnet6IpAdd
 }
 export interface IpamdnsproviderprofileInfobloxProfileUsableAllocSubnetsSubnet6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#mask Ipamdnsproviderprofile#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#mask Ipamdnsproviderprofile#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#ip_addr Ipamdnsproviderprofile#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#ip_addr Ipamdnsproviderprofile#ip_addr}
   */
   readonly ipAddr: IpamdnsproviderprofileInfobloxProfileUsableAllocSubnetsSubnet6IpAddr[] | cdktf.IResolvable;
 }
@@ -4243,13 +4243,13 @@ export interface IpamdnsproviderprofileInfobloxProfileUsableAllocSubnets {
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#subnet Ipamdnsproviderprofile#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#subnet Ipamdnsproviderprofile#subnet}
   */
   readonly subnet?: IpamdnsproviderprofileInfobloxProfileUsableAllocSubnetsSubnet[] | cdktf.IResolvable;
   /**
   * subnet6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#subnet6 Ipamdnsproviderprofile#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#subnet6 Ipamdnsproviderprofile#subnet6}
   */
   readonly subnet6?: IpamdnsproviderprofileInfobloxProfileUsableAllocSubnetsSubnet6[] | cdktf.IResolvable;
 }
@@ -4394,55 +4394,51 @@ export class IpamdnsproviderprofileInfobloxProfileUsableAllocSubnetsList extends
 }
 export interface IpamdnsproviderprofileInfobloxProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#dns_view Ipamdnsproviderprofile#dns_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#dns_view Ipamdnsproviderprofile#dns_view}
   */
   readonly dnsView?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#network_view Ipamdnsproviderprofile#network_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#network_view Ipamdnsproviderprofile#network_view}
   */
   readonly networkView?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#password Ipamdnsproviderprofile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#password Ipamdnsproviderprofile#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#profile_url Ipamdnsproviderprofile#profile_url}
-  */
-  readonly profileUrl?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_domains Ipamdnsproviderprofile#usable_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_domains Ipamdnsproviderprofile#usable_domains}
   */
   readonly usableDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#username Ipamdnsproviderprofile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#username Ipamdnsproviderprofile#username}
   */
   readonly username: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#wapi_version Ipamdnsproviderprofile#wapi_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#wapi_version Ipamdnsproviderprofile#wapi_version}
   */
   readonly wapiVersion?: string;
   /**
   * extensible_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#extensible_attributes Ipamdnsproviderprofile#extensible_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#extensible_attributes Ipamdnsproviderprofile#extensible_attributes}
   */
   readonly extensibleAttributes?: IpamdnsproviderprofileInfobloxProfileExtensibleAttributes[] | cdktf.IResolvable;
   /**
   * ip6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#ip6_address Ipamdnsproviderprofile#ip6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#ip6_address Ipamdnsproviderprofile#ip6_address}
   */
   readonly ip6Address?: IpamdnsproviderprofileInfobloxProfileIp6Address[] | cdktf.IResolvable;
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#ip_address Ipamdnsproviderprofile#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#ip_address Ipamdnsproviderprofile#ip_address}
   */
   readonly ipAddress?: IpamdnsproviderprofileInfobloxProfileIpAddress[] | cdktf.IResolvable;
   /**
   * usable_alloc_subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_alloc_subnets Ipamdnsproviderprofile#usable_alloc_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_alloc_subnets Ipamdnsproviderprofile#usable_alloc_subnets}
   */
   readonly usableAllocSubnets?: IpamdnsproviderprofileInfobloxProfileUsableAllocSubnets[] | cdktf.IResolvable;
 }
@@ -4456,7 +4452,6 @@ export function ipamdnsproviderprofileInfobloxProfileToTerraform(struct?: Ipamdn
     dns_view: cdktf.stringToTerraform(struct!.dnsView),
     network_view: cdktf.stringToTerraform(struct!.networkView),
     password: cdktf.stringToTerraform(struct!.password),
-    profile_url: cdktf.stringToTerraform(struct!.profileUrl),
     usable_domains: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.usableDomains),
     username: cdktf.stringToTerraform(struct!.username),
     wapi_version: cdktf.stringToTerraform(struct!.wapiVersion),
@@ -4488,12 +4483,6 @@ export function ipamdnsproviderprofileInfobloxProfileToHclTerraform(struct?: Ipa
     },
     password: {
       value: cdktf.stringToHclTerraform(struct!.password),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    profile_url: {
-      value: cdktf.stringToHclTerraform(struct!.profileUrl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4578,10 +4567,6 @@ export class IpamdnsproviderprofileInfobloxProfileOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.password = this._password;
     }
-    if (this._profileUrl !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.profileUrl = this._profileUrl;
-    }
     if (this._usableDomains !== undefined) {
       hasAnyValues = true;
       internalValueResult.usableDomains = this._usableDomains;
@@ -4620,7 +4605,6 @@ export class IpamdnsproviderprofileInfobloxProfileOutputReference extends cdktf.
       this._dnsView = undefined;
       this._networkView = undefined;
       this._password = undefined;
-      this._profileUrl = undefined;
       this._usableDomains = undefined;
       this._username = undefined;
       this._wapiVersion = undefined;
@@ -4639,7 +4623,6 @@ export class IpamdnsproviderprofileInfobloxProfileOutputReference extends cdktf.
       this._dnsView = value.dnsView;
       this._networkView = value.networkView;
       this._password = value.password;
-      this._profileUrl = value.profileUrl;
       this._usableDomains = value.usableDomains;
       this._username = value.username;
       this._wapiVersion = value.wapiVersion;
@@ -4693,22 +4676,6 @@ export class IpamdnsproviderprofileInfobloxProfileOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get passwordInput() {
     return this._password;
-  }
-
-  // profile_url - computed: true, optional: true, required: false
-  private _profileUrl?: string; 
-  public get profileUrl() {
-    return this.getStringAttribute('profile_url');
-  }
-  public set profileUrl(value: string) {
-    this._profileUrl = value;
-  }
-  public resetProfileUrl() {
-    this._profileUrl = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get profileUrlInput() {
-    return this._profileUrl;
   }
 
   // usable_domains - computed: false, optional: true, required: false
@@ -4842,15 +4809,15 @@ export class IpamdnsproviderprofileInfobloxProfileList extends cdktf.ComplexList
 }
 export interface IpamdnsproviderprofileInternalProfileDnsServiceDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#domain_name Ipamdnsproviderprofile#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#domain_name Ipamdnsproviderprofile#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#pass_through Ipamdnsproviderprofile#pass_through}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#pass_through Ipamdnsproviderprofile#pass_through}
   */
   readonly passThrough?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#record_ttl Ipamdnsproviderprofile#record_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#record_ttl Ipamdnsproviderprofile#record_ttl}
   */
   readonly recordTtl?: string;
 }
@@ -5021,11 +4988,11 @@ export class IpamdnsproviderprofileInternalProfileDnsServiceDomainList extends c
 }
 export interface IpamdnsproviderprofileInternalProfileUsableNetworksLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#key Ipamdnsproviderprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#key Ipamdnsproviderprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#value Ipamdnsproviderprofile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#value Ipamdnsproviderprofile#value}
   */
   readonly value?: string;
 }
@@ -5167,13 +5134,13 @@ export class IpamdnsproviderprofileInternalProfileUsableNetworksLabelsList exten
 }
 export interface IpamdnsproviderprofileInternalProfileUsableNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#nw_ref Ipamdnsproviderprofile#nw_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#nw_ref Ipamdnsproviderprofile#nw_ref}
   */
   readonly nwRef: string;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#labels Ipamdnsproviderprofile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#labels Ipamdnsproviderprofile#labels}
   */
   readonly labels?: IpamdnsproviderprofileInternalProfileUsableNetworksLabels[] | cdktf.IResolvable;
 }
@@ -5315,23 +5282,23 @@ export class IpamdnsproviderprofileInternalProfileUsableNetworksList extends cdk
 }
 export interface IpamdnsproviderprofileInternalProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#dns_virtualservice_ref Ipamdnsproviderprofile#dns_virtualservice_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#dns_virtualservice_ref Ipamdnsproviderprofile#dns_virtualservice_ref}
   */
   readonly dnsVirtualserviceRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#ttl Ipamdnsproviderprofile#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#ttl Ipamdnsproviderprofile#ttl}
   */
   readonly ttl?: string;
   /**
   * dns_service_domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#dns_service_domain Ipamdnsproviderprofile#dns_service_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#dns_service_domain Ipamdnsproviderprofile#dns_service_domain}
   */
   readonly dnsServiceDomain?: IpamdnsproviderprofileInternalProfileDnsServiceDomain[] | cdktf.IResolvable;
   /**
   * usable_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_networks Ipamdnsproviderprofile#usable_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_networks Ipamdnsproviderprofile#usable_networks}
   */
   readonly usableNetworks?: IpamdnsproviderprofileInternalProfileUsableNetworks[] | cdktf.IResolvable;
 }
@@ -5534,11 +5501,11 @@ export class IpamdnsproviderprofileInternalProfileList extends cdktf.ComplexList
 }
 export interface IpamdnsproviderprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#key Ipamdnsproviderprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#key Ipamdnsproviderprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#values Ipamdnsproviderprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#values Ipamdnsproviderprofile#values}
   */
   readonly values?: string[];
 }
@@ -5680,23 +5647,23 @@ export class IpamdnsproviderprofileMarkersList extends cdktf.ComplexList {
 }
 export interface IpamdnsproviderprofileOciProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#cloud_credentials_ref Ipamdnsproviderprofile#cloud_credentials_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#cloud_credentials_ref Ipamdnsproviderprofile#cloud_credentials_ref}
   */
   readonly cloudCredentialsRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#region Ipamdnsproviderprofile#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#region Ipamdnsproviderprofile#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#tenancy Ipamdnsproviderprofile#tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#tenancy Ipamdnsproviderprofile#tenancy}
   */
   readonly tenancy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#vcn_compartment_id Ipamdnsproviderprofile#vcn_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#vcn_compartment_id Ipamdnsproviderprofile#vcn_compartment_id}
   */
   readonly vcnCompartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#vcn_id Ipamdnsproviderprofile#vcn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#vcn_id Ipamdnsproviderprofile#vcn_id}
   */
   readonly vcnId?: string;
 }
@@ -5928,27 +5895,27 @@ export class IpamdnsproviderprofileOciProfileList extends cdktf.ComplexList {
 }
 export interface IpamdnsproviderprofileOpenstackProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#keystone_host Ipamdnsproviderprofile#keystone_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#keystone_host Ipamdnsproviderprofile#keystone_host}
   */
   readonly keystoneHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#password Ipamdnsproviderprofile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#password Ipamdnsproviderprofile#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#region Ipamdnsproviderprofile#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#region Ipamdnsproviderprofile#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#tenant Ipamdnsproviderprofile#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#tenant Ipamdnsproviderprofile#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#username Ipamdnsproviderprofile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#username Ipamdnsproviderprofile#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#vip_network_name Ipamdnsproviderprofile#vip_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#vip_network_name Ipamdnsproviderprofile#vip_network_name}
   */
   readonly vipNetworkName?: string;
 }
@@ -6209,19 +6176,19 @@ export class IpamdnsproviderprofileOpenstackProfileList extends cdktf.ComplexLis
 }
 export interface IpamdnsproviderprofileProxyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#host Ipamdnsproviderprofile#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#host Ipamdnsproviderprofile#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#password Ipamdnsproviderprofile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#password Ipamdnsproviderprofile#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#port Ipamdnsproviderprofile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#port Ipamdnsproviderprofile#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#username Ipamdnsproviderprofile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#username Ipamdnsproviderprofile#username}
   */
   readonly username?: string;
 }
@@ -6418,11 +6385,11 @@ export class IpamdnsproviderprofileProxyConfigurationList extends cdktf.ComplexL
 }
 export interface IpamdnsproviderprofileTencentProfileZones {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#availability_zone Ipamdnsproviderprofile#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#availability_zone Ipamdnsproviderprofile#availability_zone}
   */
   readonly availabilityZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_subnet_id Ipamdnsproviderprofile#usable_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_subnet_id Ipamdnsproviderprofile#usable_subnet_id}
   */
   readonly usableSubnetId: string;
 }
@@ -6561,25 +6528,25 @@ export class IpamdnsproviderprofileTencentProfileZonesList extends cdktf.Complex
 }
 export interface IpamdnsproviderprofileTencentProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#cloud_credentials_ref Ipamdnsproviderprofile#cloud_credentials_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#cloud_credentials_ref Ipamdnsproviderprofile#cloud_credentials_ref}
   */
   readonly cloudCredentialsRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#region Ipamdnsproviderprofile#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#region Ipamdnsproviderprofile#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#usable_subnet_ids Ipamdnsproviderprofile#usable_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#usable_subnet_ids Ipamdnsproviderprofile#usable_subnet_ids}
   */
   readonly usableSubnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#vpc_id Ipamdnsproviderprofile#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#vpc_id Ipamdnsproviderprofile#vpc_id}
   */
   readonly vpcId: string;
   /**
   * zones block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#zones Ipamdnsproviderprofile#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#zones Ipamdnsproviderprofile#zones}
   */
   readonly zones?: IpamdnsproviderprofileTencentProfileZones[] | cdktf.IResolvable;
 }
@@ -6805,7 +6772,7 @@ export class IpamdnsproviderprofileTencentProfileList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile avi_ipamdnsproviderprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile avi_ipamdnsproviderprofile}
 */
 export class Ipamdnsproviderprofile extends cdktf.TerraformResource {
 
@@ -6821,7 +6788,7 @@ export class Ipamdnsproviderprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipamdnsproviderprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipamdnsproviderprofile to import
-  * @param importFromId The id of the existing Ipamdnsproviderprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipamdnsproviderprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipamdnsproviderprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6833,7 +6800,7 @@ export class Ipamdnsproviderprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipamdnsproviderprofile avi_ipamdnsproviderprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ipamdnsproviderprofile avi_ipamdnsproviderprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6844,8 +6811,8 @@ export class Ipamdnsproviderprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_ipamdnsproviderprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

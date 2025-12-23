@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_default_action_rule
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_default_action_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,26 +10,32 @@ export interface DistributedFirewallingDefaultActionRuleConfig extends cdktf.Ter
   /**
   * Action for the specified source and destination Smart Groups.Must be one of PERMIT or DENY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_default_action_rule#action DistributedFirewallingDefaultActionRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_default_action_rule#action DistributedFirewallingDefaultActionRule#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_default_action_rule#id DistributedFirewallingDefaultActionRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_default_action_rule#id DistributedFirewallingDefaultActionRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Logging profile UUID for the default action rule.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_default_action_rule#log_profile DistributedFirewallingDefaultActionRule#log_profile}
+  */
+  readonly logProfile?: string;
+  /**
   * Boolean value to enable or disable logging for the default action rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_default_action_rule#logging DistributedFirewallingDefaultActionRule#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_default_action_rule#logging DistributedFirewallingDefaultActionRule#logging}
   */
   readonly logging: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_default_action_rule aviatrix_distributed_firewalling_default_action_rule}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_default_action_rule aviatrix_distributed_firewalling_default_action_rule}
 */
 export class DistributedFirewallingDefaultActionRule extends cdktf.TerraformResource {
 
@@ -45,7 +51,7 @@ export class DistributedFirewallingDefaultActionRule extends cdktf.TerraformReso
   * Generates CDKTF code for importing a DistributedFirewallingDefaultActionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DistributedFirewallingDefaultActionRule to import
-  * @param importFromId The id of the existing DistributedFirewallingDefaultActionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_default_action_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DistributedFirewallingDefaultActionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_default_action_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DistributedFirewallingDefaultActionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +63,7 @@ export class DistributedFirewallingDefaultActionRule extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_default_action_rule aviatrix_distributed_firewalling_default_action_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_default_action_rule aviatrix_distributed_firewalling_default_action_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +74,8 @@ export class DistributedFirewallingDefaultActionRule extends cdktf.TerraformReso
       terraformResourceType: 'aviatrix_distributed_firewalling_default_action_rule',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -81,6 +87,7 @@ export class DistributedFirewallingDefaultActionRule extends cdktf.TerraformReso
     });
     this._action = config.action;
     this._id = config.id;
+    this._logProfile = config.logProfile;
     this._logging = config.logging;
   }
 
@@ -117,6 +124,22 @@ export class DistributedFirewallingDefaultActionRule extends cdktf.TerraformReso
     return this._id;
   }
 
+  // log_profile - computed: true, optional: true, required: false
+  private _logProfile?: string; 
+  public get logProfile() {
+    return this.getStringAttribute('log_profile');
+  }
+  public set logProfile(value: string) {
+    this._logProfile = value;
+  }
+  public resetLogProfile() {
+    this._logProfile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logProfileInput() {
+    return this._logProfile;
+  }
+
   // logging - computed: false, optional: false, required: true
   private _logging?: boolean | cdktf.IResolvable; 
   public get logging() {
@@ -138,6 +161,7 @@ export class DistributedFirewallingDefaultActionRule extends cdktf.TerraformReso
     return {
       action: cdktf.stringToTerraform(this._action),
       id: cdktf.stringToTerraform(this._id),
+      log_profile: cdktf.stringToTerraform(this._logProfile),
       logging: cdktf.booleanToTerraform(this._logging),
     };
   }
@@ -152,6 +176,12 @@ export class DistributedFirewallingDefaultActionRule extends cdktf.TerraformReso
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      log_profile: {
+        value: cdktf.stringToHclTerraform(this._logProfile),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

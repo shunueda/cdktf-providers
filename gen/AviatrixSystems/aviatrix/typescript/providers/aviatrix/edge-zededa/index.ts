@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,113 +10,113 @@ export interface EdgeZededaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Edge CSP account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#account_name EdgeZededa#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#account_name EdgeZededa#account_name}
   */
   readonly accountName: string;
   /**
   * Approved learned CIDRs for BGP Spoke Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#approved_learned_cidrs EdgeZededa#approved_learned_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#approved_learned_cidrs EdgeZededa#approved_learned_cidrs}
   */
   readonly approvedLearnedCidrs?: string[];
   /**
   * BGP Hold Time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 12 and 360.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#bgp_hold_time EdgeZededa#bgp_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#bgp_hold_time EdgeZededa#bgp_hold_time}
   */
   readonly bgpHoldTime?: number;
   /**
   * BGP neighbor status polling time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 1 and 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#bgp_neighbor_status_polling_time EdgeZededa#bgp_neighbor_status_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#bgp_neighbor_status_polling_time EdgeZededa#bgp_neighbor_status_polling_time}
   */
   readonly bgpNeighborStatusPollingTime?: number;
   /**
   * BGP route polling time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 10 and 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#bgp_polling_time EdgeZededa#bgp_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#bgp_polling_time EdgeZededa#bgp_polling_time}
   */
   readonly bgpPollingTime?: number;
   /**
   * Edge CSP compute node UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#compute_node_uuid EdgeZededa#compute_node_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#compute_node_uuid EdgeZededa#compute_node_uuid}
   */
   readonly computeNodeUuid: string;
   /**
   * DNS profile to be associated with gateway, select an existing template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#dns_profile_name EdgeZededa#dns_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#dns_profile_name EdgeZededa#dns_profile_name}
   */
   readonly dnsProfileName?: string;
   /**
   * DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#dns_server_ip EdgeZededa#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#dns_server_ip EdgeZededa#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable auto advertise LAN CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#enable_auto_advertise_lan_cidrs EdgeZededa#enable_auto_advertise_lan_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#enable_auto_advertise_lan_cidrs EdgeZededa#enable_auto_advertise_lan_cidrs}
   */
   readonly enableAutoAdvertiseLanCidrs?: boolean | cdktf.IResolvable;
   /**
   * Enables Edge Active-Standby Mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#enable_edge_active_standby EdgeZededa#enable_edge_active_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#enable_edge_active_standby EdgeZededa#enable_edge_active_standby}
   */
   readonly enableEdgeActiveStandby?: boolean | cdktf.IResolvable;
   /**
   * Enables Preemptive Mode for Edge Active-Standby, available only with Active-Standby enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#enable_edge_active_standby_preemptive EdgeZededa#enable_edge_active_standby_preemptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#enable_edge_active_standby_preemptive EdgeZededa#enable_edge_active_standby_preemptive}
   */
   readonly enableEdgeActiveStandbyPreemptive?: boolean | cdktf.IResolvable;
   /**
   * Enable Edge transitive routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#enable_edge_transitive_routing EdgeZededa#enable_edge_transitive_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#enable_edge_transitive_routing EdgeZededa#enable_edge_transitive_routing}
   */
   readonly enableEdgeTransitiveRouting?: boolean | cdktf.IResolvable;
   /**
   * Enable jumbo frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#enable_jumbo_frame EdgeZededa#enable_jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#enable_jumbo_frame EdgeZededa#enable_jumbo_frame}
   */
   readonly enableJumboFrame?: boolean | cdktf.IResolvable;
   /**
   * Switch to enable/disable learned CIDR approval for BGP Spoke Gateway. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#enable_learned_cidrs_approval EdgeZededa#enable_learned_cidrs_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#enable_learned_cidrs_approval EdgeZededa#enable_learned_cidrs_approval}
   */
   readonly enableLearnedCidrsApproval?: boolean | cdktf.IResolvable;
   /**
   * Enable management over private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#enable_management_over_private_network EdgeZededa#enable_management_over_private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#enable_management_over_private_network EdgeZededa#enable_management_over_private_network}
   */
   readonly enableManagementOverPrivateNetwork?: boolean | cdktf.IResolvable;
   /**
   * Enable preserve as path when advertising manual summary CIDRs on BGP spoke gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#enable_preserve_as_path EdgeZededa#enable_preserve_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#enable_preserve_as_path EdgeZededa#enable_preserve_as_path}
   */
   readonly enablePreserveAsPath?: boolean | cdktf.IResolvable;
   /**
   * Enable Single IP SNAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#enable_single_ip_snat EdgeZededa#enable_single_ip_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#enable_single_ip_snat EdgeZededa#enable_single_ip_snat}
   */
   readonly enableSingleIpSnat?: boolean | cdktf.IResolvable;
   /**
   * Edge CSP name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#gw_name EdgeZededa#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#gw_name EdgeZededa#gw_name}
   */
   readonly gwName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#id EdgeZededa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#id EdgeZededa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -125,97 +125,97 @@ export interface EdgeZededaConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of LAN interface names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#lan_interface_names EdgeZededa#lan_interface_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#lan_interface_names EdgeZededa#lan_interface_names}
   */
   readonly lanInterfaceNames?: string[];
   /**
   * The latitude of the Edge as a Spoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#latitude EdgeZededa#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#latitude EdgeZededa#latitude}
   */
   readonly latitude?: string;
   /**
   * Local AS number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#local_as_number EdgeZededa#local_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#local_as_number EdgeZededa#local_as_number}
   */
   readonly localAsNumber?: string;
   /**
   * The longitude of the Edge as a Spoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#longitude EdgeZededa#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#longitude EdgeZededa#longitude}
   */
   readonly longitude?: string;
   /**
   * Set of management egress gateway IP/prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#management_egress_ip_prefix_list EdgeZededa#management_egress_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#management_egress_ip_prefix_list EdgeZededa#management_egress_ip_prefix_list}
   */
   readonly managementEgressIpPrefixList?: string[];
   /**
   * List of management interface names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#management_interface_names EdgeZededa#management_interface_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#management_interface_names EdgeZededa#management_interface_names}
   */
   readonly managementInterfaceNames?: string[];
   /**
   * List of AS numbers to prepend gateway BGP AS_Path field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#prepend_as_path EdgeZededa#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#prepend_as_path EdgeZededa#prepend_as_path}
   */
   readonly prependAsPath?: string[];
   /**
   * Edge CSP project UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#project_uuid EdgeZededa#project_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#project_uuid EdgeZededa#project_uuid}
   */
   readonly projectUuid: string;
   /**
   * Ethernet interface RX queue size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#rx_queue_size EdgeZededa#rx_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#rx_queue_size EdgeZededa#rx_queue_size}
   */
   readonly rxQueueSize?: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#secondary_dns_server_ip EdgeZededa#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#secondary_dns_server_ip EdgeZededa#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#site_id EdgeZededa#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#site_id EdgeZededa#site_id}
   */
   readonly siteId: string;
   /**
   * Intended CIDR list to be advertised to external BGP router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#spoke_bgp_manual_advertise_cidrs EdgeZededa#spoke_bgp_manual_advertise_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#spoke_bgp_manual_advertise_cidrs EdgeZededa#spoke_bgp_manual_advertise_cidrs}
   */
   readonly spokeBgpManualAdvertiseCidrs?: string[];
   /**
   * Edge CSP template UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#template_uuid EdgeZededa#template_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#template_uuid EdgeZededa#template_uuid}
   */
   readonly templateUuid: string;
   /**
   * List of WAN interface names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#wan_interface_names EdgeZededa#wan_interface_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#wan_interface_names EdgeZededa#wan_interface_names}
   */
   readonly wanInterfaceNames?: string[];
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#interfaces EdgeZededa#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#interfaces EdgeZededa#interfaces}
   */
   readonly interfaces: EdgeZededaInterfaces[] | cdktf.IResolvable;
   /**
   * vlan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#vlan EdgeZededa#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#vlan EdgeZededa#vlan}
   */
   readonly vlan?: EdgeZededaVlan[] | cdktf.IResolvable;
 }
@@ -223,73 +223,73 @@ export interface EdgeZededaInterfaces {
   /**
   * The rate of data can be moved through the interface, requires an integer value. Unit is in Mb/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#bandwidth EdgeZededa#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#bandwidth EdgeZededa#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Primary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#dns_server_ip EdgeZededa#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#dns_server_ip EdgeZededa#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#enable_dhcp EdgeZededa#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#enable_dhcp EdgeZededa#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * Enable VRRP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#enable_vrrp EdgeZededa#enable_vrrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#enable_vrrp EdgeZededa#enable_vrrp}
   */
   readonly enableVrrp?: boolean | cdktf.IResolvable;
   /**
   * Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#gateway_ip EdgeZededa#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#gateway_ip EdgeZededa#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Interface static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#ip_address EdgeZededa#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#ip_address EdgeZededa#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#name EdgeZededa#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#name EdgeZededa#name}
   */
   readonly name: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#secondary_dns_server_ip EdgeZededa#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#secondary_dns_server_ip EdgeZededa#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#tag EdgeZededa#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#tag EdgeZededa#tag}
   */
   readonly tag?: string;
   /**
   * Interface type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#type EdgeZededa#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#type EdgeZededa#type}
   */
   readonly type: string;
   /**
   * VRRP virtual IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#vrrp_virtual_ip EdgeZededa#vrrp_virtual_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#vrrp_virtual_ip EdgeZededa#vrrp_virtual_ip}
   */
   readonly vrrpVirtualIp?: string;
   /**
   * WAN interface public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#wan_public_ip EdgeZededa#wan_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#wan_public_ip EdgeZededa#wan_public_ip}
   */
   readonly wanPublicIp?: string;
 }
@@ -720,49 +720,49 @@ export interface EdgeZededaVlan {
   /**
   * LAN sub-interface gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#gateway_ip EdgeZededa#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#gateway_ip EdgeZededa#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * LAN sub-interface IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#ip_address EdgeZededa#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#ip_address EdgeZededa#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Parent interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#parent_interface_name EdgeZededa#parent_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#parent_interface_name EdgeZededa#parent_interface_name}
   */
   readonly parentInterfaceName: string;
   /**
   * LAN sub-interface gateway IP on HA gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#peer_gateway_ip EdgeZededa#peer_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#peer_gateway_ip EdgeZededa#peer_gateway_ip}
   */
   readonly peerGatewayIp?: string;
   /**
   * LAN sub-interface IP address on HA gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#peer_ip_address EdgeZededa#peer_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#peer_ip_address EdgeZededa#peer_ip_address}
   */
   readonly peerIpAddress?: string;
   /**
   * Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#tag EdgeZededa#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#tag EdgeZededa#tag}
   */
   readonly tag?: string;
   /**
   * VLAN ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#vlan_id EdgeZededa#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#vlan_id EdgeZededa#vlan_id}
   */
   readonly vlanId: number;
   /**
   * LAN sub-interface virtual IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#vrrp_virtual_ip EdgeZededa#vrrp_virtual_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#vrrp_virtual_ip EdgeZededa#vrrp_virtual_ip}
   */
   readonly vrrpVirtualIp?: string;
 }
@@ -1072,7 +1072,7 @@ export class EdgeZededaVlanList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa aviatrix_edge_zededa}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa aviatrix_edge_zededa}
 */
 export class EdgeZededa extends cdktf.TerraformResource {
 
@@ -1088,7 +1088,7 @@ export class EdgeZededa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeZededa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeZededa to import
-  * @param importFromId The id of the existing EdgeZededa that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeZededa that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeZededa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1100,7 +1100,7 @@ export class EdgeZededa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_zededa aviatrix_edge_zededa} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_zededa aviatrix_edge_zededa} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1111,8 +1111,8 @@ export class EdgeZededa extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_zededa',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

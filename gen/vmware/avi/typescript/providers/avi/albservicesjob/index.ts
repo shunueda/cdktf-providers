@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface AlbservicesjobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#command Albservicesjob#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#command Albservicesjob#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#id Albservicesjob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#id Albservicesjob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#name Albservicesjob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#name Albservicesjob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#pulse_job_id Albservicesjob#pulse_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#pulse_job_id Albservicesjob#pulse_job_id}
   */
   readonly pulseJobId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#pulse_sync_status Albservicesjob#pulse_sync_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#pulse_sync_status Albservicesjob#pulse_sync_status}
   */
   readonly pulseSyncStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#result Albservicesjob#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#result Albservicesjob#result}
   */
   readonly result?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#status Albservicesjob#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#status Albservicesjob#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#tenant_ref Albservicesjob#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#tenant_ref Albservicesjob#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#token Albservicesjob#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#token Albservicesjob#token}
   */
   readonly token?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#uuid Albservicesjob#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#uuid Albservicesjob#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#configpb_attributes Albservicesjob#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#configpb_attributes Albservicesjob#configpb_attributes}
   */
   readonly configpbAttributes?: AlbservicesjobConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * end_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#end_time Albservicesjob#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#end_time Albservicesjob#end_time}
   */
   readonly endTime?: AlbservicesjobEndTime[] | cdktf.IResolvable;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#params Albservicesjob#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#params Albservicesjob#params}
   */
   readonly params?: AlbservicesjobParams[] | cdktf.IResolvable;
   /**
   * start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#start_time Albservicesjob#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#start_time Albservicesjob#start_time}
   */
   readonly startTime?: AlbservicesjobStartTime[] | cdktf.IResolvable;
   /**
   * status_update_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#status_update_time Albservicesjob#status_update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#status_update_time Albservicesjob#status_update_time}
   */
   readonly statusUpdateTime?: AlbservicesjobStatusUpdateTime[] | cdktf.IResolvable;
 }
 export interface AlbservicesjobConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#version Albservicesjob#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#version Albservicesjob#version}
   */
   readonly version?: string;
 }
@@ -199,11 +199,11 @@ export class AlbservicesjobConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface AlbservicesjobEndTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#secs Albservicesjob#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#secs Albservicesjob#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#usecs Albservicesjob#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#usecs Albservicesjob#usecs}
   */
   readonly usecs: string;
 }
@@ -342,11 +342,11 @@ export class AlbservicesjobEndTimeList extends cdktf.ComplexList {
 }
 export interface AlbservicesjobParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#key Albservicesjob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#key Albservicesjob#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#value Albservicesjob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#value Albservicesjob#value}
   */
   readonly value?: string;
 }
@@ -491,11 +491,11 @@ export class AlbservicesjobParamsList extends cdktf.ComplexList {
 }
 export interface AlbservicesjobStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#secs Albservicesjob#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#secs Albservicesjob#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#usecs Albservicesjob#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#usecs Albservicesjob#usecs}
   */
   readonly usecs: string;
 }
@@ -634,11 +634,11 @@ export class AlbservicesjobStartTimeList extends cdktf.ComplexList {
 }
 export interface AlbservicesjobStatusUpdateTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#secs Albservicesjob#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#secs Albservicesjob#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#usecs Albservicesjob#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#usecs Albservicesjob#usecs}
   */
   readonly usecs: string;
 }
@@ -777,7 +777,7 @@ export class AlbservicesjobStatusUpdateTimeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob avi_albservicesjob}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob avi_albservicesjob}
 */
 export class Albservicesjob extends cdktf.TerraformResource {
 
@@ -793,7 +793,7 @@ export class Albservicesjob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Albservicesjob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Albservicesjob to import
-  * @param importFromId The id of the existing Albservicesjob that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Albservicesjob that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Albservicesjob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -805,7 +805,7 @@ export class Albservicesjob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesjob avi_albservicesjob} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/albservicesjob avi_albservicesjob} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -816,8 +816,8 @@ export class Albservicesjob extends cdktf.TerraformResource {
       terraformResourceType: 'avi_albservicesjob',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

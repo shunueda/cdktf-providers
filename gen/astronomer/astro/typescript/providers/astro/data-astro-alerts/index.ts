@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/alerts
+// https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/alerts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DataAstroAlertsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/alerts#alert_ids DataAstroAlerts#alert_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/alerts#alert_ids DataAstroAlerts#alert_ids}
   */
   readonly alertIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/alerts#alert_types DataAstroAlerts#alert_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/alerts#alert_types DataAstroAlerts#alert_types}
   */
   readonly alertTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/alerts#deployment_ids DataAstroAlerts#deployment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/alerts#deployment_ids DataAstroAlerts#deployment_ids}
   */
   readonly deploymentIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/alerts#entity_type DataAstroAlerts#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/alerts#entity_type DataAstroAlerts#entity_type}
   */
   readonly entityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/alerts#workspace_ids DataAstroAlerts#workspace_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/alerts#workspace_ids DataAstroAlerts#workspace_ids}
   */
   readonly workspaceIds?: string[];
 }
@@ -336,7 +336,7 @@ export interface DataAstroAlertsAlerts {
   /**
   * Alert identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/alerts#id DataAstroAlerts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/alerts#id DataAstroAlerts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -510,7 +510,7 @@ export class DataAstroAlertsAlertsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/alerts astro_alerts}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/alerts astro_alerts}
 */
 export class DataAstroAlerts extends cdktf.TerraformDataSource {
 
@@ -526,7 +526,7 @@ export class DataAstroAlerts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAstroAlerts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAstroAlerts to import
-  * @param importFromId The id of the existing DataAstroAlerts that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/alerts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAstroAlerts that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/alerts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAstroAlerts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -538,7 +538,7 @@ export class DataAstroAlerts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/alerts astro_alerts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/alerts astro_alerts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -549,8 +549,8 @@ export class DataAstroAlerts extends cdktf.TerraformDataSource {
       terraformResourceType: 'astro_alerts',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.10',
-        providerVersionConstraint: '1.0.10'
+        providerVersion: '1.0.11',
+        providerVersionConstraint: '1.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

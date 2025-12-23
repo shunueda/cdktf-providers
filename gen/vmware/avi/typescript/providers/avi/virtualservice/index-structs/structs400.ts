@@ -1,35 +1,597 @@
 import * as cdktf from 'cdktf';
-import { VirtualserviceVhMatchesRulesMatchesClientIpRangesBegin,
-virtualserviceVhMatchesRulesMatchesClientIpRangesBeginToTerraform,
-virtualserviceVhMatchesRulesMatchesClientIpRangesBeginToHclTerraform,
-VirtualserviceVhMatchesRulesMatchesClientIpRangesBeginList,
-VirtualserviceVhMatchesRulesMatchesClientIpRangesEnd,
-virtualserviceVhMatchesRulesMatchesClientIpRangesEndToTerraform,
-virtualserviceVhMatchesRulesMatchesClientIpRangesEndToHclTerraform,
-VirtualserviceVhMatchesRulesMatchesClientIpRangesEndList,
-VirtualserviceVhMatchesRulesMatchesClientIpAddrs,
+import { VirtualserviceVhMatchesRulesMatchesClientIpAddrs,
 virtualserviceVhMatchesRulesMatchesClientIpAddrsToTerraform,
 virtualserviceVhMatchesRulesMatchesClientIpAddrsToHclTerraform,
 VirtualserviceVhMatchesRulesMatchesClientIpAddrsList,
-VirtualserviceVhMatchesRulesMatchesClientIpPrefixes,
-virtualserviceVhMatchesRulesMatchesClientIpPrefixesToTerraform,
-virtualserviceVhMatchesRulesMatchesClientIpPrefixesToHclTerraform,
-VirtualserviceVhMatchesRulesMatchesClientIpPrefixesList,
 VirtualserviceVhMatchesRulesMatchesBotDetectionResult,
 virtualserviceVhMatchesRulesMatchesBotDetectionResultToTerraform,
 virtualserviceVhMatchesRulesMatchesBotDetectionResultToHclTerraform,
 VirtualserviceVhMatchesRulesMatchesBotDetectionResultList } from './structs0'
+export interface VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
+  */
+  readonly addr: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
+  */
+  readonly type: string;
+}
+
+export function virtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrToTerraform(struct?: VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function virtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrToHclTerraform(struct?: VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addr = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addr = value.addr;
+      this._type = value.type;
+    }
+  }
+
+  // addr - computed: false, optional: false, required: true
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrList extends cdktf.ComplexList {
+  public internalValue? : VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrOutputReference {
+    return new VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualserviceVhMatchesRulesMatchesClientIpPrefixes {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#mask Virtualservice#mask}
+  */
+  readonly mask: string;
+  /**
+  * ip_addr block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
+  */
+  readonly ipAddr: VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr[] | cdktf.IResolvable;
+}
+
+export function virtualserviceVhMatchesRulesMatchesClientIpPrefixesToTerraform(struct?: VirtualserviceVhMatchesRulesMatchesClientIpPrefixes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    mask: cdktf.stringToTerraform(struct!.mask),
+    ip_addr: cdktf.listMapper(virtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrToTerraform, true)(struct!.ipAddr),
+  }
+}
+
+
+export function virtualserviceVhMatchesRulesMatchesClientIpPrefixesToHclTerraform(struct?: VirtualserviceVhMatchesRulesMatchesClientIpPrefixes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    mask: {
+      value: cdktf.stringToHclTerraform(struct!.mask),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_addr: {
+      value: cdktf.listMapperHcl(virtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrToHclTerraform, true)(struct!.ipAddr),
+      isBlock: true,
+      type: "set",
+      storageClassType: "VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualserviceVhMatchesRulesMatchesClientIpPrefixesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualserviceVhMatchesRulesMatchesClientIpPrefixes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._mask !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mask = this._mask;
+    }
+    if (this._ipAddr?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipAddr = this._ipAddr?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualserviceVhMatchesRulesMatchesClientIpPrefixes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._mask = undefined;
+      this._ipAddr.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._mask = value.mask;
+      this._ipAddr.internalValue = value.ipAddr;
+    }
+  }
+
+  // mask - computed: false, optional: false, required: true
+  private _mask?: string; 
+  public get mask() {
+    return this.getStringAttribute('mask');
+  }
+  public set mask(value: string) {
+    this._mask = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maskInput() {
+    return this._mask;
+  }
+
+  // ip_addr - computed: false, optional: false, required: true
+  private _ipAddr = new VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddrList(this, "ip_addr", true);
+  public get ipAddr() {
+    return this._ipAddr;
+  }
+  public putIpAddr(value: VirtualserviceVhMatchesRulesMatchesClientIpPrefixesIpAddr[] | cdktf.IResolvable) {
+    this._ipAddr.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAddrInput() {
+    return this._ipAddr.internalValue;
+  }
+}
+
+export class VirtualserviceVhMatchesRulesMatchesClientIpPrefixesList extends cdktf.ComplexList {
+  public internalValue? : VirtualserviceVhMatchesRulesMatchesClientIpPrefixes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualserviceVhMatchesRulesMatchesClientIpPrefixesOutputReference {
+    return new VirtualserviceVhMatchesRulesMatchesClientIpPrefixesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualserviceVhMatchesRulesMatchesClientIpRangesBegin {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
+  */
+  readonly addr: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
+  */
+  readonly type: string;
+}
+
+export function virtualserviceVhMatchesRulesMatchesClientIpRangesBeginToTerraform(struct?: VirtualserviceVhMatchesRulesMatchesClientIpRangesBegin | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function virtualserviceVhMatchesRulesMatchesClientIpRangesBeginToHclTerraform(struct?: VirtualserviceVhMatchesRulesMatchesClientIpRangesBegin | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualserviceVhMatchesRulesMatchesClientIpRangesBeginOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualserviceVhMatchesRulesMatchesClientIpRangesBegin | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualserviceVhMatchesRulesMatchesClientIpRangesBegin | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addr = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addr = value.addr;
+      this._type = value.type;
+    }
+  }
+
+  // addr - computed: false, optional: false, required: true
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class VirtualserviceVhMatchesRulesMatchesClientIpRangesBeginList extends cdktf.ComplexList {
+  public internalValue? : VirtualserviceVhMatchesRulesMatchesClientIpRangesBegin[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualserviceVhMatchesRulesMatchesClientIpRangesBeginOutputReference {
+    return new VirtualserviceVhMatchesRulesMatchesClientIpRangesBeginOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualserviceVhMatchesRulesMatchesClientIpRangesEnd {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
+  */
+  readonly addr: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
+  */
+  readonly type: string;
+}
+
+export function virtualserviceVhMatchesRulesMatchesClientIpRangesEndToTerraform(struct?: VirtualserviceVhMatchesRulesMatchesClientIpRangesEnd | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function virtualserviceVhMatchesRulesMatchesClientIpRangesEndToHclTerraform(struct?: VirtualserviceVhMatchesRulesMatchesClientIpRangesEnd | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualserviceVhMatchesRulesMatchesClientIpRangesEndOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualserviceVhMatchesRulesMatchesClientIpRangesEnd | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualserviceVhMatchesRulesMatchesClientIpRangesEnd | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addr = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addr = value.addr;
+      this._type = value.type;
+    }
+  }
+
+  // addr - computed: false, optional: false, required: true
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class VirtualserviceVhMatchesRulesMatchesClientIpRangesEndList extends cdktf.ComplexList {
+  public internalValue? : VirtualserviceVhMatchesRulesMatchesClientIpRangesEnd[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualserviceVhMatchesRulesMatchesClientIpRangesEndOutputReference {
+    return new VirtualserviceVhMatchesRulesMatchesClientIpRangesEndOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface VirtualserviceVhMatchesRulesMatchesClientIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#begin Virtualservice#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#begin Virtualservice#begin}
   */
   readonly begin: VirtualserviceVhMatchesRulesMatchesClientIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#end Virtualservice#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#end Virtualservice#end}
   */
   readonly end: VirtualserviceVhMatchesRulesMatchesClientIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -168,29 +730,29 @@ export class VirtualserviceVhMatchesRulesMatchesClientIpRangesList extends cdktf
 }
 export interface VirtualserviceVhMatchesRulesMatchesClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#group_refs Virtualservice#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#group_refs Virtualservice#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addrs Virtualservice#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addrs Virtualservice#addrs}
   */
   readonly addrs?: VirtualserviceVhMatchesRulesMatchesClientIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#prefixes Virtualservice#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#prefixes Virtualservice#prefixes}
   */
   readonly prefixes?: VirtualserviceVhMatchesRulesMatchesClientIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ranges Virtualservice#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ranges Virtualservice#ranges}
   */
   readonly ranges?: VirtualserviceVhMatchesRulesMatchesClientIpRanges[] | cdktf.IResolvable;
 }
@@ -419,19 +981,19 @@ export class VirtualserviceVhMatchesRulesMatchesClientIpList extends cdktf.Compl
 }
 export interface VirtualserviceVhMatchesRulesMatchesCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_case Virtualservice#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_case Virtualservice#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#name Virtualservice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#name Virtualservice#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#value Virtualservice#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#value Virtualservice#value}
   */
   readonly value?: string;
 }
@@ -628,15 +1190,15 @@ export class VirtualserviceVhMatchesRulesMatchesCookieList extends cdktf.Complex
 }
 export interface VirtualserviceVhMatchesRulesMatchesGeoMatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#attribute Virtualservice#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#attribute Virtualservice#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_operation Virtualservice#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_operation Virtualservice#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#values Virtualservice#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#values Virtualservice#values}
   */
   readonly values: string[];
 }
@@ -801,19 +1363,23 @@ export class VirtualserviceVhMatchesRulesMatchesGeoMatchesList extends cdktf.Com
 }
 export interface VirtualserviceVhMatchesRulesMatchesHdrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#hdr Virtualservice#hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#hdr Virtualservice#hdr}
   */
   readonly hdr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_case Virtualservice#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_case Virtualservice#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#value Virtualservice#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#string_group_refs Virtualservice#string_group_refs}
+  */
+  readonly stringGroupRefs?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#value Virtualservice#value}
   */
   readonly value?: string[];
 }
@@ -827,6 +1393,7 @@ export function virtualserviceVhMatchesRulesMatchesHdrsToTerraform(struct?: Virt
     hdr: cdktf.stringToTerraform(struct!.hdr),
     match_case: cdktf.stringToTerraform(struct!.matchCase),
     match_criteria: cdktf.stringToTerraform(struct!.matchCriteria),
+    string_group_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.stringGroupRefs),
     value: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.value),
   }
 }
@@ -855,6 +1422,12 @@ export function virtualserviceVhMatchesRulesMatchesHdrsToHclTerraform(struct?: V
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    string_group_refs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.stringGroupRefs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
     },
     value: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.value),
@@ -900,6 +1473,10 @@ export class VirtualserviceVhMatchesRulesMatchesHdrsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.matchCriteria = this._matchCriteria;
     }
+    if (this._stringGroupRefs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stringGroupRefs = this._stringGroupRefs;
+    }
     if (this._value !== undefined) {
       hasAnyValues = true;
       internalValueResult.value = this._value;
@@ -914,6 +1491,7 @@ export class VirtualserviceVhMatchesRulesMatchesHdrsOutputReference extends cdkt
       this._hdr = undefined;
       this._matchCase = undefined;
       this._matchCriteria = undefined;
+      this._stringGroupRefs = undefined;
       this._value = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -926,6 +1504,7 @@ export class VirtualserviceVhMatchesRulesMatchesHdrsOutputReference extends cdkt
       this._hdr = value.hdr;
       this._matchCase = value.matchCase;
       this._matchCriteria = value.matchCriteria;
+      this._stringGroupRefs = value.stringGroupRefs;
       this._value = value.value;
     }
   }
@@ -972,6 +1551,22 @@ export class VirtualserviceVhMatchesRulesMatchesHdrsOutputReference extends cdkt
     return this._matchCriteria;
   }
 
+  // string_group_refs - computed: false, optional: true, required: false
+  private _stringGroupRefs?: string[]; 
+  public get stringGroupRefs() {
+    return this.getListAttribute('string_group_refs');
+  }
+  public set stringGroupRefs(value: string[]) {
+    this._stringGroupRefs = value;
+  }
+  public resetStringGroupRefs() {
+    this._stringGroupRefs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stringGroupRefsInput() {
+    return this._stringGroupRefs;
+  }
+
   // value - computed: false, optional: true, required: false
   private _value?: string[]; 
   public get value() {
@@ -1010,15 +1605,15 @@ export class VirtualserviceVhMatchesRulesMatchesHdrsList extends cdktf.ComplexLi
 }
 export interface VirtualserviceVhMatchesRulesMatchesHostHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_case Virtualservice#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_case Virtualservice#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#value Virtualservice#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#value Virtualservice#value}
   */
   readonly value?: string[];
 }
@@ -1189,11 +1784,11 @@ export class VirtualserviceVhMatchesRulesMatchesHostHdrList extends cdktf.Comple
 }
 export interface VirtualserviceVhMatchesRulesMatchesIpReputationType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_operation Virtualservice#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_operation Virtualservice#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#reputation_types Virtualservice#reputation_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#reputation_types Virtualservice#reputation_types}
   */
   readonly reputationTypes: string[];
 }
@@ -1332,11 +1927,11 @@ export class VirtualserviceVhMatchesRulesMatchesIpReputationTypeList extends cdk
 }
 export interface VirtualserviceVhMatchesRulesMatchesMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#methods Virtualservice#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#methods Virtualservice#methods}
   */
   readonly methods: string[];
 }
@@ -1475,23 +2070,23 @@ export class VirtualserviceVhMatchesRulesMatchesMethodList extends cdktf.Complex
 }
 export interface VirtualserviceVhMatchesRulesMatchesPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_case Virtualservice#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_case Virtualservice#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_decoded_string Virtualservice#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_decoded_string Virtualservice#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_str Virtualservice#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_str Virtualservice#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#string_group_refs Virtualservice#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#string_group_refs Virtualservice#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -1720,11 +2315,11 @@ export class VirtualserviceVhMatchesRulesMatchesPathList extends cdktf.ComplexLi
 }
 export interface VirtualserviceVhMatchesRulesMatchesProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#protocols Virtualservice#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#protocols Virtualservice#protocols}
   */
   readonly protocols: string;
 }
@@ -1863,23 +2458,23 @@ export class VirtualserviceVhMatchesRulesMatchesProtocolList extends cdktf.Compl
 }
 export interface VirtualserviceVhMatchesRulesMatchesQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_case Virtualservice#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_case Virtualservice#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_decoded_string Virtualservice#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_decoded_string Virtualservice#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_str Virtualservice#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_str Virtualservice#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#string_group_refs Virtualservice#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#string_group_refs Virtualservice#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -2108,11 +2703,11 @@ export class VirtualserviceVhMatchesRulesMatchesQueryList extends cdktf.ComplexL
 }
 export interface VirtualserviceVhMatchesRulesMatchesSourceIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -2251,11 +2846,11 @@ export class VirtualserviceVhMatchesRulesMatchesSourceIpAddrsList extends cdktf.
 }
 export interface VirtualserviceVhMatchesRulesMatchesSourceIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -2394,13 +2989,13 @@ export class VirtualserviceVhMatchesRulesMatchesSourceIpPrefixesIpAddrList exten
 }
 export interface VirtualserviceVhMatchesRulesMatchesSourceIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#mask Virtualservice#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#mask Virtualservice#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
   */
   readonly ipAddr: VirtualserviceVhMatchesRulesMatchesSourceIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -2539,11 +3134,11 @@ export class VirtualserviceVhMatchesRulesMatchesSourceIpPrefixesList extends cdk
 }
 export interface VirtualserviceVhMatchesRulesMatchesSourceIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -2682,11 +3277,11 @@ export class VirtualserviceVhMatchesRulesMatchesSourceIpRangesBeginList extends 
 }
 export interface VirtualserviceVhMatchesRulesMatchesSourceIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -2827,13 +3422,13 @@ export interface VirtualserviceVhMatchesRulesMatchesSourceIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#begin Virtualservice#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#begin Virtualservice#begin}
   */
   readonly begin: VirtualserviceVhMatchesRulesMatchesSourceIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#end Virtualservice#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#end Virtualservice#end}
   */
   readonly end: VirtualserviceVhMatchesRulesMatchesSourceIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -2972,29 +3567,29 @@ export class VirtualserviceVhMatchesRulesMatchesSourceIpRangesList extends cdktf
 }
 export interface VirtualserviceVhMatchesRulesMatchesSourceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#group_refs Virtualservice#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#group_refs Virtualservice#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addrs Virtualservice#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addrs Virtualservice#addrs}
   */
   readonly addrs?: VirtualserviceVhMatchesRulesMatchesSourceIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#prefixes Virtualservice#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#prefixes Virtualservice#prefixes}
   */
   readonly prefixes?: VirtualserviceVhMatchesRulesMatchesSourceIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ranges Virtualservice#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ranges Virtualservice#ranges}
   */
   readonly ranges?: VirtualserviceVhMatchesRulesMatchesSourceIpRanges[] | cdktf.IResolvable;
 }
@@ -3223,15 +3818,15 @@ export class VirtualserviceVhMatchesRulesMatchesSourceIpList extends cdktf.Compl
 }
 export interface VirtualserviceVhMatchesRulesMatchesTlsFingerprintMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#fingerprints Virtualservice#fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#fingerprints Virtualservice#fingerprints}
   */
   readonly fingerprints?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_operation Virtualservice#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_operation Virtualservice#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#string_group_refs Virtualservice#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#string_group_refs Virtualservice#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -3402,11 +3997,11 @@ export class VirtualserviceVhMatchesRulesMatchesTlsFingerprintMatchList extends 
 }
 export interface VirtualserviceVhMatchesRulesMatchesVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#versions Virtualservice#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#versions Virtualservice#versions}
   */
   readonly versions: string[];
 }
@@ -3545,11 +4140,11 @@ export class VirtualserviceVhMatchesRulesMatchesVersionList extends cdktf.Comple
 }
 export interface VirtualserviceVhMatchesRulesMatchesVsPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#match_criteria Virtualservice#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ports Virtualservice#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ports Virtualservice#ports}
   */
   readonly ports: number[];
 }
@@ -3690,91 +4285,91 @@ export interface VirtualserviceVhMatchesRulesMatches {
   /**
   * bot_detection_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#bot_detection_result Virtualservice#bot_detection_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#bot_detection_result Virtualservice#bot_detection_result}
   */
   readonly botDetectionResult?: VirtualserviceVhMatchesRulesMatchesBotDetectionResult[] | cdktf.IResolvable;
   /**
   * client_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#client_ip Virtualservice#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#client_ip Virtualservice#client_ip}
   */
   readonly clientIp?: VirtualserviceVhMatchesRulesMatchesClientIp[] | cdktf.IResolvable;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#cookie Virtualservice#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#cookie Virtualservice#cookie}
   */
   readonly cookie?: VirtualserviceVhMatchesRulesMatchesCookie[] | cdktf.IResolvable;
   /**
   * geo_matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#geo_matches Virtualservice#geo_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#geo_matches Virtualservice#geo_matches}
   */
   readonly geoMatches?: VirtualserviceVhMatchesRulesMatchesGeoMatches[] | cdktf.IResolvable;
   /**
   * hdrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#hdrs Virtualservice#hdrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#hdrs Virtualservice#hdrs}
   */
   readonly hdrs?: VirtualserviceVhMatchesRulesMatchesHdrs[] | cdktf.IResolvable;
   /**
   * host_hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#host_hdr Virtualservice#host_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#host_hdr Virtualservice#host_hdr}
   */
   readonly hostHdr?: VirtualserviceVhMatchesRulesMatchesHostHdr[] | cdktf.IResolvable;
   /**
   * ip_reputation_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ip_reputation_type Virtualservice#ip_reputation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip_reputation_type Virtualservice#ip_reputation_type}
   */
   readonly ipReputationType?: VirtualserviceVhMatchesRulesMatchesIpReputationType[] | cdktf.IResolvable;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#method Virtualservice#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#method Virtualservice#method}
   */
   readonly method?: VirtualserviceVhMatchesRulesMatchesMethod[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#path Virtualservice#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#path Virtualservice#path}
   */
   readonly path?: VirtualserviceVhMatchesRulesMatchesPath[] | cdktf.IResolvable;
   /**
   * protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#protocol Virtualservice#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#protocol Virtualservice#protocol}
   */
   readonly protocol?: VirtualserviceVhMatchesRulesMatchesProtocol[] | cdktf.IResolvable;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#query Virtualservice#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#query Virtualservice#query}
   */
   readonly query?: VirtualserviceVhMatchesRulesMatchesQuery[] | cdktf.IResolvable;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#source_ip Virtualservice#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#source_ip Virtualservice#source_ip}
   */
   readonly sourceIp?: VirtualserviceVhMatchesRulesMatchesSourceIp[] | cdktf.IResolvable;
   /**
   * tls_fingerprint_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#tls_fingerprint_match Virtualservice#tls_fingerprint_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#tls_fingerprint_match Virtualservice#tls_fingerprint_match}
   */
   readonly tlsFingerprintMatch?: VirtualserviceVhMatchesRulesMatchesTlsFingerprintMatch[] | cdktf.IResolvable;
   /**
   * version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#version Virtualservice#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#version Virtualservice#version}
   */
   readonly version?: VirtualserviceVhMatchesRulesMatchesVersion[] | cdktf.IResolvable;
   /**
   * vs_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#vs_port Virtualservice#vs_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#vs_port Virtualservice#vs_port}
   */
   readonly vsPort?: VirtualserviceVhMatchesRulesMatchesVsPort[] | cdktf.IResolvable;
 }
@@ -4296,13 +4891,13 @@ export class VirtualserviceVhMatchesRulesMatchesList extends cdktf.ComplexList {
 }
 export interface VirtualserviceVhMatchesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#name Virtualservice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#name Virtualservice#name}
   */
   readonly name: string;
   /**
   * matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#matches Virtualservice#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#matches Virtualservice#matches}
   */
   readonly matches: VirtualserviceVhMatchesRulesMatches[] | cdktf.IResolvable;
 }
@@ -4441,13 +5036,13 @@ export class VirtualserviceVhMatchesRulesList extends cdktf.ComplexList {
 }
 export interface VirtualserviceVhMatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#host Virtualservice#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#host Virtualservice#host}
   */
   readonly host: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#rules Virtualservice#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#rules Virtualservice#rules}
   */
   readonly rules: VirtualserviceVhMatchesRules[] | cdktf.IResolvable;
 }
@@ -4586,11 +5181,11 @@ export class VirtualserviceVhMatchesList extends cdktf.ComplexList {
 }
 export interface VirtualserviceVipDiscoveredNetworksSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -4729,13 +5324,13 @@ export class VirtualserviceVipDiscoveredNetworksSubnetIpAddrList extends cdktf.C
 }
 export interface VirtualserviceVipDiscoveredNetworksSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#mask Virtualservice#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#mask Virtualservice#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
   */
   readonly ipAddr: VirtualserviceVipDiscoveredNetworksSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -4874,11 +5469,11 @@ export class VirtualserviceVipDiscoveredNetworksSubnetList extends cdktf.Complex
 }
 export interface VirtualserviceVipDiscoveredNetworksSubnet6IpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -5017,13 +5612,13 @@ export class VirtualserviceVipDiscoveredNetworksSubnet6IpAddrList extends cdktf.
 }
 export interface VirtualserviceVipDiscoveredNetworksSubnet6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#mask Virtualservice#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#mask Virtualservice#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
   */
   readonly ipAddr: VirtualserviceVipDiscoveredNetworksSubnet6IpAddr[] | cdktf.IResolvable;
 }
@@ -5162,19 +5757,19 @@ export class VirtualserviceVipDiscoveredNetworksSubnet6List extends cdktf.Comple
 }
 export interface VirtualserviceVipDiscoveredNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#network_ref Virtualservice#network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#network_ref Virtualservice#network_ref}
   */
   readonly networkRef: string;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#subnet Virtualservice#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#subnet Virtualservice#subnet}
   */
   readonly subnet?: VirtualserviceVipDiscoveredNetworksSubnet[] | cdktf.IResolvable;
   /**
   * subnet6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#subnet6 Virtualservice#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#subnet6 Virtualservice#subnet6}
   */
   readonly subnet6?: VirtualserviceVipDiscoveredNetworksSubnet6[] | cdktf.IResolvable;
 }
@@ -5345,11 +5940,11 @@ export class VirtualserviceVipDiscoveredNetworksList extends cdktf.ComplexList {
 }
 export interface VirtualserviceVipFloatingIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -5488,11 +6083,11 @@ export class VirtualserviceVipFloatingIpList extends cdktf.ComplexList {
 }
 export interface VirtualserviceVipFloatingIp6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -5631,11 +6226,11 @@ export class VirtualserviceVipFloatingIp6List extends cdktf.ComplexList {
 }
 export interface VirtualserviceVipIp6Address {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -5774,11 +6369,11 @@ export class VirtualserviceVipIp6AddressList extends cdktf.ComplexList {
 }
 export interface VirtualserviceVipIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -5915,13 +6510,879 @@ export class VirtualserviceVipIpAddressList extends cdktf.ComplexList {
     return new VirtualserviceVipIpAddressOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface VirtualserviceVipIpamNetworkSubnetSubnetIpAddr {
+export interface VirtualserviceVipIpamNetworkSubnetIpv6RangeBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
+  */
+  readonly type: string;
+}
+
+export function virtualserviceVipIpamNetworkSubnetIpv6RangeBeginToTerraform(struct?: VirtualserviceVipIpamNetworkSubnetIpv6RangeBegin | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function virtualserviceVipIpamNetworkSubnetIpv6RangeBeginToHclTerraform(struct?: VirtualserviceVipIpamNetworkSubnetIpv6RangeBegin | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualserviceVipIpamNetworkSubnetIpv6RangeBeginOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualserviceVipIpamNetworkSubnetIpv6RangeBegin | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualserviceVipIpamNetworkSubnetIpv6RangeBegin | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addr = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addr = value.addr;
+      this._type = value.type;
+    }
+  }
+
+  // addr - computed: false, optional: false, required: true
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class VirtualserviceVipIpamNetworkSubnetIpv6RangeBeginList extends cdktf.ComplexList {
+  public internalValue? : VirtualserviceVipIpamNetworkSubnetIpv6RangeBegin[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualserviceVipIpamNetworkSubnetIpv6RangeBeginOutputReference {
+    return new VirtualserviceVipIpamNetworkSubnetIpv6RangeBeginOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualserviceVipIpamNetworkSubnetIpv6RangeEnd {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
+  */
+  readonly addr: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
+  */
+  readonly type: string;
+}
+
+export function virtualserviceVipIpamNetworkSubnetIpv6RangeEndToTerraform(struct?: VirtualserviceVipIpamNetworkSubnetIpv6RangeEnd | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function virtualserviceVipIpamNetworkSubnetIpv6RangeEndToHclTerraform(struct?: VirtualserviceVipIpamNetworkSubnetIpv6RangeEnd | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualserviceVipIpamNetworkSubnetIpv6RangeEndOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualserviceVipIpamNetworkSubnetIpv6RangeEnd | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualserviceVipIpamNetworkSubnetIpv6RangeEnd | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addr = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addr = value.addr;
+      this._type = value.type;
+    }
+  }
+
+  // addr - computed: false, optional: false, required: true
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class VirtualserviceVipIpamNetworkSubnetIpv6RangeEndList extends cdktf.ComplexList {
+  public internalValue? : VirtualserviceVipIpamNetworkSubnetIpv6RangeEnd[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualserviceVipIpamNetworkSubnetIpv6RangeEndOutputReference {
+    return new VirtualserviceVipIpamNetworkSubnetIpv6RangeEndOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualserviceVipIpamNetworkSubnetIpv6Range {
+  /**
+  * begin block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#begin Virtualservice#begin}
+  */
+  readonly begin: VirtualserviceVipIpamNetworkSubnetIpv6RangeBegin[] | cdktf.IResolvable;
+  /**
+  * end block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#end Virtualservice#end}
+  */
+  readonly end: VirtualserviceVipIpamNetworkSubnetIpv6RangeEnd[] | cdktf.IResolvable;
+}
+
+export function virtualserviceVipIpamNetworkSubnetIpv6RangeToTerraform(struct?: VirtualserviceVipIpamNetworkSubnetIpv6Range | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    begin: cdktf.listMapper(virtualserviceVipIpamNetworkSubnetIpv6RangeBeginToTerraform, true)(struct!.begin),
+    end: cdktf.listMapper(virtualserviceVipIpamNetworkSubnetIpv6RangeEndToTerraform, true)(struct!.end),
+  }
+}
+
+
+export function virtualserviceVipIpamNetworkSubnetIpv6RangeToHclTerraform(struct?: VirtualserviceVipIpamNetworkSubnetIpv6Range | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    begin: {
+      value: cdktf.listMapperHcl(virtualserviceVipIpamNetworkSubnetIpv6RangeBeginToHclTerraform, true)(struct!.begin),
+      isBlock: true,
+      type: "set",
+      storageClassType: "VirtualserviceVipIpamNetworkSubnetIpv6RangeBeginList",
+    },
+    end: {
+      value: cdktf.listMapperHcl(virtualserviceVipIpamNetworkSubnetIpv6RangeEndToHclTerraform, true)(struct!.end),
+      isBlock: true,
+      type: "set",
+      storageClassType: "VirtualserviceVipIpamNetworkSubnetIpv6RangeEndList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualserviceVipIpamNetworkSubnetIpv6RangeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualserviceVipIpamNetworkSubnetIpv6Range | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._begin?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.begin = this._begin?.internalValue;
+    }
+    if (this._end?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.end = this._end?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualserviceVipIpamNetworkSubnetIpv6Range | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._begin.internalValue = undefined;
+      this._end.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._begin.internalValue = value.begin;
+      this._end.internalValue = value.end;
+    }
+  }
+
+  // begin - computed: false, optional: false, required: true
+  private _begin = new VirtualserviceVipIpamNetworkSubnetIpv6RangeBeginList(this, "begin", true);
+  public get begin() {
+    return this._begin;
+  }
+  public putBegin(value: VirtualserviceVipIpamNetworkSubnetIpv6RangeBegin[] | cdktf.IResolvable) {
+    this._begin.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get beginInput() {
+    return this._begin.internalValue;
+  }
+
+  // end - computed: false, optional: false, required: true
+  private _end = new VirtualserviceVipIpamNetworkSubnetIpv6RangeEndList(this, "end", true);
+  public get end() {
+    return this._end;
+  }
+  public putEnd(value: VirtualserviceVipIpamNetworkSubnetIpv6RangeEnd[] | cdktf.IResolvable) {
+    this._end.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endInput() {
+    return this._end.internalValue;
+  }
+}
+
+export class VirtualserviceVipIpamNetworkSubnetIpv6RangeList extends cdktf.ComplexList {
+  public internalValue? : VirtualserviceVipIpamNetworkSubnetIpv6Range[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualserviceVipIpamNetworkSubnetIpv6RangeOutputReference {
+    return new VirtualserviceVipIpamNetworkSubnetIpv6RangeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualserviceVipIpamNetworkSubnetRangeBegin {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
+  */
+  readonly addr: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
+  */
+  readonly type: string;
+}
+
+export function virtualserviceVipIpamNetworkSubnetRangeBeginToTerraform(struct?: VirtualserviceVipIpamNetworkSubnetRangeBegin | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function virtualserviceVipIpamNetworkSubnetRangeBeginToHclTerraform(struct?: VirtualserviceVipIpamNetworkSubnetRangeBegin | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualserviceVipIpamNetworkSubnetRangeBeginOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualserviceVipIpamNetworkSubnetRangeBegin | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualserviceVipIpamNetworkSubnetRangeBegin | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addr = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addr = value.addr;
+      this._type = value.type;
+    }
+  }
+
+  // addr - computed: false, optional: false, required: true
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class VirtualserviceVipIpamNetworkSubnetRangeBeginList extends cdktf.ComplexList {
+  public internalValue? : VirtualserviceVipIpamNetworkSubnetRangeBegin[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualserviceVipIpamNetworkSubnetRangeBeginOutputReference {
+    return new VirtualserviceVipIpamNetworkSubnetRangeBeginOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualserviceVipIpamNetworkSubnetRangeEnd {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
+  */
+  readonly addr: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
+  */
+  readonly type: string;
+}
+
+export function virtualserviceVipIpamNetworkSubnetRangeEndToTerraform(struct?: VirtualserviceVipIpamNetworkSubnetRangeEnd | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function virtualserviceVipIpamNetworkSubnetRangeEndToHclTerraform(struct?: VirtualserviceVipIpamNetworkSubnetRangeEnd | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualserviceVipIpamNetworkSubnetRangeEndOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualserviceVipIpamNetworkSubnetRangeEnd | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualserviceVipIpamNetworkSubnetRangeEnd | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addr = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addr = value.addr;
+      this._type = value.type;
+    }
+  }
+
+  // addr - computed: false, optional: false, required: true
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class VirtualserviceVipIpamNetworkSubnetRangeEndList extends cdktf.ComplexList {
+  public internalValue? : VirtualserviceVipIpamNetworkSubnetRangeEnd[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualserviceVipIpamNetworkSubnetRangeEndOutputReference {
+    return new VirtualserviceVipIpamNetworkSubnetRangeEndOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualserviceVipIpamNetworkSubnetRange {
+  /**
+  * begin block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#begin Virtualservice#begin}
+  */
+  readonly begin: VirtualserviceVipIpamNetworkSubnetRangeBegin[] | cdktf.IResolvable;
+  /**
+  * end block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#end Virtualservice#end}
+  */
+  readonly end: VirtualserviceVipIpamNetworkSubnetRangeEnd[] | cdktf.IResolvable;
+}
+
+export function virtualserviceVipIpamNetworkSubnetRangeToTerraform(struct?: VirtualserviceVipIpamNetworkSubnetRange | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    begin: cdktf.listMapper(virtualserviceVipIpamNetworkSubnetRangeBeginToTerraform, true)(struct!.begin),
+    end: cdktf.listMapper(virtualserviceVipIpamNetworkSubnetRangeEndToTerraform, true)(struct!.end),
+  }
+}
+
+
+export function virtualserviceVipIpamNetworkSubnetRangeToHclTerraform(struct?: VirtualserviceVipIpamNetworkSubnetRange | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    begin: {
+      value: cdktf.listMapperHcl(virtualserviceVipIpamNetworkSubnetRangeBeginToHclTerraform, true)(struct!.begin),
+      isBlock: true,
+      type: "set",
+      storageClassType: "VirtualserviceVipIpamNetworkSubnetRangeBeginList",
+    },
+    end: {
+      value: cdktf.listMapperHcl(virtualserviceVipIpamNetworkSubnetRangeEndToHclTerraform, true)(struct!.end),
+      isBlock: true,
+      type: "set",
+      storageClassType: "VirtualserviceVipIpamNetworkSubnetRangeEndList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VirtualserviceVipIpamNetworkSubnetRangeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VirtualserviceVipIpamNetworkSubnetRange | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._begin?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.begin = this._begin?.internalValue;
+    }
+    if (this._end?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.end = this._end?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VirtualserviceVipIpamNetworkSubnetRange | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._begin.internalValue = undefined;
+      this._end.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._begin.internalValue = value.begin;
+      this._end.internalValue = value.end;
+    }
+  }
+
+  // begin - computed: false, optional: false, required: true
+  private _begin = new VirtualserviceVipIpamNetworkSubnetRangeBeginList(this, "begin", true);
+  public get begin() {
+    return this._begin;
+  }
+  public putBegin(value: VirtualserviceVipIpamNetworkSubnetRangeBegin[] | cdktf.IResolvable) {
+    this._begin.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get beginInput() {
+    return this._begin.internalValue;
+  }
+
+  // end - computed: false, optional: false, required: true
+  private _end = new VirtualserviceVipIpamNetworkSubnetRangeEndList(this, "end", true);
+  public get end() {
+    return this._end;
+  }
+  public putEnd(value: VirtualserviceVipIpamNetworkSubnetRangeEnd[] | cdktf.IResolvable) {
+    this._end.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endInput() {
+    return this._end.internalValue;
+  }
+}
+
+export class VirtualserviceVipIpamNetworkSubnetRangeList extends cdktf.ComplexList {
+  public internalValue? : VirtualserviceVipIpamNetworkSubnetRange[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VirtualserviceVipIpamNetworkSubnetRangeOutputReference {
+    return new VirtualserviceVipIpamNetworkSubnetRangeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VirtualserviceVipIpamNetworkSubnetSubnetIpAddr {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
+  */
+  readonly addr: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -6060,13 +7521,13 @@ export class VirtualserviceVipIpamNetworkSubnetSubnetIpAddrList extends cdktf.Co
 }
 export interface VirtualserviceVipIpamNetworkSubnetSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#mask Virtualservice#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#mask Virtualservice#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
   */
   readonly ipAddr: VirtualserviceVipIpamNetworkSubnetSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -6205,11 +7666,11 @@ export class VirtualserviceVipIpamNetworkSubnetSubnetList extends cdktf.ComplexL
 }
 export interface VirtualserviceVipIpamNetworkSubnetSubnet6IpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -6348,13 +7809,13 @@ export class VirtualserviceVipIpamNetworkSubnetSubnet6IpAddrList extends cdktf.C
 }
 export interface VirtualserviceVipIpamNetworkSubnetSubnet6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#mask Virtualservice#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#mask Virtualservice#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
   */
   readonly ipAddr: VirtualserviceVipIpamNetworkSubnetSubnet6IpAddr[] | cdktf.IResolvable;
 }
@@ -6493,27 +7954,39 @@ export class VirtualserviceVipIpamNetworkSubnetSubnet6List extends cdktf.Complex
 }
 export interface VirtualserviceVipIpamNetworkSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#network_ref Virtualservice#network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#network_ref Virtualservice#network_ref}
   */
   readonly networkRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#subnet6_uuid Virtualservice#subnet6_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#subnet6_uuid Virtualservice#subnet6_uuid}
   */
   readonly subnet6Uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#subnet_uuid Virtualservice#subnet_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#subnet_uuid Virtualservice#subnet_uuid}
   */
   readonly subnetUuid?: string;
   /**
+  * ipv6_range block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ipv6_range Virtualservice#ipv6_range}
+  */
+  readonly ipv6Range?: VirtualserviceVipIpamNetworkSubnetIpv6Range[] | cdktf.IResolvable;
+  /**
+  * range block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#range Virtualservice#range}
+  */
+  readonly range?: VirtualserviceVipIpamNetworkSubnetRange[] | cdktf.IResolvable;
+  /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#subnet Virtualservice#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#subnet Virtualservice#subnet}
   */
   readonly subnet?: VirtualserviceVipIpamNetworkSubnetSubnet[] | cdktf.IResolvable;
   /**
   * subnet6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#subnet6 Virtualservice#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#subnet6 Virtualservice#subnet6}
   */
   readonly subnet6?: VirtualserviceVipIpamNetworkSubnetSubnet6[] | cdktf.IResolvable;
 }
@@ -6527,6 +8000,8 @@ export function virtualserviceVipIpamNetworkSubnetToTerraform(struct?: Virtualse
     network_ref: cdktf.stringToTerraform(struct!.networkRef),
     subnet6_uuid: cdktf.stringToTerraform(struct!.subnet6Uuid),
     subnet_uuid: cdktf.stringToTerraform(struct!.subnetUuid),
+    ipv6_range: cdktf.listMapper(virtualserviceVipIpamNetworkSubnetIpv6RangeToTerraform, true)(struct!.ipv6Range),
+    range: cdktf.listMapper(virtualserviceVipIpamNetworkSubnetRangeToTerraform, true)(struct!.range),
     subnet: cdktf.listMapper(virtualserviceVipIpamNetworkSubnetSubnetToTerraform, true)(struct!.subnet),
     subnet6: cdktf.listMapper(virtualserviceVipIpamNetworkSubnetSubnet6ToTerraform, true)(struct!.subnet6),
   }
@@ -6556,6 +8031,18 @@ export function virtualserviceVipIpamNetworkSubnetToHclTerraform(struct?: Virtua
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    ipv6_range: {
+      value: cdktf.listMapperHcl(virtualserviceVipIpamNetworkSubnetIpv6RangeToHclTerraform, true)(struct!.ipv6Range),
+      isBlock: true,
+      type: "set",
+      storageClassType: "VirtualserviceVipIpamNetworkSubnetIpv6RangeList",
+    },
+    range: {
+      value: cdktf.listMapperHcl(virtualserviceVipIpamNetworkSubnetRangeToHclTerraform, true)(struct!.range),
+      isBlock: true,
+      type: "set",
+      storageClassType: "VirtualserviceVipIpamNetworkSubnetRangeList",
     },
     subnet: {
       value: cdktf.listMapperHcl(virtualserviceVipIpamNetworkSubnetSubnetToHclTerraform, true)(struct!.subnet),
@@ -6607,6 +8094,14 @@ export class VirtualserviceVipIpamNetworkSubnetOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.subnetUuid = this._subnetUuid;
     }
+    if (this._ipv6Range?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Range = this._ipv6Range?.internalValue;
+    }
+    if (this._range?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.range = this._range?.internalValue;
+    }
     if (this._subnet?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.subnet = this._subnet?.internalValue;
@@ -6625,6 +8120,8 @@ export class VirtualserviceVipIpamNetworkSubnetOutputReference extends cdktf.Com
       this._networkRef = undefined;
       this._subnet6Uuid = undefined;
       this._subnetUuid = undefined;
+      this._ipv6Range.internalValue = undefined;
+      this._range.internalValue = undefined;
       this._subnet.internalValue = undefined;
       this._subnet6.internalValue = undefined;
     }
@@ -6638,6 +8135,8 @@ export class VirtualserviceVipIpamNetworkSubnetOutputReference extends cdktf.Com
       this._networkRef = value.networkRef;
       this._subnet6Uuid = value.subnet6Uuid;
       this._subnetUuid = value.subnetUuid;
+      this._ipv6Range.internalValue = value.ipv6Range;
+      this._range.internalValue = value.range;
       this._subnet.internalValue = value.subnet;
       this._subnet6.internalValue = value.subnet6;
     }
@@ -6689,6 +8188,38 @@ export class VirtualserviceVipIpamNetworkSubnetOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get subnetUuidInput() {
     return this._subnetUuid;
+  }
+
+  // ipv6_range - computed: false, optional: true, required: false
+  private _ipv6Range = new VirtualserviceVipIpamNetworkSubnetIpv6RangeList(this, "ipv6_range", true);
+  public get ipv6Range() {
+    return this._ipv6Range;
+  }
+  public putIpv6Range(value: VirtualserviceVipIpamNetworkSubnetIpv6Range[] | cdktf.IResolvable) {
+    this._ipv6Range.internalValue = value;
+  }
+  public resetIpv6Range() {
+    this._ipv6Range.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6RangeInput() {
+    return this._ipv6Range.internalValue;
+  }
+
+  // range - computed: false, optional: true, required: false
+  private _range = new VirtualserviceVipIpamNetworkSubnetRangeList(this, "range", true);
+  public get range() {
+    return this._range;
+  }
+  public putRange(value: VirtualserviceVipIpamNetworkSubnetRange[] | cdktf.IResolvable) {
+    this._range.internalValue = value;
+  }
+  public resetRange() {
+    this._range.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rangeInput() {
+    return this._range.internalValue;
   }
 
   // subnet - computed: false, optional: true, required: false
@@ -6745,11 +8276,11 @@ export class VirtualserviceVipIpamNetworkSubnetList extends cdktf.ComplexList {
 }
 export interface VirtualserviceVipPlacementNetworksSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -6888,13 +8419,13 @@ export class VirtualserviceVipPlacementNetworksSubnetIpAddrList extends cdktf.Co
 }
 export interface VirtualserviceVipPlacementNetworksSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#mask Virtualservice#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#mask Virtualservice#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
   */
   readonly ipAddr: VirtualserviceVipPlacementNetworksSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -7033,11 +8564,11 @@ export class VirtualserviceVipPlacementNetworksSubnetList extends cdktf.ComplexL
 }
 export interface VirtualserviceVipPlacementNetworksSubnet6IpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -7176,13 +8707,13 @@ export class VirtualserviceVipPlacementNetworksSubnet6IpAddrList extends cdktf.C
 }
 export interface VirtualserviceVipPlacementNetworksSubnet6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#mask Virtualservice#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#mask Virtualservice#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
   */
   readonly ipAddr: VirtualserviceVipPlacementNetworksSubnet6IpAddr[] | cdktf.IResolvable;
 }
@@ -7321,19 +8852,19 @@ export class VirtualserviceVipPlacementNetworksSubnet6List extends cdktf.Complex
 }
 export interface VirtualserviceVipPlacementNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#network_ref Virtualservice#network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#network_ref Virtualservice#network_ref}
   */
   readonly networkRef?: string;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#subnet Virtualservice#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#subnet Virtualservice#subnet}
   */
   readonly subnet?: VirtualserviceVipPlacementNetworksSubnet[] | cdktf.IResolvable;
   /**
   * subnet6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#subnet6 Virtualservice#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#subnet6 Virtualservice#subnet6}
   */
   readonly subnet6?: VirtualserviceVipPlacementNetworksSubnet6[] | cdktf.IResolvable;
 }
@@ -7507,11 +9038,11 @@ export class VirtualserviceVipPlacementNetworksList extends cdktf.ComplexList {
 }
 export interface VirtualserviceVipSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -7650,13 +9181,13 @@ export class VirtualserviceVipSubnetIpAddrList extends cdktf.ComplexList {
 }
 export interface VirtualserviceVipSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#mask Virtualservice#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#mask Virtualservice#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
   */
   readonly ipAddr: VirtualserviceVipSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -7795,11 +9326,11 @@ export class VirtualserviceVipSubnetList extends cdktf.ComplexList {
 }
 export interface VirtualserviceVipSubnet6IpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#addr Virtualservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#addr Virtualservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type: string;
 }
@@ -7938,13 +9469,13 @@ export class VirtualserviceVipSubnet6IpAddrList extends cdktf.ComplexList {
 }
 export interface VirtualserviceVipSubnet6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#mask Virtualservice#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#mask Virtualservice#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip_addr Virtualservice#ip_addr}
   */
   readonly ipAddr: VirtualserviceVipSubnet6IpAddr[] | cdktf.IResolvable;
 }
@@ -8083,117 +9614,117 @@ export class VirtualserviceVipSubnet6List extends cdktf.ComplexList {
 }
 export interface VirtualserviceVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#auto_allocate_floating_ip Virtualservice#auto_allocate_floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#auto_allocate_floating_ip Virtualservice#auto_allocate_floating_ip}
   */
   readonly autoAllocateFloatingIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#auto_allocate_ip Virtualservice#auto_allocate_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#auto_allocate_ip Virtualservice#auto_allocate_ip}
   */
   readonly autoAllocateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#auto_allocate_ip_type Virtualservice#auto_allocate_ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#auto_allocate_ip_type Virtualservice#auto_allocate_ip_type}
   */
   readonly autoAllocateIpType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#availability_zone Virtualservice#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#availability_zone Virtualservice#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#avi_allocated_fip Virtualservice#avi_allocated_fip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#avi_allocated_fip Virtualservice#avi_allocated_fip}
   */
   readonly aviAllocatedFip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#avi_allocated_vip Virtualservice#avi_allocated_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#avi_allocated_vip Virtualservice#avi_allocated_vip}
   */
   readonly aviAllocatedVip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#enabled Virtualservice#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#enabled Virtualservice#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#floating_subnet6_uuid Virtualservice#floating_subnet6_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#floating_subnet6_uuid Virtualservice#floating_subnet6_uuid}
   */
   readonly floatingSubnet6Uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#floating_subnet_uuid Virtualservice#floating_subnet_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#floating_subnet_uuid Virtualservice#floating_subnet_uuid}
   */
   readonly floatingSubnetUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#network_ref Virtualservice#network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#network_ref Virtualservice#network_ref}
   */
   readonly networkRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#port_uuid Virtualservice#port_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#port_uuid Virtualservice#port_uuid}
   */
   readonly portUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#prefix_length Virtualservice#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#prefix_length Virtualservice#prefix_length}
   */
   readonly prefixLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#subnet6_uuid Virtualservice#subnet6_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#subnet6_uuid Virtualservice#subnet6_uuid}
   */
   readonly subnet6Uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#subnet_uuid Virtualservice#subnet_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#subnet_uuid Virtualservice#subnet_uuid}
   */
   readonly subnetUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#vip_id Virtualservice#vip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#vip_id Virtualservice#vip_id}
   */
   readonly vipId: string;
   /**
   * discovered_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#discovered_networks Virtualservice#discovered_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#discovered_networks Virtualservice#discovered_networks}
   */
   readonly discoveredNetworks?: VirtualserviceVipDiscoveredNetworks[] | cdktf.IResolvable;
   /**
   * floating_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#floating_ip Virtualservice#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#floating_ip Virtualservice#floating_ip}
   */
   readonly floatingIp?: VirtualserviceVipFloatingIp[] | cdktf.IResolvable;
   /**
   * floating_ip6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#floating_ip6 Virtualservice#floating_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#floating_ip6 Virtualservice#floating_ip6}
   */
   readonly floatingIp6?: VirtualserviceVipFloatingIp6[] | cdktf.IResolvable;
   /**
   * ip6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ip6_address Virtualservice#ip6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip6_address Virtualservice#ip6_address}
   */
   readonly ip6Address?: VirtualserviceVipIp6Address[] | cdktf.IResolvable;
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ip_address Virtualservice#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ip_address Virtualservice#ip_address}
   */
   readonly ipAddress?: VirtualserviceVipIpAddress[] | cdktf.IResolvable;
   /**
   * ipam_network_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ipam_network_subnet Virtualservice#ipam_network_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ipam_network_subnet Virtualservice#ipam_network_subnet}
   */
   readonly ipamNetworkSubnet?: VirtualserviceVipIpamNetworkSubnet[] | cdktf.IResolvable;
   /**
   * placement_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#placement_networks Virtualservice#placement_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#placement_networks Virtualservice#placement_networks}
   */
   readonly placementNetworks?: VirtualserviceVipPlacementNetworks[] | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#subnet Virtualservice#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#subnet Virtualservice#subnet}
   */
   readonly subnet?: VirtualserviceVipSubnet[] | cdktf.IResolvable;
   /**
   * subnet6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#subnet6 Virtualservice#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#subnet6 Virtualservice#subnet6}
   */
   readonly subnet6?: VirtualserviceVipSubnet6[] | cdktf.IResolvable;
 }
@@ -8973,11 +10504,11 @@ export class VirtualserviceVipList extends cdktf.ComplexList {
 }
 export interface VirtualserviceVsDatascripts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#index Virtualservice#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#index Virtualservice#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#vs_datascript_set_ref Virtualservice#vs_datascript_set_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#vs_datascript_set_ref Virtualservice#vs_datascript_set_ref}
   */
   readonly vsDatascriptSetRef: string;
 }

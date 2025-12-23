@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface LicenseledgerdetailsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#id Licenseledgerdetails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#id Licenseledgerdetails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#total_licenses_reserved Licenseledgerdetails#total_licenses_reserved}
+  */
+  readonly totalLicensesReserved?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
   */
   readonly uuid?: string;
   /**
   * escrow_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#escrow_infos Licenseledgerdetails#escrow_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#escrow_infos Licenseledgerdetails#escrow_infos}
   */
   readonly escrowInfos?: LicenseledgerdetailsEscrowInfos[] | cdktf.IResolvable;
   /**
+  * se_group_infos block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#se_group_infos Licenseledgerdetails#se_group_infos}
+  */
+  readonly seGroupInfos?: LicenseledgerdetailsSeGroupInfos[] | cdktf.IResolvable;
+  /**
   * se_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#se_infos Licenseledgerdetails#se_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#se_infos Licenseledgerdetails#se_infos}
   */
   readonly seInfos?: LicenseledgerdetailsSeInfos[] | cdktf.IResolvable;
   /**
+  * tenant_infos block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#tenant_infos Licenseledgerdetails#tenant_infos}
+  */
+  readonly tenantInfos?: LicenseledgerdetailsTenantInfos[] | cdktf.IResolvable;
+  /**
   * tier_usages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#tier_usages Licenseledgerdetails#tier_usages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#tier_usages Licenseledgerdetails#tier_usages}
   */
   readonly tierUsages?: LicenseledgerdetailsTierUsages[] | cdktf.IResolvable;
 }
 export interface LicenseledgerdetailsEscrowInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#last_updated Licenseledgerdetails#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#last_updated Licenseledgerdetails#last_updated}
   */
   readonly lastUpdated: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#service_cores Licenseledgerdetails#service_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#service_cores Licenseledgerdetails#service_cores}
   */
   readonly serviceCores: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#tenant_uuid Licenseledgerdetails#tenant_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#tenant_uuid Licenseledgerdetails#tenant_uuid}
   */
   readonly tenantUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#tier Licenseledgerdetails#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#tier Licenseledgerdetails#tier}
   */
   readonly tier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
   */
   readonly uuid?: string;
 }
@@ -276,25 +292,207 @@ export class LicenseledgerdetailsEscrowInfosList extends cdktf.ComplexList {
     return new LicenseledgerdetailsEscrowInfosOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface LicenseledgerdetailsSeGroupInfos {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#consumed Licenseledgerdetails#consumed}
+  */
+  readonly consumed?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#escrow Licenseledgerdetails#escrow}
+  */
+  readonly escrow?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function licenseledgerdetailsSeGroupInfosToTerraform(struct?: LicenseledgerdetailsSeGroupInfos | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    consumed: cdktf.stringToTerraform(struct!.consumed),
+    escrow: cdktf.stringToTerraform(struct!.escrow),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function licenseledgerdetailsSeGroupInfosToHclTerraform(struct?: LicenseledgerdetailsSeGroupInfos | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    consumed: {
+      value: cdktf.stringToHclTerraform(struct!.consumed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    escrow: {
+      value: cdktf.stringToHclTerraform(struct!.escrow),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class LicenseledgerdetailsSeGroupInfosOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): LicenseledgerdetailsSeGroupInfos | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._consumed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.consumed = this._consumed;
+    }
+    if (this._escrow !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.escrow = this._escrow;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: LicenseledgerdetailsSeGroupInfos | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._consumed = undefined;
+      this._escrow = undefined;
+      this._uuid = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._consumed = value.consumed;
+      this._escrow = value.escrow;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // consumed - computed: true, optional: true, required: false
+  private _consumed?: string; 
+  public get consumed() {
+    return this.getStringAttribute('consumed');
+  }
+  public set consumed(value: string) {
+    this._consumed = value;
+  }
+  public resetConsumed() {
+    this._consumed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get consumedInput() {
+    return this._consumed;
+  }
+
+  // escrow - computed: true, optional: true, required: false
+  private _escrow?: string; 
+  public get escrow() {
+    return this.getStringAttribute('escrow');
+  }
+  public set escrow(value: string) {
+    this._escrow = value;
+  }
+  public resetEscrow() {
+    this._escrow = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get escrowInput() {
+    return this._escrow;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+
+export class LicenseledgerdetailsSeGroupInfosList extends cdktf.ComplexList {
+  public internalValue? : LicenseledgerdetailsSeGroupInfos[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): LicenseledgerdetailsSeGroupInfosOutputReference {
+    return new LicenseledgerdetailsSeGroupInfosOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface LicenseledgerdetailsSeInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#last_updated Licenseledgerdetails#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#last_updated Licenseledgerdetails#last_updated}
   */
   readonly lastUpdated: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#service_cores Licenseledgerdetails#service_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#service_cores Licenseledgerdetails#service_cores}
   */
   readonly serviceCores: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#tenant_uuid Licenseledgerdetails#tenant_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#tenant_uuid Licenseledgerdetails#tenant_uuid}
   */
   readonly tenantUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#tier Licenseledgerdetails#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#tier Licenseledgerdetails#tier}
   */
   readonly tier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
   */
   readonly uuid?: string;
 }
@@ -515,21 +713,170 @@ export class LicenseledgerdetailsSeInfosList extends cdktf.ComplexList {
     return new LicenseledgerdetailsSeInfosOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface LicenseledgerdetailsTenantInfos {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#reserved Licenseledgerdetails#reserved}
+  */
+  readonly reserved?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function licenseledgerdetailsTenantInfosToTerraform(struct?: LicenseledgerdetailsTenantInfos | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    reserved: cdktf.stringToTerraform(struct!.reserved),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function licenseledgerdetailsTenantInfosToHclTerraform(struct?: LicenseledgerdetailsTenantInfos | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    reserved: {
+      value: cdktf.stringToHclTerraform(struct!.reserved),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class LicenseledgerdetailsTenantInfosOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): LicenseledgerdetailsTenantInfos | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._reserved !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reserved = this._reserved;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: LicenseledgerdetailsTenantInfos | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._reserved = undefined;
+      this._uuid = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._reserved = value.reserved;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // reserved - computed: true, optional: true, required: false
+  private _reserved?: string; 
+  public get reserved() {
+    return this.getStringAttribute('reserved');
+  }
+  public set reserved(value: string) {
+    this._reserved = value;
+  }
+  public resetReserved() {
+    this._reserved = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reservedInput() {
+    return this._reserved;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+
+export class LicenseledgerdetailsTenantInfosList extends cdktf.ComplexList {
+  public internalValue? : LicenseledgerdetailsTenantInfos[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): LicenseledgerdetailsTenantInfosOutputReference {
+    return new LicenseledgerdetailsTenantInfosOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface LicenseledgerdetailsTierUsagesUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#available Licenseledgerdetails#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#available Licenseledgerdetails#available}
   */
   readonly available?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#consumed Licenseledgerdetails#consumed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#consumed Licenseledgerdetails#consumed}
   */
   readonly consumed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#escrow Licenseledgerdetails#escrow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#escrow Licenseledgerdetails#escrow}
   */
   readonly escrow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#remaining Licenseledgerdetails#remaining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#remaining Licenseledgerdetails#remaining}
   */
   readonly remaining?: string;
 }
@@ -732,13 +1079,13 @@ export class LicenseledgerdetailsTierUsagesUsageList extends cdktf.ComplexList {
 }
 export interface LicenseledgerdetailsTierUsages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#tier Licenseledgerdetails#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#tier Licenseledgerdetails#tier}
   */
   readonly tier?: string;
   /**
   * usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#usage Licenseledgerdetails#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#usage Licenseledgerdetails#usage}
   */
   readonly usage?: LicenseledgerdetailsTierUsagesUsage[] | cdktf.IResolvable;
 }
@@ -883,7 +1230,7 @@ export class LicenseledgerdetailsTierUsagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails avi_licenseledgerdetails}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails avi_licenseledgerdetails}
 */
 export class Licenseledgerdetails extends cdktf.TerraformResource {
 
@@ -899,7 +1246,7 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Licenseledgerdetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Licenseledgerdetails to import
-  * @param importFromId The id of the existing Licenseledgerdetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Licenseledgerdetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Licenseledgerdetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -911,7 +1258,7 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licenseledgerdetails avi_licenseledgerdetails} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licenseledgerdetails avi_licenseledgerdetails} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -922,8 +1269,8 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
       terraformResourceType: 'avi_licenseledgerdetails',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -934,9 +1281,12 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
+    this._totalLicensesReserved = config.totalLicensesReserved;
     this._uuid = config.uuid;
     this._escrowInfos.internalValue = config.escrowInfos;
+    this._seGroupInfos.internalValue = config.seGroupInfos;
     this._seInfos.internalValue = config.seInfos;
+    this._tenantInfos.internalValue = config.tenantInfos;
     this._tierUsages.internalValue = config.tierUsages;
   }
 
@@ -958,6 +1308,22 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // total_licenses_reserved - computed: true, optional: true, required: false
+  private _totalLicensesReserved?: string; 
+  public get totalLicensesReserved() {
+    return this.getStringAttribute('total_licenses_reserved');
+  }
+  public set totalLicensesReserved(value: string) {
+    this._totalLicensesReserved = value;
+  }
+  public resetTotalLicensesReserved() {
+    this._totalLicensesReserved = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get totalLicensesReservedInput() {
+    return this._totalLicensesReserved;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -992,6 +1358,22 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
     return this._escrowInfos.internalValue;
   }
 
+  // se_group_infos - computed: false, optional: true, required: false
+  private _seGroupInfos = new LicenseledgerdetailsSeGroupInfosList(this, "se_group_infos", false);
+  public get seGroupInfos() {
+    return this._seGroupInfos;
+  }
+  public putSeGroupInfos(value: LicenseledgerdetailsSeGroupInfos[] | cdktf.IResolvable) {
+    this._seGroupInfos.internalValue = value;
+  }
+  public resetSeGroupInfos() {
+    this._seGroupInfos.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get seGroupInfosInput() {
+    return this._seGroupInfos.internalValue;
+  }
+
   // se_infos - computed: false, optional: true, required: false
   private _seInfos = new LicenseledgerdetailsSeInfosList(this, "se_infos", false);
   public get seInfos() {
@@ -1006,6 +1388,22 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get seInfosInput() {
     return this._seInfos.internalValue;
+  }
+
+  // tenant_infos - computed: false, optional: true, required: false
+  private _tenantInfos = new LicenseledgerdetailsTenantInfosList(this, "tenant_infos", false);
+  public get tenantInfos() {
+    return this._tenantInfos;
+  }
+  public putTenantInfos(value: LicenseledgerdetailsTenantInfos[] | cdktf.IResolvable) {
+    this._tenantInfos.internalValue = value;
+  }
+  public resetTenantInfos() {
+    this._tenantInfos.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInfosInput() {
+    return this._tenantInfos.internalValue;
   }
 
   // tier_usages - computed: false, optional: true, required: false
@@ -1031,9 +1429,12 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
+      total_licenses_reserved: cdktf.stringToTerraform(this._totalLicensesReserved),
       uuid: cdktf.stringToTerraform(this._uuid),
       escrow_infos: cdktf.listMapper(licenseledgerdetailsEscrowInfosToTerraform, true)(this._escrowInfos.internalValue),
+      se_group_infos: cdktf.listMapper(licenseledgerdetailsSeGroupInfosToTerraform, true)(this._seGroupInfos.internalValue),
       se_infos: cdktf.listMapper(licenseledgerdetailsSeInfosToTerraform, true)(this._seInfos.internalValue),
+      tenant_infos: cdktf.listMapper(licenseledgerdetailsTenantInfosToTerraform, true)(this._tenantInfos.internalValue),
       tier_usages: cdktf.listMapper(licenseledgerdetailsTierUsagesToTerraform, true)(this._tierUsages.internalValue),
     };
   }
@@ -1042,6 +1443,12 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
     const attrs = {
       id: {
         value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      total_licenses_reserved: {
+        value: cdktf.stringToHclTerraform(this._totalLicensesReserved),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1058,11 +1465,23 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "LicenseledgerdetailsEscrowInfosList",
       },
+      se_group_infos: {
+        value: cdktf.listMapperHcl(licenseledgerdetailsSeGroupInfosToHclTerraform, true)(this._seGroupInfos.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LicenseledgerdetailsSeGroupInfosList",
+      },
       se_infos: {
         value: cdktf.listMapperHcl(licenseledgerdetailsSeInfosToHclTerraform, true)(this._seInfos.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "LicenseledgerdetailsSeInfosList",
+      },
+      tenant_infos: {
+        value: cdktf.listMapperHcl(licenseledgerdetailsTenantInfosToHclTerraform, true)(this._tenantInfos.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LicenseledgerdetailsTenantInfosList",
       },
       tier_usages: {
         value: cdktf.listMapperHcl(licenseledgerdetailsTierUsagesToHclTerraform, true)(this._tierUsages.internalValue),

@@ -1,3 +1,3 @@
 # `data_avi_botmapping`
 
-Refer to the Terraform Registry for docs: [`data_avi_botmapping`](https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/botmapping).
+Refer to the Terraform Registry for docs: [`data_avi_botmapping`](https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/botmapping).

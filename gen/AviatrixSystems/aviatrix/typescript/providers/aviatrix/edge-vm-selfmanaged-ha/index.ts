@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EdgeVmSelfmanagedHaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#id EdgeVmSelfmanagedHa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#id EdgeVmSelfmanagedHa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface EdgeVmSelfmanagedHaConfig extends cdktf.TerraformMetaArguments 
   /**
   * Set of management egress gateway IP/prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#management_egress_ip_prefix_list EdgeVmSelfmanagedHa#management_egress_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#management_egress_ip_prefix_list EdgeVmSelfmanagedHa#management_egress_ip_prefix_list}
   */
   readonly managementEgressIpPrefixList?: string[];
   /**
   * Primary gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#primary_gw_name EdgeVmSelfmanagedHa#primary_gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#primary_gw_name EdgeVmSelfmanagedHa#primary_gw_name}
   */
   readonly primaryGwName: string;
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#site_id EdgeVmSelfmanagedHa#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#site_id EdgeVmSelfmanagedHa#site_id}
   */
   readonly siteId: string;
   /**
   * The location where the ZTP file will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#ztp_file_download_path EdgeVmSelfmanagedHa#ztp_file_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#ztp_file_download_path EdgeVmSelfmanagedHa#ztp_file_download_path}
   */
   readonly ztpFileDownloadPath: string;
   /**
   * ZTP file type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#ztp_file_type EdgeVmSelfmanagedHa#ztp_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#ztp_file_type EdgeVmSelfmanagedHa#ztp_file_type}
   */
   readonly ztpFileType: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#interfaces EdgeVmSelfmanagedHa#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#interfaces EdgeVmSelfmanagedHa#interfaces}
   */
   readonly interfaces: EdgeVmSelfmanagedHaInterfaces[] | cdktf.IResolvable;
 }
@@ -55,37 +55,37 @@ export interface EdgeVmSelfmanagedHaInterfaces {
   /**
   * Enable DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#enable_dhcp EdgeVmSelfmanagedHa#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#enable_dhcp EdgeVmSelfmanagedHa#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#gateway_ip EdgeVmSelfmanagedHa#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#gateway_ip EdgeVmSelfmanagedHa#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Interface static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#ip_address EdgeVmSelfmanagedHa#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#ip_address EdgeVmSelfmanagedHa#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#name EdgeVmSelfmanagedHa#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#name EdgeVmSelfmanagedHa#name}
   */
   readonly name: string;
   /**
   * Interface type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#type EdgeVmSelfmanagedHa#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#type EdgeVmSelfmanagedHa#type}
   */
   readonly type: string;
   /**
   * WAN interface public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#wan_public_ip EdgeVmSelfmanagedHa#wan_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#wan_public_ip EdgeVmSelfmanagedHa#wan_public_ip}
   */
   readonly wanPublicIp?: string;
 }
@@ -340,7 +340,7 @@ export class EdgeVmSelfmanagedHaInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha aviatrix_edge_vm_selfmanaged_ha}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha aviatrix_edge_vm_selfmanaged_ha}
 */
 export class EdgeVmSelfmanagedHa extends cdktf.TerraformResource {
 
@@ -356,7 +356,7 @@ export class EdgeVmSelfmanagedHa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeVmSelfmanagedHa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeVmSelfmanagedHa to import
-  * @param importFromId The id of the existing EdgeVmSelfmanagedHa that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeVmSelfmanagedHa that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeVmSelfmanagedHa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -368,7 +368,7 @@ export class EdgeVmSelfmanagedHa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_vm_selfmanaged_ha aviatrix_edge_vm_selfmanaged_ha} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_vm_selfmanaged_ha aviatrix_edge_vm_selfmanaged_ha} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,8 +379,8 @@ export class EdgeVmSelfmanagedHa extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_vm_selfmanaged_ha',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

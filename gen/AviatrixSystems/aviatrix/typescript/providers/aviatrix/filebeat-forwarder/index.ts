@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/filebeat_forwarder
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/filebeat_forwarder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FilebeatForwarderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/filebeat_forwarder#config_file FilebeatForwarder#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/filebeat_forwarder#config_file FilebeatForwarder#config_file}
   */
   readonly configFile?: string;
   /**
   * List of excluded gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/filebeat_forwarder#excluded_gateways FilebeatForwarder#excluded_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/filebeat_forwarder#excluded_gateways FilebeatForwarder#excluded_gateways}
   */
   readonly excludedGateways?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/filebeat_forwarder#id FilebeatForwarder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/filebeat_forwarder#id FilebeatForwarder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface FilebeatForwarderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/filebeat_forwarder#port FilebeatForwarder#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/filebeat_forwarder#port FilebeatForwarder#port}
   */
   readonly port: number;
   /**
   * Server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/filebeat_forwarder#server FilebeatForwarder#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/filebeat_forwarder#server FilebeatForwarder#server}
   */
   readonly server: string;
   /**
   * Trusted CA file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/filebeat_forwarder#trusted_ca_file FilebeatForwarder#trusted_ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/filebeat_forwarder#trusted_ca_file FilebeatForwarder#trusted_ca_file}
   */
   readonly trustedCaFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/filebeat_forwarder aviatrix_filebeat_forwarder}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/filebeat_forwarder aviatrix_filebeat_forwarder}
 */
 export class FilebeatForwarder extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class FilebeatForwarder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FilebeatForwarder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FilebeatForwarder to import
-  * @param importFromId The id of the existing FilebeatForwarder that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/filebeat_forwarder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FilebeatForwarder that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/filebeat_forwarder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FilebeatForwarder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class FilebeatForwarder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/filebeat_forwarder aviatrix_filebeat_forwarder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/filebeat_forwarder aviatrix_filebeat_forwarder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class FilebeatForwarder extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_filebeat_forwarder',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

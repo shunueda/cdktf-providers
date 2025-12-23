@@ -74,6 +74,111 @@ export class DataAviApplicationprofileConfigpbAttributesList extends cdktf.Compl
     return new DataAviApplicationprofileConfigpbAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAviApplicationprofileDiameterServiceProfile {
+}
+
+export function dataAviApplicationprofileDiameterServiceProfileToTerraform(struct?: DataAviApplicationprofileDiameterServiceProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviApplicationprofileDiameterServiceProfileToHclTerraform(struct?: DataAviApplicationprofileDiameterServiceProfile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviApplicationprofileDiameterServiceProfileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviApplicationprofileDiameterServiceProfile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviApplicationprofileDiameterServiceProfile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // client_origin_host - computed: true, optional: false, required: false
+  public get clientOriginHost() {
+    return this.getStringAttribute('client_origin_host');
+  }
+
+  // client_origin_realm - computed: true, optional: false, required: false
+  public get clientOriginRealm() {
+    return this.getStringAttribute('client_origin_realm');
+  }
+
+  // host_ip_addr_rewrite - computed: true, optional: false, required: false
+  public get hostIpAddrRewrite() {
+    return this.getStringAttribute('host_ip_addr_rewrite');
+  }
+
+  // max_outstanding_req - computed: true, optional: false, required: false
+  public get maxOutstandingReq() {
+    return this.getStringAttribute('max_outstanding_req');
+  }
+
+  // req_timeout - computed: true, optional: false, required: false
+  public get reqTimeout() {
+    return this.getStringAttribute('req_timeout');
+  }
+
+  // server_origin_host - computed: true, optional: false, required: false
+  public get serverOriginHost() {
+    return this.getStringAttribute('server_origin_host');
+  }
+
+  // server_origin_realm - computed: true, optional: false, required: false
+  public get serverOriginRealm() {
+    return this.getStringAttribute('server_origin_realm');
+  }
+}
+
+export class DataAviApplicationprofileDiameterServiceProfileList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviApplicationprofileDiameterServiceProfileOutputReference {
+    return new DataAviApplicationprofileDiameterServiceProfileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataAviApplicationprofileDnsServiceProfileDnsZones {
 }
 
@@ -8995,86 +9100,5 @@ export class DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRa
   */
   public get(index: number): DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokensOutputReference {
     return new DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokensOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath {
-}
-
-export function dataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathToTerraform(struct?: DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathToHclTerraform(struct?: DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPath | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // tokens - computed: true, optional: false, required: false
-  private _tokens = new DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathTokensList(this, "tokens", false);
-  public get tokens() {
-    return this._tokens;
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-
-export class DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathOutputReference {
-    return new DataAviApplicationprofileDosRlProfileRlProfileUriScannersRequestsRateLimitActionRedirectPathOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }

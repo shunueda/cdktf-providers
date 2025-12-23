@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface WorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of workspace selections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#asset_selections Workspace#asset_selections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#asset_selections Workspace#asset_selections}
   */
   readonly assetSelections: WorkspaceAssetSelections[] | cdktf.IResolvable;
   /**
   * Description of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#description Workspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#description Workspace#description}
   */
   readonly description?: string;
   /**
   * Name of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#name Workspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#name Workspace#name}
   */
   readonly name: string;
   /**
   * Mondoo space identifier. If there is no ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#space_id Workspace#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#space_id Workspace#space_id}
   */
   readonly spaceId?: string;
 }
@@ -36,19 +36,19 @@ export interface WorkspaceAssetSelectionsConditionsIntCondition {
   /**
   * Numeric field to match. Valid values: ["RISK_SCORE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#field Workspace#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#field Workspace#field}
   */
   readonly field: string;
   /**
   * Numeric operator. Valid values: ["EQUAL" "NOT_EQUAL" "GT" "LT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#operator Workspace#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#operator Workspace#operator}
   */
   readonly operator: string;
   /**
   * Int values to match. Values are ORed together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#values Workspace#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#values Workspace#values}
   */
   readonly values: number[];
 }
@@ -193,13 +193,13 @@ export interface WorkspaceAssetSelectionsConditionsKeyValueConditionValues {
   /**
   * The key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#key Workspace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#key Workspace#key}
   */
   readonly key: string;
   /**
   * The value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#value Workspace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#value Workspace#value}
   */
   readonly value: string;
 }
@@ -340,19 +340,19 @@ export interface WorkspaceAssetSelectionsConditionsKeyValueCondition {
   /**
   * key:value field to match. Valid values: ["LABELS" "ANNOTATIONS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#field Workspace#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#field Workspace#field}
   */
   readonly field: string;
   /**
   * Rating operator. Valid values: ["CONTAINS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#operator Workspace#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#operator Workspace#operator}
   */
   readonly operator: string;
   /**
   * key:value list to match. Values are ORed together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#values Workspace#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#values Workspace#values}
   */
   readonly values: WorkspaceAssetSelectionsConditionsKeyValueConditionValues[] | cdktf.IResolvable;
 }
@@ -497,19 +497,19 @@ export interface WorkspaceAssetSelectionsConditionsRatingCondition {
   /**
   * Rating field to match. Valid values: ["RISK"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#field Workspace#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#field Workspace#field}
   */
   readonly field: string;
   /**
   * Rating operator. Valid values: ["EQUAL" "NOT_EQUAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#operator Workspace#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#operator Workspace#operator}
   */
   readonly operator: string;
   /**
   * Int values to match. Values are ORed together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#values Workspace#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#values Workspace#values}
   */
   readonly values: string[];
 }
@@ -654,19 +654,19 @@ export interface WorkspaceAssetSelectionsConditionsStringCondition {
   /**
   * String field to match. Valid values: ["PLATFORM" "PLATFORM_VERSION" "ASSET_NAME" "ASSET_KIND" "TECHNOLOGY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#field Workspace#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#field Workspace#field}
   */
   readonly field: string;
   /**
   * String operator. Valid values: ["EQUAL" "NOT_EQUAL" "CONTAINS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#operator Workspace#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#operator Workspace#operator}
   */
   readonly operator: string;
   /**
   * String values to match. Values are ORed together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#values Workspace#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#values Workspace#values}
   */
   readonly values: string[];
 }
@@ -811,31 +811,31 @@ export interface WorkspaceAssetSelectionsConditions {
   /**
   * A condition with values of type int.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#int_condition Workspace#int_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#int_condition Workspace#int_condition}
   */
   readonly intCondition?: WorkspaceAssetSelectionsConditionsIntCondition;
   /**
   * A condition with values of type key:value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#key_value_condition Workspace#key_value_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#key_value_condition Workspace#key_value_condition}
   */
   readonly keyValueCondition?: WorkspaceAssetSelectionsConditionsKeyValueCondition;
   /**
   * Operator determining how the condition is joined with the other conditions in the list. Valid values: `AND`, `AND_NOT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#operator Workspace#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#operator Workspace#operator}
   */
   readonly operator: string;
   /**
   * A condition with values of type int.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#rating_condition Workspace#rating_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#rating_condition Workspace#rating_condition}
   */
   readonly ratingCondition?: WorkspaceAssetSelectionsConditionsRatingCondition;
   /**
   * A condition with values of type string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#string_condition Workspace#string_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#string_condition Workspace#string_condition}
   */
   readonly stringCondition?: WorkspaceAssetSelectionsConditionsStringCondition;
 }
@@ -1066,7 +1066,7 @@ export interface WorkspaceAssetSelections {
   /**
   * A list of conditions for the selection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#conditions Workspace#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#conditions Workspace#conditions}
   */
   readonly conditions: WorkspaceAssetSelectionsConditions[] | cdktf.IResolvable;
 }
@@ -1179,7 +1179,7 @@ export class WorkspaceAssetSelectionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace mondoo_workspace}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace mondoo_workspace}
 */
 export class Workspace extends cdktf.TerraformResource {
 
@@ -1195,7 +1195,7 @@ export class Workspace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Workspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Workspace to import
-  * @param importFromId The id of the existing Workspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Workspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Workspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1207,7 +1207,7 @@ export class Workspace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/workspace mondoo_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/workspace mondoo_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1218,8 +1218,8 @@ export class Workspace extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_workspace',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.2',
-        providerVersionConstraint: '0.35.2'
+        providerVersion: '0.35.3',
+        providerVersionConstraint: '0.35.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataVkcsPublicdnsZoneConfig extends cdktf.TerraformMetaArgument
   /**
   * The admin email of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone#admin_email DataVkcsPublicdnsZone#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone#admin_email DataVkcsPublicdnsZone#admin_email}
   */
   readonly adminEmail?: string;
   /**
   * The expire time of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone#expire DataVkcsPublicdnsZone#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone#expire DataVkcsPublicdnsZone#expire}
   */
   readonly expire?: number;
   /**
   * The UUID of the DNS zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone#id DataVkcsPublicdnsZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone#id DataVkcsPublicdnsZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,55 +31,55 @@ export interface DataVkcsPublicdnsZoneConfig extends cdktf.TerraformMetaArgument
   /**
   * The primary DNS of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone#primary_dns DataVkcsPublicdnsZone#primary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone#primary_dns DataVkcsPublicdnsZone#primary_dns}
   */
   readonly primaryDns?: string;
   /**
   * The refresh time of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone#refresh DataVkcsPublicdnsZone#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone#refresh DataVkcsPublicdnsZone#refresh}
   */
   readonly refresh?: number;
   /**
   * The region in which to obtain the V2 Public DNS client. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone#region DataVkcsPublicdnsZone#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone#region DataVkcsPublicdnsZone#region}
   */
   readonly region?: string;
   /**
   * The retry time of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone#retry DataVkcsPublicdnsZone#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone#retry DataVkcsPublicdnsZone#retry}
   */
   readonly retry?: number;
   /**
   * The serial number of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone#serial DataVkcsPublicdnsZone#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone#serial DataVkcsPublicdnsZone#serial}
   */
   readonly serial?: number;
   /**
   * The status of the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone#status DataVkcsPublicdnsZone#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone#status DataVkcsPublicdnsZone#status}
   */
   readonly status?: string;
   /**
   * The TTL (time to live) of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone#ttl DataVkcsPublicdnsZone#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone#ttl DataVkcsPublicdnsZone#ttl}
   */
   readonly ttl?: number;
   /**
   * The name of the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone#zone DataVkcsPublicdnsZone#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone#zone DataVkcsPublicdnsZone#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone vkcs_publicdns_zone}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone vkcs_publicdns_zone}
 */
 export class DataVkcsPublicdnsZone extends cdktf.TerraformDataSource {
 
@@ -95,7 +95,7 @@ export class DataVkcsPublicdnsZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsPublicdnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsPublicdnsZone to import
-  * @param importFromId The id of the existing DataVkcsPublicdnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsPublicdnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsPublicdnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -107,7 +107,7 @@ export class DataVkcsPublicdnsZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/publicdns_zone vkcs_publicdns_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/publicdns_zone vkcs_publicdns_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -118,8 +118,8 @@ export class DataVkcsPublicdnsZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_publicdns_zone',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

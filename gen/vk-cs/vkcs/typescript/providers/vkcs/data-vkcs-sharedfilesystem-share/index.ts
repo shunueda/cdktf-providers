@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_share
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_share
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataVkcsSharedfilesystemShareConfig extends cdktf.TerraformMeta
   /**
   * The human-readable description for the share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_share#description DataVkcsSharedfilesystemShare#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_share#description DataVkcsSharedfilesystemShare#description}
   */
   readonly description?: string;
   /**
   * The export location path of the share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_share#export_location_path DataVkcsSharedfilesystemShare#export_location_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_share#export_location_path DataVkcsSharedfilesystemShare#export_location_path}
   */
   readonly exportLocationPath?: string;
   /**
   * The name of the share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_share#name DataVkcsSharedfilesystemShare#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_share#name DataVkcsSharedfilesystemShare#name}
   */
   readonly name?: string;
   /**
   * The region in which to obtain the Shared File System client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_share#region DataVkcsSharedfilesystemShare#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_share#region DataVkcsSharedfilesystemShare#region}
   */
   readonly region?: string;
   /**
   * The UUID of the share's share network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_share#share_network_id DataVkcsSharedfilesystemShare#share_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_share#share_network_id DataVkcsSharedfilesystemShare#share_network_id}
   */
   readonly shareNetworkId: string;
   /**
   * The UUID of the share's base snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_share#snapshot_id DataVkcsSharedfilesystemShare#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_share#snapshot_id DataVkcsSharedfilesystemShare#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * A share status filter. A valid value is `creating`, `error`, `available`, `deleting`, `error_deleting`, `manage_starting`, `manage_error`, `unmanage_starting`, `unmanage_error`, `unmanaged`, `extending`, `extending_error`, `shrinking`, `shrinking_error`, or `shrinking_possible_data_loss_error`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_share#status DataVkcsSharedfilesystemShare#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_share#status DataVkcsSharedfilesystemShare#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_share vkcs_sharedfilesystem_share}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_share vkcs_sharedfilesystem_share}
 */
 export class DataVkcsSharedfilesystemShare extends cdktf.TerraformDataSource {
 
@@ -68,7 +68,7 @@ export class DataVkcsSharedfilesystemShare extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsSharedfilesystemShare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsSharedfilesystemShare to import
-  * @param importFromId The id of the existing DataVkcsSharedfilesystemShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_share#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsSharedfilesystemShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_share#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsSharedfilesystemShare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class DataVkcsSharedfilesystemShare extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/sharedfilesystem_share vkcs_sharedfilesystem_share} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/sharedfilesystem_share vkcs_sharedfilesystem_share} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class DataVkcsSharedfilesystemShare extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_sharedfilesystem_share',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

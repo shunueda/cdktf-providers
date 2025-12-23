@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_security_policy_templates
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_security_policy_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVkcsKubernetesSecurityPolicyTemplatesConfig extends cdktf.T
   /**
   * The region in which to obtain the service client. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_security_policy_templates#region DataVkcsKubernetesSecurityPolicyTemplates#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_security_policy_templates#region DataVkcsKubernetesSecurityPolicyTemplates#region}
   */
   readonly region?: string;
 }
@@ -121,7 +121,7 @@ export class DataVkcsKubernetesSecurityPolicyTemplatesSecurityPolicyTemplatesLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_security_policy_templates vkcs_kubernetes_security_policy_templates}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_security_policy_templates vkcs_kubernetes_security_policy_templates}
 */
 export class DataVkcsKubernetesSecurityPolicyTemplates extends cdktf.TerraformDataSource {
 
@@ -137,7 +137,7 @@ export class DataVkcsKubernetesSecurityPolicyTemplates extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataVkcsKubernetesSecurityPolicyTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsKubernetesSecurityPolicyTemplates to import
-  * @param importFromId The id of the existing DataVkcsKubernetesSecurityPolicyTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_security_policy_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsKubernetesSecurityPolicyTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_security_policy_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsKubernetesSecurityPolicyTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class DataVkcsKubernetesSecurityPolicyTemplates extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_security_policy_templates vkcs_kubernetes_security_policy_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_security_policy_templates vkcs_kubernetes_security_policy_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class DataVkcsKubernetesSecurityPolicyTemplates extends cdktf.TerraformDa
       terraformResourceType: 'vkcs_kubernetes_security_policy_templates',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

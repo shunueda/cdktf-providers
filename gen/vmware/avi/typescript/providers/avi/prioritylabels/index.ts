@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface PrioritylabelsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#cloud_ref Prioritylabels#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#cloud_ref Prioritylabels#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#description Prioritylabels#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#description Prioritylabels#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#id Prioritylabels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#id Prioritylabels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#name Prioritylabels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#name Prioritylabels#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#tenant_ref Prioritylabels#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#tenant_ref Prioritylabels#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#uuid Prioritylabels#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#uuid Prioritylabels#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#configpb_attributes Prioritylabels#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#configpb_attributes Prioritylabels#configpb_attributes}
   */
   readonly configpbAttributes?: PrioritylabelsConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * equivalent_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#equivalent_labels Prioritylabels#equivalent_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#equivalent_labels Prioritylabels#equivalent_labels}
   */
   readonly equivalentLabels?: PrioritylabelsEquivalentLabels[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#markers Prioritylabels#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#markers Prioritylabels#markers}
   */
   readonly markers?: PrioritylabelsMarkers[] | cdktf.IResolvable;
 }
 export interface PrioritylabelsConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#version Prioritylabels#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#version Prioritylabels#version}
   */
   readonly version?: string;
 }
@@ -171,7 +171,7 @@ export class PrioritylabelsConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface PrioritylabelsEquivalentLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#labels Prioritylabels#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#labels Prioritylabels#labels}
   */
   readonly labels?: string[];
 }
@@ -287,11 +287,11 @@ export class PrioritylabelsEquivalentLabelsList extends cdktf.ComplexList {
 }
 export interface PrioritylabelsMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#key Prioritylabels#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#key Prioritylabels#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#values Prioritylabels#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#values Prioritylabels#values}
   */
   readonly values?: string[];
 }
@@ -433,7 +433,7 @@ export class PrioritylabelsMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels avi_prioritylabels}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels avi_prioritylabels}
 */
 export class Prioritylabels extends cdktf.TerraformResource {
 
@@ -449,7 +449,7 @@ export class Prioritylabels extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Prioritylabels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Prioritylabels to import
-  * @param importFromId The id of the existing Prioritylabels that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Prioritylabels that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Prioritylabels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -461,7 +461,7 @@ export class Prioritylabels extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/prioritylabels avi_prioritylabels} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/prioritylabels avi_prioritylabels} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -472,8 +472,8 @@ export class Prioritylabels extends cdktf.TerraformResource {
       terraformResourceType: 'avi_prioritylabels',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

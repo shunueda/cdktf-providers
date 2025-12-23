@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface SpokeHaGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Availability domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#availability_domain SpokeHaGateway#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#availability_domain SpokeHaGateway#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
   * The name of the public IP address and its resource group in Azure to assign to this Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#azure_eip_name_resource_group SpokeHaGateway#azure_eip_name_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#azure_eip_name_resource_group SpokeHaGateway#azure_eip_name_resource_group}
   */
   readonly azureEipNameResourceGroup?: string;
   /**
   * If set, the specified EIP is used for this gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#eip SpokeHaGateway#eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#eip SpokeHaGateway#eip}
   */
   readonly eip?: string;
   /**
   * Fault domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#fault_domain SpokeHaGateway#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#fault_domain SpokeHaGateway#fault_domain}
   */
   readonly faultDomain?: string;
   /**
   * Name of the HA gateway which is going to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#gw_name SpokeHaGateway#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#gw_name SpokeHaGateway#gw_name}
   */
   readonly gwName?: string;
   /**
   * Size of the gateway instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#gw_size SpokeHaGateway#gw_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#gw_size SpokeHaGateway#gw_size}
   */
   readonly gwSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#id SpokeHaGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#id SpokeHaGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,37 +53,43 @@ export interface SpokeHaGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable Insane Mode for Spoke Gateway. Valid values: true, false. Supported for AWS/AWSGov, GCP, Azure and OCI. If insane mode is enabled, gateway size has to at least be c5 size for AWS and Standard_D3_v2 size for Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#insane_mode SpokeHaGateway#insane_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#insane_mode SpokeHaGateway#insane_mode}
   */
   readonly insaneMode?: boolean | cdktf.IResolvable;
   /**
   * AZ of subnet being created for Insane Mode Spoke Gateway. Required if insane_mode is enabled for AWS cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#insane_mode_az SpokeHaGateway#insane_mode_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#insane_mode_az SpokeHaGateway#insane_mode_az}
   */
   readonly insaneModeAz?: string;
   /**
   * Name of the primary gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#primary_gw_name SpokeHaGateway#primary_gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#primary_gw_name SpokeHaGateway#primary_gw_name}
   */
   readonly primaryGwName: string;
   /**
+  * Set to true if this feature is desired.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#single_az_ha SpokeHaGateway#single_az_ha}
+  */
+  readonly singleAzHa?: boolean | cdktf.IResolvable;
+  /**
   * Public Subnet Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#subnet SpokeHaGateway#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#subnet SpokeHaGateway#subnet}
   */
   readonly subnet: string;
   /**
   * Availability Zone. Required for GCP gateway, example: 'us-west1-c'. Optional for Azure / Azure GOV / Azure CHINA gateway in the form 'az-n', example: 'az-2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#zone SpokeHaGateway#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#zone SpokeHaGateway#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway aviatrix_spoke_ha_gateway}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway aviatrix_spoke_ha_gateway}
 */
 export class SpokeHaGateway extends cdktf.TerraformResource {
 
@@ -99,7 +105,7 @@ export class SpokeHaGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SpokeHaGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SpokeHaGateway to import
-  * @param importFromId The id of the existing SpokeHaGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SpokeHaGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SpokeHaGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +117,7 @@ export class SpokeHaGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_ha_gateway aviatrix_spoke_ha_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_ha_gateway aviatrix_spoke_ha_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +128,8 @@ export class SpokeHaGateway extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_spoke_ha_gateway',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -143,6 +149,7 @@ export class SpokeHaGateway extends cdktf.TerraformResource {
     this._insaneMode = config.insaneMode;
     this._insaneModeAz = config.insaneModeAz;
     this._primaryGwName = config.primaryGwName;
+    this._singleAzHa = config.singleAzHa;
     this._subnet = config.subnet;
     this._zone = config.zone;
   }
@@ -343,6 +350,22 @@ export class SpokeHaGateway extends cdktf.TerraformResource {
     return this.getStringAttribute('security_group_id');
   }
 
+  // single_az_ha - computed: false, optional: true, required: false
+  private _singleAzHa?: boolean | cdktf.IResolvable; 
+  public get singleAzHa() {
+    return this.getBooleanAttribute('single_az_ha');
+  }
+  public set singleAzHa(value: boolean | cdktf.IResolvable) {
+    this._singleAzHa = value;
+  }
+  public resetSingleAzHa() {
+    this._singleAzHa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get singleAzHaInput() {
+    return this._singleAzHa;
+  }
+
   // software_version - computed: true, optional: false, required: false
   public get softwareVersion() {
     return this.getStringAttribute('software_version');
@@ -398,6 +421,7 @@ export class SpokeHaGateway extends cdktf.TerraformResource {
       insane_mode: cdktf.booleanToTerraform(this._insaneMode),
       insane_mode_az: cdktf.stringToTerraform(this._insaneModeAz),
       primary_gw_name: cdktf.stringToTerraform(this._primaryGwName),
+      single_az_ha: cdktf.booleanToTerraform(this._singleAzHa),
       subnet: cdktf.stringToTerraform(this._subnet),
       zone: cdktf.stringToTerraform(this._zone),
     };
@@ -464,6 +488,12 @@ export class SpokeHaGateway extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      single_az_ha: {
+        value: cdktf.booleanToHclTerraform(this._singleAzHa),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       subnet: {
         value: cdktf.stringToHclTerraform(this._subnet),

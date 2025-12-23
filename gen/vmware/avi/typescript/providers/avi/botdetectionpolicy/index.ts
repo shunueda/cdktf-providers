@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface BotdetectionpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#description Botdetectionpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#description Botdetectionpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#id Botdetectionpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#id Botdetectionpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#name Botdetectionpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#name Botdetectionpolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#system_bot_mapping_ref Botdetectionpolicy#system_bot_mapping_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#system_bot_mapping_ref Botdetectionpolicy#system_bot_mapping_ref}
   */
   readonly systemBotMappingRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#system_consolidator_ref Botdetectionpolicy#system_consolidator_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#system_consolidator_ref Botdetectionpolicy#system_consolidator_ref}
   */
   readonly systemConsolidatorRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#tenant_ref Botdetectionpolicy#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#tenant_ref Botdetectionpolicy#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#user_bot_mapping_ref Botdetectionpolicy#user_bot_mapping_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#user_bot_mapping_ref Botdetectionpolicy#user_bot_mapping_ref}
   */
   readonly userBotMappingRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#user_consolidator_ref Botdetectionpolicy#user_consolidator_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#user_consolidator_ref Botdetectionpolicy#user_consolidator_ref}
   */
   readonly userConsolidatorRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#uuid Botdetectionpolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#uuid Botdetectionpolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * allow_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#allow_list Botdetectionpolicy#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#allow_list Botdetectionpolicy#allow_list}
   */
   readonly allowList?: BotdetectionpolicyAllowListStruct[] | cdktf.IResolvable;
   /**
   * client_behavior_detector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#client_behavior_detector Botdetectionpolicy#client_behavior_detector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#client_behavior_detector Botdetectionpolicy#client_behavior_detector}
   */
   readonly clientBehaviorDetector?: BotdetectionpolicyClientBehaviorDetector[] | cdktf.IResolvable;
   /**
+  * configpb_attributes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#configpb_attributes Botdetectionpolicy#configpb_attributes}
+  */
+  readonly configpbAttributes?: BotdetectionpolicyConfigpbAttributes[] | cdktf.IResolvable;
+  /**
   * ip_location_detector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#ip_location_detector Botdetectionpolicy#ip_location_detector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#ip_location_detector Botdetectionpolicy#ip_location_detector}
   */
   readonly ipLocationDetector: BotdetectionpolicyIpLocationDetector[] | cdktf.IResolvable;
   /**
   * ip_reputation_detector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#ip_reputation_detector Botdetectionpolicy#ip_reputation_detector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#ip_reputation_detector Botdetectionpolicy#ip_reputation_detector}
   */
   readonly ipReputationDetector: BotdetectionpolicyIpReputationDetector[] | cdktf.IResolvable;
   /**
   * user_agent_detector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#user_agent_detector Botdetectionpolicy#user_agent_detector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#user_agent_detector Botdetectionpolicy#user_agent_detector}
   */
   readonly userAgentDetector: BotdetectionpolicyUserAgentDetector[] | cdktf.IResolvable;
 }
 export interface BotdetectionpolicyAllowListRulesConditionBotDetectionResultClassifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#user_defined_type Botdetectionpolicy#user_defined_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#user_defined_type Botdetectionpolicy#user_defined_type}
   */
   readonly userDefinedType?: string;
 }
@@ -225,13 +231,13 @@ export class BotdetectionpolicyAllowListRulesConditionBotDetectionResultClassifi
 }
 export interface BotdetectionpolicyAllowListRulesConditionBotDetectionResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_operation Botdetectionpolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_operation Botdetectionpolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
   * classifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#classifications Botdetectionpolicy#classifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#classifications Botdetectionpolicy#classifications}
   */
   readonly classifications?: BotdetectionpolicyAllowListRulesConditionBotDetectionResultClassifications[] | cdktf.IResolvable;
 }
@@ -373,11 +379,11 @@ export class BotdetectionpolicyAllowListRulesConditionBotDetectionResultList ext
 }
 export interface BotdetectionpolicyAllowListRulesConditionClientIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
   */
   readonly type: string;
 }
@@ -516,11 +522,11 @@ export class BotdetectionpolicyAllowListRulesConditionClientIpAddrsList extends 
 }
 export interface BotdetectionpolicyAllowListRulesConditionClientIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
   */
   readonly type: string;
 }
@@ -659,13 +665,13 @@ export class BotdetectionpolicyAllowListRulesConditionClientIpPrefixesIpAddrList
 }
 export interface BotdetectionpolicyAllowListRulesConditionClientIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#mask Botdetectionpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#mask Botdetectionpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#ip_addr Botdetectionpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#ip_addr Botdetectionpolicy#ip_addr}
   */
   readonly ipAddr: BotdetectionpolicyAllowListRulesConditionClientIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -804,11 +810,11 @@ export class BotdetectionpolicyAllowListRulesConditionClientIpPrefixesList exten
 }
 export interface BotdetectionpolicyAllowListRulesConditionClientIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
   */
   readonly type: string;
 }
@@ -947,11 +953,11 @@ export class BotdetectionpolicyAllowListRulesConditionClientIpRangesBeginList ex
 }
 export interface BotdetectionpolicyAllowListRulesConditionClientIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
   */
   readonly type: string;
 }
@@ -1092,13 +1098,13 @@ export interface BotdetectionpolicyAllowListRulesConditionClientIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#begin Botdetectionpolicy#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#begin Botdetectionpolicy#begin}
   */
   readonly begin: BotdetectionpolicyAllowListRulesConditionClientIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#end Botdetectionpolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#end Botdetectionpolicy#end}
   */
   readonly end: BotdetectionpolicyAllowListRulesConditionClientIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -1237,29 +1243,29 @@ export class BotdetectionpolicyAllowListRulesConditionClientIpRangesList extends
 }
 export interface BotdetectionpolicyAllowListRulesConditionClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#group_refs Botdetectionpolicy#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#group_refs Botdetectionpolicy#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#addrs Botdetectionpolicy#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#addrs Botdetectionpolicy#addrs}
   */
   readonly addrs?: BotdetectionpolicyAllowListRulesConditionClientIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#prefixes Botdetectionpolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#prefixes Botdetectionpolicy#prefixes}
   */
   readonly prefixes?: BotdetectionpolicyAllowListRulesConditionClientIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#ranges Botdetectionpolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#ranges Botdetectionpolicy#ranges}
   */
   readonly ranges?: BotdetectionpolicyAllowListRulesConditionClientIpRanges[] | cdktf.IResolvable;
 }
@@ -1488,19 +1494,19 @@ export class BotdetectionpolicyAllowListRulesConditionClientIpList extends cdktf
 }
 export interface BotdetectionpolicyAllowListRulesConditionCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_case Botdetectionpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_case Botdetectionpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#name Botdetectionpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#name Botdetectionpolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#value Botdetectionpolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#value Botdetectionpolicy#value}
   */
   readonly value?: string;
 }
@@ -1697,15 +1703,15 @@ export class BotdetectionpolicyAllowListRulesConditionCookieList extends cdktf.C
 }
 export interface BotdetectionpolicyAllowListRulesConditionGeoMatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#attribute Botdetectionpolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#attribute Botdetectionpolicy#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_operation Botdetectionpolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_operation Botdetectionpolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#values Botdetectionpolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#values Botdetectionpolicy#values}
   */
   readonly values: string[];
 }
@@ -1870,19 +1876,23 @@ export class BotdetectionpolicyAllowListRulesConditionGeoMatchesList extends cdk
 }
 export interface BotdetectionpolicyAllowListRulesConditionHdrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#hdr Botdetectionpolicy#hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#hdr Botdetectionpolicy#hdr}
   */
   readonly hdr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_case Botdetectionpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_case Botdetectionpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#value Botdetectionpolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#string_group_refs Botdetectionpolicy#string_group_refs}
+  */
+  readonly stringGroupRefs?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#value Botdetectionpolicy#value}
   */
   readonly value?: string[];
 }
@@ -1896,6 +1906,7 @@ export function botdetectionpolicyAllowListRulesConditionHdrsToTerraform(struct?
     hdr: cdktf.stringToTerraform(struct!.hdr),
     match_case: cdktf.stringToTerraform(struct!.matchCase),
     match_criteria: cdktf.stringToTerraform(struct!.matchCriteria),
+    string_group_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.stringGroupRefs),
     value: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.value),
   }
 }
@@ -1924,6 +1935,12 @@ export function botdetectionpolicyAllowListRulesConditionHdrsToHclTerraform(stru
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    string_group_refs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.stringGroupRefs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
     },
     value: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.value),
@@ -1969,6 +1986,10 @@ export class BotdetectionpolicyAllowListRulesConditionHdrsOutputReference extend
       hasAnyValues = true;
       internalValueResult.matchCriteria = this._matchCriteria;
     }
+    if (this._stringGroupRefs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stringGroupRefs = this._stringGroupRefs;
+    }
     if (this._value !== undefined) {
       hasAnyValues = true;
       internalValueResult.value = this._value;
@@ -1983,6 +2004,7 @@ export class BotdetectionpolicyAllowListRulesConditionHdrsOutputReference extend
       this._hdr = undefined;
       this._matchCase = undefined;
       this._matchCriteria = undefined;
+      this._stringGroupRefs = undefined;
       this._value = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -1995,6 +2017,7 @@ export class BotdetectionpolicyAllowListRulesConditionHdrsOutputReference extend
       this._hdr = value.hdr;
       this._matchCase = value.matchCase;
       this._matchCriteria = value.matchCriteria;
+      this._stringGroupRefs = value.stringGroupRefs;
       this._value = value.value;
     }
   }
@@ -2041,6 +2064,22 @@ export class BotdetectionpolicyAllowListRulesConditionHdrsOutputReference extend
     return this._matchCriteria;
   }
 
+  // string_group_refs - computed: false, optional: true, required: false
+  private _stringGroupRefs?: string[]; 
+  public get stringGroupRefs() {
+    return this.getListAttribute('string_group_refs');
+  }
+  public set stringGroupRefs(value: string[]) {
+    this._stringGroupRefs = value;
+  }
+  public resetStringGroupRefs() {
+    this._stringGroupRefs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stringGroupRefsInput() {
+    return this._stringGroupRefs;
+  }
+
   // value - computed: false, optional: true, required: false
   private _value?: string[]; 
   public get value() {
@@ -2079,15 +2118,15 @@ export class BotdetectionpolicyAllowListRulesConditionHdrsList extends cdktf.Com
 }
 export interface BotdetectionpolicyAllowListRulesConditionHostHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_case Botdetectionpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_case Botdetectionpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#value Botdetectionpolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#value Botdetectionpolicy#value}
   */
   readonly value?: string[];
 }
@@ -2258,11 +2297,11 @@ export class BotdetectionpolicyAllowListRulesConditionHostHdrList extends cdktf.
 }
 export interface BotdetectionpolicyAllowListRulesConditionIpReputationType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_operation Botdetectionpolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_operation Botdetectionpolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#reputation_types Botdetectionpolicy#reputation_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#reputation_types Botdetectionpolicy#reputation_types}
   */
   readonly reputationTypes: string[];
 }
@@ -2401,11 +2440,11 @@ export class BotdetectionpolicyAllowListRulesConditionIpReputationTypeList exten
 }
 export interface BotdetectionpolicyAllowListRulesConditionMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#methods Botdetectionpolicy#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#methods Botdetectionpolicy#methods}
   */
   readonly methods: string[];
 }
@@ -2544,23 +2583,23 @@ export class BotdetectionpolicyAllowListRulesConditionMethodList extends cdktf.C
 }
 export interface BotdetectionpolicyAllowListRulesConditionPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_case Botdetectionpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_case Botdetectionpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_decoded_string Botdetectionpolicy#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_decoded_string Botdetectionpolicy#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_str Botdetectionpolicy#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_str Botdetectionpolicy#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#string_group_refs Botdetectionpolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#string_group_refs Botdetectionpolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -2789,11 +2828,11 @@ export class BotdetectionpolicyAllowListRulesConditionPathList extends cdktf.Com
 }
 export interface BotdetectionpolicyAllowListRulesConditionProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#protocols Botdetectionpolicy#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#protocols Botdetectionpolicy#protocols}
   */
   readonly protocols: string;
 }
@@ -2932,23 +2971,23 @@ export class BotdetectionpolicyAllowListRulesConditionProtocolList extends cdktf
 }
 export interface BotdetectionpolicyAllowListRulesConditionQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_case Botdetectionpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_case Botdetectionpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_decoded_string Botdetectionpolicy#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_decoded_string Botdetectionpolicy#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_str Botdetectionpolicy#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_str Botdetectionpolicy#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#string_group_refs Botdetectionpolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#string_group_refs Botdetectionpolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -3177,11 +3216,11 @@ export class BotdetectionpolicyAllowListRulesConditionQueryList extends cdktf.Co
 }
 export interface BotdetectionpolicyAllowListRulesConditionSourceIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
   */
   readonly type: string;
 }
@@ -3320,11 +3359,11 @@ export class BotdetectionpolicyAllowListRulesConditionSourceIpAddrsList extends 
 }
 export interface BotdetectionpolicyAllowListRulesConditionSourceIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
   */
   readonly type: string;
 }
@@ -3463,13 +3502,13 @@ export class BotdetectionpolicyAllowListRulesConditionSourceIpPrefixesIpAddrList
 }
 export interface BotdetectionpolicyAllowListRulesConditionSourceIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#mask Botdetectionpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#mask Botdetectionpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#ip_addr Botdetectionpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#ip_addr Botdetectionpolicy#ip_addr}
   */
   readonly ipAddr: BotdetectionpolicyAllowListRulesConditionSourceIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -3608,11 +3647,11 @@ export class BotdetectionpolicyAllowListRulesConditionSourceIpPrefixesList exten
 }
 export interface BotdetectionpolicyAllowListRulesConditionSourceIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
   */
   readonly type: string;
 }
@@ -3751,11 +3790,11 @@ export class BotdetectionpolicyAllowListRulesConditionSourceIpRangesBeginList ex
 }
 export interface BotdetectionpolicyAllowListRulesConditionSourceIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#addr Botdetectionpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#type Botdetectionpolicy#type}
   */
   readonly type: string;
 }
@@ -3896,13 +3935,13 @@ export interface BotdetectionpolicyAllowListRulesConditionSourceIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#begin Botdetectionpolicy#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#begin Botdetectionpolicy#begin}
   */
   readonly begin: BotdetectionpolicyAllowListRulesConditionSourceIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#end Botdetectionpolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#end Botdetectionpolicy#end}
   */
   readonly end: BotdetectionpolicyAllowListRulesConditionSourceIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -4041,29 +4080,29 @@ export class BotdetectionpolicyAllowListRulesConditionSourceIpRangesList extends
 }
 export interface BotdetectionpolicyAllowListRulesConditionSourceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#group_refs Botdetectionpolicy#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#group_refs Botdetectionpolicy#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#addrs Botdetectionpolicy#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#addrs Botdetectionpolicy#addrs}
   */
   readonly addrs?: BotdetectionpolicyAllowListRulesConditionSourceIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#prefixes Botdetectionpolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#prefixes Botdetectionpolicy#prefixes}
   */
   readonly prefixes?: BotdetectionpolicyAllowListRulesConditionSourceIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#ranges Botdetectionpolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#ranges Botdetectionpolicy#ranges}
   */
   readonly ranges?: BotdetectionpolicyAllowListRulesConditionSourceIpRanges[] | cdktf.IResolvable;
 }
@@ -4292,15 +4331,15 @@ export class BotdetectionpolicyAllowListRulesConditionSourceIpList extends cdktf
 }
 export interface BotdetectionpolicyAllowListRulesConditionTlsFingerprintMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#fingerprints Botdetectionpolicy#fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#fingerprints Botdetectionpolicy#fingerprints}
   */
   readonly fingerprints?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_operation Botdetectionpolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_operation Botdetectionpolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#string_group_refs Botdetectionpolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#string_group_refs Botdetectionpolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -4471,11 +4510,11 @@ export class BotdetectionpolicyAllowListRulesConditionTlsFingerprintMatchList ex
 }
 export interface BotdetectionpolicyAllowListRulesConditionVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#versions Botdetectionpolicy#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#versions Botdetectionpolicy#versions}
   */
   readonly versions: string[];
 }
@@ -4614,11 +4653,11 @@ export class BotdetectionpolicyAllowListRulesConditionVersionList extends cdktf.
 }
 export interface BotdetectionpolicyAllowListRulesConditionVsPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#match_criteria Botdetectionpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#ports Botdetectionpolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#ports Botdetectionpolicy#ports}
   */
   readonly ports: number[];
 }
@@ -4759,91 +4798,91 @@ export interface BotdetectionpolicyAllowListRulesCondition {
   /**
   * bot_detection_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#bot_detection_result Botdetectionpolicy#bot_detection_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#bot_detection_result Botdetectionpolicy#bot_detection_result}
   */
   readonly botDetectionResult?: BotdetectionpolicyAllowListRulesConditionBotDetectionResult[] | cdktf.IResolvable;
   /**
   * client_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#client_ip Botdetectionpolicy#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#client_ip Botdetectionpolicy#client_ip}
   */
   readonly clientIp?: BotdetectionpolicyAllowListRulesConditionClientIp[] | cdktf.IResolvable;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#cookie Botdetectionpolicy#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#cookie Botdetectionpolicy#cookie}
   */
   readonly cookie?: BotdetectionpolicyAllowListRulesConditionCookie[] | cdktf.IResolvable;
   /**
   * geo_matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#geo_matches Botdetectionpolicy#geo_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#geo_matches Botdetectionpolicy#geo_matches}
   */
   readonly geoMatches?: BotdetectionpolicyAllowListRulesConditionGeoMatches[] | cdktf.IResolvable;
   /**
   * hdrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#hdrs Botdetectionpolicy#hdrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#hdrs Botdetectionpolicy#hdrs}
   */
   readonly hdrs?: BotdetectionpolicyAllowListRulesConditionHdrs[] | cdktf.IResolvable;
   /**
   * host_hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#host_hdr Botdetectionpolicy#host_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#host_hdr Botdetectionpolicy#host_hdr}
   */
   readonly hostHdr?: BotdetectionpolicyAllowListRulesConditionHostHdr[] | cdktf.IResolvable;
   /**
   * ip_reputation_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#ip_reputation_type Botdetectionpolicy#ip_reputation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#ip_reputation_type Botdetectionpolicy#ip_reputation_type}
   */
   readonly ipReputationType?: BotdetectionpolicyAllowListRulesConditionIpReputationType[] | cdktf.IResolvable;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#method Botdetectionpolicy#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#method Botdetectionpolicy#method}
   */
   readonly method?: BotdetectionpolicyAllowListRulesConditionMethod[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#path Botdetectionpolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#path Botdetectionpolicy#path}
   */
   readonly path?: BotdetectionpolicyAllowListRulesConditionPath[] | cdktf.IResolvable;
   /**
   * protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#protocol Botdetectionpolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#protocol Botdetectionpolicy#protocol}
   */
   readonly protocol?: BotdetectionpolicyAllowListRulesConditionProtocol[] | cdktf.IResolvable;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#query Botdetectionpolicy#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#query Botdetectionpolicy#query}
   */
   readonly query?: BotdetectionpolicyAllowListRulesConditionQuery[] | cdktf.IResolvable;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#source_ip Botdetectionpolicy#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#source_ip Botdetectionpolicy#source_ip}
   */
   readonly sourceIp?: BotdetectionpolicyAllowListRulesConditionSourceIp[] | cdktf.IResolvable;
   /**
   * tls_fingerprint_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#tls_fingerprint_match Botdetectionpolicy#tls_fingerprint_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#tls_fingerprint_match Botdetectionpolicy#tls_fingerprint_match}
   */
   readonly tlsFingerprintMatch?: BotdetectionpolicyAllowListRulesConditionTlsFingerprintMatch[] | cdktf.IResolvable;
   /**
   * version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#version Botdetectionpolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#version Botdetectionpolicy#version}
   */
   readonly version?: BotdetectionpolicyAllowListRulesConditionVersion[] | cdktf.IResolvable;
   /**
   * vs_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#vs_port Botdetectionpolicy#vs_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#vs_port Botdetectionpolicy#vs_port}
   */
   readonly vsPort?: BotdetectionpolicyAllowListRulesConditionVsPort[] | cdktf.IResolvable;
 }
@@ -5365,21 +5404,21 @@ export class BotdetectionpolicyAllowListRulesConditionList extends cdktf.Complex
 }
 export interface BotdetectionpolicyAllowListRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#action Botdetectionpolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#action Botdetectionpolicy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#index Botdetectionpolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#index Botdetectionpolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#name Botdetectionpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#name Botdetectionpolicy#name}
   */
   readonly name?: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#condition Botdetectionpolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#condition Botdetectionpolicy#condition}
   */
   readonly condition: BotdetectionpolicyAllowListRulesCondition[] | cdktf.IResolvable;
 }
@@ -5575,7 +5614,7 @@ export interface BotdetectionpolicyAllowListStruct {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#rules Botdetectionpolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#rules Botdetectionpolicy#rules}
   */
   readonly rules?: BotdetectionpolicyAllowListRules[] | cdktf.IResolvable;
 }
@@ -5691,19 +5730,19 @@ export class BotdetectionpolicyAllowListStructList extends cdktf.ComplexList {
 }
 export interface BotdetectionpolicyClientBehaviorDetector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#bad_request_percent Botdetectionpolicy#bad_request_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#bad_request_percent Botdetectionpolicy#bad_request_percent}
   */
   readonly badRequestPercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#enabled Botdetectionpolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#enabled Botdetectionpolicy#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#minimum_requests Botdetectionpolicy#minimum_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#minimum_requests Botdetectionpolicy#minimum_requests}
   */
   readonly minimumRequests?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#minimum_requests_with_referer Botdetectionpolicy#minimum_requests_with_referer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#minimum_requests_with_referer Botdetectionpolicy#minimum_requests_with_referer}
   */
   readonly minimumRequestsWithReferer?: string;
 }
@@ -5904,21 +5943,137 @@ export class BotdetectionpolicyClientBehaviorDetectorList extends cdktf.ComplexL
     return new BotdetectionpolicyClientBehaviorDetectorOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface BotdetectionpolicyConfigpbAttributes {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#version Botdetectionpolicy#version}
+  */
+  readonly version?: string;
+}
+
+export function botdetectionpolicyConfigpbAttributesToTerraform(struct?: BotdetectionpolicyConfigpbAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    version: cdktf.stringToTerraform(struct!.version),
+  }
+}
+
+
+export function botdetectionpolicyConfigpbAttributesToHclTerraform(struct?: BotdetectionpolicyConfigpbAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    version: {
+      value: cdktf.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BotdetectionpolicyConfigpbAttributesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BotdetectionpolicyConfigpbAttributes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BotdetectionpolicyConfigpbAttributes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._version = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._version = value.version;
+    }
+  }
+
+  // version - computed: true, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+
+export class BotdetectionpolicyConfigpbAttributesList extends cdktf.ComplexList {
+  public internalValue? : BotdetectionpolicyConfigpbAttributes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BotdetectionpolicyConfigpbAttributesOutputReference {
+    return new BotdetectionpolicyConfigpbAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface BotdetectionpolicyIpLocationDetector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#enabled Botdetectionpolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#enabled Botdetectionpolicy#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#ip_location_db_ref Botdetectionpolicy#ip_location_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#ip_location_db_ref Botdetectionpolicy#ip_location_db_ref}
   */
   readonly ipLocationDbRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#system_cloud_providers_ref Botdetectionpolicy#system_cloud_providers_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#system_cloud_providers_ref Botdetectionpolicy#system_cloud_providers_ref}
   */
   readonly systemCloudProvidersRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#system_search_engines_ref Botdetectionpolicy#system_search_engines_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#system_search_engines_ref Botdetectionpolicy#system_search_engines_ref}
   */
   readonly systemSearchEnginesRef?: string;
 }
@@ -6121,15 +6276,15 @@ export class BotdetectionpolicyIpLocationDetectorList extends cdktf.ComplexList 
 }
 export interface BotdetectionpolicyIpReputationDetector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#enabled Botdetectionpolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#enabled Botdetectionpolicy#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#ip_reputation_db_ref Botdetectionpolicy#ip_reputation_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#ip_reputation_db_ref Botdetectionpolicy#ip_reputation_db_ref}
   */
   readonly ipReputationDbRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#system_ip_reputation_mapping_ref Botdetectionpolicy#system_ip_reputation_mapping_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#system_ip_reputation_mapping_ref Botdetectionpolicy#system_ip_reputation_mapping_ref}
   */
   readonly systemIpReputationMappingRef?: string;
 }
@@ -6303,11 +6458,11 @@ export class BotdetectionpolicyIpReputationDetectorList extends cdktf.ComplexLis
 }
 export interface BotdetectionpolicyUserAgentDetector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#enabled Botdetectionpolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#enabled Botdetectionpolicy#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#use_tls_fingerprint Botdetectionpolicy#use_tls_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#use_tls_fingerprint Botdetectionpolicy#use_tls_fingerprint}
   */
   readonly useTlsFingerprint?: string;
 }
@@ -6452,7 +6607,7 @@ export class BotdetectionpolicyUserAgentDetectorList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy avi_botdetectionpolicy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy avi_botdetectionpolicy}
 */
 export class Botdetectionpolicy extends cdktf.TerraformResource {
 
@@ -6468,7 +6623,7 @@ export class Botdetectionpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Botdetectionpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Botdetectionpolicy to import
-  * @param importFromId The id of the existing Botdetectionpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Botdetectionpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Botdetectionpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6480,7 +6635,7 @@ export class Botdetectionpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botdetectionpolicy avi_botdetectionpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/botdetectionpolicy avi_botdetectionpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6491,8 +6646,8 @@ export class Botdetectionpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'avi_botdetectionpolicy',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -6513,6 +6668,7 @@ export class Botdetectionpolicy extends cdktf.TerraformResource {
     this._uuid = config.uuid;
     this._allowList.internalValue = config.allowList;
     this._clientBehaviorDetector.internalValue = config.clientBehaviorDetector;
+    this._configpbAttributes.internalValue = config.configpbAttributes;
     this._ipLocationDetector.internalValue = config.ipLocationDetector;
     this._ipReputationDetector.internalValue = config.ipReputationDetector;
     this._userAgentDetector.internalValue = config.userAgentDetector;
@@ -6695,6 +6851,22 @@ export class Botdetectionpolicy extends cdktf.TerraformResource {
     return this._clientBehaviorDetector.internalValue;
   }
 
+  // configpb_attributes - computed: false, optional: true, required: false
+  private _configpbAttributes = new BotdetectionpolicyConfigpbAttributesList(this, "configpb_attributes", true);
+  public get configpbAttributes() {
+    return this._configpbAttributes;
+  }
+  public putConfigpbAttributes(value: BotdetectionpolicyConfigpbAttributes[] | cdktf.IResolvable) {
+    this._configpbAttributes.internalValue = value;
+  }
+  public resetConfigpbAttributes() {
+    this._configpbAttributes.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configpbAttributesInput() {
+    return this._configpbAttributes.internalValue;
+  }
+
   // ip_location_detector - computed: false, optional: false, required: true
   private _ipLocationDetector = new BotdetectionpolicyIpLocationDetectorList(this, "ip_location_detector", true);
   public get ipLocationDetector() {
@@ -6751,6 +6923,7 @@ export class Botdetectionpolicy extends cdktf.TerraformResource {
       uuid: cdktf.stringToTerraform(this._uuid),
       allow_list: cdktf.listMapper(botdetectionpolicyAllowListStructToTerraform, true)(this._allowList.internalValue),
       client_behavior_detector: cdktf.listMapper(botdetectionpolicyClientBehaviorDetectorToTerraform, true)(this._clientBehaviorDetector.internalValue),
+      configpb_attributes: cdktf.listMapper(botdetectionpolicyConfigpbAttributesToTerraform, true)(this._configpbAttributes.internalValue),
       ip_location_detector: cdktf.listMapper(botdetectionpolicyIpLocationDetectorToTerraform, true)(this._ipLocationDetector.internalValue),
       ip_reputation_detector: cdktf.listMapper(botdetectionpolicyIpReputationDetectorToTerraform, true)(this._ipReputationDetector.internalValue),
       user_agent_detector: cdktf.listMapper(botdetectionpolicyUserAgentDetectorToTerraform, true)(this._userAgentDetector.internalValue),
@@ -6824,6 +6997,12 @@ export class Botdetectionpolicy extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "BotdetectionpolicyClientBehaviorDetectorList",
+      },
+      configpb_attributes: {
+        value: cdktf.listMapperHcl(botdetectionpolicyConfigpbAttributesToHclTerraform, true)(this._configpbAttributes.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "BotdetectionpolicyConfigpbAttributesList",
       },
       ip_location_detector: {
         value: cdktf.listMapperHcl(botdetectionpolicyIpLocationDetectorToHclTerraform, true)(this._ipLocationDetector.internalValue),

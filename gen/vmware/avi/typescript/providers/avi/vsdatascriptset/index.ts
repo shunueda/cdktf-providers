@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,112 @@ import * as cdktf from 'cdktf';
 
 export interface VsdatascriptsetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#created_by Vsdatascriptset#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#created_by Vsdatascriptset#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#description Vsdatascriptset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#description Vsdatascriptset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#geo_db_ref Vsdatascriptset#geo_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#geo_db_ref Vsdatascriptset#geo_db_ref}
   */
   readonly geoDbRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#id Vsdatascriptset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#id Vsdatascriptset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#ip_reputation_db_ref Vsdatascriptset#ip_reputation_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#ip_reputation_db_ref Vsdatascriptset#ip_reputation_db_ref}
   */
   readonly ipReputationDbRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#ipgroup_refs Vsdatascriptset#ipgroup_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#ipgroup_refs Vsdatascriptset#ipgroup_refs}
   */
   readonly ipgroupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#name Vsdatascriptset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#name Vsdatascriptset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#pki_profile_refs Vsdatascriptset#pki_profile_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#pki_profile_refs Vsdatascriptset#pki_profile_refs}
   */
   readonly pkiProfileRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#pool_group_refs Vsdatascriptset#pool_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#pool_group_refs Vsdatascriptset#pool_group_refs}
   */
   readonly poolGroupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#pool_refs Vsdatascriptset#pool_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#pool_refs Vsdatascriptset#pool_refs}
   */
   readonly poolRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#protocol_parser_refs Vsdatascriptset#protocol_parser_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#protocol_parser_refs Vsdatascriptset#protocol_parser_refs}
   */
   readonly protocolParserRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#ssl_key_certificate_refs Vsdatascriptset#ssl_key_certificate_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#ssl_key_certificate_refs Vsdatascriptset#ssl_key_certificate_refs}
   */
   readonly sslKeyCertificateRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#ssl_profile_refs Vsdatascriptset#ssl_profile_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#ssl_profile_refs Vsdatascriptset#ssl_profile_refs}
   */
   readonly sslProfileRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#string_group_refs Vsdatascriptset#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#string_group_refs Vsdatascriptset#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#tenant_ref Vsdatascriptset#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#tenant_ref Vsdatascriptset#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#uuid Vsdatascriptset#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#uuid Vsdatascriptset#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#configpb_attributes Vsdatascriptset#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#configpb_attributes Vsdatascriptset#configpb_attributes}
   */
   readonly configpbAttributes?: VsdatascriptsetConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * datascript block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#datascript Vsdatascriptset#datascript}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#datascript Vsdatascriptset#datascript}
   */
   readonly datascript?: VsdatascriptsetDatascript[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#markers Vsdatascriptset#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#markers Vsdatascriptset#markers}
   */
   readonly markers?: VsdatascriptsetMarkers[] | cdktf.IResolvable;
   /**
   * rate_limiters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#rate_limiters Vsdatascriptset#rate_limiters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#rate_limiters Vsdatascriptset#rate_limiters}
   */
   readonly rateLimiters?: VsdatascriptsetRateLimiters[] | cdktf.IResolvable;
+  /**
+  * snat_ip6s block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#snat_ip6s Vsdatascriptset#snat_ip6s}
+  */
+  readonly snatIp6S?: VsdatascriptsetSnatIp6S[] | cdktf.IResolvable;
+  /**
+  * snat_ips block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#snat_ips Vsdatascriptset#snat_ips}
+  */
+  readonly snatIps?: VsdatascriptsetSnatIps[] | cdktf.IResolvable;
 }
 export interface VsdatascriptsetConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#version Vsdatascriptset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#version Vsdatascriptset#version}
   */
   readonly version?: string;
 }
@@ -217,11 +229,11 @@ export class VsdatascriptsetConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface VsdatascriptsetDatascript {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#evt Vsdatascriptset#evt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#evt Vsdatascriptset#evt}
   */
   readonly evt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#script Vsdatascriptset#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#script Vsdatascriptset#script}
   */
   readonly script: string;
 }
@@ -360,11 +372,11 @@ export class VsdatascriptsetDatascriptList extends cdktf.ComplexList {
 }
 export interface VsdatascriptsetMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#key Vsdatascriptset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#key Vsdatascriptset#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#values Vsdatascriptset#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#values Vsdatascriptset#values}
   */
   readonly values?: string[];
 }
@@ -506,19 +518,19 @@ export class VsdatascriptsetMarkersList extends cdktf.ComplexList {
 }
 export interface VsdatascriptsetRateLimiters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#burst_sz Vsdatascriptset#burst_sz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#burst_sz Vsdatascriptset#burst_sz}
   */
   readonly burstSz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#count Vsdatascriptset#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#count Vsdatascriptset#count}
   */
   readonly count?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#name Vsdatascriptset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#name Vsdatascriptset#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#period Vsdatascriptset#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#period Vsdatascriptset#period}
   */
   readonly period?: string;
 }
@@ -719,9 +731,295 @@ export class VsdatascriptsetRateLimitersList extends cdktf.ComplexList {
     return new VsdatascriptsetRateLimitersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface VsdatascriptsetSnatIp6S {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#addr Vsdatascriptset#addr}
+  */
+  readonly addr: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#type Vsdatascriptset#type}
+  */
+  readonly type: string;
+}
+
+export function vsdatascriptsetSnatIp6SToTerraform(struct?: VsdatascriptsetSnatIp6S | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function vsdatascriptsetSnatIp6SToHclTerraform(struct?: VsdatascriptsetSnatIp6S | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VsdatascriptsetSnatIp6SOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VsdatascriptsetSnatIp6S | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VsdatascriptsetSnatIp6S | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addr = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addr = value.addr;
+      this._type = value.type;
+    }
+  }
+
+  // addr - computed: false, optional: false, required: true
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class VsdatascriptsetSnatIp6SList extends cdktf.ComplexList {
+  public internalValue? : VsdatascriptsetSnatIp6S[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VsdatascriptsetSnatIp6SOutputReference {
+    return new VsdatascriptsetSnatIp6SOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface VsdatascriptsetSnatIps {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#addr Vsdatascriptset#addr}
+  */
+  readonly addr: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#type Vsdatascriptset#type}
+  */
+  readonly type: string;
+}
+
+export function vsdatascriptsetSnatIpsToTerraform(struct?: VsdatascriptsetSnatIps | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    addr: cdktf.stringToTerraform(struct!.addr),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function vsdatascriptsetSnatIpsToHclTerraform(struct?: VsdatascriptsetSnatIps | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    addr: {
+      value: cdktf.stringToHclTerraform(struct!.addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VsdatascriptsetSnatIpsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VsdatascriptsetSnatIps | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addr = this._addr;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VsdatascriptsetSnatIps | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addr = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addr = value.addr;
+      this._type = value.type;
+    }
+  }
+
+  // addr - computed: false, optional: false, required: true
+  private _addr?: string; 
+  public get addr() {
+    return this.getStringAttribute('addr');
+  }
+  public set addr(value: string) {
+    this._addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addrInput() {
+    return this._addr;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class VsdatascriptsetSnatIpsList extends cdktf.ComplexList {
+  public internalValue? : VsdatascriptsetSnatIps[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VsdatascriptsetSnatIpsOutputReference {
+    return new VsdatascriptsetSnatIpsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset avi_vsdatascriptset}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset avi_vsdatascriptset}
 */
 export class Vsdatascriptset extends cdktf.TerraformResource {
 
@@ -737,7 +1035,7 @@ export class Vsdatascriptset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vsdatascriptset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vsdatascriptset to import
-  * @param importFromId The id of the existing Vsdatascriptset that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vsdatascriptset that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vsdatascriptset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -749,7 +1047,7 @@ export class Vsdatascriptset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/vsdatascriptset avi_vsdatascriptset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/vsdatascriptset avi_vsdatascriptset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -760,8 +1058,8 @@ export class Vsdatascriptset extends cdktf.TerraformResource {
       terraformResourceType: 'avi_vsdatascriptset',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -791,6 +1089,8 @@ export class Vsdatascriptset extends cdktf.TerraformResource {
     this._datascript.internalValue = config.datascript;
     this._markers.internalValue = config.markers;
     this._rateLimiters.internalValue = config.rateLimiters;
+    this._snatIp6S.internalValue = config.snatIp6S;
+    this._snatIps.internalValue = config.snatIps;
   }
 
   // ==========
@@ -1114,6 +1414,38 @@ export class Vsdatascriptset extends cdktf.TerraformResource {
     return this._rateLimiters.internalValue;
   }
 
+  // snat_ip6s - computed: false, optional: true, required: false
+  private _snatIp6S = new VsdatascriptsetSnatIp6SList(this, "snat_ip6s", false);
+  public get snatIp6S() {
+    return this._snatIp6S;
+  }
+  public putSnatIp6S(value: VsdatascriptsetSnatIp6S[] | cdktf.IResolvable) {
+    this._snatIp6S.internalValue = value;
+  }
+  public resetSnatIp6S() {
+    this._snatIp6S.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snatIp6SInput() {
+    return this._snatIp6S.internalValue;
+  }
+
+  // snat_ips - computed: false, optional: true, required: false
+  private _snatIps = new VsdatascriptsetSnatIpsList(this, "snat_ips", false);
+  public get snatIps() {
+    return this._snatIps;
+  }
+  public putSnatIps(value: VsdatascriptsetSnatIps[] | cdktf.IResolvable) {
+    this._snatIps.internalValue = value;
+  }
+  public resetSnatIps() {
+    this._snatIps.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snatIpsInput() {
+    return this._snatIps.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -1140,6 +1472,8 @@ export class Vsdatascriptset extends cdktf.TerraformResource {
       datascript: cdktf.listMapper(vsdatascriptsetDatascriptToTerraform, true)(this._datascript.internalValue),
       markers: cdktf.listMapper(vsdatascriptsetMarkersToTerraform, true)(this._markers.internalValue),
       rate_limiters: cdktf.listMapper(vsdatascriptsetRateLimitersToTerraform, true)(this._rateLimiters.internalValue),
+      snat_ip6s: cdktf.listMapper(vsdatascriptsetSnatIp6SToTerraform, true)(this._snatIp6S.internalValue),
+      snat_ips: cdktf.listMapper(vsdatascriptsetSnatIpsToTerraform, true)(this._snatIps.internalValue),
     };
   }
 
@@ -1264,6 +1598,18 @@ export class Vsdatascriptset extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "VsdatascriptsetRateLimitersList",
+      },
+      snat_ip6s: {
+        value: cdktf.listMapperHcl(vsdatascriptsetSnatIp6SToHclTerraform, true)(this._snatIp6S.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VsdatascriptsetSnatIp6SList",
+      },
+      snat_ips: {
+        value: cdktf.listMapperHcl(vsdatascriptsetSnatIpsToHclTerraform, true)(this._snatIps.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VsdatascriptsetSnatIpsList",
       },
     };
 

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/custom_certificate
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/custom_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface CustomCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The PEM-encoded Certificate Authority (CA).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/custom_certificate#ca CustomCertificate#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/custom_certificate#ca CustomCertificate#ca}
   */
   readonly ca: string;
   /**
   * The PEM-encoded certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/custom_certificate#cert CustomCertificate#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/custom_certificate#cert CustomCertificate#cert}
   */
   readonly cert: string;
   /**
   * The CloudAMQP instance identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/custom_certificate#instance_id CustomCertificate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/custom_certificate#instance_id CustomCertificate#instance_id}
   */
   readonly instanceId: number;
   /**
   * The PEM-encoded private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/custom_certificate#private_key CustomCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/custom_certificate#private_key CustomCertificate#private_key}
   */
   readonly privateKey: string;
   /**
   * A hostname (Server Name Indication) that this certificate applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/custom_certificate#sni_hosts CustomCertificate#sni_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/custom_certificate#sni_hosts CustomCertificate#sni_hosts}
   */
   readonly sniHosts: string;
   /**
   *  An argument to trigger force new (default: 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/custom_certificate#version CustomCertificate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/custom_certificate#version CustomCertificate#version}
   */
   readonly version?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/custom_certificate cloudamqp_custom_certificate}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/custom_certificate cloudamqp_custom_certificate}
 */
 export class CustomCertificate extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class CustomCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomCertificate to import
-  * @param importFromId The id of the existing CustomCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/custom_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/custom_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class CustomCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/custom_certificate cloudamqp_custom_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/custom_certificate cloudamqp_custom_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class CustomCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_custom_certificate',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

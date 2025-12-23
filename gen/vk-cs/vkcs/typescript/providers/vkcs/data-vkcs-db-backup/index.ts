@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_backup
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataVkcsDbBackupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The UUID of the backup. **Deprecated** This argument is deprecated, please, use the `id` attribute instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_backup#backup_id DataVkcsDbBackup#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_backup#backup_id DataVkcsDbBackup#backup_id}
   */
   readonly backupId?: string;
   /**
   * The description of the backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_backup#description DataVkcsDbBackup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_backup#description DataVkcsDbBackup#description}
   */
   readonly description?: string;
   /**
   * The UUID of the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_backup#id DataVkcsDbBackup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_backup#id DataVkcsDbBackup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ export interface DataVkcsDbBackupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The region in which to obtain the service client. If omitted, the `region` argument of the provider is used._new_since_v0.4.0_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_backup#region DataVkcsDbBackup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_backup#region DataVkcsDbBackup#region}
   */
   readonly region?: string;
 }
@@ -39,13 +39,13 @@ export interface DataVkcsDbBackupDatastore {
   /**
   * Type of the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_backup#type DataVkcsDbBackup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_backup#type DataVkcsDbBackup#type}
   */
   readonly type: string;
   /**
   * Version of the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_backup#version DataVkcsDbBackup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_backup#version DataVkcsDbBackup#version}
   */
   readonly version: string;
 }
@@ -174,7 +174,7 @@ export class DataVkcsDbBackupDatastoreList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_backup vkcs_db_backup}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_backup vkcs_db_backup}
 */
 export class DataVkcsDbBackup extends cdktf.TerraformDataSource {
 
@@ -190,7 +190,7 @@ export class DataVkcsDbBackup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsDbBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsDbBackup to import
-  * @param importFromId The id of the existing DataVkcsDbBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsDbBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsDbBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class DataVkcsDbBackup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_backup vkcs_db_backup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_backup vkcs_db_backup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class DataVkcsDbBackup extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_db_backup',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

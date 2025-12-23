@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VpnaasSiteConnectionConfig extends cdktf.TerraformMetaArguments
   /**
   * The administrative state of the resource. Can either be up(true) or down(false). Changing this updates the administrative state of the existing connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#admin_state_up VpnaasSiteConnection#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#admin_state_up VpnaasSiteConnection#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
   * The human-readable description for the connection. Changing this updates the description of the existing connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#description VpnaasSiteConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#description VpnaasSiteConnection#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#id VpnaasSiteConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#id VpnaasSiteConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,109 +29,109 @@ export interface VpnaasSiteConnectionConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the IKE policy. Changing this creates a new connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#ikepolicy_id VpnaasSiteConnection#ikepolicy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#ikepolicy_id VpnaasSiteConnection#ikepolicy_id}
   */
   readonly ikepolicyId: string;
   /**
   * A valid value is response-only or bi-directional. Default is bi-directional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#initiator VpnaasSiteConnection#initiator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#initiator VpnaasSiteConnection#initiator}
   */
   readonly initiator?: string;
   /**
   * The ID of the IPsec policy. Changing this creates a new connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#ipsecpolicy_id VpnaasSiteConnection#ipsecpolicy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#ipsecpolicy_id VpnaasSiteConnection#ipsecpolicy_id}
   */
   readonly ipsecpolicyId: string;
   /**
   * The ID for the endpoint group that contains private subnets for the local side of the connection. You must specify this parameter with the peer_ep_group_id parameter unless in backward- compatible mode where peer_cidrs is provided with a subnet_id for the VPN service. Changing this updates the existing connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#local_ep_group_id VpnaasSiteConnection#local_ep_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#local_ep_group_id VpnaasSiteConnection#local_ep_group_id}
   */
   readonly localEpGroupId?: string;
   /**
   * An ID to be used instead of the external IP address for a virtual router used in traffic between instances on different networks in east-west traffic. Most often, local ID would be domain name, email address, etc. If this is not configured then the external IP address will be used as the ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#local_id VpnaasSiteConnection#local_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#local_id VpnaasSiteConnection#local_id}
   */
   readonly localId?: string;
   /**
   * The maximum transmission unit (MTU) value to address fragmentation. Minimum value is 68 for IPv4, and 1280 for IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#mtu VpnaasSiteConnection#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#mtu VpnaasSiteConnection#mtu}
   */
   readonly mtu?: number;
   /**
   * The name of the connection. Changing this updates the name of the existing connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#name VpnaasSiteConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#name VpnaasSiteConnection#name}
   */
   readonly name?: string;
   /**
   * The peer gateway public IPv4 or IPv6 address or FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#peer_address VpnaasSiteConnection#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#peer_address VpnaasSiteConnection#peer_address}
   */
   readonly peerAddress: string;
   /**
   * Unique list of valid peer private CIDRs in the form < net_address > / < prefix >.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#peer_cidrs VpnaasSiteConnection#peer_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#peer_cidrs VpnaasSiteConnection#peer_cidrs}
   */
   readonly peerCidrs?: string[];
   /**
   * The ID for the endpoint group that contains private CIDRs in the form < net_address > / < prefix > for the peer side of the connection. You must specify this parameter with the local_ep_group_id parameter unless in backward-compatible mode where peer_cidrs is provided with a subnet_id for the VPN service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#peer_ep_group_id VpnaasSiteConnection#peer_ep_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#peer_ep_group_id VpnaasSiteConnection#peer_ep_group_id}
   */
   readonly peerEpGroupId?: string;
   /**
   * The peer router identity for authentication. A valid value is an IPv4 address, IPv6 address, e-mail address, key ID, or FQDN. Typically, this value matches the peer_address value. Changing this updates the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#peer_id VpnaasSiteConnection#peer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#peer_id VpnaasSiteConnection#peer_id}
   */
   readonly peerId: string;
   /**
   * The pre-shared key. A valid value is any string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#psk VpnaasSiteConnection#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#psk VpnaasSiteConnection#psk}
   */
   readonly psk: string;
   /**
   * The region in which to obtain the Networking client. A Networking client is needed to create an IPSec site connection. If omitted, the `region` argument of the provider is used. Changing this creates a new site connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#region VpnaasSiteConnection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#region VpnaasSiteConnection#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN._new_since_v0.5.3_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#sdn VpnaasSiteConnection#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#sdn VpnaasSiteConnection#sdn}
   */
   readonly sdn?: string;
   /**
   * This argument controls whether multiple traffic selection rules for an IPSec site connection should be merged into one rule, or applied independently. When set to "true", this parameter results in single IPsec SA negotiation with multiple IP prefixes, while providing a separate negotiation that results in the multiple IPsec tunnels when set to "false". __note__ Available only in sprut SDN. Default value is true._new_since_v0.7.4_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#traffic_selector_ep_merge VpnaasSiteConnection#traffic_selector_ep_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#traffic_selector_ep_merge VpnaasSiteConnection#traffic_selector_ep_merge}
   */
   readonly trafficSelectorEpMerge?: boolean | cdktf.IResolvable;
   /**
   * The ID of the VPN service. Changing this creates a new connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#vpnservice_id VpnaasSiteConnection#vpnservice_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#vpnservice_id VpnaasSiteConnection#vpnservice_id}
   */
   readonly vpnserviceId: string;
   /**
   * dpd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#dpd VpnaasSiteConnection#dpd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#dpd VpnaasSiteConnection#dpd}
   */
   readonly dpd?: VpnaasSiteConnectionDpd[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#timeouts VpnaasSiteConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#timeouts VpnaasSiteConnection#timeouts}
   */
   readonly timeouts?: VpnaasSiteConnectionTimeouts;
 }
@@ -139,19 +139,19 @@ export interface VpnaasSiteConnectionDpd {
   /**
   * The dead peer detection (DPD) action. A valid value is clear, hold, restart, disabled, or restart-by-peer. Default value is hold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#action VpnaasSiteConnection#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#action VpnaasSiteConnection#action}
   */
   readonly action?: string;
   /**
   * The dead peer detection (DPD) interval, in seconds. A valid value is a positive integer. Default is 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#interval VpnaasSiteConnection#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#interval VpnaasSiteConnection#interval}
   */
   readonly interval?: number;
   /**
   * The dead peer detection (DPD) timeout in seconds. A valid value is a positive integer that is greater than the DPD interval value. Default is 120.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#timeout VpnaasSiteConnection#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#timeout VpnaasSiteConnection#timeout}
   */
   readonly timeout?: number;
 }
@@ -325,15 +325,15 @@ export class VpnaasSiteConnectionDpdList extends cdktf.ComplexList {
 }
 export interface VpnaasSiteConnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#create VpnaasSiteConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#create VpnaasSiteConnection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#delete VpnaasSiteConnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#delete VpnaasSiteConnection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#update VpnaasSiteConnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#update VpnaasSiteConnection#update}
   */
   readonly update?: string;
 }
@@ -485,7 +485,7 @@ export class VpnaasSiteConnectionTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection vkcs_vpnaas_site_connection}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection vkcs_vpnaas_site_connection}
 */
 export class VpnaasSiteConnection extends cdktf.TerraformResource {
 
@@ -501,7 +501,7 @@ export class VpnaasSiteConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnaasSiteConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnaasSiteConnection to import
-  * @param importFromId The id of the existing VpnaasSiteConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnaasSiteConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnaasSiteConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -513,7 +513,7 @@ export class VpnaasSiteConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_site_connection vkcs_vpnaas_site_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_site_connection vkcs_vpnaas_site_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -524,8 +524,8 @@ export class VpnaasSiteConnection extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_vpnaas_site_connection',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

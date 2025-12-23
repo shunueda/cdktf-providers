@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataAviatrixFirenetVendorIntegrationConfig extends cdktf.Terraf
   /**
   * API token for Fortinet FortiGate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#api_token DataAviatrixFirenetVendorIntegration#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#api_token DataAviatrixFirenetVendorIntegration#api_token}
   */
   readonly apiToken?: string;
   /**
   * Name of firewall instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#firewall_name DataAviatrixFirenetVendorIntegration#firewall_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#firewall_name DataAviatrixFirenetVendorIntegration#firewall_name}
   */
   readonly firewallName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#id DataAviatrixFirenetVendorIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#id DataAviatrixFirenetVendorIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,79 +29,79 @@ export interface DataAviatrixFirenetVendorIntegrationConfig extends cdktf.Terraf
   /**
   * ID of Firewall instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#instance_id DataAviatrixFirenetVendorIntegration#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#instance_id DataAviatrixFirenetVendorIntegration#instance_id}
   */
   readonly instanceId: string;
   /**
   * Number of retries for 'save' or 'synchronize'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#number_of_retries DataAviatrixFirenetVendorIntegration#number_of_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#number_of_retries DataAviatrixFirenetVendorIntegration#number_of_retries}
   */
   readonly numberOfRetries?: number;
   /**
   * Firewall login password for API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#password DataAviatrixFirenetVendorIntegration#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#password DataAviatrixFirenetVendorIntegration#password}
   */
   readonly password?: string;
   /**
   * Private key file for Check Point Cloud Guard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#private_key_file DataAviatrixFirenetVendorIntegration#private_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#private_key_file DataAviatrixFirenetVendorIntegration#private_key_file}
   */
   readonly privateKeyFile?: string;
   /**
   * The IP address of the firewall management interface for API calls from the Aviatrix Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#public_ip DataAviatrixFirenetVendorIntegration#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#public_ip DataAviatrixFirenetVendorIntegration#public_ip}
   */
   readonly publicIp?: string;
   /**
   * Retry interval in seconds for `save` or `synchronize`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#retry_interval DataAviatrixFirenetVendorIntegration#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#retry_interval DataAviatrixFirenetVendorIntegration#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * Specify the firewall virtual Router name you wish the Controller to program. If left unspecified, the Controller programs the firewall’s default router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#route_table DataAviatrixFirenetVendorIntegration#route_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#route_table DataAviatrixFirenetVendorIntegration#route_table}
   */
   readonly routeTable?: string;
   /**
   * Switch to save or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#save DataAviatrixFirenetVendorIntegration#save}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#save DataAviatrixFirenetVendorIntegration#save}
   */
   readonly save?: boolean | cdktf.IResolvable;
   /**
   * Switch to sync or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#synchronize DataAviatrixFirenetVendorIntegration#synchronize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#synchronize DataAviatrixFirenetVendorIntegration#synchronize}
   */
   readonly synchronize?: boolean | cdktf.IResolvable;
   /**
   * Firewall login name for API calls from the Controller. For example, admin-api, as shown in the screen shot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#username DataAviatrixFirenetVendorIntegration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#username DataAviatrixFirenetVendorIntegration#username}
   */
   readonly username?: string;
   /**
   * Select PAN. Valid values: 'Generic', 'Palo Alto Networks VM-Series', 'Aviatrix FQDN Gateway', and 'Fortinet FortiGate'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#vendor_type DataAviatrixFirenetVendorIntegration#vendor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#vendor_type DataAviatrixFirenetVendorIntegration#vendor_type}
   */
   readonly vendorType: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#vpc_id DataAviatrixFirenetVendorIntegration#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#vpc_id DataAviatrixFirenetVendorIntegration#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration aviatrix_firenet_vendor_integration}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration aviatrix_firenet_vendor_integration}
 */
 export class DataAviatrixFirenetVendorIntegration extends cdktf.TerraformDataSource {
 
@@ -117,7 +117,7 @@ export class DataAviatrixFirenetVendorIntegration extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataAviatrixFirenetVendorIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviatrixFirenetVendorIntegration to import
-  * @param importFromId The id of the existing DataAviatrixFirenetVendorIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviatrixFirenetVendorIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviatrixFirenetVendorIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class DataAviatrixFirenetVendorIntegration extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_vendor_integration aviatrix_firenet_vendor_integration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_vendor_integration aviatrix_firenet_vendor_integration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class DataAviatrixFirenetVendorIntegration extends cdktf.TerraformDataSou
       terraformResourceType: 'aviatrix_firenet_vendor_integration',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

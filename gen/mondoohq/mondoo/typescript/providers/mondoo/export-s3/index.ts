@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ExportS3Config extends cdktf.TerraformMetaArguments {
   /**
   * Name of the Amazon S3 bucket to export data to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3#bucket_name ExportS3#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3#bucket_name ExportS3#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Credentials for the Amazon S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3#credentials ExportS3#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3#credentials ExportS3#credentials}
   */
   readonly credentials: ExportS3Credentials;
   /**
   * Format of the export (JSONL or CSV), defaults to JSONL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3#export_format ExportS3#export_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3#export_format ExportS3#export_format}
   */
   readonly exportFormat?: string;
   /**
   * Name of the export integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3#name ExportS3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3#name ExportS3#name}
   */
   readonly name: string;
   /**
   * AWS region where the S3 bucket is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3#region ExportS3#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3#region ExportS3#region}
   */
   readonly region: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3#space_id ExportS3#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3#space_id ExportS3#space_id}
   */
   readonly spaceId?: string;
 }
@@ -48,13 +48,13 @@ export interface ExportS3CredentialsKey {
   /**
   * AWS access key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3#access_key ExportS3#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3#access_key ExportS3#access_key}
   */
   readonly accessKey: string;
   /**
   * AWS secret access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3#secret_key ExportS3#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3#secret_key ExportS3#secret_key}
   */
   readonly secretKey: string;
 }
@@ -173,7 +173,7 @@ export interface ExportS3Credentials {
   /**
   * AWS access key credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3#key ExportS3#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3#key ExportS3#key}
   */
   readonly key: ExportS3CredentialsKey;
 }
@@ -264,7 +264,7 @@ export class ExportS3CredentialsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3 mondoo_export_s3}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3 mondoo_export_s3}
 */
 export class ExportS3 extends cdktf.TerraformResource {
 
@@ -280,7 +280,7 @@ export class ExportS3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExportS3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExportS3 to import
-  * @param importFromId The id of the existing ExportS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExportS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExportS3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +292,7 @@ export class ExportS3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_s3 mondoo_export_s3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/export_s3 mondoo_export_s3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,8 +303,8 @@ export class ExportS3 extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_export_s3',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.2',
-        providerVersionConstraint: '0.35.2'
+        providerVersion: '0.35.3',
+        providerVersionConstraint: '0.35.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

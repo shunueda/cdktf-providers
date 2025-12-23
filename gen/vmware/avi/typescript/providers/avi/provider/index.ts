@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface AviProviderConfig {
   /**
   * Session timeout for Avi Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs#avi_api_timeout AviProvider#avi_api_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs#avi_api_timeout AviProvider#avi_api_timeout}
   */
   readonly aviApiTimeout?: number;
   /**
   * Avi token for Avi Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs#avi_authtoken AviProvider#avi_authtoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs#avi_authtoken AviProvider#avi_authtoken}
   */
   readonly aviAuthtoken?: string;
   /**
   * Avi Controller hostname or IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs#avi_controller AviProvider#avi_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs#avi_controller AviProvider#avi_controller}
   */
   readonly aviController?: string;
   /**
   * Csp host for Avi Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs#avi_csp_host AviProvider#avi_csp_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs#avi_csp_host AviProvider#avi_csp_host}
   */
   readonly aviCspHost?: string;
   /**
   * Csp token for Avi Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs#avi_csp_token AviProvider#avi_csp_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs#avi_csp_token AviProvider#avi_csp_token}
   */
   readonly aviCspToken?: string;
   /**
   * Password for Avi Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs#avi_password AviProvider#avi_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs#avi_password AviProvider#avi_password}
   */
   readonly aviPassword?: string;
   /**
   * Avi tenant for Avi Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs#avi_tenant AviProvider#avi_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs#avi_tenant AviProvider#avi_tenant}
   */
   readonly aviTenant?: string;
   /**
   * Username for Avi Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs#avi_username AviProvider#avi_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs#avi_username AviProvider#avi_username}
   */
   readonly aviUsername?: string;
   /**
   * Avi version for Avi Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs#avi_version AviProvider#avi_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs#avi_version AviProvider#avi_version}
   */
   readonly aviVersion?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs#alias AviProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs#alias AviProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs avi}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs avi}
 */
 export class AviProvider extends cdktf.TerraformProvider {
 
@@ -86,7 +86,7 @@ export class AviProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AviProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AviProvider to import
-  * @param importFromId The id of the existing AviProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AviProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AviProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class AviProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs avi} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs avi} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class AviProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'avi',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       terraformProviderSource: 'vmware/avi'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter
+// https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface MetricExporterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configuration for AWS CloudWatch exporter. Configure authentication using either `role_arn` or `access_key` with `secret_key`. Cannot be used with `datadog` or `prometheus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#cloudwatch MetricExporter#cloudwatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#cloudwatch MetricExporter#cloudwatch}
   */
   readonly cloudwatch?: MetricExporterCloudwatch;
   /**
   * Configuration for Datadog exporter. Cannot be used with `prometheus` or `cloudwatch`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#datadog MetricExporter#datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#datadog MetricExporter#datadog}
   */
   readonly datadog?: MetricExporterDatadog;
   /**
   * Metric exporter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#name MetricExporter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#name MetricExporter#name}
   */
   readonly name: string;
   /**
   * Configuration for Prometheus exporter. Cannot be used with `datadog` or `cloudwatch`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#prometheus MetricExporter#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#prometheus MetricExporter#prometheus}
   */
   readonly prometheus?: MetricExporterPrometheus;
   /**
   * Region where the exporter will be deployed. Only services running in the same region can be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#region MetricExporter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#region MetricExporter#region}
   */
   readonly region: string;
 }
@@ -42,43 +42,43 @@ export interface MetricExporterCloudwatch {
   /**
   * AWS access key ID. If provided, `secret_key` must also be set, and `role_arn` must not be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#access_key MetricExporter#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#access_key MetricExporter#access_key}
   */
   readonly accessKey?: string;
   /**
   * Name of the CloudWatch Log Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#log_group_name MetricExporter#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#log_group_name MetricExporter#log_group_name}
   */
   readonly logGroupName: string;
   /**
   * Name of the CloudWatch Log Stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#log_stream_name MetricExporter#log_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#log_stream_name MetricExporter#log_stream_name}
   */
   readonly logStreamName: string;
   /**
   * CloudWatch Metric Namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#namespace MetricExporter#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#namespace MetricExporter#namespace}
   */
   readonly namespace: string;
   /**
   * AWS region for CloudWatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#region MetricExporter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#region MetricExporter#region}
   */
   readonly region: string;
   /**
   * ARN of the IAM role to assume for CloudWatch access. If provided, `access_key` and `secret_key` must not be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#role_arn MetricExporter#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#role_arn MetricExporter#role_arn}
   */
   readonly roleArn?: string;
   /**
   * AWS secret access key. If provided, `access_key` must also be set, and `role_arn` must not be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#secret_key MetricExporter#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#secret_key MetricExporter#secret_key}
   */
   readonly secretKey?: string;
 }
@@ -336,13 +336,13 @@ export interface MetricExporterDatadog {
   /**
   * Datadog API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#api_key MetricExporter#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#api_key MetricExporter#api_key}
   */
   readonly apiKey: string;
   /**
   * Datadog site (e.g., 'datadoghq.com', 'datadoghq.eu').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#site MetricExporter#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#site MetricExporter#site}
   */
   readonly site: string;
 }
@@ -461,13 +461,13 @@ export interface MetricExporterPrometheus {
   /**
   * Password for Prometheus basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#password MetricExporter#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#password MetricExporter#password}
   */
   readonly password: string;
   /**
   * Username for Prometheus basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#username MetricExporter#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#username MetricExporter#username}
   */
   readonly username: string;
 }
@@ -584,7 +584,7 @@ export class MetricExporterPrometheusOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter timescale_metric_exporter}
+* Represents a {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter timescale_metric_exporter}
 */
 export class MetricExporter extends cdktf.TerraformResource {
 
@@ -600,7 +600,7 @@ export class MetricExporter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetricExporter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetricExporter to import
-  * @param importFromId The id of the existing MetricExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetricExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetricExporter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -612,7 +612,7 @@ export class MetricExporter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/metric_exporter timescale_metric_exporter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/metric_exporter timescale_metric_exporter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -623,8 +623,8 @@ export class MetricExporter extends cdktf.TerraformResource {
       terraformResourceType: 'timescale_metric_exporter',
       terraformGeneratorMetadata: {
         providerName: 'timescale',
-        providerVersion: '2.6.0',
-        providerVersionConstraint: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface KubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Id of the kubernetes cluster. For EKS clusters the ARN of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#cluster_id KubernetesCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#cluster_id KubernetesCluster#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#id KubernetesCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#id KubernetesCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface KubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Kube config file content of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#kube_config KubernetesCluster#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#kube_config KubernetesCluster#kube_config}
   */
   readonly kubeConfig?: string;
   /**
   * Whether to use the credential of the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#use_csp_credentials KubernetesCluster#use_csp_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#use_csp_credentials KubernetesCluster#use_csp_credentials}
   */
   readonly useCspCredentials?: boolean | cdktf.IResolvable;
   /**
   * cluster_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#cluster_details KubernetesCluster#cluster_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#cluster_details KubernetesCluster#cluster_details}
   */
   readonly clusterDetails?: KubernetesClusterClusterDetails;
 }
@@ -43,73 +43,73 @@ export interface KubernetesClusterClusterDetails {
   /**
   * Account ID owning the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#account_id KubernetesCluster#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#account_id KubernetesCluster#account_id}
   */
   readonly accountId: string;
   /**
   * Name of the account with management privileges over the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#account_name KubernetesCluster#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#account_name KubernetesCluster#account_name}
   */
   readonly accountName: string;
   /**
   * Compartment id if the cluster is deployed in OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#compartment KubernetesCluster#compartment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#compartment KubernetesCluster#compartment}
   */
   readonly compartment?: string;
   /**
   * Whether the API server is publicly accessible outside the virtual network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#is_publicly_accessible KubernetesCluster#is_publicly_accessible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#is_publicly_accessible KubernetesCluster#is_publicly_accessible}
   */
   readonly isPubliclyAccessible: boolean | cdktf.IResolvable;
   /**
   * Display name of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
   */
   readonly name: string;
   /**
   * Network mode of the cluster. Possible values are FLAT, OVERLAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#network_mode KubernetesCluster#network_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#network_mode KubernetesCluster#network_mode}
   */
   readonly networkMode: string;
   /**
   * Platform of the Kubernetes cluster, e.g. kops, kubeadm or any other free string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#platform KubernetesCluster#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#platform KubernetesCluster#platform}
   */
   readonly platform: string;
   /**
   * Project name if the cluster is deployed in GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#project KubernetesCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#project KubernetesCluster#project}
   */
   readonly project?: string;
   /**
   * Region where the cluster is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#region KubernetesCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#region KubernetesCluster#region}
   */
   readonly region: string;
   /**
   * Map of tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#tags KubernetesCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#tags KubernetesCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Version of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#version KubernetesCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#version KubernetesCluster#version}
   */
   readonly version: string;
   /**
   * Id of the VPC where the cluster is deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#vpc_id KubernetesCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#vpc_id KubernetesCluster#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -485,7 +485,7 @@ export class KubernetesClusterClusterDetailsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster aviatrix_kubernetes_cluster}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster aviatrix_kubernetes_cluster}
 */
 export class KubernetesCluster extends cdktf.TerraformResource {
 
@@ -501,7 +501,7 @@ export class KubernetesCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesCluster to import
-  * @param importFromId The id of the existing KubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -513,7 +513,7 @@ export class KubernetesCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/kubernetes_cluster aviatrix_kubernetes_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/kubernetes_cluster aviatrix_kubernetes_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -524,8 +524,8 @@ export class KubernetesCluster extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

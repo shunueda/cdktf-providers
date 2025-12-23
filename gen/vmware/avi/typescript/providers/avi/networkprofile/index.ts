@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#connection_mirror Networkprofile#connection_mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#connection_mirror Networkprofile#connection_mirror}
   */
   readonly connectionMirror?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#description Networkprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#description Networkprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#id Networkprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#id Networkprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#name Networkprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#name Networkprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#tenant_ref Networkprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#tenant_ref Networkprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#uuid Networkprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#uuid Networkprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#configpb_attributes Networkprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#configpb_attributes Networkprofile#configpb_attributes}
   */
   readonly configpbAttributes?: NetworkprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#markers Networkprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#markers Networkprofile#markers}
   */
   readonly markers?: NetworkprofileMarkers[] | cdktf.IResolvable;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#profile Networkprofile#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#profile Networkprofile#profile}
   */
   readonly profile: NetworkprofileProfile[] | cdktf.IResolvable;
 }
 export interface NetworkprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#version Networkprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#version Networkprofile#version}
   */
   readonly version?: string;
 }
@@ -171,11 +171,11 @@ export class NetworkprofileConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface NetworkprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#key Networkprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#key Networkprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#values Networkprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#values Networkprofile#values}
   */
   readonly values?: string[];
 }
@@ -317,11 +317,11 @@ export class NetworkprofileMarkersList extends cdktf.ComplexList {
 }
 export interface NetworkprofileProfileSctpFastPathProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#enable_init_chunk_protection Networkprofile#enable_init_chunk_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#enable_init_chunk_protection Networkprofile#enable_init_chunk_protection}
   */
   readonly enableInitChunkProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#idle_timeout Networkprofile#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#idle_timeout Networkprofile#idle_timeout}
   */
   readonly idleTimeout?: string;
 }
@@ -466,35 +466,35 @@ export class NetworkprofileProfileSctpFastPathProfileList extends cdktf.ComplexL
 }
 export interface NetworkprofileProfileSctpProxyProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#cookie_expiration_timeout Networkprofile#cookie_expiration_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#cookie_expiration_timeout Networkprofile#cookie_expiration_timeout}
   */
   readonly cookieExpirationTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#heartbeat_interval Networkprofile#heartbeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#heartbeat_interval Networkprofile#heartbeat_interval}
   */
   readonly heartbeatInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#idle_timeout Networkprofile#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#idle_timeout Networkprofile#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#max_retransmissions_association Networkprofile#max_retransmissions_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#max_retransmissions_association Networkprofile#max_retransmissions_association}
   */
   readonly maxRetransmissionsAssociation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#max_retransmissions_init_chunks Networkprofile#max_retransmissions_init_chunks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#max_retransmissions_init_chunks Networkprofile#max_retransmissions_init_chunks}
   */
   readonly maxRetransmissionsInitChunks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#number_of_streams Networkprofile#number_of_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#number_of_streams Networkprofile#number_of_streams}
   */
   readonly numberOfStreams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#receive_window Networkprofile#receive_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#receive_window Networkprofile#receive_window}
   */
   readonly receiveWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#reset_timeout Networkprofile#reset_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#reset_timeout Networkprofile#reset_timeout}
   */
   readonly resetTimeout?: string;
 }
@@ -813,11 +813,11 @@ export class NetworkprofileProfileSctpProxyProfileList extends cdktf.ComplexList
 }
 export interface NetworkprofileProfileTcpFastPathProfileDsrProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#dsr_encap_type Networkprofile#dsr_encap_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#dsr_encap_type Networkprofile#dsr_encap_type}
   */
   readonly dsrEncapType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#dsr_type Networkprofile#dsr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#dsr_type Networkprofile#dsr_type}
   */
   readonly dsrType?: string;
 }
@@ -960,21 +960,143 @@ export class NetworkprofileProfileTcpFastPathProfileDsrProfileList extends cdktf
     return new NetworkprofileProfileTcpFastPathProfileDsrProfileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface NetworkprofileProfileTcpFastPathProfileTcpFastpathOptions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#strip_sack Networkprofile#strip_sack}
+  */
+  readonly stripSack?: string;
+}
+
+export function networkprofileProfileTcpFastPathProfileTcpFastpathOptionsToTerraform(struct?: NetworkprofileProfileTcpFastPathProfileTcpFastpathOptions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    strip_sack: cdktf.stringToTerraform(struct!.stripSack),
+  }
+}
+
+
+export function networkprofileProfileTcpFastPathProfileTcpFastpathOptionsToHclTerraform(struct?: NetworkprofileProfileTcpFastPathProfileTcpFastpathOptions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    strip_sack: {
+      value: cdktf.stringToHclTerraform(struct!.stripSack),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NetworkprofileProfileTcpFastPathProfileTcpFastpathOptionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): NetworkprofileProfileTcpFastPathProfileTcpFastpathOptions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._stripSack !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stripSack = this._stripSack;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NetworkprofileProfileTcpFastPathProfileTcpFastpathOptions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._stripSack = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._stripSack = value.stripSack;
+    }
+  }
+
+  // strip_sack - computed: false, optional: true, required: false
+  private _stripSack?: string; 
+  public get stripSack() {
+    return this.getStringAttribute('strip_sack');
+  }
+  public set stripSack(value: string) {
+    this._stripSack = value;
+  }
+  public resetStripSack() {
+    this._stripSack = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stripSackInput() {
+    return this._stripSack;
+  }
+}
+
+export class NetworkprofileProfileTcpFastPathProfileTcpFastpathOptionsList extends cdktf.ComplexList {
+  public internalValue? : NetworkprofileProfileTcpFastPathProfileTcpFastpathOptions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): NetworkprofileProfileTcpFastPathProfileTcpFastpathOptionsOutputReference {
+    return new NetworkprofileProfileTcpFastPathProfileTcpFastpathOptionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface NetworkprofileProfileTcpFastPathProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#enable_syn_protection Networkprofile#enable_syn_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#enable_syn_protection Networkprofile#enable_syn_protection}
   */
   readonly enableSynProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#session_idle_timeout Networkprofile#session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#session_idle_timeout Networkprofile#session_idle_timeout}
   */
   readonly sessionIdleTimeout?: string;
   /**
   * dsr_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#dsr_profile Networkprofile#dsr_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#dsr_profile Networkprofile#dsr_profile}
   */
   readonly dsrProfile?: NetworkprofileProfileTcpFastPathProfileDsrProfile[] | cdktf.IResolvable;
+  /**
+  * tcp_fastpath_options block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#tcp_fastpath_options Networkprofile#tcp_fastpath_options}
+  */
+  readonly tcpFastpathOptions?: NetworkprofileProfileTcpFastPathProfileTcpFastpathOptions[] | cdktf.IResolvable;
 }
 
 export function networkprofileProfileTcpFastPathProfileToTerraform(struct?: NetworkprofileProfileTcpFastPathProfile | cdktf.IResolvable): any {
@@ -986,6 +1108,7 @@ export function networkprofileProfileTcpFastPathProfileToTerraform(struct?: Netw
     enable_syn_protection: cdktf.stringToTerraform(struct!.enableSynProtection),
     session_idle_timeout: cdktf.stringToTerraform(struct!.sessionIdleTimeout),
     dsr_profile: cdktf.listMapper(networkprofileProfileTcpFastPathProfileDsrProfileToTerraform, true)(struct!.dsrProfile),
+    tcp_fastpath_options: cdktf.listMapper(networkprofileProfileTcpFastPathProfileTcpFastpathOptionsToTerraform, true)(struct!.tcpFastpathOptions),
   }
 }
 
@@ -1013,6 +1136,12 @@ export function networkprofileProfileTcpFastPathProfileToHclTerraform(struct?: N
       isBlock: true,
       type: "set",
       storageClassType: "NetworkprofileProfileTcpFastPathProfileDsrProfileList",
+    },
+    tcp_fastpath_options: {
+      value: cdktf.listMapperHcl(networkprofileProfileTcpFastPathProfileTcpFastpathOptionsToHclTerraform, true)(struct!.tcpFastpathOptions),
+      isBlock: true,
+      type: "set",
+      storageClassType: "NetworkprofileProfileTcpFastPathProfileTcpFastpathOptionsList",
     },
   };
 
@@ -1052,6 +1181,10 @@ export class NetworkprofileProfileTcpFastPathProfileOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.dsrProfile = this._dsrProfile?.internalValue;
     }
+    if (this._tcpFastpathOptions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpFastpathOptions = this._tcpFastpathOptions?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1062,6 +1195,7 @@ export class NetworkprofileProfileTcpFastPathProfileOutputReference extends cdkt
       this._enableSynProtection = undefined;
       this._sessionIdleTimeout = undefined;
       this._dsrProfile.internalValue = undefined;
+      this._tcpFastpathOptions.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1073,6 +1207,7 @@ export class NetworkprofileProfileTcpFastPathProfileOutputReference extends cdkt
       this._enableSynProtection = value.enableSynProtection;
       this._sessionIdleTimeout = value.sessionIdleTimeout;
       this._dsrProfile.internalValue = value.dsrProfile;
+      this._tcpFastpathOptions.internalValue = value.tcpFastpathOptions;
     }
   }
 
@@ -1123,6 +1258,22 @@ export class NetworkprofileProfileTcpFastPathProfileOutputReference extends cdkt
   public get dsrProfileInput() {
     return this._dsrProfile.internalValue;
   }
+
+  // tcp_fastpath_options - computed: false, optional: true, required: false
+  private _tcpFastpathOptions = new NetworkprofileProfileTcpFastPathProfileTcpFastpathOptionsList(this, "tcp_fastpath_options", true);
+  public get tcpFastpathOptions() {
+    return this._tcpFastpathOptions;
+  }
+  public putTcpFastpathOptions(value: NetworkprofileProfileTcpFastPathProfileTcpFastpathOptions[] | cdktf.IResolvable) {
+    this._tcpFastpathOptions.internalValue = value;
+  }
+  public resetTcpFastpathOptions() {
+    this._tcpFastpathOptions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpFastpathOptionsInput() {
+    return this._tcpFastpathOptions.internalValue;
+  }
 }
 
 export class NetworkprofileProfileTcpFastPathProfileList extends cdktf.ComplexList {
@@ -1146,91 +1297,99 @@ export class NetworkprofileProfileTcpFastPathProfileList extends cdktf.ComplexLi
 }
 export interface NetworkprofileProfileTcpProxyProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#aggressive_congestion_avoidance Networkprofile#aggressive_congestion_avoidance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#ack_on_push Networkprofile#ack_on_push}
+  */
+  readonly ackOnPush?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#aggressive_congestion_avoidance Networkprofile#aggressive_congestion_avoidance}
   */
   readonly aggressiveCongestionAvoidance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#auto_window_growth Networkprofile#auto_window_growth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#auto_window_growth Networkprofile#auto_window_growth}
   */
   readonly autoWindowGrowth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#automatic Networkprofile#automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#automatic Networkprofile#automatic}
   */
   readonly automatic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#cc_algo Networkprofile#cc_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#cc_algo Networkprofile#cc_algo}
   */
   readonly ccAlgo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#congestion_recovery_scaling_factor Networkprofile#congestion_recovery_scaling_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#congestion_recovery_scaling_factor Networkprofile#congestion_recovery_scaling_factor}
   */
   readonly congestionRecoveryScalingFactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#delayed_ack_mode Networkprofile#delayed_ack_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#delayed_ack_mode Networkprofile#delayed_ack_mode}
   */
   readonly delayedAckMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#idle_connection_timeout Networkprofile#idle_connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#delayed_ack_timer_delay Networkprofile#delayed_ack_timer_delay}
+  */
+  readonly delayedAckTimerDelay?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#idle_connection_timeout Networkprofile#idle_connection_timeout}
   */
   readonly idleConnectionTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#idle_connection_type Networkprofile#idle_connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#idle_connection_type Networkprofile#idle_connection_type}
   */
   readonly idleConnectionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#ignore_time_wait Networkprofile#ignore_time_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#ignore_time_wait Networkprofile#ignore_time_wait}
   */
   readonly ignoreTimeWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#ip_dscp Networkprofile#ip_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#ip_dscp Networkprofile#ip_dscp}
   */
   readonly ipDscp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#keepalive_in_halfclose_state Networkprofile#keepalive_in_halfclose_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#keepalive_in_halfclose_state Networkprofile#keepalive_in_halfclose_state}
   */
   readonly keepaliveInHalfcloseState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#max_retransmissions Networkprofile#max_retransmissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#max_retransmissions Networkprofile#max_retransmissions}
   */
   readonly maxRetransmissions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#max_segment_size Networkprofile#max_segment_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#max_segment_size Networkprofile#max_segment_size}
   */
   readonly maxSegmentSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#max_syn_retransmissions Networkprofile#max_syn_retransmissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#max_syn_retransmissions Networkprofile#max_syn_retransmissions}
   */
   readonly maxSynRetransmissions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#min_rexmt_timeout Networkprofile#min_rexmt_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#min_rexmt_timeout Networkprofile#min_rexmt_timeout}
   */
   readonly minRexmtTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#nagles_algorithm Networkprofile#nagles_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#nagles_algorithm Networkprofile#nagles_algorithm}
   */
   readonly naglesAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#reassembly_queue_size Networkprofile#reassembly_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#reassembly_queue_size Networkprofile#reassembly_queue_size}
   */
   readonly reassemblyQueueSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#receive_window Networkprofile#receive_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#receive_window Networkprofile#receive_window}
   */
   readonly receiveWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#reorder_threshold Networkprofile#reorder_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#reorder_threshold Networkprofile#reorder_threshold}
   */
   readonly reorderThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#slow_start_scaling_factor Networkprofile#slow_start_scaling_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#slow_start_scaling_factor Networkprofile#slow_start_scaling_factor}
   */
   readonly slowStartScalingFactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#time_wait_delay Networkprofile#time_wait_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#time_wait_delay Networkprofile#time_wait_delay}
   */
   readonly timeWaitDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#use_interface_mtu Networkprofile#use_interface_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#use_interface_mtu Networkprofile#use_interface_mtu}
   */
   readonly useInterfaceMtu?: string;
 }
@@ -1241,12 +1400,14 @@ export function networkprofileProfileTcpProxyProfileToTerraform(struct?: Network
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    ack_on_push: cdktf.stringToTerraform(struct!.ackOnPush),
     aggressive_congestion_avoidance: cdktf.stringToTerraform(struct!.aggressiveCongestionAvoidance),
     auto_window_growth: cdktf.stringToTerraform(struct!.autoWindowGrowth),
     automatic: cdktf.stringToTerraform(struct!.automatic),
     cc_algo: cdktf.stringToTerraform(struct!.ccAlgo),
     congestion_recovery_scaling_factor: cdktf.stringToTerraform(struct!.congestionRecoveryScalingFactor),
     delayed_ack_mode: cdktf.stringToTerraform(struct!.delayedAckMode),
+    delayed_ack_timer_delay: cdktf.stringToTerraform(struct!.delayedAckTimerDelay),
     idle_connection_timeout: cdktf.stringToTerraform(struct!.idleConnectionTimeout),
     idle_connection_type: cdktf.stringToTerraform(struct!.idleConnectionType),
     ignore_time_wait: cdktf.stringToTerraform(struct!.ignoreTimeWait),
@@ -1273,6 +1434,12 @@ export function networkprofileProfileTcpProxyProfileToHclTerraform(struct?: Netw
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    ack_on_push: {
+      value: cdktf.stringToHclTerraform(struct!.ackOnPush),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     aggressive_congestion_avoidance: {
       value: cdktf.stringToHclTerraform(struct!.aggressiveCongestionAvoidance),
       isBlock: false,
@@ -1305,6 +1472,12 @@ export function networkprofileProfileTcpProxyProfileToHclTerraform(struct?: Netw
     },
     delayed_ack_mode: {
       value: cdktf.stringToHclTerraform(struct!.delayedAckMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    delayed_ack_timer_delay: {
+      value: cdktf.stringToHclTerraform(struct!.delayedAckTimerDelay),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1431,6 +1604,10 @@ export class NetworkprofileProfileTcpProxyProfileOutputReference extends cdktf.C
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._ackOnPush !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ackOnPush = this._ackOnPush;
+    }
     if (this._aggressiveCongestionAvoidance !== undefined) {
       hasAnyValues = true;
       internalValueResult.aggressiveCongestionAvoidance = this._aggressiveCongestionAvoidance;
@@ -1454,6 +1631,10 @@ export class NetworkprofileProfileTcpProxyProfileOutputReference extends cdktf.C
     if (this._delayedAckMode !== undefined) {
       hasAnyValues = true;
       internalValueResult.delayedAckMode = this._delayedAckMode;
+    }
+    if (this._delayedAckTimerDelay !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.delayedAckTimerDelay = this._delayedAckTimerDelay;
     }
     if (this._idleConnectionTimeout !== undefined) {
       hasAnyValues = true;
@@ -1526,12 +1707,14 @@ export class NetworkprofileProfileTcpProxyProfileOutputReference extends cdktf.C
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._ackOnPush = undefined;
       this._aggressiveCongestionAvoidance = undefined;
       this._autoWindowGrowth = undefined;
       this._automatic = undefined;
       this._ccAlgo = undefined;
       this._congestionRecoveryScalingFactor = undefined;
       this._delayedAckMode = undefined;
+      this._delayedAckTimerDelay = undefined;
       this._idleConnectionTimeout = undefined;
       this._idleConnectionType = undefined;
       this._ignoreTimeWait = undefined;
@@ -1556,12 +1739,14 @@ export class NetworkprofileProfileTcpProxyProfileOutputReference extends cdktf.C
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._ackOnPush = value.ackOnPush;
       this._aggressiveCongestionAvoidance = value.aggressiveCongestionAvoidance;
       this._autoWindowGrowth = value.autoWindowGrowth;
       this._automatic = value.automatic;
       this._ccAlgo = value.ccAlgo;
       this._congestionRecoveryScalingFactor = value.congestionRecoveryScalingFactor;
       this._delayedAckMode = value.delayedAckMode;
+      this._delayedAckTimerDelay = value.delayedAckTimerDelay;
       this._idleConnectionTimeout = value.idleConnectionTimeout;
       this._idleConnectionType = value.idleConnectionType;
       this._ignoreTimeWait = value.ignoreTimeWait;
@@ -1579,6 +1764,22 @@ export class NetworkprofileProfileTcpProxyProfileOutputReference extends cdktf.C
       this._timeWaitDelay = value.timeWaitDelay;
       this._useInterfaceMtu = value.useInterfaceMtu;
     }
+  }
+
+  // ack_on_push - computed: false, optional: true, required: false
+  private _ackOnPush?: string; 
+  public get ackOnPush() {
+    return this.getStringAttribute('ack_on_push');
+  }
+  public set ackOnPush(value: string) {
+    this._ackOnPush = value;
+  }
+  public resetAckOnPush() {
+    this._ackOnPush = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ackOnPushInput() {
+    return this._ackOnPush;
   }
 
   // aggressive_congestion_avoidance - computed: false, optional: true, required: false
@@ -1675,6 +1876,22 @@ export class NetworkprofileProfileTcpProxyProfileOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get delayedAckModeInput() {
     return this._delayedAckMode;
+  }
+
+  // delayed_ack_timer_delay - computed: false, optional: true, required: false
+  private _delayedAckTimerDelay?: string; 
+  public get delayedAckTimerDelay() {
+    return this.getStringAttribute('delayed_ack_timer_delay');
+  }
+  public set delayedAckTimerDelay(value: string) {
+    this._delayedAckTimerDelay = value;
+  }
+  public resetDelayedAckTimerDelay() {
+    this._delayedAckTimerDelay = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get delayedAckTimerDelayInput() {
+    return this._delayedAckTimerDelay;
   }
 
   // idle_connection_timeout - computed: false, optional: true, required: false
@@ -1955,11 +2172,11 @@ export class NetworkprofileProfileTcpProxyProfileList extends cdktf.ComplexList 
 }
 export interface NetworkprofileProfileUdpFastPathProfileDsrProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#dsr_encap_type Networkprofile#dsr_encap_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#dsr_encap_type Networkprofile#dsr_encap_type}
   */
   readonly dsrEncapType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#dsr_type Networkprofile#dsr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#dsr_type Networkprofile#dsr_type}
   */
   readonly dsrType?: string;
 }
@@ -2104,21 +2321,21 @@ export class NetworkprofileProfileUdpFastPathProfileDsrProfileList extends cdktf
 }
 export interface NetworkprofileProfileUdpFastPathProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#per_pkt_loadbalance Networkprofile#per_pkt_loadbalance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#per_pkt_loadbalance Networkprofile#per_pkt_loadbalance}
   */
   readonly perPktLoadbalance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#session_idle_timeout Networkprofile#session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#session_idle_timeout Networkprofile#session_idle_timeout}
   */
   readonly sessionIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#snat Networkprofile#snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#snat Networkprofile#snat}
   */
   readonly snat?: string;
   /**
   * dsr_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#dsr_profile Networkprofile#dsr_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#dsr_profile Networkprofile#dsr_profile}
   */
   readonly dsrProfile?: NetworkprofileProfileUdpFastPathProfileDsrProfile[] | cdktf.IResolvable;
 }
@@ -2321,7 +2538,7 @@ export class NetworkprofileProfileUdpFastPathProfileList extends cdktf.ComplexLi
 }
 export interface NetworkprofileProfileUdpProxyProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#session_idle_timeout Networkprofile#session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#session_idle_timeout Networkprofile#session_idle_timeout}
   */
   readonly sessionIdleTimeout?: string;
 }
@@ -2437,43 +2654,43 @@ export class NetworkprofileProfileUdpProxyProfileList extends cdktf.ComplexList 
 }
 export interface NetworkprofileProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#type Networkprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#type Networkprofile#type}
   */
   readonly type: string;
   /**
   * sctp_fast_path_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#sctp_fast_path_profile Networkprofile#sctp_fast_path_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#sctp_fast_path_profile Networkprofile#sctp_fast_path_profile}
   */
   readonly sctpFastPathProfile?: NetworkprofileProfileSctpFastPathProfile[] | cdktf.IResolvable;
   /**
   * sctp_proxy_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#sctp_proxy_profile Networkprofile#sctp_proxy_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#sctp_proxy_profile Networkprofile#sctp_proxy_profile}
   */
   readonly sctpProxyProfile?: NetworkprofileProfileSctpProxyProfile[] | cdktf.IResolvable;
   /**
   * tcp_fast_path_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#tcp_fast_path_profile Networkprofile#tcp_fast_path_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#tcp_fast_path_profile Networkprofile#tcp_fast_path_profile}
   */
   readonly tcpFastPathProfile?: NetworkprofileProfileTcpFastPathProfile[] | cdktf.IResolvable;
   /**
   * tcp_proxy_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#tcp_proxy_profile Networkprofile#tcp_proxy_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#tcp_proxy_profile Networkprofile#tcp_proxy_profile}
   */
   readonly tcpProxyProfile?: NetworkprofileProfileTcpProxyProfile[] | cdktf.IResolvable;
   /**
   * udp_fast_path_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#udp_fast_path_profile Networkprofile#udp_fast_path_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#udp_fast_path_profile Networkprofile#udp_fast_path_profile}
   */
   readonly udpFastPathProfile?: NetworkprofileProfileUdpFastPathProfile[] | cdktf.IResolvable;
   /**
   * udp_proxy_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#udp_proxy_profile Networkprofile#udp_proxy_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#udp_proxy_profile Networkprofile#udp_proxy_profile}
   */
   readonly udpProxyProfile?: NetworkprofileProfileUdpProxyProfile[] | cdktf.IResolvable;
 }
@@ -2760,7 +2977,7 @@ export class NetworkprofileProfileList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile avi_networkprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile avi_networkprofile}
 */
 export class Networkprofile extends cdktf.TerraformResource {
 
@@ -2776,7 +2993,7 @@ export class Networkprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Networkprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Networkprofile to import
-  * @param importFromId The id of the existing Networkprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Networkprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Networkprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2788,7 +3005,7 @@ export class Networkprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkprofile avi_networkprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkprofile avi_networkprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2799,8 +3016,8 @@ export class Networkprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_networkprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

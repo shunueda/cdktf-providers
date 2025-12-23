@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface VgwConnConfig extends cdktf.TerraformMetaArguments {
   /**
   * BGP local ASN (Autonomous System Number). Integer between 1-4294967294.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#bgp_local_as_num VgwConn#bgp_local_as_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#bgp_local_as_num VgwConn#bgp_local_as_num}
   */
   readonly bgpLocalAsNum: string;
   /**
   * Account of AWS's VGW that is used for this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#bgp_vgw_account VgwConn#bgp_vgw_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#bgp_vgw_account VgwConn#bgp_vgw_account}
   */
   readonly bgpVgwAccount: string;
   /**
   * Id of AWS's VGW that is used for this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#bgp_vgw_id VgwConn#bgp_vgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#bgp_vgw_id VgwConn#bgp_vgw_id}
   */
   readonly bgpVgwId: string;
   /**
   * Region of AWS's VGW that is used for this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#bgp_vgw_region VgwConn#bgp_vgw_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#bgp_vgw_region VgwConn#bgp_vgw_region}
   */
   readonly bgpVgwRegion: string;
   /**
   * The name of the VGW connection which is going to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#conn_name VgwConn#conn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#conn_name VgwConn#conn_name}
   */
   readonly connName: string;
   /**
   * Enable Event Triggered HA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#enable_event_triggered_ha VgwConn#enable_event_triggered_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#enable_event_triggered_ha VgwConn#enable_event_triggered_ha}
   */
   readonly enableEventTriggeredHa?: boolean | cdktf.IResolvable;
   /**
   * Enable learned CIDR approval for the connection. Requires the transit_gateway's 'learned_cidrs_approval_mode' attribute be set to 'connection'. Valid values: true, false. Default value: false. Available as of provider version R2.18+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#enable_learned_cidrs_approval VgwConn#enable_learned_cidrs_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#enable_learned_cidrs_approval VgwConn#enable_learned_cidrs_approval}
   */
   readonly enableLearnedCidrsApproval?: boolean | cdktf.IResolvable;
   /**
   * Name of the Transit Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#gw_name VgwConn#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#gw_name VgwConn#gw_name}
   */
   readonly gwName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#id VgwConn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#id VgwConn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,25 +65,25 @@ export interface VgwConnConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure manual BGP advertised CIDRs for this connection. Available as of provider version R2.18+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#manual_bgp_advertised_cidrs VgwConn#manual_bgp_advertised_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#manual_bgp_advertised_cidrs VgwConn#manual_bgp_advertised_cidrs}
   */
   readonly manualBgpAdvertisedCidrs?: string[];
   /**
   * Connection AS Path Prepend customized by specifying AS PATH for a BGP connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#prepend_as_path VgwConn#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#prepend_as_path VgwConn#prepend_as_path}
   */
   readonly prependAsPath?: string[];
   /**
   * VPC-ID where the Transit Gateway is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#vpc_id VgwConn#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#vpc_id VgwConn#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn aviatrix_vgw_conn}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn aviatrix_vgw_conn}
 */
 export class VgwConn extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class VgwConn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VgwConn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VgwConn to import
-  * @param importFromId The id of the existing VgwConn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VgwConn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VgwConn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class VgwConn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vgw_conn aviatrix_vgw_conn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vgw_conn aviatrix_vgw_conn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class VgwConn extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_vgw_conn',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

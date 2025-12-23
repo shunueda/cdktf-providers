@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_multicloud_endpoint
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_multicloud_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PrivateModeMulticloudEndpointConfig extends cdktf.TerraformMeta
   /**
   * Name of the access account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_multicloud_endpoint#account_name PrivateModeMulticloudEndpoint#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_multicloud_endpoint#account_name PrivateModeMulticloudEndpoint#account_name}
   */
   readonly accountName: string;
   /**
   * ID of the VPC with the Controller load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_multicloud_endpoint#controller_lb_vpc_id PrivateModeMulticloudEndpoint#controller_lb_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_multicloud_endpoint#controller_lb_vpc_id PrivateModeMulticloudEndpoint#controller_lb_vpc_id}
   */
   readonly controllerLbVpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_multicloud_endpoint#id PrivateModeMulticloudEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_multicloud_endpoint#id PrivateModeMulticloudEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface PrivateModeMulticloudEndpointConfig extends cdktf.TerraformMeta
   /**
   * Name of the VPC region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_multicloud_endpoint#region PrivateModeMulticloudEndpoint#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_multicloud_endpoint#region PrivateModeMulticloudEndpoint#region}
   */
   readonly region: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_multicloud_endpoint#vpc_id PrivateModeMulticloudEndpoint#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_multicloud_endpoint#vpc_id PrivateModeMulticloudEndpoint#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_multicloud_endpoint aviatrix_private_mode_multicloud_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_multicloud_endpoint aviatrix_private_mode_multicloud_endpoint}
 */
 export class PrivateModeMulticloudEndpoint extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class PrivateModeMulticloudEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateModeMulticloudEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateModeMulticloudEndpoint to import
-  * @param importFromId The id of the existing PrivateModeMulticloudEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_multicloud_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateModeMulticloudEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_multicloud_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateModeMulticloudEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class PrivateModeMulticloudEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_multicloud_endpoint aviatrix_private_mode_multicloud_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_multicloud_endpoint aviatrix_private_mode_multicloud_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class PrivateModeMulticloudEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_private_mode_multicloud_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

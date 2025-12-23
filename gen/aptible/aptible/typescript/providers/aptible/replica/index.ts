@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica
+// https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ReplicaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica#container_profile Replica#container_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica#container_profile Replica#container_profile}
   */
   readonly containerProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica#container_size Replica#container_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica#container_size Replica#container_size}
   */
   readonly containerSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica#disk_size Replica#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica#disk_size Replica#disk_size}
   */
   readonly diskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica#enable_backups Replica#enable_backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica#enable_backups Replica#enable_backups}
   */
   readonly enableBackups?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica#env_id Replica#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica#env_id Replica#env_id}
   */
   readonly envId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica#handle Replica#handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica#handle Replica#handle}
   */
   readonly handle: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica#id Replica#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica#id Replica#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica#iops Replica#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica#iops Replica#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica#primary_database_id Replica#primary_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica#primary_database_id Replica#primary_database_id}
   */
   readonly primaryDatabaseId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica aptible_replica}
+* Represents a {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica aptible_replica}
 */
 export class Replica extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class Replica extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Replica resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Replica to import
-  * @param importFromId The id of the existing Replica that should be imported. Refer to the {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Replica that should be imported. Refer to the {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Replica to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class Replica extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/replica aptible_replica} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/replica aptible_replica} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class Replica extends cdktf.TerraformResource {
       terraformResourceType: 'aptible_replica',
       terraformGeneratorMetadata: {
         providerName: 'aptible',
-        providerVersion: '0.9.18',
-        providerVersionConstraint: '0.9.18'
+        providerVersion: '0.9.19',
+        providerVersionConstraint: '0.9.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

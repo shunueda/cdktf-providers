@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/deployment_options
+// https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/deployment_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataAstroDeploymentOptionsConfig extends cdktf.TerraformMetaArg
   /**
   * Cloud provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/deployment_options#cloud_provider DataAstroDeploymentOptions#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/deployment_options#cloud_provider DataAstroDeploymentOptions#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * Deployment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/deployment_options#deployment_id DataAstroDeploymentOptions#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/deployment_options#deployment_id DataAstroDeploymentOptions#deployment_id}
   */
   readonly deploymentId?: string;
   /**
   * Deployment type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/deployment_options#deployment_type DataAstroDeploymentOptions#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/deployment_options#deployment_type DataAstroDeploymentOptions#deployment_type}
   */
   readonly deploymentType?: string;
   /**
   * Executor. Valid values: CELERY, KUBERNETES, ASTRO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/deployment_options#executor DataAstroDeploymentOptions#executor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/deployment_options#executor DataAstroDeploymentOptions#executor}
   */
   readonly executor?: string;
 }
@@ -1282,7 +1282,7 @@ export class DataAstroDeploymentOptionsWorkloadIdentityOptionsList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/deployment_options astro_deployment_options}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/deployment_options astro_deployment_options}
 */
 export class DataAstroDeploymentOptions extends cdktf.TerraformDataSource {
 
@@ -1298,7 +1298,7 @@ export class DataAstroDeploymentOptions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAstroDeploymentOptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAstroDeploymentOptions to import
-  * @param importFromId The id of the existing DataAstroDeploymentOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/deployment_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAstroDeploymentOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/deployment_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAstroDeploymentOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1310,7 +1310,7 @@ export class DataAstroDeploymentOptions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/deployment_options astro_deployment_options} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/deployment_options astro_deployment_options} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1321,8 +1321,8 @@ export class DataAstroDeploymentOptions extends cdktf.TerraformDataSource {
       terraformResourceType: 'astro_deployment_options',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.10',
-        providerVersionConstraint: '1.0.10'
+        providerVersion: '1.0.11',
+        providerVersionConstraint: '1.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface TransitGatewayPeeringConfig extends cdktf.TerraformMetaArgument
   /**
   * Disable ActiveMesh, no crossing tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#disable_activemesh TransitGatewayPeering#disable_activemesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#disable_activemesh TransitGatewayPeering#disable_activemesh}
   */
   readonly disableActivemesh?: boolean | cdktf.IResolvable;
   /**
   * (Optional) Advanced option. Enable Insane Mode Encryption over Internet. Transit gateways must be in Insane Mode. Currently, only inter-cloud connections between AWS and Azure are supported. Required with valid `tunnel_count`. Conflicts with `enable_peering_over_private_network` and `enable_single_tunnel_mode`. Type: Boolean. Default: false. Available as of provider version R2.19+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#enable_insane_mode_encryption_over_internet TransitGatewayPeering#enable_insane_mode_encryption_over_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#enable_insane_mode_encryption_over_internet TransitGatewayPeering#enable_insane_mode_encryption_over_internet}
   */
   readonly enableInsaneModeEncryptionOverInternet?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the maximum amount of HPE tunnels will be created. Only valid when the two transit gateways are each launched in Insane Mode and in the same cloud type. Available as of provider version R2.22.2+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#enable_max_performance TransitGatewayPeering#enable_max_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#enable_max_performance TransitGatewayPeering#enable_max_performance}
   */
   readonly enableMaxPerformance?: boolean | cdktf.IResolvable;
   /**
   * (Optional) Advanced option. Enable peering over private network. Only appears and applies to when the two Multi-cloud Transit Gateways are each launched in Insane Mode and in a different cloud type. Conflicts with `enable_insane_mode_encryption_over_internet` and `tunnel_count`. Type: Boolean. Default: false. Available in provider version R2.17.1+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#enable_peering_over_private_network TransitGatewayPeering#enable_peering_over_private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#enable_peering_over_private_network TransitGatewayPeering#enable_peering_over_private_network}
   */
   readonly enablePeeringOverPrivateNetwork?: boolean | cdktf.IResolvable;
   /**
   * (Optional) Advanced option. Enable peering with Single-Tunnel mode. Only appears and applies to when the two Multi-cloud Transit Gateways are each launched in Insane Mode and in a different cloud type. Required with `enable_peering_over_private_network`. Conflicts with `enable_insane_mode_encryption_over_internet` and `tunnel_count`. Type: Boolean. Default: false. Available as of provider version R2.18+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#enable_single_tunnel_mode TransitGatewayPeering#enable_single_tunnel_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#enable_single_tunnel_mode TransitGatewayPeering#enable_single_tunnel_mode}
   */
   readonly enableSingleTunnelMode?: boolean | cdktf.IResolvable;
   /**
   * List of excluded network CIDRs for the first transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#gateway1_excluded_network_cidrs TransitGatewayPeering#gateway1_excluded_network_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#gateway1_excluded_network_cidrs TransitGatewayPeering#gateway1_excluded_network_cidrs}
   */
   readonly gateway1ExcludedNetworkCidrs?: string[];
   /**
   * List of excluded TGW connections for the first transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#gateway1_excluded_tgw_connections TransitGatewayPeering#gateway1_excluded_tgw_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#gateway1_excluded_tgw_connections TransitGatewayPeering#gateway1_excluded_tgw_connections}
   */
   readonly gateway1ExcludedTgwConnections?: string[];
   /**
   * Gateway 1 logical interface names for edge gateways where the peering originates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#gateway1_logical_ifnames TransitGatewayPeering#gateway1_logical_ifnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#gateway1_logical_ifnames TransitGatewayPeering#gateway1_logical_ifnames}
   */
   readonly gateway1LogicalIfnames?: string[];
   /**
   * List of excluded network CIDRs for the second transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#gateway2_excluded_network_cidrs TransitGatewayPeering#gateway2_excluded_network_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#gateway2_excluded_network_cidrs TransitGatewayPeering#gateway2_excluded_network_cidrs}
   */
   readonly gateway2ExcludedNetworkCidrs?: string[];
   /**
   * List of excluded TGW connections for the second transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#gateway2_excluded_tgw_connections TransitGatewayPeering#gateway2_excluded_tgw_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#gateway2_excluded_tgw_connections TransitGatewayPeering#gateway2_excluded_tgw_connections}
   */
   readonly gateway2ExcludedTgwConnections?: string[];
   /**
   * Gateway 2 logical interface names for edge gateways where the peering terminates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#gateway2_logical_ifnames TransitGatewayPeering#gateway2_logical_ifnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#gateway2_logical_ifnames TransitGatewayPeering#gateway2_logical_ifnames}
   */
   readonly gateway2LogicalIfnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#id TransitGatewayPeering#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#id TransitGatewayPeering#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,49 +83,49 @@ export interface TransitGatewayPeeringConfig extends cdktf.TerraformMetaArgument
   /**
   * Enable HPE mode for peering with Edge Transit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#insane_mode TransitGatewayPeering#insane_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#insane_mode TransitGatewayPeering#insane_mode}
   */
   readonly insaneMode?: boolean | cdktf.IResolvable;
   /**
   * Enable jumbo frame for over private peering with Edge Transit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#jumbo_frame TransitGatewayPeering#jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#jumbo_frame TransitGatewayPeering#jumbo_frame}
   */
   readonly jumboFrame?: boolean | cdktf.IResolvable;
   /**
   * AS Path Prepend customized by specifying AS PATH for a BGP connection. Applies on transit_gateway_name1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#prepend_as_path1 TransitGatewayPeering#prepend_as_path1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#prepend_as_path1 TransitGatewayPeering#prepend_as_path1}
   */
   readonly prependAsPath1?: string[];
   /**
   * AS Path Prepend customized by specifying AS PATH for a BGP connection. Applies on transit_gateway_name2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#prepend_as_path2 TransitGatewayPeering#prepend_as_path2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#prepend_as_path2 TransitGatewayPeering#prepend_as_path2}
   */
   readonly prependAsPath2?: string[];
   /**
   * The first transit gateway name to make a peer pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#transit_gateway_name1 TransitGatewayPeering#transit_gateway_name1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#transit_gateway_name1 TransitGatewayPeering#transit_gateway_name1}
   */
   readonly transitGatewayName1: string;
   /**
   * The second transit gateway name to make a peer pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#transit_gateway_name2 TransitGatewayPeering#transit_gateway_name2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#transit_gateway_name2 TransitGatewayPeering#transit_gateway_name2}
   */
   readonly transitGatewayName2: string;
   /**
   * (Optional) Advanced option. Number of public tunnels. Required with `enable_insane_mode_encryption_over_internet`. Conflicts with `enable_peering_over_private_network` and `enable_single_tunnel_mode`. Type: Integer. Valid Range: 2-20. Available as of provider version R2.19+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#tunnel_count TransitGatewayPeering#tunnel_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#tunnel_count TransitGatewayPeering#tunnel_count}
   */
   readonly tunnelCount?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering aviatrix_transit_gateway_peering}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering aviatrix_transit_gateway_peering}
 */
 export class TransitGatewayPeering extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class TransitGatewayPeering extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TransitGatewayPeering resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransitGatewayPeering to import
-  * @param importFromId The id of the existing TransitGatewayPeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransitGatewayPeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransitGatewayPeering to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class TransitGatewayPeering extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway_peering aviatrix_transit_gateway_peering} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway_peering aviatrix_transit_gateway_peering} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class TransitGatewayPeering extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_transit_gateway_peering',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -392,7 +392,7 @@ export class TransitGatewayPeering extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // insane_mode - computed: false, optional: true, required: false
+  // insane_mode - computed: true, optional: true, required: false
   private _insaneMode?: boolean | cdktf.IResolvable; 
   public get insaneMode() {
     return this.getBooleanAttribute('insane_mode');

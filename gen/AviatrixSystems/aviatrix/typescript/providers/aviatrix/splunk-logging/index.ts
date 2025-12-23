@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/splunk_logging
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/splunk_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SplunkLoggingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Custom configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/splunk_logging#custom_input_config SplunkLogging#custom_input_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/splunk_logging#custom_input_config SplunkLogging#custom_input_config}
   */
   readonly customInputConfig?: string;
   /**
   * Configuration file. Use the filebase64 function to read from a file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/splunk_logging#custom_output_config_file SplunkLogging#custom_output_config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/splunk_logging#custom_output_config_file SplunkLogging#custom_output_config_file}
   */
   readonly customOutputConfigFile?: string;
   /**
   * List of excluded gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/splunk_logging#excluded_gateways SplunkLogging#excluded_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/splunk_logging#excluded_gateways SplunkLogging#excluded_gateways}
   */
   readonly excludedGateways?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/splunk_logging#id SplunkLogging#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/splunk_logging#id SplunkLogging#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface SplunkLoggingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/splunk_logging#port SplunkLogging#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/splunk_logging#port SplunkLogging#port}
   */
   readonly port?: number;
   /**
   * Server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/splunk_logging#server SplunkLogging#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/splunk_logging#server SplunkLogging#server}
   */
   readonly server?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/splunk_logging aviatrix_splunk_logging}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/splunk_logging aviatrix_splunk_logging}
 */
 export class SplunkLogging extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class SplunkLogging extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SplunkLogging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SplunkLogging to import
-  * @param importFromId The id of the existing SplunkLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/splunk_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SplunkLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/splunk_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SplunkLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class SplunkLogging extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/splunk_logging aviatrix_splunk_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/splunk_logging aviatrix_splunk_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class SplunkLogging extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_splunk_logging',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

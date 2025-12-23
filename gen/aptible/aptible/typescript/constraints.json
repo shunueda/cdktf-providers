@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "aptible": "0.9.18"
+    "aptible": "0.9.19"
   }
 }

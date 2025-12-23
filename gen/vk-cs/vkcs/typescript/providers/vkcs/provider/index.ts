@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface VkcsProviderConfig {
   /**
   * The Identity authentication URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs#auth_url VkcsProvider#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs#auth_url VkcsProvider#auth_url}
   */
   readonly authUrl?: string;
   /**
   * Cloud Containers API version to use. _note_ Only for custom VKCS deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs#cloud_containers_api_version VkcsProvider#cloud_containers_api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs#cloud_containers_api_version VkcsProvider#cloud_containers_api_version}
   */
   readonly cloudContainersApiVersion?: string;
   /**
   * Password to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs#password VkcsProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs#password VkcsProvider#password}
   */
   readonly password?: string;
   /**
   * The ID of Project to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs#project_id VkcsProvider#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs#project_id VkcsProvider#project_id}
   */
   readonly projectId?: string;
   /**
   * A region to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs#region VkcsProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs#region VkcsProvider#region}
   */
   readonly region?: string;
   /**
   * The id of the domain where the user resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs#user_domain_id VkcsProvider#user_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs#user_domain_id VkcsProvider#user_domain_id}
   */
   readonly userDomainId?: string;
   /**
   * The name of the domain where the user resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs#user_domain_name VkcsProvider#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs#user_domain_name VkcsProvider#user_domain_name}
   */
   readonly userDomainName?: string;
   /**
   * User name to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs#username VkcsProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs#username VkcsProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs#alias VkcsProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs#alias VkcsProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs vkcs}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs vkcs}
 */
 export class VkcsProvider extends cdktf.TerraformProvider {
 
@@ -80,7 +80,7 @@ export class VkcsProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a VkcsProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VkcsProvider to import
-  * @param importFromId The id of the existing VkcsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VkcsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VkcsProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class VkcsProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs vkcs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs vkcs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class VkcsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vkcs',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       terraformProviderSource: 'vk-cs/vkcs'
     });

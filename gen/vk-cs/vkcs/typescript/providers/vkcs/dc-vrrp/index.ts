@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DcVrrpConfig extends cdktf.TerraformMetaArguments {
   /**
   * VRRP Advertise interval. Default is 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp#advert_interval DcVrrp#advert_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp#advert_interval DcVrrp#advert_interval}
   */
   readonly advertInterval?: number;
   /**
   * Description of the VRRP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp#description DcVrrp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp#description DcVrrp#description}
   */
   readonly description?: string;
   /**
   * Enable or disable item. Default is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp#enabled DcVrrp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp#enabled DcVrrp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * VRRP Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp#group_id DcVrrp#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp#group_id DcVrrp#group_id}
   */
   readonly groupId: number;
   /**
   * Name of the VRRP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp#name DcVrrp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp#name DcVrrp#name}
   */
   readonly name?: string;
   /**
   * Network ID to attach. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp#network_id DcVrrp#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp#network_id DcVrrp#network_id}
   */
   readonly networkId: string;
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`. Changing this creates a new vrrp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp#region DcVrrp#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp#region DcVrrp#region}
   */
   readonly region?: string;
   /**
   * Subnet ID to attach. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp#subnet_id DcVrrp#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp#subnet_id DcVrrp#subnet_id}
   */
   readonly subnetId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp vkcs_dc_vrrp}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp vkcs_dc_vrrp}
 */
 export class DcVrrp extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class DcVrrp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcVrrp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcVrrp to import
-  * @param importFromId The id of the existing DcVrrp that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcVrrp that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcVrrp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class DcVrrp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_vrrp vkcs_dc_vrrp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_vrrp vkcs_dc_vrrp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class DcVrrp extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_dc_vrrp',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

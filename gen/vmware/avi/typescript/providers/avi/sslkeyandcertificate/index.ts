@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,148 +8,148 @@ import * as cdktf from 'cdktf';
 
 export interface SslkeyandcertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#certificate_base64 Sslkeyandcertificate#certificate_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#certificate_base64 Sslkeyandcertificate#certificate_base64}
   */
   readonly certificateBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#certificate_management_profile_ref Sslkeyandcertificate#certificate_management_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#certificate_management_profile_ref Sslkeyandcertificate#certificate_management_profile_ref}
   */
   readonly certificateManagementProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#created_by Sslkeyandcertificate#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#created_by Sslkeyandcertificate#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#enable_ocsp_stapling Sslkeyandcertificate#enable_ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#enable_ocsp_stapling Sslkeyandcertificate#enable_ocsp_stapling}
   */
   readonly enableOcspStapling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#enckey_base64 Sslkeyandcertificate#enckey_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#enckey_base64 Sslkeyandcertificate#enckey_base64}
   */
   readonly enckeyBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#enckey_name Sslkeyandcertificate#enckey_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#enckey_name Sslkeyandcertificate#enckey_name}
   */
   readonly enckeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#format Sslkeyandcertificate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#format Sslkeyandcertificate#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#hardwaresecuritymodulegroup_ref Sslkeyandcertificate#hardwaresecuritymodulegroup_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#hardwaresecuritymodulegroup_ref Sslkeyandcertificate#hardwaresecuritymodulegroup_ref}
   */
   readonly hardwaresecuritymodulegroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#id Sslkeyandcertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#id Sslkeyandcertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#import_key_to_hsm Sslkeyandcertificate#import_key_to_hsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#import_key_to_hsm Sslkeyandcertificate#import_key_to_hsm}
   */
   readonly importKeyToHsm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#is_federated Sslkeyandcertificate#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#is_federated Sslkeyandcertificate#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#key Sslkeyandcertificate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#key Sslkeyandcertificate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#key_base64 Sslkeyandcertificate#key_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#key_base64 Sslkeyandcertificate#key_base64}
   */
   readonly keyBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#key_passphrase Sslkeyandcertificate#key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#key_passphrase Sslkeyandcertificate#key_passphrase}
   */
   readonly keyPassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#name Sslkeyandcertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#name Sslkeyandcertificate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#ocsp_error_status Sslkeyandcertificate#ocsp_error_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#ocsp_error_status Sslkeyandcertificate#ocsp_error_status}
   */
   readonly ocspErrorStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#ocsp_responder_url_list_from_certs Sslkeyandcertificate#ocsp_responder_url_list_from_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#ocsp_responder_url_list_from_certs Sslkeyandcertificate#ocsp_responder_url_list_from_certs}
   */
   readonly ocspResponderUrlListFromCerts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#status Sslkeyandcertificate#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#status Sslkeyandcertificate#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#tenant_ref Sslkeyandcertificate#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#tenant_ref Sslkeyandcertificate#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#type Sslkeyandcertificate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#type Sslkeyandcertificate#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#uuid Sslkeyandcertificate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#uuid Sslkeyandcertificate#uuid}
   */
   readonly uuid?: string;
   /**
   * ca_certs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#ca_certs Sslkeyandcertificate#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#ca_certs Sslkeyandcertificate#ca_certs}
   */
   readonly caCerts?: SslkeyandcertificateCaCerts[] | cdktf.IResolvable;
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#certificate Sslkeyandcertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#certificate Sslkeyandcertificate#certificate}
   */
   readonly certificate: SslkeyandcertificateCertificate[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#configpb_attributes Sslkeyandcertificate#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#configpb_attributes Sslkeyandcertificate#configpb_attributes}
   */
   readonly configpbAttributes?: SslkeyandcertificateConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * dynamic_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#dynamic_params Sslkeyandcertificate#dynamic_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#dynamic_params Sslkeyandcertificate#dynamic_params}
   */
   readonly dynamicParams?: SslkeyandcertificateDynamicParams[] | cdktf.IResolvable;
   /**
   * key_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#key_params Sslkeyandcertificate#key_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#key_params Sslkeyandcertificate#key_params}
   */
   readonly keyParams?: SslkeyandcertificateKeyParams[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#markers Sslkeyandcertificate#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#markers Sslkeyandcertificate#markers}
   */
   readonly markers?: SslkeyandcertificateMarkers[] | cdktf.IResolvable;
   /**
   * ocsp_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#ocsp_config Sslkeyandcertificate#ocsp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#ocsp_config Sslkeyandcertificate#ocsp_config}
   */
   readonly ocspConfig?: SslkeyandcertificateOcspConfig[] | cdktf.IResolvable;
   /**
   * ocsp_response_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#ocsp_response_info Sslkeyandcertificate#ocsp_response_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#ocsp_response_info Sslkeyandcertificate#ocsp_response_info}
   */
   readonly ocspResponseInfo?: SslkeyandcertificateOcspResponseInfo[] | cdktf.IResolvable;
 }
 export interface SslkeyandcertificateCaCerts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#ca_ref Sslkeyandcertificate#ca_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#ca_ref Sslkeyandcertificate#ca_ref}
   */
   readonly caRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#name Sslkeyandcertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#name Sslkeyandcertificate#name}
   */
   readonly name?: string;
 }
@@ -294,35 +294,35 @@ export class SslkeyandcertificateCaCertsList extends cdktf.ComplexList {
 }
 export interface SslkeyandcertificateCertificateIssuer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#common_name Sslkeyandcertificate#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#common_name Sslkeyandcertificate#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#country Sslkeyandcertificate#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#country Sslkeyandcertificate#country}
   */
   readonly country?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#distinguished_name Sslkeyandcertificate#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#distinguished_name Sslkeyandcertificate#distinguished_name}
   */
   readonly distinguishedName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#email_address Sslkeyandcertificate#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#email_address Sslkeyandcertificate#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#locality Sslkeyandcertificate#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#locality Sslkeyandcertificate#locality}
   */
   readonly locality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#organization Sslkeyandcertificate#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#organization Sslkeyandcertificate#organization}
   */
   readonly organization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#organization_unit Sslkeyandcertificate#organization_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#organization_unit Sslkeyandcertificate#organization_unit}
   */
   readonly organizationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#state Sslkeyandcertificate#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#state Sslkeyandcertificate#state}
   */
   readonly state?: string;
 }
@@ -641,7 +641,7 @@ export class SslkeyandcertificateCertificateIssuerList extends cdktf.ComplexList
 }
 export interface SslkeyandcertificateCertificateKeyParamsEcParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#curve Sslkeyandcertificate#curve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#curve Sslkeyandcertificate#curve}
   */
   readonly curve?: string;
 }
@@ -755,13 +755,129 @@ export class SslkeyandcertificateCertificateKeyParamsEcParamsList extends cdktf.
     return new SslkeyandcertificateCertificateKeyParamsEcParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface SslkeyandcertificateCertificateKeyParamsMldsaParams {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#algorithm Sslkeyandcertificate#algorithm}
+  */
+  readonly algorithm?: string;
+}
+
+export function sslkeyandcertificateCertificateKeyParamsMldsaParamsToTerraform(struct?: SslkeyandcertificateCertificateKeyParamsMldsaParams | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    algorithm: cdktf.stringToTerraform(struct!.algorithm),
+  }
+}
+
+
+export function sslkeyandcertificateCertificateKeyParamsMldsaParamsToHclTerraform(struct?: SslkeyandcertificateCertificateKeyParamsMldsaParams | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    algorithm: {
+      value: cdktf.stringToHclTerraform(struct!.algorithm),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SslkeyandcertificateCertificateKeyParamsMldsaParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SslkeyandcertificateCertificateKeyParamsMldsaParams | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._algorithm !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.algorithm = this._algorithm;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SslkeyandcertificateCertificateKeyParamsMldsaParams | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._algorithm = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._algorithm = value.algorithm;
+    }
+  }
+
+  // algorithm - computed: false, optional: true, required: false
+  private _algorithm?: string; 
+  public get algorithm() {
+    return this.getStringAttribute('algorithm');
+  }
+  public set algorithm(value: string) {
+    this._algorithm = value;
+  }
+  public resetAlgorithm() {
+    this._algorithm = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get algorithmInput() {
+    return this._algorithm;
+  }
+}
+
+export class SslkeyandcertificateCertificateKeyParamsMldsaParamsList extends cdktf.ComplexList {
+  public internalValue? : SslkeyandcertificateCertificateKeyParamsMldsaParams[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SslkeyandcertificateCertificateKeyParamsMldsaParamsOutputReference {
+    return new SslkeyandcertificateCertificateKeyParamsMldsaParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface SslkeyandcertificateCertificateKeyParamsRsaParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#exponent Sslkeyandcertificate#exponent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#exponent Sslkeyandcertificate#exponent}
   */
   readonly exponent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#key_size Sslkeyandcertificate#key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#key_size Sslkeyandcertificate#key_size}
   */
   readonly keySize?: string;
 }
@@ -906,19 +1022,25 @@ export class SslkeyandcertificateCertificateKeyParamsRsaParamsList extends cdktf
 }
 export interface SslkeyandcertificateCertificateKeyParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#algorithm Sslkeyandcertificate#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#algorithm Sslkeyandcertificate#algorithm}
   */
   readonly algorithm: string;
   /**
   * ec_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#ec_params Sslkeyandcertificate#ec_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#ec_params Sslkeyandcertificate#ec_params}
   */
   readonly ecParams?: SslkeyandcertificateCertificateKeyParamsEcParams[] | cdktf.IResolvable;
   /**
+  * mldsa_params block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#mldsa_params Sslkeyandcertificate#mldsa_params}
+  */
+  readonly mldsaParams?: SslkeyandcertificateCertificateKeyParamsMldsaParams[] | cdktf.IResolvable;
+  /**
   * rsa_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#rsa_params Sslkeyandcertificate#rsa_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#rsa_params Sslkeyandcertificate#rsa_params}
   */
   readonly rsaParams?: SslkeyandcertificateCertificateKeyParamsRsaParams[] | cdktf.IResolvable;
 }
@@ -931,6 +1053,7 @@ export function sslkeyandcertificateCertificateKeyParamsToTerraform(struct?: Ssl
   return {
     algorithm: cdktf.stringToTerraform(struct!.algorithm),
     ec_params: cdktf.listMapper(sslkeyandcertificateCertificateKeyParamsEcParamsToTerraform, true)(struct!.ecParams),
+    mldsa_params: cdktf.listMapper(sslkeyandcertificateCertificateKeyParamsMldsaParamsToTerraform, true)(struct!.mldsaParams),
     rsa_params: cdktf.listMapper(sslkeyandcertificateCertificateKeyParamsRsaParamsToTerraform, true)(struct!.rsaParams),
   }
 }
@@ -953,6 +1076,12 @@ export function sslkeyandcertificateCertificateKeyParamsToHclTerraform(struct?: 
       isBlock: true,
       type: "set",
       storageClassType: "SslkeyandcertificateCertificateKeyParamsEcParamsList",
+    },
+    mldsa_params: {
+      value: cdktf.listMapperHcl(sslkeyandcertificateCertificateKeyParamsMldsaParamsToHclTerraform, true)(struct!.mldsaParams),
+      isBlock: true,
+      type: "set",
+      storageClassType: "SslkeyandcertificateCertificateKeyParamsMldsaParamsList",
     },
     rsa_params: {
       value: cdktf.listMapperHcl(sslkeyandcertificateCertificateKeyParamsRsaParamsToHclTerraform, true)(struct!.rsaParams),
@@ -994,6 +1123,10 @@ export class SslkeyandcertificateCertificateKeyParamsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.ecParams = this._ecParams?.internalValue;
     }
+    if (this._mldsaParams?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mldsaParams = this._mldsaParams?.internalValue;
+    }
     if (this._rsaParams?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.rsaParams = this._rsaParams?.internalValue;
@@ -1007,6 +1140,7 @@ export class SslkeyandcertificateCertificateKeyParamsOutputReference extends cdk
       this.resolvableValue = undefined;
       this._algorithm = undefined;
       this._ecParams.internalValue = undefined;
+      this._mldsaParams.internalValue = undefined;
       this._rsaParams.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -1018,6 +1152,7 @@ export class SslkeyandcertificateCertificateKeyParamsOutputReference extends cdk
       this.resolvableValue = undefined;
       this._algorithm = value.algorithm;
       this._ecParams.internalValue = value.ecParams;
+      this._mldsaParams.internalValue = value.mldsaParams;
       this._rsaParams.internalValue = value.rsaParams;
     }
   }
@@ -1049,6 +1184,22 @@ export class SslkeyandcertificateCertificateKeyParamsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get ecParamsInput() {
     return this._ecParams.internalValue;
+  }
+
+  // mldsa_params - computed: false, optional: true, required: false
+  private _mldsaParams = new SslkeyandcertificateCertificateKeyParamsMldsaParamsList(this, "mldsa_params", true);
+  public get mldsaParams() {
+    return this._mldsaParams;
+  }
+  public putMldsaParams(value: SslkeyandcertificateCertificateKeyParamsMldsaParams[] | cdktf.IResolvable) {
+    this._mldsaParams.internalValue = value;
+  }
+  public resetMldsaParams() {
+    this._mldsaParams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mldsaParamsInput() {
+    return this._mldsaParams.internalValue;
   }
 
   // rsa_params - computed: false, optional: true, required: false
@@ -1089,35 +1240,35 @@ export class SslkeyandcertificateCertificateKeyParamsList extends cdktf.ComplexL
 }
 export interface SslkeyandcertificateCertificateSubject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#common_name Sslkeyandcertificate#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#common_name Sslkeyandcertificate#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#country Sslkeyandcertificate#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#country Sslkeyandcertificate#country}
   */
   readonly country?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#distinguished_name Sslkeyandcertificate#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#distinguished_name Sslkeyandcertificate#distinguished_name}
   */
   readonly distinguishedName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#email_address Sslkeyandcertificate#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#email_address Sslkeyandcertificate#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#locality Sslkeyandcertificate#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#locality Sslkeyandcertificate#locality}
   */
   readonly locality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#organization Sslkeyandcertificate#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#organization Sslkeyandcertificate#organization}
   */
   readonly organization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#organization_unit Sslkeyandcertificate#organization_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#organization_unit Sslkeyandcertificate#organization_unit}
   */
   readonly organizationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#state Sslkeyandcertificate#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#state Sslkeyandcertificate#state}
   */
   readonly state?: string;
 }
@@ -1436,85 +1587,85 @@ export class SslkeyandcertificateCertificateSubjectList extends cdktf.ComplexLis
 }
 export interface SslkeyandcertificateCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#certificate Sslkeyandcertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#certificate Sslkeyandcertificate#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#certificate_signing_request Sslkeyandcertificate#certificate_signing_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#certificate_signing_request Sslkeyandcertificate#certificate_signing_request}
   */
   readonly certificateSigningRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#chain_verified Sslkeyandcertificate#chain_verified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#chain_verified Sslkeyandcertificate#chain_verified}
   */
   readonly chainVerified?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#days_until_expire Sslkeyandcertificate#days_until_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#days_until_expire Sslkeyandcertificate#days_until_expire}
   */
   readonly daysUntilExpire?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#expiry_status Sslkeyandcertificate#expiry_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#expiry_status Sslkeyandcertificate#expiry_status}
   */
   readonly expiryStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#fingerprint Sslkeyandcertificate#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#fingerprint Sslkeyandcertificate#fingerprint}
   */
   readonly fingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#not_after Sslkeyandcertificate#not_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#not_after Sslkeyandcertificate#not_after}
   */
   readonly notAfter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#not_before Sslkeyandcertificate#not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#not_before Sslkeyandcertificate#not_before}
   */
   readonly notBefore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#public_key Sslkeyandcertificate#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#public_key Sslkeyandcertificate#public_key}
   */
   readonly publicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#self_signed Sslkeyandcertificate#self_signed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#self_signed Sslkeyandcertificate#self_signed}
   */
   readonly selfSigned?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#serial_number Sslkeyandcertificate#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#serial_number Sslkeyandcertificate#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#signature Sslkeyandcertificate#signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#signature Sslkeyandcertificate#signature}
   */
   readonly signature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#signature_algorithm Sslkeyandcertificate#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#signature_algorithm Sslkeyandcertificate#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#subject_alt_names Sslkeyandcertificate#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#subject_alt_names Sslkeyandcertificate#subject_alt_names}
   */
   readonly subjectAltNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#text Sslkeyandcertificate#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#text Sslkeyandcertificate#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#version Sslkeyandcertificate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#version Sslkeyandcertificate#version}
   */
   readonly version?: string;
   /**
   * issuer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#issuer Sslkeyandcertificate#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#issuer Sslkeyandcertificate#issuer}
   */
   readonly issuer?: SslkeyandcertificateCertificateIssuer[] | cdktf.IResolvable;
   /**
   * key_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#key_params Sslkeyandcertificate#key_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#key_params Sslkeyandcertificate#key_params}
   */
   readonly keyParams?: SslkeyandcertificateCertificateKeyParams[] | cdktf.IResolvable;
   /**
   * subject block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#subject Sslkeyandcertificate#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#subject Sslkeyandcertificate#subject}
   */
   readonly subject?: SslkeyandcertificateCertificateSubject[] | cdktf.IResolvable;
 }
@@ -2152,7 +2303,7 @@ export class SslkeyandcertificateCertificateList extends cdktf.ComplexList {
 }
 export interface SslkeyandcertificateConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#version Sslkeyandcertificate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#version Sslkeyandcertificate#version}
   */
   readonly version?: string;
 }
@@ -2268,19 +2419,19 @@ export class SslkeyandcertificateConfigpbAttributesList extends cdktf.ComplexLis
 }
 export interface SslkeyandcertificateDynamicParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#is_dynamic Sslkeyandcertificate#is_dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#is_dynamic Sslkeyandcertificate#is_dynamic}
   */
   readonly isDynamic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#is_sensitive Sslkeyandcertificate#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#is_sensitive Sslkeyandcertificate#is_sensitive}
   */
   readonly isSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#name Sslkeyandcertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#name Sslkeyandcertificate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#value Sslkeyandcertificate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#value Sslkeyandcertificate#value}
   */
   readonly value?: string;
 }
@@ -2480,7 +2631,7 @@ export class SslkeyandcertificateDynamicParamsList extends cdktf.ComplexList {
 }
 export interface SslkeyandcertificateKeyParamsEcParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#curve Sslkeyandcertificate#curve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#curve Sslkeyandcertificate#curve}
   */
   readonly curve?: string;
 }
@@ -2594,13 +2745,129 @@ export class SslkeyandcertificateKeyParamsEcParamsList extends cdktf.ComplexList
     return new SslkeyandcertificateKeyParamsEcParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface SslkeyandcertificateKeyParamsMldsaParams {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#algorithm Sslkeyandcertificate#algorithm}
+  */
+  readonly algorithm?: string;
+}
+
+export function sslkeyandcertificateKeyParamsMldsaParamsToTerraform(struct?: SslkeyandcertificateKeyParamsMldsaParams | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    algorithm: cdktf.stringToTerraform(struct!.algorithm),
+  }
+}
+
+
+export function sslkeyandcertificateKeyParamsMldsaParamsToHclTerraform(struct?: SslkeyandcertificateKeyParamsMldsaParams | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    algorithm: {
+      value: cdktf.stringToHclTerraform(struct!.algorithm),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SslkeyandcertificateKeyParamsMldsaParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SslkeyandcertificateKeyParamsMldsaParams | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._algorithm !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.algorithm = this._algorithm;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SslkeyandcertificateKeyParamsMldsaParams | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._algorithm = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._algorithm = value.algorithm;
+    }
+  }
+
+  // algorithm - computed: false, optional: true, required: false
+  private _algorithm?: string; 
+  public get algorithm() {
+    return this.getStringAttribute('algorithm');
+  }
+  public set algorithm(value: string) {
+    this._algorithm = value;
+  }
+  public resetAlgorithm() {
+    this._algorithm = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get algorithmInput() {
+    return this._algorithm;
+  }
+}
+
+export class SslkeyandcertificateKeyParamsMldsaParamsList extends cdktf.ComplexList {
+  public internalValue? : SslkeyandcertificateKeyParamsMldsaParams[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SslkeyandcertificateKeyParamsMldsaParamsOutputReference {
+    return new SslkeyandcertificateKeyParamsMldsaParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface SslkeyandcertificateKeyParamsRsaParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#exponent Sslkeyandcertificate#exponent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#exponent Sslkeyandcertificate#exponent}
   */
   readonly exponent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#key_size Sslkeyandcertificate#key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#key_size Sslkeyandcertificate#key_size}
   */
   readonly keySize?: string;
 }
@@ -2745,19 +3012,25 @@ export class SslkeyandcertificateKeyParamsRsaParamsList extends cdktf.ComplexLis
 }
 export interface SslkeyandcertificateKeyParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#algorithm Sslkeyandcertificate#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#algorithm Sslkeyandcertificate#algorithm}
   */
   readonly algorithm: string;
   /**
   * ec_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#ec_params Sslkeyandcertificate#ec_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#ec_params Sslkeyandcertificate#ec_params}
   */
   readonly ecParams?: SslkeyandcertificateKeyParamsEcParams[] | cdktf.IResolvable;
   /**
+  * mldsa_params block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#mldsa_params Sslkeyandcertificate#mldsa_params}
+  */
+  readonly mldsaParams?: SslkeyandcertificateKeyParamsMldsaParams[] | cdktf.IResolvable;
+  /**
   * rsa_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#rsa_params Sslkeyandcertificate#rsa_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#rsa_params Sslkeyandcertificate#rsa_params}
   */
   readonly rsaParams?: SslkeyandcertificateKeyParamsRsaParams[] | cdktf.IResolvable;
 }
@@ -2770,6 +3043,7 @@ export function sslkeyandcertificateKeyParamsToTerraform(struct?: Sslkeyandcerti
   return {
     algorithm: cdktf.stringToTerraform(struct!.algorithm),
     ec_params: cdktf.listMapper(sslkeyandcertificateKeyParamsEcParamsToTerraform, true)(struct!.ecParams),
+    mldsa_params: cdktf.listMapper(sslkeyandcertificateKeyParamsMldsaParamsToTerraform, true)(struct!.mldsaParams),
     rsa_params: cdktf.listMapper(sslkeyandcertificateKeyParamsRsaParamsToTerraform, true)(struct!.rsaParams),
   }
 }
@@ -2792,6 +3066,12 @@ export function sslkeyandcertificateKeyParamsToHclTerraform(struct?: Sslkeyandce
       isBlock: true,
       type: "set",
       storageClassType: "SslkeyandcertificateKeyParamsEcParamsList",
+    },
+    mldsa_params: {
+      value: cdktf.listMapperHcl(sslkeyandcertificateKeyParamsMldsaParamsToHclTerraform, true)(struct!.mldsaParams),
+      isBlock: true,
+      type: "set",
+      storageClassType: "SslkeyandcertificateKeyParamsMldsaParamsList",
     },
     rsa_params: {
       value: cdktf.listMapperHcl(sslkeyandcertificateKeyParamsRsaParamsToHclTerraform, true)(struct!.rsaParams),
@@ -2833,6 +3113,10 @@ export class SslkeyandcertificateKeyParamsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.ecParams = this._ecParams?.internalValue;
     }
+    if (this._mldsaParams?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mldsaParams = this._mldsaParams?.internalValue;
+    }
     if (this._rsaParams?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.rsaParams = this._rsaParams?.internalValue;
@@ -2846,6 +3130,7 @@ export class SslkeyandcertificateKeyParamsOutputReference extends cdktf.ComplexO
       this.resolvableValue = undefined;
       this._algorithm = undefined;
       this._ecParams.internalValue = undefined;
+      this._mldsaParams.internalValue = undefined;
       this._rsaParams.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -2857,6 +3142,7 @@ export class SslkeyandcertificateKeyParamsOutputReference extends cdktf.ComplexO
       this.resolvableValue = undefined;
       this._algorithm = value.algorithm;
       this._ecParams.internalValue = value.ecParams;
+      this._mldsaParams.internalValue = value.mldsaParams;
       this._rsaParams.internalValue = value.rsaParams;
     }
   }
@@ -2888,6 +3174,22 @@ export class SslkeyandcertificateKeyParamsOutputReference extends cdktf.ComplexO
   // Temporarily expose input value. Use with caution.
   public get ecParamsInput() {
     return this._ecParams.internalValue;
+  }
+
+  // mldsa_params - computed: false, optional: true, required: false
+  private _mldsaParams = new SslkeyandcertificateKeyParamsMldsaParamsList(this, "mldsa_params", true);
+  public get mldsaParams() {
+    return this._mldsaParams;
+  }
+  public putMldsaParams(value: SslkeyandcertificateKeyParamsMldsaParams[] | cdktf.IResolvable) {
+    this._mldsaParams.internalValue = value;
+  }
+  public resetMldsaParams() {
+    this._mldsaParams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mldsaParamsInput() {
+    return this._mldsaParams.internalValue;
   }
 
   // rsa_params - computed: false, optional: true, required: false
@@ -2928,11 +3230,11 @@ export class SslkeyandcertificateKeyParamsList extends cdktf.ComplexList {
 }
 export interface SslkeyandcertificateMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#key Sslkeyandcertificate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#key Sslkeyandcertificate#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#values Sslkeyandcertificate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#values Sslkeyandcertificate#values}
   */
   readonly values?: string[];
 }
@@ -3074,27 +3376,27 @@ export class SslkeyandcertificateMarkersList extends cdktf.ComplexList {
 }
 export interface SslkeyandcertificateOcspConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#failed_ocsp_jobs_retry_interval Sslkeyandcertificate#failed_ocsp_jobs_retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#failed_ocsp_jobs_retry_interval Sslkeyandcertificate#failed_ocsp_jobs_retry_interval}
   */
   readonly failedOcspJobsRetryInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#max_tries Sslkeyandcertificate#max_tries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#max_tries Sslkeyandcertificate#max_tries}
   */
   readonly maxTries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#ocsp_req_interval Sslkeyandcertificate#ocsp_req_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#ocsp_req_interval Sslkeyandcertificate#ocsp_req_interval}
   */
   readonly ocspReqInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#ocsp_resp_timeout Sslkeyandcertificate#ocsp_resp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#ocsp_resp_timeout Sslkeyandcertificate#ocsp_resp_timeout}
   */
   readonly ocspRespTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#responder_url_lists Sslkeyandcertificate#responder_url_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#responder_url_lists Sslkeyandcertificate#responder_url_lists}
   */
   readonly responderUrlLists?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#url_action Sslkeyandcertificate#url_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#url_action Sslkeyandcertificate#url_action}
   */
   readonly urlAction?: string;
 }
@@ -3355,31 +3657,31 @@ export class SslkeyandcertificateOcspConfigList extends cdktf.ComplexList {
 }
 export interface SslkeyandcertificateOcspResponseInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#cert_status Sslkeyandcertificate#cert_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#cert_status Sslkeyandcertificate#cert_status}
   */
   readonly certStatus: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#next_update Sslkeyandcertificate#next_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#next_update Sslkeyandcertificate#next_update}
   */
   readonly nextUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#ocsp_resp_from_responder_url Sslkeyandcertificate#ocsp_resp_from_responder_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#ocsp_resp_from_responder_url Sslkeyandcertificate#ocsp_resp_from_responder_url}
   */
   readonly ocspRespFromResponderUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#ocsp_response Sslkeyandcertificate#ocsp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#ocsp_response Sslkeyandcertificate#ocsp_response}
   */
   readonly ocspResponse: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#revocation_reason Sslkeyandcertificate#revocation_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#revocation_reason Sslkeyandcertificate#revocation_reason}
   */
   readonly revocationReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#revocation_time Sslkeyandcertificate#revocation_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#revocation_time Sslkeyandcertificate#revocation_time}
   */
   readonly revocationTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#this_update Sslkeyandcertificate#this_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#this_update Sslkeyandcertificate#this_update}
   */
   readonly thisUpdate?: string;
 }
@@ -3660,7 +3962,7 @@ export class SslkeyandcertificateOcspResponseInfoList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate avi_sslkeyandcertificate}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate avi_sslkeyandcertificate}
 */
 export class Sslkeyandcertificate extends cdktf.TerraformResource {
 
@@ -3676,7 +3978,7 @@ export class Sslkeyandcertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sslkeyandcertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sslkeyandcertificate to import
-  * @param importFromId The id of the existing Sslkeyandcertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sslkeyandcertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sslkeyandcertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3688,7 +3990,7 @@ export class Sslkeyandcertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslkeyandcertificate avi_sslkeyandcertificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/sslkeyandcertificate avi_sslkeyandcertificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3699,8 +4001,8 @@ export class Sslkeyandcertificate extends cdktf.TerraformResource {
       terraformResourceType: 'avi_sslkeyandcertificate',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

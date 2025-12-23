@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataVkcsNetworkingRouterConfig extends cdktf.TerraformMetaArgum
   /**
   * Administrative up/down status for the router (must be "true" or "false" if provided).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router#admin_state_up DataVkcsNetworkingRouter#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router#admin_state_up DataVkcsNetworkingRouter#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
   * Human-readable description of the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router#description DataVkcsNetworkingRouter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router#description DataVkcsNetworkingRouter#description}
   */
   readonly description?: string;
   /**
   * The value that points out if the Source NAT is enabled on the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router#enable_snat DataVkcsNetworkingRouter#enable_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router#enable_snat DataVkcsNetworkingRouter#enable_snat}
   */
   readonly enableSnat?: boolean | cdktf.IResolvable;
   /**
   * The UUID of the router resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router#id DataVkcsNetworkingRouter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router#id DataVkcsNetworkingRouter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,43 +37,43 @@ export interface DataVkcsNetworkingRouterConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router#name DataVkcsNetworkingRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router#name DataVkcsNetworkingRouter#name}
   */
   readonly name?: string;
   /**
   * The region in which to obtain the Network client. A Network client is needed to retrieve router ids. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router#region DataVkcsNetworkingRouter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router#region DataVkcsNetworkingRouter#region}
   */
   readonly region?: string;
   /**
   * The UUID of the router resource. **Deprecated** This argument is deprecated, please, use the `id` attribute instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router#router_id DataVkcsNetworkingRouter#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router#router_id DataVkcsNetworkingRouter#router_id}
   */
   readonly routerId?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router#sdn DataVkcsNetworkingRouter#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router#sdn DataVkcsNetworkingRouter#sdn}
   */
   readonly sdn?: string;
   /**
   * The status of the router (ACTIVE/DOWN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router#status DataVkcsNetworkingRouter#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router#status DataVkcsNetworkingRouter#status}
   */
   readonly status?: string;
   /**
   * The list of router tags to filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router#tags DataVkcsNetworkingRouter#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router#tags DataVkcsNetworkingRouter#tags}
   */
   readonly tags?: string[];
   /**
   * The owner of the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router#tenant_id DataVkcsNetworkingRouter#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router#tenant_id DataVkcsNetworkingRouter#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -159,7 +159,7 @@ export class DataVkcsNetworkingRouterExternalFixedIpsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router vkcs_networking_router}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router vkcs_networking_router}
 */
 export class DataVkcsNetworkingRouter extends cdktf.TerraformDataSource {
 
@@ -175,7 +175,7 @@ export class DataVkcsNetworkingRouter extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsNetworkingRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsNetworkingRouter to import
-  * @param importFromId The id of the existing DataVkcsNetworkingRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsNetworkingRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsNetworkingRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class DataVkcsNetworkingRouter extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_router vkcs_networking_router} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_router vkcs_networking_router} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class DataVkcsNetworkingRouter extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_networking_router',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

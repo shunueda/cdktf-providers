@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface GslbgeodbprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#description Gslbgeodbprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#description Gslbgeodbprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#id Gslbgeodbprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#id Gslbgeodbprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#is_federated Gslbgeodbprofile#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#is_federated Gslbgeodbprofile#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#name Gslbgeodbprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#name Gslbgeodbprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#tenant_ref Gslbgeodbprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#tenant_ref Gslbgeodbprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#uuid Gslbgeodbprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#uuid Gslbgeodbprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#configpb_attributes Gslbgeodbprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#configpb_attributes Gslbgeodbprofile#configpb_attributes}
   */
   readonly configpbAttributes?: GslbgeodbprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#entries Gslbgeodbprofile#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#entries Gslbgeodbprofile#entries}
   */
   readonly entries: GslbgeodbprofileEntries[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#markers Gslbgeodbprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#markers Gslbgeodbprofile#markers}
   */
   readonly markers?: GslbgeodbprofileMarkers[] | cdktf.IResolvable;
 }
 export interface GslbgeodbprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#version Gslbgeodbprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#version Gslbgeodbprofile#version}
   */
   readonly version?: string;
 }
@@ -169,298 +169,15 @@ export class GslbgeodbprofileConfigpbAttributesList extends cdktf.ComplexList {
     return new GslbgeodbprofileConfigpbAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface GslbgeodbprofileEntriesFile {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#checksum Gslbgeodbprofile#checksum}
-  */
-  readonly checksum?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#file_id Gslbgeodbprofile#file_id}
-  */
-  readonly fileId?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#file_id_checksum Gslbgeodbprofile#file_id_checksum}
-  */
-  readonly fileIdChecksum?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#filename Gslbgeodbprofile#filename}
-  */
-  readonly filename?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#format Gslbgeodbprofile#format}
-  */
-  readonly format?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#timestamp Gslbgeodbprofile#timestamp}
-  */
-  readonly timestamp?: string;
-}
-
-export function gslbgeodbprofileEntriesFileToTerraform(struct?: GslbgeodbprofileEntriesFile | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    checksum: cdktf.stringToTerraform(struct!.checksum),
-    file_id: cdktf.stringToTerraform(struct!.fileId),
-    file_id_checksum: cdktf.stringToTerraform(struct!.fileIdChecksum),
-    filename: cdktf.stringToTerraform(struct!.filename),
-    format: cdktf.stringToTerraform(struct!.format),
-    timestamp: cdktf.stringToTerraform(struct!.timestamp),
-  }
-}
-
-
-export function gslbgeodbprofileEntriesFileToHclTerraform(struct?: GslbgeodbprofileEntriesFile | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    checksum: {
-      value: cdktf.stringToHclTerraform(struct!.checksum),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    file_id: {
-      value: cdktf.stringToHclTerraform(struct!.fileId),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    file_id_checksum: {
-      value: cdktf.stringToHclTerraform(struct!.fileIdChecksum),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    filename: {
-      value: cdktf.stringToHclTerraform(struct!.filename),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    format: {
-      value: cdktf.stringToHclTerraform(struct!.format),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    timestamp: {
-      value: cdktf.stringToHclTerraform(struct!.timestamp),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GslbgeodbprofileEntriesFileOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GslbgeodbprofileEntriesFile | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._checksum !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.checksum = this._checksum;
-    }
-    if (this._fileId !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.fileId = this._fileId;
-    }
-    if (this._fileIdChecksum !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.fileIdChecksum = this._fileIdChecksum;
-    }
-    if (this._filename !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.filename = this._filename;
-    }
-    if (this._format !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.format = this._format;
-    }
-    if (this._timestamp !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.timestamp = this._timestamp;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GslbgeodbprofileEntriesFile | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._checksum = undefined;
-      this._fileId = undefined;
-      this._fileIdChecksum = undefined;
-      this._filename = undefined;
-      this._format = undefined;
-      this._timestamp = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._checksum = value.checksum;
-      this._fileId = value.fileId;
-      this._fileIdChecksum = value.fileIdChecksum;
-      this._filename = value.filename;
-      this._format = value.format;
-      this._timestamp = value.timestamp;
-    }
-  }
-
-  // checksum - computed: true, optional: true, required: false
-  private _checksum?: string; 
-  public get checksum() {
-    return this.getStringAttribute('checksum');
-  }
-  public set checksum(value: string) {
-    this._checksum = value;
-  }
-  public resetChecksum() {
-    this._checksum = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get checksumInput() {
-    return this._checksum;
-  }
-
-  // file_id - computed: true, optional: true, required: false
-  private _fileId?: string; 
-  public get fileId() {
-    return this.getStringAttribute('file_id');
-  }
-  public set fileId(value: string) {
-    this._fileId = value;
-  }
-  public resetFileId() {
-    this._fileId = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fileIdInput() {
-    return this._fileId;
-  }
-
-  // file_id_checksum - computed: true, optional: true, required: false
-  private _fileIdChecksum?: string; 
-  public get fileIdChecksum() {
-    return this.getStringAttribute('file_id_checksum');
-  }
-  public set fileIdChecksum(value: string) {
-    this._fileIdChecksum = value;
-  }
-  public resetFileIdChecksum() {
-    this._fileIdChecksum = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fileIdChecksumInput() {
-    return this._fileIdChecksum;
-  }
-
-  // filename - computed: true, optional: true, required: false
-  private _filename?: string; 
-  public get filename() {
-    return this.getStringAttribute('filename');
-  }
-  public set filename(value: string) {
-    this._filename = value;
-  }
-  public resetFilename() {
-    this._filename = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get filenameInput() {
-    return this._filename;
-  }
-
-  // format - computed: false, optional: true, required: false
-  private _format?: string; 
-  public get format() {
-    return this.getStringAttribute('format');
-  }
-  public set format(value: string) {
-    this._format = value;
-  }
-  public resetFormat() {
-    this._format = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get formatInput() {
-    return this._format;
-  }
-
-  // timestamp - computed: true, optional: true, required: false
-  private _timestamp?: string; 
-  public get timestamp() {
-    return this.getStringAttribute('timestamp');
-  }
-  public set timestamp(value: string) {
-    this._timestamp = value;
-  }
-  public resetTimestamp() {
-    this._timestamp = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get timestampInput() {
-    return this._timestamp;
-  }
-}
-
-export class GslbgeodbprofileEntriesFileList extends cdktf.ComplexList {
-  public internalValue? : GslbgeodbprofileEntriesFile[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GslbgeodbprofileEntriesFileOutputReference {
-    return new GslbgeodbprofileEntriesFileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface GslbgeodbprofileEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#priority Gslbgeodbprofile#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#file_obj_ref Gslbgeodbprofile#file_obj_ref}
+  */
+  readonly fileObjRef?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#priority Gslbgeodbprofile#priority}
   */
   readonly priority?: string;
-  /**
-  * file block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#file Gslbgeodbprofile#file}
-  */
-  readonly file: GslbgeodbprofileEntriesFile[] | cdktf.IResolvable;
 }
 
 export function gslbgeodbprofileEntriesToTerraform(struct?: GslbgeodbprofileEntries | cdktf.IResolvable): any {
@@ -469,8 +186,8 @@ export function gslbgeodbprofileEntriesToTerraform(struct?: GslbgeodbprofileEntr
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    file_obj_ref: cdktf.stringToTerraform(struct!.fileObjRef),
     priority: cdktf.stringToTerraform(struct!.priority),
-    file: cdktf.listMapper(gslbgeodbprofileEntriesFileToTerraform, true)(struct!.file),
   }
 }
 
@@ -481,17 +198,17 @@ export function gslbgeodbprofileEntriesToHclTerraform(struct?: GslbgeodbprofileE
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    file_obj_ref: {
+      value: cdktf.stringToHclTerraform(struct!.fileObjRef),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     priority: {
       value: cdktf.stringToHclTerraform(struct!.priority),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
-    },
-    file: {
-      value: cdktf.listMapperHcl(gslbgeodbprofileEntriesFileToHclTerraform, true)(struct!.file),
-      isBlock: true,
-      type: "set",
-      storageClassType: "GslbgeodbprofileEntriesFileList",
     },
   };
 
@@ -519,13 +236,13 @@ export class GslbgeodbprofileEntriesOutputReference extends cdktf.ComplexObject 
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._fileObjRef !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fileObjRef = this._fileObjRef;
+    }
     if (this._priority !== undefined) {
       hasAnyValues = true;
       internalValueResult.priority = this._priority;
-    }
-    if (this._file?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.file = this._file?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -534,8 +251,8 @@ export class GslbgeodbprofileEntriesOutputReference extends cdktf.ComplexObject 
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._fileObjRef = undefined;
       this._priority = undefined;
-      this._file.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -544,9 +261,25 @@ export class GslbgeodbprofileEntriesOutputReference extends cdktf.ComplexObject 
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._fileObjRef = value.fileObjRef;
       this._priority = value.priority;
-      this._file.internalValue = value.file;
     }
+  }
+
+  // file_obj_ref - computed: true, optional: true, required: false
+  private _fileObjRef?: string; 
+  public get fileObjRef() {
+    return this.getStringAttribute('file_obj_ref');
+  }
+  public set fileObjRef(value: string) {
+    this._fileObjRef = value;
+  }
+  public resetFileObjRef() {
+    this._fileObjRef = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fileObjRefInput() {
+    return this._fileObjRef;
   }
 
   // priority - computed: false, optional: true, required: false
@@ -563,19 +296,6 @@ export class GslbgeodbprofileEntriesOutputReference extends cdktf.ComplexObject 
   // Temporarily expose input value. Use with caution.
   public get priorityInput() {
     return this._priority;
-  }
-
-  // file - computed: false, optional: false, required: true
-  private _file = new GslbgeodbprofileEntriesFileList(this, "file", true);
-  public get file() {
-    return this._file;
-  }
-  public putFile(value: GslbgeodbprofileEntriesFile[] | cdktf.IResolvable) {
-    this._file.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fileInput() {
-    return this._file.internalValue;
   }
 }
 
@@ -600,11 +320,11 @@ export class GslbgeodbprofileEntriesList extends cdktf.ComplexList {
 }
 export interface GslbgeodbprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#key Gslbgeodbprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#key Gslbgeodbprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#values Gslbgeodbprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#values Gslbgeodbprofile#values}
   */
   readonly values?: string[];
 }
@@ -746,7 +466,7 @@ export class GslbgeodbprofileMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile avi_gslbgeodbprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile avi_gslbgeodbprofile}
 */
 export class Gslbgeodbprofile extends cdktf.TerraformResource {
 
@@ -762,7 +482,7 @@ export class Gslbgeodbprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gslbgeodbprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gslbgeodbprofile to import
-  * @param importFromId The id of the existing Gslbgeodbprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gslbgeodbprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gslbgeodbprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -774,7 +494,7 @@ export class Gslbgeodbprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile avi_gslbgeodbprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslbgeodbprofile avi_gslbgeodbprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -785,8 +505,8 @@ export class Gslbgeodbprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_gslbgeodbprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

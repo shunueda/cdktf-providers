@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface EdgeSpokeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Approved learned CIDRs for BGP Spoke Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#approved_learned_cidrs EdgeSpoke#approved_learned_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#approved_learned_cidrs EdgeSpoke#approved_learned_cidrs}
   */
   readonly approvedLearnedCidrs?: string[];
   /**
   * BGP Hold Time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 12 and 360.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#bgp_hold_time EdgeSpoke#bgp_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#bgp_hold_time EdgeSpoke#bgp_hold_time}
   */
   readonly bgpHoldTime?: number;
   /**
   * BGP neighbor status polling time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 1 and 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#bgp_neighbor_status_polling_time EdgeSpoke#bgp_neighbor_status_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#bgp_neighbor_status_polling_time EdgeSpoke#bgp_neighbor_status_polling_time}
   */
   readonly bgpNeighborStatusPollingTime?: number;
   /**
   * BGP route polling time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 10 and 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#bgp_polling_time EdgeSpoke#bgp_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#bgp_polling_time EdgeSpoke#bgp_polling_time}
   */
   readonly bgpPollingTime?: number;
   /**
   * DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#dns_server_ip EdgeSpoke#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#dns_server_ip EdgeSpoke#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enables Edge Active-Standby Mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#enable_edge_active_standby EdgeSpoke#enable_edge_active_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#enable_edge_active_standby EdgeSpoke#enable_edge_active_standby}
   */
   readonly enableEdgeActiveStandby?: boolean | cdktf.IResolvable;
   /**
   * Enables Preemptive Mode for Edge Active-Standby, available only with Active-Standby enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#enable_edge_active_standby_preemptive EdgeSpoke#enable_edge_active_standby_preemptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#enable_edge_active_standby_preemptive EdgeSpoke#enable_edge_active_standby_preemptive}
   */
   readonly enableEdgeActiveStandbyPreemptive?: boolean | cdktf.IResolvable;
   /**
   * Enable Edge transitive routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#enable_edge_transitive_routing EdgeSpoke#enable_edge_transitive_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#enable_edge_transitive_routing EdgeSpoke#enable_edge_transitive_routing}
   */
   readonly enableEdgeTransitiveRouting?: boolean | cdktf.IResolvable;
   /**
   * Enable jumbo frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#enable_jumbo_frame EdgeSpoke#enable_jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#enable_jumbo_frame EdgeSpoke#enable_jumbo_frame}
   */
   readonly enableJumboFrame?: boolean | cdktf.IResolvable;
   /**
   * Switch to enable/disable learned CIDR approval for BGP Spoke Gateway. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#enable_learned_cidrs_approval EdgeSpoke#enable_learned_cidrs_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#enable_learned_cidrs_approval EdgeSpoke#enable_learned_cidrs_approval}
   */
   readonly enableLearnedCidrsApproval?: boolean | cdktf.IResolvable;
   /**
   * Enable management over private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#enable_management_over_private_network EdgeSpoke#enable_management_over_private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#enable_management_over_private_network EdgeSpoke#enable_management_over_private_network}
   */
   readonly enableManagementOverPrivateNetwork?: boolean | cdktf.IResolvable;
   /**
   * Enable preserve as path when advertising manual summary CIDRs on BGP spoke gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#enable_preserve_as_path EdgeSpoke#enable_preserve_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#enable_preserve_as_path EdgeSpoke#enable_preserve_as_path}
   */
   readonly enablePreserveAsPath?: boolean | cdktf.IResolvable;
   /**
   * Edge as a Spoke name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#gw_name EdgeSpoke#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#gw_name EdgeSpoke#gw_name}
   */
   readonly gwName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#id EdgeSpoke#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#id EdgeSpoke#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,73 +95,73 @@ export interface EdgeSpokeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The latitude of the Edge as a Spoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#latitude EdgeSpoke#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#latitude EdgeSpoke#latitude}
   */
   readonly latitude?: string;
   /**
   * Local AS number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#local_as_number EdgeSpoke#local_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#local_as_number EdgeSpoke#local_as_number}
   */
   readonly localAsNumber?: string;
   /**
   * The longitude of the Edge as a Spoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#longitude EdgeSpoke#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#longitude EdgeSpoke#longitude}
   */
   readonly longitude?: string;
   /**
   * Set of management egress gateway IP/prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#management_egress_ip_prefix_list EdgeSpoke#management_egress_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#management_egress_ip_prefix_list EdgeSpoke#management_egress_ip_prefix_list}
   */
   readonly managementEgressIpPrefixList?: string[];
   /**
   * List of AS numbers to prepend gateway BGP AS_Path field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#prepend_as_path EdgeSpoke#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#prepend_as_path EdgeSpoke#prepend_as_path}
   */
   readonly prependAsPath?: string[];
   /**
   * Ethernet interface RX queue size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#rx_queue_size EdgeSpoke#rx_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#rx_queue_size EdgeSpoke#rx_queue_size}
   */
   readonly rxQueueSize?: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#secondary_dns_server_ip EdgeSpoke#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#secondary_dns_server_ip EdgeSpoke#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#site_id EdgeSpoke#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#site_id EdgeSpoke#site_id}
   */
   readonly siteId: string;
   /**
   * Intended CIDR list to be advertised to external BGP router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#spoke_bgp_manual_advertise_cidrs EdgeSpoke#spoke_bgp_manual_advertise_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#spoke_bgp_manual_advertise_cidrs EdgeSpoke#spoke_bgp_manual_advertise_cidrs}
   */
   readonly spokeBgpManualAdvertiseCidrs?: string[];
   /**
   * The location where the ZTP file will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#ztp_file_download_path EdgeSpoke#ztp_file_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#ztp_file_download_path EdgeSpoke#ztp_file_download_path}
   */
   readonly ztpFileDownloadPath: string;
   /**
   * ZTP file type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#ztp_file_type EdgeSpoke#ztp_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#ztp_file_type EdgeSpoke#ztp_file_type}
   */
   readonly ztpFileType: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#interfaces EdgeSpoke#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#interfaces EdgeSpoke#interfaces}
   */
   readonly interfaces: EdgeSpokeInterfaces[] | cdktf.IResolvable;
 }
@@ -169,49 +169,49 @@ export interface EdgeSpokeInterfaces {
   /**
   * Primary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#dns_server_ip EdgeSpoke#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#dns_server_ip EdgeSpoke#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#enable_dhcp EdgeSpoke#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#enable_dhcp EdgeSpoke#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#gateway_ip EdgeSpoke#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#gateway_ip EdgeSpoke#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Interface static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#ip_address EdgeSpoke#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#ip_address EdgeSpoke#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#name EdgeSpoke#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#name EdgeSpoke#name}
   */
   readonly name: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#secondary_dns_server_ip EdgeSpoke#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#secondary_dns_server_ip EdgeSpoke#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Interface type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#type EdgeSpoke#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#type EdgeSpoke#type}
   */
   readonly type: string;
   /**
   * WAN interface public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#wan_public_ip EdgeSpoke#wan_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#wan_public_ip EdgeSpoke#wan_public_ip}
   */
   readonly wanPublicIp?: string;
 }
@@ -524,7 +524,7 @@ export class EdgeSpokeInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke aviatrix_edge_spoke}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke aviatrix_edge_spoke}
 */
 export class EdgeSpoke extends cdktf.TerraformResource {
 
@@ -540,7 +540,7 @@ export class EdgeSpoke extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeSpoke resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeSpoke to import
-  * @param importFromId The id of the existing EdgeSpoke that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeSpoke that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeSpoke to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +552,7 @@ export class EdgeSpoke extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke aviatrix_edge_spoke} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke aviatrix_edge_spoke} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +563,8 @@ export class EdgeSpoke extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_spoke',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

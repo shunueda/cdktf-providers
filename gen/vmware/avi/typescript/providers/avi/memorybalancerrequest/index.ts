@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface MemorybalancerrequestConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#id Memorybalancerrequest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#id Memorybalancerrequest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#name Memorybalancerrequest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#name Memorybalancerrequest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#node_uuid Memorybalancerrequest#node_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#node_uuid Memorybalancerrequest#node_uuid}
   */
   readonly nodeUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#process_instance Memorybalancerrequest#process_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#process_instance Memorybalancerrequest#process_instance}
   */
   readonly processInstance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#tenant_ref Memorybalancerrequest#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#tenant_ref Memorybalancerrequest#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#timestamp Memorybalancerrequest#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#timestamp Memorybalancerrequest#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#uuid Memorybalancerrequest#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#uuid Memorybalancerrequest#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#configpb_attributes Memorybalancerrequest#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#configpb_attributes Memorybalancerrequest#configpb_attributes}
   */
   readonly configpbAttributes?: MemorybalancerrequestConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * controller_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#controller_info Memorybalancerrequest#controller_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#controller_info Memorybalancerrequest#controller_info}
   */
   readonly controllerInfo?: MemorybalancerrequestControllerInfo[] | cdktf.IResolvable;
   /**
   * process_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#process_info Memorybalancerrequest#process_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#process_info Memorybalancerrequest#process_info}
   */
   readonly processInfo?: MemorybalancerrequestProcessInfo[] | cdktf.IResolvable;
 }
 export interface MemorybalancerrequestConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#version Memorybalancerrequest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#version Memorybalancerrequest#version}
   */
   readonly version?: string;
 }
@@ -175,7 +175,7 @@ export class MemorybalancerrequestConfigpbAttributesList extends cdktf.ComplexLi
 }
 export interface MemorybalancerrequestControllerInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#current_controller_mem_usage Memorybalancerrequest#current_controller_mem_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#current_controller_mem_usage Memorybalancerrequest#current_controller_mem_usage}
   */
   readonly currentControllerMemUsage?: string;
 }
@@ -291,31 +291,31 @@ export class MemorybalancerrequestControllerInfoList extends cdktf.ComplexList {
 }
 export interface MemorybalancerrequestProcessInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#current_process_id Memorybalancerrequest#current_process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#current_process_id Memorybalancerrequest#current_process_id}
   */
   readonly currentProcessId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#current_process_mem_usage Memorybalancerrequest#current_process_mem_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#current_process_mem_usage Memorybalancerrequest#current_process_mem_usage}
   */
   readonly currentProcessMemUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#intimation_count Memorybalancerrequest#intimation_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#intimation_count Memorybalancerrequest#intimation_count}
   */
   readonly intimationCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#memory_limit Memorybalancerrequest#memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#memory_limit Memorybalancerrequest#memory_limit}
   */
   readonly memoryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#memory_trend_usage Memorybalancerrequest#memory_trend_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#memory_trend_usage Memorybalancerrequest#memory_trend_usage}
   */
   readonly memoryTrendUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#process_mode Memorybalancerrequest#process_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#process_mode Memorybalancerrequest#process_mode}
   */
   readonly processMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#threshold_percent Memorybalancerrequest#threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#threshold_percent Memorybalancerrequest#threshold_percent}
   */
   readonly thresholdPercent?: string;
 }
@@ -605,7 +605,7 @@ export class MemorybalancerrequestProcessInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest avi_memorybalancerrequest}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest avi_memorybalancerrequest}
 */
 export class Memorybalancerrequest extends cdktf.TerraformResource {
 
@@ -621,7 +621,7 @@ export class Memorybalancerrequest extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Memorybalancerrequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Memorybalancerrequest to import
-  * @param importFromId The id of the existing Memorybalancerrequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Memorybalancerrequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Memorybalancerrequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -633,7 +633,7 @@ export class Memorybalancerrequest extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/memorybalancerrequest avi_memorybalancerrequest} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/memorybalancerrequest avi_memorybalancerrequest} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -644,8 +644,8 @@ export class Memorybalancerrequest extends cdktf.TerraformResource {
       terraformResourceType: 'avi_memorybalancerrequest',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

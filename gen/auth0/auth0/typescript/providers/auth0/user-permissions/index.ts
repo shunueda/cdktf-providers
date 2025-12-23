@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_permissions
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface UserPermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_permissions#id UserPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_permissions#id UserPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface UserPermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the user to associate the permission to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_permissions#user_id UserPermissions#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_permissions#user_id UserPermissions#user_id}
   */
   readonly userId: string;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_permissions#permissions UserPermissions#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_permissions#permissions UserPermissions#permissions}
   */
   readonly permissions: UserPermissionsPermissions[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface UserPermissionsPermissions {
   /**
   * Name of permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_permissions#name UserPermissions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_permissions#name UserPermissions#name}
   */
   readonly name: string;
   /**
   * Resource server identifier associated with the permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_permissions#resource_server_identifier UserPermissions#resource_server_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_permissions#resource_server_identifier UserPermissions#resource_server_identifier}
   */
   readonly resourceServerIdentifier: string;
 }
@@ -186,7 +186,7 @@ export class UserPermissionsPermissionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_permissions auth0_user_permissions}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_permissions auth0_user_permissions}
 */
 export class UserPermissions extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class UserPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserPermissions to import
-  * @param importFromId The id of the existing UserPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class UserPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_permissions auth0_user_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_permissions auth0_user_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class UserPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_user_permissions',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

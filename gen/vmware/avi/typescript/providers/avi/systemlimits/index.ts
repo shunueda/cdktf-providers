@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface SystemlimitsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#id Systemlimits#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#id Systemlimits#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#uuid Systemlimits#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#uuid Systemlimits#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#configpb_attributes Systemlimits#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#configpb_attributes Systemlimits#configpb_attributes}
   */
   readonly configpbAttributes?: SystemlimitsConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * controller_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#controller_limits Systemlimits#controller_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#controller_limits Systemlimits#controller_limits}
   */
   readonly controllerLimits?: SystemlimitsControllerLimits[] | cdktf.IResolvable;
   /**
   * controller_sizes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#controller_sizes Systemlimits#controller_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#controller_sizes Systemlimits#controller_sizes}
   */
   readonly controllerSizes?: SystemlimitsControllerSizes[] | cdktf.IResolvable;
   /**
   * serviceengine_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#serviceengine_limits Systemlimits#serviceengine_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#serviceengine_limits Systemlimits#serviceengine_limits}
   */
   readonly serviceengineLimits?: SystemlimitsServiceengineLimits[] | cdktf.IResolvable;
 }
 export interface SystemlimitsConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#version Systemlimits#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#version Systemlimits#version}
   */
   readonly version?: string;
 }
@@ -161,15 +161,15 @@ export class SystemlimitsConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface SystemlimitsControllerLimitsBotLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#allow_rules Systemlimits#allow_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#allow_rules Systemlimits#allow_rules}
   */
   readonly allowRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#hdrs Systemlimits#hdrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#hdrs Systemlimits#hdrs}
   */
   readonly hdrs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#mapping_rules Systemlimits#mapping_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#mapping_rules Systemlimits#mapping_rules}
   */
   readonly mappingRules?: string;
 }
@@ -343,15 +343,15 @@ export class SystemlimitsControllerLimitsBotLimitsList extends cdktf.ComplexList
 }
 export interface SystemlimitsControllerLimitsControllerCloudLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_clouds Systemlimits#num_clouds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_clouds Systemlimits#num_clouds}
   */
   readonly numClouds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#t1_lrs_per_cloud Systemlimits#t1_lrs_per_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#t1_lrs_per_cloud Systemlimits#t1_lrs_per_cloud}
   */
   readonly t1LrsPerCloud?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#type Systemlimits#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#type Systemlimits#type}
   */
   readonly type?: string;
 }
@@ -525,11 +525,11 @@ export class SystemlimitsControllerLimitsControllerCloudLimitsList extends cdktf
 }
 export interface SystemlimitsControllerLimitsControllerSizingLimitsControllerSizingCloudLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_clouds Systemlimits#num_clouds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_clouds Systemlimits#num_clouds}
   */
   readonly numClouds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#type Systemlimits#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#type Systemlimits#type}
   */
   readonly type?: string;
 }
@@ -674,49 +674,69 @@ export class SystemlimitsControllerLimitsControllerSizingLimitsControllerSizingC
 }
 export interface SystemlimitsControllerLimitsControllerSizingLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#flavor Systemlimits#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#flavor Systemlimits#flavor}
   */
   readonly flavor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_clouds Systemlimits#num_clouds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_clouds Systemlimits#num_clouds}
   */
   readonly numClouds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_east_west_virtualservices Systemlimits#num_east_west_virtualservices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_east_west_virtualservices Systemlimits#num_east_west_virtualservices}
   */
   readonly numEastWestVirtualservices?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_servers Systemlimits#num_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_pool_rt_metrics Systemlimits#num_pool_rt_metrics}
+  */
+  readonly numPoolRtMetrics?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_se_rt_metrics Systemlimits#num_se_rt_metrics}
+  */
+  readonly numSeRtMetrics?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_servers Systemlimits#num_servers}
   */
   readonly numServers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_serviceengines Systemlimits#num_serviceengines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_serviceengines Systemlimits#num_serviceengines}
   */
   readonly numServiceengines?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_tenants Systemlimits#num_tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_tenants Systemlimits#num_tenants}
   */
   readonly numTenants?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_virtualservices Systemlimits#num_virtualservices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_virtualservices Systemlimits#num_virtualservices}
   */
   readonly numVirtualservices?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_virtualservices_rt_metrics Systemlimits#num_virtualservices_rt_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_virtualservices_application_insights Systemlimits#num_virtualservices_application_insights}
+  */
+  readonly numVirtualservicesApplicationInsights?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_virtualservices_positive_security Systemlimits#num_virtualservices_positive_security}
+  */
+  readonly numVirtualservicesPositiveSecurity?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_virtualservices_rt_metrics Systemlimits#num_virtualservices_rt_metrics}
   */
   readonly numVirtualservicesRtMetrics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_vrfs Systemlimits#num_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_virtualservices_rtmetrics_waf Systemlimits#num_virtualservices_rtmetrics_waf}
+  */
+  readonly numVirtualservicesRtmetricsWaf?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_vrfs Systemlimits#num_vrfs}
   */
   readonly numVrfs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_waf_virtualservices Systemlimits#num_waf_virtualservices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_waf_virtualservices Systemlimits#num_waf_virtualservices}
   */
   readonly numWafVirtualservices?: string;
   /**
   * controller_sizing_cloud_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#controller_sizing_cloud_limits Systemlimits#controller_sizing_cloud_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#controller_sizing_cloud_limits Systemlimits#controller_sizing_cloud_limits}
   */
   readonly controllerSizingCloudLimits?: SystemlimitsControllerLimitsControllerSizingLimitsControllerSizingCloudLimits[] | cdktf.IResolvable;
 }
@@ -730,11 +750,16 @@ export function systemlimitsControllerLimitsControllerSizingLimitsToTerraform(st
     flavor: cdktf.stringToTerraform(struct!.flavor),
     num_clouds: cdktf.stringToTerraform(struct!.numClouds),
     num_east_west_virtualservices: cdktf.stringToTerraform(struct!.numEastWestVirtualservices),
+    num_pool_rt_metrics: cdktf.stringToTerraform(struct!.numPoolRtMetrics),
+    num_se_rt_metrics: cdktf.stringToTerraform(struct!.numSeRtMetrics),
     num_servers: cdktf.stringToTerraform(struct!.numServers),
     num_serviceengines: cdktf.stringToTerraform(struct!.numServiceengines),
     num_tenants: cdktf.stringToTerraform(struct!.numTenants),
     num_virtualservices: cdktf.stringToTerraform(struct!.numVirtualservices),
+    num_virtualservices_application_insights: cdktf.stringToTerraform(struct!.numVirtualservicesApplicationInsights),
+    num_virtualservices_positive_security: cdktf.stringToTerraform(struct!.numVirtualservicesPositiveSecurity),
     num_virtualservices_rt_metrics: cdktf.stringToTerraform(struct!.numVirtualservicesRtMetrics),
+    num_virtualservices_rtmetrics_waf: cdktf.stringToTerraform(struct!.numVirtualservicesRtmetricsWaf),
     num_vrfs: cdktf.stringToTerraform(struct!.numVrfs),
     num_waf_virtualservices: cdktf.stringToTerraform(struct!.numWafVirtualservices),
     controller_sizing_cloud_limits: cdktf.listMapper(systemlimitsControllerLimitsControllerSizingLimitsControllerSizingCloudLimitsToTerraform, true)(struct!.controllerSizingCloudLimits),
@@ -766,6 +791,18 @@ export function systemlimitsControllerLimitsControllerSizingLimitsToHclTerraform
       type: "simple",
       storageClassType: "string",
     },
+    num_pool_rt_metrics: {
+      value: cdktf.stringToHclTerraform(struct!.numPoolRtMetrics),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    num_se_rt_metrics: {
+      value: cdktf.stringToHclTerraform(struct!.numSeRtMetrics),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     num_servers: {
       value: cdktf.stringToHclTerraform(struct!.numServers),
       isBlock: false,
@@ -790,8 +827,26 @@ export function systemlimitsControllerLimitsControllerSizingLimitsToHclTerraform
       type: "simple",
       storageClassType: "string",
     },
+    num_virtualservices_application_insights: {
+      value: cdktf.stringToHclTerraform(struct!.numVirtualservicesApplicationInsights),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    num_virtualservices_positive_security: {
+      value: cdktf.stringToHclTerraform(struct!.numVirtualservicesPositiveSecurity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     num_virtualservices_rt_metrics: {
       value: cdktf.stringToHclTerraform(struct!.numVirtualservicesRtMetrics),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    num_virtualservices_rtmetrics_waf: {
+      value: cdktf.stringToHclTerraform(struct!.numVirtualservicesRtmetricsWaf),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -852,6 +907,14 @@ export class SystemlimitsControllerLimitsControllerSizingLimitsOutputReference e
       hasAnyValues = true;
       internalValueResult.numEastWestVirtualservices = this._numEastWestVirtualservices;
     }
+    if (this._numPoolRtMetrics !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numPoolRtMetrics = this._numPoolRtMetrics;
+    }
+    if (this._numSeRtMetrics !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numSeRtMetrics = this._numSeRtMetrics;
+    }
     if (this._numServers !== undefined) {
       hasAnyValues = true;
       internalValueResult.numServers = this._numServers;
@@ -868,9 +931,21 @@ export class SystemlimitsControllerLimitsControllerSizingLimitsOutputReference e
       hasAnyValues = true;
       internalValueResult.numVirtualservices = this._numVirtualservices;
     }
+    if (this._numVirtualservicesApplicationInsights !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numVirtualservicesApplicationInsights = this._numVirtualservicesApplicationInsights;
+    }
+    if (this._numVirtualservicesPositiveSecurity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numVirtualservicesPositiveSecurity = this._numVirtualservicesPositiveSecurity;
+    }
     if (this._numVirtualservicesRtMetrics !== undefined) {
       hasAnyValues = true;
       internalValueResult.numVirtualservicesRtMetrics = this._numVirtualservicesRtMetrics;
+    }
+    if (this._numVirtualservicesRtmetricsWaf !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numVirtualservicesRtmetricsWaf = this._numVirtualservicesRtmetricsWaf;
     }
     if (this._numVrfs !== undefined) {
       hasAnyValues = true;
@@ -894,11 +969,16 @@ export class SystemlimitsControllerLimitsControllerSizingLimitsOutputReference e
       this._flavor = undefined;
       this._numClouds = undefined;
       this._numEastWestVirtualservices = undefined;
+      this._numPoolRtMetrics = undefined;
+      this._numSeRtMetrics = undefined;
       this._numServers = undefined;
       this._numServiceengines = undefined;
       this._numTenants = undefined;
       this._numVirtualservices = undefined;
+      this._numVirtualservicesApplicationInsights = undefined;
+      this._numVirtualservicesPositiveSecurity = undefined;
       this._numVirtualservicesRtMetrics = undefined;
+      this._numVirtualservicesRtmetricsWaf = undefined;
       this._numVrfs = undefined;
       this._numWafVirtualservices = undefined;
       this._controllerSizingCloudLimits.internalValue = undefined;
@@ -913,11 +993,16 @@ export class SystemlimitsControllerLimitsControllerSizingLimitsOutputReference e
       this._flavor = value.flavor;
       this._numClouds = value.numClouds;
       this._numEastWestVirtualservices = value.numEastWestVirtualservices;
+      this._numPoolRtMetrics = value.numPoolRtMetrics;
+      this._numSeRtMetrics = value.numSeRtMetrics;
       this._numServers = value.numServers;
       this._numServiceengines = value.numServiceengines;
       this._numTenants = value.numTenants;
       this._numVirtualservices = value.numVirtualservices;
+      this._numVirtualservicesApplicationInsights = value.numVirtualservicesApplicationInsights;
+      this._numVirtualservicesPositiveSecurity = value.numVirtualservicesPositiveSecurity;
       this._numVirtualservicesRtMetrics = value.numVirtualservicesRtMetrics;
+      this._numVirtualservicesRtmetricsWaf = value.numVirtualservicesRtmetricsWaf;
       this._numVrfs = value.numVrfs;
       this._numWafVirtualservices = value.numWafVirtualservices;
       this._controllerSizingCloudLimits.internalValue = value.controllerSizingCloudLimits;
@@ -970,6 +1055,38 @@ export class SystemlimitsControllerLimitsControllerSizingLimitsOutputReference e
   // Temporarily expose input value. Use with caution.
   public get numEastWestVirtualservicesInput() {
     return this._numEastWestVirtualservices;
+  }
+
+  // num_pool_rt_metrics - computed: true, optional: true, required: false
+  private _numPoolRtMetrics?: string; 
+  public get numPoolRtMetrics() {
+    return this.getStringAttribute('num_pool_rt_metrics');
+  }
+  public set numPoolRtMetrics(value: string) {
+    this._numPoolRtMetrics = value;
+  }
+  public resetNumPoolRtMetrics() {
+    this._numPoolRtMetrics = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numPoolRtMetricsInput() {
+    return this._numPoolRtMetrics;
+  }
+
+  // num_se_rt_metrics - computed: true, optional: true, required: false
+  private _numSeRtMetrics?: string; 
+  public get numSeRtMetrics() {
+    return this.getStringAttribute('num_se_rt_metrics');
+  }
+  public set numSeRtMetrics(value: string) {
+    this._numSeRtMetrics = value;
+  }
+  public resetNumSeRtMetrics() {
+    this._numSeRtMetrics = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numSeRtMetricsInput() {
+    return this._numSeRtMetrics;
   }
 
   // num_servers - computed: true, optional: true, required: false
@@ -1036,6 +1153,38 @@ export class SystemlimitsControllerLimitsControllerSizingLimitsOutputReference e
     return this._numVirtualservices;
   }
 
+  // num_virtualservices_application_insights - computed: true, optional: true, required: false
+  private _numVirtualservicesApplicationInsights?: string; 
+  public get numVirtualservicesApplicationInsights() {
+    return this.getStringAttribute('num_virtualservices_application_insights');
+  }
+  public set numVirtualservicesApplicationInsights(value: string) {
+    this._numVirtualservicesApplicationInsights = value;
+  }
+  public resetNumVirtualservicesApplicationInsights() {
+    this._numVirtualservicesApplicationInsights = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numVirtualservicesApplicationInsightsInput() {
+    return this._numVirtualservicesApplicationInsights;
+  }
+
+  // num_virtualservices_positive_security - computed: true, optional: true, required: false
+  private _numVirtualservicesPositiveSecurity?: string; 
+  public get numVirtualservicesPositiveSecurity() {
+    return this.getStringAttribute('num_virtualservices_positive_security');
+  }
+  public set numVirtualservicesPositiveSecurity(value: string) {
+    this._numVirtualservicesPositiveSecurity = value;
+  }
+  public resetNumVirtualservicesPositiveSecurity() {
+    this._numVirtualservicesPositiveSecurity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numVirtualservicesPositiveSecurityInput() {
+    return this._numVirtualservicesPositiveSecurity;
+  }
+
   // num_virtualservices_rt_metrics - computed: true, optional: true, required: false
   private _numVirtualservicesRtMetrics?: string; 
   public get numVirtualservicesRtMetrics() {
@@ -1050,6 +1199,22 @@ export class SystemlimitsControllerLimitsControllerSizingLimitsOutputReference e
   // Temporarily expose input value. Use with caution.
   public get numVirtualservicesRtMetricsInput() {
     return this._numVirtualservicesRtMetrics;
+  }
+
+  // num_virtualservices_rtmetrics_waf - computed: true, optional: true, required: false
+  private _numVirtualservicesRtmetricsWaf?: string; 
+  public get numVirtualservicesRtmetricsWaf() {
+    return this.getStringAttribute('num_virtualservices_rtmetrics_waf');
+  }
+  public set numVirtualservicesRtmetricsWaf(value: string) {
+    this._numVirtualservicesRtmetricsWaf = value;
+  }
+  public resetNumVirtualservicesRtmetricsWaf() {
+    this._numVirtualservicesRtmetricsWaf = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numVirtualservicesRtmetricsWafInput() {
+    return this._numVirtualservicesRtmetricsWaf;
   }
 
   // num_vrfs - computed: true, optional: true, required: false
@@ -1122,19 +1287,19 @@ export class SystemlimitsControllerLimitsControllerSizingLimitsList extends cdkt
 }
 export interface SystemlimitsControllerLimitsIpaddressLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#ip_address_group_per_match_criteria Systemlimits#ip_address_group_per_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#ip_address_group_per_match_criteria Systemlimits#ip_address_group_per_match_criteria}
   */
   readonly ipAddressGroupPerMatchCriteria?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#ip_address_prefix_per_match_criteria Systemlimits#ip_address_prefix_per_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#ip_address_prefix_per_match_criteria Systemlimits#ip_address_prefix_per_match_criteria}
   */
   readonly ipAddressPrefixPerMatchCriteria?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#ip_address_range_per_match_criteria Systemlimits#ip_address_range_per_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#ip_address_range_per_match_criteria Systemlimits#ip_address_range_per_match_criteria}
   */
   readonly ipAddressRangePerMatchCriteria?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#ip_addresses_per_match_criteria Systemlimits#ip_addresses_per_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#ip_addresses_per_match_criteria Systemlimits#ip_addresses_per_match_criteria}
   */
   readonly ipAddressesPerMatchCriteria?: string;
 }
@@ -1337,55 +1502,55 @@ export class SystemlimitsControllerLimitsIpaddressLimitsList extends cdktf.Compl
 }
 export interface SystemlimitsControllerLimitsL7Limits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#http_policies_per_vs Systemlimits#http_policies_per_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#http_policies_per_vs Systemlimits#http_policies_per_vs}
   */
   readonly httpPoliciesPerVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_compression_filters Systemlimits#num_compression_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_compression_filters Systemlimits#num_compression_filters}
   */
   readonly numCompressionFilters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_custom_str Systemlimits#num_custom_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_custom_str Systemlimits#num_custom_str}
   */
   readonly numCustomStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_matches_per_rule Systemlimits#num_matches_per_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_matches_per_rule Systemlimits#num_matches_per_rule}
   */
   readonly numMatchesPerRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_rules_per_evh_host Systemlimits#num_rules_per_evh_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_rules_per_evh_host Systemlimits#num_rules_per_evh_host}
   */
   readonly numRulesPerEvhHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_rules_per_http_policy Systemlimits#num_rules_per_http_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_rules_per_http_policy Systemlimits#num_rules_per_http_policy}
   */
   readonly numRulesPerHttpPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_strgroups_per_match Systemlimits#num_strgroups_per_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_strgroups_per_match Systemlimits#num_strgroups_per_match}
   */
   readonly numStrgroupsPerMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#str_cache_mime Systemlimits#str_cache_mime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#str_cache_mime Systemlimits#str_cache_mime}
   */
   readonly strCacheMime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#str_groups_cache_mime Systemlimits#str_groups_cache_mime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#str_groups_cache_mime Systemlimits#str_groups_cache_mime}
   */
   readonly strGroupsCacheMime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#str_groups_no_cache_mime Systemlimits#str_groups_no_cache_mime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#str_groups_no_cache_mime Systemlimits#str_groups_no_cache_mime}
   */
   readonly strGroupsNoCacheMime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#str_groups_no_cache_uri Systemlimits#str_groups_no_cache_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#str_groups_no_cache_uri Systemlimits#str_groups_no_cache_uri}
   */
   readonly strGroupsNoCacheUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#str_no_cache_mime Systemlimits#str_no_cache_mime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#str_no_cache_mime Systemlimits#str_no_cache_mime}
   */
   readonly strNoCacheMime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#str_no_cache_uri Systemlimits#str_no_cache_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#str_no_cache_uri Systemlimits#str_no_cache_uri}
   */
   readonly strNoCacheUri?: string;
 }
@@ -1849,71 +2014,71 @@ export class SystemlimitsControllerLimitsL7LimitsList extends cdktf.ComplexList 
 }
 export interface SystemlimitsControllerLimitsWafLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_allowed_content_types Systemlimits#num_allowed_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_allowed_content_types Systemlimits#num_allowed_content_types}
   */
   readonly numAllowedContentTypes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_allowed_request_content_type_charsets Systemlimits#num_allowed_request_content_type_charsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_allowed_request_content_type_charsets Systemlimits#num_allowed_request_content_type_charsets}
   */
   readonly numAllowedRequestContentTypeCharsets?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_allowlist_policy_rules Systemlimits#num_allowlist_policy_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_allowlist_policy_rules Systemlimits#num_allowlist_policy_rules}
   */
   readonly numAllowlistPolicyRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_applications Systemlimits#num_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_applications Systemlimits#num_applications}
   */
   readonly numApplications?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_content_type_mappings Systemlimits#num_content_type_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_content_type_mappings Systemlimits#num_content_type_mappings}
   */
   readonly numContentTypeMappings?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_data_files Systemlimits#num_data_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_data_files Systemlimits#num_data_files}
   */
   readonly numDataFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_exclude_list_per_rule_group Systemlimits#num_exclude_list_per_rule_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_exclude_list_per_rule_group Systemlimits#num_exclude_list_per_rule_group}
   */
   readonly numExcludeListPerRuleGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_pre_post_crs_groups Systemlimits#num_pre_post_crs_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_pre_post_crs_groups Systemlimits#num_pre_post_crs_groups}
   */
   readonly numPrePostCrsGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_psm_groups Systemlimits#num_psm_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_psm_groups Systemlimits#num_psm_groups}
   */
   readonly numPsmGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_psm_match_elements Systemlimits#num_psm_match_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_psm_match_elements Systemlimits#num_psm_match_elements}
   */
   readonly numPsmMatchElements?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_psm_match_rules_per_loc Systemlimits#num_psm_match_rules_per_loc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_psm_match_rules_per_loc Systemlimits#num_psm_match_rules_per_loc}
   */
   readonly numPsmMatchRulesPerLoc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_psm_total_locations Systemlimits#num_psm_total_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_psm_total_locations Systemlimits#num_psm_total_locations}
   */
   readonly numPsmTotalLocations?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_restricted_extensions Systemlimits#num_restricted_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_restricted_extensions Systemlimits#num_restricted_extensions}
   */
   readonly numRestrictedExtensions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_restricted_headers Systemlimits#num_restricted_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_restricted_headers Systemlimits#num_restricted_headers}
   */
   readonly numRestrictedHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_rule_tags Systemlimits#num_rule_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_rule_tags Systemlimits#num_rule_tags}
   */
   readonly numRuleTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_rules_per_rulegroup Systemlimits#num_rules_per_rulegroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_rules_per_rulegroup Systemlimits#num_rules_per_rulegroup}
   */
   readonly numRulesPerRulegroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_static_extensions Systemlimits#num_static_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_static_extensions Systemlimits#num_static_extensions}
   */
   readonly numStaticExtensions?: string;
 }
@@ -2493,99 +2658,103 @@ export class SystemlimitsControllerLimitsWafLimitsList extends cdktf.ComplexList
 }
 export interface SystemlimitsControllerLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#certificates_per_virtualservice Systemlimits#certificates_per_virtualservice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#certificates_per_virtualservice Systemlimits#certificates_per_virtualservice}
   */
   readonly certificatesPerVirtualservice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#default_routes_per_vrfcontext Systemlimits#default_routes_per_vrfcontext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#default_routes_per_vrfcontext Systemlimits#default_routes_per_vrfcontext}
   */
   readonly defaultRoutesPerVrfcontext?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#gateway_mon_per_vrf Systemlimits#gateway_mon_per_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#gateway_mon_per_vrf Systemlimits#gateway_mon_per_vrf}
   */
   readonly gatewayMonPerVrf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#ips_per_ipgroup Systemlimits#ips_per_ipgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#ips_per_ipgroup Systemlimits#ips_per_ipgroup}
   */
   readonly ipsPerIpgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#poolgroups_per_virtualservice Systemlimits#poolgroups_per_virtualservice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#poolgroups_per_virtualservice Systemlimits#poolgroups_per_virtualservice}
   */
   readonly poolgroupsPerVirtualservice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#pools_per_poolgroup Systemlimits#pools_per_poolgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#pools_per_poolgroup Systemlimits#pools_per_poolgroup}
   */
   readonly poolsPerPoolgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#pools_per_virtualservice Systemlimits#pools_per_virtualservice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#pools_per_virtualservice Systemlimits#pools_per_virtualservice}
   */
   readonly poolsPerVirtualservice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#routes_per_vrfcontext Systemlimits#routes_per_vrfcontext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#routes_per_vrfcontext Systemlimits#routes_per_vrfcontext}
   */
   readonly routesPerVrfcontext?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#rules_per_nat_policy Systemlimits#rules_per_nat_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#rules_per_nat_policy Systemlimits#rules_per_nat_policy}
   */
   readonly rulesPerNatPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#rules_per_networksecuritypolicy Systemlimits#rules_per_networksecuritypolicy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#rules_per_networksecuritypolicy Systemlimits#rules_per_networksecuritypolicy}
   */
   readonly rulesPerNetworksecuritypolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#servers_per_pool Systemlimits#servers_per_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#servers_per_pool Systemlimits#servers_per_pool}
   */
   readonly serversPerPool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#sni_children_per_parent Systemlimits#sni_children_per_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#sni_children_per_parent Systemlimits#sni_children_per_parent}
   */
   readonly sniChildrenPerParent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#strings_per_stringgroup Systemlimits#strings_per_stringgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#strings_per_stringgroup Systemlimits#strings_per_stringgroup}
   */
   readonly stringsPerStringgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#vs_bgp_scaleout Systemlimits#vs_bgp_scaleout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#vs_bgp_scaleout Systemlimits#vs_bgp_scaleout}
   */
   readonly vsBgpScaleout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#vs_l2_scaleout Systemlimits#vs_l2_scaleout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#vs_l2_scaleout Systemlimits#vs_l2_scaleout}
   */
   readonly vsL2Scaleout?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#waf_rule_metrics_enabled_vs Systemlimits#waf_rule_metrics_enabled_vs}
+  */
+  readonly wafRuleMetricsEnabledVs?: string;
+  /**
   * bot_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#bot_limits Systemlimits#bot_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#bot_limits Systemlimits#bot_limits}
   */
   readonly botLimits?: SystemlimitsControllerLimitsBotLimits[] | cdktf.IResolvable;
   /**
   * controller_cloud_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#controller_cloud_limits Systemlimits#controller_cloud_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#controller_cloud_limits Systemlimits#controller_cloud_limits}
   */
   readonly controllerCloudLimits?: SystemlimitsControllerLimitsControllerCloudLimits[] | cdktf.IResolvable;
   /**
   * controller_sizing_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#controller_sizing_limits Systemlimits#controller_sizing_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#controller_sizing_limits Systemlimits#controller_sizing_limits}
   */
   readonly controllerSizingLimits?: SystemlimitsControllerLimitsControllerSizingLimits[] | cdktf.IResolvable;
   /**
   * ipaddress_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#ipaddress_limits Systemlimits#ipaddress_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#ipaddress_limits Systemlimits#ipaddress_limits}
   */
   readonly ipaddressLimits?: SystemlimitsControllerLimitsIpaddressLimits[] | cdktf.IResolvable;
   /**
   * l7_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#l7_limits Systemlimits#l7_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#l7_limits Systemlimits#l7_limits}
   */
   readonly l7Limits?: SystemlimitsControllerLimitsL7Limits[] | cdktf.IResolvable;
   /**
   * waf_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#waf_limits Systemlimits#waf_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#waf_limits Systemlimits#waf_limits}
   */
   readonly wafLimits?: SystemlimitsControllerLimitsWafLimits[] | cdktf.IResolvable;
 }
@@ -2611,6 +2780,7 @@ export function systemlimitsControllerLimitsToTerraform(struct?: SystemlimitsCon
     strings_per_stringgroup: cdktf.stringToTerraform(struct!.stringsPerStringgroup),
     vs_bgp_scaleout: cdktf.stringToTerraform(struct!.vsBgpScaleout),
     vs_l2_scaleout: cdktf.stringToTerraform(struct!.vsL2Scaleout),
+    waf_rule_metrics_enabled_vs: cdktf.stringToTerraform(struct!.wafRuleMetricsEnabledVs),
     bot_limits: cdktf.listMapper(systemlimitsControllerLimitsBotLimitsToTerraform, true)(struct!.botLimits),
     controller_cloud_limits: cdktf.listMapper(systemlimitsControllerLimitsControllerCloudLimitsToTerraform, true)(struct!.controllerCloudLimits),
     controller_sizing_limits: cdktf.listMapper(systemlimitsControllerLimitsControllerSizingLimitsToTerraform, true)(struct!.controllerSizingLimits),
@@ -2713,6 +2883,12 @@ export function systemlimitsControllerLimitsToHclTerraform(struct?: Systemlimits
     },
     vs_l2_scaleout: {
       value: cdktf.stringToHclTerraform(struct!.vsL2Scaleout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    waf_rule_metrics_enabled_vs: {
+      value: cdktf.stringToHclTerraform(struct!.wafRuleMetricsEnabledVs),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2839,6 +3015,10 @@ export class SystemlimitsControllerLimitsOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.vsL2Scaleout = this._vsL2Scaleout;
     }
+    if (this._wafRuleMetricsEnabledVs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wafRuleMetricsEnabledVs = this._wafRuleMetricsEnabledVs;
+    }
     if (this._botLimits?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.botLimits = this._botLimits?.internalValue;
@@ -2885,6 +3065,7 @@ export class SystemlimitsControllerLimitsOutputReference extends cdktf.ComplexOb
       this._stringsPerStringgroup = undefined;
       this._vsBgpScaleout = undefined;
       this._vsL2Scaleout = undefined;
+      this._wafRuleMetricsEnabledVs = undefined;
       this._botLimits.internalValue = undefined;
       this._controllerCloudLimits.internalValue = undefined;
       this._controllerSizingLimits.internalValue = undefined;
@@ -2914,6 +3095,7 @@ export class SystemlimitsControllerLimitsOutputReference extends cdktf.ComplexOb
       this._stringsPerStringgroup = value.stringsPerStringgroup;
       this._vsBgpScaleout = value.vsBgpScaleout;
       this._vsL2Scaleout = value.vsL2Scaleout;
+      this._wafRuleMetricsEnabledVs = value.wafRuleMetricsEnabledVs;
       this._botLimits.internalValue = value.botLimits;
       this._controllerCloudLimits.internalValue = value.controllerCloudLimits;
       this._controllerSizingLimits.internalValue = value.controllerSizingLimits;
@@ -3163,6 +3345,22 @@ export class SystemlimitsControllerLimitsOutputReference extends cdktf.ComplexOb
     return this._vsL2Scaleout;
   }
 
+  // waf_rule_metrics_enabled_vs - computed: true, optional: true, required: false
+  private _wafRuleMetricsEnabledVs?: string; 
+  public get wafRuleMetricsEnabledVs() {
+    return this.getStringAttribute('waf_rule_metrics_enabled_vs');
+  }
+  public set wafRuleMetricsEnabledVs(value: string) {
+    this._wafRuleMetricsEnabledVs = value;
+  }
+  public resetWafRuleMetricsEnabledVs() {
+    this._wafRuleMetricsEnabledVs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wafRuleMetricsEnabledVsInput() {
+    return this._wafRuleMetricsEnabledVs;
+  }
+
   // bot_limits - computed: false, optional: true, required: false
   private _botLimits = new SystemlimitsControllerLimitsBotLimitsList(this, "bot_limits", true);
   public get botLimits() {
@@ -3281,15 +3479,15 @@ export class SystemlimitsControllerLimitsList extends cdktf.ComplexList {
 }
 export interface SystemlimitsControllerSizes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#flavor Systemlimits#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#flavor Systemlimits#flavor}
   */
   readonly flavor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#min_cpus Systemlimits#min_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#min_cpus Systemlimits#min_cpus}
   */
   readonly minCpus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#min_memory Systemlimits#min_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#min_memory Systemlimits#min_memory}
   */
   readonly minMemory?: string;
 }
@@ -3463,11 +3661,11 @@ export class SystemlimitsControllerSizesList extends cdktf.ComplexList {
 }
 export interface SystemlimitsServiceengineLimitsServiceengineCloudLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#type Systemlimits#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#type Systemlimits#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#vrfs_per_serviceengine Systemlimits#vrfs_per_serviceengine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#vrfs_per_serviceengine Systemlimits#vrfs_per_serviceengine}
   */
   readonly vrfsPerServiceengine?: string;
 }
@@ -3612,41 +3810,29 @@ export class SystemlimitsServiceengineLimitsServiceengineCloudLimitsList extends
 }
 export interface SystemlimitsServiceengineLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#all_virtualservices_per_serviceengine Systemlimits#all_virtualservices_per_serviceengine}
-  */
-  readonly allVirtualservicesPerServiceengine?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#ew_virtualservices_per_serviceengine Systemlimits#ew_virtualservices_per_serviceengine}
-  */
-  readonly ewVirtualservicesPerServiceengine?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#ns_virtualservices_per_serviceengine Systemlimits#ns_virtualservices_per_serviceengine}
-  */
-  readonly nsVirtualservicesPerServiceengine?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_logical_intf_per_se Systemlimits#num_logical_intf_per_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_logical_intf_per_se Systemlimits#num_logical_intf_per_se}
   */
   readonly numLogicalIntfPerSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_phy_intf_per_se Systemlimits#num_phy_intf_per_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_phy_intf_per_se Systemlimits#num_phy_intf_per_se}
   */
   readonly numPhyIntfPerSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_virtualservices_rt_metrics Systemlimits#num_virtualservices_rt_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_virtualservices_rt_metrics Systemlimits#num_virtualservices_rt_metrics}
   */
   readonly numVirtualservicesRtMetrics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_vlan_intf_per_phy_intf Systemlimits#num_vlan_intf_per_phy_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_vlan_intf_per_phy_intf Systemlimits#num_vlan_intf_per_phy_intf}
   */
   readonly numVlanIntfPerPhyIntf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#num_vlan_intf_per_se Systemlimits#num_vlan_intf_per_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#num_vlan_intf_per_se Systemlimits#num_vlan_intf_per_se}
   */
   readonly numVlanIntfPerSe?: string;
   /**
   * serviceengine_cloud_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#serviceengine_cloud_limits Systemlimits#serviceengine_cloud_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#serviceengine_cloud_limits Systemlimits#serviceengine_cloud_limits}
   */
   readonly serviceengineCloudLimits?: SystemlimitsServiceengineLimitsServiceengineCloudLimits[] | cdktf.IResolvable;
 }
@@ -3657,9 +3843,6 @@ export function systemlimitsServiceengineLimitsToTerraform(struct?: Systemlimits
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    all_virtualservices_per_serviceengine: cdktf.stringToTerraform(struct!.allVirtualservicesPerServiceengine),
-    ew_virtualservices_per_serviceengine: cdktf.stringToTerraform(struct!.ewVirtualservicesPerServiceengine),
-    ns_virtualservices_per_serviceengine: cdktf.stringToTerraform(struct!.nsVirtualservicesPerServiceengine),
     num_logical_intf_per_se: cdktf.stringToTerraform(struct!.numLogicalIntfPerSe),
     num_phy_intf_per_se: cdktf.stringToTerraform(struct!.numPhyIntfPerSe),
     num_virtualservices_rt_metrics: cdktf.stringToTerraform(struct!.numVirtualservicesRtMetrics),
@@ -3676,24 +3859,6 @@ export function systemlimitsServiceengineLimitsToHclTerraform(struct?: Systemlim
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    all_virtualservices_per_serviceengine: {
-      value: cdktf.stringToHclTerraform(struct!.allVirtualservicesPerServiceengine),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ew_virtualservices_per_serviceengine: {
-      value: cdktf.stringToHclTerraform(struct!.ewVirtualservicesPerServiceengine),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ns_virtualservices_per_serviceengine: {
-      value: cdktf.stringToHclTerraform(struct!.nsVirtualservicesPerServiceengine),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
     num_logical_intf_per_se: {
       value: cdktf.stringToHclTerraform(struct!.numLogicalIntfPerSe),
       isBlock: false,
@@ -3756,18 +3921,6 @@ export class SystemlimitsServiceengineLimitsOutputReference extends cdktf.Comple
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._allVirtualservicesPerServiceengine !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.allVirtualservicesPerServiceengine = this._allVirtualservicesPerServiceengine;
-    }
-    if (this._ewVirtualservicesPerServiceengine !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ewVirtualservicesPerServiceengine = this._ewVirtualservicesPerServiceengine;
-    }
-    if (this._nsVirtualservicesPerServiceengine !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nsVirtualservicesPerServiceengine = this._nsVirtualservicesPerServiceengine;
-    }
     if (this._numLogicalIntfPerSe !== undefined) {
       hasAnyValues = true;
       internalValueResult.numLogicalIntfPerSe = this._numLogicalIntfPerSe;
@@ -3799,9 +3952,6 @@ export class SystemlimitsServiceengineLimitsOutputReference extends cdktf.Comple
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._allVirtualservicesPerServiceengine = undefined;
-      this._ewVirtualservicesPerServiceengine = undefined;
-      this._nsVirtualservicesPerServiceengine = undefined;
       this._numLogicalIntfPerSe = undefined;
       this._numPhyIntfPerSe = undefined;
       this._numVirtualservicesRtMetrics = undefined;
@@ -3816,9 +3966,6 @@ export class SystemlimitsServiceengineLimitsOutputReference extends cdktf.Comple
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._allVirtualservicesPerServiceengine = value.allVirtualservicesPerServiceengine;
-      this._ewVirtualservicesPerServiceengine = value.ewVirtualservicesPerServiceengine;
-      this._nsVirtualservicesPerServiceengine = value.nsVirtualservicesPerServiceengine;
       this._numLogicalIntfPerSe = value.numLogicalIntfPerSe;
       this._numPhyIntfPerSe = value.numPhyIntfPerSe;
       this._numVirtualservicesRtMetrics = value.numVirtualservicesRtMetrics;
@@ -3826,54 +3973,6 @@ export class SystemlimitsServiceengineLimitsOutputReference extends cdktf.Comple
       this._numVlanIntfPerSe = value.numVlanIntfPerSe;
       this._serviceengineCloudLimits.internalValue = value.serviceengineCloudLimits;
     }
-  }
-
-  // all_virtualservices_per_serviceengine - computed: true, optional: true, required: false
-  private _allVirtualservicesPerServiceengine?: string; 
-  public get allVirtualservicesPerServiceengine() {
-    return this.getStringAttribute('all_virtualservices_per_serviceengine');
-  }
-  public set allVirtualservicesPerServiceengine(value: string) {
-    this._allVirtualservicesPerServiceengine = value;
-  }
-  public resetAllVirtualservicesPerServiceengine() {
-    this._allVirtualservicesPerServiceengine = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get allVirtualservicesPerServiceengineInput() {
-    return this._allVirtualservicesPerServiceengine;
-  }
-
-  // ew_virtualservices_per_serviceengine - computed: true, optional: true, required: false
-  private _ewVirtualservicesPerServiceengine?: string; 
-  public get ewVirtualservicesPerServiceengine() {
-    return this.getStringAttribute('ew_virtualservices_per_serviceengine');
-  }
-  public set ewVirtualservicesPerServiceengine(value: string) {
-    this._ewVirtualservicesPerServiceengine = value;
-  }
-  public resetEwVirtualservicesPerServiceengine() {
-    this._ewVirtualservicesPerServiceengine = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ewVirtualservicesPerServiceengineInput() {
-    return this._ewVirtualservicesPerServiceengine;
-  }
-
-  // ns_virtualservices_per_serviceengine - computed: true, optional: true, required: false
-  private _nsVirtualservicesPerServiceengine?: string; 
-  public get nsVirtualservicesPerServiceengine() {
-    return this.getStringAttribute('ns_virtualservices_per_serviceengine');
-  }
-  public set nsVirtualservicesPerServiceengine(value: string) {
-    this._nsVirtualservicesPerServiceengine = value;
-  }
-  public resetNsVirtualservicesPerServiceengine() {
-    this._nsVirtualservicesPerServiceengine = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nsVirtualservicesPerServiceengineInput() {
-    return this._nsVirtualservicesPerServiceengine;
   }
 
   // num_logical_intf_per_se - computed: true, optional: true, required: false
@@ -3994,7 +4093,7 @@ export class SystemlimitsServiceengineLimitsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits avi_systemlimits}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits avi_systemlimits}
 */
 export class Systemlimits extends cdktf.TerraformResource {
 
@@ -4010,7 +4109,7 @@ export class Systemlimits extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Systemlimits resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Systemlimits to import
-  * @param importFromId The id of the existing Systemlimits that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Systemlimits that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Systemlimits to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4022,7 +4121,7 @@ export class Systemlimits extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemlimits avi_systemlimits} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/systemlimits avi_systemlimits} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4033,8 +4132,8 @@ export class Systemlimits extends cdktf.TerraformResource {
       terraformResourceType: 'avi_systemlimits',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

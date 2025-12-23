@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DcIpPortForwardingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Direct Connect Interface ID. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding#dc_interface_id DcIpPortForwarding#dc_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding#dc_interface_id DcIpPortForwarding#dc_interface_id}
   */
   readonly dcInterfaceId: string;
   /**
   * Description of the conntrack helper
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding#description DcIpPortForwarding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding#description DcIpPortForwarding#description}
   */
   readonly description?: string;
   /**
   * Destination address selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding#destination DcIpPortForwarding#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding#destination DcIpPortForwarding#destination}
   */
   readonly destination?: string;
   /**
   * Name of the conntrack helper
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding#name DcIpPortForwarding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding#name DcIpPortForwarding#name}
   */
   readonly name?: string;
   /**
   * Port selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding#port DcIpPortForwarding#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding#port DcIpPortForwarding#port}
   */
   readonly port?: number;
   /**
   * Protocol. Must be one of: "tcp", "udp", "any".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding#protocol DcIpPortForwarding#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding#protocol DcIpPortForwarding#protocol}
   */
   readonly protocol: string;
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`. Changing this creates a new ip_port_forwarding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding#region DcIpPortForwarding#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding#region DcIpPortForwarding#region}
   */
   readonly region?: string;
   /**
   * Source address selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding#source DcIpPortForwarding#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding#source DcIpPortForwarding#source}
   */
   readonly source?: string;
   /**
   * IP Address of forwarding's destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding#to_destination DcIpPortForwarding#to_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding#to_destination DcIpPortForwarding#to_destination}
   */
   readonly toDestination: string;
   /**
   * Destination port selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding#to_port DcIpPortForwarding#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding#to_port DcIpPortForwarding#to_port}
   */
   readonly toPort?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding vkcs_dc_ip_port_forwarding}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding vkcs_dc_ip_port_forwarding}
 */
 export class DcIpPortForwarding extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class DcIpPortForwarding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcIpPortForwarding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcIpPortForwarding to import
-  * @param importFromId The id of the existing DcIpPortForwarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcIpPortForwarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcIpPortForwarding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class DcIpPortForwarding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_ip_port_forwarding vkcs_dc_ip_port_forwarding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_ip_port_forwarding vkcs_dc_ip_port_forwarding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class DcIpPortForwarding extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_dc_ip_port_forwarding',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

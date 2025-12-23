@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,283 @@ import * as cdktf from 'cdktf';
 
 export interface GslbConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#async_interval Gslb#async_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#async_interval Gslb#async_interval}
   */
   readonly asyncInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#clear_on_max_retries Gslb#clear_on_max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#clear_on_max_retries Gslb#clear_on_max_retries}
   */
   readonly clearOnMaxRetries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#description Gslb#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#description Gslb#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#enable_config_by_members Gslb#enable_config_by_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#enable_config_by_members Gslb#enable_config_by_members}
   */
   readonly enableConfigByMembers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#error_resync_interval Gslb#error_resync_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#error_resync_interval Gslb#error_resync_interval}
   */
   readonly errorResyncInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#fileobject_max_file_versions Gslb#fileobject_max_file_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#fileobject_max_file_versions Gslb#fileobject_max_file_versions}
   */
   readonly fileobjectMaxFileVersions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#id Gslb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#gs_member_fqdn_resolution_on_se Gslb#gs_member_fqdn_resolution_on_se}
+  */
+  readonly gsMemberFqdnResolutionOnSe?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#id Gslb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#is_federated Gslb#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#is_federated Gslb#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#leader_cluster_uuid Gslb#leader_cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#leader_cluster_uuid Gslb#leader_cluster_uuid}
   */
   readonly leaderClusterUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#maintenance_mode Gslb#maintenance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#maintenance_mode Gslb#maintenance_mode}
   */
   readonly maintenanceMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#name Gslb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#name Gslb#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#send_interval Gslb#send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#send_interval Gslb#send_interval}
   */
   readonly sendInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#send_interval_prior_to_maintenance_mode Gslb#send_interval_prior_to_maintenance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#send_interval_prior_to_maintenance_mode Gslb#send_interval_prior_to_maintenance_mode}
   */
   readonly sendIntervalPriorToMaintenanceMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#tenant_ref Gslb#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#short_probe_interval Gslb#short_probe_interval}
+  */
+  readonly shortProbeInterval?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#tenant_ref Gslb#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#tenant_scoped Gslb#tenant_scoped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#tenant_scoped Gslb#tenant_scoped}
   */
   readonly tenantScoped?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#uuid Gslb#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#uuid Gslb#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#view_id Gslb#view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#view_id Gslb#view_id}
   */
   readonly viewId?: string;
   /**
+  * auto_tune_send_interval block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#auto_tune_send_interval Gslb#auto_tune_send_interval}
+  */
+  readonly autoTuneSendInterval?: GslbAutoTuneSendInterval[] | cdktf.IResolvable;
+  /**
   * client_ip_addr_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#client_ip_addr_group Gslb#client_ip_addr_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#client_ip_addr_group Gslb#client_ip_addr_group}
   */
   readonly clientIpAddrGroup?: GslbClientIpAddrGroup[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#configpb_attributes Gslb#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#configpb_attributes Gslb#configpb_attributes}
   */
   readonly configpbAttributes?: GslbConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * dns_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#dns_configs Gslb#dns_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#dns_configs Gslb#dns_configs}
   */
   readonly dnsConfigs?: GslbDnsConfigs[] | cdktf.IResolvable;
   /**
-  * replication_policy block
+  * leader_change_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#replication_policy Gslb#replication_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#leader_change_info Gslb#leader_change_info}
   */
-  readonly replicationPolicy?: GslbReplicationPolicy[] | cdktf.IResolvable;
+  readonly leaderChangeInfo?: GslbLeaderChangeInfo[] | cdktf.IResolvable;
   /**
   * sites block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#sites Gslb#sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#sites Gslb#sites}
   */
   readonly sites: GslbSites[] | cdktf.IResolvable;
   /**
   * third_party_sites block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#third_party_sites Gslb#third_party_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#third_party_sites Gslb#third_party_sites}
   */
   readonly thirdPartySites?: GslbThirdPartySites[] | cdktf.IResolvable;
 }
+export interface GslbAutoTuneSendInterval {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#auto_tune_send_interval_timeout Gslb#auto_tune_send_interval_timeout}
+  */
+  readonly autoTuneSendIntervalTimeout?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#enabled Gslb#enabled}
+  */
+  readonly enabled?: string;
+}
+
+export function gslbAutoTuneSendIntervalToTerraform(struct?: GslbAutoTuneSendInterval | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    auto_tune_send_interval_timeout: cdktf.stringToTerraform(struct!.autoTuneSendIntervalTimeout),
+    enabled: cdktf.stringToTerraform(struct!.enabled),
+  }
+}
+
+
+export function gslbAutoTuneSendIntervalToHclTerraform(struct?: GslbAutoTuneSendInterval | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    auto_tune_send_interval_timeout: {
+      value: cdktf.stringToHclTerraform(struct!.autoTuneSendIntervalTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enabled: {
+      value: cdktf.stringToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GslbAutoTuneSendIntervalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GslbAutoTuneSendInterval | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._autoTuneSendIntervalTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoTuneSendIntervalTimeout = this._autoTuneSendIntervalTimeout;
+    }
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GslbAutoTuneSendInterval | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._autoTuneSendIntervalTimeout = undefined;
+      this._enabled = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._autoTuneSendIntervalTimeout = value.autoTuneSendIntervalTimeout;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // auto_tune_send_interval_timeout - computed: false, optional: true, required: false
+  private _autoTuneSendIntervalTimeout?: string; 
+  public get autoTuneSendIntervalTimeout() {
+    return this.getStringAttribute('auto_tune_send_interval_timeout');
+  }
+  public set autoTuneSendIntervalTimeout(value: string) {
+    this._autoTuneSendIntervalTimeout = value;
+  }
+  public resetAutoTuneSendIntervalTimeout() {
+    this._autoTuneSendIntervalTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoTuneSendIntervalTimeoutInput() {
+    return this._autoTuneSendIntervalTimeout;
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: string; 
+  public get enabled() {
+    return this.getStringAttribute('enabled');
+  }
+  public set enabled(value: string) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+}
+
+export class GslbAutoTuneSendIntervalList extends cdktf.ComplexList {
+  public internalValue? : GslbAutoTuneSendInterval[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GslbAutoTuneSendIntervalOutputReference {
+    return new GslbAutoTuneSendIntervalOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface GslbClientIpAddrGroupAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#addr Gslb#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#addr Gslb#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#type Gslb#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#type Gslb#type}
   */
   readonly type: string;
 }
@@ -260,11 +423,11 @@ export class GslbClientIpAddrGroupAddrsList extends cdktf.ComplexList {
 }
 export interface GslbClientIpAddrGroupPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#addr Gslb#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#addr Gslb#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#type Gslb#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#type Gslb#type}
   */
   readonly type: string;
 }
@@ -403,13 +566,13 @@ export class GslbClientIpAddrGroupPrefixesIpAddrList extends cdktf.ComplexList {
 }
 export interface GslbClientIpAddrGroupPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#mask Gslb#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#mask Gslb#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#ip_addr Gslb#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#ip_addr Gslb#ip_addr}
   */
   readonly ipAddr: GslbClientIpAddrGroupPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -548,11 +711,11 @@ export class GslbClientIpAddrGroupPrefixesList extends cdktf.ComplexList {
 }
 export interface GslbClientIpAddrGroupRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#addr Gslb#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#addr Gslb#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#type Gslb#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#type Gslb#type}
   */
   readonly type: string;
 }
@@ -691,11 +854,11 @@ export class GslbClientIpAddrGroupRangesBeginList extends cdktf.ComplexList {
 }
 export interface GslbClientIpAddrGroupRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#addr Gslb#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#addr Gslb#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#type Gslb#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#type Gslb#type}
   */
   readonly type: string;
 }
@@ -836,13 +999,13 @@ export interface GslbClientIpAddrGroupRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#begin Gslb#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#begin Gslb#begin}
   */
   readonly begin: GslbClientIpAddrGroupRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#end Gslb#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#end Gslb#end}
   */
   readonly end: GslbClientIpAddrGroupRangesEnd[] | cdktf.IResolvable;
 }
@@ -981,25 +1144,25 @@ export class GslbClientIpAddrGroupRangesList extends cdktf.ComplexList {
 }
 export interface GslbClientIpAddrGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#type Gslb#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#type Gslb#type}
   */
   readonly type?: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#addrs Gslb#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#addrs Gslb#addrs}
   */
   readonly addrs?: GslbClientIpAddrGroupAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#prefixes Gslb#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#prefixes Gslb#prefixes}
   */
   readonly prefixes?: GslbClientIpAddrGroupPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#ranges Gslb#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#ranges Gslb#ranges}
   */
   readonly ranges?: GslbClientIpAddrGroupRanges[] | cdktf.IResolvable;
 }
@@ -1202,7 +1365,7 @@ export class GslbClientIpAddrGroupList extends cdktf.ComplexList {
 }
 export interface GslbConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#version Gslb#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#version Gslb#version}
   */
   readonly version?: string;
 }
@@ -1318,7 +1481,7 @@ export class GslbConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface GslbDnsConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#domain_name Gslb#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#domain_name Gslb#domain_name}
   */
   readonly domainName: string;
 }
@@ -1429,43 +1592,43 @@ export class GslbDnsConfigsList extends cdktf.ComplexList {
     return new GslbDnsConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface GslbReplicationPolicy {
+export interface GslbLeaderChangeInfoLeaderCandidates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#checkpoint_ref Gslb#checkpoint_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#cluster_id Gslb#cluster_id}
   */
-  readonly checkpointRef?: string;
+  readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#replication_mode Gslb#replication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#site_name Gslb#site_name}
   */
-  readonly replicationMode?: string;
+  readonly siteName?: string;
 }
 
-export function gslbReplicationPolicyToTerraform(struct?: GslbReplicationPolicy | cdktf.IResolvable): any {
+export function gslbLeaderChangeInfoLeaderCandidatesToTerraform(struct?: GslbLeaderChangeInfoLeaderCandidates | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    checkpoint_ref: cdktf.stringToTerraform(struct!.checkpointRef),
-    replication_mode: cdktf.stringToTerraform(struct!.replicationMode),
+    cluster_id: cdktf.stringToTerraform(struct!.clusterId),
+    site_name: cdktf.stringToTerraform(struct!.siteName),
   }
 }
 
 
-export function gslbReplicationPolicyToHclTerraform(struct?: GslbReplicationPolicy | cdktf.IResolvable): any {
+export function gslbLeaderChangeInfoLeaderCandidatesToHclTerraform(struct?: GslbLeaderChangeInfoLeaderCandidates | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    checkpoint_ref: {
-      value: cdktf.stringToHclTerraform(struct!.checkpointRef),
+    cluster_id: {
+      value: cdktf.stringToHclTerraform(struct!.clusterId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    replication_mode: {
-      value: cdktf.stringToHclTerraform(struct!.replicationMode),
+    site_name: {
+      value: cdktf.stringToHclTerraform(struct!.siteName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1476,7 +1639,7 @@ export function gslbReplicationPolicyToHclTerraform(struct?: GslbReplicationPoli
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GslbReplicationPolicyOutputReference extends cdktf.ComplexObject {
+export class GslbLeaderChangeInfoLeaderCandidatesOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -1490,29 +1653,29 @@ export class GslbReplicationPolicyOutputReference extends cdktf.ComplexObject {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GslbReplicationPolicy | cdktf.IResolvable | undefined {
+  public get internalValue(): GslbLeaderChangeInfoLeaderCandidates | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._checkpointRef !== undefined) {
+    if (this._clusterId !== undefined) {
       hasAnyValues = true;
-      internalValueResult.checkpointRef = this._checkpointRef;
+      internalValueResult.clusterId = this._clusterId;
     }
-    if (this._replicationMode !== undefined) {
+    if (this._siteName !== undefined) {
       hasAnyValues = true;
-      internalValueResult.replicationMode = this._replicationMode;
+      internalValueResult.siteName = this._siteName;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GslbReplicationPolicy | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GslbLeaderChangeInfoLeaderCandidates | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._checkpointRef = undefined;
-      this._replicationMode = undefined;
+      this._clusterId = undefined;
+      this._siteName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1521,46 +1684,46 @@ export class GslbReplicationPolicyOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._checkpointRef = value.checkpointRef;
-      this._replicationMode = value.replicationMode;
+      this._clusterId = value.clusterId;
+      this._siteName = value.siteName;
     }
   }
 
-  // checkpoint_ref - computed: true, optional: true, required: false
-  private _checkpointRef?: string; 
-  public get checkpointRef() {
-    return this.getStringAttribute('checkpoint_ref');
+  // cluster_id - computed: true, optional: true, required: false
+  private _clusterId?: string; 
+  public get clusterId() {
+    return this.getStringAttribute('cluster_id');
   }
-  public set checkpointRef(value: string) {
-    this._checkpointRef = value;
+  public set clusterId(value: string) {
+    this._clusterId = value;
   }
-  public resetCheckpointRef() {
-    this._checkpointRef = undefined;
+  public resetClusterId() {
+    this._clusterId = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get checkpointRefInput() {
-    return this._checkpointRef;
+  public get clusterIdInput() {
+    return this._clusterId;
   }
 
-  // replication_mode - computed: false, optional: true, required: false
-  private _replicationMode?: string; 
-  public get replicationMode() {
-    return this.getStringAttribute('replication_mode');
+  // site_name - computed: true, optional: true, required: false
+  private _siteName?: string; 
+  public get siteName() {
+    return this.getStringAttribute('site_name');
   }
-  public set replicationMode(value: string) {
-    this._replicationMode = value;
+  public set siteName(value: string) {
+    this._siteName = value;
   }
-  public resetReplicationMode() {
-    this._replicationMode = undefined;
+  public resetSiteName() {
+    this._siteName = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get replicationModeInput() {
-    return this._replicationMode;
+  public get siteNameInput() {
+    return this._siteName;
   }
 }
 
-export class GslbReplicationPolicyList extends cdktf.ComplexList {
-  public internalValue? : GslbReplicationPolicy[] | cdktf.IResolvable
+export class GslbLeaderChangeInfoLeaderCandidatesList extends cdktf.ComplexList {
+  public internalValue? : GslbLeaderChangeInfoLeaderCandidates[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -1574,17 +1737,234 @@ export class GslbReplicationPolicyList extends cdktf.ComplexList {
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): GslbReplicationPolicyOutputReference {
-    return new GslbReplicationPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): GslbLeaderChangeInfoLeaderCandidatesOutputReference {
+    return new GslbLeaderChangeInfoLeaderCandidatesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GslbLeaderChangeInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#enabled Gslb#enabled}
+  */
+  readonly enabled?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#leader_change_mode Gslb#leader_change_mode}
+  */
+  readonly leaderChangeMode?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#max_unsuccessful_probes Gslb#max_unsuccessful_probes}
+  */
+  readonly maxUnsuccessfulProbes?: string;
+  /**
+  * leader_candidates block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#leader_candidates Gslb#leader_candidates}
+  */
+  readonly leaderCandidates?: GslbLeaderChangeInfoLeaderCandidates[] | cdktf.IResolvable;
+}
+
+export function gslbLeaderChangeInfoToTerraform(struct?: GslbLeaderChangeInfo | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.stringToTerraform(struct!.enabled),
+    leader_change_mode: cdktf.stringToTerraform(struct!.leaderChangeMode),
+    max_unsuccessful_probes: cdktf.stringToTerraform(struct!.maxUnsuccessfulProbes),
+    leader_candidates: cdktf.listMapper(gslbLeaderChangeInfoLeaderCandidatesToTerraform, true)(struct!.leaderCandidates),
+  }
+}
+
+
+export function gslbLeaderChangeInfoToHclTerraform(struct?: GslbLeaderChangeInfo | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.stringToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    leader_change_mode: {
+      value: cdktf.stringToHclTerraform(struct!.leaderChangeMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_unsuccessful_probes: {
+      value: cdktf.stringToHclTerraform(struct!.maxUnsuccessfulProbes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    leader_candidates: {
+      value: cdktf.listMapperHcl(gslbLeaderChangeInfoLeaderCandidatesToHclTerraform, true)(struct!.leaderCandidates),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GslbLeaderChangeInfoLeaderCandidatesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GslbLeaderChangeInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GslbLeaderChangeInfo | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._leaderChangeMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.leaderChangeMode = this._leaderChangeMode;
+    }
+    if (this._maxUnsuccessfulProbes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxUnsuccessfulProbes = this._maxUnsuccessfulProbes;
+    }
+    if (this._leaderCandidates?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.leaderCandidates = this._leaderCandidates?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GslbLeaderChangeInfo | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._enabled = undefined;
+      this._leaderChangeMode = undefined;
+      this._maxUnsuccessfulProbes = undefined;
+      this._leaderCandidates.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._enabled = value.enabled;
+      this._leaderChangeMode = value.leaderChangeMode;
+      this._maxUnsuccessfulProbes = value.maxUnsuccessfulProbes;
+      this._leaderCandidates.internalValue = value.leaderCandidates;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: string; 
+  public get enabled() {
+    return this.getStringAttribute('enabled');
+  }
+  public set enabled(value: string) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // leader_change_mode - computed: false, optional: true, required: false
+  private _leaderChangeMode?: string; 
+  public get leaderChangeMode() {
+    return this.getStringAttribute('leader_change_mode');
+  }
+  public set leaderChangeMode(value: string) {
+    this._leaderChangeMode = value;
+  }
+  public resetLeaderChangeMode() {
+    this._leaderChangeMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get leaderChangeModeInput() {
+    return this._leaderChangeMode;
+  }
+
+  // max_unsuccessful_probes - computed: false, optional: true, required: false
+  private _maxUnsuccessfulProbes?: string; 
+  public get maxUnsuccessfulProbes() {
+    return this.getStringAttribute('max_unsuccessful_probes');
+  }
+  public set maxUnsuccessfulProbes(value: string) {
+    this._maxUnsuccessfulProbes = value;
+  }
+  public resetMaxUnsuccessfulProbes() {
+    this._maxUnsuccessfulProbes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxUnsuccessfulProbesInput() {
+    return this._maxUnsuccessfulProbes;
+  }
+
+  // leader_candidates - computed: false, optional: true, required: false
+  private _leaderCandidates = new GslbLeaderChangeInfoLeaderCandidatesList(this, "leader_candidates", false);
+  public get leaderCandidates() {
+    return this._leaderCandidates;
+  }
+  public putLeaderCandidates(value: GslbLeaderChangeInfoLeaderCandidates[] | cdktf.IResolvable) {
+    this._leaderCandidates.internalValue = value;
+  }
+  public resetLeaderCandidates() {
+    this._leaderCandidates.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get leaderCandidatesInput() {
+    return this._leaderCandidates.internalValue;
+  }
+}
+
+export class GslbLeaderChangeInfoList extends cdktf.ComplexList {
+  public internalValue? : GslbLeaderChangeInfo[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GslbLeaderChangeInfoOutputReference {
+    return new GslbLeaderChangeInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface GslbSitesDnsVses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#dns_vs_uuid Gslb#dns_vs_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#dns_vs_uuid Gslb#dns_vs_uuid}
   */
   readonly dnsVsUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#domain_names Gslb#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#domain_names Gslb#domain_names}
   */
   readonly domainNames?: string[];
 }
@@ -1726,11 +2106,11 @@ export class GslbSitesDnsVsesList extends cdktf.ComplexList {
 }
 export interface GslbSitesHmProxies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#proxy_type Gslb#proxy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#proxy_type Gslb#proxy_type}
   */
   readonly proxyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#site_uuid Gslb#site_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#site_uuid Gslb#site_uuid}
   */
   readonly siteUuid?: string;
 }
@@ -1875,11 +2255,11 @@ export class GslbSitesHmProxiesList extends cdktf.ComplexList {
 }
 export interface GslbSitesIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#addr Gslb#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#addr Gslb#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#type Gslb#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#type Gslb#type}
   */
   readonly type: string;
 }
@@ -2018,19 +2398,19 @@ export class GslbSitesIpAddressesList extends cdktf.ComplexList {
 }
 export interface GslbSitesLocationLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#latitude Gslb#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#latitude Gslb#latitude}
   */
   readonly latitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#longitude Gslb#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#longitude Gslb#longitude}
   */
   readonly longitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#name Gslb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#name Gslb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#tag Gslb#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#tag Gslb#tag}
   */
   readonly tag?: string;
 }
@@ -2233,13 +2613,13 @@ export class GslbSitesLocationLocationList extends cdktf.ComplexList {
 }
 export interface GslbSitesLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#source Gslb#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#source Gslb#source}
   */
   readonly source: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#location Gslb#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#location Gslb#location}
   */
   readonly location?: GslbSitesLocationLocation[] | cdktf.IResolvable;
 }
@@ -2379,79 +2759,201 @@ export class GslbSitesLocationList extends cdktf.ComplexList {
     return new GslbSitesLocationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GslbSitesReplicationPolicy {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#replication_mode Gslb#replication_mode}
+  */
+  readonly replicationMode?: string;
+}
+
+export function gslbSitesReplicationPolicyToTerraform(struct?: GslbSitesReplicationPolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    replication_mode: cdktf.stringToTerraform(struct!.replicationMode),
+  }
+}
+
+
+export function gslbSitesReplicationPolicyToHclTerraform(struct?: GslbSitesReplicationPolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    replication_mode: {
+      value: cdktf.stringToHclTerraform(struct!.replicationMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GslbSitesReplicationPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GslbSitesReplicationPolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._replicationMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.replicationMode = this._replicationMode;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GslbSitesReplicationPolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._replicationMode = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._replicationMode = value.replicationMode;
+    }
+  }
+
+  // replication_mode - computed: false, optional: true, required: false
+  private _replicationMode?: string; 
+  public get replicationMode() {
+    return this.getStringAttribute('replication_mode');
+  }
+  public set replicationMode(value: string) {
+    this._replicationMode = value;
+  }
+  public resetReplicationMode() {
+    this._replicationMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get replicationModeInput() {
+    return this._replicationMode;
+  }
+}
+
+export class GslbSitesReplicationPolicyList extends cdktf.ComplexList {
+  public internalValue? : GslbSitesReplicationPolicy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GslbSitesReplicationPolicyOutputReference {
+    return new GslbSitesReplicationPolicyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface GslbSites {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#address Gslb#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#address Gslb#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#cluster_uuid Gslb#cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#cluster_uuid Gslb#cluster_uuid}
   */
   readonly clusterUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#enabled Gslb#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#enabled Gslb#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#hm_shard_enabled Gslb#hm_shard_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#hm_shard_enabled Gslb#hm_shard_enabled}
   */
   readonly hmShardEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#member_type Gslb#member_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#member_type Gslb#member_type}
   */
   readonly memberType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#name Gslb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#name Gslb#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#password Gslb#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#password Gslb#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#port Gslb#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#port Gslb#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#ratio Gslb#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#ratio Gslb#ratio}
   */
   readonly ratio?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#suspend_mode Gslb#suspend_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#suspend_mode Gslb#suspend_mode}
   */
   readonly suspendMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#username Gslb#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#username Gslb#username}
   */
   readonly username: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#uuid Gslb#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#uuid Gslb#uuid}
   */
   readonly uuid?: string;
   /**
   * dns_vses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#dns_vses Gslb#dns_vses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#dns_vses Gslb#dns_vses}
   */
   readonly dnsVses?: GslbSitesDnsVses[] | cdktf.IResolvable;
   /**
   * hm_proxies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#hm_proxies Gslb#hm_proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#hm_proxies Gslb#hm_proxies}
   */
   readonly hmProxies?: GslbSitesHmProxies[] | cdktf.IResolvable;
   /**
   * ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#ip_addresses Gslb#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#ip_addresses Gslb#ip_addresses}
   */
   readonly ipAddresses?: GslbSitesIpAddresses[] | cdktf.IResolvable;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#location Gslb#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#location Gslb#location}
   */
   readonly location?: GslbSitesLocation[] | cdktf.IResolvable;
+  /**
+  * replication_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#replication_policy Gslb#replication_policy}
+  */
+  readonly replicationPolicy?: GslbSitesReplicationPolicy[] | cdktf.IResolvable;
 }
 
 export function gslbSitesToTerraform(struct?: GslbSites | cdktf.IResolvable): any {
@@ -2476,6 +2978,7 @@ export function gslbSitesToTerraform(struct?: GslbSites | cdktf.IResolvable): an
     hm_proxies: cdktf.listMapper(gslbSitesHmProxiesToTerraform, true)(struct!.hmProxies),
     ip_addresses: cdktf.listMapper(gslbSitesIpAddressesToTerraform, true)(struct!.ipAddresses),
     location: cdktf.listMapper(gslbSitesLocationToTerraform, true)(struct!.location),
+    replication_policy: cdktf.listMapper(gslbSitesReplicationPolicyToTerraform, true)(struct!.replicationPolicy),
   }
 }
 
@@ -2582,6 +3085,12 @@ export function gslbSitesToHclTerraform(struct?: GslbSites | cdktf.IResolvable):
       type: "set",
       storageClassType: "GslbSitesLocationList",
     },
+    replication_policy: {
+      value: cdktf.listMapperHcl(gslbSitesReplicationPolicyToHclTerraform, true)(struct!.replicationPolicy),
+      isBlock: true,
+      type: "set",
+      storageClassType: "GslbSitesReplicationPolicyList",
+    },
   };
 
   // remove undefined attributes
@@ -2672,6 +3181,10 @@ export class GslbSitesOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.location = this._location?.internalValue;
     }
+    if (this._replicationPolicy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.replicationPolicy = this._replicationPolicy?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -2695,6 +3208,7 @@ export class GslbSitesOutputReference extends cdktf.ComplexObject {
       this._hmProxies.internalValue = undefined;
       this._ipAddresses.internalValue = undefined;
       this._location.internalValue = undefined;
+      this._replicationPolicy.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -2719,6 +3233,7 @@ export class GslbSitesOutputReference extends cdktf.ComplexObject {
       this._hmProxies.internalValue = value.hmProxies;
       this._ipAddresses.internalValue = value.ipAddresses;
       this._location.internalValue = value.location;
+      this._replicationPolicy.internalValue = value.replicationPolicy;
     }
   }
 
@@ -2965,6 +3480,22 @@ export class GslbSitesOutputReference extends cdktf.ComplexObject {
   public get locationInput() {
     return this._location.internalValue;
   }
+
+  // replication_policy - computed: false, optional: true, required: false
+  private _replicationPolicy = new GslbSitesReplicationPolicyList(this, "replication_policy", true);
+  public get replicationPolicy() {
+    return this._replicationPolicy;
+  }
+  public putReplicationPolicy(value: GslbSitesReplicationPolicy[] | cdktf.IResolvable) {
+    this._replicationPolicy.internalValue = value;
+  }
+  public resetReplicationPolicy() {
+    this._replicationPolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get replicationPolicyInput() {
+    return this._replicationPolicy.internalValue;
+  }
 }
 
 export class GslbSitesList extends cdktf.ComplexList {
@@ -2988,11 +3519,11 @@ export class GslbSitesList extends cdktf.ComplexList {
 }
 export interface GslbThirdPartySitesHmProxies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#proxy_type Gslb#proxy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#proxy_type Gslb#proxy_type}
   */
   readonly proxyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#site_uuid Gslb#site_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#site_uuid Gslb#site_uuid}
   */
   readonly siteUuid?: string;
 }
@@ -3137,19 +3668,19 @@ export class GslbThirdPartySitesHmProxiesList extends cdktf.ComplexList {
 }
 export interface GslbThirdPartySitesLocationLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#latitude Gslb#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#latitude Gslb#latitude}
   */
   readonly latitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#longitude Gslb#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#longitude Gslb#longitude}
   */
   readonly longitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#name Gslb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#name Gslb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#tag Gslb#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#tag Gslb#tag}
   */
   readonly tag?: string;
 }
@@ -3352,13 +3883,13 @@ export class GslbThirdPartySitesLocationLocationList extends cdktf.ComplexList {
 }
 export interface GslbThirdPartySitesLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#source Gslb#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#source Gslb#source}
   */
   readonly source: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#location Gslb#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#location Gslb#location}
   */
   readonly location?: GslbThirdPartySitesLocationLocation[] | cdktf.IResolvable;
 }
@@ -3500,35 +4031,35 @@ export class GslbThirdPartySitesLocationList extends cdktf.ComplexList {
 }
 export interface GslbThirdPartySites {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#cluster_uuid Gslb#cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#cluster_uuid Gslb#cluster_uuid}
   */
   readonly clusterUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#enabled Gslb#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#enabled Gslb#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#name Gslb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#name Gslb#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#ratio Gslb#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#ratio Gslb#ratio}
   */
   readonly ratio?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#uuid Gslb#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#uuid Gslb#uuid}
   */
   readonly uuid?: string;
   /**
   * hm_proxies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#hm_proxies Gslb#hm_proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#hm_proxies Gslb#hm_proxies}
   */
   readonly hmProxies?: GslbThirdPartySitesHmProxies[] | cdktf.IResolvable;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#location Gslb#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#location Gslb#location}
   */
   readonly location?: GslbThirdPartySitesLocation[] | cdktf.IResolvable;
 }
@@ -3815,7 +4346,7 @@ export class GslbThirdPartySitesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb avi_gslb}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb avi_gslb}
 */
 export class Gslb extends cdktf.TerraformResource {
 
@@ -3831,7 +4362,7 @@ export class Gslb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gslb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gslb to import
-  * @param importFromId The id of the existing Gslb that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gslb that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gslb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3843,7 +4374,7 @@ export class Gslb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslb avi_gslb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/gslb avi_gslb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3854,8 +4385,8 @@ export class Gslb extends cdktf.TerraformResource {
       terraformResourceType: 'avi_gslb',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3871,6 +4402,7 @@ export class Gslb extends cdktf.TerraformResource {
     this._enableConfigByMembers = config.enableConfigByMembers;
     this._errorResyncInterval = config.errorResyncInterval;
     this._fileobjectMaxFileVersions = config.fileobjectMaxFileVersions;
+    this._gsMemberFqdnResolutionOnSe = config.gsMemberFqdnResolutionOnSe;
     this._id = config.id;
     this._isFederated = config.isFederated;
     this._leaderClusterUuid = config.leaderClusterUuid;
@@ -3878,14 +4410,16 @@ export class Gslb extends cdktf.TerraformResource {
     this._name = config.name;
     this._sendInterval = config.sendInterval;
     this._sendIntervalPriorToMaintenanceMode = config.sendIntervalPriorToMaintenanceMode;
+    this._shortProbeInterval = config.shortProbeInterval;
     this._tenantRef = config.tenantRef;
     this._tenantScoped = config.tenantScoped;
     this._uuid = config.uuid;
     this._viewId = config.viewId;
+    this._autoTuneSendInterval.internalValue = config.autoTuneSendInterval;
     this._clientIpAddrGroup.internalValue = config.clientIpAddrGroup;
     this._configpbAttributes.internalValue = config.configpbAttributes;
     this._dnsConfigs.internalValue = config.dnsConfigs;
-    this._replicationPolicy.internalValue = config.replicationPolicy;
+    this._leaderChangeInfo.internalValue = config.leaderChangeInfo;
     this._sites.internalValue = config.sites;
     this._thirdPartySites.internalValue = config.thirdPartySites;
   }
@@ -3988,6 +4522,22 @@ export class Gslb extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get fileobjectMaxFileVersionsInput() {
     return this._fileobjectMaxFileVersions;
+  }
+
+  // gs_member_fqdn_resolution_on_se - computed: false, optional: true, required: false
+  private _gsMemberFqdnResolutionOnSe?: string; 
+  public get gsMemberFqdnResolutionOnSe() {
+    return this.getStringAttribute('gs_member_fqdn_resolution_on_se');
+  }
+  public set gsMemberFqdnResolutionOnSe(value: string) {
+    this._gsMemberFqdnResolutionOnSe = value;
+  }
+  public resetGsMemberFqdnResolutionOnSe() {
+    this._gsMemberFqdnResolutionOnSe = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gsMemberFqdnResolutionOnSeInput() {
+    return this._gsMemberFqdnResolutionOnSe;
   }
 
   // id - computed: true, optional: true, required: false
@@ -4096,6 +4646,22 @@ export class Gslb extends cdktf.TerraformResource {
     return this._sendIntervalPriorToMaintenanceMode;
   }
 
+  // short_probe_interval - computed: false, optional: true, required: false
+  private _shortProbeInterval?: string; 
+  public get shortProbeInterval() {
+    return this.getStringAttribute('short_probe_interval');
+  }
+  public set shortProbeInterval(value: string) {
+    this._shortProbeInterval = value;
+  }
+  public resetShortProbeInterval() {
+    this._shortProbeInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shortProbeIntervalInput() {
+    return this._shortProbeInterval;
+  }
+
   // tenant_ref - computed: true, optional: true, required: false
   private _tenantRef?: string; 
   public get tenantRef() {
@@ -4160,6 +4726,22 @@ export class Gslb extends cdktf.TerraformResource {
     return this._viewId;
   }
 
+  // auto_tune_send_interval - computed: false, optional: true, required: false
+  private _autoTuneSendInterval = new GslbAutoTuneSendIntervalList(this, "auto_tune_send_interval", true);
+  public get autoTuneSendInterval() {
+    return this._autoTuneSendInterval;
+  }
+  public putAutoTuneSendInterval(value: GslbAutoTuneSendInterval[] | cdktf.IResolvable) {
+    this._autoTuneSendInterval.internalValue = value;
+  }
+  public resetAutoTuneSendInterval() {
+    this._autoTuneSendInterval.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoTuneSendIntervalInput() {
+    return this._autoTuneSendInterval.internalValue;
+  }
+
   // client_ip_addr_group - computed: false, optional: true, required: false
   private _clientIpAddrGroup = new GslbClientIpAddrGroupList(this, "client_ip_addr_group", true);
   public get clientIpAddrGroup() {
@@ -4208,20 +4790,20 @@ export class Gslb extends cdktf.TerraformResource {
     return this._dnsConfigs.internalValue;
   }
 
-  // replication_policy - computed: false, optional: true, required: false
-  private _replicationPolicy = new GslbReplicationPolicyList(this, "replication_policy", true);
-  public get replicationPolicy() {
-    return this._replicationPolicy;
+  // leader_change_info - computed: false, optional: true, required: false
+  private _leaderChangeInfo = new GslbLeaderChangeInfoList(this, "leader_change_info", true);
+  public get leaderChangeInfo() {
+    return this._leaderChangeInfo;
   }
-  public putReplicationPolicy(value: GslbReplicationPolicy[] | cdktf.IResolvable) {
-    this._replicationPolicy.internalValue = value;
+  public putLeaderChangeInfo(value: GslbLeaderChangeInfo[] | cdktf.IResolvable) {
+    this._leaderChangeInfo.internalValue = value;
   }
-  public resetReplicationPolicy() {
-    this._replicationPolicy.internalValue = undefined;
+  public resetLeaderChangeInfo() {
+    this._leaderChangeInfo.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get replicationPolicyInput() {
-    return this._replicationPolicy.internalValue;
+  public get leaderChangeInfoInput() {
+    return this._leaderChangeInfo.internalValue;
   }
 
   // sites - computed: false, optional: false, required: true
@@ -4265,6 +4847,7 @@ export class Gslb extends cdktf.TerraformResource {
       enable_config_by_members: cdktf.stringToTerraform(this._enableConfigByMembers),
       error_resync_interval: cdktf.stringToTerraform(this._errorResyncInterval),
       fileobject_max_file_versions: cdktf.stringToTerraform(this._fileobjectMaxFileVersions),
+      gs_member_fqdn_resolution_on_se: cdktf.stringToTerraform(this._gsMemberFqdnResolutionOnSe),
       id: cdktf.stringToTerraform(this._id),
       is_federated: cdktf.stringToTerraform(this._isFederated),
       leader_cluster_uuid: cdktf.stringToTerraform(this._leaderClusterUuid),
@@ -4272,14 +4855,16 @@ export class Gslb extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       send_interval: cdktf.stringToTerraform(this._sendInterval),
       send_interval_prior_to_maintenance_mode: cdktf.stringToTerraform(this._sendIntervalPriorToMaintenanceMode),
+      short_probe_interval: cdktf.stringToTerraform(this._shortProbeInterval),
       tenant_ref: cdktf.stringToTerraform(this._tenantRef),
       tenant_scoped: cdktf.stringToTerraform(this._tenantScoped),
       uuid: cdktf.stringToTerraform(this._uuid),
       view_id: cdktf.stringToTerraform(this._viewId),
+      auto_tune_send_interval: cdktf.listMapper(gslbAutoTuneSendIntervalToTerraform, true)(this._autoTuneSendInterval.internalValue),
       client_ip_addr_group: cdktf.listMapper(gslbClientIpAddrGroupToTerraform, true)(this._clientIpAddrGroup.internalValue),
       configpb_attributes: cdktf.listMapper(gslbConfigpbAttributesToTerraform, true)(this._configpbAttributes.internalValue),
       dns_configs: cdktf.listMapper(gslbDnsConfigsToTerraform, true)(this._dnsConfigs.internalValue),
-      replication_policy: cdktf.listMapper(gslbReplicationPolicyToTerraform, true)(this._replicationPolicy.internalValue),
+      leader_change_info: cdktf.listMapper(gslbLeaderChangeInfoToTerraform, true)(this._leaderChangeInfo.internalValue),
       sites: cdktf.listMapper(gslbSitesToTerraform, true)(this._sites.internalValue),
       third_party_sites: cdktf.listMapper(gslbThirdPartySitesToTerraform, true)(this._thirdPartySites.internalValue),
     };
@@ -4319,6 +4904,12 @@ export class Gslb extends cdktf.TerraformResource {
       },
       fileobject_max_file_versions: {
         value: cdktf.stringToHclTerraform(this._fileobjectMaxFileVersions),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      gs_member_fqdn_resolution_on_se: {
+        value: cdktf.stringToHclTerraform(this._gsMemberFqdnResolutionOnSe),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -4365,6 +4956,12 @@ export class Gslb extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      short_probe_interval: {
+        value: cdktf.stringToHclTerraform(this._shortProbeInterval),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       tenant_ref: {
         value: cdktf.stringToHclTerraform(this._tenantRef),
         isBlock: false,
@@ -4389,6 +4986,12 @@ export class Gslb extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      auto_tune_send_interval: {
+        value: cdktf.listMapperHcl(gslbAutoTuneSendIntervalToHclTerraform, true)(this._autoTuneSendInterval.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "GslbAutoTuneSendIntervalList",
+      },
       client_ip_addr_group: {
         value: cdktf.listMapperHcl(gslbClientIpAddrGroupToHclTerraform, true)(this._clientIpAddrGroup.internalValue),
         isBlock: true,
@@ -4407,11 +5010,11 @@ export class Gslb extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "GslbDnsConfigsList",
       },
-      replication_policy: {
-        value: cdktf.listMapperHcl(gslbReplicationPolicyToHclTerraform, true)(this._replicationPolicy.internalValue),
+      leader_change_info: {
+        value: cdktf.listMapperHcl(gslbLeaderChangeInfoToHclTerraform, true)(this._leaderChangeInfo.internalValue),
         isBlock: true,
         type: "set",
-        storageClassType: "GslbReplicationPolicyList",
+        storageClassType: "GslbLeaderChangeInfoList",
       },
       sites: {
         value: cdktf.listMapperHcl(gslbSitesToHclTerraform, true)(this._sites.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/trafficcloneprofile
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/trafficcloneprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviTrafficcloneprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/trafficcloneprofile#cloud_ref DataAviTrafficcloneprofile#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/trafficcloneprofile#cloud_ref DataAviTrafficcloneprofile#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/trafficcloneprofile#id DataAviTrafficcloneprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/trafficcloneprofile#id DataAviTrafficcloneprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/trafficcloneprofile#name DataAviTrafficcloneprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/trafficcloneprofile#name DataAviTrafficcloneprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/trafficcloneprofile#tenant_ref DataAviTrafficcloneprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/trafficcloneprofile#tenant_ref DataAviTrafficcloneprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/trafficcloneprofile#uuid DataAviTrafficcloneprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/trafficcloneprofile#uuid DataAviTrafficcloneprofile#uuid}
   */
   readonly uuid?: string;
 }
@@ -521,7 +521,7 @@ export class DataAviTrafficcloneprofileMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/trafficcloneprofile avi_trafficcloneprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/trafficcloneprofile avi_trafficcloneprofile}
 */
 export class DataAviTrafficcloneprofile extends cdktf.TerraformDataSource {
 
@@ -537,7 +537,7 @@ export class DataAviTrafficcloneprofile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviTrafficcloneprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviTrafficcloneprofile to import
-  * @param importFromId The id of the existing DataAviTrafficcloneprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/trafficcloneprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviTrafficcloneprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/trafficcloneprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviTrafficcloneprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -549,7 +549,7 @@ export class DataAviTrafficcloneprofile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/trafficcloneprofile avi_trafficcloneprofile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/trafficcloneprofile avi_trafficcloneprofile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -560,8 +560,8 @@ export class DataAviTrafficcloneprofile extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_trafficcloneprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

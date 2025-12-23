@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface LicensestatusConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#id Licensestatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#id Licensestatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#tenant_uuid Licensestatus#tenant_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#tenant_uuid Licensestatus#tenant_uuid}
   */
   readonly tenantUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#uuid Licensestatus#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#uuid Licensestatus#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#configpb_attributes Licensestatus#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#configpb_attributes Licensestatus#configpb_attributes}
   */
   readonly configpbAttributes?: LicensestatusConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * saas_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#saas_status Licensestatus#saas_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#saas_status Licensestatus#saas_status}
   */
   readonly saasStatus?: LicensestatusSaasStatus[] | cdktf.IResolvable;
   /**
   * service_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#service_update Licensestatus#service_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#service_update Licensestatus#service_update}
   */
   readonly serviceUpdate?: LicensestatusServiceUpdate[] | cdktf.IResolvable;
 }
 export interface LicensestatusConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#version Licensestatus#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#version Licensestatus#version}
   */
   readonly version?: string;
 }
@@ -159,33 +159,49 @@ export class LicensestatusConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface LicensestatusSaasStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#connected Licensestatus#connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#connected Licensestatus#connected}
   */
   readonly connected?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#enabled Licensestatus#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#enabled Licensestatus#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#expired Licensestatus#expired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#expired Licensestatus#expired}
   */
   readonly expired?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#message Licensestatus#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#last_refreshed_at Licensestatus#last_refreshed_at}
+  */
+  readonly lastRefreshedAt?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#message Licensestatus#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#name Licensestatus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#name Licensestatus#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#public_key Licensestatus#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#public_key Licensestatus#public_key}
   */
   readonly publicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#reserve_service_units Licensestatus#reserve_service_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#refresh_status Licensestatus#refresh_status}
+  */
+  readonly refreshStatus?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#refreshed_at Licensestatus#refreshed_at}
+  */
+  readonly refreshedAt?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#reserve_service_units Licensestatus#reserve_service_units}
   */
   readonly reserveServiceUnits?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#state Licensestatus#state}
+  */
+  readonly state?: string;
 }
 
 export function licensestatusSaasStatusToTerraform(struct?: LicensestatusSaasStatus | cdktf.IResolvable): any {
@@ -197,10 +213,14 @@ export function licensestatusSaasStatusToTerraform(struct?: LicensestatusSaasSta
     connected: cdktf.stringToTerraform(struct!.connected),
     enabled: cdktf.stringToTerraform(struct!.enabled),
     expired: cdktf.stringToTerraform(struct!.expired),
+    last_refreshed_at: cdktf.stringToTerraform(struct!.lastRefreshedAt),
     message: cdktf.stringToTerraform(struct!.message),
     name: cdktf.stringToTerraform(struct!.name),
     public_key: cdktf.stringToTerraform(struct!.publicKey),
+    refresh_status: cdktf.stringToTerraform(struct!.refreshStatus),
+    refreshed_at: cdktf.stringToTerraform(struct!.refreshedAt),
     reserve_service_units: cdktf.stringToTerraform(struct!.reserveServiceUnits),
+    state: cdktf.stringToTerraform(struct!.state),
   }
 }
 
@@ -229,6 +249,12 @@ export function licensestatusSaasStatusToHclTerraform(struct?: LicensestatusSaas
       type: "simple",
       storageClassType: "string",
     },
+    last_refreshed_at: {
+      value: cdktf.stringToHclTerraform(struct!.lastRefreshedAt),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     message: {
       value: cdktf.stringToHclTerraform(struct!.message),
       isBlock: false,
@@ -247,8 +273,26 @@ export function licensestatusSaasStatusToHclTerraform(struct?: LicensestatusSaas
       type: "simple",
       storageClassType: "string",
     },
+    refresh_status: {
+      value: cdktf.stringToHclTerraform(struct!.refreshStatus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    refreshed_at: {
+      value: cdktf.stringToHclTerraform(struct!.refreshedAt),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     reserve_service_units: {
       value: cdktf.stringToHclTerraform(struct!.reserveServiceUnits),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    state: {
+      value: cdktf.stringToHclTerraform(struct!.state),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -291,6 +335,10 @@ export class LicensestatusSaasStatusOutputReference extends cdktf.ComplexObject 
       hasAnyValues = true;
       internalValueResult.expired = this._expired;
     }
+    if (this._lastRefreshedAt !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lastRefreshedAt = this._lastRefreshedAt;
+    }
     if (this._message !== undefined) {
       hasAnyValues = true;
       internalValueResult.message = this._message;
@@ -303,9 +351,21 @@ export class LicensestatusSaasStatusOutputReference extends cdktf.ComplexObject 
       hasAnyValues = true;
       internalValueResult.publicKey = this._publicKey;
     }
+    if (this._refreshStatus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.refreshStatus = this._refreshStatus;
+    }
+    if (this._refreshedAt !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.refreshedAt = this._refreshedAt;
+    }
     if (this._reserveServiceUnits !== undefined) {
       hasAnyValues = true;
       internalValueResult.reserveServiceUnits = this._reserveServiceUnits;
+    }
+    if (this._state !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.state = this._state;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -317,10 +377,14 @@ export class LicensestatusSaasStatusOutputReference extends cdktf.ComplexObject 
       this._connected = undefined;
       this._enabled = undefined;
       this._expired = undefined;
+      this._lastRefreshedAt = undefined;
       this._message = undefined;
       this._name = undefined;
       this._publicKey = undefined;
+      this._refreshStatus = undefined;
+      this._refreshedAt = undefined;
       this._reserveServiceUnits = undefined;
+      this._state = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -332,10 +396,14 @@ export class LicensestatusSaasStatusOutputReference extends cdktf.ComplexObject 
       this._connected = value.connected;
       this._enabled = value.enabled;
       this._expired = value.expired;
+      this._lastRefreshedAt = value.lastRefreshedAt;
       this._message = value.message;
       this._name = value.name;
       this._publicKey = value.publicKey;
+      this._refreshStatus = value.refreshStatus;
+      this._refreshedAt = value.refreshedAt;
       this._reserveServiceUnits = value.reserveServiceUnits;
+      this._state = value.state;
     }
   }
 
@@ -387,6 +455,22 @@ export class LicensestatusSaasStatusOutputReference extends cdktf.ComplexObject 
     return this._expired;
   }
 
+  // last_refreshed_at - computed: true, optional: true, required: false
+  private _lastRefreshedAt?: string; 
+  public get lastRefreshedAt() {
+    return this.getStringAttribute('last_refreshed_at');
+  }
+  public set lastRefreshedAt(value: string) {
+    this._lastRefreshedAt = value;
+  }
+  public resetLastRefreshedAt() {
+    this._lastRefreshedAt = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lastRefreshedAtInput() {
+    return this._lastRefreshedAt;
+  }
+
   // message - computed: true, optional: true, required: false
   private _message?: string; 
   public get message() {
@@ -435,6 +519,38 @@ export class LicensestatusSaasStatusOutputReference extends cdktf.ComplexObject 
     return this._publicKey;
   }
 
+  // refresh_status - computed: true, optional: true, required: false
+  private _refreshStatus?: string; 
+  public get refreshStatus() {
+    return this.getStringAttribute('refresh_status');
+  }
+  public set refreshStatus(value: string) {
+    this._refreshStatus = value;
+  }
+  public resetRefreshStatus() {
+    this._refreshStatus = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get refreshStatusInput() {
+    return this._refreshStatus;
+  }
+
+  // refreshed_at - computed: true, optional: true, required: false
+  private _refreshedAt?: string; 
+  public get refreshedAt() {
+    return this.getStringAttribute('refreshed_at');
+  }
+  public set refreshedAt(value: string) {
+    this._refreshedAt = value;
+  }
+  public resetRefreshedAt() {
+    this._refreshedAt = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get refreshedAtInput() {
+    return this._refreshedAt;
+  }
+
   // reserve_service_units - computed: true, optional: true, required: false
   private _reserveServiceUnits?: string; 
   public get reserveServiceUnits() {
@@ -449,6 +565,22 @@ export class LicensestatusSaasStatusOutputReference extends cdktf.ComplexObject 
   // Temporarily expose input value. Use with caution.
   public get reserveServiceUnitsInput() {
     return this._reserveServiceUnits;
+  }
+
+  // state - computed: true, optional: true, required: false
+  private _state?: string; 
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+  public set state(value: string) {
+    this._state = value;
+  }
+  public resetState() {
+    this._state = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stateInput() {
+    return this._state;
   }
 }
 
@@ -473,15 +605,15 @@ export class LicensestatusSaasStatusList extends cdktf.ComplexList {
 }
 export interface LicensestatusServiceUpdateServiceUnits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#available_service_units Licensestatus#available_service_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#available_service_units Licensestatus#available_service_units}
   */
   readonly availableServiceUnits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#org_id Licensestatus#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#org_id Licensestatus#org_id}
   */
   readonly orgId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#used_service_units Licensestatus#used_service_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#used_service_units Licensestatus#used_service_units}
   */
   readonly usedServiceUnits?: string;
 }
@@ -655,13 +787,13 @@ export class LicensestatusServiceUpdateServiceUnitsList extends cdktf.ComplexLis
 }
 export interface LicensestatusServiceUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#name Licensestatus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#name Licensestatus#name}
   */
   readonly name?: string;
   /**
   * service_units block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#service_units Licensestatus#service_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#service_units Licensestatus#service_units}
   */
   readonly serviceUnits?: LicensestatusServiceUpdateServiceUnits[] | cdktf.IResolvable;
 }
@@ -806,7 +938,7 @@ export class LicensestatusServiceUpdateList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus avi_licensestatus}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus avi_licensestatus}
 */
 export class Licensestatus extends cdktf.TerraformResource {
 
@@ -822,7 +954,7 @@ export class Licensestatus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Licensestatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Licensestatus to import
-  * @param importFromId The id of the existing Licensestatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Licensestatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Licensestatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -834,7 +966,7 @@ export class Licensestatus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/licensestatus avi_licensestatus} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/licensestatus avi_licensestatus} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -845,8 +977,8 @@ export class Licensestatus extends cdktf.TerraformResource {
       terraformResourceType: 'avi_licensestatus',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

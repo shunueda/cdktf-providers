@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface DcBgpNeighborConfig extends cdktf.TerraformMetaArguments {
   /**
   * Activate BGP Add-Paths feature on peer. Default is off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#add_paths DcBgpNeighbor#add_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#add_paths DcBgpNeighbor#add_paths}
   */
   readonly addPaths?: string;
   /**
   * Control BGP session activity with BFD protocol. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#bfd_enabled DcBgpNeighbor#bfd_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#bfd_enabled DcBgpNeighbor#bfd_enabled}
   */
   readonly bfdEnabled?: boolean | cdktf.IResolvable;
   /**
   * Direct Connect BGP ID to attach. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#dc_bgp_id DcBgpNeighbor#dc_bgp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#dc_bgp_id DcBgpNeighbor#dc_bgp_id}
   */
   readonly dcBgpId: string;
   /**
   * Description of the BGP neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#description DcBgpNeighbor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#description DcBgpNeighbor#description}
   */
   readonly description?: string;
   /**
   * Enable or disable item. Default is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#enabled DcBgpNeighbor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#enabled DcBgpNeighbor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Input filter that pass incoming BGP prefixes (allow any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#filter_in DcBgpNeighbor#filter_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#filter_in DcBgpNeighbor#filter_in}
   */
   readonly filterIn?: string;
   /**
   * Output filter that pass incoming BGP prefixes (allow any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#filter_out DcBgpNeighbor#filter_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#filter_out DcBgpNeighbor#filter_out}
   */
   readonly filterOut?: string;
   /**
   * Force set IP address of next-hop on BGP prefix to self even in iBGP. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#force_ibgp_next_hop_self DcBgpNeighbor#force_ibgp_next_hop_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#force_ibgp_next_hop_self DcBgpNeighbor#force_ibgp_next_hop_self}
   */
   readonly forceIbgpNextHopSelf?: boolean | cdktf.IResolvable;
   /**
   * Name of the BGP neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#name DcBgpNeighbor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#name DcBgpNeighbor#name}
   */
   readonly name?: string;
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`. Changing this creates a new bgp_neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#region DcBgpNeighbor#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#region DcBgpNeighbor#region}
   */
   readonly region?: string;
   /**
   * BGP Neighbor ASN. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#remote_asn DcBgpNeighbor#remote_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#remote_asn DcBgpNeighbor#remote_asn}
   */
   readonly remoteAsn: number;
   /**
   * BGP Neighbor IP address. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#remote_ip DcBgpNeighbor#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#remote_ip DcBgpNeighbor#remote_ip}
   */
   readonly remoteIp: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor vkcs_dc_bgp_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor vkcs_dc_bgp_neighbor}
 */
 export class DcBgpNeighbor extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class DcBgpNeighbor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcBgpNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcBgpNeighbor to import
-  * @param importFromId The id of the existing DcBgpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcBgpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcBgpNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class DcBgpNeighbor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_neighbor vkcs_dc_bgp_neighbor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/dc_bgp_neighbor vkcs_dc_bgp_neighbor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class DcBgpNeighbor extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_dc_bgp_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

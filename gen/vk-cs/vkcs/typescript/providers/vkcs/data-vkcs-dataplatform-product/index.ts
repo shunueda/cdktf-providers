@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_product
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_product
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataVkcsDataplatformProductConfig extends cdktf.TerraformMetaAr
   /**
   * Product name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_product#product_name DataVkcsDataplatformProduct#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_product#product_name DataVkcsDataplatformProduct#product_name}
   */
   readonly productName: string;
   /**
   * Product version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_product#product_version DataVkcsDataplatformProduct#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_product#product_version DataVkcsDataplatformProduct#product_version}
   */
   readonly productVersion?: string;
   /**
   * The region in which to obtain the Data platform client. If omitted, the `region` argument of the provider is used. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_product#region DataVkcsDataplatformProduct#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_product#region DataVkcsDataplatformProduct#region}
   */
   readonly region?: string;
 }
@@ -220,6 +220,197 @@ export class DataVkcsDataplatformProductConfigsConnectionsList extends cdktf.Com
   */
   public get(index: number): DataVkcsDataplatformProductConfigsConnectionsOutputReference {
     return new DataVkcsDataplatformProductConfigsConnectionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataVkcsDataplatformProductConfigsCrontabsSettings {
+}
+
+export function dataVkcsDataplatformProductConfigsCrontabsSettingsToTerraform(struct?: DataVkcsDataplatformProductConfigsCrontabsSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataVkcsDataplatformProductConfigsCrontabsSettingsToHclTerraform(struct?: DataVkcsDataplatformProductConfigsCrontabsSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataVkcsDataplatformProductConfigsCrontabsSettingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataVkcsDataplatformProductConfigsCrontabsSettings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataVkcsDataplatformProductConfigsCrontabsSettings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // alias - computed: true, optional: false, required: false
+  public get alias() {
+    return this.getStringAttribute('alias');
+  }
+
+  // default_value - computed: true, optional: false, required: false
+  public get defaultValue() {
+    return this.getStringAttribute('default_value');
+  }
+
+  // is_require - computed: true, optional: false, required: false
+  public get isRequire() {
+    return this.getBooleanAttribute('is_require');
+  }
+
+  // is_sensitive - computed: true, optional: false, required: false
+  public get isSensitive() {
+    return this.getBooleanAttribute('is_sensitive');
+  }
+
+  // regexp - computed: true, optional: false, required: false
+  public get regexp() {
+    return this.getStringAttribute('regexp');
+  }
+
+  // string_variation - computed: true, optional: false, required: false
+  public get stringVariation() {
+    return this.getListAttribute('string_variation');
+  }
+}
+
+export class DataVkcsDataplatformProductConfigsCrontabsSettingsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataVkcsDataplatformProductConfigsCrontabsSettingsOutputReference {
+    return new DataVkcsDataplatformProductConfigsCrontabsSettingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataVkcsDataplatformProductConfigsCrontabs {
+}
+
+export function dataVkcsDataplatformProductConfigsCrontabsToTerraform(struct?: DataVkcsDataplatformProductConfigsCrontabs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataVkcsDataplatformProductConfigsCrontabsToHclTerraform(struct?: DataVkcsDataplatformProductConfigsCrontabs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataVkcsDataplatformProductConfigsCrontabsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataVkcsDataplatformProductConfigsCrontabs | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataVkcsDataplatformProductConfigsCrontabs | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // required - computed: true, optional: false, required: false
+  public get required() {
+    return this.getBooleanAttribute('required');
+  }
+
+  // settings - computed: true, optional: false, required: false
+  private _settings = new DataVkcsDataplatformProductConfigsCrontabsSettingsList(this, "settings", false);
+  public get settings() {
+    return this._settings;
+  }
+
+  // start - computed: true, optional: false, required: false
+  public get start() {
+    return this.getStringAttribute('start');
+  }
+}
+
+export class DataVkcsDataplatformProductConfigsCrontabsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataVkcsDataplatformProductConfigsCrontabsOutputReference {
+    return new DataVkcsDataplatformProductConfigsCrontabsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataVkcsDataplatformProductConfigsSettings {
@@ -452,6 +643,12 @@ export class DataVkcsDataplatformProductConfigsOutputReference extends cdktf.Com
     return this._connections;
   }
 
+  // crontabs - computed: true, optional: false, required: false
+  private _crontabs = new DataVkcsDataplatformProductConfigsCrontabsList(this, "crontabs", false);
+  public get crontabs() {
+    return this._crontabs;
+  }
+
   // settings - computed: true, optional: false, required: false
   private _settings = new DataVkcsDataplatformProductConfigsSettingsList(this, "settings", false);
   public get settings() {
@@ -466,7 +663,7 @@ export class DataVkcsDataplatformProductConfigsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_product vkcs_dataplatform_product}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_product vkcs_dataplatform_product}
 */
 export class DataVkcsDataplatformProduct extends cdktf.TerraformDataSource {
 
@@ -482,7 +679,7 @@ export class DataVkcsDataplatformProduct extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsDataplatformProduct resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsDataplatformProduct to import
-  * @param importFromId The id of the existing DataVkcsDataplatformProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_product#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsDataplatformProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_product#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsDataplatformProduct to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -494,7 +691,7 @@ export class DataVkcsDataplatformProduct extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_product vkcs_dataplatform_product} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_product vkcs_dataplatform_product} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -505,8 +702,8 @@ export class DataVkcsDataplatformProduct extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_dataplatform_product',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

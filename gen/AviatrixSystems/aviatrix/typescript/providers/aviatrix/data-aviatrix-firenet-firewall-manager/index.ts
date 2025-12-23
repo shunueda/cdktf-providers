@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAviatrixFirenetFirewallManagerConfig extends cdktf.Terrafor
   /**
   * The FireNet gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#gateway_name DataAviatrixFirenetFirewallManager#gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#gateway_name DataAviatrixFirenetFirewallManager#gateway_name}
   */
   readonly gatewayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#id DataAviatrixFirenetFirewallManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#id DataAviatrixFirenetFirewallManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,79 +23,79 @@ export interface DataAviatrixFirenetFirewallManagerConfig extends cdktf.Terrafor
   /**
   * Number of retries for 'save' or 'synchronize'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#number_of_retries DataAviatrixFirenetFirewallManager#number_of_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#number_of_retries DataAviatrixFirenetFirewallManager#number_of_retries}
   */
   readonly numberOfRetries?: number;
   /**
   * Panorama login password for API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#password DataAviatrixFirenetFirewallManager#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#password DataAviatrixFirenetFirewallManager#password}
   */
   readonly password?: string;
   /**
   * The public IP address of the Panorama instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#public_ip DataAviatrixFirenetFirewallManager#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#public_ip DataAviatrixFirenetFirewallManager#public_ip}
   */
   readonly publicIp?: string;
   /**
   * Retry interval in seconds for `save` or `synchronize`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#retry_interval DataAviatrixFirenetFirewallManager#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#retry_interval DataAviatrixFirenetFirewallManager#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * The name of firewall virtual router to program. If left unspecified, the Controller programs the Panorama template’s first router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#route_table DataAviatrixFirenetFirewallManager#route_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#route_table DataAviatrixFirenetFirewallManager#route_table}
   */
   readonly routeTable?: string;
   /**
   * Switch to save or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#save DataAviatrixFirenetFirewallManager#save}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#save DataAviatrixFirenetFirewallManager#save}
   */
   readonly save?: boolean | cdktf.IResolvable;
   /**
   * Switch to sync or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#synchronize DataAviatrixFirenetFirewallManager#synchronize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#synchronize DataAviatrixFirenetFirewallManager#synchronize}
   */
   readonly synchronize?: boolean | cdktf.IResolvable;
   /**
   * Panorama template for each FireNet gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#template DataAviatrixFirenetFirewallManager#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#template DataAviatrixFirenetFirewallManager#template}
   */
   readonly template?: string;
   /**
   * Panorama template stack for each FireNet gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#template_stack DataAviatrixFirenetFirewallManager#template_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#template_stack DataAviatrixFirenetFirewallManager#template_stack}
   */
   readonly templateStack?: string;
   /**
   * Panorama login name for API calls from the Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#username DataAviatrixFirenetFirewallManager#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#username DataAviatrixFirenetFirewallManager#username}
   */
   readonly username?: string;
   /**
   * Vendor type. Valid values: 'Generic' and 'Palo Alto Networks Panorama'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#vendor_type DataAviatrixFirenetFirewallManager#vendor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#vendor_type DataAviatrixFirenetFirewallManager#vendor_type}
   */
   readonly vendorType: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#vpc_id DataAviatrixFirenetFirewallManager#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#vpc_id DataAviatrixFirenetFirewallManager#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager aviatrix_firenet_firewall_manager}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager aviatrix_firenet_firewall_manager}
 */
 export class DataAviatrixFirenetFirewallManager extends cdktf.TerraformDataSource {
 
@@ -111,7 +111,7 @@ export class DataAviatrixFirenetFirewallManager extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataAviatrixFirenetFirewallManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviatrixFirenetFirewallManager to import
-  * @param importFromId The id of the existing DataAviatrixFirenetFirewallManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviatrixFirenetFirewallManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviatrixFirenetFirewallManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class DataAviatrixFirenetFirewallManager extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/firenet_firewall_manager aviatrix_firenet_firewall_manager} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/firenet_firewall_manager aviatrix_firenet_firewall_manager} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class DataAviatrixFirenetFirewallManager extends cdktf.TerraformDataSourc
       terraformResourceType: 'aviatrix_firenet_firewall_manager',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

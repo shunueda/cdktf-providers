@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EdgePlatformHaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Edge NEO device ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#device_id EdgePlatformHa#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#device_id EdgePlatformHa#device_id}
   */
   readonly deviceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#id EdgePlatformHa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#id EdgePlatformHa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface EdgePlatformHaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set of management egress gateway IP/prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#management_egress_ip_prefix_list EdgePlatformHa#management_egress_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#management_egress_ip_prefix_list EdgePlatformHa#management_egress_ip_prefix_list}
   */
   readonly managementEgressIpPrefixList?: string[];
   /**
   * Primary gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#primary_gw_name EdgePlatformHa#primary_gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#primary_gw_name EdgePlatformHa#primary_gw_name}
   */
   readonly primaryGwName: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#interfaces EdgePlatformHa#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#interfaces EdgePlatformHa#interfaces}
   */
   readonly interfaces: EdgePlatformHaInterfaces[] | cdktf.IResolvable;
 }
@@ -43,61 +43,73 @@ export interface EdgePlatformHaInterfaces {
   /**
   * The rate of data can be moved through the interface, requires an integer value. Unit is in Mb/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#bandwidth EdgePlatformHa#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#bandwidth EdgePlatformHa#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Primary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#dns_server_ip EdgePlatformHa#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#dns_server_ip EdgePlatformHa#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#enable_dhcp EdgePlatformHa#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#enable_dhcp EdgePlatformHa#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#gateway_ip EdgePlatformHa#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#gateway_ip EdgePlatformHa#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
+  * Gateway IPv6 IP.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#gateway_ipv6 EdgePlatformHa#gateway_ipv6}
+  */
+  readonly gatewayIpv6?: string;
+  /**
   * Interface static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#ip_address EdgePlatformHa#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#ip_address EdgePlatformHa#ip_address}
   */
   readonly ipAddress?: string;
   /**
+  * Interface static IPv6 address.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#ipv6_address EdgePlatformHa#ipv6_address}
+  */
+  readonly ipv6Address?: string;
+  /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#name EdgePlatformHa#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#name EdgePlatformHa#name}
   */
   readonly name: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#secondary_dns_server_ip EdgePlatformHa#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#secondary_dns_server_ip EdgePlatformHa#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#tag EdgePlatformHa#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#tag EdgePlatformHa#tag}
   */
   readonly tag?: string;
   /**
   * Interface type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#type EdgePlatformHa#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#type EdgePlatformHa#type}
   */
   readonly type: string;
   /**
   * WAN interface public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#wan_public_ip EdgePlatformHa#wan_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#wan_public_ip EdgePlatformHa#wan_public_ip}
   */
   readonly wanPublicIp?: string;
 }
@@ -112,7 +124,9 @@ export function edgePlatformHaInterfacesToTerraform(struct?: EdgePlatformHaInter
     dns_server_ip: cdktf.stringToTerraform(struct!.dnsServerIp),
     enable_dhcp: cdktf.booleanToTerraform(struct!.enableDhcp),
     gateway_ip: cdktf.stringToTerraform(struct!.gatewayIp),
+    gateway_ipv6: cdktf.stringToTerraform(struct!.gatewayIpv6),
     ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+    ipv6_address: cdktf.stringToTerraform(struct!.ipv6Address),
     name: cdktf.stringToTerraform(struct!.name),
     secondary_dns_server_ip: cdktf.stringToTerraform(struct!.secondaryDnsServerIp),
     tag: cdktf.stringToTerraform(struct!.tag),
@@ -152,8 +166,20 @@ export function edgePlatformHaInterfacesToHclTerraform(struct?: EdgePlatformHaIn
       type: "simple",
       storageClassType: "string",
     },
+    gateway_ipv6: {
+      value: cdktf.stringToHclTerraform(struct!.gatewayIpv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     ip_address: {
       value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ipv6_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6Address),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -230,9 +256,17 @@ export class EdgePlatformHaInterfacesOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.gatewayIp = this._gatewayIp;
     }
+    if (this._gatewayIpv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gatewayIpv6 = this._gatewayIpv6;
+    }
     if (this._ipAddress !== undefined) {
       hasAnyValues = true;
       internalValueResult.ipAddress = this._ipAddress;
+    }
+    if (this._ipv6Address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Address = this._ipv6Address;
     }
     if (this._name !== undefined) {
       hasAnyValues = true;
@@ -265,7 +299,9 @@ export class EdgePlatformHaInterfacesOutputReference extends cdktf.ComplexObject
       this._dnsServerIp = undefined;
       this._enableDhcp = undefined;
       this._gatewayIp = undefined;
+      this._gatewayIpv6 = undefined;
       this._ipAddress = undefined;
+      this._ipv6Address = undefined;
       this._name = undefined;
       this._secondaryDnsServerIp = undefined;
       this._tag = undefined;
@@ -283,7 +319,9 @@ export class EdgePlatformHaInterfacesOutputReference extends cdktf.ComplexObject
       this._dnsServerIp = value.dnsServerIp;
       this._enableDhcp = value.enableDhcp;
       this._gatewayIp = value.gatewayIp;
+      this._gatewayIpv6 = value.gatewayIpv6;
       this._ipAddress = value.ipAddress;
+      this._ipv6Address = value.ipv6Address;
       this._name = value.name;
       this._secondaryDnsServerIp = value.secondaryDnsServerIp;
       this._tag = value.tag;
@@ -356,6 +394,22 @@ export class EdgePlatformHaInterfacesOutputReference extends cdktf.ComplexObject
     return this._gatewayIp;
   }
 
+  // gateway_ipv6 - computed: false, optional: true, required: false
+  private _gatewayIpv6?: string; 
+  public get gatewayIpv6() {
+    return this.getStringAttribute('gateway_ipv6');
+  }
+  public set gatewayIpv6(value: string) {
+    this._gatewayIpv6 = value;
+  }
+  public resetGatewayIpv6() {
+    this._gatewayIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gatewayIpv6Input() {
+    return this._gatewayIpv6;
+  }
+
   // ip_address - computed: false, optional: true, required: false
   private _ipAddress?: string; 
   public get ipAddress() {
@@ -370,6 +424,22 @@ export class EdgePlatformHaInterfacesOutputReference extends cdktf.ComplexObject
   // Temporarily expose input value. Use with caution.
   public get ipAddressInput() {
     return this._ipAddress;
+  }
+
+  // ipv6_address - computed: false, optional: true, required: false
+  private _ipv6Address?: string; 
+  public get ipv6Address() {
+    return this.getStringAttribute('ipv6_address');
+  }
+  public set ipv6Address(value: string) {
+    this._ipv6Address = value;
+  }
+  public resetIpv6Address() {
+    this._ipv6Address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6AddressInput() {
+    return this._ipv6Address;
   }
 
   // name - computed: false, optional: false, required: true
@@ -468,7 +538,7 @@ export class EdgePlatformHaInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha aviatrix_edge_platform_ha}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha aviatrix_edge_platform_ha}
 */
 export class EdgePlatformHa extends cdktf.TerraformResource {
 
@@ -484,7 +554,7 @@ export class EdgePlatformHa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgePlatformHa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgePlatformHa to import
-  * @param importFromId The id of the existing EdgePlatformHa that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgePlatformHa that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgePlatformHa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +566,7 @@ export class EdgePlatformHa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_ha aviatrix_edge_platform_ha} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_ha aviatrix_edge_platform_ha} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +577,8 @@ export class EdgePlatformHa extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_platform_ha',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

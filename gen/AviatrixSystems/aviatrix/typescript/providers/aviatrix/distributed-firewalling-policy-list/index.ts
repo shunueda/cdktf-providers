@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DistributedFirewallingPolicyListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#id DistributedFirewallingPolicyList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#id DistributedFirewallingPolicyList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DistributedFirewallingPolicyListConfig extends cdktf.TerraformM
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#policies DistributedFirewallingPolicyList#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#policies DistributedFirewallingPolicyList#policies}
   */
   readonly policies: DistributedFirewallingPolicyListPolicies[] | cdktf.IResolvable;
 }
@@ -25,13 +25,13 @@ export interface DistributedFirewallingPolicyListPoliciesPortRanges {
   /**
   * Upper bound of port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#hi DistributedFirewallingPolicyList#hi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#hi DistributedFirewallingPolicyList#hi}
   */
   readonly hi?: number;
   /**
   * Lower bound of port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#lo DistributedFirewallingPolicyList#lo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#lo DistributedFirewallingPolicyList#lo}
   */
   readonly lo: number;
 }
@@ -175,85 +175,91 @@ export interface DistributedFirewallingPolicyListPolicies {
   /**
   * Action for the specified source and destination Smart Groups.Must be one of PERMIT or DENY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#action DistributedFirewallingPolicyList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#action DistributedFirewallingPolicyList#action}
   */
   readonly action: string;
   /**
   * Decryption options for the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#decrypt_policy DistributedFirewallingPolicyList#decrypt_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#decrypt_policy DistributedFirewallingPolicyList#decrypt_policy}
   */
   readonly decryptPolicy?: string;
   /**
   * Set of destination Smart Group UUIDs for the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#dst_smart_groups DistributedFirewallingPolicyList#dst_smart_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#dst_smart_groups DistributedFirewallingPolicyList#dst_smart_groups}
   */
   readonly dstSmartGroups: string[];
   /**
   * If this flag is set to true, this policy will be ignored for SG orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#exclude_sg_orchestration DistributedFirewallingPolicyList#exclude_sg_orchestration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#exclude_sg_orchestration DistributedFirewallingPolicyList#exclude_sg_orchestration}
   */
   readonly excludeSgOrchestration?: boolean | cdktf.IResolvable;
   /**
   * Flow application requirement for the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#flow_app_requirement DistributedFirewallingPolicyList#flow_app_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#flow_app_requirement DistributedFirewallingPolicyList#flow_app_requirement}
   */
   readonly flowAppRequirement?: string;
   /**
+  * Log profile UUID for the policy.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#log_profile DistributedFirewallingPolicyList#log_profile}
+  */
+  readonly logProfile?: string;
+  /**
   * Whether to enable logging for the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#logging DistributedFirewallingPolicyList#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#logging DistributedFirewallingPolicyList#logging}
   */
   readonly logging?: boolean | cdktf.IResolvable;
   /**
   * Name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#name DistributedFirewallingPolicyList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#name DistributedFirewallingPolicyList#name}
   */
   readonly name: string;
   /**
   * Priority level of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#priority DistributedFirewallingPolicyList#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#priority DistributedFirewallingPolicyList#priority}
   */
   readonly priority?: number;
   /**
   * Protocol for the policy to filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#protocol DistributedFirewallingPolicyList#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#protocol DistributedFirewallingPolicyList#protocol}
   */
   readonly protocol: string;
   /**
   * Set of source Smart Group UUIDs for the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#src_smart_groups DistributedFirewallingPolicyList#src_smart_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#src_smart_groups DistributedFirewallingPolicyList#src_smart_groups}
   */
   readonly srcSmartGroups: string[];
   /**
   * TLS profile UUID for the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#tls_profile DistributedFirewallingPolicyList#tls_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#tls_profile DistributedFirewallingPolicyList#tls_profile}
   */
   readonly tlsProfile?: string;
   /**
   * Whether to enable watch mode for the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#watch DistributedFirewallingPolicyList#watch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#watch DistributedFirewallingPolicyList#watch}
   */
   readonly watch?: boolean | cdktf.IResolvable;
   /**
   * Set of Web Group UUIDs for the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#web_groups DistributedFirewallingPolicyList#web_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#web_groups DistributedFirewallingPolicyList#web_groups}
   */
   readonly webGroups?: string[];
   /**
   * port_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#port_ranges DistributedFirewallingPolicyList#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#port_ranges DistributedFirewallingPolicyList#port_ranges}
   */
   readonly portRanges?: DistributedFirewallingPolicyListPoliciesPortRanges[] | cdktf.IResolvable;
 }
@@ -269,6 +275,7 @@ export function distributedFirewallingPolicyListPoliciesToTerraform(struct?: Dis
     dst_smart_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.dstSmartGroups),
     exclude_sg_orchestration: cdktf.booleanToTerraform(struct!.excludeSgOrchestration),
     flow_app_requirement: cdktf.stringToTerraform(struct!.flowAppRequirement),
+    log_profile: cdktf.stringToTerraform(struct!.logProfile),
     logging: cdktf.booleanToTerraform(struct!.logging),
     name: cdktf.stringToTerraform(struct!.name),
     priority: cdktf.numberToTerraform(struct!.priority),
@@ -314,6 +321,12 @@ export function distributedFirewallingPolicyListPoliciesToHclTerraform(struct?: 
     },
     flow_app_requirement: {
       value: cdktf.stringToHclTerraform(struct!.flowAppRequirement),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    log_profile: {
+      value: cdktf.stringToHclTerraform(struct!.logProfile),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -418,6 +431,10 @@ export class DistributedFirewallingPolicyListPoliciesOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.flowAppRequirement = this._flowAppRequirement;
     }
+    if (this._logProfile !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logProfile = this._logProfile;
+    }
     if (this._logging !== undefined) {
       hasAnyValues = true;
       internalValueResult.logging = this._logging;
@@ -466,6 +483,7 @@ export class DistributedFirewallingPolicyListPoliciesOutputReference extends cdk
       this._dstSmartGroups = undefined;
       this._excludeSgOrchestration = undefined;
       this._flowAppRequirement = undefined;
+      this._logProfile = undefined;
       this._logging = undefined;
       this._name = undefined;
       this._priority = undefined;
@@ -488,6 +506,7 @@ export class DistributedFirewallingPolicyListPoliciesOutputReference extends cdk
       this._dstSmartGroups = value.dstSmartGroups;
       this._excludeSgOrchestration = value.excludeSgOrchestration;
       this._flowAppRequirement = value.flowAppRequirement;
+      this._logProfile = value.logProfile;
       this._logging = value.logging;
       this._name = value.name;
       this._priority = value.priority;
@@ -572,6 +591,22 @@ export class DistributedFirewallingPolicyListPoliciesOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get flowAppRequirementInput() {
     return this._flowAppRequirement;
+  }
+
+  // log_profile - computed: false, optional: true, required: false
+  private _logProfile?: string; 
+  public get logProfile() {
+    return this.getStringAttribute('log_profile');
+  }
+  public set logProfile(value: string) {
+    this._logProfile = value;
+  }
+  public resetLogProfile() {
+    this._logProfile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logProfileInput() {
+    return this._logProfile;
   }
 
   // logging - computed: false, optional: true, required: false
@@ -736,7 +771,7 @@ export class DistributedFirewallingPolicyListPoliciesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list aviatrix_distributed_firewalling_policy_list}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list aviatrix_distributed_firewalling_policy_list}
 */
 export class DistributedFirewallingPolicyList extends cdktf.TerraformResource {
 
@@ -752,7 +787,7 @@ export class DistributedFirewallingPolicyList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DistributedFirewallingPolicyList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DistributedFirewallingPolicyList to import
-  * @param importFromId The id of the existing DistributedFirewallingPolicyList that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DistributedFirewallingPolicyList that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DistributedFirewallingPolicyList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -764,7 +799,7 @@ export class DistributedFirewallingPolicyList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_policy_list aviatrix_distributed_firewalling_policy_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_policy_list aviatrix_distributed_firewalling_policy_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -775,8 +810,8 @@ export class DistributedFirewallingPolicyList extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_distributed_firewalling_policy_list',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

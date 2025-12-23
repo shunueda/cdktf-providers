@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkserviceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#cloud_ref Networkservice#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#cloud_ref Networkservice#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#id Networkservice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#id Networkservice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#name Networkservice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#name Networkservice#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#se_group_ref Networkservice#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#se_group_ref Networkservice#se_group_ref}
   */
   readonly seGroupRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#service_type Networkservice#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#service_type Networkservice#service_type}
   */
   readonly serviceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#tenant_ref Networkservice#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#tenant_ref Networkservice#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#uuid Networkservice#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#uuid Networkservice#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#vrf_ref Networkservice#vrf_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#vrf_ref Networkservice#vrf_ref}
   */
   readonly vrfRef: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#configpb_attributes Networkservice#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#configpb_attributes Networkservice#configpb_attributes}
   */
   readonly configpbAttributes?: NetworkserviceConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#markers Networkservice#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#markers Networkservice#markers}
   */
   readonly markers?: NetworkserviceMarkers[] | cdktf.IResolvable;
   /**
   * routing_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#routing_service Networkservice#routing_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#routing_service Networkservice#routing_service}
   */
   readonly routingService?: NetworkserviceRoutingService[] | cdktf.IResolvable;
 }
 export interface NetworkserviceConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#version Networkservice#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#version Networkservice#version}
   */
   readonly version?: string;
 }
@@ -179,11 +179,11 @@ export class NetworkserviceConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface NetworkserviceMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#key Networkservice#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#key Networkservice#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#values Networkservice#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#values Networkservice#values}
   */
   readonly values?: string[];
 }
@@ -325,11 +325,11 @@ export class NetworkserviceMarkersList extends cdktf.ComplexList {
 }
 export interface NetworkserviceRoutingServiceFloatingIntfIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#addr Networkservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#addr Networkservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#type Networkservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#type Networkservice#type}
   */
   readonly type: string;
 }
@@ -468,11 +468,11 @@ export class NetworkserviceRoutingServiceFloatingIntfIpList extends cdktf.Comple
 }
 export interface NetworkserviceRoutingServiceFloatingIntfIp6Addresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#addr Networkservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#addr Networkservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#type Networkservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#type Networkservice#type}
   */
   readonly type: string;
 }
@@ -611,11 +611,11 @@ export class NetworkserviceRoutingServiceFloatingIntfIp6AddressesList extends cd
 }
 export interface NetworkserviceRoutingServiceFloatingIntfIp6Se2Addresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#addr Networkservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#addr Networkservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#type Networkservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#type Networkservice#type}
   */
   readonly type: string;
 }
@@ -754,11 +754,11 @@ export class NetworkserviceRoutingServiceFloatingIntfIp6Se2AddressesList extends
 }
 export interface NetworkserviceRoutingServiceFloatingIntfIpSe2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#addr Networkservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#addr Networkservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#type Networkservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#type Networkservice#type}
   */
   readonly type: string;
 }
@@ -897,31 +897,31 @@ export class NetworkserviceRoutingServiceFloatingIntfIpSe2List extends cdktf.Com
 }
 export interface NetworkserviceRoutingServiceFlowtableProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#icmp_idle_timeout Networkservice#icmp_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#icmp_idle_timeout Networkservice#icmp_idle_timeout}
   */
   readonly icmpIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#tcp_closed_timeout Networkservice#tcp_closed_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#tcp_closed_timeout Networkservice#tcp_closed_timeout}
   */
   readonly tcpClosedTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#tcp_connection_setup_timeout Networkservice#tcp_connection_setup_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#tcp_connection_setup_timeout Networkservice#tcp_connection_setup_timeout}
   */
   readonly tcpConnectionSetupTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#tcp_half_closed_timeout Networkservice#tcp_half_closed_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#tcp_half_closed_timeout Networkservice#tcp_half_closed_timeout}
   */
   readonly tcpHalfClosedTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#tcp_idle_timeout Networkservice#tcp_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#tcp_idle_timeout Networkservice#tcp_idle_timeout}
   */
   readonly tcpIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#tcp_reset_timeout Networkservice#tcp_reset_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#tcp_reset_timeout Networkservice#tcp_reset_timeout}
   */
   readonly tcpResetTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#udp_idle_timeout Networkservice#udp_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#udp_idle_timeout Networkservice#udp_idle_timeout}
   */
   readonly udpIdleTimeout?: string;
 }
@@ -1211,65 +1211,65 @@ export class NetworkserviceRoutingServiceFlowtableProfileList extends cdktf.Comp
 }
 export interface NetworkserviceRoutingService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#advertise_backend_networks Networkservice#advertise_backend_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#advertise_backend_networks Networkservice#advertise_backend_networks}
   */
   readonly advertiseBackendNetworks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#enable_auto_gateway Networkservice#enable_auto_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#enable_auto_gateway Networkservice#enable_auto_gateway}
   */
   readonly enableAutoGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#enable_routing Networkservice#enable_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#enable_routing Networkservice#enable_routing}
   */
   readonly enableRouting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#enable_vip_on_all_interfaces Networkservice#enable_vip_on_all_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#enable_vip_on_all_interfaces Networkservice#enable_vip_on_all_interfaces}
   */
   readonly enableVipOnAllInterfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#enable_vmac Networkservice#enable_vmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#enable_vmac Networkservice#enable_vmac}
   */
   readonly enableVmac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#graceful_restart Networkservice#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#graceful_restart Networkservice#graceful_restart}
   */
   readonly gracefulRestart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#nat_policy_ref Networkservice#nat_policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#nat_policy_ref Networkservice#nat_policy_ref}
   */
   readonly natPolicyRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#routing_by_linux_ipstack Networkservice#routing_by_linux_ipstack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#routing_by_linux_ipstack Networkservice#routing_by_linux_ipstack}
   */
   readonly routingByLinuxIpstack?: string;
   /**
   * floating_intf_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#floating_intf_ip Networkservice#floating_intf_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#floating_intf_ip Networkservice#floating_intf_ip}
   */
   readonly floatingIntfIp?: NetworkserviceRoutingServiceFloatingIntfIp[] | cdktf.IResolvable;
   /**
   * floating_intf_ip6_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#floating_intf_ip6_addresses Networkservice#floating_intf_ip6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#floating_intf_ip6_addresses Networkservice#floating_intf_ip6_addresses}
   */
   readonly floatingIntfIp6Addresses?: NetworkserviceRoutingServiceFloatingIntfIp6Addresses[] | cdktf.IResolvable;
   /**
   * floating_intf_ip6_se_2_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#floating_intf_ip6_se_2_addresses Networkservice#floating_intf_ip6_se_2_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#floating_intf_ip6_se_2_addresses Networkservice#floating_intf_ip6_se_2_addresses}
   */
   readonly floatingIntfIp6Se2Addresses?: NetworkserviceRoutingServiceFloatingIntfIp6Se2Addresses[] | cdktf.IResolvable;
   /**
   * floating_intf_ip_se_2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#floating_intf_ip_se_2 Networkservice#floating_intf_ip_se_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#floating_intf_ip_se_2 Networkservice#floating_intf_ip_se_2}
   */
   readonly floatingIntfIpSe2?: NetworkserviceRoutingServiceFloatingIntfIpSe2[] | cdktf.IResolvable;
   /**
   * flowtable_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#flowtable_profile Networkservice#flowtable_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#flowtable_profile Networkservice#flowtable_profile}
   */
   readonly flowtableProfile?: NetworkserviceRoutingServiceFlowtableProfile[] | cdktf.IResolvable;
 }
@@ -1733,7 +1733,7 @@ export class NetworkserviceRoutingServiceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice avi_networkservice}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice avi_networkservice}
 */
 export class Networkservice extends cdktf.TerraformResource {
 
@@ -1749,7 +1749,7 @@ export class Networkservice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Networkservice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Networkservice to import
-  * @param importFromId The id of the existing Networkservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Networkservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Networkservice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1761,7 +1761,7 @@ export class Networkservice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networkservice avi_networkservice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networkservice avi_networkservice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1772,8 +1772,8 @@ export class Networkservice extends cdktf.TerraformResource {
       terraformResourceType: 'avi_networkservice',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

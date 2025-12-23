@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain_verification
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/custom_domain_verification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CustomDomainVerificationAConfig extends cdktf.TerraformMetaArgu
   /**
   * ID of the custom domain resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain_verification#custom_domain_id CustomDomainVerificationA#custom_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/custom_domain_verification#custom_domain_id CustomDomainVerificationA#custom_domain_id}
   */
   readonly customDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain_verification#id CustomDomainVerificationA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/custom_domain_verification#id CustomDomainVerificationA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CustomDomainVerificationAConfig extends cdktf.TerraformMetaArgu
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain_verification#timeouts CustomDomainVerificationA#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/custom_domain_verification#timeouts CustomDomainVerificationA#timeouts}
   */
   readonly timeouts?: CustomDomainVerificationTimeouts;
 }
 export interface CustomDomainVerificationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain_verification#create CustomDomainVerificationA#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/custom_domain_verification#create CustomDomainVerificationA#create}
   */
   readonly create?: string;
 }
@@ -123,7 +123,7 @@ export class CustomDomainVerificationTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain_verification auth0_custom_domain_verification}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/custom_domain_verification auth0_custom_domain_verification}
 */
 export class CustomDomainVerificationA extends cdktf.TerraformResource {
 
@@ -139,7 +139,7 @@ export class CustomDomainVerificationA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomDomainVerificationA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomDomainVerificationA to import
-  * @param importFromId The id of the existing CustomDomainVerificationA that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain_verification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomDomainVerificationA that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/custom_domain_verification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomDomainVerificationA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class CustomDomainVerificationA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/custom_domain_verification auth0_custom_domain_verification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/custom_domain_verification auth0_custom_domain_verification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,8 +162,8 @@ export class CustomDomainVerificationA extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_custom_domain_verification',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

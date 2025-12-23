@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface IntegrationZendeskConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatically close tickets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk#auto_close IntegrationZendesk#auto_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk#auto_close IntegrationZendesk#auto_close}
   */
   readonly autoClose?: boolean | cdktf.IResolvable;
   /**
   * Automatically create tickets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk#auto_create IntegrationZendesk#auto_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk#auto_create IntegrationZendesk#auto_create}
   */
   readonly autoCreate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk#credentials IntegrationZendesk#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk#credentials IntegrationZendesk#credentials}
   */
   readonly credentials: IntegrationZendeskCredentials;
   /**
   * Custom fields to add to the Zendesk ticket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk#custom_fields IntegrationZendesk#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk#custom_fields IntegrationZendesk#custom_fields}
   */
   readonly customFields?: IntegrationZendeskCustomFields[] | cdktf.IResolvable;
   /**
   * Zendesk email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk#email IntegrationZendesk#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk#email IntegrationZendesk#email}
   */
   readonly email: string;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk#name IntegrationZendesk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk#name IntegrationZendesk#name}
   */
   readonly name: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk#space_id IntegrationZendesk#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk#space_id IntegrationZendesk#space_id}
   */
   readonly spaceId?: string;
   /**
   * Zendesk subdomain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk#subdomain IntegrationZendesk#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk#subdomain IntegrationZendesk#subdomain}
   */
   readonly subdomain: string;
 }
@@ -58,7 +58,7 @@ export interface IntegrationZendeskCredentials {
   /**
   * Token for Zendesk integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk#token IntegrationZendesk#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk#token IntegrationZendesk#token}
   */
   readonly token: string;
 }
@@ -151,7 +151,7 @@ export interface IntegrationZendeskCustomFields {
   /**
   * Custom field ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk#id IntegrationZendesk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk#id IntegrationZendesk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -160,7 +160,7 @@ export interface IntegrationZendeskCustomFields {
   /**
   * Custom field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk#value IntegrationZendesk#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk#value IntegrationZendesk#value}
   */
   readonly value: string;
 }
@@ -299,7 +299,7 @@ export class IntegrationZendeskCustomFieldsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk mondoo_integration_zendesk}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk mondoo_integration_zendesk}
 */
 export class IntegrationZendesk extends cdktf.TerraformResource {
 
@@ -315,7 +315,7 @@ export class IntegrationZendesk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationZendesk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationZendesk to import
-  * @param importFromId The id of the existing IntegrationZendesk that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationZendesk that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationZendesk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -327,7 +327,7 @@ export class IntegrationZendesk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_zendesk mondoo_integration_zendesk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_zendesk mondoo_integration_zendesk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -338,8 +338,8 @@ export class IntegrationZendesk extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_zendesk',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.2',
-        providerVersionConstraint: '0.35.2'
+        providerVersion: '0.35.3',
+        providerVersionConstraint: '0.35.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

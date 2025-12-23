@@ -1,3 +1,3 @@
 # `provider`
 
-Refer to the Terraform Registry for docs: [`vkcs`](https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs).
+Refer to the Terraform Registry for docs: [`vkcs`](https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs).

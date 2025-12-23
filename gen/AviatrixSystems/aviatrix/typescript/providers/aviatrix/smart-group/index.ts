@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SmartGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#id SmartGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#id SmartGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SmartGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the Smart Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#name SmartGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#name SmartGroup#name}
   */
   readonly name: string;
   /**
   * selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#selector SmartGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#selector SmartGroup#selector}
   */
   readonly selector: SmartGroupSelector;
 }
@@ -31,109 +31,109 @@ export interface SmartGroupSelectorMatchExpressions {
   /**
   * Account ID this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#account_id SmartGroup#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#account_id SmartGroup#account_id}
   */
   readonly accountId?: string;
   /**
   * Account name this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#account_name SmartGroup#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#account_name SmartGroup#account_name}
   */
   readonly accountName?: string;
   /**
   * CIDR block or IP Address this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#cidr SmartGroup#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#cidr SmartGroup#cidr}
   */
   readonly cidr?: string;
   /**
   * Map of external arguments this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#ext_args SmartGroup#ext_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#ext_args SmartGroup#ext_args}
   */
   readonly extArgs?: { [key: string]: string };
   /**
   * Identifier of remote data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#external SmartGroup#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#external SmartGroup#external}
   */
   readonly external?: string;
   /**
   * FQDN address this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#fqdn SmartGroup#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#fqdn SmartGroup#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Kubernetes Cluster ID this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#k8s_cluster_id SmartGroup#k8s_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#k8s_cluster_id SmartGroup#k8s_cluster_id}
   */
   readonly k8SClusterId?: string;
   /**
   * Name of the Kubernetes Namespace this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#k8s_namespace SmartGroup#k8s_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#k8s_namespace SmartGroup#k8s_namespace}
   */
   readonly k8SNamespace?: string;
   /**
   * Name of the Kubernetes Pod this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#k8s_pod SmartGroup#k8s_pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#k8s_pod SmartGroup#k8s_pod}
   */
   readonly k8SPod?: string;
   /**
   * Name of the Kubernetes Service this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#k8s_service SmartGroup#k8s_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#k8s_service SmartGroup#k8s_service}
   */
   readonly k8SService?: string;
   /**
   * Name this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#name SmartGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#name SmartGroup#name}
   */
   readonly name?: string;
   /**
   * Region this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#region SmartGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#region SmartGroup#region}
   */
   readonly region?: string;
   /**
   * Resource ID this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#res_id SmartGroup#res_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#res_id SmartGroup#res_id}
   */
   readonly resId?: string;
   /**
   * Name of remote site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#s2c SmartGroup#s2c}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#s2c SmartGroup#s2c}
   */
   readonly s2C?: string;
   /**
   * Edge Site-ID this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#site SmartGroup#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#site SmartGroup#site}
   */
   readonly site?: string;
   /**
   * Map of tags this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#tags SmartGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#tags SmartGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Type of resource this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#type SmartGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#type SmartGroup#type}
   */
   readonly type?: string;
   /**
   * Zone this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#zone SmartGroup#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#zone SmartGroup#zone}
   */
   readonly zone?: string;
 }
@@ -744,7 +744,7 @@ export interface SmartGroupSelector {
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#match_expressions SmartGroup#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#match_expressions SmartGroup#match_expressions}
   */
   readonly matchExpressions: SmartGroupSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -825,7 +825,7 @@ export class SmartGroupSelectorOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group aviatrix_smart_group}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group aviatrix_smart_group}
 */
 export class SmartGroup extends cdktf.TerraformResource {
 
@@ -841,7 +841,7 @@ export class SmartGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SmartGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmartGroup to import
-  * @param importFromId The id of the existing SmartGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmartGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmartGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -853,7 +853,7 @@ export class SmartGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/smart_group aviatrix_smart_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/smart_group aviatrix_smart_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -864,8 +864,8 @@ export class SmartGroup extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_smart_group',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

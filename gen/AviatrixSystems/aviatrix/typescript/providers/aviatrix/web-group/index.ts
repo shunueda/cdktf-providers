@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/web_group
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/web_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WebGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/web_group#id WebGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/web_group#id WebGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface WebGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the Web Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/web_group#name WebGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/web_group#name WebGroup#name}
   */
   readonly name: string;
   /**
   * selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/web_group#selector WebGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/web_group#selector WebGroup#selector}
   */
   readonly selector: WebGroupSelector;
 }
@@ -31,13 +31,13 @@ export interface WebGroupSelectorMatchExpressions {
   /**
   * Server name indicator this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/web_group#snifilter WebGroup#snifilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/web_group#snifilter WebGroup#snifilter}
   */
   readonly snifilter?: string;
   /**
   * URL address this expression matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/web_group#urlfilter WebGroup#urlfilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/web_group#urlfilter WebGroup#urlfilter}
   */
   readonly urlfilter?: string;
 }
@@ -184,7 +184,7 @@ export interface WebGroupSelector {
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/web_group#match_expressions WebGroup#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/web_group#match_expressions WebGroup#match_expressions}
   */
   readonly matchExpressions: WebGroupSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -265,7 +265,7 @@ export class WebGroupSelectorOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/web_group aviatrix_web_group}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/web_group aviatrix_web_group}
 */
 export class WebGroup extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class WebGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebGroup to import
-  * @param importFromId The id of the existing WebGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/web_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/web_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class WebGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/web_group aviatrix_web_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/web_group aviatrix_web_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class WebGroup extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_web_group',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface DnspolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#created_by Dnspolicy#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#created_by Dnspolicy#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#description Dnspolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#description Dnspolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#id Dnspolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#id Dnspolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#internal Dnspolicy#internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#internal Dnspolicy#internal}
   */
   readonly internal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#name Dnspolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#name Dnspolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#tenant_ref Dnspolicy#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#tenant_ref Dnspolicy#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#uuid Dnspolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#uuid Dnspolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#configpb_attributes Dnspolicy#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#configpb_attributes Dnspolicy#configpb_attributes}
   */
   readonly configpbAttributes?: DnspolicyConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#markers Dnspolicy#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#markers Dnspolicy#markers}
   */
   readonly markers?: DnspolicyMarkers[] | cdktf.IResolvable;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#rule Dnspolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#rule Dnspolicy#rule}
   */
   readonly rule?: DnspolicyRule[] | cdktf.IResolvable;
 }
 export interface DnspolicyConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#version Dnspolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#version Dnspolicy#version}
   */
   readonly version?: string;
 }
@@ -175,11 +175,11 @@ export class DnspolicyConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface DnspolicyMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#key Dnspolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#key Dnspolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#values Dnspolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#values Dnspolicy#values}
   */
   readonly values?: string[];
 }
@@ -321,11 +321,11 @@ export class DnspolicyMarkersList extends cdktf.ComplexList {
 }
 export interface DnspolicyRuleActionAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#allow Dnspolicy#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#allow Dnspolicy#allow}
   */
   readonly allow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#reset_conn Dnspolicy#reset_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#reset_conn Dnspolicy#reset_conn}
   */
   readonly resetConn?: string;
 }
@@ -470,7 +470,7 @@ export class DnspolicyRuleActionAllowList extends cdktf.ComplexList {
 }
 export interface DnspolicyRuleActionDnsRateLimiterAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#type Dnspolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#type Dnspolicy#type}
   */
   readonly type?: string;
 }
@@ -586,19 +586,19 @@ export class DnspolicyRuleActionDnsRateLimiterActionList extends cdktf.ComplexLi
 }
 export interface DnspolicyRuleActionDnsRateLimiterRateLimiterObject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#burst_sz Dnspolicy#burst_sz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#burst_sz Dnspolicy#burst_sz}
   */
   readonly burstSz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#count Dnspolicy#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#count Dnspolicy#count}
   */
   readonly count?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#name Dnspolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#name Dnspolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#period Dnspolicy#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#period Dnspolicy#period}
   */
   readonly period?: string;
 }
@@ -803,13 +803,13 @@ export interface DnspolicyRuleActionDnsRateLimiter {
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#action Dnspolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#action Dnspolicy#action}
   */
   readonly action: DnspolicyRuleActionDnsRateLimiterAction[] | cdktf.IResolvable;
   /**
   * rate_limiter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#rate_limiter_object Dnspolicy#rate_limiter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#rate_limiter_object Dnspolicy#rate_limiter_object}
   */
   readonly rateLimiterObject: DnspolicyRuleActionDnsRateLimiterRateLimiterObject[] | cdktf.IResolvable;
 }
@@ -948,7 +948,7 @@ export class DnspolicyRuleActionDnsRateLimiterList extends cdktf.ComplexList {
 }
 export interface DnspolicyRuleActionGsGroupSelection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#group_name Dnspolicy#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#group_name Dnspolicy#group_name}
   */
   readonly groupName: string;
 }
@@ -1061,15 +1061,15 @@ export class DnspolicyRuleActionGsGroupSelectionList extends cdktf.ComplexList {
 }
 export interface DnspolicyRuleActionGslbSiteSelection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#fallback_site_names Dnspolicy#fallback_site_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#fallback_site_names Dnspolicy#fallback_site_names}
   */
   readonly fallbackSiteNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#is_site_preferred Dnspolicy#is_site_preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#is_site_preferred Dnspolicy#is_site_preferred}
   */
   readonly isSitePreferred?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#site_name Dnspolicy#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#site_name Dnspolicy#site_name}
   */
   readonly siteName: string;
 }
@@ -1240,11 +1240,11 @@ export class DnspolicyRuleActionGslbSiteSelectionList extends cdktf.ComplexList 
 }
 export interface DnspolicyRuleActionPoolSwitching {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#pool_group_ref Dnspolicy#pool_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#pool_group_ref Dnspolicy#pool_group_ref}
   */
   readonly poolGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#pool_ref Dnspolicy#pool_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#pool_ref Dnspolicy#pool_ref}
   */
   readonly poolRef?: string;
 }
@@ -1389,7 +1389,7 @@ export class DnspolicyRuleActionPoolSwitchingList extends cdktf.ComplexList {
 }
 export interface DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetCname {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#cname Dnspolicy#cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#cname Dnspolicy#cname}
   */
   readonly cname: string;
 }
@@ -1502,11 +1502,11 @@ export class DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetCname
 }
 export interface DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetIp6AddressesIp6Address {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#addr Dnspolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#addr Dnspolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#type Dnspolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#type Dnspolicy#type}
   */
   readonly type: string;
 }
@@ -1647,7 +1647,7 @@ export interface DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetI
   /**
   * ip6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#ip6_address Dnspolicy#ip6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#ip6_address Dnspolicy#ip6_address}
   */
   readonly ip6Address: DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetIp6AddressesIp6Address[] | cdktf.IResolvable;
 }
@@ -1760,11 +1760,11 @@ export class DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetIp6Ad
 }
 export interface DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetIpAddressesIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#addr Dnspolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#addr Dnspolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#type Dnspolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#type Dnspolicy#type}
   */
   readonly type: string;
 }
@@ -1905,7 +1905,7 @@ export interface DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetI
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#ip_address Dnspolicy#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#ip_address Dnspolicy#ip_address}
   */
   readonly ipAddress: DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetIpAddressesIpAddress[] | cdktf.IResolvable;
 }
@@ -2018,11 +2018,11 @@ export class DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetIpAdd
 }
 export interface DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetNsesIp6Address {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#addr Dnspolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#addr Dnspolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#type Dnspolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#type Dnspolicy#type}
   */
   readonly type: string;
 }
@@ -2161,11 +2161,11 @@ export class DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetNsesI
 }
 export interface DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetNsesIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#addr Dnspolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#addr Dnspolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#type Dnspolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#type Dnspolicy#type}
   */
   readonly type: string;
 }
@@ -2304,19 +2304,19 @@ export class DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetNsesI
 }
 export interface DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetNses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#nsname Dnspolicy#nsname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#nsname Dnspolicy#nsname}
   */
   readonly nsname: string;
   /**
   * ip6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#ip6_address Dnspolicy#ip6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#ip6_address Dnspolicy#ip6_address}
   */
   readonly ip6Address?: DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetNsesIp6Address[] | cdktf.IResolvable;
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#ip_address Dnspolicy#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#ip_address Dnspolicy#ip_address}
   */
   readonly ipAddress?: DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetNsesIpAddress[] | cdktf.IResolvable;
 }
@@ -2487,39 +2487,39 @@ export class DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetNsesL
 }
 export interface DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#fqdn Dnspolicy#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#fqdn Dnspolicy#fqdn}
   */
   readonly fqdn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#ttl Dnspolicy#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#ttl Dnspolicy#ttl}
   */
   readonly ttl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#type Dnspolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#type Dnspolicy#type}
   */
   readonly type: string;
   /**
   * cname block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#cname Dnspolicy#cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#cname Dnspolicy#cname}
   */
   readonly cname?: DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetCname[] | cdktf.IResolvable;
   /**
   * ip6_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#ip6_addresses Dnspolicy#ip6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#ip6_addresses Dnspolicy#ip6_addresses}
   */
   readonly ip6Addresses?: DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetIp6Addresses[] | cdktf.IResolvable;
   /**
   * ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#ip_addresses Dnspolicy#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#ip_addresses Dnspolicy#ip_addresses}
   */
   readonly ipAddresses?: DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetIpAddresses[] | cdktf.IResolvable;
   /**
   * nses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#nses Dnspolicy#nses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#nses Dnspolicy#nses}
   */
   readonly nses?: DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetNses[] | cdktf.IResolvable;
 }
@@ -2800,13 +2800,13 @@ export class DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSetList 
 }
 export interface DnspolicyRuleActionResponseResourceRecordSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#section Dnspolicy#section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#section Dnspolicy#section}
   */
   readonly section?: string;
   /**
   * resource_record_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#resource_record_set Dnspolicy#resource_record_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#resource_record_set Dnspolicy#resource_record_set}
   */
   readonly resourceRecordSet: DnspolicyRuleActionResponseResourceRecordSetsResourceRecordSet[] | cdktf.IResolvable;
 }
@@ -2948,21 +2948,21 @@ export class DnspolicyRuleActionResponseResourceRecordSetsList extends cdktf.Com
 }
 export interface DnspolicyRuleActionResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#authoritative Dnspolicy#authoritative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#authoritative Dnspolicy#authoritative}
   */
   readonly authoritative?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#rcode Dnspolicy#rcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#rcode Dnspolicy#rcode}
   */
   readonly rcode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#truncation Dnspolicy#truncation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#truncation Dnspolicy#truncation}
   */
   readonly truncation?: string;
   /**
   * resource_record_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#resource_record_sets Dnspolicy#resource_record_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#resource_record_sets Dnspolicy#resource_record_sets}
   */
   readonly resourceRecordSets?: DnspolicyRuleActionResponseResourceRecordSets[] | cdktf.IResolvable;
 }
@@ -3167,37 +3167,37 @@ export interface DnspolicyRuleAction {
   /**
   * allow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#allow Dnspolicy#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#allow Dnspolicy#allow}
   */
   readonly allow?: DnspolicyRuleActionAllow[] | cdktf.IResolvable;
   /**
   * dns_rate_limiter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#dns_rate_limiter Dnspolicy#dns_rate_limiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#dns_rate_limiter Dnspolicy#dns_rate_limiter}
   */
   readonly dnsRateLimiter?: DnspolicyRuleActionDnsRateLimiter[] | cdktf.IResolvable;
   /**
   * gs_group_selection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#gs_group_selection Dnspolicy#gs_group_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#gs_group_selection Dnspolicy#gs_group_selection}
   */
   readonly gsGroupSelection?: DnspolicyRuleActionGsGroupSelection[] | cdktf.IResolvable;
   /**
   * gslb_site_selection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#gslb_site_selection Dnspolicy#gslb_site_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#gslb_site_selection Dnspolicy#gslb_site_selection}
   */
   readonly gslbSiteSelection?: DnspolicyRuleActionGslbSiteSelection[] | cdktf.IResolvable;
   /**
   * pool_switching block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#pool_switching Dnspolicy#pool_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#pool_switching Dnspolicy#pool_switching}
   */
   readonly poolSwitching?: DnspolicyRuleActionPoolSwitching[] | cdktf.IResolvable;
   /**
   * response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#response Dnspolicy#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#response Dnspolicy#response}
   */
   readonly response?: DnspolicyRuleActionResponse[] | cdktf.IResolvable;
 }
@@ -3458,11 +3458,11 @@ export class DnspolicyRuleActionList extends cdktf.ComplexList {
 }
 export interface DnspolicyRuleMatchClientIpAddressClientIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#addr Dnspolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#addr Dnspolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#type Dnspolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#type Dnspolicy#type}
   */
   readonly type: string;
 }
@@ -3601,11 +3601,11 @@ export class DnspolicyRuleMatchClientIpAddressClientIpAddrsList extends cdktf.Co
 }
 export interface DnspolicyRuleMatchClientIpAddressClientIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#addr Dnspolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#addr Dnspolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#type Dnspolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#type Dnspolicy#type}
   */
   readonly type: string;
 }
@@ -3744,13 +3744,13 @@ export class DnspolicyRuleMatchClientIpAddressClientIpPrefixesIpAddrList extends
 }
 export interface DnspolicyRuleMatchClientIpAddressClientIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#mask Dnspolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#mask Dnspolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#ip_addr Dnspolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#ip_addr Dnspolicy#ip_addr}
   */
   readonly ipAddr: DnspolicyRuleMatchClientIpAddressClientIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -3889,11 +3889,11 @@ export class DnspolicyRuleMatchClientIpAddressClientIpPrefixesList extends cdktf
 }
 export interface DnspolicyRuleMatchClientIpAddressClientIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#addr Dnspolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#addr Dnspolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#type Dnspolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#type Dnspolicy#type}
   */
   readonly type: string;
 }
@@ -4032,11 +4032,11 @@ export class DnspolicyRuleMatchClientIpAddressClientIpRangesBeginList extends cd
 }
 export interface DnspolicyRuleMatchClientIpAddressClientIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#addr Dnspolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#addr Dnspolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#type Dnspolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#type Dnspolicy#type}
   */
   readonly type: string;
 }
@@ -4177,13 +4177,13 @@ export interface DnspolicyRuleMatchClientIpAddressClientIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#begin Dnspolicy#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#begin Dnspolicy#begin}
   */
   readonly begin: DnspolicyRuleMatchClientIpAddressClientIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#end Dnspolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#end Dnspolicy#end}
   */
   readonly end: DnspolicyRuleMatchClientIpAddressClientIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -4322,29 +4322,29 @@ export class DnspolicyRuleMatchClientIpAddressClientIpRangesList extends cdktf.C
 }
 export interface DnspolicyRuleMatchClientIpAddressClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#group_refs Dnspolicy#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#group_refs Dnspolicy#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#match_criteria Dnspolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#match_criteria Dnspolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#addrs Dnspolicy#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#addrs Dnspolicy#addrs}
   */
   readonly addrs?: DnspolicyRuleMatchClientIpAddressClientIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#prefixes Dnspolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#prefixes Dnspolicy#prefixes}
   */
   readonly prefixes?: DnspolicyRuleMatchClientIpAddressClientIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#ranges Dnspolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#ranges Dnspolicy#ranges}
   */
   readonly ranges?: DnspolicyRuleMatchClientIpAddressClientIpRanges[] | cdktf.IResolvable;
 }
@@ -4573,13 +4573,13 @@ export class DnspolicyRuleMatchClientIpAddressClientIpList extends cdktf.Complex
 }
 export interface DnspolicyRuleMatchClientIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#use_edns_client_subnet_ip Dnspolicy#use_edns_client_subnet_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#use_edns_client_subnet_ip Dnspolicy#use_edns_client_subnet_ip}
   */
   readonly useEdnsClientSubnetIp?: string;
   /**
   * client_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#client_ip Dnspolicy#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#client_ip Dnspolicy#client_ip}
   */
   readonly clientIp: DnspolicyRuleMatchClientIpAddressClientIp[] | cdktf.IResolvable;
 }
@@ -4721,11 +4721,11 @@ export class DnspolicyRuleMatchClientIpAddressList extends cdktf.ComplexList {
 }
 export interface DnspolicyRuleMatchClientPortNumbersClientPortsRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#end Dnspolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#end Dnspolicy#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#start Dnspolicy#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#start Dnspolicy#start}
   */
   readonly start: string;
 }
@@ -4864,17 +4864,17 @@ export class DnspolicyRuleMatchClientPortNumbersClientPortsRangesList extends cd
 }
 export interface DnspolicyRuleMatchClientPortNumbersClientPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#match_criteria Dnspolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#match_criteria Dnspolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#ports Dnspolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#ports Dnspolicy#ports}
   */
   readonly ports?: number[];
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#ranges Dnspolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#ranges Dnspolicy#ranges}
   */
   readonly ranges?: DnspolicyRuleMatchClientPortNumbersClientPortsRanges[] | cdktf.IResolvable;
 }
@@ -5047,7 +5047,7 @@ export interface DnspolicyRuleMatchClientPortNumbers {
   /**
   * client_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#client_ports Dnspolicy#client_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#client_ports Dnspolicy#client_ports}
   */
   readonly clientPorts: DnspolicyRuleMatchClientPortNumbersClientPorts[] | cdktf.IResolvable;
 }
@@ -5160,19 +5160,19 @@ export class DnspolicyRuleMatchClientPortNumbersList extends cdktf.ComplexList {
 }
 export interface DnspolicyRuleMatchGeoLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#geolocation_name Dnspolicy#geolocation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#geolocation_name Dnspolicy#geolocation_name}
   */
   readonly geolocationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#geolocation_tag Dnspolicy#geolocation_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#geolocation_tag Dnspolicy#geolocation_tag}
   */
   readonly geolocationTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#match_criteria Dnspolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#match_criteria Dnspolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#use_edns_client_subnet_ip Dnspolicy#use_edns_client_subnet_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#use_edns_client_subnet_ip Dnspolicy#use_edns_client_subnet_ip}
   */
   readonly useEdnsClientSubnetIp?: string;
 }
@@ -5372,11 +5372,11 @@ export class DnspolicyRuleMatchGeoLocationList extends cdktf.ComplexList {
 }
 export interface DnspolicyRuleMatchProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#match_criteria Dnspolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#match_criteria Dnspolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#protocol Dnspolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#protocol Dnspolicy#protocol}
   */
   readonly protocol: string;
 }
@@ -5515,15 +5515,15 @@ export class DnspolicyRuleMatchProtocolList extends cdktf.ComplexList {
 }
 export interface DnspolicyRuleMatchQueryName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#match_criteria Dnspolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#match_criteria Dnspolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#query_domain_names Dnspolicy#query_domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#query_domain_names Dnspolicy#query_domain_names}
   */
   readonly queryDomainNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#string_group_refs Dnspolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#string_group_refs Dnspolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -5694,11 +5694,11 @@ export class DnspolicyRuleMatchQueryNameList extends cdktf.ComplexList {
 }
 export interface DnspolicyRuleMatchQueryType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#match_criteria Dnspolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#match_criteria Dnspolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#query_type Dnspolicy#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#query_type Dnspolicy#query_type}
   */
   readonly queryType?: string[];
 }
@@ -5842,37 +5842,37 @@ export interface DnspolicyRuleMatch {
   /**
   * client_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#client_ip_address Dnspolicy#client_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#client_ip_address Dnspolicy#client_ip_address}
   */
   readonly clientIpAddress?: DnspolicyRuleMatchClientIpAddress[] | cdktf.IResolvable;
   /**
   * client_port_numbers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#client_port_numbers Dnspolicy#client_port_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#client_port_numbers Dnspolicy#client_port_numbers}
   */
   readonly clientPortNumbers?: DnspolicyRuleMatchClientPortNumbers[] | cdktf.IResolvable;
   /**
   * geo_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#geo_location Dnspolicy#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#geo_location Dnspolicy#geo_location}
   */
   readonly geoLocation?: DnspolicyRuleMatchGeoLocation[] | cdktf.IResolvable;
   /**
   * protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#protocol Dnspolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#protocol Dnspolicy#protocol}
   */
   readonly protocol?: DnspolicyRuleMatchProtocol[] | cdktf.IResolvable;
   /**
   * query_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#query_name Dnspolicy#query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#query_name Dnspolicy#query_name}
   */
   readonly queryName?: DnspolicyRuleMatchQueryName[] | cdktf.IResolvable;
   /**
   * query_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#query_type Dnspolicy#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#query_type Dnspolicy#query_type}
   */
   readonly queryType?: DnspolicyRuleMatchQueryType[] | cdktf.IResolvable;
 }
@@ -6133,31 +6133,31 @@ export class DnspolicyRuleMatchList extends cdktf.ComplexList {
 }
 export interface DnspolicyRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#enable Dnspolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#enable Dnspolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#index Dnspolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#index Dnspolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#log Dnspolicy#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#log Dnspolicy#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#name Dnspolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#name Dnspolicy#name}
   */
   readonly name: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#action Dnspolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#action Dnspolicy#action}
   */
   readonly action?: DnspolicyRuleAction[] | cdktf.IResolvable;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#match Dnspolicy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#match Dnspolicy#match}
   */
   readonly match?: DnspolicyRuleMatch[] | cdktf.IResolvable;
 }
@@ -6412,7 +6412,7 @@ export class DnspolicyRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy avi_dnspolicy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy avi_dnspolicy}
 */
 export class Dnspolicy extends cdktf.TerraformResource {
 
@@ -6428,7 +6428,7 @@ export class Dnspolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dnspolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dnspolicy to import
-  * @param importFromId The id of the existing Dnspolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dnspolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dnspolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6440,7 +6440,7 @@ export class Dnspolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dnspolicy avi_dnspolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/dnspolicy avi_dnspolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6451,8 +6451,8 @@ export class Dnspolicy extends cdktf.TerraformResource {
       terraformResourceType: 'avi_dnspolicy',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

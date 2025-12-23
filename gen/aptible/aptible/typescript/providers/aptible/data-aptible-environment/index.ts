@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/data-sources/environment
+// https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/data-sources/environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataAptibleEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/data-sources/environment#handle DataAptibleEnvironment#handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/data-sources/environment#handle DataAptibleEnvironment#handle}
   */
   readonly handle: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/data-sources/environment#id DataAptibleEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/data-sources/environment#id DataAptibleEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataAptibleEnvironmentConfig extends cdktf.TerraformMetaArgumen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/data-sources/environment aptible_environment}
+* Represents a {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/data-sources/environment aptible_environment}
 */
 export class DataAptibleEnvironment extends cdktf.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataAptibleEnvironment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAptibleEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAptibleEnvironment to import
-  * @param importFromId The id of the existing DataAptibleEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/data-sources/environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAptibleEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/data-sources/environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAptibleEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataAptibleEnvironment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/data-sources/environment aptible_environment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/data-sources/environment aptible_environment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class DataAptibleEnvironment extends cdktf.TerraformDataSource {
       terraformResourceType: 'aptible_environment',
       terraformGeneratorMetadata: {
         providerName: 'aptible',
-        providerVersion: '0.9.18',
-        providerVersionConstraint: '0.9.18'
+        providerVersion: '0.9.19',
+        providerVersionConstraint: '0.9.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

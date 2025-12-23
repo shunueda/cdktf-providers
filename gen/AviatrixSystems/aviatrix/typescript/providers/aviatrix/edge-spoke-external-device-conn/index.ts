@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,101 +10,113 @@ export interface EdgeSpokeExternalDeviceConnConfig extends cdktf.TerraformMetaAr
   /**
   * Backup BGP MD5 authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#backup_bgp_md5_key EdgeSpokeExternalDeviceConn#backup_bgp_md5_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#backup_bgp_md5_key EdgeSpokeExternalDeviceConn#backup_bgp_md5_key}
   */
   readonly backupBgpMd5Key?: string;
   /**
   * Backup BGP remote ASN (Autonomous System Number). Integer between 1-4294967294.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#backup_bgp_remote_as_num EdgeSpokeExternalDeviceConn#backup_bgp_remote_as_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#backup_bgp_remote_as_num EdgeSpokeExternalDeviceConn#backup_bgp_remote_as_num}
   */
   readonly backupBgpRemoteAsNum?: string;
   /**
   * Backup Local LAN IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#backup_local_lan_ip EdgeSpokeExternalDeviceConn#backup_local_lan_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#backup_local_lan_ip EdgeSpokeExternalDeviceConn#backup_local_lan_ip}
   */
   readonly backupLocalLanIp?: string;
   /**
   * Backup Remote LAN IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#backup_remote_lan_ip EdgeSpokeExternalDeviceConn#backup_remote_lan_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#backup_remote_lan_ip EdgeSpokeExternalDeviceConn#backup_remote_lan_ip}
   */
   readonly backupRemoteLanIp?: string;
   /**
+  * Backup Remote LAN IPv6 address.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#backup_remote_lan_ipv6_ip EdgeSpokeExternalDeviceConn#backup_remote_lan_ipv6_ip}
+  */
+  readonly backupRemoteLanIpv6Ip?: string;
+  /**
   * BGP local AS number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#bgp_local_as_num EdgeSpokeExternalDeviceConn#bgp_local_as_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#bgp_local_as_num EdgeSpokeExternalDeviceConn#bgp_local_as_num}
   */
   readonly bgpLocalAsNum: string;
   /**
   * BGP MD5 authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#bgp_md5_key EdgeSpokeExternalDeviceConn#bgp_md5_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#bgp_md5_key EdgeSpokeExternalDeviceConn#bgp_md5_key}
   */
   readonly bgpMd5Key?: string;
   /**
   * BGP remote AS number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#bgp_remote_as_num EdgeSpokeExternalDeviceConn#bgp_remote_as_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#bgp_remote_as_num EdgeSpokeExternalDeviceConn#bgp_remote_as_num}
   */
   readonly bgpRemoteAsNum: string;
   /**
   * The name of the spoke external device connection which is going to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#connection_name EdgeSpokeExternalDeviceConn#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#connection_name EdgeSpokeExternalDeviceConn#connection_name}
   */
   readonly connectionName?: string;
   /**
   * Connection type. Valid values: 'bgp'. Default value: 'bgp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#connection_type EdgeSpokeExternalDeviceConn#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#connection_type EdgeSpokeExternalDeviceConn#connection_type}
   */
   readonly connectionType?: string;
   /**
   * Enable BGP BFD connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#enable_bfd EdgeSpokeExternalDeviceConn#enable_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#enable_bfd EdgeSpokeExternalDeviceConn#enable_bfd}
   */
   readonly enableBfd?: boolean | cdktf.IResolvable;
   /**
   * Switch to enable BGP LAN ActiveMesh. Valid values: true, false. Default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#enable_bgp_lan_activemesh EdgeSpokeExternalDeviceConn#enable_bgp_lan_activemesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#enable_bgp_lan_activemesh EdgeSpokeExternalDeviceConn#enable_bgp_lan_activemesh}
   */
   readonly enableBgpLanActivemesh?: boolean | cdktf.IResolvable;
   /**
   * Enable multihop on BGP connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#enable_bgp_multihop EdgeSpokeExternalDeviceConn#enable_bgp_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#enable_bgp_multihop EdgeSpokeExternalDeviceConn#enable_bgp_multihop}
   */
   readonly enableBgpMultihop?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP over WAN underlay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#enable_edge_underlay EdgeSpokeExternalDeviceConn#enable_edge_underlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#enable_edge_underlay EdgeSpokeExternalDeviceConn#enable_edge_underlay}
   */
   readonly enableEdgeUnderlay?: boolean | cdktf.IResolvable;
   /**
+  * Enable IPv6 on this connection
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#enable_ipv6 EdgeSpokeExternalDeviceConn#enable_ipv6}
+  */
+  readonly enableIpv6?: boolean | cdktf.IResolvable;
+  /**
   * Enable Jumbo Frame for the edge spoke external device connection. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#enable_jumbo_frame EdgeSpokeExternalDeviceConn#enable_jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#enable_jumbo_frame EdgeSpokeExternalDeviceConn#enable_jumbo_frame}
   */
   readonly enableJumboFrame?: boolean | cdktf.IResolvable;
   /**
   * Name of the BGP Spoke Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#gw_name EdgeSpokeExternalDeviceConn#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#gw_name EdgeSpokeExternalDeviceConn#gw_name}
   */
   readonly gwName: string;
   /**
   * Set as true if there are two external devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#ha_enabled EdgeSpokeExternalDeviceConn#ha_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#ha_enabled EdgeSpokeExternalDeviceConn#ha_enabled}
   */
   readonly haEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#id EdgeSpokeExternalDeviceConn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#id EdgeSpokeExternalDeviceConn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,61 +125,67 @@ export interface EdgeSpokeExternalDeviceConnConfig extends cdktf.TerraformMetaAr
   /**
   * Local LAN IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#local_lan_ip EdgeSpokeExternalDeviceConn#local_lan_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#local_lan_ip EdgeSpokeExternalDeviceConn#local_lan_ip}
   */
   readonly localLanIp: string;
   /**
   * Configure manual BGP advertised CIDRs for this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#manual_bgp_advertised_cidrs EdgeSpokeExternalDeviceConn#manual_bgp_advertised_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#manual_bgp_advertised_cidrs EdgeSpokeExternalDeviceConn#manual_bgp_advertised_cidrs}
   */
   readonly manualBgpAdvertisedCidrs?: string[];
   /**
   * Number of retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#number_of_retries EdgeSpokeExternalDeviceConn#number_of_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#number_of_retries EdgeSpokeExternalDeviceConn#number_of_retries}
   */
   readonly numberOfRetries?: number;
   /**
   * Connection AS Path Prepend customized by specifying AS PATH for a BGP connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#prepend_as_path EdgeSpokeExternalDeviceConn#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#prepend_as_path EdgeSpokeExternalDeviceConn#prepend_as_path}
   */
   readonly prependAsPath?: string[];
   /**
   * Remote cloud type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#remote_cloud_type EdgeSpokeExternalDeviceConn#remote_cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#remote_cloud_type EdgeSpokeExternalDeviceConn#remote_cloud_type}
   */
   readonly remoteCloudType?: string;
   /**
   * Remote LAN IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#remote_lan_ip EdgeSpokeExternalDeviceConn#remote_lan_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#remote_lan_ip EdgeSpokeExternalDeviceConn#remote_lan_ip}
   */
   readonly remoteLanIp: string;
   /**
+  * Remote LAN IPv6 address.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#remote_lan_ipv6_ip EdgeSpokeExternalDeviceConn#remote_lan_ipv6_ip}
+  */
+  readonly remoteLanIpv6Ip?: string;
+  /**
   * Retry interval in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#retry_interval EdgeSpokeExternalDeviceConn#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#retry_interval EdgeSpokeExternalDeviceConn#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * ID of the VPC where the BGP Spoke Gateway is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#site_id EdgeSpokeExternalDeviceConn#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#site_id EdgeSpokeExternalDeviceConn#site_id}
   */
   readonly siteId: string;
   /**
   * Tunnel Protocol. Valid value: 'LAN'. Default value: 'LAN'. Case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#tunnel_protocol EdgeSpokeExternalDeviceConn#tunnel_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#tunnel_protocol EdgeSpokeExternalDeviceConn#tunnel_protocol}
   */
   readonly tunnelProtocol?: string;
   /**
   * bgp_bfd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#bgp_bfd EdgeSpokeExternalDeviceConn#bgp_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#bgp_bfd EdgeSpokeExternalDeviceConn#bgp_bfd}
   */
   readonly bgpBfd?: EdgeSpokeExternalDeviceConnBgpBfd;
 }
@@ -175,19 +193,19 @@ export interface EdgeSpokeExternalDeviceConnBgpBfd {
   /**
   * BFD detection multiplier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#multiplier EdgeSpokeExternalDeviceConn#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#multiplier EdgeSpokeExternalDeviceConn#multiplier}
   */
   readonly multiplier?: number;
   /**
   * BFD receive interval in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#receive_interval EdgeSpokeExternalDeviceConn#receive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#receive_interval EdgeSpokeExternalDeviceConn#receive_interval}
   */
   readonly receiveInterval?: number;
   /**
   * BFD transmit interval in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#transmit_interval EdgeSpokeExternalDeviceConn#transmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#transmit_interval EdgeSpokeExternalDeviceConn#transmit_interval}
   */
   readonly transmitInterval?: number;
 }
@@ -329,7 +347,7 @@ export class EdgeSpokeExternalDeviceConnBgpBfdOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn aviatrix_edge_spoke_external_device_conn}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn aviatrix_edge_spoke_external_device_conn}
 */
 export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
 
@@ -345,7 +363,7 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeSpokeExternalDeviceConn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeSpokeExternalDeviceConn to import
-  * @param importFromId The id of the existing EdgeSpokeExternalDeviceConn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeSpokeExternalDeviceConn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeSpokeExternalDeviceConn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -357,7 +375,7 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_external_device_conn aviatrix_edge_spoke_external_device_conn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_external_device_conn aviatrix_edge_spoke_external_device_conn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -368,8 +386,8 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_spoke_external_device_conn',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -383,6 +401,7 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
     this._backupBgpRemoteAsNum = config.backupBgpRemoteAsNum;
     this._backupLocalLanIp = config.backupLocalLanIp;
     this._backupRemoteLanIp = config.backupRemoteLanIp;
+    this._backupRemoteLanIpv6Ip = config.backupRemoteLanIpv6Ip;
     this._bgpLocalAsNum = config.bgpLocalAsNum;
     this._bgpMd5Key = config.bgpMd5Key;
     this._bgpRemoteAsNum = config.bgpRemoteAsNum;
@@ -392,6 +411,7 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
     this._enableBgpLanActivemesh = config.enableBgpLanActivemesh;
     this._enableBgpMultihop = config.enableBgpMultihop;
     this._enableEdgeUnderlay = config.enableEdgeUnderlay;
+    this._enableIpv6 = config.enableIpv6;
     this._enableJumboFrame = config.enableJumboFrame;
     this._gwName = config.gwName;
     this._haEnabled = config.haEnabled;
@@ -402,6 +422,7 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
     this._prependAsPath = config.prependAsPath;
     this._remoteCloudType = config.remoteCloudType;
     this._remoteLanIp = config.remoteLanIp;
+    this._remoteLanIpv6Ip = config.remoteLanIpv6Ip;
     this._retryInterval = config.retryInterval;
     this._siteId = config.siteId;
     this._tunnelProtocol = config.tunnelProtocol;
@@ -474,6 +495,22 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get backupRemoteLanIpInput() {
     return this._backupRemoteLanIp;
+  }
+
+  // backup_remote_lan_ipv6_ip - computed: true, optional: true, required: false
+  private _backupRemoteLanIpv6Ip?: string; 
+  public get backupRemoteLanIpv6Ip() {
+    return this.getStringAttribute('backup_remote_lan_ipv6_ip');
+  }
+  public set backupRemoteLanIpv6Ip(value: string) {
+    this._backupRemoteLanIpv6Ip = value;
+  }
+  public resetBackupRemoteLanIpv6Ip() {
+    this._backupRemoteLanIpv6Ip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backupRemoteLanIpv6IpInput() {
+    return this._backupRemoteLanIpv6Ip;
   }
 
   // bgp_local_as_num - computed: false, optional: false, required: true
@@ -612,6 +649,22 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get enableEdgeUnderlayInput() {
     return this._enableEdgeUnderlay;
+  }
+
+  // enable_ipv6 - computed: false, optional: true, required: false
+  private _enableIpv6?: boolean | cdktf.IResolvable; 
+  public get enableIpv6() {
+    return this.getBooleanAttribute('enable_ipv6');
+  }
+  public set enableIpv6(value: boolean | cdktf.IResolvable) {
+    this._enableIpv6 = value;
+  }
+  public resetEnableIpv6() {
+    this._enableIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableIpv6Input() {
+    return this._enableIpv6;
   }
 
   // enable_jumbo_frame - computed: false, optional: true, required: false
@@ -765,6 +818,22 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
     return this._remoteLanIp;
   }
 
+  // remote_lan_ipv6_ip - computed: true, optional: true, required: false
+  private _remoteLanIpv6Ip?: string; 
+  public get remoteLanIpv6Ip() {
+    return this.getStringAttribute('remote_lan_ipv6_ip');
+  }
+  public set remoteLanIpv6Ip(value: string) {
+    this._remoteLanIpv6Ip = value;
+  }
+  public resetRemoteLanIpv6Ip() {
+    this._remoteLanIpv6Ip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get remoteLanIpv6IpInput() {
+    return this._remoteLanIpv6Ip;
+  }
+
   // retry_interval - computed: false, optional: true, required: false
   private _retryInterval?: number; 
   public get retryInterval() {
@@ -836,6 +905,7 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
       backup_bgp_remote_as_num: cdktf.stringToTerraform(this._backupBgpRemoteAsNum),
       backup_local_lan_ip: cdktf.stringToTerraform(this._backupLocalLanIp),
       backup_remote_lan_ip: cdktf.stringToTerraform(this._backupRemoteLanIp),
+      backup_remote_lan_ipv6_ip: cdktf.stringToTerraform(this._backupRemoteLanIpv6Ip),
       bgp_local_as_num: cdktf.stringToTerraform(this._bgpLocalAsNum),
       bgp_md5_key: cdktf.stringToTerraform(this._bgpMd5Key),
       bgp_remote_as_num: cdktf.stringToTerraform(this._bgpRemoteAsNum),
@@ -845,6 +915,7 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
       enable_bgp_lan_activemesh: cdktf.booleanToTerraform(this._enableBgpLanActivemesh),
       enable_bgp_multihop: cdktf.booleanToTerraform(this._enableBgpMultihop),
       enable_edge_underlay: cdktf.booleanToTerraform(this._enableEdgeUnderlay),
+      enable_ipv6: cdktf.booleanToTerraform(this._enableIpv6),
       enable_jumbo_frame: cdktf.booleanToTerraform(this._enableJumboFrame),
       gw_name: cdktf.stringToTerraform(this._gwName),
       ha_enabled: cdktf.booleanToTerraform(this._haEnabled),
@@ -855,6 +926,7 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
       prepend_as_path: cdktf.listMapper(cdktf.stringToTerraform, false)(this._prependAsPath),
       remote_cloud_type: cdktf.stringToTerraform(this._remoteCloudType),
       remote_lan_ip: cdktf.stringToTerraform(this._remoteLanIp),
+      remote_lan_ipv6_ip: cdktf.stringToTerraform(this._remoteLanIpv6Ip),
       retry_interval: cdktf.numberToTerraform(this._retryInterval),
       site_id: cdktf.stringToTerraform(this._siteId),
       tunnel_protocol: cdktf.stringToTerraform(this._tunnelProtocol),
@@ -884,6 +956,12 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
       },
       backup_remote_lan_ip: {
         value: cdktf.stringToHclTerraform(this._backupRemoteLanIp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      backup_remote_lan_ipv6_ip: {
+        value: cdktf.stringToHclTerraform(this._backupRemoteLanIpv6Ip),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -938,6 +1016,12 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
       },
       enable_edge_underlay: {
         value: cdktf.booleanToHclTerraform(this._enableEdgeUnderlay),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      enable_ipv6: {
+        value: cdktf.booleanToHclTerraform(this._enableIpv6),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
@@ -998,6 +1082,12 @@ export class EdgeSpokeExternalDeviceConn extends cdktf.TerraformResource {
       },
       remote_lan_ip: {
         value: cdktf.stringToHclTerraform(this._remoteLanIp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      remote_lan_ipv6_ip: {
+        value: cdktf.stringToHclTerraform(this._remoteLanIpv6Ip),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

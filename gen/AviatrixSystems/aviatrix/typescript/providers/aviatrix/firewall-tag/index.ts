@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_tag
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FirewallTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * This parameter represents the name of a Cloud-Account in Aviatrix controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_tag#firewall_tag FirewallTag#firewall_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_tag#firewall_tag FirewallTag#firewall_tag}
   */
   readonly firewallTag: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_tag#id FirewallTag#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_tag#id FirewallTag#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface FirewallTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * cidr_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_tag#cidr_list FirewallTag#cidr_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_tag#cidr_list FirewallTag#cidr_list}
   */
   readonly cidrList?: FirewallTagCidrListStruct[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface FirewallTagCidrListStruct {
   /**
   * The CIDR attribute of a policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_tag#cidr FirewallTag#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_tag#cidr FirewallTag#cidr}
   */
   readonly cidr: string;
   /**
   * The name attribute of a policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_tag#cidr_tag_name FirewallTag#cidr_tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_tag#cidr_tag_name FirewallTag#cidr_tag_name}
   */
   readonly cidrTagName: string;
 }
@@ -176,7 +176,7 @@ export class FirewallTagCidrListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_tag aviatrix_firewall_tag}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_tag aviatrix_firewall_tag}
 */
 export class FirewallTag extends cdktf.TerraformResource {
 
@@ -192,7 +192,7 @@ export class FirewallTag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallTag to import
-  * @param importFromId The id of the existing FirewallTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -204,7 +204,7 @@ export class FirewallTag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firewall_tag aviatrix_firewall_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firewall_tag aviatrix_firewall_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -215,8 +215,8 @@ export class FirewallTag extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_firewall_tag',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

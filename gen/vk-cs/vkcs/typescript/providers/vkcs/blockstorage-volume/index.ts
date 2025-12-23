@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BlockstorageVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the availability zone of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#availability_zone BlockstorageVolume#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#availability_zone BlockstorageVolume#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * The description of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#description BlockstorageVolume#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#description BlockstorageVolume#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#id BlockstorageVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#id BlockstorageVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface BlockstorageVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the image to create volume with. Changing this creates a new volume. Only one of snapshot_id, source_volume_id, image_id fields may be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#image_id BlockstorageVolume#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#image_id BlockstorageVolume#image_id}
   */
   readonly imageId?: string;
   /**
   * Key-value map to configure metadata of the volume. _note_ Changes to keys that are not in scope, i.e. not configured here, will not be reflected in planned changes, if any, so those keys can be `silently` removed during an update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#metadata BlockstorageVolume#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#metadata BlockstorageVolume#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The name of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#name BlockstorageVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#name BlockstorageVolume#name}
   */
   readonly name?: string;
   /**
   * Region to create resource in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#region BlockstorageVolume#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#region BlockstorageVolume#region}
   */
   readonly region?: string;
   /**
   * The size of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#size BlockstorageVolume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#size BlockstorageVolume#size}
   */
   readonly size: number;
   /**
   * ID of the snapshot of volume. Changing this creates a new volume. Only one of snapshot_id, source_volume_id, image_id fields may be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#snapshot_id BlockstorageVolume#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#snapshot_id BlockstorageVolume#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * ID of the source volume. Changing this creates a new volume. Only one of snapshot_id, source_volume_id, image_id fields may be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#source_vol_id BlockstorageVolume#source_vol_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#source_vol_id BlockstorageVolume#source_vol_id}
   */
   readonly sourceVolId?: string;
   /**
   * The type of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#volume_type BlockstorageVolume#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#volume_type BlockstorageVolume#volume_type}
   */
   readonly volumeType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#timeouts BlockstorageVolume#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#timeouts BlockstorageVolume#timeouts}
   */
   readonly timeouts?: BlockstorageVolumeTimeouts;
 }
 export interface BlockstorageVolumeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#create BlockstorageVolume#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#create BlockstorageVolume#create}
   */
   readonly create?: string;
 }
@@ -177,7 +177,7 @@ export class BlockstorageVolumeTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume vkcs_blockstorage_volume}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume vkcs_blockstorage_volume}
 */
 export class BlockstorageVolume extends cdktf.TerraformResource {
 
@@ -193,7 +193,7 @@ export class BlockstorageVolume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockstorageVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockstorageVolume to import
-  * @param importFromId The id of the existing BlockstorageVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockstorageVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockstorageVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class BlockstorageVolume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/blockstorage_volume vkcs_blockstorage_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/blockstorage_volume vkcs_blockstorage_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class BlockstorageVolume extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_blockstorage_volume',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

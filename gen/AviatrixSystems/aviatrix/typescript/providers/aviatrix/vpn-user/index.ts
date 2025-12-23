@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,60 +10,60 @@ export interface VpnUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * FQDN of a DNS based VPN service such as GeoVPN or UDP load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user#dns_name VpnUser#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user#dns_name VpnUser#dns_name}
   */
   readonly dnsName?: string;
   /**
   * If ELB is enabled, this will be the name of the ELB, else it will be the name of the Aviatrix VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user#gw_name VpnUser#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user#gw_name VpnUser#gw_name}
   */
   readonly gwName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user#id VpnUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user#id VpnUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user#manage_user_attachment VpnUser#manage_user_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user#manage_user_attachment VpnUser#manage_user_attachment}
   */
   readonly manageUserAttachment?: boolean | cdktf.IResolvable;
   /**
   * List of profiles for user to attach to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user#profiles VpnUser#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user#profiles VpnUser#profiles}
   */
   readonly profiles?: string[];
   /**
   * This is the name of the SAML endpoint to which the user will be associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user#saml_endpoint VpnUser#saml_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user#saml_endpoint VpnUser#saml_endpoint}
   */
   readonly samlEndpoint?: string;
   /**
   * VPN User's email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user#user_email VpnUser#user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user#user_email VpnUser#user_email}
   */
   readonly userEmail?: string;
   /**
   * VPN user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user#user_name VpnUser#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user#user_name VpnUser#user_name}
   */
   readonly userName: string;
   /**
   * VPC Id of Aviatrix VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user#vpc_id VpnUser#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user#vpc_id VpnUser#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user aviatrix_vpn_user}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user aviatrix_vpn_user}
 */
 export class VpnUser extends cdktf.TerraformResource {
 
@@ -79,7 +79,7 @@ export class VpnUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnUser to import
-  * @param importFromId The id of the existing VpnUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class VpnUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpn_user aviatrix_vpn_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpn_user aviatrix_vpn_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,8 +102,8 @@ export class VpnUser extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_vpn_user',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

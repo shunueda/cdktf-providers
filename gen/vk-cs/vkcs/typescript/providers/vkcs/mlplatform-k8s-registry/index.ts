@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface MlplatformK8SRegistryConfig extends cdktf.TerraformMetaArgument
   /**
   * K8SRegistry admin name. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#admin_name MlplatformK8SRegistry#admin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#admin_name MlplatformK8SRegistry#admin_name}
   */
   readonly adminName?: string;
   /**
   * K8SRegistry admin password. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#admin_password MlplatformK8SRegistry#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#admin_password MlplatformK8SRegistry#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * The availability zone in which to create the resource. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#availability_zone MlplatformK8SRegistry#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#availability_zone MlplatformK8SRegistry#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Instance's boot volume configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#boot_volume MlplatformK8SRegistry#boot_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#boot_volume MlplatformK8SRegistry#boot_volume}
   */
   readonly bootVolume: MlplatformK8SRegistryBootVolume;
   /**
   * Instance's data volumes configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#data_volumes MlplatformK8SRegistry#data_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#data_volumes MlplatformK8SRegistry#data_volumes}
   */
   readonly dataVolumes?: MlplatformK8SRegistryDataVolumes[] | cdktf.IResolvable;
   /**
   * Domain name. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#domain_name MlplatformK8SRegistry#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#domain_name MlplatformK8SRegistry#domain_name}
   */
   readonly domainName?: string;
   /**
   * Flavor ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#flavor_id MlplatformK8SRegistry#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#flavor_id MlplatformK8SRegistry#flavor_id}
   */
   readonly flavorId: string;
   /**
   * Instance name. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#name MlplatformK8SRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#name MlplatformK8SRegistry#name}
   */
   readonly name: string;
   /**
   * Network configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#networks MlplatformK8SRegistry#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#networks MlplatformK8SRegistry#networks}
   */
   readonly networks: MlplatformK8SRegistryNetworks[] | cdktf.IResolvable;
   /**
   * The `region` in which ML Platform client is obtained, defaults to the provider's `region`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#region MlplatformK8SRegistry#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#region MlplatformK8SRegistry#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#timeouts MlplatformK8SRegistry#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#timeouts MlplatformK8SRegistry#timeouts}
   */
   readonly timeouts?: MlplatformK8SRegistryTimeouts;
 }
@@ -76,13 +76,13 @@ export interface MlplatformK8SRegistryBootVolume {
   /**
   * Size of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#size MlplatformK8SRegistry#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#size MlplatformK8SRegistry#size}
   */
   readonly size?: number;
   /**
   * Type of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#volume_type MlplatformK8SRegistry#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#volume_type MlplatformK8SRegistry#volume_type}
   */
   readonly volumeType: string;
 }
@@ -214,13 +214,13 @@ export interface MlplatformK8SRegistryDataVolumes {
   /**
   * Size of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#size MlplatformK8SRegistry#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#size MlplatformK8SRegistry#size}
   */
   readonly size: number;
   /**
   * Type of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#volume_type MlplatformK8SRegistry#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#volume_type MlplatformK8SRegistry#volume_type}
   */
   readonly volumeType: string;
 }
@@ -371,13 +371,13 @@ export interface MlplatformK8SRegistryNetworks {
   /**
   * ID of the ip pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#ip_pool MlplatformK8SRegistry#ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#ip_pool MlplatformK8SRegistry#ip_pool}
   */
   readonly ipPool: string;
   /**
   * ID of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#network_id MlplatformK8SRegistry#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#network_id MlplatformK8SRegistry#network_id}
   */
   readonly networkId: string;
 }
@@ -518,19 +518,19 @@ export interface MlplatformK8SRegistryTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#create MlplatformK8SRegistry#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#create MlplatformK8SRegistry#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#delete MlplatformK8SRegistry#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#delete MlplatformK8SRegistry#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#update MlplatformK8SRegistry#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#update MlplatformK8SRegistry#update}
   */
   readonly update?: string;
 }
@@ -682,7 +682,7 @@ export class MlplatformK8SRegistryTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry vkcs_mlplatform_k8s_registry}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry vkcs_mlplatform_k8s_registry}
 */
 export class MlplatformK8SRegistry extends cdktf.TerraformResource {
 
@@ -698,7 +698,7 @@ export class MlplatformK8SRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MlplatformK8SRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MlplatformK8SRegistry to import
-  * @param importFromId The id of the existing MlplatformK8SRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MlplatformK8SRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MlplatformK8SRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -710,7 +710,7 @@ export class MlplatformK8SRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_k8s_registry vkcs_mlplatform_k8s_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_k8s_registry vkcs_mlplatform_k8s_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -721,8 +721,8 @@ export class MlplatformK8SRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_mlplatform_k8s_registry',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/proxy_config
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/proxy_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ProxyConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * http proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/proxy_config#http_proxy ProxyConfig#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/proxy_config#http_proxy ProxyConfig#http_proxy}
   */
   readonly httpProxy: string;
   /**
   * https proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/proxy_config#https_proxy ProxyConfig#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/proxy_config#https_proxy ProxyConfig#https_proxy}
   */
   readonly httpsProxy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/proxy_config#id ProxyConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/proxy_config#id ProxyConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ProxyConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Server CA Certificate file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/proxy_config#proxy_ca_certificate ProxyConfig#proxy_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/proxy_config#proxy_ca_certificate ProxyConfig#proxy_ca_certificate}
   */
   readonly proxyCaCertificate?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/proxy_config aviatrix_proxy_config}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/proxy_config aviatrix_proxy_config}
 */
 export class ProxyConfig extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ProxyConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProxyConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProxyConfig to import
-  * @param importFromId The id of the existing ProxyConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/proxy_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProxyConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/proxy_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProxyConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ProxyConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/proxy_config aviatrix_proxy_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/proxy_config aviatrix_proxy_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ProxyConfig extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_proxy_config',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_template
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVkcsDataplatformTemplateConfig extends cdktf.TerraformMetaA
   /**
   * Product name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_template#product_name DataVkcsDataplatformTemplate#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_template#product_name DataVkcsDataplatformTemplate#product_name}
   */
   readonly productName: string;
   /**
   * Product version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_template#product_version DataVkcsDataplatformTemplate#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_template#product_version DataVkcsDataplatformTemplate#product_version}
   */
   readonly productVersion?: string;
 }
@@ -266,7 +266,7 @@ export class DataVkcsDataplatformTemplatePodGroupsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_template vkcs_dataplatform_template}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_template vkcs_dataplatform_template}
 */
 export class DataVkcsDataplatformTemplate extends cdktf.TerraformDataSource {
 
@@ -282,7 +282,7 @@ export class DataVkcsDataplatformTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsDataplatformTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsDataplatformTemplate to import
-  * @param importFromId The id of the existing DataVkcsDataplatformTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsDataplatformTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsDataplatformTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class DataVkcsDataplatformTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_template vkcs_dataplatform_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_template vkcs_dataplatform_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class DataVkcsDataplatformTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_dataplatform_template',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

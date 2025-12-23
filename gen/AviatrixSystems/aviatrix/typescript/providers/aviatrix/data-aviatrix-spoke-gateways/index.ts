@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/spoke_gateways
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/spoke_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviatrixSpokeGatewaysConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/spoke_gateways#id DataAviatrixSpokeGateways#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/spoke_gateways#id DataAviatrixSpokeGateways#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -352,7 +352,7 @@ export class DataAviatrixSpokeGatewaysGatewayListStructList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/spoke_gateways aviatrix_spoke_gateways}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/spoke_gateways aviatrix_spoke_gateways}
 */
 export class DataAviatrixSpokeGateways extends cdktf.TerraformDataSource {
 
@@ -368,7 +368,7 @@ export class DataAviatrixSpokeGateways extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviatrixSpokeGateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviatrixSpokeGateways to import
-  * @param importFromId The id of the existing DataAviatrixSpokeGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/spoke_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviatrixSpokeGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/spoke_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviatrixSpokeGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -380,7 +380,7 @@ export class DataAviatrixSpokeGateways extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/spoke_gateways aviatrix_spoke_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/spoke_gateways aviatrix_spoke_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -391,8 +391,8 @@ export class DataAviatrixSpokeGateways extends cdktf.TerraformDataSource {
       terraformResourceType: 'aviatrix_spoke_gateways',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

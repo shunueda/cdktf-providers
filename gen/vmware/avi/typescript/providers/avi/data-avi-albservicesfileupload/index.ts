@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesfileupload
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesfileupload
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviAlbservicesfileuploadConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesfileupload#id DataAviAlbservicesfileupload#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesfileupload#id DataAviAlbservicesfileupload#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesfileupload#name DataAviAlbservicesfileupload#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesfileupload#name DataAviAlbservicesfileupload#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesfileupload#tenant_ref DataAviAlbservicesfileupload#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesfileupload#tenant_ref DataAviAlbservicesfileupload#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesfileupload#uuid DataAviAlbservicesfileupload#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesfileupload#uuid DataAviAlbservicesfileupload#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesfileupload avi_albservicesfileupload}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesfileupload avi_albservicesfileupload}
 */
 export class DataAviAlbservicesfileupload extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataAviAlbservicesfileupload extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviAlbservicesfileupload resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviAlbservicesfileupload to import
-  * @param importFromId The id of the existing DataAviAlbservicesfileupload that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesfileupload#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviAlbservicesfileupload that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesfileupload#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviAlbservicesfileupload to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataAviAlbservicesfileupload extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesfileupload avi_albservicesfileupload} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesfileupload avi_albservicesfileupload} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataAviAlbservicesfileupload extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_albservicesfileupload',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

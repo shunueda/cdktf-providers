@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface WafprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#description Wafprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#description Wafprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#id Wafprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#id Wafprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#name Wafprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#name Wafprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#tenant_ref Wafprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#tenant_ref Wafprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#uuid Wafprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#uuid Wafprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#config Wafprofile#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#config Wafprofile#config}
   */
   readonly config: WafprofileConfigA[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#configpb_attributes Wafprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#configpb_attributes Wafprofile#configpb_attributes}
   */
   readonly configpbAttributes?: WafprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#files Wafprofile#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#files Wafprofile#files}
   */
   readonly files?: WafprofileFiles[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#markers Wafprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#markers Wafprofile#markers}
   */
   readonly markers?: WafprofileMarkers[] | cdktf.IResolvable;
 }
 export interface WafprofileConfigContentTypeMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#content_type Wafprofile#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#content_type Wafprofile#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#match_op Wafprofile#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#match_op Wafprofile#match_op}
   */
   readonly matchOp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#request_body_parser Wafprofile#request_body_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#request_body_parser Wafprofile#request_body_parser}
   */
   readonly requestBodyParser: string;
 }
@@ -231,101 +231,582 @@ export class WafprofileConfigContentTypeMappingsList extends cdktf.ComplexList {
     return new WafprofileConfigContentTypeMappingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface WafprofileConfigJsonParsingLimits {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#max_nesting_level Wafprofile#max_nesting_level}
+  */
+  readonly maxNestingLevel?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#max_subelements Wafprofile#max_subelements}
+  */
+  readonly maxSubelements?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#max_total_elements Wafprofile#max_total_elements}
+  */
+  readonly maxTotalElements?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#max_value_length Wafprofile#max_value_length}
+  */
+  readonly maxValueLength?: string;
+}
+
+export function wafprofileConfigJsonParsingLimitsToTerraform(struct?: WafprofileConfigJsonParsingLimits | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_nesting_level: cdktf.stringToTerraform(struct!.maxNestingLevel),
+    max_subelements: cdktf.stringToTerraform(struct!.maxSubelements),
+    max_total_elements: cdktf.stringToTerraform(struct!.maxTotalElements),
+    max_value_length: cdktf.stringToTerraform(struct!.maxValueLength),
+  }
+}
+
+
+export function wafprofileConfigJsonParsingLimitsToHclTerraform(struct?: WafprofileConfigJsonParsingLimits | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_nesting_level: {
+      value: cdktf.stringToHclTerraform(struct!.maxNestingLevel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_subelements: {
+      value: cdktf.stringToHclTerraform(struct!.maxSubelements),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_total_elements: {
+      value: cdktf.stringToHclTerraform(struct!.maxTotalElements),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_value_length: {
+      value: cdktf.stringToHclTerraform(struct!.maxValueLength),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class WafprofileConfigJsonParsingLimitsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): WafprofileConfigJsonParsingLimits | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxNestingLevel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxNestingLevel = this._maxNestingLevel;
+    }
+    if (this._maxSubelements !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxSubelements = this._maxSubelements;
+    }
+    if (this._maxTotalElements !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxTotalElements = this._maxTotalElements;
+    }
+    if (this._maxValueLength !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxValueLength = this._maxValueLength;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: WafprofileConfigJsonParsingLimits | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._maxNestingLevel = undefined;
+      this._maxSubelements = undefined;
+      this._maxTotalElements = undefined;
+      this._maxValueLength = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._maxNestingLevel = value.maxNestingLevel;
+      this._maxSubelements = value.maxSubelements;
+      this._maxTotalElements = value.maxTotalElements;
+      this._maxValueLength = value.maxValueLength;
+    }
+  }
+
+  // max_nesting_level - computed: false, optional: true, required: false
+  private _maxNestingLevel?: string; 
+  public get maxNestingLevel() {
+    return this.getStringAttribute('max_nesting_level');
+  }
+  public set maxNestingLevel(value: string) {
+    this._maxNestingLevel = value;
+  }
+  public resetMaxNestingLevel() {
+    this._maxNestingLevel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxNestingLevelInput() {
+    return this._maxNestingLevel;
+  }
+
+  // max_subelements - computed: false, optional: true, required: false
+  private _maxSubelements?: string; 
+  public get maxSubelements() {
+    return this.getStringAttribute('max_subelements');
+  }
+  public set maxSubelements(value: string) {
+    this._maxSubelements = value;
+  }
+  public resetMaxSubelements() {
+    this._maxSubelements = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxSubelementsInput() {
+    return this._maxSubelements;
+  }
+
+  // max_total_elements - computed: false, optional: true, required: false
+  private _maxTotalElements?: string; 
+  public get maxTotalElements() {
+    return this.getStringAttribute('max_total_elements');
+  }
+  public set maxTotalElements(value: string) {
+    this._maxTotalElements = value;
+  }
+  public resetMaxTotalElements() {
+    this._maxTotalElements = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTotalElementsInput() {
+    return this._maxTotalElements;
+  }
+
+  // max_value_length - computed: false, optional: true, required: false
+  private _maxValueLength?: string; 
+  public get maxValueLength() {
+    return this.getStringAttribute('max_value_length');
+  }
+  public set maxValueLength(value: string) {
+    this._maxValueLength = value;
+  }
+  public resetMaxValueLength() {
+    this._maxValueLength = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxValueLengthInput() {
+    return this._maxValueLength;
+  }
+}
+
+export class WafprofileConfigJsonParsingLimitsList extends cdktf.ComplexList {
+  public internalValue? : WafprofileConfigJsonParsingLimits[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): WafprofileConfigJsonParsingLimitsOutputReference {
+    return new WafprofileConfigJsonParsingLimitsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface WafprofileConfigMatchElementSubParsers {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#index Wafprofile#index}
+  */
+  readonly index: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#match_case Wafprofile#match_case}
+  */
+  readonly matchCase?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#match_element Wafprofile#match_element}
+  */
+  readonly matchElement: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#match_op Wafprofile#match_op}
+  */
+  readonly matchOp?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#sub_parser Wafprofile#sub_parser}
+  */
+  readonly subParser?: string;
+}
+
+export function wafprofileConfigMatchElementSubParsersToTerraform(struct?: WafprofileConfigMatchElementSubParsers | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    index: cdktf.stringToTerraform(struct!.index),
+    match_case: cdktf.stringToTerraform(struct!.matchCase),
+    match_element: cdktf.stringToTerraform(struct!.matchElement),
+    match_op: cdktf.stringToTerraform(struct!.matchOp),
+    sub_parser: cdktf.stringToTerraform(struct!.subParser),
+  }
+}
+
+
+export function wafprofileConfigMatchElementSubParsersToHclTerraform(struct?: WafprofileConfigMatchElementSubParsers | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    index: {
+      value: cdktf.stringToHclTerraform(struct!.index),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    match_case: {
+      value: cdktf.stringToHclTerraform(struct!.matchCase),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    match_element: {
+      value: cdktf.stringToHclTerraform(struct!.matchElement),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    match_op: {
+      value: cdktf.stringToHclTerraform(struct!.matchOp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sub_parser: {
+      value: cdktf.stringToHclTerraform(struct!.subParser),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class WafprofileConfigMatchElementSubParsersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): WafprofileConfigMatchElementSubParsers | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._index !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.index = this._index;
+    }
+    if (this._matchCase !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchCase = this._matchCase;
+    }
+    if (this._matchElement !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchElement = this._matchElement;
+    }
+    if (this._matchOp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchOp = this._matchOp;
+    }
+    if (this._subParser !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subParser = this._subParser;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: WafprofileConfigMatchElementSubParsers | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._index = undefined;
+      this._matchCase = undefined;
+      this._matchElement = undefined;
+      this._matchOp = undefined;
+      this._subParser = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._index = value.index;
+      this._matchCase = value.matchCase;
+      this._matchElement = value.matchElement;
+      this._matchOp = value.matchOp;
+      this._subParser = value.subParser;
+    }
+  }
+
+  // index - computed: false, optional: false, required: true
+  private _index?: string; 
+  public get index() {
+    return this.getStringAttribute('index');
+  }
+  public set index(value: string) {
+    this._index = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get indexInput() {
+    return this._index;
+  }
+
+  // match_case - computed: false, optional: true, required: false
+  private _matchCase?: string; 
+  public get matchCase() {
+    return this.getStringAttribute('match_case');
+  }
+  public set matchCase(value: string) {
+    this._matchCase = value;
+  }
+  public resetMatchCase() {
+    this._matchCase = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchCaseInput() {
+    return this._matchCase;
+  }
+
+  // match_element - computed: false, optional: false, required: true
+  private _matchElement?: string; 
+  public get matchElement() {
+    return this.getStringAttribute('match_element');
+  }
+  public set matchElement(value: string) {
+    this._matchElement = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchElementInput() {
+    return this._matchElement;
+  }
+
+  // match_op - computed: false, optional: true, required: false
+  private _matchOp?: string; 
+  public get matchOp() {
+    return this.getStringAttribute('match_op');
+  }
+  public set matchOp(value: string) {
+    this._matchOp = value;
+  }
+  public resetMatchOp() {
+    this._matchOp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchOpInput() {
+    return this._matchOp;
+  }
+
+  // sub_parser - computed: false, optional: true, required: false
+  private _subParser?: string; 
+  public get subParser() {
+    return this.getStringAttribute('sub_parser');
+  }
+  public set subParser(value: string) {
+    this._subParser = value;
+  }
+  public resetSubParser() {
+    this._subParser = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subParserInput() {
+    return this._subParser;
+  }
+}
+
+export class WafprofileConfigMatchElementSubParsersList extends cdktf.ComplexList {
+  public internalValue? : WafprofileConfigMatchElementSubParsers[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): WafprofileConfigMatchElementSubParsersOutputReference {
+    return new WafprofileConfigMatchElementSubParsersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface WafprofileConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#allowed_http_versions Wafprofile#allowed_http_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#allowed_http_versions Wafprofile#allowed_http_versions}
   */
   readonly allowedHttpVersions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#allowed_methods Wafprofile#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#allowed_methods Wafprofile#allowed_methods}
   */
   readonly allowedMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#allowed_request_content_type_charsets Wafprofile#allowed_request_content_type_charsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#allowed_request_content_type_charsets Wafprofile#allowed_request_content_type_charsets}
   */
   readonly allowedRequestContentTypeCharsets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#argument_separator Wafprofile#argument_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#argument_separator Wafprofile#argument_separator}
   */
   readonly argumentSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#client_request_max_body_size Wafprofile#client_request_max_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#client_request_max_body_size Wafprofile#client_request_max_body_size}
   */
   readonly clientRequestMaxBodySize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#cookie_format_version Wafprofile#cookie_format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#cookie_format_version Wafprofile#cookie_format_version}
   */
   readonly cookieFormatVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#ignore_incomplete_request_body_error Wafprofile#ignore_incomplete_request_body_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#enable_json_parsing_limits Wafprofile#enable_json_parsing_limits}
+  */
+  readonly enableJsonParsingLimits?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#enforce_max_body_size Wafprofile#enforce_max_body_size}
+  */
+  readonly enforceMaxBodySize?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#ignore_incomplete_request_body_error Wafprofile#ignore_incomplete_request_body_error}
   */
   readonly ignoreIncompleteRequestBodyError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#max_execution_time Wafprofile#max_execution_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#max_execution_time Wafprofile#max_execution_time}
   */
   readonly maxExecutionTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#regex_match_limit Wafprofile#regex_match_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#regex_match_limit Wafprofile#regex_match_limit}
   */
   readonly regexMatchLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#regex_recursion_limit Wafprofile#regex_recursion_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#regex_recursion_limit Wafprofile#regex_recursion_limit}
   */
   readonly regexRecursionLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#request_body_default_action Wafprofile#request_body_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#request_body_default_action Wafprofile#request_body_default_action}
   */
   readonly requestBodyDefaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#request_hdr_default_action Wafprofile#request_hdr_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#request_hdr_default_action Wafprofile#request_hdr_default_action}
   */
   readonly requestHdrDefaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#response_body_default_action Wafprofile#response_body_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#response_body_default_action Wafprofile#response_body_default_action}
   */
   readonly responseBodyDefaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#response_hdr_default_action Wafprofile#response_hdr_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#response_hdr_default_action Wafprofile#response_hdr_default_action}
   */
   readonly responseHdrDefaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#restricted_extensions Wafprofile#restricted_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#restricted_extensions Wafprofile#restricted_extensions}
   */
   readonly restrictedExtensions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#restricted_headers Wafprofile#restricted_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#restricted_headers Wafprofile#restricted_headers}
   */
   readonly restrictedHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#send_status_header Wafprofile#send_status_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#send_status_header Wafprofile#send_status_header}
   */
   readonly sendStatusHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#server_response_max_body_size Wafprofile#server_response_max_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#server_response_max_body_size Wafprofile#server_response_max_body_size}
   */
   readonly serverResponseMaxBodySize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#static_extensions Wafprofile#static_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#static_extensions Wafprofile#static_extensions}
   */
   readonly staticExtensions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#status_code_for_rejected_requests Wafprofile#status_code_for_rejected_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#status_code_for_rejected_requests Wafprofile#status_code_for_rejected_requests}
   */
   readonly statusCodeForRejectedRequests?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#status_header_name Wafprofile#status_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#status_header_name Wafprofile#status_header_name}
   */
   readonly statusHeaderName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#xml_xxe_protection Wafprofile#xml_xxe_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#xml_collection Wafprofile#xml_collection}
+  */
+  readonly xmlCollection?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#xml_xxe_protection Wafprofile#xml_xxe_protection}
   */
   readonly xmlXxeProtection?: string;
   /**
   * content_type_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#content_type_mappings Wafprofile#content_type_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#content_type_mappings Wafprofile#content_type_mappings}
   */
   readonly contentTypeMappings?: WafprofileConfigContentTypeMappings[] | cdktf.IResolvable;
+  /**
+  * json_parsing_limits block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#json_parsing_limits Wafprofile#json_parsing_limits}
+  */
+  readonly jsonParsingLimits?: WafprofileConfigJsonParsingLimits[] | cdktf.IResolvable;
+  /**
+  * match_element_sub_parsers block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#match_element_sub_parsers Wafprofile#match_element_sub_parsers}
+  */
+  readonly matchElementSubParsers?: WafprofileConfigMatchElementSubParsers[] | cdktf.IResolvable;
 }
 
 export function wafprofileConfigAToTerraform(struct?: WafprofileConfigA | cdktf.IResolvable): any {
@@ -340,6 +821,8 @@ export function wafprofileConfigAToTerraform(struct?: WafprofileConfigA | cdktf.
     argument_separator: cdktf.stringToTerraform(struct!.argumentSeparator),
     client_request_max_body_size: cdktf.stringToTerraform(struct!.clientRequestMaxBodySize),
     cookie_format_version: cdktf.stringToTerraform(struct!.cookieFormatVersion),
+    enable_json_parsing_limits: cdktf.stringToTerraform(struct!.enableJsonParsingLimits),
+    enforce_max_body_size: cdktf.stringToTerraform(struct!.enforceMaxBodySize),
     ignore_incomplete_request_body_error: cdktf.stringToTerraform(struct!.ignoreIncompleteRequestBodyError),
     max_execution_time: cdktf.stringToTerraform(struct!.maxExecutionTime),
     regex_match_limit: cdktf.stringToTerraform(struct!.regexMatchLimit),
@@ -355,8 +838,11 @@ export function wafprofileConfigAToTerraform(struct?: WafprofileConfigA | cdktf.
     static_extensions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.staticExtensions),
     status_code_for_rejected_requests: cdktf.stringToTerraform(struct!.statusCodeForRejectedRequests),
     status_header_name: cdktf.stringToTerraform(struct!.statusHeaderName),
+    xml_collection: cdktf.stringToTerraform(struct!.xmlCollection),
     xml_xxe_protection: cdktf.stringToTerraform(struct!.xmlXxeProtection),
     content_type_mappings: cdktf.listMapper(wafprofileConfigContentTypeMappingsToTerraform, true)(struct!.contentTypeMappings),
+    json_parsing_limits: cdktf.listMapper(wafprofileConfigJsonParsingLimitsToTerraform, true)(struct!.jsonParsingLimits),
+    match_element_sub_parsers: cdktf.listMapper(wafprofileConfigMatchElementSubParsersToTerraform, true)(struct!.matchElementSubParsers),
   }
 }
 
@@ -399,6 +885,18 @@ export function wafprofileConfigAToHclTerraform(struct?: WafprofileConfigA | cdk
     },
     cookie_format_version: {
       value: cdktf.stringToHclTerraform(struct!.cookieFormatVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enable_json_parsing_limits: {
+      value: cdktf.stringToHclTerraform(struct!.enableJsonParsingLimits),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enforce_max_body_size: {
+      value: cdktf.stringToHclTerraform(struct!.enforceMaxBodySize),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -493,6 +991,12 @@ export function wafprofileConfigAToHclTerraform(struct?: WafprofileConfigA | cdk
       type: "simple",
       storageClassType: "string",
     },
+    xml_collection: {
+      value: cdktf.stringToHclTerraform(struct!.xmlCollection),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     xml_xxe_protection: {
       value: cdktf.stringToHclTerraform(struct!.xmlXxeProtection),
       isBlock: false,
@@ -504,6 +1008,18 @@ export function wafprofileConfigAToHclTerraform(struct?: WafprofileConfigA | cdk
       isBlock: true,
       type: "list",
       storageClassType: "WafprofileConfigContentTypeMappingsList",
+    },
+    json_parsing_limits: {
+      value: cdktf.listMapperHcl(wafprofileConfigJsonParsingLimitsToHclTerraform, true)(struct!.jsonParsingLimits),
+      isBlock: true,
+      type: "set",
+      storageClassType: "WafprofileConfigJsonParsingLimitsList",
+    },
+    match_element_sub_parsers: {
+      value: cdktf.listMapperHcl(wafprofileConfigMatchElementSubParsersToHclTerraform, true)(struct!.matchElementSubParsers),
+      isBlock: true,
+      type: "list",
+      storageClassType: "WafprofileConfigMatchElementSubParsersList",
     },
   };
 
@@ -554,6 +1070,14 @@ export class WafprofileConfigAOutputReference extends cdktf.ComplexObject {
     if (this._cookieFormatVersion !== undefined) {
       hasAnyValues = true;
       internalValueResult.cookieFormatVersion = this._cookieFormatVersion;
+    }
+    if (this._enableJsonParsingLimits !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableJsonParsingLimits = this._enableJsonParsingLimits;
+    }
+    if (this._enforceMaxBodySize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enforceMaxBodySize = this._enforceMaxBodySize;
     }
     if (this._ignoreIncompleteRequestBodyError !== undefined) {
       hasAnyValues = true;
@@ -615,6 +1139,10 @@ export class WafprofileConfigAOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.statusHeaderName = this._statusHeaderName;
     }
+    if (this._xmlCollection !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.xmlCollection = this._xmlCollection;
+    }
     if (this._xmlXxeProtection !== undefined) {
       hasAnyValues = true;
       internalValueResult.xmlXxeProtection = this._xmlXxeProtection;
@@ -622,6 +1150,14 @@ export class WafprofileConfigAOutputReference extends cdktf.ComplexObject {
     if (this._contentTypeMappings?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.contentTypeMappings = this._contentTypeMappings?.internalValue;
+    }
+    if (this._jsonParsingLimits?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jsonParsingLimits = this._jsonParsingLimits?.internalValue;
+    }
+    if (this._matchElementSubParsers?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchElementSubParsers = this._matchElementSubParsers?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -636,6 +1172,8 @@ export class WafprofileConfigAOutputReference extends cdktf.ComplexObject {
       this._argumentSeparator = undefined;
       this._clientRequestMaxBodySize = undefined;
       this._cookieFormatVersion = undefined;
+      this._enableJsonParsingLimits = undefined;
+      this._enforceMaxBodySize = undefined;
       this._ignoreIncompleteRequestBodyError = undefined;
       this._maxExecutionTime = undefined;
       this._regexMatchLimit = undefined;
@@ -651,8 +1189,11 @@ export class WafprofileConfigAOutputReference extends cdktf.ComplexObject {
       this._staticExtensions = undefined;
       this._statusCodeForRejectedRequests = undefined;
       this._statusHeaderName = undefined;
+      this._xmlCollection = undefined;
       this._xmlXxeProtection = undefined;
       this._contentTypeMappings.internalValue = undefined;
+      this._jsonParsingLimits.internalValue = undefined;
+      this._matchElementSubParsers.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -667,6 +1208,8 @@ export class WafprofileConfigAOutputReference extends cdktf.ComplexObject {
       this._argumentSeparator = value.argumentSeparator;
       this._clientRequestMaxBodySize = value.clientRequestMaxBodySize;
       this._cookieFormatVersion = value.cookieFormatVersion;
+      this._enableJsonParsingLimits = value.enableJsonParsingLimits;
+      this._enforceMaxBodySize = value.enforceMaxBodySize;
       this._ignoreIncompleteRequestBodyError = value.ignoreIncompleteRequestBodyError;
       this._maxExecutionTime = value.maxExecutionTime;
       this._regexMatchLimit = value.regexMatchLimit;
@@ -682,8 +1225,11 @@ export class WafprofileConfigAOutputReference extends cdktf.ComplexObject {
       this._staticExtensions = value.staticExtensions;
       this._statusCodeForRejectedRequests = value.statusCodeForRejectedRequests;
       this._statusHeaderName = value.statusHeaderName;
+      this._xmlCollection = value.xmlCollection;
       this._xmlXxeProtection = value.xmlXxeProtection;
       this._contentTypeMappings.internalValue = value.contentTypeMappings;
+      this._jsonParsingLimits.internalValue = value.jsonParsingLimits;
+      this._matchElementSubParsers.internalValue = value.matchElementSubParsers;
     }
   }
 
@@ -781,6 +1327,38 @@ export class WafprofileConfigAOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get cookieFormatVersionInput() {
     return this._cookieFormatVersion;
+  }
+
+  // enable_json_parsing_limits - computed: false, optional: true, required: false
+  private _enableJsonParsingLimits?: string; 
+  public get enableJsonParsingLimits() {
+    return this.getStringAttribute('enable_json_parsing_limits');
+  }
+  public set enableJsonParsingLimits(value: string) {
+    this._enableJsonParsingLimits = value;
+  }
+  public resetEnableJsonParsingLimits() {
+    this._enableJsonParsingLimits = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableJsonParsingLimitsInput() {
+    return this._enableJsonParsingLimits;
+  }
+
+  // enforce_max_body_size - computed: false, optional: true, required: false
+  private _enforceMaxBodySize?: string; 
+  public get enforceMaxBodySize() {
+    return this.getStringAttribute('enforce_max_body_size');
+  }
+  public set enforceMaxBodySize(value: string) {
+    this._enforceMaxBodySize = value;
+  }
+  public resetEnforceMaxBodySize() {
+    this._enforceMaxBodySize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enforceMaxBodySizeInput() {
+    return this._enforceMaxBodySize;
   }
 
   // ignore_incomplete_request_body_error - computed: false, optional: true, required: false
@@ -1023,6 +1601,22 @@ export class WafprofileConfigAOutputReference extends cdktf.ComplexObject {
     return this._statusHeaderName;
   }
 
+  // xml_collection - computed: false, optional: true, required: false
+  private _xmlCollection?: string; 
+  public get xmlCollection() {
+    return this.getStringAttribute('xml_collection');
+  }
+  public set xmlCollection(value: string) {
+    this._xmlCollection = value;
+  }
+  public resetXmlCollection() {
+    this._xmlCollection = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get xmlCollectionInput() {
+    return this._xmlCollection;
+  }
+
   // xml_xxe_protection - computed: false, optional: true, required: false
   private _xmlXxeProtection?: string; 
   public get xmlXxeProtection() {
@@ -1054,6 +1648,38 @@ export class WafprofileConfigAOutputReference extends cdktf.ComplexObject {
   public get contentTypeMappingsInput() {
     return this._contentTypeMappings.internalValue;
   }
+
+  // json_parsing_limits - computed: false, optional: true, required: false
+  private _jsonParsingLimits = new WafprofileConfigJsonParsingLimitsList(this, "json_parsing_limits", true);
+  public get jsonParsingLimits() {
+    return this._jsonParsingLimits;
+  }
+  public putJsonParsingLimits(value: WafprofileConfigJsonParsingLimits[] | cdktf.IResolvable) {
+    this._jsonParsingLimits.internalValue = value;
+  }
+  public resetJsonParsingLimits() {
+    this._jsonParsingLimits.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jsonParsingLimitsInput() {
+    return this._jsonParsingLimits.internalValue;
+  }
+
+  // match_element_sub_parsers - computed: false, optional: true, required: false
+  private _matchElementSubParsers = new WafprofileConfigMatchElementSubParsersList(this, "match_element_sub_parsers", false);
+  public get matchElementSubParsers() {
+    return this._matchElementSubParsers;
+  }
+  public putMatchElementSubParsers(value: WafprofileConfigMatchElementSubParsers[] | cdktf.IResolvable) {
+    this._matchElementSubParsers.internalValue = value;
+  }
+  public resetMatchElementSubParsers() {
+    this._matchElementSubParsers.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchElementSubParsersInput() {
+    return this._matchElementSubParsers.internalValue;
+  }
 }
 
 export class WafprofileConfigAList extends cdktf.ComplexList {
@@ -1077,7 +1703,7 @@ export class WafprofileConfigAList extends cdktf.ComplexList {
 }
 export interface WafprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#version Wafprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#version Wafprofile#version}
   */
   readonly version?: string;
 }
@@ -1193,15 +1819,15 @@ export class WafprofileConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface WafprofileFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#data Wafprofile#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#data Wafprofile#data}
   */
   readonly data: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#name Wafprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#name Wafprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#type Wafprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#type Wafprofile#type}
   */
   readonly type?: string;
 }
@@ -1369,11 +1995,11 @@ export class WafprofileFilesList extends cdktf.ComplexList {
 }
 export interface WafprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#key Wafprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#key Wafprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#values Wafprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#values Wafprofile#values}
   */
   readonly values?: string[];
 }
@@ -1515,7 +2141,7 @@ export class WafprofileMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile avi_wafprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile avi_wafprofile}
 */
 export class Wafprofile extends cdktf.TerraformResource {
 
@@ -1531,7 +2157,7 @@ export class Wafprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Wafprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wafprofile to import
-  * @param importFromId The id of the existing Wafprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wafprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wafprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1543,7 +2169,7 @@ export class Wafprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafprofile avi_wafprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafprofile avi_wafprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1554,8 +2180,8 @@ export class Wafprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_wafprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

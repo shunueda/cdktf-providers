@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AttackProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#id AttackProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#id AttackProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface AttackProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * bot_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#bot_detection AttackProtection#bot_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#bot_detection AttackProtection#bot_detection}
   */
   readonly botDetection?: AttackProtectionBotDetection;
   /**
   * breached_password_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#breached_password_detection AttackProtection#breached_password_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#breached_password_detection AttackProtection#breached_password_detection}
   */
   readonly breachedPasswordDetection?: AttackProtectionBreachedPasswordDetection;
   /**
   * brute_force_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#brute_force_protection AttackProtection#brute_force_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#brute_force_protection AttackProtection#brute_force_protection}
   */
   readonly bruteForceProtection?: AttackProtectionBruteForceProtection;
   /**
   * captcha block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#captcha AttackProtection#captcha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#captcha AttackProtection#captcha}
   */
   readonly captcha?: AttackProtectionCaptcha;
   /**
   * suspicious_ip_throttling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#suspicious_ip_throttling AttackProtection#suspicious_ip_throttling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#suspicious_ip_throttling AttackProtection#suspicious_ip_throttling}
   */
   readonly suspiciousIpThrottling?: AttackProtectionSuspiciousIpThrottling;
 }
@@ -49,37 +49,37 @@ export interface AttackProtectionBotDetection {
   /**
   * List of IP addresses or ranges that will not trigger bot detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#allowlist AttackProtection#allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#allowlist AttackProtection#allowlist}
   */
   readonly allowlist?: string[];
   /**
   * Bot detection level. Possible values: `low`, `medium`, `high`. Set to empty string to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#bot_detection_level AttackProtection#bot_detection_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#bot_detection_level AttackProtection#bot_detection_level}
   */
   readonly botDetectionLevel?: string;
   /**
   * Challenge policy for password flow. Possible values: `never`, `when_risky`, `always`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#challenge_password_policy AttackProtection#challenge_password_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#challenge_password_policy AttackProtection#challenge_password_policy}
   */
   readonly challengePasswordPolicy?: string;
   /**
   * Challenge policy for password reset flow. Possible values: `never`, `when_risky`, `always`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#challenge_password_reset_policy AttackProtection#challenge_password_reset_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#challenge_password_reset_policy AttackProtection#challenge_password_reset_policy}
   */
   readonly challengePasswordResetPolicy?: string;
   /**
   * Challenge policy for passwordless flow. Possible values: `never`, `when_risky`, `always`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#challenge_passwordless_policy AttackProtection#challenge_passwordless_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#challenge_passwordless_policy AttackProtection#challenge_passwordless_policy}
   */
   readonly challengePasswordlessPolicy?: string;
   /**
   * Whether monitoring mode is enabled for bot detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#monitoring_mode_enabled AttackProtection#monitoring_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#monitoring_mode_enabled AttackProtection#monitoring_mode_enabled}
   */
   readonly monitoringModeEnabled?: boolean | cdktf.IResolvable;
 }
@@ -310,7 +310,7 @@ export interface AttackProtectionBreachedPasswordDetectionPreChangePassword {
   /**
   * Action to take when a breached password is detected before the password is changed. Possible values: `block` (block compromised credentials for new accounts), `admin_notification` (send an email notification with a summary of compromised credentials in new accounts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#shields AttackProtection#shields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#shields AttackProtection#shields}
   */
   readonly shields?: string[];
 }
@@ -396,7 +396,7 @@ export interface AttackProtectionBreachedPasswordDetectionPreUserRegistration {
   /**
   * Action to take when a breached password is detected during a signup. Possible values: `block` (block compromised credentials for new accounts), `admin_notification` (send an email notification with a summary of compromised credentials in new accounts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#shields AttackProtection#shields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#shields AttackProtection#shields}
   */
   readonly shields?: string[];
 }
@@ -482,37 +482,37 @@ export interface AttackProtectionBreachedPasswordDetection {
   /**
   * When `admin_notification` is enabled within the `shields` property, determines how often email notifications are sent. Possible values: `immediately`, `daily`, `weekly`, `monthly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#admin_notification_frequency AttackProtection#admin_notification_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#admin_notification_frequency AttackProtection#admin_notification_frequency}
   */
   readonly adminNotificationFrequency?: string[];
   /**
   * Whether breached password detection is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#enabled AttackProtection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#enabled AttackProtection#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The subscription level for breached password detection methods. Use "enhanced" to enable Credential Guard. Possible values: `standard`, `enhanced`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#method AttackProtection#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#method AttackProtection#method}
   */
   readonly method?: string;
   /**
   * Action to take when a breached password is detected. Options include: `block` (block compromised user accounts), `user_notification` (send an email to user when we detect that they are using compromised credentials) and `admin_notification` (send an email with a summary of the number of accounts logging in with compromised credentials).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#shields AttackProtection#shields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#shields AttackProtection#shields}
   */
   readonly shields?: string[];
   /**
   * pre_change_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#pre_change_password AttackProtection#pre_change_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#pre_change_password AttackProtection#pre_change_password}
   */
   readonly preChangePassword?: AttackProtectionBreachedPasswordDetectionPreChangePassword;
   /**
   * pre_user_registration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#pre_user_registration AttackProtection#pre_user_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#pre_user_registration AttackProtection#pre_user_registration}
   */
   readonly preUserRegistration?: AttackProtectionBreachedPasswordDetectionPreUserRegistration;
 }
@@ -740,31 +740,31 @@ export interface AttackProtectionBruteForceProtection {
   /**
   * List of trusted IP addresses that will not have attack protection enforced against them. This field allows you to specify multiple IP addresses, or ranges. You can use IPv4 or IPv6 addresses and CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#allowlist AttackProtection#allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#allowlist AttackProtection#allowlist}
   */
   readonly allowlist?: string[];
   /**
   * Whether brute force attack protections are active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#enabled AttackProtection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#enabled AttackProtection#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Maximum number of consecutive failed login attempts from a single user before blocking is triggered. Only available on public tenants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#max_attempts AttackProtection#max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#max_attempts AttackProtection#max_attempts}
   */
   readonly maxAttempts?: number;
   /**
   * Determines whether the IP address is used when counting failed attempts. Possible values: `count_per_identifier_and_ip` (lockout an account from a given IP Address) or `count_per_identifier` (lockout an account regardless of IP Address).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#mode AttackProtection#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#mode AttackProtection#mode}
   */
   readonly mode?: string;
   /**
   * Action to take when a brute force protection threshold is violated. Possible values: `block` (block login attempts for a flagged user account), `user_notification` (send an email to user when their account has been blocked).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#shields AttackProtection#shields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#shields AttackProtection#shields}
   */
   readonly shields?: string[];
 }
@@ -963,31 +963,31 @@ export interface AttackProtectionCaptchaArkose {
   /**
   * Client subdomain for Arkose Labs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#client_subdomain AttackProtection#client_subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#client_subdomain AttackProtection#client_subdomain}
   */
   readonly clientSubdomain?: string;
   /**
   * Whether the captcha should fail open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#fail_open AttackProtection#fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#fail_open AttackProtection#fail_open}
   */
   readonly failOpen?: boolean | cdktf.IResolvable;
   /**
   * Secret for Arkose Labs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#secret AttackProtection#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#secret AttackProtection#secret}
   */
   readonly secret: string;
   /**
   * Site key for Arkose Labs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#site_key AttackProtection#site_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#site_key AttackProtection#site_key}
   */
   readonly siteKey: string;
   /**
   * Verify subdomain for Arkose Labs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#verify_subdomain AttackProtection#verify_subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#verify_subdomain AttackProtection#verify_subdomain}
   */
   readonly verifySubdomain?: string;
 }
@@ -1183,7 +1183,7 @@ export interface AttackProtectionCaptchaAuthChallenge {
   /**
   * Whether the auth challenge should fail open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#fail_open AttackProtection#fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#fail_open AttackProtection#fail_open}
   */
   readonly failOpen?: boolean | cdktf.IResolvable;
 }
@@ -1269,13 +1269,13 @@ export interface AttackProtectionCaptchaFriendlyCaptcha {
   /**
   * Secret for Friendly Captcha.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#secret AttackProtection#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#secret AttackProtection#secret}
   */
   readonly secret: string;
   /**
   * Site key for Friendly Captcha.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#site_key AttackProtection#site_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#site_key AttackProtection#site_key}
   */
   readonly siteKey: string;
 }
@@ -1384,13 +1384,13 @@ export interface AttackProtectionCaptchaHcaptcha {
   /**
   * Secret for hCaptcha.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#secret AttackProtection#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#secret AttackProtection#secret}
   */
   readonly secret: string;
   /**
   * Site key for hCaptcha.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#site_key AttackProtection#site_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#site_key AttackProtection#site_key}
   */
   readonly siteKey: string;
 }
@@ -1499,19 +1499,19 @@ export interface AttackProtectionCaptchaRecaptchaEnterprise {
   /**
   * API key for reCAPTCHA Enterprise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#api_key AttackProtection#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#api_key AttackProtection#api_key}
   */
   readonly apiKey: string;
   /**
   * Project ID for reCAPTCHA Enterprise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#project_id AttackProtection#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#project_id AttackProtection#project_id}
   */
   readonly projectId: string;
   /**
   * Site key for reCAPTCHA Enterprise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#site_key AttackProtection#site_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#site_key AttackProtection#site_key}
   */
   readonly siteKey: string;
 }
@@ -1646,13 +1646,13 @@ export interface AttackProtectionCaptchaRecaptchaV2 {
   /**
   * Secret for reCAPTCHA v2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#secret AttackProtection#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#secret AttackProtection#secret}
   */
   readonly secret: string;
   /**
   * Site key for reCAPTCHA v2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#site_key AttackProtection#site_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#site_key AttackProtection#site_key}
   */
   readonly siteKey: string;
 }
@@ -1761,43 +1761,43 @@ export interface AttackProtectionCaptcha {
   /**
   * Active CAPTCHA provider ID. Set to empty string to disable CAPTCHA. Possible values: `recaptcha_v2`, `recaptcha_enterprise`, `hcaptcha`, `friendly_captcha`, `arkose`, `auth_challenge`, `simple_captcha`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#active_provider_id AttackProtection#active_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#active_provider_id AttackProtection#active_provider_id}
   */
   readonly activeProviderId?: string;
   /**
   * arkose block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#arkose AttackProtection#arkose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#arkose AttackProtection#arkose}
   */
   readonly arkose?: AttackProtectionCaptchaArkose;
   /**
   * auth_challenge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#auth_challenge AttackProtection#auth_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#auth_challenge AttackProtection#auth_challenge}
   */
   readonly authChallenge?: AttackProtectionCaptchaAuthChallenge;
   /**
   * friendly_captcha block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#friendly_captcha AttackProtection#friendly_captcha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#friendly_captcha AttackProtection#friendly_captcha}
   */
   readonly friendlyCaptcha?: AttackProtectionCaptchaFriendlyCaptcha;
   /**
   * hcaptcha block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#hcaptcha AttackProtection#hcaptcha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#hcaptcha AttackProtection#hcaptcha}
   */
   readonly hcaptcha?: AttackProtectionCaptchaHcaptcha;
   /**
   * recaptcha_enterprise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#recaptcha_enterprise AttackProtection#recaptcha_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#recaptcha_enterprise AttackProtection#recaptcha_enterprise}
   */
   readonly recaptchaEnterprise?: AttackProtectionCaptchaRecaptchaEnterprise;
   /**
   * recaptcha_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#recaptcha_v2 AttackProtection#recaptcha_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#recaptcha_v2 AttackProtection#recaptcha_v2}
   */
   readonly recaptchaV2?: AttackProtectionCaptchaRecaptchaV2;
 }
@@ -2057,13 +2057,13 @@ export interface AttackProtectionSuspiciousIpThrottlingPreLogin {
   /**
   * The maximum number of failed login attempts allowed from a single IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#max_attempts AttackProtection#max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#max_attempts AttackProtection#max_attempts}
   */
   readonly maxAttempts?: number;
   /**
   * Interval of time, given in milliseconds at which new login tokens will become available after they have been used by an IP address. Each login attempt will be added on the defined throttling rate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#rate AttackProtection#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#rate AttackProtection#rate}
   */
   readonly rate?: number;
 }
@@ -2178,13 +2178,13 @@ export interface AttackProtectionSuspiciousIpThrottlingPreUserRegistration {
   /**
   * The maximum number of sign up attempts allowed from a single IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#max_attempts AttackProtection#max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#max_attempts AttackProtection#max_attempts}
   */
   readonly maxAttempts?: number;
   /**
   * Interval of time, given in milliseconds at which new sign up tokens will become available after they have been used by an IP address. Each sign up attempt will be added on the defined throttling rate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#rate AttackProtection#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#rate AttackProtection#rate}
   */
   readonly rate?: number;
 }
@@ -2299,31 +2299,31 @@ export interface AttackProtectionSuspiciousIpThrottling {
   /**
   * List of trusted IP addresses that will not have attack protection enforced against them. This field allows you to specify multiple IP addresses, or ranges. You can use IPv4 or IPv6 addresses and CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#allowlist AttackProtection#allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#allowlist AttackProtection#allowlist}
   */
   readonly allowlist?: string[];
   /**
   * Whether suspicious IP throttling attack protections are active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#enabled AttackProtection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#enabled AttackProtection#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Action to take when a suspicious IP throttling threshold is violated. Possible values: `block` (throttle traffic from an IP address when there is a high number of login attempts targeting too many different accounts), `admin_notification` (send an email notification when traffic is throttled on one or more IP addresses due to high-velocity traffic).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#shields AttackProtection#shields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#shields AttackProtection#shields}
   */
   readonly shields?: string[];
   /**
   * pre_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#pre_login AttackProtection#pre_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#pre_login AttackProtection#pre_login}
   */
   readonly preLogin?: AttackProtectionSuspiciousIpThrottlingPreLogin;
   /**
   * pre_user_registration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#pre_user_registration AttackProtection#pre_user_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#pre_user_registration AttackProtection#pre_user_registration}
   */
   readonly preUserRegistration?: AttackProtectionSuspiciousIpThrottlingPreUserRegistration;
 }
@@ -2520,7 +2520,7 @@ export class AttackProtectionSuspiciousIpThrottlingOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection auth0_attack_protection}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection auth0_attack_protection}
 */
 export class AttackProtection extends cdktf.TerraformResource {
 
@@ -2536,7 +2536,7 @@ export class AttackProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AttackProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AttackProtection to import
-  * @param importFromId The id of the existing AttackProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AttackProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AttackProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2548,7 +2548,7 @@ export class AttackProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/attack_protection auth0_attack_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/attack_protection auth0_attack_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2559,8 +2559,8 @@ export class AttackProtection extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_attack_protection',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

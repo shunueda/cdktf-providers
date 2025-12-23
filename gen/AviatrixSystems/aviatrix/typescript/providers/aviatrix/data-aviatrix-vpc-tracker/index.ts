@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/vpc_tracker
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/vpc_tracker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataAviatrixVpcTrackerConfig extends cdktf.TerraformMetaArgumen
   /**
   * Get VPCs that match the given access account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/vpc_tracker#account_name DataAviatrixVpcTracker#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/vpc_tracker#account_name DataAviatrixVpcTracker#account_name}
   */
   readonly accountName?: string;
   /**
   * Get VPCs that match the given CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/vpc_tracker#cidr DataAviatrixVpcTracker#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/vpc_tracker#cidr DataAviatrixVpcTracker#cidr}
   */
   readonly cidr?: string;
   /**
   * Get VPCs from a single cloud provider. For example, if cloud_type = 4, only GCP VPCs will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/vpc_tracker#cloud_type DataAviatrixVpcTracker#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/vpc_tracker#cloud_type DataAviatrixVpcTracker#cloud_type}
   */
   readonly cloudType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/vpc_tracker#id DataAviatrixVpcTracker#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/vpc_tracker#id DataAviatrixVpcTracker#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface DataAviatrixVpcTrackerConfig extends cdktf.TerraformMetaArgumen
   /**
   * Get VPCs that match the given region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/vpc_tracker#region DataAviatrixVpcTracker#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/vpc_tracker#region DataAviatrixVpcTracker#region}
   */
   readonly region?: string;
 }
@@ -242,7 +242,7 @@ export class DataAviatrixVpcTrackerVpcListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/vpc_tracker aviatrix_vpc_tracker}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/vpc_tracker aviatrix_vpc_tracker}
 */
 export class DataAviatrixVpcTracker extends cdktf.TerraformDataSource {
 
@@ -258,7 +258,7 @@ export class DataAviatrixVpcTracker extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviatrixVpcTracker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviatrixVpcTracker to import
-  * @param importFromId The id of the existing DataAviatrixVpcTracker that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/vpc_tracker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviatrixVpcTracker that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/vpc_tracker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviatrixVpcTracker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -270,7 +270,7 @@ export class DataAviatrixVpcTracker extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/vpc_tracker aviatrix_vpc_tracker} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/vpc_tracker aviatrix_vpc_tracker} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,8 +281,8 @@ export class DataAviatrixVpcTracker extends cdktf.TerraformDataSource {
       terraformResourceType: 'aviatrix_vpc_tracker',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/peering_connection
+// https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/peering_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PeeringConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS account ID where the VPC or Transit Gateway to be paired is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/peering_connection#peer_account_id PeeringConnection#peer_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/peering_connection#peer_account_id PeeringConnection#peer_account_id}
   */
   readonly peerAccountId: string;
   /**
   * List of CIDR blocks for the peering connection. Required for Transit Gateway peering, optional for VPC peering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/peering_connection#peer_cidr_blocks PeeringConnection#peer_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/peering_connection#peer_cidr_blocks PeeringConnection#peer_cidr_blocks}
   */
   readonly peerCidrBlocks?: string[];
   /**
   * Region code for the VPC or Transit Gateway to be paired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/peering_connection#peer_region_code PeeringConnection#peer_region_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/peering_connection#peer_region_code PeeringConnection#peer_region_code}
   */
   readonly peerRegionCode: string;
   /**
   * AWS ID for the Transit Gateway to be paired. Mutually exclusive with peer_vpc_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/peering_connection#peer_tgw_id PeeringConnection#peer_tgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/peering_connection#peer_tgw_id PeeringConnection#peer_tgw_id}
   */
   readonly peerTgwId?: string;
   /**
   * AWS ID for the VPC to be paired. Mutually exclusive with peer_tgw_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/peering_connection#peer_vpc_id PeeringConnection#peer_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/peering_connection#peer_vpc_id PeeringConnection#peer_vpc_id}
   */
   readonly peerVpcId?: string;
   /**
   * Timescale internal ID for a vpc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/peering_connection#timescale_vpc_id PeeringConnection#timescale_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/peering_connection#timescale_vpc_id PeeringConnection#timescale_vpc_id}
   */
   readonly timescaleVpcId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/peering_connection timescale_peering_connection}
+* Represents a {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/peering_connection timescale_peering_connection}
 */
 export class PeeringConnection extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class PeeringConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PeeringConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PeeringConnection to import
-  * @param importFromId The id of the existing PeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/peering_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/peering_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PeeringConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class PeeringConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/peering_connection timescale_peering_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/peering_connection timescale_peering_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class PeeringConnection extends cdktf.TerraformResource {
       terraformResourceType: 'timescale_peering_connection',
       terraformGeneratorMetadata: {
         providerName: 'timescale',
-        providerVersion: '2.6.0',
-        providerVersionConstraint: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,53 @@ export interface VpcConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account name. This account will be used to create an Aviatrix VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#account_name Vpc#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#account_name Vpc#account_name}
   */
   readonly accountName: string;
   /**
   * Specify the VPC as Aviatrix FireNet VPC or not. Required to be false for GCP provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#aviatrix_firenet_vpc Vpc#aviatrix_firenet_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#aviatrix_firenet_vpc Vpc#aviatrix_firenet_vpc}
   */
   readonly aviatrixFirenetVpc?: boolean | cdktf.IResolvable;
   /**
   * Specify the VPC as Aviatrix Transit VPC or not. Required to be false for GCP provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#aviatrix_transit_vpc Vpc#aviatrix_transit_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#aviatrix_transit_vpc Vpc#aviatrix_transit_vpc}
   */
   readonly aviatrixTransitVpc?: boolean | cdktf.IResolvable;
   /**
   * Subnet of the VPC to be created. Required to be empty for GCP provider, and non-empty for other providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#cidr Vpc#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#cidr Vpc#cidr}
   */
   readonly cidr?: string;
   /**
   * Type of cloud service provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#cloud_type Vpc#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#cloud_type Vpc#cloud_type}
   */
   readonly cloudType: number;
   /**
+  * Enable IPv6 for the VPC. Only supported for AWS (1), Azure (8).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#enable_ipv6 Vpc#enable_ipv6}
+  */
+  readonly enableIpv6?: boolean | cdktf.IResolvable;
+  /**
   * Enable Native AWS GWLB for FireNet Function. Only valid with cloud_type = 1 (AWS). Valid values: true or false. Default value: false. Available as of provider version R2.18+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#enable_native_gwlb Vpc#enable_native_gwlb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#enable_native_gwlb Vpc#enable_native_gwlb}
   */
   readonly enableNativeGwlb?: boolean | cdktf.IResolvable;
   /**
   * Switch to enable private oob subnet. Only supported for AWS/AWSGov provider. Valid values: true, false. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#enable_private_oob_subnet Vpc#enable_private_oob_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#enable_private_oob_subnet Vpc#enable_private_oob_subnet}
   */
   readonly enablePrivateOobSubnet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#id Vpc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#id Vpc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,43 +65,49 @@ export interface VpcConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the VPC to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#name Vpc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#name Vpc#name}
   */
   readonly name: string;
   /**
   * Number of public subnet and private subnet pair to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#num_of_subnet_pairs Vpc#num_of_subnet_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#num_of_subnet_pairs Vpc#num_of_subnet_pairs}
   */
   readonly numOfSubnetPairs?: number;
   /**
   * Switch to only launch private subnets. Only available when Private Mode is enabled on the Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#private_mode_subnets Vpc#private_mode_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#private_mode_subnets Vpc#private_mode_subnets}
   */
   readonly privateModeSubnets?: boolean | cdktf.IResolvable;
   /**
   * Region of cloud provider. Required to be empty for GCP provider, and non-empty for other providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#region Vpc#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#region Vpc#region}
   */
   readonly region?: string;
   /**
   * Resource group of the Azure VPC created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#resource_group Vpc#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#resource_group Vpc#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * Subnet size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#subnet_size Vpc#subnet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#subnet_size Vpc#subnet_size}
   */
   readonly subnetSize?: number;
   /**
+  * IPv6 CIDR for the VPC. Required when enable_ipv6 is true for Azure (8).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#vpc_ipv6_cidr Vpc#vpc_ipv6_cidr}
+  */
+  readonly vpcIpv6Cidr?: string;
+  /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#subnets Vpc#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#subnets Vpc#subnets}
   */
   readonly subnets?: VpcSubnets[] | cdktf.IResolvable;
 }
@@ -153,6 +165,11 @@ export class VpcPrivateSubnetsOutputReference extends cdktf.ComplexObject {
   // cidr - computed: true, optional: false, required: false
   public get cidr() {
     return this.getStringAttribute('cidr');
+  }
+
+  // ipv6_cidr - computed: true, optional: false, required: false
+  public get ipv6Cidr() {
+    return this.getStringAttribute('ipv6_cidr');
   }
 
   // name - computed: true, optional: false, required: false
@@ -240,6 +257,11 @@ export class VpcPublicSubnetsOutputReference extends cdktf.ComplexObject {
     return this.getStringAttribute('cidr');
   }
 
+  // ipv6_cidr - computed: true, optional: false, required: false
+  public get ipv6Cidr() {
+    return this.getStringAttribute('ipv6_cidr');
+  }
+
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
@@ -273,19 +295,19 @@ export interface VpcSubnets {
   /**
   * Subnet cidr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#cidr Vpc#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#cidr Vpc#cidr}
   */
   readonly cidr?: string;
   /**
   * Subnet name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#name Vpc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#name Vpc#name}
   */
   readonly name?: string;
   /**
   * Subnet region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#region Vpc#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#region Vpc#region}
   */
   readonly region?: string;
 }
@@ -405,6 +427,11 @@ export class VpcSubnetsOutputReference extends cdktf.ComplexObject {
     return this._cidr;
   }
 
+  // ipv6_cidr - computed: true, optional: false, required: false
+  public get ipv6Cidr() {
+    return this.getStringAttribute('ipv6_cidr');
+  }
+
   // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
@@ -464,7 +491,7 @@ export class VpcSubnetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc aviatrix_vpc}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc aviatrix_vpc}
 */
 export class Vpc extends cdktf.TerraformResource {
 
@@ -480,7 +507,7 @@ export class Vpc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vpc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vpc to import
-  * @param importFromId The id of the existing Vpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vpc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -492,7 +519,7 @@ export class Vpc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/vpc aviatrix_vpc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/vpc aviatrix_vpc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -503,8 +530,8 @@ export class Vpc extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_vpc',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -519,6 +546,7 @@ export class Vpc extends cdktf.TerraformResource {
     this._aviatrixTransitVpc = config.aviatrixTransitVpc;
     this._cidr = config.cidr;
     this._cloudType = config.cloudType;
+    this._enableIpv6 = config.enableIpv6;
     this._enableNativeGwlb = config.enableNativeGwlb;
     this._enablePrivateOobSubnet = config.enablePrivateOobSubnet;
     this._id = config.id;
@@ -528,6 +556,7 @@ export class Vpc extends cdktf.TerraformResource {
     this._region = config.region;
     this._resourceGroup = config.resourceGroup;
     this._subnetSize = config.subnetSize;
+    this._vpcIpv6Cidr = config.vpcIpv6Cidr;
     this._subnets.internalValue = config.subnets;
   }
 
@@ -617,6 +646,22 @@ export class Vpc extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get cloudTypeInput() {
     return this._cloudType;
+  }
+
+  // enable_ipv6 - computed: false, optional: true, required: false
+  private _enableIpv6?: boolean | cdktf.IResolvable; 
+  public get enableIpv6() {
+    return this.getBooleanAttribute('enable_ipv6');
+  }
+  public set enableIpv6(value: boolean | cdktf.IResolvable) {
+    this._enableIpv6 = value;
+  }
+  public resetEnableIpv6() {
+    this._enableIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableIpv6Input() {
+    return this._enableIpv6;
   }
 
   // enable_native_gwlb - computed: false, optional: true, required: false
@@ -787,6 +832,22 @@ export class Vpc extends cdktf.TerraformResource {
     return this.getStringAttribute('vpc_id');
   }
 
+  // vpc_ipv6_cidr - computed: true, optional: true, required: false
+  private _vpcIpv6Cidr?: string; 
+  public get vpcIpv6Cidr() {
+    return this.getStringAttribute('vpc_ipv6_cidr');
+  }
+  public set vpcIpv6Cidr(value: string) {
+    this._vpcIpv6Cidr = value;
+  }
+  public resetVpcIpv6Cidr() {
+    this._vpcIpv6Cidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcIpv6CidrInput() {
+    return this._vpcIpv6Cidr;
+  }
+
   // subnets - computed: false, optional: true, required: false
   private _subnets = new VpcSubnetsList(this, "subnets", false);
   public get subnets() {
@@ -814,6 +875,7 @@ export class Vpc extends cdktf.TerraformResource {
       aviatrix_transit_vpc: cdktf.booleanToTerraform(this._aviatrixTransitVpc),
       cidr: cdktf.stringToTerraform(this._cidr),
       cloud_type: cdktf.numberToTerraform(this._cloudType),
+      enable_ipv6: cdktf.booleanToTerraform(this._enableIpv6),
       enable_native_gwlb: cdktf.booleanToTerraform(this._enableNativeGwlb),
       enable_private_oob_subnet: cdktf.booleanToTerraform(this._enablePrivateOobSubnet),
       id: cdktf.stringToTerraform(this._id),
@@ -823,6 +885,7 @@ export class Vpc extends cdktf.TerraformResource {
       region: cdktf.stringToTerraform(this._region),
       resource_group: cdktf.stringToTerraform(this._resourceGroup),
       subnet_size: cdktf.numberToTerraform(this._subnetSize),
+      vpc_ipv6_cidr: cdktf.stringToTerraform(this._vpcIpv6Cidr),
       subnets: cdktf.listMapper(vpcSubnetsToTerraform, true)(this._subnets.internalValue),
     };
   }
@@ -858,6 +921,12 @@ export class Vpc extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      enable_ipv6: {
+        value: cdktf.booleanToHclTerraform(this._enableIpv6),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       enable_native_gwlb: {
         value: cdktf.booleanToHclTerraform(this._enableNativeGwlb),
@@ -912,6 +981,12 @@ export class Vpc extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      vpc_ipv6_cidr: {
+        value: cdktf.stringToHclTerraform(this._vpcIpv6Cidr),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       subnets: {
         value: cdktf.listMapperHcl(vpcSubnetsToHclTerraform, true)(this._subnets.internalValue),

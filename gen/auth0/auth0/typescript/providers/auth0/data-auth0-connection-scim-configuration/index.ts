@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_scim_configuration
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/connection_scim_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAuth0ConnectionScimConfigurationConfig extends cdktf.Terraf
   /**
   * ID of the connection for this SCIM configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_scim_configuration#connection_id DataAuth0ConnectionScimConfiguration#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/connection_scim_configuration#connection_id DataAuth0ConnectionScimConfiguration#connection_id}
   */
   readonly connectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_scim_configuration#id DataAuth0ConnectionScimConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/connection_scim_configuration#id DataAuth0ConnectionScimConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataAuth0ConnectionScimConfigurationConfig extends cdktf.Terraf
   /**
   * default_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_scim_configuration#default_mapping DataAuth0ConnectionScimConfiguration#default_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/connection_scim_configuration#default_mapping DataAuth0ConnectionScimConfiguration#default_mapping}
   */
   readonly defaultMapping?: DataAuth0ConnectionScimConfigurationDefaultMapping[] | cdktf.IResolvable;
   /**
   * mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_scim_configuration#mapping DataAuth0ConnectionScimConfiguration#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/connection_scim_configuration#mapping DataAuth0ConnectionScimConfiguration#mapping}
   */
   readonly mapping?: DataAuth0ConnectionScimConfigurationMapping[] | cdktf.IResolvable;
 }
@@ -217,7 +217,7 @@ export class DataAuth0ConnectionScimConfigurationMappingList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_scim_configuration auth0_connection_scim_configuration}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/connection_scim_configuration auth0_connection_scim_configuration}
 */
 export class DataAuth0ConnectionScimConfiguration extends cdktf.TerraformDataSource {
 
@@ -233,7 +233,7 @@ export class DataAuth0ConnectionScimConfiguration extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataAuth0ConnectionScimConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuth0ConnectionScimConfiguration to import
-  * @param importFromId The id of the existing DataAuth0ConnectionScimConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_scim_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuth0ConnectionScimConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/connection_scim_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuth0ConnectionScimConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class DataAuth0ConnectionScimConfiguration extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/connection_scim_configuration auth0_connection_scim_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/connection_scim_configuration auth0_connection_scim_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,8 +256,8 @@ export class DataAuth0ConnectionScimConfiguration extends cdktf.TerraformDataSou
       terraformResourceType: 'auth0_connection_scim_configuration',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

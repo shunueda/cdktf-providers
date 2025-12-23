@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_floatingip_associate
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_floatingip_associate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ComputeFloatingipAssociateConfig extends cdktf.TerraformMetaArg
   /**
   * The specific IP address to direct traffic to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_floatingip_associate#fixed_ip ComputeFloatingipAssociate#fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_floatingip_associate#fixed_ip ComputeFloatingipAssociate#fixed_ip}
   */
   readonly fixedIp?: string;
   /**
   * The floating IP to associate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_floatingip_associate#floating_ip ComputeFloatingipAssociate#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_floatingip_associate#floating_ip ComputeFloatingipAssociate#floating_ip}
   */
   readonly floatingIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_floatingip_associate#id ComputeFloatingipAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_floatingip_associate#id ComputeFloatingipAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ComputeFloatingipAssociateConfig extends cdktf.TerraformMetaArg
   /**
   * The instance to associate the floating IP with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_floatingip_associate#instance_id ComputeFloatingipAssociate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_floatingip_associate#instance_id ComputeFloatingipAssociate#instance_id}
   */
   readonly instanceId: string;
   /**
   * The region in which to obtain the V2 Compute client. Keypairs are associated with accounts, but a Compute client is needed to create one. If omitted, the `region` argument of the provider is used. Changing this creates a new floatingip_associate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_floatingip_associate#region ComputeFloatingipAssociate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_floatingip_associate#region ComputeFloatingipAssociate#region}
   */
   readonly region?: string;
   /**
   * In cases where the VKCS environment does not automatically wait until the association has finished, set this option to have Terraform poll the instance until the floating IP has been associated. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_floatingip_associate#wait_until_associated ComputeFloatingipAssociate#wait_until_associated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_floatingip_associate#wait_until_associated ComputeFloatingipAssociate#wait_until_associated}
   */
   readonly waitUntilAssociated?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_floatingip_associate#timeouts ComputeFloatingipAssociate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_floatingip_associate#timeouts ComputeFloatingipAssociate#timeouts}
   */
   readonly timeouts?: ComputeFloatingipAssociateTimeouts;
 }
 export interface ComputeFloatingipAssociateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_floatingip_associate#create ComputeFloatingipAssociate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_floatingip_associate#create ComputeFloatingipAssociate#create}
   */
   readonly create?: string;
 }
@@ -147,7 +147,7 @@ export class ComputeFloatingipAssociateTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_floatingip_associate vkcs_compute_floatingip_associate}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_floatingip_associate vkcs_compute_floatingip_associate}
 */
 export class ComputeFloatingipAssociate extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class ComputeFloatingipAssociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeFloatingipAssociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeFloatingipAssociate to import
-  * @param importFromId The id of the existing ComputeFloatingipAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_floatingip_associate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeFloatingipAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_floatingip_associate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeFloatingipAssociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class ComputeFloatingipAssociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_floatingip_associate vkcs_compute_floatingip_associate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_floatingip_associate vkcs_compute_floatingip_associate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class ComputeFloatingipAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_compute_floatingip_associate',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

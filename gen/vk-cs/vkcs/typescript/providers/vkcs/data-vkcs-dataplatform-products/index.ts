@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_products
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_products
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVkcsDataplatformProductsConfig extends cdktf.TerraformMetaA
   /**
   * The region in which to obtain the Data platform client. If omitted, the `region` argument of the provider is used. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_products#region DataVkcsDataplatformProducts#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_products#region DataVkcsDataplatformProducts#region}
   */
   readonly region?: string;
 }
@@ -96,7 +96,7 @@ export class DataVkcsDataplatformProductsProductsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_products vkcs_dataplatform_products}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_products vkcs_dataplatform_products}
 */
 export class DataVkcsDataplatformProducts extends cdktf.TerraformDataSource {
 
@@ -112,7 +112,7 @@ export class DataVkcsDataplatformProducts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsDataplatformProducts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsDataplatformProducts to import
-  * @param importFromId The id of the existing DataVkcsDataplatformProducts that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_products#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsDataplatformProducts that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_products#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsDataplatformProducts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -124,7 +124,7 @@ export class DataVkcsDataplatformProducts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/dataplatform_products vkcs_dataplatform_products} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/dataplatform_products vkcs_dataplatform_products} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -135,8 +135,8 @@ export class DataVkcsDataplatformProducts extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_dataplatform_products',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

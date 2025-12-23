@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface UserAttributeProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#id UserAttributeProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#id UserAttributeProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface UserAttributeProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the User Attribute Profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#name UserAttributeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#name UserAttributeProfile#name}
   */
   readonly name: string;
   /**
   * user_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#user_attributes UserAttributeProfile#user_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#user_attributes UserAttributeProfile#user_attributes}
   */
   readonly userAttributes: UserAttributeProfileUserAttributes[] | cdktf.IResolvable;
   /**
   * user_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#user_id UserAttributeProfile#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#user_id UserAttributeProfile#user_id}
   */
   readonly userId?: UserAttributeProfileUserId;
 }
@@ -37,13 +37,13 @@ export interface UserAttributeProfileUserAttributesOidcMapping {
   /**
   * Display name for the OIDC mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#display_name UserAttributeProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#display_name UserAttributeProfile#display_name}
   */
   readonly displayName?: string;
   /**
   * The OIDC mapping field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#mapping UserAttributeProfile#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#mapping UserAttributeProfile#mapping}
   */
   readonly mapping: string;
 }
@@ -155,13 +155,13 @@ export interface UserAttributeProfileUserAttributesStrategyOverridesOidcMapping 
   /**
   * Display name for the OIDC mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#display_name UserAttributeProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#display_name UserAttributeProfile#display_name}
   */
   readonly displayName?: string;
   /**
   * The OIDC mapping field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#mapping UserAttributeProfile#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#mapping UserAttributeProfile#mapping}
   */
   readonly mapping: string;
 }
@@ -273,25 +273,25 @@ export interface UserAttributeProfileUserAttributesStrategyOverrides {
   /**
   * SAML mapping override for this strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#saml_mapping UserAttributeProfile#saml_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#saml_mapping UserAttributeProfile#saml_mapping}
   */
   readonly samlMapping?: string[];
   /**
   * SCIM mapping override for this strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#scim_mapping UserAttributeProfile#scim_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#scim_mapping UserAttributeProfile#scim_mapping}
   */
   readonly scimMapping?: string;
   /**
   * The strategy name (e.g., 'oidc', 'samlp', 'ad', etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#strategy UserAttributeProfile#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#strategy UserAttributeProfile#strategy}
   */
   readonly strategy: string;
   /**
   * oidc_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#oidc_mapping UserAttributeProfile#oidc_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#oidc_mapping UserAttributeProfile#oidc_mapping}
   */
   readonly oidcMapping?: UserAttributeProfileUserAttributesStrategyOverridesOidcMapping;
 }
@@ -493,55 +493,55 @@ export interface UserAttributeProfileUserAttributes {
   /**
   * The Auth0 mapping for the user attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#auth0_mapping UserAttributeProfile#auth0_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#auth0_mapping UserAttributeProfile#auth0_mapping}
   */
   readonly auth0Mapping: string;
   /**
   * Description of the user attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#description UserAttributeProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#description UserAttributeProfile#description}
   */
   readonly description: string;
   /**
   * Display label for the user attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#label UserAttributeProfile#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#label UserAttributeProfile#label}
   */
   readonly label: string;
   /**
   * Name of the user attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#name UserAttributeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#name UserAttributeProfile#name}
   */
   readonly name: string;
   /**
   * Whether the attribute is required in the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#profile_required UserAttributeProfile#profile_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#profile_required UserAttributeProfile#profile_required}
   */
   readonly profileRequired: boolean | cdktf.IResolvable;
   /**
   * SAML mapping override for this strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#saml_mapping UserAttributeProfile#saml_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#saml_mapping UserAttributeProfile#saml_mapping}
   */
   readonly samlMapping?: string[];
   /**
   * The SCIM mapping for the user attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#scim_mapping UserAttributeProfile#scim_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#scim_mapping UserAttributeProfile#scim_mapping}
   */
   readonly scimMapping?: string;
   /**
   * oidc_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#oidc_mapping UserAttributeProfile#oidc_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#oidc_mapping UserAttributeProfile#oidc_mapping}
   */
   readonly oidcMapping?: UserAttributeProfileUserAttributesOidcMapping;
   /**
   * strategy_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#strategy_overrides UserAttributeProfile#strategy_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#strategy_overrides UserAttributeProfile#strategy_overrides}
   */
   readonly strategyOverrides?: UserAttributeProfileUserAttributesStrategyOverrides[] | cdktf.IResolvable;
 }
@@ -876,25 +876,25 @@ export interface UserAttributeProfileUserIdStrategyOverrides {
   /**
   * OIDC mapping override for this strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#oidc_mapping UserAttributeProfile#oidc_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#oidc_mapping UserAttributeProfile#oidc_mapping}
   */
   readonly oidcMapping?: string;
   /**
   * SAML mapping override for this strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#saml_mapping UserAttributeProfile#saml_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#saml_mapping UserAttributeProfile#saml_mapping}
   */
   readonly samlMapping?: string[];
   /**
   * SCIM mapping override for this strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#scim_mapping UserAttributeProfile#scim_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#scim_mapping UserAttributeProfile#scim_mapping}
   */
   readonly scimMapping?: string;
   /**
   * The strategy name (e.g., 'oidc', 'samlp', 'ad', etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#strategy UserAttributeProfile#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#strategy UserAttributeProfile#strategy}
   */
   readonly strategy: string;
 }
@@ -1096,25 +1096,25 @@ export interface UserAttributeProfileUserId {
   /**
   * The OIDC mapping for the user ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#oidc_mapping UserAttributeProfile#oidc_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#oidc_mapping UserAttributeProfile#oidc_mapping}
   */
   readonly oidcMapping?: string;
   /**
   * The SAML mapping for the user ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#saml_mapping UserAttributeProfile#saml_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#saml_mapping UserAttributeProfile#saml_mapping}
   */
   readonly samlMapping?: string[];
   /**
   * The SCIM mapping for the user ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#scim_mapping UserAttributeProfile#scim_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#scim_mapping UserAttributeProfile#scim_mapping}
   */
   readonly scimMapping?: string;
   /**
   * strategy_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#strategy_overrides UserAttributeProfile#strategy_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#strategy_overrides UserAttributeProfile#strategy_overrides}
   */
   readonly strategyOverrides?: UserAttributeProfileUserIdStrategyOverrides[] | cdktf.IResolvable;
 }
@@ -1285,7 +1285,7 @@ export class UserAttributeProfileUserIdOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile auth0_user_attribute_profile}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile auth0_user_attribute_profile}
 */
 export class UserAttributeProfile extends cdktf.TerraformResource {
 
@@ -1301,7 +1301,7 @@ export class UserAttributeProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserAttributeProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserAttributeProfile to import
-  * @param importFromId The id of the existing UserAttributeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserAttributeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserAttributeProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1313,7 +1313,7 @@ export class UserAttributeProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/user_attribute_profile auth0_user_attribute_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/user_attribute_profile auth0_user_attribute_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1324,8 +1324,8 @@ export class UserAttributeProfile extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_user_attribute_profile',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

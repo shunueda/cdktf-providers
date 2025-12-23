@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the availability zone of the instance. Changing this creates a new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#availability_zone DbInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#availability_zone DbInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Enable cloud monitoring for the instance. Changing this for Redis creates a new instance._new_since_v0.2.0_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#cloud_monitoring_enabled DbInstance#cloud_monitoring_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#cloud_monitoring_enabled DbInstance#cloud_monitoring_enabled}
   */
   readonly cloudMonitoringEnabled?: boolean | cdktf.IResolvable;
   /**
   * The id of the configuration attached to instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#configuration_id DbInstance#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#configuration_id DbInstance#configuration_id}
   */
   readonly configurationId?: string;
   /**
   * The ID of flavor for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#flavor_id DbInstance#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#flavor_id DbInstance#flavor_id}
   */
   readonly flavorId: string;
   /**
   * Indicates whether floating ip is created for instance. Changing this creates a new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#floating_ip_enabled DbInstance#floating_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#floating_ip_enabled DbInstance#floating_ip_enabled}
   */
   readonly floatingIpEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#id DbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#id DbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,109 +47,109 @@ export interface DbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the keypair to be attached to instance. Changing this creates a new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#keypair DbInstance#keypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#keypair DbInstance#keypair}
   */
   readonly keypair?: string;
   /**
   * The name of the instance. Changing this creates a new instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#name DbInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#name DbInstance#name}
   */
   readonly name: string;
   /**
   * Region to create resource in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#region DbInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#region DbInstance#region}
   */
   readonly region?: string;
   /**
   * ID of the instance, that current instance is replica of. Instance's datastore must be one of: `postgrespro_enterprise`, `mysql`, `postgresql`, `postgrespro_enterprise_1c`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#replica_of DbInstance#replica_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#replica_of DbInstance#replica_of}
   */
   readonly replicaOf?: string;
   /**
   * Indicates whether root user is enabled for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#root_enabled DbInstance#root_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#root_enabled DbInstance#root_enabled}
   */
   readonly rootEnabled?: boolean | cdktf.IResolvable;
   /**
   * Password for the root user of the instance. If this field is empty and root user is enabled, then after creation of the instance this field will contain auto-generated root user password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#root_password DbInstance#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#root_password DbInstance#root_password}
   */
   readonly rootPassword?: string;
   /**
   * Size of the instance volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#size DbInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#size DbInstance#size}
   */
   readonly size: number;
   /**
   * The type of the instance volume. Changing this creates a new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#volume_type DbInstance#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#volume_type DbInstance#volume_type}
   */
   readonly volumeType: string;
   /**
   * backup_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#backup_schedule DbInstance#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#backup_schedule DbInstance#backup_schedule}
   */
   readonly backupSchedule?: DbInstanceBackupSchedule;
   /**
   * capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#capabilities DbInstance#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#capabilities DbInstance#capabilities}
   */
   readonly capabilities?: DbInstanceCapabilities[] | cdktf.IResolvable;
   /**
   * datastore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#datastore DbInstance#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#datastore DbInstance#datastore}
   */
   readonly datastore: DbInstanceDatastore;
   /**
   * disk_autoexpand block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#disk_autoexpand DbInstance#disk_autoexpand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#disk_autoexpand DbInstance#disk_autoexpand}
   */
   readonly diskAutoexpand?: DbInstanceDiskAutoexpand;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#network DbInstance#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#network DbInstance#network}
   */
   readonly network?: DbInstanceNetwork[] | cdktf.IResolvable;
   /**
   * restore_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#restore_point DbInstance#restore_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#restore_point DbInstance#restore_point}
   */
   readonly restorePoint?: DbInstanceRestorePoint;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#timeouts DbInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#timeouts DbInstance#timeouts}
   */
   readonly timeouts?: DbInstanceTimeouts;
   /**
   * vendor_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#vendor_options DbInstance#vendor_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#vendor_options DbInstance#vendor_options}
   */
   readonly vendorOptions?: DbInstanceVendorOptions;
   /**
   * wal_disk_autoexpand block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#wal_disk_autoexpand DbInstance#wal_disk_autoexpand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#wal_disk_autoexpand DbInstance#wal_disk_autoexpand}
   */
   readonly walDiskAutoexpand?: DbInstanceWalDiskAutoexpand;
   /**
   * wal_volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#wal_volume DbInstance#wal_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#wal_volume DbInstance#wal_volume}
   */
   readonly walVolume?: DbInstanceWalVolume;
 }
@@ -157,31 +157,31 @@ export interface DbInstanceBackupSchedule {
   /**
   * Time interval between backups, specified in hours. Available values: 3, 6, 8, 12, 24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#interval_hours DbInstance#interval_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#interval_hours DbInstance#interval_hours}
   */
   readonly intervalHours: number;
   /**
   * Number of backups to be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#keep_count DbInstance#keep_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#keep_count DbInstance#keep_count}
   */
   readonly keepCount: number;
   /**
   * Name of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#name DbInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#name DbInstance#name}
   */
   readonly name: string;
   /**
   * Hours part of timestamp of initial backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#start_hours DbInstance#start_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#start_hours DbInstance#start_hours}
   */
   readonly startHours: number;
   /**
   * Minutes part of timestamp of initial backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#start_minutes DbInstance#start_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#start_minutes DbInstance#start_minutes}
   */
   readonly startMinutes: number;
 }
@@ -368,13 +368,13 @@ export interface DbInstanceCapabilities {
   /**
   * The name of the capability to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#name DbInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#name DbInstance#name}
   */
   readonly name: string;
   /**
   * Map of key-value settings of the capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#settings DbInstance#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#settings DbInstance#settings}
   */
   readonly settings?: { [key: string]: string };
 }
@@ -518,13 +518,13 @@ export interface DbInstanceDatastore {
   /**
   * Type of the datastore. Changing this creates a new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#type DbInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#type DbInstance#type}
   */
   readonly type: string;
   /**
   * Version of the datastore. Changing this creates a new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#version DbInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#version DbInstance#version}
   */
   readonly version: string;
 }
@@ -633,13 +633,13 @@ export interface DbInstanceDiskAutoexpand {
   /**
   * Indicates whether autoresize is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#autoexpand DbInstance#autoexpand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#autoexpand DbInstance#autoexpand}
   */
   readonly autoexpand?: boolean | cdktf.IResolvable;
   /**
   * Maximum disk size for autoresize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#max_disk_size DbInstance#max_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#max_disk_size DbInstance#max_disk_size}
   */
   readonly maxDiskSize?: number;
 }
@@ -754,31 +754,31 @@ export interface DbInstanceNetwork {
   /**
   * The IPv4 address. Changing this creates a new instance. _note_ This argument conflicts with "replica_of". Setting both at the same time causes "fixed_ip_v4" to be ignored. **Deprecated** This argument is no longer supported, and the instance will have a random ip address in the selected subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#fixed_ip_v4 DbInstance#fixed_ip_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#fixed_ip_v4 DbInstance#fixed_ip_v4}
   */
   readonly fixedIpV4?: string;
   /**
   * The port id of the network. Changing this creates a new instance. **Deprecated** This argument is deprecated, please do not use it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#port DbInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#port DbInstance#port}
   */
   readonly port?: string;
   /**
   * An array of one or more security group IDs to associate with the instance. Changing this creates a new instance._new_since_v0.2.0_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#security_groups DbInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#security_groups DbInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * The id of the subnet. Changing this creates a new instance._new_since_v0.1.15_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#subnet_id DbInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#subnet_id DbInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The id of the network. Changing this creates a new instance. _note_ Although this argument is marked as optional, it is actually required at the moment. Not setting a value for it may cause an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#uuid DbInstance#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#uuid DbInstance#uuid}
   */
   readonly uuid?: string;
 }
@@ -1012,13 +1012,13 @@ export interface DbInstanceRestorePoint {
   /**
   * ID of the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#backup_id DbInstance#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#backup_id DbInstance#backup_id}
   */
   readonly backupId: string;
   /**
   * Used only for restoring from postgresql PITR backups. Timestamp of needed backup in format "2021-10-06 01:02:00". You can specify "latest" to use most recent backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#target DbInstance#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#target DbInstance#target}
   */
   readonly target?: string;
 }
@@ -1128,11 +1128,11 @@ export class DbInstanceRestorePointOutputReference extends cdktf.ComplexObject {
 }
 export interface DbInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#create DbInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#create DbInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#delete DbInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#delete DbInstance#delete}
   */
   readonly delete?: string;
 }
@@ -1257,7 +1257,7 @@ export interface DbInstanceVendorOptions {
   /**
   * Boolean to confirm autorestart of the instance if it is required to apply configuration group changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#restart_confirmed DbInstance#restart_confirmed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#restart_confirmed DbInstance#restart_confirmed}
   */
   readonly restartConfirmed?: boolean | cdktf.IResolvable;
 }
@@ -1343,13 +1343,13 @@ export interface DbInstanceWalDiskAutoexpand {
   /**
   * Indicates whether wal volume autoresize is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#autoexpand DbInstance#autoexpand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#autoexpand DbInstance#autoexpand}
   */
   readonly autoexpand?: boolean | cdktf.IResolvable;
   /**
   * Maximum disk size for wal volume autoresize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#max_disk_size DbInstance#max_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#max_disk_size DbInstance#max_disk_size}
   */
   readonly maxDiskSize?: number;
 }
@@ -1464,25 +1464,25 @@ export interface DbInstanceWalVolume {
   /**
   * Indicates whether wal volume autoresize is enabled. **Deprecated** Please, use wal_disk_autoexpand block instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#autoexpand DbInstance#autoexpand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#autoexpand DbInstance#autoexpand}
   */
   readonly autoexpand?: boolean | cdktf.IResolvable;
   /**
   * Maximum disk size for wal volume autoresize. **Deprecated** Please, use wal_disk_autoexpand block instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#max_disk_size DbInstance#max_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#max_disk_size DbInstance#max_disk_size}
   */
   readonly maxDiskSize?: number;
   /**
   * Size of the instance wal volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#size DbInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#size DbInstance#size}
   */
   readonly size: number;
   /**
   * The type of the instance wal volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#volume_type DbInstance#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#volume_type DbInstance#volume_type}
   */
   readonly volumeType: string;
 }
@@ -1647,7 +1647,7 @@ export class DbInstanceWalVolumeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance vkcs_db_instance}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance vkcs_db_instance}
 */
 export class DbInstance extends cdktf.TerraformResource {
 
@@ -1663,7 +1663,7 @@ export class DbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbInstance to import
-  * @param importFromId The id of the existing DbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1675,7 +1675,7 @@ export class DbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_instance vkcs_db_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/db_instance vkcs_db_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1686,8 +1686,8 @@ export class DbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

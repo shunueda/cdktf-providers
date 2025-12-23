@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_email_config
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_email_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ControllerEmailConfigConfig extends cdktf.TerraformMetaArgument
   /**
   * Email to receive important account and certification information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_email_config#admin_alert_email ControllerEmailConfig#admin_alert_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_email_config#admin_alert_email ControllerEmailConfig#admin_alert_email}
   */
   readonly adminAlertEmail: string;
   /**
   * Email to receive field notices and critical notices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_email_config#critical_alert_email ControllerEmailConfig#critical_alert_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_email_config#critical_alert_email ControllerEmailConfig#critical_alert_email}
   */
   readonly criticalAlertEmail: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_email_config#id ControllerEmailConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_email_config#id ControllerEmailConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface ControllerEmailConfigConfig extends cdktf.TerraformMetaArgument
   /**
   * Email to receive security and CVE (Common Vulnerabilities and Exposures) notification emails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_email_config#security_event_email ControllerEmailConfig#security_event_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_email_config#security_event_email ControllerEmailConfig#security_event_email}
   */
   readonly securityEventEmail: string;
   /**
   * Email to receive system/tunnel status notification emails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_email_config#status_change_email ControllerEmailConfig#status_change_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_email_config#status_change_email ControllerEmailConfig#status_change_email}
   */
   readonly statusChangeEmail: string;
   /**
   * Status change notification interval in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_email_config#status_change_notification_interval ControllerEmailConfig#status_change_notification_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_email_config#status_change_notification_interval ControllerEmailConfig#status_change_notification_interval}
   */
   readonly statusChangeNotificationInterval?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_email_config aviatrix_controller_email_config}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_email_config aviatrix_controller_email_config}
 */
 export class ControllerEmailConfig extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ControllerEmailConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ControllerEmailConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ControllerEmailConfig to import
-  * @param importFromId The id of the existing ControllerEmailConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_email_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ControllerEmailConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_email_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ControllerEmailConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ControllerEmailConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/controller_email_config aviatrix_controller_email_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/controller_email_config aviatrix_controller_email_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ControllerEmailConfig extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_controller_email_config',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

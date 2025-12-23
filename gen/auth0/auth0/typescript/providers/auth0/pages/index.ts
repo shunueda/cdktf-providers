@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PagesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#id Pages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#id Pages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface PagesConfig extends cdktf.TerraformMetaArguments {
   /**
   * change_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#change_password Pages#change_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#change_password Pages#change_password}
   */
   readonly changePassword?: PagesChangePassword;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#error Pages#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#error Pages#error}
   */
   readonly error?: PagesError;
   /**
   * guardian_mfa block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#guardian_mfa Pages#guardian_mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#guardian_mfa Pages#guardian_mfa}
   */
   readonly guardianMfa?: PagesGuardianMfa;
   /**
   * login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#login Pages#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#login Pages#login}
   */
   readonly login?: PagesLogin;
 }
@@ -43,13 +43,13 @@ export interface PagesChangePassword {
   /**
   * Indicates whether to use the custom Reset Password HTML (`true`) or the default Auth0 page (`false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#enabled Pages#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#enabled Pages#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Customized content for the Reset Password page. HTML format with supported [Liquid syntax](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#html Pages#html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#html Pages#html}
   */
   readonly html: string;
 }
@@ -158,19 +158,19 @@ export interface PagesError {
   /**
   * Customized content for the Error page. HTML format with supported [Liquid syntax](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#html Pages#html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#html Pages#html}
   */
   readonly html?: string;
   /**
   * Indicates whether to show the link to logs as part of the default error page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#show_log_link Pages#show_log_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#show_log_link Pages#show_log_link}
   */
   readonly showLogLink: boolean | cdktf.IResolvable;
   /**
   * URL to redirect to when an error occurs, instead of showing the default error page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#url Pages#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#url Pages#url}
   */
   readonly url?: string;
 }
@@ -311,13 +311,13 @@ export interface PagesGuardianMfa {
   /**
   * Indicates whether to use the custom Guardian MFA HTML (`true`) or the default Auth0 page (`false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#enabled Pages#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#enabled Pages#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Customized content for the Guardian MFA page. HTML format with supported [Liquid syntax](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#html Pages#html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#html Pages#html}
   */
   readonly html: string;
 }
@@ -426,13 +426,13 @@ export interface PagesLogin {
   /**
   * Indicates whether to use the custom Login page HTML (`true`) or the default Auth0 page (`false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#enabled Pages#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#enabled Pages#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Customized content for the Login page. HTML format with supported [Liquid syntax](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#html Pages#html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#html Pages#html}
   */
   readonly html: string;
 }
@@ -539,7 +539,7 @@ export class PagesLoginOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages auth0_pages}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages auth0_pages}
 */
 export class Pages extends cdktf.TerraformResource {
 
@@ -555,7 +555,7 @@ export class Pages extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pages to import
-  * @param importFromId The id of the existing Pages that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pages that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -567,7 +567,7 @@ export class Pages extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/pages auth0_pages} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/pages auth0_pages} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -578,8 +578,8 @@ export class Pages extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_pages',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

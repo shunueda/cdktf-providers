@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_proxy_profile
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_proxy_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EdgeProxyProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Edge NEO account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_proxy_profile#account_name EdgeProxyProfile#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_proxy_profile#account_name EdgeProxyProfile#account_name}
   */
   readonly accountName: string;
   /**
   * Server CA Certificate in base64 encoded PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_proxy_profile#ca_certificate EdgeProxyProfile#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_proxy_profile#ca_certificate EdgeProxyProfile#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_proxy_profile#id EdgeProxyProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_proxy_profile#id EdgeProxyProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface EdgeProxyProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * HTTPS proxy IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_proxy_profile#ip_address EdgeProxyProfile#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_proxy_profile#ip_address EdgeProxyProfile#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * HTTPS proxy Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_proxy_profile#port EdgeProxyProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_proxy_profile#port EdgeProxyProfile#port}
   */
   readonly port?: number;
   /**
   * Edge Proxy Profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_proxy_profile#proxy_profile_name EdgeProxyProfile#proxy_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_proxy_profile#proxy_profile_name EdgeProxyProfile#proxy_profile_name}
   */
   readonly proxyProfileName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_proxy_profile aviatrix_edge_proxy_profile}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_proxy_profile aviatrix_edge_proxy_profile}
 */
 export class EdgeProxyProfile extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class EdgeProxyProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeProxyProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeProxyProfile to import
-  * @param importFromId The id of the existing EdgeProxyProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_proxy_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeProxyProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_proxy_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeProxyProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class EdgeProxyProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_proxy_profile aviatrix_edge_proxy_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_proxy_profile aviatrix_edge_proxy_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class EdgeProxyProfile extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_proxy_profile',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

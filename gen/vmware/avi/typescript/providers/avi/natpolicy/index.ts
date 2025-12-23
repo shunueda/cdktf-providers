@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface NatpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#created_by Natpolicy#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#created_by Natpolicy#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#description Natpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#description Natpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#id Natpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#id Natpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#name Natpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#name Natpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#tenant_ref Natpolicy#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#tenant_ref Natpolicy#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#uuid Natpolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#uuid Natpolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#configpb_attributes Natpolicy#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#configpb_attributes Natpolicy#configpb_attributes}
   */
   readonly configpbAttributes?: NatpolicyConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#markers Natpolicy#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#markers Natpolicy#markers}
   */
   readonly markers?: NatpolicyMarkers[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#rules Natpolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#rules Natpolicy#rules}
   */
   readonly rules?: NatpolicyRules[] | cdktf.IResolvable;
 }
 export interface NatpolicyConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#version Natpolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#version Natpolicy#version}
   */
   readonly version?: string;
 }
@@ -171,11 +171,11 @@ export class NatpolicyConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface NatpolicyMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#key Natpolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#key Natpolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#values Natpolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#values Natpolicy#values}
   */
   readonly values?: string[];
 }
@@ -317,11 +317,11 @@ export class NatpolicyMarkersList extends cdktf.ComplexList {
 }
 export interface NatpolicyRulesActionNatInfoNatIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addr Natpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addr Natpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#type Natpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#type Natpolicy#type}
   */
   readonly type: string;
 }
@@ -460,11 +460,11 @@ export class NatpolicyRulesActionNatInfoNatIpList extends cdktf.ComplexList {
 }
 export interface NatpolicyRulesActionNatInfoNatIpRangeBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addr Natpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addr Natpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#type Natpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#type Natpolicy#type}
   */
   readonly type: string;
 }
@@ -603,11 +603,11 @@ export class NatpolicyRulesActionNatInfoNatIpRangeBeginList extends cdktf.Comple
 }
 export interface NatpolicyRulesActionNatInfoNatIpRangeEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addr Natpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addr Natpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#type Natpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#type Natpolicy#type}
   */
   readonly type: string;
 }
@@ -748,13 +748,13 @@ export interface NatpolicyRulesActionNatInfoNatIpRange {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#begin Natpolicy#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#begin Natpolicy#begin}
   */
   readonly begin: NatpolicyRulesActionNatInfoNatIpRangeBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#end Natpolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#end Natpolicy#end}
   */
   readonly end: NatpolicyRulesActionNatInfoNatIpRangeEnd[] | cdktf.IResolvable;
 }
@@ -895,13 +895,13 @@ export interface NatpolicyRulesActionNatInfo {
   /**
   * nat_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#nat_ip Natpolicy#nat_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#nat_ip Natpolicy#nat_ip}
   */
   readonly natIp?: NatpolicyRulesActionNatInfoNatIp[] | cdktf.IResolvable;
   /**
   * nat_ip_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#nat_ip_range Natpolicy#nat_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#nat_ip_range Natpolicy#nat_ip_range}
   */
   readonly natIpRange?: NatpolicyRulesActionNatInfoNatIpRange[] | cdktf.IResolvable;
 }
@@ -1046,13 +1046,13 @@ export class NatpolicyRulesActionNatInfoList extends cdktf.ComplexList {
 }
 export interface NatpolicyRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#type Natpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#type Natpolicy#type}
   */
   readonly type: string;
   /**
   * nat_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#nat_info Natpolicy#nat_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#nat_info Natpolicy#nat_info}
   */
   readonly natInfo?: NatpolicyRulesActionNatInfo[] | cdktf.IResolvable;
 }
@@ -1194,11 +1194,11 @@ export class NatpolicyRulesActionList extends cdktf.ComplexList {
 }
 export interface NatpolicyRulesMatchDestinationIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addr Natpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addr Natpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#type Natpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#type Natpolicy#type}
   */
   readonly type: string;
 }
@@ -1337,11 +1337,11 @@ export class NatpolicyRulesMatchDestinationIpAddrsList extends cdktf.ComplexList
 }
 export interface NatpolicyRulesMatchDestinationIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addr Natpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addr Natpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#type Natpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#type Natpolicy#type}
   */
   readonly type: string;
 }
@@ -1480,13 +1480,13 @@ export class NatpolicyRulesMatchDestinationIpPrefixesIpAddrList extends cdktf.Co
 }
 export interface NatpolicyRulesMatchDestinationIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#mask Natpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#mask Natpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#ip_addr Natpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#ip_addr Natpolicy#ip_addr}
   */
   readonly ipAddr: NatpolicyRulesMatchDestinationIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -1625,11 +1625,11 @@ export class NatpolicyRulesMatchDestinationIpPrefixesList extends cdktf.ComplexL
 }
 export interface NatpolicyRulesMatchDestinationIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addr Natpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addr Natpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#type Natpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#type Natpolicy#type}
   */
   readonly type: string;
 }
@@ -1768,11 +1768,11 @@ export class NatpolicyRulesMatchDestinationIpRangesBeginList extends cdktf.Compl
 }
 export interface NatpolicyRulesMatchDestinationIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addr Natpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addr Natpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#type Natpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#type Natpolicy#type}
   */
   readonly type: string;
 }
@@ -1913,13 +1913,13 @@ export interface NatpolicyRulesMatchDestinationIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#begin Natpolicy#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#begin Natpolicy#begin}
   */
   readonly begin: NatpolicyRulesMatchDestinationIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#end Natpolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#end Natpolicy#end}
   */
   readonly end: NatpolicyRulesMatchDestinationIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -2058,29 +2058,29 @@ export class NatpolicyRulesMatchDestinationIpRangesList extends cdktf.ComplexLis
 }
 export interface NatpolicyRulesMatchDestinationIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#group_refs Natpolicy#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#group_refs Natpolicy#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#match_criteria Natpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#match_criteria Natpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addrs Natpolicy#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addrs Natpolicy#addrs}
   */
   readonly addrs?: NatpolicyRulesMatchDestinationIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#prefixes Natpolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#prefixes Natpolicy#prefixes}
   */
   readonly prefixes?: NatpolicyRulesMatchDestinationIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#ranges Natpolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#ranges Natpolicy#ranges}
   */
   readonly ranges?: NatpolicyRulesMatchDestinationIpRanges[] | cdktf.IResolvable;
 }
@@ -2309,11 +2309,11 @@ export class NatpolicyRulesMatchDestinationIpList extends cdktf.ComplexList {
 }
 export interface NatpolicyRulesMatchServicesDestinationPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#match_criteria Natpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#match_criteria Natpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#ports Natpolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#ports Natpolicy#ports}
   */
   readonly ports: number[];
 }
@@ -2452,11 +2452,11 @@ export class NatpolicyRulesMatchServicesDestinationPortList extends cdktf.Comple
 }
 export interface NatpolicyRulesMatchServicesProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#match_criteria Natpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#match_criteria Natpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#protocol Natpolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#protocol Natpolicy#protocol}
   */
   readonly protocol: string;
 }
@@ -2595,11 +2595,11 @@ export class NatpolicyRulesMatchServicesProtocolList extends cdktf.ComplexList {
 }
 export interface NatpolicyRulesMatchServicesSourcePort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#match_criteria Natpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#match_criteria Natpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#ports Natpolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#ports Natpolicy#ports}
   */
   readonly ports: number[];
 }
@@ -2740,19 +2740,19 @@ export interface NatpolicyRulesMatchServices {
   /**
   * destination_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#destination_port Natpolicy#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#destination_port Natpolicy#destination_port}
   */
   readonly destinationPort?: NatpolicyRulesMatchServicesDestinationPort[] | cdktf.IResolvable;
   /**
   * protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#protocol Natpolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#protocol Natpolicy#protocol}
   */
   readonly protocol?: NatpolicyRulesMatchServicesProtocol[] | cdktf.IResolvable;
   /**
   * source_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#source_port Natpolicy#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#source_port Natpolicy#source_port}
   */
   readonly sourcePort?: NatpolicyRulesMatchServicesSourcePort[] | cdktf.IResolvable;
 }
@@ -2926,11 +2926,11 @@ export class NatpolicyRulesMatchServicesList extends cdktf.ComplexList {
 }
 export interface NatpolicyRulesMatchSourceIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addr Natpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addr Natpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#type Natpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#type Natpolicy#type}
   */
   readonly type: string;
 }
@@ -3069,11 +3069,11 @@ export class NatpolicyRulesMatchSourceIpAddrsList extends cdktf.ComplexList {
 }
 export interface NatpolicyRulesMatchSourceIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addr Natpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addr Natpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#type Natpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#type Natpolicy#type}
   */
   readonly type: string;
 }
@@ -3212,13 +3212,13 @@ export class NatpolicyRulesMatchSourceIpPrefixesIpAddrList extends cdktf.Complex
 }
 export interface NatpolicyRulesMatchSourceIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#mask Natpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#mask Natpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#ip_addr Natpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#ip_addr Natpolicy#ip_addr}
   */
   readonly ipAddr: NatpolicyRulesMatchSourceIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -3357,11 +3357,11 @@ export class NatpolicyRulesMatchSourceIpPrefixesList extends cdktf.ComplexList {
 }
 export interface NatpolicyRulesMatchSourceIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addr Natpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addr Natpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#type Natpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#type Natpolicy#type}
   */
   readonly type: string;
 }
@@ -3500,11 +3500,11 @@ export class NatpolicyRulesMatchSourceIpRangesBeginList extends cdktf.ComplexLis
 }
 export interface NatpolicyRulesMatchSourceIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addr Natpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addr Natpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#type Natpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#type Natpolicy#type}
   */
   readonly type: string;
 }
@@ -3645,13 +3645,13 @@ export interface NatpolicyRulesMatchSourceIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#begin Natpolicy#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#begin Natpolicy#begin}
   */
   readonly begin: NatpolicyRulesMatchSourceIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#end Natpolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#end Natpolicy#end}
   */
   readonly end: NatpolicyRulesMatchSourceIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -3790,29 +3790,29 @@ export class NatpolicyRulesMatchSourceIpRangesList extends cdktf.ComplexList {
 }
 export interface NatpolicyRulesMatchSourceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#group_refs Natpolicy#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#group_refs Natpolicy#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#match_criteria Natpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#match_criteria Natpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#addrs Natpolicy#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#addrs Natpolicy#addrs}
   */
   readonly addrs?: NatpolicyRulesMatchSourceIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#prefixes Natpolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#prefixes Natpolicy#prefixes}
   */
   readonly prefixes?: NatpolicyRulesMatchSourceIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#ranges Natpolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#ranges Natpolicy#ranges}
   */
   readonly ranges?: NatpolicyRulesMatchSourceIpRanges[] | cdktf.IResolvable;
 }
@@ -4043,19 +4043,19 @@ export interface NatpolicyRulesMatch {
   /**
   * destination_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#destination_ip Natpolicy#destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#destination_ip Natpolicy#destination_ip}
   */
   readonly destinationIp?: NatpolicyRulesMatchDestinationIp[] | cdktf.IResolvable;
   /**
   * services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#services Natpolicy#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#services Natpolicy#services}
   */
   readonly services?: NatpolicyRulesMatchServices[] | cdktf.IResolvable;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#source_ip Natpolicy#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#source_ip Natpolicy#source_ip}
   */
   readonly sourceIp?: NatpolicyRulesMatchSourceIp[] | cdktf.IResolvable;
 }
@@ -4229,31 +4229,31 @@ export class NatpolicyRulesMatchList extends cdktf.ComplexList {
 }
 export interface NatpolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#created_by Natpolicy#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#created_by Natpolicy#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#enable Natpolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#enable Natpolicy#enable}
   */
   readonly enable: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#index Natpolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#index Natpolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#name Natpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#name Natpolicy#name}
   */
   readonly name: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#action Natpolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#action Natpolicy#action}
   */
   readonly action: NatpolicyRulesAction[] | cdktf.IResolvable;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#match Natpolicy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#match Natpolicy#match}
   */
   readonly match: NatpolicyRulesMatch[] | cdktf.IResolvable;
 }
@@ -4499,7 +4499,7 @@ export class NatpolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy avi_natpolicy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy avi_natpolicy}
 */
 export class Natpolicy extends cdktf.TerraformResource {
 
@@ -4515,7 +4515,7 @@ export class Natpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Natpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Natpolicy to import
-  * @param importFromId The id of the existing Natpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Natpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Natpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4527,7 +4527,7 @@ export class Natpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/natpolicy avi_natpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/natpolicy avi_natpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4538,8 +4538,8 @@ export class Natpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'avi_natpolicy',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

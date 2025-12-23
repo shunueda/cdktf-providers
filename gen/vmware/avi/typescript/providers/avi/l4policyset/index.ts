@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface L4PolicysetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#created_by L4Policyset#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#created_by L4Policyset#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#description L4Policyset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#description L4Policyset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#id L4Policyset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#id L4Policyset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#is_internal_policy L4Policyset#is_internal_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#is_internal_policy L4Policyset#is_internal_policy}
   */
   readonly isInternalPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#name L4Policyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#name L4Policyset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#tenant_ref L4Policyset#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#tenant_ref L4Policyset#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#uuid L4Policyset#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#uuid L4Policyset#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#configpb_attributes L4Policyset#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#configpb_attributes L4Policyset#configpb_attributes}
   */
   readonly configpbAttributes?: L4PolicysetConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * l4_connection_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#l4_connection_policy L4Policyset#l4_connection_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#l4_connection_policy L4Policyset#l4_connection_policy}
   */
   readonly l4ConnectionPolicy?: L4PolicysetL4ConnectionPolicy[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#markers L4Policyset#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#markers L4Policyset#markers}
   */
   readonly markers?: L4PolicysetMarkers[] | cdktf.IResolvable;
 }
 export interface L4PolicysetConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#version L4Policyset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#version L4Policyset#version}
   */
   readonly version?: string;
 }
@@ -175,15 +175,15 @@ export class L4PolicysetConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface L4PolicysetL4ConnectionPolicyRulesActionSelectPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#action_type L4Policyset#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#action_type L4Policyset#action_type}
   */
   readonly actionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#pool_group_ref L4Policyset#pool_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#pool_group_ref L4Policyset#pool_group_ref}
   */
   readonly poolGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#pool_ref L4Policyset#pool_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#pool_ref L4Policyset#pool_ref}
   */
   readonly poolRef?: string;
 }
@@ -356,7 +356,7 @@ export interface L4PolicysetL4ConnectionPolicyRulesAction {
   /**
   * select_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#select_pool L4Policyset#select_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#select_pool L4Policyset#select_pool}
   */
   readonly selectPool?: L4PolicysetL4ConnectionPolicyRulesActionSelectPool[] | cdktf.IResolvable;
 }
@@ -472,11 +472,11 @@ export class L4PolicysetL4ConnectionPolicyRulesActionList extends cdktf.ComplexL
 }
 export interface L4PolicysetL4ConnectionPolicyRulesMatchClientIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#addr L4Policyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#addr L4Policyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#type L4Policyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#type L4Policyset#type}
   */
   readonly type: string;
 }
@@ -615,11 +615,11 @@ export class L4PolicysetL4ConnectionPolicyRulesMatchClientIpAddrsList extends cd
 }
 export interface L4PolicysetL4ConnectionPolicyRulesMatchClientIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#addr L4Policyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#addr L4Policyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#type L4Policyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#type L4Policyset#type}
   */
   readonly type: string;
 }
@@ -758,13 +758,13 @@ export class L4PolicysetL4ConnectionPolicyRulesMatchClientIpPrefixesIpAddrList e
 }
 export interface L4PolicysetL4ConnectionPolicyRulesMatchClientIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#mask L4Policyset#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#mask L4Policyset#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#ip_addr L4Policyset#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#ip_addr L4Policyset#ip_addr}
   */
   readonly ipAddr: L4PolicysetL4ConnectionPolicyRulesMatchClientIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -903,11 +903,11 @@ export class L4PolicysetL4ConnectionPolicyRulesMatchClientIpPrefixesList extends
 }
 export interface L4PolicysetL4ConnectionPolicyRulesMatchClientIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#addr L4Policyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#addr L4Policyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#type L4Policyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#type L4Policyset#type}
   */
   readonly type: string;
 }
@@ -1046,11 +1046,11 @@ export class L4PolicysetL4ConnectionPolicyRulesMatchClientIpRangesBeginList exte
 }
 export interface L4PolicysetL4ConnectionPolicyRulesMatchClientIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#addr L4Policyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#addr L4Policyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#type L4Policyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#type L4Policyset#type}
   */
   readonly type: string;
 }
@@ -1191,13 +1191,13 @@ export interface L4PolicysetL4ConnectionPolicyRulesMatchClientIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#begin L4Policyset#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#begin L4Policyset#begin}
   */
   readonly begin: L4PolicysetL4ConnectionPolicyRulesMatchClientIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#end L4Policyset#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#end L4Policyset#end}
   */
   readonly end: L4PolicysetL4ConnectionPolicyRulesMatchClientIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -1336,29 +1336,29 @@ export class L4PolicysetL4ConnectionPolicyRulesMatchClientIpRangesList extends c
 }
 export interface L4PolicysetL4ConnectionPolicyRulesMatchClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#group_refs L4Policyset#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#group_refs L4Policyset#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#match_criteria L4Policyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#match_criteria L4Policyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#addrs L4Policyset#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#addrs L4Policyset#addrs}
   */
   readonly addrs?: L4PolicysetL4ConnectionPolicyRulesMatchClientIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#prefixes L4Policyset#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#prefixes L4Policyset#prefixes}
   */
   readonly prefixes?: L4PolicysetL4ConnectionPolicyRulesMatchClientIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#ranges L4Policyset#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#ranges L4Policyset#ranges}
   */
   readonly ranges?: L4PolicysetL4ConnectionPolicyRulesMatchClientIpRanges[] | cdktf.IResolvable;
 }
@@ -1587,11 +1587,11 @@ export class L4PolicysetL4ConnectionPolicyRulesMatchClientIpList extends cdktf.C
 }
 export interface L4PolicysetL4ConnectionPolicyRulesMatchPortPortRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#end L4Policyset#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#end L4Policyset#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#start L4Policyset#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#start L4Policyset#start}
   */
   readonly start: string;
 }
@@ -1730,17 +1730,17 @@ export class L4PolicysetL4ConnectionPolicyRulesMatchPortPortRangesList extends c
 }
 export interface L4PolicysetL4ConnectionPolicyRulesMatchPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#match_criteria L4Policyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#match_criteria L4Policyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#ports L4Policyset#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#ports L4Policyset#ports}
   */
   readonly ports?: number[];
   /**
   * port_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#port_ranges L4Policyset#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#port_ranges L4Policyset#port_ranges}
   */
   readonly portRanges?: L4PolicysetL4ConnectionPolicyRulesMatchPortPortRanges[] | cdktf.IResolvable;
 }
@@ -1911,11 +1911,11 @@ export class L4PolicysetL4ConnectionPolicyRulesMatchPortList extends cdktf.Compl
 }
 export interface L4PolicysetL4ConnectionPolicyRulesMatchProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#match_criteria L4Policyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#match_criteria L4Policyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#protocol L4Policyset#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#protocol L4Policyset#protocol}
   */
   readonly protocol: string;
 }
@@ -2056,19 +2056,19 @@ export interface L4PolicysetL4ConnectionPolicyRulesMatch {
   /**
   * client_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#client_ip L4Policyset#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#client_ip L4Policyset#client_ip}
   */
   readonly clientIp?: L4PolicysetL4ConnectionPolicyRulesMatchClientIp[] | cdktf.IResolvable;
   /**
   * port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#port L4Policyset#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#port L4Policyset#port}
   */
   readonly port?: L4PolicysetL4ConnectionPolicyRulesMatchPort[] | cdktf.IResolvable;
   /**
   * protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#protocol L4Policyset#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#protocol L4Policyset#protocol}
   */
   readonly protocol?: L4PolicysetL4ConnectionPolicyRulesMatchProtocol[] | cdktf.IResolvable;
 }
@@ -2242,27 +2242,27 @@ export class L4PolicysetL4ConnectionPolicyRulesMatchList extends cdktf.ComplexLi
 }
 export interface L4PolicysetL4ConnectionPolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#enable L4Policyset#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#enable L4Policyset#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#index L4Policyset#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#index L4Policyset#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#name L4Policyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#name L4Policyset#name}
   */
   readonly name: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#action L4Policyset#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#action L4Policyset#action}
   */
   readonly action?: L4PolicysetL4ConnectionPolicyRulesAction[] | cdktf.IResolvable;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#match L4Policyset#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#match L4Policyset#match}
   */
   readonly match?: L4PolicysetL4ConnectionPolicyRulesMatch[] | cdktf.IResolvable;
 }
@@ -2490,7 +2490,7 @@ export interface L4PolicysetL4ConnectionPolicy {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#rules L4Policyset#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#rules L4Policyset#rules}
   */
   readonly rules?: L4PolicysetL4ConnectionPolicyRules[] | cdktf.IResolvable;
 }
@@ -2606,11 +2606,11 @@ export class L4PolicysetL4ConnectionPolicyList extends cdktf.ComplexList {
 }
 export interface L4PolicysetMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#key L4Policyset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#key L4Policyset#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#values L4Policyset#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#values L4Policyset#values}
   */
   readonly values?: string[];
 }
@@ -2752,7 +2752,7 @@ export class L4PolicysetMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset avi_l4policyset}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset avi_l4policyset}
 */
 export class L4Policyset extends cdktf.TerraformResource {
 
@@ -2768,7 +2768,7 @@ export class L4Policyset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a L4Policyset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the L4Policyset to import
-  * @param importFromId The id of the existing L4Policyset that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing L4Policyset that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the L4Policyset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2780,7 +2780,7 @@ export class L4Policyset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/l4policyset avi_l4policyset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/l4policyset avi_l4policyset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2791,8 +2791,8 @@ export class L4Policyset extends cdktf.TerraformResource {
       terraformResourceType: 'avi_l4policyset',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

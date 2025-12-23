@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/extra_disk_size
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/extra_disk_size
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ExtraDiskSizeConfig extends cdktf.TerraformMetaArguments {
   /**
   * When resizing disk, allow cluster downtime to do so
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/extra_disk_size#allow_downtime ExtraDiskSize#allow_downtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/extra_disk_size#allow_downtime ExtraDiskSize#allow_downtime}
   */
   readonly allowDowntime?: boolean | cdktf.IResolvable;
   /**
   * Extra disk size in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/extra_disk_size#extra_disk_size ExtraDiskSize#extra_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/extra_disk_size#extra_disk_size ExtraDiskSize#extra_disk_size}
   */
   readonly extraDiskSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/extra_disk_size#id ExtraDiskSize#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/extra_disk_size#id ExtraDiskSize#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface ExtraDiskSizeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/extra_disk_size#instance_id ExtraDiskSize#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/extra_disk_size#instance_id ExtraDiskSize#instance_id}
   */
   readonly instanceId: number;
   /**
   * Configurable sleep time in seconds between retries for resizing the disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/extra_disk_size#sleep ExtraDiskSize#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/extra_disk_size#sleep ExtraDiskSize#sleep}
   */
   readonly sleep?: number;
   /**
   * Configurable timeout time in seconds for resizing the disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/extra_disk_size#timeout ExtraDiskSize#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/extra_disk_size#timeout ExtraDiskSize#timeout}
   */
   readonly timeout?: number;
 }
@@ -132,7 +132,7 @@ export class ExtraDiskSizeNodesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/extra_disk_size cloudamqp_extra_disk_size}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/extra_disk_size cloudamqp_extra_disk_size}
 */
 export class ExtraDiskSize extends cdktf.TerraformResource {
 
@@ -148,7 +148,7 @@ export class ExtraDiskSize extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExtraDiskSize resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExtraDiskSize to import
-  * @param importFromId The id of the existing ExtraDiskSize that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/extra_disk_size#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExtraDiskSize that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/extra_disk_size#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExtraDiskSize to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -160,7 +160,7 @@ export class ExtraDiskSize extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/extra_disk_size cloudamqp_extra_disk_size} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/extra_disk_size cloudamqp_extra_disk_size} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -171,8 +171,8 @@ export class ExtraDiskSize extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_extra_disk_size',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

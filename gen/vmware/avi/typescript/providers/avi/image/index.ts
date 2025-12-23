@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,126 @@ import * as cdktf from 'cdktf';
 
 export interface ImageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#controller_patch_name Image#controller_patch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#controller_patch_name Image#controller_patch_name}
   */
   readonly controllerPatchName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#controller_patch_ref Image#controller_patch_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#controller_patch_ref Image#controller_patch_ref}
   */
   readonly controllerPatchRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#duration Image#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#duration Image#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#end_time Image#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#end_time Image#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#fips_mode_transition_applicable Image#fips_mode_transition_applicable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#fips_mode_transition_applicable Image#fips_mode_transition_applicable}
   */
   readonly fipsModeTransitionApplicable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#id Image#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#id Image#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#name Image#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#name Image#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#progress Image#progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#progress Image#progress}
   */
   readonly progress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#se_patch_name Image#se_patch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#se_patch_name Image#se_patch_name}
   */
   readonly sePatchName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#se_patch_ref Image#se_patch_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#se_patch_ref Image#se_patch_ref}
   */
   readonly sePatchRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#start_time Image#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#start_time Image#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#tasks_completed Image#tasks_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#tasks_completed Image#tasks_completed}
   */
   readonly tasksCompleted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#tenant_ref Image#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#tenant_ref Image#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#total_tasks Image#total_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#total_tasks Image#total_tasks}
   */
   readonly totalTasks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#type Image#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#type Image#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#uber_bundle Image#uber_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#uber_bundle Image#uber_bundle}
   */
   readonly uberBundle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#uuid Image#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#uuid Image#uuid}
   */
   readonly uuid?: string;
   /**
   * cloud_info_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#cloud_info_values Image#cloud_info_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#cloud_info_values Image#cloud_info_values}
   */
   readonly cloudInfoValues?: ImageCloudInfoValues[] | cdktf.IResolvable;
   /**
   * controller_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#controller_info Image#controller_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#controller_info Image#controller_info}
   */
   readonly controllerInfo?: ImageControllerInfo[] | cdktf.IResolvable;
   /**
+  * dryrun_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#dryrun_info Image#dryrun_info}
+  */
+  readonly dryrunInfo?: ImageDryrunInfo[] | cdktf.IResolvable;
+  /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#events Image#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#events Image#events}
   */
   readonly events?: ImageEvents[] | cdktf.IResolvable;
   /**
   * img_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#img_state Image#img_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#img_state Image#img_state}
   */
   readonly imgState?: ImageImgState[] | cdktf.IResolvable;
   /**
   * migrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#migrations Image#migrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#migrations Image#migrations}
   */
   readonly migrations?: ImageMigrations[] | cdktf.IResolvable;
   /**
   * se_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#se_info Image#se_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#se_info Image#se_info}
   */
   readonly seInfo?: ImageSeInfo[] | cdktf.IResolvable;
 }
 export interface ImageCloudInfoValuesCloudDataValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#key Image#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#key Image#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#values Image#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#values Image#values}
   */
   readonly values?: string[];
 }
@@ -266,13 +272,13 @@ export class ImageCloudInfoValuesCloudDataValuesList extends cdktf.ComplexList {
 }
 export interface ImageCloudInfoValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#cloud_name Image#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#cloud_name Image#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * cloud_data_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#cloud_data_values Image#cloud_data_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#cloud_data_values Image#cloud_data_values}
   */
   readonly cloudDataValues?: ImageCloudInfoValuesCloudDataValues[] | cdktf.IResolvable;
 }
@@ -417,39 +423,35 @@ export class ImageCloudInfoValuesList extends cdktf.ComplexList {
 }
 export interface ImageControllerInfoBuild {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#build_no Image#build_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#build_no Image#build_no}
   */
   readonly buildNo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#date Image#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#date Image#date}
   */
   readonly date?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#min_version Image#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#min_version Image#min_version}
   */
   readonly minVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#patch_version Image#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#patch_version Image#patch_version}
   */
   readonly patchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#product Image#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#product Image#product}
   */
   readonly product?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#product_name Image#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#product_name Image#product_name}
   */
   readonly productName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#remote_image_ref Image#remote_image_ref}
-  */
-  readonly remoteImageRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#tag Image#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#tag Image#tag}
   */
   readonly tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#version Image#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#version Image#version}
   */
   readonly version?: string;
 }
@@ -466,7 +468,6 @@ export function imageControllerInfoBuildToTerraform(struct?: ImageControllerInfo
     patch_version: cdktf.stringToTerraform(struct!.patchVersion),
     product: cdktf.stringToTerraform(struct!.product),
     product_name: cdktf.stringToTerraform(struct!.productName),
-    remote_image_ref: cdktf.stringToTerraform(struct!.remoteImageRef),
     tag: cdktf.stringToTerraform(struct!.tag),
     version: cdktf.stringToTerraform(struct!.version),
   }
@@ -511,12 +512,6 @@ export function imageControllerInfoBuildToHclTerraform(struct?: ImageControllerI
     },
     product_name: {
       value: cdktf.stringToHclTerraform(struct!.productName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    remote_image_ref: {
-      value: cdktf.stringToHclTerraform(struct!.remoteImageRef),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -583,10 +578,6 @@ export class ImageControllerInfoBuildOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.productName = this._productName;
     }
-    if (this._remoteImageRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.remoteImageRef = this._remoteImageRef;
-    }
     if (this._tag !== undefined) {
       hasAnyValues = true;
       internalValueResult.tag = this._tag;
@@ -608,7 +599,6 @@ export class ImageControllerInfoBuildOutputReference extends cdktf.ComplexObject
       this._patchVersion = undefined;
       this._product = undefined;
       this._productName = undefined;
-      this._remoteImageRef = undefined;
       this._tag = undefined;
       this._version = undefined;
     }
@@ -625,7 +615,6 @@ export class ImageControllerInfoBuildOutputReference extends cdktf.ComplexObject
       this._patchVersion = value.patchVersion;
       this._product = value.product;
       this._productName = value.productName;
-      this._remoteImageRef = value.remoteImageRef;
       this._tag = value.tag;
       this._version = value.version;
     }
@@ -727,22 +716,6 @@ export class ImageControllerInfoBuildOutputReference extends cdktf.ComplexObject
     return this._productName;
   }
 
-  // remote_image_ref - computed: true, optional: true, required: false
-  private _remoteImageRef?: string; 
-  public get remoteImageRef() {
-    return this.getStringAttribute('remote_image_ref');
-  }
-  public set remoteImageRef(value: string) {
-    this._remoteImageRef = value;
-  }
-  public resetRemoteImageRef() {
-    this._remoteImageRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get remoteImageRefInput() {
-    return this._remoteImageRef;
-  }
-
   // tag - computed: true, optional: true, required: false
   private _tag?: string; 
   public get tag() {
@@ -797,11 +770,11 @@ export class ImageControllerInfoBuildList extends cdktf.ComplexList {
 }
 export interface ImageControllerInfoPatchRebootListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#patch_version Image#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#patch_version Image#patch_version}
   */
   readonly patchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#reboot Image#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#reboot Image#reboot}
   */
   readonly reboot?: string;
 }
@@ -946,17 +919,17 @@ export class ImageControllerInfoPatchRebootListStructList extends cdktf.ComplexL
 }
 export interface ImageControllerInfoPatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#patch_type Image#patch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#patch_type Image#patch_type}
   */
   readonly patchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#reboot Image#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#reboot Image#reboot}
   */
   readonly reboot?: string;
   /**
   * reboot_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#reboot_list Image#reboot_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#reboot_list Image#reboot_list}
   */
   readonly rebootList?: ImageControllerInfoPatchRebootListStruct[] | cdktf.IResolvable;
 }
@@ -1130,23 +1103,23 @@ export class ImageControllerInfoPatchList extends cdktf.ComplexList {
 }
 export interface ImageControllerInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#hash Image#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#hash Image#hash}
   */
   readonly hash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#path Image#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#path Image#path}
   */
   readonly path?: string;
   /**
   * build block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#build Image#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#build Image#build}
   */
   readonly buildAttribute?: ImageControllerInfoBuild[] | cdktf.IResolvable;
   /**
   * patch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#patch Image#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#patch Image#patch}
   */
   readonly patch?: ImageControllerInfoPatch[] | cdktf.IResolvable;
 }
@@ -1347,13 +1320,912 @@ export class ImageControllerInfoList extends cdktf.ComplexList {
     return new ImageControllerInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ImageDryrunInfoBuild {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#build_no Image#build_no}
+  */
+  readonly buildNo?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#date Image#date}
+  */
+  readonly date?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#min_version Image#min_version}
+  */
+  readonly minVersion?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#patch_version Image#patch_version}
+  */
+  readonly patchVersion?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#product Image#product}
+  */
+  readonly product?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#product_name Image#product_name}
+  */
+  readonly productName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#tag Image#tag}
+  */
+  readonly tag?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#version Image#version}
+  */
+  readonly version?: string;
+}
+
+export function imageDryrunInfoBuildToTerraform(struct?: ImageDryrunInfoBuild | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    build_no: cdktf.stringToTerraform(struct!.buildNo),
+    date: cdktf.stringToTerraform(struct!.date),
+    min_version: cdktf.stringToTerraform(struct!.minVersion),
+    patch_version: cdktf.stringToTerraform(struct!.patchVersion),
+    product: cdktf.stringToTerraform(struct!.product),
+    product_name: cdktf.stringToTerraform(struct!.productName),
+    tag: cdktf.stringToTerraform(struct!.tag),
+    version: cdktf.stringToTerraform(struct!.version),
+  }
+}
+
+
+export function imageDryrunInfoBuildToHclTerraform(struct?: ImageDryrunInfoBuild | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    build_no: {
+      value: cdktf.stringToHclTerraform(struct!.buildNo),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    date: {
+      value: cdktf.stringToHclTerraform(struct!.date),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    min_version: {
+      value: cdktf.stringToHclTerraform(struct!.minVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    patch_version: {
+      value: cdktf.stringToHclTerraform(struct!.patchVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    product: {
+      value: cdktf.stringToHclTerraform(struct!.product),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    product_name: {
+      value: cdktf.stringToHclTerraform(struct!.productName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tag: {
+      value: cdktf.stringToHclTerraform(struct!.tag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ImageDryrunInfoBuildOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ImageDryrunInfoBuild | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._buildNo !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.buildNo = this._buildNo;
+    }
+    if (this._date !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.date = this._date;
+    }
+    if (this._minVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minVersion = this._minVersion;
+    }
+    if (this._patchVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.patchVersion = this._patchVersion;
+    }
+    if (this._product !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.product = this._product;
+    }
+    if (this._productName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.productName = this._productName;
+    }
+    if (this._tag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tag = this._tag;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ImageDryrunInfoBuild | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._buildNo = undefined;
+      this._date = undefined;
+      this._minVersion = undefined;
+      this._patchVersion = undefined;
+      this._product = undefined;
+      this._productName = undefined;
+      this._tag = undefined;
+      this._version = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._buildNo = value.buildNo;
+      this._date = value.date;
+      this._minVersion = value.minVersion;
+      this._patchVersion = value.patchVersion;
+      this._product = value.product;
+      this._productName = value.productName;
+      this._tag = value.tag;
+      this._version = value.version;
+    }
+  }
+
+  // build_no - computed: true, optional: true, required: false
+  private _buildNo?: string; 
+  public get buildNo() {
+    return this.getStringAttribute('build_no');
+  }
+  public set buildNo(value: string) {
+    this._buildNo = value;
+  }
+  public resetBuildNo() {
+    this._buildNo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get buildNoInput() {
+    return this._buildNo;
+  }
+
+  // date - computed: true, optional: true, required: false
+  private _date?: string; 
+  public get date() {
+    return this.getStringAttribute('date');
+  }
+  public set date(value: string) {
+    this._date = value;
+  }
+  public resetDate() {
+    this._date = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dateInput() {
+    return this._date;
+  }
+
+  // min_version - computed: true, optional: true, required: false
+  private _minVersion?: string; 
+  public get minVersion() {
+    return this.getStringAttribute('min_version');
+  }
+  public set minVersion(value: string) {
+    this._minVersion = value;
+  }
+  public resetMinVersion() {
+    this._minVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minVersionInput() {
+    return this._minVersion;
+  }
+
+  // patch_version - computed: true, optional: true, required: false
+  private _patchVersion?: string; 
+  public get patchVersion() {
+    return this.getStringAttribute('patch_version');
+  }
+  public set patchVersion(value: string) {
+    this._patchVersion = value;
+  }
+  public resetPatchVersion() {
+    this._patchVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get patchVersionInput() {
+    return this._patchVersion;
+  }
+
+  // product - computed: true, optional: true, required: false
+  private _product?: string; 
+  public get product() {
+    return this.getStringAttribute('product');
+  }
+  public set product(value: string) {
+    this._product = value;
+  }
+  public resetProduct() {
+    this._product = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get productInput() {
+    return this._product;
+  }
+
+  // product_name - computed: true, optional: true, required: false
+  private _productName?: string; 
+  public get productName() {
+    return this.getStringAttribute('product_name');
+  }
+  public set productName(value: string) {
+    this._productName = value;
+  }
+  public resetProductName() {
+    this._productName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get productNameInput() {
+    return this._productName;
+  }
+
+  // tag - computed: true, optional: true, required: false
+  private _tag?: string; 
+  public get tag() {
+    return this.getStringAttribute('tag');
+  }
+  public set tag(value: string) {
+    this._tag = value;
+  }
+  public resetTag() {
+    this._tag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagInput() {
+    return this._tag;
+  }
+
+  // version - computed: true, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+
+export class ImageDryrunInfoBuildList extends cdktf.ComplexList {
+  public internalValue? : ImageDryrunInfoBuild[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ImageDryrunInfoBuildOutputReference {
+    return new ImageDryrunInfoBuildOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ImageDryrunInfoPatchRebootListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#patch_version Image#patch_version}
+  */
+  readonly patchVersion?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#reboot Image#reboot}
+  */
+  readonly reboot?: string;
+}
+
+export function imageDryrunInfoPatchRebootListStructToTerraform(struct?: ImageDryrunInfoPatchRebootListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    patch_version: cdktf.stringToTerraform(struct!.patchVersion),
+    reboot: cdktf.stringToTerraform(struct!.reboot),
+  }
+}
+
+
+export function imageDryrunInfoPatchRebootListStructToHclTerraform(struct?: ImageDryrunInfoPatchRebootListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    patch_version: {
+      value: cdktf.stringToHclTerraform(struct!.patchVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    reboot: {
+      value: cdktf.stringToHclTerraform(struct!.reboot),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ImageDryrunInfoPatchRebootListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ImageDryrunInfoPatchRebootListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._patchVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.patchVersion = this._patchVersion;
+    }
+    if (this._reboot !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reboot = this._reboot;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ImageDryrunInfoPatchRebootListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._patchVersion = undefined;
+      this._reboot = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._patchVersion = value.patchVersion;
+      this._reboot = value.reboot;
+    }
+  }
+
+  // patch_version - computed: true, optional: true, required: false
+  private _patchVersion?: string; 
+  public get patchVersion() {
+    return this.getStringAttribute('patch_version');
+  }
+  public set patchVersion(value: string) {
+    this._patchVersion = value;
+  }
+  public resetPatchVersion() {
+    this._patchVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get patchVersionInput() {
+    return this._patchVersion;
+  }
+
+  // reboot - computed: true, optional: true, required: false
+  private _reboot?: string; 
+  public get reboot() {
+    return this.getStringAttribute('reboot');
+  }
+  public set reboot(value: string) {
+    this._reboot = value;
+  }
+  public resetReboot() {
+    this._reboot = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rebootInput() {
+    return this._reboot;
+  }
+}
+
+export class ImageDryrunInfoPatchRebootListStructList extends cdktf.ComplexList {
+  public internalValue? : ImageDryrunInfoPatchRebootListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ImageDryrunInfoPatchRebootListStructOutputReference {
+    return new ImageDryrunInfoPatchRebootListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ImageDryrunInfoPatch {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#patch_type Image#patch_type}
+  */
+  readonly patchType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#reboot Image#reboot}
+  */
+  readonly reboot?: string;
+  /**
+  * reboot_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#reboot_list Image#reboot_list}
+  */
+  readonly rebootList?: ImageDryrunInfoPatchRebootListStruct[] | cdktf.IResolvable;
+}
+
+export function imageDryrunInfoPatchToTerraform(struct?: ImageDryrunInfoPatch | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    patch_type: cdktf.stringToTerraform(struct!.patchType),
+    reboot: cdktf.stringToTerraform(struct!.reboot),
+    reboot_list: cdktf.listMapper(imageDryrunInfoPatchRebootListStructToTerraform, true)(struct!.rebootList),
+  }
+}
+
+
+export function imageDryrunInfoPatchToHclTerraform(struct?: ImageDryrunInfoPatch | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    patch_type: {
+      value: cdktf.stringToHclTerraform(struct!.patchType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    reboot: {
+      value: cdktf.stringToHclTerraform(struct!.reboot),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    reboot_list: {
+      value: cdktf.listMapperHcl(imageDryrunInfoPatchRebootListStructToHclTerraform, true)(struct!.rebootList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ImageDryrunInfoPatchRebootListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ImageDryrunInfoPatchOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ImageDryrunInfoPatch | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._patchType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.patchType = this._patchType;
+    }
+    if (this._reboot !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reboot = this._reboot;
+    }
+    if (this._rebootList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rebootList = this._rebootList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ImageDryrunInfoPatch | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._patchType = undefined;
+      this._reboot = undefined;
+      this._rebootList.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._patchType = value.patchType;
+      this._reboot = value.reboot;
+      this._rebootList.internalValue = value.rebootList;
+    }
+  }
+
+  // patch_type - computed: true, optional: true, required: false
+  private _patchType?: string; 
+  public get patchType() {
+    return this.getStringAttribute('patch_type');
+  }
+  public set patchType(value: string) {
+    this._patchType = value;
+  }
+  public resetPatchType() {
+    this._patchType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get patchTypeInput() {
+    return this._patchType;
+  }
+
+  // reboot - computed: true, optional: true, required: false
+  private _reboot?: string; 
+  public get reboot() {
+    return this.getStringAttribute('reboot');
+  }
+  public set reboot(value: string) {
+    this._reboot = value;
+  }
+  public resetReboot() {
+    this._reboot = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rebootInput() {
+    return this._reboot;
+  }
+
+  // reboot_list - computed: false, optional: true, required: false
+  private _rebootList = new ImageDryrunInfoPatchRebootListStructList(this, "reboot_list", false);
+  public get rebootList() {
+    return this._rebootList;
+  }
+  public putRebootList(value: ImageDryrunInfoPatchRebootListStruct[] | cdktf.IResolvable) {
+    this._rebootList.internalValue = value;
+  }
+  public resetRebootList() {
+    this._rebootList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rebootListInput() {
+    return this._rebootList.internalValue;
+  }
+}
+
+export class ImageDryrunInfoPatchList extends cdktf.ComplexList {
+  public internalValue? : ImageDryrunInfoPatch[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ImageDryrunInfoPatchOutputReference {
+    return new ImageDryrunInfoPatchOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ImageDryrunInfo {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#hash Image#hash}
+  */
+  readonly hash?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#path Image#path}
+  */
+  readonly path?: string;
+  /**
+  * build block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#build Image#build}
+  */
+  readonly buildAttribute?: ImageDryrunInfoBuild[] | cdktf.IResolvable;
+  /**
+  * patch block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#patch Image#patch}
+  */
+  readonly patch?: ImageDryrunInfoPatch[] | cdktf.IResolvable;
+}
+
+export function imageDryrunInfoToTerraform(struct?: ImageDryrunInfo | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    hash: cdktf.stringToTerraform(struct!.hash),
+    path: cdktf.stringToTerraform(struct!.path),
+    build: cdktf.listMapper(imageDryrunInfoBuildToTerraform, true)(struct!.buildAttribute),
+    patch: cdktf.listMapper(imageDryrunInfoPatchToTerraform, true)(struct!.patch),
+  }
+}
+
+
+export function imageDryrunInfoToHclTerraform(struct?: ImageDryrunInfo | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    hash: {
+      value: cdktf.stringToHclTerraform(struct!.hash),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    path: {
+      value: cdktf.stringToHclTerraform(struct!.path),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    build: {
+      value: cdktf.listMapperHcl(imageDryrunInfoBuildToHclTerraform, true)(struct!.buildAttribute),
+      isBlock: true,
+      type: "set",
+      storageClassType: "ImageDryrunInfoBuildList",
+    },
+    patch: {
+      value: cdktf.listMapperHcl(imageDryrunInfoPatchToHclTerraform, true)(struct!.patch),
+      isBlock: true,
+      type: "set",
+      storageClassType: "ImageDryrunInfoPatchList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ImageDryrunInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ImageDryrunInfo | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._hash !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hash = this._hash;
+    }
+    if (this._path !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.path = this._path;
+    }
+    if (this._build?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.buildAttribute = this._build?.internalValue;
+    }
+    if (this._patch?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.patch = this._patch?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ImageDryrunInfo | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._hash = undefined;
+      this._path = undefined;
+      this._build.internalValue = undefined;
+      this._patch.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._hash = value.hash;
+      this._path = value.path;
+      this._build.internalValue = value.buildAttribute;
+      this._patch.internalValue = value.patch;
+    }
+  }
+
+  // hash - computed: true, optional: true, required: false
+  private _hash?: string; 
+  public get hash() {
+    return this.getStringAttribute('hash');
+  }
+  public set hash(value: string) {
+    this._hash = value;
+  }
+  public resetHash() {
+    this._hash = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hashInput() {
+    return this._hash;
+  }
+
+  // path - computed: true, optional: true, required: false
+  private _path?: string; 
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+  public set path(value: string) {
+    this._path = value;
+  }
+  public resetPath() {
+    this._path = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathInput() {
+    return this._path;
+  }
+
+  // build - computed: false, optional: true, required: false
+  private _build = new ImageDryrunInfoBuildList(this, "build", true);
+  public get buildAttribute() {
+    return this._build;
+  }
+  public putBuildAttribute(value: ImageDryrunInfoBuild[] | cdktf.IResolvable) {
+    this._build.internalValue = value;
+  }
+  public resetBuildAttribute() {
+    this._build.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get buildAttributeInput() {
+    return this._build.internalValue;
+  }
+
+  // patch - computed: false, optional: true, required: false
+  private _patch = new ImageDryrunInfoPatchList(this, "patch", true);
+  public get patch() {
+    return this._patch;
+  }
+  public putPatch(value: ImageDryrunInfoPatch[] | cdktf.IResolvable) {
+    this._patch.internalValue = value;
+  }
+  public resetPatch() {
+    this._patch.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get patchInput() {
+    return this._patch.internalValue;
+  }
+}
+
+export class ImageDryrunInfoList extends cdktf.ComplexList {
+  public internalValue? : ImageDryrunInfo[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ImageDryrunInfoOutputReference {
+    return new ImageDryrunInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ImageEventsNodesEventsIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#addr Image#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#addr Image#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#type Image#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#type Image#type}
   */
   readonly type: string;
 }
@@ -1492,33 +2364,33 @@ export class ImageEventsNodesEventsIpList extends cdktf.ComplexList {
 }
 export interface ImageEventsNodesEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#duration Image#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#duration Image#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#end_time Image#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#end_time Image#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#message Image#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#message Image#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#start_time Image#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#start_time Image#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#status Image#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#status Image#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#sub_tasks Image#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#sub_tasks Image#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#ip Image#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#ip Image#ip}
   */
   readonly ip?: ImageEventsNodesEventsIp[] | cdktf.IResolvable;
 }
@@ -1808,11 +2680,11 @@ export class ImageEventsNodesEventsList extends cdktf.ComplexList {
 }
 export interface ImageEventsSubEventsIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#addr Image#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#addr Image#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#type Image#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#type Image#type}
   */
   readonly type: string;
 }
@@ -1951,33 +2823,33 @@ export class ImageEventsSubEventsIpList extends cdktf.ComplexList {
 }
 export interface ImageEventsSubEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#duration Image#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#duration Image#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#end_time Image#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#end_time Image#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#message Image#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#message Image#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#start_time Image#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#start_time Image#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#status Image#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#status Image#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#sub_tasks Image#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#sub_tasks Image#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#ip Image#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#ip Image#ip}
   */
   readonly ip?: ImageEventsSubEventsIp[] | cdktf.IResolvable;
 }
@@ -2267,19 +3139,19 @@ export class ImageEventsSubEventsList extends cdktf.ComplexList {
 }
 export interface ImageEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#task_name Image#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#task_name Image#task_name}
   */
   readonly taskName?: string;
   /**
   * nodes_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#nodes_events Image#nodes_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#nodes_events Image#nodes_events}
   */
   readonly nodesEvents?: ImageEventsNodesEvents[] | cdktf.IResolvable;
   /**
   * sub_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#sub_events Image#sub_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#sub_events Image#sub_events}
   */
   readonly subEvents?: ImageEventsSubEvents[] | cdktf.IResolvable;
 }
@@ -2453,11 +3325,11 @@ export class ImageEventsList extends cdktf.ComplexList {
 }
 export interface ImageImgStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#secs Image#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#secs Image#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#usecs Image#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#usecs Image#usecs}
   */
   readonly usecs: string;
 }
@@ -2596,17 +3468,17 @@ export class ImageImgStateLastChangedTimeList extends cdktf.ComplexList {
 }
 export interface ImageImgState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#reason Image#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#reason Image#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#state Image#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#state Image#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#last_changed_time Image#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#last_changed_time Image#last_changed_time}
   */
   readonly lastChangedTime?: ImageImgStateLastChangedTime[] | cdktf.IResolvable;
 }
@@ -2780,79 +3652,95 @@ export class ImageImgStateList extends cdktf.ComplexList {
 }
 export interface ImageMigrations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#api_version Image#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#api_version Image#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#controller_host_min_free_disk_size Image#controller_host_min_free_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#controller_host_min_free_disk_size Image#controller_host_min_free_disk_size}
   */
   readonly controllerHostMinFreeDiskSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#controller_min_cores Image#controller_min_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#controller_min_cores Image#controller_min_cores}
   */
   readonly controllerMinCores?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#controller_min_docker_version Image#controller_min_docker_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#controller_min_docker_version Image#controller_min_docker_version}
   */
   readonly controllerMinDockerVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#controller_min_free_disk_size Image#controller_min_free_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#controller_min_free_disk_size Image#controller_min_free_disk_size}
   */
   readonly controllerMinFreeDiskSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#controller_min_memory Image#controller_min_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#controller_min_memory Image#controller_min_memory}
   */
   readonly controllerMinMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#controller_min_total_disk Image#controller_min_total_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#controller_min_total_disk Image#controller_min_total_disk}
   */
   readonly controllerMinTotalDisk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#max_active_versions Image#max_active_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#dryrun_min_cores Image#dryrun_min_cores}
+  */
+  readonly dryrunMinCores?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#dryrun_min_free_disk_size Image#dryrun_min_free_disk_size}
+  */
+  readonly dryrunMinFreeDiskSize?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#dryrun_min_memory Image#dryrun_min_memory}
+  */
+  readonly dryrunMinMemory?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#dryrun_total_memory_required Image#dryrun_total_memory_required}
+  */
+  readonly dryrunTotalMemoryRequired?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#max_active_versions Image#max_active_versions}
   */
   readonly maxActiveVersions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#min_supported_api_version Image#min_supported_api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#min_supported_api_version Image#min_supported_api_version}
   */
   readonly minSupportedApiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#podman_controller_host_min_free_disk_size Image#podman_controller_host_min_free_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#podman_controller_host_min_free_disk_size Image#podman_controller_host_min_free_disk_size}
   */
   readonly podmanControllerHostMinFreeDiskSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#podman_se_host_min_free_disk_size Image#podman_se_host_min_free_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#podman_se_host_min_free_disk_size Image#podman_se_host_min_free_disk_size}
   */
   readonly podmanSeHostMinFreeDiskSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#rollback_controller_disk_space Image#rollback_controller_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#rollback_controller_disk_space Image#rollback_controller_disk_space}
   */
   readonly rollbackControllerDiskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#rollback_se_disk_space Image#rollback_se_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#rollback_se_disk_space Image#rollback_se_disk_space}
   */
   readonly rollbackSeDiskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#se_host_min_free_disk_size Image#se_host_min_free_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#se_host_min_free_disk_size Image#se_host_min_free_disk_size}
   */
   readonly seHostMinFreeDiskSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#se_min_cores Image#se_min_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#se_min_cores Image#se_min_cores}
   */
   readonly seMinCores?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#se_min_free_disk_size Image#se_min_free_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#se_min_free_disk_size Image#se_min_free_disk_size}
   */
   readonly seMinFreeDiskSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#se_min_memory Image#se_min_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#se_min_memory Image#se_min_memory}
   */
   readonly seMinMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#se_min_total_disk Image#se_min_total_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#se_min_total_disk Image#se_min_total_disk}
   */
   readonly seMinTotalDisk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#versions Image#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#versions Image#versions}
   */
   readonly versions?: string[];
 }
@@ -2870,6 +3758,10 @@ export function imageMigrationsToTerraform(struct?: ImageMigrations | cdktf.IRes
     controller_min_free_disk_size: cdktf.stringToTerraform(struct!.controllerMinFreeDiskSize),
     controller_min_memory: cdktf.stringToTerraform(struct!.controllerMinMemory),
     controller_min_total_disk: cdktf.stringToTerraform(struct!.controllerMinTotalDisk),
+    dryrun_min_cores: cdktf.stringToTerraform(struct!.dryrunMinCores),
+    dryrun_min_free_disk_size: cdktf.stringToTerraform(struct!.dryrunMinFreeDiskSize),
+    dryrun_min_memory: cdktf.stringToTerraform(struct!.dryrunMinMemory),
+    dryrun_total_memory_required: cdktf.stringToTerraform(struct!.dryrunTotalMemoryRequired),
     max_active_versions: cdktf.stringToTerraform(struct!.maxActiveVersions),
     min_supported_api_version: cdktf.stringToTerraform(struct!.minSupportedApiVersion),
     podman_controller_host_min_free_disk_size: cdktf.stringToTerraform(struct!.podmanControllerHostMinFreeDiskSize),
@@ -2930,6 +3822,30 @@ export function imageMigrationsToHclTerraform(struct?: ImageMigrations | cdktf.I
     },
     controller_min_total_disk: {
       value: cdktf.stringToHclTerraform(struct!.controllerMinTotalDisk),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dryrun_min_cores: {
+      value: cdktf.stringToHclTerraform(struct!.dryrunMinCores),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dryrun_min_free_disk_size: {
+      value: cdktf.stringToHclTerraform(struct!.dryrunMinFreeDiskSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dryrun_min_memory: {
+      value: cdktf.stringToHclTerraform(struct!.dryrunMinMemory),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dryrun_total_memory_required: {
+      value: cdktf.stringToHclTerraform(struct!.dryrunTotalMemoryRequired),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3060,6 +3976,22 @@ export class ImageMigrationsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.controllerMinTotalDisk = this._controllerMinTotalDisk;
     }
+    if (this._dryrunMinCores !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dryrunMinCores = this._dryrunMinCores;
+    }
+    if (this._dryrunMinFreeDiskSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dryrunMinFreeDiskSize = this._dryrunMinFreeDiskSize;
+    }
+    if (this._dryrunMinMemory !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dryrunMinMemory = this._dryrunMinMemory;
+    }
+    if (this._dryrunTotalMemoryRequired !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dryrunTotalMemoryRequired = this._dryrunTotalMemoryRequired;
+    }
     if (this._maxActiveVersions !== undefined) {
       hasAnyValues = true;
       internalValueResult.maxActiveVersions = this._maxActiveVersions;
@@ -3122,6 +4054,10 @@ export class ImageMigrationsOutputReference extends cdktf.ComplexObject {
       this._controllerMinFreeDiskSize = undefined;
       this._controllerMinMemory = undefined;
       this._controllerMinTotalDisk = undefined;
+      this._dryrunMinCores = undefined;
+      this._dryrunMinFreeDiskSize = undefined;
+      this._dryrunMinMemory = undefined;
+      this._dryrunTotalMemoryRequired = undefined;
       this._maxActiveVersions = undefined;
       this._minSupportedApiVersion = undefined;
       this._podmanControllerHostMinFreeDiskSize = undefined;
@@ -3149,6 +4085,10 @@ export class ImageMigrationsOutputReference extends cdktf.ComplexObject {
       this._controllerMinFreeDiskSize = value.controllerMinFreeDiskSize;
       this._controllerMinMemory = value.controllerMinMemory;
       this._controllerMinTotalDisk = value.controllerMinTotalDisk;
+      this._dryrunMinCores = value.dryrunMinCores;
+      this._dryrunMinFreeDiskSize = value.dryrunMinFreeDiskSize;
+      this._dryrunMinMemory = value.dryrunMinMemory;
+      this._dryrunTotalMemoryRequired = value.dryrunTotalMemoryRequired;
       this._maxActiveVersions = value.maxActiveVersions;
       this._minSupportedApiVersion = value.minSupportedApiVersion;
       this._podmanControllerHostMinFreeDiskSize = value.podmanControllerHostMinFreeDiskSize;
@@ -3274,6 +4214,70 @@ export class ImageMigrationsOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get controllerMinTotalDiskInput() {
     return this._controllerMinTotalDisk;
+  }
+
+  // dryrun_min_cores - computed: false, optional: true, required: false
+  private _dryrunMinCores?: string; 
+  public get dryrunMinCores() {
+    return this.getStringAttribute('dryrun_min_cores');
+  }
+  public set dryrunMinCores(value: string) {
+    this._dryrunMinCores = value;
+  }
+  public resetDryrunMinCores() {
+    this._dryrunMinCores = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dryrunMinCoresInput() {
+    return this._dryrunMinCores;
+  }
+
+  // dryrun_min_free_disk_size - computed: false, optional: true, required: false
+  private _dryrunMinFreeDiskSize?: string; 
+  public get dryrunMinFreeDiskSize() {
+    return this.getStringAttribute('dryrun_min_free_disk_size');
+  }
+  public set dryrunMinFreeDiskSize(value: string) {
+    this._dryrunMinFreeDiskSize = value;
+  }
+  public resetDryrunMinFreeDiskSize() {
+    this._dryrunMinFreeDiskSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dryrunMinFreeDiskSizeInput() {
+    return this._dryrunMinFreeDiskSize;
+  }
+
+  // dryrun_min_memory - computed: false, optional: true, required: false
+  private _dryrunMinMemory?: string; 
+  public get dryrunMinMemory() {
+    return this.getStringAttribute('dryrun_min_memory');
+  }
+  public set dryrunMinMemory(value: string) {
+    this._dryrunMinMemory = value;
+  }
+  public resetDryrunMinMemory() {
+    this._dryrunMinMemory = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dryrunMinMemoryInput() {
+    return this._dryrunMinMemory;
+  }
+
+  // dryrun_total_memory_required - computed: false, optional: true, required: false
+  private _dryrunTotalMemoryRequired?: string; 
+  public get dryrunTotalMemoryRequired() {
+    return this.getStringAttribute('dryrun_total_memory_required');
+  }
+  public set dryrunTotalMemoryRequired(value: string) {
+    this._dryrunTotalMemoryRequired = value;
+  }
+  public resetDryrunTotalMemoryRequired() {
+    this._dryrunTotalMemoryRequired = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dryrunTotalMemoryRequiredInput() {
+    return this._dryrunTotalMemoryRequired;
   }
 
   // max_active_versions - computed: false, optional: true, required: false
@@ -3490,39 +4494,35 @@ export class ImageMigrationsList extends cdktf.ComplexList {
 }
 export interface ImageSeInfoBuild {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#build_no Image#build_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#build_no Image#build_no}
   */
   readonly buildNo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#date Image#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#date Image#date}
   */
   readonly date?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#min_version Image#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#min_version Image#min_version}
   */
   readonly minVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#patch_version Image#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#patch_version Image#patch_version}
   */
   readonly patchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#product Image#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#product Image#product}
   */
   readonly product?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#product_name Image#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#product_name Image#product_name}
   */
   readonly productName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#remote_image_ref Image#remote_image_ref}
-  */
-  readonly remoteImageRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#tag Image#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#tag Image#tag}
   */
   readonly tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#version Image#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#version Image#version}
   */
   readonly version?: string;
 }
@@ -3539,7 +4539,6 @@ export function imageSeInfoBuildToTerraform(struct?: ImageSeInfoBuild | cdktf.IR
     patch_version: cdktf.stringToTerraform(struct!.patchVersion),
     product: cdktf.stringToTerraform(struct!.product),
     product_name: cdktf.stringToTerraform(struct!.productName),
-    remote_image_ref: cdktf.stringToTerraform(struct!.remoteImageRef),
     tag: cdktf.stringToTerraform(struct!.tag),
     version: cdktf.stringToTerraform(struct!.version),
   }
@@ -3584,12 +4583,6 @@ export function imageSeInfoBuildToHclTerraform(struct?: ImageSeInfoBuild | cdktf
     },
     product_name: {
       value: cdktf.stringToHclTerraform(struct!.productName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    remote_image_ref: {
-      value: cdktf.stringToHclTerraform(struct!.remoteImageRef),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3656,10 +4649,6 @@ export class ImageSeInfoBuildOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.productName = this._productName;
     }
-    if (this._remoteImageRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.remoteImageRef = this._remoteImageRef;
-    }
     if (this._tag !== undefined) {
       hasAnyValues = true;
       internalValueResult.tag = this._tag;
@@ -3681,7 +4670,6 @@ export class ImageSeInfoBuildOutputReference extends cdktf.ComplexObject {
       this._patchVersion = undefined;
       this._product = undefined;
       this._productName = undefined;
-      this._remoteImageRef = undefined;
       this._tag = undefined;
       this._version = undefined;
     }
@@ -3698,7 +4686,6 @@ export class ImageSeInfoBuildOutputReference extends cdktf.ComplexObject {
       this._patchVersion = value.patchVersion;
       this._product = value.product;
       this._productName = value.productName;
-      this._remoteImageRef = value.remoteImageRef;
       this._tag = value.tag;
       this._version = value.version;
     }
@@ -3800,22 +4787,6 @@ export class ImageSeInfoBuildOutputReference extends cdktf.ComplexObject {
     return this._productName;
   }
 
-  // remote_image_ref - computed: true, optional: true, required: false
-  private _remoteImageRef?: string; 
-  public get remoteImageRef() {
-    return this.getStringAttribute('remote_image_ref');
-  }
-  public set remoteImageRef(value: string) {
-    this._remoteImageRef = value;
-  }
-  public resetRemoteImageRef() {
-    this._remoteImageRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get remoteImageRefInput() {
-    return this._remoteImageRef;
-  }
-
   // tag - computed: true, optional: true, required: false
   private _tag?: string; 
   public get tag() {
@@ -3870,11 +4841,11 @@ export class ImageSeInfoBuildList extends cdktf.ComplexList {
 }
 export interface ImageSeInfoPatchRebootListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#patch_version Image#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#patch_version Image#patch_version}
   */
   readonly patchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#reboot Image#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#reboot Image#reboot}
   */
   readonly reboot?: string;
 }
@@ -4019,17 +4990,17 @@ export class ImageSeInfoPatchRebootListStructList extends cdktf.ComplexList {
 }
 export interface ImageSeInfoPatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#patch_type Image#patch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#patch_type Image#patch_type}
   */
   readonly patchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#reboot Image#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#reboot Image#reboot}
   */
   readonly reboot?: string;
   /**
   * reboot_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#reboot_list Image#reboot_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#reboot_list Image#reboot_list}
   */
   readonly rebootList?: ImageSeInfoPatchRebootListStruct[] | cdktf.IResolvable;
 }
@@ -4203,23 +5174,23 @@ export class ImageSeInfoPatchList extends cdktf.ComplexList {
 }
 export interface ImageSeInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#hash Image#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#hash Image#hash}
   */
   readonly hash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#path Image#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#path Image#path}
   */
   readonly path?: string;
   /**
   * build block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#build Image#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#build Image#build}
   */
   readonly buildAttribute?: ImageSeInfoBuild[] | cdktf.IResolvable;
   /**
   * patch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#patch Image#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#patch Image#patch}
   */
   readonly patch?: ImageSeInfoPatch[] | cdktf.IResolvable;
 }
@@ -4422,7 +5393,7 @@ export class ImageSeInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image avi_image}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image avi_image}
 */
 export class Image extends cdktf.TerraformResource {
 
@@ -4438,7 +5409,7 @@ export class Image extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Image resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Image to import
-  * @param importFromId The id of the existing Image that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Image that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Image to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4450,7 +5421,7 @@ export class Image extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/image avi_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/image avi_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4461,8 +5432,8 @@ export class Image extends cdktf.TerraformResource {
       terraformResourceType: 'avi_image',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4491,6 +5462,7 @@ export class Image extends cdktf.TerraformResource {
     this._uuid = config.uuid;
     this._cloudInfoValues.internalValue = config.cloudInfoValues;
     this._controllerInfo.internalValue = config.controllerInfo;
+    this._dryrunInfo.internalValue = config.dryrunInfo;
     this._events.internalValue = config.events;
     this._imgState.internalValue = config.imgState;
     this._migrations.internalValue = config.migrations;
@@ -4802,6 +5774,22 @@ export class Image extends cdktf.TerraformResource {
     return this._controllerInfo.internalValue;
   }
 
+  // dryrun_info - computed: false, optional: true, required: false
+  private _dryrunInfo = new ImageDryrunInfoList(this, "dryrun_info", true);
+  public get dryrunInfo() {
+    return this._dryrunInfo;
+  }
+  public putDryrunInfo(value: ImageDryrunInfo[] | cdktf.IResolvable) {
+    this._dryrunInfo.internalValue = value;
+  }
+  public resetDryrunInfo() {
+    this._dryrunInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dryrunInfoInput() {
+    return this._dryrunInfo.internalValue;
+  }
+
   // events - computed: false, optional: true, required: false
   private _events = new ImageEventsList(this, "events", false);
   public get events() {
@@ -4891,6 +5879,7 @@ export class Image extends cdktf.TerraformResource {
       uuid: cdktf.stringToTerraform(this._uuid),
       cloud_info_values: cdktf.listMapper(imageCloudInfoValuesToTerraform, true)(this._cloudInfoValues.internalValue),
       controller_info: cdktf.listMapper(imageControllerInfoToTerraform, true)(this._controllerInfo.internalValue),
+      dryrun_info: cdktf.listMapper(imageDryrunInfoToTerraform, true)(this._dryrunInfo.internalValue),
       events: cdktf.listMapper(imageEventsToTerraform, true)(this._events.internalValue),
       img_state: cdktf.listMapper(imageImgStateToTerraform, true)(this._imgState.internalValue),
       migrations: cdktf.listMapper(imageMigrationsToTerraform, true)(this._migrations.internalValue),
@@ -5013,6 +6002,12 @@ export class Image extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "ImageControllerInfoList",
+      },
+      dryrun_info: {
+        value: cdktf.listMapperHcl(imageDryrunInfoToHclTerraform, true)(this._dryrunInfo.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ImageDryrunInfoList",
       },
       events: {
         value: cdktf.listMapperHcl(imageEventsToHclTerraform, true)(this._events.internalValue),

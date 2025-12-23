@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,113 +10,113 @@ export interface EdgeNeoConfig extends cdktf.TerraformMetaArguments {
   /**
   * Edge CSP account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#account_name EdgeNeo#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#account_name EdgeNeo#account_name}
   */
   readonly accountName: string;
   /**
   * Approved learned CIDRs for BGP Spoke Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#approved_learned_cidrs EdgeNeo#approved_learned_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#approved_learned_cidrs EdgeNeo#approved_learned_cidrs}
   */
   readonly approvedLearnedCidrs?: string[];
   /**
   * BGP Hold Time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 12 and 360.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#bgp_hold_time EdgeNeo#bgp_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#bgp_hold_time EdgeNeo#bgp_hold_time}
   */
   readonly bgpHoldTime?: number;
   /**
   * BGP route polling time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 10 and 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#bgp_polling_time EdgeNeo#bgp_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#bgp_polling_time EdgeNeo#bgp_polling_time}
   */
   readonly bgpPollingTime?: number;
   /**
   * Edge NEO device ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#device_id EdgeNeo#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#device_id EdgeNeo#device_id}
   */
   readonly deviceId: string;
   /**
   * DNS profile to be associated with gateway, select an existing template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#dns_profile_name EdgeNeo#dns_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#dns_profile_name EdgeNeo#dns_profile_name}
   */
   readonly dnsProfileName?: string;
   /**
   * DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#dns_server_ip EdgeNeo#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#dns_server_ip EdgeNeo#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable auto advertise LAN CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#enable_auto_advertise_lan_cidrs EdgeNeo#enable_auto_advertise_lan_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#enable_auto_advertise_lan_cidrs EdgeNeo#enable_auto_advertise_lan_cidrs}
   */
   readonly enableAutoAdvertiseLanCidrs?: boolean | cdktf.IResolvable;
   /**
   * Enables Edge Active-Standby Mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#enable_edge_active_standby EdgeNeo#enable_edge_active_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#enable_edge_active_standby EdgeNeo#enable_edge_active_standby}
   */
   readonly enableEdgeActiveStandby?: boolean | cdktf.IResolvable;
   /**
   * Enables Preemptive Mode for Edge Active-Standby, available only with Active-Standby enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#enable_edge_active_standby_preemptive EdgeNeo#enable_edge_active_standby_preemptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#enable_edge_active_standby_preemptive EdgeNeo#enable_edge_active_standby_preemptive}
   */
   readonly enableEdgeActiveStandbyPreemptive?: boolean | cdktf.IResolvable;
   /**
   * Enable Edge transitive routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#enable_edge_transitive_routing EdgeNeo#enable_edge_transitive_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#enable_edge_transitive_routing EdgeNeo#enable_edge_transitive_routing}
   */
   readonly enableEdgeTransitiveRouting?: boolean | cdktf.IResolvable;
   /**
   * Enable jumbo frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#enable_jumbo_frame EdgeNeo#enable_jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#enable_jumbo_frame EdgeNeo#enable_jumbo_frame}
   */
   readonly enableJumboFrame?: boolean | cdktf.IResolvable;
   /**
   * Switch to enable/disable learned CIDR approval for BGP Spoke Gateway. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#enable_learned_cidrs_approval EdgeNeo#enable_learned_cidrs_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#enable_learned_cidrs_approval EdgeNeo#enable_learned_cidrs_approval}
   */
   readonly enableLearnedCidrsApproval?: boolean | cdktf.IResolvable;
   /**
   * Enable management over private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#enable_management_over_private_network EdgeNeo#enable_management_over_private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#enable_management_over_private_network EdgeNeo#enable_management_over_private_network}
   */
   readonly enableManagementOverPrivateNetwork?: boolean | cdktf.IResolvable;
   /**
   * Enable preserve as path when advertising manual summary CIDRs on BGP spoke gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#enable_preserve_as_path EdgeNeo#enable_preserve_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#enable_preserve_as_path EdgeNeo#enable_preserve_as_path}
   */
   readonly enablePreserveAsPath?: boolean | cdktf.IResolvable;
   /**
   * Enable Single IP SNAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#enable_single_ip_snat EdgeNeo#enable_single_ip_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#enable_single_ip_snat EdgeNeo#enable_single_ip_snat}
   */
   readonly enableSingleIpSnat?: boolean | cdktf.IResolvable;
   /**
   * Edge CSP name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#gw_name EdgeNeo#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#gw_name EdgeNeo#gw_name}
   */
   readonly gwName: string;
   /**
   * Gateway size (CPU and Memory).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#gw_size EdgeNeo#gw_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#gw_size EdgeNeo#gw_size}
   */
   readonly gwSize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#id EdgeNeo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#id EdgeNeo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -125,85 +125,85 @@ export interface EdgeNeoConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of LAN interface names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#lan_interface_names EdgeNeo#lan_interface_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#lan_interface_names EdgeNeo#lan_interface_names}
   */
   readonly lanInterfaceNames: string[];
   /**
   * The latitude of the Edge as a Spoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#latitude EdgeNeo#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#latitude EdgeNeo#latitude}
   */
   readonly latitude?: string;
   /**
   * Local AS number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#local_as_number EdgeNeo#local_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#local_as_number EdgeNeo#local_as_number}
   */
   readonly localAsNumber?: string;
   /**
   * The longitude of the Edge as a Spoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#longitude EdgeNeo#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#longitude EdgeNeo#longitude}
   */
   readonly longitude?: string;
   /**
   * Set of management egress gateway IP/prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#management_egress_ip_prefix_list EdgeNeo#management_egress_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#management_egress_ip_prefix_list EdgeNeo#management_egress_ip_prefix_list}
   */
   readonly managementEgressIpPrefixList?: string[];
   /**
   * List of management interface names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#management_interface_names EdgeNeo#management_interface_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#management_interface_names EdgeNeo#management_interface_names}
   */
   readonly managementInterfaceNames: string[];
   /**
   * List of AS numbers to prepend gateway BGP AS_Path field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#prepend_as_path EdgeNeo#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#prepend_as_path EdgeNeo#prepend_as_path}
   */
   readonly prependAsPath?: string[];
   /**
   * Ethernet interface RX queue size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#rx_queue_size EdgeNeo#rx_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#rx_queue_size EdgeNeo#rx_queue_size}
   */
   readonly rxQueueSize?: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#secondary_dns_server_ip EdgeNeo#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#secondary_dns_server_ip EdgeNeo#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#site_id EdgeNeo#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#site_id EdgeNeo#site_id}
   */
   readonly siteId: string;
   /**
   * Intended CIDR list to be advertised to external BGP router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#spoke_bgp_manual_advertise_cidrs EdgeNeo#spoke_bgp_manual_advertise_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#spoke_bgp_manual_advertise_cidrs EdgeNeo#spoke_bgp_manual_advertise_cidrs}
   */
   readonly spokeBgpManualAdvertiseCidrs?: string[];
   /**
   * List of WAN interface names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#wan_interface_names EdgeNeo#wan_interface_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#wan_interface_names EdgeNeo#wan_interface_names}
   */
   readonly wanInterfaceNames: string[];
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#interfaces EdgeNeo#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#interfaces EdgeNeo#interfaces}
   */
   readonly interfaces: EdgeNeoInterfaces[] | cdktf.IResolvable;
   /**
   * vlan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#vlan EdgeNeo#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#vlan EdgeNeo#vlan}
   */
   readonly vlan?: EdgeNeoVlan[] | cdktf.IResolvable;
 }
@@ -211,73 +211,73 @@ export interface EdgeNeoInterfaces {
   /**
   * The rate of data can be moved through the interface, requires an integer value. Unit is in Mb/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#bandwidth EdgeNeo#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#bandwidth EdgeNeo#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Primary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#dns_server_ip EdgeNeo#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#dns_server_ip EdgeNeo#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#enable_dhcp EdgeNeo#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#enable_dhcp EdgeNeo#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * Enable VRRP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#enable_vrrp EdgeNeo#enable_vrrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#enable_vrrp EdgeNeo#enable_vrrp}
   */
   readonly enableVrrp?: boolean | cdktf.IResolvable;
   /**
   * Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#gateway_ip EdgeNeo#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#gateway_ip EdgeNeo#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Interface static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#ip_address EdgeNeo#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#ip_address EdgeNeo#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#name EdgeNeo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#name EdgeNeo#name}
   */
   readonly name: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#secondary_dns_server_ip EdgeNeo#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#secondary_dns_server_ip EdgeNeo#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#tag EdgeNeo#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#tag EdgeNeo#tag}
   */
   readonly tag?: string;
   /**
   * Interface type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#type EdgeNeo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#type EdgeNeo#type}
   */
   readonly type: string;
   /**
   * VRRP virtual IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#vrrp_virtual_ip EdgeNeo#vrrp_virtual_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#vrrp_virtual_ip EdgeNeo#vrrp_virtual_ip}
   */
   readonly vrrpVirtualIp?: string;
   /**
   * WAN interface public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#wan_public_ip EdgeNeo#wan_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#wan_public_ip EdgeNeo#wan_public_ip}
   */
   readonly wanPublicIp?: string;
 }
@@ -708,49 +708,49 @@ export interface EdgeNeoVlan {
   /**
   * LAN sub-interface gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#gateway_ip EdgeNeo#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#gateway_ip EdgeNeo#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * LAN sub-interface IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#ip_address EdgeNeo#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#ip_address EdgeNeo#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Parent interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#parent_interface_name EdgeNeo#parent_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#parent_interface_name EdgeNeo#parent_interface_name}
   */
   readonly parentInterfaceName: string;
   /**
   * LAN sub-interface gateway IP on HA gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#peer_gateway_ip EdgeNeo#peer_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#peer_gateway_ip EdgeNeo#peer_gateway_ip}
   */
   readonly peerGatewayIp?: string;
   /**
   * LAN sub-interface IP address on HA gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#peer_ip_address EdgeNeo#peer_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#peer_ip_address EdgeNeo#peer_ip_address}
   */
   readonly peerIpAddress?: string;
   /**
   * Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#tag EdgeNeo#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#tag EdgeNeo#tag}
   */
   readonly tag?: string;
   /**
   * VLAN ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#vlan_id EdgeNeo#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#vlan_id EdgeNeo#vlan_id}
   */
   readonly vlanId: number;
   /**
   * LAN sub-interface virtual IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#vrrp_virtual_ip EdgeNeo#vrrp_virtual_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#vrrp_virtual_ip EdgeNeo#vrrp_virtual_ip}
   */
   readonly vrrpVirtualIp?: string;
 }
@@ -1060,7 +1060,7 @@ export class EdgeNeoVlanList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo aviatrix_edge_neo}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo aviatrix_edge_neo}
 */
 export class EdgeNeo extends cdktf.TerraformResource {
 
@@ -1076,7 +1076,7 @@ export class EdgeNeo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeNeo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeNeo to import
-  * @param importFromId The id of the existing EdgeNeo that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeNeo that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeNeo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1088,7 +1088,7 @@ export class EdgeNeo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_neo aviatrix_edge_neo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_neo aviatrix_edge_neo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1099,8 +1099,8 @@ export class EdgeNeo extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_neo',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

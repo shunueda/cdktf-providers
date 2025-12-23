@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firenet
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firenet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FirenetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Network List Excluded From East-West Inspection. CIDRs to be excluded from inspection. Type: Set(String). Available as of provider version R2.19.2+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firenet#east_west_inspection_excluded_cidrs Firenet#east_west_inspection_excluded_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firenet#east_west_inspection_excluded_cidrs Firenet#east_west_inspection_excluded_cidrs}
   */
   readonly eastWestInspectionExcludedCidrs?: string[];
   /**
   * Enable/Disable egress through firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firenet#egress_enabled Firenet#egress_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firenet#egress_enabled Firenet#egress_enabled}
   */
   readonly egressEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of egress static cidrs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firenet#egress_static_cidrs Firenet#egress_static_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firenet#egress_static_cidrs Firenet#egress_static_cidrs}
   */
   readonly egressStaticCidrs?: string[];
   /**
   * Hashing algorithm to load balance traffic across the firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firenet#hashing_algorithm Firenet#hashing_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firenet#hashing_algorithm Firenet#hashing_algorithm}
   */
   readonly hashingAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firenet#id Firenet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firenet#id Firenet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface FirenetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable/Disable traffic inspection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firenet#inspection_enabled Firenet#inspection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firenet#inspection_enabled Firenet#inspection_enabled}
   */
   readonly inspectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable TGW segmentation for egress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firenet#tgw_segmentation_for_egress_enabled Firenet#tgw_segmentation_for_egress_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firenet#tgw_segmentation_for_egress_enabled Firenet#tgw_segmentation_for_egress_enabled}
   */
   readonly tgwSegmentationForEgressEnabled?: boolean | cdktf.IResolvable;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firenet#vpc_id Firenet#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firenet#vpc_id Firenet#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firenet aviatrix_firenet}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firenet aviatrix_firenet}
 */
 export class Firenet extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class Firenet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Firenet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Firenet to import
-  * @param importFromId The id of the existing Firenet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firenet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Firenet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firenet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Firenet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class Firenet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/firenet aviatrix_firenet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/firenet aviatrix_firenet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class Firenet extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_firenet',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

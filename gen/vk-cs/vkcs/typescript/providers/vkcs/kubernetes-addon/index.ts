@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface KubernetesAddonConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the addon. Changing this creates a new addon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon#addon_id KubernetesAddon#addon_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon#addon_id KubernetesAddon#addon_id}
   */
   readonly addonId: string;
   /**
   * The ID of the kubernetes cluster. Changing this creates a new addon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon#cluster_id KubernetesAddon#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon#cluster_id KubernetesAddon#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Configuration code for the addon. Changing this creates a new addon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon#configuration_values KubernetesAddon#configuration_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon#configuration_values KubernetesAddon#configuration_values}
   */
   readonly configurationValues?: string;
   /**
   * The name of the application. Changing this creates a new addon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon#name KubernetesAddon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon#name KubernetesAddon#name}
   */
   readonly name?: string;
   /**
   * The namespace name where the addon will be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon#namespace KubernetesAddon#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon#namespace KubernetesAddon#namespace}
   */
   readonly namespace: string;
   /**
   * The region in which to obtain the Container Infra Addons client. If omitted, the `region` argument of the provider is used. Changing this creates a new addon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon#region KubernetesAddon#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon#region KubernetesAddon#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon#timeouts KubernetesAddon#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon#timeouts KubernetesAddon#timeouts}
   */
   readonly timeouts?: KubernetesAddonTimeouts;
 }
@@ -52,13 +52,13 @@ export interface KubernetesAddonTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon#create KubernetesAddon#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon#create KubernetesAddon#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon#delete KubernetesAddon#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon#delete KubernetesAddon#delete}
   */
   readonly delete?: string;
 }
@@ -181,7 +181,7 @@ export class KubernetesAddonTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon vkcs_kubernetes_addon}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon vkcs_kubernetes_addon}
 */
 export class KubernetesAddon extends cdktf.TerraformResource {
 
@@ -197,7 +197,7 @@ export class KubernetesAddon extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesAddon resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesAddon to import
-  * @param importFromId The id of the existing KubernetesAddon that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesAddon that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesAddon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class KubernetesAddon extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_addon vkcs_kubernetes_addon} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/kubernetes_addon vkcs_kubernetes_addon} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class KubernetesAddon extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_kubernetes_addon',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

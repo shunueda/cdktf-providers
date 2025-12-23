@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_intra_vpc
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_intra_vpc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DistributedFirewallingIntraVpcConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_intra_vpc#id DistributedFirewallingIntraVpc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_intra_vpc#id DistributedFirewallingIntraVpc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DistributedFirewallingIntraVpcConfig extends cdktf.TerraformMet
   /**
   * vpcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_intra_vpc#vpcs DistributedFirewallingIntraVpc#vpcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_intra_vpc#vpcs DistributedFirewallingIntraVpc#vpcs}
   */
   readonly vpcs: DistributedFirewallingIntraVpcVpcs[] | cdktf.IResolvable;
 }
@@ -25,19 +25,19 @@ export interface DistributedFirewallingIntraVpcVpcs {
   /**
   * Account Name of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_intra_vpc#account_name DistributedFirewallingIntraVpc#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_intra_vpc#account_name DistributedFirewallingIntraVpc#account_name}
   */
   readonly accountName: string;
   /**
   * Region of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_intra_vpc#region DistributedFirewallingIntraVpc#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_intra_vpc#region DistributedFirewallingIntraVpc#region}
   */
   readonly region: string;
   /**
   * vpc_id of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_intra_vpc#vpc_id DistributedFirewallingIntraVpc#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_intra_vpc#vpc_id DistributedFirewallingIntraVpc#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -202,7 +202,7 @@ export class DistributedFirewallingIntraVpcVpcsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_intra_vpc aviatrix_distributed_firewalling_intra_vpc}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_intra_vpc aviatrix_distributed_firewalling_intra_vpc}
 */
 export class DistributedFirewallingIntraVpc extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class DistributedFirewallingIntraVpc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DistributedFirewallingIntraVpc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DistributedFirewallingIntraVpc to import
-  * @param importFromId The id of the existing DistributedFirewallingIntraVpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_intra_vpc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DistributedFirewallingIntraVpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_intra_vpc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DistributedFirewallingIntraVpc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class DistributedFirewallingIntraVpc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/distributed_firewalling_intra_vpc aviatrix_distributed_firewalling_intra_vpc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/distributed_firewalling_intra_vpc aviatrix_distributed_firewalling_intra_vpc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class DistributedFirewallingIntraVpc extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_distributed_firewalling_intra_vpc',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

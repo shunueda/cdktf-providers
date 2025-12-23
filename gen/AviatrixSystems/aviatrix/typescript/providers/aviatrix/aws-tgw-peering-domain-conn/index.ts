@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_peering_domain_conn
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_peering_domain_conn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AwsTgwPeeringDomainConnConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of the source domain to make a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_peering_domain_conn#domain_name1 AwsTgwPeeringDomainConn#domain_name1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_peering_domain_conn#domain_name1 AwsTgwPeeringDomainConn#domain_name1}
   */
   readonly domainName1: string;
   /**
   * The name of the destination domain to make a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_peering_domain_conn#domain_name2 AwsTgwPeeringDomainConn#domain_name2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_peering_domain_conn#domain_name2 AwsTgwPeeringDomainConn#domain_name2}
   */
   readonly domainName2: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_peering_domain_conn#id AwsTgwPeeringDomainConn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_peering_domain_conn#id AwsTgwPeeringDomainConn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface AwsTgwPeeringDomainConnConfig extends cdktf.TerraformMetaArgume
   /**
   * The AWS tgw name of the source domain to make a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_peering_domain_conn#tgw_name1 AwsTgwPeeringDomainConn#tgw_name1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_peering_domain_conn#tgw_name1 AwsTgwPeeringDomainConn#tgw_name1}
   */
   readonly tgwName1: string;
   /**
   * The AWS tgw name of the destination domain to make a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_peering_domain_conn#tgw_name2 AwsTgwPeeringDomainConn#tgw_name2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_peering_domain_conn#tgw_name2 AwsTgwPeeringDomainConn#tgw_name2}
   */
   readonly tgwName2: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_peering_domain_conn aviatrix_aws_tgw_peering_domain_conn}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_peering_domain_conn aviatrix_aws_tgw_peering_domain_conn}
 */
 export class AwsTgwPeeringDomainConn extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AwsTgwPeeringDomainConn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsTgwPeeringDomainConn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsTgwPeeringDomainConn to import
-  * @param importFromId The id of the existing AwsTgwPeeringDomainConn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_peering_domain_conn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsTgwPeeringDomainConn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_peering_domain_conn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsTgwPeeringDomainConn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AwsTgwPeeringDomainConn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_peering_domain_conn aviatrix_aws_tgw_peering_domain_conn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_peering_domain_conn aviatrix_aws_tgw_peering_domain_conn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AwsTgwPeeringDomainConn extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_aws_tgw_peering_domain_conn',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

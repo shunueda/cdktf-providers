@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_certificate_config
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_certificate_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GatewayCertificateConfigConfig extends cdktf.TerraformMetaArgum
   /**
   * CA Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_certificate_config#ca_certificate GatewayCertificateConfig#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_certificate_config#ca_certificate GatewayCertificateConfig#ca_certificate}
   */
   readonly caCertificate: string;
   /**
   * CA Private Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_certificate_config#ca_private_key GatewayCertificateConfig#ca_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_certificate_config#ca_private_key GatewayCertificateConfig#ca_private_key}
   */
   readonly caPrivateKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_certificate_config#id GatewayCertificateConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_certificate_config#id GatewayCertificateConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface GatewayCertificateConfigConfig extends cdktf.TerraformMetaArgum
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_certificate_config aviatrix_gateway_certificate_config}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_certificate_config aviatrix_gateway_certificate_config}
 */
 export class GatewayCertificateConfig extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class GatewayCertificateConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayCertificateConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayCertificateConfig to import
-  * @param importFromId The id of the existing GatewayCertificateConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_certificate_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayCertificateConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_certificate_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayCertificateConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class GatewayCertificateConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_certificate_config aviatrix_gateway_certificate_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_certificate_config aviatrix_gateway_certificate_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class GatewayCertificateConfig extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_gateway_certificate_config',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

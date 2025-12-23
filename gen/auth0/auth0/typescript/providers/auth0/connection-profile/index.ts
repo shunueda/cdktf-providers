@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ConnectionProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Template for generating connection names from the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#connection_name_prefix_template ConnectionProfile#connection_name_prefix_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#connection_name_prefix_template ConnectionProfile#connection_name_prefix_template}
   */
   readonly connectionNamePrefixTemplate?: string;
   /**
   * List of enabled features for the connection profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
   */
   readonly enabledFeatures?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#id ConnectionProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#id ConnectionProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface ConnectionProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the connection profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#name ConnectionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#name ConnectionProfile#name}
   */
   readonly name: string;
   /**
   * connection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
   */
   readonly connectionConfig?: ConnectionProfileConnectionConfig;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#organization ConnectionProfile#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#organization ConnectionProfile#organization}
   */
   readonly organization?: ConnectionProfileOrganization;
   /**
   * strategy_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#strategy_overrides ConnectionProfile#strategy_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#strategy_overrides ConnectionProfile#strategy_overrides}
   */
   readonly strategyOverrides?: ConnectionProfileStrategyOverrides;
 }
@@ -104,13 +104,13 @@ export interface ConnectionProfileOrganization {
   /**
   * Whether to assign membership on login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#assign_membership_on_login ConnectionProfile#assign_membership_on_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#assign_membership_on_login ConnectionProfile#assign_membership_on_login}
   */
   readonly assignMembershipOnLogin?: string;
   /**
   * Whether to show organization as a button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#show_as_button ConnectionProfile#show_as_button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#show_as_button ConnectionProfile#show_as_button}
   */
   readonly showAsButton?: string;
 }
@@ -274,13 +274,13 @@ export interface ConnectionProfileStrategyOverridesAd {
   /**
   * Enabled features for the strategy override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
   */
   readonly enabledFeatures?: string[];
   /**
   * connection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
   */
   readonly connectionConfig?: ConnectionProfileStrategyOverridesAdConnectionConfig;
 }
@@ -444,13 +444,13 @@ export interface ConnectionProfileStrategyOverridesAdfs {
   /**
   * Enabled features for the strategy override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
   */
   readonly enabledFeatures?: string[];
   /**
   * connection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
   */
   readonly connectionConfig?: ConnectionProfileStrategyOverridesAdfsConnectionConfig;
 }
@@ -614,13 +614,13 @@ export interface ConnectionProfileStrategyOverridesGoogleApps {
   /**
   * Enabled features for the strategy override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
   */
   readonly enabledFeatures?: string[];
   /**
   * connection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
   */
   readonly connectionConfig?: ConnectionProfileStrategyOverridesGoogleAppsConnectionConfig;
 }
@@ -784,13 +784,13 @@ export interface ConnectionProfileStrategyOverridesOidc {
   /**
   * Enabled features for the strategy override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
   */
   readonly enabledFeatures?: string[];
   /**
   * connection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
   */
   readonly connectionConfig?: ConnectionProfileStrategyOverridesOidcConnectionConfig;
 }
@@ -954,13 +954,13 @@ export interface ConnectionProfileStrategyOverridesOkta {
   /**
   * Enabled features for the strategy override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
   */
   readonly enabledFeatures?: string[];
   /**
   * connection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
   */
   readonly connectionConfig?: ConnectionProfileStrategyOverridesOktaConnectionConfig;
 }
@@ -1124,13 +1124,13 @@ export interface ConnectionProfileStrategyOverridesPingfederate {
   /**
   * Enabled features for the strategy override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
   */
   readonly enabledFeatures?: string[];
   /**
   * connection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
   */
   readonly connectionConfig?: ConnectionProfileStrategyOverridesPingfederateConnectionConfig;
 }
@@ -1294,13 +1294,13 @@ export interface ConnectionProfileStrategyOverridesSamlp {
   /**
   * Enabled features for the strategy override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
   */
   readonly enabledFeatures?: string[];
   /**
   * connection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
   */
   readonly connectionConfig?: ConnectionProfileStrategyOverridesSamlpConnectionConfig;
 }
@@ -1464,13 +1464,13 @@ export interface ConnectionProfileStrategyOverridesWaad {
   /**
   * Enabled features for the strategy override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#enabled_features ConnectionProfile#enabled_features}
   */
   readonly enabledFeatures?: string[];
   /**
   * connection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#connection_config ConnectionProfile#connection_config}
   */
   readonly connectionConfig?: ConnectionProfileStrategyOverridesWaadConnectionConfig;
 }
@@ -1585,49 +1585,49 @@ export interface ConnectionProfileStrategyOverrides {
   /**
   * ad block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#ad ConnectionProfile#ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#ad ConnectionProfile#ad}
   */
   readonly ad?: ConnectionProfileStrategyOverridesAd;
   /**
   * adfs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#adfs ConnectionProfile#adfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#adfs ConnectionProfile#adfs}
   */
   readonly adfs?: ConnectionProfileStrategyOverridesAdfs;
   /**
   * google_apps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#google_apps ConnectionProfile#google_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#google_apps ConnectionProfile#google_apps}
   */
   readonly googleApps?: ConnectionProfileStrategyOverridesGoogleApps;
   /**
   * oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#oidc ConnectionProfile#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#oidc ConnectionProfile#oidc}
   */
   readonly oidc?: ConnectionProfileStrategyOverridesOidc;
   /**
   * okta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#okta ConnectionProfile#okta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#okta ConnectionProfile#okta}
   */
   readonly okta?: ConnectionProfileStrategyOverridesOkta;
   /**
   * pingfederate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#pingfederate ConnectionProfile#pingfederate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#pingfederate ConnectionProfile#pingfederate}
   */
   readonly pingfederate?: ConnectionProfileStrategyOverridesPingfederate;
   /**
   * samlp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#samlp ConnectionProfile#samlp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#samlp ConnectionProfile#samlp}
   */
   readonly samlp?: ConnectionProfileStrategyOverridesSamlp;
   /**
   * waad block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#waad ConnectionProfile#waad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#waad ConnectionProfile#waad}
   */
   readonly waad?: ConnectionProfileStrategyOverridesWaad;
 }
@@ -1914,7 +1914,7 @@ export class ConnectionProfileStrategyOverridesOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile auth0_connection_profile}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile auth0_connection_profile}
 */
 export class ConnectionProfile extends cdktf.TerraformResource {
 
@@ -1930,7 +1930,7 @@ export class ConnectionProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectionProfile to import
-  * @param importFromId The id of the existing ConnectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1942,7 +1942,7 @@ export class ConnectionProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/connection_profile auth0_connection_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/connection_profile auth0_connection_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1953,8 +1953,8 @@ export class ConnectionProfile extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_connection_profile',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

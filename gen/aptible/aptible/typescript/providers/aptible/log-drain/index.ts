@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain
+// https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface LogDrainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#database_id LogDrain#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#database_id LogDrain#database_id}
   */
   readonly databaseId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#drain_apps LogDrain#drain_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#drain_apps LogDrain#drain_apps}
   */
   readonly drainApps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#drain_databases LogDrain#drain_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#drain_databases LogDrain#drain_databases}
   */
   readonly drainDatabases?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#drain_ephemeral_sessions LogDrain#drain_ephemeral_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#drain_ephemeral_sessions LogDrain#drain_ephemeral_sessions}
   */
   readonly drainEphemeralSessions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#drain_host LogDrain#drain_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#drain_host LogDrain#drain_host}
   */
   readonly drainHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#drain_password LogDrain#drain_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#drain_password LogDrain#drain_password}
   */
   readonly drainPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#drain_port LogDrain#drain_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#drain_port LogDrain#drain_port}
   */
   readonly drainPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#drain_proxies LogDrain#drain_proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#drain_proxies LogDrain#drain_proxies}
   */
   readonly drainProxies?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#drain_type LogDrain#drain_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#drain_type LogDrain#drain_type}
   */
   readonly drainType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#drain_username LogDrain#drain_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#drain_username LogDrain#drain_username}
   */
   readonly drainUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#env_id LogDrain#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#env_id LogDrain#env_id}
   */
   readonly envId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#handle LogDrain#handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#handle LogDrain#handle}
   */
   readonly handle: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#id LogDrain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#id LogDrain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#logging_token LogDrain#logging_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#logging_token LogDrain#logging_token}
   */
   readonly loggingToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#pipeline LogDrain#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#pipeline LogDrain#pipeline}
   */
   readonly pipeline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#tags LogDrain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#tags LogDrain#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#token LogDrain#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#token LogDrain#token}
   */
   readonly token?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#url LogDrain#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#url LogDrain#url}
   */
   readonly url?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain aptible_log_drain}
+* Represents a {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain aptible_log_drain}
 */
 export class LogDrain extends cdktf.TerraformResource {
 
@@ -101,7 +101,7 @@ export class LogDrain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogDrain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogDrain to import
-  * @param importFromId The id of the existing LogDrain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogDrain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogDrain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class LogDrain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/log_drain aptible_log_drain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/log_drain aptible_log_drain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class LogDrain extends cdktf.TerraformResource {
       terraformResourceType: 'aptible_log_drain',
       terraformGeneratorMetadata: {
         providerName: 'aptible',
-        providerVersion: '0.9.18',
-        providerVersionConstraint: '0.9.18'
+        providerVersion: '0.9.19',
+        providerVersionConstraint: '0.9.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

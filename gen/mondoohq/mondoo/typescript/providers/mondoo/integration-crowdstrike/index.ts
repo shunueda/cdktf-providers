@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_crowdstrike
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_crowdstrike
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface IntegrationCrowdstrikeConfig extends cdktf.TerraformMetaArgumen
   /**
   * Client ID used for authentication with CrowdStrike Falcon platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_crowdstrike#client_id IntegrationCrowdstrike#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_crowdstrike#client_id IntegrationCrowdstrike#client_id}
   */
   readonly clientId: string;
   /**
   * Client Secret used for authentication with CrowdStrike Falcon platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_crowdstrike#client_secret IntegrationCrowdstrike#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_crowdstrike#client_secret IntegrationCrowdstrike#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The Falcon Cloud to connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_crowdstrike#cloud IntegrationCrowdstrike#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_crowdstrike#cloud IntegrationCrowdstrike#cloud}
   */
   readonly cloud?: string;
   /**
   * CID selector for cases when the client ID and secret has access to multiple CIDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_crowdstrike#member_cid IntegrationCrowdstrike#member_cid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_crowdstrike#member_cid IntegrationCrowdstrike#member_cid}
   */
   readonly memberCid?: string;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_crowdstrike#name IntegrationCrowdstrike#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_crowdstrike#name IntegrationCrowdstrike#name}
   */
   readonly name: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_crowdstrike#space_id IntegrationCrowdstrike#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_crowdstrike#space_id IntegrationCrowdstrike#space_id}
   */
   readonly spaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_crowdstrike mondoo_integration_crowdstrike}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_crowdstrike mondoo_integration_crowdstrike}
 */
 export class IntegrationCrowdstrike extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class IntegrationCrowdstrike extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationCrowdstrike resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationCrowdstrike to import
-  * @param importFromId The id of the existing IntegrationCrowdstrike that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_crowdstrike#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationCrowdstrike that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_crowdstrike#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationCrowdstrike to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class IntegrationCrowdstrike extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_crowdstrike mondoo_integration_crowdstrike} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_crowdstrike mondoo_integration_crowdstrike} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class IntegrationCrowdstrike extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_crowdstrike',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.2',
-        providerVersionConstraint: '0.35.2'
+        providerVersion: '0.35.3',
+        providerVersionConstraint: '0.35.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

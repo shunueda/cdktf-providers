@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_security_group_management_config
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_security_group_management_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CopilotSecurityGroupManagementConfigConfig extends cdktf.Terraf
   /**
   * Access account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_security_group_management_config#account_name CopilotSecurityGroupManagementConfig#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_security_group_management_config#account_name CopilotSecurityGroupManagementConfig#account_name}
   */
   readonly accountName?: string;
   /**
   * Cloud type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_security_group_management_config#cloud_type CopilotSecurityGroupManagementConfig#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_security_group_management_config#cloud_type CopilotSecurityGroupManagementConfig#cloud_type}
   */
   readonly cloudType?: number;
   /**
   * Switch to enable copilot security group management.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_security_group_management_config#enable_copilot_security_group_management CopilotSecurityGroupManagementConfig#enable_copilot_security_group_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_security_group_management_config#enable_copilot_security_group_management CopilotSecurityGroupManagementConfig#enable_copilot_security_group_management}
   */
   readonly enableCopilotSecurityGroupManagement: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_security_group_management_config#id CopilotSecurityGroupManagementConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_security_group_management_config#id CopilotSecurityGroupManagementConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface CopilotSecurityGroupManagementConfigConfig extends cdktf.Terraf
   /**
   * Copilot instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_security_group_management_config#instance_id CopilotSecurityGroupManagementConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_security_group_management_config#instance_id CopilotSecurityGroupManagementConfig#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Copilot region. Valid for AWS and Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_security_group_management_config#region CopilotSecurityGroupManagementConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_security_group_management_config#region CopilotSecurityGroupManagementConfig#region}
   */
   readonly region?: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_security_group_management_config#vpc_id CopilotSecurityGroupManagementConfig#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_security_group_management_config#vpc_id CopilotSecurityGroupManagementConfig#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * Copilot zone. Valid for GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_security_group_management_config#zone CopilotSecurityGroupManagementConfig#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_security_group_management_config#zone CopilotSecurityGroupManagementConfig#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_security_group_management_config aviatrix_copilot_security_group_management_config}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_security_group_management_config aviatrix_copilot_security_group_management_config}
 */
 export class CopilotSecurityGroupManagementConfig extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class CopilotSecurityGroupManagementConfig extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a CopilotSecurityGroupManagementConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CopilotSecurityGroupManagementConfig to import
-  * @param importFromId The id of the existing CopilotSecurityGroupManagementConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_security_group_management_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CopilotSecurityGroupManagementConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_security_group_management_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CopilotSecurityGroupManagementConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class CopilotSecurityGroupManagementConfig extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_security_group_management_config aviatrix_copilot_security_group_management_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_security_group_management_config aviatrix_copilot_security_group_management_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class CopilotSecurityGroupManagementConfig extends cdktf.TerraformResourc
       terraformResourceType: 'aviatrix_copilot_security_group_management_config',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

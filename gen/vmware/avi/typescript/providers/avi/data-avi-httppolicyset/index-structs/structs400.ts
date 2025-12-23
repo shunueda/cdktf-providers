@@ -1081,6 +1081,11 @@ export class DataAviHttppolicysetHttpSecurityPolicyRulesMatchHdrsOutputReference
     return this.getStringAttribute('match_criteria');
   }
 
+  // string_group_refs - computed: true, optional: false, required: false
+  public get stringGroupRefs() {
+    return this.getListAttribute('string_group_refs');
+  }
+
   // value - computed: true, optional: false, required: false
   public get value() {
     return this.getListAttribute('value');

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/action
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAuth0ActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the action. If not provided, `name` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/action#id DataAuth0Action#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/action#id DataAuth0Action#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataAuth0ActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the action. If not provided, `id` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/action#name DataAuth0Action#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/action#name DataAuth0Action#name}
   */
   readonly name?: string;
 }
@@ -265,7 +265,7 @@ export class DataAuth0ActionSupportedTriggersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/action auth0_action}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/action auth0_action}
 */
 export class DataAuth0Action extends cdktf.TerraformDataSource {
 
@@ -281,7 +281,7 @@ export class DataAuth0Action extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAuth0Action resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuth0Action to import
-  * @param importFromId The id of the existing DataAuth0Action that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuth0Action that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuth0Action to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class DataAuth0Action extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/data-sources/action auth0_action} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/data-sources/action auth0_action} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class DataAuth0Action extends cdktf.TerraformDataSource {
       terraformResourceType: 'auth0_action',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

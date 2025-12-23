@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GatewaySnatConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#gw_name GatewaySnat#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#gw_name GatewaySnat#gw_name}
   */
   readonly gwName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#id GatewaySnat#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#id GatewaySnat#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface GatewaySnatConfig extends cdktf.TerraformMetaArguments {
   /**
   * Nat mode. Currently only supports 'customized_snat'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#snat_mode GatewaySnat#snat_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#snat_mode GatewaySnat#snat_mode}
   */
   readonly snatMode?: string;
   /**
   * Whether to sync the policies to the HA gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#sync_to_ha GatewaySnat#sync_to_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#sync_to_ha GatewaySnat#sync_to_ha}
   */
   readonly syncToHa?: boolean | cdktf.IResolvable;
   /**
   * snat_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#snat_policy GatewaySnat#snat_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#snat_policy GatewaySnat#snat_policy}
   */
   readonly snatPolicy?: GatewaySnatSnatPolicy[] | cdktf.IResolvable;
 }
@@ -303,73 +303,73 @@ export interface GatewaySnatSnatPolicy {
   /**
   * This is an option to program the route entry 'DST CIDR pointing to Aviatrix Gateway' into Cloud platform routing table. Type: Boolean. Default: True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#apply_route_entry GatewaySnat#apply_route_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#apply_route_entry GatewaySnat#apply_route_entry}
   */
   readonly applyRouteEntry?: boolean | cdktf.IResolvable;
   /**
   * This is a qualifier condition that specifies output connection where the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#connection GatewaySnat#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#connection GatewaySnat#connection}
   */
   readonly connection?: string;
   /**
   * This is a qualifier condition that specifies a destination IP address range where the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#dst_cidr GatewaySnat#dst_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#dst_cidr GatewaySnat#dst_cidr}
   */
   readonly dstCidr?: string;
   /**
   * This is a qualifier condition that specifies a destination port where the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#dst_port GatewaySnat#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#dst_port GatewaySnat#dst_port}
   */
   readonly dstPort?: string;
   /**
   * This field specifies which VPC private route table will not be programmed with the default route entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#exclude_rtb GatewaySnat#exclude_rtb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#exclude_rtb GatewaySnat#exclude_rtb}
   */
   readonly excludeRtb?: string;
   /**
   * This is a qualifier condition that specifies output interface where the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#interface GatewaySnat#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#interface GatewaySnat#interface}
   */
   readonly interface?: string;
   /**
   * This is a qualifier condition that specifies a tag or mark of a TCP session where the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#mark GatewaySnat#mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#mark GatewaySnat#mark}
   */
   readonly mark?: string;
   /**
   * This is a qualifier condition that specifies a destination port protocol where the rule applies. Default: all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#protocol GatewaySnat#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#protocol GatewaySnat#protocol}
   */
   readonly protocol?: string;
   /**
   * This is a rule field that specifies the changed source IP address when all specified qualifier conditions meet. When left blank, this field is not used. One of the rule fields must be specified for this rule to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#snat_ips GatewaySnat#snat_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#snat_ips GatewaySnat#snat_ips}
   */
   readonly snatIps?: string;
   /**
   * This is a rule field that specifies the changed source port when all specified qualifier conditions meet. When left blank, this field is not used. One of the rule fields must be specified for this rule to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#snat_port GatewaySnat#snat_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#snat_port GatewaySnat#snat_port}
   */
   readonly snatPort?: string;
   /**
   * This is a qualifier condition that specifies a source IP address range where the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#src_cidr GatewaySnat#src_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#src_cidr GatewaySnat#src_cidr}
   */
   readonly srcCidr?: string;
   /**
   * This is a qualifier condition that specifies a source port that the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#src_port GatewaySnat#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#src_port GatewaySnat#src_port}
   */
   readonly srcPort?: string;
 }
@@ -804,7 +804,7 @@ export class GatewaySnatSnatPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat aviatrix_gateway_snat}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat aviatrix_gateway_snat}
 */
 export class GatewaySnat extends cdktf.TerraformResource {
 
@@ -820,7 +820,7 @@ export class GatewaySnat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewaySnat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewaySnat to import
-  * @param importFromId The id of the existing GatewaySnat that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewaySnat that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewaySnat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -832,7 +832,7 @@ export class GatewaySnat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_snat aviatrix_gateway_snat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_snat aviatrix_gateway_snat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -843,8 +843,8 @@ export class GatewaySnat extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_gateway_snat',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

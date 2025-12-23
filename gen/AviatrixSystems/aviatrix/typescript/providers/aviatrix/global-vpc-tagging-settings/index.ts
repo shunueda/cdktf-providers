@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/global_vpc_tagging_settings
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/global_vpc_tagging_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GlobalVpcTaggingSettingsConfig extends cdktf.TerraformMetaArgum
   /**
   * Set to true to enable alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/global_vpc_tagging_settings#enable_alert GlobalVpcTaggingSettings#enable_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/global_vpc_tagging_settings#enable_alert GlobalVpcTaggingSettings#enable_alert}
   */
   readonly enableAlert: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/global_vpc_tagging_settings#id GlobalVpcTaggingSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/global_vpc_tagging_settings#id GlobalVpcTaggingSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface GlobalVpcTaggingSettingsConfig extends cdktf.TerraformMetaArgum
   /**
   * Service state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/global_vpc_tagging_settings#service_state GlobalVpcTaggingSettings#service_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/global_vpc_tagging_settings#service_state GlobalVpcTaggingSettings#service_state}
   */
   readonly serviceState: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/global_vpc_tagging_settings aviatrix_global_vpc_tagging_settings}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/global_vpc_tagging_settings aviatrix_global_vpc_tagging_settings}
 */
 export class GlobalVpcTaggingSettings extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class GlobalVpcTaggingSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GlobalVpcTaggingSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalVpcTaggingSettings to import
-  * @param importFromId The id of the existing GlobalVpcTaggingSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/global_vpc_tagging_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalVpcTaggingSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/global_vpc_tagging_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalVpcTaggingSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class GlobalVpcTaggingSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/global_vpc_tagging_settings aviatrix_global_vpc_tagging_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/global_vpc_tagging_settings aviatrix_global_vpc_tagging_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class GlobalVpcTaggingSettings extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_global_vpc_tagging_settings',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

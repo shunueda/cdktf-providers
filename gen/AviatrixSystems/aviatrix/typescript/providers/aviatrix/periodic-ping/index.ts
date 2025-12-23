@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/periodic_ping
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/periodic_ping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PeriodicPingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/periodic_ping#gw_name PeriodicPing#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/periodic_ping#gw_name PeriodicPing#gw_name}
   */
   readonly gwName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/periodic_ping#id PeriodicPing#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/periodic_ping#id PeriodicPing#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface PeriodicPingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interval between pings in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/periodic_ping#interval PeriodicPing#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/periodic_ping#interval PeriodicPing#interval}
   */
   readonly interval: number;
   /**
   * IP Address to ping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/periodic_ping#ip_address PeriodicPing#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/periodic_ping#ip_address PeriodicPing#ip_address}
   */
   readonly ipAddress: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/periodic_ping aviatrix_periodic_ping}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/periodic_ping aviatrix_periodic_ping}
 */
 export class PeriodicPing extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class PeriodicPing extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PeriodicPing resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PeriodicPing to import
-  * @param importFromId The id of the existing PeriodicPing that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/periodic_ping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PeriodicPing that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/periodic_ping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PeriodicPing to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class PeriodicPing extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/periodic_ping aviatrix_periodic_ping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/periodic_ping aviatrix_periodic_ping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class PeriodicPing extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_periodic_ping',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

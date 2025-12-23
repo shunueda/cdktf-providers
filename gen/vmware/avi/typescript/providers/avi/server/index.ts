@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,130 @@ import * as cdktf from 'cdktf';
 
 export interface ServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#autoscaling_group_name Server#autoscaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#autoscaling_group_name Server#autoscaling_group_name}
   */
   readonly autoscalingGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#availability_zone Server#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#availability_zone Server#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#description Server#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#description Server#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#enabled Server#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#enabled Server#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#external_orchestration_id Server#external_orchestration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#external_orchestration_id Server#external_orchestration_id}
   */
   readonly externalOrchestrationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#external_uuid Server#external_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#external_uuid Server#external_uuid}
   */
   readonly externalUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#hostname Server#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#health_monitor_refs Server#health_monitor_refs}
+  */
+  readonly healthMonitorRefs?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#hostname Server#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#id Server#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#id Server#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#ip Server#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#ip Server#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#mac_address Server#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#mac_address Server#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#nw_ref Server#nw_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#nw_ref Server#nw_ref}
   */
   readonly nwRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#pool_ref Server#pool_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#pool_ref Server#pool_ref}
   */
   readonly poolRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#port Server#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#port Server#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#preference_order Server#preference_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#preference_order Server#preference_order}
   */
   readonly preferenceOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#prst_hdr_val Server#prst_hdr_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#prst_hdr_val Server#prst_hdr_val}
   */
   readonly prstHdrVal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#ratio Server#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#ratio Server#ratio}
   */
   readonly ratio?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#resolve_server_by_dns Server#resolve_server_by_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#resolve_server_by_dns Server#resolve_server_by_dns}
   */
   readonly resolveServerByDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#rewrite_host_header Server#rewrite_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#rewrite_host_header Server#rewrite_host_header}
   */
   readonly rewriteHostHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#server_node Server#server_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#server_node Server#server_node}
   */
   readonly serverNode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#static Server#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#static Server#static}
   */
   readonly static?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#type Server#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#type Server#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#verify_network Server#verify_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#verify_network Server#verify_network}
   */
   readonly verifyNetwork?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#vm_ref Server#vm_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#vm_ref Server#vm_ref}
   */
   readonly vmRef?: string;
   /**
   * discovered_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#discovered_networks Server#discovered_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#discovered_networks Server#discovered_networks}
   */
   readonly discoveredNetworks?: ServerDiscoveredNetworks[] | cdktf.IResolvable;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#location Server#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#location Server#location}
   */
   readonly location?: ServerLocation[] | cdktf.IResolvable;
+  /**
+  * srv_rdata block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#srv_rdata Server#srv_rdata}
+  */
+  readonly srvRdata?: ServerSrvRdata[] | cdktf.IResolvable;
 }
 export interface ServerDiscoveredNetworksSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#addr Server#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#addr Server#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#type Server#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#type Server#type}
   */
   readonly type: string;
 }
@@ -260,13 +270,13 @@ export class ServerDiscoveredNetworksSubnetIpAddrList extends cdktf.ComplexList 
 }
 export interface ServerDiscoveredNetworksSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#mask Server#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#mask Server#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#ip_addr Server#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#ip_addr Server#ip_addr}
   */
   readonly ipAddr: ServerDiscoveredNetworksSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -405,11 +415,11 @@ export class ServerDiscoveredNetworksSubnetList extends cdktf.ComplexList {
 }
 export interface ServerDiscoveredNetworksSubnet6IpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#addr Server#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#addr Server#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#type Server#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#type Server#type}
   */
   readonly type: string;
 }
@@ -548,13 +558,13 @@ export class ServerDiscoveredNetworksSubnet6IpAddrList extends cdktf.ComplexList
 }
 export interface ServerDiscoveredNetworksSubnet6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#mask Server#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#mask Server#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#ip_addr Server#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#ip_addr Server#ip_addr}
   */
   readonly ipAddr: ServerDiscoveredNetworksSubnet6IpAddr[] | cdktf.IResolvable;
 }
@@ -693,19 +703,19 @@ export class ServerDiscoveredNetworksSubnet6List extends cdktf.ComplexList {
 }
 export interface ServerDiscoveredNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#network_ref Server#network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#network_ref Server#network_ref}
   */
   readonly networkRef: string;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#subnet Server#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#subnet Server#subnet}
   */
   readonly subnet?: ServerDiscoveredNetworksSubnet[] | cdktf.IResolvable;
   /**
   * subnet6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#subnet6 Server#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#subnet6 Server#subnet6}
   */
   readonly subnet6?: ServerDiscoveredNetworksSubnet6[] | cdktf.IResolvable;
 }
@@ -876,19 +886,19 @@ export class ServerDiscoveredNetworksList extends cdktf.ComplexList {
 }
 export interface ServerLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#latitude Server#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#latitude Server#latitude}
   */
   readonly latitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#longitude Server#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#longitude Server#longitude}
   */
   readonly longitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#name Server#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#name Server#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#tag Server#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#tag Server#tag}
   */
   readonly tag?: string;
 }
@@ -1089,9 +1099,182 @@ export class ServerLocationList extends cdktf.ComplexList {
     return new ServerLocationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ServerSrvRdata {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#port Server#port}
+  */
+  readonly port: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#priority Server#priority}
+  */
+  readonly priority: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#weight Server#weight}
+  */
+  readonly weight: string;
+}
+
+export function serverSrvRdataToTerraform(struct?: ServerSrvRdata | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    port: cdktf.stringToTerraform(struct!.port),
+    priority: cdktf.stringToTerraform(struct!.priority),
+    weight: cdktf.stringToTerraform(struct!.weight),
+  }
+}
+
+
+export function serverSrvRdataToHclTerraform(struct?: ServerSrvRdata | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    port: {
+      value: cdktf.stringToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    priority: {
+      value: cdktf.stringToHclTerraform(struct!.priority),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    weight: {
+      value: cdktf.stringToHclTerraform(struct!.weight),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServerSrvRdataOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ServerSrvRdata | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    if (this._priority !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.priority = this._priority;
+    }
+    if (this._weight !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.weight = this._weight;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServerSrvRdata | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._port = undefined;
+      this._priority = undefined;
+      this._weight = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._port = value.port;
+      this._priority = value.priority;
+      this._weight = value.weight;
+    }
+  }
+
+  // port - computed: false, optional: false, required: true
+  private _port?: string; 
+  public get port() {
+    return this.getStringAttribute('port');
+  }
+  public set port(value: string) {
+    this._port = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+
+  // priority - computed: false, optional: false, required: true
+  private _priority?: string; 
+  public get priority() {
+    return this.getStringAttribute('priority');
+  }
+  public set priority(value: string) {
+    this._priority = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get priorityInput() {
+    return this._priority;
+  }
+
+  // weight - computed: false, optional: false, required: true
+  private _weight?: string; 
+  public get weight() {
+    return this.getStringAttribute('weight');
+  }
+  public set weight(value: string) {
+    this._weight = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get weightInput() {
+    return this._weight;
+  }
+}
+
+export class ServerSrvRdataList extends cdktf.ComplexList {
+  public internalValue? : ServerSrvRdata[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ServerSrvRdataOutputReference {
+    return new ServerSrvRdataOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server avi_server}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server avi_server}
 */
 export class Server extends cdktf.TerraformResource {
 
@@ -1107,7 +1290,7 @@ export class Server extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Server resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Server to import
-  * @param importFromId The id of the existing Server that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Server that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Server to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1119,7 +1302,7 @@ export class Server extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/server avi_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/server avi_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1130,8 +1313,8 @@ export class Server extends cdktf.TerraformResource {
       terraformResourceType: 'avi_server',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1147,6 +1330,7 @@ export class Server extends cdktf.TerraformResource {
     this._enabled = config.enabled;
     this._externalOrchestrationId = config.externalOrchestrationId;
     this._externalUuid = config.externalUuid;
+    this._healthMonitorRefs = config.healthMonitorRefs;
     this._hostname = config.hostname;
     this._id = config.id;
     this._ip = config.ip;
@@ -1166,6 +1350,7 @@ export class Server extends cdktf.TerraformResource {
     this._vmRef = config.vmRef;
     this._discoveredNetworks.internalValue = config.discoveredNetworks;
     this._location.internalValue = config.location;
+    this._srvRdata.internalValue = config.srvRdata;
   }
 
   // ==========
@@ -1266,6 +1451,22 @@ export class Server extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get externalUuidInput() {
     return this._externalUuid;
+  }
+
+  // health_monitor_refs - computed: false, optional: true, required: false
+  private _healthMonitorRefs?: string[]; 
+  public get healthMonitorRefs() {
+    return this.getListAttribute('health_monitor_refs');
+  }
+  public set healthMonitorRefs(value: string[]) {
+    this._healthMonitorRefs = value;
+  }
+  public resetHealthMonitorRefs() {
+    this._healthMonitorRefs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get healthMonitorRefsInput() {
+    return this._healthMonitorRefs;
   }
 
   // hostname - computed: true, optional: true, required: false
@@ -1566,6 +1767,22 @@ export class Server extends cdktf.TerraformResource {
     return this._location.internalValue;
   }
 
+  // srv_rdata - computed: false, optional: true, required: false
+  private _srvRdata = new ServerSrvRdataList(this, "srv_rdata", true);
+  public get srvRdata() {
+    return this._srvRdata;
+  }
+  public putSrvRdata(value: ServerSrvRdata[] | cdktf.IResolvable) {
+    this._srvRdata.internalValue = value;
+  }
+  public resetSrvRdata() {
+    this._srvRdata.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srvRdataInput() {
+    return this._srvRdata.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -1578,6 +1795,7 @@ export class Server extends cdktf.TerraformResource {
       enabled: cdktf.stringToTerraform(this._enabled),
       external_orchestration_id: cdktf.stringToTerraform(this._externalOrchestrationId),
       external_uuid: cdktf.stringToTerraform(this._externalUuid),
+      health_monitor_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(this._healthMonitorRefs),
       hostname: cdktf.stringToTerraform(this._hostname),
       id: cdktf.stringToTerraform(this._id),
       ip: cdktf.stringToTerraform(this._ip),
@@ -1597,6 +1815,7 @@ export class Server extends cdktf.TerraformResource {
       vm_ref: cdktf.stringToTerraform(this._vmRef),
       discovered_networks: cdktf.listMapper(serverDiscoveredNetworksToTerraform, true)(this._discoveredNetworks.internalValue),
       location: cdktf.listMapper(serverLocationToTerraform, true)(this._location.internalValue),
+      srv_rdata: cdktf.listMapper(serverSrvRdataToTerraform, true)(this._srvRdata.internalValue),
     };
   }
 
@@ -1637,6 +1856,12 @@ export class Server extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      health_monitor_refs: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._healthMonitorRefs),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
       },
       hostname: {
         value: cdktf.stringToHclTerraform(this._hostname),
@@ -1751,6 +1976,12 @@ export class Server extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "ServerLocationList",
+      },
+      srv_rdata: {
+        value: cdktf.listMapperHcl(serverSrvRdataToHclTerraform, true)(this._srvRdata.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ServerSrvRdataList",
       },
     };
 

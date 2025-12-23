@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceauthprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#description Serviceauthprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#description Serviceauthprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#id Serviceauthprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#id Serviceauthprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#name Serviceauthprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#name Serviceauthprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#tenant_ref Serviceauthprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#tenant_ref Serviceauthprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#type Serviceauthprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#type Serviceauthprofile#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#uuid Serviceauthprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#uuid Serviceauthprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#configpb_attributes Serviceauthprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#configpb_attributes Serviceauthprofile#configpb_attributes}
   */
   readonly configpbAttributes?: ServiceauthprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * service_oauth_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#service_oauth_profile Serviceauthprofile#service_oauth_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#service_oauth_profile Serviceauthprofile#service_oauth_profile}
   */
   readonly serviceOauthProfile?: ServiceauthprofileServiceOauthProfile[] | cdktf.IResolvable;
 }
 export interface ServiceauthprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#version Serviceauthprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#version Serviceauthprofile#version}
   */
   readonly version?: string;
 }
@@ -165,23 +165,23 @@ export class ServiceauthprofileConfigpbAttributesList extends cdktf.ComplexList 
 }
 export interface ServiceauthprofileServiceOauthProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#authorization_endpoint Serviceauthprofile#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#authorization_endpoint Serviceauthprofile#authorization_endpoint}
   */
   readonly authorizationEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#client_id Serviceauthprofile#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#client_id Serviceauthprofile#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#org_id Serviceauthprofile#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#org_id Serviceauthprofile#org_id}
   */
   readonly orgId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#service_id Serviceauthprofile#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#service_id Serviceauthprofile#service_id}
   */
   readonly serviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#service_name Serviceauthprofile#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#service_name Serviceauthprofile#service_name}
   */
   readonly serviceName?: string;
 }
@@ -407,7 +407,7 @@ export class ServiceauthprofileServiceOauthProfileList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile avi_serviceauthprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile avi_serviceauthprofile}
 */
 export class Serviceauthprofile extends cdktf.TerraformResource {
 
@@ -423,7 +423,7 @@ export class Serviceauthprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Serviceauthprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Serviceauthprofile to import
-  * @param importFromId The id of the existing Serviceauthprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Serviceauthprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Serviceauthprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -435,7 +435,7 @@ export class Serviceauthprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceauthprofile avi_serviceauthprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceauthprofile avi_serviceauthprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -446,8 +446,8 @@ export class Serviceauthprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_serviceauthprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

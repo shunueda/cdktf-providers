@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,96 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface CloudconnectoruserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#id Cloudconnectoruser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#id Cloudconnectoruser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#name Cloudconnectoruser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#name Cloudconnectoruser#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#password Cloudconnectoruser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#password Cloudconnectoruser#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#private_key Cloudconnectoruser#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#private_key Cloudconnectoruser#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#public_key Cloudconnectoruser#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#public_key Cloudconnectoruser#public_key}
   */
   readonly publicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#tenant_ref Cloudconnectoruser#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#tenant_ref Cloudconnectoruser#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#uuid Cloudconnectoruser#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#uuid Cloudconnectoruser#uuid}
   */
   readonly uuid?: string;
   /**
   * azure_serviceprincipal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#azure_serviceprincipal Cloudconnectoruser#azure_serviceprincipal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#azure_serviceprincipal Cloudconnectoruser#azure_serviceprincipal}
   */
   readonly azureServiceprincipal?: CloudconnectoruserAzureServiceprincipal[] | cdktf.IResolvable;
   /**
   * azure_userpass block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#azure_userpass Cloudconnectoruser#azure_userpass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#azure_userpass Cloudconnectoruser#azure_userpass}
   */
   readonly azureUserpass?: CloudconnectoruserAzureUserpass[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#configpb_attributes Cloudconnectoruser#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#configpb_attributes Cloudconnectoruser#configpb_attributes}
   */
   readonly configpbAttributes?: CloudconnectoruserConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * gcp_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#gcp_credentials Cloudconnectoruser#gcp_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#gcp_credentials Cloudconnectoruser#gcp_credentials}
   */
   readonly gcpCredentials?: CloudconnectoruserGcpCredentials[] | cdktf.IResolvable;
   /**
   * nsxt_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#nsxt_credentials Cloudconnectoruser#nsxt_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#nsxt_credentials Cloudconnectoruser#nsxt_credentials}
   */
   readonly nsxtCredentials?: CloudconnectoruserNsxtCredentials[] | cdktf.IResolvable;
   /**
-  * oci_credentials block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#oci_credentials Cloudconnectoruser#oci_credentials}
-  */
-  readonly ociCredentials?: CloudconnectoruserOciCredentials[] | cdktf.IResolvable;
-  /**
   * tencent_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#tencent_credentials Cloudconnectoruser#tencent_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#tencent_credentials Cloudconnectoruser#tencent_credentials}
   */
   readonly tencentCredentials?: CloudconnectoruserTencentCredentials[] | cdktf.IResolvable;
   /**
   * vcenter_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#vcenter_credentials Cloudconnectoruser#vcenter_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#vcenter_credentials Cloudconnectoruser#vcenter_credentials}
   */
   readonly vcenterCredentials?: CloudconnectoruserVcenterCredentials[] | cdktf.IResolvable;
 }
 export interface CloudconnectoruserAzureServiceprincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#application_id Cloudconnectoruser#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#application_id Cloudconnectoruser#application_id}
   */
   readonly applicationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#authentication_token Cloudconnectoruser#authentication_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#authentication_token Cloudconnectoruser#authentication_token}
   */
   readonly authenticationToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#tenant_id Cloudconnectoruser#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#tenant_id Cloudconnectoruser#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -271,15 +265,15 @@ export class CloudconnectoruserAzureServiceprincipalList extends cdktf.ComplexLi
 }
 export interface CloudconnectoruserAzureUserpass {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#password Cloudconnectoruser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#password Cloudconnectoruser#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#tenant_name Cloudconnectoruser#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#tenant_name Cloudconnectoruser#tenant_name}
   */
   readonly tenantName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#username Cloudconnectoruser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#username Cloudconnectoruser#username}
   */
   readonly username?: string;
 }
@@ -453,7 +447,7 @@ export class CloudconnectoruserAzureUserpassList extends cdktf.ComplexList {
 }
 export interface CloudconnectoruserConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#version Cloudconnectoruser#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#version Cloudconnectoruser#version}
   */
   readonly version?: string;
 }
@@ -569,7 +563,7 @@ export class CloudconnectoruserConfigpbAttributesList extends cdktf.ComplexList 
 }
 export interface CloudconnectoruserGcpCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#service_account_keyfile_data Cloudconnectoruser#service_account_keyfile_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#service_account_keyfile_data Cloudconnectoruser#service_account_keyfile_data}
   */
   readonly serviceAccountKeyfileData?: string;
 }
@@ -685,11 +679,11 @@ export class CloudconnectoruserGcpCredentialsList extends cdktf.ComplexList {
 }
 export interface CloudconnectoruserNsxtCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#password Cloudconnectoruser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#password Cloudconnectoruser#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#username Cloudconnectoruser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#username Cloudconnectoruser#username}
   */
   readonly username?: string;
 }
@@ -832,228 +826,13 @@ export class CloudconnectoruserNsxtCredentialsList extends cdktf.ComplexList {
     return new CloudconnectoruserNsxtCredentialsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface CloudconnectoruserOciCredentials {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#fingerprint Cloudconnectoruser#fingerprint}
-  */
-  readonly fingerprint?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#key_content Cloudconnectoruser#key_content}
-  */
-  readonly keyContent?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#pass_phrase Cloudconnectoruser#pass_phrase}
-  */
-  readonly passPhrase?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#user Cloudconnectoruser#user}
-  */
-  readonly user?: string;
-}
-
-export function cloudconnectoruserOciCredentialsToTerraform(struct?: CloudconnectoruserOciCredentials | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    fingerprint: cdktf.stringToTerraform(struct!.fingerprint),
-    key_content: cdktf.stringToTerraform(struct!.keyContent),
-    pass_phrase: cdktf.stringToTerraform(struct!.passPhrase),
-    user: cdktf.stringToTerraform(struct!.user),
-  }
-}
-
-
-export function cloudconnectoruserOciCredentialsToHclTerraform(struct?: CloudconnectoruserOciCredentials | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    fingerprint: {
-      value: cdktf.stringToHclTerraform(struct!.fingerprint),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    key_content: {
-      value: cdktf.stringToHclTerraform(struct!.keyContent),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    pass_phrase: {
-      value: cdktf.stringToHclTerraform(struct!.passPhrase),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    user: {
-      value: cdktf.stringToHclTerraform(struct!.user),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class CloudconnectoruserOciCredentialsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): CloudconnectoruserOciCredentials | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._fingerprint !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.fingerprint = this._fingerprint;
-    }
-    if (this._keyContent !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.keyContent = this._keyContent;
-    }
-    if (this._passPhrase !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.passPhrase = this._passPhrase;
-    }
-    if (this._user !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.user = this._user;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: CloudconnectoruserOciCredentials | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._fingerprint = undefined;
-      this._keyContent = undefined;
-      this._passPhrase = undefined;
-      this._user = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._fingerprint = value.fingerprint;
-      this._keyContent = value.keyContent;
-      this._passPhrase = value.passPhrase;
-      this._user = value.user;
-    }
-  }
-
-  // fingerprint - computed: true, optional: true, required: false
-  private _fingerprint?: string; 
-  public get fingerprint() {
-    return this.getStringAttribute('fingerprint');
-  }
-  public set fingerprint(value: string) {
-    this._fingerprint = value;
-  }
-  public resetFingerprint() {
-    this._fingerprint = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fingerprintInput() {
-    return this._fingerprint;
-  }
-
-  // key_content - computed: true, optional: true, required: false
-  private _keyContent?: string; 
-  public get keyContent() {
-    return this.getStringAttribute('key_content');
-  }
-  public set keyContent(value: string) {
-    this._keyContent = value;
-  }
-  public resetKeyContent() {
-    this._keyContent = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get keyContentInput() {
-    return this._keyContent;
-  }
-
-  // pass_phrase - computed: true, optional: true, required: false
-  private _passPhrase?: string; 
-  public get passPhrase() {
-    return this.getStringAttribute('pass_phrase');
-  }
-  public set passPhrase(value: string) {
-    this._passPhrase = value;
-  }
-  public resetPassPhrase() {
-    this._passPhrase = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get passPhraseInput() {
-    return this._passPhrase;
-  }
-
-  // user - computed: true, optional: true, required: false
-  private _user?: string; 
-  public get user() {
-    return this.getStringAttribute('user');
-  }
-  public set user(value: string) {
-    this._user = value;
-  }
-  public resetUser() {
-    this._user = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get userInput() {
-    return this._user;
-  }
-}
-
-export class CloudconnectoruserOciCredentialsList extends cdktf.ComplexList {
-  public internalValue? : CloudconnectoruserOciCredentials[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): CloudconnectoruserOciCredentialsOutputReference {
-    return new CloudconnectoruserOciCredentialsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface CloudconnectoruserTencentCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#secret_id Cloudconnectoruser#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#secret_id Cloudconnectoruser#secret_id}
   */
   readonly secretId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#secret_key Cloudconnectoruser#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#secret_key Cloudconnectoruser#secret_key}
   */
   readonly secretKey: string;
 }
@@ -1192,11 +971,11 @@ export class CloudconnectoruserTencentCredentialsList extends cdktf.ComplexList 
 }
 export interface CloudconnectoruserVcenterCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#password Cloudconnectoruser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#password Cloudconnectoruser#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#username Cloudconnectoruser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#username Cloudconnectoruser#username}
   */
   readonly username?: string;
 }
@@ -1341,7 +1120,7 @@ export class CloudconnectoruserVcenterCredentialsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser avi_cloudconnectoruser}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser avi_cloudconnectoruser}
 */
 export class Cloudconnectoruser extends cdktf.TerraformResource {
 
@@ -1357,7 +1136,7 @@ export class Cloudconnectoruser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cloudconnectoruser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cloudconnectoruser to import
-  * @param importFromId The id of the existing Cloudconnectoruser that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cloudconnectoruser that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cloudconnectoruser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1369,7 +1148,7 @@ export class Cloudconnectoruser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloudconnectoruser avi_cloudconnectoruser} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/cloudconnectoruser avi_cloudconnectoruser} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1380,8 +1159,8 @@ export class Cloudconnectoruser extends cdktf.TerraformResource {
       terraformResourceType: 'avi_cloudconnectoruser',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1403,7 +1182,6 @@ export class Cloudconnectoruser extends cdktf.TerraformResource {
     this._configpbAttributes.internalValue = config.configpbAttributes;
     this._gcpCredentials.internalValue = config.gcpCredentials;
     this._nsxtCredentials.internalValue = config.nsxtCredentials;
-    this._ociCredentials.internalValue = config.ociCredentials;
     this._tencentCredentials.internalValue = config.tencentCredentials;
     this._vcenterCredentials.internalValue = config.vcenterCredentials;
   }
@@ -1601,22 +1379,6 @@ export class Cloudconnectoruser extends cdktf.TerraformResource {
     return this._nsxtCredentials.internalValue;
   }
 
-  // oci_credentials - computed: false, optional: true, required: false
-  private _ociCredentials = new CloudconnectoruserOciCredentialsList(this, "oci_credentials", true);
-  public get ociCredentials() {
-    return this._ociCredentials;
-  }
-  public putOciCredentials(value: CloudconnectoruserOciCredentials[] | cdktf.IResolvable) {
-    this._ociCredentials.internalValue = value;
-  }
-  public resetOciCredentials() {
-    this._ociCredentials.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ociCredentialsInput() {
-    return this._ociCredentials.internalValue;
-  }
-
   // tencent_credentials - computed: false, optional: true, required: false
   private _tencentCredentials = new CloudconnectoruserTencentCredentialsList(this, "tencent_credentials", true);
   public get tencentCredentials() {
@@ -1667,7 +1429,6 @@ export class Cloudconnectoruser extends cdktf.TerraformResource {
       configpb_attributes: cdktf.listMapper(cloudconnectoruserConfigpbAttributesToTerraform, true)(this._configpbAttributes.internalValue),
       gcp_credentials: cdktf.listMapper(cloudconnectoruserGcpCredentialsToTerraform, true)(this._gcpCredentials.internalValue),
       nsxt_credentials: cdktf.listMapper(cloudconnectoruserNsxtCredentialsToTerraform, true)(this._nsxtCredentials.internalValue),
-      oci_credentials: cdktf.listMapper(cloudconnectoruserOciCredentialsToTerraform, true)(this._ociCredentials.internalValue),
       tencent_credentials: cdktf.listMapper(cloudconnectoruserTencentCredentialsToTerraform, true)(this._tencentCredentials.internalValue),
       vcenter_credentials: cdktf.listMapper(cloudconnectoruserVcenterCredentialsToTerraform, true)(this._vcenterCredentials.internalValue),
     };
@@ -1746,12 +1507,6 @@ export class Cloudconnectoruser extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "CloudconnectoruserNsxtCredentialsList",
-      },
-      oci_credentials: {
-        value: cdktf.listMapperHcl(cloudconnectoruserOciCredentialsToHclTerraform, true)(this._ociCredentials.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "CloudconnectoruserOciCredentialsList",
       },
       tencent_credentials: {
         value: cdktf.listMapperHcl(cloudconnectoruserTencentCredentialsToHclTerraform, true)(this._tencentCredentials.internalValue),

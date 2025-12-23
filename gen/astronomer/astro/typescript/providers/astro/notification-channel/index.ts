@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel
+// https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface NotificationChannelConfig extends cdktf.TerraformMetaArguments 
   /**
   * The notification channel's definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#definition NotificationChannel#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#definition NotificationChannel#definition}
   */
   readonly definition: NotificationChannelDefinition;
   /**
   * The entity ID the notification channel is scoped to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#entity_id NotificationChannel#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#entity_id NotificationChannel#entity_id}
   */
   readonly entityId: string;
   /**
   * The type of entity the notification channel is scoped to (e.g., 'DEPLOYMENT')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#entity_type NotificationChannel#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#entity_type NotificationChannel#entity_type}
   */
   readonly entityType: string;
   /**
   * When entity type is scoped to ORGANIZATION or WORKSPACE, this determines if child entities can access this notification channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#is_shared NotificationChannel#is_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#is_shared NotificationChannel#is_shared}
   */
   readonly isShared?: boolean | cdktf.IResolvable;
   /**
   * The notification channel's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#name NotificationChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#name NotificationChannel#name}
   */
   readonly name: string;
   /**
   * The notification channel's type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#type NotificationChannel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#type NotificationChannel#type}
   */
   readonly type: string;
 }
@@ -127,43 +127,43 @@ export interface NotificationChannelDefinition {
   /**
   * The API key for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#api_key NotificationChannel#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#api_key NotificationChannel#api_key}
   */
   readonly apiKey?: string;
   /**
   * The DAG ID for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#dag_id NotificationChannel#dag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#dag_id NotificationChannel#dag_id}
   */
   readonly dagId?: string;
   /**
   * The deployment API token for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#deployment_api_token NotificationChannel#deployment_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#deployment_api_token NotificationChannel#deployment_api_token}
   */
   readonly deploymentApiToken?: string;
   /**
   * The deployment ID for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#deployment_id NotificationChannel#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#deployment_id NotificationChannel#deployment_id}
   */
   readonly deploymentId?: string;
   /**
   * The integration key for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#integration_key NotificationChannel#integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#integration_key NotificationChannel#integration_key}
   */
   readonly integrationKey?: string;
   /**
   * The recipients for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#recipients NotificationChannel#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#recipients NotificationChannel#recipients}
   */
   readonly recipients?: string[];
   /**
   * The webhook URL for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#webhook_url NotificationChannel#webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#webhook_url NotificationChannel#webhook_url}
   */
   readonly webhookUrl?: string;
 }
@@ -510,7 +510,7 @@ export class NotificationChannelUpdatedByOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel astro_notification_channel}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel astro_notification_channel}
 */
 export class NotificationChannel extends cdktf.TerraformResource {
 
@@ -526,7 +526,7 @@ export class NotificationChannel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationChannel to import
-  * @param importFromId The id of the existing NotificationChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -538,7 +538,7 @@ export class NotificationChannel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/notification_channel astro_notification_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/resources/notification_channel astro_notification_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -549,8 +549,8 @@ export class NotificationChannel extends cdktf.TerraformResource {
       terraformResourceType: 'astro_notification_channel',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.10',
-        providerVersionConstraint: '1.0.10'
+        providerVersion: '1.0.11',
+        providerVersionConstraint: '1.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

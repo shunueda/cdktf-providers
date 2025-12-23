@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface AviatrixProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs#controller_ip AviatrixProvider#controller_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs#controller_ip AviatrixProvider#controller_ip}
   */
   readonly controllerIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs#password AviatrixProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs#password AviatrixProvider#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs#path_to_ca_certificate AviatrixProvider#path_to_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs#path_to_ca_certificate AviatrixProvider#path_to_ca_certificate}
   */
   readonly pathToCaCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs#skip_version_validation AviatrixProvider#skip_version_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs#skip_version_validation AviatrixProvider#skip_version_validation}
   */
   readonly skipVersionValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs#username AviatrixProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs#username AviatrixProvider#username}
   */
   readonly username: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs#verify_ssl_certificate AviatrixProvider#verify_ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs#verify_ssl_certificate AviatrixProvider#verify_ssl_certificate}
   */
   readonly verifySslCertificate?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs#alias AviatrixProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs#alias AviatrixProvider#alias}
   */
   readonly alias?: string;
   /**
   * ignore_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs#ignore_tags AviatrixProvider#ignore_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs#ignore_tags AviatrixProvider#ignore_tags}
   */
   readonly ignoreTags?: AviatrixProviderIgnoreTags;
 }
@@ -48,13 +48,13 @@ export interface AviatrixProviderIgnoreTags {
   /**
   * Tag key prefixes to ignore across all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs#key_prefixes AviatrixProvider#key_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs#key_prefixes AviatrixProvider#key_prefixes}
   */
   readonly keyPrefixes?: string[];
   /**
   * Tag keys to ignore across all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs#keys AviatrixProvider#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs#keys AviatrixProvider#keys}
   */
   readonly keys?: string[];
 }
@@ -97,7 +97,7 @@ export function aviatrixProviderIgnoreTagsToHclTerraform(struct?: AviatrixProvid
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs aviatrix}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs aviatrix}
 */
 export class AviatrixProvider extends cdktf.TerraformProvider {
 
@@ -113,7 +113,7 @@ export class AviatrixProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AviatrixProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AviatrixProvider to import
-  * @param importFromId The id of the existing AviatrixProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AviatrixProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AviatrixProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -125,7 +125,7 @@ export class AviatrixProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs aviatrix} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs aviatrix} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -136,8 +136,8 @@ export class AviatrixProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'aviatrix',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       terraformProviderSource: 'AviatrixSystems/aviatrix'
     });

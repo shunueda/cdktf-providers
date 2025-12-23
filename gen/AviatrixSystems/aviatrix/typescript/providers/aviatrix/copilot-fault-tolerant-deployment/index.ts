@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CopilotFaultTolerantDeploymentConfig extends cdktf.TerraformMet
   /**
   * Aviatrix access account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#account_name CopilotFaultTolerantDeployment#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#account_name CopilotFaultTolerantDeployment#account_name}
   */
   readonly accountName: string;
   /**
   * Cloud type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#cloud_type CopilotFaultTolerantDeployment#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#cloud_type CopilotFaultTolerantDeployment#cloud_type}
   */
   readonly cloudType: number;
   /**
   * Controller service account password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#controller_service_account_password CopilotFaultTolerantDeployment#controller_service_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#controller_service_account_password CopilotFaultTolerantDeployment#controller_service_account_password}
   */
   readonly controllerServiceAccountPassword: string;
   /**
   * Controller service account username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#controller_service_account_username CopilotFaultTolerantDeployment#controller_service_account_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#controller_service_account_username CopilotFaultTolerantDeployment#controller_service_account_username}
   */
   readonly controllerServiceAccountUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#id CopilotFaultTolerantDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#id CopilotFaultTolerantDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface CopilotFaultTolerantDeploymentConfig extends cdktf.TerraformMet
   /**
   * Instance size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#main_copilot_instance_size CopilotFaultTolerantDeployment#main_copilot_instance_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#main_copilot_instance_size CopilotFaultTolerantDeployment#main_copilot_instance_size}
   */
   readonly mainCopilotInstanceSize?: string;
   /**
   * Subnet CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#main_copilot_subnet CopilotFaultTolerantDeployment#main_copilot_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#main_copilot_subnet CopilotFaultTolerantDeployment#main_copilot_subnet}
   */
   readonly mainCopilotSubnet: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#main_copilot_vpc_id CopilotFaultTolerantDeployment#main_copilot_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#main_copilot_vpc_id CopilotFaultTolerantDeployment#main_copilot_vpc_id}
   */
   readonly mainCopilotVpcId: string;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#region CopilotFaultTolerantDeployment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#region CopilotFaultTolerantDeployment#region}
   */
   readonly region: string;
   /**
   * cluster_data_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#cluster_data_nodes CopilotFaultTolerantDeployment#cluster_data_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#cluster_data_nodes CopilotFaultTolerantDeployment#cluster_data_nodes}
   */
   readonly clusterDataNodes: CopilotFaultTolerantDeploymentClusterDataNodes[] | cdktf.IResolvable;
 }
@@ -73,25 +73,25 @@ export interface CopilotFaultTolerantDeploymentClusterDataNodes {
   /**
   * Data volume size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#data_volume_size CopilotFaultTolerantDeployment#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#data_volume_size CopilotFaultTolerantDeployment#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
   * Instance size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#instance_size CopilotFaultTolerantDeployment#instance_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#instance_size CopilotFaultTolerantDeployment#instance_size}
   */
   readonly instanceSize?: string;
   /**
   * Subnet CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#subnet CopilotFaultTolerantDeployment#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#subnet CopilotFaultTolerantDeployment#subnet}
   */
   readonly subnet: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#vpc_id CopilotFaultTolerantDeployment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#vpc_id CopilotFaultTolerantDeployment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -288,7 +288,7 @@ export class CopilotFaultTolerantDeploymentClusterDataNodesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment aviatrix_copilot_fault_tolerant_deployment}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment aviatrix_copilot_fault_tolerant_deployment}
 */
 export class CopilotFaultTolerantDeployment extends cdktf.TerraformResource {
 
@@ -304,7 +304,7 @@ export class CopilotFaultTolerantDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CopilotFaultTolerantDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CopilotFaultTolerantDeployment to import
-  * @param importFromId The id of the existing CopilotFaultTolerantDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CopilotFaultTolerantDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CopilotFaultTolerantDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -316,7 +316,7 @@ export class CopilotFaultTolerantDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/copilot_fault_tolerant_deployment aviatrix_copilot_fault_tolerant_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/copilot_fault_tolerant_deployment aviatrix_copilot_fault_tolerant_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -327,8 +327,8 @@ export class CopilotFaultTolerantDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_copilot_fault_tolerant_deployment',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment
+// https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface EnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment#handle Environment#handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment#handle Environment#handle}
   */
   readonly handle: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment#id Environment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment#id Environment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment#org_id Environment#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment#org_id Environment#org_id}
   */
   readonly orgId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment#stack_id Environment#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment#stack_id Environment#stack_id}
   */
   readonly stackId: number;
   /**
   * backup_retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment#backup_retention_policy Environment#backup_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment#backup_retention_policy Environment#backup_retention_policy}
   */
   readonly backupRetentionPolicy?: EnvironmentBackupRetentionPolicy[] | cdktf.IResolvable;
 }
 export interface EnvironmentBackupRetentionPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment#daily Environment#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment#daily Environment#daily}
   */
   readonly daily: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment#keep_final Environment#keep_final}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment#keep_final Environment#keep_final}
   */
   readonly keepFinal: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment#make_copy Environment#make_copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment#make_copy Environment#make_copy}
   */
   readonly makeCopy: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment#monthly Environment#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment#monthly Environment#monthly}
   */
   readonly monthly: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment#yearly Environment#yearly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment#yearly Environment#yearly}
   */
   readonly yearly: number;
 }
@@ -268,7 +268,7 @@ export class EnvironmentBackupRetentionPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment aptible_environment}
+* Represents a {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment aptible_environment}
 */
 export class Environment extends cdktf.TerraformResource {
 
@@ -284,7 +284,7 @@ export class Environment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Environment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Environment to import
-  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Environment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +296,7 @@ export class Environment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aptible/aptible/0.9.18/docs/resources/environment aptible_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aptible/aptible/0.9.19/docs/resources/environment aptible_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,8 +307,8 @@ export class Environment extends cdktf.TerraformResource {
       terraformResourceType: 'aptible_environment',
       terraformGeneratorMetadata: {
         providerName: 'aptible',
-        providerVersion: '0.9.18',
-        providerVersionConstraint: '0.9.18'
+        providerVersion: '0.9.19',
+        providerVersionConstraint: '0.9.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

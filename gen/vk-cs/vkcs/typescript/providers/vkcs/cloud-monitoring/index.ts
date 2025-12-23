@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cloud_monitoring
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/cloud_monitoring
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CloudMonitoringConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the image to create cloud monitoring for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cloud_monitoring#image_id CloudMonitoring#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/cloud_monitoring#image_id CloudMonitoring#image_id}
   */
   readonly imageId: string;
   /**
   * The region in which to obtain the service client. If omitted, the `region` argument of the provider is used. Changing this creates a new cloud_monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cloud_monitoring#region CloudMonitoring#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/cloud_monitoring#region CloudMonitoring#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cloud_monitoring vkcs_cloud_monitoring}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/cloud_monitoring vkcs_cloud_monitoring}
 */
 export class CloudMonitoring extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class CloudMonitoring extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudMonitoring resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudMonitoring to import
-  * @param importFromId The id of the existing CloudMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cloud_monitoring#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/cloud_monitoring#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudMonitoring to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class CloudMonitoring extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cloud_monitoring vkcs_cloud_monitoring} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/cloud_monitoring vkcs_cloud_monitoring} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class CloudMonitoring extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_cloud_monitoring',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

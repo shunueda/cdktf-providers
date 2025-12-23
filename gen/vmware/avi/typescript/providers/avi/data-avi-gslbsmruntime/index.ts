@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbsmruntime
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbsmruntime
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviGslbsmruntimeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbsmruntime#id DataAviGslbsmruntime#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbsmruntime#id DataAviGslbsmruntime#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbsmruntime#name DataAviGslbsmruntime#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbsmruntime#name DataAviGslbsmruntime#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbsmruntime#tenant_ref DataAviGslbsmruntime#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbsmruntime#tenant_ref DataAviGslbsmruntime#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbsmruntime#uuid DataAviGslbsmruntime#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbsmruntime#uuid DataAviGslbsmruntime#uuid}
   */
   readonly uuid?: string;
 }
@@ -100,6 +100,121 @@ export class DataAviGslbsmruntimeDnsConfigsList extends cdktf.ComplexList {
   */
   public get(index: number): DataAviGslbsmruntimeDnsConfigsOutputReference {
     return new DataAviGslbsmruntimeDnsConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviGslbsmruntimeDnsInfoDnsSeResource {
+}
+
+export function dataAviGslbsmruntimeDnsInfoDnsSeResourceToTerraform(struct?: DataAviGslbsmruntimeDnsInfoDnsSeResource): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviGslbsmruntimeDnsInfoDnsSeResourceToHclTerraform(struct?: DataAviGslbsmruntimeDnsInfoDnsSeResource): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviGslbsmruntimeDnsInfoDnsSeResourceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviGslbsmruntimeDnsInfoDnsSeResource | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviGslbsmruntimeDnsInfoDnsSeResource | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // cores_per_socket - computed: true, optional: false, required: false
+  public get coresPerSocket() {
+    return this.getStringAttribute('cores_per_socket');
+  }
+
+  // disk - computed: true, optional: false, required: false
+  public get disk() {
+    return this.getStringAttribute('disk');
+  }
+
+  // hyper_threading - computed: true, optional: false, required: false
+  public get hyperThreading() {
+    return this.getStringAttribute('hyper_threading');
+  }
+
+  // hypervisor_mode - computed: true, optional: false, required: false
+  public get hypervisorMode() {
+    return this.getStringAttribute('hypervisor_mode');
+  }
+
+  // memory - computed: true, optional: false, required: false
+  public get memory() {
+    return this.getStringAttribute('memory');
+  }
+
+  // num_datapath_processes - computed: true, optional: false, required: false
+  public get numDatapathProcesses() {
+    return this.getStringAttribute('num_datapath_processes');
+  }
+
+  // num_vcpus - computed: true, optional: false, required: false
+  public get numVcpus() {
+    return this.getStringAttribute('num_vcpus');
+  }
+
+  // qat_mode - computed: true, optional: false, required: false
+  public get qatMode() {
+    return this.getStringAttribute('qat_mode');
+  }
+
+  // sockets - computed: true, optional: false, required: false
+  public get sockets() {
+    return this.getStringAttribute('sockets');
+  }
+}
+
+export class DataAviGslbsmruntimeDnsInfoDnsSeResourceList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviGslbsmruntimeDnsInfoDnsSeResourceOutputReference {
+    return new DataAviGslbsmruntimeDnsInfoDnsSeResourceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataAviGslbsmruntimeDnsInfoDnsVsStatesGeoDownloadLastChangedTime {
@@ -561,6 +676,21 @@ export class DataAviGslbsmruntimeDnsInfoDnsVsStatesOperStatusOutputReference ext
     return this._lastChangedTime;
   }
 
+  // num_vs_completed - computed: true, optional: false, required: false
+  public get numVsCompleted() {
+    return this.getStringAttribute('num_vs_completed');
+  }
+
+  // num_vs_failed - computed: true, optional: false, required: false
+  public get numVsFailed() {
+    return this.getStringAttribute('num_vs_failed');
+  }
+
+  // num_vs_total - computed: true, optional: false, required: false
+  public get numVsTotal() {
+    return this.getStringAttribute('num_vs_total');
+  }
+
   // reason - computed: true, optional: false, required: false
   public get reason() {
     return this.getListAttribute('reason');
@@ -855,6 +985,12 @@ export class DataAviGslbsmruntimeDnsInfoOutputReference extends cdktf.ComplexObj
     return this.getStringAttribute('dns_active');
   }
 
+  // dns_se_resource - computed: true, optional: false, required: false
+  private _dnsSeResource = new DataAviGslbsmruntimeDnsInfoDnsSeResourceList(this, "dns_se_resource", true);
+  public get dnsSeResource() {
+    return this._dnsSeResource;
+  }
+
   // dns_vs_states - computed: true, optional: false, required: false
   private _dnsVsStates = new DataAviGslbsmruntimeDnsInfoDnsVsStatesList(this, "dns_vs_states", false);
   public get dnsVsStates() {
@@ -1009,6 +1145,11 @@ export class DataAviGslbsmruntimeEventsOutputReference extends cdktf.ComplexObje
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
     }
+  }
+
+  // agent_id - computed: true, optional: false, required: false
+  public get agentId() {
+    return this.getStringAttribute('agent_id');
   }
 
   // msg - computed: true, optional: false, required: false
@@ -1186,6 +1327,21 @@ export class DataAviGslbsmruntimeOperStatusOutputReference extends cdktf.Complex
   private _lastChangedTime = new DataAviGslbsmruntimeOperStatusLastChangedTimeList(this, "last_changed_time", true);
   public get lastChangedTime() {
     return this._lastChangedTime;
+  }
+
+  // num_vs_completed - computed: true, optional: false, required: false
+  public get numVsCompleted() {
+    return this.getStringAttribute('num_vs_completed');
+  }
+
+  // num_vs_failed - computed: true, optional: false, required: false
+  public get numVsFailed() {
+    return this.getStringAttribute('num_vs_failed');
+  }
+
+  // num_vs_total - computed: true, optional: false, required: false
+  public get numVsTotal() {
+    return this.getStringAttribute('num_vs_total');
   }
 
   // reason - computed: true, optional: false, required: false
@@ -2376,7 +2532,7 @@ export class DataAviGslbsmruntimeRemoteInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbsmruntime avi_gslbsmruntime}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbsmruntime avi_gslbsmruntime}
 */
 export class DataAviGslbsmruntime extends cdktf.TerraformDataSource {
 
@@ -2392,7 +2548,7 @@ export class DataAviGslbsmruntime extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviGslbsmruntime resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviGslbsmruntime to import
-  * @param importFromId The id of the existing DataAviGslbsmruntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbsmruntime#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviGslbsmruntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbsmruntime#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviGslbsmruntime to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2404,7 +2560,7 @@ export class DataAviGslbsmruntime extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbsmruntime avi_gslbsmruntime} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/gslbsmruntime avi_gslbsmruntime} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2415,7 +2571,8 @@ export class DataAviGslbsmruntime extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_gslbsmruntime',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2443,6 +2600,11 @@ export class DataAviGslbsmruntime extends cdktf.TerraformDataSource {
   // cluster_uuid - computed: true, optional: false, required: false
   public get clusterUuid() {
     return this.getStringAttribute('cluster_uuid');
+  }
+
+  // controller_flavor - computed: true, optional: false, required: false
+  public get controllerFlavor() {
+    return this.getStringAttribute('controller_flavor');
   }
 
   // dns_configs - computed: true, optional: false, required: false

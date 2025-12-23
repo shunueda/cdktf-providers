@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VpnaasEndpointGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * The human-readable description for the group. Changing this updates the description of the existing group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group#description VpnaasEndpointGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group#description VpnaasEndpointGroup#description}
   */
   readonly description?: string;
   /**
   * List of endpoints of the same type, for the endpoint group. The values will depend on the type. Changing this creates a new group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group#endpoints VpnaasEndpointGroup#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group#endpoints VpnaasEndpointGroup#endpoints}
   */
   readonly endpoints?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group#id VpnaasEndpointGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group#id VpnaasEndpointGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,45 +29,45 @@ export interface VpnaasEndpointGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the group. Changing this updates the name of the existing group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group#name VpnaasEndpointGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group#name VpnaasEndpointGroup#name}
   */
   readonly name?: string;
   /**
   * The region in which to obtain the Networking client. A Networking client is needed to create an endpoint group. If omitted, the `region` argument of the provider is used. Changing this creates a new group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group#region VpnaasEndpointGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group#region VpnaasEndpointGroup#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN._new_since_v0.5.3_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group#sdn VpnaasEndpointGroup#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group#sdn VpnaasEndpointGroup#sdn}
   */
   readonly sdn?: string;
   /**
   * The type of the endpoints in the group. A valid value is `subnet` and `cidr`. For sprut SDN only `cidr` can be used, for neutron SDN - `cidr` for remote group, `subnet` for local. Changing this creates a new group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group#type VpnaasEndpointGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group#type VpnaasEndpointGroup#type}
   */
   readonly type?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group#timeouts VpnaasEndpointGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group#timeouts VpnaasEndpointGroup#timeouts}
   */
   readonly timeouts?: VpnaasEndpointGroupTimeouts;
 }
 export interface VpnaasEndpointGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group#create VpnaasEndpointGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group#create VpnaasEndpointGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group#delete VpnaasEndpointGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group#delete VpnaasEndpointGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group#update VpnaasEndpointGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group#update VpnaasEndpointGroup#update}
   */
   readonly update?: string;
 }
@@ -219,7 +219,7 @@ export class VpnaasEndpointGroupTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group vkcs_vpnaas_endpoint_group}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group vkcs_vpnaas_endpoint_group}
 */
 export class VpnaasEndpointGroup extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class VpnaasEndpointGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnaasEndpointGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnaasEndpointGroup to import
-  * @param importFromId The id of the existing VpnaasEndpointGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnaasEndpointGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnaasEndpointGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class VpnaasEndpointGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_endpoint_group vkcs_vpnaas_endpoint_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/vpnaas_endpoint_group vkcs_vpnaas_endpoint_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class VpnaasEndpointGroup extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_vpnaas_endpoint_group',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

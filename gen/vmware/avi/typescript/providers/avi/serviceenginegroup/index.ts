@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,1226 +8,1292 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceenginegroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#accelerated_networking Serviceenginegroup#accelerated_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#accelerated_networking Serviceenginegroup#accelerated_networking}
   */
   readonly acceleratedNetworking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#active_standby Serviceenginegroup#active_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#active_standby Serviceenginegroup#active_standby}
   */
   readonly activeStandby?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#aggressive_failure_detection Serviceenginegroup#aggressive_failure_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#aggressive_failure_detection Serviceenginegroup#aggressive_failure_detection}
   */
   readonly aggressiveFailureDetection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#algo Serviceenginegroup#algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#algo Serviceenginegroup#algo}
   */
   readonly algo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#allow_burst Serviceenginegroup#allow_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#allow_burst Serviceenginegroup#allow_burst}
   */
   readonly allowBurst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#app_cache_percent Serviceenginegroup#app_cache_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#app_cache_percent Serviceenginegroup#app_cache_percent}
   */
   readonly appCachePercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#app_cache_threshold Serviceenginegroup#app_cache_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#app_cache_threshold Serviceenginegroup#app_cache_threshold}
   */
   readonly appCacheThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#app_learning_memory_percent Serviceenginegroup#app_learning_memory_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#app_learning_memory_percent Serviceenginegroup#app_learning_memory_percent}
   */
   readonly appLearningMemoryPercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#archive_shm_limit Serviceenginegroup#archive_shm_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#archive_shm_limit Serviceenginegroup#archive_shm_limit}
   */
   readonly archiveShmLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#async_ssl Serviceenginegroup#async_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#arp_cache_timeout Serviceenginegroup#arp_cache_timeout}
+  */
+  readonly arpCacheTimeout?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#async_ssl Serviceenginegroup#async_ssl}
   */
   readonly asyncSsl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#async_ssl_threads Serviceenginegroup#async_ssl_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#async_ssl_threads Serviceenginegroup#async_ssl_threads}
   */
   readonly asyncSslThreads?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#auto_rebalance Serviceenginegroup#auto_rebalance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#auto_rebalance Serviceenginegroup#auto_rebalance}
   */
   readonly autoRebalance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#auto_rebalance_capacity_per_se Serviceenginegroup#auto_rebalance_capacity_per_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#auto_rebalance_capacity_per_se Serviceenginegroup#auto_rebalance_capacity_per_se}
   */
   readonly autoRebalanceCapacityPerSe?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#auto_rebalance_criteria Serviceenginegroup#auto_rebalance_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#auto_rebalance_cool_down_time Serviceenginegroup#auto_rebalance_cool_down_time}
+  */
+  readonly autoRebalanceCoolDownTime?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#auto_rebalance_criteria Serviceenginegroup#auto_rebalance_criteria}
   */
   readonly autoRebalanceCriteria?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#auto_rebalance_interval Serviceenginegroup#auto_rebalance_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#auto_rebalance_dry_run_enabled Serviceenginegroup#auto_rebalance_dry_run_enabled}
+  */
+  readonly autoRebalanceDryRunEnabled?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#auto_rebalance_interval Serviceenginegroup#auto_rebalance_interval}
   */
   readonly autoRebalanceInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#auto_redistribute_active_standby_load Serviceenginegroup#auto_redistribute_active_standby_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#auto_rebalance_raise_events_for_actions Serviceenginegroup#auto_rebalance_raise_events_for_actions}
+  */
+  readonly autoRebalanceRaiseEventsForActions?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#auto_redistribute_active_standby_load Serviceenginegroup#auto_redistribute_active_standby_load}
   */
   readonly autoRedistributeActiveStandbyLoad?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#availability_zone_refs Serviceenginegroup#availability_zone_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#availability_zone_refs Serviceenginegroup#availability_zone_refs}
   */
   readonly availabilityZoneRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#baremetal_dispatcher_handles_flows Serviceenginegroup#baremetal_dispatcher_handles_flows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#baremetal_dispatcher_handles_flows Serviceenginegroup#baremetal_dispatcher_handles_flows}
   */
   readonly baremetalDispatcherHandlesFlows?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#bgp_peer_monitor_failover_enabled Serviceenginegroup#bgp_peer_monitor_failover_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#bgp_peer_monitor_failover_enabled Serviceenginegroup#bgp_peer_monitor_failover_enabled}
   */
   readonly bgpPeerMonitorFailoverEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#bgp_state_update_interval Serviceenginegroup#bgp_state_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#bgp_state_update_interval Serviceenginegroup#bgp_state_update_interval}
   */
   readonly bgpStateUpdateInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#buffer_se Serviceenginegroup#buffer_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#buffer_se Serviceenginegroup#buffer_se}
   */
   readonly bufferSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#cloud_ref Serviceenginegroup#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#cloud_ref Serviceenginegroup#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#compress_ip_rules_for_each_ns_subnet Serviceenginegroup#compress_ip_rules_for_each_ns_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#compress_ip_rules_for_each_ns_subnet Serviceenginegroup#compress_ip_rules_for_each_ns_subnet}
   */
   readonly compressIpRulesForEachNsSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#config_debugs_on_all_cores Serviceenginegroup#config_debugs_on_all_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#config_debugs_on_all_cores Serviceenginegroup#config_debugs_on_all_cores}
   */
   readonly configDebugsOnAllCores?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#connection_memory_percentage Serviceenginegroup#connection_memory_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#connection_memory_percentage Serviceenginegroup#connection_memory_percentage}
   */
   readonly connectionMemoryPercentage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#core_shm_app_cache Serviceenginegroup#core_shm_app_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#core_shm_app_cache Serviceenginegroup#core_shm_app_cache}
   */
   readonly coreShmAppCache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#core_shm_app_learning Serviceenginegroup#core_shm_app_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#core_shm_app_learning Serviceenginegroup#core_shm_app_learning}
   */
   readonly coreShmAppLearning?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#cpu_reserve Serviceenginegroup#cpu_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#cpu_reserve Serviceenginegroup#cpu_reserve}
   */
   readonly cpuReserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#cpu_socket_affinity Serviceenginegroup#cpu_socket_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#cpu_socket_affinity Serviceenginegroup#cpu_socket_affinity}
   */
   readonly cpuSocketAffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#custom_securitygroups_data Serviceenginegroup#custom_securitygroups_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#custom_securitygroups_data Serviceenginegroup#custom_securitygroups_data}
   */
   readonly customSecuritygroupsData?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#custom_securitygroups_mgmt Serviceenginegroup#custom_securitygroups_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#custom_securitygroups_mgmt Serviceenginegroup#custom_securitygroups_mgmt}
   */
   readonly customSecuritygroupsMgmt?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#data_network_id Serviceenginegroup#data_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#data_network_id Serviceenginegroup#data_network_id}
   */
   readonly dataNetworkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#datascript_timeout Serviceenginegroup#datascript_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#datascript_timeout Serviceenginegroup#datascript_timeout}
   */
   readonly datascriptTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#deactivate_ipv6_discovery Serviceenginegroup#deactivate_ipv6_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#deactivate_ipv6_discovery Serviceenginegroup#deactivate_ipv6_discovery}
   */
   readonly deactivateIpv6Discovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#deactivate_kni_filtering_at_dispatcher Serviceenginegroup#deactivate_kni_filtering_at_dispatcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#deactivate_kni_filtering_at_dispatcher Serviceenginegroup#deactivate_kni_filtering_at_dispatcher}
   */
   readonly deactivateKniFilteringAtDispatcher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dedicated_dispatcher_core Serviceenginegroup#dedicated_dispatcher_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dedicated_dispatcher_core Serviceenginegroup#dedicated_dispatcher_core}
   */
   readonly dedicatedDispatcherCore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#description Serviceenginegroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#description Serviceenginegroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#disable_avi_securitygroups Serviceenginegroup#disable_avi_securitygroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#disable_avi_securitygroups Serviceenginegroup#disable_avi_securitygroups}
   */
   readonly disableAviSecuritygroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#disable_csum_offloads Serviceenginegroup#disable_csum_offloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#disable_csum_offloads Serviceenginegroup#disable_csum_offloads}
   */
   readonly disableCsumOffloads?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#disable_flow_probes Serviceenginegroup#disable_flow_probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#disable_flow_probes Serviceenginegroup#disable_flow_probes}
   */
   readonly disableFlowProbes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#disable_gro Serviceenginegroup#disable_gro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#disable_gro Serviceenginegroup#disable_gro}
   */
   readonly disableGro?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#disable_se_memory_check Serviceenginegroup#disable_se_memory_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#disable_qat_bulk_crypto Serviceenginegroup#disable_qat_bulk_crypto}
+  */
+  readonly disableQatBulkCrypto?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#disable_se_memory_check Serviceenginegroup#disable_se_memory_check}
   */
   readonly disableSeMemoryCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#disable_tso Serviceenginegroup#disable_tso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#disable_tso Serviceenginegroup#disable_tso}
   */
   readonly disableTso?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#disk_per_se Serviceenginegroup#disk_per_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#disk_per_se Serviceenginegroup#disk_per_se}
   */
   readonly diskPerSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#distribute_load_active_standby Serviceenginegroup#distribute_load_active_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#distribute_load_active_standby Serviceenginegroup#distribute_load_active_standby}
   */
   readonly distributeLoadActiveStandby?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#distribute_queues Serviceenginegroup#distribute_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#distribute_queues Serviceenginegroup#distribute_queues}
   */
   readonly distributeQueues?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#distribute_vnics Serviceenginegroup#distribute_vnics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#distribute_vnics Serviceenginegroup#distribute_vnics}
   */
   readonly distributeVnics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#downstream_send_timeout Serviceenginegroup#downstream_send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#downstream_send_timeout Serviceenginegroup#downstream_send_timeout}
   */
   readonly downstreamSendTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dp_aggressive_deq_interval_msec Serviceenginegroup#dp_aggressive_deq_interval_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dp_aggressive_deq_interval_msec Serviceenginegroup#dp_aggressive_deq_interval_msec}
   */
   readonly dpAggressiveDeqIntervalMsec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dp_aggressive_enq_interval_msec Serviceenginegroup#dp_aggressive_enq_interval_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dp_aggressive_enq_interval_msec Serviceenginegroup#dp_aggressive_enq_interval_msec}
   */
   readonly dpAggressiveEnqIntervalMsec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dp_aggressive_hb_frequency Serviceenginegroup#dp_aggressive_hb_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dp_aggressive_hb_frequency Serviceenginegroup#dp_aggressive_hb_frequency}
   */
   readonly dpAggressiveHbFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dp_aggressive_hb_timeout_count Serviceenginegroup#dp_aggressive_hb_timeout_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dp_aggressive_hb_timeout_count Serviceenginegroup#dp_aggressive_hb_timeout_count}
   */
   readonly dpAggressiveHbTimeoutCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dp_deq_interval_msec Serviceenginegroup#dp_deq_interval_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dp_deq_interval_msec Serviceenginegroup#dp_deq_interval_msec}
   */
   readonly dpDeqIntervalMsec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dp_enq_interval_msec Serviceenginegroup#dp_enq_interval_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dp_enq_interval_msec Serviceenginegroup#dp_enq_interval_msec}
   */
   readonly dpEnqIntervalMsec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dp_hb_frequency Serviceenginegroup#dp_hb_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dp_hb_frequency Serviceenginegroup#dp_hb_frequency}
   */
   readonly dpHbFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dp_hb_timeout_count Serviceenginegroup#dp_hb_timeout_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dp_hb_timeout_count Serviceenginegroup#dp_hb_timeout_count}
   */
   readonly dpHbTimeoutCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dpdk_gro_timeout_interval Serviceenginegroup#dpdk_gro_timeout_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dpdk_gro_timeout_interval Serviceenginegroup#dpdk_gro_timeout_interval}
   */
   readonly dpdkGroTimeoutInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#enable_gratarp_permanent Serviceenginegroup#enable_gratarp_permanent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#enable_gratarp_permanent Serviceenginegroup#enable_gratarp_permanent}
   */
   readonly enableGratarpPermanent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#enable_hsm_log Serviceenginegroup#enable_hsm_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#enable_hsm_log Serviceenginegroup#enable_hsm_log}
   */
   readonly enableHsmLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#enable_hsm_priming Serviceenginegroup#enable_hsm_priming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#enable_hsm_priming Serviceenginegroup#enable_hsm_priming}
   */
   readonly enableHsmPriming?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#enable_multi_lb Serviceenginegroup#enable_multi_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#enable_multi_lb Serviceenginegroup#enable_multi_lb}
   */
   readonly enableMultiLb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#enable_pcap_tx_ring Serviceenginegroup#enable_pcap_tx_ring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#enable_pcap_tx_ring Serviceenginegroup#enable_pcap_tx_ring}
   */
   readonly enablePcapTxRing?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ephemeral_portrange_end Serviceenginegroup#ephemeral_portrange_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#enable_qat Serviceenginegroup#enable_qat}
+  */
+  readonly enableQat?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ephemeral_portrange_end Serviceenginegroup#ephemeral_portrange_end}
   */
   readonly ephemeralPortrangeEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ephemeral_portrange_start Serviceenginegroup#ephemeral_portrange_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ephemeral_portrange_start Serviceenginegroup#ephemeral_portrange_start}
   */
   readonly ephemeralPortrangeStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#extra_config_multiplier Serviceenginegroup#extra_config_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#extra_config_multiplier Serviceenginegroup#extra_config_multiplier}
   */
   readonly extraConfigMultiplier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#extra_shared_config_memory Serviceenginegroup#extra_shared_config_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#extra_shared_config_memory Serviceenginegroup#extra_shared_config_memory}
   */
   readonly extraSharedConfigMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#flow_table_new_syn_max_entries Serviceenginegroup#flow_table_new_syn_max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#flow_table_new_syn_max_entries Serviceenginegroup#flow_table_new_syn_max_entries}
   */
   readonly flowTableNewSynMaxEntries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#free_list_size Serviceenginegroup#free_list_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#free_list_size Serviceenginegroup#free_list_size}
   */
   readonly freeListSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#gratarp_permanent_periodicity Serviceenginegroup#gratarp_permanent_periodicity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#gratarp_permanent_periodicity Serviceenginegroup#gratarp_permanent_periodicity}
   */
   readonly gratarpPermanentPeriodicity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#grpc_channel_connect_timeout Serviceenginegroup#grpc_channel_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#grpc_channel_connect_timeout Serviceenginegroup#grpc_channel_connect_timeout}
   */
   readonly grpcChannelConnectTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#gve_enabled Serviceenginegroup#gve_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#gve_enabled Serviceenginegroup#gve_enabled}
   */
   readonly gveEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ha_mode Serviceenginegroup#ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ha_mode Serviceenginegroup#ha_mode}
   */
   readonly haMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#handle_per_pkt_attack Serviceenginegroup#handle_per_pkt_attack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#handle_per_pkt_attack Serviceenginegroup#handle_per_pkt_attack}
   */
   readonly handlePerPktAttack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#hardwaresecuritymodulegroup_ref Serviceenginegroup#hardwaresecuritymodulegroup_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#hardwaresecuritymodulegroup_ref Serviceenginegroup#hardwaresecuritymodulegroup_ref}
   */
   readonly hardwaresecuritymodulegroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#heap_minimum_config_memory Serviceenginegroup#heap_minimum_config_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#heap_minimum_config_memory Serviceenginegroup#heap_minimum_config_memory}
   */
   readonly heapMinimumConfigMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#hm_on_standby Serviceenginegroup#hm_on_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#hm_on_standby Serviceenginegroup#hm_on_standby}
   */
   readonly hmOnStandby?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#host_attribute_key Serviceenginegroup#host_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#host_attribute_key Serviceenginegroup#host_attribute_key}
   */
   readonly hostAttributeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#host_attribute_value Serviceenginegroup#host_attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#host_attribute_value Serviceenginegroup#host_attribute_value}
   */
   readonly hostAttributeValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#host_gateway_monitor Serviceenginegroup#host_gateway_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#host_gateway_monitor Serviceenginegroup#host_gateway_monitor}
   */
   readonly hostGatewayMonitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#http_rum_console_log Serviceenginegroup#http_rum_console_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#http_rum_console_log Serviceenginegroup#http_rum_console_log}
   */
   readonly httpRumConsoleLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#http_rum_min_content_length Serviceenginegroup#http_rum_min_content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#http_rum_min_content_length Serviceenginegroup#http_rum_min_content_length}
   */
   readonly httpRumMinContentLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#hybrid_rss_mode Serviceenginegroup#hybrid_rss_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#hybrid_rss_mode Serviceenginegroup#hybrid_rss_mode}
   */
   readonly hybridRssMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#hypervisor Serviceenginegroup#hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#hypervisor Serviceenginegroup#hypervisor}
   */
   readonly hypervisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#id Serviceenginegroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#id Serviceenginegroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ignore_docker_mac_change Serviceenginegroup#ignore_docker_mac_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ignore_docker_mac_change Serviceenginegroup#ignore_docker_mac_change}
   */
   readonly ignoreDockerMacChange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ignore_rtt_threshold Serviceenginegroup#ignore_rtt_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ignore_rtt_threshold Serviceenginegroup#ignore_rtt_threshold}
   */
   readonly ignoreRttThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ingress_access_data Serviceenginegroup#ingress_access_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ingress_access_data Serviceenginegroup#ingress_access_data}
   */
   readonly ingressAccessData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ingress_access_mgmt Serviceenginegroup#ingress_access_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ingress_access_mgmt Serviceenginegroup#ingress_access_mgmt}
   */
   readonly ingressAccessMgmt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#instance_flavor Serviceenginegroup#instance_flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#instance_flavor Serviceenginegroup#instance_flavor}
   */
   readonly instanceFlavor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#l7_conns_per_core Serviceenginegroup#l7_conns_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#kv_val_max_len Serviceenginegroup#kv_val_max_len}
+  */
+  readonly kvValMaxLen?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#l7_conns_per_core Serviceenginegroup#l7_conns_per_core}
   */
   readonly l7ConnsPerCore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#l7_resvd_listen_conns_per_core Serviceenginegroup#l7_resvd_listen_conns_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#l7_resvd_listen_conns_per_core Serviceenginegroup#l7_resvd_listen_conns_per_core}
   */
   readonly l7ResvdListenConnsPerCore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#lbaction_num_requests_to_dispatch Serviceenginegroup#lbaction_num_requests_to_dispatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#lbaction_num_requests_to_dispatch Serviceenginegroup#lbaction_num_requests_to_dispatch}
   */
   readonly lbactionNumRequestsToDispatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#lbaction_rq_per_request_max_retries Serviceenginegroup#lbaction_rq_per_request_max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#lbaction_rq_per_request_max_retries Serviceenginegroup#lbaction_rq_per_request_max_retries}
   */
   readonly lbactionRqPerRequestMaxRetries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#least_load_core_selection Serviceenginegroup#least_load_core_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#least_load_core_selection Serviceenginegroup#least_load_core_selection}
   */
   readonly leastLoadCoreSelection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#license_tier Serviceenginegroup#license_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#license_tier Serviceenginegroup#license_tier}
   */
   readonly licenseTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#license_type Serviceenginegroup#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#license_type Serviceenginegroup#license_type}
   */
   readonly licenseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_compress_logs Serviceenginegroup#log_agent_compress_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_compress_logs Serviceenginegroup#log_agent_compress_logs}
   */
   readonly logAgentCompressLogs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_debug_enabled Serviceenginegroup#log_agent_debug_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_debug_enabled Serviceenginegroup#log_agent_debug_enabled}
   */
   readonly logAgentDebugEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_file_sz_appl Serviceenginegroup#log_agent_file_sz_appl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_file_sz_appl Serviceenginegroup#log_agent_file_sz_appl}
   */
   readonly logAgentFileSzAppl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_file_sz_conn Serviceenginegroup#log_agent_file_sz_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_file_sz_conn Serviceenginegroup#log_agent_file_sz_conn}
   */
   readonly logAgentFileSzConn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_file_sz_debug Serviceenginegroup#log_agent_file_sz_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_file_sz_debug Serviceenginegroup#log_agent_file_sz_debug}
   */
   readonly logAgentFileSzDebug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_file_sz_event Serviceenginegroup#log_agent_file_sz_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_file_sz_event Serviceenginegroup#log_agent_file_sz_event}
   */
   readonly logAgentFileSzEvent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_log_storage_min_sz Serviceenginegroup#log_agent_log_storage_min_sz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_log_storage_min_sz Serviceenginegroup#log_agent_log_storage_min_sz}
   */
   readonly logAgentLogStorageMinSz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_max_concurrent_rsync Serviceenginegroup#log_agent_max_concurrent_rsync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_max_concurrent_rsync Serviceenginegroup#log_agent_max_concurrent_rsync}
   */
   readonly logAgentMaxConcurrentRsync?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_max_storage_excess_percent Serviceenginegroup#log_agent_max_storage_excess_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_max_storage_excess_percent Serviceenginegroup#log_agent_max_storage_excess_percent}
   */
   readonly logAgentMaxStorageExcessPercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_max_storage_ignore_percent Serviceenginegroup#log_agent_max_storage_ignore_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_max_storage_ignore_percent Serviceenginegroup#log_agent_max_storage_ignore_percent}
   */
   readonly logAgentMaxStorageIgnorePercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_min_storage_per_vs Serviceenginegroup#log_agent_min_storage_per_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_min_storage_per_vs Serviceenginegroup#log_agent_min_storage_per_vs}
   */
   readonly logAgentMinStoragePerVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_sleep_interval Serviceenginegroup#log_agent_sleep_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_sleep_interval Serviceenginegroup#log_agent_sleep_interval}
   */
   readonly logAgentSleepInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_trace_enabled Serviceenginegroup#log_agent_trace_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_trace_enabled Serviceenginegroup#log_agent_trace_enabled}
   */
   readonly logAgentTraceEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_agent_unknown_vs_timer Serviceenginegroup#log_agent_unknown_vs_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_agent_unknown_vs_timer Serviceenginegroup#log_agent_unknown_vs_timer}
   */
   readonly logAgentUnknownVsTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_disksz Serviceenginegroup#log_disksz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_disksz Serviceenginegroup#log_disksz}
   */
   readonly logDisksz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_malloc_failure Serviceenginegroup#log_malloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_malloc_failure Serviceenginegroup#log_malloc_failure}
   */
   readonly logMallocFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#log_message_max_file_list_size Serviceenginegroup#log_message_max_file_list_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#log_message_max_file_list_size Serviceenginegroup#log_message_max_file_list_size}
   */
   readonly logMessageMaxFileListSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_concurrent_external_hm Serviceenginegroup#max_concurrent_external_hm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_concurrent_external_hm Serviceenginegroup#max_concurrent_external_hm}
   */
   readonly maxConcurrentExternalHm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_cpu_usage Serviceenginegroup#max_cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_cpu_load_adaptive_sampling Serviceenginegroup#max_cpu_load_adaptive_sampling}
+  */
+  readonly maxCpuLoadAdaptiveSampling?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_cpu_usage Serviceenginegroup#max_cpu_usage}
   */
   readonly maxCpuUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_memory_per_mempool Serviceenginegroup#max_memory_per_mempool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_memory_per_mempool Serviceenginegroup#max_memory_per_mempool}
   */
   readonly maxMemoryPerMempool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_num_http_sessions_to_store Serviceenginegroup#max_num_http_sessions_to_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_num_http_sessions_to_store Serviceenginegroup#max_num_http_sessions_to_store}
   */
   readonly maxNumHttpSessionsToStore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_num_se_dps Serviceenginegroup#max_num_se_dps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_num_se_dps Serviceenginegroup#max_num_se_dps}
   */
   readonly maxNumSeDps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_public_ips_per_lb Serviceenginegroup#max_public_ips_per_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_public_ips_per_lb Serviceenginegroup#max_public_ips_per_lb}
   */
   readonly maxPublicIpsPerLb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_queues_per_vnic Serviceenginegroup#max_queues_per_vnic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_queues_per_vnic Serviceenginegroup#max_queues_per_vnic}
   */
   readonly maxQueuesPerVnic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_rules_per_lb Serviceenginegroup#max_rules_per_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_rules_per_lb Serviceenginegroup#max_rules_per_lb}
   */
   readonly maxRulesPerLb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_scaleout_per_vs Serviceenginegroup#max_scaleout_per_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_scaleout_per_vs Serviceenginegroup#max_scaleout_per_vs}
   */
   readonly maxScaleoutPerVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_se Serviceenginegroup#max_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_se Serviceenginegroup#max_se}
   */
   readonly maxSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_skb_frags Serviceenginegroup#max_skb_frags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_skb_frags Serviceenginegroup#max_skb_frags}
   */
   readonly maxSkbFrags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_vs_per_se Serviceenginegroup#max_vs_per_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_vs_per_se Serviceenginegroup#max_vs_per_se}
   */
   readonly maxVsPerSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#mem_reserve Serviceenginegroup#mem_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#mem_reserve Serviceenginegroup#mem_reserve}
   */
   readonly memReserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#memory_for_config_update Serviceenginegroup#memory_for_config_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#memory_for_config_update Serviceenginegroup#memory_for_config_update}
   */
   readonly memoryForConfigUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#memory_per_se Serviceenginegroup#memory_per_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#memory_per_se Serviceenginegroup#memory_per_se}
   */
   readonly memoryPerSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#metrics_collection_mode Serviceenginegroup#metrics_collection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#metrics_collection_mode Serviceenginegroup#metrics_collection_mode}
   */
   readonly metricsCollectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#mgmt_network_ref Serviceenginegroup#mgmt_network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#mgmt_network_ref Serviceenginegroup#mgmt_network_ref}
   */
   readonly mgmtNetworkRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#min_cpu_usage Serviceenginegroup#min_cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#min_cpu_usage Serviceenginegroup#min_cpu_usage}
   */
   readonly minCpuUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#min_scaleout_per_vs Serviceenginegroup#min_scaleout_per_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#min_scaleout_per_vs Serviceenginegroup#min_scaleout_per_vs}
   */
   readonly minScaleoutPerVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#min_se Serviceenginegroup#min_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#min_se Serviceenginegroup#min_se}
   */
   readonly minSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#minimum_connection_memory Serviceenginegroup#minimum_connection_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#minimum_connection_memory Serviceenginegroup#minimum_connection_memory}
   */
   readonly minimumConnectionMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#multicast_enable Serviceenginegroup#multicast_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#multicast_enable Serviceenginegroup#multicast_enable}
   */
   readonly multicastEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#n_log_streaming_threads Serviceenginegroup#n_log_streaming_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#n_log_streaming_threads Serviceenginegroup#n_log_streaming_threads}
   */
   readonly nLogStreamingThreads?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#name Serviceenginegroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#name Serviceenginegroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#netlink_poller_threads Serviceenginegroup#netlink_poller_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#nd6_cache_timeout Serviceenginegroup#nd6_cache_timeout}
+  */
+  readonly nd6CacheTimeout?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#netlink_poller_threads Serviceenginegroup#netlink_poller_threads}
   */
   readonly netlinkPollerThreads?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#netlink_sock_buf_size Serviceenginegroup#netlink_sock_buf_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#netlink_sock_buf_size Serviceenginegroup#netlink_sock_buf_size}
   */
   readonly netlinkSockBufSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ngx_free_connection_stack Serviceenginegroup#ngx_free_connection_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ngx_free_connection_stack Serviceenginegroup#ngx_free_connection_stack}
   */
   readonly ngxFreeConnectionStack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#non_significant_log_throttle Serviceenginegroup#non_significant_log_throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#non_significant_log_throttle Serviceenginegroup#non_significant_log_throttle}
   */
   readonly nonSignificantLogThrottle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ns_helper_deq_interval_msec Serviceenginegroup#ns_helper_deq_interval_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ns_helper_deq_interval_msec Serviceenginegroup#ns_helper_deq_interval_msec}
   */
   readonly nsHelperDeqIntervalMsec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ntp_sync_fail_event Serviceenginegroup#ntp_sync_fail_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ntp_sync_fail_event Serviceenginegroup#ntp_sync_fail_event}
   */
   readonly ntpSyncFailEvent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ntp_sync_status_interval Serviceenginegroup#ntp_sync_status_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ntp_sync_status_interval Serviceenginegroup#ntp_sync_status_interval}
   */
   readonly ntpSyncStatusInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#num_dispatcher_cores Serviceenginegroup#num_dispatcher_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#num_dispatcher_cores Serviceenginegroup#num_dispatcher_cores}
   */
   readonly numDispatcherCores?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#num_dispatcher_queues Serviceenginegroup#num_dispatcher_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#num_dispatcher_queues Serviceenginegroup#num_dispatcher_queues}
   */
   readonly numDispatcherQueues?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#num_flow_cores_sum_changes_to_ignore Serviceenginegroup#num_flow_cores_sum_changes_to_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#num_flow_cores_sum_changes_to_ignore Serviceenginegroup#num_flow_cores_sum_changes_to_ignore}
   */
   readonly numFlowCoresSumChangesToIgnore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#objsync_port Serviceenginegroup#objsync_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#objsync_mode Serviceenginegroup#objsync_mode}
+  */
+  readonly objsyncMode?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#objsync_port Serviceenginegroup#objsync_port}
   */
   readonly objsyncPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#openstack_availability_zones Serviceenginegroup#openstack_availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#openstack_availability_zones Serviceenginegroup#openstack_availability_zones}
   */
   readonly openstackAvailabilityZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#openstack_mgmt_network_name Serviceenginegroup#openstack_mgmt_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#openstack_mgmt_network_name Serviceenginegroup#openstack_mgmt_network_name}
   */
   readonly openstackMgmtNetworkName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#openstack_mgmt_network_uuid Serviceenginegroup#openstack_mgmt_network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#openstack_mgmt_network_uuid Serviceenginegroup#openstack_mgmt_network_uuid}
   */
   readonly openstackMgmtNetworkUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#os_reserved_memory Serviceenginegroup#os_reserved_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#os_reserved_memory Serviceenginegroup#os_reserved_memory}
   */
   readonly osReservedMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#path_mtu_discovery_v4 Serviceenginegroup#path_mtu_discovery_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#path_mtu_discovery_v4 Serviceenginegroup#path_mtu_discovery_v4}
   */
   readonly pathMtuDiscoveryV4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#path_mtu_discovery_v6 Serviceenginegroup#path_mtu_discovery_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#path_mtu_discovery_v6 Serviceenginegroup#path_mtu_discovery_v6}
   */
   readonly pathMtuDiscoveryV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#pcap_tx_mode Serviceenginegroup#pcap_tx_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#pcap_tx_mode Serviceenginegroup#pcap_tx_mode}
   */
   readonly pcapTxMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#pcap_tx_ring_rd_balancing_factor Serviceenginegroup#pcap_tx_ring_rd_balancing_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#pcap_tx_ring_rd_balancing_factor Serviceenginegroup#pcap_tx_ring_rd_balancing_factor}
   */
   readonly pcapTxRingRdBalancingFactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#per_app Serviceenginegroup#per_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#per_app Serviceenginegroup#per_app}
   */
   readonly perApp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#per_vs_admission_control Serviceenginegroup#per_vs_admission_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#per_vs_admission_control Serviceenginegroup#per_vs_admission_control}
   */
   readonly perVsAdmissionControl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#placement_mode Serviceenginegroup#placement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#placement_mode Serviceenginegroup#placement_mode}
   */
   readonly placementMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#reboot_on_panic Serviceenginegroup#reboot_on_panic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#pre_upgrade_se_available_mem_threshold Serviceenginegroup#pre_upgrade_se_available_mem_threshold}
+  */
+  readonly preUpgradeSeAvailableMemThreshold?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#reboot_on_panic Serviceenginegroup#reboot_on_panic}
   */
   readonly rebootOnPanic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#replay_vrf_routes_interval Serviceenginegroup#replay_vrf_routes_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#replay_vrf_routes_interval Serviceenginegroup#replay_vrf_routes_interval}
   */
   readonly replayVrfRoutesInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#resync_time_interval Serviceenginegroup#resync_time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#resync_time_interval Serviceenginegroup#resync_time_interval}
   */
   readonly resyncTimeInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#sdb_flush_interval Serviceenginegroup#sdb_flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#sdb_flush_interval Serviceenginegroup#sdb_flush_interval}
   */
   readonly sdbFlushInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#sdb_key_timeout Serviceenginegroup#sdb_key_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#sdb_key_timeout Serviceenginegroup#sdb_key_timeout}
   */
   readonly sdbKeyTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#sdb_pipeline_size Serviceenginegroup#sdb_pipeline_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#sdb_pipeline_size Serviceenginegroup#sdb_pipeline_size}
   */
   readonly sdbPipelineSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#sdb_scan_count Serviceenginegroup#sdb_scan_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#sdb_scan_count Serviceenginegroup#sdb_scan_count}
   */
   readonly sdbScanCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_bandwidth_type Serviceenginegroup#se_bandwidth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_bandwidth_type Serviceenginegroup#se_bandwidth_type}
   */
   readonly seBandwidthType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_debug_trace_sz Serviceenginegroup#se_debug_trace_sz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_debug_trace_sz Serviceenginegroup#se_debug_trace_sz}
   */
   readonly seDebugTraceSz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_delayed_flow_delete Serviceenginegroup#se_delayed_flow_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_delayed_flow_delete Serviceenginegroup#se_delayed_flow_delete}
   */
   readonly seDelayedFlowDelete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_deprovision_delay Serviceenginegroup#se_deprovision_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_deprovision_delay Serviceenginegroup#se_deprovision_delay}
   */
   readonly seDeprovisionDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dp_hm_drops Serviceenginegroup#se_dp_hm_drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dp_hm_drops Serviceenginegroup#se_dp_hm_drops}
   */
   readonly seDpHmDrops?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dp_if_state_poll_interval Serviceenginegroup#se_dp_if_state_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dp_if_state_poll_interval Serviceenginegroup#se_dp_if_state_poll_interval}
   */
   readonly seDpIfStatePollInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dp_isolation Serviceenginegroup#se_dp_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dp_isolation Serviceenginegroup#se_dp_isolation}
   */
   readonly seDpIsolation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dp_isolation_num_non_dp_cpus Serviceenginegroup#se_dp_isolation_num_non_dp_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dp_isolation_num_non_dp_cpus Serviceenginegroup#se_dp_isolation_num_non_dp_cpus}
   */
   readonly seDpIsolationNumNonDpCpus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dp_log_nf_enqueue_percent Serviceenginegroup#se_dp_log_nf_enqueue_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dp_log_nf_enqueue_percent Serviceenginegroup#se_dp_log_nf_enqueue_percent}
   */
   readonly seDpLogNfEnqueuePercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dp_log_udf_enqueue_percent Serviceenginegroup#se_dp_log_udf_enqueue_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dp_log_udf_enqueue_percent Serviceenginegroup#se_dp_log_udf_enqueue_percent}
   */
   readonly seDpLogUdfEnqueuePercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dp_max_hb_version Serviceenginegroup#se_dp_max_hb_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dp_max_hb_version Serviceenginegroup#se_dp_max_hb_version}
   */
   readonly seDpMaxHbVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dp_vnic_queue_stall_event_sleep Serviceenginegroup#se_dp_vnic_queue_stall_event_sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dp_vnic_queue_stall_event_sleep Serviceenginegroup#se_dp_vnic_queue_stall_event_sleep}
   */
   readonly seDpVnicQueueStallEventSleep?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dp_vnic_queue_stall_threshold Serviceenginegroup#se_dp_vnic_queue_stall_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dp_vnic_queue_stall_threshold Serviceenginegroup#se_dp_vnic_queue_stall_threshold}
   */
   readonly seDpVnicQueueStallThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dp_vnic_queue_stall_timeout Serviceenginegroup#se_dp_vnic_queue_stall_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dp_vnic_queue_stall_timeout Serviceenginegroup#se_dp_vnic_queue_stall_timeout}
   */
   readonly seDpVnicQueueStallTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dp_vnic_restart_on_queue_stall_count Serviceenginegroup#se_dp_vnic_restart_on_queue_stall_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dp_vnic_restart_on_queue_stall_count Serviceenginegroup#se_dp_vnic_restart_on_queue_stall_count}
   */
   readonly seDpVnicRestartOnQueueStallCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dp_vnic_stall_se_restart_window Serviceenginegroup#se_dp_vnic_stall_se_restart_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dp_vnic_stall_se_restart_window Serviceenginegroup#se_dp_vnic_stall_se_restart_window}
   */
   readonly seDpVnicStallSeRestartWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dpdk_pmd Serviceenginegroup#se_dpdk_pmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dpdk_pmd Serviceenginegroup#se_dpdk_pmd}
   */
   readonly seDpdkPmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dump_core_on_assert Serviceenginegroup#se_dump_core_on_assert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dump_core_on_assert Serviceenginegroup#se_dump_core_on_assert}
   */
   readonly seDumpCoreOnAssert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_emulated_cores Serviceenginegroup#se_emulated_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_emulated_cores Serviceenginegroup#se_emulated_cores}
   */
   readonly seEmulatedCores?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_flow_probe_retries Serviceenginegroup#se_flow_probe_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_flow_probe_retries Serviceenginegroup#se_flow_probe_retries}
   */
   readonly seFlowProbeRetries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_flow_probe_retry_timer Serviceenginegroup#se_flow_probe_retry_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_flow_probe_retry_timer Serviceenginegroup#se_flow_probe_retry_timer}
   */
   readonly seFlowProbeRetryTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_hyperthreaded_mode Serviceenginegroup#se_hyperthreaded_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_hyperthreaded_mode Serviceenginegroup#se_hyperthreaded_mode}
   */
   readonly seHyperthreadedMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_ip_encap_ipc Serviceenginegroup#se_ip_encap_ipc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_ip_encap_ipc Serviceenginegroup#se_ip_encap_ipc}
   */
   readonly seIpEncapIpc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_kni_burst_factor Serviceenginegroup#se_kni_burst_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_kernel_rss Serviceenginegroup#se_kernel_rss}
+  */
+  readonly seKernelRss?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_kni_burst_factor Serviceenginegroup#se_kni_burst_factor}
   */
   readonly seKniBurstFactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_l3_encap_ipc Serviceenginegroup#se_l3_encap_ipc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_l3_encap_ipc Serviceenginegroup#se_l3_encap_ipc}
   */
   readonly seL3EncapIpc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_log_buffer_app_blocking_dequeue Serviceenginegroup#se_log_buffer_app_blocking_dequeue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_log_buffer_app_blocking_dequeue Serviceenginegroup#se_log_buffer_app_blocking_dequeue}
   */
   readonly seLogBufferAppBlockingDequeue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_log_buffer_conn_blocking_dequeue Serviceenginegroup#se_log_buffer_conn_blocking_dequeue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_log_buffer_conn_blocking_dequeue Serviceenginegroup#se_log_buffer_conn_blocking_dequeue}
   */
   readonly seLogBufferConnBlockingDequeue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_log_buffer_events_blocking_dequeue Serviceenginegroup#se_log_buffer_events_blocking_dequeue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_log_buffer_events_blocking_dequeue Serviceenginegroup#se_log_buffer_events_blocking_dequeue}
   */
   readonly seLogBufferEventsBlockingDequeue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_lro Serviceenginegroup#se_lro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_lro Serviceenginegroup#se_lro}
   */
   readonly seLro?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_mp_ring_retry_count Serviceenginegroup#se_mp_ring_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_mp_ring_retry_count Serviceenginegroup#se_mp_ring_retry_count}
   */
   readonly seMpRingRetryCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_mtu Serviceenginegroup#se_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_mtu Serviceenginegroup#se_mtu}
   */
   readonly seMtu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_name_prefix Serviceenginegroup#se_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_name_prefix Serviceenginegroup#se_name_prefix}
   */
   readonly seNamePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_packet_buffer_max Serviceenginegroup#se_packet_buffer_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_packet_buffer_max Serviceenginegroup#se_packet_buffer_max}
   */
   readonly sePacketBufferMax?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_pcap_lookahead Serviceenginegroup#se_pcap_lookahead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_pcap_lookahead Serviceenginegroup#se_pcap_lookahead}
   */
   readonly sePcapLookahead?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_pcap_pkt_count Serviceenginegroup#se_pcap_pkt_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_pcap_pkt_count Serviceenginegroup#se_pcap_pkt_count}
   */
   readonly sePcapPktCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_pcap_pkt_sz Serviceenginegroup#se_pcap_pkt_sz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_pcap_pkt_sz Serviceenginegroup#se_pcap_pkt_sz}
   */
   readonly sePcapPktSz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_pcap_qdisc_bypass Serviceenginegroup#se_pcap_qdisc_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_pcap_qdisc_bypass Serviceenginegroup#se_pcap_qdisc_bypass}
   */
   readonly sePcapQdiscBypass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_pcap_reinit_frequency Serviceenginegroup#se_pcap_reinit_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_pcap_reinit_frequency Serviceenginegroup#se_pcap_reinit_frequency}
   */
   readonly sePcapReinitFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_pcap_reinit_threshold Serviceenginegroup#se_pcap_reinit_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_pcap_reinit_threshold Serviceenginegroup#se_pcap_reinit_threshold}
   */
   readonly sePcapReinitThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_probe_port Serviceenginegroup#se_probe_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_probe_port Serviceenginegroup#se_probe_port}
   */
   readonly seProbePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_rum_sampling_nav_interval Serviceenginegroup#se_rum_sampling_nav_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_rum_sampling_nav_interval Serviceenginegroup#se_rum_sampling_nav_interval}
   */
   readonly seRumSamplingNavInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_rum_sampling_nav_percent Serviceenginegroup#se_rum_sampling_nav_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_rum_sampling_nav_percent Serviceenginegroup#se_rum_sampling_nav_percent}
   */
   readonly seRumSamplingNavPercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_rum_sampling_res_interval Serviceenginegroup#se_rum_sampling_res_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_rum_sampling_res_interval Serviceenginegroup#se_rum_sampling_res_interval}
   */
   readonly seRumSamplingResInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_rum_sampling_res_percent Serviceenginegroup#se_rum_sampling_res_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_rum_sampling_res_percent Serviceenginegroup#se_rum_sampling_res_percent}
   */
   readonly seRumSamplingResPercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_sb_dedicated_core Serviceenginegroup#se_sb_dedicated_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_sb_dedicated_core Serviceenginegroup#se_sb_dedicated_core}
   */
   readonly seSbDedicatedCore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_sb_threads Serviceenginegroup#se_sb_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_sb_threads Serviceenginegroup#se_sb_threads}
   */
   readonly seSbThreads?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_thread_multiplier Serviceenginegroup#se_thread_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_thread_multiplier Serviceenginegroup#se_thread_multiplier}
   */
   readonly seThreadMultiplier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_tunnel_mode Serviceenginegroup#se_tunnel_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_tunnel_mode Serviceenginegroup#se_tunnel_mode}
   */
   readonly seTunnelMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_tunnel_udp_port Serviceenginegroup#se_tunnel_udp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_tunnel_udp_port Serviceenginegroup#se_tunnel_udp_port}
   */
   readonly seTunnelUdpPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_tx_batch_size Serviceenginegroup#se_tx_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_tx_batch_size Serviceenginegroup#se_tx_batch_size}
   */
   readonly seTxBatchSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_txq_threshold Serviceenginegroup#se_txq_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_txq_threshold Serviceenginegroup#se_txq_threshold}
   */
   readonly seTxqThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_udp_encap_ipc Serviceenginegroup#se_udp_encap_ipc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_udp_encap_ipc Serviceenginegroup#se_udp_encap_ipc}
   */
   readonly seUdpEncapIpc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_use_dpdk Serviceenginegroup#se_use_dpdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_use_dpdk Serviceenginegroup#se_use_dpdk}
   */
   readonly seUseDpdk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_vnic_tx_sw_queue_flush_frequency Serviceenginegroup#se_vnic_tx_sw_queue_flush_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_vnic_tx_sw_queue_flush_frequency Serviceenginegroup#se_vnic_tx_sw_queue_flush_frequency}
   */
   readonly seVnicTxSwQueueFlushFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_vnic_tx_sw_queue_size Serviceenginegroup#se_vnic_tx_sw_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_vnic_tx_sw_queue_size Serviceenginegroup#se_vnic_tx_sw_queue_size}
   */
   readonly seVnicTxSwQueueSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_vs_hb_max_pkts_in_batch Serviceenginegroup#se_vs_hb_max_pkts_in_batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_vs_hb_max_pkts_in_batch Serviceenginegroup#se_vs_hb_max_pkts_in_batch}
   */
   readonly seVsHbMaxPktsInBatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_vs_hb_max_vs_in_pkt Serviceenginegroup#se_vs_hb_max_vs_in_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_vs_hb_max_vs_in_pkt Serviceenginegroup#se_vs_hb_max_vs_in_pkt}
   */
   readonly seVsHbMaxVsInPkt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#self_se_election Serviceenginegroup#self_se_election}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#self_se_election Serviceenginegroup#self_se_election}
   */
   readonly selfSeElection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#send_se_ready_timeout Serviceenginegroup#send_se_ready_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#send_se_ready_timeout Serviceenginegroup#send_se_ready_timeout}
   */
   readonly sendSeReadyTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#shm_minimum_config_memory Serviceenginegroup#shm_minimum_config_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#shm_minimum_config_memory Serviceenginegroup#shm_minimum_config_memory}
   */
   readonly shmMinimumConfigMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#significant_log_throttle Serviceenginegroup#significant_log_throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#significant_log_throttle Serviceenginegroup#significant_log_throttle}
   */
   readonly significantLogThrottle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ssl_preprocess_sni_hostname Serviceenginegroup#ssl_preprocess_sni_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ssl_preprocess_sni_hostname Serviceenginegroup#ssl_preprocess_sni_hostname}
   */
   readonly sslPreprocessSniHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ssl_sess_cache_per_vs Serviceenginegroup#ssl_sess_cache_per_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ssl_sess_cache_per_vs Serviceenginegroup#ssl_sess_cache_per_vs}
   */
   readonly sslSessCachePerVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#tenant_ref Serviceenginegroup#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#tenant_ref Serviceenginegroup#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#transient_shared_memory_max Serviceenginegroup#transient_shared_memory_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#transient_shared_memory_max Serviceenginegroup#transient_shared_memory_max}
   */
   readonly transientSharedMemoryMax?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#udf_log_throttle Serviceenginegroup#udf_log_throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#udf_log_throttle Serviceenginegroup#udf_log_throttle}
   */
   readonly udfLogThrottle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#upstream_connect_timeout Serviceenginegroup#upstream_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#upstream_connect_timeout Serviceenginegroup#upstream_connect_timeout}
   */
   readonly upstreamConnectTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#upstream_connpool_enable Serviceenginegroup#upstream_connpool_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#upstream_connpool_enable Serviceenginegroup#upstream_connpool_enable}
   */
   readonly upstreamConnpoolEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#upstream_read_timeout Serviceenginegroup#upstream_read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#upstream_read_timeout Serviceenginegroup#upstream_read_timeout}
   */
   readonly upstreamReadTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#upstream_send_timeout Serviceenginegroup#upstream_send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#upstream_send_timeout Serviceenginegroup#upstream_send_timeout}
   */
   readonly upstreamSendTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#use_dp_util_for_scaleout Serviceenginegroup#use_dp_util_for_scaleout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#use_dp_util_for_scaleout Serviceenginegroup#use_dp_util_for_scaleout}
   */
   readonly useDpUtilForScaleout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#use_hyperthreaded_cores Serviceenginegroup#use_hyperthreaded_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#use_hyperthreaded_cores Serviceenginegroup#use_hyperthreaded_cores}
   */
   readonly useHyperthreadedCores?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#use_legacy_netlink Serviceenginegroup#use_legacy_netlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#use_legacy_netlink Serviceenginegroup#use_legacy_netlink}
   */
   readonly useLegacyNetlink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#use_objsync Serviceenginegroup#use_objsync}
-  */
-  readonly useObjsync?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#use_standard_alb Serviceenginegroup#use_standard_alb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#use_standard_alb Serviceenginegroup#use_standard_alb}
   */
   readonly useStandardAlb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#user_defined_metric_age Serviceenginegroup#user_defined_metric_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#user_defined_metric_age Serviceenginegroup#user_defined_metric_age}
   */
   readonly userDefinedMetricAge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#uuid Serviceenginegroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#uuid Serviceenginegroup#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vcenter_datastore_mode Serviceenginegroup#vcenter_datastore_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcenter_datastore_mode Serviceenginegroup#vcenter_datastore_mode}
   */
   readonly vcenterDatastoreMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vcenter_datastores_include Serviceenginegroup#vcenter_datastores_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcenter_datastores_include Serviceenginegroup#vcenter_datastores_include}
   */
   readonly vcenterDatastoresInclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vcenter_folder Serviceenginegroup#vcenter_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcenter_folder Serviceenginegroup#vcenter_folder}
   */
   readonly vcenterFolder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vcenter_parking_vnic_pg Serviceenginegroup#vcenter_parking_vnic_pg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcenter_parking_vnic_pg Serviceenginegroup#vcenter_parking_vnic_pg}
   */
   readonly vcenterParkingVnicPg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vcpus_per_se Serviceenginegroup#vcpus_per_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcpus_per_se Serviceenginegroup#vcpus_per_se}
   */
   readonly vcpusPerSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vnic_dhcp_ip_check_interval Serviceenginegroup#vnic_dhcp_ip_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vnic_dhcp_ip_check_interval Serviceenginegroup#vnic_dhcp_ip_check_interval}
   */
   readonly vnicDhcpIpCheckInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vnic_dhcp_ip_max_retries Serviceenginegroup#vnic_dhcp_ip_max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vnic_dhcp_ip_max_retries Serviceenginegroup#vnic_dhcp_ip_max_retries}
   */
   readonly vnicDhcpIpMaxRetries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vnic_ip_delete_interval Serviceenginegroup#vnic_ip_delete_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vnic_ip_delete_interval Serviceenginegroup#vnic_ip_delete_interval}
   */
   readonly vnicIpDeleteInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vnic_probe_interval Serviceenginegroup#vnic_probe_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vnic_probe_interval Serviceenginegroup#vnic_probe_interval}
   */
   readonly vnicProbeInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vnic_rpc_retry_interval Serviceenginegroup#vnic_rpc_retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vnic_rpc_retry_interval Serviceenginegroup#vnic_rpc_retry_interval}
   */
   readonly vnicRpcRetryInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vnicdb_cmd_history_size Serviceenginegroup#vnicdb_cmd_history_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vnicdb_cmd_history_size Serviceenginegroup#vnicdb_cmd_history_size}
   */
   readonly vnicdbCmdHistorySize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vs_host_redundancy Serviceenginegroup#vs_host_redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vs_host_redundancy Serviceenginegroup#vs_host_redundancy}
   */
   readonly vsHostRedundancy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vs_scalein_timeout Serviceenginegroup#vs_scalein_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vs_scalein_timeout Serviceenginegroup#vs_scalein_timeout}
   */
   readonly vsScaleinTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vs_scalein_timeout_for_upgrade Serviceenginegroup#vs_scalein_timeout_for_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vs_scalein_timeout_for_upgrade Serviceenginegroup#vs_scalein_timeout_for_upgrade}
   */
   readonly vsScaleinTimeoutForUpgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vs_scaleout_timeout Serviceenginegroup#vs_scaleout_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vs_scaleout_timeout Serviceenginegroup#vs_scaleout_timeout}
   */
   readonly vsScaleoutTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vs_se_primary_switchover_additional_wait_time Serviceenginegroup#vs_se_primary_switchover_additional_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vs_se_primary_switchover_additional_wait_time Serviceenginegroup#vs_se_primary_switchover_additional_wait_time}
   */
   readonly vsSePrimarySwitchoverAdditionalWaitTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vs_se_scalein_additional_wait_time Serviceenginegroup#vs_se_scalein_additional_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vs_se_scalein_additional_wait_time Serviceenginegroup#vs_se_scalein_additional_wait_time}
   */
   readonly vsSeScaleinAdditionalWaitTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vs_se_scaleout_additional_wait_time Serviceenginegroup#vs_se_scaleout_additional_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vs_se_scaleout_additional_wait_time Serviceenginegroup#vs_se_scaleout_additional_wait_time}
   */
   readonly vsSeScaleoutAdditionalWaitTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vs_se_scaleout_ready_timeout Serviceenginegroup#vs_se_scaleout_ready_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vs_se_scaleout_ready_timeout Serviceenginegroup#vs_se_scaleout_ready_timeout}
   */
   readonly vsSeScaleoutReadyTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vs_switchover_timeout Serviceenginegroup#vs_switchover_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vs_switchover_timeout Serviceenginegroup#vs_switchover_timeout}
   */
   readonly vsSwitchoverTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vss_placement_enabled Serviceenginegroup#vss_placement_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vss_placement_enabled Serviceenginegroup#vss_placement_enabled}
   */
   readonly vssPlacementEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#waf_mempool Serviceenginegroup#waf_mempool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#waf_mempool Serviceenginegroup#waf_mempool}
   */
   readonly wafMempool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#waf_mempool_size Serviceenginegroup#waf_mempool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#waf_mempool_size Serviceenginegroup#waf_mempool_size}
   */
   readonly wafMempoolSize?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#waf_use_jit_for_pcre Serviceenginegroup#waf_use_jit_for_pcre}
+  */
+  readonly wafUseJitForPcre?: string;
+  /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#configpb_attributes Serviceenginegroup#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#configpb_attributes Serviceenginegroup#configpb_attributes}
   */
   readonly configpbAttributes?: ServiceenginegroupConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * custom_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#custom_tag Serviceenginegroup#custom_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#custom_tag Serviceenginegroup#custom_tag}
   */
   readonly customTag?: ServiceenginegroupCustomTag[] | cdktf.IResolvable;
   /**
   * gcp_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#gcp_config Serviceenginegroup#gcp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#gcp_config Serviceenginegroup#gcp_config}
   */
   readonly gcpConfig?: ServiceenginegroupGcpConfig[] | cdktf.IResolvable;
   /**
   * instance_flavor_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#instance_flavor_info Serviceenginegroup#instance_flavor_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#instance_flavor_info Serviceenginegroup#instance_flavor_info}
   */
   readonly instanceFlavorInfo?: ServiceenginegroupInstanceFlavorInfo[] | cdktf.IResolvable;
   /**
   * iptables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#iptables Serviceenginegroup#iptables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#iptables Serviceenginegroup#iptables}
   */
   readonly iptables?: ServiceenginegroupIptables[] | cdktf.IResolvable;
   /**
   * kni_allowed_server_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#kni_allowed_server_ports Serviceenginegroup#kni_allowed_server_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#kni_allowed_server_ports Serviceenginegroup#kni_allowed_server_ports}
   */
   readonly kniAllowedServerPorts?: ServiceenginegroupKniAllowedServerPorts[] | cdktf.IResolvable;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#labels Serviceenginegroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#labels Serviceenginegroup#labels}
   */
   readonly labels?: ServiceenginegroupLabels[] | cdktf.IResolvable;
   /**
+  * license_quota block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#license_quota Serviceenginegroup#license_quota}
+  */
+  readonly licenseQuota?: ServiceenginegroupLicenseQuota[] | cdktf.IResolvable;
+  /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#markers Serviceenginegroup#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#markers Serviceenginegroup#markers}
   */
   readonly markers?: ServiceenginegroupMarkers[] | cdktf.IResolvable;
   /**
   * mgmt_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#mgmt_subnet Serviceenginegroup#mgmt_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#mgmt_subnet Serviceenginegroup#mgmt_subnet}
   */
   readonly mgmtSubnet?: ServiceenginegroupMgmtSubnet[] | cdktf.IResolvable;
   /**
   * objsync_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#objsync_config Serviceenginegroup#objsync_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#objsync_config Serviceenginegroup#objsync_config}
   */
   readonly objsyncConfig?: ServiceenginegroupObjsyncConfig[] | cdktf.IResolvable;
   /**
   * realtime_se_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#realtime_se_metrics Serviceenginegroup#realtime_se_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#realtime_se_metrics Serviceenginegroup#realtime_se_metrics}
   */
   readonly realtimeSeMetrics?: ServiceenginegroupRealtimeSeMetrics[] | cdktf.IResolvable;
   /**
+  * reserved_configuration block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#reserved_configuration Serviceenginegroup#reserved_configuration}
+  */
+  readonly reservedConfiguration?: ServiceenginegroupReservedConfiguration[] | cdktf.IResolvable;
+  /**
   * se_dos_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_dos_profile Serviceenginegroup#se_dos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_dos_profile Serviceenginegroup#se_dos_profile}
   */
   readonly seDosProfile?: ServiceenginegroupSeDosProfile[] | cdktf.IResolvable;
   /**
   * se_group_analytics_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_group_analytics_policy Serviceenginegroup#se_group_analytics_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_group_analytics_policy Serviceenginegroup#se_group_analytics_policy}
   */
   readonly seGroupAnalyticsPolicy?: ServiceenginegroupSeGroupAnalyticsPolicy[] | cdktf.IResolvable;
   /**
   * se_rl_prop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_rl_prop Serviceenginegroup#se_rl_prop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_rl_prop Serviceenginegroup#se_rl_prop}
   */
   readonly seRlProp?: ServiceenginegroupSeRlProp[] | cdktf.IResolvable;
   /**
   * se_time_tracker_props block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_time_tracker_props Serviceenginegroup#se_time_tracker_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_time_tracker_props Serviceenginegroup#se_time_tracker_props}
   */
   readonly seTimeTrackerProps?: ServiceenginegroupSeTimeTrackerProps[] | cdktf.IResolvable;
   /**
   * se_tracert_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_tracert_port_range Serviceenginegroup#se_tracert_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_tracert_port_range Serviceenginegroup#se_tracert_port_range}
   */
   readonly seTracertPortRange?: ServiceenginegroupSeTracertPortRange[] | cdktf.IResolvable;
   /**
   * service_ip6_subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#service_ip6_subnets Serviceenginegroup#service_ip6_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#service_ip6_subnets Serviceenginegroup#service_ip6_subnets}
   */
   readonly serviceIp6Subnets?: ServiceenginegroupServiceIp6Subnets[] | cdktf.IResolvable;
   /**
   * service_ip_subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#service_ip_subnets Serviceenginegroup#service_ip_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#service_ip_subnets Serviceenginegroup#service_ip_subnets}
   */
   readonly serviceIpSubnets?: ServiceenginegroupServiceIpSubnets[] | cdktf.IResolvable;
   /**
   * user_agent_cache_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#user_agent_cache_config Serviceenginegroup#user_agent_cache_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#user_agent_cache_config Serviceenginegroup#user_agent_cache_config}
   */
   readonly userAgentCacheConfig?: ServiceenginegroupUserAgentCacheConfig[] | cdktf.IResolvable;
   /**
   * vcenter_clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vcenter_clusters Serviceenginegroup#vcenter_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcenter_clusters Serviceenginegroup#vcenter_clusters}
   */
   readonly vcenterClusters?: ServiceenginegroupVcenterClusters[] | cdktf.IResolvable;
   /**
   * vcenter_datastores block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vcenter_datastores Serviceenginegroup#vcenter_datastores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcenter_datastores Serviceenginegroup#vcenter_datastores}
   */
   readonly vcenterDatastores?: ServiceenginegroupVcenterDatastores[] | cdktf.IResolvable;
   /**
   * vcenter_hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vcenter_hosts Serviceenginegroup#vcenter_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcenter_hosts Serviceenginegroup#vcenter_hosts}
   */
   readonly vcenterHosts?: ServiceenginegroupVcenterHosts[] | cdktf.IResolvable;
   /**
   * vcenters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vcenters Serviceenginegroup#vcenters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcenters Serviceenginegroup#vcenters}
   */
   readonly vcenters?: ServiceenginegroupVcenters[] | cdktf.IResolvable;
   /**
   * vip_asg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vip_asg Serviceenginegroup#vip_asg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vip_asg Serviceenginegroup#vip_asg}
   */
   readonly vipAsg?: ServiceenginegroupVipAsg[] | cdktf.IResolvable;
   /**
+  * vsphere_storage_policies block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vsphere_storage_policies Serviceenginegroup#vsphere_storage_policies}
+  */
+  readonly vsphereStoragePolicies?: ServiceenginegroupVsphereStoragePolicies[] | cdktf.IResolvable;
+  /**
   * vss_placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vss_placement Serviceenginegroup#vss_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vss_placement Serviceenginegroup#vss_placement}
   */
   readonly vssPlacement?: ServiceenginegroupVssPlacement[] | cdktf.IResolvable;
 }
 export interface ServiceenginegroupConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#version Serviceenginegroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#version Serviceenginegroup#version}
   */
   readonly version?: string;
 }
@@ -1343,11 +1409,11 @@ export class ServiceenginegroupConfigpbAttributesList extends cdktf.ComplexList 
 }
 export interface ServiceenginegroupCustomTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#tag_key Serviceenginegroup#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#tag_key Serviceenginegroup#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#tag_val Serviceenginegroup#tag_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#tag_val Serviceenginegroup#tag_val}
   */
   readonly tagVal?: string;
 }
@@ -1489,15 +1555,15 @@ export class ServiceenginegroupCustomTagList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupGcpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#backend_data_vpc_network_name Serviceenginegroup#backend_data_vpc_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#backend_data_vpc_network_name Serviceenginegroup#backend_data_vpc_network_name}
   */
   readonly backendDataVpcNetworkName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#backend_data_vpc_project_id Serviceenginegroup#backend_data_vpc_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#backend_data_vpc_project_id Serviceenginegroup#backend_data_vpc_project_id}
   */
   readonly backendDataVpcProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#backend_data_vpc_subnet_name Serviceenginegroup#backend_data_vpc_subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#backend_data_vpc_subnet_name Serviceenginegroup#backend_data_vpc_subnet_name}
   */
   readonly backendDataVpcSubnetName?: string;
 }
@@ -1671,11 +1737,11 @@ export class ServiceenginegroupGcpConfigList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupInstanceFlavorInfoMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#key Serviceenginegroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#key Serviceenginegroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#value Serviceenginegroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#value Serviceenginegroup#value}
   */
   readonly value: string;
 }
@@ -1814,60 +1880,60 @@ export class ServiceenginegroupInstanceFlavorInfoMetaList extends cdktf.ComplexL
 }
 export interface ServiceenginegroupInstanceFlavorInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#cost Serviceenginegroup#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#cost Serviceenginegroup#cost}
   */
   readonly cost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#disk_gb Serviceenginegroup#disk_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#disk_gb Serviceenginegroup#disk_gb}
   */
   readonly diskGb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#enhanced_nw Serviceenginegroup#enhanced_nw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#enhanced_nw Serviceenginegroup#enhanced_nw}
   */
   readonly enhancedNw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#id Serviceenginegroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#id Serviceenginegroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#is_recommended Serviceenginegroup#is_recommended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#is_recommended Serviceenginegroup#is_recommended}
   */
   readonly isRecommended?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_ip6s_per_nic Serviceenginegroup#max_ip6s_per_nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_ip6s_per_nic Serviceenginegroup#max_ip6s_per_nic}
   */
   readonly maxIp6SPerNic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_ips_per_nic Serviceenginegroup#max_ips_per_nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_ips_per_nic Serviceenginegroup#max_ips_per_nic}
   */
   readonly maxIpsPerNic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_nics Serviceenginegroup#max_nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_nics Serviceenginegroup#max_nics}
   */
   readonly maxNics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#name Serviceenginegroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#name Serviceenginegroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#public Serviceenginegroup#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#public Serviceenginegroup#public}
   */
   readonly public?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ram_mb Serviceenginegroup#ram_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ram_mb Serviceenginegroup#ram_mb}
   */
   readonly ramMb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vcpus Serviceenginegroup#vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcpus Serviceenginegroup#vcpus}
   */
   readonly vcpus?: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#meta Serviceenginegroup#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#meta Serviceenginegroup#meta}
   */
   readonly meta?: ServiceenginegroupInstanceFlavorInfoMeta[] | cdktf.IResolvable;
 }
@@ -2325,11 +2391,11 @@ export class ServiceenginegroupInstanceFlavorInfoList extends cdktf.ComplexList 
 }
 export interface ServiceenginegroupIptablesRulesDnatIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#addr Serviceenginegroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#addr Serviceenginegroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#type Serviceenginegroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#type Serviceenginegroup#type}
   */
   readonly type: string;
 }
@@ -2468,11 +2534,11 @@ export class ServiceenginegroupIptablesRulesDnatIpList extends cdktf.ComplexList
 }
 export interface ServiceenginegroupIptablesRulesDstIpIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#addr Serviceenginegroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#addr Serviceenginegroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#type Serviceenginegroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#type Serviceenginegroup#type}
   */
   readonly type: string;
 }
@@ -2611,13 +2677,13 @@ export class ServiceenginegroupIptablesRulesDstIpIpAddrList extends cdktf.Comple
 }
 export interface ServiceenginegroupIptablesRulesDstIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#mask Serviceenginegroup#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#mask Serviceenginegroup#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ip_addr Serviceenginegroup#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ip_addr Serviceenginegroup#ip_addr}
   */
   readonly ipAddr: ServiceenginegroupIptablesRulesDstIpIpAddr[] | cdktf.IResolvable;
 }
@@ -2756,11 +2822,11 @@ export class ServiceenginegroupIptablesRulesDstIpList extends cdktf.ComplexList 
 }
 export interface ServiceenginegroupIptablesRulesDstPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#end Serviceenginegroup#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#end Serviceenginegroup#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#start Serviceenginegroup#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#start Serviceenginegroup#start}
   */
   readonly start: string;
 }
@@ -2899,11 +2965,11 @@ export class ServiceenginegroupIptablesRulesDstPortList extends cdktf.ComplexLis
 }
 export interface ServiceenginegroupIptablesRulesSrcIpIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#addr Serviceenginegroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#addr Serviceenginegroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#type Serviceenginegroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#type Serviceenginegroup#type}
   */
   readonly type: string;
 }
@@ -3042,13 +3108,13 @@ export class ServiceenginegroupIptablesRulesSrcIpIpAddrList extends cdktf.Comple
 }
 export interface ServiceenginegroupIptablesRulesSrcIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#mask Serviceenginegroup#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#mask Serviceenginegroup#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ip_addr Serviceenginegroup#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ip_addr Serviceenginegroup#ip_addr}
   */
   readonly ipAddr: ServiceenginegroupIptablesRulesSrcIpIpAddr[] | cdktf.IResolvable;
 }
@@ -3187,11 +3253,11 @@ export class ServiceenginegroupIptablesRulesSrcIpList extends cdktf.ComplexList 
 }
 export interface ServiceenginegroupIptablesRulesSrcPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#end Serviceenginegroup#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#end Serviceenginegroup#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#start Serviceenginegroup#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#start Serviceenginegroup#start}
   */
   readonly start: string;
 }
@@ -3330,53 +3396,53 @@ export class ServiceenginegroupIptablesRulesSrcPortList extends cdktf.ComplexLis
 }
 export interface ServiceenginegroupIptablesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#action Serviceenginegroup#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#action Serviceenginegroup#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#input_interface Serviceenginegroup#input_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#input_interface Serviceenginegroup#input_interface}
   */
   readonly inputInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#output_interface Serviceenginegroup#output_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#output_interface Serviceenginegroup#output_interface}
   */
   readonly outputInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#proto Serviceenginegroup#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#proto Serviceenginegroup#proto}
   */
   readonly proto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#tag Serviceenginegroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#tag Serviceenginegroup#tag}
   */
   readonly tag?: string;
   /**
   * dnat_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dnat_ip Serviceenginegroup#dnat_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dnat_ip Serviceenginegroup#dnat_ip}
   */
   readonly dnatIp?: ServiceenginegroupIptablesRulesDnatIp[] | cdktf.IResolvable;
   /**
   * dst_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dst_ip Serviceenginegroup#dst_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dst_ip Serviceenginegroup#dst_ip}
   */
   readonly dstIp?: ServiceenginegroupIptablesRulesDstIp[] | cdktf.IResolvable;
   /**
   * dst_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dst_port Serviceenginegroup#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dst_port Serviceenginegroup#dst_port}
   */
   readonly dstPort?: ServiceenginegroupIptablesRulesDstPort[] | cdktf.IResolvable;
   /**
   * src_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#src_ip Serviceenginegroup#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#src_ip Serviceenginegroup#src_ip}
   */
   readonly srcIp?: ServiceenginegroupIptablesRulesSrcIp[] | cdktf.IResolvable;
   /**
   * src_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#src_port Serviceenginegroup#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#src_port Serviceenginegroup#src_port}
   */
   readonly srcPort?: ServiceenginegroupIptablesRulesSrcPort[] | cdktf.IResolvable;
 }
@@ -3750,17 +3816,17 @@ export class ServiceenginegroupIptablesRulesList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupIptables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#chain Serviceenginegroup#chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#chain Serviceenginegroup#chain}
   */
   readonly chain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#table Serviceenginegroup#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#table Serviceenginegroup#table}
   */
   readonly table: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#rules Serviceenginegroup#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#rules Serviceenginegroup#rules}
   */
   readonly rules?: ServiceenginegroupIptablesRules[] | cdktf.IResolvable;
 }
@@ -3928,11 +3994,11 @@ export class ServiceenginegroupIptablesList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupKniAllowedServerPortsRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#end Serviceenginegroup#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#end Serviceenginegroup#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#start Serviceenginegroup#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#start Serviceenginegroup#start}
   */
   readonly start: string;
 }
@@ -4071,13 +4137,13 @@ export class ServiceenginegroupKniAllowedServerPortsRangeList extends cdktf.Comp
 }
 export interface ServiceenginegroupKniAllowedServerPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#protocol Serviceenginegroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#protocol Serviceenginegroup#protocol}
   */
   readonly protocol: string;
   /**
   * range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#range Serviceenginegroup#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#range Serviceenginegroup#range}
   */
   readonly range: ServiceenginegroupKniAllowedServerPortsRange[] | cdktf.IResolvable;
 }
@@ -4216,11 +4282,11 @@ export class ServiceenginegroupKniAllowedServerPortsList extends cdktf.ComplexLi
 }
 export interface ServiceenginegroupLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#key Serviceenginegroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#key Serviceenginegroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#value Serviceenginegroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#value Serviceenginegroup#value}
   */
   readonly value?: string;
 }
@@ -4360,13 +4426,162 @@ export class ServiceenginegroupLabelsList extends cdktf.ComplexList {
     return new ServiceenginegroupLabelsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ServiceenginegroupLicenseQuota {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#limit Serviceenginegroup#limit}
+  */
+  readonly limit?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#reservation Serviceenginegroup#reservation}
+  */
+  readonly reservation?: string;
+}
+
+export function serviceenginegroupLicenseQuotaToTerraform(struct?: ServiceenginegroupLicenseQuota | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    limit: cdktf.stringToTerraform(struct!.limit),
+    reservation: cdktf.stringToTerraform(struct!.reservation),
+  }
+}
+
+
+export function serviceenginegroupLicenseQuotaToHclTerraform(struct?: ServiceenginegroupLicenseQuota | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    limit: {
+      value: cdktf.stringToHclTerraform(struct!.limit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    reservation: {
+      value: cdktf.stringToHclTerraform(struct!.reservation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServiceenginegroupLicenseQuotaOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ServiceenginegroupLicenseQuota | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._limit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.limit = this._limit;
+    }
+    if (this._reservation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reservation = this._reservation;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServiceenginegroupLicenseQuota | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._limit = undefined;
+      this._reservation = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._limit = value.limit;
+      this._reservation = value.reservation;
+    }
+  }
+
+  // limit - computed: false, optional: true, required: false
+  private _limit?: string; 
+  public get limit() {
+    return this.getStringAttribute('limit');
+  }
+  public set limit(value: string) {
+    this._limit = value;
+  }
+  public resetLimit() {
+    this._limit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get limitInput() {
+    return this._limit;
+  }
+
+  // reservation - computed: false, optional: true, required: false
+  private _reservation?: string; 
+  public get reservation() {
+    return this.getStringAttribute('reservation');
+  }
+  public set reservation(value: string) {
+    this._reservation = value;
+  }
+  public resetReservation() {
+    this._reservation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reservationInput() {
+    return this._reservation;
+  }
+}
+
+export class ServiceenginegroupLicenseQuotaList extends cdktf.ComplexList {
+  public internalValue? : ServiceenginegroupLicenseQuota[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ServiceenginegroupLicenseQuotaOutputReference {
+    return new ServiceenginegroupLicenseQuotaOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ServiceenginegroupMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#key Serviceenginegroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#key Serviceenginegroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#values Serviceenginegroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#values Serviceenginegroup#values}
   */
   readonly values?: string[];
 }
@@ -4508,11 +4723,11 @@ export class ServiceenginegroupMarkersList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupMgmtSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#addr Serviceenginegroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#addr Serviceenginegroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#type Serviceenginegroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#type Serviceenginegroup#type}
   */
   readonly type: string;
 }
@@ -4651,13 +4866,13 @@ export class ServiceenginegroupMgmtSubnetIpAddrList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupMgmtSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#mask Serviceenginegroup#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#mask Serviceenginegroup#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ip_addr Serviceenginegroup#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ip_addr Serviceenginegroup#ip_addr}
   */
   readonly ipAddr: ServiceenginegroupMgmtSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -4796,15 +5011,15 @@ export class ServiceenginegroupMgmtSubnetList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupObjsyncConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#objsync_cpu_limit Serviceenginegroup#objsync_cpu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#objsync_cpu_limit Serviceenginegroup#objsync_cpu_limit}
   */
   readonly objsyncCpuLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#objsync_hub_elect_interval Serviceenginegroup#objsync_hub_elect_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#objsync_hub_elect_interval Serviceenginegroup#objsync_hub_elect_interval}
   */
   readonly objsyncHubElectInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#objsync_reconcile_interval Serviceenginegroup#objsync_reconcile_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#objsync_reconcile_interval Serviceenginegroup#objsync_reconcile_interval}
   */
   readonly objsyncReconcileInterval?: string;
 }
@@ -4978,11 +5193,11 @@ export class ServiceenginegroupObjsyncConfigList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupRealtimeSeMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#duration Serviceenginegroup#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#duration Serviceenginegroup#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#enabled Serviceenginegroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#enabled Serviceenginegroup#enabled}
   */
   readonly enabled: string;
 }
@@ -5122,17 +5337,278 @@ export class ServiceenginegroupRealtimeSeMetricsList extends cdktf.ComplexList {
     return new ServiceenginegroupRealtimeSeMetricsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ServiceenginegroupReservedConfigurationKeyValueConfigurations {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#key Serviceenginegroup#key}
+  */
+  readonly key: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#value Serviceenginegroup#value}
+  */
+  readonly value: string;
+}
+
+export function serviceenginegroupReservedConfigurationKeyValueConfigurationsToTerraform(struct?: ServiceenginegroupReservedConfigurationKeyValueConfigurations | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function serviceenginegroupReservedConfigurationKeyValueConfigurationsToHclTerraform(struct?: ServiceenginegroupReservedConfigurationKeyValueConfigurations | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServiceenginegroupReservedConfigurationKeyValueConfigurationsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ServiceenginegroupReservedConfigurationKeyValueConfigurations | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServiceenginegroupReservedConfigurationKeyValueConfigurations | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ServiceenginegroupReservedConfigurationKeyValueConfigurationsList extends cdktf.ComplexList {
+  public internalValue? : ServiceenginegroupReservedConfigurationKeyValueConfigurations[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ServiceenginegroupReservedConfigurationKeyValueConfigurationsOutputReference {
+    return new ServiceenginegroupReservedConfigurationKeyValueConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ServiceenginegroupReservedConfiguration {
+  /**
+  * key_value_configurations block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#key_value_configurations Serviceenginegroup#key_value_configurations}
+  */
+  readonly keyValueConfigurations?: ServiceenginegroupReservedConfigurationKeyValueConfigurations[] | cdktf.IResolvable;
+}
+
+export function serviceenginegroupReservedConfigurationToTerraform(struct?: ServiceenginegroupReservedConfiguration | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key_value_configurations: cdktf.listMapper(serviceenginegroupReservedConfigurationKeyValueConfigurationsToTerraform, true)(struct!.keyValueConfigurations),
+  }
+}
+
+
+export function serviceenginegroupReservedConfigurationToHclTerraform(struct?: ServiceenginegroupReservedConfiguration | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key_value_configurations: {
+      value: cdktf.listMapperHcl(serviceenginegroupReservedConfigurationKeyValueConfigurationsToHclTerraform, true)(struct!.keyValueConfigurations),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ServiceenginegroupReservedConfigurationKeyValueConfigurationsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServiceenginegroupReservedConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ServiceenginegroupReservedConfiguration | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._keyValueConfigurations?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keyValueConfigurations = this._keyValueConfigurations?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServiceenginegroupReservedConfiguration | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._keyValueConfigurations.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._keyValueConfigurations.internalValue = value.keyValueConfigurations;
+    }
+  }
+
+  // key_value_configurations - computed: false, optional: true, required: false
+  private _keyValueConfigurations = new ServiceenginegroupReservedConfigurationKeyValueConfigurationsList(this, "key_value_configurations", false);
+  public get keyValueConfigurations() {
+    return this._keyValueConfigurations;
+  }
+  public putKeyValueConfigurations(value: ServiceenginegroupReservedConfigurationKeyValueConfigurations[] | cdktf.IResolvable) {
+    this._keyValueConfigurations.internalValue = value;
+  }
+  public resetKeyValueConfigurations() {
+    this._keyValueConfigurations.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyValueConfigurationsInput() {
+    return this._keyValueConfigurations.internalValue;
+  }
+}
+
+export class ServiceenginegroupReservedConfigurationList extends cdktf.ComplexList {
+  public internalValue? : ServiceenginegroupReservedConfiguration[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ServiceenginegroupReservedConfigurationOutputReference {
+    return new ServiceenginegroupReservedConfigurationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ServiceenginegroupSeDosProfileThreshInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#attack Serviceenginegroup#attack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#attack Serviceenginegroup#attack}
   */
   readonly attack: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_value Serviceenginegroup#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_value Serviceenginegroup#max_value}
   */
   readonly maxValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#min_value Serviceenginegroup#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#min_value Serviceenginegroup#min_value}
   */
   readonly minValue: string;
 }
@@ -5297,13 +5773,13 @@ export class ServiceenginegroupSeDosProfileThreshInfoList extends cdktf.ComplexL
 }
 export interface ServiceenginegroupSeDosProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#thresh_period Serviceenginegroup#thresh_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#thresh_period Serviceenginegroup#thresh_period}
   */
   readonly threshPeriod: string;
   /**
   * thresh_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#thresh_info Serviceenginegroup#thresh_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#thresh_info Serviceenginegroup#thresh_info}
   */
   readonly threshInfo?: ServiceenginegroupSeDosProfileThreshInfo[] | cdktf.IResolvable;
 }
@@ -5445,15 +5921,15 @@ export class ServiceenginegroupSeDosProfileList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupSeGroupAnalyticsPolicyMetricsEventThresholds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#metrics_event_threshold_type Serviceenginegroup#metrics_event_threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#metrics_event_threshold_type Serviceenginegroup#metrics_event_threshold_type}
   */
   readonly metricsEventThresholdType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#reset_threshold Serviceenginegroup#reset_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#reset_threshold Serviceenginegroup#reset_threshold}
   */
   readonly resetThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#watermark_thresholds Serviceenginegroup#watermark_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#watermark_thresholds Serviceenginegroup#watermark_thresholds}
   */
   readonly watermarkThresholds?: number[];
 }
@@ -5626,7 +6102,7 @@ export interface ServiceenginegroupSeGroupAnalyticsPolicy {
   /**
   * metrics_event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#metrics_event_thresholds Serviceenginegroup#metrics_event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#metrics_event_thresholds Serviceenginegroup#metrics_event_thresholds}
   */
   readonly metricsEventThresholds?: ServiceenginegroupSeGroupAnalyticsPolicyMetricsEventThresholds[] | cdktf.IResolvable;
 }
@@ -5742,11 +6218,11 @@ export class ServiceenginegroupSeGroupAnalyticsPolicyList extends cdktf.ComplexL
 }
 export interface ServiceenginegroupSeRlProp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#msf_num_stages Serviceenginegroup#msf_num_stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#msf_num_stages Serviceenginegroup#msf_num_stages}
   */
   readonly msfNumStages?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#msf_stage_size Serviceenginegroup#msf_stage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#msf_stage_size Serviceenginegroup#msf_stage_size}
   */
   readonly msfStageSize?: string;
 }
@@ -5891,23 +6367,23 @@ export class ServiceenginegroupSeRlPropList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupSeTimeTrackerProps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#egress_audit_mode Serviceenginegroup#egress_audit_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#egress_audit_mode Serviceenginegroup#egress_audit_mode}
   */
   readonly egressAuditMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#egress_threshold Serviceenginegroup#egress_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#egress_threshold Serviceenginegroup#egress_threshold}
   */
   readonly egressThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#event_gen_window Serviceenginegroup#event_gen_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#event_gen_window Serviceenginegroup#event_gen_window}
   */
   readonly eventGenWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ingress_audit_mode Serviceenginegroup#ingress_audit_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ingress_audit_mode Serviceenginegroup#ingress_audit_mode}
   */
   readonly ingressAuditMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ingress_threshold Serviceenginegroup#ingress_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ingress_threshold Serviceenginegroup#ingress_threshold}
   */
   readonly ingressThreshold?: string;
 }
@@ -6139,11 +6615,11 @@ export class ServiceenginegroupSeTimeTrackerPropsList extends cdktf.ComplexList 
 }
 export interface ServiceenginegroupSeTracertPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#end Serviceenginegroup#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#end Serviceenginegroup#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#start Serviceenginegroup#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#start Serviceenginegroup#start}
   */
   readonly start: string;
 }
@@ -6282,11 +6758,11 @@ export class ServiceenginegroupSeTracertPortRangeList extends cdktf.ComplexList 
 }
 export interface ServiceenginegroupServiceIp6SubnetsIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#addr Serviceenginegroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#addr Serviceenginegroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#type Serviceenginegroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#type Serviceenginegroup#type}
   */
   readonly type: string;
 }
@@ -6425,13 +6901,13 @@ export class ServiceenginegroupServiceIp6SubnetsIpAddrList extends cdktf.Complex
 }
 export interface ServiceenginegroupServiceIp6Subnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#mask Serviceenginegroup#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#mask Serviceenginegroup#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ip_addr Serviceenginegroup#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ip_addr Serviceenginegroup#ip_addr}
   */
   readonly ipAddr: ServiceenginegroupServiceIp6SubnetsIpAddr[] | cdktf.IResolvable;
 }
@@ -6570,11 +7046,11 @@ export class ServiceenginegroupServiceIp6SubnetsList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupServiceIpSubnetsIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#addr Serviceenginegroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#addr Serviceenginegroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#type Serviceenginegroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#type Serviceenginegroup#type}
   */
   readonly type: string;
 }
@@ -6713,13 +7189,13 @@ export class ServiceenginegroupServiceIpSubnetsIpAddrList extends cdktf.ComplexL
 }
 export interface ServiceenginegroupServiceIpSubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#mask Serviceenginegroup#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#mask Serviceenginegroup#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ip_addr Serviceenginegroup#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ip_addr Serviceenginegroup#ip_addr}
   */
   readonly ipAddr: ServiceenginegroupServiceIpSubnetsIpAddr[] | cdktf.IResolvable;
 }
@@ -6858,55 +7334,55 @@ export class ServiceenginegroupServiceIpSubnetsList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupUserAgentCacheConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#batch_size Serviceenginegroup#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#batch_size Serviceenginegroup#batch_size}
   */
   readonly batchSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#controller_cache_size Serviceenginegroup#controller_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#controller_cache_size Serviceenginegroup#controller_cache_size}
   */
   readonly controllerCacheSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_age Serviceenginegroup#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_age Serviceenginegroup#max_age}
   */
   readonly maxAge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_last_hit_time Serviceenginegroup#max_last_hit_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_last_hit_time Serviceenginegroup#max_last_hit_time}
   */
   readonly maxLastHitTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_upstream_queries Serviceenginegroup#max_upstream_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_upstream_queries Serviceenginegroup#max_upstream_queries}
   */
   readonly maxUpstreamQueries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_wait_time Serviceenginegroup#max_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_wait_time Serviceenginegroup#max_wait_time}
   */
   readonly maxWaitTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#num_entries_upstream_update Serviceenginegroup#num_entries_upstream_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#num_entries_upstream_update Serviceenginegroup#num_entries_upstream_update}
   */
   readonly numEntriesUpstreamUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#percent_reserved_for_bad_bots Serviceenginegroup#percent_reserved_for_bad_bots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#percent_reserved_for_bad_bots Serviceenginegroup#percent_reserved_for_bad_bots}
   */
   readonly percentReservedForBadBots?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#percent_reserved_for_browsers Serviceenginegroup#percent_reserved_for_browsers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#percent_reserved_for_browsers Serviceenginegroup#percent_reserved_for_browsers}
   */
   readonly percentReservedForBrowsers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#percent_reserved_for_good_bots Serviceenginegroup#percent_reserved_for_good_bots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#percent_reserved_for_good_bots Serviceenginegroup#percent_reserved_for_good_bots}
   */
   readonly percentReservedForGoodBots?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#percent_reserved_for_outstanding Serviceenginegroup#percent_reserved_for_outstanding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#percent_reserved_for_outstanding Serviceenginegroup#percent_reserved_for_outstanding}
   */
   readonly percentReservedForOutstanding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#se_cache_size Serviceenginegroup#se_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#se_cache_size Serviceenginegroup#se_cache_size}
   */
   readonly seCacheSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#upstream_update_interval Serviceenginegroup#upstream_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#upstream_update_interval Serviceenginegroup#upstream_update_interval}
   */
   readonly upstreamUpdateInterval?: string;
 }
@@ -7370,11 +7846,11 @@ export class ServiceenginegroupUserAgentCacheConfigList extends cdktf.ComplexLis
 }
 export interface ServiceenginegroupVcenterClusters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#cluster_refs Serviceenginegroup#cluster_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#cluster_refs Serviceenginegroup#cluster_refs}
   */
   readonly clusterRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#include Serviceenginegroup#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#include Serviceenginegroup#include}
   */
   readonly include?: string;
 }
@@ -7519,11 +7995,11 @@ export class ServiceenginegroupVcenterClustersList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupVcenterDatastores {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#datastore_name Serviceenginegroup#datastore_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#datastore_name Serviceenginegroup#datastore_name}
   */
   readonly datastoreName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#managed_object_id Serviceenginegroup#managed_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#managed_object_id Serviceenginegroup#managed_object_id}
   */
   readonly managedObjectId?: string;
 }
@@ -7668,11 +8144,11 @@ export class ServiceenginegroupVcenterDatastoresList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupVcenterHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#host_refs Serviceenginegroup#host_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#host_refs Serviceenginegroup#host_refs}
   */
   readonly hostRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#include Serviceenginegroup#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#include Serviceenginegroup#include}
   */
   readonly include?: string;
 }
@@ -7817,15 +8293,15 @@ export class ServiceenginegroupVcenterHostsList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupVcentersClusters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#cluster_id Serviceenginegroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#cluster_id Serviceenginegroup#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#override_vsphere_ha Serviceenginegroup#override_vsphere_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#override_vsphere_ha Serviceenginegroup#override_vsphere_ha}
   */
   readonly overrideVsphereHa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vmg_name Serviceenginegroup#vmg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vmg_name Serviceenginegroup#vmg_name}
   */
   readonly vmgName?: string;
 }
@@ -7999,11 +8475,11 @@ export class ServiceenginegroupVcentersClustersList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupVcentersNsxtClusters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#cluster_ids Serviceenginegroup#cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#cluster_ids Serviceenginegroup#cluster_ids}
   */
   readonly clusterIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#include Serviceenginegroup#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#include Serviceenginegroup#include}
   */
   readonly include?: string;
 }
@@ -8148,11 +8624,11 @@ export class ServiceenginegroupVcentersNsxtClustersList extends cdktf.ComplexLis
 }
 export interface ServiceenginegroupVcentersNsxtDatastores {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#ds_ids Serviceenginegroup#ds_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#ds_ids Serviceenginegroup#ds_ids}
   */
   readonly dsIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#include Serviceenginegroup#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#include Serviceenginegroup#include}
   */
   readonly include?: string;
 }
@@ -8297,11 +8773,11 @@ export class ServiceenginegroupVcentersNsxtDatastoresList extends cdktf.ComplexL
 }
 export interface ServiceenginegroupVcentersNsxtHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#host_ids Serviceenginegroup#host_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#host_ids Serviceenginegroup#host_ids}
   */
   readonly hostIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#include Serviceenginegroup#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#include Serviceenginegroup#include}
   */
   readonly include?: string;
 }
@@ -8446,35 +8922,35 @@ export class ServiceenginegroupVcentersNsxtHostsList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupVcenters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vcenter_folder Serviceenginegroup#vcenter_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcenter_folder Serviceenginegroup#vcenter_folder}
   */
   readonly vcenterFolder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#vcenter_ref Serviceenginegroup#vcenter_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcenter_ref Serviceenginegroup#vcenter_ref}
   */
   readonly vcenterRef: string;
   /**
   * clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#clusters Serviceenginegroup#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#clusters Serviceenginegroup#clusters}
   */
   readonly clusters?: ServiceenginegroupVcentersClusters[] | cdktf.IResolvable;
   /**
   * nsxt_clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#nsxt_clusters Serviceenginegroup#nsxt_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#nsxt_clusters Serviceenginegroup#nsxt_clusters}
   */
   readonly nsxtClusters?: ServiceenginegroupVcentersNsxtClusters[] | cdktf.IResolvable;
   /**
   * nsxt_datastores block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#nsxt_datastores Serviceenginegroup#nsxt_datastores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#nsxt_datastores Serviceenginegroup#nsxt_datastores}
   */
   readonly nsxtDatastores?: ServiceenginegroupVcentersNsxtDatastores[] | cdktf.IResolvable;
   /**
   * nsxt_hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#nsxt_hosts Serviceenginegroup#nsxt_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#nsxt_hosts Serviceenginegroup#nsxt_hosts}
   */
   readonly nsxtHosts?: ServiceenginegroupVcentersNsxtHosts[] | cdktf.IResolvable;
 }
@@ -8732,15 +9208,15 @@ export class ServiceenginegroupVcentersList extends cdktf.ComplexList {
 }
 export interface ServiceenginegroupVipAsgConfigurationZones {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#availability_zone Serviceenginegroup#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#availability_zone Serviceenginegroup#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#fip_capable Serviceenginegroup#fip_capable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#fip_capable Serviceenginegroup#fip_capable}
   */
   readonly fipCapable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#subnet_uuid Serviceenginegroup#subnet_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#subnet_uuid Serviceenginegroup#subnet_uuid}
   */
   readonly subnetUuid?: string;
 }
@@ -8916,7 +9392,7 @@ export interface ServiceenginegroupVipAsgConfiguration {
   /**
   * zones block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#zones Serviceenginegroup#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#zones Serviceenginegroup#zones}
   */
   readonly zones?: ServiceenginegroupVipAsgConfigurationZones[] | cdktf.IResolvable;
 }
@@ -9032,19 +9508,19 @@ export class ServiceenginegroupVipAsgConfigurationList extends cdktf.ComplexList
 }
 export interface ServiceenginegroupVipAsgPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#dns_cooldown Serviceenginegroup#dns_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#dns_cooldown Serviceenginegroup#dns_cooldown}
   */
   readonly dnsCooldown?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#max_size Serviceenginegroup#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#max_size Serviceenginegroup#max_size}
   */
   readonly maxSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#min_size Serviceenginegroup#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#min_size Serviceenginegroup#min_size}
   */
   readonly minSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#suspend Serviceenginegroup#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#suspend Serviceenginegroup#suspend}
   */
   readonly suspend?: string;
 }
@@ -9249,13 +9725,13 @@ export interface ServiceenginegroupVipAsg {
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#configuration Serviceenginegroup#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#configuration Serviceenginegroup#configuration}
   */
   readonly configuration?: ServiceenginegroupVipAsgConfiguration[] | cdktf.IResolvable;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#policy Serviceenginegroup#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#policy Serviceenginegroup#policy}
   */
   readonly policy?: ServiceenginegroupVipAsgPolicy[] | cdktf.IResolvable;
 }
@@ -9398,13 +9874,162 @@ export class ServiceenginegroupVipAsgList extends cdktf.ComplexList {
     return new ServiceenginegroupVipAsgOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ServiceenginegroupVsphereStoragePolicies {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vcenter_ref Serviceenginegroup#vcenter_ref}
+  */
+  readonly vcenterRef?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#vsphere_storage_policy_id Serviceenginegroup#vsphere_storage_policy_id}
+  */
+  readonly vsphereStoragePolicyId?: string;
+}
+
+export function serviceenginegroupVsphereStoragePoliciesToTerraform(struct?: ServiceenginegroupVsphereStoragePolicies | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    vcenter_ref: cdktf.stringToTerraform(struct!.vcenterRef),
+    vsphere_storage_policy_id: cdktf.stringToTerraform(struct!.vsphereStoragePolicyId),
+  }
+}
+
+
+export function serviceenginegroupVsphereStoragePoliciesToHclTerraform(struct?: ServiceenginegroupVsphereStoragePolicies | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    vcenter_ref: {
+      value: cdktf.stringToHclTerraform(struct!.vcenterRef),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vsphere_storage_policy_id: {
+      value: cdktf.stringToHclTerraform(struct!.vsphereStoragePolicyId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServiceenginegroupVsphereStoragePoliciesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ServiceenginegroupVsphereStoragePolicies | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._vcenterRef !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vcenterRef = this._vcenterRef;
+    }
+    if (this._vsphereStoragePolicyId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vsphereStoragePolicyId = this._vsphereStoragePolicyId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServiceenginegroupVsphereStoragePolicies | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._vcenterRef = undefined;
+      this._vsphereStoragePolicyId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._vcenterRef = value.vcenterRef;
+      this._vsphereStoragePolicyId = value.vsphereStoragePolicyId;
+    }
+  }
+
+  // vcenter_ref - computed: true, optional: true, required: false
+  private _vcenterRef?: string; 
+  public get vcenterRef() {
+    return this.getStringAttribute('vcenter_ref');
+  }
+  public set vcenterRef(value: string) {
+    this._vcenterRef = value;
+  }
+  public resetVcenterRef() {
+    this._vcenterRef = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vcenterRefInput() {
+    return this._vcenterRef;
+  }
+
+  // vsphere_storage_policy_id - computed: true, optional: true, required: false
+  private _vsphereStoragePolicyId?: string; 
+  public get vsphereStoragePolicyId() {
+    return this.getStringAttribute('vsphere_storage_policy_id');
+  }
+  public set vsphereStoragePolicyId(value: string) {
+    this._vsphereStoragePolicyId = value;
+  }
+  public resetVsphereStoragePolicyId() {
+    this._vsphereStoragePolicyId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vsphereStoragePolicyIdInput() {
+    return this._vsphereStoragePolicyId;
+  }
+}
+
+export class ServiceenginegroupVsphereStoragePoliciesList extends cdktf.ComplexList {
+  public internalValue? : ServiceenginegroupVsphereStoragePolicies[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ServiceenginegroupVsphereStoragePoliciesOutputReference {
+    return new ServiceenginegroupVsphereStoragePoliciesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ServiceenginegroupVssPlacement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#core_nonaffinity Serviceenginegroup#core_nonaffinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#core_nonaffinity Serviceenginegroup#core_nonaffinity}
   */
   readonly coreNonaffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#num_subcores Serviceenginegroup#num_subcores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#num_subcores Serviceenginegroup#num_subcores}
   */
   readonly numSubcores?: string;
 }
@@ -9549,7 +10174,7 @@ export class ServiceenginegroupVssPlacementList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup avi_serviceenginegroup}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup avi_serviceenginegroup}
 */
 export class Serviceenginegroup extends cdktf.TerraformResource {
 
@@ -9565,7 +10190,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Serviceenginegroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Serviceenginegroup to import
-  * @param importFromId The id of the existing Serviceenginegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Serviceenginegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Serviceenginegroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9577,7 +10202,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceenginegroup avi_serviceenginegroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceenginegroup avi_serviceenginegroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9588,8 +10213,8 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       terraformResourceType: 'avi_serviceenginegroup',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -9608,12 +10233,16 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._appCacheThreshold = config.appCacheThreshold;
     this._appLearningMemoryPercent = config.appLearningMemoryPercent;
     this._archiveShmLimit = config.archiveShmLimit;
+    this._arpCacheTimeout = config.arpCacheTimeout;
     this._asyncSsl = config.asyncSsl;
     this._asyncSslThreads = config.asyncSslThreads;
     this._autoRebalance = config.autoRebalance;
     this._autoRebalanceCapacityPerSe = config.autoRebalanceCapacityPerSe;
+    this._autoRebalanceCoolDownTime = config.autoRebalanceCoolDownTime;
     this._autoRebalanceCriteria = config.autoRebalanceCriteria;
+    this._autoRebalanceDryRunEnabled = config.autoRebalanceDryRunEnabled;
     this._autoRebalanceInterval = config.autoRebalanceInterval;
+    this._autoRebalanceRaiseEventsForActions = config.autoRebalanceRaiseEventsForActions;
     this._autoRedistributeActiveStandbyLoad = config.autoRedistributeActiveStandbyLoad;
     this._availabilityZoneRefs = config.availabilityZoneRefs;
     this._baremetalDispatcherHandlesFlows = config.baremetalDispatcherHandlesFlows;
@@ -9640,6 +10269,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._disableCsumOffloads = config.disableCsumOffloads;
     this._disableFlowProbes = config.disableFlowProbes;
     this._disableGro = config.disableGro;
+    this._disableQatBulkCrypto = config.disableQatBulkCrypto;
     this._disableSeMemoryCheck = config.disableSeMemoryCheck;
     this._disableTso = config.disableTso;
     this._diskPerSe = config.diskPerSe;
@@ -9661,6 +10291,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._enableHsmPriming = config.enableHsmPriming;
     this._enableMultiLb = config.enableMultiLb;
     this._enablePcapTxRing = config.enablePcapTxRing;
+    this._enableQat = config.enableQat;
     this._ephemeralPortrangeEnd = config.ephemeralPortrangeEnd;
     this._ephemeralPortrangeStart = config.ephemeralPortrangeStart;
     this._extraConfigMultiplier = config.extraConfigMultiplier;
@@ -9688,6 +10319,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._ingressAccessData = config.ingressAccessData;
     this._ingressAccessMgmt = config.ingressAccessMgmt;
     this._instanceFlavor = config.instanceFlavor;
+    this._kvValMaxLen = config.kvValMaxLen;
     this._l7ConnsPerCore = config.l7ConnsPerCore;
     this._l7ResvdListenConnsPerCore = config.l7ResvdListenConnsPerCore;
     this._lbactionNumRequestsToDispatch = config.lbactionNumRequestsToDispatch;
@@ -9713,6 +10345,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._logMallocFailure = config.logMallocFailure;
     this._logMessageMaxFileListSize = config.logMessageMaxFileListSize;
     this._maxConcurrentExternalHm = config.maxConcurrentExternalHm;
+    this._maxCpuLoadAdaptiveSampling = config.maxCpuLoadAdaptiveSampling;
     this._maxCpuUsage = config.maxCpuUsage;
     this._maxMemoryPerMempool = config.maxMemoryPerMempool;
     this._maxNumHttpSessionsToStore = config.maxNumHttpSessionsToStore;
@@ -9736,6 +10369,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._multicastEnable = config.multicastEnable;
     this._nLogStreamingThreads = config.nLogStreamingThreads;
     this._name = config.name;
+    this._nd6CacheTimeout = config.nd6CacheTimeout;
     this._netlinkPollerThreads = config.netlinkPollerThreads;
     this._netlinkSockBufSize = config.netlinkSockBufSize;
     this._ngxFreeConnectionStack = config.ngxFreeConnectionStack;
@@ -9746,6 +10380,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._numDispatcherCores = config.numDispatcherCores;
     this._numDispatcherQueues = config.numDispatcherQueues;
     this._numFlowCoresSumChangesToIgnore = config.numFlowCoresSumChangesToIgnore;
+    this._objsyncMode = config.objsyncMode;
     this._objsyncPort = config.objsyncPort;
     this._openstackAvailabilityZones = config.openstackAvailabilityZones;
     this._openstackMgmtNetworkName = config.openstackMgmtNetworkName;
@@ -9758,6 +10393,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._perApp = config.perApp;
     this._perVsAdmissionControl = config.perVsAdmissionControl;
     this._placementMode = config.placementMode;
+    this._preUpgradeSeAvailableMemThreshold = config.preUpgradeSeAvailableMemThreshold;
     this._rebootOnPanic = config.rebootOnPanic;
     this._replayVrfRoutesInterval = config.replayVrfRoutesInterval;
     this._resyncTimeInterval = config.resyncTimeInterval;
@@ -9788,6 +10424,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._seFlowProbeRetryTimer = config.seFlowProbeRetryTimer;
     this._seHyperthreadedMode = config.seHyperthreadedMode;
     this._seIpEncapIpc = config.seIpEncapIpc;
+    this._seKernelRss = config.seKernelRss;
     this._seKniBurstFactor = config.seKniBurstFactor;
     this._seL3EncapIpc = config.seL3EncapIpc;
     this._seLogBufferAppBlockingDequeue = config.seLogBufferAppBlockingDequeue;
@@ -9838,7 +10475,6 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._useDpUtilForScaleout = config.useDpUtilForScaleout;
     this._useHyperthreadedCores = config.useHyperthreadedCores;
     this._useLegacyNetlink = config.useLegacyNetlink;
-    this._useObjsync = config.useObjsync;
     this._useStandardAlb = config.useStandardAlb;
     this._userDefinedMetricAge = config.userDefinedMetricAge;
     this._uuid = config.uuid;
@@ -9865,6 +10501,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._vssPlacementEnabled = config.vssPlacementEnabled;
     this._wafMempool = config.wafMempool;
     this._wafMempoolSize = config.wafMempoolSize;
+    this._wafUseJitForPcre = config.wafUseJitForPcre;
     this._configpbAttributes.internalValue = config.configpbAttributes;
     this._customTag.internalValue = config.customTag;
     this._gcpConfig.internalValue = config.gcpConfig;
@@ -9872,10 +10509,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._iptables.internalValue = config.iptables;
     this._kniAllowedServerPorts.internalValue = config.kniAllowedServerPorts;
     this._labels.internalValue = config.labels;
+    this._licenseQuota.internalValue = config.licenseQuota;
     this._markers.internalValue = config.markers;
     this._mgmtSubnet.internalValue = config.mgmtSubnet;
     this._objsyncConfig.internalValue = config.objsyncConfig;
     this._realtimeSeMetrics.internalValue = config.realtimeSeMetrics;
+    this._reservedConfiguration.internalValue = config.reservedConfiguration;
     this._seDosProfile.internalValue = config.seDosProfile;
     this._seGroupAnalyticsPolicy.internalValue = config.seGroupAnalyticsPolicy;
     this._seRlProp.internalValue = config.seRlProp;
@@ -9889,6 +10528,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     this._vcenterHosts.internalValue = config.vcenterHosts;
     this._vcenters.internalValue = config.vcenters;
     this._vipAsg.internalValue = config.vipAsg;
+    this._vsphereStoragePolicies.internalValue = config.vsphereStoragePolicies;
     this._vssPlacement.internalValue = config.vssPlacement;
   }
 
@@ -10040,6 +10680,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     return this._archiveShmLimit;
   }
 
+  // arp_cache_timeout - computed: false, optional: true, required: false
+  private _arpCacheTimeout?: string; 
+  public get arpCacheTimeout() {
+    return this.getStringAttribute('arp_cache_timeout');
+  }
+  public set arpCacheTimeout(value: string) {
+    this._arpCacheTimeout = value;
+  }
+  public resetArpCacheTimeout() {
+    this._arpCacheTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get arpCacheTimeoutInput() {
+    return this._arpCacheTimeout;
+  }
+
   // async_ssl - computed: false, optional: true, required: false
   private _asyncSsl?: string; 
   public get asyncSsl() {
@@ -10104,6 +10760,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     return this._autoRebalanceCapacityPerSe;
   }
 
+  // auto_rebalance_cool_down_time - computed: false, optional: true, required: false
+  private _autoRebalanceCoolDownTime?: string; 
+  public get autoRebalanceCoolDownTime() {
+    return this.getStringAttribute('auto_rebalance_cool_down_time');
+  }
+  public set autoRebalanceCoolDownTime(value: string) {
+    this._autoRebalanceCoolDownTime = value;
+  }
+  public resetAutoRebalanceCoolDownTime() {
+    this._autoRebalanceCoolDownTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoRebalanceCoolDownTimeInput() {
+    return this._autoRebalanceCoolDownTime;
+  }
+
   // auto_rebalance_criteria - computed: false, optional: true, required: false
   private _autoRebalanceCriteria?: string[]; 
   public get autoRebalanceCriteria() {
@@ -10120,6 +10792,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     return this._autoRebalanceCriteria;
   }
 
+  // auto_rebalance_dry_run_enabled - computed: false, optional: true, required: false
+  private _autoRebalanceDryRunEnabled?: string; 
+  public get autoRebalanceDryRunEnabled() {
+    return this.getStringAttribute('auto_rebalance_dry_run_enabled');
+  }
+  public set autoRebalanceDryRunEnabled(value: string) {
+    this._autoRebalanceDryRunEnabled = value;
+  }
+  public resetAutoRebalanceDryRunEnabled() {
+    this._autoRebalanceDryRunEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoRebalanceDryRunEnabledInput() {
+    return this._autoRebalanceDryRunEnabled;
+  }
+
   // auto_rebalance_interval - computed: false, optional: true, required: false
   private _autoRebalanceInterval?: string; 
   public get autoRebalanceInterval() {
@@ -10134,6 +10822,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get autoRebalanceIntervalInput() {
     return this._autoRebalanceInterval;
+  }
+
+  // auto_rebalance_raise_events_for_actions - computed: false, optional: true, required: false
+  private _autoRebalanceRaiseEventsForActions?: string; 
+  public get autoRebalanceRaiseEventsForActions() {
+    return this.getStringAttribute('auto_rebalance_raise_events_for_actions');
+  }
+  public set autoRebalanceRaiseEventsForActions(value: string) {
+    this._autoRebalanceRaiseEventsForActions = value;
+  }
+  public resetAutoRebalanceRaiseEventsForActions() {
+    this._autoRebalanceRaiseEventsForActions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoRebalanceRaiseEventsForActionsInput() {
+    return this._autoRebalanceRaiseEventsForActions;
   }
 
   // auto_redistribute_active_standby_load - computed: false, optional: true, required: false
@@ -10552,6 +11256,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     return this._disableGro;
   }
 
+  // disable_qat_bulk_crypto - computed: false, optional: true, required: false
+  private _disableQatBulkCrypto?: string; 
+  public get disableQatBulkCrypto() {
+    return this.getStringAttribute('disable_qat_bulk_crypto');
+  }
+  public set disableQatBulkCrypto(value: string) {
+    this._disableQatBulkCrypto = value;
+  }
+  public resetDisableQatBulkCrypto() {
+    this._disableQatBulkCrypto = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableQatBulkCryptoInput() {
+    return this._disableQatBulkCrypto;
+  }
+
   // disable_se_memory_check - computed: false, optional: true, required: false
   private _disableSeMemoryCheck?: string; 
   public get disableSeMemoryCheck() {
@@ -10886,6 +11606,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get enablePcapTxRingInput() {
     return this._enablePcapTxRing;
+  }
+
+  // enable_qat - computed: false, optional: true, required: false
+  private _enableQat?: string; 
+  public get enableQat() {
+    return this.getStringAttribute('enable_qat');
+  }
+  public set enableQat(value: string) {
+    this._enableQat = value;
+  }
+  public resetEnableQat() {
+    this._enableQat = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableQatInput() {
+    return this._enableQat;
   }
 
   // ephemeral_portrange_end - computed: true, optional: true, required: false
@@ -11320,6 +12056,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     return this._instanceFlavor;
   }
 
+  // kv_val_max_len - computed: false, optional: true, required: false
+  private _kvValMaxLen?: string; 
+  public get kvValMaxLen() {
+    return this.getStringAttribute('kv_val_max_len');
+  }
+  public set kvValMaxLen(value: string) {
+    this._kvValMaxLen = value;
+  }
+  public resetKvValMaxLen() {
+    this._kvValMaxLen = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kvValMaxLenInput() {
+    return this._kvValMaxLen;
+  }
+
   // l7_conns_per_core - computed: false, optional: true, required: false
   private _l7ConnsPerCore?: string; 
   public get l7ConnsPerCore() {
@@ -11720,6 +12472,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     return this._maxConcurrentExternalHm;
   }
 
+  // max_cpu_load_adaptive_sampling - computed: false, optional: true, required: false
+  private _maxCpuLoadAdaptiveSampling?: string; 
+  public get maxCpuLoadAdaptiveSampling() {
+    return this.getStringAttribute('max_cpu_load_adaptive_sampling');
+  }
+  public set maxCpuLoadAdaptiveSampling(value: string) {
+    this._maxCpuLoadAdaptiveSampling = value;
+  }
+  public resetMaxCpuLoadAdaptiveSampling() {
+    this._maxCpuLoadAdaptiveSampling = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxCpuLoadAdaptiveSamplingInput() {
+    return this._maxCpuLoadAdaptiveSampling;
+  }
+
   // max_cpu_usage - computed: false, optional: true, required: false
   private _maxCpuUsage?: string; 
   public get maxCpuUsage() {
@@ -12085,6 +12853,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     return this._name;
   }
 
+  // nd6_cache_timeout - computed: false, optional: true, required: false
+  private _nd6CacheTimeout?: string; 
+  public get nd6CacheTimeout() {
+    return this.getStringAttribute('nd6_cache_timeout');
+  }
+  public set nd6CacheTimeout(value: string) {
+    this._nd6CacheTimeout = value;
+  }
+  public resetNd6CacheTimeout() {
+    this._nd6CacheTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nd6CacheTimeoutInput() {
+    return this._nd6CacheTimeout;
+  }
+
   // netlink_poller_threads - computed: false, optional: true, required: false
   private _netlinkPollerThreads?: string; 
   public get netlinkPollerThreads() {
@@ -12243,6 +13027,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get numFlowCoresSumChangesToIgnoreInput() {
     return this._numFlowCoresSumChangesToIgnore;
+  }
+
+  // objsync_mode - computed: false, optional: true, required: false
+  private _objsyncMode?: string; 
+  public get objsyncMode() {
+    return this.getStringAttribute('objsync_mode');
+  }
+  public set objsyncMode(value: string) {
+    this._objsyncMode = value;
+  }
+  public resetObjsyncMode() {
+    this._objsyncMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objsyncModeInput() {
+    return this._objsyncMode;
   }
 
   // objsync_port - computed: false, optional: true, required: false
@@ -12435,6 +13235,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get placementModeInput() {
     return this._placementMode;
+  }
+
+  // pre_upgrade_se_available_mem_threshold - computed: false, optional: true, required: false
+  private _preUpgradeSeAvailableMemThreshold?: string; 
+  public get preUpgradeSeAvailableMemThreshold() {
+    return this.getStringAttribute('pre_upgrade_se_available_mem_threshold');
+  }
+  public set preUpgradeSeAvailableMemThreshold(value: string) {
+    this._preUpgradeSeAvailableMemThreshold = value;
+  }
+  public resetPreUpgradeSeAvailableMemThreshold() {
+    this._preUpgradeSeAvailableMemThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preUpgradeSeAvailableMemThresholdInput() {
+    return this._preUpgradeSeAvailableMemThreshold;
   }
 
   // reboot_on_panic - computed: false, optional: true, required: false
@@ -12915,6 +13731,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get seIpEncapIpcInput() {
     return this._seIpEncapIpc;
+  }
+
+  // se_kernel_rss - computed: false, optional: true, required: false
+  private _seKernelRss?: string; 
+  public get seKernelRss() {
+    return this.getStringAttribute('se_kernel_rss');
+  }
+  public set seKernelRss(value: string) {
+    this._seKernelRss = value;
+  }
+  public resetSeKernelRss() {
+    this._seKernelRss = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get seKernelRssInput() {
+    return this._seKernelRss;
   }
 
   // se_kni_burst_factor - computed: false, optional: true, required: false
@@ -13717,23 +14549,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     return this._useLegacyNetlink;
   }
 
-  // use_objsync - computed: false, optional: true, required: false
-  private _useObjsync?: string; 
-  public get useObjsync() {
-    return this.getStringAttribute('use_objsync');
-  }
-  public set useObjsync(value: string) {
-    this._useObjsync = value;
-  }
-  public resetUseObjsync() {
-    this._useObjsync = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get useObjsyncInput() {
-    return this._useObjsync;
-  }
-
-  // use_standard_alb - computed: true, optional: true, required: false
+  // use_standard_alb - computed: false, optional: true, required: false
   private _useStandardAlb?: string; 
   public get useStandardAlb() {
     return this.getStringAttribute('use_standard_alb');
@@ -14149,6 +14965,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     return this._wafMempoolSize;
   }
 
+  // waf_use_jit_for_pcre - computed: false, optional: true, required: false
+  private _wafUseJitForPcre?: string; 
+  public get wafUseJitForPcre() {
+    return this.getStringAttribute('waf_use_jit_for_pcre');
+  }
+  public set wafUseJitForPcre(value: string) {
+    this._wafUseJitForPcre = value;
+  }
+  public resetWafUseJitForPcre() {
+    this._wafUseJitForPcre = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wafUseJitForPcreInput() {
+    return this._wafUseJitForPcre;
+  }
+
   // configpb_attributes - computed: false, optional: true, required: false
   private _configpbAttributes = new ServiceenginegroupConfigpbAttributesList(this, "configpb_attributes", true);
   public get configpbAttributes() {
@@ -14261,6 +15093,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     return this._labels.internalValue;
   }
 
+  // license_quota - computed: false, optional: true, required: false
+  private _licenseQuota = new ServiceenginegroupLicenseQuotaList(this, "license_quota", true);
+  public get licenseQuota() {
+    return this._licenseQuota;
+  }
+  public putLicenseQuota(value: ServiceenginegroupLicenseQuota[] | cdktf.IResolvable) {
+    this._licenseQuota.internalValue = value;
+  }
+  public resetLicenseQuota() {
+    this._licenseQuota.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get licenseQuotaInput() {
+    return this._licenseQuota.internalValue;
+  }
+
   // markers - computed: false, optional: true, required: false
   private _markers = new ServiceenginegroupMarkersList(this, "markers", false);
   public get markers() {
@@ -14323,6 +15171,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get realtimeSeMetricsInput() {
     return this._realtimeSeMetrics.internalValue;
+  }
+
+  // reserved_configuration - computed: false, optional: true, required: false
+  private _reservedConfiguration = new ServiceenginegroupReservedConfigurationList(this, "reserved_configuration", true);
+  public get reservedConfiguration() {
+    return this._reservedConfiguration;
+  }
+  public putReservedConfiguration(value: ServiceenginegroupReservedConfiguration[] | cdktf.IResolvable) {
+    this._reservedConfiguration.internalValue = value;
+  }
+  public resetReservedConfiguration() {
+    this._reservedConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reservedConfigurationInput() {
+    return this._reservedConfiguration.internalValue;
   }
 
   // se_dos_profile - computed: false, optional: true, required: false
@@ -14533,6 +15397,22 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
     return this._vipAsg.internalValue;
   }
 
+  // vsphere_storage_policies - computed: false, optional: true, required: false
+  private _vsphereStoragePolicies = new ServiceenginegroupVsphereStoragePoliciesList(this, "vsphere_storage_policies", false);
+  public get vsphereStoragePolicies() {
+    return this._vsphereStoragePolicies;
+  }
+  public putVsphereStoragePolicies(value: ServiceenginegroupVsphereStoragePolicies[] | cdktf.IResolvable) {
+    this._vsphereStoragePolicies.internalValue = value;
+  }
+  public resetVsphereStoragePolicies() {
+    this._vsphereStoragePolicies.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vsphereStoragePoliciesInput() {
+    return this._vsphereStoragePolicies.internalValue;
+  }
+
   // vss_placement - computed: false, optional: true, required: false
   private _vssPlacement = new ServiceenginegroupVssPlacementList(this, "vss_placement", true);
   public get vssPlacement() {
@@ -14564,12 +15444,16 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       app_cache_threshold: cdktf.stringToTerraform(this._appCacheThreshold),
       app_learning_memory_percent: cdktf.stringToTerraform(this._appLearningMemoryPercent),
       archive_shm_limit: cdktf.stringToTerraform(this._archiveShmLimit),
+      arp_cache_timeout: cdktf.stringToTerraform(this._arpCacheTimeout),
       async_ssl: cdktf.stringToTerraform(this._asyncSsl),
       async_ssl_threads: cdktf.stringToTerraform(this._asyncSslThreads),
       auto_rebalance: cdktf.stringToTerraform(this._autoRebalance),
       auto_rebalance_capacity_per_se: cdktf.listMapper(cdktf.numberToTerraform, false)(this._autoRebalanceCapacityPerSe),
+      auto_rebalance_cool_down_time: cdktf.stringToTerraform(this._autoRebalanceCoolDownTime),
       auto_rebalance_criteria: cdktf.listMapper(cdktf.stringToTerraform, false)(this._autoRebalanceCriteria),
+      auto_rebalance_dry_run_enabled: cdktf.stringToTerraform(this._autoRebalanceDryRunEnabled),
       auto_rebalance_interval: cdktf.stringToTerraform(this._autoRebalanceInterval),
+      auto_rebalance_raise_events_for_actions: cdktf.stringToTerraform(this._autoRebalanceRaiseEventsForActions),
       auto_redistribute_active_standby_load: cdktf.stringToTerraform(this._autoRedistributeActiveStandbyLoad),
       availability_zone_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(this._availabilityZoneRefs),
       baremetal_dispatcher_handles_flows: cdktf.stringToTerraform(this._baremetalDispatcherHandlesFlows),
@@ -14596,6 +15480,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       disable_csum_offloads: cdktf.stringToTerraform(this._disableCsumOffloads),
       disable_flow_probes: cdktf.stringToTerraform(this._disableFlowProbes),
       disable_gro: cdktf.stringToTerraform(this._disableGro),
+      disable_qat_bulk_crypto: cdktf.stringToTerraform(this._disableQatBulkCrypto),
       disable_se_memory_check: cdktf.stringToTerraform(this._disableSeMemoryCheck),
       disable_tso: cdktf.stringToTerraform(this._disableTso),
       disk_per_se: cdktf.stringToTerraform(this._diskPerSe),
@@ -14617,6 +15502,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       enable_hsm_priming: cdktf.stringToTerraform(this._enableHsmPriming),
       enable_multi_lb: cdktf.stringToTerraform(this._enableMultiLb),
       enable_pcap_tx_ring: cdktf.stringToTerraform(this._enablePcapTxRing),
+      enable_qat: cdktf.stringToTerraform(this._enableQat),
       ephemeral_portrange_end: cdktf.stringToTerraform(this._ephemeralPortrangeEnd),
       ephemeral_portrange_start: cdktf.stringToTerraform(this._ephemeralPortrangeStart),
       extra_config_multiplier: cdktf.stringToTerraform(this._extraConfigMultiplier),
@@ -14644,6 +15530,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       ingress_access_data: cdktf.stringToTerraform(this._ingressAccessData),
       ingress_access_mgmt: cdktf.stringToTerraform(this._ingressAccessMgmt),
       instance_flavor: cdktf.stringToTerraform(this._instanceFlavor),
+      kv_val_max_len: cdktf.stringToTerraform(this._kvValMaxLen),
       l7_conns_per_core: cdktf.stringToTerraform(this._l7ConnsPerCore),
       l7_resvd_listen_conns_per_core: cdktf.stringToTerraform(this._l7ResvdListenConnsPerCore),
       lbaction_num_requests_to_dispatch: cdktf.stringToTerraform(this._lbactionNumRequestsToDispatch),
@@ -14669,6 +15556,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       log_malloc_failure: cdktf.stringToTerraform(this._logMallocFailure),
       log_message_max_file_list_size: cdktf.stringToTerraform(this._logMessageMaxFileListSize),
       max_concurrent_external_hm: cdktf.stringToTerraform(this._maxConcurrentExternalHm),
+      max_cpu_load_adaptive_sampling: cdktf.stringToTerraform(this._maxCpuLoadAdaptiveSampling),
       max_cpu_usage: cdktf.stringToTerraform(this._maxCpuUsage),
       max_memory_per_mempool: cdktf.stringToTerraform(this._maxMemoryPerMempool),
       max_num_http_sessions_to_store: cdktf.stringToTerraform(this._maxNumHttpSessionsToStore),
@@ -14692,6 +15580,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       multicast_enable: cdktf.stringToTerraform(this._multicastEnable),
       n_log_streaming_threads: cdktf.stringToTerraform(this._nLogStreamingThreads),
       name: cdktf.stringToTerraform(this._name),
+      nd6_cache_timeout: cdktf.stringToTerraform(this._nd6CacheTimeout),
       netlink_poller_threads: cdktf.stringToTerraform(this._netlinkPollerThreads),
       netlink_sock_buf_size: cdktf.stringToTerraform(this._netlinkSockBufSize),
       ngx_free_connection_stack: cdktf.stringToTerraform(this._ngxFreeConnectionStack),
@@ -14702,6 +15591,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       num_dispatcher_cores: cdktf.stringToTerraform(this._numDispatcherCores),
       num_dispatcher_queues: cdktf.stringToTerraform(this._numDispatcherQueues),
       num_flow_cores_sum_changes_to_ignore: cdktf.stringToTerraform(this._numFlowCoresSumChangesToIgnore),
+      objsync_mode: cdktf.stringToTerraform(this._objsyncMode),
       objsync_port: cdktf.stringToTerraform(this._objsyncPort),
       openstack_availability_zones: cdktf.listMapper(cdktf.stringToTerraform, false)(this._openstackAvailabilityZones),
       openstack_mgmt_network_name: cdktf.stringToTerraform(this._openstackMgmtNetworkName),
@@ -14714,6 +15604,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       per_app: cdktf.stringToTerraform(this._perApp),
       per_vs_admission_control: cdktf.stringToTerraform(this._perVsAdmissionControl),
       placement_mode: cdktf.stringToTerraform(this._placementMode),
+      pre_upgrade_se_available_mem_threshold: cdktf.stringToTerraform(this._preUpgradeSeAvailableMemThreshold),
       reboot_on_panic: cdktf.stringToTerraform(this._rebootOnPanic),
       replay_vrf_routes_interval: cdktf.stringToTerraform(this._replayVrfRoutesInterval),
       resync_time_interval: cdktf.stringToTerraform(this._resyncTimeInterval),
@@ -14744,6 +15635,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       se_flow_probe_retry_timer: cdktf.stringToTerraform(this._seFlowProbeRetryTimer),
       se_hyperthreaded_mode: cdktf.stringToTerraform(this._seHyperthreadedMode),
       se_ip_encap_ipc: cdktf.stringToTerraform(this._seIpEncapIpc),
+      se_kernel_rss: cdktf.stringToTerraform(this._seKernelRss),
       se_kni_burst_factor: cdktf.stringToTerraform(this._seKniBurstFactor),
       se_l3_encap_ipc: cdktf.stringToTerraform(this._seL3EncapIpc),
       se_log_buffer_app_blocking_dequeue: cdktf.stringToTerraform(this._seLogBufferAppBlockingDequeue),
@@ -14794,7 +15686,6 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       use_dp_util_for_scaleout: cdktf.stringToTerraform(this._useDpUtilForScaleout),
       use_hyperthreaded_cores: cdktf.stringToTerraform(this._useHyperthreadedCores),
       use_legacy_netlink: cdktf.stringToTerraform(this._useLegacyNetlink),
-      use_objsync: cdktf.stringToTerraform(this._useObjsync),
       use_standard_alb: cdktf.stringToTerraform(this._useStandardAlb),
       user_defined_metric_age: cdktf.stringToTerraform(this._userDefinedMetricAge),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -14821,6 +15712,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       vss_placement_enabled: cdktf.stringToTerraform(this._vssPlacementEnabled),
       waf_mempool: cdktf.stringToTerraform(this._wafMempool),
       waf_mempool_size: cdktf.stringToTerraform(this._wafMempoolSize),
+      waf_use_jit_for_pcre: cdktf.stringToTerraform(this._wafUseJitForPcre),
       configpb_attributes: cdktf.listMapper(serviceenginegroupConfigpbAttributesToTerraform, true)(this._configpbAttributes.internalValue),
       custom_tag: cdktf.listMapper(serviceenginegroupCustomTagToTerraform, true)(this._customTag.internalValue),
       gcp_config: cdktf.listMapper(serviceenginegroupGcpConfigToTerraform, true)(this._gcpConfig.internalValue),
@@ -14828,10 +15720,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       iptables: cdktf.listMapper(serviceenginegroupIptablesToTerraform, true)(this._iptables.internalValue),
       kni_allowed_server_ports: cdktf.listMapper(serviceenginegroupKniAllowedServerPortsToTerraform, true)(this._kniAllowedServerPorts.internalValue),
       labels: cdktf.listMapper(serviceenginegroupLabelsToTerraform, true)(this._labels.internalValue),
+      license_quota: cdktf.listMapper(serviceenginegroupLicenseQuotaToTerraform, true)(this._licenseQuota.internalValue),
       markers: cdktf.listMapper(serviceenginegroupMarkersToTerraform, true)(this._markers.internalValue),
       mgmt_subnet: cdktf.listMapper(serviceenginegroupMgmtSubnetToTerraform, true)(this._mgmtSubnet.internalValue),
       objsync_config: cdktf.listMapper(serviceenginegroupObjsyncConfigToTerraform, true)(this._objsyncConfig.internalValue),
       realtime_se_metrics: cdktf.listMapper(serviceenginegroupRealtimeSeMetricsToTerraform, true)(this._realtimeSeMetrics.internalValue),
+      reserved_configuration: cdktf.listMapper(serviceenginegroupReservedConfigurationToTerraform, true)(this._reservedConfiguration.internalValue),
       se_dos_profile: cdktf.listMapper(serviceenginegroupSeDosProfileToTerraform, true)(this._seDosProfile.internalValue),
       se_group_analytics_policy: cdktf.listMapper(serviceenginegroupSeGroupAnalyticsPolicyToTerraform, true)(this._seGroupAnalyticsPolicy.internalValue),
       se_rl_prop: cdktf.listMapper(serviceenginegroupSeRlPropToTerraform, true)(this._seRlProp.internalValue),
@@ -14845,6 +15739,7 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       vcenter_hosts: cdktf.listMapper(serviceenginegroupVcenterHostsToTerraform, true)(this._vcenterHosts.internalValue),
       vcenters: cdktf.listMapper(serviceenginegroupVcentersToTerraform, true)(this._vcenters.internalValue),
       vip_asg: cdktf.listMapper(serviceenginegroupVipAsgToTerraform, true)(this._vipAsg.internalValue),
+      vsphere_storage_policies: cdktf.listMapper(serviceenginegroupVsphereStoragePoliciesToTerraform, true)(this._vsphereStoragePolicies.internalValue),
       vss_placement: cdktf.listMapper(serviceenginegroupVssPlacementToTerraform, true)(this._vssPlacement.internalValue),
     };
   }
@@ -14905,6 +15800,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      arp_cache_timeout: {
+        value: cdktf.stringToHclTerraform(this._arpCacheTimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       async_ssl: {
         value: cdktf.stringToHclTerraform(this._asyncSsl),
         isBlock: false,
@@ -14929,14 +15830,32 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "numberList",
       },
+      auto_rebalance_cool_down_time: {
+        value: cdktf.stringToHclTerraform(this._autoRebalanceCoolDownTime),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       auto_rebalance_criteria: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._autoRebalanceCriteria),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
+      auto_rebalance_dry_run_enabled: {
+        value: cdktf.stringToHclTerraform(this._autoRebalanceDryRunEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       auto_rebalance_interval: {
         value: cdktf.stringToHclTerraform(this._autoRebalanceInterval),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      auto_rebalance_raise_events_for_actions: {
+        value: cdktf.stringToHclTerraform(this._autoRebalanceRaiseEventsForActions),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -15097,6 +16016,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      disable_qat_bulk_crypto: {
+        value: cdktf.stringToHclTerraform(this._disableQatBulkCrypto),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       disable_se_memory_check: {
         value: cdktf.stringToHclTerraform(this._disableSeMemoryCheck),
         isBlock: false,
@@ -15219,6 +16144,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       },
       enable_pcap_tx_ring: {
         value: cdktf.stringToHclTerraform(this._enablePcapTxRing),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      enable_qat: {
+        value: cdktf.stringToHclTerraform(this._enableQat),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -15385,6 +16316,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      kv_val_max_len: {
+        value: cdktf.stringToHclTerraform(this._kvValMaxLen),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       l7_conns_per_core: {
         value: cdktf.stringToHclTerraform(this._l7ConnsPerCore),
         isBlock: false,
@@ -15535,6 +16472,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      max_cpu_load_adaptive_sampling: {
+        value: cdktf.stringToHclTerraform(this._maxCpuLoadAdaptiveSampling),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       max_cpu_usage: {
         value: cdktf.stringToHclTerraform(this._maxCpuUsage),
         isBlock: false,
@@ -15673,6 +16616,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      nd6_cache_timeout: {
+        value: cdktf.stringToHclTerraform(this._nd6CacheTimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       netlink_poller_threads: {
         value: cdktf.stringToHclTerraform(this._netlinkPollerThreads),
         isBlock: false,
@@ -15729,6 +16678,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       },
       num_flow_cores_sum_changes_to_ignore: {
         value: cdktf.stringToHclTerraform(this._numFlowCoresSumChangesToIgnore),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      objsync_mode: {
+        value: cdktf.stringToHclTerraform(this._objsyncMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -15801,6 +16756,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       },
       placement_mode: {
         value: cdktf.stringToHclTerraform(this._placementMode),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      pre_upgrade_se_available_mem_threshold: {
+        value: cdktf.stringToHclTerraform(this._preUpgradeSeAvailableMemThreshold),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -15981,6 +16942,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
       },
       se_ip_encap_ipc: {
         value: cdktf.stringToHclTerraform(this._seIpEncapIpc),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      se_kernel_rss: {
+        value: cdktf.stringToHclTerraform(this._seKernelRss),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -16285,12 +17252,6 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      use_objsync: {
-        value: cdktf.stringToHclTerraform(this._useObjsync),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       use_standard_alb: {
         value: cdktf.stringToHclTerraform(this._useStandardAlb),
         isBlock: false,
@@ -16447,6 +17408,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      waf_use_jit_for_pcre: {
+        value: cdktf.stringToHclTerraform(this._wafUseJitForPcre),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       configpb_attributes: {
         value: cdktf.listMapperHcl(serviceenginegroupConfigpbAttributesToHclTerraform, true)(this._configpbAttributes.internalValue),
         isBlock: true,
@@ -16489,6 +17456,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "ServiceenginegroupLabelsList",
       },
+      license_quota: {
+        value: cdktf.listMapperHcl(serviceenginegroupLicenseQuotaToHclTerraform, true)(this._licenseQuota.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ServiceenginegroupLicenseQuotaList",
+      },
       markers: {
         value: cdktf.listMapperHcl(serviceenginegroupMarkersToHclTerraform, true)(this._markers.internalValue),
         isBlock: true,
@@ -16512,6 +17485,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "ServiceenginegroupRealtimeSeMetricsList",
+      },
+      reserved_configuration: {
+        value: cdktf.listMapperHcl(serviceenginegroupReservedConfigurationToHclTerraform, true)(this._reservedConfiguration.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ServiceenginegroupReservedConfigurationList",
       },
       se_dos_profile: {
         value: cdktf.listMapperHcl(serviceenginegroupSeDosProfileToHclTerraform, true)(this._seDosProfile.internalValue),
@@ -16590,6 +17569,12 @@ export class Serviceenginegroup extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "ServiceenginegroupVipAsgList",
+      },
+      vsphere_storage_policies: {
+        value: cdktf.listMapperHcl(serviceenginegroupVsphereStoragePoliciesToHclTerraform, true)(this._vsphereStoragePolicies.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ServiceenginegroupVsphereStoragePoliciesList",
       },
       vss_placement: {
         value: cdktf.listMapperHcl(serviceenginegroupVssPlacementToHclTerraform, true)(this._vssPlacement.internalValue),

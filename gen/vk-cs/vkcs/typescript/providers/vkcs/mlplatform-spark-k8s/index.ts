@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface MlplatformSparkK8SConfig extends cdktf.TerraformMetaArguments {
   /**
   * The availability zone in which to create the resource. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#availability_zone MlplatformSparkK8S#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#availability_zone MlplatformSparkK8S#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Cluster Mode. Should be `DEV` or `PROD`. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#cluster_mode MlplatformSparkK8S#cluster_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#cluster_mode MlplatformSparkK8S#cluster_mode}
   */
   readonly clusterMode: string;
   /**
   * Timeout of cluster inactivity before deletion, in minutes. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#delete_after_inactive_min MlplatformSparkK8S#delete_after_inactive_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#delete_after_inactive_min MlplatformSparkK8S#delete_after_inactive_min}
   */
   readonly deleteAfterInactiveMin?: number;
   /**
   * Environment variables. Read more about this parameter here: https://cloud.vk.com/docs/en/ml/spark-to-k8s/instructions/create. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#environment_variables MlplatformSparkK8S#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#environment_variables MlplatformSparkK8S#environment_variables}
   */
   readonly environmentVariables?: string;
   /**
   * ID of the ip pool. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#ip_pool MlplatformSparkK8S#ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#ip_pool MlplatformSparkK8S#ip_pool}
   */
   readonly ipPool: string;
   /**
   * Cluster name. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#name MlplatformSparkK8S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#name MlplatformSparkK8S#name}
   */
   readonly name: string;
   /**
   * ID of the network. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#network_id MlplatformSparkK8S#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#network_id MlplatformSparkK8S#network_id}
   */
   readonly networkId: string;
   /**
   * Cluster's node groups configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#node_groups MlplatformSparkK8S#node_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#node_groups MlplatformSparkK8S#node_groups}
   */
   readonly nodeGroups: MlplatformSparkK8SNodeGroups[] | cdktf.IResolvable;
   /**
   * The `region` in which ML Platform client is obtained, defaults to the provider's `region`. Changing this creates a new spark_k8s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#region MlplatformSparkK8S#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#region MlplatformSparkK8S#region}
   */
   readonly region?: string;
   /**
   * ID of the K8S registry to use with cluster. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#registry_id MlplatformSparkK8S#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#registry_id MlplatformSparkK8S#registry_id}
   */
   readonly registryId: string;
   /**
   * Spark configuration. Read more about this parameter here: https://cloud.vk.com/docs/en/ml/spark-to-k8s/instructions/create. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#spark_configuration MlplatformSparkK8S#spark_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#spark_configuration MlplatformSparkK8S#spark_configuration}
   */
   readonly sparkConfiguration?: string;
   /**
   * ID of the subnet. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#subnet_id MlplatformSparkK8S#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#subnet_id MlplatformSparkK8S#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Timeout of cluster inactivity before suspending, in minutes. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#suspend_after_inactive_min MlplatformSparkK8S#suspend_after_inactive_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#suspend_after_inactive_min MlplatformSparkK8S#suspend_after_inactive_min}
   */
   readonly suspendAfterInactiveMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#timeouts MlplatformSparkK8S#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#timeouts MlplatformSparkK8S#timeouts}
   */
   readonly timeouts?: MlplatformSparkK8STimeouts;
 }
@@ -94,31 +94,31 @@ export interface MlplatformSparkK8SNodeGroups {
   /**
   * Enables autoscaling for node group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#autoscaling_enabled MlplatformSparkK8S#autoscaling_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#autoscaling_enabled MlplatformSparkK8S#autoscaling_enabled}
   */
   readonly autoscalingEnabled: boolean | cdktf.IResolvable;
   /**
   * ID of the flavor to be used in nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#flavor_id MlplatformSparkK8S#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#flavor_id MlplatformSparkK8S#flavor_id}
   */
   readonly flavorId: string;
   /**
   * Maximum number of nodes in node group. It is used only when autoscaling is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#max_nodes MlplatformSparkK8S#max_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#max_nodes MlplatformSparkK8S#max_nodes}
   */
   readonly maxNodes?: number;
   /**
   * Minimum count of nodes in node group. It is used only when autoscaling is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#min_nodes MlplatformSparkK8S#min_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#min_nodes MlplatformSparkK8S#min_nodes}
   */
   readonly minNodes?: number;
   /**
   * Count of nodes in node group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#node_count MlplatformSparkK8S#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#node_count MlplatformSparkK8S#node_count}
   */
   readonly nodeCount?: number;
 }
@@ -346,19 +346,19 @@ export interface MlplatformSparkK8STimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#create MlplatformSparkK8S#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#create MlplatformSparkK8S#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#delete MlplatformSparkK8S#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#delete MlplatformSparkK8S#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#update MlplatformSparkK8S#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#update MlplatformSparkK8S#update}
   */
   readonly update?: string;
 }
@@ -510,7 +510,7 @@ export class MlplatformSparkK8STimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s vkcs_mlplatform_spark_k8s}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s vkcs_mlplatform_spark_k8s}
 */
 export class MlplatformSparkK8S extends cdktf.TerraformResource {
 
@@ -526,7 +526,7 @@ export class MlplatformSparkK8S extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MlplatformSparkK8S resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MlplatformSparkK8S to import
-  * @param importFromId The id of the existing MlplatformSparkK8S that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MlplatformSparkK8S that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MlplatformSparkK8S to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -538,7 +538,7 @@ export class MlplatformSparkK8S extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_spark_k8s vkcs_mlplatform_spark_k8s} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/mlplatform_spark_k8s vkcs_mlplatform_spark_k8s} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -549,8 +549,8 @@ export class MlplatformSparkK8S extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_mlplatform_spark_k8s',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

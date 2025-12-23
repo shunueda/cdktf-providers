@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,131 +10,131 @@ export interface Site2CloudConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authentication Type. Valid values: 'PSK' and 'Cert'. Default value: 'PSK'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#auth_type Site2Cloud#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#auth_type Site2Cloud#auth_type}
   */
   readonly authType?: string;
   /**
   * Backup gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#backup_gateway_name Site2Cloud#backup_gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#backup_gateway_name Site2Cloud#backup_gateway_name}
   */
   readonly backupGatewayName?: string;
   /**
   * Backup local tunnel IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#backup_local_tunnel_ip Site2Cloud#backup_local_tunnel_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#backup_local_tunnel_ip Site2Cloud#backup_local_tunnel_ip}
   */
   readonly backupLocalTunnelIp?: string;
   /**
   * Backup Pre-Shared Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#backup_pre_shared_key Site2Cloud#backup_pre_shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#backup_pre_shared_key Site2Cloud#backup_pre_shared_key}
   */
   readonly backupPreSharedKey?: string;
   /**
   * Backup remote remote gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#backup_remote_gateway_ip Site2Cloud#backup_remote_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#backup_remote_gateway_ip Site2Cloud#backup_remote_gateway_ip}
   */
   readonly backupRemoteGatewayIp?: string;
   /**
   * Latitude of backup remote gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#backup_remote_gateway_latitude Site2Cloud#backup_remote_gateway_latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#backup_remote_gateway_latitude Site2Cloud#backup_remote_gateway_latitude}
   */
   readonly backupRemoteGatewayLatitude?: number;
   /**
   * Longitude of backup remote gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#backup_remote_gateway_longitude Site2Cloud#backup_remote_gateway_longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#backup_remote_gateway_longitude Site2Cloud#backup_remote_gateway_longitude}
   */
   readonly backupRemoteGatewayLongitude?: number;
   /**
   * Backup remote identifier. Required for Cert based authentication type with HA enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#backup_remote_identifier Site2Cloud#backup_remote_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#backup_remote_identifier Site2Cloud#backup_remote_identifier}
   */
   readonly backupRemoteIdentifier?: string;
   /**
   * Backup remote tunnel IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#backup_remote_tunnel_ip Site2Cloud#backup_remote_tunnel_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#backup_remote_tunnel_ip Site2Cloud#backup_remote_tunnel_ip}
   */
   readonly backupRemoteTunnelIp?: string;
   /**
   * Name of Remote CA Certificate Tag for creating Site2Cloud tunnels. Required for Cert based authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#ca_cert_tag_name Site2Cloud#ca_cert_tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#ca_cert_tag_name Site2Cloud#ca_cert_tag_name}
   */
   readonly caCertTagName?: string;
   /**
   * Site2Cloud Connection Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#connection_name Site2Cloud#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#connection_name Site2Cloud#connection_name}
   */
   readonly connectionName: string;
   /**
   * Connection Type. Valid values: 'mapped' and 'unmapped'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#connection_type Site2Cloud#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#connection_type Site2Cloud#connection_type}
   */
   readonly connectionType: string;
   /**
   * Switch to enable custom/non-default algorithms for IPSec Authentication/Encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#custom_algorithms Site2Cloud#custom_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#custom_algorithms Site2Cloud#custom_algorithms}
   */
   readonly customAlgorithms?: boolean | cdktf.IResolvable;
   /**
   * Enable custom mapped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#custom_mapped Site2Cloud#custom_mapped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#custom_mapped Site2Cloud#custom_mapped}
   */
   readonly customMapped?: boolean | cdktf.IResolvable;
   /**
   * Switch to Enable/Disable active_active_ha for an existing site2cloud connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#enable_active_active Site2Cloud#enable_active_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#enable_active_active Site2Cloud#enable_active_active}
   */
   readonly enableActiveActive?: boolean | cdktf.IResolvable;
   /**
   * Switch to Enable/Disable Deed Peer Detection for an existing site2cloud connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#enable_dead_peer_detection Site2Cloud#enable_dead_peer_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#enable_dead_peer_detection Site2Cloud#enable_dead_peer_detection}
   */
   readonly enableDeadPeerDetection?: boolean | cdktf.IResolvable;
   /**
   * Enable Event Triggered HA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#enable_event_triggered_ha Site2Cloud#enable_event_triggered_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#enable_event_triggered_ha Site2Cloud#enable_event_triggered_ha}
   */
   readonly enableEventTriggeredHa?: boolean | cdktf.IResolvable;
   /**
   * Switch to enable IKEv2 for policy based site2cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#enable_ikev2 Site2Cloud#enable_ikev2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#enable_ikev2 Site2Cloud#enable_ikev2}
   */
   readonly enableIkev2?: boolean | cdktf.IResolvable;
   /**
   * Enable single IP HA on a site2cloud connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#enable_single_ip_ha Site2Cloud#enable_single_ip_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#enable_single_ip_ha Site2Cloud#enable_single_ip_ha}
   */
   readonly enableSingleIpHa?: boolean | cdktf.IResolvable;
   /**
   * Enable spoke gateway with mapped site2cloud configurations to forward traffic from site2cloud connection to Aviatrix Transit Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#forward_traffic_to_transit Site2Cloud#forward_traffic_to_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#forward_traffic_to_transit Site2Cloud#forward_traffic_to_transit}
   */
   readonly forwardTrafficToTransit?: boolean | cdktf.IResolvable;
   /**
   * Specify whether enabling HA or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#ha_enabled Site2Cloud#ha_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#ha_enabled Site2Cloud#ha_enabled}
   */
   readonly haEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#id Site2Cloud#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#id Site2Cloud#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -143,211 +143,211 @@ export interface Site2CloudConfig extends cdktf.TerraformMetaArguments {
   /**
   * Local Initiated Traffic Destination Real CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#local_destination_real_cidrs Site2Cloud#local_destination_real_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#local_destination_real_cidrs Site2Cloud#local_destination_real_cidrs}
   */
   readonly localDestinationRealCidrs?: string[];
   /**
   * Local Initiated Traffic Destination Virtual CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#local_destination_virtual_cidrs Site2Cloud#local_destination_virtual_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#local_destination_virtual_cidrs Site2Cloud#local_destination_virtual_cidrs}
   */
   readonly localDestinationVirtualCidrs?: string[];
   /**
   * Local Initiated Traffic Source Real CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#local_source_real_cidrs Site2Cloud#local_source_real_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#local_source_real_cidrs Site2Cloud#local_source_real_cidrs}
   */
   readonly localSourceRealCidrs?: string[];
   /**
   * Local Initiated Traffic Source Virtual CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#local_source_virtual_cidrs Site2Cloud#local_source_virtual_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#local_source_virtual_cidrs Site2Cloud#local_source_virtual_cidrs}
   */
   readonly localSourceVirtualCidrs?: string[];
   /**
   * Local Subnet CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#local_subnet_cidr Site2Cloud#local_subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#local_subnet_cidr Site2Cloud#local_subnet_cidr}
   */
   readonly localSubnetCidr?: string;
   /**
   * Local Subnet CIDR (Virtual).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#local_subnet_virtual Site2Cloud#local_subnet_virtual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#local_subnet_virtual Site2Cloud#local_subnet_virtual}
   */
   readonly localSubnetVirtual?: string;
   /**
   * Local tunnel IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#local_tunnel_ip Site2Cloud#local_tunnel_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#local_tunnel_ip Site2Cloud#local_tunnel_ip}
   */
   readonly localTunnelIp?: string;
   /**
   * By default, gateway’s public IP is configured as the Local Identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#phase1_local_identifier Site2Cloud#phase1_local_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#phase1_local_identifier Site2Cloud#phase1_local_identifier}
   */
   readonly phase1LocalIdentifier?: string;
   /**
   * List of phase 1 remote identifier of the IPsec tunnel. This can be configured as a list of any string, including empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#phase1_remote_identifier Site2Cloud#phase1_remote_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#phase1_remote_identifier Site2Cloud#phase1_remote_identifier}
   */
   readonly phase1RemoteIdentifier?: string[];
   /**
   * Phase one Authentication. Valid values: 'SHA-1', 'SHA-256', 'SHA-384' and 'SHA-512'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#phase_1_authentication Site2Cloud#phase_1_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#phase_1_authentication Site2Cloud#phase_1_authentication}
   */
   readonly phase1Authentication?: string;
   /**
   * Phase one DH Groups. Valid values: '1', '2', '5', '14', '15', '16', '17', '18', '19', '20' and '21'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#phase_1_dh_groups Site2Cloud#phase_1_dh_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#phase_1_dh_groups Site2Cloud#phase_1_dh_groups}
   */
   readonly phase1DhGroups?: string;
   /**
   * Phase one Encryption. Valid values: '3DES', 'AES-128-CBC', 'AES-192-CBC' and 'AES-256-CBC', 'AES-128-GCM-64', 'AES-128-GCM-96', 'AES-128-GCM-128', 'AES-256-GCM-64', 'AES-256-GCM-96', and 'AES-256-GCM-128'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#phase_1_encryption Site2Cloud#phase_1_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#phase_1_encryption Site2Cloud#phase_1_encryption}
   */
   readonly phase1Encryption?: string;
   /**
   * Phase two Authentication. Valid values: 'NO-AUTH', 'HMAC-SHA-1', 'HMAC-SHA-256', 'HMAC-SHA-384' and 'HMAC-SHA-512'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#phase_2_authentication Site2Cloud#phase_2_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#phase_2_authentication Site2Cloud#phase_2_authentication}
   */
   readonly phase2Authentication?: string;
   /**
   * Phase two DH Groups. Valid values: '1', '2', '5', '14', '15', '16', '17', '18', '19', '20' and '21'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#phase_2_dh_groups Site2Cloud#phase_2_dh_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#phase_2_dh_groups Site2Cloud#phase_2_dh_groups}
   */
   readonly phase2DhGroups?: string;
   /**
   * Phase two Encryption. Valid values: '3DES', 'AES-128-CBC', 'AES-192-CBC', 'AES-256-CBC', 'AES-128-GCM-64', 'AES-128-GCM-96', 'AES-128-GCM-128', 'AES-256-GCM-64', 'AES-256-GCM-96', 'AES-256-GCM-128', and 'NULL-ENCR'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#phase_2_encryption Site2Cloud#phase_2_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#phase_2_encryption Site2Cloud#phase_2_encryption}
   */
   readonly phase2Encryption?: string;
   /**
   * Pre-Shared Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#pre_shared_key Site2Cloud#pre_shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#pre_shared_key Site2Cloud#pre_shared_key}
   */
   readonly preSharedKey?: string;
   /**
   * Primary Cloud Gateway Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#primary_cloud_gateway_name Site2Cloud#primary_cloud_gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#primary_cloud_gateway_name Site2Cloud#primary_cloud_gateway_name}
   */
   readonly primaryCloudGatewayName: string;
   /**
   * Private route encryption switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#private_route_encryption Site2Cloud#private_route_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#private_route_encryption Site2Cloud#private_route_encryption}
   */
   readonly privateRouteEncryption?: boolean | cdktf.IResolvable;
   /**
   * Remote Initiated Traffic Destination Real CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#remote_destination_real_cidrs Site2Cloud#remote_destination_real_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#remote_destination_real_cidrs Site2Cloud#remote_destination_real_cidrs}
   */
   readonly remoteDestinationRealCidrs?: string[];
   /**
   * Remote Initiated Traffic Destination Virtual CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#remote_destination_virtual_cidrs Site2Cloud#remote_destination_virtual_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#remote_destination_virtual_cidrs Site2Cloud#remote_destination_virtual_cidrs}
   */
   readonly remoteDestinationVirtualCidrs?: string[];
   /**
   * Remote Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#remote_gateway_ip Site2Cloud#remote_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#remote_gateway_ip Site2Cloud#remote_gateway_ip}
   */
   readonly remoteGatewayIp: string;
   /**
   * Latitude of remote gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#remote_gateway_latitude Site2Cloud#remote_gateway_latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#remote_gateway_latitude Site2Cloud#remote_gateway_latitude}
   */
   readonly remoteGatewayLatitude?: number;
   /**
   * Longitude of remote gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#remote_gateway_longitude Site2Cloud#remote_gateway_longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#remote_gateway_longitude Site2Cloud#remote_gateway_longitude}
   */
   readonly remoteGatewayLongitude?: number;
   /**
   * Remote gateway type. Valid values: 'generic', 'avx', 'aws', 'azure', 'sonicwall' and 'oracle'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#remote_gateway_type Site2Cloud#remote_gateway_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#remote_gateway_type Site2Cloud#remote_gateway_type}
   */
   readonly remoteGatewayType: string;
   /**
   * Remote identifier. Required for Cert based authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#remote_identifier Site2Cloud#remote_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#remote_identifier Site2Cloud#remote_identifier}
   */
   readonly remoteIdentifier?: string;
   /**
   * Remote Initiated Traffic Source Real CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#remote_source_real_cidrs Site2Cloud#remote_source_real_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#remote_source_real_cidrs Site2Cloud#remote_source_real_cidrs}
   */
   readonly remoteSourceRealCidrs?: string[];
   /**
   * Remote Initiated Traffic Source Virtual CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#remote_source_virtual_cidrs Site2Cloud#remote_source_virtual_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#remote_source_virtual_cidrs Site2Cloud#remote_source_virtual_cidrs}
   */
   readonly remoteSourceVirtualCidrs?: string[];
   /**
   * Remote Subnet CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#remote_subnet_cidr Site2Cloud#remote_subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#remote_subnet_cidr Site2Cloud#remote_subnet_cidr}
   */
   readonly remoteSubnetCidr?: string;
   /**
   * Remote Subnet CIDR (Virtual).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#remote_subnet_virtual Site2Cloud#remote_subnet_virtual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#remote_subnet_virtual Site2Cloud#remote_subnet_virtual}
   */
   readonly remoteSubnetVirtual?: string;
   /**
   * Remote tunnel IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#remote_tunnel_ip Site2Cloud#remote_tunnel_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#remote_tunnel_ip Site2Cloud#remote_tunnel_ip}
   */
   readonly remoteTunnelIp?: string;
   /**
   * Route tables to modify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#route_table_list Site2Cloud#route_table_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#route_table_list Site2Cloud#route_table_list}
   */
   readonly routeTableList?: string[];
   /**
   * Specify ssl_server_pool for tunnel_type 'tcp'. Default value is '192.168.44.0/24'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#ssl_server_pool Site2Cloud#ssl_server_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#ssl_server_pool Site2Cloud#ssl_server_pool}
   */
   readonly sslServerPool?: string;
   /**
   * Site2Cloud Tunnel Type. Valid values: 'policy' and 'route'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#tunnel_type Site2Cloud#tunnel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#tunnel_type Site2Cloud#tunnel_type}
   */
   readonly tunnelType: string;
   /**
   * VPC Id of the cloud gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#vpc_id Site2Cloud#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#vpc_id Site2Cloud#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud aviatrix_site2cloud}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud aviatrix_site2cloud}
 */
 export class Site2Cloud extends cdktf.TerraformResource {
 
@@ -363,7 +363,7 @@ export class Site2Cloud extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Site2Cloud resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Site2Cloud to import
-  * @param importFromId The id of the existing Site2Cloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Site2Cloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Site2Cloud to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -375,7 +375,7 @@ export class Site2Cloud extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/site2cloud aviatrix_site2cloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/site2cloud aviatrix_site2cloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,8 +386,8 @@ export class Site2Cloud extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_site2cloud',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface FqdnConfig extends cdktf.TerraformMetaArguments {
   /**
   * FQDN Filter Tag Status. Valid values: true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#fqdn_enabled Fqdn#fqdn_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#fqdn_enabled Fqdn#fqdn_enabled}
   */
   readonly fqdnEnabled?: boolean | cdktf.IResolvable;
   /**
   * Specify the tag color to be a white-list tag or black-list tag. 'white' or 'black'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#fqdn_mode Fqdn#fqdn_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#fqdn_mode Fqdn#fqdn_mode}
   */
   readonly fqdnMode?: string;
   /**
   * FQDN Filter Tag Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#fqdn_tag Fqdn#fqdn_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#fqdn_tag Fqdn#fqdn_tag}
   */
   readonly fqdnTag: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#id Fqdn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#id Fqdn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface FqdnConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable to manage domain name rules in-line. If false, domain name rules must be managed using `aviatrix_fqdn_tag_rule` resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#manage_domain_names Fqdn#manage_domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#manage_domain_names Fqdn#manage_domain_names}
   */
   readonly manageDomainNames?: boolean | cdktf.IResolvable;
   /**
   * domain_names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#domain_names Fqdn#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#domain_names Fqdn#domain_names}
   */
   readonly domainNames?: FqdnDomainNames[] | cdktf.IResolvable;
   /**
   * gw_filter_tag_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#gw_filter_tag_list Fqdn#gw_filter_tag_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#gw_filter_tag_list Fqdn#gw_filter_tag_list}
   */
   readonly gwFilterTagList?: FqdnGwFilterTagListStruct[] | cdktf.IResolvable;
 }
@@ -55,25 +55,25 @@ export interface FqdnDomainNames {
   /**
   * What action should happen to matching requests. Possible values are: 'Base Policy', 'Allow' or 'Deny'. Defaults to 'Base Policy' if no value is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#action Fqdn#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#action Fqdn#action}
   */
   readonly action?: string;
   /**
   * FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#fqdn Fqdn#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#fqdn Fqdn#fqdn}
   */
   readonly fqdn: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#port Fqdn#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#port Fqdn#port}
   */
   readonly port: string;
   /**
   * Protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#proto Fqdn#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#proto Fqdn#proto}
   */
   readonly proto: string;
 }
@@ -269,13 +269,13 @@ export interface FqdnGwFilterTagListStruct {
   /**
   * Name of the gateway to attach to the specific tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#gw_name Fqdn#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#gw_name Fqdn#gw_name}
   */
   readonly gwName: string;
   /**
   * List of source IPs in the VPC qualified for a specific tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#source_ip_list Fqdn#source_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#source_ip_list Fqdn#source_ip_list}
   */
   readonly sourceIpList?: string[];
 }
@@ -417,7 +417,7 @@ export class FqdnGwFilterTagListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn aviatrix_fqdn}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn aviatrix_fqdn}
 */
 export class Fqdn extends cdktf.TerraformResource {
 
@@ -433,7 +433,7 @@ export class Fqdn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Fqdn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Fqdn to import
-  * @param importFromId The id of the existing Fqdn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Fqdn that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Fqdn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -445,7 +445,7 @@ export class Fqdn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/fqdn aviatrix_fqdn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/fqdn aviatrix_fqdn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -456,8 +456,8 @@ export class Fqdn extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_fqdn',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

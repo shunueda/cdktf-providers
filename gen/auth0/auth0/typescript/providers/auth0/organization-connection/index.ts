@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_connection
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/organization_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OrganizationConnectionConfig extends cdktf.TerraformMetaArgumen
   /**
   * When `true`, all users that log in with this connection will be automatically granted membership in the organization. When `false`, users must be granted membership in the organization before logging in with this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_connection#assign_membership_on_login OrganizationConnection#assign_membership_on_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/organization_connection#assign_membership_on_login OrganizationConnection#assign_membership_on_login}
   */
   readonly assignMembershipOnLogin?: boolean | cdktf.IResolvable;
   /**
   * The ID of the connection to enable for the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_connection#connection_id OrganizationConnection#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/organization_connection#connection_id OrganizationConnection#connection_id}
   */
   readonly connectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_connection#id OrganizationConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/organization_connection#id OrganizationConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface OrganizationConnectionConfig extends cdktf.TerraformMetaArgumen
   /**
   * Determines whether organization sign-up should be enabled for this organization connection. Only applicable for database connections. Note: `is_signup_enabled` can only be `true` if `assign_membership_on_login` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_connection#is_signup_enabled OrganizationConnection#is_signup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/organization_connection#is_signup_enabled OrganizationConnection#is_signup_enabled}
   */
   readonly isSignupEnabled?: boolean | cdktf.IResolvable;
   /**
   * The ID of the organization to enable the connection for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_connection#organization_id OrganizationConnection#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/organization_connection#organization_id OrganizationConnection#organization_id}
   */
   readonly organizationId: string;
   /**
   * Determines whether a connection should be displayed on this organization’s login prompt. Only applicable for enterprise connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_connection#show_as_button OrganizationConnection#show_as_button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/organization_connection#show_as_button OrganizationConnection#show_as_button}
   */
   readonly showAsButton?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_connection auth0_organization_connection}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/organization_connection auth0_organization_connection}
 */
 export class OrganizationConnection extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class OrganizationConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationConnection to import
-  * @param importFromId The id of the existing OrganizationConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/organization_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class OrganizationConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/organization_connection auth0_organization_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/organization_connection auth0_organization_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class OrganizationConnection extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_organization_connection',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

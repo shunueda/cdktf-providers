@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface SpaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#description Space#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#description Space#description}
   */
   readonly description?: string;
   /**
   * ID of the space. Must be globally unique. If the provider has a space configured and this field is empty, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#id Space#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#id Space#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface SpaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#name Space#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#name Space#name}
   */
   readonly name?: string;
   /**
   * ID of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#org_id Space#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#org_id Space#org_id}
   */
   readonly orgId: string;
   /**
   * Space settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#space_settings Space#space_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#space_settings Space#space_settings}
   */
   readonly spaceSettings?: SpaceSpaceSettings;
 }
@@ -45,13 +45,13 @@ export interface SpaceSpaceSettingsCasesConfiguration {
   /**
   * Aggregate findings for the same asset within this window. The value is specified in hours. 0 means no aggregation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#aggregation_window Space#aggregation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#aggregation_window Space#aggregation_window}
   */
   readonly aggregationWindow?: number;
   /**
   * Whether to enable auto-create cases on drift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#auto_create Space#auto_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#auto_create Space#auto_create}
   */
   readonly autoCreate?: boolean | cdktf.IResolvable;
 }
@@ -176,13 +176,13 @@ export interface SpaceSpaceSettingsEolAssetsConfiguration {
   /**
   * Whether to enable EOL assets analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#enabled Space#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#enabled Space#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * How many months in advance should EOL be applied as risk factor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#months_in_advance Space#months_in_advance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#months_in_advance Space#months_in_advance}
   */
   readonly monthsInAdvance?: number;
 }
@@ -307,19 +307,19 @@ export interface SpaceSpaceSettingsExceptionsConfiguration {
   /**
   * Whether to allow creation of exception groups with indefinite valid until.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#allow_indefinite_valid_until Space#allow_indefinite_valid_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#allow_indefinite_valid_until Space#allow_indefinite_valid_until}
   */
   readonly allowIndefiniteValidUntil?: boolean | cdktf.IResolvable;
   /**
   * Whether a user can approve their own exception requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#allow_self_approval Space#allow_self_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#allow_self_approval Space#allow_self_approval}
   */
   readonly allowSelfApproval?: boolean | cdktf.IResolvable;
   /**
   * Whether to require approval for exceptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#require_approval Space#require_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#require_approval Space#require_approval}
   */
   readonly requireApproval?: boolean | cdktf.IResolvable;
 }
@@ -473,13 +473,13 @@ export interface SpaceSpaceSettingsGarbageCollectAssetsConfiguration {
   /**
   * After how many days to garbage collect. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#after_days Space#after_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#after_days Space#after_days}
   */
   readonly afterDays?: number;
   /**
   * Whether to enable garbage collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#enabled Space#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#enabled Space#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -604,9 +604,9 @@ export interface SpaceSpaceSettingsPlatformVulnerabilityConfiguration {
   /**
   * Whether to enable platform vulnerability analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#enabled Space#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#enabled Space#enabled}
   */
-  readonly enabled: boolean | cdktf.IResolvable;
+  readonly enabled?: boolean | cdktf.IResolvable;
 }
 
 export function spaceSpaceSettingsPlatformVulnerabilityConfigurationToTerraform(struct?: SpaceSpaceSettingsPlatformVulnerabilityConfiguration | cdktf.IResolvable): any {
@@ -680,13 +680,16 @@ export class SpaceSpaceSettingsPlatformVulnerabilityConfigurationOutputReference
     }
   }
 
-  // enabled - computed: true, optional: false, required: true
+  // enabled - computed: true, optional: true, required: false
   private _enabled?: boolean | cdktf.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
   public set enabled(value: boolean | cdktf.IResolvable) {
     this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get enabledInput() {
@@ -697,9 +700,9 @@ export interface SpaceSpaceSettingsTerminatedAssetsConfiguration {
   /**
   * Whether to cleanup terminated assets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#cleanup Space#cleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#cleanup Space#cleanup}
   */
-  readonly cleanup: boolean | cdktf.IResolvable;
+  readonly cleanup?: boolean | cdktf.IResolvable;
 }
 
 export function spaceSpaceSettingsTerminatedAssetsConfigurationToTerraform(struct?: SpaceSpaceSettingsTerminatedAssetsConfiguration | cdktf.IResolvable): any {
@@ -773,13 +776,16 @@ export class SpaceSpaceSettingsTerminatedAssetsConfigurationOutputReference exte
     }
   }
 
-  // cleanup - computed: true, optional: false, required: true
+  // cleanup - computed: true, optional: true, required: false
   private _cleanup?: boolean | cdktf.IResolvable; 
   public get cleanup() {
     return this.getBooleanAttribute('cleanup');
   }
   public set cleanup(value: boolean | cdktf.IResolvable) {
     this._cleanup = value;
+  }
+  public resetCleanup() {
+    this._cleanup = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get cleanupInput() {
@@ -790,9 +796,9 @@ export interface SpaceSpaceSettingsUnusedServiceAccountsConfiguration {
   /**
   * Whether to cleanup unused service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#cleanup Space#cleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#cleanup Space#cleanup}
   */
-  readonly cleanup: boolean | cdktf.IResolvable;
+  readonly cleanup?: boolean | cdktf.IResolvable;
 }
 
 export function spaceSpaceSettingsUnusedServiceAccountsConfigurationToTerraform(struct?: SpaceSpaceSettingsUnusedServiceAccountsConfiguration | cdktf.IResolvable): any {
@@ -866,13 +872,16 @@ export class SpaceSpaceSettingsUnusedServiceAccountsConfigurationOutputReference
     }
   }
 
-  // cleanup - computed: true, optional: false, required: true
+  // cleanup - computed: true, optional: true, required: false
   private _cleanup?: boolean | cdktf.IResolvable; 
   public get cleanup() {
     return this.getBooleanAttribute('cleanup');
   }
   public set cleanup(value: boolean | cdktf.IResolvable) {
     this._cleanup = value;
+  }
+  public resetCleanup() {
+    this._cleanup = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get cleanupInput() {
@@ -883,43 +892,43 @@ export interface SpaceSpaceSettings {
   /**
   * Cases configuration for the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#cases_configuration Space#cases_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#cases_configuration Space#cases_configuration}
   */
   readonly casesConfiguration?: SpaceSpaceSettingsCasesConfiguration;
   /**
   * EOL platform configuration for the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#eol_assets_configuration Space#eol_assets_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#eol_assets_configuration Space#eol_assets_configuration}
   */
   readonly eolAssetsConfiguration?: SpaceSpaceSettingsEolAssetsConfiguration;
   /**
   * Exceptions configuration for the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#exceptions_configuration Space#exceptions_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#exceptions_configuration Space#exceptions_configuration}
   */
   readonly exceptionsConfiguration?: SpaceSpaceSettingsExceptionsConfiguration;
   /**
   * Garbage collect assets configuration for the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#garbage_collect_assets_configuration Space#garbage_collect_assets_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#garbage_collect_assets_configuration Space#garbage_collect_assets_configuration}
   */
   readonly garbageCollectAssetsConfiguration?: SpaceSpaceSettingsGarbageCollectAssetsConfiguration;
   /**
   * Platform vulnerability configuration for the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#platform_vulnerability_configuration Space#platform_vulnerability_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#platform_vulnerability_configuration Space#platform_vulnerability_configuration}
   */
   readonly platformVulnerabilityConfiguration?: SpaceSpaceSettingsPlatformVulnerabilityConfiguration;
   /**
   * Terminated assets configuration for the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#terminated_assets_configuration Space#terminated_assets_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#terminated_assets_configuration Space#terminated_assets_configuration}
   */
   readonly terminatedAssetsConfiguration?: SpaceSpaceSettingsTerminatedAssetsConfiguration;
   /**
   * Unused service accounts configuration for the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#unused_service_accounts_configuration Space#unused_service_accounts_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#unused_service_accounts_configuration Space#unused_service_accounts_configuration}
   */
   readonly unusedServiceAccountsConfiguration?: SpaceSpaceSettingsUnusedServiceAccountsConfiguration;
 }
@@ -1187,7 +1196,7 @@ export class SpaceSpaceSettingsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space mondoo_space}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space mondoo_space}
 */
 export class Space extends cdktf.TerraformResource {
 
@@ -1203,7 +1212,7 @@ export class Space extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Space resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Space to import
-  * @param importFromId The id of the existing Space that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Space that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Space to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1215,7 +1224,7 @@ export class Space extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/space mondoo_space} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/space mondoo_space} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1226,8 +1235,8 @@ export class Space extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_space',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.2',
-        providerVersionConstraint: '0.35.2'
+        providerVersion: '0.35.3',
+        providerVersionConstraint: '0.35.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

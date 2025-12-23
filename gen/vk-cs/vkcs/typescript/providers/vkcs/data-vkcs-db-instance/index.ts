@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataVkcsDbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of flavor for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#flavor_id DataVkcsDbInstance#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#flavor_id DataVkcsDbInstance#flavor_id}
   */
   readonly flavorId?: string;
   /**
   * The hostname of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#hostname DataVkcsDbInstance#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#hostname DataVkcsDbInstance#hostname}
   */
   readonly hostname?: string;
   /**
   * The id of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#id DataVkcsDbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#id DataVkcsDbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,43 +31,43 @@ export interface DataVkcsDbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP address of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#ip DataVkcsDbInstance#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#ip DataVkcsDbInstance#ip}
   */
   readonly ip?: string[];
   /**
   * The name of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#name DataVkcsDbInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#name DataVkcsDbInstance#name}
   */
   readonly name?: string;
   /**
   * Region of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#region DataVkcsDbInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#region DataVkcsDbInstance#region}
   */
   readonly region?: string;
   /**
   * Instance status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#status DataVkcsDbInstance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#status DataVkcsDbInstance#status}
   */
   readonly status?: string;
   /**
   * backup_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#backup_schedule DataVkcsDbInstance#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#backup_schedule DataVkcsDbInstance#backup_schedule}
   */
   readonly backupSchedule?: DataVkcsDbInstanceBackupSchedule[] | cdktf.IResolvable;
   /**
   * datastore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#datastore DataVkcsDbInstance#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#datastore DataVkcsDbInstance#datastore}
   */
   readonly datastore?: DataVkcsDbInstanceDatastore;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#volume DataVkcsDbInstance#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#volume DataVkcsDbInstance#volume}
   */
   readonly volume?: DataVkcsDbInstanceVolume;
 }
@@ -75,31 +75,31 @@ export interface DataVkcsDbInstanceBackupSchedule {
   /**
   * Time interval between backups, specified in hours. Available values: 3, 6, 8, 12, 24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#interval_hours DataVkcsDbInstance#interval_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#interval_hours DataVkcsDbInstance#interval_hours}
   */
   readonly intervalHours: number;
   /**
   * Number of backups to be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#keep_count DataVkcsDbInstance#keep_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#keep_count DataVkcsDbInstance#keep_count}
   */
   readonly keepCount: number;
   /**
   * Name of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#name DataVkcsDbInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#name DataVkcsDbInstance#name}
   */
   readonly name: string;
   /**
   * Hours part of timestamp of initial backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#start_hours DataVkcsDbInstance#start_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#start_hours DataVkcsDbInstance#start_hours}
   */
   readonly startHours: number;
   /**
   * Minutes part of timestamp of initial backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#start_minutes DataVkcsDbInstance#start_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#start_minutes DataVkcsDbInstance#start_minutes}
   */
   readonly startMinutes: number;
 }
@@ -318,13 +318,13 @@ export interface DataVkcsDbInstanceDatastore {
   /**
   * Type of the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#type DataVkcsDbInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#type DataVkcsDbInstance#type}
   */
   readonly type: string;
   /**
   * Version of the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#version DataVkcsDbInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#version DataVkcsDbInstance#version}
   */
   readonly version: string;
 }
@@ -433,25 +433,25 @@ export interface DataVkcsDbInstanceVolume {
   /**
   * Size of the instance volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#size DataVkcsDbInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#size DataVkcsDbInstance#size}
   */
   readonly size: number;
   /**
   * Size of the used volume space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#used DataVkcsDbInstance#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#used DataVkcsDbInstance#used}
   */
   readonly used: number;
   /**
   * ID of the instance volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#volume_id DataVkcsDbInstance#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#volume_id DataVkcsDbInstance#volume_id}
   */
   readonly volumeId: string;
   /**
   * Type of the instance volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#volume_type DataVkcsDbInstance#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#volume_type DataVkcsDbInstance#volume_type}
   */
   readonly volumeType: string;
 }
@@ -610,7 +610,7 @@ export class DataVkcsDbInstanceVolumeOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance vkcs_db_instance}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance vkcs_db_instance}
 */
 export class DataVkcsDbInstance extends cdktf.TerraformDataSource {
 
@@ -626,7 +626,7 @@ export class DataVkcsDbInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsDbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsDbInstance to import
-  * @param importFromId The id of the existing DataVkcsDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsDbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -638,7 +638,7 @@ export class DataVkcsDbInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_instance vkcs_db_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/db_instance vkcs_db_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -649,8 +649,8 @@ export class DataVkcsDbInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

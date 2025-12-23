@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface SsopolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#id Ssopolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#id Ssopolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#name Ssopolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#name Ssopolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#tenant_ref Ssopolicy#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#tenant_ref Ssopolicy#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#type Ssopolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#type Ssopolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#uuid Ssopolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#uuid Ssopolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#authentication_policy Ssopolicy#authentication_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#authentication_policy Ssopolicy#authentication_policy}
   */
   readonly authenticationPolicy?: SsopolicyAuthenticationPolicy[] | cdktf.IResolvable;
   /**
   * authorization_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#authorization_policy Ssopolicy#authorization_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#authorization_policy Ssopolicy#authorization_policy}
   */
   readonly authorizationPolicy?: SsopolicyAuthorizationPolicy[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#configpb_attributes Ssopolicy#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#configpb_attributes Ssopolicy#configpb_attributes}
   */
   readonly configpbAttributes?: SsopolicyConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#markers Ssopolicy#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#markers Ssopolicy#markers}
   */
   readonly markers?: SsopolicyMarkers[] | cdktf.IResolvable;
 }
 export interface SsopolicyAuthenticationPolicyAuthnRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#type Ssopolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#type Ssopolicy#type}
   */
   readonly type?: string;
 }
@@ -173,11 +173,11 @@ export class SsopolicyAuthenticationPolicyAuthnRulesActionList extends cdktf.Com
 }
 export interface SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#addr Ssopolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#addr Ssopolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#type Ssopolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#type Ssopolicy#type}
   */
   readonly type: string;
 }
@@ -316,11 +316,11 @@ export class SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpAddrsList exten
 }
 export interface SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#addr Ssopolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#addr Ssopolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#type Ssopolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#type Ssopolicy#type}
   */
   readonly type: string;
 }
@@ -459,13 +459,13 @@ export class SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpPrefixesIpAddrL
 }
 export interface SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#mask Ssopolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#mask Ssopolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#ip_addr Ssopolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#ip_addr Ssopolicy#ip_addr}
   */
   readonly ipAddr: SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -604,11 +604,11 @@ export class SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpPrefixesList ex
 }
 export interface SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#addr Ssopolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#addr Ssopolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#type Ssopolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#type Ssopolicy#type}
   */
   readonly type: string;
 }
@@ -747,11 +747,11 @@ export class SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpRangesBeginList
 }
 export interface SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#addr Ssopolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#addr Ssopolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#type Ssopolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#type Ssopolicy#type}
   */
   readonly type: string;
 }
@@ -892,13 +892,13 @@ export interface SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#begin Ssopolicy#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#begin Ssopolicy#begin}
   */
   readonly begin: SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#end Ssopolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#end Ssopolicy#end}
   */
   readonly end: SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -1037,29 +1037,29 @@ export class SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpRangesList exte
 }
 export interface SsopolicyAuthenticationPolicyAuthnRulesMatchClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#group_refs Ssopolicy#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#group_refs Ssopolicy#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#addrs Ssopolicy#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#addrs Ssopolicy#addrs}
   */
   readonly addrs?: SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#prefixes Ssopolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#prefixes Ssopolicy#prefixes}
   */
   readonly prefixes?: SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#ranges Ssopolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#ranges Ssopolicy#ranges}
   */
   readonly ranges?: SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpRanges[] | cdktf.IResolvable;
 }
@@ -1288,15 +1288,15 @@ export class SsopolicyAuthenticationPolicyAuthnRulesMatchClientIpList extends cd
 }
 export interface SsopolicyAuthenticationPolicyAuthnRulesMatchHostHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_case Ssopolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_case Ssopolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#value Ssopolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#value Ssopolicy#value}
   */
   readonly value?: string[];
 }
@@ -1467,23 +1467,23 @@ export class SsopolicyAuthenticationPolicyAuthnRulesMatchHostHdrList extends cdk
 }
 export interface SsopolicyAuthenticationPolicyAuthnRulesMatchPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_case Ssopolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_case Ssopolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_decoded_string Ssopolicy#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_decoded_string Ssopolicy#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_str Ssopolicy#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_str Ssopolicy#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#string_group_refs Ssopolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#string_group_refs Ssopolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -1714,19 +1714,19 @@ export interface SsopolicyAuthenticationPolicyAuthnRulesMatch {
   /**
   * client_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#client_ip Ssopolicy#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#client_ip Ssopolicy#client_ip}
   */
   readonly clientIp?: SsopolicyAuthenticationPolicyAuthnRulesMatchClientIp[] | cdktf.IResolvable;
   /**
   * host_hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#host_hdr Ssopolicy#host_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#host_hdr Ssopolicy#host_hdr}
   */
   readonly hostHdr?: SsopolicyAuthenticationPolicyAuthnRulesMatchHostHdr[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#path Ssopolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#path Ssopolicy#path}
   */
   readonly path?: SsopolicyAuthenticationPolicyAuthnRulesMatchPath[] | cdktf.IResolvable;
 }
@@ -1900,27 +1900,27 @@ export class SsopolicyAuthenticationPolicyAuthnRulesMatchList extends cdktf.Comp
 }
 export interface SsopolicyAuthenticationPolicyAuthnRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#enable Ssopolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#enable Ssopolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#index Ssopolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#index Ssopolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#name Ssopolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#name Ssopolicy#name}
   */
   readonly name: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#action Ssopolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#action Ssopolicy#action}
   */
   readonly action?: SsopolicyAuthenticationPolicyAuthnRulesAction[] | cdktf.IResolvable;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match Ssopolicy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match Ssopolicy#match}
   */
   readonly match?: SsopolicyAuthenticationPolicyAuthnRulesMatch[] | cdktf.IResolvable;
 }
@@ -2146,13 +2146,13 @@ export class SsopolicyAuthenticationPolicyAuthnRulesList extends cdktf.ComplexLi
 }
 export interface SsopolicyAuthenticationPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#default_auth_profile_ref Ssopolicy#default_auth_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#default_auth_profile_ref Ssopolicy#default_auth_profile_ref}
   */
   readonly defaultAuthProfileRef?: string;
   /**
   * authn_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#authn_rules Ssopolicy#authn_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#authn_rules Ssopolicy#authn_rules}
   */
   readonly authnRules?: SsopolicyAuthenticationPolicyAuthnRules[] | cdktf.IResolvable;
 }
@@ -2297,11 +2297,11 @@ export class SsopolicyAuthenticationPolicyList extends cdktf.ComplexList {
 }
 export interface SsopolicyAuthorizationPolicyAuthzRulesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#status_code Ssopolicy#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#status_code Ssopolicy#status_code}
   */
   readonly statusCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#type Ssopolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#type Ssopolicy#type}
   */
   readonly type?: string;
 }
@@ -2446,15 +2446,15 @@ export class SsopolicyAuthorizationPolicyAuthzRulesActionList extends cdktf.Comp
 }
 export interface SsopolicyAuthorizationPolicyAuthzRulesMatchAccessTokenMatchesStringMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_str Ssopolicy#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_str Ssopolicy#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#string_group_refs Ssopolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#string_group_refs Ssopolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -2625,33 +2625,33 @@ export class SsopolicyAuthorizationPolicyAuthzRulesMatchAccessTokenMatchesString
 }
 export interface SsopolicyAuthorizationPolicyAuthzRulesMatchAccessTokenMatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#bool_match Ssopolicy#bool_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#bool_match Ssopolicy#bool_match}
   */
   readonly boolMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#int_match Ssopolicy#int_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#int_match Ssopolicy#int_match}
   */
   readonly intMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#is_mandatory Ssopolicy#is_mandatory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#is_mandatory Ssopolicy#is_mandatory}
   */
   readonly isMandatory: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#name Ssopolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#name Ssopolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#type Ssopolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#type Ssopolicy#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#validate Ssopolicy#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#validate Ssopolicy#validate}
   */
   readonly validate: string;
   /**
   * string_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#string_match Ssopolicy#string_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#string_match Ssopolicy#string_match}
   */
   readonly stringMatch?: SsopolicyAuthorizationPolicyAuthzRulesMatchAccessTokenMatchesStringMatch[] | cdktf.IResolvable;
 }
@@ -2929,13 +2929,13 @@ export class SsopolicyAuthorizationPolicyAuthzRulesMatchAccessTokenMatchesList e
 }
 export interface SsopolicyAuthorizationPolicyAuthzRulesMatchAccessToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#token_name Ssopolicy#token_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#token_name Ssopolicy#token_name}
   */
   readonly tokenName?: string;
   /**
   * matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#matches Ssopolicy#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#matches Ssopolicy#matches}
   */
   readonly matches?: SsopolicyAuthorizationPolicyAuthzRulesMatchAccessTokenMatches[] | cdktf.IResolvable;
 }
@@ -3080,15 +3080,15 @@ export class SsopolicyAuthorizationPolicyAuthzRulesMatchAccessTokenList extends 
 }
 export interface SsopolicyAuthorizationPolicyAuthzRulesMatchAttrMatchesAttributeValueListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_str Ssopolicy#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_str Ssopolicy#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#string_group_refs Ssopolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#string_group_refs Ssopolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -3259,13 +3259,13 @@ export class SsopolicyAuthorizationPolicyAuthzRulesMatchAttrMatchesAttributeValu
 }
 export interface SsopolicyAuthorizationPolicyAuthzRulesMatchAttrMatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#attribute_name Ssopolicy#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#attribute_name Ssopolicy#attribute_name}
   */
   readonly attributeName: string;
   /**
   * attribute_value_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#attribute_value_list Ssopolicy#attribute_value_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#attribute_value_list Ssopolicy#attribute_value_list}
   */
   readonly attributeValueList: SsopolicyAuthorizationPolicyAuthzRulesMatchAttrMatchesAttributeValueListStruct[] | cdktf.IResolvable;
 }
@@ -3404,15 +3404,15 @@ export class SsopolicyAuthorizationPolicyAuthzRulesMatchAttrMatchesList extends 
 }
 export interface SsopolicyAuthorizationPolicyAuthzRulesMatchHostHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_case Ssopolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_case Ssopolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#value Ssopolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#value Ssopolicy#value}
   */
   readonly value?: string[];
 }
@@ -3583,11 +3583,11 @@ export class SsopolicyAuthorizationPolicyAuthzRulesMatchHostHdrList extends cdkt
 }
 export interface SsopolicyAuthorizationPolicyAuthzRulesMatchMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#methods Ssopolicy#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#methods Ssopolicy#methods}
   */
   readonly methods: string[];
 }
@@ -3726,23 +3726,23 @@ export class SsopolicyAuthorizationPolicyAuthzRulesMatchMethodList extends cdktf
 }
 export interface SsopolicyAuthorizationPolicyAuthzRulesMatchPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_case Ssopolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_case Ssopolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_criteria Ssopolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_decoded_string Ssopolicy#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_decoded_string Ssopolicy#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match_str Ssopolicy#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match_str Ssopolicy#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#string_group_refs Ssopolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#string_group_refs Ssopolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -3973,31 +3973,31 @@ export interface SsopolicyAuthorizationPolicyAuthzRulesMatch {
   /**
   * access_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#access_token Ssopolicy#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#access_token Ssopolicy#access_token}
   */
   readonly accessToken?: SsopolicyAuthorizationPolicyAuthzRulesMatchAccessToken[] | cdktf.IResolvable;
   /**
   * attr_matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#attr_matches Ssopolicy#attr_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#attr_matches Ssopolicy#attr_matches}
   */
   readonly attrMatches?: SsopolicyAuthorizationPolicyAuthzRulesMatchAttrMatches[] | cdktf.IResolvable;
   /**
   * host_hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#host_hdr Ssopolicy#host_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#host_hdr Ssopolicy#host_hdr}
   */
   readonly hostHdr?: SsopolicyAuthorizationPolicyAuthzRulesMatchHostHdr[] | cdktf.IResolvable;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#method Ssopolicy#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#method Ssopolicy#method}
   */
   readonly method?: SsopolicyAuthorizationPolicyAuthzRulesMatchMethod[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#path Ssopolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#path Ssopolicy#path}
   */
   readonly path?: SsopolicyAuthorizationPolicyAuthzRulesMatchPath[] | cdktf.IResolvable;
 }
@@ -4229,27 +4229,27 @@ export class SsopolicyAuthorizationPolicyAuthzRulesMatchList extends cdktf.Compl
 }
 export interface SsopolicyAuthorizationPolicyAuthzRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#enable Ssopolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#enable Ssopolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#index Ssopolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#index Ssopolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#name Ssopolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#name Ssopolicy#name}
   */
   readonly name: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#action Ssopolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#action Ssopolicy#action}
   */
   readonly action: SsopolicyAuthorizationPolicyAuthzRulesAction[] | cdktf.IResolvable;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#match Ssopolicy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#match Ssopolicy#match}
   */
   readonly match: SsopolicyAuthorizationPolicyAuthzRulesMatch[] | cdktf.IResolvable;
 }
@@ -4471,7 +4471,7 @@ export interface SsopolicyAuthorizationPolicy {
   /**
   * authz_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#authz_rules Ssopolicy#authz_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#authz_rules Ssopolicy#authz_rules}
   */
   readonly authzRules?: SsopolicyAuthorizationPolicyAuthzRules[] | cdktf.IResolvable;
 }
@@ -4587,7 +4587,7 @@ export class SsopolicyAuthorizationPolicyList extends cdktf.ComplexList {
 }
 export interface SsopolicyConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#version Ssopolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#version Ssopolicy#version}
   */
   readonly version?: string;
 }
@@ -4703,11 +4703,11 @@ export class SsopolicyConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface SsopolicyMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#key Ssopolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#key Ssopolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#values Ssopolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#values Ssopolicy#values}
   */
   readonly values?: string[];
 }
@@ -4849,7 +4849,7 @@ export class SsopolicyMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy avi_ssopolicy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy avi_ssopolicy}
 */
 export class Ssopolicy extends cdktf.TerraformResource {
 
@@ -4865,7 +4865,7 @@ export class Ssopolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ssopolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ssopolicy to import
-  * @param importFromId The id of the existing Ssopolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ssopolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ssopolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4877,7 +4877,7 @@ export class Ssopolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ssopolicy avi_ssopolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/ssopolicy avi_ssopolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4888,8 +4888,8 @@ export class Ssopolicy extends cdktf.TerraformResource {
       terraformResourceType: 'avi_ssopolicy',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

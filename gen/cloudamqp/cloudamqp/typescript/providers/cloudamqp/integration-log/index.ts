@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,169 +10,169 @@ export interface IntegrationLogConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS access key identifier. (Cloudwatch)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#access_key_id IntegrationLog#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#access_key_id IntegrationLog#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * The API key for the integration service. (Datadog)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#api_key IntegrationLog#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#api_key IntegrationLog#api_key}
   */
   readonly apiKey?: string;
   /**
   * The name of the application. (Azure Monitor)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#application IntegrationLog#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#application IntegrationLog#application}
   */
   readonly application?: string;
   /**
   * The application ID. (Azure Monitor)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#application_id IntegrationLog#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#application_id IntegrationLog#application_id}
   */
   readonly applicationId?: string;
   /**
   * The application secret. (Azure Monitor)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#application_secret IntegrationLog#application_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#application_secret IntegrationLog#application_secret}
   */
   readonly applicationSecret?: string;
   /**
   * The client email. (Stackdriver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#client_email IntegrationLog#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#client_email IntegrationLog#client_email}
   */
   readonly clientEmail?: string;
   /**
   * Base64Encoded credentials. (Stackdriver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#credentials IntegrationLog#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#credentials IntegrationLog#credentials}
   */
   readonly credentials?: string;
   /**
   * The DCE URI. (Coralogix)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#dce_uri IntegrationLog#dce_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#dce_uri IntegrationLog#dce_uri}
   */
   readonly dceUri?: string;
   /**
   * The DCR ID. (Coralogix)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#dcr_id IntegrationLog#dcr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#dcr_id IntegrationLog#dcr_id}
   */
   readonly dcrId?: string;
   /**
   * The syslog destination to send the logs to. (Papertrail)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#endpoint IntegrationLog#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#endpoint IntegrationLog#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The host information. (Scalyr)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#host IntegrationLog#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#host IntegrationLog#host}
   */
   readonly host?: string;
   /**
   * Destination to send the logs. (Splunk)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#host_port IntegrationLog#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#host_port IntegrationLog#host_port}
   */
   readonly hostPort?: string;
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#instance_id IntegrationLog#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#instance_id IntegrationLog#instance_id}
   */
   readonly instanceId: number;
   /**
   * The name of log integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#name IntegrationLog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#name IntegrationLog#name}
   */
   readonly name: string;
   /**
   * The private API key used for authentication. (Stackdriver, Coralogix)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#private_key IntegrationLog#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#private_key IntegrationLog#private_key}
   */
   readonly privateKey?: string;
   /**
   * Private key identifier. (Stackdriver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#private_key_id IntegrationLog#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#private_key_id IntegrationLog#private_key_id}
   */
   readonly privateKeyId?: string;
   /**
   * The project ID for the integration service. (Stackdriver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#project_id IntegrationLog#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#project_id IntegrationLog#project_id}
   */
   readonly projectId?: string;
   /**
   * The region hosting integration service. (Cloudwatch, Datadog)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#region IntegrationLog#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#region IntegrationLog#region}
   */
   readonly region?: string;
   /**
   * The number of days to retain logs. (Cloudwatch)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#retention IntegrationLog#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#retention IntegrationLog#retention}
   */
   readonly retention?: number;
   /**
   * AWS secret access key. (Cloudwatch)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#secret_access_key IntegrationLog#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#secret_access_key IntegrationLog#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * Assign source type to the data exported, eg. generic_single_line. (Splunk)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#sourcetype IntegrationLog#sourcetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#sourcetype IntegrationLog#sourcetype}
   */
   readonly sourcetype?: string;
   /**
   * The name of the subsystem. (Azure Monitor)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#subsystem IntegrationLog#subsystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#subsystem IntegrationLog#subsystem}
   */
   readonly subsystem?: string;
   /**
   * The table name to send the logs to. (Azure Monitor)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#table IntegrationLog#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#table IntegrationLog#table}
   */
   readonly table?: string;
   /**
   * Optional tags. E.g. env=prod,region=europe. (Cloudwatch, Datadog)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#tags IntegrationLog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#tags IntegrationLog#tags}
   */
   readonly tags?: string;
   /**
   * The tenant ID. (Azure Monitor)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#tenant_id IntegrationLog#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#tenant_id IntegrationLog#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * The token used for authentication. (Loggly, Logentries, Splunk, Scalyr)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#token IntegrationLog#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#token IntegrationLog#token}
   */
   readonly token?: string;
   /**
   * The URL to push the logs to. (Papertrail)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#url IntegrationLog#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#url IntegrationLog#url}
   */
   readonly url?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log cloudamqp_integration_log}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log cloudamqp_integration_log}
 */
 export class IntegrationLog extends cdktf.TerraformResource {
 
@@ -188,7 +188,7 @@ export class IntegrationLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationLog to import
-  * @param importFromId The id of the existing IntegrationLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class IntegrationLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log cloudamqp_integration_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/integration_log cloudamqp_integration_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,8 +211,8 @@ export class IntegrationLog extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_integration_log',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

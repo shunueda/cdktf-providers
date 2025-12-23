@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface WebapputConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#default_first_int Webapput#default_first_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#cloud_ref Webapput#cloud_ref}
+  */
+  readonly cloudRef?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#default_fifth_int Webapput#default_fifth_int}
+  */
+  readonly defaultFifthInt?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#default_first_int Webapput#default_first_int}
   */
   readonly defaultFirstInt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#default_second_int Webapput#default_second_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#default_fourth_int Webapput#default_fourth_int}
   */
-  readonly defaultSecondInt?: string;
+  readonly defaultFourthInt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#default_string Webapput#default_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#default_string Webapput#default_string}
   */
   readonly defaultString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#default_third_int Webapput#default_third_int}
-  */
-  readonly defaultThirdInt?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#id Webapput#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#id Webapput#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#name Webapput#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#name Webapput#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#skip_optional_check_tests Webapput#skip_optional_check_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#skip_optional_check_tests Webapput#skip_optional_check_tests}
   */
   readonly skipOptionalCheckTests?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#tenant_ref Webapput#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#tenant_ref Webapput#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_sensitive_string Webapput#test_sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_sensitive_string Webapput#test_sensitive_string}
   */
   readonly testSensitiveString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#uuid Webapput#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#uuid Webapput#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#configpb_attributes Webapput#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#configpb_attributes Webapput#configpb_attributes}
   */
   readonly configpbAttributes?: WebapputConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * mandatory_test block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_test Webapput#mandatory_test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_test Webapput#mandatory_test}
   */
   readonly mandatoryTest?: WebapputMandatoryTest[] | cdktf.IResolvable;
   /**
   * mandatory_tests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_tests Webapput#mandatory_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_tests Webapput#mandatory_tests}
   */
   readonly mandatoryTests?: WebapputMandatoryTests[] | cdktf.IResolvable;
   /**
   * sensitive_test block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_test Webapput#sensitive_test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_test Webapput#sensitive_test}
   */
   readonly sensitiveTest?: WebapputSensitiveTest[] | cdktf.IResolvable;
   /**
   * sensitive_tests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_tests Webapput#sensitive_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_tests Webapput#sensitive_tests}
   */
   readonly sensitiveTests?: WebapputSensitiveTests[] | cdktf.IResolvable;
   /**
   * string_length_test block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_test Webapput#string_length_test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_test Webapput#string_length_test}
   */
   readonly stringLengthTest?: WebapputStringLengthTest[] | cdktf.IResolvable;
   /**
   * string_length_tests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_tests Webapput#string_length_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_tests Webapput#string_length_tests}
   */
   readonly stringLengthTests?: WebapputStringLengthTests[] | cdktf.IResolvable;
 }
 export interface WebapputConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#version Webapput#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#version Webapput#version}
   */
   readonly version?: string;
 }
@@ -215,7 +219,7 @@ export class WebapputConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface WebapputMandatoryTestMandatoryMessageMandatoryMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_string Webapput#optional_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_string Webapput#optional_string}
   */
   readonly optionalString?: string;
 }
@@ -331,7 +335,7 @@ export class WebapputMandatoryTestMandatoryMessageMandatoryMessageList extends c
 }
 export interface WebapputMandatoryTestMandatoryMessageMandatoryMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_string Webapput#optional_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_string Webapput#optional_string}
   */
   readonly optionalString?: string;
 }
@@ -447,23 +451,23 @@ export class WebapputMandatoryTestMandatoryMessageMandatoryMessagesList extends 
 }
 export interface WebapputMandatoryTestMandatoryMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_string Webapput#mandatory_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_string Webapput#mandatory_string}
   */
   readonly mandatoryString: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_strings Webapput#mandatory_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_strings Webapput#mandatory_strings}
   */
   readonly mandatoryStrings: string[];
   /**
   * mandatory_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_message Webapput#mandatory_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_message Webapput#mandatory_message}
   */
   readonly mandatoryMessage: WebapputMandatoryTestMandatoryMessageMandatoryMessage[] | cdktf.IResolvable;
   /**
   * mandatory_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_messages Webapput#mandatory_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_messages Webapput#mandatory_messages}
   */
   readonly mandatoryMessages: WebapputMandatoryTestMandatoryMessageMandatoryMessages[] | cdktf.IResolvable;
 }
@@ -654,7 +658,7 @@ export class WebapputMandatoryTestMandatoryMessageList extends cdktf.ComplexList
 }
 export interface WebapputMandatoryTestMandatoryMessagesMandatoryMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_string Webapput#optional_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_string Webapput#optional_string}
   */
   readonly optionalString?: string;
 }
@@ -770,7 +774,7 @@ export class WebapputMandatoryTestMandatoryMessagesMandatoryMessageList extends 
 }
 export interface WebapputMandatoryTestMandatoryMessagesMandatoryMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_string Webapput#optional_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_string Webapput#optional_string}
   */
   readonly optionalString?: string;
 }
@@ -886,23 +890,23 @@ export class WebapputMandatoryTestMandatoryMessagesMandatoryMessagesList extends
 }
 export interface WebapputMandatoryTestMandatoryMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_string Webapput#mandatory_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_string Webapput#mandatory_string}
   */
   readonly mandatoryString: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_strings Webapput#mandatory_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_strings Webapput#mandatory_strings}
   */
   readonly mandatoryStrings: string[];
   /**
   * mandatory_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_message Webapput#mandatory_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_message Webapput#mandatory_message}
   */
   readonly mandatoryMessage: WebapputMandatoryTestMandatoryMessagesMandatoryMessage[] | cdktf.IResolvable;
   /**
   * mandatory_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_messages Webapput#mandatory_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_messages Webapput#mandatory_messages}
   */
   readonly mandatoryMessages: WebapputMandatoryTestMandatoryMessagesMandatoryMessages[] | cdktf.IResolvable;
 }
@@ -1093,23 +1097,23 @@ export class WebapputMandatoryTestMandatoryMessagesList extends cdktf.ComplexLis
 }
 export interface WebapputMandatoryTest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_string Webapput#mandatory_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_string Webapput#mandatory_string}
   */
   readonly mandatoryString: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_strings Webapput#mandatory_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_strings Webapput#mandatory_strings}
   */
   readonly mandatoryStrings: string[];
   /**
   * mandatory_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_message Webapput#mandatory_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_message Webapput#mandatory_message}
   */
   readonly mandatoryMessage: WebapputMandatoryTestMandatoryMessage[] | cdktf.IResolvable;
   /**
   * mandatory_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_messages Webapput#mandatory_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_messages Webapput#mandatory_messages}
   */
   readonly mandatoryMessages: WebapputMandatoryTestMandatoryMessages[] | cdktf.IResolvable;
 }
@@ -1300,7 +1304,7 @@ export class WebapputMandatoryTestList extends cdktf.ComplexList {
 }
 export interface WebapputMandatoryTestsMandatoryMessageMandatoryMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_string Webapput#optional_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_string Webapput#optional_string}
   */
   readonly optionalString?: string;
 }
@@ -1416,7 +1420,7 @@ export class WebapputMandatoryTestsMandatoryMessageMandatoryMessageList extends 
 }
 export interface WebapputMandatoryTestsMandatoryMessageMandatoryMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_string Webapput#optional_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_string Webapput#optional_string}
   */
   readonly optionalString?: string;
 }
@@ -1532,23 +1536,23 @@ export class WebapputMandatoryTestsMandatoryMessageMandatoryMessagesList extends
 }
 export interface WebapputMandatoryTestsMandatoryMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_string Webapput#mandatory_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_string Webapput#mandatory_string}
   */
   readonly mandatoryString: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_strings Webapput#mandatory_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_strings Webapput#mandatory_strings}
   */
   readonly mandatoryStrings: string[];
   /**
   * mandatory_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_message Webapput#mandatory_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_message Webapput#mandatory_message}
   */
   readonly mandatoryMessage: WebapputMandatoryTestsMandatoryMessageMandatoryMessage[] | cdktf.IResolvable;
   /**
   * mandatory_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_messages Webapput#mandatory_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_messages Webapput#mandatory_messages}
   */
   readonly mandatoryMessages: WebapputMandatoryTestsMandatoryMessageMandatoryMessages[] | cdktf.IResolvable;
 }
@@ -1739,7 +1743,7 @@ export class WebapputMandatoryTestsMandatoryMessageList extends cdktf.ComplexLis
 }
 export interface WebapputMandatoryTestsMandatoryMessagesMandatoryMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_string Webapput#optional_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_string Webapput#optional_string}
   */
   readonly optionalString?: string;
 }
@@ -1855,7 +1859,7 @@ export class WebapputMandatoryTestsMandatoryMessagesMandatoryMessageList extends
 }
 export interface WebapputMandatoryTestsMandatoryMessagesMandatoryMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_string Webapput#optional_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_string Webapput#optional_string}
   */
   readonly optionalString?: string;
 }
@@ -1971,23 +1975,23 @@ export class WebapputMandatoryTestsMandatoryMessagesMandatoryMessagesList extend
 }
 export interface WebapputMandatoryTestsMandatoryMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_string Webapput#mandatory_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_string Webapput#mandatory_string}
   */
   readonly mandatoryString: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_strings Webapput#mandatory_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_strings Webapput#mandatory_strings}
   */
   readonly mandatoryStrings: string[];
   /**
   * mandatory_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_message Webapput#mandatory_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_message Webapput#mandatory_message}
   */
   readonly mandatoryMessage: WebapputMandatoryTestsMandatoryMessagesMandatoryMessage[] | cdktf.IResolvable;
   /**
   * mandatory_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_messages Webapput#mandatory_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_messages Webapput#mandatory_messages}
   */
   readonly mandatoryMessages: WebapputMandatoryTestsMandatoryMessagesMandatoryMessages[] | cdktf.IResolvable;
 }
@@ -2178,23 +2182,23 @@ export class WebapputMandatoryTestsMandatoryMessagesList extends cdktf.ComplexLi
 }
 export interface WebapputMandatoryTests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_string Webapput#mandatory_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_string Webapput#mandatory_string}
   */
   readonly mandatoryString: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_strings Webapput#mandatory_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_strings Webapput#mandatory_strings}
   */
   readonly mandatoryStrings: string[];
   /**
   * mandatory_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_message Webapput#mandatory_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_message Webapput#mandatory_message}
   */
   readonly mandatoryMessage: WebapputMandatoryTestsMandatoryMessage[] | cdktf.IResolvable;
   /**
   * mandatory_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#mandatory_messages Webapput#mandatory_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#mandatory_messages Webapput#mandatory_messages}
   */
   readonly mandatoryMessages: WebapputMandatoryTestsMandatoryMessages[] | cdktf.IResolvable;
 }
@@ -2385,7 +2389,7 @@ export class WebapputMandatoryTestsList extends cdktf.ComplexList {
 }
 export interface WebapputSensitiveTestSensitiveMessageSensitiveMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
   */
   readonly optionalSensitiveString?: string;
 }
@@ -2501,7 +2505,7 @@ export class WebapputSensitiveTestSensitiveMessageSensitiveMessageList extends c
 }
 export interface WebapputSensitiveTestSensitiveMessageSensitiveMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
   */
   readonly optionalSensitiveString?: string;
 }
@@ -2617,19 +2621,19 @@ export class WebapputSensitiveTestSensitiveMessageSensitiveMessagesList extends 
 }
 export interface WebapputSensitiveTestSensitiveMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_string Webapput#sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_string Webapput#sensitive_string}
   */
   readonly sensitiveString?: string;
   /**
   * sensitive_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_message Webapput#sensitive_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_message Webapput#sensitive_message}
   */
   readonly sensitiveMessage?: WebapputSensitiveTestSensitiveMessageSensitiveMessage[] | cdktf.IResolvable;
   /**
   * sensitive_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_messages Webapput#sensitive_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_messages Webapput#sensitive_messages}
   */
   readonly sensitiveMessages?: WebapputSensitiveTestSensitiveMessageSensitiveMessages[] | cdktf.IResolvable;
 }
@@ -2803,7 +2807,7 @@ export class WebapputSensitiveTestSensitiveMessageList extends cdktf.ComplexList
 }
 export interface WebapputSensitiveTestSensitiveMessagesSensitiveMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
   */
   readonly optionalSensitiveString?: string;
 }
@@ -2919,7 +2923,7 @@ export class WebapputSensitiveTestSensitiveMessagesSensitiveMessageList extends 
 }
 export interface WebapputSensitiveTestSensitiveMessagesSensitiveMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
   */
   readonly optionalSensitiveString?: string;
 }
@@ -3035,19 +3039,19 @@ export class WebapputSensitiveTestSensitiveMessagesSensitiveMessagesList extends
 }
 export interface WebapputSensitiveTestSensitiveMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_string Webapput#sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_string Webapput#sensitive_string}
   */
   readonly sensitiveString?: string;
   /**
   * sensitive_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_message Webapput#sensitive_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_message Webapput#sensitive_message}
   */
   readonly sensitiveMessage?: WebapputSensitiveTestSensitiveMessagesSensitiveMessage[] | cdktf.IResolvable;
   /**
   * sensitive_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_messages Webapput#sensitive_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_messages Webapput#sensitive_messages}
   */
   readonly sensitiveMessages?: WebapputSensitiveTestSensitiveMessagesSensitiveMessages[] | cdktf.IResolvable;
 }
@@ -3221,19 +3225,19 @@ export class WebapputSensitiveTestSensitiveMessagesList extends cdktf.ComplexLis
 }
 export interface WebapputSensitiveTest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_string Webapput#sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_string Webapput#sensitive_string}
   */
   readonly sensitiveString?: string;
   /**
   * sensitive_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_message Webapput#sensitive_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_message Webapput#sensitive_message}
   */
   readonly sensitiveMessage?: WebapputSensitiveTestSensitiveMessage[] | cdktf.IResolvable;
   /**
   * sensitive_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_messages Webapput#sensitive_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_messages Webapput#sensitive_messages}
   */
   readonly sensitiveMessages?: WebapputSensitiveTestSensitiveMessages[] | cdktf.IResolvable;
 }
@@ -3407,7 +3411,7 @@ export class WebapputSensitiveTestList extends cdktf.ComplexList {
 }
 export interface WebapputSensitiveTestsSensitiveMessageSensitiveMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
   */
   readonly optionalSensitiveString?: string;
 }
@@ -3523,7 +3527,7 @@ export class WebapputSensitiveTestsSensitiveMessageSensitiveMessageList extends 
 }
 export interface WebapputSensitiveTestsSensitiveMessageSensitiveMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
   */
   readonly optionalSensitiveString?: string;
 }
@@ -3639,19 +3643,19 @@ export class WebapputSensitiveTestsSensitiveMessageSensitiveMessagesList extends
 }
 export interface WebapputSensitiveTestsSensitiveMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_string Webapput#sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_string Webapput#sensitive_string}
   */
   readonly sensitiveString?: string;
   /**
   * sensitive_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_message Webapput#sensitive_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_message Webapput#sensitive_message}
   */
   readonly sensitiveMessage?: WebapputSensitiveTestsSensitiveMessageSensitiveMessage[] | cdktf.IResolvable;
   /**
   * sensitive_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_messages Webapput#sensitive_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_messages Webapput#sensitive_messages}
   */
   readonly sensitiveMessages?: WebapputSensitiveTestsSensitiveMessageSensitiveMessages[] | cdktf.IResolvable;
 }
@@ -3825,7 +3829,7 @@ export class WebapputSensitiveTestsSensitiveMessageList extends cdktf.ComplexLis
 }
 export interface WebapputSensitiveTestsSensitiveMessagesSensitiveMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
   */
   readonly optionalSensitiveString?: string;
 }
@@ -3941,7 +3945,7 @@ export class WebapputSensitiveTestsSensitiveMessagesSensitiveMessageList extends
 }
 export interface WebapputSensitiveTestsSensitiveMessagesSensitiveMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#optional_sensitive_string Webapput#optional_sensitive_string}
   */
   readonly optionalSensitiveString?: string;
 }
@@ -4057,19 +4061,19 @@ export class WebapputSensitiveTestsSensitiveMessagesSensitiveMessagesList extend
 }
 export interface WebapputSensitiveTestsSensitiveMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_string Webapput#sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_string Webapput#sensitive_string}
   */
   readonly sensitiveString?: string;
   /**
   * sensitive_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_message Webapput#sensitive_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_message Webapput#sensitive_message}
   */
   readonly sensitiveMessage?: WebapputSensitiveTestsSensitiveMessagesSensitiveMessage[] | cdktf.IResolvable;
   /**
   * sensitive_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_messages Webapput#sensitive_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_messages Webapput#sensitive_messages}
   */
   readonly sensitiveMessages?: WebapputSensitiveTestsSensitiveMessagesSensitiveMessages[] | cdktf.IResolvable;
 }
@@ -4243,19 +4247,19 @@ export class WebapputSensitiveTestsSensitiveMessagesList extends cdktf.ComplexLi
 }
 export interface WebapputSensitiveTests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_string Webapput#sensitive_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_string Webapput#sensitive_string}
   */
   readonly sensitiveString?: string;
   /**
   * sensitive_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_message Webapput#sensitive_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_message Webapput#sensitive_message}
   */
   readonly sensitiveMessage?: WebapputSensitiveTestsSensitiveMessage[] | cdktf.IResolvable;
   /**
   * sensitive_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#sensitive_messages Webapput#sensitive_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#sensitive_messages Webapput#sensitive_messages}
   */
   readonly sensitiveMessages?: WebapputSensitiveTestsSensitiveMessages[] | cdktf.IResolvable;
 }
@@ -4429,7 +4433,7 @@ export class WebapputSensitiveTestsList extends cdktf.ComplexList {
 }
 export interface WebapputStringLengthTestStringLengthMessageStringLengthMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
 }
@@ -4545,7 +4549,7 @@ export class WebapputStringLengthTestStringLengthMessageStringLengthMessageList 
 }
 export interface WebapputStringLengthTestStringLengthMessageStringLengthMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
 }
@@ -4661,23 +4665,23 @@ export class WebapputStringLengthTestStringLengthMessageStringLengthMessagesList
 }
 export interface WebapputStringLengthTestStringLengthMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_strings Webapput#test_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_strings Webapput#test_strings}
   */
   readonly testStrings?: string[];
   /**
   * string_length_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_message Webapput#string_length_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_message Webapput#string_length_message}
   */
   readonly stringLengthMessage?: WebapputStringLengthTestStringLengthMessageStringLengthMessage[] | cdktf.IResolvable;
   /**
   * string_length_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_messages Webapput#string_length_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_messages Webapput#string_length_messages}
   */
   readonly stringLengthMessages?: WebapputStringLengthTestStringLengthMessageStringLengthMessages[] | cdktf.IResolvable;
 }
@@ -4880,7 +4884,7 @@ export class WebapputStringLengthTestStringLengthMessageList extends cdktf.Compl
 }
 export interface WebapputStringLengthTestStringLengthMessagesStringLengthMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
 }
@@ -4996,7 +5000,7 @@ export class WebapputStringLengthTestStringLengthMessagesStringLengthMessageList
 }
 export interface WebapputStringLengthTestStringLengthMessagesStringLengthMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
 }
@@ -5112,23 +5116,23 @@ export class WebapputStringLengthTestStringLengthMessagesStringLengthMessagesLis
 }
 export interface WebapputStringLengthTestStringLengthMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_strings Webapput#test_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_strings Webapput#test_strings}
   */
   readonly testStrings?: string[];
   /**
   * string_length_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_message Webapput#string_length_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_message Webapput#string_length_message}
   */
   readonly stringLengthMessage?: WebapputStringLengthTestStringLengthMessagesStringLengthMessage[] | cdktf.IResolvable;
   /**
   * string_length_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_messages Webapput#string_length_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_messages Webapput#string_length_messages}
   */
   readonly stringLengthMessages?: WebapputStringLengthTestStringLengthMessagesStringLengthMessages[] | cdktf.IResolvable;
 }
@@ -5331,23 +5335,23 @@ export class WebapputStringLengthTestStringLengthMessagesList extends cdktf.Comp
 }
 export interface WebapputStringLengthTest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_strings Webapput#test_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_strings Webapput#test_strings}
   */
   readonly testStrings?: string[];
   /**
   * string_length_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_message Webapput#string_length_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_message Webapput#string_length_message}
   */
   readonly stringLengthMessage?: WebapputStringLengthTestStringLengthMessage[] | cdktf.IResolvable;
   /**
   * string_length_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_messages Webapput#string_length_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_messages Webapput#string_length_messages}
   */
   readonly stringLengthMessages?: WebapputStringLengthTestStringLengthMessages[] | cdktf.IResolvable;
 }
@@ -5550,7 +5554,7 @@ export class WebapputStringLengthTestList extends cdktf.ComplexList {
 }
 export interface WebapputStringLengthTestsStringLengthMessageStringLengthMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
 }
@@ -5666,7 +5670,7 @@ export class WebapputStringLengthTestsStringLengthMessageStringLengthMessageList
 }
 export interface WebapputStringLengthTestsStringLengthMessageStringLengthMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
 }
@@ -5782,23 +5786,23 @@ export class WebapputStringLengthTestsStringLengthMessageStringLengthMessagesLis
 }
 export interface WebapputStringLengthTestsStringLengthMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_strings Webapput#test_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_strings Webapput#test_strings}
   */
   readonly testStrings?: string[];
   /**
   * string_length_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_message Webapput#string_length_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_message Webapput#string_length_message}
   */
   readonly stringLengthMessage?: WebapputStringLengthTestsStringLengthMessageStringLengthMessage[] | cdktf.IResolvable;
   /**
   * string_length_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_messages Webapput#string_length_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_messages Webapput#string_length_messages}
   */
   readonly stringLengthMessages?: WebapputStringLengthTestsStringLengthMessageStringLengthMessages[] | cdktf.IResolvable;
 }
@@ -6001,7 +6005,7 @@ export class WebapputStringLengthTestsStringLengthMessageList extends cdktf.Comp
 }
 export interface WebapputStringLengthTestsStringLengthMessagesStringLengthMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
 }
@@ -6117,7 +6121,7 @@ export class WebapputStringLengthTestsStringLengthMessagesStringLengthMessageLis
 }
 export interface WebapputStringLengthTestsStringLengthMessagesStringLengthMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
 }
@@ -6233,23 +6237,23 @@ export class WebapputStringLengthTestsStringLengthMessagesStringLengthMessagesLi
 }
 export interface WebapputStringLengthTestsStringLengthMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_strings Webapput#test_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_strings Webapput#test_strings}
   */
   readonly testStrings?: string[];
   /**
   * string_length_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_message Webapput#string_length_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_message Webapput#string_length_message}
   */
   readonly stringLengthMessage?: WebapputStringLengthTestsStringLengthMessagesStringLengthMessage[] | cdktf.IResolvable;
   /**
   * string_length_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_messages Webapput#string_length_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_messages Webapput#string_length_messages}
   */
   readonly stringLengthMessages?: WebapputStringLengthTestsStringLengthMessagesStringLengthMessages[] | cdktf.IResolvable;
 }
@@ -6452,23 +6456,23 @@ export class WebapputStringLengthTestsStringLengthMessagesList extends cdktf.Com
 }
 export interface WebapputStringLengthTests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_string Webapput#test_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_string Webapput#test_string}
   */
   readonly testString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#test_strings Webapput#test_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#test_strings Webapput#test_strings}
   */
   readonly testStrings?: string[];
   /**
   * string_length_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_message Webapput#string_length_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_message Webapput#string_length_message}
   */
   readonly stringLengthMessage?: WebapputStringLengthTestsStringLengthMessage[] | cdktf.IResolvable;
   /**
   * string_length_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#string_length_messages Webapput#string_length_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#string_length_messages Webapput#string_length_messages}
   */
   readonly stringLengthMessages?: WebapputStringLengthTestsStringLengthMessages[] | cdktf.IResolvable;
 }
@@ -6671,7 +6675,7 @@ export class WebapputStringLengthTestsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput avi_webapput}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput avi_webapput}
 */
 export class Webapput extends cdktf.TerraformResource {
 
@@ -6687,7 +6691,7 @@ export class Webapput extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Webapput resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Webapput to import
-  * @param importFromId The id of the existing Webapput that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Webapput that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Webapput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6699,7 +6703,7 @@ export class Webapput extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/webapput avi_webapput} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/webapput avi_webapput} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6710,8 +6714,8 @@ export class Webapput extends cdktf.TerraformResource {
       terraformResourceType: 'avi_webapput',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -6721,10 +6725,11 @@ export class Webapput extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._cloudRef = config.cloudRef;
+    this._defaultFifthInt = config.defaultFifthInt;
     this._defaultFirstInt = config.defaultFirstInt;
-    this._defaultSecondInt = config.defaultSecondInt;
+    this._defaultFourthInt = config.defaultFourthInt;
     this._defaultString = config.defaultString;
-    this._defaultThirdInt = config.defaultThirdInt;
     this._id = config.id;
     this._name = config.name;
     this._skipOptionalCheckTests = config.skipOptionalCheckTests;
@@ -6745,6 +6750,38 @@ export class Webapput extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
+  // cloud_ref - computed: true, optional: true, required: false
+  private _cloudRef?: string; 
+  public get cloudRef() {
+    return this.getStringAttribute('cloud_ref');
+  }
+  public set cloudRef(value: string) {
+    this._cloudRef = value;
+  }
+  public resetCloudRef() {
+    this._cloudRef = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cloudRefInput() {
+    return this._cloudRef;
+  }
+
+  // default_fifth_int - computed: false, optional: true, required: false
+  private _defaultFifthInt?: string; 
+  public get defaultFifthInt() {
+    return this.getStringAttribute('default_fifth_int');
+  }
+  public set defaultFifthInt(value: string) {
+    this._defaultFifthInt = value;
+  }
+  public resetDefaultFifthInt() {
+    this._defaultFifthInt = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultFifthIntInput() {
+    return this._defaultFifthInt;
+  }
+
   // default_first_int - computed: false, optional: true, required: false
   private _defaultFirstInt?: string; 
   public get defaultFirstInt() {
@@ -6761,20 +6798,20 @@ export class Webapput extends cdktf.TerraformResource {
     return this._defaultFirstInt;
   }
 
-  // default_second_int - computed: false, optional: true, required: false
-  private _defaultSecondInt?: string; 
-  public get defaultSecondInt() {
-    return this.getStringAttribute('default_second_int');
+  // default_fourth_int - computed: false, optional: true, required: false
+  private _defaultFourthInt?: string; 
+  public get defaultFourthInt() {
+    return this.getStringAttribute('default_fourth_int');
   }
-  public set defaultSecondInt(value: string) {
-    this._defaultSecondInt = value;
+  public set defaultFourthInt(value: string) {
+    this._defaultFourthInt = value;
   }
-  public resetDefaultSecondInt() {
-    this._defaultSecondInt = undefined;
+  public resetDefaultFourthInt() {
+    this._defaultFourthInt = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get defaultSecondIntInput() {
-    return this._defaultSecondInt;
+  public get defaultFourthIntInput() {
+    return this._defaultFourthInt;
   }
 
   // default_string - computed: false, optional: true, required: false
@@ -6791,22 +6828,6 @@ export class Webapput extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get defaultStringInput() {
     return this._defaultString;
-  }
-
-  // default_third_int - computed: false, optional: true, required: false
-  private _defaultThirdInt?: string; 
-  public get defaultThirdInt() {
-    return this.getStringAttribute('default_third_int');
-  }
-  public set defaultThirdInt(value: string) {
-    this._defaultThirdInt = value;
-  }
-  public resetDefaultThirdInt() {
-    this._defaultThirdInt = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get defaultThirdIntInput() {
-    return this._defaultThirdInt;
   }
 
   // id - computed: true, optional: true, required: false
@@ -7036,10 +7057,11 @@ export class Webapput extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      cloud_ref: cdktf.stringToTerraform(this._cloudRef),
+      default_fifth_int: cdktf.stringToTerraform(this._defaultFifthInt),
       default_first_int: cdktf.stringToTerraform(this._defaultFirstInt),
-      default_second_int: cdktf.stringToTerraform(this._defaultSecondInt),
+      default_fourth_int: cdktf.stringToTerraform(this._defaultFourthInt),
       default_string: cdktf.stringToTerraform(this._defaultString),
-      default_third_int: cdktf.stringToTerraform(this._defaultThirdInt),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       skip_optional_check_tests: cdktf.stringToTerraform(this._skipOptionalCheckTests),
@@ -7059,26 +7081,32 @@ export class Webapput extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      cloud_ref: {
+        value: cdktf.stringToHclTerraform(this._cloudRef),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      default_fifth_int: {
+        value: cdktf.stringToHclTerraform(this._defaultFifthInt),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       default_first_int: {
         value: cdktf.stringToHclTerraform(this._defaultFirstInt),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      default_second_int: {
-        value: cdktf.stringToHclTerraform(this._defaultSecondInt),
+      default_fourth_int: {
+        value: cdktf.stringToHclTerraform(this._defaultFourthInt),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       default_string: {
         value: cdktf.stringToHclTerraform(this._defaultString),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      default_third_int: {
-        value: cdktf.stringToHclTerraform(this._defaultThirdInt),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

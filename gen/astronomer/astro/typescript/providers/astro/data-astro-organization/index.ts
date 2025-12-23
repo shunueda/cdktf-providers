@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/organization
+// https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -168,7 +168,7 @@ export class DataAstroOrganizationUpdatedByOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/organization astro_organization}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/organization astro_organization}
 */
 export class DataAstroOrganization extends cdktf.TerraformDataSource {
 
@@ -184,7 +184,7 @@ export class DataAstroOrganization extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAstroOrganization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAstroOrganization to import
-  * @param importFromId The id of the existing DataAstroOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAstroOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAstroOrganization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class DataAstroOrganization extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/organization astro_organization} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.11/docs/data-sources/organization astro_organization} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class DataAstroOrganization extends cdktf.TerraformDataSource {
       terraformResourceType: 'astro_organization',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.10',
-        providerVersionConstraint: '1.0.10'
+        providerVersion: '1.0.11',
+        providerVersionConstraint: '1.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

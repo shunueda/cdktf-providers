@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,162 +8,146 @@ import * as cdktf from 'cdktf';
 
 export interface WafpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#allow_mode_delegation Wafpolicy#allow_mode_delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#allow_mode_delegation Wafpolicy#allow_mode_delegation}
   */
   readonly allowModeDelegation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#auto_update_crs Wafpolicy#auto_update_crs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#auto_update_crs Wafpolicy#auto_update_crs}
   */
   readonly autoUpdateCrs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#bypass_static_extensions Wafpolicy#bypass_static_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#bypass_static_extensions Wafpolicy#bypass_static_extensions}
   */
   readonly bypassStaticExtensions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#created_by Wafpolicy#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#created_by Wafpolicy#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#description Wafpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#description Wafpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable_app_learning Wafpolicy#enable_app_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#enable_streaming Wafpolicy#enable_streaming}
   */
-  readonly enableAppLearning?: string;
+  readonly enableStreaming?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable_auto_rule_updates Wafpolicy#enable_auto_rule_updates}
-  */
-  readonly enableAutoRuleUpdates?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable_regex_learning Wafpolicy#enable_regex_learning}
-  */
-  readonly enableRegexLearning?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#failure_mode Wafpolicy#failure_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#failure_mode Wafpolicy#failure_mode}
   */
   readonly failureMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#geo_db_ref Wafpolicy#geo_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#fixed_sampling_rate Wafpolicy#fixed_sampling_rate}
+  */
+  readonly fixedSamplingRate?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#geo_db_ref Wafpolicy#geo_db_ref}
   */
   readonly geoDbRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#id Wafpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#id Wafpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#min_confidence Wafpolicy#min_confidence}
-  */
-  readonly minConfidence?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mode Wafpolicy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mode Wafpolicy#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#name Wafpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#name Wafpolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#paranoia_level Wafpolicy#paranoia_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#paranoia_level Wafpolicy#paranoia_level}
   */
   readonly paranoiaLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#tenant_ref Wafpolicy#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#sampling_mode Wafpolicy#sampling_mode}
+  */
+  readonly samplingMode?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#tenant_ref Wafpolicy#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#updated_crs_rules_in_detection_mode Wafpolicy#updated_crs_rules_in_detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#use_evaluation_mode_on_crs_update Wafpolicy#use_evaluation_mode_on_crs_update}
   */
-  readonly updatedCrsRulesInDetectionMode?: string;
+  readonly useEvaluationModeOnCrsUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uuid Wafpolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uuid Wafpolicy#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#waf_crs_ref Wafpolicy#waf_crs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#waf_crs_ref Wafpolicy#waf_crs_ref}
   */
   readonly wafCrsRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#waf_profile_ref Wafpolicy#waf_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#waf_profile_ref Wafpolicy#waf_profile_ref}
   */
   readonly wafProfileRef: string;
   /**
   * allowlist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#allowlist Wafpolicy#allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#allowlist Wafpolicy#allowlist}
   */
   readonly allowlist?: WafpolicyAllowlistStruct[] | cdktf.IResolvable;
   /**
   * application_signatures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#application_signatures Wafpolicy#application_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#application_signatures Wafpolicy#application_signatures}
   */
   readonly applicationSignatures?: WafpolicyApplicationSignatures[] | cdktf.IResolvable;
   /**
-  * confidence_override block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#confidence_override Wafpolicy#confidence_override}
-  */
-  readonly confidenceOverride?: WafpolicyConfidenceOverride[] | cdktf.IResolvable;
-  /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#configpb_attributes Wafpolicy#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#configpb_attributes Wafpolicy#configpb_attributes}
   */
   readonly configpbAttributes?: WafpolicyConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * crs_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#crs_overrides Wafpolicy#crs_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#crs_overrides Wafpolicy#crs_overrides}
   */
   readonly crsOverrides?: WafpolicyCrsOverrides[] | cdktf.IResolvable;
   /**
-  * learning_params block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#learning_params Wafpolicy#learning_params}
-  */
-  readonly learningParams?: WafpolicyLearningParams[] | cdktf.IResolvable;
-  /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#markers Wafpolicy#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#markers Wafpolicy#markers}
   */
   readonly markers?: WafpolicyMarkers[] | cdktf.IResolvable;
   /**
   * positive_security_model block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#positive_security_model Wafpolicy#positive_security_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#positive_security_model Wafpolicy#positive_security_model}
   */
   readonly positiveSecurityModel?: WafpolicyPositiveSecurityModel[] | cdktf.IResolvable;
   /**
   * post_crs_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#post_crs_groups Wafpolicy#post_crs_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#post_crs_groups Wafpolicy#post_crs_groups}
   */
   readonly postCrsGroups?: WafpolicyPostCrsGroups[] | cdktf.IResolvable;
   /**
   * pre_crs_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#pre_crs_groups Wafpolicy#pre_crs_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#pre_crs_groups Wafpolicy#pre_crs_groups}
   */
   readonly preCrsGroups?: WafpolicyPreCrsGroups[] | cdktf.IResolvable;
   /**
   * required_data_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#required_data_files Wafpolicy#required_data_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#required_data_files Wafpolicy#required_data_files}
   */
   readonly requiredDataFiles?: WafpolicyRequiredDataFiles[] | cdktf.IResolvable;
 }
 export interface WafpolicyAllowlistRulesMatchBotDetectionResultClassifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#user_defined_type Wafpolicy#user_defined_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#user_defined_type Wafpolicy#user_defined_type}
   */
   readonly userDefinedType?: string;
 }
@@ -305,13 +289,13 @@ export class WafpolicyAllowlistRulesMatchBotDetectionResultClassificationsList e
 }
 export interface WafpolicyAllowlistRulesMatchBotDetectionResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_operation Wafpolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_operation Wafpolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
   * classifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#classifications Wafpolicy#classifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#classifications Wafpolicy#classifications}
   */
   readonly classifications?: WafpolicyAllowlistRulesMatchBotDetectionResultClassifications[] | cdktf.IResolvable;
 }
@@ -453,11 +437,11 @@ export class WafpolicyAllowlistRulesMatchBotDetectionResultList extends cdktf.Co
 }
 export interface WafpolicyAllowlistRulesMatchClientIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -596,11 +580,11 @@ export class WafpolicyAllowlistRulesMatchClientIpAddrsList extends cdktf.Complex
 }
 export interface WafpolicyAllowlistRulesMatchClientIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -739,13 +723,13 @@ export class WafpolicyAllowlistRulesMatchClientIpPrefixesIpAddrList extends cdkt
 }
 export interface WafpolicyAllowlistRulesMatchClientIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mask Wafpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mask Wafpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
   */
   readonly ipAddr: WafpolicyAllowlistRulesMatchClientIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -884,11 +868,11 @@ export class WafpolicyAllowlistRulesMatchClientIpPrefixesList extends cdktf.Comp
 }
 export interface WafpolicyAllowlistRulesMatchClientIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -1027,11 +1011,11 @@ export class WafpolicyAllowlistRulesMatchClientIpRangesBeginList extends cdktf.C
 }
 export interface WafpolicyAllowlistRulesMatchClientIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -1172,13 +1156,13 @@ export interface WafpolicyAllowlistRulesMatchClientIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#begin Wafpolicy#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#begin Wafpolicy#begin}
   */
   readonly begin: WafpolicyAllowlistRulesMatchClientIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#end Wafpolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#end Wafpolicy#end}
   */
   readonly end: WafpolicyAllowlistRulesMatchClientIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -1317,29 +1301,29 @@ export class WafpolicyAllowlistRulesMatchClientIpRangesList extends cdktf.Comple
 }
 export interface WafpolicyAllowlistRulesMatchClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#group_refs Wafpolicy#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#group_refs Wafpolicy#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addrs Wafpolicy#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addrs Wafpolicy#addrs}
   */
   readonly addrs?: WafpolicyAllowlistRulesMatchClientIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#prefixes Wafpolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#prefixes Wafpolicy#prefixes}
   */
   readonly prefixes?: WafpolicyAllowlistRulesMatchClientIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ranges Wafpolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ranges Wafpolicy#ranges}
   */
   readonly ranges?: WafpolicyAllowlistRulesMatchClientIpRanges[] | cdktf.IResolvable;
 }
@@ -1568,19 +1552,19 @@ export class WafpolicyAllowlistRulesMatchClientIpList extends cdktf.ComplexList 
 }
 export interface WafpolicyAllowlistRulesMatchCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#name Wafpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#name Wafpolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#value Wafpolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#value Wafpolicy#value}
   */
   readonly value?: string;
 }
@@ -1777,15 +1761,15 @@ export class WafpolicyAllowlistRulesMatchCookieList extends cdktf.ComplexList {
 }
 export interface WafpolicyAllowlistRulesMatchGeoMatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#attribute Wafpolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#attribute Wafpolicy#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_operation Wafpolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_operation Wafpolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#values Wafpolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#values Wafpolicy#values}
   */
   readonly values: string[];
 }
@@ -1950,19 +1934,23 @@ export class WafpolicyAllowlistRulesMatchGeoMatchesList extends cdktf.ComplexLis
 }
 export interface WafpolicyAllowlistRulesMatchHdrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#hdr Wafpolicy#hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#hdr Wafpolicy#hdr}
   */
   readonly hdr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#value Wafpolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#string_group_refs Wafpolicy#string_group_refs}
+  */
+  readonly stringGroupRefs?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#value Wafpolicy#value}
   */
   readonly value?: string[];
 }
@@ -1976,6 +1964,7 @@ export function wafpolicyAllowlistRulesMatchHdrsToTerraform(struct?: WafpolicyAl
     hdr: cdktf.stringToTerraform(struct!.hdr),
     match_case: cdktf.stringToTerraform(struct!.matchCase),
     match_criteria: cdktf.stringToTerraform(struct!.matchCriteria),
+    string_group_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.stringGroupRefs),
     value: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.value),
   }
 }
@@ -2004,6 +1993,12 @@ export function wafpolicyAllowlistRulesMatchHdrsToHclTerraform(struct?: Wafpolic
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    string_group_refs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.stringGroupRefs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
     },
     value: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.value),
@@ -2049,6 +2044,10 @@ export class WafpolicyAllowlistRulesMatchHdrsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.matchCriteria = this._matchCriteria;
     }
+    if (this._stringGroupRefs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stringGroupRefs = this._stringGroupRefs;
+    }
     if (this._value !== undefined) {
       hasAnyValues = true;
       internalValueResult.value = this._value;
@@ -2063,6 +2062,7 @@ export class WafpolicyAllowlistRulesMatchHdrsOutputReference extends cdktf.Compl
       this._hdr = undefined;
       this._matchCase = undefined;
       this._matchCriteria = undefined;
+      this._stringGroupRefs = undefined;
       this._value = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -2075,6 +2075,7 @@ export class WafpolicyAllowlistRulesMatchHdrsOutputReference extends cdktf.Compl
       this._hdr = value.hdr;
       this._matchCase = value.matchCase;
       this._matchCriteria = value.matchCriteria;
+      this._stringGroupRefs = value.stringGroupRefs;
       this._value = value.value;
     }
   }
@@ -2121,6 +2122,22 @@ export class WafpolicyAllowlistRulesMatchHdrsOutputReference extends cdktf.Compl
     return this._matchCriteria;
   }
 
+  // string_group_refs - computed: false, optional: true, required: false
+  private _stringGroupRefs?: string[]; 
+  public get stringGroupRefs() {
+    return this.getListAttribute('string_group_refs');
+  }
+  public set stringGroupRefs(value: string[]) {
+    this._stringGroupRefs = value;
+  }
+  public resetStringGroupRefs() {
+    this._stringGroupRefs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stringGroupRefsInput() {
+    return this._stringGroupRefs;
+  }
+
   // value - computed: false, optional: true, required: false
   private _value?: string[]; 
   public get value() {
@@ -2159,15 +2176,15 @@ export class WafpolicyAllowlistRulesMatchHdrsList extends cdktf.ComplexList {
 }
 export interface WafpolicyAllowlistRulesMatchHostHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#value Wafpolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#value Wafpolicy#value}
   */
   readonly value?: string[];
 }
@@ -2338,11 +2355,11 @@ export class WafpolicyAllowlistRulesMatchHostHdrList extends cdktf.ComplexList {
 }
 export interface WafpolicyAllowlistRulesMatchIpReputationType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_operation Wafpolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_operation Wafpolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#reputation_types Wafpolicy#reputation_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#reputation_types Wafpolicy#reputation_types}
   */
   readonly reputationTypes: string[];
 }
@@ -2481,11 +2498,11 @@ export class WafpolicyAllowlistRulesMatchIpReputationTypeList extends cdktf.Comp
 }
 export interface WafpolicyAllowlistRulesMatchMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#methods Wafpolicy#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#methods Wafpolicy#methods}
   */
   readonly methods: string[];
 }
@@ -2624,23 +2641,23 @@ export class WafpolicyAllowlistRulesMatchMethodList extends cdktf.ComplexList {
 }
 export interface WafpolicyAllowlistRulesMatchPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_decoded_string Wafpolicy#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_decoded_string Wafpolicy#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_str Wafpolicy#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_str Wafpolicy#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#string_group_refs Wafpolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#string_group_refs Wafpolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -2869,11 +2886,11 @@ export class WafpolicyAllowlistRulesMatchPathList extends cdktf.ComplexList {
 }
 export interface WafpolicyAllowlistRulesMatchProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#protocols Wafpolicy#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#protocols Wafpolicy#protocols}
   */
   readonly protocols: string;
 }
@@ -3012,23 +3029,23 @@ export class WafpolicyAllowlistRulesMatchProtocolList extends cdktf.ComplexList 
 }
 export interface WafpolicyAllowlistRulesMatchQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_decoded_string Wafpolicy#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_decoded_string Wafpolicy#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_str Wafpolicy#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_str Wafpolicy#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#string_group_refs Wafpolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#string_group_refs Wafpolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -3257,11 +3274,11 @@ export class WafpolicyAllowlistRulesMatchQueryList extends cdktf.ComplexList {
 }
 export interface WafpolicyAllowlistRulesMatchSourceIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -3400,11 +3417,11 @@ export class WafpolicyAllowlistRulesMatchSourceIpAddrsList extends cdktf.Complex
 }
 export interface WafpolicyAllowlistRulesMatchSourceIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -3543,13 +3560,13 @@ export class WafpolicyAllowlistRulesMatchSourceIpPrefixesIpAddrList extends cdkt
 }
 export interface WafpolicyAllowlistRulesMatchSourceIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mask Wafpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mask Wafpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
   */
   readonly ipAddr: WafpolicyAllowlistRulesMatchSourceIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -3688,11 +3705,11 @@ export class WafpolicyAllowlistRulesMatchSourceIpPrefixesList extends cdktf.Comp
 }
 export interface WafpolicyAllowlistRulesMatchSourceIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -3831,11 +3848,11 @@ export class WafpolicyAllowlistRulesMatchSourceIpRangesBeginList extends cdktf.C
 }
 export interface WafpolicyAllowlistRulesMatchSourceIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -3976,13 +3993,13 @@ export interface WafpolicyAllowlistRulesMatchSourceIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#begin Wafpolicy#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#begin Wafpolicy#begin}
   */
   readonly begin: WafpolicyAllowlistRulesMatchSourceIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#end Wafpolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#end Wafpolicy#end}
   */
   readonly end: WafpolicyAllowlistRulesMatchSourceIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -4121,29 +4138,29 @@ export class WafpolicyAllowlistRulesMatchSourceIpRangesList extends cdktf.Comple
 }
 export interface WafpolicyAllowlistRulesMatchSourceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#group_refs Wafpolicy#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#group_refs Wafpolicy#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addrs Wafpolicy#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addrs Wafpolicy#addrs}
   */
   readonly addrs?: WafpolicyAllowlistRulesMatchSourceIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#prefixes Wafpolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#prefixes Wafpolicy#prefixes}
   */
   readonly prefixes?: WafpolicyAllowlistRulesMatchSourceIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ranges Wafpolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ranges Wafpolicy#ranges}
   */
   readonly ranges?: WafpolicyAllowlistRulesMatchSourceIpRanges[] | cdktf.IResolvable;
 }
@@ -4372,15 +4389,15 @@ export class WafpolicyAllowlistRulesMatchSourceIpList extends cdktf.ComplexList 
 }
 export interface WafpolicyAllowlistRulesMatchTlsFingerprintMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#fingerprints Wafpolicy#fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#fingerprints Wafpolicy#fingerprints}
   */
   readonly fingerprints?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_operation Wafpolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_operation Wafpolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#string_group_refs Wafpolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#string_group_refs Wafpolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -4551,11 +4568,11 @@ export class WafpolicyAllowlistRulesMatchTlsFingerprintMatchList extends cdktf.C
 }
 export interface WafpolicyAllowlistRulesMatchVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#versions Wafpolicy#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#versions Wafpolicy#versions}
   */
   readonly versions: string[];
 }
@@ -4694,11 +4711,11 @@ export class WafpolicyAllowlistRulesMatchVersionList extends cdktf.ComplexList {
 }
 export interface WafpolicyAllowlistRulesMatchVsPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_criteria Wafpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ports Wafpolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ports Wafpolicy#ports}
   */
   readonly ports: number[];
 }
@@ -4839,91 +4856,91 @@ export interface WafpolicyAllowlistRulesMatch {
   /**
   * bot_detection_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#bot_detection_result Wafpolicy#bot_detection_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#bot_detection_result Wafpolicy#bot_detection_result}
   */
   readonly botDetectionResult?: WafpolicyAllowlistRulesMatchBotDetectionResult[] | cdktf.IResolvable;
   /**
   * client_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#client_ip Wafpolicy#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#client_ip Wafpolicy#client_ip}
   */
   readonly clientIp?: WafpolicyAllowlistRulesMatchClientIp[] | cdktf.IResolvable;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#cookie Wafpolicy#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#cookie Wafpolicy#cookie}
   */
   readonly cookie?: WafpolicyAllowlistRulesMatchCookie[] | cdktf.IResolvable;
   /**
   * geo_matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#geo_matches Wafpolicy#geo_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#geo_matches Wafpolicy#geo_matches}
   */
   readonly geoMatches?: WafpolicyAllowlistRulesMatchGeoMatches[] | cdktf.IResolvable;
   /**
   * hdrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#hdrs Wafpolicy#hdrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#hdrs Wafpolicy#hdrs}
   */
   readonly hdrs?: WafpolicyAllowlistRulesMatchHdrs[] | cdktf.IResolvable;
   /**
   * host_hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#host_hdr Wafpolicy#host_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#host_hdr Wafpolicy#host_hdr}
   */
   readonly hostHdr?: WafpolicyAllowlistRulesMatchHostHdr[] | cdktf.IResolvable;
   /**
   * ip_reputation_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ip_reputation_type Wafpolicy#ip_reputation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ip_reputation_type Wafpolicy#ip_reputation_type}
   */
   readonly ipReputationType?: WafpolicyAllowlistRulesMatchIpReputationType[] | cdktf.IResolvable;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#method Wafpolicy#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#method Wafpolicy#method}
   */
   readonly method?: WafpolicyAllowlistRulesMatchMethod[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#path Wafpolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#path Wafpolicy#path}
   */
   readonly path?: WafpolicyAllowlistRulesMatchPath[] | cdktf.IResolvable;
   /**
   * protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#protocol Wafpolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#protocol Wafpolicy#protocol}
   */
   readonly protocol?: WafpolicyAllowlistRulesMatchProtocol[] | cdktf.IResolvable;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#query Wafpolicy#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#query Wafpolicy#query}
   */
   readonly query?: WafpolicyAllowlistRulesMatchQuery[] | cdktf.IResolvable;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#source_ip Wafpolicy#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#source_ip Wafpolicy#source_ip}
   */
   readonly sourceIp?: WafpolicyAllowlistRulesMatchSourceIp[] | cdktf.IResolvable;
   /**
   * tls_fingerprint_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#tls_fingerprint_match Wafpolicy#tls_fingerprint_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#tls_fingerprint_match Wafpolicy#tls_fingerprint_match}
   */
   readonly tlsFingerprintMatch?: WafpolicyAllowlistRulesMatchTlsFingerprintMatch[] | cdktf.IResolvable;
   /**
   * version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#version Wafpolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#version Wafpolicy#version}
   */
   readonly version?: WafpolicyAllowlistRulesMatchVersion[] | cdktf.IResolvable;
   /**
   * vs_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#vs_port Wafpolicy#vs_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#vs_port Wafpolicy#vs_port}
   */
   readonly vsPort?: WafpolicyAllowlistRulesMatchVsPort[] | cdktf.IResolvable;
 }
@@ -5445,33 +5462,33 @@ export class WafpolicyAllowlistRulesMatchList extends cdktf.ComplexList {
 }
 export interface WafpolicyAllowlistRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#actions Wafpolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#actions Wafpolicy#actions}
   */
   readonly actions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#description Wafpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#description Wafpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable Wafpolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#enable Wafpolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#index Wafpolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#index Wafpolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#name Wafpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#name Wafpolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#sampling_percent Wafpolicy#sampling_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#sampling_percent Wafpolicy#sampling_percent}
   */
   readonly samplingPercent?: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match Wafpolicy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match Wafpolicy#match}
   */
   readonly match: WafpolicyAllowlistRulesMatch[] | cdktf.IResolvable;
 }
@@ -5751,7 +5768,7 @@ export interface WafpolicyAllowlistStruct {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rules Wafpolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rules Wafpolicy#rules}
   */
   readonly rules?: WafpolicyAllowlistRules[] | cdktf.IResolvable;
 }
@@ -5867,11 +5884,11 @@ export class WafpolicyAllowlistStructList extends cdktf.ComplexList {
 }
 export interface WafpolicyApplicationSignaturesResolvedRulesExcludeListClientSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -6010,13 +6027,13 @@ export class WafpolicyApplicationSignaturesResolvedRulesExcludeListClientSubnetI
 }
 export interface WafpolicyApplicationSignaturesResolvedRulesExcludeListClientSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mask Wafpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mask Wafpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
   */
   readonly ipAddr: WafpolicyApplicationSignaturesResolvedRulesExcludeListClientSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -6155,11 +6172,11 @@ export class WafpolicyApplicationSignaturesResolvedRulesExcludeListClientSubnetL
 }
 export interface WafpolicyApplicationSignaturesResolvedRulesExcludeListMatchElementCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -6304,11 +6321,11 @@ export class WafpolicyApplicationSignaturesResolvedRulesExcludeListMatchElementC
 }
 export interface WafpolicyApplicationSignaturesResolvedRulesExcludeListUriMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -6453,33 +6470,33 @@ export class WafpolicyApplicationSignaturesResolvedRulesExcludeListUriMatchCrite
 }
 export interface WafpolicyApplicationSignaturesResolvedRulesExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#description Wafpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#description Wafpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
   */
   readonly matchElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
   */
   readonly uriPath?: string;
   /**
   * client_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
   */
   readonly clientSubnet?: WafpolicyApplicationSignaturesResolvedRulesExcludeListClientSubnet[] | cdktf.IResolvable;
   /**
   * match_element_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
   */
   readonly matchElementCriteria?: WafpolicyApplicationSignaturesResolvedRulesExcludeListMatchElementCriteria[] | cdktf.IResolvable;
   /**
   * uri_match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
   */
   readonly uriMatchCriteria?: WafpolicyApplicationSignaturesResolvedRulesExcludeListUriMatchCriteria[] | cdktf.IResolvable;
 }
@@ -6740,49 +6757,49 @@ export class WafpolicyApplicationSignaturesResolvedRulesExcludeListStructList ex
 }
 export interface WafpolicyApplicationSignaturesResolvedRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable Wafpolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#enable Wafpolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#index Wafpolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#index Wafpolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#is_sensitive Wafpolicy#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#is_sensitive Wafpolicy#is_sensitive}
   */
   readonly isSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mode Wafpolicy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mode Wafpolicy#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#name Wafpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#name Wafpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#paranoia_level Wafpolicy#paranoia_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#paranoia_level Wafpolicy#paranoia_level}
   */
   readonly paranoiaLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#phase Wafpolicy#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#phase Wafpolicy#phase}
   */
   readonly phase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rule Wafpolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rule Wafpolicy#rule}
   */
   readonly rule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rule_id Wafpolicy#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rule_id Wafpolicy#rule_id}
   */
   readonly ruleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#tags Wafpolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#tags Wafpolicy#tags}
   */
   readonly tags?: string[];
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
   */
   readonly excludeList?: WafpolicyApplicationSignaturesResolvedRulesExcludeListStruct[] | cdktf.IResolvable;
 }
@@ -7182,11 +7199,11 @@ export class WafpolicyApplicationSignaturesResolvedRulesList extends cdktf.Compl
 }
 export interface WafpolicyApplicationSignaturesRuleOverridesExcludeListClientSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -7325,13 +7342,13 @@ export class WafpolicyApplicationSignaturesRuleOverridesExcludeListClientSubnetI
 }
 export interface WafpolicyApplicationSignaturesRuleOverridesExcludeListClientSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mask Wafpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mask Wafpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
   */
   readonly ipAddr: WafpolicyApplicationSignaturesRuleOverridesExcludeListClientSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -7470,11 +7487,11 @@ export class WafpolicyApplicationSignaturesRuleOverridesExcludeListClientSubnetL
 }
 export interface WafpolicyApplicationSignaturesRuleOverridesExcludeListMatchElementCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -7619,11 +7636,11 @@ export class WafpolicyApplicationSignaturesRuleOverridesExcludeListMatchElementC
 }
 export interface WafpolicyApplicationSignaturesRuleOverridesExcludeListUriMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -7768,33 +7785,33 @@ export class WafpolicyApplicationSignaturesRuleOverridesExcludeListUriMatchCrite
 }
 export interface WafpolicyApplicationSignaturesRuleOverridesExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#description Wafpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#description Wafpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
   */
   readonly matchElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
   */
   readonly uriPath?: string;
   /**
   * client_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
   */
   readonly clientSubnet?: WafpolicyApplicationSignaturesRuleOverridesExcludeListClientSubnet[] | cdktf.IResolvable;
   /**
   * match_element_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
   */
   readonly matchElementCriteria?: WafpolicyApplicationSignaturesRuleOverridesExcludeListMatchElementCriteria[] | cdktf.IResolvable;
   /**
   * uri_match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
   */
   readonly uriMatchCriteria?: WafpolicyApplicationSignaturesRuleOverridesExcludeListUriMatchCriteria[] | cdktf.IResolvable;
 }
@@ -8055,21 +8072,21 @@ export class WafpolicyApplicationSignaturesRuleOverridesExcludeListStructList ex
 }
 export interface WafpolicyApplicationSignaturesRuleOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable Wafpolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#enable Wafpolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mode Wafpolicy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mode Wafpolicy#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rule_id Wafpolicy#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rule_id Wafpolicy#rule_id}
   */
   readonly ruleId: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
   */
   readonly excludeList?: WafpolicyApplicationSignaturesRuleOverridesExcludeListStruct[] | cdktf.IResolvable;
 }
@@ -8269,27 +8286,27 @@ export class WafpolicyApplicationSignaturesRuleOverridesList extends cdktf.Compl
 }
 export interface WafpolicyApplicationSignatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#provider_ref Wafpolicy#provider_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#provider_ref Wafpolicy#provider_ref}
   */
   readonly providerRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ruleset_version Wafpolicy#ruleset_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ruleset_version Wafpolicy#ruleset_version}
   */
   readonly rulesetVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#selected_applications Wafpolicy#selected_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#selected_applications Wafpolicy#selected_applications}
   */
   readonly selectedApplications?: string[];
   /**
   * resolved_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#resolved_rules Wafpolicy#resolved_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#resolved_rules Wafpolicy#resolved_rules}
   */
   readonly resolvedRules?: WafpolicyApplicationSignaturesResolvedRules[] | cdktf.IResolvable;
   /**
   * rule_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rule_overrides Wafpolicy#rule_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rule_overrides Wafpolicy#rule_overrides}
   */
   readonly ruleOverrides?: WafpolicyApplicationSignaturesRuleOverrides[] | cdktf.IResolvable;
 }
@@ -8519,224 +8536,9 @@ export class WafpolicyApplicationSignaturesList extends cdktf.ComplexList {
     return new WafpolicyApplicationSignaturesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface WafpolicyConfidenceOverride {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#confid_high_value Wafpolicy#confid_high_value}
-  */
-  readonly confidHighValue?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#confid_low_value Wafpolicy#confid_low_value}
-  */
-  readonly confidLowValue?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#confid_probable_value Wafpolicy#confid_probable_value}
-  */
-  readonly confidProbableValue?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#confid_very_high_value Wafpolicy#confid_very_high_value}
-  */
-  readonly confidVeryHighValue?: string;
-}
-
-export function wafpolicyConfidenceOverrideToTerraform(struct?: WafpolicyConfidenceOverride | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    confid_high_value: cdktf.stringToTerraform(struct!.confidHighValue),
-    confid_low_value: cdktf.stringToTerraform(struct!.confidLowValue),
-    confid_probable_value: cdktf.stringToTerraform(struct!.confidProbableValue),
-    confid_very_high_value: cdktf.stringToTerraform(struct!.confidVeryHighValue),
-  }
-}
-
-
-export function wafpolicyConfidenceOverrideToHclTerraform(struct?: WafpolicyConfidenceOverride | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    confid_high_value: {
-      value: cdktf.stringToHclTerraform(struct!.confidHighValue),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    confid_low_value: {
-      value: cdktf.stringToHclTerraform(struct!.confidLowValue),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    confid_probable_value: {
-      value: cdktf.stringToHclTerraform(struct!.confidProbableValue),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    confid_very_high_value: {
-      value: cdktf.stringToHclTerraform(struct!.confidVeryHighValue),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class WafpolicyConfidenceOverrideOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): WafpolicyConfidenceOverride | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._confidHighValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.confidHighValue = this._confidHighValue;
-    }
-    if (this._confidLowValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.confidLowValue = this._confidLowValue;
-    }
-    if (this._confidProbableValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.confidProbableValue = this._confidProbableValue;
-    }
-    if (this._confidVeryHighValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.confidVeryHighValue = this._confidVeryHighValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: WafpolicyConfidenceOverride | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._confidHighValue = undefined;
-      this._confidLowValue = undefined;
-      this._confidProbableValue = undefined;
-      this._confidVeryHighValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._confidHighValue = value.confidHighValue;
-      this._confidLowValue = value.confidLowValue;
-      this._confidProbableValue = value.confidProbableValue;
-      this._confidVeryHighValue = value.confidVeryHighValue;
-    }
-  }
-
-  // confid_high_value - computed: false, optional: true, required: false
-  private _confidHighValue?: string; 
-  public get confidHighValue() {
-    return this.getStringAttribute('confid_high_value');
-  }
-  public set confidHighValue(value: string) {
-    this._confidHighValue = value;
-  }
-  public resetConfidHighValue() {
-    this._confidHighValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get confidHighValueInput() {
-    return this._confidHighValue;
-  }
-
-  // confid_low_value - computed: false, optional: true, required: false
-  private _confidLowValue?: string; 
-  public get confidLowValue() {
-    return this.getStringAttribute('confid_low_value');
-  }
-  public set confidLowValue(value: string) {
-    this._confidLowValue = value;
-  }
-  public resetConfidLowValue() {
-    this._confidLowValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get confidLowValueInput() {
-    return this._confidLowValue;
-  }
-
-  // confid_probable_value - computed: false, optional: true, required: false
-  private _confidProbableValue?: string; 
-  public get confidProbableValue() {
-    return this.getStringAttribute('confid_probable_value');
-  }
-  public set confidProbableValue(value: string) {
-    this._confidProbableValue = value;
-  }
-  public resetConfidProbableValue() {
-    this._confidProbableValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get confidProbableValueInput() {
-    return this._confidProbableValue;
-  }
-
-  // confid_very_high_value - computed: false, optional: true, required: false
-  private _confidVeryHighValue?: string; 
-  public get confidVeryHighValue() {
-    return this.getStringAttribute('confid_very_high_value');
-  }
-  public set confidVeryHighValue(value: string) {
-    this._confidVeryHighValue = value;
-  }
-  public resetConfidVeryHighValue() {
-    this._confidVeryHighValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get confidVeryHighValueInput() {
-    return this._confidVeryHighValue;
-  }
-}
-
-export class WafpolicyConfidenceOverrideList extends cdktf.ComplexList {
-  public internalValue? : WafpolicyConfidenceOverride[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): WafpolicyConfidenceOverrideOutputReference {
-    return new WafpolicyConfidenceOverrideOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface WafpolicyConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#version Wafpolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#version Wafpolicy#version}
   */
   readonly version?: string;
 }
@@ -8852,11 +8654,11 @@ export class WafpolicyConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface WafpolicyCrsOverridesExcludeListClientSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -8995,13 +8797,13 @@ export class WafpolicyCrsOverridesExcludeListClientSubnetIpAddrList extends cdkt
 }
 export interface WafpolicyCrsOverridesExcludeListClientSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mask Wafpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mask Wafpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
   */
   readonly ipAddr: WafpolicyCrsOverridesExcludeListClientSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -9140,11 +8942,11 @@ export class WafpolicyCrsOverridesExcludeListClientSubnetList extends cdktf.Comp
 }
 export interface WafpolicyCrsOverridesExcludeListMatchElementCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -9289,11 +9091,11 @@ export class WafpolicyCrsOverridesExcludeListMatchElementCriteriaList extends cd
 }
 export interface WafpolicyCrsOverridesExcludeListUriMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -9438,33 +9240,33 @@ export class WafpolicyCrsOverridesExcludeListUriMatchCriteriaList extends cdktf.
 }
 export interface WafpolicyCrsOverridesExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#description Wafpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#description Wafpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
   */
   readonly matchElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
   */
   readonly uriPath?: string;
   /**
   * client_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
   */
   readonly clientSubnet?: WafpolicyCrsOverridesExcludeListClientSubnet[] | cdktf.IResolvable;
   /**
   * match_element_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
   */
   readonly matchElementCriteria?: WafpolicyCrsOverridesExcludeListMatchElementCriteria[] | cdktf.IResolvable;
   /**
   * uri_match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
   */
   readonly uriMatchCriteria?: WafpolicyCrsOverridesExcludeListUriMatchCriteria[] | cdktf.IResolvable;
 }
@@ -9725,11 +9527,11 @@ export class WafpolicyCrsOverridesExcludeListStructList extends cdktf.ComplexLis
 }
 export interface WafpolicyCrsOverridesRuleOverridesExcludeListClientSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -9868,13 +9670,13 @@ export class WafpolicyCrsOverridesRuleOverridesExcludeListClientSubnetIpAddrList
 }
 export interface WafpolicyCrsOverridesRuleOverridesExcludeListClientSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mask Wafpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mask Wafpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
   */
   readonly ipAddr: WafpolicyCrsOverridesRuleOverridesExcludeListClientSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -10013,11 +9815,11 @@ export class WafpolicyCrsOverridesRuleOverridesExcludeListClientSubnetList exten
 }
 export interface WafpolicyCrsOverridesRuleOverridesExcludeListMatchElementCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -10162,11 +9964,11 @@ export class WafpolicyCrsOverridesRuleOverridesExcludeListMatchElementCriteriaLi
 }
 export interface WafpolicyCrsOverridesRuleOverridesExcludeListUriMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -10311,33 +10113,33 @@ export class WafpolicyCrsOverridesRuleOverridesExcludeListUriMatchCriteriaList e
 }
 export interface WafpolicyCrsOverridesRuleOverridesExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#description Wafpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#description Wafpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
   */
   readonly matchElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
   */
   readonly uriPath?: string;
   /**
   * client_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
   */
   readonly clientSubnet?: WafpolicyCrsOverridesRuleOverridesExcludeListClientSubnet[] | cdktf.IResolvable;
   /**
   * match_element_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
   */
   readonly matchElementCriteria?: WafpolicyCrsOverridesRuleOverridesExcludeListMatchElementCriteria[] | cdktf.IResolvable;
   /**
   * uri_match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
   */
   readonly uriMatchCriteria?: WafpolicyCrsOverridesRuleOverridesExcludeListUriMatchCriteria[] | cdktf.IResolvable;
 }
@@ -10598,21 +10400,21 @@ export class WafpolicyCrsOverridesRuleOverridesExcludeListStructList extends cdk
 }
 export interface WafpolicyCrsOverridesRuleOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable Wafpolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#enable Wafpolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mode Wafpolicy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mode Wafpolicy#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rule_id Wafpolicy#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rule_id Wafpolicy#rule_id}
   */
   readonly ruleId: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
   */
   readonly excludeList?: WafpolicyCrsOverridesRuleOverridesExcludeListStruct[] | cdktf.IResolvable;
 }
@@ -10812,27 +10614,27 @@ export class WafpolicyCrsOverridesRuleOverridesList extends cdktf.ComplexList {
 }
 export interface WafpolicyCrsOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable Wafpolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#enable Wafpolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mode Wafpolicy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mode Wafpolicy#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#name Wafpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#name Wafpolicy#name}
   */
   readonly name: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
   */
   readonly excludeList?: WafpolicyCrsOverridesExcludeListStruct[] | cdktf.IResolvable;
   /**
   * rule_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rule_overrides Wafpolicy#rule_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rule_overrides Wafpolicy#rule_overrides}
   */
   readonly ruleOverrides?: WafpolicyCrsOverridesRuleOverrides[] | cdktf.IResolvable;
 }
@@ -11059,722 +10861,13 @@ export class WafpolicyCrsOverridesList extends cdktf.ComplexList {
     return new WafpolicyCrsOverridesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface WafpolicyLearningParamsLearnFromBotsClassifications {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
-  */
-  readonly type: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#user_defined_type Wafpolicy#user_defined_type}
-  */
-  readonly userDefinedType?: string;
-}
-
-export function wafpolicyLearningParamsLearnFromBotsClassificationsToTerraform(struct?: WafpolicyLearningParamsLearnFromBotsClassifications | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    type: cdktf.stringToTerraform(struct!.type),
-    user_defined_type: cdktf.stringToTerraform(struct!.userDefinedType),
-  }
-}
-
-
-export function wafpolicyLearningParamsLearnFromBotsClassificationsToHclTerraform(struct?: WafpolicyLearningParamsLearnFromBotsClassifications | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    user_defined_type: {
-      value: cdktf.stringToHclTerraform(struct!.userDefinedType),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class WafpolicyLearningParamsLearnFromBotsClassificationsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): WafpolicyLearningParamsLearnFromBotsClassifications | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._type !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.type = this._type;
-    }
-    if (this._userDefinedType !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.userDefinedType = this._userDefinedType;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: WafpolicyLearningParamsLearnFromBotsClassifications | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._type = undefined;
-      this._userDefinedType = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._type = value.type;
-      this._userDefinedType = value.userDefinedType;
-    }
-  }
-
-  // type - computed: false, optional: false, required: true
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-
-  // user_defined_type - computed: true, optional: true, required: false
-  private _userDefinedType?: string; 
-  public get userDefinedType() {
-    return this.getStringAttribute('user_defined_type');
-  }
-  public set userDefinedType(value: string) {
-    this._userDefinedType = value;
-  }
-  public resetUserDefinedType() {
-    this._userDefinedType = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get userDefinedTypeInput() {
-    return this._userDefinedType;
-  }
-}
-
-export class WafpolicyLearningParamsLearnFromBotsClassificationsList extends cdktf.ComplexList {
-  public internalValue? : WafpolicyLearningParamsLearnFromBotsClassifications[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): WafpolicyLearningParamsLearnFromBotsClassificationsOutputReference {
-    return new WafpolicyLearningParamsLearnFromBotsClassificationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface WafpolicyLearningParamsLearnFromBots {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_operation Wafpolicy#match_operation}
-  */
-  readonly matchOperation: string;
-  /**
-  * classifications block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#classifications Wafpolicy#classifications}
-  */
-  readonly classifications?: WafpolicyLearningParamsLearnFromBotsClassifications[] | cdktf.IResolvable;
-}
-
-export function wafpolicyLearningParamsLearnFromBotsToTerraform(struct?: WafpolicyLearningParamsLearnFromBots | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    match_operation: cdktf.stringToTerraform(struct!.matchOperation),
-    classifications: cdktf.listMapper(wafpolicyLearningParamsLearnFromBotsClassificationsToTerraform, true)(struct!.classifications),
-  }
-}
-
-
-export function wafpolicyLearningParamsLearnFromBotsToHclTerraform(struct?: WafpolicyLearningParamsLearnFromBots | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    match_operation: {
-      value: cdktf.stringToHclTerraform(struct!.matchOperation),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    classifications: {
-      value: cdktf.listMapperHcl(wafpolicyLearningParamsLearnFromBotsClassificationsToHclTerraform, true)(struct!.classifications),
-      isBlock: true,
-      type: "list",
-      storageClassType: "WafpolicyLearningParamsLearnFromBotsClassificationsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class WafpolicyLearningParamsLearnFromBotsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): WafpolicyLearningParamsLearnFromBots | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._matchOperation !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.matchOperation = this._matchOperation;
-    }
-    if (this._classifications?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.classifications = this._classifications?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: WafpolicyLearningParamsLearnFromBots | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._matchOperation = undefined;
-      this._classifications.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._matchOperation = value.matchOperation;
-      this._classifications.internalValue = value.classifications;
-    }
-  }
-
-  // match_operation - computed: false, optional: false, required: true
-  private _matchOperation?: string; 
-  public get matchOperation() {
-    return this.getStringAttribute('match_operation');
-  }
-  public set matchOperation(value: string) {
-    this._matchOperation = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get matchOperationInput() {
-    return this._matchOperation;
-  }
-
-  // classifications - computed: false, optional: true, required: false
-  private _classifications = new WafpolicyLearningParamsLearnFromBotsClassificationsList(this, "classifications", false);
-  public get classifications() {
-    return this._classifications;
-  }
-  public putClassifications(value: WafpolicyLearningParamsLearnFromBotsClassifications[] | cdktf.IResolvable) {
-    this._classifications.internalValue = value;
-  }
-  public resetClassifications() {
-    this._classifications.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get classificationsInput() {
-    return this._classifications.internalValue;
-  }
-}
-
-export class WafpolicyLearningParamsLearnFromBotsList extends cdktf.ComplexList {
-  public internalValue? : WafpolicyLearningParamsLearnFromBots[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): WafpolicyLearningParamsLearnFromBotsOutputReference {
-    return new WafpolicyLearningParamsLearnFromBotsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface WafpolicyLearningParams {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable_learn_from_bots Wafpolicy#enable_learn_from_bots}
-  */
-  readonly enableLearnFromBots?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable_per_uri_learning Wafpolicy#enable_per_uri_learning}
-  */
-  readonly enablePerUriLearning?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#learn_from_authenticated_clients_only Wafpolicy#learn_from_authenticated_clients_only}
-  */
-  readonly learnFromAuthenticatedClientsOnly?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#max_params Wafpolicy#max_params}
-  */
-  readonly maxParams?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#max_uris Wafpolicy#max_uris}
-  */
-  readonly maxUris?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#min_hits_to_learn Wafpolicy#min_hits_to_learn}
-  */
-  readonly minHitsToLearn?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#sampling_percent Wafpolicy#sampling_percent}
-  */
-  readonly samplingPercent?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#trusted_ipgroup_ref Wafpolicy#trusted_ipgroup_ref}
-  */
-  readonly trustedIpgroupRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#update_interval Wafpolicy#update_interval}
-  */
-  readonly updateInterval?: string;
-  /**
-  * learn_from_bots block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#learn_from_bots Wafpolicy#learn_from_bots}
-  */
-  readonly learnFromBots?: WafpolicyLearningParamsLearnFromBots[] | cdktf.IResolvable;
-}
-
-export function wafpolicyLearningParamsToTerraform(struct?: WafpolicyLearningParams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    enable_learn_from_bots: cdktf.stringToTerraform(struct!.enableLearnFromBots),
-    enable_per_uri_learning: cdktf.stringToTerraform(struct!.enablePerUriLearning),
-    learn_from_authenticated_clients_only: cdktf.stringToTerraform(struct!.learnFromAuthenticatedClientsOnly),
-    max_params: cdktf.stringToTerraform(struct!.maxParams),
-    max_uris: cdktf.stringToTerraform(struct!.maxUris),
-    min_hits_to_learn: cdktf.stringToTerraform(struct!.minHitsToLearn),
-    sampling_percent: cdktf.stringToTerraform(struct!.samplingPercent),
-    trusted_ipgroup_ref: cdktf.stringToTerraform(struct!.trustedIpgroupRef),
-    update_interval: cdktf.stringToTerraform(struct!.updateInterval),
-    learn_from_bots: cdktf.listMapper(wafpolicyLearningParamsLearnFromBotsToTerraform, true)(struct!.learnFromBots),
-  }
-}
-
-
-export function wafpolicyLearningParamsToHclTerraform(struct?: WafpolicyLearningParams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    enable_learn_from_bots: {
-      value: cdktf.stringToHclTerraform(struct!.enableLearnFromBots),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    enable_per_uri_learning: {
-      value: cdktf.stringToHclTerraform(struct!.enablePerUriLearning),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    learn_from_authenticated_clients_only: {
-      value: cdktf.stringToHclTerraform(struct!.learnFromAuthenticatedClientsOnly),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    max_params: {
-      value: cdktf.stringToHclTerraform(struct!.maxParams),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    max_uris: {
-      value: cdktf.stringToHclTerraform(struct!.maxUris),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    min_hits_to_learn: {
-      value: cdktf.stringToHclTerraform(struct!.minHitsToLearn),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    sampling_percent: {
-      value: cdktf.stringToHclTerraform(struct!.samplingPercent),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    trusted_ipgroup_ref: {
-      value: cdktf.stringToHclTerraform(struct!.trustedIpgroupRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    update_interval: {
-      value: cdktf.stringToHclTerraform(struct!.updateInterval),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    learn_from_bots: {
-      value: cdktf.listMapperHcl(wafpolicyLearningParamsLearnFromBotsToHclTerraform, true)(struct!.learnFromBots),
-      isBlock: true,
-      type: "set",
-      storageClassType: "WafpolicyLearningParamsLearnFromBotsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class WafpolicyLearningParamsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): WafpolicyLearningParams | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._enableLearnFromBots !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enableLearnFromBots = this._enableLearnFromBots;
-    }
-    if (this._enablePerUriLearning !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enablePerUriLearning = this._enablePerUriLearning;
-    }
-    if (this._learnFromAuthenticatedClientsOnly !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.learnFromAuthenticatedClientsOnly = this._learnFromAuthenticatedClientsOnly;
-    }
-    if (this._maxParams !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.maxParams = this._maxParams;
-    }
-    if (this._maxUris !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.maxUris = this._maxUris;
-    }
-    if (this._minHitsToLearn !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.minHitsToLearn = this._minHitsToLearn;
-    }
-    if (this._samplingPercent !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.samplingPercent = this._samplingPercent;
-    }
-    if (this._trustedIpgroupRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.trustedIpgroupRef = this._trustedIpgroupRef;
-    }
-    if (this._updateInterval !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.updateInterval = this._updateInterval;
-    }
-    if (this._learnFromBots?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.learnFromBots = this._learnFromBots?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: WafpolicyLearningParams | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._enableLearnFromBots = undefined;
-      this._enablePerUriLearning = undefined;
-      this._learnFromAuthenticatedClientsOnly = undefined;
-      this._maxParams = undefined;
-      this._maxUris = undefined;
-      this._minHitsToLearn = undefined;
-      this._samplingPercent = undefined;
-      this._trustedIpgroupRef = undefined;
-      this._updateInterval = undefined;
-      this._learnFromBots.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._enableLearnFromBots = value.enableLearnFromBots;
-      this._enablePerUriLearning = value.enablePerUriLearning;
-      this._learnFromAuthenticatedClientsOnly = value.learnFromAuthenticatedClientsOnly;
-      this._maxParams = value.maxParams;
-      this._maxUris = value.maxUris;
-      this._minHitsToLearn = value.minHitsToLearn;
-      this._samplingPercent = value.samplingPercent;
-      this._trustedIpgroupRef = value.trustedIpgroupRef;
-      this._updateInterval = value.updateInterval;
-      this._learnFromBots.internalValue = value.learnFromBots;
-    }
-  }
-
-  // enable_learn_from_bots - computed: false, optional: true, required: false
-  private _enableLearnFromBots?: string; 
-  public get enableLearnFromBots() {
-    return this.getStringAttribute('enable_learn_from_bots');
-  }
-  public set enableLearnFromBots(value: string) {
-    this._enableLearnFromBots = value;
-  }
-  public resetEnableLearnFromBots() {
-    this._enableLearnFromBots = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enableLearnFromBotsInput() {
-    return this._enableLearnFromBots;
-  }
-
-  // enable_per_uri_learning - computed: false, optional: true, required: false
-  private _enablePerUriLearning?: string; 
-  public get enablePerUriLearning() {
-    return this.getStringAttribute('enable_per_uri_learning');
-  }
-  public set enablePerUriLearning(value: string) {
-    this._enablePerUriLearning = value;
-  }
-  public resetEnablePerUriLearning() {
-    this._enablePerUriLearning = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enablePerUriLearningInput() {
-    return this._enablePerUriLearning;
-  }
-
-  // learn_from_authenticated_clients_only - computed: false, optional: true, required: false
-  private _learnFromAuthenticatedClientsOnly?: string; 
-  public get learnFromAuthenticatedClientsOnly() {
-    return this.getStringAttribute('learn_from_authenticated_clients_only');
-  }
-  public set learnFromAuthenticatedClientsOnly(value: string) {
-    this._learnFromAuthenticatedClientsOnly = value;
-  }
-  public resetLearnFromAuthenticatedClientsOnly() {
-    this._learnFromAuthenticatedClientsOnly = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get learnFromAuthenticatedClientsOnlyInput() {
-    return this._learnFromAuthenticatedClientsOnly;
-  }
-
-  // max_params - computed: false, optional: true, required: false
-  private _maxParams?: string; 
-  public get maxParams() {
-    return this.getStringAttribute('max_params');
-  }
-  public set maxParams(value: string) {
-    this._maxParams = value;
-  }
-  public resetMaxParams() {
-    this._maxParams = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get maxParamsInput() {
-    return this._maxParams;
-  }
-
-  // max_uris - computed: false, optional: true, required: false
-  private _maxUris?: string; 
-  public get maxUris() {
-    return this.getStringAttribute('max_uris');
-  }
-  public set maxUris(value: string) {
-    this._maxUris = value;
-  }
-  public resetMaxUris() {
-    this._maxUris = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get maxUrisInput() {
-    return this._maxUris;
-  }
-
-  // min_hits_to_learn - computed: false, optional: true, required: false
-  private _minHitsToLearn?: string; 
-  public get minHitsToLearn() {
-    return this.getStringAttribute('min_hits_to_learn');
-  }
-  public set minHitsToLearn(value: string) {
-    this._minHitsToLearn = value;
-  }
-  public resetMinHitsToLearn() {
-    this._minHitsToLearn = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get minHitsToLearnInput() {
-    return this._minHitsToLearn;
-  }
-
-  // sampling_percent - computed: false, optional: true, required: false
-  private _samplingPercent?: string; 
-  public get samplingPercent() {
-    return this.getStringAttribute('sampling_percent');
-  }
-  public set samplingPercent(value: string) {
-    this._samplingPercent = value;
-  }
-  public resetSamplingPercent() {
-    this._samplingPercent = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get samplingPercentInput() {
-    return this._samplingPercent;
-  }
-
-  // trusted_ipgroup_ref - computed: true, optional: true, required: false
-  private _trustedIpgroupRef?: string; 
-  public get trustedIpgroupRef() {
-    return this.getStringAttribute('trusted_ipgroup_ref');
-  }
-  public set trustedIpgroupRef(value: string) {
-    this._trustedIpgroupRef = value;
-  }
-  public resetTrustedIpgroupRef() {
-    this._trustedIpgroupRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get trustedIpgroupRefInput() {
-    return this._trustedIpgroupRef;
-  }
-
-  // update_interval - computed: false, optional: true, required: false
-  private _updateInterval?: string; 
-  public get updateInterval() {
-    return this.getStringAttribute('update_interval');
-  }
-  public set updateInterval(value: string) {
-    this._updateInterval = value;
-  }
-  public resetUpdateInterval() {
-    this._updateInterval = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get updateIntervalInput() {
-    return this._updateInterval;
-  }
-
-  // learn_from_bots - computed: false, optional: true, required: false
-  private _learnFromBots = new WafpolicyLearningParamsLearnFromBotsList(this, "learn_from_bots", true);
-  public get learnFromBots() {
-    return this._learnFromBots;
-  }
-  public putLearnFromBots(value: WafpolicyLearningParamsLearnFromBots[] | cdktf.IResolvable) {
-    this._learnFromBots.internalValue = value;
-  }
-  public resetLearnFromBots() {
-    this._learnFromBots.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get learnFromBotsInput() {
-    return this._learnFromBots.internalValue;
-  }
-}
-
-export class WafpolicyLearningParamsList extends cdktf.ComplexList {
-  public internalValue? : WafpolicyLearningParams[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): WafpolicyLearningParamsOutputReference {
-    return new WafpolicyLearningParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface WafpolicyMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#key Wafpolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#key Wafpolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#values Wafpolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#values Wafpolicy#values}
   */
   readonly values?: string[];
 }
@@ -11916,7 +11009,7 @@ export class WafpolicyMarkersList extends cdktf.ComplexList {
 }
 export interface WafpolicyPositiveSecurityModel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#group_refs Wafpolicy#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#group_refs Wafpolicy#group_refs}
   */
   readonly groupRefs?: string[];
 }
@@ -12032,11 +11125,11 @@ export class WafpolicyPositiveSecurityModelList extends cdktf.ComplexList {
 }
 export interface WafpolicyPostCrsGroupsExcludeListClientSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -12175,13 +11268,13 @@ export class WafpolicyPostCrsGroupsExcludeListClientSubnetIpAddrList extends cdk
 }
 export interface WafpolicyPostCrsGroupsExcludeListClientSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mask Wafpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mask Wafpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
   */
   readonly ipAddr: WafpolicyPostCrsGroupsExcludeListClientSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -12320,11 +11413,11 @@ export class WafpolicyPostCrsGroupsExcludeListClientSubnetList extends cdktf.Com
 }
 export interface WafpolicyPostCrsGroupsExcludeListMatchElementCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -12469,11 +11562,11 @@ export class WafpolicyPostCrsGroupsExcludeListMatchElementCriteriaList extends c
 }
 export interface WafpolicyPostCrsGroupsExcludeListUriMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -12618,33 +11711,33 @@ export class WafpolicyPostCrsGroupsExcludeListUriMatchCriteriaList extends cdktf
 }
 export interface WafpolicyPostCrsGroupsExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#description Wafpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#description Wafpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
   */
   readonly matchElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
   */
   readonly uriPath?: string;
   /**
   * client_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
   */
   readonly clientSubnet?: WafpolicyPostCrsGroupsExcludeListClientSubnet[] | cdktf.IResolvable;
   /**
   * match_element_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
   */
   readonly matchElementCriteria?: WafpolicyPostCrsGroupsExcludeListMatchElementCriteria[] | cdktf.IResolvable;
   /**
   * uri_match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
   */
   readonly uriMatchCriteria?: WafpolicyPostCrsGroupsExcludeListUriMatchCriteria[] | cdktf.IResolvable;
 }
@@ -12905,11 +11998,11 @@ export class WafpolicyPostCrsGroupsExcludeListStructList extends cdktf.ComplexLi
 }
 export interface WafpolicyPostCrsGroupsRulesExcludeListClientSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -13048,13 +12141,13 @@ export class WafpolicyPostCrsGroupsRulesExcludeListClientSubnetIpAddrList extend
 }
 export interface WafpolicyPostCrsGroupsRulesExcludeListClientSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mask Wafpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mask Wafpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
   */
   readonly ipAddr: WafpolicyPostCrsGroupsRulesExcludeListClientSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -13193,11 +12286,11 @@ export class WafpolicyPostCrsGroupsRulesExcludeListClientSubnetList extends cdkt
 }
 export interface WafpolicyPostCrsGroupsRulesExcludeListMatchElementCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -13342,11 +12435,11 @@ export class WafpolicyPostCrsGroupsRulesExcludeListMatchElementCriteriaList exte
 }
 export interface WafpolicyPostCrsGroupsRulesExcludeListUriMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -13491,33 +12584,33 @@ export class WafpolicyPostCrsGroupsRulesExcludeListUriMatchCriteriaList extends 
 }
 export interface WafpolicyPostCrsGroupsRulesExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#description Wafpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#description Wafpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
   */
   readonly matchElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
   */
   readonly uriPath?: string;
   /**
   * client_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
   */
   readonly clientSubnet?: WafpolicyPostCrsGroupsRulesExcludeListClientSubnet[] | cdktf.IResolvable;
   /**
   * match_element_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
   */
   readonly matchElementCriteria?: WafpolicyPostCrsGroupsRulesExcludeListMatchElementCriteria[] | cdktf.IResolvable;
   /**
   * uri_match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
   */
   readonly uriMatchCriteria?: WafpolicyPostCrsGroupsRulesExcludeListUriMatchCriteria[] | cdktf.IResolvable;
 }
@@ -13778,49 +12871,49 @@ export class WafpolicyPostCrsGroupsRulesExcludeListStructList extends cdktf.Comp
 }
 export interface WafpolicyPostCrsGroupsRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable Wafpolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#enable Wafpolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#index Wafpolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#index Wafpolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#is_sensitive Wafpolicy#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#is_sensitive Wafpolicy#is_sensitive}
   */
   readonly isSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mode Wafpolicy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mode Wafpolicy#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#name Wafpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#name Wafpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#paranoia_level Wafpolicy#paranoia_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#paranoia_level Wafpolicy#paranoia_level}
   */
   readonly paranoiaLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#phase Wafpolicy#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#phase Wafpolicy#phase}
   */
   readonly phase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rule Wafpolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rule Wafpolicy#rule}
   */
   readonly rule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rule_id Wafpolicy#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rule_id Wafpolicy#rule_id}
   */
   readonly ruleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#tags Wafpolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#tags Wafpolicy#tags}
   */
   readonly tags?: string[];
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
   */
   readonly excludeList?: WafpolicyPostCrsGroupsRulesExcludeListStruct[] | cdktf.IResolvable;
 }
@@ -14220,27 +13313,27 @@ export class WafpolicyPostCrsGroupsRulesList extends cdktf.ComplexList {
 }
 export interface WafpolicyPostCrsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable Wafpolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#enable Wafpolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#index Wafpolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#index Wafpolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#name Wafpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#name Wafpolicy#name}
   */
   readonly name: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
   */
   readonly excludeList?: WafpolicyPostCrsGroupsExcludeListStruct[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rules Wafpolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rules Wafpolicy#rules}
   */
   readonly rules?: WafpolicyPostCrsGroupsRules[] | cdktf.IResolvable;
 }
@@ -14466,11 +13559,11 @@ export class WafpolicyPostCrsGroupsList extends cdktf.ComplexList {
 }
 export interface WafpolicyPreCrsGroupsExcludeListClientSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -14609,13 +13702,13 @@ export class WafpolicyPreCrsGroupsExcludeListClientSubnetIpAddrList extends cdkt
 }
 export interface WafpolicyPreCrsGroupsExcludeListClientSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mask Wafpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mask Wafpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
   */
   readonly ipAddr: WafpolicyPreCrsGroupsExcludeListClientSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -14754,11 +13847,11 @@ export class WafpolicyPreCrsGroupsExcludeListClientSubnetList extends cdktf.Comp
 }
 export interface WafpolicyPreCrsGroupsExcludeListMatchElementCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -14903,11 +13996,11 @@ export class WafpolicyPreCrsGroupsExcludeListMatchElementCriteriaList extends cd
 }
 export interface WafpolicyPreCrsGroupsExcludeListUriMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -15052,33 +14145,33 @@ export class WafpolicyPreCrsGroupsExcludeListUriMatchCriteriaList extends cdktf.
 }
 export interface WafpolicyPreCrsGroupsExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#description Wafpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#description Wafpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
   */
   readonly matchElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
   */
   readonly uriPath?: string;
   /**
   * client_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
   */
   readonly clientSubnet?: WafpolicyPreCrsGroupsExcludeListClientSubnet[] | cdktf.IResolvable;
   /**
   * match_element_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
   */
   readonly matchElementCriteria?: WafpolicyPreCrsGroupsExcludeListMatchElementCriteria[] | cdktf.IResolvable;
   /**
   * uri_match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
   */
   readonly uriMatchCriteria?: WafpolicyPreCrsGroupsExcludeListUriMatchCriteria[] | cdktf.IResolvable;
 }
@@ -15339,11 +14432,11 @@ export class WafpolicyPreCrsGroupsExcludeListStructList extends cdktf.ComplexLis
 }
 export interface WafpolicyPreCrsGroupsRulesExcludeListClientSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#addr Wafpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#addr Wafpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type: string;
 }
@@ -15482,13 +14575,13 @@ export class WafpolicyPreCrsGroupsRulesExcludeListClientSubnetIpAddrList extends
 }
 export interface WafpolicyPreCrsGroupsRulesExcludeListClientSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mask Wafpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mask Wafpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#ip_addr Wafpolicy#ip_addr}
   */
   readonly ipAddr: WafpolicyPreCrsGroupsRulesExcludeListClientSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -15627,11 +14720,11 @@ export class WafpolicyPreCrsGroupsRulesExcludeListClientSubnetList extends cdktf
 }
 export interface WafpolicyPreCrsGroupsRulesExcludeListMatchElementCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -15776,11 +14869,11 @@ export class WafpolicyPreCrsGroupsRulesExcludeListMatchElementCriteriaList exten
 }
 export interface WafpolicyPreCrsGroupsRulesExcludeListUriMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_case Wafpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_op Wafpolicy#match_op}
   */
   readonly matchOp?: string;
 }
@@ -15925,33 +15018,33 @@ export class WafpolicyPreCrsGroupsRulesExcludeListUriMatchCriteriaList extends c
 }
 export interface WafpolicyPreCrsGroupsRulesExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#description Wafpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#description Wafpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element Wafpolicy#match_element}
   */
   readonly matchElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_path Wafpolicy#uri_path}
   */
   readonly uriPath?: string;
   /**
   * client_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#client_subnet Wafpolicy#client_subnet}
   */
   readonly clientSubnet?: WafpolicyPreCrsGroupsRulesExcludeListClientSubnet[] | cdktf.IResolvable;
   /**
   * match_element_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#match_element_criteria Wafpolicy#match_element_criteria}
   */
   readonly matchElementCriteria?: WafpolicyPreCrsGroupsRulesExcludeListMatchElementCriteria[] | cdktf.IResolvable;
   /**
   * uri_match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#uri_match_criteria Wafpolicy#uri_match_criteria}
   */
   readonly uriMatchCriteria?: WafpolicyPreCrsGroupsRulesExcludeListUriMatchCriteria[] | cdktf.IResolvable;
 }
@@ -16212,49 +15305,49 @@ export class WafpolicyPreCrsGroupsRulesExcludeListStructList extends cdktf.Compl
 }
 export interface WafpolicyPreCrsGroupsRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable Wafpolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#enable Wafpolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#index Wafpolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#index Wafpolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#is_sensitive Wafpolicy#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#is_sensitive Wafpolicy#is_sensitive}
   */
   readonly isSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#mode Wafpolicy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#mode Wafpolicy#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#name Wafpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#name Wafpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#paranoia_level Wafpolicy#paranoia_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#paranoia_level Wafpolicy#paranoia_level}
   */
   readonly paranoiaLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#phase Wafpolicy#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#phase Wafpolicy#phase}
   */
   readonly phase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rule Wafpolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rule Wafpolicy#rule}
   */
   readonly rule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rule_id Wafpolicy#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rule_id Wafpolicy#rule_id}
   */
   readonly ruleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#tags Wafpolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#tags Wafpolicy#tags}
   */
   readonly tags?: string[];
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
   */
   readonly excludeList?: WafpolicyPreCrsGroupsRulesExcludeListStruct[] | cdktf.IResolvable;
 }
@@ -16654,27 +15747,27 @@ export class WafpolicyPreCrsGroupsRulesList extends cdktf.ComplexList {
 }
 export interface WafpolicyPreCrsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#enable Wafpolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#enable Wafpolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#index Wafpolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#index Wafpolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#name Wafpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#name Wafpolicy#name}
   */
   readonly name: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#exclude_list Wafpolicy#exclude_list}
   */
   readonly excludeList?: WafpolicyPreCrsGroupsExcludeListStruct[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#rules Wafpolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#rules Wafpolicy#rules}
   */
   readonly rules?: WafpolicyPreCrsGroupsRules[] | cdktf.IResolvable;
 }
@@ -16900,11 +15993,11 @@ export class WafpolicyPreCrsGroupsList extends cdktf.ComplexList {
 }
 export interface WafpolicyRequiredDataFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#name Wafpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#name Wafpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#type Wafpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#type Wafpolicy#type}
   */
   readonly type?: string;
 }
@@ -17049,7 +16142,7 @@ export class WafpolicyRequiredDataFilesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy avi_wafpolicy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy avi_wafpolicy}
 */
 export class Wafpolicy extends cdktf.TerraformResource {
 
@@ -17065,7 +16158,7 @@ export class Wafpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Wafpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wafpolicy to import
-  * @param importFromId The id of the existing Wafpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wafpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wafpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -17077,7 +16170,7 @@ export class Wafpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicy avi_wafpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicy avi_wafpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -17088,8 +16181,8 @@ export class Wafpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'avi_wafpolicy',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -17104,27 +16197,24 @@ export class Wafpolicy extends cdktf.TerraformResource {
     this._bypassStaticExtensions = config.bypassStaticExtensions;
     this._createdBy = config.createdBy;
     this._description = config.description;
-    this._enableAppLearning = config.enableAppLearning;
-    this._enableAutoRuleUpdates = config.enableAutoRuleUpdates;
-    this._enableRegexLearning = config.enableRegexLearning;
+    this._enableStreaming = config.enableStreaming;
     this._failureMode = config.failureMode;
+    this._fixedSamplingRate = config.fixedSamplingRate;
     this._geoDbRef = config.geoDbRef;
     this._id = config.id;
-    this._minConfidence = config.minConfidence;
     this._mode = config.mode;
     this._name = config.name;
     this._paranoiaLevel = config.paranoiaLevel;
+    this._samplingMode = config.samplingMode;
     this._tenantRef = config.tenantRef;
-    this._updatedCrsRulesInDetectionMode = config.updatedCrsRulesInDetectionMode;
+    this._useEvaluationModeOnCrsUpdate = config.useEvaluationModeOnCrsUpdate;
     this._uuid = config.uuid;
     this._wafCrsRef = config.wafCrsRef;
     this._wafProfileRef = config.wafProfileRef;
     this._allowlist.internalValue = config.allowlist;
     this._applicationSignatures.internalValue = config.applicationSignatures;
-    this._confidenceOverride.internalValue = config.confidenceOverride;
     this._configpbAttributes.internalValue = config.configpbAttributes;
     this._crsOverrides.internalValue = config.crsOverrides;
-    this._learningParams.internalValue = config.learningParams;
     this._markers.internalValue = config.markers;
     this._positiveSecurityModel.internalValue = config.positiveSecurityModel;
     this._postCrsGroups.internalValue = config.postCrsGroups;
@@ -17216,52 +16306,20 @@ export class Wafpolicy extends cdktf.TerraformResource {
     return this._description;
   }
 
-  // enable_app_learning - computed: false, optional: true, required: false
-  private _enableAppLearning?: string; 
-  public get enableAppLearning() {
-    return this.getStringAttribute('enable_app_learning');
+  // enable_streaming - computed: false, optional: true, required: false
+  private _enableStreaming?: string; 
+  public get enableStreaming() {
+    return this.getStringAttribute('enable_streaming');
   }
-  public set enableAppLearning(value: string) {
-    this._enableAppLearning = value;
+  public set enableStreaming(value: string) {
+    this._enableStreaming = value;
   }
-  public resetEnableAppLearning() {
-    this._enableAppLearning = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enableAppLearningInput() {
-    return this._enableAppLearning;
-  }
-
-  // enable_auto_rule_updates - computed: false, optional: true, required: false
-  private _enableAutoRuleUpdates?: string; 
-  public get enableAutoRuleUpdates() {
-    return this.getStringAttribute('enable_auto_rule_updates');
-  }
-  public set enableAutoRuleUpdates(value: string) {
-    this._enableAutoRuleUpdates = value;
-  }
-  public resetEnableAutoRuleUpdates() {
-    this._enableAutoRuleUpdates = undefined;
+  public resetEnableStreaming() {
+    this._enableStreaming = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get enableAutoRuleUpdatesInput() {
-    return this._enableAutoRuleUpdates;
-  }
-
-  // enable_regex_learning - computed: false, optional: true, required: false
-  private _enableRegexLearning?: string; 
-  public get enableRegexLearning() {
-    return this.getStringAttribute('enable_regex_learning');
-  }
-  public set enableRegexLearning(value: string) {
-    this._enableRegexLearning = value;
-  }
-  public resetEnableRegexLearning() {
-    this._enableRegexLearning = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enableRegexLearningInput() {
-    return this._enableRegexLearning;
+  public get enableStreamingInput() {
+    return this._enableStreaming;
   }
 
   // failure_mode - computed: false, optional: true, required: false
@@ -17278,6 +16336,22 @@ export class Wafpolicy extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get failureModeInput() {
     return this._failureMode;
+  }
+
+  // fixed_sampling_rate - computed: false, optional: true, required: false
+  private _fixedSamplingRate?: string; 
+  public get fixedSamplingRate() {
+    return this.getStringAttribute('fixed_sampling_rate');
+  }
+  public set fixedSamplingRate(value: string) {
+    this._fixedSamplingRate = value;
+  }
+  public resetFixedSamplingRate() {
+    this._fixedSamplingRate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fixedSamplingRateInput() {
+    return this._fixedSamplingRate;
   }
 
   // geo_db_ref - computed: true, optional: true, required: false
@@ -17310,22 +16384,6 @@ export class Wafpolicy extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // min_confidence - computed: false, optional: true, required: false
-  private _minConfidence?: string; 
-  public get minConfidence() {
-    return this.getStringAttribute('min_confidence');
-  }
-  public set minConfidence(value: string) {
-    this._minConfidence = value;
-  }
-  public resetMinConfidence() {
-    this._minConfidence = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get minConfidenceInput() {
-    return this._minConfidence;
   }
 
   // mode - computed: false, optional: true, required: false
@@ -17373,6 +16431,22 @@ export class Wafpolicy extends cdktf.TerraformResource {
     return this._paranoiaLevel;
   }
 
+  // sampling_mode - computed: false, optional: true, required: false
+  private _samplingMode?: string; 
+  public get samplingMode() {
+    return this.getStringAttribute('sampling_mode');
+  }
+  public set samplingMode(value: string) {
+    this._samplingMode = value;
+  }
+  public resetSamplingMode() {
+    this._samplingMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get samplingModeInput() {
+    return this._samplingMode;
+  }
+
   // tenant_ref - computed: true, optional: true, required: false
   private _tenantRef?: string; 
   public get tenantRef() {
@@ -17389,20 +16463,20 @@ export class Wafpolicy extends cdktf.TerraformResource {
     return this._tenantRef;
   }
 
-  // updated_crs_rules_in_detection_mode - computed: false, optional: true, required: false
-  private _updatedCrsRulesInDetectionMode?: string; 
-  public get updatedCrsRulesInDetectionMode() {
-    return this.getStringAttribute('updated_crs_rules_in_detection_mode');
+  // use_evaluation_mode_on_crs_update - computed: false, optional: true, required: false
+  private _useEvaluationModeOnCrsUpdate?: string; 
+  public get useEvaluationModeOnCrsUpdate() {
+    return this.getStringAttribute('use_evaluation_mode_on_crs_update');
   }
-  public set updatedCrsRulesInDetectionMode(value: string) {
-    this._updatedCrsRulesInDetectionMode = value;
+  public set useEvaluationModeOnCrsUpdate(value: string) {
+    this._useEvaluationModeOnCrsUpdate = value;
   }
-  public resetUpdatedCrsRulesInDetectionMode() {
-    this._updatedCrsRulesInDetectionMode = undefined;
+  public resetUseEvaluationModeOnCrsUpdate() {
+    this._useEvaluationModeOnCrsUpdate = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get updatedCrsRulesInDetectionModeInput() {
-    return this._updatedCrsRulesInDetectionMode;
+  public get useEvaluationModeOnCrsUpdateInput() {
+    return this._useEvaluationModeOnCrsUpdate;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -17482,22 +16556,6 @@ export class Wafpolicy extends cdktf.TerraformResource {
     return this._applicationSignatures.internalValue;
   }
 
-  // confidence_override - computed: false, optional: true, required: false
-  private _confidenceOverride = new WafpolicyConfidenceOverrideList(this, "confidence_override", true);
-  public get confidenceOverride() {
-    return this._confidenceOverride;
-  }
-  public putConfidenceOverride(value: WafpolicyConfidenceOverride[] | cdktf.IResolvable) {
-    this._confidenceOverride.internalValue = value;
-  }
-  public resetConfidenceOverride() {
-    this._confidenceOverride.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get confidenceOverrideInput() {
-    return this._confidenceOverride.internalValue;
-  }
-
   // configpb_attributes - computed: false, optional: true, required: false
   private _configpbAttributes = new WafpolicyConfigpbAttributesList(this, "configpb_attributes", true);
   public get configpbAttributes() {
@@ -17528,22 +16586,6 @@ export class Wafpolicy extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get crsOverridesInput() {
     return this._crsOverrides.internalValue;
-  }
-
-  // learning_params - computed: false, optional: true, required: false
-  private _learningParams = new WafpolicyLearningParamsList(this, "learning_params", true);
-  public get learningParams() {
-    return this._learningParams;
-  }
-  public putLearningParams(value: WafpolicyLearningParams[] | cdktf.IResolvable) {
-    this._learningParams.internalValue = value;
-  }
-  public resetLearningParams() {
-    this._learningParams.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get learningParamsInput() {
-    return this._learningParams.internalValue;
   }
 
   // markers - computed: false, optional: true, required: false
@@ -17637,27 +16679,24 @@ export class Wafpolicy extends cdktf.TerraformResource {
       bypass_static_extensions: cdktf.stringToTerraform(this._bypassStaticExtensions),
       created_by: cdktf.stringToTerraform(this._createdBy),
       description: cdktf.stringToTerraform(this._description),
-      enable_app_learning: cdktf.stringToTerraform(this._enableAppLearning),
-      enable_auto_rule_updates: cdktf.stringToTerraform(this._enableAutoRuleUpdates),
-      enable_regex_learning: cdktf.stringToTerraform(this._enableRegexLearning),
+      enable_streaming: cdktf.stringToTerraform(this._enableStreaming),
       failure_mode: cdktf.stringToTerraform(this._failureMode),
+      fixed_sampling_rate: cdktf.stringToTerraform(this._fixedSamplingRate),
       geo_db_ref: cdktf.stringToTerraform(this._geoDbRef),
       id: cdktf.stringToTerraform(this._id),
-      min_confidence: cdktf.stringToTerraform(this._minConfidence),
       mode: cdktf.stringToTerraform(this._mode),
       name: cdktf.stringToTerraform(this._name),
       paranoia_level: cdktf.stringToTerraform(this._paranoiaLevel),
+      sampling_mode: cdktf.stringToTerraform(this._samplingMode),
       tenant_ref: cdktf.stringToTerraform(this._tenantRef),
-      updated_crs_rules_in_detection_mode: cdktf.stringToTerraform(this._updatedCrsRulesInDetectionMode),
+      use_evaluation_mode_on_crs_update: cdktf.stringToTerraform(this._useEvaluationModeOnCrsUpdate),
       uuid: cdktf.stringToTerraform(this._uuid),
       waf_crs_ref: cdktf.stringToTerraform(this._wafCrsRef),
       waf_profile_ref: cdktf.stringToTerraform(this._wafProfileRef),
       allowlist: cdktf.listMapper(wafpolicyAllowlistStructToTerraform, true)(this._allowlist.internalValue),
       application_signatures: cdktf.listMapper(wafpolicyApplicationSignaturesToTerraform, true)(this._applicationSignatures.internalValue),
-      confidence_override: cdktf.listMapper(wafpolicyConfidenceOverrideToTerraform, true)(this._confidenceOverride.internalValue),
       configpb_attributes: cdktf.listMapper(wafpolicyConfigpbAttributesToTerraform, true)(this._configpbAttributes.internalValue),
       crs_overrides: cdktf.listMapper(wafpolicyCrsOverridesToTerraform, true)(this._crsOverrides.internalValue),
-      learning_params: cdktf.listMapper(wafpolicyLearningParamsToTerraform, true)(this._learningParams.internalValue),
       markers: cdktf.listMapper(wafpolicyMarkersToTerraform, true)(this._markers.internalValue),
       positive_security_model: cdktf.listMapper(wafpolicyPositiveSecurityModelToTerraform, true)(this._positiveSecurityModel.internalValue),
       post_crs_groups: cdktf.listMapper(wafpolicyPostCrsGroupsToTerraform, true)(this._postCrsGroups.internalValue),
@@ -17698,26 +16737,20 @@ export class Wafpolicy extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      enable_app_learning: {
-        value: cdktf.stringToHclTerraform(this._enableAppLearning),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      enable_auto_rule_updates: {
-        value: cdktf.stringToHclTerraform(this._enableAutoRuleUpdates),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      enable_regex_learning: {
-        value: cdktf.stringToHclTerraform(this._enableRegexLearning),
+      enable_streaming: {
+        value: cdktf.stringToHclTerraform(this._enableStreaming),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       failure_mode: {
         value: cdktf.stringToHclTerraform(this._failureMode),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      fixed_sampling_rate: {
+        value: cdktf.stringToHclTerraform(this._fixedSamplingRate),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -17730,12 +16763,6 @@ export class Wafpolicy extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      min_confidence: {
-        value: cdktf.stringToHclTerraform(this._minConfidence),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -17758,14 +16785,20 @@ export class Wafpolicy extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      sampling_mode: {
+        value: cdktf.stringToHclTerraform(this._samplingMode),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       tenant_ref: {
         value: cdktf.stringToHclTerraform(this._tenantRef),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      updated_crs_rules_in_detection_mode: {
-        value: cdktf.stringToHclTerraform(this._updatedCrsRulesInDetectionMode),
+      use_evaluation_mode_on_crs_update: {
+        value: cdktf.stringToHclTerraform(this._useEvaluationModeOnCrsUpdate),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -17800,12 +16833,6 @@ export class Wafpolicy extends cdktf.TerraformResource {
         type: "set",
         storageClassType: "WafpolicyApplicationSignaturesList",
       },
-      confidence_override: {
-        value: cdktf.listMapperHcl(wafpolicyConfidenceOverrideToHclTerraform, true)(this._confidenceOverride.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "WafpolicyConfidenceOverrideList",
-      },
       configpb_attributes: {
         value: cdktf.listMapperHcl(wafpolicyConfigpbAttributesToHclTerraform, true)(this._configpbAttributes.internalValue),
         isBlock: true,
@@ -17817,12 +16844,6 @@ export class Wafpolicy extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "WafpolicyCrsOverridesList",
-      },
-      learning_params: {
-        value: cdktf.listMapperHcl(wafpolicyLearningParamsToHclTerraform, true)(this._learningParams.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "WafpolicyLearningParamsList",
       },
       markers: {
         value: cdktf.listMapperHcl(wafpolicyMarkersToHclTerraform, true)(this._markers.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface WafpolicypsmgroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#description Wafpolicypsmgroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#completely_described_match_elements Wafpolicypsmgroup#completely_described_match_elements}
+  */
+  readonly completelyDescribedMatchElements?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#description Wafpolicypsmgroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#enable Wafpolicypsmgroup#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#enable Wafpolicypsmgroup#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#hit_action Wafpolicypsmgroup#hit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#hit_action Wafpolicypsmgroup#hit_action}
   */
   readonly hitAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#id Wafpolicypsmgroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#id Wafpolicypsmgroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#is_learning_group Wafpolicypsmgroup#is_learning_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#is_learning_group Wafpolicypsmgroup#is_learning_group}
   */
   readonly isLearningGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#miss_action Wafpolicypsmgroup#miss_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#location_match_miss_action Wafpolicypsmgroup#location_match_miss_action}
+  */
+  readonly locationMatchMissAction?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#miss_action Wafpolicypsmgroup#miss_action}
   */
   readonly missAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#name Wafpolicypsmgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#name Wafpolicypsmgroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#tenant_ref Wafpolicypsmgroup#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#tenant_ref Wafpolicypsmgroup#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#uuid Wafpolicypsmgroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#uuid Wafpolicypsmgroup#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#configpb_attributes Wafpolicypsmgroup#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#configpb_attributes Wafpolicypsmgroup#configpb_attributes}
   */
   readonly configpbAttributes?: WafpolicypsmgroupConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#locations Wafpolicypsmgroup#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#locations Wafpolicypsmgroup#locations}
   */
   readonly locations?: WafpolicypsmgroupLocations[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#markers Wafpolicypsmgroup#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#markers Wafpolicypsmgroup#markers}
   */
   readonly markers?: WafpolicypsmgroupMarkers[] | cdktf.IResolvable;
 }
 export interface WafpolicypsmgroupConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#version Wafpolicypsmgroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#version Wafpolicypsmgroup#version}
   */
   readonly version?: string;
 }
@@ -183,15 +191,15 @@ export class WafpolicypsmgroupConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface WafpolicypsmgroupLocationsMatchHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_case Wafpolicypsmgroup#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_case Wafpolicypsmgroup#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_criteria Wafpolicypsmgroup#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_criteria Wafpolicypsmgroup#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#value Wafpolicypsmgroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#value Wafpolicypsmgroup#value}
   */
   readonly value?: string[];
 }
@@ -362,11 +370,11 @@ export class WafpolicypsmgroupLocationsMatchHostList extends cdktf.ComplexList {
 }
 export interface WafpolicypsmgroupLocationsMatchMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_criteria Wafpolicypsmgroup#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_criteria Wafpolicypsmgroup#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#methods Wafpolicypsmgroup#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#methods Wafpolicypsmgroup#methods}
   */
   readonly methods: string[];
 }
@@ -505,23 +513,23 @@ export class WafpolicypsmgroupLocationsMatchMethodsList extends cdktf.ComplexLis
 }
 export interface WafpolicypsmgroupLocationsMatchPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_case Wafpolicypsmgroup#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_case Wafpolicypsmgroup#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_criteria Wafpolicypsmgroup#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_criteria Wafpolicypsmgroup#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_decoded_string Wafpolicypsmgroup#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_decoded_string Wafpolicypsmgroup#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_str Wafpolicypsmgroup#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_str Wafpolicypsmgroup#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#string_group_refs Wafpolicypsmgroup#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#string_group_refs Wafpolicypsmgroup#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -752,19 +760,19 @@ export interface WafpolicypsmgroupLocationsMatch {
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#host Wafpolicypsmgroup#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#host Wafpolicypsmgroup#host}
   */
   readonly host?: WafpolicypsmgroupLocationsMatchHost[] | cdktf.IResolvable;
   /**
   * methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#methods Wafpolicypsmgroup#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#methods Wafpolicypsmgroup#methods}
   */
   readonly methods?: WafpolicypsmgroupLocationsMatchMethods[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#path Wafpolicypsmgroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#path Wafpolicypsmgroup#path}
   */
   readonly path?: WafpolicypsmgroupLocationsMatchPath[] | cdktf.IResolvable;
 }
@@ -938,27 +946,27 @@ export class WafpolicypsmgroupLocationsMatchList extends cdktf.ComplexList {
 }
 export interface WafpolicypsmgroupLocationsRulesMatchElements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#excluded Wafpolicypsmgroup#excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#excluded Wafpolicypsmgroup#excluded}
   */
   readonly excluded?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#index Wafpolicypsmgroup#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#index Wafpolicypsmgroup#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_case Wafpolicypsmgroup#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_case Wafpolicypsmgroup#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_op Wafpolicypsmgroup#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_op Wafpolicypsmgroup#match_op}
   */
   readonly matchOp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#name Wafpolicypsmgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#name Wafpolicypsmgroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#sub_element Wafpolicypsmgroup#sub_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#sub_element Wafpolicypsmgroup#sub_element}
   */
   readonly subElement?: string;
 }
@@ -1213,57 +1221,61 @@ export class WafpolicypsmgroupLocationsRulesMatchElementsList extends cdktf.Comp
 }
 export interface WafpolicypsmgroupLocationsRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#description Wafpolicypsmgroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#description Wafpolicypsmgroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#enable Wafpolicypsmgroup#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#enable Wafpolicypsmgroup#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#index Wafpolicypsmgroup#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#ignore_hit_action Wafpolicypsmgroup#ignore_hit_action}
+  */
+  readonly ignoreHitAction?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#index Wafpolicypsmgroup#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_case Wafpolicypsmgroup#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_case Wafpolicypsmgroup#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_value_max_length Wafpolicypsmgroup#match_value_max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_value_max_length Wafpolicypsmgroup#match_value_max_length}
   */
   readonly matchValueMaxLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_value_pattern Wafpolicypsmgroup#match_value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_value_pattern Wafpolicypsmgroup#match_value_pattern}
   */
   readonly matchValuePattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_value_string_group_key Wafpolicypsmgroup#match_value_string_group_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_value_string_group_key Wafpolicypsmgroup#match_value_string_group_key}
   */
   readonly matchValueStringGroupKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_value_string_group_ref Wafpolicypsmgroup#match_value_string_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_value_string_group_ref Wafpolicypsmgroup#match_value_string_group_ref}
   */
   readonly matchValueStringGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#mode Wafpolicypsmgroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#mode Wafpolicypsmgroup#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#name Wafpolicypsmgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#name Wafpolicypsmgroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#paranoia_level Wafpolicypsmgroup#paranoia_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#paranoia_level Wafpolicypsmgroup#paranoia_level}
   */
   readonly paranoiaLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#rule_id Wafpolicypsmgroup#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#rule_id Wafpolicypsmgroup#rule_id}
   */
   readonly ruleId: string;
   /**
   * match_elements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match_elements Wafpolicypsmgroup#match_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match_elements Wafpolicypsmgroup#match_elements}
   */
   readonly matchElements?: WafpolicypsmgroupLocationsRulesMatchElements[] | cdktf.IResolvable;
 }
@@ -1276,6 +1288,7 @@ export function wafpolicypsmgroupLocationsRulesToTerraform(struct?: Wafpolicypsm
   return {
     description: cdktf.stringToTerraform(struct!.description),
     enable: cdktf.stringToTerraform(struct!.enable),
+    ignore_hit_action: cdktf.stringToTerraform(struct!.ignoreHitAction),
     index: cdktf.stringToTerraform(struct!.index),
     match_case: cdktf.stringToTerraform(struct!.matchCase),
     match_value_max_length: cdktf.stringToTerraform(struct!.matchValueMaxLength),
@@ -1305,6 +1318,12 @@ export function wafpolicypsmgroupLocationsRulesToHclTerraform(struct?: Wafpolicy
     },
     enable: {
       value: cdktf.stringToHclTerraform(struct!.enable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ignore_hit_action: {
+      value: cdktf.stringToHclTerraform(struct!.ignoreHitAction),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1409,6 +1428,10 @@ export class WafpolicypsmgroupLocationsRulesOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.enable = this._enable;
     }
+    if (this._ignoreHitAction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ignoreHitAction = this._ignoreHitAction;
+    }
     if (this._index !== undefined) {
       hasAnyValues = true;
       internalValueResult.index = this._index;
@@ -1462,6 +1485,7 @@ export class WafpolicypsmgroupLocationsRulesOutputReference extends cdktf.Comple
       this.resolvableValue = undefined;
       this._description = undefined;
       this._enable = undefined;
+      this._ignoreHitAction = undefined;
       this._index = undefined;
       this._matchCase = undefined;
       this._matchValueMaxLength = undefined;
@@ -1483,6 +1507,7 @@ export class WafpolicypsmgroupLocationsRulesOutputReference extends cdktf.Comple
       this.resolvableValue = undefined;
       this._description = value.description;
       this._enable = value.enable;
+      this._ignoreHitAction = value.ignoreHitAction;
       this._index = value.index;
       this._matchCase = value.matchCase;
       this._matchValueMaxLength = value.matchValueMaxLength;
@@ -1527,6 +1552,22 @@ export class WafpolicypsmgroupLocationsRulesOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get enableInput() {
     return this._enable;
+  }
+
+  // ignore_hit_action - computed: false, optional: true, required: false
+  private _ignoreHitAction?: string; 
+  public get ignoreHitAction() {
+    return this.getStringAttribute('ignore_hit_action');
+  }
+  public set ignoreHitAction(value: string) {
+    this._ignoreHitAction = value;
+  }
+  public resetIgnoreHitAction() {
+    this._ignoreHitAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreHitActionInput() {
+    return this._ignoreHitAction;
   }
 
   // index - computed: false, optional: false, required: true
@@ -1718,27 +1759,27 @@ export class WafpolicypsmgroupLocationsRulesList extends cdktf.ComplexList {
 }
 export interface WafpolicypsmgroupLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#description Wafpolicypsmgroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#description Wafpolicypsmgroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#index Wafpolicypsmgroup#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#index Wafpolicypsmgroup#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#name Wafpolicypsmgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#name Wafpolicypsmgroup#name}
   */
   readonly name: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#match Wafpolicypsmgroup#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#match Wafpolicypsmgroup#match}
   */
   readonly match?: WafpolicypsmgroupLocationsMatch[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#rules Wafpolicypsmgroup#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#rules Wafpolicypsmgroup#rules}
   */
   readonly rules?: WafpolicypsmgroupLocationsRules[] | cdktf.IResolvable;
 }
@@ -1964,11 +2005,11 @@ export class WafpolicypsmgroupLocationsList extends cdktf.ComplexList {
 }
 export interface WafpolicypsmgroupMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#key Wafpolicypsmgroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#key Wafpolicypsmgroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#values Wafpolicypsmgroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#values Wafpolicypsmgroup#values}
   */
   readonly values?: string[];
 }
@@ -2110,7 +2151,7 @@ export class WafpolicypsmgroupMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup avi_wafpolicypsmgroup}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup avi_wafpolicypsmgroup}
 */
 export class Wafpolicypsmgroup extends cdktf.TerraformResource {
 
@@ -2126,7 +2167,7 @@ export class Wafpolicypsmgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Wafpolicypsmgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wafpolicypsmgroup to import
-  * @param importFromId The id of the existing Wafpolicypsmgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wafpolicypsmgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wafpolicypsmgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2138,7 +2179,7 @@ export class Wafpolicypsmgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafpolicypsmgroup avi_wafpolicypsmgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/wafpolicypsmgroup avi_wafpolicypsmgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2149,8 +2190,8 @@ export class Wafpolicypsmgroup extends cdktf.TerraformResource {
       terraformResourceType: 'avi_wafpolicypsmgroup',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2160,11 +2201,13 @@ export class Wafpolicypsmgroup extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._completelyDescribedMatchElements = config.completelyDescribedMatchElements;
     this._description = config.description;
     this._enable = config.enable;
     this._hitAction = config.hitAction;
     this._id = config.id;
     this._isLearningGroup = config.isLearningGroup;
+    this._locationMatchMissAction = config.locationMatchMissAction;
     this._missAction = config.missAction;
     this._name = config.name;
     this._tenantRef = config.tenantRef;
@@ -2177,6 +2220,22 @@ export class Wafpolicypsmgroup extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // completely_described_match_elements - computed: false, optional: true, required: false
+  private _completelyDescribedMatchElements?: string[]; 
+  public get completelyDescribedMatchElements() {
+    return this.getListAttribute('completely_described_match_elements');
+  }
+  public set completelyDescribedMatchElements(value: string[]) {
+    this._completelyDescribedMatchElements = value;
+  }
+  public resetCompletelyDescribedMatchElements() {
+    this._completelyDescribedMatchElements = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get completelyDescribedMatchElementsInput() {
+    return this._completelyDescribedMatchElements;
+  }
 
   // description - computed: true, optional: true, required: false
   private _description?: string; 
@@ -2256,6 +2315,22 @@ export class Wafpolicypsmgroup extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get isLearningGroupInput() {
     return this._isLearningGroup;
+  }
+
+  // location_match_miss_action - computed: false, optional: true, required: false
+  private _locationMatchMissAction?: string; 
+  public get locationMatchMissAction() {
+    return this.getStringAttribute('location_match_miss_action');
+  }
+  public set locationMatchMissAction(value: string) {
+    this._locationMatchMissAction = value;
+  }
+  public resetLocationMatchMissAction() {
+    this._locationMatchMissAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationMatchMissActionInput() {
+    return this._locationMatchMissAction;
   }
 
   // miss_action - computed: false, optional: true, required: false
@@ -2373,11 +2448,13 @@ export class Wafpolicypsmgroup extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      completely_described_match_elements: cdktf.listMapper(cdktf.stringToTerraform, false)(this._completelyDescribedMatchElements),
       description: cdktf.stringToTerraform(this._description),
       enable: cdktf.stringToTerraform(this._enable),
       hit_action: cdktf.stringToTerraform(this._hitAction),
       id: cdktf.stringToTerraform(this._id),
       is_learning_group: cdktf.stringToTerraform(this._isLearningGroup),
+      location_match_miss_action: cdktf.stringToTerraform(this._locationMatchMissAction),
       miss_action: cdktf.stringToTerraform(this._missAction),
       name: cdktf.stringToTerraform(this._name),
       tenant_ref: cdktf.stringToTerraform(this._tenantRef),
@@ -2390,6 +2467,12 @@ export class Wafpolicypsmgroup extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      completely_described_match_elements: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._completelyDescribedMatchElements),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
       description: {
         value: cdktf.stringToHclTerraform(this._description),
         isBlock: false,
@@ -2416,6 +2499,12 @@ export class Wafpolicypsmgroup extends cdktf.TerraformResource {
       },
       is_learning_group: {
         value: cdktf.stringToHclTerraform(this._isLearningGroup),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      location_match_miss_action: {
+        value: cdktf.stringToHclTerraform(this._locationMatchMissAction),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

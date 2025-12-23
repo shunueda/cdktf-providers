@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,41 @@ export interface EdgeSpokeTransitAttachmentConfig extends cdktf.TerraformMetaArg
   /**
   * Disable ActiveMesh, no crossing tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#disable_activemesh EdgeSpokeTransitAttachment#disable_activemesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#disable_activemesh EdgeSpokeTransitAttachment#disable_activemesh}
   */
   readonly disableActivemesh?: boolean | cdktf.IResolvable;
   /**
   * Set of Edge WAN interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#edge_wan_interfaces EdgeSpokeTransitAttachment#edge_wan_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#edge_wan_interfaces EdgeSpokeTransitAttachment#edge_wan_interfaces}
   */
   readonly edgeWanInterfaces?: string[];
   /**
+  * Enable firenet for edge.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#enable_firenet_for_edge EdgeSpokeTransitAttachment#enable_firenet_for_edge}
+  */
+  readonly enableFirenetForEdge?: boolean | cdktf.IResolvable;
+  /**
   * Enable jumbo frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#enable_insane_mode EdgeSpokeTransitAttachment#enable_insane_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#enable_insane_mode EdgeSpokeTransitAttachment#enable_insane_mode}
   */
   readonly enableInsaneMode?: boolean | cdktf.IResolvable;
   /**
   * Enable jumbo frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#enable_jumbo_frame EdgeSpokeTransitAttachment#enable_jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#enable_jumbo_frame EdgeSpokeTransitAttachment#enable_jumbo_frame}
   */
   readonly enableJumboFrame?: boolean | cdktf.IResolvable;
   /**
   * Enable over private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#enable_over_private_network EdgeSpokeTransitAttachment#enable_over_private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#enable_over_private_network EdgeSpokeTransitAttachment#enable_over_private_network}
   */
   readonly enableOverPrivateNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#id EdgeSpokeTransitAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#id EdgeSpokeTransitAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,61 +53,61 @@ export interface EdgeSpokeTransitAttachmentConfig extends cdktf.TerraformMetaArg
   /**
   * Insane mode tunnel number. Valid range for HPE over private network: 0-49. Valid range for HPE over internet: 2-20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#insane_mode_tunnel_number EdgeSpokeTransitAttachment#insane_mode_tunnel_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#insane_mode_tunnel_number EdgeSpokeTransitAttachment#insane_mode_tunnel_number}
   */
   readonly insaneModeTunnelNumber?: number;
   /**
   * Number of retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#number_of_retries EdgeSpokeTransitAttachment#number_of_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#number_of_retries EdgeSpokeTransitAttachment#number_of_retries}
   */
   readonly numberOfRetries?: number;
   /**
   * Retry interval in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#retry_interval EdgeSpokeTransitAttachment#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#retry_interval EdgeSpokeTransitAttachment#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * Spoke gateway logical interface names for edge gateways, where the peering originates. Required for Megaport cloud type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#spoke_gateway_logical_ifnames EdgeSpokeTransitAttachment#spoke_gateway_logical_ifnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#spoke_gateway_logical_ifnames EdgeSpokeTransitAttachment#spoke_gateway_logical_ifnames}
   */
   readonly spokeGatewayLogicalIfnames?: string[];
   /**
   * Name of the Edge as a Spoke to attach to the transit network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#spoke_gw_name EdgeSpokeTransitAttachment#spoke_gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#spoke_gw_name EdgeSpokeTransitAttachment#spoke_gw_name}
   */
   readonly spokeGwName: string;
   /**
   * AS Path Prepend customized by specifying AS PATH for a BGP connection. Applies on Edge as a Spoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#spoke_prepend_as_path EdgeSpokeTransitAttachment#spoke_prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#spoke_prepend_as_path EdgeSpokeTransitAttachment#spoke_prepend_as_path}
   */
   readonly spokePrependAsPath?: string[];
   /**
   * Transit gateway logical interface names for edge gateways, where the peering terminates. Required for all edge gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#transit_gateway_logical_ifnames EdgeSpokeTransitAttachment#transit_gateway_logical_ifnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#transit_gateway_logical_ifnames EdgeSpokeTransitAttachment#transit_gateway_logical_ifnames}
   */
   readonly transitGatewayLogicalIfnames?: string[];
   /**
   * Name of the transit gateway to attach the Edge as a Spoke to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#transit_gw_name EdgeSpokeTransitAttachment#transit_gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#transit_gw_name EdgeSpokeTransitAttachment#transit_gw_name}
   */
   readonly transitGwName: string;
   /**
   * AS Path Prepend customized by specifying AS PATH for a BGP connection. Applies on transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#transit_prepend_as_path EdgeSpokeTransitAttachment#transit_prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#transit_prepend_as_path EdgeSpokeTransitAttachment#transit_prepend_as_path}
   */
   readonly transitPrependAsPath?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment aviatrix_edge_spoke_transit_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment aviatrix_edge_spoke_transit_attachment}
 */
 export class EdgeSpokeTransitAttachment extends cdktf.TerraformResource {
 
@@ -117,7 +123,7 @@ export class EdgeSpokeTransitAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeSpokeTransitAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeSpokeTransitAttachment to import
-  * @param importFromId The id of the existing EdgeSpokeTransitAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeSpokeTransitAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeSpokeTransitAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +135,7 @@ export class EdgeSpokeTransitAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_spoke_transit_attachment aviatrix_edge_spoke_transit_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_spoke_transit_attachment aviatrix_edge_spoke_transit_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +146,8 @@ export class EdgeSpokeTransitAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_spoke_transit_attachment',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -153,6 +159,7 @@ export class EdgeSpokeTransitAttachment extends cdktf.TerraformResource {
     });
     this._disableActivemesh = config.disableActivemesh;
     this._edgeWanInterfaces = config.edgeWanInterfaces;
+    this._enableFirenetForEdge = config.enableFirenetForEdge;
     this._enableInsaneMode = config.enableInsaneMode;
     this._enableJumboFrame = config.enableJumboFrame;
     this._enableOverPrivateNetwork = config.enableOverPrivateNetwork;
@@ -207,6 +214,22 @@ export class EdgeSpokeTransitAttachment extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get edgeWanInterfacesInput() {
     return this._edgeWanInterfaces;
+  }
+
+  // enable_firenet_for_edge - computed: false, optional: true, required: false
+  private _enableFirenetForEdge?: boolean | cdktf.IResolvable; 
+  public get enableFirenetForEdge() {
+    return this.getBooleanAttribute('enable_firenet_for_edge');
+  }
+  public set enableFirenetForEdge(value: boolean | cdktf.IResolvable) {
+    this._enableFirenetForEdge = value;
+  }
+  public resetEnableFirenetForEdge() {
+    this._enableFirenetForEdge = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableFirenetForEdgeInput() {
+    return this._enableFirenetForEdge;
   }
 
   // enable_insane_mode - computed: false, optional: true, required: false
@@ -419,6 +442,7 @@ export class EdgeSpokeTransitAttachment extends cdktf.TerraformResource {
     return {
       disable_activemesh: cdktf.booleanToTerraform(this._disableActivemesh),
       edge_wan_interfaces: cdktf.listMapper(cdktf.stringToTerraform, false)(this._edgeWanInterfaces),
+      enable_firenet_for_edge: cdktf.booleanToTerraform(this._enableFirenetForEdge),
       enable_insane_mode: cdktf.booleanToTerraform(this._enableInsaneMode),
       enable_jumbo_frame: cdktf.booleanToTerraform(this._enableJumboFrame),
       enable_over_private_network: cdktf.booleanToTerraform(this._enableOverPrivateNetwork),
@@ -448,6 +472,12 @@ export class EdgeSpokeTransitAttachment extends cdktf.TerraformResource {
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
+      },
+      enable_firenet_for_edge: {
+        value: cdktf.booleanToHclTerraform(this._enableFirenetForEdge),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       enable_insane_mode: {
         value: cdktf.booleanToHclTerraform(this._enableInsaneMode),

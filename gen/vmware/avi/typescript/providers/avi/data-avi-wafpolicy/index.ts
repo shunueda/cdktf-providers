@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafpolicy
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviWafpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafpolicy#id DataAviWafpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafpolicy#id DataAviWafpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafpolicy#name DataAviWafpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafpolicy#name DataAviWafpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafpolicy#tenant_ref DataAviWafpolicy#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafpolicy#tenant_ref DataAviWafpolicy#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafpolicy#uuid DataAviWafpolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafpolicy#uuid DataAviWafpolicy#uuid}
   */
   readonly uuid?: string;
 }
@@ -1008,6 +1008,11 @@ export class DataAviWafpolicyAllowlistRulesMatchHdrsOutputReference extends cdkt
   // match_criteria - computed: true, optional: false, required: false
   public get matchCriteria() {
     return this.getStringAttribute('match_criteria');
+  }
+
+  // string_group_refs - computed: true, optional: false, required: false
+  public get stringGroupRefs() {
+    return this.getListAttribute('string_group_refs');
   }
 
   // value - computed: true, optional: false, required: false
@@ -3879,96 +3884,6 @@ export class DataAviWafpolicyApplicationSignaturesList extends cdktf.ComplexList
     return new DataAviWafpolicyApplicationSignaturesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataAviWafpolicyConfidenceOverride {
-}
-
-export function dataAviWafpolicyConfidenceOverrideToTerraform(struct?: DataAviWafpolicyConfidenceOverride): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviWafpolicyConfidenceOverrideToHclTerraform(struct?: DataAviWafpolicyConfidenceOverride): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviWafpolicyConfidenceOverrideOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviWafpolicyConfidenceOverride | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviWafpolicyConfidenceOverride | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // confid_high_value - computed: true, optional: false, required: false
-  public get confidHighValue() {
-    return this.getStringAttribute('confid_high_value');
-  }
-
-  // confid_low_value - computed: true, optional: false, required: false
-  public get confidLowValue() {
-    return this.getStringAttribute('confid_low_value');
-  }
-
-  // confid_probable_value - computed: true, optional: false, required: false
-  public get confidProbableValue() {
-    return this.getStringAttribute('confid_probable_value');
-  }
-
-  // confid_very_high_value - computed: true, optional: false, required: false
-  public get confidVeryHighValue() {
-    return this.getStringAttribute('confid_very_high_value');
-  }
-}
-
-export class DataAviWafpolicyConfidenceOverrideList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviWafpolicyConfidenceOverrideOutputReference {
-    return new DataAviWafpolicyConfidenceOverrideOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface DataAviWafpolicyConfigpbAttributes {
 }
 
@@ -5078,288 +4993,6 @@ export class DataAviWafpolicyCrsOverridesList extends cdktf.ComplexList {
   */
   public get(index: number): DataAviWafpolicyCrsOverridesOutputReference {
     return new DataAviWafpolicyCrsOverridesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataAviWafpolicyLearningParamsLearnFromBotsClassifications {
-}
-
-export function dataAviWafpolicyLearningParamsLearnFromBotsClassificationsToTerraform(struct?: DataAviWafpolicyLearningParamsLearnFromBotsClassifications): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviWafpolicyLearningParamsLearnFromBotsClassificationsToHclTerraform(struct?: DataAviWafpolicyLearningParamsLearnFromBotsClassifications): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviWafpolicyLearningParamsLearnFromBotsClassificationsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviWafpolicyLearningParamsLearnFromBotsClassifications | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviWafpolicyLearningParamsLearnFromBotsClassifications | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // user_defined_type - computed: true, optional: false, required: false
-  public get userDefinedType() {
-    return this.getStringAttribute('user_defined_type');
-  }
-}
-
-export class DataAviWafpolicyLearningParamsLearnFromBotsClassificationsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviWafpolicyLearningParamsLearnFromBotsClassificationsOutputReference {
-    return new DataAviWafpolicyLearningParamsLearnFromBotsClassificationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataAviWafpolicyLearningParamsLearnFromBots {
-}
-
-export function dataAviWafpolicyLearningParamsLearnFromBotsToTerraform(struct?: DataAviWafpolicyLearningParamsLearnFromBots): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviWafpolicyLearningParamsLearnFromBotsToHclTerraform(struct?: DataAviWafpolicyLearningParamsLearnFromBots): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviWafpolicyLearningParamsLearnFromBotsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviWafpolicyLearningParamsLearnFromBots | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviWafpolicyLearningParamsLearnFromBots | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // classifications - computed: true, optional: false, required: false
-  private _classifications = new DataAviWafpolicyLearningParamsLearnFromBotsClassificationsList(this, "classifications", false);
-  public get classifications() {
-    return this._classifications;
-  }
-
-  // match_operation - computed: true, optional: false, required: false
-  public get matchOperation() {
-    return this.getStringAttribute('match_operation');
-  }
-}
-
-export class DataAviWafpolicyLearningParamsLearnFromBotsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviWafpolicyLearningParamsLearnFromBotsOutputReference {
-    return new DataAviWafpolicyLearningParamsLearnFromBotsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataAviWafpolicyLearningParams {
-}
-
-export function dataAviWafpolicyLearningParamsToTerraform(struct?: DataAviWafpolicyLearningParams): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviWafpolicyLearningParamsToHclTerraform(struct?: DataAviWafpolicyLearningParams): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviWafpolicyLearningParamsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviWafpolicyLearningParams | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviWafpolicyLearningParams | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // enable_learn_from_bots - computed: true, optional: false, required: false
-  public get enableLearnFromBots() {
-    return this.getStringAttribute('enable_learn_from_bots');
-  }
-
-  // enable_per_uri_learning - computed: true, optional: false, required: false
-  public get enablePerUriLearning() {
-    return this.getStringAttribute('enable_per_uri_learning');
-  }
-
-  // learn_from_authenticated_clients_only - computed: true, optional: false, required: false
-  public get learnFromAuthenticatedClientsOnly() {
-    return this.getStringAttribute('learn_from_authenticated_clients_only');
-  }
-
-  // learn_from_bots - computed: true, optional: false, required: false
-  private _learnFromBots = new DataAviWafpolicyLearningParamsLearnFromBotsList(this, "learn_from_bots", true);
-  public get learnFromBots() {
-    return this._learnFromBots;
-  }
-
-  // max_params - computed: true, optional: false, required: false
-  public get maxParams() {
-    return this.getStringAttribute('max_params');
-  }
-
-  // max_uris - computed: true, optional: false, required: false
-  public get maxUris() {
-    return this.getStringAttribute('max_uris');
-  }
-
-  // min_hits_to_learn - computed: true, optional: false, required: false
-  public get minHitsToLearn() {
-    return this.getStringAttribute('min_hits_to_learn');
-  }
-
-  // sampling_percent - computed: true, optional: false, required: false
-  public get samplingPercent() {
-    return this.getStringAttribute('sampling_percent');
-  }
-
-  // trusted_ipgroup_ref - computed: true, optional: false, required: false
-  public get trustedIpgroupRef() {
-    return this.getStringAttribute('trusted_ipgroup_ref');
-  }
-
-  // update_interval - computed: true, optional: false, required: false
-  public get updateInterval() {
-    return this.getStringAttribute('update_interval');
-  }
-}
-
-export class DataAviWafpolicyLearningParamsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviWafpolicyLearningParamsOutputReference {
-    return new DataAviWafpolicyLearningParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataAviWafpolicyMarkers {
@@ -7741,7 +7374,7 @@ export class DataAviWafpolicyRequiredDataFilesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafpolicy avi_wafpolicy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafpolicy avi_wafpolicy}
 */
 export class DataAviWafpolicy extends cdktf.TerraformDataSource {
 
@@ -7757,7 +7390,7 @@ export class DataAviWafpolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviWafpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviWafpolicy to import
-  * @param importFromId The id of the existing DataAviWafpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviWafpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviWafpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7769,7 +7402,7 @@ export class DataAviWafpolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafpolicy avi_wafpolicy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafpolicy avi_wafpolicy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7780,8 +7413,8 @@ export class DataAviWafpolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_wafpolicy',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -7828,12 +7461,6 @@ export class DataAviWafpolicy extends cdktf.TerraformDataSource {
     return this.getStringAttribute('bypass_static_extensions');
   }
 
-  // confidence_override - computed: true, optional: false, required: false
-  private _confidenceOverride = new DataAviWafpolicyConfidenceOverrideList(this, "confidence_override", true);
-  public get confidenceOverride() {
-    return this._confidenceOverride;
-  }
-
   // configpb_attributes - computed: true, optional: false, required: false
   private _configpbAttributes = new DataAviWafpolicyConfigpbAttributesList(this, "configpb_attributes", true);
   public get configpbAttributes() {
@@ -7856,24 +7483,19 @@ export class DataAviWafpolicy extends cdktf.TerraformDataSource {
     return this.getStringAttribute('description');
   }
 
-  // enable_app_learning - computed: true, optional: false, required: false
-  public get enableAppLearning() {
-    return this.getStringAttribute('enable_app_learning');
-  }
-
-  // enable_auto_rule_updates - computed: true, optional: false, required: false
-  public get enableAutoRuleUpdates() {
-    return this.getStringAttribute('enable_auto_rule_updates');
-  }
-
-  // enable_regex_learning - computed: true, optional: false, required: false
-  public get enableRegexLearning() {
-    return this.getStringAttribute('enable_regex_learning');
+  // enable_streaming - computed: true, optional: false, required: false
+  public get enableStreaming() {
+    return this.getStringAttribute('enable_streaming');
   }
 
   // failure_mode - computed: true, optional: false, required: false
   public get failureMode() {
     return this.getStringAttribute('failure_mode');
+  }
+
+  // fixed_sampling_rate - computed: true, optional: false, required: false
+  public get fixedSamplingRate() {
+    return this.getStringAttribute('fixed_sampling_rate');
   }
 
   // geo_db_ref - computed: true, optional: false, required: false
@@ -7897,21 +7519,10 @@ export class DataAviWafpolicy extends cdktf.TerraformDataSource {
     return this._id;
   }
 
-  // learning_params - computed: true, optional: false, required: false
-  private _learningParams = new DataAviWafpolicyLearningParamsList(this, "learning_params", true);
-  public get learningParams() {
-    return this._learningParams;
-  }
-
   // markers - computed: true, optional: false, required: false
   private _markers = new DataAviWafpolicyMarkersList(this, "markers", false);
   public get markers() {
     return this._markers;
-  }
-
-  // min_confidence - computed: true, optional: false, required: false
-  public get minConfidence() {
-    return this.getStringAttribute('min_confidence');
   }
 
   // mode - computed: true, optional: false, required: false
@@ -7964,6 +7575,11 @@ export class DataAviWafpolicy extends cdktf.TerraformDataSource {
     return this._requiredDataFiles;
   }
 
+  // sampling_mode - computed: true, optional: false, required: false
+  public get samplingMode() {
+    return this.getStringAttribute('sampling_mode');
+  }
+
   // tenant_ref - computed: true, optional: true, required: false
   private _tenantRef?: string; 
   public get tenantRef() {
@@ -7980,9 +7596,9 @@ export class DataAviWafpolicy extends cdktf.TerraformDataSource {
     return this._tenantRef;
   }
 
-  // updated_crs_rules_in_detection_mode - computed: true, optional: false, required: false
-  public get updatedCrsRulesInDetectionMode() {
-    return this.getStringAttribute('updated_crs_rules_in_detection_mode');
+  // use_evaluation_mode_on_crs_update - computed: true, optional: false, required: false
+  public get useEvaluationModeOnCrsUpdate() {
+    return this.getStringAttribute('use_evaluation_mode_on_crs_update');
   }
 
   // uuid - computed: true, optional: true, required: false

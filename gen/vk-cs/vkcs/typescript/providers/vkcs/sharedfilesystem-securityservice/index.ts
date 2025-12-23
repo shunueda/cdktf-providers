@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SharedfilesystemSecurityserviceConfig extends cdktf.TerraformMe
   /**
   * The human-readable description for the security service. Changing this updates the description of the existing security service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#description SharedfilesystemSecurityservice#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#description SharedfilesystemSecurityservice#description}
   */
   readonly description?: string;
   /**
   * The security service DNS IP address that is used inside the tenant network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#dns_ip SharedfilesystemSecurityservice#dns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#dns_ip SharedfilesystemSecurityservice#dns_ip}
   */
   readonly dnsIp?: string;
   /**
   * The security service domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#domain SharedfilesystemSecurityservice#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#domain SharedfilesystemSecurityservice#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#id SharedfilesystemSecurityservice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#id SharedfilesystemSecurityservice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,57 +35,57 @@ export interface SharedfilesystemSecurityserviceConfig extends cdktf.TerraformMe
   /**
   * The name of the security service. Changing this updates the name of the existing security service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#name SharedfilesystemSecurityservice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#name SharedfilesystemSecurityservice#name}
   */
   readonly name?: string;
   /**
   * The user password, if you specify a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#password SharedfilesystemSecurityservice#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#password SharedfilesystemSecurityservice#password}
   */
   readonly password?: string;
   /**
   * The region in which to obtain the Shared File System client. A Shared File System client is needed to create a security service. If omitted, the `region` argument of the provider is used. Changing this creates a new security service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#region SharedfilesystemSecurityservice#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#region SharedfilesystemSecurityservice#region}
   */
   readonly region?: string;
   /**
   * The security service host name or IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#server SharedfilesystemSecurityservice#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#server SharedfilesystemSecurityservice#server}
   */
   readonly server?: string;
   /**
   * The security service type - can either be active\_directory, kerberos or ldap.  Changing this updates the existing security service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#type SharedfilesystemSecurityservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#type SharedfilesystemSecurityservice#type}
   */
   readonly type: string;
   /**
   * The security service user or group name that is used by the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#user SharedfilesystemSecurityservice#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#user SharedfilesystemSecurityservice#user}
   */
   readonly user?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#timeouts SharedfilesystemSecurityservice#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#timeouts SharedfilesystemSecurityservice#timeouts}
   */
   readonly timeouts?: SharedfilesystemSecurityserviceTimeouts;
 }
 export interface SharedfilesystemSecurityserviceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#create SharedfilesystemSecurityservice#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#create SharedfilesystemSecurityservice#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#delete SharedfilesystemSecurityservice#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#delete SharedfilesystemSecurityservice#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#update SharedfilesystemSecurityservice#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#update SharedfilesystemSecurityservice#update}
   */
   readonly update?: string;
 }
@@ -237,7 +237,7 @@ export class SharedfilesystemSecurityserviceTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice vkcs_sharedfilesystem_securityservice}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice vkcs_sharedfilesystem_securityservice}
 */
 export class SharedfilesystemSecurityservice extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class SharedfilesystemSecurityservice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SharedfilesystemSecurityservice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SharedfilesystemSecurityservice to import
-  * @param importFromId The id of the existing SharedfilesystemSecurityservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SharedfilesystemSecurityservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SharedfilesystemSecurityservice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class SharedfilesystemSecurityservice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_securityservice vkcs_sharedfilesystem_securityservice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/sharedfilesystem_securityservice vkcs_sharedfilesystem_securityservice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class SharedfilesystemSecurityservice extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_sharedfilesystem_securityservice',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

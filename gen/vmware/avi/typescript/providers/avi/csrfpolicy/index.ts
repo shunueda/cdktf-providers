@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface CsrfpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#cookie_name Csrfpolicy#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#cookie_name Csrfpolicy#cookie_name}
   */
   readonly cookieName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#description Csrfpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#csrf_file_ref Csrfpolicy#csrf_file_ref}
+  */
+  readonly csrfFileRef?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#description Csrfpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#id Csrfpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#id Csrfpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#name Csrfpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#name Csrfpolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#tenant_ref Csrfpolicy#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#tenant_ref Csrfpolicy#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#token_validity_time_min Csrfpolicy#token_validity_time_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#token_validity_time_min Csrfpolicy#token_validity_time_min}
   */
   readonly tokenValidityTimeMin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#uuid Csrfpolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#uuid Csrfpolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#configpb_attributes Csrfpolicy#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#configpb_attributes Csrfpolicy#configpb_attributes}
   */
   readonly configpbAttributes?: CsrfpolicyConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#rules Csrfpolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#rules Csrfpolicy#rules}
   */
   readonly rules: CsrfpolicyRules[] | cdktf.IResolvable;
 }
 export interface CsrfpolicyConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#version Csrfpolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#version Csrfpolicy#version}
   */
   readonly version?: string;
 }
@@ -169,11 +173,11 @@ export class CsrfpolicyConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchBotDetectionResultClassifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#type Csrfpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#type Csrfpolicy#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#user_defined_type Csrfpolicy#user_defined_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#user_defined_type Csrfpolicy#user_defined_type}
   */
   readonly userDefinedType?: string;
 }
@@ -315,13 +319,13 @@ export class CsrfpolicyRulesMatchBotDetectionResultClassificationsList extends c
 }
 export interface CsrfpolicyRulesMatchBotDetectionResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_operation Csrfpolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_operation Csrfpolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
   * classifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#classifications Csrfpolicy#classifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#classifications Csrfpolicy#classifications}
   */
   readonly classifications?: CsrfpolicyRulesMatchBotDetectionResultClassifications[] | cdktf.IResolvable;
 }
@@ -463,11 +467,11 @@ export class CsrfpolicyRulesMatchBotDetectionResultList extends cdktf.ComplexLis
 }
 export interface CsrfpolicyRulesMatchClientIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#type Csrfpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#type Csrfpolicy#type}
   */
   readonly type: string;
 }
@@ -606,11 +610,11 @@ export class CsrfpolicyRulesMatchClientIpAddrsList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchClientIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#type Csrfpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#type Csrfpolicy#type}
   */
   readonly type: string;
 }
@@ -749,13 +753,13 @@ export class CsrfpolicyRulesMatchClientIpPrefixesIpAddrList extends cdktf.Comple
 }
 export interface CsrfpolicyRulesMatchClientIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#mask Csrfpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#mask Csrfpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#ip_addr Csrfpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#ip_addr Csrfpolicy#ip_addr}
   */
   readonly ipAddr: CsrfpolicyRulesMatchClientIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -894,11 +898,11 @@ export class CsrfpolicyRulesMatchClientIpPrefixesList extends cdktf.ComplexList 
 }
 export interface CsrfpolicyRulesMatchClientIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#type Csrfpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#type Csrfpolicy#type}
   */
   readonly type: string;
 }
@@ -1037,11 +1041,11 @@ export class CsrfpolicyRulesMatchClientIpRangesBeginList extends cdktf.ComplexLi
 }
 export interface CsrfpolicyRulesMatchClientIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#type Csrfpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#type Csrfpolicy#type}
   */
   readonly type: string;
 }
@@ -1182,13 +1186,13 @@ export interface CsrfpolicyRulesMatchClientIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#begin Csrfpolicy#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#begin Csrfpolicy#begin}
   */
   readonly begin: CsrfpolicyRulesMatchClientIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#end Csrfpolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#end Csrfpolicy#end}
   */
   readonly end: CsrfpolicyRulesMatchClientIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -1327,29 +1331,29 @@ export class CsrfpolicyRulesMatchClientIpRangesList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#group_refs Csrfpolicy#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#group_refs Csrfpolicy#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#addrs Csrfpolicy#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#addrs Csrfpolicy#addrs}
   */
   readonly addrs?: CsrfpolicyRulesMatchClientIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#prefixes Csrfpolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#prefixes Csrfpolicy#prefixes}
   */
   readonly prefixes?: CsrfpolicyRulesMatchClientIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#ranges Csrfpolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#ranges Csrfpolicy#ranges}
   */
   readonly ranges?: CsrfpolicyRulesMatchClientIpRanges[] | cdktf.IResolvable;
 }
@@ -1578,19 +1582,19 @@ export class CsrfpolicyRulesMatchClientIpList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_case Csrfpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_case Csrfpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#name Csrfpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#name Csrfpolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#value Csrfpolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#value Csrfpolicy#value}
   */
   readonly value?: string;
 }
@@ -1787,15 +1791,15 @@ export class CsrfpolicyRulesMatchCookieList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchGeoMatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#attribute Csrfpolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#attribute Csrfpolicy#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_operation Csrfpolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_operation Csrfpolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#values Csrfpolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#values Csrfpolicy#values}
   */
   readonly values: string[];
 }
@@ -1960,19 +1964,23 @@ export class CsrfpolicyRulesMatchGeoMatchesList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchHdrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#hdr Csrfpolicy#hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#hdr Csrfpolicy#hdr}
   */
   readonly hdr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_case Csrfpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_case Csrfpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#value Csrfpolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#string_group_refs Csrfpolicy#string_group_refs}
+  */
+  readonly stringGroupRefs?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#value Csrfpolicy#value}
   */
   readonly value?: string[];
 }
@@ -1986,6 +1994,7 @@ export function csrfpolicyRulesMatchHdrsToTerraform(struct?: CsrfpolicyRulesMatc
     hdr: cdktf.stringToTerraform(struct!.hdr),
     match_case: cdktf.stringToTerraform(struct!.matchCase),
     match_criteria: cdktf.stringToTerraform(struct!.matchCriteria),
+    string_group_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.stringGroupRefs),
     value: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.value),
   }
 }
@@ -2014,6 +2023,12 @@ export function csrfpolicyRulesMatchHdrsToHclTerraform(struct?: CsrfpolicyRulesM
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    string_group_refs: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.stringGroupRefs),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
     },
     value: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.value),
@@ -2059,6 +2074,10 @@ export class CsrfpolicyRulesMatchHdrsOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.matchCriteria = this._matchCriteria;
     }
+    if (this._stringGroupRefs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stringGroupRefs = this._stringGroupRefs;
+    }
     if (this._value !== undefined) {
       hasAnyValues = true;
       internalValueResult.value = this._value;
@@ -2073,6 +2092,7 @@ export class CsrfpolicyRulesMatchHdrsOutputReference extends cdktf.ComplexObject
       this._hdr = undefined;
       this._matchCase = undefined;
       this._matchCriteria = undefined;
+      this._stringGroupRefs = undefined;
       this._value = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -2085,6 +2105,7 @@ export class CsrfpolicyRulesMatchHdrsOutputReference extends cdktf.ComplexObject
       this._hdr = value.hdr;
       this._matchCase = value.matchCase;
       this._matchCriteria = value.matchCriteria;
+      this._stringGroupRefs = value.stringGroupRefs;
       this._value = value.value;
     }
   }
@@ -2131,6 +2152,22 @@ export class CsrfpolicyRulesMatchHdrsOutputReference extends cdktf.ComplexObject
     return this._matchCriteria;
   }
 
+  // string_group_refs - computed: false, optional: true, required: false
+  private _stringGroupRefs?: string[]; 
+  public get stringGroupRefs() {
+    return this.getListAttribute('string_group_refs');
+  }
+  public set stringGroupRefs(value: string[]) {
+    this._stringGroupRefs = value;
+  }
+  public resetStringGroupRefs() {
+    this._stringGroupRefs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stringGroupRefsInput() {
+    return this._stringGroupRefs;
+  }
+
   // value - computed: false, optional: true, required: false
   private _value?: string[]; 
   public get value() {
@@ -2169,15 +2206,15 @@ export class CsrfpolicyRulesMatchHdrsList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchHostHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_case Csrfpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_case Csrfpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#value Csrfpolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#value Csrfpolicy#value}
   */
   readonly value?: string[];
 }
@@ -2348,11 +2385,11 @@ export class CsrfpolicyRulesMatchHostHdrList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchIpReputationType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_operation Csrfpolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_operation Csrfpolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#reputation_types Csrfpolicy#reputation_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#reputation_types Csrfpolicy#reputation_types}
   */
   readonly reputationTypes: string[];
 }
@@ -2491,11 +2528,11 @@ export class CsrfpolicyRulesMatchIpReputationTypeList extends cdktf.ComplexList 
 }
 export interface CsrfpolicyRulesMatchMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#methods Csrfpolicy#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#methods Csrfpolicy#methods}
   */
   readonly methods: string[];
 }
@@ -2634,23 +2671,23 @@ export class CsrfpolicyRulesMatchMethodList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_case Csrfpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_case Csrfpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_decoded_string Csrfpolicy#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_decoded_string Csrfpolicy#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_str Csrfpolicy#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_str Csrfpolicy#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#string_group_refs Csrfpolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#string_group_refs Csrfpolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -2879,11 +2916,11 @@ export class CsrfpolicyRulesMatchPathList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#protocols Csrfpolicy#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#protocols Csrfpolicy#protocols}
   */
   readonly protocols: string;
 }
@@ -3022,23 +3059,23 @@ export class CsrfpolicyRulesMatchProtocolList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_case Csrfpolicy#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_case Csrfpolicy#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_decoded_string Csrfpolicy#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_decoded_string Csrfpolicy#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_str Csrfpolicy#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_str Csrfpolicy#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#string_group_refs Csrfpolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#string_group_refs Csrfpolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -3267,11 +3304,11 @@ export class CsrfpolicyRulesMatchQueryList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchSourceIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#type Csrfpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#type Csrfpolicy#type}
   */
   readonly type: string;
 }
@@ -3410,11 +3447,11 @@ export class CsrfpolicyRulesMatchSourceIpAddrsList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchSourceIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#type Csrfpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#type Csrfpolicy#type}
   */
   readonly type: string;
 }
@@ -3553,13 +3590,13 @@ export class CsrfpolicyRulesMatchSourceIpPrefixesIpAddrList extends cdktf.Comple
 }
 export interface CsrfpolicyRulesMatchSourceIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#mask Csrfpolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#mask Csrfpolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#ip_addr Csrfpolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#ip_addr Csrfpolicy#ip_addr}
   */
   readonly ipAddr: CsrfpolicyRulesMatchSourceIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -3698,11 +3735,11 @@ export class CsrfpolicyRulesMatchSourceIpPrefixesList extends cdktf.ComplexList 
 }
 export interface CsrfpolicyRulesMatchSourceIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#type Csrfpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#type Csrfpolicy#type}
   */
   readonly type: string;
 }
@@ -3841,11 +3878,11 @@ export class CsrfpolicyRulesMatchSourceIpRangesBeginList extends cdktf.ComplexLi
 }
 export interface CsrfpolicyRulesMatchSourceIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#addr Csrfpolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#type Csrfpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#type Csrfpolicy#type}
   */
   readonly type: string;
 }
@@ -3986,13 +4023,13 @@ export interface CsrfpolicyRulesMatchSourceIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#begin Csrfpolicy#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#begin Csrfpolicy#begin}
   */
   readonly begin: CsrfpolicyRulesMatchSourceIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#end Csrfpolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#end Csrfpolicy#end}
   */
   readonly end: CsrfpolicyRulesMatchSourceIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -4131,29 +4168,29 @@ export class CsrfpolicyRulesMatchSourceIpRangesList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchSourceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#group_refs Csrfpolicy#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#group_refs Csrfpolicy#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#addrs Csrfpolicy#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#addrs Csrfpolicy#addrs}
   */
   readonly addrs?: CsrfpolicyRulesMatchSourceIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#prefixes Csrfpolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#prefixes Csrfpolicy#prefixes}
   */
   readonly prefixes?: CsrfpolicyRulesMatchSourceIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#ranges Csrfpolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#ranges Csrfpolicy#ranges}
   */
   readonly ranges?: CsrfpolicyRulesMatchSourceIpRanges[] | cdktf.IResolvable;
 }
@@ -4382,15 +4419,15 @@ export class CsrfpolicyRulesMatchSourceIpList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchTlsFingerprintMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#fingerprints Csrfpolicy#fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#fingerprints Csrfpolicy#fingerprints}
   */
   readonly fingerprints?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_operation Csrfpolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_operation Csrfpolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#string_group_refs Csrfpolicy#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#string_group_refs Csrfpolicy#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -4561,11 +4598,11 @@ export class CsrfpolicyRulesMatchTlsFingerprintMatchList extends cdktf.ComplexLi
 }
 export interface CsrfpolicyRulesMatchVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#versions Csrfpolicy#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#versions Csrfpolicy#versions}
   */
   readonly versions: string[];
 }
@@ -4704,11 +4741,11 @@ export class CsrfpolicyRulesMatchVersionList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRulesMatchVsPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match_criteria Csrfpolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#ports Csrfpolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#ports Csrfpolicy#ports}
   */
   readonly ports: number[];
 }
@@ -4849,91 +4886,91 @@ export interface CsrfpolicyRulesMatch {
   /**
   * bot_detection_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#bot_detection_result Csrfpolicy#bot_detection_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#bot_detection_result Csrfpolicy#bot_detection_result}
   */
   readonly botDetectionResult?: CsrfpolicyRulesMatchBotDetectionResult[] | cdktf.IResolvable;
   /**
   * client_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#client_ip Csrfpolicy#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#client_ip Csrfpolicy#client_ip}
   */
   readonly clientIp?: CsrfpolicyRulesMatchClientIp[] | cdktf.IResolvable;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#cookie Csrfpolicy#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#cookie Csrfpolicy#cookie}
   */
   readonly cookie?: CsrfpolicyRulesMatchCookie[] | cdktf.IResolvable;
   /**
   * geo_matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#geo_matches Csrfpolicy#geo_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#geo_matches Csrfpolicy#geo_matches}
   */
   readonly geoMatches?: CsrfpolicyRulesMatchGeoMatches[] | cdktf.IResolvable;
   /**
   * hdrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#hdrs Csrfpolicy#hdrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#hdrs Csrfpolicy#hdrs}
   */
   readonly hdrs?: CsrfpolicyRulesMatchHdrs[] | cdktf.IResolvable;
   /**
   * host_hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#host_hdr Csrfpolicy#host_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#host_hdr Csrfpolicy#host_hdr}
   */
   readonly hostHdr?: CsrfpolicyRulesMatchHostHdr[] | cdktf.IResolvable;
   /**
   * ip_reputation_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#ip_reputation_type Csrfpolicy#ip_reputation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#ip_reputation_type Csrfpolicy#ip_reputation_type}
   */
   readonly ipReputationType?: CsrfpolicyRulesMatchIpReputationType[] | cdktf.IResolvable;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#method Csrfpolicy#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#method Csrfpolicy#method}
   */
   readonly method?: CsrfpolicyRulesMatchMethod[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#path Csrfpolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#path Csrfpolicy#path}
   */
   readonly path?: CsrfpolicyRulesMatchPath[] | cdktf.IResolvable;
   /**
   * protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#protocol Csrfpolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#protocol Csrfpolicy#protocol}
   */
   readonly protocol?: CsrfpolicyRulesMatchProtocol[] | cdktf.IResolvable;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#query Csrfpolicy#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#query Csrfpolicy#query}
   */
   readonly query?: CsrfpolicyRulesMatchQuery[] | cdktf.IResolvable;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#source_ip Csrfpolicy#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#source_ip Csrfpolicy#source_ip}
   */
   readonly sourceIp?: CsrfpolicyRulesMatchSourceIp[] | cdktf.IResolvable;
   /**
   * tls_fingerprint_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#tls_fingerprint_match Csrfpolicy#tls_fingerprint_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#tls_fingerprint_match Csrfpolicy#tls_fingerprint_match}
   */
   readonly tlsFingerprintMatch?: CsrfpolicyRulesMatchTlsFingerprintMatch[] | cdktf.IResolvable;
   /**
   * version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#version Csrfpolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#version Csrfpolicy#version}
   */
   readonly version?: CsrfpolicyRulesMatchVersion[] | cdktf.IResolvable;
   /**
   * vs_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#vs_port Csrfpolicy#vs_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#vs_port Csrfpolicy#vs_port}
   */
   readonly vsPort?: CsrfpolicyRulesMatchVsPort[] | cdktf.IResolvable;
 }
@@ -5455,25 +5492,25 @@ export class CsrfpolicyRulesMatchList extends cdktf.ComplexList {
 }
 export interface CsrfpolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#action Csrfpolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#action Csrfpolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#enable Csrfpolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#enable Csrfpolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#index Csrfpolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#index Csrfpolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#name Csrfpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#name Csrfpolicy#name}
   */
   readonly name: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#match Csrfpolicy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#match Csrfpolicy#match}
   */
   readonly match: CsrfpolicyRulesMatch[] | cdktf.IResolvable;
 }
@@ -5696,7 +5733,7 @@ export class CsrfpolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy avi_csrfpolicy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy avi_csrfpolicy}
 */
 export class Csrfpolicy extends cdktf.TerraformResource {
 
@@ -5712,7 +5749,7 @@ export class Csrfpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Csrfpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Csrfpolicy to import
-  * @param importFromId The id of the existing Csrfpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Csrfpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Csrfpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5724,7 +5761,7 @@ export class Csrfpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/csrfpolicy avi_csrfpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/csrfpolicy avi_csrfpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5735,8 +5772,8 @@ export class Csrfpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'avi_csrfpolicy',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5747,6 +5784,7 @@ export class Csrfpolicy extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._cookieName = config.cookieName;
+    this._csrfFileRef = config.csrfFileRef;
     this._description = config.description;
     this._id = config.id;
     this._name = config.name;
@@ -5775,6 +5813,22 @@ export class Csrfpolicy extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get cookieNameInput() {
     return this._cookieName;
+  }
+
+  // csrf_file_ref - computed: true, optional: true, required: false
+  private _csrfFileRef?: string; 
+  public get csrfFileRef() {
+    return this.getStringAttribute('csrf_file_ref');
+  }
+  public set csrfFileRef(value: string) {
+    this._csrfFileRef = value;
+  }
+  public resetCsrfFileRef() {
+    this._csrfFileRef = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get csrfFileRefInput() {
+    return this._csrfFileRef;
   }
 
   // description - computed: true, optional: true, required: false
@@ -5906,6 +5960,7 @@ export class Csrfpolicy extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       cookie_name: cdktf.stringToTerraform(this._cookieName),
+      csrf_file_ref: cdktf.stringToTerraform(this._csrfFileRef),
       description: cdktf.stringToTerraform(this._description),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
@@ -5921,6 +5976,12 @@ export class Csrfpolicy extends cdktf.TerraformResource {
     const attrs = {
       cookie_name: {
         value: cdktf.stringToHclTerraform(this._cookieName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      csrf_file_ref: {
+        value: cdktf.stringToHclTerraform(this._csrfFileRef),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

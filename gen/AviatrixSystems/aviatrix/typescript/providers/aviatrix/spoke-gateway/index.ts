@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,317 +10,329 @@ export interface SpokeGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * This parameter represents the name of a Cloud-Account in Aviatrix controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#account_name SpokeGateway#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#account_name SpokeGateway#account_name}
   */
   readonly accountName: string;
   /**
   * If false, reuse an idle address in Elastic IP pool for this gateway. Otherwise, allocate a new Elastic IP and use it for this gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#allocate_new_eip SpokeGateway#allocate_new_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#allocate_new_eip SpokeGateway#allocate_new_eip}
   */
   readonly allocateNewEip?: boolean | cdktf.IResolvable;
   /**
   * Approved learned CIDRs for BGP Spoke Gateway. Available as of provider version R2.21+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#approved_learned_cidrs SpokeGateway#approved_learned_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#approved_learned_cidrs SpokeGateway#approved_learned_cidrs}
   */
   readonly approvedLearnedCidrs?: string[];
   /**
   * Availability domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#availability_domain SpokeGateway#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#availability_domain SpokeGateway#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
   * The name of the public IP address and its resource group in Azure to assign to this Spoke Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#azure_eip_name_resource_group SpokeGateway#azure_eip_name_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#azure_eip_name_resource_group SpokeGateway#azure_eip_name_resource_group}
   */
   readonly azureEipNameResourceGroup?: string;
   /**
   * BGP communities gateway accept configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#bgp_accept_communities SpokeGateway#bgp_accept_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#bgp_accept_communities SpokeGateway#bgp_accept_communities}
   */
   readonly bgpAcceptCommunities?: boolean | cdktf.IResolvable;
   /**
   * Enable Equal Cost Multi Path (ECMP) routing for the next hop for BGP Spoke Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#bgp_ecmp SpokeGateway#bgp_ecmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#bgp_ecmp SpokeGateway#bgp_ecmp}
   */
   readonly bgpEcmp?: boolean | cdktf.IResolvable;
   /**
   * BGP Hold Time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 12 and 360.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#bgp_hold_time SpokeGateway#bgp_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#bgp_hold_time SpokeGateway#bgp_hold_time}
   */
   readonly bgpHoldTime?: number;
   /**
   * Number of interfaces that will be created for BGP over LAN enabled Azure spoke. Only valid for 8 (Azure), 32 (AzureGov) or AzureChina (2048). Default value: 1. Available as of provider version R3.0.2+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#bgp_lan_interfaces_count SpokeGateway#bgp_lan_interfaces_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#bgp_lan_interfaces_count SpokeGateway#bgp_lan_interfaces_count}
   */
   readonly bgpLanInterfacesCount?: number;
   /**
   * BGP neighbor status polling time. Unit is in seconds. Valid values are between 1 and 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#bgp_neighbor_status_polling_time SpokeGateway#bgp_neighbor_status_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#bgp_neighbor_status_polling_time SpokeGateway#bgp_neighbor_status_polling_time}
   */
   readonly bgpNeighborStatusPollingTime?: number;
   /**
   * BGP route polling time for BGP Spoke Gateway. Unit is in seconds. Valid values are between 10 and 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#bgp_polling_time SpokeGateway#bgp_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#bgp_polling_time SpokeGateway#bgp_polling_time}
   */
   readonly bgpPollingTime?: number;
   /**
   * BGP communities gateway send configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#bgp_send_communities SpokeGateway#bgp_send_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#bgp_send_communities SpokeGateway#bgp_send_communities}
   */
   readonly bgpSendCommunities?: boolean | cdktf.IResolvable;
   /**
   * Type of cloud service provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#cloud_type SpokeGateway#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#cloud_type SpokeGateway#cloud_type}
   */
   readonly cloudType: number;
   /**
   * Customer managed key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#customer_managed_keys SpokeGateway#customer_managed_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#customer_managed_keys SpokeGateway#customer_managed_keys}
   */
   readonly customerManagedKeys?: string;
   /**
   * A list of comma separated CIDRs to be customized for the spoke VPC routes. When configured, it will replace all learned routes in VPC routing tables, including RFC1918 and non-RFC1918 CIDRs. It applies to this spoke gateway only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#customized_spoke_vpc_routes SpokeGateway#customized_spoke_vpc_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#customized_spoke_vpc_routes SpokeGateway#customized_spoke_vpc_routes}
   */
   readonly customizedSpokeVpcRoutes?: string;
   /**
   * If set true, the spot instance will be deleted on eviction. Otherwise, the instance will be deallocated on eviction. Only supports Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#delete_spot SpokeGateway#delete_spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#delete_spot SpokeGateway#delete_spot}
   */
   readonly deleteSpot?: boolean | cdktf.IResolvable;
   /**
   * Disables route propagation on BGP Spoke to attached Transit Gateway. Default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#disable_route_propagation SpokeGateway#disable_route_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#disable_route_propagation SpokeGateway#disable_route_propagation}
   */
   readonly disableRoutePropagation?: boolean | cdktf.IResolvable;
   /**
   * Required when allocate_new_eip is false. It uses specified EIP for this gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#eip SpokeGateway#eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#eip SpokeGateway#eip}
   */
   readonly eip?: string;
   /**
   * Enables Active-Standby Mode, available only with HA enabled for BGP Spoke Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_active_standby SpokeGateway#enable_active_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_active_standby SpokeGateway#enable_active_standby}
   */
   readonly enableActiveStandby?: boolean | cdktf.IResolvable;
   /**
   * Enables Preemptive Mode for Active-Standby, available only with Active-Standby enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_active_standby_preemptive SpokeGateway#enable_active_standby_preemptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_active_standby_preemptive SpokeGateway#enable_active_standby_preemptive}
   */
   readonly enableActiveStandbyPreemptive?: boolean | cdktf.IResolvable;
   /**
   * Automatically advertise remote CIDR to Aviatrix Transit Gateway when route based Site2Cloud Tunnel is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_auto_advertise_s2c_cidrs SpokeGateway#enable_auto_advertise_s2c_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_auto_advertise_s2c_cidrs SpokeGateway#enable_auto_advertise_s2c_cidrs}
   */
   readonly enableAutoAdvertiseS2CCidrs?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP. Default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_bgp SpokeGateway#enable_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_bgp SpokeGateway#enable_bgp}
   */
   readonly enableBgp?: boolean | cdktf.IResolvable;
   /**
   * Pre-allocate a network interface(eth4) for "BGP over LAN" functionality. Only valid for 8 (Azure), 32 (AzureGov) or AzureChina (2048). Valid values: true or false. Default value: false. Available as of provider version R3.0.2+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_bgp_over_lan SpokeGateway#enable_bgp_over_lan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_bgp_over_lan SpokeGateway#enable_bgp_over_lan}
   */
   readonly enableBgpOverLan?: boolean | cdktf.IResolvable;
   /**
   * Enable encrypt gateway EBS volume. Only supported for AWS provider. Valid values: true, false. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_encrypt_volume SpokeGateway#enable_encrypt_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_encrypt_volume SpokeGateway#enable_encrypt_volume}
   */
   readonly enableEncryptVolume?: boolean | cdktf.IResolvable;
   /**
   * Set to true to enable global VPC. Only supported for GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_global_vpc SpokeGateway#enable_global_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_global_vpc SpokeGateway#enable_global_vpc}
   */
   readonly enableGlobalVpc?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to disable GRO/GSO or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_gro_gso SpokeGateway#enable_gro_gso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_gro_gso SpokeGateway#enable_gro_gso}
   */
   readonly enableGroGso?: boolean | cdktf.IResolvable;
   /**
+  * Enable IPv6 for the gateway. Only supported for AWS (1), Azure (8).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_ipv6 SpokeGateway#enable_ipv6}
+  */
+  readonly enableIpv6?: boolean | cdktf.IResolvable;
+  /**
   * Enable jumbo frame support for spoke gateway. Valid values: true or false. Default value: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_jumbo_frame SpokeGateway#enable_jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_jumbo_frame SpokeGateway#enable_jumbo_frame}
   */
   readonly enableJumboFrame?: boolean | cdktf.IResolvable;
   /**
   * Switch to enable/disable learned CIDR approval for BGP Spoke Gateway. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_learned_cidrs_approval SpokeGateway#enable_learned_cidrs_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_learned_cidrs_approval SpokeGateway#enable_learned_cidrs_approval}
   */
   readonly enableLearnedCidrsApproval?: boolean | cdktf.IResolvable;
   /**
   * Enable [monitor gateway subnets](https://docs.aviatrix.com/HowTos/gateway.html#monitor-gateway-subnet). Only valid for cloud_type = 1 (AWS) or 256 (AWSGov). Valid values: true, false. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_monitor_gateway_subnets SpokeGateway#enable_monitor_gateway_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_monitor_gateway_subnets SpokeGateway#enable_monitor_gateway_subnets}
   */
   readonly enableMonitorGatewaySubnets?: boolean | cdktf.IResolvable;
   /**
   * Enable preserve as_path when advertising manual summary cidrs on BGP spoke gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_preserve_as_path SpokeGateway#enable_preserve_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_preserve_as_path SpokeGateway#enable_preserve_as_path}
   */
   readonly enablePreserveAsPath?: boolean | cdktf.IResolvable;
   /**
   * Enable private OOB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_private_oob SpokeGateway#enable_private_oob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_private_oob SpokeGateway#enable_private_oob}
   */
   readonly enablePrivateOob?: boolean | cdktf.IResolvable;
   /**
   * Config Private VPC Default Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_private_vpc_default_route SpokeGateway#enable_private_vpc_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_private_vpc_default_route SpokeGateway#enable_private_vpc_default_route}
   */
   readonly enablePrivateVpcDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Skip Public Route Table Update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_skip_public_route_table_update SpokeGateway#enable_skip_public_route_table_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_skip_public_route_table_update SpokeGateway#enable_skip_public_route_table_update}
   */
   readonly enableSkipPublicRouteTableUpdate?: boolean | cdktf.IResolvable;
   /**
   * Enable spot instance. NOT supported for production deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_spot_instance SpokeGateway#enable_spot_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_spot_instance SpokeGateway#enable_spot_instance}
   */
   readonly enableSpotInstance?: boolean | cdktf.IResolvable;
   /**
   * Enable vpc_dns_server for Gateway. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#enable_vpc_dns_server SpokeGateway#enable_vpc_dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#enable_vpc_dns_server SpokeGateway#enable_vpc_dns_server}
   */
   readonly enableVpcDnsServer?: boolean | cdktf.IResolvable;
   /**
   * Fault domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#fault_domain SpokeGateway#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#fault_domain SpokeGateway#fault_domain}
   */
   readonly faultDomain?: string;
   /**
   * A list of comma separated CIDRs to be filtered from the spoke VPC route table. When configured, filtering CIDR(s) or it’s subnet will be deleted from VPC routing tables as well as from spoke gateway’s routing table. It applies to this spoke gateway only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#filtered_spoke_vpc_routes SpokeGateway#filtered_spoke_vpc_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#filtered_spoke_vpc_routes SpokeGateway#filtered_spoke_vpc_routes}
   */
   readonly filteredSpokeVpcRoutes?: string;
   /**
   * Name of the gateway which is going to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#gw_name SpokeGateway#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#gw_name SpokeGateway#gw_name}
   */
   readonly gwName: string;
   /**
   * Size of the gateway instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#gw_size SpokeGateway#gw_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#gw_size SpokeGateway#gw_size}
   */
   readonly gwSize: string;
   /**
   * HA availability domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_availability_domain SpokeGateway#ha_availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_availability_domain SpokeGateway#ha_availability_domain}
   */
   readonly haAvailabilityDomain?: string;
   /**
   * The name of the public IP address and its resource group in Azure to assign to the HA Spoke Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_azure_eip_name_resource_group SpokeGateway#ha_azure_eip_name_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_azure_eip_name_resource_group SpokeGateway#ha_azure_eip_name_resource_group}
   */
   readonly haAzureEipNameResourceGroup?: string;
   /**
   * Public IP address that you want assigned to the HA Spoke Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_eip SpokeGateway#ha_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_eip SpokeGateway#ha_eip}
   */
   readonly haEip?: string;
   /**
   * HA fault domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_fault_domain SpokeGateway#ha_fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_fault_domain SpokeGateway#ha_fault_domain}
   */
   readonly haFaultDomain?: string;
   /**
   * HA Gateway Size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_gw_size SpokeGateway#ha_gw_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_gw_size SpokeGateway#ha_gw_size}
   */
   readonly haGwSize?: string;
   /**
   * ha_image_version can be used to set the desired image version of the HA gateway. If set, we will attempt to update the gateway to the specified version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_image_version SpokeGateway#ha_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_image_version SpokeGateway#ha_image_version}
   */
   readonly haImageVersion?: string;
   /**
   * AZ of subnet being created for Insane Mode Spoke HA Gateway. Required for AWS if insane_mode is true and ha_subnet is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_insane_mode_az SpokeGateway#ha_insane_mode_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_insane_mode_az SpokeGateway#ha_insane_mode_az}
   */
   readonly haInsaneModeAz?: string;
   /**
   * OOB HA availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_oob_availability_zone SpokeGateway#ha_oob_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_oob_availability_zone SpokeGateway#ha_oob_availability_zone}
   */
   readonly haOobAvailabilityZone?: string;
   /**
   * OOB HA management subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_oob_management_subnet SpokeGateway#ha_oob_management_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_oob_management_subnet SpokeGateway#ha_oob_management_subnet}
   */
   readonly haOobManagementSubnet?: string;
   /**
   *  Private Mode HA subnet availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_private_mode_subnet_zone SpokeGateway#ha_private_mode_subnet_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_private_mode_subnet_zone SpokeGateway#ha_private_mode_subnet_zone}
   */
   readonly haPrivateModeSubnetZone?: string;
   /**
   * ha_software_version can be used to set the desired software version of the HA gateway. If set, we will attempt to update the gateway to the specified version. If left blank, the gateway software version will continue to be managed through the aviatrix_controller_config resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_software_version SpokeGateway#ha_software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_software_version SpokeGateway#ha_software_version}
   */
   readonly haSoftwareVersion?: string;
   /**
   * HA Subnet. Required if enabling HA for AWS/AWSGov/AWSChina/Azure/AzureChina/OCI/Alibaba Cloud. Optional if enabling HA for GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_subnet SpokeGateway#ha_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_subnet SpokeGateway#ha_subnet}
   */
   readonly haSubnet?: string;
   /**
+  * IPv6 CIDR for the HA subnet. Only used if enable_ipv6 flag is set. Currently only supported on Azure and AWS Cloud.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_subnet_ipv6_cidr SpokeGateway#ha_subnet_ipv6_cidr}
+  */
+  readonly haSubnetIpv6Cidr?: string;
+  /**
   * HA Zone. Required if enabling HA for GCP. Optional for Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#ha_zone SpokeGateway#ha_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#ha_zone SpokeGateway#ha_zone}
   */
   readonly haZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#id SpokeGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#id SpokeGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -329,157 +341,187 @@ export interface SpokeGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * image_version can be used to set the desired image version of the gateway. If set, we will attempt to update the gateway to the specified version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#image_version SpokeGateway#image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#image_version SpokeGateway#image_version}
   */
   readonly imageVersion?: string;
   /**
   * A list of comma separated CIDRs to be advertised to on-prem as 'Included CIDR List'. When configured, it will replace all advertised routes from this VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#included_advertised_spoke_routes SpokeGateway#included_advertised_spoke_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#included_advertised_spoke_routes SpokeGateway#included_advertised_spoke_routes}
   */
   readonly includedAdvertisedSpokeRoutes?: string;
   /**
   * Enable Insane Mode for Spoke Gateway. Valid values: true, false. Supported for AWS/AWSGov, GCP, Azure and OCI. If insane mode is enabled, gateway size has to at least be c5 size for AWS and Standard_D3_v2 size for Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#insane_mode SpokeGateway#insane_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#insane_mode SpokeGateway#insane_mode}
   */
   readonly insaneMode?: boolean | cdktf.IResolvable;
   /**
   * AZ of subnet being created for Insane Mode Spoke Gateway. Required if insane_mode is enabled for AWS cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#insane_mode_az SpokeGateway#insane_mode_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#insane_mode_az SpokeGateway#insane_mode_az}
   */
   readonly insaneModeAz?: string;
   /**
+  * Enable insertion gateway mode.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#insertion_gateway SpokeGateway#insertion_gateway}
+  */
+  readonly insertionGateway?: boolean | cdktf.IResolvable;
+  /**
+  * AZ of subnet being created for Insertion Gateway. Required if insertion_gateway is enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#insertion_gateway_az SpokeGateway#insertion_gateway_az}
+  */
+  readonly insertionGatewayAz?: string;
+  /**
   * Set the learned CIDRs approval mode for BGP Spoke Gateway. Only valid when 'enable_learned_cidrs_approval' is set to true. Currently, only 'gateway' is supported: learned CIDR approval applies to ALL connections. Default value: 'gateway'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#learned_cidrs_approval_mode SpokeGateway#learned_cidrs_approval_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#learned_cidrs_approval_mode SpokeGateway#learned_cidrs_approval_mode}
   */
   readonly learnedCidrsApprovalMode?: string;
   /**
   * Changes the Aviatrix BGP Spoke Gateway ASN number before you setup Aviatrix BGP Spoke Gateway connection configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#local_as_number SpokeGateway#local_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#local_as_number SpokeGateway#local_as_number}
   */
   readonly localAsNumber?: string;
   /**
   * This parameter is a switch used to determine whether or not to manage spoke ha gateway using the aviatrix_spoke_gateway resource. If this is set to false, managing spoke ha gateway must be done using the aviatrix_spoke_ha_gateway resource. Valid values: true, false. Default value: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#manage_ha_gateway SpokeGateway#manage_ha_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#manage_ha_gateway SpokeGateway#manage_ha_gateway}
   */
   readonly manageHaGateway?: boolean | cdktf.IResolvable;
   /**
   * A set of monitored instance ids. Only valid when 'enable_monitor_gateway_subnets' = true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#monitor_exclude_list SpokeGateway#monitor_exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#monitor_exclude_list SpokeGateway#monitor_exclude_list}
   */
   readonly monitorExcludeList?: string[];
   /**
   * OOB subnet availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#oob_availability_zone SpokeGateway#oob_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#oob_availability_zone SpokeGateway#oob_availability_zone}
   */
   readonly oobAvailabilityZone?: string;
   /**
   * OOB management subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#oob_management_subnet SpokeGateway#oob_management_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#oob_management_subnet SpokeGateway#oob_management_subnet}
   */
   readonly oobManagementSubnet?: string;
   /**
   * List of AS numbers to populate BGP AP_PATH field when it advertises to VGW or peer devices. Only valid for BGP Spoke Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#prepend_as_path SpokeGateway#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#prepend_as_path SpokeGateway#prepend_as_path}
   */
   readonly prependAsPath?: string[];
   /**
   * Private Mode controller load balancer vpc_id.  Required when private mode is enabled for the Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#private_mode_lb_vpc_id SpokeGateway#private_mode_lb_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#private_mode_lb_vpc_id SpokeGateway#private_mode_lb_vpc_id}
   */
   readonly privateModeLbVpcId?: string;
   /**
   * Subnet availability zone. Required when Private Mode is enabled on the Controller and cloud_type is AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#private_mode_subnet_zone SpokeGateway#private_mode_subnet_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#private_mode_subnet_zone SpokeGateway#private_mode_subnet_zone}
   */
   readonly privateModeSubnetZone?: string;
   /**
   * Gateway ethernet interface RX queue size. Supported for AWS related clouds only. Applies on HA as well if enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#rx_queue_size SpokeGateway#rx_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#rx_queue_size SpokeGateway#rx_queue_size}
   */
   readonly rxQueueSize?: string;
   /**
   * Set to 'enabled' if this feature is desired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#single_az_ha SpokeGateway#single_az_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#single_az_ha SpokeGateway#single_az_ha}
   */
   readonly singleAzHa?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to enable Source NAT feature in 'single_ip' mode on the gateway or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#single_ip_snat SpokeGateway#single_ip_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#single_ip_snat SpokeGateway#single_ip_snat}
   */
   readonly singleIpSnat?: boolean | cdktf.IResolvable;
   /**
   * software_version can be used to set the desired software version of the gateway. If set, we will attempt to update the gateway to the specified version. If left blank, the gateway software version will continue to be managed through the aviatrix_controller_config resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#software_version SpokeGateway#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#software_version SpokeGateway#software_version}
   */
   readonly softwareVersion?: string;
   /**
   * Intended CIDR list to be advertised to external BGP router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#spoke_bgp_manual_advertise_cidrs SpokeGateway#spoke_bgp_manual_advertise_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#spoke_bgp_manual_advertise_cidrs SpokeGateway#spoke_bgp_manual_advertise_cidrs}
   */
   readonly spokeBgpManualAdvertiseCidrs?: string[];
   /**
   * Price for spot instance. NOT supported for production deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#spot_price SpokeGateway#spot_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#spot_price SpokeGateway#spot_price}
   */
   readonly spotPrice?: string;
   /**
   * Public Subnet Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#subnet SpokeGateway#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#subnet SpokeGateway#subnet}
   */
   readonly subnet: string;
   /**
+  * IPv6 CIDR for the subnet. Only used if enable_ipv6 flag is set. Currently only supported on Azure and AWS Cloud.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#subnet_ipv6_cidr SpokeGateway#subnet_ipv6_cidr}
+  */
+  readonly subnetIpv6Cidr?: string;
+  /**
   * A map of tags to assign to the spoke gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#tags SpokeGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#tags SpokeGateway#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The IPSec tunnel down detection time for the Spoke Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#tunnel_detection_time SpokeGateway#tunnel_detection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#tunnel_detection_time SpokeGateway#tunnel_detection_time}
   */
   readonly tunnelDetectionTime?: number;
   /**
+  * Encryption ciphers for gateway peering tunnels. Config options are default (AES-126-GCM-96) or strong (AES-256-GCM-96).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#tunnel_encryption_cipher SpokeGateway#tunnel_encryption_cipher}
+  */
+  readonly tunnelEncryptionCipher?: string;
+  /**
+  * Perfect Forward Secrecy (PFS) for gateway peering tunnels. Config Options are enable/disable.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#tunnel_forward_secrecy SpokeGateway#tunnel_forward_secrecy}
+  */
+  readonly tunnelForwardSecrecy?: string;
+  /**
   * VPC-ID/VNet-Name of cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#vpc_id SpokeGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#vpc_id SpokeGateway#vpc_id}
   */
   readonly vpcId: string;
   /**
   * Region of cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#vpc_reg SpokeGateway#vpc_reg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#vpc_reg SpokeGateway#vpc_reg}
   */
   readonly vpcReg: string;
   /**
   * Availability Zone. Only available for Azure (8), Azure GOV (32) and Azure CHINA (2048). Must be in the form 'az-n', for example, 'az-2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#zone SpokeGateway#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#zone SpokeGateway#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway aviatrix_spoke_gateway}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway aviatrix_spoke_gateway}
 */
 export class SpokeGateway extends cdktf.TerraformResource {
 
@@ -495,7 +537,7 @@ export class SpokeGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SpokeGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SpokeGateway to import
-  * @param importFromId The id of the existing SpokeGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SpokeGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SpokeGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -507,7 +549,7 @@ export class SpokeGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/spoke_gateway aviatrix_spoke_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/spoke_gateway aviatrix_spoke_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -518,8 +560,8 @@ export class SpokeGateway extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_spoke_gateway',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -555,6 +597,7 @@ export class SpokeGateway extends cdktf.TerraformResource {
     this._enableEncryptVolume = config.enableEncryptVolume;
     this._enableGlobalVpc = config.enableGlobalVpc;
     this._enableGroGso = config.enableGroGso;
+    this._enableIpv6 = config.enableIpv6;
     this._enableJumboFrame = config.enableJumboFrame;
     this._enableLearnedCidrsApproval = config.enableLearnedCidrsApproval;
     this._enableMonitorGatewaySubnets = config.enableMonitorGatewaySubnets;
@@ -580,12 +623,15 @@ export class SpokeGateway extends cdktf.TerraformResource {
     this._haPrivateModeSubnetZone = config.haPrivateModeSubnetZone;
     this._haSoftwareVersion = config.haSoftwareVersion;
     this._haSubnet = config.haSubnet;
+    this._haSubnetIpv6Cidr = config.haSubnetIpv6Cidr;
     this._haZone = config.haZone;
     this._id = config.id;
     this._imageVersion = config.imageVersion;
     this._includedAdvertisedSpokeRoutes = config.includedAdvertisedSpokeRoutes;
     this._insaneMode = config.insaneMode;
     this._insaneModeAz = config.insaneModeAz;
+    this._insertionGateway = config.insertionGateway;
+    this._insertionGatewayAz = config.insertionGatewayAz;
     this._learnedCidrsApprovalMode = config.learnedCidrsApprovalMode;
     this._localAsNumber = config.localAsNumber;
     this._manageHaGateway = config.manageHaGateway;
@@ -602,8 +648,11 @@ export class SpokeGateway extends cdktf.TerraformResource {
     this._spokeBgpManualAdvertiseCidrs = config.spokeBgpManualAdvertiseCidrs;
     this._spotPrice = config.spotPrice;
     this._subnet = config.subnet;
+    this._subnetIpv6Cidr = config.subnetIpv6Cidr;
     this._tags = config.tags;
     this._tunnelDetectionTime = config.tunnelDetectionTime;
+    this._tunnelEncryptionCipher = config.tunnelEncryptionCipher;
+    this._tunnelForwardSecrecy = config.tunnelForwardSecrecy;
     this._vpcId = config.vpcId;
     this._vpcReg = config.vpcReg;
     this._zone = config.zone;
@@ -1033,6 +1082,22 @@ export class SpokeGateway extends cdktf.TerraformResource {
     return this._enableGroGso;
   }
 
+  // enable_ipv6 - computed: false, optional: true, required: false
+  private _enableIpv6?: boolean | cdktf.IResolvable; 
+  public get enableIpv6() {
+    return this.getBooleanAttribute('enable_ipv6');
+  }
+  public set enableIpv6(value: boolean | cdktf.IResolvable) {
+    this._enableIpv6 = value;
+  }
+  public resetEnableIpv6() {
+    this._enableIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableIpv6Input() {
+    return this._enableIpv6;
+  }
+
   // enable_jumbo_frame - computed: false, optional: true, required: false
   private _enableJumboFrame?: boolean | cdktf.IResolvable; 
   public get enableJumboFrame() {
@@ -1457,6 +1522,22 @@ export class SpokeGateway extends cdktf.TerraformResource {
     return this._haSubnet;
   }
 
+  // ha_subnet_ipv6_cidr - computed: true, optional: true, required: false
+  private _haSubnetIpv6Cidr?: string; 
+  public get haSubnetIpv6Cidr() {
+    return this.getStringAttribute('ha_subnet_ipv6_cidr');
+  }
+  public set haSubnetIpv6Cidr(value: string) {
+    this._haSubnetIpv6Cidr = value;
+  }
+  public resetHaSubnetIpv6Cidr() {
+    this._haSubnetIpv6Cidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get haSubnetIpv6CidrInput() {
+    return this._haSubnetIpv6Cidr;
+  }
+
   // ha_zone - computed: false, optional: true, required: false
   private _haZone?: string; 
   public get haZone() {
@@ -1551,6 +1632,38 @@ export class SpokeGateway extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get insaneModeAzInput() {
     return this._insaneModeAz;
+  }
+
+  // insertion_gateway - computed: false, optional: true, required: false
+  private _insertionGateway?: boolean | cdktf.IResolvable; 
+  public get insertionGateway() {
+    return this.getBooleanAttribute('insertion_gateway');
+  }
+  public set insertionGateway(value: boolean | cdktf.IResolvable) {
+    this._insertionGateway = value;
+  }
+  public resetInsertionGateway() {
+    this._insertionGateway = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get insertionGatewayInput() {
+    return this._insertionGateway;
+  }
+
+  // insertion_gateway_az - computed: false, optional: true, required: false
+  private _insertionGatewayAz?: string; 
+  public get insertionGatewayAz() {
+    return this.getStringAttribute('insertion_gateway_az');
+  }
+  public set insertionGatewayAz(value: string) {
+    this._insertionGatewayAz = value;
+  }
+  public resetInsertionGatewayAz() {
+    this._insertionGatewayAz = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get insertionGatewayAzInput() {
+    return this._insertionGatewayAz;
   }
 
   // learned_cidrs_approval_mode - computed: false, optional: true, required: false
@@ -1821,6 +1934,22 @@ export class SpokeGateway extends cdktf.TerraformResource {
     return this._subnet;
   }
 
+  // subnet_ipv6_cidr - computed: true, optional: true, required: false
+  private _subnetIpv6Cidr?: string; 
+  public get subnetIpv6Cidr() {
+    return this.getStringAttribute('subnet_ipv6_cidr');
+  }
+  public set subnetIpv6Cidr(value: string) {
+    this._subnetIpv6Cidr = value;
+  }
+  public resetSubnetIpv6Cidr() {
+    this._subnetIpv6Cidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetIpv6CidrInput() {
+    return this._subnetIpv6Cidr;
+  }
+
   // tags - computed: false, optional: true, required: false
   private _tags?: { [key: string]: string }; 
   public get tags() {
@@ -1851,6 +1980,38 @@ export class SpokeGateway extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get tunnelDetectionTimeInput() {
     return this._tunnelDetectionTime;
+  }
+
+  // tunnel_encryption_cipher - computed: false, optional: true, required: false
+  private _tunnelEncryptionCipher?: string; 
+  public get tunnelEncryptionCipher() {
+    return this.getStringAttribute('tunnel_encryption_cipher');
+  }
+  public set tunnelEncryptionCipher(value: string) {
+    this._tunnelEncryptionCipher = value;
+  }
+  public resetTunnelEncryptionCipher() {
+    this._tunnelEncryptionCipher = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tunnelEncryptionCipherInput() {
+    return this._tunnelEncryptionCipher;
+  }
+
+  // tunnel_forward_secrecy - computed: false, optional: true, required: false
+  private _tunnelForwardSecrecy?: string; 
+  public get tunnelForwardSecrecy() {
+    return this.getStringAttribute('tunnel_forward_secrecy');
+  }
+  public set tunnelForwardSecrecy(value: string) {
+    this._tunnelForwardSecrecy = value;
+  }
+  public resetTunnelForwardSecrecy() {
+    this._tunnelForwardSecrecy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tunnelForwardSecrecyInput() {
+    return this._tunnelForwardSecrecy;
   }
 
   // vpc_id - computed: false, optional: false, required: true
@@ -1927,6 +2088,7 @@ export class SpokeGateway extends cdktf.TerraformResource {
       enable_encrypt_volume: cdktf.booleanToTerraform(this._enableEncryptVolume),
       enable_global_vpc: cdktf.booleanToTerraform(this._enableGlobalVpc),
       enable_gro_gso: cdktf.booleanToTerraform(this._enableGroGso),
+      enable_ipv6: cdktf.booleanToTerraform(this._enableIpv6),
       enable_jumbo_frame: cdktf.booleanToTerraform(this._enableJumboFrame),
       enable_learned_cidrs_approval: cdktf.booleanToTerraform(this._enableLearnedCidrsApproval),
       enable_monitor_gateway_subnets: cdktf.booleanToTerraform(this._enableMonitorGatewaySubnets),
@@ -1952,12 +2114,15 @@ export class SpokeGateway extends cdktf.TerraformResource {
       ha_private_mode_subnet_zone: cdktf.stringToTerraform(this._haPrivateModeSubnetZone),
       ha_software_version: cdktf.stringToTerraform(this._haSoftwareVersion),
       ha_subnet: cdktf.stringToTerraform(this._haSubnet),
+      ha_subnet_ipv6_cidr: cdktf.stringToTerraform(this._haSubnetIpv6Cidr),
       ha_zone: cdktf.stringToTerraform(this._haZone),
       id: cdktf.stringToTerraform(this._id),
       image_version: cdktf.stringToTerraform(this._imageVersion),
       included_advertised_spoke_routes: cdktf.stringToTerraform(this._includedAdvertisedSpokeRoutes),
       insane_mode: cdktf.booleanToTerraform(this._insaneMode),
       insane_mode_az: cdktf.stringToTerraform(this._insaneModeAz),
+      insertion_gateway: cdktf.booleanToTerraform(this._insertionGateway),
+      insertion_gateway_az: cdktf.stringToTerraform(this._insertionGatewayAz),
       learned_cidrs_approval_mode: cdktf.stringToTerraform(this._learnedCidrsApprovalMode),
       local_as_number: cdktf.stringToTerraform(this._localAsNumber),
       manage_ha_gateway: cdktf.booleanToTerraform(this._manageHaGateway),
@@ -1974,8 +2139,11 @@ export class SpokeGateway extends cdktf.TerraformResource {
       spoke_bgp_manual_advertise_cidrs: cdktf.listMapper(cdktf.stringToTerraform, false)(this._spokeBgpManualAdvertiseCidrs),
       spot_price: cdktf.stringToTerraform(this._spotPrice),
       subnet: cdktf.stringToTerraform(this._subnet),
+      subnet_ipv6_cidr: cdktf.stringToTerraform(this._subnetIpv6Cidr),
       tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
       tunnel_detection_time: cdktf.numberToTerraform(this._tunnelDetectionTime),
+      tunnel_encryption_cipher: cdktf.stringToTerraform(this._tunnelEncryptionCipher),
+      tunnel_forward_secrecy: cdktf.stringToTerraform(this._tunnelForwardSecrecy),
       vpc_id: cdktf.stringToTerraform(this._vpcId),
       vpc_reg: cdktf.stringToTerraform(this._vpcReg),
       zone: cdktf.stringToTerraform(this._zone),
@@ -2140,6 +2308,12 @@ export class SpokeGateway extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      enable_ipv6: {
+        value: cdktf.booleanToHclTerraform(this._enableIpv6),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       enable_jumbo_frame: {
         value: cdktf.booleanToHclTerraform(this._enableJumboFrame),
         isBlock: false,
@@ -2290,6 +2464,12 @@ export class SpokeGateway extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      ha_subnet_ipv6_cidr: {
+        value: cdktf.stringToHclTerraform(this._haSubnetIpv6Cidr),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       ha_zone: {
         value: cdktf.stringToHclTerraform(this._haZone),
         isBlock: false,
@@ -2322,6 +2502,18 @@ export class SpokeGateway extends cdktf.TerraformResource {
       },
       insane_mode_az: {
         value: cdktf.stringToHclTerraform(this._insaneModeAz),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      insertion_gateway: {
+        value: cdktf.booleanToHclTerraform(this._insertionGateway),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      insertion_gateway_az: {
+        value: cdktf.stringToHclTerraform(this._insertionGatewayAz),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2422,6 +2614,12 @@ export class SpokeGateway extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      subnet_ipv6_cidr: {
+        value: cdktf.stringToHclTerraform(this._subnetIpv6Cidr),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       tags: {
         value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._tags),
         isBlock: false,
@@ -2433,6 +2631,18 @@ export class SpokeGateway extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      tunnel_encryption_cipher: {
+        value: cdktf.stringToHclTerraform(this._tunnelEncryptionCipher),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tunnel_forward_secrecy: {
+        value: cdktf.stringToHclTerraform(this._tunnelForwardSecrecy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       vpc_id: {
         value: cdktf.stringToHclTerraform(this._vpcId),

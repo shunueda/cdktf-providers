@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface NetworkingFloatingipConfig extends cdktf.TerraformMetaArguments
   /**
   * The actual floating IP address itself. _note_ This argument is read-only, please do not set it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#address NetworkingFloatingip#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#address NetworkingFloatingip#address}
   */
   readonly address?: string;
   /**
   * Human-readable description for the floating IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#description NetworkingFloatingip#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#description NetworkingFloatingip#description}
   */
   readonly description?: string;
   /**
   * Fixed IP of the port to associate with this floating IP. Required if the port has multiple fixed IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#fixed_ip NetworkingFloatingip#fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#fixed_ip NetworkingFloatingip#fixed_ip}
   */
   readonly fixedIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#id NetworkingFloatingip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#id NetworkingFloatingip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,59 +35,59 @@ export interface NetworkingFloatingipConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the pool from which to obtain the floating IP. Changing this creates a new floating IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#pool NetworkingFloatingip#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#pool NetworkingFloatingip#pool}
   */
   readonly pool: string;
   /**
   * ID of an existing port with at least one IP address to associate with this floating IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#port_id NetworkingFloatingip#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#port_id NetworkingFloatingip#port_id}
   */
   readonly portId?: string;
   /**
   * The region in which to obtain the Networking client. A Networking client is needed to create a floating IP that can be used with another networking resource, such as a load balancer. If omitted, the `region` argument of the provider is used. Changing this creates a new floating IP (which may or may not have a different address).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#region NetworkingFloatingip#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#region NetworkingFloatingip#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#sdn NetworkingFloatingip#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#sdn NetworkingFloatingip#sdn}
   */
   readonly sdn?: string;
   /**
   * The subnet ID of the floating IP pool. Specify this if the floating IP network has multiple subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#subnet_id NetworkingFloatingip#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#subnet_id NetworkingFloatingip#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * A list of external subnet IDs to try over each to allocate a floating IP address. If a subnet ID in a list has exhausted floating IP pool, the next subnet ID will be tried. This argument is used only during the resource creation. Conflicts with a `subnet_id` argument.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#subnet_ids NetworkingFloatingip#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#subnet_ids NetworkingFloatingip#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * Map of additional options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#value_specs NetworkingFloatingip#value_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#value_specs NetworkingFloatingip#value_specs}
   */
   readonly valueSpecs?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#timeouts NetworkingFloatingip#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#timeouts NetworkingFloatingip#timeouts}
   */
   readonly timeouts?: NetworkingFloatingipTimeouts;
 }
 export interface NetworkingFloatingipTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#create NetworkingFloatingip#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#create NetworkingFloatingip#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#delete NetworkingFloatingip#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#delete NetworkingFloatingip#delete}
   */
   readonly delete?: string;
 }
@@ -210,7 +210,7 @@ export class NetworkingFloatingipTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip vkcs_networking_floatingip}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip vkcs_networking_floatingip}
 */
 export class NetworkingFloatingip extends cdktf.TerraformResource {
 
@@ -226,7 +226,7 @@ export class NetworkingFloatingip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingFloatingip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingFloatingip to import
-  * @param importFromId The id of the existing NetworkingFloatingip that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingFloatingip that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingFloatingip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +238,7 @@ export class NetworkingFloatingip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_floatingip vkcs_networking_floatingip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/networking_floatingip vkcs_networking_floatingip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +249,8 @@ export class NetworkingFloatingip extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_networking_floatingip',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

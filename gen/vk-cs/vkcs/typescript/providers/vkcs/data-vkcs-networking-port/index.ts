@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DataVkcsNetworkingPortConfig extends cdktf.TerraformMetaArgumen
   /**
   * The administrative state of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#admin_state_up DataVkcsNetworkingPort#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#admin_state_up DataVkcsNetworkingPort#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
   * Human-readable description of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#description DataVkcsNetworkingPort#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#description DataVkcsNetworkingPort#description}
   */
   readonly description?: string;
   /**
   * The ID of the device the port belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#device_id DataVkcsNetworkingPort#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#device_id DataVkcsNetworkingPort#device_id}
   */
   readonly deviceId?: string;
   /**
   * The device owner of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#device_owner DataVkcsNetworkingPort#device_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#device_owner DataVkcsNetworkingPort#device_owner}
   */
   readonly deviceOwner?: string;
   /**
   * The port DNS name to filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#dns_name DataVkcsNetworkingPort#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#dns_name DataVkcsNetworkingPort#dns_name}
   */
   readonly dnsName?: string;
   /**
   * The port IP address filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#fixed_ip DataVkcsNetworkingPort#fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#fixed_ip DataVkcsNetworkingPort#fixed_ip}
   */
   readonly fixedIp?: string;
   /**
   * The ID of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#id DataVkcsNetworkingPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#id DataVkcsNetworkingPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,67 +55,67 @@ export interface DataVkcsNetworkingPortConfig extends cdktf.TerraformMetaArgumen
   /**
   * The MAC address of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#mac_address DataVkcsNetworkingPort#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#mac_address DataVkcsNetworkingPort#mac_address}
   */
   readonly macAddress?: string;
   /**
   * The name of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#name DataVkcsNetworkingPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#name DataVkcsNetworkingPort#name}
   */
   readonly name?: string;
   /**
   * The ID of the network the port belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#network_id DataVkcsNetworkingPort#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#network_id DataVkcsNetworkingPort#network_id}
   */
   readonly networkId?: string;
   /**
   * The ID of the port. **Deprecated** This argument is deprecated, please, use the `id` attribute instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#port_id DataVkcsNetworkingPort#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#port_id DataVkcsNetworkingPort#port_id}
   */
   readonly portId?: string;
   /**
   * The project_id of the owner of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#project_id DataVkcsNetworkingPort#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#project_id DataVkcsNetworkingPort#project_id}
   */
   readonly projectId?: string;
   /**
   * The region in which to obtain the Network client. A Network client is needed to retrieve port ids. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#region DataVkcsNetworkingPort#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#region DataVkcsNetworkingPort#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#sdn DataVkcsNetworkingPort#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#sdn DataVkcsNetworkingPort#sdn}
   */
   readonly sdn?: string;
   /**
   * The list of port security group IDs to filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#security_group_ids DataVkcsNetworkingPort#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#security_group_ids DataVkcsNetworkingPort#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The status of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#status DataVkcsNetworkingPort#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#status DataVkcsNetworkingPort#status}
   */
   readonly status?: string;
   /**
   * The list of port tags to filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#tags DataVkcsNetworkingPort#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#tags DataVkcsNetworkingPort#tags}
   */
   readonly tags?: string[];
   /**
   * The tenant_id of the owner of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#tenant_id DataVkcsNetworkingPort#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#tenant_id DataVkcsNetworkingPort#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -281,7 +281,7 @@ export class DataVkcsNetworkingPortExtraDhcpOptionList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port vkcs_networking_port}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port vkcs_networking_port}
 */
 export class DataVkcsNetworkingPort extends cdktf.TerraformDataSource {
 
@@ -297,7 +297,7 @@ export class DataVkcsNetworkingPort extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsNetworkingPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsNetworkingPort to import
-  * @param importFromId The id of the existing DataVkcsNetworkingPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsNetworkingPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsNetworkingPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -309,7 +309,7 @@ export class DataVkcsNetworkingPort extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_port vkcs_networking_port} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_port vkcs_networking_port} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -320,8 +320,8 @@ export class DataVkcsNetworkingPort extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_networking_port',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

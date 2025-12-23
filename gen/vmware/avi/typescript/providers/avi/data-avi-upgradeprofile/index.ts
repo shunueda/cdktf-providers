@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/upgradeprofile
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradeprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviUpgradeprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/upgradeprofile#id DataAviUpgradeprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradeprofile#id DataAviUpgradeprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/upgradeprofile#uuid DataAviUpgradeprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradeprofile#uuid DataAviUpgradeprofile#uuid}
   */
   readonly uuid?: string;
 }
-export interface DataAviUpgradeprofileController {
+export interface DataAviUpgradeprofileControllerParams {
 }
 
-export function dataAviUpgradeprofileControllerToTerraform(struct?: DataAviUpgradeprofileController): any {
+export function dataAviUpgradeprofileControllerParamsToTerraform(struct?: DataAviUpgradeprofileControllerParams): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -32,7 +32,7 @@ export function dataAviUpgradeprofileControllerToTerraform(struct?: DataAviUpgra
 }
 
 
-export function dataAviUpgradeprofileControllerToHclTerraform(struct?: DataAviUpgradeprofileController): any {
+export function dataAviUpgradeprofileControllerParamsToHclTerraform(struct?: DataAviUpgradeprofileControllerParams): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -42,7 +42,7 @@ export function dataAviUpgradeprofileControllerToHclTerraform(struct?: DataAviUp
   return attrs;
 }
 
-export class DataAviUpgradeprofileControllerOutputReference extends cdktf.ComplexObject {
+export class DataAviUpgradeprofileControllerParamsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -55,13 +55,13 @@ export class DataAviUpgradeprofileControllerOutputReference extends cdktf.Comple
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataAviUpgradeprofileController | undefined {
+  public get internalValue(): DataAviUpgradeprofileControllerParams | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataAviUpgradeprofileController | undefined) {
+  public set internalValue(value: DataAviUpgradeprofileControllerParams | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -76,7 +76,7 @@ export class DataAviUpgradeprofileControllerOutputReference extends cdktf.Comple
   }
 }
 
-export class DataAviUpgradeprofileControllerList extends cdktf.ComplexList {
+export class DataAviUpgradeprofileControllerParamsList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -90,8 +90,8 @@ export class DataAviUpgradeprofileControllerList extends cdktf.ComplexList {
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataAviUpgradeprofileControllerOutputReference {
-    return new DataAviUpgradeprofileControllerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataAviUpgradeprofileControllerParamsOutputReference {
+    return new DataAviUpgradeprofileControllerParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataAviUpgradeprofileDryRun {
@@ -446,7 +446,7 @@ export class DataAviUpgradeprofileServiceEngineList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/upgradeprofile avi_upgradeprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradeprofile avi_upgradeprofile}
 */
 export class DataAviUpgradeprofile extends cdktf.TerraformDataSource {
 
@@ -462,7 +462,7 @@ export class DataAviUpgradeprofile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviUpgradeprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviUpgradeprofile to import
-  * @param importFromId The id of the existing DataAviUpgradeprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/upgradeprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviUpgradeprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradeprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviUpgradeprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -474,7 +474,7 @@ export class DataAviUpgradeprofile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/upgradeprofile avi_upgradeprofile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/upgradeprofile avi_upgradeprofile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -485,7 +485,8 @@ export class DataAviUpgradeprofile extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_upgradeprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -503,10 +504,10 @@ export class DataAviUpgradeprofile extends cdktf.TerraformDataSource {
   // ATTRIBUTES
   // ==========
 
-  // controller - computed: true, optional: false, required: false
-  private _controller = new DataAviUpgradeprofileControllerList(this, "controller", true);
-  public get controller() {
-    return this._controller;
+  // controller_params - computed: true, optional: false, required: false
+  private _controllerParams = new DataAviUpgradeprofileControllerParamsList(this, "controller_params", true);
+  public get controllerParams() {
+    return this._controllerParams;
   }
 
   // dry_run - computed: true, optional: false, required: false

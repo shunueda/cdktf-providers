@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/datadog_agent
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/datadog_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DatadogAgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/datadog_agent#api_key DatadogAgent#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/datadog_agent#api_key DatadogAgent#api_key}
   */
   readonly apiKey: string;
   /**
   * List of excluded gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/datadog_agent#excluded_gateways DatadogAgent#excluded_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/datadog_agent#excluded_gateways DatadogAgent#excluded_gateways}
   */
   readonly excludedGateways?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/datadog_agent#id DatadogAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/datadog_agent#id DatadogAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DatadogAgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Only export metrics without exporting logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/datadog_agent#metrics_only DatadogAgent#metrics_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/datadog_agent#metrics_only DatadogAgent#metrics_only}
   */
   readonly metricsOnly?: boolean | cdktf.IResolvable;
   /**
   * Site preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/datadog_agent#site DatadogAgent#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/datadog_agent#site DatadogAgent#site}
   */
   readonly site?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/datadog_agent aviatrix_datadog_agent}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/datadog_agent aviatrix_datadog_agent}
 */
 export class DatadogAgent extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class DatadogAgent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatadogAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatadogAgent to import
-  * @param importFromId The id of the existing DatadogAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/datadog_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatadogAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/datadog_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatadogAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DatadogAgent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/datadog_agent aviatrix_datadog_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/datadog_agent aviatrix_datadog_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DatadogAgent extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_datadog_agent',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

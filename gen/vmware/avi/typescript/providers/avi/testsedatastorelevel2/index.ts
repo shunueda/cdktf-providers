@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel2
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface Testsedatastorelevel2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel2#id Testsedatastorelevel2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel2#id Testsedatastorelevel2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel2#name Testsedatastorelevel2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel2#name Testsedatastorelevel2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel2#tenant_ref Testsedatastorelevel2#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel2#tenant_ref Testsedatastorelevel2#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel2#test_se_datastore_level_3_refs Testsedatastorelevel2#test_se_datastore_level_3_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel2#test_se_datastore_level_3_refs Testsedatastorelevel2#test_se_datastore_level_3_refs}
   */
   readonly testSeDatastoreLevel3Refs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel2#uuid Testsedatastorelevel2#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel2#uuid Testsedatastorelevel2#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel2#configpb_attributes Testsedatastorelevel2#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel2#configpb_attributes Testsedatastorelevel2#configpb_attributes}
   */
   readonly configpbAttributes?: Testsedatastorelevel2ConfigpbAttributes[] | cdktf.IResolvable;
 }
 export interface Testsedatastorelevel2ConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel2#version Testsedatastorelevel2#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel2#version Testsedatastorelevel2#version}
   */
   readonly version?: string;
 }
@@ -155,7 +155,7 @@ export class Testsedatastorelevel2ConfigpbAttributesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel2 avi_testsedatastorelevel2}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel2 avi_testsedatastorelevel2}
 */
 export class Testsedatastorelevel2 extends cdktf.TerraformResource {
 
@@ -171,7 +171,7 @@ export class Testsedatastorelevel2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Testsedatastorelevel2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Testsedatastorelevel2 to import
-  * @param importFromId The id of the existing Testsedatastorelevel2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Testsedatastorelevel2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Testsedatastorelevel2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class Testsedatastorelevel2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/testsedatastorelevel2 avi_testsedatastorelevel2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/testsedatastorelevel2 avi_testsedatastorelevel2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class Testsedatastorelevel2 extends cdktf.TerraformResource {
       terraformResourceType: 'avi_testsedatastorelevel2',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

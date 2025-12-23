@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PrivateModeLbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the access account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb#account_name PrivateModeLb#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb#account_name PrivateModeLb#account_name}
   */
   readonly accountName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb#id PrivateModeLb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb#id PrivateModeLb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface PrivateModeLbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of load balancer to create. Must be one of controller or multicloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb#lb_type PrivateModeLb#lb_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb#lb_type PrivateModeLb#lb_type}
   */
   readonly lbType: string;
   /**
   * VPC ID of multicloud access VPC to connect to. Required when lb_type is multicloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb#multicloud_access_vpc_id PrivateModeLb#multicloud_access_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb#multicloud_access_vpc_id PrivateModeLb#multicloud_access_vpc_id}
   */
   readonly multicloudAccessVpcId?: string;
   /**
   * Name of the VPC region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb#region PrivateModeLb#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb#region PrivateModeLb#region}
   */
   readonly region: string;
   /**
   * ID of the VPC for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb#vpc_id PrivateModeLb#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb#vpc_id PrivateModeLb#vpc_id}
   */
   readonly vpcId: string;
   /**
   * proxies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb#proxies PrivateModeLb#proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb#proxies PrivateModeLb#proxies}
   */
   readonly proxies?: PrivateModeLbProxies[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface PrivateModeLbProxies {
   /**
   * Instance ID of proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb#instance_id PrivateModeLb#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb#instance_id PrivateModeLb#instance_id}
   */
   readonly instanceId: string;
   /**
   * VPC ID of proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb#vpc_id PrivateModeLb#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb#vpc_id PrivateModeLb#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -200,7 +200,7 @@ export class PrivateModeLbProxiesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb aviatrix_private_mode_lb}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb aviatrix_private_mode_lb}
 */
 export class PrivateModeLb extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class PrivateModeLb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateModeLb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateModeLb to import
-  * @param importFromId The id of the existing PrivateModeLb that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateModeLb that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateModeLb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class PrivateModeLb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/private_mode_lb aviatrix_private_mode_lb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/private_mode_lb aviatrix_private_mode_lb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class PrivateModeLb extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_private_mode_lb',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

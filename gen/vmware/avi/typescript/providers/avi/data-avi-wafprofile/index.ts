@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviWafprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile#id DataAviWafprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafprofile#id DataAviWafprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile#name DataAviWafprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafprofile#name DataAviWafprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile#tenant_ref DataAviWafprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafprofile#tenant_ref DataAviWafprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile#uuid DataAviWafprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafprofile#uuid DataAviWafprofile#uuid}
   */
   readonly uuid?: string;
 }
@@ -110,6 +110,191 @@ export class DataAviWafprofileConfigContentTypeMappingsList extends cdktf.Comple
   */
   public get(index: number): DataAviWafprofileConfigContentTypeMappingsOutputReference {
     return new DataAviWafprofileConfigContentTypeMappingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviWafprofileConfigJsonParsingLimits {
+}
+
+export function dataAviWafprofileConfigJsonParsingLimitsToTerraform(struct?: DataAviWafprofileConfigJsonParsingLimits): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviWafprofileConfigJsonParsingLimitsToHclTerraform(struct?: DataAviWafprofileConfigJsonParsingLimits): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviWafprofileConfigJsonParsingLimitsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviWafprofileConfigJsonParsingLimits | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviWafprofileConfigJsonParsingLimits | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // max_nesting_level - computed: true, optional: false, required: false
+  public get maxNestingLevel() {
+    return this.getStringAttribute('max_nesting_level');
+  }
+
+  // max_subelements - computed: true, optional: false, required: false
+  public get maxSubelements() {
+    return this.getStringAttribute('max_subelements');
+  }
+
+  // max_total_elements - computed: true, optional: false, required: false
+  public get maxTotalElements() {
+    return this.getStringAttribute('max_total_elements');
+  }
+
+  // max_value_length - computed: true, optional: false, required: false
+  public get maxValueLength() {
+    return this.getStringAttribute('max_value_length');
+  }
+}
+
+export class DataAviWafprofileConfigJsonParsingLimitsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviWafprofileConfigJsonParsingLimitsOutputReference {
+    return new DataAviWafprofileConfigJsonParsingLimitsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviWafprofileConfigMatchElementSubParsers {
+}
+
+export function dataAviWafprofileConfigMatchElementSubParsersToTerraform(struct?: DataAviWafprofileConfigMatchElementSubParsers): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviWafprofileConfigMatchElementSubParsersToHclTerraform(struct?: DataAviWafprofileConfigMatchElementSubParsers): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviWafprofileConfigMatchElementSubParsersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviWafprofileConfigMatchElementSubParsers | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviWafprofileConfigMatchElementSubParsers | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // index - computed: true, optional: false, required: false
+  public get index() {
+    return this.getStringAttribute('index');
+  }
+
+  // match_case - computed: true, optional: false, required: false
+  public get matchCase() {
+    return this.getStringAttribute('match_case');
+  }
+
+  // match_element - computed: true, optional: false, required: false
+  public get matchElement() {
+    return this.getStringAttribute('match_element');
+  }
+
+  // match_op - computed: true, optional: false, required: false
+  public get matchOp() {
+    return this.getStringAttribute('match_op');
+  }
+
+  // sub_parser - computed: true, optional: false, required: false
+  public get subParser() {
+    return this.getStringAttribute('sub_parser');
+  }
+}
+
+export class DataAviWafprofileConfigMatchElementSubParsersList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviWafprofileConfigMatchElementSubParsersOutputReference {
+    return new DataAviWafprofileConfigMatchElementSubParsersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataAviWafprofileConfigA {
@@ -199,9 +384,31 @@ export class DataAviWafprofileConfigAOutputReference extends cdktf.ComplexObject
     return this.getStringAttribute('cookie_format_version');
   }
 
+  // enable_json_parsing_limits - computed: true, optional: false, required: false
+  public get enableJsonParsingLimits() {
+    return this.getStringAttribute('enable_json_parsing_limits');
+  }
+
+  // enforce_max_body_size - computed: true, optional: false, required: false
+  public get enforceMaxBodySize() {
+    return this.getStringAttribute('enforce_max_body_size');
+  }
+
   // ignore_incomplete_request_body_error - computed: true, optional: false, required: false
   public get ignoreIncompleteRequestBodyError() {
     return this.getStringAttribute('ignore_incomplete_request_body_error');
+  }
+
+  // json_parsing_limits - computed: true, optional: false, required: false
+  private _jsonParsingLimits = new DataAviWafprofileConfigJsonParsingLimitsList(this, "json_parsing_limits", true);
+  public get jsonParsingLimits() {
+    return this._jsonParsingLimits;
+  }
+
+  // match_element_sub_parsers - computed: true, optional: false, required: false
+  private _matchElementSubParsers = new DataAviWafprofileConfigMatchElementSubParsersList(this, "match_element_sub_parsers", false);
+  public get matchElementSubParsers() {
+    return this._matchElementSubParsers;
   }
 
   // max_execution_time - computed: true, optional: false, required: false
@@ -272,6 +479,11 @@ export class DataAviWafprofileConfigAOutputReference extends cdktf.ComplexObject
   // status_header_name - computed: true, optional: false, required: false
   public get statusHeaderName() {
     return this.getStringAttribute('status_header_name');
+  }
+
+  // xml_collection - computed: true, optional: false, required: false
+  public get xmlCollection() {
+    return this.getStringAttribute('xml_collection');
   }
 
   // xml_xxe_protection - computed: true, optional: false, required: false
@@ -540,7 +752,7 @@ export class DataAviWafprofileMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile avi_wafprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafprofile avi_wafprofile}
 */
 export class DataAviWafprofile extends cdktf.TerraformDataSource {
 
@@ -556,7 +768,7 @@ export class DataAviWafprofile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviWafprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviWafprofile to import
-  * @param importFromId The id of the existing DataAviWafprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviWafprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviWafprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -568,7 +780,7 @@ export class DataAviWafprofile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile avi_wafprofile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/wafprofile avi_wafprofile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -579,8 +791,8 @@ export class DataAviWafprofile extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_wafprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

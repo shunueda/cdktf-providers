@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface TenantConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of supported ACR values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#acr_values_supported Tenant#acr_values_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#acr_values_supported Tenant#acr_values_supported}
   */
   readonly acrValuesSupported?: string[];
   /**
   * Whether to accept an organization name instead of an ID on auth endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#allow_organization_name_in_authentication_api Tenant#allow_organization_name_in_authentication_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#allow_organization_name_in_authentication_api Tenant#allow_organization_name_in_authentication_api}
   */
   readonly allowOrganizationNameInAuthenticationApi?: boolean | cdktf.IResolvable;
   /**
   * URLs that Auth0 may redirect to after logout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#allowed_logout_urls Tenant#allowed_logout_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#allowed_logout_urls Tenant#allowed_logout_urls}
   */
   readonly allowedLogoutUrls?: string[];
   /**
   * Whether to enable flexible factors for MFA in the PostLogin action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#customize_mfa_in_postlogin_action Tenant#customize_mfa_in_postlogin_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#customize_mfa_in_postlogin_action Tenant#customize_mfa_in_postlogin_action}
   */
   readonly customizeMfaInPostloginAction?: boolean | cdktf.IResolvable;
   /**
   * API Audience to use by default for API Authorization flows. This setting is equivalent to appending the audience to every authorization request made to the tenant for every application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#default_audience Tenant#default_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#default_audience Tenant#default_audience}
   */
   readonly defaultAudience?: string;
   /**
   * Name of the connection to be used for Password Grant exchanges. Options include `auth0-adldap`, `ad`, `auth0`, `email`, `sms`, `waad`, and `adfs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#default_directory Tenant#default_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#default_directory Tenant#default_directory}
   */
   readonly defaultDirectory?: string;
   /**
   * The default absolute redirection URI. Must be HTTPS or an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#default_redirection_uri Tenant#default_redirection_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#default_redirection_uri Tenant#default_redirection_uri}
   */
   readonly defaultRedirectionUri?: string;
   /**
   * Disable list of supported ACR values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#disable_acr_values_supported Tenant#disable_acr_values_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#disable_acr_values_supported Tenant#disable_acr_values_supported}
   */
   readonly disableAcrValuesSupported?: boolean | cdktf.IResolvable;
   /**
   * Supported locales for the user interface. The first locale in the list will be used to set the default locale.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enabled_locales Tenant#enabled_locales}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enabled_locales Tenant#enabled_locales}
   */
   readonly enabledLocales?: string[];
   /**
   * Friendly name for the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#friendly_name Tenant#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#friendly_name Tenant#friendly_name}
   */
   readonly friendlyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#id Tenant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#id Tenant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,91 +77,91 @@ export interface TenantConfig extends cdktf.TerraformMetaArguments {
   /**
   * Number of hours during which a session can be inactive before the user must log in again.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#idle_session_lifetime Tenant#idle_session_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#idle_session_lifetime Tenant#idle_session_lifetime}
   */
   readonly idleSessionLifetime?: number;
   /**
   * URL of logo to be shown for the tenant. Recommended size is 150px x 150px. If no URL is provided, the Auth0 logo will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#picture_url Tenant#picture_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#picture_url Tenant#picture_url}
   */
   readonly pictureUrl?: string;
   /**
   * Enable pushed authorization requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#pushed_authorization_requests_supported Tenant#pushed_authorization_requests_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#pushed_authorization_requests_supported Tenant#pushed_authorization_requests_supported}
   */
   readonly pushedAuthorizationRequestsSupported?: boolean | cdktf.IResolvable;
   /**
   * Selected sandbox version for the extensibility environment, which allows you to use custom scripts to extend parts of Auth0's functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#sandbox_version Tenant#sandbox_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#sandbox_version Tenant#sandbox_version}
   */
   readonly sandboxVersion?: string;
   /**
   * Number of hours during which a session will stay valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#session_lifetime Tenant#session_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#session_lifetime Tenant#session_lifetime}
   */
   readonly sessionLifetime?: number;
   /**
   * Indicates whether the confirmation prompt appears when using non-verifiable callback URIs. Set to true to skip the prompt, false to show it, or null to unset. Accepts (true/false/null) or ("true"/"false"/"null") 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#skip_non_verifiable_callback_uri_confirmation_prompt Tenant#skip_non_verifiable_callback_uri_confirmation_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#skip_non_verifiable_callback_uri_confirmation_prompt Tenant#skip_non_verifiable_callback_uri_confirmation_prompt}
   */
   readonly skipNonVerifiableCallbackUriConfirmationPrompt?: string;
   /**
   * Support email address for authenticating users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#support_email Tenant#support_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#support_email Tenant#support_email}
   */
   readonly supportEmail?: string;
   /**
   * Support URL for authenticating users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#support_url Tenant#support_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#support_url Tenant#support_url}
   */
   readonly supportUrl?: string;
   /**
   * default_token_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#default_token_quota Tenant#default_token_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#default_token_quota Tenant#default_token_quota}
   */
   readonly defaultTokenQuota?: TenantDefaultTokenQuota;
   /**
   * error_page block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#error_page Tenant#error_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#error_page Tenant#error_page}
   */
   readonly errorPage?: TenantErrorPage;
   /**
   * flags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#flags Tenant#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#flags Tenant#flags}
   */
   readonly flags?: TenantFlags;
   /**
   * mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#mtls Tenant#mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#mtls Tenant#mtls}
   */
   readonly mtls?: TenantMtls;
   /**
   * oidc_logout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#oidc_logout Tenant#oidc_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#oidc_logout Tenant#oidc_logout}
   */
   readonly oidcLogout?: TenantOidcLogout;
   /**
   * session_cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#session_cookie Tenant#session_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#session_cookie Tenant#session_cookie}
   */
   readonly sessionCookie?: TenantSessionCookie;
   /**
   * sessions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#sessions Tenant#sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#sessions Tenant#sessions}
   */
   readonly sessions?: TenantSessions;
 }
@@ -169,19 +169,19 @@ export interface TenantDefaultTokenQuotaClientsClientCredentials {
   /**
   * If enabled, the quota will be enforced and requests in excess of the quota will fail. If disabled, the quota will not be enforced, but notifications for requests exceeding the quota will be available in logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enforce Tenant#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enforce Tenant#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of issued tokens per day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#per_day Tenant#per_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#per_day Tenant#per_day}
   */
   readonly perDay?: number;
   /**
   * Maximum number of issued tokens per hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#per_hour Tenant#per_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#per_hour Tenant#per_hour}
   */
   readonly perHour?: number;
 }
@@ -325,7 +325,7 @@ export interface TenantDefaultTokenQuotaClients {
   /**
   * client_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#client_credentials Tenant#client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#client_credentials Tenant#client_credentials}
   */
   readonly clientCredentials: TenantDefaultTokenQuotaClientsClientCredentials;
 }
@@ -408,19 +408,19 @@ export interface TenantDefaultTokenQuotaOrganizationsClientCredentials {
   /**
   * If enabled, the quota will be enforced and requests in excess of the quota will fail. If disabled, the quota will not be enforced, but notifications for requests exceeding the quota will be available in logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enforce Tenant#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enforce Tenant#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of issued tokens per day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#per_day Tenant#per_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#per_day Tenant#per_day}
   */
   readonly perDay?: number;
   /**
   * Maximum number of issued tokens per hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#per_hour Tenant#per_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#per_hour Tenant#per_hour}
   */
   readonly perHour?: number;
 }
@@ -564,7 +564,7 @@ export interface TenantDefaultTokenQuotaOrganizations {
   /**
   * client_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#client_credentials Tenant#client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#client_credentials Tenant#client_credentials}
   */
   readonly clientCredentials: TenantDefaultTokenQuotaOrganizationsClientCredentials;
 }
@@ -647,13 +647,13 @@ export interface TenantDefaultTokenQuota {
   /**
   * clients block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#clients Tenant#clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#clients Tenant#clients}
   */
   readonly clients?: TenantDefaultTokenQuotaClients;
   /**
   * organizations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#organizations Tenant#organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#organizations Tenant#organizations}
   */
   readonly organizations?: TenantDefaultTokenQuotaOrganizations;
 }
@@ -768,19 +768,19 @@ export interface TenantErrorPage {
   /**
   * Custom Error HTML (Liquid syntax is supported)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#html Tenant#html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#html Tenant#html}
   */
   readonly html?: string;
   /**
   * Whether to show the link to log as part of the default error page (true, default) or not to show the link (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#show_log_link Tenant#show_log_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#show_log_link Tenant#show_log_link}
   */
   readonly showLogLink?: boolean | cdktf.IResolvable;
   /**
   * URL to redirect to when an error occurs instead of showing the default error page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#url Tenant#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#url Tenant#url}
   */
   readonly url?: string;
 }
@@ -924,151 +924,151 @@ export interface TenantFlags {
   /**
   * Whether the legacy delegation endpoint will be enabled for your account (true) or not available (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#allow_legacy_delegation_grant_types Tenant#allow_legacy_delegation_grant_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#allow_legacy_delegation_grant_types Tenant#allow_legacy_delegation_grant_types}
   */
   readonly allowLegacyDelegationGrantTypes?: boolean | cdktf.IResolvable;
   /**
   * Whether the legacy `auth/ro` endpoint (used with resource owner password and passwordless features) will be enabled for your account (true) or not available (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#allow_legacy_ro_grant_types Tenant#allow_legacy_ro_grant_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#allow_legacy_ro_grant_types Tenant#allow_legacy_ro_grant_types}
   */
   readonly allowLegacyRoGrantTypes?: boolean | cdktf.IResolvable;
   /**
   * If enabled, customers can use Tokeninfo Endpoint, otherwise they can not use it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#allow_legacy_tokeninfo_endpoint Tenant#allow_legacy_tokeninfo_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#allow_legacy_tokeninfo_endpoint Tenant#allow_legacy_tokeninfo_endpoint}
   */
   readonly allowLegacyTokeninfoEndpoint?: boolean | cdktf.IResolvable;
   /**
   * Enables new insights activity page view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#dashboard_insights_view Tenant#dashboard_insights_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#dashboard_insights_view Tenant#dashboard_insights_view}
   */
   readonly dashboardInsightsView?: boolean | cdktf.IResolvable;
   /**
   * Enables beta access to log streaming changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#dashboard_log_streams_next Tenant#dashboard_log_streams_next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#dashboard_log_streams_next Tenant#dashboard_log_streams_next}
   */
   readonly dashboardLogStreamsNext?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether classic Universal Login prompts include additional security headers to prevent clickjacking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#disable_clickjack_protection_headers Tenant#disable_clickjack_protection_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#disable_clickjack_protection_headers Tenant#disable_clickjack_protection_headers}
   */
   readonly disableClickjackProtectionHeaders?: boolean | cdktf.IResolvable;
   /**
   * Disables SAML fields map fix for bad mappings with repeated attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#disable_fields_map_fix Tenant#disable_fields_map_fix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#disable_fields_map_fix Tenant#disable_fields_map_fix}
   */
   readonly disableFieldsMapFix?: boolean | cdktf.IResolvable;
   /**
   * If true, SMS phone numbers will not be obfuscated in Management API GET calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#disable_management_api_sms_obfuscation Tenant#disable_management_api_sms_obfuscation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#disable_management_api_sms_obfuscation Tenant#disable_management_api_sms_obfuscation}
   */
   readonly disableManagementApiSmsObfuscation?: boolean | cdktf.IResolvable;
   /**
   * If enabled, users will be presented with an email verification prompt during their first login when using Azure AD or ADFS connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enable_adfs_waad_email_verification Tenant#enable_adfs_waad_email_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enable_adfs_waad_email_verification Tenant#enable_adfs_waad_email_verification}
   */
   readonly enableAdfsWaadEmailVerification?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the APIs section is enabled for the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enable_apis_section Tenant#enable_apis_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enable_apis_section Tenant#enable_apis_section}
   */
   readonly enableApisSection?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether all current connections should be enabled when a new client is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enable_client_connections Tenant#enable_client_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enable_client_connections Tenant#enable_client_connections}
   */
   readonly enableClientConnections?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the tenant allows custom domains in emails. Before enabling this flag, you must have a custom domain with status: `ready`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enable_custom_domain_in_emails Tenant#enable_custom_domain_in_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enable_custom_domain_in_emails Tenant#enable_custom_domain_in_emails}
   */
   readonly enableCustomDomainInEmails?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the tenant allows dynamic client registration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enable_dynamic_client_registration Tenant#enable_dynamic_client_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enable_dynamic_client_registration Tenant#enable_dynamic_client_registration}
   */
   readonly enableDynamicClientRegistration?: boolean | cdktf.IResolvable;
   /**
   * Whether ID tokens can be used to authorize some types of requests to API v2 (true) or not (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enable_idtoken_api2 Tenant#enable_idtoken_api2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enable_idtoken_api2 Tenant#enable_idtoken_api2}
   */
   readonly enableIdtokenApi2?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to use the older v2 legacy logs search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enable_legacy_logs_search_v2 Tenant#enable_legacy_logs_search_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enable_legacy_logs_search_v2 Tenant#enable_legacy_logs_search_v2}
   */
   readonly enableLegacyLogsSearchV2?: boolean | cdktf.IResolvable;
   /**
   * Whether ID tokens and the userinfo endpoint includes a complete user profile (true) or only OpenID Connect claims (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enable_legacy_profile Tenant#enable_legacy_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enable_legacy_profile Tenant#enable_legacy_profile}
   */
   readonly enableLegacyProfile?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether advanced API Authorization scenarios are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enable_pipeline2 Tenant#enable_pipeline2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enable_pipeline2 Tenant#enable_pipeline2}
   */
   readonly enablePipeline2?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the public sign up process shows a `user_exists` error if the user already exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enable_public_signup_user_exists_error Tenant#enable_public_signup_user_exists_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enable_public_signup_user_exists_error Tenant#enable_public_signup_user_exists_error}
   */
   readonly enablePublicSignupUserExistsError?: boolean | cdktf.IResolvable;
   /**
   * Flag indicating whether users will not be prompted to confirm log in before SSO redirection. This flag applies to existing tenants only; new tenants have it enforced as true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enable_sso Tenant#enable_sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enable_sso Tenant#enable_sso}
   */
   readonly enableSso?: boolean | cdktf.IResolvable;
   /**
   * Used to allow users to pick which factor to enroll with from the list of available MFA factors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#mfa_show_factor_list_on_enrollment Tenant#mfa_show_factor_list_on_enrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#mfa_show_factor_list_on_enrollment Tenant#mfa_show_factor_list_on_enrollment}
   */
   readonly mfaShowFactorListOnEnrollment?: boolean | cdktf.IResolvable;
   /**
   * Do not Publish Enterprise Connections Information with IdP domains on the lock configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#no_disclose_enterprise_connections Tenant#no_disclose_enterprise_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#no_disclose_enterprise_connections Tenant#no_disclose_enterprise_connections}
   */
   readonly noDiscloseEnterpriseConnections?: boolean | cdktf.IResolvable;
   /**
   * Remove `alg` from jwks(JSON Web Key Sets).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#remove_alg_from_jwks Tenant#remove_alg_from_jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#remove_alg_from_jwks Tenant#remove_alg_from_jwks}
   */
   readonly removeAlgFromJwks?: boolean | cdktf.IResolvable;
   /**
   * This Flag is not supported by the Auth0 Management API and will be removed in the next major release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#require_pushed_authorization_requests Tenant#require_pushed_authorization_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#require_pushed_authorization_requests Tenant#require_pushed_authorization_requests}
   */
   readonly requirePushedAuthorizationRequests?: boolean | cdktf.IResolvable;
   /**
   * Delete underlying grant when a refresh token is revoked via the Authentication API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#revoke_refresh_token_grant Tenant#revoke_refresh_token_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#revoke_refresh_token_grant Tenant#revoke_refresh_token_grant}
   */
   readonly revokeRefreshTokenGrant?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to use scope descriptions for consent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#use_scope_descriptions_for_consent Tenant#use_scope_descriptions_for_consent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#use_scope_descriptions_for_consent Tenant#use_scope_descriptions_for_consent}
   */
   readonly useScopeDescriptionsForConsent?: boolean | cdktf.IResolvable;
 }
@@ -1850,13 +1850,13 @@ export interface TenantMtls {
   /**
   * Disable mTLS settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#disable Tenant#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#disable Tenant#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Enable mTLS endpoint aliases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#enable_endpoint_aliases Tenant#enable_endpoint_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#enable_endpoint_aliases Tenant#enable_endpoint_aliases}
   */
   readonly enableEndpointAliases?: boolean | cdktf.IResolvable;
 }
@@ -1971,7 +1971,7 @@ export interface TenantOidcLogout {
   /**
   * Enable the end_session_endpoint URL in the .well-known discovery configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#rp_logout_end_session_endpoint_discovery Tenant#rp_logout_end_session_endpoint_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#rp_logout_end_session_endpoint_discovery Tenant#rp_logout_end_session_endpoint_discovery}
   */
   readonly rpLogoutEndSessionEndpointDiscovery: boolean | cdktf.IResolvable;
 }
@@ -2054,7 +2054,7 @@ export interface TenantSessionCookie {
   /**
   * Behavior of tenant session cookie. Accepts either "persistent" or "non-persistent".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#mode Tenant#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#mode Tenant#mode}
   */
   readonly mode?: string;
 }
@@ -2140,7 +2140,7 @@ export interface TenantSessions {
   /**
   * When active, users will be presented with a consent prompt to confirm the logout request if the request is not trustworthy. Turn off the consent prompt to bypass user confirmation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#oidc_logout_prompt_enabled Tenant#oidc_logout_prompt_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#oidc_logout_prompt_enabled Tenant#oidc_logout_prompt_enabled}
   */
   readonly oidcLogoutPromptEnabled: boolean | cdktf.IResolvable;
 }
@@ -2221,7 +2221,7 @@ export class TenantSessionsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant auth0_tenant}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant auth0_tenant}
 */
 export class Tenant extends cdktf.TerraformResource {
 
@@ -2237,7 +2237,7 @@ export class Tenant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tenant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tenant to import
-  * @param importFromId The id of the existing Tenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2249,7 +2249,7 @@ export class Tenant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs/resources/tenant auth0_tenant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs/resources/tenant auth0_tenant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2260,8 +2260,8 @@ export class Tenant extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_tenant',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

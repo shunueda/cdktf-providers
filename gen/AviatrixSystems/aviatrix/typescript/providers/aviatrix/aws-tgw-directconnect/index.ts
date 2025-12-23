@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_directconnect
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_directconnect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AwsTgwDirectconnectConfig extends cdktf.TerraformMetaArguments 
   /**
   * Public IP address. Example: '40.0.0.0'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_directconnect#allowed_prefix AwsTgwDirectconnect#allowed_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_directconnect#allowed_prefix AwsTgwDirectconnect#allowed_prefix}
   */
   readonly allowedPrefix: string;
   /**
   * This parameter represents the name of an Account in Aviatrix controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_directconnect#directconnect_account_name AwsTgwDirectconnect#directconnect_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_directconnect#directconnect_account_name AwsTgwDirectconnect#directconnect_account_name}
   */
   readonly directconnectAccountName: string;
   /**
   * This parameter represents the name of a Direct Connect Gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_directconnect#dx_gateway_id AwsTgwDirectconnect#dx_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_directconnect#dx_gateway_id AwsTgwDirectconnect#dx_gateway_id}
   */
   readonly dxGatewayId: string;
   /**
   * Switch to enable/disable encrypted transit approval for direct connection. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_directconnect#enable_learned_cidrs_approval AwsTgwDirectconnect#enable_learned_cidrs_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_directconnect#enable_learned_cidrs_approval AwsTgwDirectconnect#enable_learned_cidrs_approval}
   */
   readonly enableLearnedCidrsApproval?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_directconnect#id AwsTgwDirectconnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_directconnect#id AwsTgwDirectconnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface AwsTgwDirectconnectConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of an Aviatrix network domain, to which the direct connect gateway will be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_directconnect#network_domain_name AwsTgwDirectconnect#network_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_directconnect#network_domain_name AwsTgwDirectconnect#network_domain_name}
   */
   readonly networkDomainName: string;
   /**
   * This parameter represents the name of an AWS TGW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_directconnect#tgw_name AwsTgwDirectconnect#tgw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_directconnect#tgw_name AwsTgwDirectconnect#tgw_name}
   */
   readonly tgwName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_directconnect aviatrix_aws_tgw_directconnect}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_directconnect aviatrix_aws_tgw_directconnect}
 */
 export class AwsTgwDirectconnect extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class AwsTgwDirectconnect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsTgwDirectconnect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsTgwDirectconnect to import
-  * @param importFromId The id of the existing AwsTgwDirectconnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_directconnect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsTgwDirectconnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_directconnect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsTgwDirectconnect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class AwsTgwDirectconnect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_directconnect aviatrix_aws_tgw_directconnect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_directconnect aviatrix_aws_tgw_directconnect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class AwsTgwDirectconnect extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_aws_tgw_directconnect',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

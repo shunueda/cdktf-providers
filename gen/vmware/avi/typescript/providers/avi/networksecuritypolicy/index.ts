@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface NetworksecuritypolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#cloud_config_cksum Networksecuritypolicy#cloud_config_cksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#cloud_config_cksum Networksecuritypolicy#cloud_config_cksum}
   */
   readonly cloudConfigCksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#created_by Networksecuritypolicy#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#created_by Networksecuritypolicy#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#description Networksecuritypolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#description Networksecuritypolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#geo_db_ref Networksecuritypolicy#geo_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#geo_db_ref Networksecuritypolicy#geo_db_ref}
   */
   readonly geoDbRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#id Networksecuritypolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#id Networksecuritypolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#internal Networksecuritypolicy#internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#internal Networksecuritypolicy#internal}
   */
   readonly internal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#ip_reputation_db_ref Networksecuritypolicy#ip_reputation_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#ip_reputation_db_ref Networksecuritypolicy#ip_reputation_db_ref}
   */
   readonly ipReputationDbRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#name Networksecuritypolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#name Networksecuritypolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#tenant_ref Networksecuritypolicy#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#tenant_ref Networksecuritypolicy#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#uuid Networksecuritypolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#uuid Networksecuritypolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#configpb_attributes Networksecuritypolicy#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#configpb_attributes Networksecuritypolicy#configpb_attributes}
   */
   readonly configpbAttributes?: NetworksecuritypolicyConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#markers Networksecuritypolicy#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#markers Networksecuritypolicy#markers}
   */
   readonly markers?: NetworksecuritypolicyMarkers[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#rules Networksecuritypolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#rules Networksecuritypolicy#rules}
   */
   readonly rules?: NetworksecuritypolicyRules[] | cdktf.IResolvable;
 }
 export interface NetworksecuritypolicyConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#version Networksecuritypolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#version Networksecuritypolicy#version}
   */
   readonly version?: string;
 }
@@ -187,11 +187,11 @@ export class NetworksecuritypolicyConfigpbAttributesList extends cdktf.ComplexLi
 }
 export interface NetworksecuritypolicyMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#key Networksecuritypolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#key Networksecuritypolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#values Networksecuritypolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#values Networksecuritypolicy#values}
   */
   readonly values?: string[];
 }
@@ -333,11 +333,11 @@ export class NetworksecuritypolicyMarkersList extends cdktf.ComplexList {
 }
 export interface NetworksecuritypolicyRulesMatchClientIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#addr Networksecuritypolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#addr Networksecuritypolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#type Networksecuritypolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#type Networksecuritypolicy#type}
   */
   readonly type: string;
 }
@@ -476,11 +476,11 @@ export class NetworksecuritypolicyRulesMatchClientIpAddrsList extends cdktf.Comp
 }
 export interface NetworksecuritypolicyRulesMatchClientIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#addr Networksecuritypolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#addr Networksecuritypolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#type Networksecuritypolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#type Networksecuritypolicy#type}
   */
   readonly type: string;
 }
@@ -619,13 +619,13 @@ export class NetworksecuritypolicyRulesMatchClientIpPrefixesIpAddrList extends c
 }
 export interface NetworksecuritypolicyRulesMatchClientIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#mask Networksecuritypolicy#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#mask Networksecuritypolicy#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#ip_addr Networksecuritypolicy#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#ip_addr Networksecuritypolicy#ip_addr}
   */
   readonly ipAddr: NetworksecuritypolicyRulesMatchClientIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -764,11 +764,11 @@ export class NetworksecuritypolicyRulesMatchClientIpPrefixesList extends cdktf.C
 }
 export interface NetworksecuritypolicyRulesMatchClientIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#addr Networksecuritypolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#addr Networksecuritypolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#type Networksecuritypolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#type Networksecuritypolicy#type}
   */
   readonly type: string;
 }
@@ -907,11 +907,11 @@ export class NetworksecuritypolicyRulesMatchClientIpRangesBeginList extends cdkt
 }
 export interface NetworksecuritypolicyRulesMatchClientIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#addr Networksecuritypolicy#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#addr Networksecuritypolicy#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#type Networksecuritypolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#type Networksecuritypolicy#type}
   */
   readonly type: string;
 }
@@ -1052,13 +1052,13 @@ export interface NetworksecuritypolicyRulesMatchClientIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#begin Networksecuritypolicy#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#begin Networksecuritypolicy#begin}
   */
   readonly begin: NetworksecuritypolicyRulesMatchClientIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#end Networksecuritypolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#end Networksecuritypolicy#end}
   */
   readonly end: NetworksecuritypolicyRulesMatchClientIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -1197,29 +1197,29 @@ export class NetworksecuritypolicyRulesMatchClientIpRangesList extends cdktf.Com
 }
 export interface NetworksecuritypolicyRulesMatchClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#group_refs Networksecuritypolicy#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#group_refs Networksecuritypolicy#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#match_criteria Networksecuritypolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#match_criteria Networksecuritypolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#addrs Networksecuritypolicy#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#addrs Networksecuritypolicy#addrs}
   */
   readonly addrs?: NetworksecuritypolicyRulesMatchClientIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#prefixes Networksecuritypolicy#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#prefixes Networksecuritypolicy#prefixes}
   */
   readonly prefixes?: NetworksecuritypolicyRulesMatchClientIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#ranges Networksecuritypolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#ranges Networksecuritypolicy#ranges}
   */
   readonly ranges?: NetworksecuritypolicyRulesMatchClientIpRanges[] | cdktf.IResolvable;
 }
@@ -1448,11 +1448,11 @@ export class NetworksecuritypolicyRulesMatchClientIpList extends cdktf.ComplexLi
 }
 export interface NetworksecuritypolicyRulesMatchClientPortRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#end Networksecuritypolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#end Networksecuritypolicy#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#start Networksecuritypolicy#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#start Networksecuritypolicy#start}
   */
   readonly start: string;
 }
@@ -1591,17 +1591,17 @@ export class NetworksecuritypolicyRulesMatchClientPortRangesList extends cdktf.C
 }
 export interface NetworksecuritypolicyRulesMatchClientPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#match_criteria Networksecuritypolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#match_criteria Networksecuritypolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#ports Networksecuritypolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#ports Networksecuritypolicy#ports}
   */
   readonly ports?: number[];
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#ranges Networksecuritypolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#ranges Networksecuritypolicy#ranges}
   */
   readonly ranges?: NetworksecuritypolicyRulesMatchClientPortRanges[] | cdktf.IResolvable;
 }
@@ -1772,15 +1772,15 @@ export class NetworksecuritypolicyRulesMatchClientPortList extends cdktf.Complex
 }
 export interface NetworksecuritypolicyRulesMatchGeoMatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#attribute Networksecuritypolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#attribute Networksecuritypolicy#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#match_operation Networksecuritypolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#match_operation Networksecuritypolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#values Networksecuritypolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#values Networksecuritypolicy#values}
   */
   readonly values: string[];
 }
@@ -1945,11 +1945,11 @@ export class NetworksecuritypolicyRulesMatchGeoMatchesList extends cdktf.Complex
 }
 export interface NetworksecuritypolicyRulesMatchIpReputationType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#match_operation Networksecuritypolicy#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#match_operation Networksecuritypolicy#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#reputation_types Networksecuritypolicy#reputation_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#reputation_types Networksecuritypolicy#reputation_types}
   */
   readonly reputationTypes: string[];
 }
@@ -2088,11 +2088,11 @@ export class NetworksecuritypolicyRulesMatchIpReputationTypeList extends cdktf.C
 }
 export interface NetworksecuritypolicyRulesMatchMicroservice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#group_ref Networksecuritypolicy#group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#group_ref Networksecuritypolicy#group_ref}
   */
   readonly groupRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#match_criteria Networksecuritypolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#match_criteria Networksecuritypolicy#match_criteria}
   */
   readonly matchCriteria: string;
 }
@@ -2231,11 +2231,11 @@ export class NetworksecuritypolicyRulesMatchMicroserviceList extends cdktf.Compl
 }
 export interface NetworksecuritypolicyRulesMatchVsPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#match_criteria Networksecuritypolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#match_criteria Networksecuritypolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#ports Networksecuritypolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#ports Networksecuritypolicy#ports}
   */
   readonly ports: number[];
 }
@@ -2376,37 +2376,37 @@ export interface NetworksecuritypolicyRulesMatch {
   /**
   * client_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#client_ip Networksecuritypolicy#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#client_ip Networksecuritypolicy#client_ip}
   */
   readonly clientIp?: NetworksecuritypolicyRulesMatchClientIp[] | cdktf.IResolvable;
   /**
   * client_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#client_port Networksecuritypolicy#client_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#client_port Networksecuritypolicy#client_port}
   */
   readonly clientPort?: NetworksecuritypolicyRulesMatchClientPort[] | cdktf.IResolvable;
   /**
   * geo_matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#geo_matches Networksecuritypolicy#geo_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#geo_matches Networksecuritypolicy#geo_matches}
   */
   readonly geoMatches?: NetworksecuritypolicyRulesMatchGeoMatches[] | cdktf.IResolvable;
   /**
   * ip_reputation_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#ip_reputation_type Networksecuritypolicy#ip_reputation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#ip_reputation_type Networksecuritypolicy#ip_reputation_type}
   */
   readonly ipReputationType?: NetworksecuritypolicyRulesMatchIpReputationType[] | cdktf.IResolvable;
   /**
   * microservice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#microservice Networksecuritypolicy#microservice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#microservice Networksecuritypolicy#microservice}
   */
   readonly microservice?: NetworksecuritypolicyRulesMatchMicroservice[] | cdktf.IResolvable;
   /**
   * vs_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#vs_port Networksecuritypolicy#vs_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#vs_port Networksecuritypolicy#vs_port}
   */
   readonly vsPort?: NetworksecuritypolicyRulesMatchVsPort[] | cdktf.IResolvable;
 }
@@ -2667,11 +2667,11 @@ export class NetworksecuritypolicyRulesMatchList extends cdktf.ComplexList {
 }
 export interface NetworksecuritypolicyRulesRlParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#burst_size Networksecuritypolicy#burst_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#burst_size Networksecuritypolicy#burst_size}
   */
   readonly burstSize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#max_rate Networksecuritypolicy#max_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#max_rate Networksecuritypolicy#max_rate}
   */
   readonly maxRate: string;
 }
@@ -2810,43 +2810,43 @@ export class NetworksecuritypolicyRulesRlParamList extends cdktf.ComplexList {
 }
 export interface NetworksecuritypolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#action Networksecuritypolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#action Networksecuritypolicy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#age Networksecuritypolicy#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#age Networksecuritypolicy#age}
   */
   readonly age?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#created_by Networksecuritypolicy#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#created_by Networksecuritypolicy#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#enable Networksecuritypolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#enable Networksecuritypolicy#enable}
   */
   readonly enable: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#index Networksecuritypolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#index Networksecuritypolicy#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#log Networksecuritypolicy#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#log Networksecuritypolicy#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#name Networksecuritypolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#name Networksecuritypolicy#name}
   */
   readonly name: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#match Networksecuritypolicy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#match Networksecuritypolicy#match}
   */
   readonly match: NetworksecuritypolicyRulesMatch[] | cdktf.IResolvable;
   /**
   * rl_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#rl_param Networksecuritypolicy#rl_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#rl_param Networksecuritypolicy#rl_param}
   */
   readonly rlParam?: NetworksecuritypolicyRulesRlParam[] | cdktf.IResolvable;
 }
@@ -3179,7 +3179,7 @@ export class NetworksecuritypolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy avi_networksecuritypolicy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy avi_networksecuritypolicy}
 */
 export class Networksecuritypolicy extends cdktf.TerraformResource {
 
@@ -3195,7 +3195,7 @@ export class Networksecuritypolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Networksecuritypolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Networksecuritypolicy to import
-  * @param importFromId The id of the existing Networksecuritypolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Networksecuritypolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Networksecuritypolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3207,7 +3207,7 @@ export class Networksecuritypolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/networksecuritypolicy avi_networksecuritypolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/networksecuritypolicy avi_networksecuritypolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3218,8 +3218,8 @@ export class Networksecuritypolicy extends cdktf.TerraformResource {
       terraformResourceType: 'avi_networksecuritypolicy',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_load_image
+// https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_load_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface LocalKindLoadImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * An archive file to load, i.e. vault-1.10.0.tar
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_load_image#archive LocalKindLoadImage#archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_load_image#archive LocalKindLoadImage#archive}
   */
   readonly archive?: string;
   /**
   * The name of the cluster to load the image to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_load_image#cluster_name LocalKindLoadImage#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_load_image#cluster_name LocalKindLoadImage#cluster_name}
   */
   readonly clusterName: string;
   /**
   * The name of the docker image to load without the tag, i.e. vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_load_image#image LocalKindLoadImage#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_load_image#image LocalKindLoadImage#image}
   */
   readonly image: string;
   /**
   * The tag of the docker image to load, i.e. 1.10.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_load_image#tag LocalKindLoadImage#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_load_image#tag LocalKindLoadImage#tag}
   */
   readonly tag: string;
 }
@@ -98,7 +98,7 @@ export class LocalKindLoadImageLoadedImagesOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_load_image enos_local_kind_load_image}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_load_image enos_local_kind_load_image}
 */
 export class LocalKindLoadImage extends cdktf.TerraformResource {
 
@@ -114,7 +114,7 @@ export class LocalKindLoadImage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LocalKindLoadImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LocalKindLoadImage to import
-  * @param importFromId The id of the existing LocalKindLoadImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_load_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LocalKindLoadImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_load_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LocalKindLoadImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -126,7 +126,7 @@ export class LocalKindLoadImage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/resources/local_kind_load_image enos_local_kind_load_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/resources/local_kind_load_image enos_local_kind_load_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,8 +137,8 @@ export class LocalKindLoadImage extends cdktf.TerraformResource {
       terraformResourceType: 'enos_local_kind_load_image',
       terraformGeneratorMetadata: {
         providerName: 'enos',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

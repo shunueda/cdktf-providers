@@ -36,9 +36,17 @@ Object.defineProperty(exports, 'copilotFaultTolerantDeployment', { get: function
 Object.defineProperty(exports, 'copilotSecurityGroupManagementConfig', { get: function () { return require('./copilot-security-group-management-config'); } });
 Object.defineProperty(exports, 'copilotSimpleDeployment', { get: function () { return require('./copilot-simple-deployment'); } });
 Object.defineProperty(exports, 'datadogAgent', { get: function () { return require('./datadog-agent'); } });
+Object.defineProperty(exports, 'dcfIpsProfile', { get: function () { return require('./dcf-ips-profile'); } });
+Object.defineProperty(exports, 'dcfIpsProfileVpc', { get: function () { return require('./dcf-ips-profile-vpc'); } });
+Object.defineProperty(exports, 'dcfIpsRuleFeed', { get: function () { return require('./dcf-ips-rule-feed'); } });
+Object.defineProperty(exports, 'dcfPolicyGroup', { get: function () { return require('./dcf-policy-group'); } });
+Object.defineProperty(exports, 'dcfRuleset', { get: function () { return require('./dcf-ruleset'); } });
+Object.defineProperty(exports, 'dcfTlsProfile', { get: function () { return require('./dcf-tls-profile'); } });
+Object.defineProperty(exports, 'dcfTrustbundle', { get: function () { return require('./dcf-trustbundle'); } });
 Object.defineProperty(exports, 'deviceInterfaceConfig', { get: function () { return require('./device-interface-config'); } });
 Object.defineProperty(exports, 'distributedFirewallingConfig', { get: function () { return require('./distributed-firewalling-config'); } });
 Object.defineProperty(exports, 'distributedFirewallingDefaultActionRule', { get: function () { return require('./distributed-firewalling-default-action-rule'); } });
+Object.defineProperty(exports, 'distributedFirewallingDeploymentPolicy', { get: function () { return require('./distributed-firewalling-deployment-policy'); } });
 Object.defineProperty(exports, 'distributedFirewallingIntraVpc', { get: function () { return require('./distributed-firewalling-intra-vpc'); } });
 Object.defineProperty(exports, 'distributedFirewallingOriginCertEnforcementConfig', { get: function () { return require('./distributed-firewalling-origin-cert-enforcement-config'); } });
 Object.defineProperty(exports, 'distributedFirewallingPolicyList', { get: function () { return require('./distributed-firewalling-policy-list'); } });
@@ -84,6 +92,7 @@ Object.defineProperty(exports, 'gatewaySnat', { get: function () { return requir
 Object.defineProperty(exports, 'geoVpn', { get: function () { return require('./geo-vpn'); } });
 Object.defineProperty(exports, 'globalVpcExcludedInstance', { get: function () { return require('./global-vpc-excluded-instance'); } });
 Object.defineProperty(exports, 'globalVpcTaggingSettings', { get: function () { return require('./global-vpc-tagging-settings'); } });
+Object.defineProperty(exports, 'k8SConfig', { get: function () { return require('./k8s-config'); } });
 Object.defineProperty(exports, 'kubernetesCluster', { get: function () { return require('./kubernetes-cluster'); } });
 Object.defineProperty(exports, 'linkHierarchy', { get: function () { return require('./link-hierarchy'); } });
 Object.defineProperty(exports, 'netflowAgent', { get: function () { return require('./netflow-agent'); } });
@@ -95,8 +104,10 @@ Object.defineProperty(exports, 'qosClass', { get: function () { return require('
 Object.defineProperty(exports, 'qosPolicyList', { get: function () { return require('./qos-policy-list'); } });
 Object.defineProperty(exports, 'rbacGroup', { get: function () { return require('./rbac-group'); } });
 Object.defineProperty(exports, 'rbacGroupAccessAccountAttachment', { get: function () { return require('./rbac-group-access-account-attachment'); } });
+Object.defineProperty(exports, 'rbacGroupAccessAccountMembership', { get: function () { return require('./rbac-group-access-account-membership'); } });
 Object.defineProperty(exports, 'rbacGroupPermissionAttachment', { get: function () { return require('./rbac-group-permission-attachment'); } });
 Object.defineProperty(exports, 'rbacGroupUserAttachment', { get: function () { return require('./rbac-group-user-attachment'); } });
+Object.defineProperty(exports, 'rbacGroupUserMembership', { get: function () { return require('./rbac-group-user-membership'); } });
 Object.defineProperty(exports, 'remoteSyslog', { get: function () { return require('./remote-syslog'); } });
 Object.defineProperty(exports, 'samlEndpoint', { get: function () { return require('./saml-endpoint'); } });
 Object.defineProperty(exports, 'segmentationNetworkDomain', { get: function () { return require('./segmentation-network-domain'); } });
@@ -130,6 +141,9 @@ Object.defineProperty(exports, 'webGroup', { get: function () { return require('
 Object.defineProperty(exports, 'dataAviatrixAccount', { get: function () { return require('./data-aviatrix-account'); } });
 Object.defineProperty(exports, 'dataAviatrixCallerIdentity', { get: function () { return require('./data-aviatrix-caller-identity'); } });
 Object.defineProperty(exports, 'dataAviatrixControllerMetadata', { get: function () { return require('./data-aviatrix-controller-metadata'); } });
+Object.defineProperty(exports, 'dataAviatrixDcfAttachmentPoint', { get: function () { return require('./data-aviatrix-dcf-attachment-point'); } });
+Object.defineProperty(exports, 'dataAviatrixDcfLogProfile', { get: function () { return require('./data-aviatrix-dcf-log-profile'); } });
+Object.defineProperty(exports, 'dataAviatrixDcfTrustbundle', { get: function () { return require('./data-aviatrix-dcf-trustbundle'); } });
 Object.defineProperty(exports, 'dataAviatrixDeviceInterfaces', { get: function () { return require('./data-aviatrix-device-interfaces'); } });
 Object.defineProperty(exports, 'dataAviatrixEdgeGatewayWanInterfaceDiscovery', { get: function () { return require('./data-aviatrix-edge-gateway-wan-interface-discovery'); } });
 Object.defineProperty(exports, 'dataAviatrixFirenet', { get: function () { return require('./data-aviatrix-firenet'); } });
@@ -148,5 +162,6 @@ Object.defineProperty(exports, 'dataAviatrixTransitGateway', { get: function () 
 Object.defineProperty(exports, 'dataAviatrixTransitGateways', { get: function () { return require('./data-aviatrix-transit-gateways'); } });
 Object.defineProperty(exports, 'dataAviatrixVpc', { get: function () { return require('./data-aviatrix-vpc'); } });
 Object.defineProperty(exports, 'dataAviatrixVpcTracker', { get: function () { return require('./data-aviatrix-vpc-tracker'); } });
+Object.defineProperty(exports, 'dataAviatrixWebGroup', { get: function () { return require('./data-aviatrix-web-group'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

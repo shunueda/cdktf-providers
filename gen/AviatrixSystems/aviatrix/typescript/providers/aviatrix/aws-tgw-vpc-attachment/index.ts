@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AwsTgwVpcAttachmentConfig extends cdktf.TerraformMetaArguments 
   /**
   * Advanced option. Customized route(s) to be advertised to other VPCs that are connected to the same TGW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#customized_route_advertisement AwsTgwVpcAttachment#customized_route_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#customized_route_advertisement AwsTgwVpcAttachment#customized_route_advertisement}
   */
   readonly customizedRouteAdvertisement?: string;
   /**
   * Advanced option. Customized Spoke VPC Routes. It allows the admin to enter non-RFC1918 routes in the VPC route table targeting the TGW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#customized_routes AwsTgwVpcAttachment#customized_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#customized_routes AwsTgwVpcAttachment#customized_routes}
   */
   readonly customizedRoutes?: string;
   /**
   * Advanced option. If set to true, it disables automatic route propagation of this VPC to other VPCs within the same network domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#disable_local_route_propagation AwsTgwVpcAttachment#disable_local_route_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#disable_local_route_propagation AwsTgwVpcAttachment#disable_local_route_propagation}
   */
   readonly disableLocalRoutePropagation?: boolean | cdktf.IResolvable;
   /**
   * Edge attachment ID. To allow access to the private IP of the MGMT interface of the Firewalls, set this attribute to enable Management Access From Onprem. This feature advertises the Firewalls private MGMT subnet to your Edge domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#edge_attachment AwsTgwVpcAttachment#edge_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#edge_attachment AwsTgwVpcAttachment#edge_attachment}
   */
   readonly edgeAttachment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#id AwsTgwVpcAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#id AwsTgwVpcAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface AwsTgwVpcAttachmentConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the network domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#network_domain_name AwsTgwVpcAttachment#network_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#network_domain_name AwsTgwVpcAttachment#network_domain_name}
   */
   readonly networkDomainName: string;
   /**
   * Region of cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#region AwsTgwVpcAttachment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#region AwsTgwVpcAttachment#region}
   */
   readonly region: string;
   /**
   * Advanced option. Route tables separated by ',' to participate in TGW Orchestrator, i.e., learned routes will be propagated to these route tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#route_tables AwsTgwVpcAttachment#route_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#route_tables AwsTgwVpcAttachment#route_tables}
   */
   readonly routeTables?: string;
   /**
   * Advanced option. VPC subnets separated by ',' to attach to the VPC. If left blank, Aviatrix Controller automatically selects a subnet representing each AZ for the VPC attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#subnets AwsTgwVpcAttachment#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#subnets AwsTgwVpcAttachment#subnets}
   */
   readonly subnets?: string;
   /**
   * Name of the AWS TGW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#tgw_name AwsTgwVpcAttachment#tgw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#tgw_name AwsTgwVpcAttachment#tgw_name}
   */
   readonly tgwName: string;
   /**
   * This parameter represents the name of a Cloud-Account in Aviatrix controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#vpc_account_name AwsTgwVpcAttachment#vpc_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#vpc_account_name AwsTgwVpcAttachment#vpc_account_name}
   */
   readonly vpcAccountName: string;
   /**
   * This parameter represents the ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#vpc_id AwsTgwVpcAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#vpc_id AwsTgwVpcAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment aviatrix_aws_tgw_vpc_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment aviatrix_aws_tgw_vpc_attachment}
 */
 export class AwsTgwVpcAttachment extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class AwsTgwVpcAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsTgwVpcAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsTgwVpcAttachment to import
-  * @param importFromId The id of the existing AwsTgwVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsTgwVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsTgwVpcAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class AwsTgwVpcAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/aws_tgw_vpc_attachment aviatrix_aws_tgw_vpc_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/aws_tgw_vpc_attachment aviatrix_aws_tgw_vpc_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class AwsTgwVpcAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_aws_tgw_vpc_attachment',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

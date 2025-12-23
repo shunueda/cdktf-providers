@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_cluster
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataVkcsKubernetesClusterConfig extends cdktf.TerraformMetaArgu
   /**
   * The UUID of the Kubernetes cluster template. _note_ Only one of `name` or `cluster_id` must be specified. **Deprecated** This argument is deprecated, please, use the `id` attribute instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_cluster#cluster_id DataVkcsKubernetesCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_cluster#cluster_id DataVkcsKubernetesCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Custom DNS cluster domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_cluster#dns_domain DataVkcsKubernetesCluster#dns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_cluster#dns_domain DataVkcsKubernetesCluster#dns_domain}
   */
   readonly dnsDomain?: string;
   /**
   * The UUID of the Kubernetes cluster template. _note_ Only one of `name` or `id` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_cluster#id DataVkcsKubernetesCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_cluster#id DataVkcsKubernetesCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,19 +31,19 @@ export interface DataVkcsKubernetesClusterConfig extends cdktf.TerraformMetaArgu
   /**
   * The name of the cluster. _note_ Only one of `name` or `id` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_cluster#name DataVkcsKubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_cluster#name DataVkcsKubernetesCluster#name}
   */
   readonly name?: string;
   /**
   * The region in which to obtain the Container Infra client. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_cluster#region DataVkcsKubernetesCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_cluster#region DataVkcsKubernetesCluster#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_cluster vkcs_kubernetes_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_cluster vkcs_kubernetes_cluster}
 */
 export class DataVkcsKubernetesCluster extends cdktf.TerraformDataSource {
 
@@ -59,7 +59,7 @@ export class DataVkcsKubernetesCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsKubernetesCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsKubernetesCluster to import
-  * @param importFromId The id of the existing DataVkcsKubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsKubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsKubernetesCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class DataVkcsKubernetesCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_cluster vkcs_kubernetes_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_cluster vkcs_kubernetes_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class DataVkcsKubernetesCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

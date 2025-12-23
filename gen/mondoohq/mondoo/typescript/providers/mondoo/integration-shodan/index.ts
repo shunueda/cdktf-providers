@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_shodan
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_shodan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface IntegrationShodanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_shodan#credentials IntegrationShodan#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_shodan#credentials IntegrationShodan#credentials}
   */
   readonly credentials: IntegrationShodanCredentials;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_shodan#name IntegrationShodan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_shodan#name IntegrationShodan#name}
   */
   readonly name: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_shodan#space_id IntegrationShodan#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_shodan#space_id IntegrationShodan#space_id}
   */
   readonly spaceId?: string;
   /**
   * Shodan scan targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_shodan#targets IntegrationShodan#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_shodan#targets IntegrationShodan#targets}
   */
   readonly targets: string[];
 }
@@ -34,7 +34,7 @@ export interface IntegrationShodanCredentials {
   /**
   * Token for Shodan integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_shodan#token IntegrationShodan#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_shodan#token IntegrationShodan#token}
   */
   readonly token: string;
 }
@@ -125,7 +125,7 @@ export class IntegrationShodanCredentialsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_shodan mondoo_integration_shodan}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_shodan mondoo_integration_shodan}
 */
 export class IntegrationShodan extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class IntegrationShodan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationShodan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationShodan to import
-  * @param importFromId The id of the existing IntegrationShodan that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_shodan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationShodan that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_shodan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationShodan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class IntegrationShodan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_shodan mondoo_integration_shodan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.3/docs/resources/integration_shodan mondoo_integration_shodan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class IntegrationShodan extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_shodan',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.2',
-        providerVersionConstraint: '0.35.2'
+        providerVersion: '0.35.3',
+        providerVersionConstraint: '0.35.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

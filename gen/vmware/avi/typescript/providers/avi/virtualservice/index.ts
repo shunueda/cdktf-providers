@@ -109,452 +109,456 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface VirtualserviceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#active_standby_se_tag Virtualservice#active_standby_se_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#active_standby_se_tag Virtualservice#active_standby_se_tag}
   */
   readonly activeStandbySeTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#advertise_down_vs Virtualservice#advertise_down_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#advertise_down_vs Virtualservice#advertise_down_vs}
   */
   readonly advertiseDownVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#allow_invalid_client_cert Virtualservice#allow_invalid_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#allow_invalid_client_cert Virtualservice#allow_invalid_client_cert}
   */
   readonly allowInvalidClientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#analytics_profile_ref Virtualservice#analytics_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#analytics_profile_ref Virtualservice#analytics_profile_ref}
   */
   readonly analyticsProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#application_profile_ref Virtualservice#application_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#application_insights_ref Virtualservice#application_insights_ref}
+  */
+  readonly applicationInsightsRef?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#application_profile_ref Virtualservice#application_profile_ref}
   */
   readonly applicationProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#azure_availability_set Virtualservice#azure_availability_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#azure_availability_set Virtualservice#azure_availability_set}
   */
   readonly azureAvailabilitySet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#bgp_local_preference Virtualservice#bgp_local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#bgp_local_preference Virtualservice#bgp_local_preference}
   */
   readonly bgpLocalPreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#bgp_num_as_path_prepend Virtualservice#bgp_num_as_path_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#bgp_num_as_path_prepend Virtualservice#bgp_num_as_path_prepend}
   */
   readonly bgpNumAsPathPrepend?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#bgp_peer_labels Virtualservice#bgp_peer_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#bgp_peer_labels Virtualservice#bgp_peer_labels}
   */
   readonly bgpPeerLabels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#bot_policy_ref Virtualservice#bot_policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#bot_policy_ref Virtualservice#bot_policy_ref}
   */
   readonly botPolicyRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#bulk_sync_kvcache Virtualservice#bulk_sync_kvcache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#bulk_sync_kvcache Virtualservice#bulk_sync_kvcache}
   */
   readonly bulkSyncKvcache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#close_client_conn_on_config_update Virtualservice#close_client_conn_on_config_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#close_client_conn_on_config_update Virtualservice#close_client_conn_on_config_update}
   */
   readonly closeClientConnOnConfigUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#cloud_config_cksum Virtualservice#cloud_config_cksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#cloud_config_cksum Virtualservice#cloud_config_cksum}
   */
   readonly cloudConfigCksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#cloud_ref Virtualservice#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#cloud_ref Virtualservice#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#cloud_type Virtualservice#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#cloud_type Virtualservice#cloud_type}
   */
   readonly cloudType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#created_by Virtualservice#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#created_by Virtualservice#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#csrf_policy_ref Virtualservice#csrf_policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#csrf_policy_ref Virtualservice#csrf_policy_ref}
   */
   readonly csrfPolicyRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#delay_fairness Virtualservice#delay_fairness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#delay_fairness Virtualservice#delay_fairness}
   */
   readonly delayFairness?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#description Virtualservice#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#description Virtualservice#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#east_west_placement Virtualservice#east_west_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#east_west_placement Virtualservice#east_west_placement}
   */
   readonly eastWestPlacement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#enable_autogw Virtualservice#enable_autogw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#enable_autogw Virtualservice#enable_autogw}
   */
   readonly enableAutogw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#enable_rhi Virtualservice#enable_rhi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#enable_rhi Virtualservice#enable_rhi}
   */
   readonly enableRhi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#enable_rhi_snat Virtualservice#enable_rhi_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#enable_rhi_snat Virtualservice#enable_rhi_snat}
   */
   readonly enableRhiSnat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#enable_session Virtualservice#enable_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#enable_session Virtualservice#enable_session}
   */
   readonly enableSession?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#enabled Virtualservice#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#enabled Virtualservice#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#error_page_profile_ref Virtualservice#error_page_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#error_page_profile_ref Virtualservice#error_page_profile_ref}
   */
   readonly errorPageProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#flow_dist Virtualservice#flow_dist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#flow_dist Virtualservice#flow_dist}
   */
   readonly flowDist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#flow_label_type Virtualservice#flow_label_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#flow_label_type Virtualservice#flow_label_type}
   */
   readonly flowLabelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#fqdn Virtualservice#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#fqdn Virtualservice#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#host_name_xlate Virtualservice#host_name_xlate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#host_name_xlate Virtualservice#host_name_xlate}
   */
   readonly hostNameXlate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#icap_request_profile_refs Virtualservice#icap_request_profile_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#icap_request_profile_refs Virtualservice#icap_request_profile_refs}
   */
   readonly icapRequestProfileRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#id Virtualservice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#id Virtualservice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ign_pool_net_reach Virtualservice#ign_pool_net_reach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ign_pool_net_reach Virtualservice#ign_pool_net_reach}
   */
   readonly ignPoolNetReach?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#limit_doser Virtualservice#limit_doser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#limit_doser Virtualservice#limit_doser}
   */
   readonly limitDoser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#max_cps_per_client Virtualservice#max_cps_per_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#max_cps_per_client Virtualservice#max_cps_per_client}
   */
   readonly maxCpsPerClient?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#microservice_ref Virtualservice#microservice_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#microservice_ref Virtualservice#microservice_ref}
   */
   readonly microserviceRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#min_pools_up Virtualservice#min_pools_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#min_pools_up Virtualservice#min_pools_up}
   */
   readonly minPoolsUp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#name Virtualservice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#name Virtualservice#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#network_profile_ref Virtualservice#network_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#network_profile_ref Virtualservice#network_profile_ref}
   */
   readonly networkProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#network_security_policy_ref Virtualservice#network_security_policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#network_security_policy_ref Virtualservice#network_security_policy_ref}
   */
   readonly networkSecurityPolicyRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#nsx_securitygroup Virtualservice#nsx_securitygroup}
-  */
-  readonly nsxSecuritygroup?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#pool_group_ref Virtualservice#pool_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#pool_group_ref Virtualservice#pool_group_ref}
   */
   readonly poolGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#pool_ref Virtualservice#pool_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#pool_ref Virtualservice#pool_ref}
   */
   readonly poolRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#remove_listening_port_on_vs_down Virtualservice#remove_listening_port_on_vs_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#positive_security_ref Virtualservice#positive_security_ref}
+  */
+  readonly positiveSecurityRef?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#remove_listening_port_on_vs_down Virtualservice#remove_listening_port_on_vs_down}
   */
   readonly removeListeningPortOnVsDown?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#revoke_vip_route Virtualservice#revoke_vip_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#revoke_vip_route Virtualservice#revoke_vip_route}
   */
   readonly revokeVipRoute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#scaleout_ecmp Virtualservice#scaleout_ecmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#scaleout_ecmp Virtualservice#scaleout_ecmp}
   */
   readonly scaleoutEcmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#se_group_ref Virtualservice#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#se_group_ref Virtualservice#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#security_policy_ref Virtualservice#security_policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#security_policy_ref Virtualservice#security_policy_ref}
   */
   readonly securityPolicyRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#server_network_profile_ref Virtualservice#server_network_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#server_network_profile_ref Virtualservice#server_network_profile_ref}
   */
   readonly serverNetworkProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#service_metadata Virtualservice#service_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#service_metadata Virtualservice#service_metadata}
   */
   readonly serviceMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#sp_pool_refs Virtualservice#sp_pool_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#sp_pool_refs Virtualservice#sp_pool_refs}
   */
   readonly spPoolRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ssl_key_and_certificate_refs Virtualservice#ssl_key_and_certificate_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ssl_key_and_certificate_refs Virtualservice#ssl_key_and_certificate_refs}
   */
   readonly sslKeyAndCertificateRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ssl_profile_ref Virtualservice#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ssl_profile_ref Virtualservice#ssl_profile_ref}
   */
   readonly sslProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ssl_sess_cache_avg_size Virtualservice#ssl_sess_cache_avg_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ssl_sess_cache_avg_size Virtualservice#ssl_sess_cache_avg_size}
   */
   readonly sslSessCacheAvgSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#sso_policy_ref Virtualservice#sso_policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#sso_policy_ref Virtualservice#sso_policy_ref}
   */
   readonly ssoPolicyRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#tenant_ref Virtualservice#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#tenant_ref Virtualservice#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#test_se_datastore_level_1_ref Virtualservice#test_se_datastore_level_1_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#test_se_datastore_level_1_ref Virtualservice#test_se_datastore_level_1_ref}
   */
   readonly testSeDatastoreLevel1Ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#traffic_clone_profile_ref Virtualservice#traffic_clone_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#traffic_clone_profile_ref Virtualservice#traffic_clone_profile_ref}
   */
   readonly trafficCloneProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#traffic_enabled Virtualservice#traffic_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#traffic_enabled Virtualservice#traffic_enabled}
   */
   readonly trafficEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#type Virtualservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#type Virtualservice#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#use_bridge_ip_as_vip Virtualservice#use_bridge_ip_as_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#use_bridge_ip_as_vip Virtualservice#use_bridge_ip_as_vip}
   */
   readonly useBridgeIpAsVip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#use_vip_as_snat Virtualservice#use_vip_as_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#use_vip_as_snat Virtualservice#use_vip_as_snat}
   */
   readonly useVipAsSnat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#uuid Virtualservice#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#uuid Virtualservice#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#vh_domain_name Virtualservice#vh_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#vh_domain_name Virtualservice#vh_domain_name}
   */
   readonly vhDomainName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#vh_parent_vs_ref Virtualservice#vh_parent_vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#vh_parent_vs_ref Virtualservice#vh_parent_vs_ref}
   */
   readonly vhParentVsRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#vh_type Virtualservice#vh_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#vh_type Virtualservice#vh_type}
   */
   readonly vhType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#vrf_context_ref Virtualservice#vrf_context_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#vrf_context_ref Virtualservice#vrf_context_ref}
   */
   readonly vrfContextRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#vsvip_cloud_config_cksum Virtualservice#vsvip_cloud_config_cksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#vsvip_cloud_config_cksum Virtualservice#vsvip_cloud_config_cksum}
   */
   readonly vsvipCloudConfigCksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#vsvip_ref Virtualservice#vsvip_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#vsvip_ref Virtualservice#vsvip_ref}
   */
   readonly vsvipRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#waf_policy_ref Virtualservice#waf_policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#waf_policy_ref Virtualservice#waf_policy_ref}
   */
   readonly wafPolicyRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#weight Virtualservice#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#weight Virtualservice#weight}
   */
   readonly weight?: string;
   /**
   * analytics_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#analytics_policy Virtualservice#analytics_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#analytics_policy Virtualservice#analytics_policy}
   */
   readonly analyticsPolicy?: VirtualserviceAnalyticsPolicy[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#configpb_attributes Virtualservice#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#configpb_attributes Virtualservice#configpb_attributes}
   */
   readonly configpbAttributes?: VirtualserviceConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * connections_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#connections_rate_limit Virtualservice#connections_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#connections_rate_limit Virtualservice#connections_rate_limit}
   */
   readonly connectionsRateLimit?: VirtualserviceConnectionsRateLimit[] | cdktf.IResolvable;
   /**
   * content_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#content_rewrite Virtualservice#content_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#content_rewrite Virtualservice#content_rewrite}
   */
   readonly contentRewrite?: VirtualserviceContentRewrite[] | cdktf.IResolvable;
   /**
   * dns_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#dns_info Virtualservice#dns_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#dns_info Virtualservice#dns_info}
   */
   readonly dnsInfo?: VirtualserviceDnsInfo[] | cdktf.IResolvable;
   /**
   * dns_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#dns_policies Virtualservice#dns_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#dns_policies Virtualservice#dns_policies}
   */
   readonly dnsPolicies?: VirtualserviceDnsPolicies[] | cdktf.IResolvable;
   /**
   * http_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#http_policies Virtualservice#http_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#http_policies Virtualservice#http_policies}
   */
   readonly httpPolicies?: VirtualserviceHttpPolicies[] | cdktf.IResolvable;
   /**
   * jwt_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#jwt_config Virtualservice#jwt_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#jwt_config Virtualservice#jwt_config}
   */
   readonly jwtConfig?: VirtualserviceJwtConfig[] | cdktf.IResolvable;
   /**
   * l4_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#l4_policies Virtualservice#l4_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#l4_policies Virtualservice#l4_policies}
   */
   readonly l4Policies?: VirtualserviceL4Policies[] | cdktf.IResolvable;
   /**
   * ldap_vs_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ldap_vs_config Virtualservice#ldap_vs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ldap_vs_config Virtualservice#ldap_vs_config}
   */
   readonly ldapVsConfig?: VirtualserviceLdapVsConfig[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#markers Virtualservice#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#markers Virtualservice#markers}
   */
   readonly markers?: VirtualserviceMarkers[] | cdktf.IResolvable;
   /**
   * oauth_vs_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#oauth_vs_config Virtualservice#oauth_vs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#oauth_vs_config Virtualservice#oauth_vs_config}
   */
   readonly oauthVsConfig?: VirtualserviceOauthVsConfig[] | cdktf.IResolvable;
   /**
   * performance_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#performance_limits Virtualservice#performance_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#performance_limits Virtualservice#performance_limits}
   */
   readonly performanceLimits?: VirtualservicePerformanceLimits[] | cdktf.IResolvable;
   /**
   * requests_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#requests_rate_limit Virtualservice#requests_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#requests_rate_limit Virtualservice#requests_rate_limit}
   */
   readonly requestsRateLimit?: VirtualserviceRequestsRateLimit[] | cdktf.IResolvable;
   /**
   * saml_sp_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#saml_sp_config Virtualservice#saml_sp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#saml_sp_config Virtualservice#saml_sp_config}
   */
   readonly samlSpConfig?: VirtualserviceSamlSpConfig[] | cdktf.IResolvable;
   /**
   * service_pool_select block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#service_pool_select Virtualservice#service_pool_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#service_pool_select Virtualservice#service_pool_select}
   */
   readonly servicePoolSelect?: VirtualserviceServicePoolSelect[] | cdktf.IResolvable;
   /**
   * services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#services Virtualservice#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#services Virtualservice#services}
   */
   readonly services?: VirtualserviceServices[] | cdktf.IResolvable;
   /**
   * sideband_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#sideband_profile Virtualservice#sideband_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#sideband_profile Virtualservice#sideband_profile}
   */
   readonly sidebandProfile?: VirtualserviceSidebandProfile[] | cdktf.IResolvable;
   /**
   * snat_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#snat_ip Virtualservice#snat_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#snat_ip Virtualservice#snat_ip}
   */
   readonly snatIp?: VirtualserviceSnatIp[] | cdktf.IResolvable;
   /**
   * snat_ip6_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#snat_ip6_addresses Virtualservice#snat_ip6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#snat_ip6_addresses Virtualservice#snat_ip6_addresses}
   */
   readonly snatIp6Addresses?: VirtualserviceSnatIp6Addresses[] | cdktf.IResolvable;
   /**
   * ssl_profile_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#ssl_profile_selectors Virtualservice#ssl_profile_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#ssl_profile_selectors Virtualservice#ssl_profile_selectors}
   */
   readonly sslProfileSelectors?: VirtualserviceSslProfileSelectors[] | cdktf.IResolvable;
   /**
   * static_dns_records block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#static_dns_records Virtualservice#static_dns_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#static_dns_records Virtualservice#static_dns_records}
   */
   readonly staticDnsRecords?: VirtualserviceStaticDnsRecords[] | cdktf.IResolvable;
   /**
   * topology_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#topology_policies Virtualservice#topology_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#topology_policies Virtualservice#topology_policies}
   */
   readonly topologyPolicies?: VirtualserviceTopologyPolicies[] | cdktf.IResolvable;
   /**
   * vh_matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#vh_matches Virtualservice#vh_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#vh_matches Virtualservice#vh_matches}
   */
   readonly vhMatches?: VirtualserviceVhMatches[] | cdktf.IResolvable;
   /**
   * vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#vip Virtualservice#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#vip Virtualservice#vip}
   */
   readonly vip?: VirtualserviceVip[] | cdktf.IResolvable;
   /**
   * vs_datascripts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#vs_datascripts Virtualservice#vs_datascripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#vs_datascripts Virtualservice#vs_datascripts}
   */
   readonly vsDatascripts?: VirtualserviceVsDatascripts[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice avi_virtualservice}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice avi_virtualservice}
 */
 export class Virtualservice extends cdktf.TerraformResource {
 
@@ -570,7 +574,7 @@ export class Virtualservice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Virtualservice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Virtualservice to import
-  * @param importFromId The id of the existing Virtualservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Virtualservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Virtualservice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -582,7 +586,7 @@ export class Virtualservice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/virtualservice avi_virtualservice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/virtualservice avi_virtualservice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -593,8 +597,8 @@ export class Virtualservice extends cdktf.TerraformResource {
       terraformResourceType: 'avi_virtualservice',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -608,6 +612,7 @@ export class Virtualservice extends cdktf.TerraformResource {
     this._advertiseDownVs = config.advertiseDownVs;
     this._allowInvalidClientCert = config.allowInvalidClientCert;
     this._analyticsProfileRef = config.analyticsProfileRef;
+    this._applicationInsightsRef = config.applicationInsightsRef;
     this._applicationProfileRef = config.applicationProfileRef;
     this._azureAvailabilitySet = config.azureAvailabilitySet;
     this._bgpLocalPreference = config.bgpLocalPreference;
@@ -644,9 +649,9 @@ export class Virtualservice extends cdktf.TerraformResource {
     this._name = config.name;
     this._networkProfileRef = config.networkProfileRef;
     this._networkSecurityPolicyRef = config.networkSecurityPolicyRef;
-    this._nsxSecuritygroup = config.nsxSecuritygroup;
     this._poolGroupRef = config.poolGroupRef;
     this._poolRef = config.poolRef;
+    this._positiveSecurityRef = config.positiveSecurityRef;
     this._removeListeningPortOnVsDown = config.removeListeningPortOnVsDown;
     this._revokeVipRoute = config.revokeVipRoute;
     this._scaleoutEcmp = config.scaleoutEcmp;
@@ -769,6 +774,22 @@ export class Virtualservice extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get analyticsProfileRefInput() {
     return this._analyticsProfileRef;
+  }
+
+  // application_insights_ref - computed: true, optional: true, required: false
+  private _applicationInsightsRef?: string; 
+  public get applicationInsightsRef() {
+    return this.getStringAttribute('application_insights_ref');
+  }
+  public set applicationInsightsRef(value: string) {
+    this._applicationInsightsRef = value;
+  }
+  public resetApplicationInsightsRef() {
+    this._applicationInsightsRef = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationInsightsRefInput() {
+    return this._applicationInsightsRef;
   }
 
   // application_profile_ref - computed: true, optional: true, required: false
@@ -1344,22 +1365,6 @@ export class Virtualservice extends cdktf.TerraformResource {
     return this._networkSecurityPolicyRef;
   }
 
-  // nsx_securitygroup - computed: false, optional: true, required: false
-  private _nsxSecuritygroup?: string[]; 
-  public get nsxSecuritygroup() {
-    return this.getListAttribute('nsx_securitygroup');
-  }
-  public set nsxSecuritygroup(value: string[]) {
-    this._nsxSecuritygroup = value;
-  }
-  public resetNsxSecuritygroup() {
-    this._nsxSecuritygroup = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nsxSecuritygroupInput() {
-    return this._nsxSecuritygroup;
-  }
-
   // pool_group_ref - computed: true, optional: true, required: false
   private _poolGroupRef?: string; 
   public get poolGroupRef() {
@@ -1390,6 +1395,22 @@ export class Virtualservice extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get poolRefInput() {
     return this._poolRef;
+  }
+
+  // positive_security_ref - computed: true, optional: true, required: false
+  private _positiveSecurityRef?: string; 
+  public get positiveSecurityRef() {
+    return this.getStringAttribute('positive_security_ref');
+  }
+  public set positiveSecurityRef(value: string) {
+    this._positiveSecurityRef = value;
+  }
+  public resetPositiveSecurityRef() {
+    this._positiveSecurityRef = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get positiveSecurityRefInput() {
+    return this._positiveSecurityRef;
   }
 
   // remove_listening_port_on_vs_down - computed: false, optional: true, required: false
@@ -2266,6 +2287,7 @@ export class Virtualservice extends cdktf.TerraformResource {
       advertise_down_vs: cdktf.stringToTerraform(this._advertiseDownVs),
       allow_invalid_client_cert: cdktf.stringToTerraform(this._allowInvalidClientCert),
       analytics_profile_ref: cdktf.stringToTerraform(this._analyticsProfileRef),
+      application_insights_ref: cdktf.stringToTerraform(this._applicationInsightsRef),
       application_profile_ref: cdktf.stringToTerraform(this._applicationProfileRef),
       azure_availability_set: cdktf.stringToTerraform(this._azureAvailabilitySet),
       bgp_local_preference: cdktf.stringToTerraform(this._bgpLocalPreference),
@@ -2302,9 +2324,9 @@ export class Virtualservice extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       network_profile_ref: cdktf.stringToTerraform(this._networkProfileRef),
       network_security_policy_ref: cdktf.stringToTerraform(this._networkSecurityPolicyRef),
-      nsx_securitygroup: cdktf.listMapper(cdktf.stringToTerraform, false)(this._nsxSecuritygroup),
       pool_group_ref: cdktf.stringToTerraform(this._poolGroupRef),
       pool_ref: cdktf.stringToTerraform(this._poolRef),
+      positive_security_ref: cdktf.stringToTerraform(this._positiveSecurityRef),
       remove_listening_port_on_vs_down: cdktf.stringToTerraform(this._removeListeningPortOnVsDown),
       revoke_vip_route: cdktf.stringToTerraform(this._revokeVipRoute),
       scaleout_ecmp: cdktf.stringToTerraform(this._scaleoutEcmp),
@@ -2384,6 +2406,12 @@ export class Virtualservice extends cdktf.TerraformResource {
       },
       analytics_profile_ref: {
         value: cdktf.stringToHclTerraform(this._analyticsProfileRef),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      application_insights_ref: {
+        value: cdktf.stringToHclTerraform(this._applicationInsightsRef),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2604,12 +2632,6 @@ export class Virtualservice extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      nsx_securitygroup: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._nsxSecuritygroup),
-        isBlock: false,
-        type: "list",
-        storageClassType: "stringList",
-      },
       pool_group_ref: {
         value: cdktf.stringToHclTerraform(this._poolGroupRef),
         isBlock: false,
@@ -2618,6 +2640,12 @@ export class Virtualservice extends cdktf.TerraformResource {
       },
       pool_ref: {
         value: cdktf.stringToHclTerraform(this._poolRef),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      positive_security_ref: {
+        value: cdktf.stringToHclTerraform(this._positiveSecurityRef),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

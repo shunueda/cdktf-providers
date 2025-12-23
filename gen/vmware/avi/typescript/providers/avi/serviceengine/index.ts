@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,102 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceengineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#availability_zone Serviceengine#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#availability_zone Serviceengine#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#cloud_ref Serviceengine#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#cloud_ref Serviceengine#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#container_mode Serviceengine#container_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#container_mode Serviceengine#container_mode}
   */
   readonly containerMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#container_type Serviceengine#container_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#container_type Serviceengine#container_type}
   */
   readonly containerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#controller_created Serviceengine#controller_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#controller_created Serviceengine#controller_created}
   */
   readonly controllerCreated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#controller_ip Serviceengine#controller_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#controller_ip Serviceengine#controller_ip}
   */
   readonly controllerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#enable_state Serviceengine#enable_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#enable_state Serviceengine#enable_state}
   */
   readonly enableState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#flavor Serviceengine#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#flavor Serviceengine#flavor}
   */
   readonly flavor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#host_ref Serviceengine#host_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#host_ref Serviceengine#host_ref}
   */
   readonly hostRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#hypervisor Serviceengine#hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#hypervisor Serviceengine#hypervisor}
   */
   readonly hypervisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#id Serviceengine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#id Serviceengine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#name Serviceengine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#name Serviceengine#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#nsxt_no_hotplug Serviceengine#nsxt_no_hotplug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#nsxt_no_hotplug Serviceengine#nsxt_no_hotplug}
   */
   readonly nsxtNoHotplug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#se_group_ref Serviceengine#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#se_group_ref Serviceengine#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#tenant_ref Serviceengine#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#tenant_ref Serviceengine#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#uuid Serviceengine#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#uuid Serviceengine#uuid}
   */
   readonly uuid?: string;
   /**
   * data_vnics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#data_vnics Serviceengine#data_vnics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#data_vnics Serviceengine#data_vnics}
   */
   readonly dataVnics?: ServiceengineDataVnics[] | cdktf.IResolvable;
   /**
   * mgmt_vnic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mgmt_vnic Serviceengine#mgmt_vnic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mgmt_vnic Serviceengine#mgmt_vnic}
   */
   readonly mgmtVnic?: ServiceengineMgmtVnic[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#resources Serviceengine#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#resources Serviceengine#resources}
   */
   readonly resources?: ServiceengineResources[] | cdktf.IResolvable;
 }
 export interface ServiceengineDataVnicsMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#active Serviceengine#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#active Serviceengine#active}
   */
   readonly active?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#if_name Serviceengine#if_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#if_name Serviceengine#if_name}
   */
   readonly ifName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mac_address Serviceengine#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mac_address Serviceengine#mac_address}
   */
   readonly macAddress?: string;
 }
@@ -274,11 +274,11 @@ export class ServiceengineDataVnicsMembersList extends cdktf.ComplexList {
 }
 export interface ServiceengineDataVnicsVlanInterfacesVnicNetworksIpIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#addr Serviceengine#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#addr Serviceengine#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#type Serviceengine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#type Serviceengine#type}
   */
   readonly type: string;
 }
@@ -417,13 +417,13 @@ export class ServiceengineDataVnicsVlanInterfacesVnicNetworksIpIpAddrList extend
 }
 export interface ServiceengineDataVnicsVlanInterfacesVnicNetworksIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mask Serviceengine#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mask Serviceengine#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ip_addr Serviceengine#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ip_addr Serviceengine#ip_addr}
   */
   readonly ipAddr: ServiceengineDataVnicsVlanInterfacesVnicNetworksIpIpAddr[] | cdktf.IResolvable;
 }
@@ -562,17 +562,17 @@ export class ServiceengineDataVnicsVlanInterfacesVnicNetworksIpList extends cdkt
 }
 export interface ServiceengineDataVnicsVlanInterfacesVnicNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ctlr_alloc Serviceengine#ctlr_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ctlr_alloc Serviceengine#ctlr_alloc}
   */
   readonly ctlrAlloc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mode Serviceengine#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mode Serviceengine#mode}
   */
   readonly mode: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ip Serviceengine#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ip Serviceengine#ip}
   */
   readonly ip: ServiceengineDataVnicsVlanInterfacesVnicNetworksIp[] | cdktf.IResolvable;
 }
@@ -740,37 +740,37 @@ export class ServiceengineDataVnicsVlanInterfacesVnicNetworksList extends cdktf.
 }
 export interface ServiceengineDataVnicsVlanInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#dhcp_enabled Serviceengine#dhcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#dhcp_enabled Serviceengine#dhcp_enabled}
   */
   readonly dhcpEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#enabled Serviceengine#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#enabled Serviceengine#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#if_name Serviceengine#if_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#if_name Serviceengine#if_name}
   */
   readonly ifName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ip6_autocfg_enabled Serviceengine#ip6_autocfg_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ip6_autocfg_enabled Serviceengine#ip6_autocfg_enabled}
   */
   readonly ip6AutocfgEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#is_mgmt Serviceengine#is_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#is_mgmt Serviceengine#is_mgmt}
   */
   readonly isMgmt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vlan_id Serviceengine#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vlan_id Serviceengine#vlan_id}
   */
   readonly vlanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vrf_ref Serviceengine#vrf_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vrf_ref Serviceengine#vrf_ref}
   */
   readonly vrfRef?: string;
   /**
   * vnic_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vnic_networks Serviceengine#vnic_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vnic_networks Serviceengine#vnic_networks}
   */
   readonly vnicNetworks?: ServiceengineDataVnicsVlanInterfacesVnicNetworks[] | cdktf.IResolvable;
 }
@@ -1086,11 +1086,11 @@ export class ServiceengineDataVnicsVlanInterfacesList extends cdktf.ComplexList 
 }
 export interface ServiceengineDataVnicsVnicNetworksIpIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#addr Serviceengine#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#addr Serviceengine#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#type Serviceengine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#type Serviceengine#type}
   */
   readonly type: string;
 }
@@ -1229,13 +1229,13 @@ export class ServiceengineDataVnicsVnicNetworksIpIpAddrList extends cdktf.Comple
 }
 export interface ServiceengineDataVnicsVnicNetworksIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mask Serviceengine#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mask Serviceengine#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ip_addr Serviceengine#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ip_addr Serviceengine#ip_addr}
   */
   readonly ipAddr: ServiceengineDataVnicsVnicNetworksIpIpAddr[] | cdktf.IResolvable;
 }
@@ -1374,17 +1374,17 @@ export class ServiceengineDataVnicsVnicNetworksIpList extends cdktf.ComplexList 
 }
 export interface ServiceengineDataVnicsVnicNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ctlr_alloc Serviceengine#ctlr_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ctlr_alloc Serviceengine#ctlr_alloc}
   */
   readonly ctlrAlloc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mode Serviceengine#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mode Serviceengine#mode}
   */
   readonly mode: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ip Serviceengine#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ip Serviceengine#ip}
   */
   readonly ip: ServiceengineDataVnicsVnicNetworksIp[] | cdktf.IResolvable;
 }
@@ -1552,137 +1552,137 @@ export class ServiceengineDataVnicsVnicNetworksList extends cdktf.ComplexList {
 }
 export interface ServiceengineDataVnics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#adapter Serviceengine#adapter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#adapter Serviceengine#adapter}
   */
   readonly adapter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#aggregator_chgd Serviceengine#aggregator_chgd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#aggregator_chgd Serviceengine#aggregator_chgd}
   */
   readonly aggregatorChgd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#can_se_dp_takeover Serviceengine#can_se_dp_takeover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#can_se_dp_takeover Serviceengine#can_se_dp_takeover}
   */
   readonly canSeDpTakeover?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#connected Serviceengine#connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#connected Serviceengine#connected}
   */
   readonly connected?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#del_pending Serviceengine#del_pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#del_pending Serviceengine#del_pending}
   */
   readonly delPending?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#delete_vnic Serviceengine#delete_vnic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#delete_vnic Serviceengine#delete_vnic}
   */
   readonly deleteVnic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#dhcp_enabled Serviceengine#dhcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#dhcp_enabled Serviceengine#dhcp_enabled}
   */
   readonly dhcpEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#dp_deletion_done Serviceengine#dp_deletion_done}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#dp_deletion_done Serviceengine#dp_deletion_done}
   */
   readonly dpDeletionDone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#enabled Serviceengine#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#enabled Serviceengine#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#if_name Serviceengine#if_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#if_name Serviceengine#if_name}
   */
   readonly ifName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ip6_autocfg_enabled Serviceengine#ip6_autocfg_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ip6_autocfg_enabled Serviceengine#ip6_autocfg_enabled}
   */
   readonly ip6AutocfgEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#is_asm Serviceengine#is_asm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#is_asm Serviceengine#is_asm}
   */
   readonly isAsm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#is_avi_internal_network Serviceengine#is_avi_internal_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#is_avi_internal_network Serviceengine#is_avi_internal_network}
   */
   readonly isAviInternalNetwork?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#is_hsm Serviceengine#is_hsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#is_hsm Serviceengine#is_hsm}
   */
   readonly isHsm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#is_mgmt Serviceengine#is_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#is_mgmt Serviceengine#is_mgmt}
   */
   readonly isMgmt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#is_portchannel Serviceengine#is_portchannel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#is_portchannel Serviceengine#is_portchannel}
   */
   readonly isPortchannel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#link_up Serviceengine#link_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#link_up Serviceengine#link_up}
   */
   readonly linkUp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#linux_name Serviceengine#linux_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#linux_name Serviceengine#linux_name}
   */
   readonly linuxName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mac_address Serviceengine#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mac_address Serviceengine#mac_address}
   */
   readonly macAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mtu Serviceengine#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mtu Serviceengine#mtu}
   */
   readonly mtu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#network_name Serviceengine#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#network_name Serviceengine#network_name}
   */
   readonly networkName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#network_ref Serviceengine#network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#network_ref Serviceengine#network_ref}
   */
   readonly networkRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#num_rx_descriptors Serviceengine#num_rx_descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#num_rx_descriptors Serviceengine#num_rx_descriptors}
   */
   readonly numRxDescriptors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#num_tx_descriptors Serviceengine#num_tx_descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#num_tx_descriptors Serviceengine#num_tx_descriptors}
   */
   readonly numTxDescriptors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#pci_id Serviceengine#pci_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#pci_id Serviceengine#pci_id}
   */
   readonly pciId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#port_uuid Serviceengine#port_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#port_uuid Serviceengine#port_uuid}
   */
   readonly portUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vlan_id Serviceengine#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vlan_id Serviceengine#vlan_id}
   */
   readonly vlanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vrf_id Serviceengine#vrf_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vrf_id Serviceengine#vrf_id}
   */
   readonly vrfId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vrf_ref Serviceengine#vrf_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vrf_ref Serviceengine#vrf_ref}
   */
   readonly vrfRef?: string;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#members Serviceengine#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#members Serviceengine#members}
   */
   readonly members?: ServiceengineDataVnicsMembers[] | cdktf.IResolvable;
   /**
   * vlan_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vlan_interfaces Serviceengine#vlan_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vlan_interfaces Serviceengine#vlan_interfaces}
   */
   readonly vlanInterfaces?: ServiceengineDataVnicsVlanInterfaces[] | cdktf.IResolvable;
   /**
   * vnic_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vnic_networks Serviceengine#vnic_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vnic_networks Serviceengine#vnic_networks}
   */
   readonly vnicNetworks?: ServiceengineDataVnicsVnicNetworks[] | cdktf.IResolvable;
 }
@@ -2694,15 +2694,15 @@ export class ServiceengineDataVnicsList extends cdktf.ComplexList {
 }
 export interface ServiceengineMgmtVnicMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#active Serviceengine#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#active Serviceengine#active}
   */
   readonly active?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#if_name Serviceengine#if_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#if_name Serviceengine#if_name}
   */
   readonly ifName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mac_address Serviceengine#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mac_address Serviceengine#mac_address}
   */
   readonly macAddress?: string;
 }
@@ -2873,11 +2873,11 @@ export class ServiceengineMgmtVnicMembersList extends cdktf.ComplexList {
 }
 export interface ServiceengineMgmtVnicVlanInterfacesVnicNetworksIpIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#addr Serviceengine#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#addr Serviceengine#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#type Serviceengine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#type Serviceengine#type}
   */
   readonly type: string;
 }
@@ -3016,13 +3016,13 @@ export class ServiceengineMgmtVnicVlanInterfacesVnicNetworksIpIpAddrList extends
 }
 export interface ServiceengineMgmtVnicVlanInterfacesVnicNetworksIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mask Serviceengine#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mask Serviceengine#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ip_addr Serviceengine#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ip_addr Serviceengine#ip_addr}
   */
   readonly ipAddr: ServiceengineMgmtVnicVlanInterfacesVnicNetworksIpIpAddr[] | cdktf.IResolvable;
 }
@@ -3161,17 +3161,17 @@ export class ServiceengineMgmtVnicVlanInterfacesVnicNetworksIpList extends cdktf
 }
 export interface ServiceengineMgmtVnicVlanInterfacesVnicNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ctlr_alloc Serviceengine#ctlr_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ctlr_alloc Serviceengine#ctlr_alloc}
   */
   readonly ctlrAlloc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mode Serviceengine#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mode Serviceengine#mode}
   */
   readonly mode: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ip Serviceengine#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ip Serviceengine#ip}
   */
   readonly ip: ServiceengineMgmtVnicVlanInterfacesVnicNetworksIp[] | cdktf.IResolvable;
 }
@@ -3339,37 +3339,37 @@ export class ServiceengineMgmtVnicVlanInterfacesVnicNetworksList extends cdktf.C
 }
 export interface ServiceengineMgmtVnicVlanInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#dhcp_enabled Serviceengine#dhcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#dhcp_enabled Serviceengine#dhcp_enabled}
   */
   readonly dhcpEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#enabled Serviceengine#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#enabled Serviceengine#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#if_name Serviceengine#if_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#if_name Serviceengine#if_name}
   */
   readonly ifName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ip6_autocfg_enabled Serviceengine#ip6_autocfg_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ip6_autocfg_enabled Serviceengine#ip6_autocfg_enabled}
   */
   readonly ip6AutocfgEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#is_mgmt Serviceengine#is_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#is_mgmt Serviceengine#is_mgmt}
   */
   readonly isMgmt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vlan_id Serviceengine#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vlan_id Serviceengine#vlan_id}
   */
   readonly vlanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vrf_ref Serviceengine#vrf_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vrf_ref Serviceengine#vrf_ref}
   */
   readonly vrfRef?: string;
   /**
   * vnic_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vnic_networks Serviceengine#vnic_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vnic_networks Serviceengine#vnic_networks}
   */
   readonly vnicNetworks?: ServiceengineMgmtVnicVlanInterfacesVnicNetworks[] | cdktf.IResolvable;
 }
@@ -3685,11 +3685,11 @@ export class ServiceengineMgmtVnicVlanInterfacesList extends cdktf.ComplexList {
 }
 export interface ServiceengineMgmtVnicVnicNetworksIpIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#addr Serviceengine#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#addr Serviceengine#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#type Serviceengine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#type Serviceengine#type}
   */
   readonly type: string;
 }
@@ -3828,13 +3828,13 @@ export class ServiceengineMgmtVnicVnicNetworksIpIpAddrList extends cdktf.Complex
 }
 export interface ServiceengineMgmtVnicVnicNetworksIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mask Serviceengine#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mask Serviceengine#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ip_addr Serviceengine#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ip_addr Serviceengine#ip_addr}
   */
   readonly ipAddr: ServiceengineMgmtVnicVnicNetworksIpIpAddr[] | cdktf.IResolvable;
 }
@@ -3973,17 +3973,17 @@ export class ServiceengineMgmtVnicVnicNetworksIpList extends cdktf.ComplexList {
 }
 export interface ServiceengineMgmtVnicVnicNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ctlr_alloc Serviceengine#ctlr_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ctlr_alloc Serviceengine#ctlr_alloc}
   */
   readonly ctlrAlloc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mode Serviceengine#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mode Serviceengine#mode}
   */
   readonly mode: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ip Serviceengine#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ip Serviceengine#ip}
   */
   readonly ip: ServiceengineMgmtVnicVnicNetworksIp[] | cdktf.IResolvable;
 }
@@ -4151,137 +4151,137 @@ export class ServiceengineMgmtVnicVnicNetworksList extends cdktf.ComplexList {
 }
 export interface ServiceengineMgmtVnic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#adapter Serviceengine#adapter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#adapter Serviceengine#adapter}
   */
   readonly adapter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#aggregator_chgd Serviceengine#aggregator_chgd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#aggregator_chgd Serviceengine#aggregator_chgd}
   */
   readonly aggregatorChgd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#can_se_dp_takeover Serviceengine#can_se_dp_takeover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#can_se_dp_takeover Serviceengine#can_se_dp_takeover}
   */
   readonly canSeDpTakeover?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#connected Serviceengine#connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#connected Serviceengine#connected}
   */
   readonly connected?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#del_pending Serviceengine#del_pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#del_pending Serviceengine#del_pending}
   */
   readonly delPending?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#delete_vnic Serviceengine#delete_vnic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#delete_vnic Serviceengine#delete_vnic}
   */
   readonly deleteVnic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#dhcp_enabled Serviceengine#dhcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#dhcp_enabled Serviceengine#dhcp_enabled}
   */
   readonly dhcpEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#dp_deletion_done Serviceengine#dp_deletion_done}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#dp_deletion_done Serviceengine#dp_deletion_done}
   */
   readonly dpDeletionDone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#enabled Serviceengine#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#enabled Serviceengine#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#if_name Serviceengine#if_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#if_name Serviceengine#if_name}
   */
   readonly ifName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#ip6_autocfg_enabled Serviceengine#ip6_autocfg_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#ip6_autocfg_enabled Serviceengine#ip6_autocfg_enabled}
   */
   readonly ip6AutocfgEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#is_asm Serviceengine#is_asm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#is_asm Serviceengine#is_asm}
   */
   readonly isAsm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#is_avi_internal_network Serviceengine#is_avi_internal_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#is_avi_internal_network Serviceengine#is_avi_internal_network}
   */
   readonly isAviInternalNetwork?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#is_hsm Serviceengine#is_hsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#is_hsm Serviceengine#is_hsm}
   */
   readonly isHsm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#is_mgmt Serviceengine#is_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#is_mgmt Serviceengine#is_mgmt}
   */
   readonly isMgmt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#is_portchannel Serviceengine#is_portchannel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#is_portchannel Serviceengine#is_portchannel}
   */
   readonly isPortchannel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#link_up Serviceengine#link_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#link_up Serviceengine#link_up}
   */
   readonly linkUp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#linux_name Serviceengine#linux_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#linux_name Serviceengine#linux_name}
   */
   readonly linuxName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mac_address Serviceengine#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mac_address Serviceengine#mac_address}
   */
   readonly macAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#mtu Serviceengine#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#mtu Serviceengine#mtu}
   */
   readonly mtu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#network_name Serviceengine#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#network_name Serviceengine#network_name}
   */
   readonly networkName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#network_ref Serviceengine#network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#network_ref Serviceengine#network_ref}
   */
   readonly networkRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#num_rx_descriptors Serviceengine#num_rx_descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#num_rx_descriptors Serviceengine#num_rx_descriptors}
   */
   readonly numRxDescriptors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#num_tx_descriptors Serviceengine#num_tx_descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#num_tx_descriptors Serviceengine#num_tx_descriptors}
   */
   readonly numTxDescriptors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#pci_id Serviceengine#pci_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#pci_id Serviceengine#pci_id}
   */
   readonly pciId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#port_uuid Serviceengine#port_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#port_uuid Serviceengine#port_uuid}
   */
   readonly portUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vlan_id Serviceengine#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vlan_id Serviceengine#vlan_id}
   */
   readonly vlanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vrf_id Serviceengine#vrf_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vrf_id Serviceengine#vrf_id}
   */
   readonly vrfId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vrf_ref Serviceengine#vrf_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vrf_ref Serviceengine#vrf_ref}
   */
   readonly vrfRef?: string;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#members Serviceengine#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#members Serviceengine#members}
   */
   readonly members?: ServiceengineMgmtVnicMembers[] | cdktf.IResolvable;
   /**
   * vlan_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vlan_interfaces Serviceengine#vlan_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vlan_interfaces Serviceengine#vlan_interfaces}
   */
   readonly vlanInterfaces?: ServiceengineMgmtVnicVlanInterfaces[] | cdktf.IResolvable;
   /**
   * vnic_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#vnic_networks Serviceengine#vnic_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#vnic_networks Serviceengine#vnic_networks}
   */
   readonly vnicNetworks?: ServiceengineMgmtVnicVnicNetworks[] | cdktf.IResolvable;
 }
@@ -5293,35 +5293,39 @@ export class ServiceengineMgmtVnicList extends cdktf.ComplexList {
 }
 export interface ServiceengineResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#cores_per_socket Serviceengine#cores_per_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#cores_per_socket Serviceengine#cores_per_socket}
   */
   readonly coresPerSocket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#disk Serviceengine#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#disk Serviceengine#disk}
   */
   readonly disk: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#hyper_threading Serviceengine#hyper_threading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#hyper_threading Serviceengine#hyper_threading}
   */
   readonly hyperThreading?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#hypervisor_mode Serviceengine#hypervisor_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#hypervisor_mode Serviceengine#hypervisor_mode}
   */
   readonly hypervisorMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#memory Serviceengine#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#memory Serviceengine#memory}
   */
   readonly memory: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#num_datapath_processes Serviceengine#num_datapath_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#num_datapath_processes Serviceengine#num_datapath_processes}
   */
   readonly numDatapathProcesses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#num_vcpus Serviceengine#num_vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#num_vcpus Serviceengine#num_vcpus}
   */
   readonly numVcpus: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#sockets Serviceengine#sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#qat_mode Serviceengine#qat_mode}
+  */
+  readonly qatMode?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#sockets Serviceengine#sockets}
   */
   readonly sockets?: string;
 }
@@ -5339,6 +5343,7 @@ export function serviceengineResourcesToTerraform(struct?: ServiceengineResource
     memory: cdktf.stringToTerraform(struct!.memory),
     num_datapath_processes: cdktf.stringToTerraform(struct!.numDatapathProcesses),
     num_vcpus: cdktf.stringToTerraform(struct!.numVcpus),
+    qat_mode: cdktf.stringToTerraform(struct!.qatMode),
     sockets: cdktf.stringToTerraform(struct!.sockets),
   }
 }
@@ -5388,6 +5393,12 @@ export function serviceengineResourcesToHclTerraform(struct?: ServiceengineResou
     },
     num_vcpus: {
       value: cdktf.stringToHclTerraform(struct!.numVcpus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    qat_mode: {
+      value: cdktf.stringToHclTerraform(struct!.qatMode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5452,6 +5463,10 @@ export class ServiceengineResourcesOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.numVcpus = this._numVcpus;
     }
+    if (this._qatMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.qatMode = this._qatMode;
+    }
     if (this._sockets !== undefined) {
       hasAnyValues = true;
       internalValueResult.sockets = this._sockets;
@@ -5470,6 +5485,7 @@ export class ServiceengineResourcesOutputReference extends cdktf.ComplexObject {
       this._memory = undefined;
       this._numDatapathProcesses = undefined;
       this._numVcpus = undefined;
+      this._qatMode = undefined;
       this._sockets = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -5486,6 +5502,7 @@ export class ServiceengineResourcesOutputReference extends cdktf.ComplexObject {
       this._memory = value.memory;
       this._numDatapathProcesses = value.numDatapathProcesses;
       this._numVcpus = value.numVcpus;
+      this._qatMode = value.qatMode;
       this._sockets = value.sockets;
     }
   }
@@ -5593,6 +5610,22 @@ export class ServiceengineResourcesOutputReference extends cdktf.ComplexObject {
     return this._numVcpus;
   }
 
+  // qat_mode - computed: false, optional: true, required: false
+  private _qatMode?: string; 
+  public get qatMode() {
+    return this.getStringAttribute('qat_mode');
+  }
+  public set qatMode(value: string) {
+    this._qatMode = value;
+  }
+  public resetQatMode() {
+    this._qatMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get qatModeInput() {
+    return this._qatMode;
+  }
+
   // sockets - computed: true, optional: true, required: false
   private _sockets?: string; 
   public get sockets() {
@@ -5631,7 +5664,7 @@ export class ServiceengineResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine avi_serviceengine}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine avi_serviceengine}
 */
 export class Serviceengine extends cdktf.TerraformResource {
 
@@ -5647,7 +5680,7 @@ export class Serviceengine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Serviceengine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Serviceengine to import
-  * @param importFromId The id of the existing Serviceengine that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Serviceengine that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Serviceengine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5659,7 +5692,7 @@ export class Serviceengine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serviceengine avi_serviceengine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/serviceengine avi_serviceengine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5670,8 +5703,8 @@ export class Serviceengine extends cdktf.TerraformResource {
       terraformResourceType: 'avi_serviceengine',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/cloudproperties
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/cloudproperties
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,14 +8,14 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviCloudpropertiesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/cloudproperties#id DataAviCloudproperties#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/cloudproperties#id DataAviCloudproperties#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/cloudproperties#uuid DataAviCloudproperties#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/cloudproperties#uuid DataAviCloudproperties#uuid}
   */
   readonly uuid?: string;
 }
@@ -549,6 +549,187 @@ export class DataAviCloudpropertiesInfoControllerPropsFalsePositiveLearningConfi
     return new DataAviCloudpropertiesInfoControllerPropsFalsePositiveLearningConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections {
+}
+
+export function dataAviCloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsToTerraform(struct?: DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviCloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsToHclTerraform(struct?: DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // delay_create - computed: true, optional: false, required: false
+  public get delayCreate() {
+    return this.getStringAttribute('delay_create');
+  }
+
+  // delay_delete - computed: true, optional: false, required: false
+  public get delayDelete() {
+    return this.getStringAttribute('delay_delete');
+  }
+
+  // delay_update - computed: true, optional: false, required: false
+  public get delayUpdate() {
+    return this.getStringAttribute('delay_update');
+  }
+
+  // fault_type - computed: true, optional: false, required: false
+  public get faultType() {
+    return this.getStringAttribute('fault_type');
+  }
+
+  // obj - computed: true, optional: false, required: false
+  public get obj() {
+    return this.getStringAttribute('obj');
+  }
+
+  // object_type - computed: true, optional: false, required: false
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+
+  // se - computed: true, optional: false, required: false
+  public get se() {
+    return this.getStringAttribute('se');
+  }
+}
+
+export class DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsOutputReference {
+    return new DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviCloudpropertiesInfoControllerPropsStatecacheProperties {
+}
+
+export function dataAviCloudpropertiesInfoControllerPropsStatecachePropertiesToTerraform(struct?: DataAviCloudpropertiesInfoControllerPropsStatecacheProperties): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviCloudpropertiesInfoControllerPropsStatecachePropertiesToHclTerraform(struct?: DataAviCloudpropertiesInfoControllerPropsStatecacheProperties): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviCloudpropertiesInfoControllerPropsStatecacheProperties | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviCloudpropertiesInfoControllerPropsStatecacheProperties | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // delay_injections - computed: true, optional: false, required: false
+  private _delayInjections = new DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsList(this, "delay_injections", false);
+  public get delayInjections() {
+    return this._delayInjections;
+  }
+}
+
+export class DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesOutputReference {
+    return new DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataAviCloudpropertiesInfoControllerPropsUserAgentCacheConfig {
 }
 
@@ -775,6 +956,16 @@ export class DataAviCloudpropertiesInfoControllerPropsOutputReference extends cd
     return this.getStringAttribute('appviewx_compat_mode');
   }
 
+  // archive_retention_framework_period - computed: true, optional: false, required: false
+  public get archiveRetentionFrameworkPeriod() {
+    return this.getStringAttribute('archive_retention_framework_period');
+  }
+
+  // async_cert_chaining_interval - computed: true, optional: false, required: false
+  public get asyncCertChainingInterval() {
+    return this.getStringAttribute('async_cert_chaining_interval');
+  }
+
   // async_patch_merge_period - computed: true, optional: false, required: false
   public get asyncPatchMergePeriod() {
     return this.getStringAttribute('async_patch_merge_period');
@@ -911,6 +1102,11 @@ export class DataAviCloudpropertiesInfoControllerPropsOutputReference extends cd
     return this.getStringAttribute('enable_memory_balancer');
   }
 
+  // enable_nsx_streaming_agent - computed: true, optional: false, required: false
+  public get enableNsxStreamingAgent() {
+    return this.getStringAttribute('enable_nsx_streaming_agent');
+  }
+
   // enable_per_process_stop - computed: true, optional: false, required: false
   public get enablePerProcessStop() {
     return this.getStringAttribute('enable_per_process_stop');
@@ -967,6 +1163,11 @@ export class DataAviCloudpropertiesInfoControllerPropsOutputReference extends cd
     return this.getStringAttribute('fileobject_max_file_versions');
   }
 
+  // gslb_fileobject_max_version_count - computed: true, optional: false, required: false
+  public get gslbFileobjectMaxVersionCount() {
+    return this.getStringAttribute('gslb_fileobject_max_version_count');
+  }
+
   // gslb_purge_batch_size - computed: true, optional: false, required: false
   public get gslbPurgeBatchSize() {
     return this.getStringAttribute('gslb_purge_batch_size');
@@ -980,6 +1181,31 @@ export class DataAviCloudpropertiesInfoControllerPropsOutputReference extends cd
   // ignore_vrf_in_networksubnetlist - computed: true, optional: false, required: false
   public get ignoreVrfInNetworksubnetlist() {
     return this.getStringAttribute('ignore_vrf_in_networksubnetlist');
+  }
+
+  // log_records_allocated_size - computed: true, optional: false, required: false
+  public get logRecordsAllocatedSize() {
+    return this.getStringAttribute('log_records_allocated_size');
+  }
+
+  // log_records_allocation_percentage_for_events - computed: true, optional: false, required: false
+  public get logRecordsAllocationPercentageForEvents() {
+    return this.getStringAttribute('log_records_allocation_percentage_for_events');
+  }
+
+  // log_records_cleanup_target_percentage - computed: true, optional: false, required: false
+  public get logRecordsCleanupTargetPercentage() {
+    return this.getStringAttribute('log_records_cleanup_target_percentage');
+  }
+
+  // log_records_frequent_cleanup_event_generation_threshold - computed: true, optional: false, required: false
+  public get logRecordsFrequentCleanupEventGenerationThreshold() {
+    return this.getStringAttribute('log_records_frequent_cleanup_event_generation_threshold');
+  }
+
+  // log_records_purge_interval - computed: true, optional: false, required: false
+  public get logRecordsPurgeInterval() {
+    return this.getStringAttribute('log_records_purge_interval');
   }
 
   // max_dead_se_in_grp - computed: true, optional: false, required: false
@@ -1127,39 +1353,14 @@ export class DataAviCloudpropertiesInfoControllerPropsOutputReference extends cd
     return this.getStringAttribute('secure_channel_se_token_timeout');
   }
 
-  // seupgrade_copy_buffer_size - computed: true, optional: false, required: false
-  public get seupgradeCopyBufferSize() {
-    return this.getStringAttribute('seupgrade_copy_buffer_size');
-  }
-
-  // seupgrade_copy_pool_size - computed: true, optional: false, required: false
-  public get seupgradeCopyPoolSize() {
-    return this.getStringAttribute('seupgrade_copy_pool_size');
-  }
-
-  // seupgrade_fabric_pool_size - computed: true, optional: false, required: false
-  public get seupgradeFabricPoolSize() {
-    return this.getStringAttribute('seupgrade_fabric_pool_size');
-  }
-
-  // seupgrade_segroup_min_dead_timeout - computed: true, optional: false, required: false
-  public get seupgradeSegroupMinDeadTimeout() {
-    return this.getStringAttribute('seupgrade_segroup_min_dead_timeout');
-  }
-
   // shared_ssl_certificates - computed: true, optional: false, required: false
   public get sharedSslCertificates() {
     return this.getStringAttribute('shared_ssl_certificates');
   }
 
-  // skopeo_retry_interval - computed: true, optional: false, required: false
-  public get skopeoRetryInterval() {
-    return this.getStringAttribute('skopeo_retry_interval');
-  }
-
-  // skopeo_retry_limit - computed: true, optional: false, required: false
-  public get skopeoRetryLimit() {
-    return this.getStringAttribute('skopeo_retry_limit');
+  // skip_beego_perf_collection - computed: true, optional: false, required: false
+  public get skipBeegoPerfCollection() {
+    return this.getStringAttribute('skip_beego_perf_collection');
   }
 
   // soft_min_mem_per_se_limit - computed: true, optional: false, required: false
@@ -1172,14 +1373,15 @@ export class DataAviCloudpropertiesInfoControllerPropsOutputReference extends cd
     return this.getNumberListAttribute('ssl_certificate_expiry_warning_days');
   }
 
-  // system_report_cleanup_interval - computed: true, optional: false, required: false
-  public get systemReportCleanupInterval() {
-    return this.getStringAttribute('system_report_cleanup_interval');
+  // statecache_properties - computed: true, optional: false, required: false
+  private _statecacheProperties = new DataAviCloudpropertiesInfoControllerPropsStatecachePropertiesList(this, "statecache_properties", true);
+  public get statecacheProperties() {
+    return this._statecacheProperties;
   }
 
-  // system_report_limit - computed: true, optional: false, required: false
-  public get systemReportLimit() {
-    return this.getStringAttribute('system_report_limit');
+  // telemetry_interval - computed: true, optional: false, required: false
+  public get telemetryInterval() {
+    return this.getStringAttribute('telemetry_interval');
   }
 
   // unresponsive_se_reboot - computed: true, optional: false, required: false
@@ -1200,16 +1402,6 @@ export class DataAviCloudpropertiesInfoControllerPropsOutputReference extends cd
   // upgrade_dns_ttl - computed: true, optional: false, required: false
   public get upgradeDnsTtl() {
     return this.getStringAttribute('upgrade_dns_ttl');
-  }
-
-  // upgrade_fat_se_lease_time - computed: true, optional: false, required: false
-  public get upgradeFatSeLeaseTime() {
-    return this.getStringAttribute('upgrade_fat_se_lease_time');
-  }
-
-  // upgrade_lease_time - computed: true, optional: false, required: false
-  public get upgradeLeaseTime() {
-    return this.getStringAttribute('upgrade_lease_time');
   }
 
   // upgrade_se_per_vs_scale_ops_txn_time - computed: true, optional: false, required: false
@@ -1648,7 +1840,7 @@ export class DataAviCloudpropertiesInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/cloudproperties avi_cloudproperties}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/cloudproperties avi_cloudproperties}
 */
 export class DataAviCloudproperties extends cdktf.TerraformDataSource {
 
@@ -1664,7 +1856,7 @@ export class DataAviCloudproperties extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviCloudproperties resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviCloudproperties to import
-  * @param importFromId The id of the existing DataAviCloudproperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/cloudproperties#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviCloudproperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/cloudproperties#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviCloudproperties to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1676,7 +1868,7 @@ export class DataAviCloudproperties extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/cloudproperties avi_cloudproperties} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/cloudproperties avi_cloudproperties} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1687,8 +1879,8 @@ export class DataAviCloudproperties extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_cloudproperties',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

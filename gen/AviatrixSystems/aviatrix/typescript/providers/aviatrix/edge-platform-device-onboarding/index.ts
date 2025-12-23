@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface EdgePlatformDeviceOnboardingConfig extends cdktf.TerraformMetaA
   /**
   * Edge NEO account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#account_name EdgePlatformDeviceOnboarding#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#account_name EdgePlatformDeviceOnboarding#account_name}
   */
   readonly accountName: string;
   /**
   * The location where the config file will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#config_file_download_path EdgePlatformDeviceOnboarding#config_file_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#config_file_download_path EdgePlatformDeviceOnboarding#config_file_download_path}
   */
   readonly configFileDownloadPath?: string;
   /**
   * Device name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#device_name EdgePlatformDeviceOnboarding#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#device_name EdgePlatformDeviceOnboarding#device_name}
   */
   readonly deviceName: string;
   /**
   * Set to true to download the Edge Platform static config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#download_config_file EdgePlatformDeviceOnboarding#download_config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#download_config_file EdgePlatformDeviceOnboarding#download_config_file}
   */
   readonly downloadConfigFile?: boolean | cdktf.IResolvable;
   /**
   * Hardware Model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#hardware_model EdgePlatformDeviceOnboarding#hardware_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#hardware_model EdgePlatformDeviceOnboarding#hardware_model}
   */
   readonly hardwareModel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#id EdgePlatformDeviceOnboarding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#id EdgePlatformDeviceOnboarding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,13 +47,13 @@ export interface EdgePlatformDeviceOnboardingConfig extends cdktf.TerraformMetaA
   /**
   * Serial number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#serial_number EdgePlatformDeviceOnboarding#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#serial_number EdgePlatformDeviceOnboarding#serial_number}
   */
   readonly serialNumber: string;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#network EdgePlatformDeviceOnboarding#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#network EdgePlatformDeviceOnboarding#network}
   */
   readonly network?: EdgePlatformDeviceOnboardingNetwork[] | cdktf.IResolvable;
 }
@@ -61,37 +61,37 @@ export interface EdgePlatformDeviceOnboardingNetwork {
   /**
   * Set of DNS server IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#dns_server_ips EdgePlatformDeviceOnboarding#dns_server_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#dns_server_ips EdgePlatformDeviceOnboarding#dns_server_ips}
   */
   readonly dnsServerIps?: string[];
   /**
   * Enable DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#enable_dhcp EdgePlatformDeviceOnboarding#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#enable_dhcp EdgePlatformDeviceOnboarding#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#gateway_ip EdgePlatformDeviceOnboarding#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#gateway_ip EdgePlatformDeviceOnboarding#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#interface_name EdgePlatformDeviceOnboarding#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#interface_name EdgePlatformDeviceOnboarding#interface_name}
   */
   readonly interfaceName: string;
   /**
   * IPV4 CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#ipv4_cidr EdgePlatformDeviceOnboarding#ipv4_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#ipv4_cidr EdgePlatformDeviceOnboarding#ipv4_cidr}
   */
   readonly ipv4Cidr?: string;
   /**
   * Proxy Profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#proxy_profile_id EdgePlatformDeviceOnboarding#proxy_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#proxy_profile_id EdgePlatformDeviceOnboarding#proxy_profile_id}
   */
   readonly proxyProfileId?: string;
 }
@@ -349,7 +349,7 @@ export class EdgePlatformDeviceOnboardingNetworkList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding aviatrix_edge_platform_device_onboarding}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding aviatrix_edge_platform_device_onboarding}
 */
 export class EdgePlatformDeviceOnboarding extends cdktf.TerraformResource {
 
@@ -365,7 +365,7 @@ export class EdgePlatformDeviceOnboarding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgePlatformDeviceOnboarding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgePlatformDeviceOnboarding to import
-  * @param importFromId The id of the existing EdgePlatformDeviceOnboarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgePlatformDeviceOnboarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgePlatformDeviceOnboarding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -377,7 +377,7 @@ export class EdgePlatformDeviceOnboarding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_platform_device_onboarding aviatrix_edge_platform_device_onboarding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_platform_device_onboarding aviatrix_edge_platform_device_onboarding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -388,8 +388,8 @@ export class EdgePlatformDeviceOnboarding extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_platform_device_onboarding',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

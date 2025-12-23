@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ComputeInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The first detected Fixed IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#access_ip_v4 ComputeInstance#access_ip_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#access_ip_v4 ComputeInstance#access_ip_v4}
   */
   readonly accessIpV4?: string;
   /**
   * The administrative password to assign to the server. For some images, the password must meet certain requirements, which can be found here: https://cloud.vk.com/docs/en/computing/iaas/service-management/vm/vm-manage. _note_ If the password does not meet these requirements, the resource creation may hang until the timeout due to repeated attempts to set the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#admin_pass ComputeInstance#admin_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#admin_pass ComputeInstance#admin_pass}
   */
   readonly adminPass?: string;
   /**
   * The availability zone in which to create the server. Conflicts with `availability_zone_hints`. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#availability_zone ComputeInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#availability_zone ComputeInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Whether to use the config_drive feature to configure the instance. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#config_drive ComputeInstance#config_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#config_drive ComputeInstance#config_drive}
   */
   readonly configDrive?: boolean | cdktf.IResolvable;
   /**
   * The flavor ID of the desired flavor for the server. Required if `flavor_name` is empty. Changing this resizes the existing server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#flavor_id ComputeInstance#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#flavor_id ComputeInstance#flavor_id}
   */
   readonly flavorId?: string;
   /**
   * The name of the desired flavor for the server. Required if `flavor_id` is empty. Changing this resizes the existing server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#flavor_name ComputeInstance#flavor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#flavor_name ComputeInstance#flavor_name}
   */
   readonly flavorName?: string;
   /**
   * Whether to force the compute instance to be forcefully deleted. This is useful for environments that have reclaim / soft deletion enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#force_delete ComputeInstance#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#force_delete ComputeInstance#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#id ComputeInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#id ComputeInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,121 +59,121 @@ export interface ComputeInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The image ID of the desired image for the server. Required if `image_name` is empty and not booting from a volume. Do not specify if booting from a volume. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#image_id ComputeInstance#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#image_id ComputeInstance#image_id}
   */
   readonly imageId?: string;
   /**
   * The name of the desired image for the server. Required if `image_id` is empty and not booting from a volume. Do not specify if booting from a volume. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#image_name ComputeInstance#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#image_name ComputeInstance#image_name}
   */
   readonly imageName?: string;
   /**
   * The name of a key pair to put on the server. The key pair must already be created and associated with the tenant's account. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#key_pair ComputeInstance#key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#key_pair ComputeInstance#key_pair}
   */
   readonly keyPair?: string;
   /**
   * Metadata key/value pairs to make available from within the instance. Changing this updates the existing server metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#metadata ComputeInstance#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#metadata ComputeInstance#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * A unique name for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#name ComputeInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#name ComputeInstance#name}
   */
   readonly name: string;
   /**
   * Special string for `network` option to create the server. `network_mode` can be `"auto"` or `"none"`. Please see the following [reference](https://docs.openstack.org/api-ref/compute/?expanded=create-server-detail#id11) for more information. Conflicts with `network`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#network_mode ComputeInstance#network_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#network_mode ComputeInstance#network_mode}
   */
   readonly networkMode?: string;
   /**
   * Provide the VM state. Only 'active' and 'shutoff' are supported values. _note_ If the initial power_state is the shutoff the VM will be stopped immediately after build and the provisioners like remote-exec or files are not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#power_state ComputeInstance#power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#power_state ComputeInstance#power_state}
   */
   readonly powerState?: string;
   /**
   * The region in which to create the server instance. If omitted, the `region` argument of the provider is used. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#region ComputeInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#region ComputeInstance#region}
   */
   readonly region?: string;
   /**
   * An array of one or more security group ids to associate with the server. Changing this results in adding/removing security groups from the existing server. _note_ When attaching the instance to networks using Ports, place the security groups on the Port and not the instance._new_since_v0.7.3_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#security_group_ids ComputeInstance#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#security_group_ids ComputeInstance#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * An array of one or more security group names to associate with the server. Changing this results in adding/removing security groups from the existing server. _note_ When attaching the instance to networks using Ports, place the security groups on the Port and not the instance. **Deprecated** Configure `security_group_ids` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#security_groups ComputeInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#security_groups ComputeInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Whether to try stop instance gracefully before destroying it, thus giving chance for guest OS daemons to stop correctly. If instance doesn't stop within timeout, it will be destroyed anyway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#stop_before_destroy ComputeInstance#stop_before_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#stop_before_destroy ComputeInstance#stop_before_destroy}
   */
   readonly stopBeforeDestroy?: boolean | cdktf.IResolvable;
   /**
   * A set of string tags for the instance. Changing this updates the existing instance tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#tags ComputeInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#tags ComputeInstance#tags}
   */
   readonly tags?: string[];
   /**
   * The user data to provide when launching the instance. When cloud_monitoring enabled only #!/bin/bash, #cloud-config, #ps1 user_data formats are supported. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#user_data ComputeInstance#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#user_data ComputeInstance#user_data}
   */
   readonly userData?: string;
   /**
   * block_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#block_device ComputeInstance#block_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#block_device ComputeInstance#block_device}
   */
   readonly blockDevice?: ComputeInstanceBlockDevice[] | cdktf.IResolvable;
   /**
   * cloud_monitoring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#cloud_monitoring ComputeInstance#cloud_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#cloud_monitoring ComputeInstance#cloud_monitoring}
   */
   readonly cloudMonitoring?: ComputeInstanceCloudMonitoring;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#network ComputeInstance#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#network ComputeInstance#network}
   */
   readonly network?: ComputeInstanceNetwork[] | cdktf.IResolvable;
   /**
   * personality block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#personality ComputeInstance#personality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#personality ComputeInstance#personality}
   */
   readonly personality?: ComputeInstancePersonality[] | cdktf.IResolvable;
   /**
   * scheduler_hints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#scheduler_hints ComputeInstance#scheduler_hints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#scheduler_hints ComputeInstance#scheduler_hints}
   */
   readonly schedulerHints?: ComputeInstanceSchedulerHints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#timeouts ComputeInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#timeouts ComputeInstance#timeouts}
   */
   readonly timeouts?: ComputeInstanceTimeouts;
   /**
   * vendor_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#vendor_options ComputeInstance#vendor_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#vendor_options ComputeInstance#vendor_options}
   */
   readonly vendorOptions?: ComputeInstanceVendorOptions;
 }
@@ -181,61 +181,61 @@ export interface ComputeInstanceBlockDevice {
   /**
   * The boot index of the volume. It defaults to 0 if only one `block_device` is specified, and to -1 if more than one is configured. Changing this creates a new server. _note_ You must set the boot index to 0 for one of the block devices if more than one is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#boot_index ComputeInstance#boot_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#boot_index ComputeInstance#boot_index}
   */
   readonly bootIndex?: number;
   /**
   * Delete the volume / block device upon termination of the instance. Defaults to false. Changing this creates a new server. __note__ It is important to enable `delete_on_termination` for volumes created with instance. If `delete_on_termination` is disabled for such volumes, then after instance deletion such volumes will stay orphaned and uncontrolled by terraform. __note__ It is important to disable `delete_on_termination` if volume is created as separate terraform resource and is attached to instance. Enabling `delete_on_termination` for such volumes will result in mismanagement between two terraform resources in case of instance deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#delete_on_termination ComputeInstance#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#delete_on_termination ComputeInstance#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktf.IResolvable;
   /**
   * The type that gets created. Possible values are "volume" and "local". Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#destination_type ComputeInstance#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#destination_type ComputeInstance#destination_type}
   */
   readonly destinationType?: string;
   /**
   * The low-level device type that will be used. Most common thing is to leave this empty. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#device_type ComputeInstance#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#device_type ComputeInstance#device_type}
   */
   readonly deviceType?: string;
   /**
   * The low-level disk bus that will be used. Most common thing is to leave this empty. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#disk_bus ComputeInstance#disk_bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#disk_bus ComputeInstance#disk_bus}
   */
   readonly diskBus?: string;
   /**
   * Specifies the guest server disk file system format, such as `ext2`, `ext3`, `ext4`, `xfs` or `swap`. Swap block device mappings have the following restrictions: source_type must be blank and destination_type must be local and only one swap disk per server and the size of the swap disk must be less than or equal to the swap size of the flavor. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#guest_format ComputeInstance#guest_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#guest_format ComputeInstance#guest_format}
   */
   readonly guestFormat?: string;
   /**
   * The source type of the device. Must be one of "blank", "image", "volume", or "snapshot". Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#source_type ComputeInstance#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#source_type ComputeInstance#source_type}
   */
   readonly sourceType: string;
   /**
   * The UUID of the image, volume, or snapshot. Optional if `source_type` is set to `"blank"`. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#uuid ComputeInstance#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#uuid ComputeInstance#uuid}
   */
   readonly uuid?: string;
   /**
   * The size of the volume to create (in gigabytes). Required in the following combinations: source=image and destination=volume, source=blank and destination=local, and source=blank and destination=volume. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#volume_size ComputeInstance#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#volume_size ComputeInstance#volume_size}
   */
   readonly volumeSize?: number;
   /**
   * The volume type that will be used. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#volume_type ComputeInstance#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#volume_type ComputeInstance#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -611,13 +611,13 @@ export interface ComputeInstanceCloudMonitoring {
   /**
   * The script of the cloud monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#script ComputeInstance#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#script ComputeInstance#script}
   */
   readonly script: string;
   /**
   * The id of the service monitoring user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#service_user_id ComputeInstance#service_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#service_user_id ComputeInstance#service_user_id}
   */
   readonly serviceUserId: string;
 }
@@ -726,31 +726,31 @@ export interface ComputeInstanceNetwork {
   /**
   * Specifies if this network should be used for provisioning access. Accepts true or false. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#access_network ComputeInstance#access_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#access_network ComputeInstance#access_network}
   */
   readonly accessNetwork?: boolean | cdktf.IResolvable;
   /**
   * Specifies a fixed IPv4 address to be used on this network. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#fixed_ip_v4 ComputeInstance#fixed_ip_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#fixed_ip_v4 ComputeInstance#fixed_ip_v4}
   */
   readonly fixedIpV4?: string;
   /**
   * The human-readable name of the network. Optional if `uuid` or `port` is provided. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#name ComputeInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#name ComputeInstance#name}
   */
   readonly name?: string;
   /**
   * The port UUID of a network to attach to the server. Optional if `uuid` or `name` is provided. Changing this creates a new server. _note_ If port is used, only its security groups will be applied instead of security_groups instance argument.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#port ComputeInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#port ComputeInstance#port}
   */
   readonly port?: string;
   /**
   * The network UUID to attach to the server. Optional if `port` or `name` is provided. Changing this creates a new server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#uuid ComputeInstance#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#uuid ComputeInstance#uuid}
   */
   readonly uuid?: string;
 }
@@ -989,13 +989,13 @@ export interface ComputeInstancePersonality {
   /**
   * The contents of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#content ComputeInstance#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#content ComputeInstance#content}
   */
   readonly content: string;
   /**
   * The absolute path of the destination file. Limited to 255 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#file ComputeInstance#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#file ComputeInstance#file}
   */
   readonly file: string;
 }
@@ -1136,7 +1136,7 @@ export interface ComputeInstanceSchedulerHints {
   /**
   * A UUID of a Server Group. The instance will be placed into that group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#group ComputeInstance#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#group ComputeInstance#group}
   */
   readonly group?: string;
 }
@@ -1252,15 +1252,15 @@ export class ComputeInstanceSchedulerHintsList extends cdktf.ComplexList {
 }
 export interface ComputeInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#create ComputeInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#create ComputeInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#delete ComputeInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#delete ComputeInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#update ComputeInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#update ComputeInstance#update}
   */
   readonly update?: string;
 }
@@ -1414,19 +1414,19 @@ export interface ComputeInstanceVendorOptions {
   /**
   * Whether to try to detach all attached ports to the vm before destroying it to make sure the port state is correct after the vm destruction. This is helpful when the port is not deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#detach_ports_before_destroy ComputeInstance#detach_ports_before_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#detach_ports_before_destroy ComputeInstance#detach_ports_before_destroy}
   */
   readonly detachPortsBeforeDestroy?: boolean | cdktf.IResolvable;
   /**
   * If true, wait for initial windows admin password to be generated and retrieve it. Use this attribute only for instances running Microsoft Windows. The password data is exported to the `password_data` attribute. The password will be generated only if you specify the instance `key_pair`. The password will be read only once when the instance is created._new_since_v0.9.3_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#get_password_data ComputeInstance#get_password_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#get_password_data ComputeInstance#get_password_data}
   */
   readonly fetchPasswordData?: boolean | cdktf.IResolvable;
   /**
   * Boolean to control whether to ignore manual confirmation of the instance resizing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#ignore_resize_confirmation ComputeInstance#ignore_resize_confirmation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#ignore_resize_confirmation ComputeInstance#ignore_resize_confirmation}
   */
   readonly ignoreResizeConfirmation?: boolean | cdktf.IResolvable;
 }
@@ -1568,7 +1568,7 @@ export class ComputeInstanceVendorOptionsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance vkcs_compute_instance}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance vkcs_compute_instance}
 */
 export class ComputeInstance extends cdktf.TerraformResource {
 
@@ -1584,7 +1584,7 @@ export class ComputeInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeInstance to import
-  * @param importFromId The id of the existing ComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1596,7 +1596,7 @@ export class ComputeInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/compute_instance vkcs_compute_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/compute_instance vkcs_compute_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1607,8 +1607,8 @@ export class ComputeInstance extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_compute_instance',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

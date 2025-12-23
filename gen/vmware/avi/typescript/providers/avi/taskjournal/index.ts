@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface TaskjournalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#id Taskjournal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#id Taskjournal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#image_ref Taskjournal#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#image_ref Taskjournal#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#name Taskjournal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#name Taskjournal#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#obj_cloud_ref Taskjournal#obj_cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#obj_cloud_ref Taskjournal#obj_cloud_ref}
   */
   readonly objCloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#operation Taskjournal#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#operation Taskjournal#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#patch_image_ref Taskjournal#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#patch_image_ref Taskjournal#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#tenant_ref Taskjournal#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#tenant_ref Taskjournal#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#uuid Taskjournal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#uuid Taskjournal#uuid}
   */
   readonly uuid?: string;
   /**
   * errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#errors Taskjournal#errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#errors Taskjournal#errors}
   */
   readonly errors?: TaskjournalErrors[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#info Taskjournal#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#info Taskjournal#info}
   */
   readonly info?: TaskjournalInfo[] | cdktf.IResolvable;
   /**
   * summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#summary Taskjournal#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#summary Taskjournal#summary}
   */
   readonly summary: TaskjournalSummary[] | cdktf.IResolvable;
+  /**
+  * tasks block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#tasks Taskjournal#tasks}
+  */
+  readonly tasks?: TaskjournalTasks[] | cdktf.IResolvable;
+  /**
+  * warnings block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#warnings Taskjournal#warnings}
+  */
+  readonly warnings?: TaskjournalWarnings[] | cdktf.IResolvable;
 }
 export interface TaskjournalErrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#details Taskjournal#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#details Taskjournal#details}
   */
   readonly details?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#name Taskjournal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#name Taskjournal#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#object Taskjournal#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#object Taskjournal#object}
   */
   readonly object?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#tenant Taskjournal#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#tenant Taskjournal#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#uuid Taskjournal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#uuid Taskjournal#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#version Taskjournal#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#version Taskjournal#version}
   */
   readonly version?: string;
 }
@@ -344,19 +356,19 @@ export class TaskjournalErrorsList extends cdktf.ComplexList {
 }
 export interface TaskjournalInfoActionsObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#failed Taskjournal#failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#failed Taskjournal#failed}
   */
   readonly failed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#model Taskjournal#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#model Taskjournal#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#skipped Taskjournal#skipped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#skipped Taskjournal#skipped}
   */
   readonly skipped?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#success Taskjournal#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#success Taskjournal#success}
   */
   readonly success?: string;
 }
@@ -559,13 +571,13 @@ export class TaskjournalInfoActionsObjectsList extends cdktf.ComplexList {
 }
 export interface TaskjournalInfoActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#version Taskjournal#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#version Taskjournal#version}
   */
   readonly version?: string;
   /**
   * objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#objects Taskjournal#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#objects Taskjournal#objects}
   */
   readonly objects?: TaskjournalInfoActionsObjects[] | cdktf.IResolvable;
 }
@@ -710,17 +722,17 @@ export class TaskjournalInfoActionsList extends cdktf.ComplexList {
 }
 export interface TaskjournalInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#total_objects Taskjournal#total_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#total_objects Taskjournal#total_objects}
   */
   readonly totalObjects: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#versions Taskjournal#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#versions Taskjournal#versions}
   */
   readonly versions?: string[];
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#actions Taskjournal#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#actions Taskjournal#actions}
   */
   readonly actions?: TaskjournalInfoActions[] | cdktf.IResolvable;
 }
@@ -891,37 +903,45 @@ export class TaskjournalInfoList extends cdktf.ComplexList {
 }
 export interface TaskjournalSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#description Taskjournal#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#description Taskjournal#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#duration Taskjournal#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#duration Taskjournal#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#end_time Taskjournal#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#end_time Taskjournal#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#error_count Taskjournal#error_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#error_count Taskjournal#error_count}
   */
   readonly errorCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#reason Taskjournal#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#reason Taskjournal#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#start_time Taskjournal#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#start_time Taskjournal#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#status Taskjournal#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#state Taskjournal#state}
+  */
+  readonly state?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#status Taskjournal#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#type Taskjournal#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#type Taskjournal#type}
   */
   readonly type: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#warning_count Taskjournal#warning_count}
+  */
+  readonly warningCount?: string;
 }
 
 export function taskjournalSummaryToTerraform(struct?: TaskjournalSummary | cdktf.IResolvable): any {
@@ -936,8 +956,10 @@ export function taskjournalSummaryToTerraform(struct?: TaskjournalSummary | cdkt
     error_count: cdktf.stringToTerraform(struct!.errorCount),
     reason: cdktf.stringToTerraform(struct!.reason),
     start_time: cdktf.stringToTerraform(struct!.startTime),
+    state: cdktf.stringToTerraform(struct!.state),
     status: cdktf.stringToTerraform(struct!.status),
     type: cdktf.stringToTerraform(struct!.type),
+    warning_count: cdktf.stringToTerraform(struct!.warningCount),
   }
 }
 
@@ -984,6 +1006,12 @@ export function taskjournalSummaryToHclTerraform(struct?: TaskjournalSummary | c
       type: "simple",
       storageClassType: "string",
     },
+    state: {
+      value: cdktf.stringToHclTerraform(struct!.state),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     status: {
       value: cdktf.stringToHclTerraform(struct!.status),
       isBlock: false,
@@ -992,6 +1020,12 @@ export function taskjournalSummaryToHclTerraform(struct?: TaskjournalSummary | c
     },
     type: {
       value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    warning_count: {
+      value: cdktf.stringToHclTerraform(struct!.warningCount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1046,6 +1080,10 @@ export class TaskjournalSummaryOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.startTime = this._startTime;
     }
+    if (this._state !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.state = this._state;
+    }
     if (this._status !== undefined) {
       hasAnyValues = true;
       internalValueResult.status = this._status;
@@ -1053,6 +1091,10 @@ export class TaskjournalSummaryOutputReference extends cdktf.ComplexObject {
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
+    }
+    if (this._warningCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.warningCount = this._warningCount;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1067,8 +1109,10 @@ export class TaskjournalSummaryOutputReference extends cdktf.ComplexObject {
       this._errorCount = undefined;
       this._reason = undefined;
       this._startTime = undefined;
+      this._state = undefined;
       this._status = undefined;
       this._type = undefined;
+      this._warningCount = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1083,8 +1127,10 @@ export class TaskjournalSummaryOutputReference extends cdktf.ComplexObject {
       this._errorCount = value.errorCount;
       this._reason = value.reason;
       this._startTime = value.startTime;
+      this._state = value.state;
       this._status = value.status;
       this._type = value.type;
+      this._warningCount = value.warningCount;
     }
   }
 
@@ -1184,6 +1230,22 @@ export class TaskjournalSummaryOutputReference extends cdktf.ComplexObject {
     return this._startTime;
   }
 
+  // state - computed: true, optional: true, required: false
+  private _state?: string; 
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+  public set state(value: string) {
+    this._state = value;
+  }
+  public resetState() {
+    this._state = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stateInput() {
+    return this._state;
+  }
+
   // status - computed: true, optional: true, required: false
   private _status?: string; 
   public get status() {
@@ -1212,6 +1274,22 @@ export class TaskjournalSummaryOutputReference extends cdktf.ComplexObject {
   public get typeInput() {
     return this._type;
   }
+
+  // warning_count - computed: true, optional: true, required: false
+  private _warningCount?: string; 
+  public get warningCount() {
+    return this.getStringAttribute('warning_count');
+  }
+  public set warningCount(value: string) {
+    this._warningCount = value;
+  }
+  public resetWarningCount() {
+    this._warningCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get warningCountInput() {
+    return this._warningCount;
+  }
 }
 
 export class TaskjournalSummaryList extends cdktf.ComplexList {
@@ -1233,9 +1311,670 @@ export class TaskjournalSummaryList extends cdktf.ComplexList {
     return new TaskjournalSummaryOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface TaskjournalTasks {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#duration Taskjournal#duration}
+  */
+  readonly duration?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#end_time Taskjournal#end_time}
+  */
+  readonly endTime?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#messages Taskjournal#messages}
+  */
+  readonly messages?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#reason Taskjournal#reason}
+  */
+  readonly reason?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#start_time Taskjournal#start_time}
+  */
+  readonly startTime?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#state Taskjournal#state}
+  */
+  readonly state?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#status Taskjournal#status}
+  */
+  readonly status?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#task_description Taskjournal#task_description}
+  */
+  readonly taskDescription?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#task_name Taskjournal#task_name}
+  */
+  readonly taskName?: string;
+}
+
+export function taskjournalTasksToTerraform(struct?: TaskjournalTasks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    duration: cdktf.stringToTerraform(struct!.duration),
+    end_time: cdktf.stringToTerraform(struct!.endTime),
+    messages: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.messages),
+    reason: cdktf.stringToTerraform(struct!.reason),
+    start_time: cdktf.stringToTerraform(struct!.startTime),
+    state: cdktf.stringToTerraform(struct!.state),
+    status: cdktf.stringToTerraform(struct!.status),
+    task_description: cdktf.stringToTerraform(struct!.taskDescription),
+    task_name: cdktf.stringToTerraform(struct!.taskName),
+  }
+}
+
+
+export function taskjournalTasksToHclTerraform(struct?: TaskjournalTasks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    duration: {
+      value: cdktf.stringToHclTerraform(struct!.duration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    end_time: {
+      value: cdktf.stringToHclTerraform(struct!.endTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    messages: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.messages),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    reason: {
+      value: cdktf.stringToHclTerraform(struct!.reason),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_time: {
+      value: cdktf.stringToHclTerraform(struct!.startTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    state: {
+      value: cdktf.stringToHclTerraform(struct!.state),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    status: {
+      value: cdktf.stringToHclTerraform(struct!.status),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    task_description: {
+      value: cdktf.stringToHclTerraform(struct!.taskDescription),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    task_name: {
+      value: cdktf.stringToHclTerraform(struct!.taskName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TaskjournalTasksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): TaskjournalTasks | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._duration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.duration = this._duration;
+    }
+    if (this._endTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endTime = this._endTime;
+    }
+    if (this._messages !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.messages = this._messages;
+    }
+    if (this._reason !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reason = this._reason;
+    }
+    if (this._startTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startTime = this._startTime;
+    }
+    if (this._state !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.state = this._state;
+    }
+    if (this._status !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.status = this._status;
+    }
+    if (this._taskDescription !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taskDescription = this._taskDescription;
+    }
+    if (this._taskName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taskName = this._taskName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TaskjournalTasks | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._duration = undefined;
+      this._endTime = undefined;
+      this._messages = undefined;
+      this._reason = undefined;
+      this._startTime = undefined;
+      this._state = undefined;
+      this._status = undefined;
+      this._taskDescription = undefined;
+      this._taskName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._duration = value.duration;
+      this._endTime = value.endTime;
+      this._messages = value.messages;
+      this._reason = value.reason;
+      this._startTime = value.startTime;
+      this._state = value.state;
+      this._status = value.status;
+      this._taskDescription = value.taskDescription;
+      this._taskName = value.taskName;
+    }
+  }
+
+  // duration - computed: true, optional: true, required: false
+  private _duration?: string; 
+  public get duration() {
+    return this.getStringAttribute('duration');
+  }
+  public set duration(value: string) {
+    this._duration = value;
+  }
+  public resetDuration() {
+    this._duration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get durationInput() {
+    return this._duration;
+  }
+
+  // end_time - computed: true, optional: true, required: false
+  private _endTime?: string; 
+  public get endTime() {
+    return this.getStringAttribute('end_time');
+  }
+  public set endTime(value: string) {
+    this._endTime = value;
+  }
+  public resetEndTime() {
+    this._endTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endTimeInput() {
+    return this._endTime;
+  }
+
+  // messages - computed: false, optional: true, required: false
+  private _messages?: string[]; 
+  public get messages() {
+    return this.getListAttribute('messages');
+  }
+  public set messages(value: string[]) {
+    this._messages = value;
+  }
+  public resetMessages() {
+    this._messages = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messagesInput() {
+    return this._messages;
+  }
+
+  // reason - computed: true, optional: true, required: false
+  private _reason?: string; 
+  public get reason() {
+    return this.getStringAttribute('reason');
+  }
+  public set reason(value: string) {
+    this._reason = value;
+  }
+  public resetReason() {
+    this._reason = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reasonInput() {
+    return this._reason;
+  }
+
+  // start_time - computed: true, optional: true, required: false
+  private _startTime?: string; 
+  public get startTime() {
+    return this.getStringAttribute('start_time');
+  }
+  public set startTime(value: string) {
+    this._startTime = value;
+  }
+  public resetStartTime() {
+    this._startTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startTimeInput() {
+    return this._startTime;
+  }
+
+  // state - computed: true, optional: true, required: false
+  private _state?: string; 
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+  public set state(value: string) {
+    this._state = value;
+  }
+  public resetState() {
+    this._state = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stateInput() {
+    return this._state;
+  }
+
+  // status - computed: true, optional: true, required: false
+  private _status?: string; 
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+  public set status(value: string) {
+    this._status = value;
+  }
+  public resetStatus() {
+    this._status = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statusInput() {
+    return this._status;
+  }
+
+  // task_description - computed: true, optional: true, required: false
+  private _taskDescription?: string; 
+  public get taskDescription() {
+    return this.getStringAttribute('task_description');
+  }
+  public set taskDescription(value: string) {
+    this._taskDescription = value;
+  }
+  public resetTaskDescription() {
+    this._taskDescription = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taskDescriptionInput() {
+    return this._taskDescription;
+  }
+
+  // task_name - computed: true, optional: true, required: false
+  private _taskName?: string; 
+  public get taskName() {
+    return this.getStringAttribute('task_name');
+  }
+  public set taskName(value: string) {
+    this._taskName = value;
+  }
+  public resetTaskName() {
+    this._taskName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taskNameInput() {
+    return this._taskName;
+  }
+}
+
+export class TaskjournalTasksList extends cdktf.ComplexList {
+  public internalValue? : TaskjournalTasks[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): TaskjournalTasksOutputReference {
+    return new TaskjournalTasksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface TaskjournalWarnings {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#details Taskjournal#details}
+  */
+  readonly details?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#name Taskjournal#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#object Taskjournal#object}
+  */
+  readonly object?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#tenant Taskjournal#tenant}
+  */
+  readonly tenant?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#uuid Taskjournal#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#version Taskjournal#version}
+  */
+  readonly version?: string;
+}
+
+export function taskjournalWarningsToTerraform(struct?: TaskjournalWarnings | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    details: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.details),
+    name: cdktf.stringToTerraform(struct!.name),
+    object: cdktf.stringToTerraform(struct!.object),
+    tenant: cdktf.stringToTerraform(struct!.tenant),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    version: cdktf.stringToTerraform(struct!.version),
+  }
+}
+
+
+export function taskjournalWarningsToHclTerraform(struct?: TaskjournalWarnings | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    details: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.details),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object: {
+      value: cdktf.stringToHclTerraform(struct!.object),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant: {
+      value: cdktf.stringToHclTerraform(struct!.tenant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktf.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TaskjournalWarningsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): TaskjournalWarnings | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._details !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.details = this._details;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._object !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.object = this._object;
+    }
+    if (this._tenant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenant = this._tenant;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TaskjournalWarnings | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._details = undefined;
+      this._name = undefined;
+      this._object = undefined;
+      this._tenant = undefined;
+      this._uuid = undefined;
+      this._version = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._details = value.details;
+      this._name = value.name;
+      this._object = value.object;
+      this._tenant = value.tenant;
+      this._uuid = value.uuid;
+      this._version = value.version;
+    }
+  }
+
+  // details - computed: false, optional: true, required: false
+  private _details?: string[]; 
+  public get details() {
+    return this.getListAttribute('details');
+  }
+  public set details(value: string[]) {
+    this._details = value;
+  }
+  public resetDetails() {
+    this._details = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get detailsInput() {
+    return this._details;
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // object - computed: true, optional: true, required: false
+  private _object?: string; 
+  public get object() {
+    return this.getStringAttribute('object');
+  }
+  public set object(value: string) {
+    this._object = value;
+  }
+  public resetObject() {
+    this._object = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectInput() {
+    return this._object;
+  }
+
+  // tenant - computed: true, optional: true, required: false
+  private _tenant?: string; 
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+  public set tenant(value: string) {
+    this._tenant = value;
+  }
+  public resetTenant() {
+    this._tenant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantInput() {
+    return this._tenant;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // version - computed: true, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+
+export class TaskjournalWarningsList extends cdktf.ComplexList {
+  public internalValue? : TaskjournalWarnings[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): TaskjournalWarningsOutputReference {
+    return new TaskjournalWarningsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal avi_taskjournal}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal avi_taskjournal}
 */
 export class Taskjournal extends cdktf.TerraformResource {
 
@@ -1251,7 +1990,7 @@ export class Taskjournal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Taskjournal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Taskjournal to import
-  * @param importFromId The id of the existing Taskjournal that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Taskjournal that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Taskjournal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1263,7 +2002,7 @@ export class Taskjournal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal avi_taskjournal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/taskjournal avi_taskjournal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1274,8 +2013,8 @@ export class Taskjournal extends cdktf.TerraformResource {
       terraformResourceType: 'avi_taskjournal',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1296,6 +2035,8 @@ export class Taskjournal extends cdktf.TerraformResource {
     this._errors.internalValue = config.errors;
     this._info.internalValue = config.info;
     this._summary.internalValue = config.summary;
+    this._tasks.internalValue = config.tasks;
+    this._warnings.internalValue = config.warnings;
   }
 
   // ==========
@@ -1475,6 +2216,38 @@ export class Taskjournal extends cdktf.TerraformResource {
     return this._summary.internalValue;
   }
 
+  // tasks - computed: false, optional: true, required: false
+  private _tasks = new TaskjournalTasksList(this, "tasks", false);
+  public get tasks() {
+    return this._tasks;
+  }
+  public putTasks(value: TaskjournalTasks[] | cdktf.IResolvable) {
+    this._tasks.internalValue = value;
+  }
+  public resetTasks() {
+    this._tasks.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tasksInput() {
+    return this._tasks.internalValue;
+  }
+
+  // warnings - computed: false, optional: true, required: false
+  private _warnings = new TaskjournalWarningsList(this, "warnings", false);
+  public get warnings() {
+    return this._warnings;
+  }
+  public putWarnings(value: TaskjournalWarnings[] | cdktf.IResolvable) {
+    this._warnings.internalValue = value;
+  }
+  public resetWarnings() {
+    this._warnings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get warningsInput() {
+    return this._warnings.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -1492,6 +2265,8 @@ export class Taskjournal extends cdktf.TerraformResource {
       errors: cdktf.listMapper(taskjournalErrorsToTerraform, true)(this._errors.internalValue),
       info: cdktf.listMapper(taskjournalInfoToTerraform, true)(this._info.internalValue),
       summary: cdktf.listMapper(taskjournalSummaryToTerraform, true)(this._summary.internalValue),
+      tasks: cdktf.listMapper(taskjournalTasksToTerraform, true)(this._tasks.internalValue),
+      warnings: cdktf.listMapper(taskjournalWarningsToTerraform, true)(this._warnings.internalValue),
     };
   }
 
@@ -1562,6 +2337,18 @@ export class Taskjournal extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "TaskjournalSummaryList",
+      },
+      tasks: {
+        value: cdktf.listMapperHcl(taskjournalTasksToHclTerraform, true)(this._tasks.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "TaskjournalTasksList",
+      },
+      warnings: {
+        value: cdktf.listMapperHcl(taskjournalWarningsToHclTerraform, true)(this._warnings.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "TaskjournalWarningsList",
       },
     };
 

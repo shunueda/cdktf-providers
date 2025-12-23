@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_clustertemplates
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_clustertemplates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVkcsKubernetesClustertemplatesConfig extends cdktf.Terrafor
   /**
   * The region to obtain the service client. If omitted, the `region` argument of the provider is used._new_since_v0.3.0_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_clustertemplates#region DataVkcsKubernetesClustertemplates#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_clustertemplates#region DataVkcsKubernetesClustertemplates#region}
   */
   readonly region?: string;
 }
@@ -101,7 +101,7 @@ export class DataVkcsKubernetesClustertemplatesClusterTemplatesList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_clustertemplates vkcs_kubernetes_clustertemplates}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_clustertemplates vkcs_kubernetes_clustertemplates}
 */
 export class DataVkcsKubernetesClustertemplates extends cdktf.TerraformDataSource {
 
@@ -117,7 +117,7 @@ export class DataVkcsKubernetesClustertemplates extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataVkcsKubernetesClustertemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsKubernetesClustertemplates to import
-  * @param importFromId The id of the existing DataVkcsKubernetesClustertemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_clustertemplates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsKubernetesClustertemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_clustertemplates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsKubernetesClustertemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class DataVkcsKubernetesClustertemplates extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/kubernetes_clustertemplates vkcs_kubernetes_clustertemplates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/kubernetes_clustertemplates vkcs_kubernetes_clustertemplates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class DataVkcsKubernetesClustertemplates extends cdktf.TerraformDataSourc
       terraformResourceType: 'vkcs_kubernetes_clustertemplates',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

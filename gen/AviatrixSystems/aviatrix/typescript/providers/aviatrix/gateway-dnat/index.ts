@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GatewayDnatConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#gw_name GatewayDnat#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#gw_name GatewayDnat#gw_name}
   */
   readonly gwName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#id GatewayDnat#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#id GatewayDnat#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface GatewayDnatConfig extends cdktf.TerraformMetaArguments {
   /**
   * dnat_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#dnat_policy GatewayDnat#dnat_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#dnat_policy GatewayDnat#dnat_policy}
   */
   readonly dnatPolicy: GatewayDnatDnatPolicy[] | cdktf.IResolvable;
 }
@@ -291,73 +291,73 @@ export interface GatewayDnatDnatPolicy {
   /**
   * This is an option to program the route entry 'DST CIDR pointing to Aviatrix Gateway' into Cloud platform routing table. Type: Boolean. Default: True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#apply_route_entry GatewayDnat#apply_route_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#apply_route_entry GatewayDnat#apply_route_entry}
   */
   readonly applyRouteEntry?: boolean | cdktf.IResolvable;
   /**
   * This is a qualifier condition that specifies output connection where the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#connection GatewayDnat#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#connection GatewayDnat#connection}
   */
   readonly connection?: string;
   /**
   * This is a rule field that specifies the translated destination IP address when all specified qualifier conditions meet. When left blank, this field is not used. One of the rule field must be specified for this rule to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#dnat_ips GatewayDnat#dnat_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#dnat_ips GatewayDnat#dnat_ips}
   */
   readonly dnatIps?: string;
   /**
   * This is a rule field that specifies the translated destination port when all specified qualifier conditions meet. When left blank, this field is not used. One of the rule field must be specified for this rule to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#dnat_port GatewayDnat#dnat_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#dnat_port GatewayDnat#dnat_port}
   */
   readonly dnatPort?: string;
   /**
   * This is a qualifier condition that specifies a destination IP address range where the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#dst_cidr GatewayDnat#dst_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#dst_cidr GatewayDnat#dst_cidr}
   */
   readonly dstCidr?: string;
   /**
   * This is a qualifier condition that specifies a destination port where the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#dst_port GatewayDnat#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#dst_port GatewayDnat#dst_port}
   */
   readonly dstPort?: string;
   /**
   * This field specifies which VPC private route table will not be programmed with the default route entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#exclude_rtb GatewayDnat#exclude_rtb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#exclude_rtb GatewayDnat#exclude_rtb}
   */
   readonly excludeRtb?: string;
   /**
   * This is a qualifier condition that specifies output interface where the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#interface GatewayDnat#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#interface GatewayDnat#interface}
   */
   readonly interface?: string;
   /**
   * This is a rule field that specifies a tag or mark of a TCP session when all qualifier conditions meet. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#mark GatewayDnat#mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#mark GatewayDnat#mark}
   */
   readonly mark?: string;
   /**
   * This is a qualifier condition that specifies a destination port protocol where the rule applies. Default: all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#protocol GatewayDnat#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#protocol GatewayDnat#protocol}
   */
   readonly protocol?: string;
   /**
   * This is a qualifier condition that specifies a source IP address range where the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#src_cidr GatewayDnat#src_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#src_cidr GatewayDnat#src_cidr}
   */
   readonly srcCidr?: string;
   /**
   * This is a qualifier condition that specifies a source port that the rule applies. When left blank, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#src_port GatewayDnat#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#src_port GatewayDnat#src_port}
   */
   readonly srcPort?: string;
 }
@@ -792,7 +792,7 @@ export class GatewayDnatDnatPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat aviatrix_gateway_dnat}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat aviatrix_gateway_dnat}
 */
 export class GatewayDnat extends cdktf.TerraformResource {
 
@@ -808,7 +808,7 @@ export class GatewayDnat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayDnat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayDnat to import
-  * @param importFromId The id of the existing GatewayDnat that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayDnat that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayDnat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -820,7 +820,7 @@ export class GatewayDnat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/gateway_dnat aviatrix_gateway_dnat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/gateway_dnat aviatrix_gateway_dnat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -831,8 +831,8 @@ export class GatewayDnat extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_gateway_dnat',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

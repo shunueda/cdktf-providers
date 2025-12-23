@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface BackupPlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * List of backup targets specifying instance_id and volume_ids for each instance. Either backup_targets or instance_ids must be specified, but not both._new_since_v0.13.1_.
+  * Set of backup targets specifying instance_id and volume_ids for each instance. Either backup_targets or instance_ids must be specified, but not both._new_since_v0.13.1_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#backup_targets BackupPlan#backup_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#backup_targets BackupPlan#backup_targets}
   */
   readonly backupTargets?: BackupPlanBackupTargets[] | cdktf.IResolvable;
   /**
   * Parameters for full retention policy. Specifies number of full backups stored. Incremental backups (if enabled) are not counted as full. Incompatible with gfs_retention
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#full_retention BackupPlan#full_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#full_retention BackupPlan#full_retention}
   */
   readonly fullRetention?: BackupPlanFullRetention;
   /**
   * Parameters for gfs retention policy. Specifies number of full backups stored. Incremental backups (if enabled) are not counted as full. Incompatible with full_retention
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#gfs_retention BackupPlan#gfs_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#gfs_retention BackupPlan#gfs_retention}
   */
   readonly gfsRetention?: BackupPlanGfsRetention;
   /**
   * Whether incremental backups strategy should be used. If enabled, the schedule.date field must specify one day, on which full backup will be created. On other days, incremental backups will be created. _note_ This option may be enabled for only for 'cloud_servers' provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#incremental_backup BackupPlan#incremental_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#incremental_backup BackupPlan#incremental_backup}
   */
   readonly incrementalBackup: boolean | cdktf.IResolvable;
   /**
-  * List of ids of instances to make backup for. Either backup_targets or instance_ids must be specified, but not both.
+  * Set of ids of instances to make backup for. Either backup_targets or instance_ids must be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#instance_ids BackupPlan#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#instance_ids BackupPlan#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
   * Name of the backup plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#name BackupPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#name BackupPlan#name}
   */
   readonly name: string;
   /**
   * ID of backup provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#provider_id BackupPlan#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#provider_id BackupPlan#provider_id}
   */
   readonly providerId?: string;
   /**
   * Name of backup provider, must be one of: cloud_servers, dbaas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#provider_name BackupPlan#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#provider_name BackupPlan#provider_name}
   */
   readonly providerName?: string;
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`. Changing this creates a new plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#region BackupPlan#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#region BackupPlan#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#schedule BackupPlan#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#schedule BackupPlan#schedule}
   */
   readonly schedule: BackupPlanSchedule;
 }
@@ -70,13 +70,13 @@ export interface BackupPlanBackupTargets {
   /**
   * ID of the instance for which specific volumes are backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#instance_id BackupPlan#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#instance_id BackupPlan#instance_id}
   */
   readonly instanceId: string;
   /**
-  * List of volume IDs to back up for the instance. If no list is specified, backups will be created for all disks.
+  * Set of volume IDs to back up for the instance. If no list is specified, backups will be created for all disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#volume_ids BackupPlan#volume_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#volume_ids BackupPlan#volume_ids}
   */
   readonly volumeIds?: string[];
 }
@@ -220,7 +220,7 @@ export interface BackupPlanFullRetention {
   /**
   * Maximum number of backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#max_full_backup BackupPlan#max_full_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#max_full_backup BackupPlan#max_full_backup}
   */
   readonly maxFullBackup: number;
 }
@@ -313,19 +313,19 @@ export interface BackupPlanGfsRetention {
   /**
   * Number of months to store backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#gfs_monthly BackupPlan#gfs_monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#gfs_monthly BackupPlan#gfs_monthly}
   */
   readonly gfsMonthly?: number;
   /**
   * Number of weeks to store backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#gfs_weekly BackupPlan#gfs_weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#gfs_weekly BackupPlan#gfs_weekly}
   */
   readonly gfsWeekly: number;
   /**
   * Number of years to store backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#gfs_yearly BackupPlan#gfs_yearly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#gfs_yearly BackupPlan#gfs_yearly}
   */
   readonly gfsYearly?: number;
 }
@@ -476,19 +476,19 @@ export interface BackupPlanSchedule {
   /**
   * List of days when to perform backups. If incremental_backups is enabled, only one day should be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#date BackupPlan#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#date BackupPlan#date}
   */
   readonly date?: string[];
   /**
   * Hour interval of backups, must be one of: 3, 12, 24. This field is incompatible with date/time fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#every_hours BackupPlan#every_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#every_hours BackupPlan#every_hours}
   */
   readonly everyHours?: number;
   /**
   * Time of backup in format hh:mm (for UTC timezone) or hh:mm+tz (for other timezones, e.g. 10:00+03 for MSK, 10:00-04 for ET)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#time BackupPlan#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#time BackupPlan#time}
   */
   readonly time?: string;
 }
@@ -640,7 +640,7 @@ export class BackupPlanScheduleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan vkcs_backup_plan}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan vkcs_backup_plan}
 */
 export class BackupPlan extends cdktf.TerraformResource {
 
@@ -656,7 +656,7 @@ export class BackupPlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BackupPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupPlan to import
-  * @param importFromId The id of the existing BackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -668,7 +668,7 @@ export class BackupPlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/backup_plan vkcs_backup_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/resources/backup_plan vkcs_backup_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -679,8 +679,8 @@ export class BackupPlan extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_backup_plan',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -707,7 +707,7 @@ export class BackupPlan extends cdktf.TerraformResource {
   // ==========
 
   // backup_targets - computed: false, optional: true, required: false
-  private _backupTargets = new BackupPlanBackupTargetsList(this, "backup_targets", false);
+  private _backupTargets = new BackupPlanBackupTargetsList(this, "backup_targets", true);
   public get backupTargets() {
     return this._backupTargets;
   }
@@ -775,7 +775,7 @@ export class BackupPlan extends cdktf.TerraformResource {
   // instance_ids - computed: false, optional: true, required: false
   private _instanceIds?: string[]; 
   public get instanceIds() {
-    return this.getListAttribute('instance_ids');
+    return cdktf.Fn.tolist(this.getListAttribute('instance_ids'));
   }
   public set instanceIds(value: string[]) {
     this._instanceIds = value;
@@ -886,7 +886,7 @@ export class BackupPlan extends cdktf.TerraformResource {
       backup_targets: {
         value: cdktf.listMapperHcl(backupPlanBackupTargetsToHclTerraform, false)(this._backupTargets.internalValue),
         isBlock: true,
-        type: "list",
+        type: "set",
         storageClassType: "BackupPlanBackupTargetsList",
       },
       full_retention: {
@@ -910,7 +910,7 @@ export class BackupPlan extends cdktf.TerraformResource {
       instance_ids: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._instanceIds),
         isBlock: false,
-        type: "list",
+        type: "set",
         storageClassType: "stringList",
       },
       name: {

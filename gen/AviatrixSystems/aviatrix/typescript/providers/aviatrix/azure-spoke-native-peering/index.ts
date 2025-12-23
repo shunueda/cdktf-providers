@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/azure_spoke_native_peering
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/azure_spoke_native_peering
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureSpokeNativePeeringConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/azure_spoke_native_peering#id AzureSpokeNativePeering#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/azure_spoke_native_peering#id AzureSpokeNativePeering#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface AzureSpokeNativePeeringConfig extends cdktf.TerraformMetaArgume
   /**
   * An Aviatrix account that corresponds to a subscription in Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/azure_spoke_native_peering#spoke_account_name AzureSpokeNativePeering#spoke_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/azure_spoke_native_peering#spoke_account_name AzureSpokeNativePeering#spoke_account_name}
   */
   readonly spokeAccountName: string;
   /**
   * Spoke VNet region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/azure_spoke_native_peering#spoke_region AzureSpokeNativePeering#spoke_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/azure_spoke_native_peering#spoke_region AzureSpokeNativePeering#spoke_region}
   */
   readonly spokeRegion: string;
   /**
   * Combination of the Spoke VNet name and resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/azure_spoke_native_peering#spoke_vpc_id AzureSpokeNativePeering#spoke_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/azure_spoke_native_peering#spoke_vpc_id AzureSpokeNativePeering#spoke_vpc_id}
   */
   readonly spokeVpcId: string;
   /**
   * Name of an azure transit gateway with transit firenet enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/azure_spoke_native_peering#transit_gateway_name AzureSpokeNativePeering#transit_gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/azure_spoke_native_peering#transit_gateway_name AzureSpokeNativePeering#transit_gateway_name}
   */
   readonly transitGatewayName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/azure_spoke_native_peering aviatrix_azure_spoke_native_peering}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/azure_spoke_native_peering aviatrix_azure_spoke_native_peering}
 */
 export class AzureSpokeNativePeering extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AzureSpokeNativePeering extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureSpokeNativePeering resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureSpokeNativePeering to import
-  * @param importFromId The id of the existing AzureSpokeNativePeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/azure_spoke_native_peering#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureSpokeNativePeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/azure_spoke_native_peering#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureSpokeNativePeering to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AzureSpokeNativePeering extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/azure_spoke_native_peering aviatrix_azure_spoke_native_peering} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/azure_spoke_native_peering aviatrix_azure_spoke_native_peering} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AzureSpokeNativePeering extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_azure_spoke_native_peering',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

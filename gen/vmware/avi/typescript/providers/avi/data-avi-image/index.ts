@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/image
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviImageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/image#id DataAviImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/image#id DataAviImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/image#name DataAviImage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/image#name DataAviImage#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/image#tenant_ref DataAviImage#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/image#tenant_ref DataAviImage#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/image#uuid DataAviImage#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/image#uuid DataAviImage#uuid}
   */
   readonly uuid?: string;
 }
@@ -267,11 +267,6 @@ export class DataAviImageControllerInfoBuildOutputReference extends cdktf.Comple
   // product_name - computed: true, optional: false, required: false
   public get productName() {
     return this.getStringAttribute('product_name');
-  }
-
-  // remote_image_ref - computed: true, optional: false, required: false
-  public get remoteImageRef() {
-    return this.getStringAttribute('remote_image_ref');
   }
 
   // tag - computed: true, optional: false, required: false
@@ -559,6 +554,374 @@ export class DataAviImageControllerInfoList extends cdktf.ComplexList {
   */
   public get(index: number): DataAviImageControllerInfoOutputReference {
     return new DataAviImageControllerInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviImageDryrunInfoBuild {
+}
+
+export function dataAviImageDryrunInfoBuildToTerraform(struct?: DataAviImageDryrunInfoBuild): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviImageDryrunInfoBuildToHclTerraform(struct?: DataAviImageDryrunInfoBuild): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviImageDryrunInfoBuildOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviImageDryrunInfoBuild | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviImageDryrunInfoBuild | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // build_no - computed: true, optional: false, required: false
+  public get buildNo() {
+    return this.getStringAttribute('build_no');
+  }
+
+  // date - computed: true, optional: false, required: false
+  public get date() {
+    return this.getStringAttribute('date');
+  }
+
+  // min_version - computed: true, optional: false, required: false
+  public get minVersion() {
+    return this.getStringAttribute('min_version');
+  }
+
+  // patch_version - computed: true, optional: false, required: false
+  public get patchVersion() {
+    return this.getStringAttribute('patch_version');
+  }
+
+  // product - computed: true, optional: false, required: false
+  public get product() {
+    return this.getStringAttribute('product');
+  }
+
+  // product_name - computed: true, optional: false, required: false
+  public get productName() {
+    return this.getStringAttribute('product_name');
+  }
+
+  // tag - computed: true, optional: false, required: false
+  public get tag() {
+    return this.getStringAttribute('tag');
+  }
+
+  // version - computed: true, optional: false, required: false
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+}
+
+export class DataAviImageDryrunInfoBuildList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviImageDryrunInfoBuildOutputReference {
+    return new DataAviImageDryrunInfoBuildOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviImageDryrunInfoPatchRebootListStruct {
+}
+
+export function dataAviImageDryrunInfoPatchRebootListStructToTerraform(struct?: DataAviImageDryrunInfoPatchRebootListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviImageDryrunInfoPatchRebootListStructToHclTerraform(struct?: DataAviImageDryrunInfoPatchRebootListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviImageDryrunInfoPatchRebootListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviImageDryrunInfoPatchRebootListStruct | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviImageDryrunInfoPatchRebootListStruct | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // patch_version - computed: true, optional: false, required: false
+  public get patchVersion() {
+    return this.getStringAttribute('patch_version');
+  }
+
+  // reboot - computed: true, optional: false, required: false
+  public get reboot() {
+    return this.getStringAttribute('reboot');
+  }
+}
+
+export class DataAviImageDryrunInfoPatchRebootListStructList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviImageDryrunInfoPatchRebootListStructOutputReference {
+    return new DataAviImageDryrunInfoPatchRebootListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviImageDryrunInfoPatch {
+}
+
+export function dataAviImageDryrunInfoPatchToTerraform(struct?: DataAviImageDryrunInfoPatch): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviImageDryrunInfoPatchToHclTerraform(struct?: DataAviImageDryrunInfoPatch): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviImageDryrunInfoPatchOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviImageDryrunInfoPatch | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviImageDryrunInfoPatch | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // patch_type - computed: true, optional: false, required: false
+  public get patchType() {
+    return this.getStringAttribute('patch_type');
+  }
+
+  // reboot - computed: true, optional: false, required: false
+  public get reboot() {
+    return this.getStringAttribute('reboot');
+  }
+
+  // reboot_list - computed: true, optional: false, required: false
+  private _rebootList = new DataAviImageDryrunInfoPatchRebootListStructList(this, "reboot_list", false);
+  public get rebootList() {
+    return this._rebootList;
+  }
+}
+
+export class DataAviImageDryrunInfoPatchList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviImageDryrunInfoPatchOutputReference {
+    return new DataAviImageDryrunInfoPatchOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAviImageDryrunInfo {
+}
+
+export function dataAviImageDryrunInfoToTerraform(struct?: DataAviImageDryrunInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAviImageDryrunInfoToHclTerraform(struct?: DataAviImageDryrunInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAviImageDryrunInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAviImageDryrunInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAviImageDryrunInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // build - computed: true, optional: false, required: false
+  private _build = new DataAviImageDryrunInfoBuildList(this, "build", true);
+  public get buildAttribute() {
+    return this._build;
+  }
+
+  // hash - computed: true, optional: false, required: false
+  public get hash() {
+    return this.getStringAttribute('hash');
+  }
+
+  // patch - computed: true, optional: false, required: false
+  private _patch = new DataAviImageDryrunInfoPatchList(this, "patch", true);
+  public get patch() {
+    return this._patch;
+  }
+
+  // path - computed: true, optional: false, required: false
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+}
+
+export class DataAviImageDryrunInfoList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAviImageDryrunInfoOutputReference {
+    return new DataAviImageDryrunInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataAviImageEventsNodesEventsIp {
@@ -1272,6 +1635,26 @@ export class DataAviImageMigrationsOutputReference extends cdktf.ComplexObject {
     return this.getStringAttribute('controller_min_total_disk');
   }
 
+  // dryrun_min_cores - computed: true, optional: false, required: false
+  public get dryrunMinCores() {
+    return this.getStringAttribute('dryrun_min_cores');
+  }
+
+  // dryrun_min_free_disk_size - computed: true, optional: false, required: false
+  public get dryrunMinFreeDiskSize() {
+    return this.getStringAttribute('dryrun_min_free_disk_size');
+  }
+
+  // dryrun_min_memory - computed: true, optional: false, required: false
+  public get dryrunMinMemory() {
+    return this.getStringAttribute('dryrun_min_memory');
+  }
+
+  // dryrun_total_memory_required - computed: true, optional: false, required: false
+  public get dryrunTotalMemoryRequired() {
+    return this.getStringAttribute('dryrun_total_memory_required');
+  }
+
   // max_active_versions - computed: true, optional: false, required: false
   public get maxActiveVersions() {
     return this.getStringAttribute('max_active_versions');
@@ -1430,11 +1813,6 @@ export class DataAviImageSeInfoBuildOutputReference extends cdktf.ComplexObject 
   // product_name - computed: true, optional: false, required: false
   public get productName() {
     return this.getStringAttribute('product_name');
-  }
-
-  // remote_image_ref - computed: true, optional: false, required: false
-  public get remoteImageRef() {
-    return this.getStringAttribute('remote_image_ref');
   }
 
   // tag - computed: true, optional: false, required: false
@@ -1726,7 +2104,7 @@ export class DataAviImageSeInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/image avi_image}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/image avi_image}
 */
 export class DataAviImage extends cdktf.TerraformDataSource {
 
@@ -1742,7 +2120,7 @@ export class DataAviImage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviImage to import
-  * @param importFromId The id of the existing DataAviImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1754,7 +2132,7 @@ export class DataAviImage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/image avi_image} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/image avi_image} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1765,8 +2143,8 @@ export class DataAviImage extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_image',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1806,6 +2184,12 @@ export class DataAviImage extends cdktf.TerraformDataSource {
   // controller_patch_ref - computed: true, optional: false, required: false
   public get controllerPatchRef() {
     return this.getStringAttribute('controller_patch_ref');
+  }
+
+  // dryrun_info - computed: true, optional: false, required: false
+  private _dryrunInfo = new DataAviImageDryrunInfoList(this, "dryrun_info", true);
+  public get dryrunInfo() {
+    return this._dryrunInfo;
   }
 
   // duration - computed: true, optional: false, required: false

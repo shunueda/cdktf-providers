@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs
+// https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface Auth0ProviderConfig {
   /**
   * Your Auth0 [management api access token](https://auth0.com/docs/security/tokens/access-tokens/management-api-access-tokens). It can also be sourced from the `AUTH0_API_TOKEN` environment variable. It can be used instead of `client_id` + `client_secret`. If both are specified, `api_token` will be used over `client_id` + `client_secret` fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#api_token Auth0Provider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#api_token Auth0Provider#api_token}
   */
   readonly apiToken?: string;
   /**
   * Your Auth0 audience when using a custom domain. It can also be sourced from the `AUTH0_AUDIENCE` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#audience Auth0Provider#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#audience Auth0Provider#audience}
   */
   readonly audience?: string;
   /**
   * While toggled on, the API token gets fetched from the keyring for the given domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#cli_login Auth0Provider#cli_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#cli_login Auth0Provider#cli_login}
   */
   readonly cliLogin?: boolean | cdktf.IResolvable;
   /**
   * The private key used to sign the client assertion JWT. It can also be sourced from the `AUTH0_CLIENT_ASSERTION_PRIVATE_KEY` environment variable. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#client_assertion_private_key Auth0Provider#client_assertion_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#client_assertion_private_key Auth0Provider#client_assertion_private_key}
   */
   readonly clientAssertionPrivateKey?: string;
   /**
   * The algorithm used to sign the client assertion JWT. It can also be sourced from the `AUTH0_CLIENT_ASSERTION_SIGNING_ALG` environment variable. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#client_assertion_signing_alg Auth0Provider#client_assertion_signing_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#client_assertion_signing_alg Auth0Provider#client_assertion_signing_alg}
   */
   readonly clientAssertionSigningAlg?: string;
   /**
   * Your Auth0 client ID. It can also be sourced from the `AUTH0_CLIENT_ID` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#client_id Auth0Provider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#client_id Auth0Provider#client_id}
   */
   readonly clientId?: string;
   /**
   * Your Auth0 client secret. It can also be sourced from the `AUTH0_CLIENT_SECRET` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#client_secret Auth0Provider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#client_secret Auth0Provider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * When specified, this header is added to requests targeting a set of pre-defined whitelisted URLs Global setting overrides all resource specific `custom_domain_header` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#custom_domain_header Auth0Provider#custom_domain_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#custom_domain_header Auth0Provider#custom_domain_header}
   */
   readonly customDomainHeader?: string;
   /**
   * Enables HTTP request and response logging when TF_LOG=DEBUG is set. It can also be sourced from the `AUTH0_DEBUG` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#debug Auth0Provider#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#debug Auth0Provider#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Your Auth0 domain name. It can also be sourced from the `AUTH0_DOMAIN` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#domain Auth0Provider#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#domain Auth0Provider#domain}
   */
   readonly domain?: string;
   /**
   * Indicates whether credentials will be dynamically passed to the provider from other terraform resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#dynamic_credentials Auth0Provider#dynamic_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#dynamic_credentials Auth0Provider#dynamic_credentials}
   */
   readonly dynamicCredentials?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#alias Auth0Provider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#alias Auth0Provider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs auth0}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs auth0}
 */
 export class Auth0Provider extends cdktf.TerraformProvider {
 
@@ -98,7 +98,7 @@ export class Auth0Provider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a Auth0Provider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Auth0Provider to import
-  * @param importFromId The id of the existing Auth0Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Auth0Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Auth0Provider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class Auth0Provider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.36.0/docs auth0} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.37.0/docs auth0} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class Auth0Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'auth0',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.36.0',
-        providerVersionConstraint: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       terraformProviderSource: 'auth0/auth0'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/device_interface_config
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/device_interface_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DeviceInterfaceConfigConfig extends cdktf.TerraformMetaArgument
   /**
   * Name of device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/device_interface_config#device_name DeviceInterfaceConfig#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/device_interface_config#device_name DeviceInterfaceConfig#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/device_interface_config#id DeviceInterfaceConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/device_interface_config#id DeviceInterfaceConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DeviceInterfaceConfigConfig extends cdktf.TerraformMetaArgument
   /**
   * WAN primary interface of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/device_interface_config#wan_primary_interface DeviceInterfaceConfig#wan_primary_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/device_interface_config#wan_primary_interface DeviceInterfaceConfig#wan_primary_interface}
   */
   readonly wanPrimaryInterface: string;
   /**
   * WAN primary interface public IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/device_interface_config#wan_primary_interface_public_ip DeviceInterfaceConfig#wan_primary_interface_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/device_interface_config#wan_primary_interface_public_ip DeviceInterfaceConfig#wan_primary_interface_public_ip}
   */
   readonly wanPrimaryInterfacePublicIp: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/device_interface_config aviatrix_device_interface_config}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/device_interface_config aviatrix_device_interface_config}
 */
 export class DeviceInterfaceConfig extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class DeviceInterfaceConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeviceInterfaceConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeviceInterfaceConfig to import
-  * @param importFromId The id of the existing DeviceInterfaceConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/device_interface_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeviceInterfaceConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/device_interface_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeviceInterfaceConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DeviceInterfaceConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/device_interface_config aviatrix_device_interface_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/device_interface_config aviatrix_device_interface_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DeviceInterfaceConfig extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_device_interface_config',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

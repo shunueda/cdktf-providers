@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/networksecuritypolicy
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/networksecuritypolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviNetworksecuritypolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/networksecuritypolicy#id DataAviNetworksecuritypolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/networksecuritypolicy#id DataAviNetworksecuritypolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/networksecuritypolicy#name DataAviNetworksecuritypolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/networksecuritypolicy#name DataAviNetworksecuritypolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/networksecuritypolicy#tenant_ref DataAviNetworksecuritypolicy#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/networksecuritypolicy#tenant_ref DataAviNetworksecuritypolicy#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/networksecuritypolicy#uuid DataAviNetworksecuritypolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/networksecuritypolicy#uuid DataAviNetworksecuritypolicy#uuid}
   */
   readonly uuid?: string;
 }
@@ -1559,7 +1559,7 @@ export class DataAviNetworksecuritypolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/networksecuritypolicy avi_networksecuritypolicy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/networksecuritypolicy avi_networksecuritypolicy}
 */
 export class DataAviNetworksecuritypolicy extends cdktf.TerraformDataSource {
 
@@ -1575,7 +1575,7 @@ export class DataAviNetworksecuritypolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviNetworksecuritypolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviNetworksecuritypolicy to import
-  * @param importFromId The id of the existing DataAviNetworksecuritypolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/networksecuritypolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviNetworksecuritypolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/networksecuritypolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviNetworksecuritypolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1587,7 +1587,7 @@ export class DataAviNetworksecuritypolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/networksecuritypolicy avi_networksecuritypolicy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/networksecuritypolicy avi_networksecuritypolicy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1598,8 +1598,8 @@ export class DataAviNetworksecuritypolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_networksecuritypolicy',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

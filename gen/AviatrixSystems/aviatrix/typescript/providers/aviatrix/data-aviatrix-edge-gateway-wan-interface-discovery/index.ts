@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/edge_gateway_wan_interface_discovery
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/edge_gateway_wan_interface_discovery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAviatrixEdgeGatewayWanInterfaceDiscoveryConfig extends cdkt
   /**
   * Edge gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/edge_gateway_wan_interface_discovery#gw_name DataAviatrixEdgeGatewayWanInterfaceDiscovery#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/edge_gateway_wan_interface_discovery#gw_name DataAviatrixEdgeGatewayWanInterfaceDiscovery#gw_name}
   */
   readonly gwName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/edge_gateway_wan_interface_discovery#id DataAviatrixEdgeGatewayWanInterfaceDiscovery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/edge_gateway_wan_interface_discovery#id DataAviatrixEdgeGatewayWanInterfaceDiscovery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataAviatrixEdgeGatewayWanInterfaceDiscoveryConfig extends cdkt
   /**
   * Name of the WAN interface to be discovered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/edge_gateway_wan_interface_discovery#wan_interface_name DataAviatrixEdgeGatewayWanInterfaceDiscovery#wan_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/edge_gateway_wan_interface_discovery#wan_interface_name DataAviatrixEdgeGatewayWanInterfaceDiscovery#wan_interface_name}
   */
   readonly wanInterfaceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/edge_gateway_wan_interface_discovery aviatrix_edge_gateway_wan_interface_discovery}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/edge_gateway_wan_interface_discovery aviatrix_edge_gateway_wan_interface_discovery}
 */
 export class DataAviatrixEdgeGatewayWanInterfaceDiscovery extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataAviatrixEdgeGatewayWanInterfaceDiscovery extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataAviatrixEdgeGatewayWanInterfaceDiscovery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviatrixEdgeGatewayWanInterfaceDiscovery to import
-  * @param importFromId The id of the existing DataAviatrixEdgeGatewayWanInterfaceDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/edge_gateway_wan_interface_discovery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviatrixEdgeGatewayWanInterfaceDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/edge_gateway_wan_interface_discovery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviatrixEdgeGatewayWanInterfaceDiscovery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataAviatrixEdgeGatewayWanInterfaceDiscovery extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/data-sources/edge_gateway_wan_interface_discovery aviatrix_edge_gateway_wan_interface_discovery} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/data-sources/edge_gateway_wan_interface_discovery aviatrix_edge_gateway_wan_interface_discovery} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataAviatrixEdgeGatewayWanInterfaceDiscovery extends cdktf.Terrafor
       terraformResourceType: 'aviatrix_edge_gateway_wan_interface_discovery',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesconfig
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviAlbservicesconfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesconfig#id DataAviAlbservicesconfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesconfig#id DataAviAlbservicesconfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesconfig#name DataAviAlbservicesconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesconfig#name DataAviAlbservicesconfig#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesconfig#tenant_ref DataAviAlbservicesconfig#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesconfig#tenant_ref DataAviAlbservicesconfig#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesconfig#uuid DataAviAlbservicesconfig#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesconfig#uuid DataAviAlbservicesconfig#uuid}
   */
   readonly uuid?: string;
 }
@@ -765,6 +765,16 @@ export class DataAviAlbservicesconfigIpReputationConfigOutputReference extends c
     }
   }
 
+  // enable_ipv4_reputation - computed: true, optional: false, required: false
+  public get enableIpv4Reputation() {
+    return this.getStringAttribute('enable_ipv4_reputation');
+  }
+
+  // enable_ipv6_reputation - computed: true, optional: false, required: false
+  public get enableIpv6Reputation() {
+    return this.getStringAttribute('enable_ipv6_reputation');
+  }
+
   // ip_reputation_file_object_expiry_duration - computed: true, optional: false, required: false
   public get ipReputationFileObjectExpiryDuration() {
     return this.getStringAttribute('ip_reputation_file_object_expiry_duration');
@@ -845,14 +855,9 @@ export class DataAviAlbservicesconfigSaasLicensingConfigOutputReference extends 
     }
   }
 
-  // max_service_units - computed: true, optional: false, required: false
-  public get maxServiceUnits() {
-    return this.getStringAttribute('max_service_units');
-  }
-
-  // reserve_service_units - computed: true, optional: false, required: false
-  public get reserveServiceUnits() {
-    return this.getStringAttribute('reserve_service_units');
+  // enable_notional_reserve - computed: true, optional: false, required: false
+  public get enableNotionalReserve() {
+    return this.getStringAttribute('enable_notional_reserve');
   }
 }
 
@@ -1382,7 +1387,7 @@ export class DataAviAlbservicesconfigWafConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesconfig avi_albservicesconfig}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesconfig avi_albservicesconfig}
 */
 export class DataAviAlbservicesconfig extends cdktf.TerraformDataSource {
 
@@ -1398,7 +1403,7 @@ export class DataAviAlbservicesconfig extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviAlbservicesconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviAlbservicesconfig to import
-  * @param importFromId The id of the existing DataAviAlbservicesconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviAlbservicesconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviAlbservicesconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1410,7 +1415,7 @@ export class DataAviAlbservicesconfig extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/albservicesconfig avi_albservicesconfig} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/data-sources/albservicesconfig avi_albservicesconfig} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1421,8 +1426,8 @@ export class DataAviAlbservicesconfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_albservicesconfig',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

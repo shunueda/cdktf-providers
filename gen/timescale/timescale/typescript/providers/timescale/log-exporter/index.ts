@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter
+// https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface LogExporterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configuration for AWS CloudWatch exporter. Configure authentication using either `role_arn` or `access_key` with `secret_key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter#cloudwatch LogExporter#cloudwatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter#cloudwatch LogExporter#cloudwatch}
   */
   readonly cloudwatch?: LogExporterCloudwatch;
   /**
   * Log exporter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter#name LogExporter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter#name LogExporter#name}
   */
   readonly name: string;
   /**
   * Region where the exporter will be deployed. Only services running in the same region can be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter#region LogExporter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter#region LogExporter#region}
   */
   readonly region: string;
 }
@@ -30,37 +30,37 @@ export interface LogExporterCloudwatch {
   /**
   * AWS access key ID. If provided, `secret_key` must also be set, and `role_arn` must not be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter#access_key LogExporter#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter#access_key LogExporter#access_key}
   */
   readonly accessKey?: string;
   /**
   * Name of the CloudWatch Log Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter#log_group_name LogExporter#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter#log_group_name LogExporter#log_group_name}
   */
   readonly logGroupName: string;
   /**
   * Name of the CloudWatch Log Stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter#log_stream_name LogExporter#log_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter#log_stream_name LogExporter#log_stream_name}
   */
   readonly logStreamName: string;
   /**
   * AWS region for CloudWatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter#region LogExporter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter#region LogExporter#region}
   */
   readonly region: string;
   /**
   * ARN of the IAM role to assume for CloudWatch access. If provided, `access_key` and `secret_key` must not be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter#role_arn LogExporter#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter#role_arn LogExporter#role_arn}
   */
   readonly roleArn?: string;
   /**
   * AWS secret access key. If provided, `access_key` must also be set, and `role_arn` must not be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter#secret_key LogExporter#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter#secret_key LogExporter#secret_key}
   */
   readonly secretKey?: string;
 }
@@ -290,7 +290,7 @@ export class LogExporterCloudwatchOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter timescale_log_exporter}
+* Represents a {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter timescale_log_exporter}
 */
 export class LogExporter extends cdktf.TerraformResource {
 
@@ -306,7 +306,7 @@ export class LogExporter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogExporter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogExporter to import
-  * @param importFromId The id of the existing LogExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogExporter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -318,7 +318,7 @@ export class LogExporter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timescale/timescale/2.6.0/docs/resources/log_exporter timescale_log_exporter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timescale/timescale/2.7.0/docs/resources/log_exporter timescale_log_exporter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -329,8 +329,8 @@ export class LogExporter extends cdktf.TerraformResource {
       terraformResourceType: 'timescale_log_exporter',
       terraformGeneratorMetadata: {
         providerName: 'timescale',
-        providerVersion: '2.6.0',
-        providerVersionConstraint: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

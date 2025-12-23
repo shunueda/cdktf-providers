@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup
+// https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface PoolgroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#cloud_config_cksum Poolgroup#cloud_config_cksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#cloud_config_cksum Poolgroup#cloud_config_cksum}
   */
   readonly cloudConfigCksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#cloud_ref Poolgroup#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#cloud_ref Poolgroup#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#created_by Poolgroup#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#created_by Poolgroup#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#deactivate_primary_pool_on_down Poolgroup#deactivate_primary_pool_on_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#deactivate_primary_pool_on_down Poolgroup#deactivate_primary_pool_on_down}
   */
   readonly deactivatePrimaryPoolOnDown?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#deployment_policy_ref Poolgroup#deployment_policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#deployment_policy_ref Poolgroup#deployment_policy_ref}
   */
   readonly deploymentPolicyRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#description Poolgroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#description Poolgroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#id Poolgroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#id Poolgroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#implicit_priority_labels Poolgroup#implicit_priority_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#implicit_priority_labels Poolgroup#implicit_priority_labels}
   */
   readonly implicitPriorityLabels?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#min_servers Poolgroup#min_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#min_servers Poolgroup#min_servers}
   */
   readonly minServers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#name Poolgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#name Poolgroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#priority_labels_ref Poolgroup#priority_labels_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#priority_labels_ref Poolgroup#priority_labels_ref}
   */
   readonly priorityLabelsRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#service_metadata Poolgroup#service_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#service_metadata Poolgroup#service_metadata}
   */
   readonly serviceMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#tenant_ref Poolgroup#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#tenant_ref Poolgroup#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#uuid Poolgroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#uuid Poolgroup#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#configpb_attributes Poolgroup#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#configpb_attributes Poolgroup#configpb_attributes}
   */
   readonly configpbAttributes?: PoolgroupConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * fail_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#fail_action Poolgroup#fail_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#fail_action Poolgroup#fail_action}
   */
   readonly failAction?: PoolgroupFailAction[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#markers Poolgroup#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#markers Poolgroup#markers}
   */
   readonly markers?: PoolgroupMarkers[] | cdktf.IResolvable;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#members Poolgroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#members Poolgroup#members}
   */
   readonly members?: PoolgroupMembers[] | cdktf.IResolvable;
 }
 export interface PoolgroupConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#version Poolgroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#version Poolgroup#version}
   */
   readonly version?: string;
 }
@@ -209,15 +209,15 @@ export class PoolgroupConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface PoolgroupFailActionLocalRspFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#content_type Poolgroup#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#content_type Poolgroup#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#file_content Poolgroup#file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#file_content Poolgroup#file_content}
   */
   readonly fileContent: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#file_length Poolgroup#file_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#file_length Poolgroup#file_length}
   */
   readonly fileLength?: string;
 }
@@ -385,13 +385,13 @@ export class PoolgroupFailActionLocalRspFileList extends cdktf.ComplexList {
 }
 export interface PoolgroupFailActionLocalRsp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#status_code Poolgroup#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#status_code Poolgroup#status_code}
   */
   readonly statusCode?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#file Poolgroup#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#file Poolgroup#file}
   */
   readonly file?: PoolgroupFailActionLocalRspFile[] | cdktf.IResolvable;
 }
@@ -536,23 +536,23 @@ export class PoolgroupFailActionLocalRspList extends cdktf.ComplexList {
 }
 export interface PoolgroupFailActionRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#host Poolgroup#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#host Poolgroup#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#path Poolgroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#path Poolgroup#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#protocol Poolgroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#protocol Poolgroup#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#query Poolgroup#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#query Poolgroup#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#status_code Poolgroup#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#status_code Poolgroup#status_code}
   */
   readonly statusCode?: string;
 }
@@ -781,19 +781,19 @@ export class PoolgroupFailActionRedirectList extends cdktf.ComplexList {
 }
 export interface PoolgroupFailAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#type Poolgroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#type Poolgroup#type}
   */
   readonly type: string;
   /**
   * local_rsp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#local_rsp Poolgroup#local_rsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#local_rsp Poolgroup#local_rsp}
   */
   readonly localRsp?: PoolgroupFailActionLocalRsp[] | cdktf.IResolvable;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#redirect Poolgroup#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#redirect Poolgroup#redirect}
   */
   readonly redirect?: PoolgroupFailActionRedirect[] | cdktf.IResolvable;
 }
@@ -964,11 +964,11 @@ export class PoolgroupFailActionList extends cdktf.ComplexList {
 }
 export interface PoolgroupMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#key Poolgroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#key Poolgroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#values Poolgroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#values Poolgroup#values}
   */
   readonly values?: string[];
 }
@@ -1110,19 +1110,19 @@ export class PoolgroupMarkersList extends cdktf.ComplexList {
 }
 export interface PoolgroupMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#deployment_state Poolgroup#deployment_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#deployment_state Poolgroup#deployment_state}
   */
   readonly deploymentState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#pool_ref Poolgroup#pool_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#pool_ref Poolgroup#pool_ref}
   */
   readonly poolRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#priority_label Poolgroup#priority_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#priority_label Poolgroup#priority_label}
   */
   readonly priorityLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#ratio Poolgroup#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#ratio Poolgroup#ratio}
   */
   readonly ratio?: string;
 }
@@ -1322,7 +1322,7 @@ export class PoolgroupMembersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup avi_poolgroup}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup avi_poolgroup}
 */
 export class Poolgroup extends cdktf.TerraformResource {
 
@@ -1338,7 +1338,7 @@ export class Poolgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Poolgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Poolgroup to import
-  * @param importFromId The id of the existing Poolgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Poolgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Poolgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1350,7 +1350,7 @@ export class Poolgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/poolgroup avi_poolgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.2.1/docs/resources/poolgroup avi_poolgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1361,8 +1361,8 @@ export class Poolgroup extends cdktf.TerraformResource {
       terraformResourceType: 'avi_poolgroup',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.6',
-        providerVersionConstraint: '30.2.6'
+        providerVersion: '31.2.1',
+        providerVersionConstraint: '31.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

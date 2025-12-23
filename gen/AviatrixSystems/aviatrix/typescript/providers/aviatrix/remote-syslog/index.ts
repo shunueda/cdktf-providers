@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RemoteSyslogConfig extends cdktf.TerraformMetaArguments {
   /**
   * CA certificate file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog#ca_certificate_file RemoteSyslog#ca_certificate_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog#ca_certificate_file RemoteSyslog#ca_certificate_file}
   */
   readonly caCertificateFile?: string;
   /**
   * List of excluded gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog#excluded_gateways RemoteSyslog#excluded_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog#excluded_gateways RemoteSyslog#excluded_gateways}
   */
   readonly excludedGateways?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog#id RemoteSyslog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog#id RemoteSyslog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface RemoteSyslogConfig extends cdktf.TerraformMetaArguments {
   /**
   * A total of 10 profiles from index 0 to 9 are supported for remote syslog, while index 9 is reserved for CoPilot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog#index RemoteSyslog#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog#index RemoteSyslog#index}
   */
   readonly index?: number;
   /**
   * Profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog#name RemoteSyslog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog#name RemoteSyslog#name}
   */
   readonly name?: string;
   /**
   * Listening port of the remote syslog server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog#port RemoteSyslog#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog#port RemoteSyslog#port}
   */
   readonly port: number;
   /**
   * Private key of the controller that pairs with the public certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog#private_key_file RemoteSyslog#private_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog#private_key_file RemoteSyslog#private_key_file}
   */
   readonly privateKeyFile?: string;
   /**
   * TCP or UDP (TCP by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog#protocol RemoteSyslog#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog#protocol RemoteSyslog#protocol}
   */
   readonly protocol?: string;
   /**
   * Public certificate of the controller signed by the same CA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog#public_certificate_file RemoteSyslog#public_certificate_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog#public_certificate_file RemoteSyslog#public_certificate_file}
   */
   readonly publicCertificateFile?: string;
   /**
   * FQDN or IP address of the remote syslog server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog#server RemoteSyslog#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog#server RemoteSyslog#server}
   */
   readonly server: string;
   /**
   * Useful when forwarding to 3rd party servers like Datadog or Sumo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog#template RemoteSyslog#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog#template RemoteSyslog#template}
   */
   readonly template?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog aviatrix_remote_syslog}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog aviatrix_remote_syslog}
 */
 export class RemoteSyslog extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class RemoteSyslog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RemoteSyslog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RemoteSyslog to import
-  * @param importFromId The id of the existing RemoteSyslog that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RemoteSyslog that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RemoteSyslog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class RemoteSyslog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/remote_syslog aviatrix_remote_syslog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/remote_syslog aviatrix_remote_syslog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class RemoteSyslog extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_remote_syslog',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DataVkcsNetworkingFloatingipConfig extends cdktf.TerraformMetaA
   /**
   * The IP address of the floating IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip#address DataVkcsNetworkingFloatingip#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip#address DataVkcsNetworkingFloatingip#address}
   */
   readonly address?: string;
   /**
   * Human-readable description of the floating IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip#description DataVkcsNetworkingFloatingip#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip#description DataVkcsNetworkingFloatingip#description}
   */
   readonly description?: string;
   /**
   * The specific IP address of the internal port which should be associated with the floating IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip#fixed_ip DataVkcsNetworkingFloatingip#fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip#fixed_ip DataVkcsNetworkingFloatingip#fixed_ip}
   */
   readonly fixedIp?: string;
   /**
   * The name of the pool from which the floating IP belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip#pool DataVkcsNetworkingFloatingip#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip#pool DataVkcsNetworkingFloatingip#pool}
   */
   readonly pool?: string;
   /**
   * The ID of the port the floating IP is attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip#port_id DataVkcsNetworkingFloatingip#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip#port_id DataVkcsNetworkingFloatingip#port_id}
   */
   readonly portId?: string;
   /**
   * The region in which to obtain the Network client. A Network client is needed to retrieve floating IP ids. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip#region DataVkcsNetworkingFloatingip#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip#region DataVkcsNetworkingFloatingip#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip#sdn DataVkcsNetworkingFloatingip#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip#sdn DataVkcsNetworkingFloatingip#sdn}
   */
   readonly sdn?: string;
   /**
   * Status of the floating IP (ACTIVE/DOWN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip#status DataVkcsNetworkingFloatingip#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip#status DataVkcsNetworkingFloatingip#status}
   */
   readonly status?: string;
   /**
   * The owner of the floating IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip#tenant_id DataVkcsNetworkingFloatingip#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip#tenant_id DataVkcsNetworkingFloatingip#tenant_id}
   */
   readonly tenantId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip vkcs_networking_floatingip}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip vkcs_networking_floatingip}
 */
 export class DataVkcsNetworkingFloatingip extends cdktf.TerraformDataSource {
 
@@ -80,7 +80,7 @@ export class DataVkcsNetworkingFloatingip extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsNetworkingFloatingip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsNetworkingFloatingip to import
-  * @param importFromId The id of the existing DataVkcsNetworkingFloatingip that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsNetworkingFloatingip that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsNetworkingFloatingip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class DataVkcsNetworkingFloatingip extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_floatingip vkcs_networking_floatingip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.2/docs/data-sources/networking_floatingip vkcs_networking_floatingip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class DataVkcsNetworkingFloatingip extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_networking_floatingip',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.1',
-        providerVersionConstraint: '0.13.1'
+        providerVersion: '0.13.2',
+        providerVersionConstraint: '0.13.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

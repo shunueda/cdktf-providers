@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,121 @@ export interface RabbitmqConfigurationConfig extends cdktf.TerraformMetaArgument
   /**
   * Set the maximum permissible number of channels per connection. 0 means no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#channel_max RabbitmqConfiguration#channel_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#channel_max RabbitmqConfiguration#channel_max}
   */
   readonly channelMax?: number;
   /**
   * Set how the cluster should handle network partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#cluster_partition_handling RabbitmqConfiguration#cluster_partition_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#cluster_partition_handling RabbitmqConfiguration#cluster_partition_handling}
   */
   readonly clusterPartitionHandling?: string;
   /**
   * Set the maximum permissible number of connections, -1 means infinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#connection_max RabbitmqConfiguration#connection_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#connection_max RabbitmqConfiguration#connection_max}
   */
   readonly connectionMax?: number;
   /**
   * A consumer that has received a message and does not acknowledge that message within the timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#consumer_timeout RabbitmqConfiguration#consumer_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#consumer_timeout RabbitmqConfiguration#consumer_timeout}
   */
   readonly consumerTimeout?: number;
   /**
   * Set the server AMQP 0-9-1 heartbeat timeout in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#heartbeat RabbitmqConfiguration#heartbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#heartbeat RabbitmqConfiguration#heartbeat}
   */
   readonly heartbeat?: number;
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#instance_id RabbitmqConfiguration#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#instance_id RabbitmqConfiguration#instance_id}
   */
   readonly instanceId: number;
   /**
   * Log level for the logger used for log integrations and the CloudAMQP Console log view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#log_exchange_level RabbitmqConfiguration#log_exchange_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#log_exchange_level RabbitmqConfiguration#log_exchange_level}
   */
   readonly logExchangeLevel?: string;
   /**
   * The largest allowed message payload size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#max_message_size RabbitmqConfiguration#max_message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#max_message_size RabbitmqConfiguration#max_message_size}
   */
   readonly maxMessageSize?: number;
   /**
+  * Sets a timestamp header on incoming messages. enabled_with_overwrite will overwrite any existing timestamps in the header.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#message_interceptors_timestamp_overwrite RabbitmqConfiguration#message_interceptors_timestamp_overwrite}
+  */
+  readonly messageInterceptorsTimestampOverwrite?: string;
+  /**
+  * The exchange option determines which exchange messages from MQTT clients are published to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#mqtt_exchange RabbitmqConfiguration#mqtt_exchange}
+  */
+  readonly mqttExchange?: string;
+  /**
+  * Enable SSL certificate-based authentication for MQTT connections.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#mqtt_ssl_cert_login RabbitmqConfiguration#mqtt_ssl_cert_login}
+  */
+  readonly mqttSslCertLogin?: boolean | cdktf.IResolvable;
+  /**
+  * Virtual host for MQTT connections.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#mqtt_vhost RabbitmqConfiguration#mqtt_vhost}
+  */
+  readonly mqttVhost?: string;
+  /**
   * Size in bytes below which to embed messages in the queue index. 0 will turn off payload embedding in the queue index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#queue_index_embed_msgs_below RabbitmqConfiguration#queue_index_embed_msgs_below}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#queue_index_embed_msgs_below RabbitmqConfiguration#queue_index_embed_msgs_below}
   */
   readonly queueIndexEmbedMsgsBelow?: number;
   /**
   * Configurable sleep time in seconds between retries for RabbitMQ configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#sleep RabbitmqConfiguration#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#sleep RabbitmqConfiguration#sleep}
   */
   readonly sleep?: number;
   /**
+  * Determines which certificate field to use as the username for TLS-based authentication.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#ssl_cert_login_from RabbitmqConfiguration#ssl_cert_login_from}
+  */
+  readonly sslCertLoginFrom?: string;
+  /**
+  * When set to true, TLS connections will fail if the client does not provide a certificate.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#ssl_options_fail_if_no_peer_cert RabbitmqConfiguration#ssl_options_fail_if_no_peer_cert}
+  */
+  readonly sslOptionsFailIfNoPeerCert?: boolean | cdktf.IResolvable;
+  /**
+  * Controls peer certificate verification for TLS connections.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#ssl_options_verify RabbitmqConfiguration#ssl_options_verify}
+  */
+  readonly sslOptionsVerify?: string;
+  /**
   * Configurable timeout time in seconds for RabbitMQ configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#timeout RabbitmqConfiguration#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#timeout RabbitmqConfiguration#timeout}
   */
   readonly timeout?: number;
   /**
   * When the server will enter memory based flow-control as relative to the maximum available memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#vm_memory_high_watermark RabbitmqConfiguration#vm_memory_high_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#vm_memory_high_watermark RabbitmqConfiguration#vm_memory_high_watermark}
   */
   readonly vmMemoryHighWatermark?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration cloudamqp_rabbitmq_configuration}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration cloudamqp_rabbitmq_configuration}
 */
 export class RabbitmqConfiguration extends cdktf.TerraformResource {
 
@@ -98,7 +140,7 @@ export class RabbitmqConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RabbitmqConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RabbitmqConfiguration to import
-  * @param importFromId The id of the existing RabbitmqConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RabbitmqConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RabbitmqConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +152,7 @@ export class RabbitmqConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/rabbitmq_configuration cloudamqp_rabbitmq_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.41.0/docs/resources/rabbitmq_configuration cloudamqp_rabbitmq_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +163,8 @@ export class RabbitmqConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_rabbitmq_configuration',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -140,8 +182,15 @@ export class RabbitmqConfiguration extends cdktf.TerraformResource {
     this._instanceId = config.instanceId;
     this._logExchangeLevel = config.logExchangeLevel;
     this._maxMessageSize = config.maxMessageSize;
+    this._messageInterceptorsTimestampOverwrite = config.messageInterceptorsTimestampOverwrite;
+    this._mqttExchange = config.mqttExchange;
+    this._mqttSslCertLogin = config.mqttSslCertLogin;
+    this._mqttVhost = config.mqttVhost;
     this._queueIndexEmbedMsgsBelow = config.queueIndexEmbedMsgsBelow;
     this._sleep = config.sleep;
+    this._sslCertLoginFrom = config.sslCertLoginFrom;
+    this._sslOptionsFailIfNoPeerCert = config.sslOptionsFailIfNoPeerCert;
+    this._sslOptionsVerify = config.sslOptionsVerify;
     this._timeout = config.timeout;
     this._vmMemoryHighWatermark = config.vmMemoryHighWatermark;
   }
@@ -280,6 +329,70 @@ export class RabbitmqConfiguration extends cdktf.TerraformResource {
     return this._maxMessageSize;
   }
 
+  // message_interceptors_timestamp_overwrite - computed: true, optional: true, required: false
+  private _messageInterceptorsTimestampOverwrite?: string; 
+  public get messageInterceptorsTimestampOverwrite() {
+    return this.getStringAttribute('message_interceptors_timestamp_overwrite');
+  }
+  public set messageInterceptorsTimestampOverwrite(value: string) {
+    this._messageInterceptorsTimestampOverwrite = value;
+  }
+  public resetMessageInterceptorsTimestampOverwrite() {
+    this._messageInterceptorsTimestampOverwrite = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messageInterceptorsTimestampOverwriteInput() {
+    return this._messageInterceptorsTimestampOverwrite;
+  }
+
+  // mqtt_exchange - computed: true, optional: true, required: false
+  private _mqttExchange?: string; 
+  public get mqttExchange() {
+    return this.getStringAttribute('mqtt_exchange');
+  }
+  public set mqttExchange(value: string) {
+    this._mqttExchange = value;
+  }
+  public resetMqttExchange() {
+    this._mqttExchange = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mqttExchangeInput() {
+    return this._mqttExchange;
+  }
+
+  // mqtt_ssl_cert_login - computed: true, optional: true, required: false
+  private _mqttSslCertLogin?: boolean | cdktf.IResolvable; 
+  public get mqttSslCertLogin() {
+    return this.getBooleanAttribute('mqtt_ssl_cert_login');
+  }
+  public set mqttSslCertLogin(value: boolean | cdktf.IResolvable) {
+    this._mqttSslCertLogin = value;
+  }
+  public resetMqttSslCertLogin() {
+    this._mqttSslCertLogin = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mqttSslCertLoginInput() {
+    return this._mqttSslCertLogin;
+  }
+
+  // mqtt_vhost - computed: true, optional: true, required: false
+  private _mqttVhost?: string; 
+  public get mqttVhost() {
+    return this.getStringAttribute('mqtt_vhost');
+  }
+  public set mqttVhost(value: string) {
+    this._mqttVhost = value;
+  }
+  public resetMqttVhost() {
+    this._mqttVhost = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mqttVhostInput() {
+    return this._mqttVhost;
+  }
+
   // queue_index_embed_msgs_below - computed: true, optional: true, required: false
   private _queueIndexEmbedMsgsBelow?: number; 
   public get queueIndexEmbedMsgsBelow() {
@@ -310,6 +423,54 @@ export class RabbitmqConfiguration extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get sleepInput() {
     return this._sleep;
+  }
+
+  // ssl_cert_login_from - computed: true, optional: true, required: false
+  private _sslCertLoginFrom?: string; 
+  public get sslCertLoginFrom() {
+    return this.getStringAttribute('ssl_cert_login_from');
+  }
+  public set sslCertLoginFrom(value: string) {
+    this._sslCertLoginFrom = value;
+  }
+  public resetSslCertLoginFrom() {
+    this._sslCertLoginFrom = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslCertLoginFromInput() {
+    return this._sslCertLoginFrom;
+  }
+
+  // ssl_options_fail_if_no_peer_cert - computed: true, optional: true, required: false
+  private _sslOptionsFailIfNoPeerCert?: boolean | cdktf.IResolvable; 
+  public get sslOptionsFailIfNoPeerCert() {
+    return this.getBooleanAttribute('ssl_options_fail_if_no_peer_cert');
+  }
+  public set sslOptionsFailIfNoPeerCert(value: boolean | cdktf.IResolvable) {
+    this._sslOptionsFailIfNoPeerCert = value;
+  }
+  public resetSslOptionsFailIfNoPeerCert() {
+    this._sslOptionsFailIfNoPeerCert = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslOptionsFailIfNoPeerCertInput() {
+    return this._sslOptionsFailIfNoPeerCert;
+  }
+
+  // ssl_options_verify - computed: true, optional: true, required: false
+  private _sslOptionsVerify?: string; 
+  public get sslOptionsVerify() {
+    return this.getStringAttribute('ssl_options_verify');
+  }
+  public set sslOptionsVerify(value: string) {
+    this._sslOptionsVerify = value;
+  }
+  public resetSslOptionsVerify() {
+    this._sslOptionsVerify = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslOptionsVerifyInput() {
+    return this._sslOptionsVerify;
   }
 
   // timeout - computed: true, optional: true, required: false
@@ -358,8 +519,15 @@ export class RabbitmqConfiguration extends cdktf.TerraformResource {
       instance_id: cdktf.numberToTerraform(this._instanceId),
       log_exchange_level: cdktf.stringToTerraform(this._logExchangeLevel),
       max_message_size: cdktf.numberToTerraform(this._maxMessageSize),
+      message_interceptors_timestamp_overwrite: cdktf.stringToTerraform(this._messageInterceptorsTimestampOverwrite),
+      mqtt_exchange: cdktf.stringToTerraform(this._mqttExchange),
+      mqtt_ssl_cert_login: cdktf.booleanToTerraform(this._mqttSslCertLogin),
+      mqtt_vhost: cdktf.stringToTerraform(this._mqttVhost),
       queue_index_embed_msgs_below: cdktf.numberToTerraform(this._queueIndexEmbedMsgsBelow),
       sleep: cdktf.numberToTerraform(this._sleep),
+      ssl_cert_login_from: cdktf.stringToTerraform(this._sslCertLoginFrom),
+      ssl_options_fail_if_no_peer_cert: cdktf.booleanToTerraform(this._sslOptionsFailIfNoPeerCert),
+      ssl_options_verify: cdktf.stringToTerraform(this._sslOptionsVerify),
       timeout: cdktf.numberToTerraform(this._timeout),
       vm_memory_high_watermark: cdktf.numberToTerraform(this._vmMemoryHighWatermark),
     };
@@ -415,6 +583,30 @@ export class RabbitmqConfiguration extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      message_interceptors_timestamp_overwrite: {
+        value: cdktf.stringToHclTerraform(this._messageInterceptorsTimestampOverwrite),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      mqtt_exchange: {
+        value: cdktf.stringToHclTerraform(this._mqttExchange),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      mqtt_ssl_cert_login: {
+        value: cdktf.booleanToHclTerraform(this._mqttSslCertLogin),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      mqtt_vhost: {
+        value: cdktf.stringToHclTerraform(this._mqttVhost),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       queue_index_embed_msgs_below: {
         value: cdktf.numberToHclTerraform(this._queueIndexEmbedMsgsBelow),
         isBlock: false,
@@ -426,6 +618,24 @@ export class RabbitmqConfiguration extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      ssl_cert_login_from: {
+        value: cdktf.stringToHclTerraform(this._sslCertLoginFrom),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ssl_options_fail_if_no_peer_cert: {
+        value: cdktf.booleanToHclTerraform(this._sslOptionsFailIfNoPeerCert),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      ssl_options_verify: {
+        value: cdktf.stringToHclTerraform(this._sslOptionsVerify),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       timeout: {
         value: cdktf.numberToHclTerraform(this._timeout),

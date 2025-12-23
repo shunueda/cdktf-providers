@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,383 +10,395 @@ export interface TransitGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * This parameter represents the name of a Cloud-Account in Aviatrix controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#account_name TransitGateway#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#account_name TransitGateway#account_name}
   */
   readonly accountName: string;
   /**
   * If false, reuse an idle address in Elastic IP pool for this gateway. Otherwise, allocate a new Elastic IP and use it for this gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#allocate_new_eip TransitGateway#allocate_new_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#allocate_new_eip TransitGateway#allocate_new_eip}
   */
   readonly allocateNewEip?: boolean | cdktf.IResolvable;
   /**
   * Approved learned CIDRs. Available as of provider version R2.21+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#approved_learned_cidrs TransitGateway#approved_learned_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#approved_learned_cidrs TransitGateway#approved_learned_cidrs}
   */
   readonly approvedLearnedCidrs?: string[];
   /**
   * Availability domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#availability_domain TransitGateway#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#availability_domain TransitGateway#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
   * The name of the public IP address and its resource group in Azure to assign to this Transit Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#azure_eip_name_resource_group TransitGateway#azure_eip_name_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#azure_eip_name_resource_group TransitGateway#azure_eip_name_resource_group}
   */
   readonly azureEipNameResourceGroup?: string;
   /**
   * BGP communities gateway accept configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#bgp_accept_communities TransitGateway#bgp_accept_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#bgp_accept_communities TransitGateway#bgp_accept_communities}
   */
   readonly bgpAcceptCommunities?: boolean | cdktf.IResolvable;
   /**
   * Enable Equal Cost Multi Path (ECMP) routing for the next hop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#bgp_ecmp TransitGateway#bgp_ecmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#bgp_ecmp TransitGateway#bgp_ecmp}
   */
   readonly bgpEcmp?: boolean | cdktf.IResolvable;
   /**
   * BGP Hold Time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#bgp_hold_time TransitGateway#bgp_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#bgp_hold_time TransitGateway#bgp_hold_time}
   */
   readonly bgpHoldTime?: number;
   /**
   * Number of interfaces that will be created for BGP over LAN enabled Azure transit. Applies on HA Transit as well if enabled. Updatable as of provider version 3.0.3+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#bgp_lan_interfaces_count TransitGateway#bgp_lan_interfaces_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#bgp_lan_interfaces_count TransitGateway#bgp_lan_interfaces_count}
   */
   readonly bgpLanInterfacesCount?: number;
   /**
   * Intended CIDR list to be advertised to external bgp router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#bgp_manual_spoke_advertise_cidrs TransitGateway#bgp_manual_spoke_advertise_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#bgp_manual_spoke_advertise_cidrs TransitGateway#bgp_manual_spoke_advertise_cidrs}
   */
   readonly bgpManualSpokeAdvertiseCidrs?: string;
   /**
   * BGP neighbor status polling time for BGP Transit Gateway. Unit is in seconds. Valid values are between 1 and 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#bgp_neighbor_status_polling_time TransitGateway#bgp_neighbor_status_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#bgp_neighbor_status_polling_time TransitGateway#bgp_neighbor_status_polling_time}
   */
   readonly bgpNeighborStatusPollingTime?: number;
   /**
   * BGP route polling time. Unit is in seconds. Valid values are between 10 and 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#bgp_polling_time TransitGateway#bgp_polling_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#bgp_polling_time TransitGateway#bgp_polling_time}
   */
   readonly bgpPollingTime?: number;
   /**
   * BGP communities gateway send configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#bgp_send_communities TransitGateway#bgp_send_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#bgp_send_communities TransitGateway#bgp_send_communities}
   */
   readonly bgpSendCommunities?: boolean | cdktf.IResolvable;
   /**
   * Type of cloud service provider, requires an integer value. Use 1 for AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#cloud_type TransitGateway#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#cloud_type TransitGateway#cloud_type}
   */
   readonly cloudType: number;
   /**
   * Specify Connected Transit status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#connected_transit TransitGateway#connected_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#connected_transit TransitGateway#connected_transit}
   */
   readonly connectedTransit?: boolean | cdktf.IResolvable;
   /**
   * Customer managed key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#customer_managed_keys TransitGateway#customer_managed_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#customer_managed_keys TransitGateway#customer_managed_keys}
   */
   readonly customerManagedKeys?: string;
   /**
   * A list of comma separated CIDRs to be customized for the spoke VPC routes. When configured, it will replace all learned routes in VPC routing tables, including RFC1918 and non-RFC1918 CIDRs. It applies to all spoke gateways attached to this transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#customized_spoke_vpc_routes TransitGateway#customized_spoke_vpc_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#customized_spoke_vpc_routes TransitGateway#customized_spoke_vpc_routes}
   */
   readonly customizedSpokeVpcRoutes?: string;
   /**
   * A list of CIDRs to be customized for the transit VPC routes. When configured, it will replace all learned routes in VPC routing tables, including RFC1918 and non-RFC1918 CIDRs.To be effective, `enable_advertise_transit_cidr` or firewall management access for a transit firenet gateway must be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#customized_transit_vpc_routes TransitGateway#customized_transit_vpc_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#customized_transit_vpc_routes TransitGateway#customized_transit_vpc_routes}
   */
   readonly customizedTransitVpcRoutes?: string[];
   /**
   * If set true, the spot instance will be deleted on eviction. Otherwise, the instance will be deallocated on eviction. Only supports Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#delete_spot TransitGateway#delete_spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#delete_spot TransitGateway#delete_spot}
   */
   readonly deleteSpot?: boolean | cdktf.IResolvable;
   /**
   * Device ID for AEP EAT gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#device_id TransitGateway#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#device_id TransitGateway#device_id}
   */
   readonly deviceId?: string;
   /**
   * Required when allocate_new_eip is false. It uses specified EIP for this gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#eip TransitGateway#eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#eip TransitGateway#eip}
   */
   readonly eip?: string;
   /**
   * Enables Active-Standby Mode, available only with HA enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_active_standby TransitGateway#enable_active_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_active_standby TransitGateway#enable_active_standby}
   */
   readonly enableActiveStandby?: boolean | cdktf.IResolvable;
   /**
   * Enables Preemptive Mode for Active-Standby, available only with Active-Standby enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_active_standby_preemptive TransitGateway#enable_active_standby_preemptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_active_standby_preemptive TransitGateway#enable_active_standby_preemptive}
   */
   readonly enableActiveStandbyPreemptive?: boolean | cdktf.IResolvable;
   /**
   * Switch to Enable/Disable advertise transit VPC network CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_advertise_transit_cidr TransitGateway#enable_advertise_transit_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_advertise_transit_cidr TransitGateway#enable_advertise_transit_cidr}
   */
   readonly enableAdvertiseTransitCidr?: boolean | cdktf.IResolvable;
   /**
   * Pre-allocate a network interface(eth4) for "BGP over LAN" functionality. Only valid for cloud_type = 4 (GCP) and 8 (Azure). Valid values: true or false. Default value: false. Available as of provider version R2.18+. Updatable as of provider version 3.0.3+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_bgp_over_lan TransitGateway#enable_bgp_over_lan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_bgp_over_lan TransitGateway#enable_bgp_over_lan}
   */
   readonly enableBgpOverLan?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to enable egress transit firenet interfaces or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_egress_transit_firenet TransitGateway#enable_egress_transit_firenet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_egress_transit_firenet TransitGateway#enable_egress_transit_firenet}
   */
   readonly enableEgressTransitFirenet?: boolean | cdktf.IResolvable;
   /**
   * Enable encrypt gateway EBS volume. Only supported for AWS and AWSGov providers. Valid values: true, false. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_encrypt_volume TransitGateway#enable_encrypt_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_encrypt_volume TransitGateway#enable_encrypt_volume}
   */
   readonly enableEncryptVolume?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to enable firenet interfaces or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_firenet TransitGateway#enable_firenet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_firenet TransitGateway#enable_firenet}
   */
   readonly enableFirenet?: boolean | cdktf.IResolvable;
   /**
   * Enable firenet interfaces with AWS Gateway Load Balancer. Only valid when `enable_firenet` or `enable_transit_firenet` are set to true and `cloud_type` = 1 (AWS). Currently AWS Gateway Load Balancer is only supported in AWS regions us-west-2 and us-east-1. Valid values: true or false. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_gateway_load_balancer TransitGateway#enable_gateway_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_gateway_load_balancer TransitGateway#enable_gateway_load_balancer}
   */
   readonly enableGatewayLoadBalancer?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to disable GRO/GSO or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_gro_gso TransitGateway#enable_gro_gso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_gro_gso TransitGateway#enable_gro_gso}
   */
   readonly enableGroGso?: boolean | cdktf.IResolvable;
   /**
   * Sign of readiness for TGW connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_hybrid_connection TransitGateway#enable_hybrid_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_hybrid_connection TransitGateway#enable_hybrid_connection}
   */
   readonly enableHybridConnection?: boolean | cdktf.IResolvable;
   /**
+  * Enable IPv6 for the gateway. Only supported for AWS (1), Azure (8).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_ipv6 TransitGateway#enable_ipv6}
+  */
+  readonly enableIpv6?: boolean | cdktf.IResolvable;
+  /**
   * Enable jumbo frame support for transit gateway. Valid values: true or false. Default value: true for CSP transit gateways and false for edge transit gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_jumbo_frame TransitGateway#enable_jumbo_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_jumbo_frame TransitGateway#enable_jumbo_frame}
   */
   readonly enableJumboFrame?: boolean | cdktf.IResolvable;
   /**
   * Switch to enable/disable encrypted transit approval for transit Gateway. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_learned_cidrs_approval TransitGateway#enable_learned_cidrs_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_learned_cidrs_approval TransitGateway#enable_learned_cidrs_approval}
   */
   readonly enableLearnedCidrsApproval?: boolean | cdktf.IResolvable;
   /**
   * Enable [monitor gateway subnets](https://docs.aviatrix.com/HowTos/gateway.html#monitor-gateway-subnet). Only valid for cloud_type = 1 (AWS) or 256 (AWSGov). Valid values: true, false. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_monitor_gateway_subnets TransitGateway#enable_monitor_gateway_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_monitor_gateway_subnets TransitGateway#enable_monitor_gateway_subnets}
   */
   readonly enableMonitorGatewaySubnets?: boolean | cdktf.IResolvable;
   /**
   * Enable Multi-tier Transit mode on transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_multi_tier_transit TransitGateway#enable_multi_tier_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_multi_tier_transit TransitGateway#enable_multi_tier_transit}
   */
   readonly enableMultiTierTransit?: boolean | cdktf.IResolvable;
   /**
   * Enable preserve as_path when advertising manual summary cidrs on transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_preserve_as_path TransitGateway#enable_preserve_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_preserve_as_path TransitGateway#enable_preserve_as_path}
   */
   readonly enablePreserveAsPath?: boolean | cdktf.IResolvable;
   /**
   * Enable private OOB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_private_oob TransitGateway#enable_private_oob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_private_oob TransitGateway#enable_private_oob}
   */
   readonly enablePrivateOob?: boolean | cdktf.IResolvable;
   /**
   * Enable S2C receive packet CPU re-balancing on transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_s2c_rx_balancing TransitGateway#enable_s2c_rx_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_s2c_rx_balancing TransitGateway#enable_s2c_rx_balancing}
   */
   readonly enableS2CRxBalancing?: boolean | cdktf.IResolvable;
   /**
   * Enable segmentation to allow association of transit gateway to security domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_segmentation TransitGateway#enable_segmentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_segmentation TransitGateway#enable_segmentation}
   */
   readonly enableSegmentation?: boolean | cdktf.IResolvable;
   /**
   * Enable spot instance. NOT supported for production deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_spot_instance TransitGateway#enable_spot_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_spot_instance TransitGateway#enable_spot_instance}
   */
   readonly enableSpotInstance?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to enable transit firenet interfaces or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_transit_firenet TransitGateway#enable_transit_firenet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_transit_firenet TransitGateway#enable_transit_firenet}
   */
   readonly enableTransitFirenet?: boolean | cdktf.IResolvable;
   /**
   * Enable summarize CIDR to TGW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_transit_summarize_cidr_to_tgw TransitGateway#enable_transit_summarize_cidr_to_tgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_transit_summarize_cidr_to_tgw TransitGateway#enable_transit_summarize_cidr_to_tgw}
   */
   readonly enableTransitSummarizeCidrToTgw?: boolean | cdktf.IResolvable;
   /**
   * Enable vpc_dns_server for Gateway. Valid values: true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#enable_vpc_dns_server TransitGateway#enable_vpc_dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#enable_vpc_dns_server TransitGateway#enable_vpc_dns_server}
   */
   readonly enableVpcDnsServer?: boolean | cdktf.IResolvable;
   /**
   * A list of comma separated CIDRs to be advertised to on-prem as 'Excluded CIDR List'. When configured, it inspects all the advertised CIDRs from its spoke gateways and remove those included in the 'Excluded CIDR List'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#excluded_advertised_spoke_routes TransitGateway#excluded_advertised_spoke_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#excluded_advertised_spoke_routes TransitGateway#excluded_advertised_spoke_routes}
   */
   readonly excludedAdvertisedSpokeRoutes?: string;
   /**
   * Fault domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#fault_domain TransitGateway#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#fault_domain TransitGateway#fault_domain}
   */
   readonly faultDomain?: string;
   /**
   * A list of comma separated CIDRs to be filtered from the spoke VPC route table. When configured, filtering CIDR(s) or it’s subnet will be deleted from VPC routing tables as well as from spoke gateway’s routing table. It applies to all spoke gateways attached to this transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#filtered_spoke_vpc_routes TransitGateway#filtered_spoke_vpc_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#filtered_spoke_vpc_routes TransitGateway#filtered_spoke_vpc_routes}
   */
   readonly filteredSpokeVpcRoutes?: string;
   /**
   * Name of the gateway which is going to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#gw_name TransitGateway#gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#gw_name TransitGateway#gw_name}
   */
   readonly gwName: string;
   /**
   * Size of the gateway instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#gw_size TransitGateway#gw_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#gw_size TransitGateway#gw_size}
   */
   readonly gwSize: string;
   /**
   * HA availability domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_availability_domain TransitGateway#ha_availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_availability_domain TransitGateway#ha_availability_domain}
   */
   readonly haAvailabilityDomain?: string;
   /**
   * The name of the public IP address and its resource group in Azure to assign to the HA Transit Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_azure_eip_name_resource_group TransitGateway#ha_azure_eip_name_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_azure_eip_name_resource_group TransitGateway#ha_azure_eip_name_resource_group}
   */
   readonly haAzureEipNameResourceGroup?: string;
   /**
   * Device ID for HA AEP EAT gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_device_id TransitGateway#ha_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_device_id TransitGateway#ha_device_id}
   */
   readonly haDeviceId?: string;
   /**
   * Public IP address that you want assigned to the HA Transit Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_eip TransitGateway#ha_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_eip TransitGateway#ha_eip}
   */
   readonly haEip?: string;
   /**
   * HA fault domain for OCI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_fault_domain TransitGateway#ha_fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_fault_domain TransitGateway#ha_fault_domain}
   */
   readonly haFaultDomain?: string;
   /**
   * HA Gateway Size. Mandatory if HA is enabled (ha_subnet is set).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_gw_size TransitGateway#ha_gw_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_gw_size TransitGateway#ha_gw_size}
   */
   readonly haGwSize?: string;
   /**
   * ha_image_version can be used to set the desired image version of the HA gateway. If set, we will attempt to update the gateway to the specified version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_image_version TransitGateway#ha_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_image_version TransitGateway#ha_image_version}
   */
   readonly haImageVersion?: string;
   /**
   * AZ of subnet being created for Insane Mode Transit HA Gateway. Required for AWS if insane_mode is enabled and ha_subnet is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_insane_mode_az TransitGateway#ha_insane_mode_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_insane_mode_az TransitGateway#ha_insane_mode_az}
   */
   readonly haInsaneModeAz?: string;
   /**
   * Set of management egress gateway IP/prefix for HA EAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_management_egress_ip_prefix_list TransitGateway#ha_management_egress_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_management_egress_ip_prefix_list TransitGateway#ha_management_egress_ip_prefix_list}
   */
   readonly haManagementEgressIpPrefixList?: string[];
   /**
   * OOB HA availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_oob_availability_zone TransitGateway#ha_oob_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_oob_availability_zone TransitGateway#ha_oob_availability_zone}
   */
   readonly haOobAvailabilityZone?: string;
   /**
   * OOB HA management subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_oob_management_subnet TransitGateway#ha_oob_management_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_oob_management_subnet TransitGateway#ha_oob_management_subnet}
   */
   readonly haOobManagementSubnet?: string;
   /**
   *  Private Mode HA subnet availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_private_mode_subnet_zone TransitGateway#ha_private_mode_subnet_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_private_mode_subnet_zone TransitGateway#ha_private_mode_subnet_zone}
   */
   readonly haPrivateModeSubnetZone?: string;
   /**
   * ha_software_version can be used to set the desired software version of the HA gateway. If set, we will attempt to update the gateway to the specified version. If left blank, the gateway software version will continue to be managed through the aviatrix_controller_config resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_software_version TransitGateway#ha_software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_software_version TransitGateway#ha_software_version}
   */
   readonly haSoftwareVersion?: string;
   /**
   * HA Subnet. Required for enabling HA for AWS/AWSGov/AWSChina/Azure/OCI/Alibaba Cloud. Optional for enabling HA for GCP gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_subnet TransitGateway#ha_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_subnet TransitGateway#ha_subnet}
   */
   readonly haSubnet?: string;
   /**
+  * IPv6 CIDR for the HA subnet. Only used if enable_ipv6 flag is set. Currently only supported on Azure and AWS Cloud.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_subnet_ipv6_cidr TransitGateway#ha_subnet_ipv6_cidr}
+  */
+  readonly haSubnetIpv6Cidr?: string;
+  /**
   * HA Zone. Required if enabling HA for GCP. Optional for Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_zone TransitGateway#ha_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_zone TransitGateway#ha_zone}
   */
   readonly haZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#id TransitGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#id TransitGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -395,211 +407,229 @@ export interface TransitGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * image_version can be used to set the desired image version of the gateway. If set, we will attempt to update the gateway to the specified version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#image_version TransitGateway#image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#image_version TransitGateway#image_version}
   */
   readonly imageVersion?: string;
   /**
   * Enable Insane Mode for Transit. Valid values: true, false. Supported for AWS/AWSGov, GCP, Azure and OCI. If insane mode is enabled, gateway size has to at least be c5 size for AWS and Standard_D3_v2 size for Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#insane_mode TransitGateway#insane_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#insane_mode TransitGateway#insane_mode}
   */
   readonly insaneMode?: boolean | cdktf.IResolvable;
   /**
   * AZ of subnet being created for Insane Mode Transit Gateway. Required for AWS if insane_mode is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#insane_mode_az TransitGateway#insane_mode_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#insane_mode_az TransitGateway#insane_mode_az}
   */
   readonly insaneModeAz?: string;
   /**
   * LAN Private Subnet. Only used for GCP Transit FireNet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#lan_private_subnet TransitGateway#lan_private_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#lan_private_subnet TransitGateway#lan_private_subnet}
   */
   readonly lanPrivateSubnet?: string;
   /**
   * LAN VPC ID. Only used for GCP Transit FireNet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#lan_vpc_id TransitGateway#lan_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#lan_vpc_id TransitGateway#lan_vpc_id}
   */
   readonly lanVpcId?: string;
   /**
   * Set the learned CIDRs approval mode. Only valid when 'enable_learned_cidrs_approval' is set to true. If set to 'gateway', learned CIDR approval applies to ALL connections. If set to 'connection', learned CIDR approval is configured on a per connection basis. When configuring per connection, use the enable_learned_cidrs_approval attribute within the connection resource to toggle learned CIDR approval. Valid values: 'gateway' or 'connection'. Default value: 'gateway'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#learned_cidrs_approval_mode TransitGateway#learned_cidrs_approval_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#learned_cidrs_approval_mode TransitGateway#learned_cidrs_approval_mode}
   */
   readonly learnedCidrsApprovalMode?: string;
   /**
   * Changes the Aviatrix Transit Gateway ASN number before you setup Aviatrix Transit Gateway connection configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#local_as_number TransitGateway#local_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#local_as_number TransitGateway#local_as_number}
   */
   readonly localAsNumber?: string;
   /**
   * Set of management egress gateway IP/prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#management_egress_ip_prefix_list TransitGateway#management_egress_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#management_egress_ip_prefix_list TransitGateway#management_egress_ip_prefix_list}
   */
   readonly managementEgressIpPrefixList?: string[];
   /**
   * A set of monitored instance ids. Only valid when 'enable_monitor_gateway_subnets' = true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#monitor_exclude_list TransitGateway#monitor_exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#monitor_exclude_list TransitGateway#monitor_exclude_list}
   */
   readonly monitorExcludeList?: string[];
   /**
   * OOB subnet availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#oob_availability_zone TransitGateway#oob_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#oob_availability_zone TransitGateway#oob_availability_zone}
   */
   readonly oobAvailabilityZone?: string;
   /**
   * OOB management subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#oob_management_subnet TransitGateway#oob_management_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#oob_management_subnet TransitGateway#oob_management_subnet}
   */
   readonly oobManagementSubnet?: string;
   /**
   * Peer backup logical interface name for the edge transit gateway (e.g., 'wan0', 'wan1').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#peer_backup_logical_ifname TransitGateway#peer_backup_logical_ifname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#peer_backup_logical_ifname TransitGateway#peer_backup_logical_ifname}
   */
   readonly peerBackupLogicalIfname?: string[];
   /**
   * Connection type for the edge transit gateway (e.g., 'public', 'private').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#peer_connection_type TransitGateway#peer_connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#peer_connection_type TransitGateway#peer_connection_type}
   */
   readonly peerConnectionType?: string;
   /**
   * List of AS numbers to populate BGP AP_PATH field when it advertises to VGW or peer devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#prepend_as_path TransitGateway#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#prepend_as_path TransitGateway#prepend_as_path}
   */
   readonly prependAsPath?: string[];
   /**
   * Private Mode Controller load balancer VPC ID. Required when private mode is enabled for the Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#private_mode_lb_vpc_id TransitGateway#private_mode_lb_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#private_mode_lb_vpc_id TransitGateway#private_mode_lb_vpc_id}
   */
   readonly privateModeLbVpcId?: string;
   /**
   * Private Mode subnet availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#private_mode_subnet_zone TransitGateway#private_mode_subnet_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#private_mode_subnet_zone TransitGateway#private_mode_subnet_zone}
   */
   readonly privateModeSubnetZone?: string;
   /**
   * Gateway ethernet interface RX queue size. Supported for AWS related clouds only. Applies on HA as well if enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#rx_queue_size TransitGateway#rx_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#rx_queue_size TransitGateway#rx_queue_size}
   */
   readonly rxQueueSize?: string;
   /**
   * Set to 'enabled' if this feature is desired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#single_az_ha TransitGateway#single_az_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#single_az_ha TransitGateway#single_az_ha}
   */
   readonly singleAzHa?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable Source NAT feature in 'single_ip' mode for this container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#single_ip_snat TransitGateway#single_ip_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#single_ip_snat TransitGateway#single_ip_snat}
   */
   readonly singleIpSnat?: boolean | cdktf.IResolvable;
   /**
   * software_version can be used to set the desired software version of the gateway. If set, we will attempt to update the gateway to the specified version. If left blank, the gateway software version will continue to be managed through the aviatrix_controller_config resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#software_version TransitGateway#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#software_version TransitGateway#software_version}
   */
   readonly softwareVersion?: string;
   /**
   * Price for spot instance. NOT supported for production deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#spot_price TransitGateway#spot_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#spot_price TransitGateway#spot_price}
   */
   readonly spotPrice?: string;
   /**
   * Public Subnet Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#subnet TransitGateway#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#subnet TransitGateway#subnet}
   */
   readonly subnet?: string;
   /**
+  * IPv6 CIDR for the subnet. Only used if enable_ipv6 flag is set.Currently only supported on Azure and AWS Cloud.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#subnet_ipv6_cidr TransitGateway#subnet_ipv6_cidr}
+  */
+  readonly subnetIpv6Cidr?: string;
+  /**
   * A map of tags to assign to the transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#tags TransitGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#tags TransitGateway#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The IPSec tunnel down detection time for the transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#tunnel_detection_time TransitGateway#tunnel_detection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#tunnel_detection_time TransitGateway#tunnel_detection_time}
   */
   readonly tunnelDetectionTime?: number;
   /**
+  * Encryption ciphers for gateway peering tunnels. Config options are default (AES-126-GCM-96) or strong (AES-256-GCM-96).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#tunnel_encryption_cipher TransitGateway#tunnel_encryption_cipher}
+  */
+  readonly tunnelEncryptionCipher?: string;
+  /**
+  * Perfect Forward Secrecy (PFS) for gateway peering tunnels. Config Options are enable/disable.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#tunnel_forward_secrecy TransitGateway#tunnel_forward_secrecy}
+  */
+  readonly tunnelForwardSecrecy?: string;
+  /**
   * VPC-ID/VNet-Name/Site-ID of cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#vpc_id TransitGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#vpc_id TransitGateway#vpc_id}
   */
   readonly vpcId: string;
   /**
   * Region of cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#vpc_reg TransitGateway#vpc_reg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#vpc_reg TransitGateway#vpc_reg}
   */
   readonly vpcReg?: string;
   /**
   * Availability Zone. Only available for Azure (8), Azure GOV (32) and Azure CHINA (2048). Must be in the form 'az-n', for example, 'az-2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#zone TransitGateway#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#zone TransitGateway#zone}
   */
   readonly zone?: string;
   /**
   * The location where the ZTP file will be stored locally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ztp_file_download_path TransitGateway#ztp_file_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ztp_file_download_path TransitGateway#ztp_file_download_path}
   */
   readonly ztpFileDownloadPath?: string;
   /**
   * ZTP file type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ztp_file_type TransitGateway#ztp_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ztp_file_type TransitGateway#ztp_file_type}
   */
   readonly ztpFileType?: string;
   /**
   * bgp_lan_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#bgp_lan_interfaces TransitGateway#bgp_lan_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#bgp_lan_interfaces TransitGateway#bgp_lan_interfaces}
   */
   readonly bgpLanInterfaces?: TransitGatewayBgpLanInterfaces[] | cdktf.IResolvable;
   /**
   * eip_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#eip_map TransitGateway#eip_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#eip_map TransitGateway#eip_map}
   */
   readonly eipMap?: TransitGatewayEipMap[] | cdktf.IResolvable;
   /**
   * ha_bgp_lan_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_bgp_lan_interfaces TransitGateway#ha_bgp_lan_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_bgp_lan_interfaces TransitGateway#ha_bgp_lan_interfaces}
   */
   readonly haBgpLanInterfaces?: TransitGatewayHaBgpLanInterfaces[] | cdktf.IResolvable;
   /**
   * ha_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ha_interfaces TransitGateway#ha_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ha_interfaces TransitGateway#ha_interfaces}
   */
   readonly haInterfaces?: TransitGatewayHaInterfaces[] | cdktf.IResolvable;
   /**
   * interface_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#interface_mapping TransitGateway#interface_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#interface_mapping TransitGateway#interface_mapping}
   */
   readonly interfaceMapping?: TransitGatewayInterfaceMapping[] | cdktf.IResolvable;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#interfaces TransitGateway#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#interfaces TransitGateway#interfaces}
   */
   readonly interfaces?: TransitGatewayInterfaces[] | cdktf.IResolvable;
 }
@@ -607,13 +637,13 @@ export interface TransitGatewayBgpLanInterfaces {
   /**
   * Subnet Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#subnet TransitGateway#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#subnet TransitGateway#subnet}
   */
   readonly subnet: string;
   /**
   * VPC-ID of GCP cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#vpc_id TransitGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#vpc_id TransitGateway#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -754,19 +784,19 @@ export interface TransitGatewayEipMap {
   /**
   * Logical interface name e.g., wan0, mgmt0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#logical_ifname TransitGateway#logical_ifname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#logical_ifname TransitGateway#logical_ifname}
   */
   readonly logicalIfname: string;
   /**
   * The private IP address associated with the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#private_ip TransitGateway#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#private_ip TransitGateway#private_ip}
   */
   readonly privateIp: string;
   /**
   * The public IP address associated with the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#public_ip TransitGateway#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#public_ip TransitGateway#public_ip}
   */
   readonly publicIp: string;
 }
@@ -933,13 +963,13 @@ export interface TransitGatewayHaBgpLanInterfaces {
   /**
   * Subnet Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#subnet TransitGateway#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#subnet TransitGateway#subnet}
   */
   readonly subnet: string;
   /**
   * VPC-ID of GCP cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#vpc_id TransitGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#vpc_id TransitGateway#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -1080,39 +1110,45 @@ export interface TransitGatewayHaInterfaces {
   /**
   * Whether DHCP is enabled on this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#dhcp TransitGateway#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#dhcp TransitGateway#dhcp}
   */
   readonly dhcp?: boolean | cdktf.IResolvable;
   /**
   * The gateway IP address associated with this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#gateway_ip TransitGateway#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#gateway_ip TransitGateway#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * The static IP address assigned to this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ip_address TransitGateway#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ip_address TransitGateway#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Logical interface name e.g., wan0, mgmt0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#logical_ifname TransitGateway#logical_ifname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#logical_ifname TransitGateway#logical_ifname}
   */
   readonly logicalIfname: string;
   /**
   * The public IP address associated with this interface (if applicable).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#public_ip TransitGateway#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#public_ip TransitGateway#public_ip}
   */
   readonly publicIp?: string;
   /**
   * A list of secondary private CIDR blocks associated with this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#secondary_private_cidr_list TransitGateway#secondary_private_cidr_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#secondary_private_cidr_list TransitGateway#secondary_private_cidr_list}
   */
   readonly secondaryPrivateCidrList?: string[];
+  /**
+  * The underlay CIDR in the format of ipaddr/netmask for this interface.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#underlay_cidr TransitGateway#underlay_cidr}
+  */
+  readonly underlayCidr?: string;
 }
 
 export function transitGatewayHaInterfacesToTerraform(struct?: TransitGatewayHaInterfaces | cdktf.IResolvable): any {
@@ -1127,6 +1163,7 @@ export function transitGatewayHaInterfacesToTerraform(struct?: TransitGatewayHaI
     logical_ifname: cdktf.stringToTerraform(struct!.logicalIfname),
     public_ip: cdktf.stringToTerraform(struct!.publicIp),
     secondary_private_cidr_list: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.secondaryPrivateCidrList),
+    underlay_cidr: cdktf.stringToTerraform(struct!.underlayCidr),
   }
 }
 
@@ -1172,6 +1209,12 @@ export function transitGatewayHaInterfacesToHclTerraform(struct?: TransitGateway
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
+    },
+    underlay_cidr: {
+      value: cdktf.stringToHclTerraform(struct!.underlayCidr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
   };
 
@@ -1223,6 +1266,10 @@ export class TransitGatewayHaInterfacesOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.secondaryPrivateCidrList = this._secondaryPrivateCidrList;
     }
+    if (this._underlayCidr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.underlayCidr = this._underlayCidr;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1236,6 +1283,7 @@ export class TransitGatewayHaInterfacesOutputReference extends cdktf.ComplexObje
       this._logicalIfname = undefined;
       this._publicIp = undefined;
       this._secondaryPrivateCidrList = undefined;
+      this._underlayCidr = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1250,6 +1298,7 @@ export class TransitGatewayHaInterfacesOutputReference extends cdktf.ComplexObje
       this._logicalIfname = value.logicalIfname;
       this._publicIp = value.publicIp;
       this._secondaryPrivateCidrList = value.secondaryPrivateCidrList;
+      this._underlayCidr = value.underlayCidr;
     }
   }
 
@@ -1345,6 +1394,22 @@ export class TransitGatewayHaInterfacesOutputReference extends cdktf.ComplexObje
   public get secondaryPrivateCidrListInput() {
     return this._secondaryPrivateCidrList;
   }
+
+  // underlay_cidr - computed: false, optional: true, required: false
+  private _underlayCidr?: string; 
+  public get underlayCidr() {
+    return this.getStringAttribute('underlay_cidr');
+  }
+  public set underlayCidr(value: string) {
+    this._underlayCidr = value;
+  }
+  public resetUnderlayCidr() {
+    this._underlayCidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get underlayCidrInput() {
+    return this._underlayCidr;
+  }
 }
 
 export class TransitGatewayHaInterfacesList extends cdktf.ComplexList {
@@ -1370,19 +1435,19 @@ export interface TransitGatewayInterfaceMapping {
   /**
   * Interface index (e.g., 0, 1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#index TransitGateway#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#index TransitGateway#index}
   */
   readonly index: number;
   /**
   * Interface name (e.g., 'eth0', 'eth1').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#name TransitGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#name TransitGateway#name}
   */
   readonly name: string;
   /**
   * Interface type (e.g., 'WAN', 'MANAGEMENT').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#type TransitGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#type TransitGateway#type}
   */
   readonly type: string;
 }
@@ -1549,39 +1614,45 @@ export interface TransitGatewayInterfaces {
   /**
   * Whether DHCP is enabled on this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#dhcp TransitGateway#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#dhcp TransitGateway#dhcp}
   */
   readonly dhcp?: boolean | cdktf.IResolvable;
   /**
   * The gateway IP address associated with this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#gateway_ip TransitGateway#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#gateway_ip TransitGateway#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * The static IP address assigned to this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#ip_address TransitGateway#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#ip_address TransitGateway#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Logical interface name e.g., wan0, mgmt0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#logical_ifname TransitGateway#logical_ifname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#logical_ifname TransitGateway#logical_ifname}
   */
   readonly logicalIfname: string;
   /**
   * The public IP address associated with this interface (if applicable).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#public_ip TransitGateway#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#public_ip TransitGateway#public_ip}
   */
   readonly publicIp?: string;
   /**
   * A list of secondary private CIDR blocks associated with this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#secondary_private_cidr_list TransitGateway#secondary_private_cidr_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#secondary_private_cidr_list TransitGateway#secondary_private_cidr_list}
   */
   readonly secondaryPrivateCidrList?: string[];
+  /**
+  * The underlay CIDR in the format of ipaddr/netmask for this interface.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#underlay_cidr TransitGateway#underlay_cidr}
+  */
+  readonly underlayCidr?: string;
 }
 
 export function transitGatewayInterfacesToTerraform(struct?: TransitGatewayInterfaces | cdktf.IResolvable): any {
@@ -1596,6 +1667,7 @@ export function transitGatewayInterfacesToTerraform(struct?: TransitGatewayInter
     logical_ifname: cdktf.stringToTerraform(struct!.logicalIfname),
     public_ip: cdktf.stringToTerraform(struct!.publicIp),
     secondary_private_cidr_list: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.secondaryPrivateCidrList),
+    underlay_cidr: cdktf.stringToTerraform(struct!.underlayCidr),
   }
 }
 
@@ -1641,6 +1713,12 @@ export function transitGatewayInterfacesToHclTerraform(struct?: TransitGatewayIn
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
+    },
+    underlay_cidr: {
+      value: cdktf.stringToHclTerraform(struct!.underlayCidr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
   };
 
@@ -1692,6 +1770,10 @@ export class TransitGatewayInterfacesOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.secondaryPrivateCidrList = this._secondaryPrivateCidrList;
     }
+    if (this._underlayCidr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.underlayCidr = this._underlayCidr;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1705,6 +1787,7 @@ export class TransitGatewayInterfacesOutputReference extends cdktf.ComplexObject
       this._logicalIfname = undefined;
       this._publicIp = undefined;
       this._secondaryPrivateCidrList = undefined;
+      this._underlayCidr = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1719,6 +1802,7 @@ export class TransitGatewayInterfacesOutputReference extends cdktf.ComplexObject
       this._logicalIfname = value.logicalIfname;
       this._publicIp = value.publicIp;
       this._secondaryPrivateCidrList = value.secondaryPrivateCidrList;
+      this._underlayCidr = value.underlayCidr;
     }
   }
 
@@ -1814,6 +1898,22 @@ export class TransitGatewayInterfacesOutputReference extends cdktf.ComplexObject
   public get secondaryPrivateCidrListInput() {
     return this._secondaryPrivateCidrList;
   }
+
+  // underlay_cidr - computed: false, optional: true, required: false
+  private _underlayCidr?: string; 
+  public get underlayCidr() {
+    return this.getStringAttribute('underlay_cidr');
+  }
+  public set underlayCidr(value: string) {
+    this._underlayCidr = value;
+  }
+  public resetUnderlayCidr() {
+    this._underlayCidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get underlayCidrInput() {
+    return this._underlayCidr;
+  }
 }
 
 export class TransitGatewayInterfacesList extends cdktf.ComplexList {
@@ -1837,7 +1937,7 @@ export class TransitGatewayInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway aviatrix_transit_gateway}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway aviatrix_transit_gateway}
 */
 export class TransitGateway extends cdktf.TerraformResource {
 
@@ -1853,7 +1953,7 @@ export class TransitGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TransitGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransitGateway to import
-  * @param importFromId The id of the existing TransitGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransitGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransitGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1865,7 +1965,7 @@ export class TransitGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/transit_gateway aviatrix_transit_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/transit_gateway aviatrix_transit_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1876,8 +1976,8 @@ export class TransitGateway extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_transit_gateway',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1918,6 +2018,7 @@ export class TransitGateway extends cdktf.TerraformResource {
     this._enableGatewayLoadBalancer = config.enableGatewayLoadBalancer;
     this._enableGroGso = config.enableGroGso;
     this._enableHybridConnection = config.enableHybridConnection;
+    this._enableIpv6 = config.enableIpv6;
     this._enableJumboFrame = config.enableJumboFrame;
     this._enableLearnedCidrsApproval = config.enableLearnedCidrsApproval;
     this._enableMonitorGatewaySubnets = config.enableMonitorGatewaySubnets;
@@ -1949,6 +2050,7 @@ export class TransitGateway extends cdktf.TerraformResource {
     this._haPrivateModeSubnetZone = config.haPrivateModeSubnetZone;
     this._haSoftwareVersion = config.haSoftwareVersion;
     this._haSubnet = config.haSubnet;
+    this._haSubnetIpv6Cidr = config.haSubnetIpv6Cidr;
     this._haZone = config.haZone;
     this._id = config.id;
     this._imageVersion = config.imageVersion;
@@ -1973,8 +2075,11 @@ export class TransitGateway extends cdktf.TerraformResource {
     this._softwareVersion = config.softwareVersion;
     this._spotPrice = config.spotPrice;
     this._subnet = config.subnet;
+    this._subnetIpv6Cidr = config.subnetIpv6Cidr;
     this._tags = config.tags;
     this._tunnelDetectionTime = config.tunnelDetectionTime;
+    this._tunnelEncryptionCipher = config.tunnelEncryptionCipher;
+    this._tunnelForwardSecrecy = config.tunnelForwardSecrecy;
     this._vpcId = config.vpcId;
     this._vpcReg = config.vpcReg;
     this._zone = config.zone;
@@ -2490,6 +2595,22 @@ export class TransitGateway extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get enableHybridConnectionInput() {
     return this._enableHybridConnection;
+  }
+
+  // enable_ipv6 - computed: false, optional: true, required: false
+  private _enableIpv6?: boolean | cdktf.IResolvable; 
+  public get enableIpv6() {
+    return this.getBooleanAttribute('enable_ipv6');
+  }
+  public set enableIpv6(value: boolean | cdktf.IResolvable) {
+    this._enableIpv6 = value;
+  }
+  public resetEnableIpv6() {
+    this._enableIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableIpv6Input() {
+    return this._enableIpv6;
   }
 
   // enable_jumbo_frame - computed: true, optional: true, required: false
@@ -3017,6 +3138,22 @@ export class TransitGateway extends cdktf.TerraformResource {
     return this._haSubnet;
   }
 
+  // ha_subnet_ipv6_cidr - computed: true, optional: true, required: false
+  private _haSubnetIpv6Cidr?: string; 
+  public get haSubnetIpv6Cidr() {
+    return this.getStringAttribute('ha_subnet_ipv6_cidr');
+  }
+  public set haSubnetIpv6Cidr(value: string) {
+    this._haSubnetIpv6Cidr = value;
+  }
+  public resetHaSubnetIpv6Cidr() {
+    this._haSubnetIpv6Cidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get haSubnetIpv6CidrInput() {
+    return this._haSubnetIpv6Cidr;
+  }
+
   // ha_zone - computed: false, optional: true, required: false
   private _haZone?: string; 
   public get haZone() {
@@ -3421,6 +3558,22 @@ export class TransitGateway extends cdktf.TerraformResource {
     return this._subnet;
   }
 
+  // subnet_ipv6_cidr - computed: true, optional: true, required: false
+  private _subnetIpv6Cidr?: string; 
+  public get subnetIpv6Cidr() {
+    return this.getStringAttribute('subnet_ipv6_cidr');
+  }
+  public set subnetIpv6Cidr(value: string) {
+    this._subnetIpv6Cidr = value;
+  }
+  public resetSubnetIpv6Cidr() {
+    this._subnetIpv6Cidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetIpv6CidrInput() {
+    return this._subnetIpv6Cidr;
+  }
+
   // tags - computed: false, optional: true, required: false
   private _tags?: { [key: string]: string }; 
   public get tags() {
@@ -3451,6 +3604,38 @@ export class TransitGateway extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get tunnelDetectionTimeInput() {
     return this._tunnelDetectionTime;
+  }
+
+  // tunnel_encryption_cipher - computed: false, optional: true, required: false
+  private _tunnelEncryptionCipher?: string; 
+  public get tunnelEncryptionCipher() {
+    return this.getStringAttribute('tunnel_encryption_cipher');
+  }
+  public set tunnelEncryptionCipher(value: string) {
+    this._tunnelEncryptionCipher = value;
+  }
+  public resetTunnelEncryptionCipher() {
+    this._tunnelEncryptionCipher = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tunnelEncryptionCipherInput() {
+    return this._tunnelEncryptionCipher;
+  }
+
+  // tunnel_forward_secrecy - computed: false, optional: true, required: false
+  private _tunnelForwardSecrecy?: string; 
+  public get tunnelForwardSecrecy() {
+    return this.getStringAttribute('tunnel_forward_secrecy');
+  }
+  public set tunnelForwardSecrecy(value: string) {
+    this._tunnelForwardSecrecy = value;
+  }
+  public resetTunnelForwardSecrecy() {
+    this._tunnelForwardSecrecy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tunnelForwardSecrecyInput() {
+    return this._tunnelForwardSecrecy;
   }
 
   // vpc_id - computed: false, optional: false, required: true
@@ -3663,6 +3848,7 @@ export class TransitGateway extends cdktf.TerraformResource {
       enable_gateway_load_balancer: cdktf.booleanToTerraform(this._enableGatewayLoadBalancer),
       enable_gro_gso: cdktf.booleanToTerraform(this._enableGroGso),
       enable_hybrid_connection: cdktf.booleanToTerraform(this._enableHybridConnection),
+      enable_ipv6: cdktf.booleanToTerraform(this._enableIpv6),
       enable_jumbo_frame: cdktf.booleanToTerraform(this._enableJumboFrame),
       enable_learned_cidrs_approval: cdktf.booleanToTerraform(this._enableLearnedCidrsApproval),
       enable_monitor_gateway_subnets: cdktf.booleanToTerraform(this._enableMonitorGatewaySubnets),
@@ -3694,6 +3880,7 @@ export class TransitGateway extends cdktf.TerraformResource {
       ha_private_mode_subnet_zone: cdktf.stringToTerraform(this._haPrivateModeSubnetZone),
       ha_software_version: cdktf.stringToTerraform(this._haSoftwareVersion),
       ha_subnet: cdktf.stringToTerraform(this._haSubnet),
+      ha_subnet_ipv6_cidr: cdktf.stringToTerraform(this._haSubnetIpv6Cidr),
       ha_zone: cdktf.stringToTerraform(this._haZone),
       id: cdktf.stringToTerraform(this._id),
       image_version: cdktf.stringToTerraform(this._imageVersion),
@@ -3718,8 +3905,11 @@ export class TransitGateway extends cdktf.TerraformResource {
       software_version: cdktf.stringToTerraform(this._softwareVersion),
       spot_price: cdktf.stringToTerraform(this._spotPrice),
       subnet: cdktf.stringToTerraform(this._subnet),
+      subnet_ipv6_cidr: cdktf.stringToTerraform(this._subnetIpv6Cidr),
       tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
       tunnel_detection_time: cdktf.numberToTerraform(this._tunnelDetectionTime),
+      tunnel_encryption_cipher: cdktf.stringToTerraform(this._tunnelEncryptionCipher),
+      tunnel_forward_secrecy: cdktf.stringToTerraform(this._tunnelForwardSecrecy),
       vpc_id: cdktf.stringToTerraform(this._vpcId),
       vpc_reg: cdktf.stringToTerraform(this._vpcReg),
       zone: cdktf.stringToTerraform(this._zone),
@@ -3922,6 +4112,12 @@ export class TransitGateway extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      enable_ipv6: {
+        value: cdktf.booleanToHclTerraform(this._enableIpv6),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       enable_jumbo_frame: {
         value: cdktf.booleanToHclTerraform(this._enableJumboFrame),
         isBlock: false,
@@ -4108,6 +4304,12 @@ export class TransitGateway extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      ha_subnet_ipv6_cidr: {
+        value: cdktf.stringToHclTerraform(this._haSubnetIpv6Cidr),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       ha_zone: {
         value: cdktf.stringToHclTerraform(this._haZone),
         isBlock: false,
@@ -4252,6 +4454,12 @@ export class TransitGateway extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      subnet_ipv6_cidr: {
+        value: cdktf.stringToHclTerraform(this._subnetIpv6Cidr),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       tags: {
         value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._tags),
         isBlock: false,
@@ -4263,6 +4471,18 @@ export class TransitGateway extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      tunnel_encryption_cipher: {
+        value: cdktf.stringToHclTerraform(this._tunnelEncryptionCipher),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tunnel_forward_secrecy: {
+        value: cdktf.stringToHclTerraform(this._tunnelForwardSecrecy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       vpc_id: {
         value: cdktf.stringToHclTerraform(this._vpcId),

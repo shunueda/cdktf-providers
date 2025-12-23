@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/data-sources/artifactory_item
+// https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/data-sources/artifactory_item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataEnosArtifactoryItemConfig extends cdktf.TerraformMetaArgume
   /**
   * The Artifactory API host. It should be the fully qualified base URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/data-sources/artifactory_item#host DataEnosArtifactoryItem#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/data-sources/artifactory_item#host DataEnosArtifactoryItem#host}
   */
   readonly host: string;
   /**
   * The name of the artifact that you're looking for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/data-sources/artifactory_item#name DataEnosArtifactoryItem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/data-sources/artifactory_item#name DataEnosArtifactoryItem#name}
   */
   readonly name?: string;
   /**
   * The sub-path inside the Artifactory repository to search in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/data-sources/artifactory_item#path DataEnosArtifactoryItem#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/data-sources/artifactory_item#path DataEnosArtifactoryItem#path}
   */
   readonly path?: string;
   /**
   * A map of properties to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/data-sources/artifactory_item#properties DataEnosArtifactoryItem#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/data-sources/artifactory_item#properties DataEnosArtifactoryItem#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * An AQL query to run. When a 'query' is provided all search properties are ignored so you must write the a complete and valid items.find() query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/data-sources/artifactory_item#query_template DataEnosArtifactoryItem#query_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/data-sources/artifactory_item#query_template DataEnosArtifactoryItem#query_template}
   */
   readonly queryTemplate?: string;
   /**
   * The Artifactory repository you want to search in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/data-sources/artifactory_item#repo DataEnosArtifactoryItem#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/data-sources/artifactory_item#repo DataEnosArtifactoryItem#repo}
   */
   readonly repo?: string;
   /**
   * The Artifactory API Key token or identity token. API keys are deprecated so it is best to use an identity token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/data-sources/artifactory_item#token DataEnosArtifactoryItem#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/data-sources/artifactory_item#token DataEnosArtifactoryItem#token}
   */
   readonly token: string;
   /**
   * The Artifactory API Key user name. Depending on your login scheme this is likely an email address. If no username is provided we'll assume you wish to use an identity token for Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/data-sources/artifactory_item#username DataEnosArtifactoryItem#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/data-sources/artifactory_item#username DataEnosArtifactoryItem#username}
   */
   readonly username?: string;
 }
@@ -153,7 +153,7 @@ export class DataEnosArtifactoryItemResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/data-sources/artifactory_item enos_artifactory_item}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/data-sources/artifactory_item enos_artifactory_item}
 */
 export class DataEnosArtifactoryItem extends cdktf.TerraformDataSource {
 
@@ -169,7 +169,7 @@ export class DataEnosArtifactoryItem extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEnosArtifactoryItem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEnosArtifactoryItem to import
-  * @param importFromId The id of the existing DataEnosArtifactoryItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/data-sources/artifactory_item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEnosArtifactoryItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/data-sources/artifactory_item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEnosArtifactoryItem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class DataEnosArtifactoryItem extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.2/docs/data-sources/artifactory_item enos_artifactory_item} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp-forge/enos/0.6.3/docs/data-sources/artifactory_item enos_artifactory_item} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class DataEnosArtifactoryItem extends cdktf.TerraformDataSource {
       terraformResourceType: 'enos_artifactory_item',
       terraformGeneratorMetadata: {
         providerName: 'enos',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

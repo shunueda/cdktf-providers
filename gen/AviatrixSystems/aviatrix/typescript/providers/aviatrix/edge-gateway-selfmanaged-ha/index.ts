@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EdgeGatewaySelfmanagedHaConfig extends cdktf.TerraformMetaArgum
   /**
   * DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#dns_server_ip EdgeGatewaySelfmanagedHa#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#dns_server_ip EdgeGatewaySelfmanagedHa#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#id EdgeGatewaySelfmanagedHa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#id EdgeGatewaySelfmanagedHa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface EdgeGatewaySelfmanagedHaConfig extends cdktf.TerraformMetaArgum
   /**
   * Set of management egress gateway IP/prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#management_egress_ip_prefix_list EdgeGatewaySelfmanagedHa#management_egress_ip_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#management_egress_ip_prefix_list EdgeGatewaySelfmanagedHa#management_egress_ip_prefix_list}
   */
   readonly managementEgressIpPrefixList?: string[];
   /**
   * Primary gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#primary_gw_name EdgeGatewaySelfmanagedHa#primary_gw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#primary_gw_name EdgeGatewaySelfmanagedHa#primary_gw_name}
   */
   readonly primaryGwName: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#secondary_dns_server_ip EdgeGatewaySelfmanagedHa#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#secondary_dns_server_ip EdgeGatewaySelfmanagedHa#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#site_id EdgeGatewaySelfmanagedHa#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#site_id EdgeGatewaySelfmanagedHa#site_id}
   */
   readonly siteId: string;
   /**
   * The location where the ZTP file will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#ztp_file_download_path EdgeGatewaySelfmanagedHa#ztp_file_download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#ztp_file_download_path EdgeGatewaySelfmanagedHa#ztp_file_download_path}
   */
   readonly ztpFileDownloadPath: string;
   /**
   * ZTP file type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#ztp_file_type EdgeGatewaySelfmanagedHa#ztp_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#ztp_file_type EdgeGatewaySelfmanagedHa#ztp_file_type}
   */
   readonly ztpFileType: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#interfaces EdgeGatewaySelfmanagedHa#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#interfaces EdgeGatewaySelfmanagedHa#interfaces}
   */
   readonly interfaces: EdgeGatewaySelfmanagedHaInterfaces[] | cdktf.IResolvable;
 }
@@ -67,49 +67,61 @@ export interface EdgeGatewaySelfmanagedHaInterfaces {
   /**
   * Primary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#dns_server_ip EdgeGatewaySelfmanagedHa#dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#dns_server_ip EdgeGatewaySelfmanagedHa#dns_server_ip}
   */
   readonly dnsServerIp?: string;
   /**
   * Enable DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#enable_dhcp EdgeGatewaySelfmanagedHa#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#enable_dhcp EdgeGatewaySelfmanagedHa#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
   * Gateway IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#gateway_ip EdgeGatewaySelfmanagedHa#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#gateway_ip EdgeGatewaySelfmanagedHa#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
+  * Gateway IPv6 IP.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#gateway_ipv6 EdgeGatewaySelfmanagedHa#gateway_ipv6}
+  */
+  readonly gatewayIpv6?: string;
+  /**
   * Interface static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#ip_address EdgeGatewaySelfmanagedHa#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#ip_address EdgeGatewaySelfmanagedHa#ip_address}
   */
   readonly ipAddress?: string;
   /**
+  * Interface static IPv6 address.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#ipv6_address EdgeGatewaySelfmanagedHa#ipv6_address}
+  */
+  readonly ipv6Address?: string;
+  /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#name EdgeGatewaySelfmanagedHa#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#name EdgeGatewaySelfmanagedHa#name}
   */
   readonly name: string;
   /**
   * Secondary DNS server IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#secondary_dns_server_ip EdgeGatewaySelfmanagedHa#secondary_dns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#secondary_dns_server_ip EdgeGatewaySelfmanagedHa#secondary_dns_server_ip}
   */
   readonly secondaryDnsServerIp?: string;
   /**
   * Interface type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#type EdgeGatewaySelfmanagedHa#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#type EdgeGatewaySelfmanagedHa#type}
   */
   readonly type: string;
   /**
   * WAN interface public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#wan_public_ip EdgeGatewaySelfmanagedHa#wan_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#wan_public_ip EdgeGatewaySelfmanagedHa#wan_public_ip}
   */
   readonly wanPublicIp?: string;
 }
@@ -123,7 +135,9 @@ export function edgeGatewaySelfmanagedHaInterfacesToTerraform(struct?: EdgeGatew
     dns_server_ip: cdktf.stringToTerraform(struct!.dnsServerIp),
     enable_dhcp: cdktf.booleanToTerraform(struct!.enableDhcp),
     gateway_ip: cdktf.stringToTerraform(struct!.gatewayIp),
+    gateway_ipv6: cdktf.stringToTerraform(struct!.gatewayIpv6),
     ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+    ipv6_address: cdktf.stringToTerraform(struct!.ipv6Address),
     name: cdktf.stringToTerraform(struct!.name),
     secondary_dns_server_ip: cdktf.stringToTerraform(struct!.secondaryDnsServerIp),
     type: cdktf.stringToTerraform(struct!.type),
@@ -156,8 +170,20 @@ export function edgeGatewaySelfmanagedHaInterfacesToHclTerraform(struct?: EdgeGa
       type: "simple",
       storageClassType: "string",
     },
+    gateway_ipv6: {
+      value: cdktf.stringToHclTerraform(struct!.gatewayIpv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     ip_address: {
       value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ipv6_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6Address),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -224,9 +250,17 @@ export class EdgeGatewaySelfmanagedHaInterfacesOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.gatewayIp = this._gatewayIp;
     }
+    if (this._gatewayIpv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gatewayIpv6 = this._gatewayIpv6;
+    }
     if (this._ipAddress !== undefined) {
       hasAnyValues = true;
       internalValueResult.ipAddress = this._ipAddress;
+    }
+    if (this._ipv6Address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Address = this._ipv6Address;
     }
     if (this._name !== undefined) {
       hasAnyValues = true;
@@ -254,7 +288,9 @@ export class EdgeGatewaySelfmanagedHaInterfacesOutputReference extends cdktf.Com
       this._dnsServerIp = undefined;
       this._enableDhcp = undefined;
       this._gatewayIp = undefined;
+      this._gatewayIpv6 = undefined;
       this._ipAddress = undefined;
+      this._ipv6Address = undefined;
       this._name = undefined;
       this._secondaryDnsServerIp = undefined;
       this._type = undefined;
@@ -270,7 +306,9 @@ export class EdgeGatewaySelfmanagedHaInterfacesOutputReference extends cdktf.Com
       this._dnsServerIp = value.dnsServerIp;
       this._enableDhcp = value.enableDhcp;
       this._gatewayIp = value.gatewayIp;
+      this._gatewayIpv6 = value.gatewayIpv6;
       this._ipAddress = value.ipAddress;
+      this._ipv6Address = value.ipv6Address;
       this._name = value.name;
       this._secondaryDnsServerIp = value.secondaryDnsServerIp;
       this._type = value.type;
@@ -326,6 +364,22 @@ export class EdgeGatewaySelfmanagedHaInterfacesOutputReference extends cdktf.Com
     return this._gatewayIp;
   }
 
+  // gateway_ipv6 - computed: false, optional: true, required: false
+  private _gatewayIpv6?: string; 
+  public get gatewayIpv6() {
+    return this.getStringAttribute('gateway_ipv6');
+  }
+  public set gatewayIpv6(value: string) {
+    this._gatewayIpv6 = value;
+  }
+  public resetGatewayIpv6() {
+    this._gatewayIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gatewayIpv6Input() {
+    return this._gatewayIpv6;
+  }
+
   // ip_address - computed: false, optional: true, required: false
   private _ipAddress?: string; 
   public get ipAddress() {
@@ -340,6 +394,22 @@ export class EdgeGatewaySelfmanagedHaInterfacesOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get ipAddressInput() {
     return this._ipAddress;
+  }
+
+  // ipv6_address - computed: false, optional: true, required: false
+  private _ipv6Address?: string; 
+  public get ipv6Address() {
+    return this.getStringAttribute('ipv6_address');
+  }
+  public set ipv6Address(value: string) {
+    this._ipv6Address = value;
+  }
+  public resetIpv6Address() {
+    this._ipv6Address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6AddressInput() {
+    return this._ipv6Address;
   }
 
   // name - computed: false, optional: false, required: true
@@ -422,7 +492,7 @@ export class EdgeGatewaySelfmanagedHaInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha aviatrix_edge_gateway_selfmanaged_ha}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha aviatrix_edge_gateway_selfmanaged_ha}
 */
 export class EdgeGatewaySelfmanagedHa extends cdktf.TerraformResource {
 
@@ -438,7 +508,7 @@ export class EdgeGatewaySelfmanagedHa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeGatewaySelfmanagedHa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeGatewaySelfmanagedHa to import
-  * @param importFromId The id of the existing EdgeGatewaySelfmanagedHa that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeGatewaySelfmanagedHa that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeGatewaySelfmanagedHa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -450,7 +520,7 @@ export class EdgeGatewaySelfmanagedHa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/edge_gateway_selfmanaged_ha aviatrix_edge_gateway_selfmanaged_ha} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/edge_gateway_selfmanaged_ha aviatrix_edge_gateway_selfmanaged_ha} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -461,8 +531,8 @@ export class EdgeGatewaySelfmanagedHa extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_gateway_selfmanaged_ha',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

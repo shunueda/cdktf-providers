@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/tunnel
+// https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/tunnel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TunnelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether Peering HA is enabled. Valid inputs: true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/tunnel#enable_ha Tunnel#enable_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/tunnel#enable_ha Tunnel#enable_ha}
   */
   readonly enableHa?: boolean | cdktf.IResolvable;
   /**
   * The first VPC Container name to make a peer pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/tunnel#gw_name1 Tunnel#gw_name1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/tunnel#gw_name1 Tunnel#gw_name1}
   */
   readonly gwName1: string;
   /**
   * The second VPC Container name to make a peer pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/tunnel#gw_name2 Tunnel#gw_name2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/tunnel#gw_name2 Tunnel#gw_name2}
   */
   readonly gwName2: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/tunnel#id Tunnel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/tunnel#id Tunnel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface TunnelConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/tunnel aviatrix_tunnel}
+* Represents a {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/tunnel aviatrix_tunnel}
 */
 export class Tunnel extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class Tunnel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tunnel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tunnel to import
-  * @param importFromId The id of the existing Tunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/tunnel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/tunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tunnel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class Tunnel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.1.10/docs/resources/tunnel aviatrix_tunnel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aviatrixsystems/aviatrix/8.2.0/docs/resources/tunnel aviatrix_tunnel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class Tunnel extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10',
-        providerVersionConstraint: '8.1.10'
+        providerVersion: '8.2.0',
+        providerVersionConstraint: '8.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
