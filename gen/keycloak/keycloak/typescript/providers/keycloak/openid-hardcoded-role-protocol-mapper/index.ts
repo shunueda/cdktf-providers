@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_role_protocol_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_role_protocol_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OpenidHardcodedRoleProtocolMapperConfig extends cdktf.Terraform
   /**
   * The mapper's associated client. Cannot be used at the same time as client_scope_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_role_protocol_mapper#client_id OpenidHardcodedRoleProtocolMapper#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_role_protocol_mapper#client_id OpenidHardcodedRoleProtocolMapper#client_id}
   */
   readonly clientId?: string;
   /**
   * The mapper's associated client scope. Cannot be used at the same time as client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_role_protocol_mapper#client_scope_id OpenidHardcodedRoleProtocolMapper#client_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_role_protocol_mapper#client_scope_id OpenidHardcodedRoleProtocolMapper#client_scope_id}
   */
   readonly clientScopeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_role_protocol_mapper#id OpenidHardcodedRoleProtocolMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_role_protocol_mapper#id OpenidHardcodedRoleProtocolMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,23 +29,23 @@ export interface OpenidHardcodedRoleProtocolMapperConfig extends cdktf.Terraform
   /**
   * A human-friendly name that will appear in the Keycloak console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_role_protocol_mapper#name OpenidHardcodedRoleProtocolMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_role_protocol_mapper#name OpenidHardcodedRoleProtocolMapper#name}
   */
   readonly name: string;
   /**
   * The realm id where the associated client or client scope exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_role_protocol_mapper#realm_id OpenidHardcodedRoleProtocolMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_role_protocol_mapper#realm_id OpenidHardcodedRoleProtocolMapper#realm_id}
   */
   readonly realmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_role_protocol_mapper#role_id OpenidHardcodedRoleProtocolMapper#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_role_protocol_mapper#role_id OpenidHardcodedRoleProtocolMapper#role_id}
   */
   readonly roleId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_role_protocol_mapper keycloak_openid_hardcoded_role_protocol_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_role_protocol_mapper keycloak_openid_hardcoded_role_protocol_mapper}
 */
 export class OpenidHardcodedRoleProtocolMapper extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class OpenidHardcodedRoleProtocolMapper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenidHardcodedRoleProtocolMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenidHardcodedRoleProtocolMapper to import
-  * @param importFromId The id of the existing OpenidHardcodedRoleProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_role_protocol_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenidHardcodedRoleProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_role_protocol_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenidHardcodedRoleProtocolMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class OpenidHardcodedRoleProtocolMapper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_role_protocol_mapper keycloak_openid_hardcoded_role_protocol_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_role_protocol_mapper keycloak_openid_hardcoded_role_protocol_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class OpenidHardcodedRoleProtocolMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_openid_hardcoded_role_protocol_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

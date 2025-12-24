@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_user_policy
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_user_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface OpenidClientUserPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_user_policy#decision_strategy OpenidClientUserPolicy#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_user_policy#decision_strategy OpenidClientUserPolicy#decision_strategy}
   */
   readonly decisionStrategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_user_policy#description OpenidClientUserPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_user_policy#description OpenidClientUserPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_user_policy#id OpenidClientUserPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_user_policy#id OpenidClientUserPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_user_policy#logic OpenidClientUserPolicy#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_user_policy#logic OpenidClientUserPolicy#logic}
   */
   readonly logic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_user_policy#name OpenidClientUserPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_user_policy#name OpenidClientUserPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_user_policy#realm_id OpenidClientUserPolicy#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_user_policy#realm_id OpenidClientUserPolicy#realm_id}
   */
   readonly realmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_user_policy#resource_server_id OpenidClientUserPolicy#resource_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_user_policy#resource_server_id OpenidClientUserPolicy#resource_server_id}
   */
   readonly resourceServerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_user_policy#users OpenidClientUserPolicy#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_user_policy#users OpenidClientUserPolicy#users}
   */
   readonly users: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_user_policy keycloak_openid_client_user_policy}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_user_policy keycloak_openid_client_user_policy}
 */
 export class OpenidClientUserPolicy extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class OpenidClientUserPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenidClientUserPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenidClientUserPolicy to import
-  * @param importFromId The id of the existing OpenidClientUserPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_user_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenidClientUserPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_user_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenidClientUserPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class OpenidClientUserPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_user_policy keycloak_openid_client_user_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_user_policy keycloak_openid_client_user_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class OpenidClientUserPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_openid_client_user_policy',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

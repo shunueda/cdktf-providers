@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TwcK8SClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for K8S cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#description TwcK8SCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#description TwcK8SCluster#description}
   */
   readonly description?: string;
   /**
   * High Availability for K8S cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#high_availability TwcK8SCluster#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#high_availability TwcK8SCluster#high_availability}
   */
   readonly highAvailability?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#id TwcK8SCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#id TwcK8SCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface TwcK8SClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add ingress for K8S cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#ingress TwcK8SCluster#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#ingress TwcK8SCluster#ingress}
   */
   readonly ingress?: boolean | cdktf.IResolvable;
   /**
   * Name for K8S cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#name TwcK8SCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#name TwcK8SCluster#name}
   */
   readonly name: string;
   /**
   * Network driver for K8S cluster [may be retrieved from API](https://api.timeweb.cloud/api/v1/k8s/network_drivers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#network_driver TwcK8SCluster#network_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#network_driver TwcK8SCluster#network_driver}
   */
   readonly networkDriver: string;
   /**
   * ID of VPC for K8S cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#network_id TwcK8SCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#network_id TwcK8SCluster#network_id}
   */
   readonly networkId?: string;
   /**
   * Preset ID for nodes in group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#preset_id TwcK8SCluster#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#preset_id TwcK8SCluster#preset_id}
   */
   readonly presetId?: number;
   /**
   * Project ID for K8S cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#project_id TwcK8SCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#project_id TwcK8SCluster#project_id}
   */
   readonly projectId?: number;
   /**
   * K8S version [may be retrieved from API](https://api.timeweb.cloud/api/v1/k8s/k8s_versions). If your version is outdated, we will take the latest patch of provided version! You need to check your version after cluster installation!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#version TwcK8SCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#version TwcK8SCluster#version}
   */
   readonly version: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#configuration TwcK8SCluster#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#configuration TwcK8SCluster#configuration}
   */
   readonly configuration?: TwcK8SClusterConfiguration;
 }
@@ -79,25 +79,25 @@ export interface TwcK8SClusterConfiguration {
   /**
   * Configurator ID for creating nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#configurator_id TwcK8SCluster#configurator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#configurator_id TwcK8SCluster#configurator_id}
   */
   readonly configuratorId: number;
   /**
   * CPU count for node group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#cpu TwcK8SCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#cpu TwcK8SCluster#cpu}
   */
   readonly cpu: number;
   /**
   * Disk node group size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#disk TwcK8SCluster#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#disk TwcK8SCluster#disk}
   */
   readonly disk: number;
   /**
   * RAM node group worker size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#ram TwcK8SCluster#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#ram TwcK8SCluster#ram}
   */
   readonly ram: number;
 }
@@ -256,7 +256,7 @@ export class TwcK8SClusterConfigurationOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster twc_k8s_cluster}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster twc_k8s_cluster}
 */
 export class TwcK8SCluster extends cdktf.TerraformResource {
 
@@ -272,7 +272,7 @@ export class TwcK8SCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcK8SCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcK8SCluster to import
-  * @param importFromId The id of the existing TwcK8SCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcK8SCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcK8SCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -284,7 +284,7 @@ export class TwcK8SCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_cluster twc_k8s_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_cluster twc_k8s_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,8 +295,8 @@ export class TwcK8SCluster extends cdktf.TerraformResource {
       terraformResourceType: 'twc_k8s_cluster',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

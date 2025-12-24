@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateGoogleDocsPermissionsConfig extends cdktf.Ter
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#enabled WorkflowTaskCreateGoogleDocsPermissions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#enabled WorkflowTaskCreateGoogleDocsPermissions#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#id WorkflowTaskCreateGoogleDocsPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#id WorkflowTaskCreateGoogleDocsPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateGoogleDocsPermissionsConfig extends cdktf.Ter
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#name WorkflowTaskCreateGoogleDocsPermissions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#name WorkflowTaskCreateGoogleDocsPermissions#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#position WorkflowTaskCreateGoogleDocsPermissions#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#position WorkflowTaskCreateGoogleDocsPermissions#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#skip_on_failure WorkflowTaskCreateGoogleDocsPermissions#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#skip_on_failure WorkflowTaskCreateGoogleDocsPermissions#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#workflow_id WorkflowTaskCreateGoogleDocsPermissions#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#workflow_id WorkflowTaskCreateGoogleDocsPermissions#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#task_params WorkflowTaskCreateGoogleDocsPermissions#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#task_params WorkflowTaskCreateGoogleDocsPermissions#task_params}
   */
   readonly taskParams: WorkflowTaskCreateGoogleDocsPermissionsTaskParams;
 }
@@ -55,29 +55,29 @@ export interface WorkflowTaskCreateGoogleDocsPermissionsTaskParams {
   /**
   * Email message notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#email_message WorkflowTaskCreateGoogleDocsPermissions#email_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#email_message WorkflowTaskCreateGoogleDocsPermissions#email_message}
   */
   readonly emailMessage?: string;
   /**
   * The Google Doc file ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#file_id WorkflowTaskCreateGoogleDocsPermissions#file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#file_id WorkflowTaskCreateGoogleDocsPermissions#file_id}
   */
   readonly fileId: string;
   /**
   * Page permissions JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#permissions WorkflowTaskCreateGoogleDocsPermissions#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#permissions WorkflowTaskCreateGoogleDocsPermissions#permissions}
   */
   readonly permissions: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#send_notification_email WorkflowTaskCreateGoogleDocsPermissions#send_notification_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#send_notification_email WorkflowTaskCreateGoogleDocsPermissions#send_notification_email}
   */
   readonly sendNotificationEmail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#task_type WorkflowTaskCreateGoogleDocsPermissions#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#task_type WorkflowTaskCreateGoogleDocsPermissions#task_type}
   */
   readonly taskType?: string;
 }
@@ -271,7 +271,7 @@ export class WorkflowTaskCreateGoogleDocsPermissionsTaskParamsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions rootly_workflow_task_create_google_docs_permissions}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions rootly_workflow_task_create_google_docs_permissions}
 */
 export class WorkflowTaskCreateGoogleDocsPermissions extends cdktf.TerraformResource {
 
@@ -287,7 +287,7 @@ export class WorkflowTaskCreateGoogleDocsPermissions extends cdktf.TerraformReso
   * Generates CDKTF code for importing a WorkflowTaskCreateGoogleDocsPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateGoogleDocsPermissions to import
-  * @param importFromId The id of the existing WorkflowTaskCreateGoogleDocsPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateGoogleDocsPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateGoogleDocsPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -299,7 +299,7 @@ export class WorkflowTaskCreateGoogleDocsPermissions extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_permissions rootly_workflow_task_create_google_docs_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_google_docs_permissions rootly_workflow_task_create_google_docs_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,8 +310,8 @@ export class WorkflowTaskCreateGoogleDocsPermissions extends cdktf.TerraformReso
       terraformResourceType: 'rootly_workflow_task_create_google_docs_permissions',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

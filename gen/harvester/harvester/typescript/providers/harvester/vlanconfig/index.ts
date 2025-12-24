@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig
+// https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,70 +10,74 @@ export interface VlanconfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * mgmt is a built-in cluster network and does not support creating/updating network configs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#cluster_network_name Vlanconfig#cluster_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#cluster_network_name Vlanconfig#cluster_network_name}
   */
   readonly clusterNetworkName: string;
   /**
   * Any text you want that better describes this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#description Vlanconfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#description Vlanconfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#id Vlanconfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#id Vlanconfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#labels Vlanconfig#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
   * A unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#name Vlanconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#name Vlanconfig#name}
   */
   readonly name: string;
   /**
   * refer to https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#node_selector Vlanconfig#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#node_selector Vlanconfig#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#tags Vlanconfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#tags Vlanconfig#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#timeouts Vlanconfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#timeouts Vlanconfig#timeouts}
   */
   readonly timeouts?: VlanconfigTimeouts;
   /**
   * uplink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#uplink Vlanconfig#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#uplink Vlanconfig#uplink}
   */
   readonly uplink: VlanconfigUplink;
 }
 export interface VlanconfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#create Vlanconfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#create Vlanconfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#default Vlanconfig#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#default Vlanconfig#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#delete Vlanconfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#delete Vlanconfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#read Vlanconfig#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#read Vlanconfig#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#update Vlanconfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#update Vlanconfig#update}
   */
   readonly update?: string;
 }
@@ -285,19 +289,19 @@ export interface VlanconfigUplink {
   /**
   * refer to https://www.kernel.org/doc/Documentation/networking/bonding.txt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#bond_miimon Vlanconfig#bond_miimon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#bond_miimon Vlanconfig#bond_miimon}
   */
   readonly bondMiimon?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#bond_mode Vlanconfig#bond_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#bond_mode Vlanconfig#bond_mode}
   */
   readonly bondMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#mtu Vlanconfig#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#mtu Vlanconfig#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#nics Vlanconfig#nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#nics Vlanconfig#nics}
   */
   readonly nics: string[];
 }
@@ -465,7 +469,7 @@ export class VlanconfigUplinkOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig harvester_vlanconfig}
+* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig harvester_vlanconfig}
 */
 export class Vlanconfig extends cdktf.TerraformResource {
 
@@ -481,7 +485,7 @@ export class Vlanconfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vlanconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vlanconfig to import
-  * @param importFromId The id of the existing Vlanconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vlanconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vlanconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -493,7 +497,7 @@ export class Vlanconfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/vlanconfig harvester_vlanconfig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/vlanconfig harvester_vlanconfig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,8 +508,8 @@ export class Vlanconfig extends cdktf.TerraformResource {
       terraformResourceType: 'harvester_vlanconfig',
       terraformGeneratorMetadata: {
         providerName: 'harvester',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -518,6 +522,7 @@ export class Vlanconfig extends cdktf.TerraformResource {
     this._clusterNetworkName = config.clusterNetworkName;
     this._description = config.description;
     this._id = config.id;
+    this._labels = config.labels;
     this._name = config.name;
     this._nodeSelector = config.nodeSelector;
     this._tags = config.tags;
@@ -572,6 +577,22 @@ export class Vlanconfig extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
   }
 
   // matched_nodes - computed: true, optional: false, required: false
@@ -672,6 +693,7 @@ export class Vlanconfig extends cdktf.TerraformResource {
       cluster_network_name: cdktf.stringToTerraform(this._clusterNetworkName),
       description: cdktf.stringToTerraform(this._description),
       id: cdktf.stringToTerraform(this._id),
+      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
       name: cdktf.stringToTerraform(this._name),
       node_selector: cdktf.hashMapper(cdktf.stringToTerraform)(this._nodeSelector),
       tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
@@ -699,6 +721,12 @@ export class Vlanconfig extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      labels: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

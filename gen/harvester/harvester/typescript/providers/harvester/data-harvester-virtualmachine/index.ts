@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/virtualmachine
+// https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/virtualmachine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarvesterVirtualmachineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/virtualmachine#id DataHarvesterVirtualmachine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/virtualmachine#id DataHarvesterVirtualmachine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,11 +17,11 @@ export interface DataHarvesterVirtualmachineConfig extends cdktf.TerraformMetaAr
   /**
   * A unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/virtualmachine#name DataHarvesterVirtualmachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/virtualmachine#name DataHarvesterVirtualmachine#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/virtualmachine#namespace DataHarvesterVirtualmachine#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/virtualmachine#namespace DataHarvesterVirtualmachine#namespace}
   */
   readonly namespace?: string;
 }
@@ -547,7 +547,7 @@ export class DataHarvesterVirtualmachineTpmList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/virtualmachine harvester_virtualmachine}
+* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/virtualmachine harvester_virtualmachine}
 */
 export class DataHarvesterVirtualmachine extends cdktf.TerraformDataSource {
 
@@ -563,7 +563,7 @@ export class DataHarvesterVirtualmachine extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarvesterVirtualmachine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarvesterVirtualmachine to import
-  * @param importFromId The id of the existing DataHarvesterVirtualmachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/virtualmachine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarvesterVirtualmachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/virtualmachine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarvesterVirtualmachine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -575,7 +575,7 @@ export class DataHarvesterVirtualmachine extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/virtualmachine harvester_virtualmachine} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/virtualmachine harvester_virtualmachine} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -586,8 +586,8 @@ export class DataHarvesterVirtualmachine extends cdktf.TerraformDataSource {
       terraformResourceType: 'harvester_virtualmachine',
       terraformGeneratorMetadata: {
         providerName: 'harvester',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -670,6 +670,12 @@ export class DataHarvesterVirtualmachine extends cdktf.TerraformDataSource {
     return this.getBooleanAttribute('isolate_emulator_thread');
   }
 
+  // labels - computed: true, optional: false, required: false
+  private _labels = new cdktf.StringMap(this, "labels");
+  public get labels() {
+    return this._labels;
+  }
+
   // machine_type - computed: true, optional: false, required: false
   public get machineType() {
     return this.getStringAttribute('machine_type');
@@ -723,6 +729,12 @@ export class DataHarvesterVirtualmachine extends cdktf.TerraformDataSource {
   // node_name - computed: true, optional: false, required: false
   public get nodeName() {
     return this.getStringAttribute('node_name');
+  }
+
+  // node_selector - computed: true, optional: false, required: false
+  private _nodeSelector = new cdktf.StringMap(this, "node_selector");
+  public get nodeSelector() {
+    return this._nodeSelector;
   }
 
   // reserved_memory - computed: true, optional: false, required: false

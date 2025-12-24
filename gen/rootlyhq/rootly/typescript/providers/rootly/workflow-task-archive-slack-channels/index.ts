@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskArchiveSlackChannelsConfig extends cdktf.TerraformM
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels#enabled WorkflowTaskArchiveSlackChannels#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels#enabled WorkflowTaskArchiveSlackChannels#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels#id WorkflowTaskArchiveSlackChannels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels#id WorkflowTaskArchiveSlackChannels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskArchiveSlackChannelsConfig extends cdktf.TerraformM
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels#name WorkflowTaskArchiveSlackChannels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels#name WorkflowTaskArchiveSlackChannels#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels#position WorkflowTaskArchiveSlackChannels#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels#position WorkflowTaskArchiveSlackChannels#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels#skip_on_failure WorkflowTaskArchiveSlackChannels#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels#skip_on_failure WorkflowTaskArchiveSlackChannels#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels#workflow_id WorkflowTaskArchiveSlackChannels#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels#workflow_id WorkflowTaskArchiveSlackChannels#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels#task_params WorkflowTaskArchiveSlackChannels#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels#task_params WorkflowTaskArchiveSlackChannels#task_params}
   */
   readonly taskParams: WorkflowTaskArchiveSlackChannelsTaskParams;
 }
 export interface WorkflowTaskArchiveSlackChannelsTaskParamsChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels#id WorkflowTaskArchiveSlackChannels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels#id WorkflowTaskArchiveSlackChannels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels#name WorkflowTaskArchiveSlackChannels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels#name WorkflowTaskArchiveSlackChannels#name}
   */
   readonly name: string;
 }
@@ -199,13 +199,13 @@ export class WorkflowTaskArchiveSlackChannelsTaskParamsChannelsList extends cdkt
 }
 export interface WorkflowTaskArchiveSlackChannelsTaskParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels#task_type WorkflowTaskArchiveSlackChannels#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels#task_type WorkflowTaskArchiveSlackChannels#task_type}
   */
   readonly taskType?: string;
   /**
   * channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels#channels WorkflowTaskArchiveSlackChannels#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels#channels WorkflowTaskArchiveSlackChannels#channels}
   */
   readonly channels: WorkflowTaskArchiveSlackChannelsTaskParamsChannels[] | cdktf.IResolvable;
 }
@@ -315,7 +315,7 @@ export class WorkflowTaskArchiveSlackChannelsTaskParamsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels rootly_workflow_task_archive_slack_channels}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels rootly_workflow_task_archive_slack_channels}
 */
 export class WorkflowTaskArchiveSlackChannels extends cdktf.TerraformResource {
 
@@ -331,7 +331,7 @@ export class WorkflowTaskArchiveSlackChannels extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskArchiveSlackChannels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskArchiveSlackChannels to import
-  * @param importFromId The id of the existing WorkflowTaskArchiveSlackChannels that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskArchiveSlackChannels that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskArchiveSlackChannels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class WorkflowTaskArchiveSlackChannels extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_archive_slack_channels rootly_workflow_task_archive_slack_channels} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_archive_slack_channels rootly_workflow_task_archive_slack_channels} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,8 +354,8 @@ export class WorkflowTaskArchiveSlackChannels extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_archive_slack_channels',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

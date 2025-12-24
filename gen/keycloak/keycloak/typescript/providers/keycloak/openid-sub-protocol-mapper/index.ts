@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_sub_protocol_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_sub_protocol_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface OpenidSubProtocolMapperConfig extends cdktf.TerraformMetaArgume
   /**
   * Indicates if the attribute should be a claim in the access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_sub_protocol_mapper#add_to_access_token OpenidSubProtocolMapper#add_to_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_sub_protocol_mapper#add_to_access_token OpenidSubProtocolMapper#add_to_access_token}
   */
   readonly addToAccessToken?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the attribute should be a claim in the token introspection response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_sub_protocol_mapper#add_to_token_introspection OpenidSubProtocolMapper#add_to_token_introspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_sub_protocol_mapper#add_to_token_introspection OpenidSubProtocolMapper#add_to_token_introspection}
   */
   readonly addToTokenIntrospection?: boolean | cdktf.IResolvable;
   /**
   * The mapper's associated client. Cannot be used at the same time as client_scope_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_sub_protocol_mapper#client_id OpenidSubProtocolMapper#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_sub_protocol_mapper#client_id OpenidSubProtocolMapper#client_id}
   */
   readonly clientId?: string;
   /**
   * The mapper's associated client scope. Cannot be used at the same time as client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_sub_protocol_mapper#client_scope_id OpenidSubProtocolMapper#client_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_sub_protocol_mapper#client_scope_id OpenidSubProtocolMapper#client_scope_id}
   */
   readonly clientScopeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_sub_protocol_mapper#id OpenidSubProtocolMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_sub_protocol_mapper#id OpenidSubProtocolMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface OpenidSubProtocolMapperConfig extends cdktf.TerraformMetaArgume
   /**
   * A human-friendly name that will appear in the Keycloak console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_sub_protocol_mapper#name OpenidSubProtocolMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_sub_protocol_mapper#name OpenidSubProtocolMapper#name}
   */
   readonly name: string;
   /**
   * The realm id where the associated client or client scope exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_sub_protocol_mapper#realm_id OpenidSubProtocolMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_sub_protocol_mapper#realm_id OpenidSubProtocolMapper#realm_id}
   */
   readonly realmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_sub_protocol_mapper keycloak_openid_sub_protocol_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_sub_protocol_mapper keycloak_openid_sub_protocol_mapper}
 */
 export class OpenidSubProtocolMapper extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class OpenidSubProtocolMapper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenidSubProtocolMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenidSubProtocolMapper to import
-  * @param importFromId The id of the existing OpenidSubProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_sub_protocol_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenidSubProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_sub_protocol_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenidSubProtocolMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class OpenidSubProtocolMapper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_sub_protocol_mapper keycloak_openid_sub_protocol_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_sub_protocol_mapper keycloak_openid_sub_protocol_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class OpenidSubProtocolMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_openid_sub_protocol_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

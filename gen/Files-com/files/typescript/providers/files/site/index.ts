@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site
+// https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,883 +10,883 @@ export interface SiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Id of the currently selected custom SFTP Host Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#active_sftp_host_key_id Site#active_sftp_host_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#active_sftp_host_key_id Site#active_sftp_host_key_id}
   */
   readonly activeSftpHostKeyId?: number;
   /**
   * Additional extensions that are considered text files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#additional_text_file_types Site#additional_text_file_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#additional_text_file_types Site#additional_text_file_types}
   */
   readonly additionalTextFileTypes?: string[];
   /**
   * Allow admins to bypass the locked subfolders setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#admins_bypass_locked_subfolders Site#admins_bypass_locked_subfolders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#admins_bypass_locked_subfolders Site#admins_bypass_locked_subfolders}
   */
   readonly adminsBypassLockedSubfolders?: boolean | cdktf.IResolvable;
   /**
   * Are manual Bundle names allowed?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#allow_bundle_names Site#allow_bundle_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#allow_bundle_names Site#allow_bundle_names}
   */
   readonly allowBundleNames?: boolean | cdktf.IResolvable;
   /**
   * Are users allowed to configure their two factor authentication to be bypassed for FTP/SFTP/WebDAV?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#allowed_2fa_method_bypass_for_ftp_sftp_dav Site#allowed_2fa_method_bypass_for_ftp_sftp_dav}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#allowed_2fa_method_bypass_for_ftp_sftp_dav Site#allowed_2fa_method_bypass_for_ftp_sftp_dav}
   */
   readonly allowed2FaMethodBypassForFtpSftpDav?: boolean | cdktf.IResolvable;
   /**
   * Is OTP via email two factor authentication allowed?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#allowed_2fa_method_email Site#allowed_2fa_method_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#allowed_2fa_method_email Site#allowed_2fa_method_email}
   */
   readonly allowed2FaMethodEmail?: boolean | cdktf.IResolvable;
   /**
   * Is SMS two factor authentication allowed?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#allowed_2fa_method_sms Site#allowed_2fa_method_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#allowed_2fa_method_sms Site#allowed_2fa_method_sms}
   */
   readonly allowed2FaMethodSms?: boolean | cdktf.IResolvable;
   /**
   * Is OTP via static codes for two factor authentication allowed?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#allowed_2fa_method_static Site#allowed_2fa_method_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#allowed_2fa_method_static Site#allowed_2fa_method_static}
   */
   readonly allowed2FaMethodStatic?: boolean | cdktf.IResolvable;
   /**
   * Is TOTP two factor authentication allowed?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#allowed_2fa_method_totp Site#allowed_2fa_method_totp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#allowed_2fa_method_totp Site#allowed_2fa_method_totp}
   */
   readonly allowed2FaMethodTotp?: boolean | cdktf.IResolvable;
   /**
   * Is WebAuthn two factor authentication allowed?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#allowed_2fa_method_webauthn Site#allowed_2fa_method_webauthn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#allowed_2fa_method_webauthn Site#allowed_2fa_method_webauthn}
   */
   readonly allowed2FaMethodWebauthn?: boolean | cdktf.IResolvable;
   /**
   * Is yubikey two factor authentication allowed?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#allowed_2fa_method_yubi Site#allowed_2fa_method_yubi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#allowed_2fa_method_yubi Site#allowed_2fa_method_yubi}
   */
   readonly allowed2FaMethodYubi?: boolean | cdktf.IResolvable;
   /**
   * Comma separated list of allowed Country codes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#allowed_countries Site#allowed_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#allowed_countries Site#allowed_countries}
   */
   readonly allowedCountries?: string;
   /**
   * List of allowed IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#allowed_ips Site#allowed_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#allowed_ips Site#allowed_ips}
   */
   readonly allowedIps?: string;
   /**
   * Create parent directories if they do not exist during uploads?  This is primarily used to work around broken upload clients that assume servers will perform this step.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#always_mkdir_parents Site#always_mkdir_parents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#always_mkdir_parents Site#always_mkdir_parents}
   */
   readonly alwaysMkdirParents?: boolean | cdktf.IResolvable;
   /**
   * Number of days to retain AS2 messages (incoming and outgoing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#as2_message_retention_days Site#as2_message_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#as2_message_retention_days Site#as2_message_retention_days}
   */
   readonly as2MessageRetentionDays?: number;
   /**
   * If false, rename conflicting files instead of asking for overwrite confirmation.  Only applies to web interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ask_about_overwrites Site#ask_about_overwrites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ask_about_overwrites Site#ask_about_overwrites}
   */
   readonly askAboutOverwrites?: boolean | cdktf.IResolvable;
   /**
   * Do Bundle owners receive activity notifications?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_activity_notifications Site#bundle_activity_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_activity_notifications Site#bundle_activity_notifications}
   */
   readonly bundleActivityNotifications?: string;
   /**
   * Site-wide Bundle expiration in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_expiration Site#bundle_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_expiration Site#bundle_expiration}
   */
   readonly bundleExpiration?: number;
   /**
   * Custom error message to show when bundle is not found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_not_found_message Site#bundle_not_found_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_not_found_message Site#bundle_not_found_message}
   */
   readonly bundleNotFoundMessage?: string;
   /**
   * Do Bundles require password protection?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_password_required Site#bundle_password_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_password_required Site#bundle_password_required}
   */
   readonly bundlePasswordRequired?: boolean | cdktf.IResolvable;
   /**
   * List of email domains to disallow when entering a Bundle/Inbox recipients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_recipient_blacklist_domains Site#bundle_recipient_blacklist_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_recipient_blacklist_domains Site#bundle_recipient_blacklist_domains}
   */
   readonly bundleRecipientBlacklistDomains?: string[];
   /**
   * Disallow free email domains for Bundle/Inbox recipients?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_recipient_blacklist_free_email_domains Site#bundle_recipient_blacklist_free_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_recipient_blacklist_free_email_domains Site#bundle_recipient_blacklist_free_email_domains}
   */
   readonly bundleRecipientBlacklistFreeEmailDomains?: boolean | cdktf.IResolvable;
   /**
   * Do Bundle owners receive registration notification?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_registration_notifications Site#bundle_registration_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_registration_notifications Site#bundle_registration_notifications}
   */
   readonly bundleRegistrationNotifications?: string;
   /**
   * Do Bundles require internal notes?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_require_note Site#bundle_require_note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_require_note Site#bundle_require_note}
   */
   readonly bundleRequireNote?: boolean | cdktf.IResolvable;
   /**
   * Do Bundles require registration?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_require_registration Site#bundle_require_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_require_registration Site#bundle_require_registration}
   */
   readonly bundleRequireRegistration?: boolean | cdktf.IResolvable;
   /**
   * Do Bundles require recipients for sharing?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_require_share_recipient Site#bundle_require_share_recipient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_require_share_recipient Site#bundle_require_share_recipient}
   */
   readonly bundleRequireShareRecipient?: boolean | cdktf.IResolvable;
   /**
   * Do Bundle creators receive receipts of invitations?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_send_shared_receipts Site#bundle_send_shared_receipts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_send_shared_receipts Site#bundle_send_shared_receipts}
   */
   readonly bundleSendSharedReceipts?: boolean | cdktf.IResolvable;
   /**
   * Do Bundle uploaders receive upload confirmation notifications?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_upload_receipt_notifications Site#bundle_upload_receipt_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_upload_receipt_notifications Site#bundle_upload_receipt_notifications}
   */
   readonly bundleUploadReceiptNotifications?: string;
   /**
   * Preview watermark settings applied to all bundle items. Uses the same keys as Behavior.value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#bundle_watermark_value Site#bundle_watermark_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#bundle_watermark_value Site#bundle_watermark_value}
   */
   readonly bundleWatermarkValue?: { [key: string]: any };
   /**
   * Calculate CRC32 checksums for files?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#calculate_file_checksums_crc32 Site#calculate_file_checksums_crc32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#calculate_file_checksums_crc32 Site#calculate_file_checksums_crc32}
   */
   readonly calculateFileChecksumsCrc32?: boolean | cdktf.IResolvable;
   /**
   * Calculate MD5 checksums for files?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#calculate_file_checksums_md5 Site#calculate_file_checksums_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#calculate_file_checksums_md5 Site#calculate_file_checksums_md5}
   */
   readonly calculateFileChecksumsMd5?: boolean | cdktf.IResolvable;
   /**
   * Calculate SHA1 checksums for files?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#calculate_file_checksums_sha1 Site#calculate_file_checksums_sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#calculate_file_checksums_sha1 Site#calculate_file_checksums_sha1}
   */
   readonly calculateFileChecksumsSha1?: boolean | cdktf.IResolvable;
   /**
   * Calculate SHA256 checksums for files?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#calculate_file_checksums_sha256 Site#calculate_file_checksums_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#calculate_file_checksums_sha256 Site#calculate_file_checksums_sha256}
   */
   readonly calculateFileChecksumsSha256?: boolean | cdktf.IResolvable;
   /**
   * Page link and button color
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#color2_left Site#color2_left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#color2_left Site#color2_left}
   */
   readonly color2Left?: string;
   /**
   * Top bar link color
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#color2_link Site#color2_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#color2_link Site#color2_link}
   */
   readonly color2Link?: string;
   /**
   * Page link and button color
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#color2_text Site#color2_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#color2_text Site#color2_text}
   */
   readonly color2Text?: string;
   /**
   * Top bar background color
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#color2_top Site#color2_top}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#color2_top Site#color2_top}
   */
   readonly color2Top?: string;
   /**
   * Top bar text color
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#color2_top_text Site#color2_top_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#color2_top_text Site#color2_top_text}
   */
   readonly color2TopText?: string;
   /**
   * Is this site using a custom namespace for users?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#custom_namespace Site#custom_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#custom_namespace Site#custom_namespace}
   */
   readonly customNamespace?: boolean | cdktf.IResolvable;
   /**
   * Is WebDAV enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#dav_enabled Site#dav_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#dav_enabled Site#dav_enabled}
   */
   readonly davEnabled?: boolean | cdktf.IResolvable;
   /**
   * Use user FTP roots also for WebDAV?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#dav_user_root_enabled Site#dav_user_root_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#dav_user_root_enabled Site#dav_user_root_enabled}
   */
   readonly davUserRootEnabled?: boolean | cdktf.IResolvable;
   /**
   * Number of days to keep deleted files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#days_to_retain_backups Site#days_to_retain_backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#days_to_retain_backups Site#days_to_retain_backups}
   */
   readonly daysToRetainBackups?: number;
   /**
   * Site default time zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#default_time_zone Site#default_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#default_time_zone Site#default_time_zone}
   */
   readonly defaultTimeZone?: string;
   /**
   * Is the desktop app enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#desktop_app Site#desktop_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#desktop_app Site#desktop_app}
   */
   readonly desktopApp?: boolean | cdktf.IResolvable;
   /**
   * Is desktop app session IP pinning enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#desktop_app_session_ip_pinning Site#desktop_app_session_ip_pinning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#desktop_app_session_ip_pinning Site#desktop_app_session_ip_pinning}
   */
   readonly desktopAppSessionIpPinning?: boolean | cdktf.IResolvable;
   /**
   * Desktop app session lifetime (in hours)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#desktop_app_session_lifetime Site#desktop_app_session_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#desktop_app_session_lifetime Site#desktop_app_session_lifetime}
   */
   readonly desktopAppSessionLifetime?: number;
   /**
   * If set, Files.com will not set the CAA records required to generate future SSL certificates for this domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#disable_files_certificate_generation Site#disable_files_certificate_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#disable_files_certificate_generation Site#disable_files_certificate_generation}
   */
   readonly disableFilesCertificateGeneration?: boolean | cdktf.IResolvable;
   /**
   * Is password reset disabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#disable_password_reset Site#disable_password_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#disable_password_reset Site#disable_password_reset}
   */
   readonly disablePasswordReset?: boolean | cdktf.IResolvable;
   /**
   * Comma separated list of disallowed Country codes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#disallowed_countries Site#disallowed_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#disallowed_countries Site#disallowed_countries}
   */
   readonly disallowedCountries?: string;
   /**
   * If true, allow public viewers of Bundles with full permissions to use document editing integrations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#document_edits_in_bundle_allowed Site#document_edits_in_bundle_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#document_edits_in_bundle_allowed Site#document_edits_in_bundle_allowed}
   */
   readonly documentEditsInBundleAllowed?: boolean | cdktf.IResolvable;
   /**
   * Custom domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#domain Site#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#domain Site#domain}
   */
   readonly domain?: string;
   /**
   * Send HSTS (HTTP Strict Transport Security) header when visitors access the site via a custom domain?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#domain_hsts_header Site#domain_hsts_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#domain_hsts_header Site#domain_hsts_header}
   */
   readonly domainHstsHeader?: boolean | cdktf.IResolvable;
   /**
   * Letsencrypt chain to use when registering SSL Certificate for domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#domain_letsencrypt_chain Site#domain_letsencrypt_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#domain_letsencrypt_chain Site#domain_letsencrypt_chain}
   */
   readonly domainLetsencryptChain?: string;
   /**
   * Main email for this site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#email Site#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#email Site#email}
   */
   readonly email?: string;
   /**
   * Custom footer text for system-generated emails. Supports standard strftime date/time patterns like %Y (4-digit year), %m (month), %d (day).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#email_footer_custom_text Site#email_footer_custom_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#email_footer_custom_text Site#email_footer_custom_text}
   */
   readonly emailFooterCustomText?: string;
   /**
   * If true, permissions for this site must be bound to a group (not a user).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#folder_permissions_groups_only Site#folder_permissions_groups_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#folder_permissions_groups_only Site#folder_permissions_groups_only}
   */
   readonly folderPermissionsGroupsOnly?: boolean | cdktf.IResolvable;
   /**
   * Is FTP enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ftp_enabled Site#ftp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ftp_enabled Site#ftp_enabled}
   */
   readonly ftpEnabled?: boolean | cdktf.IResolvable;
   /**
   * Allow group admins set password authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#group_admins_can_set_user_password Site#group_admins_can_set_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#group_admins_can_set_user_password Site#group_admins_can_set_user_password}
   */
   readonly groupAdminsCanSetUserPassword?: boolean | cdktf.IResolvable;
   /**
   * Include password in emails to new users?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#include_password_in_welcome_email Site#include_password_in_welcome_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#include_password_in_welcome_email Site#include_password_in_welcome_email}
   */
   readonly includePasswordInWelcomeEmail?: boolean | cdktf.IResolvable;
   /**
   * Site default language
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#language Site#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#language Site#language}
   */
   readonly language?: string;
   /**
   * Base DN for looking up users in LDAP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_base_dn Site#ldap_base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_base_dn Site#ldap_base_dn}
   */
   readonly ldapBaseDn?: string;
   /**
   * Domain name that will be appended to usernames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_domain Site#ldap_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_domain Site#ldap_domain}
   */
   readonly ldapDomain?: string;
   /**
   * Main LDAP setting: is LDAP enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_enabled Site#ldap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_enabled Site#ldap_enabled}
   */
   readonly ldapEnabled?: boolean | cdktf.IResolvable;
   /**
   * Should we sync groups from LDAP server?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_group_action Site#ldap_group_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_group_action Site#ldap_group_action}
   */
   readonly ldapGroupAction?: string;
   /**
   * Comma or newline separated list of group names (with optional wildcards) to exclude when syncing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_group_exclusion Site#ldap_group_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_group_exclusion Site#ldap_group_exclusion}
   */
   readonly ldapGroupExclusion?: string;
   /**
   * Comma or newline separated list of group names (with optional wildcards) to include when syncing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_group_inclusion Site#ldap_group_inclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_group_inclusion Site#ldap_group_inclusion}
   */
   readonly ldapGroupInclusion?: string;
   /**
   * LDAP host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_host Site#ldap_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_host Site#ldap_host}
   */
   readonly ldapHost?: string;
   /**
   * LDAP backup host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_host_2 Site#ldap_host_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_host_2 Site#ldap_host_2}
   */
   readonly ldapHost2?: string;
   /**
   * LDAP backup host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_host_3 Site#ldap_host_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_host_3 Site#ldap_host_3}
   */
   readonly ldapHost3?: string;
   /**
   * LDAP port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_port Site#ldap_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_port Site#ldap_port}
   */
   readonly ldapPort?: number;
   /**
   * Use secure LDAP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_secure Site#ldap_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_secure Site#ldap_secure}
   */
   readonly ldapSecure?: boolean | cdktf.IResolvable;
   /**
   * LDAP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_type Site#ldap_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_type Site#ldap_type}
   */
   readonly ldapType?: string;
   /**
   * Should we sync users from LDAP server?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_user_action Site#ldap_user_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_user_action Site#ldap_user_action}
   */
   readonly ldapUserAction?: string;
   /**
   * Comma or newline separated list of group names (with optional wildcards) - if provided, only users in these groups will be added or synced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_user_include_groups Site#ldap_user_include_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_user_include_groups Site#ldap_user_include_groups}
   */
   readonly ldapUserIncludeGroups?: string;
   /**
   * Username for signing in to LDAP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_username Site#ldap_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_username Site#ldap_username}
   */
   readonly ldapUsername?: string;
   /**
   * LDAP username field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ldap_username_field Site#ldap_username_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ldap_username_field Site#ldap_username_field}
   */
   readonly ldapUsernameField?: string;
   /**
   * Use legacy checksums mode?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#legacy_checksums_mode Site#legacy_checksums_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#legacy_checksums_mode Site#legacy_checksums_mode}
   */
   readonly legacyChecksumsMode?: boolean | cdktf.IResolvable;
   /**
   * Login help text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#login_help_text Site#login_help_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#login_help_text Site#login_help_text}
   */
   readonly loginHelpText?: string;
   /**
   * Number of prior passwords to disallow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#max_prior_passwords Site#max_prior_passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#max_prior_passwords Site#max_prior_passwords}
   */
   readonly maxPriorPasswords?: number;
   /**
   * If true, we will migrate all remote server syncs to the new Sync model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#migrate_remote_server_sync_to_sync Site#migrate_remote_server_sync_to_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#migrate_remote_server_sync_to_sync Site#migrate_remote_server_sync_to_sync}
   */
   readonly migrateRemoteServerSyncToSync?: boolean | cdktf.IResolvable;
   /**
   * Is the mobile app enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#mobile_app Site#mobile_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#mobile_app Site#mobile_app}
   */
   readonly mobileApp?: boolean | cdktf.IResolvable;
   /**
   * Is mobile app session IP pinning enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#mobile_app_session_ip_pinning Site#mobile_app_session_ip_pinning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#mobile_app_session_ip_pinning Site#mobile_app_session_ip_pinning}
   */
   readonly mobileAppSessionIpPinning?: boolean | cdktf.IResolvable;
   /**
   * Mobile app session lifetime (in hours)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#mobile_app_session_lifetime Site#mobile_app_session_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#mobile_app_session_lifetime Site#mobile_app_session_lifetime}
   */
   readonly mobileAppSessionLifetime?: number;
   /**
   * A message to show users when they connect via FTP or SFTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#motd_text Site#motd_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#motd_text Site#motd_text}
   */
   readonly motdText?: string;
   /**
   * Show message to users connecting via FTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#motd_use_for_ftp Site#motd_use_for_ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#motd_use_for_ftp Site#motd_use_for_ftp}
   */
   readonly motdUseForFtp?: boolean | cdktf.IResolvable;
   /**
   * Show message to users connecting via SFTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#motd_use_for_sftp Site#motd_use_for_sftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#motd_use_for_sftp Site#motd_use_for_sftp}
   */
   readonly motdUseForSftp?: boolean | cdktf.IResolvable;
   /**
   * Site name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#name Site#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#name Site#name}
   */
   readonly name?: string;
   /**
   * If true, groups can be manually created / modified / deleted by Site Admins. Otherwise, groups can only be managed via your SSO provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#non_sso_groups_allowed Site#non_sso_groups_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#non_sso_groups_allowed Site#non_sso_groups_allowed}
   */
   readonly nonSsoGroupsAllowed?: boolean | cdktf.IResolvable;
   /**
   * If true, users can be manually created / modified / deleted by Site Admins. Otherwise, users can only be managed via your SSO provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#non_sso_users_allowed Site#non_sso_users_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#non_sso_users_allowed Site#non_sso_users_allowed}
   */
   readonly nonSsoUsersAllowed?: boolean | cdktf.IResolvable;
   /**
   * If true, allows users to use a document editing integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#office_integration_available Site#office_integration_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#office_integration_available Site#office_integration_available}
   */
   readonly officeIntegrationAvailable?: boolean | cdktf.IResolvable;
   /**
   * Which document editing integration to support. Files.com Editor or Microsoft Office for the Web.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#office_integration_type Site#office_integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#office_integration_type Site#office_integration_type}
   */
   readonly officeIntegrationType?: string;
   /**
   * Use servers in the USA only?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#opt_out_global Site#opt_out_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#opt_out_global Site#opt_out_global}
   */
   readonly optOutGlobal?: boolean | cdktf.IResolvable;
   /**
   * Shortest password length for users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#password_min_length Site#password_min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#password_min_length Site#password_min_length}
   */
   readonly passwordMinLength?: number;
   /**
   * Require a letter in passwords?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#password_require_letter Site#password_require_letter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#password_require_letter Site#password_require_letter}
   */
   readonly passwordRequireLetter?: boolean | cdktf.IResolvable;
   /**
   * Require lower and upper case letters in passwords?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#password_require_mixed Site#password_require_mixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#password_require_mixed Site#password_require_mixed}
   */
   readonly passwordRequireMixed?: boolean | cdktf.IResolvable;
   /**
   * Require a number in passwords?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#password_require_number Site#password_require_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#password_require_number Site#password_require_number}
   */
   readonly passwordRequireNumber?: boolean | cdktf.IResolvable;
   /**
   * Require special characters in password?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#password_require_special Site#password_require_special}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#password_require_special Site#password_require_special}
   */
   readonly passwordRequireSpecial?: boolean | cdktf.IResolvable;
   /**
   * Require passwords that have not been previously breached? (see https://haveibeenpwned.com/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#password_require_unbreached Site#password_require_unbreached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#password_require_unbreached Site#password_require_unbreached}
   */
   readonly passwordRequireUnbreached?: boolean | cdktf.IResolvable;
   /**
   * Require bundles' passwords, and passwords for other items (inboxes, public shares, etc.) to conform to the same requirements as users' passwords?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#password_requirements_apply_to_bundles Site#password_requirements_apply_to_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#password_requirements_apply_to_bundles Site#password_requirements_apply_to_bundles}
   */
   readonly passwordRequirementsApplyToBundles?: boolean | cdktf.IResolvable;
   /**
   * Number of days password is valid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#password_validity_days Site#password_validity_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#password_validity_days Site#password_validity_days}
   */
   readonly passwordValidityDays?: number;
   /**
   * If true, we will ensure that all internal communications with any remote server are made through the primary region of the site. This setting overrides individual remote server settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#pin_all_remote_servers_to_site_region Site#pin_all_remote_servers_to_site_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#pin_all_remote_servers_to_site_region Site#pin_all_remote_servers_to_site_region}
   */
   readonly pinAllRemoteServersToSiteRegion?: boolean | cdktf.IResolvable;
   /**
   * If true, we will prevent non-administrators from receiving any permissions directly on the root folder.  This is commonly used to prevent the accidental application of permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#prevent_root_permissions_for_non_site_admins Site#prevent_root_permissions_for_non_site_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#prevent_root_permissions_for_non_site_admins Site#prevent_root_permissions_for_non_site_admins}
   */
   readonly preventRootPermissionsForNonSiteAdmins?: boolean | cdktf.IResolvable;
   /**
   * If true, protocol access permissions on users will be ignored, and only protocol access permissions set on Groups will be honored.  Make sure that your current user is a member of a group with API permission when changing this value to avoid locking yourself out of your site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#protocol_access_groups_only Site#protocol_access_groups_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#protocol_access_groups_only Site#protocol_access_groups_only}
   */
   readonly protocolAccessGroupsOnly?: boolean | cdktf.IResolvable;
   /**
   * Reply-to email for this site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#reply_to_email Site#reply_to_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#reply_to_email Site#reply_to_email}
   */
   readonly replyToEmail?: string;
   /**
   * Require two-factor authentication for all users?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#require_2fa Site#require_2fa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#require_2fa Site#require_2fa}
   */
   readonly require2Fa?: boolean | cdktf.IResolvable;
   /**
   * What type of user is required to use two-factor authentication (when require_2fa is set to `true` for this site)?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#require_2fa_user_type Site#require_2fa_user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#require_2fa_user_type Site#require_2fa_user_type}
   */
   readonly require2FaUserType?: string;
   /**
   * If true, we will hide the 'Remember Me' box on Inbox and Bundle registration pages, requiring that the user logout and log back in every time they visit the page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#require_logout_from_bundles_and_inboxes Site#require_logout_from_bundles_and_inboxes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#require_logout_from_bundles_and_inboxes Site#require_logout_from_bundles_and_inboxes}
   */
   readonly requireLogoutFromBundlesAndInboxes?: boolean | cdktf.IResolvable;
   /**
   * Auto-removes bundles for disabled/deleted users and enforces bundle expiry within user access period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#revoke_bundle_access_on_disable_or_delete Site#revoke_bundle_access_on_disable_or_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#revoke_bundle_access_on_disable_or_delete Site#revoke_bundle_access_on_disable_or_delete}
   */
   readonly revokeBundleAccessOnDisableOrDelete?: boolean | cdktf.IResolvable;
   /**
   * Session expiry in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#session_expiry_minutes Site#session_expiry_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#session_expiry_minutes Site#session_expiry_minutes}
   */
   readonly sessionExpiryMinutes?: number;
   /**
   * Is SFTP enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#sftp_enabled Site#sftp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#sftp_enabled Site#sftp_enabled}
   */
   readonly sftpEnabled?: boolean | cdktf.IResolvable;
   /**
   * Sftp Host Key Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#sftp_host_key_type Site#sftp_host_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#sftp_host_key_type Site#sftp_host_key_type}
   */
   readonly sftpHostKeyType?: string;
   /**
   * If true, we will allow weak and known insecure ciphers to be used for SFTP connections.  Enabling this setting severely weakens the security of your site and it is not recommend, except as a last resort for compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#sftp_insecure_ciphers Site#sftp_insecure_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#sftp_insecure_ciphers Site#sftp_insecure_ciphers}
   */
   readonly sftpInsecureCiphers?: boolean | cdktf.IResolvable;
   /**
   * If true, we will allow weak Diffie Hellman parameters to be used within ciphers for SFTP that are otherwise on our secure list.  This has the effect of making the cipher weaker than our normal threshold for security, but is required to support certain legacy or broken SSH and MFT clients.  Enabling this weakens security, but not nearly as much as enabling the full `sftp_insecure_ciphers` option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#sftp_insecure_diffie_hellman Site#sftp_insecure_diffie_hellman}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#sftp_insecure_diffie_hellman Site#sftp_insecure_diffie_hellman}
   */
   readonly sftpInsecureDiffieHellman?: boolean | cdktf.IResolvable;
   /**
   * Use user FTP roots also for SFTP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#sftp_user_root_enabled Site#sftp_user_root_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#sftp_user_root_enabled Site#sftp_user_root_enabled}
   */
   readonly sftpUserRootEnabled?: boolean | cdktf.IResolvable;
   /**
   * Allow bundle creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#sharing_enabled Site#sharing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#sharing_enabled Site#sharing_enabled}
   */
   readonly sharingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Show request access link for users without access?  Currently unused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#show_request_access_link Site#show_request_access_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#show_request_access_link Site#show_request_access_link}
   */
   readonly showRequestAccessLink?: boolean | cdktf.IResolvable;
   /**
   * Show log in link in user notifications?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#show_user_notifications_log_in_link Site#show_user_notifications_log_in_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#show_user_notifications_log_in_link Site#show_user_notifications_log_in_link}
   */
   readonly showUserNotificationsLogInLink?: boolean | cdktf.IResolvable;
   /**
   * Custom site footer text for authenticated pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#site_footer Site#site_footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#site_footer Site#site_footer}
   */
   readonly siteFooter?: string;
   /**
   * Custom site header text for authenticated pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#site_header Site#site_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#site_header Site#site_header}
   */
   readonly siteHeader?: string;
   /**
   * Custom site footer text for public pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#site_public_footer Site#site_public_footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#site_public_footer Site#site_public_footer}
   */
   readonly sitePublicFooter?: string;
   /**
   * Custom site header text for public pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#site_public_header Site#site_public_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#site_public_header Site#site_public_header}
   */
   readonly sitePublicHeader?: string;
   /**
   * SMTP server hostname or IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#smtp_address Site#smtp_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#smtp_address Site#smtp_address}
   */
   readonly smtpAddress?: string;
   /**
   * SMTP server authentication type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#smtp_authentication Site#smtp_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#smtp_authentication Site#smtp_authentication}
   */
   readonly smtpAuthentication?: string;
   /**
   * From address to use when mailing through custom SMTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#smtp_from Site#smtp_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#smtp_from Site#smtp_from}
   */
   readonly smtpFrom?: string;
   /**
   * SMTP server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#smtp_port Site#smtp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#smtp_port Site#smtp_port}
   */
   readonly smtpPort?: number;
   /**
   * SMTP server username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#smtp_username Site#smtp_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#smtp_username Site#smtp_username}
   */
   readonly smtpUsername?: string;
   /**
   * Allow snapshot share links creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#snapshot_sharing_enabled Site#snapshot_sharing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#snapshot_sharing_enabled Site#snapshot_sharing_enabled}
   */
   readonly snapshotSharingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Is SSL required?  Disabling this is insecure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#ssl_required Site#ssl_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#ssl_required Site#ssl_required}
   */
   readonly sslRequired?: boolean | cdktf.IResolvable;
   /**
   * Site subdomain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#subdomain Site#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#subdomain Site#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Do incoming emails in the Inboxes require checking for SPF/DKIM/DMARC?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#uploads_via_email_authentication Site#uploads_via_email_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#uploads_via_email_authentication Site#uploads_via_email_authentication}
   */
   readonly uploadsViaEmailAuthentication?: boolean | cdktf.IResolvable;
   /**
   * If using custom SMTP, should we use dedicated IPs to deliver emails?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#use_dedicated_ips_for_smtp Site#use_dedicated_ips_for_smtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#use_dedicated_ips_for_smtp Site#use_dedicated_ips_for_smtp}
   */
   readonly useDedicatedIpsForSmtp?: boolean | cdktf.IResolvable;
   /**
   * Allow uploaders to set `provided_modified_at` for uploaded files?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#use_provided_modified_at Site#use_provided_modified_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#use_provided_modified_at Site#use_provided_modified_at}
   */
   readonly useProvidedModifiedAt?: boolean | cdktf.IResolvable;
   /**
   * Will users be locked out after incorrect login attempts?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#user_lockout Site#user_lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#user_lockout Site#user_lockout}
   */
   readonly userLockout?: boolean | cdktf.IResolvable;
   /**
   * How many hours to lock user out for failed password?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#user_lockout_lock_period Site#user_lockout_lock_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#user_lockout_lock_period Site#user_lockout_lock_period}
   */
   readonly userLockoutLockPeriod?: number;
   /**
   * Number of login tries within `user_lockout_within` hours before users are locked out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#user_lockout_tries Site#user_lockout_tries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#user_lockout_tries Site#user_lockout_tries}
   */
   readonly userLockoutTries?: number;
   /**
   * Number of hours for user lockout window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#user_lockout_within Site#user_lockout_within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#user_lockout_within Site#user_lockout_within}
   */
   readonly userLockoutWithin?: number;
   /**
   * Enable User Requests feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#user_requests_enabled Site#user_requests_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#user_requests_enabled Site#user_requests_enabled}
   */
   readonly userRequestsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Send email to site admins when a user request is received?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#user_requests_notify_admins Site#user_requests_notify_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#user_requests_notify_admins Site#user_requests_notify_admins}
   */
   readonly userRequestsNotifyAdmins?: boolean | cdktf.IResolvable;
   /**
   * Allow users to create their own API keys?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#users_can_create_api_keys Site#users_can_create_api_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#users_can_create_api_keys Site#users_can_create_api_keys}
   */
   readonly usersCanCreateApiKeys?: boolean | cdktf.IResolvable;
   /**
   * Allow users to create their own SSH keys?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#users_can_create_ssh_keys Site#users_can_create_ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#users_can_create_ssh_keys Site#users_can_create_ssh_keys}
   */
   readonly usersCanCreateSshKeys?: boolean | cdktf.IResolvable;
   /**
   * Custom text send in user welcome email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#welcome_custom_text Site#welcome_custom_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#welcome_custom_text Site#welcome_custom_text}
   */
   readonly welcomeCustomText?: string;
   /**
   * Include this email in welcome emails if enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#welcome_email_cc Site#welcome_email_cc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#welcome_email_cc Site#welcome_email_cc}
   */
   readonly welcomeEmailCc?: string;
   /**
   * Will the welcome email be sent to new users?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#welcome_email_enabled Site#welcome_email_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#welcome_email_enabled Site#welcome_email_enabled}
   */
   readonly welcomeEmailEnabled?: boolean | cdktf.IResolvable;
   /**
   * Include this email subject in welcome emails if enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#welcome_email_subject Site#welcome_email_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#welcome_email_subject Site#welcome_email_subject}
   */
   readonly welcomeEmailSubject?: string;
   /**
   * Does the welcome screen appear?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#welcome_screen Site#welcome_screen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#welcome_screen Site#welcome_screen}
   */
   readonly welcomeScreen?: string;
   /**
   * Does FTP user Windows emulation mode?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#windows_mode_ftp Site#windows_mode_ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#windows_mode_ftp Site#windows_mode_ftp}
   */
   readonly windowsModeFtp?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site files_site}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site files_site}
 */
 export class Site extends cdktf.TerraformResource {
 
@@ -902,7 +902,7 @@ export class Site extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Site resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Site to import
-  * @param importFromId The id of the existing Site that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Site that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Site to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -914,7 +914,7 @@ export class Site extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/site files_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/site files_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -925,8 +925,8 @@ export class Site extends cdktf.TerraformResource {
       terraformResourceType: 'files_site',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.419',
-        providerVersionConstraint: '0.1.419'
+        providerVersion: '0.1.420',
+        providerVersionConstraint: '0.1.420'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

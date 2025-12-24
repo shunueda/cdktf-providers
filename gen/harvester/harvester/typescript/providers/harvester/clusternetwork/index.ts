@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork
+// https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,52 +10,56 @@ export interface ClusternetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Any text you want that better describes this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork#description Clusternetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork#description Clusternetwork#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork#id Clusternetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork#id Clusternetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork#labels Clusternetwork#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
   * A unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork#name Clusternetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork#name Clusternetwork#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork#tags Clusternetwork#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork#tags Clusternetwork#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork#timeouts Clusternetwork#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork#timeouts Clusternetwork#timeouts}
   */
   readonly timeouts?: ClusternetworkTimeouts;
 }
 export interface ClusternetworkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork#create Clusternetwork#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork#create Clusternetwork#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork#default Clusternetwork#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork#default Clusternetwork#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork#delete Clusternetwork#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork#delete Clusternetwork#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork#read Clusternetwork#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork#read Clusternetwork#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork#update Clusternetwork#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork#update Clusternetwork#update}
   */
   readonly update?: string;
 }
@@ -265,7 +269,7 @@ export class ClusternetworkTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork harvester_clusternetwork}
+* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork harvester_clusternetwork}
 */
 export class Clusternetwork extends cdktf.TerraformResource {
 
@@ -281,7 +285,7 @@ export class Clusternetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Clusternetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Clusternetwork to import
-  * @param importFromId The id of the existing Clusternetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Clusternetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Clusternetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +297,7 @@ export class Clusternetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/clusternetwork harvester_clusternetwork} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/clusternetwork harvester_clusternetwork} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +308,8 @@ export class Clusternetwork extends cdktf.TerraformResource {
       terraformResourceType: 'harvester_clusternetwork',
       terraformGeneratorMetadata: {
         providerName: 'harvester',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -317,6 +321,7 @@ export class Clusternetwork extends cdktf.TerraformResource {
     });
     this._description = config.description;
     this._id = config.id;
+    this._labels = config.labels;
     this._name = config.name;
     this._tags = config.tags;
     this._timeouts.internalValue = config.timeouts;
@@ -356,6 +361,22 @@ export class Clusternetwork extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
   }
 
   // message - computed: true, optional: false, required: false
@@ -421,6 +442,7 @@ export class Clusternetwork extends cdktf.TerraformResource {
     return {
       description: cdktf.stringToTerraform(this._description),
       id: cdktf.stringToTerraform(this._id),
+      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
       name: cdktf.stringToTerraform(this._name),
       tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
       timeouts: clusternetworkTimeoutsToTerraform(this._timeouts.internalValue),
@@ -440,6 +462,12 @@ export class Clusternetwork extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      labels: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

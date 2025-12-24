@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/hardcoded_attribute_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/hardcoded_attribute_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HardcodedAttributeMapperConfig extends cdktf.TerraformMetaArgum
   /**
   * Name of the user schema attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/hardcoded_attribute_mapper#attribute_name HardcodedAttributeMapper#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/hardcoded_attribute_mapper#attribute_name HardcodedAttributeMapper#attribute_name}
   */
   readonly attributeName: string;
   /**
   * Value of the attribute. You can hardcode any value like 'foo'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/hardcoded_attribute_mapper#attribute_value HardcodedAttributeMapper#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/hardcoded_attribute_mapper#attribute_value HardcodedAttributeMapper#attribute_value}
   */
   readonly attributeValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/hardcoded_attribute_mapper#id HardcodedAttributeMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/hardcoded_attribute_mapper#id HardcodedAttributeMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface HardcodedAttributeMapperConfig extends cdktf.TerraformMetaArgum
   /**
   * The ldap user federation provider to attach this mapper to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/hardcoded_attribute_mapper#ldap_user_federation_id HardcodedAttributeMapper#ldap_user_federation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/hardcoded_attribute_mapper#ldap_user_federation_id HardcodedAttributeMapper#ldap_user_federation_id}
   */
   readonly ldapUserFederationId: string;
   /**
   * Display name of the mapper when displayed in the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/hardcoded_attribute_mapper#name HardcodedAttributeMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/hardcoded_attribute_mapper#name HardcodedAttributeMapper#name}
   */
   readonly name: string;
   /**
   * The realm in which the ldap user federation provider exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/hardcoded_attribute_mapper#realm_id HardcodedAttributeMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/hardcoded_attribute_mapper#realm_id HardcodedAttributeMapper#realm_id}
   */
   readonly realmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/hardcoded_attribute_mapper keycloak_hardcoded_attribute_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/hardcoded_attribute_mapper keycloak_hardcoded_attribute_mapper}
 */
 export class HardcodedAttributeMapper extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class HardcodedAttributeMapper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HardcodedAttributeMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HardcodedAttributeMapper to import
-  * @param importFromId The id of the existing HardcodedAttributeMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/hardcoded_attribute_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HardcodedAttributeMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/hardcoded_attribute_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HardcodedAttributeMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class HardcodedAttributeMapper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/hardcoded_attribute_mapper keycloak_hardcoded_attribute_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/hardcoded_attribute_mapper keycloak_hardcoded_attribute_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class HardcodedAttributeMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_hardcoded_attribute_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

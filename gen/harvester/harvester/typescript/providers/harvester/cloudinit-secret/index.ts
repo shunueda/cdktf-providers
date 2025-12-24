@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret
+// https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,72 +10,76 @@ export interface CloudinitSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Any text you want that better describes this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#description CloudinitSecret#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#description CloudinitSecret#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#id CloudinitSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#id CloudinitSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#labels CloudinitSecret#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
   * A unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#name CloudinitSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#name CloudinitSecret#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#namespace CloudinitSecret#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#namespace CloudinitSecret#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#network_data CloudinitSecret#network_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#network_data CloudinitSecret#network_data}
   */
   readonly networkData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#network_data_base64 CloudinitSecret#network_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#network_data_base64 CloudinitSecret#network_data_base64}
   */
   readonly networkDataBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#tags CloudinitSecret#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#tags CloudinitSecret#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#user_data CloudinitSecret#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#user_data CloudinitSecret#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#user_data_base64 CloudinitSecret#user_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#user_data_base64 CloudinitSecret#user_data_base64}
   */
   readonly userDataBase64?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#timeouts CloudinitSecret#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#timeouts CloudinitSecret#timeouts}
   */
   readonly timeouts?: CloudinitSecretTimeouts;
 }
 export interface CloudinitSecretTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#create CloudinitSecret#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#create CloudinitSecret#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#default CloudinitSecret#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#default CloudinitSecret#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#delete CloudinitSecret#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#delete CloudinitSecret#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#read CloudinitSecret#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#read CloudinitSecret#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#update CloudinitSecret#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#update CloudinitSecret#update}
   */
   readonly update?: string;
 }
@@ -285,7 +289,7 @@ export class CloudinitSecretTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret harvester_cloudinit_secret}
+* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret harvester_cloudinit_secret}
 */
 export class CloudinitSecret extends cdktf.TerraformResource {
 
@@ -301,7 +305,7 @@ export class CloudinitSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudinitSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudinitSecret to import
-  * @param importFromId The id of the existing CloudinitSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudinitSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudinitSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +317,7 @@ export class CloudinitSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/cloudinit_secret harvester_cloudinit_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/cloudinit_secret harvester_cloudinit_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,8 +328,8 @@ export class CloudinitSecret extends cdktf.TerraformResource {
       terraformResourceType: 'harvester_cloudinit_secret',
       terraformGeneratorMetadata: {
         providerName: 'harvester',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -337,6 +341,7 @@ export class CloudinitSecret extends cdktf.TerraformResource {
     });
     this._description = config.description;
     this._id = config.id;
+    this._labels = config.labels;
     this._name = config.name;
     this._namespace = config.namespace;
     this._networkData = config.networkData;
@@ -381,6 +386,22 @@ export class CloudinitSecret extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
   }
 
   // message - computed: true, optional: false, required: false
@@ -526,6 +547,7 @@ export class CloudinitSecret extends cdktf.TerraformResource {
     return {
       description: cdktf.stringToTerraform(this._description),
       id: cdktf.stringToTerraform(this._id),
+      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
       name: cdktf.stringToTerraform(this._name),
       namespace: cdktf.stringToTerraform(this._namespace),
       network_data: cdktf.stringToTerraform(this._networkData),
@@ -550,6 +572,12 @@ export class CloudinitSecret extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      labels: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

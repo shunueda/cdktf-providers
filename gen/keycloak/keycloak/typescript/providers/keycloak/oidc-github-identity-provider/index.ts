@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,93 +10,93 @@ export interface OidcGithubIdentityProviderConfig extends cdktf.TerraformMetaArg
   /**
   * Enable/disable if new users can read any stored tokens. This assigns the broker.read-token role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#add_read_token_role_on_create OidcGithubIdentityProvider#add_read_token_role_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#add_read_token_role_on_create OidcGithubIdentityProvider#add_read_token_role_on_create}
   */
   readonly addReadTokenRoleOnCreate?: boolean | cdktf.IResolvable;
   /**
   * The alias uniquely identifies an identity provider and it is also used to build the redirect uri. In case of github this is computed and always github
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#alias OidcGithubIdentityProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#alias OidcGithubIdentityProvider#alias}
   */
   readonly alias?: string;
   /**
   * API URL for the GitHub instance, defaults to https://api.github.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#api_url OidcGithubIdentityProvider#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#api_url OidcGithubIdentityProvider#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Enable/disable authenticate users by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#authenticate_by_default OidcGithubIdentityProvider#authenticate_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#authenticate_by_default OidcGithubIdentityProvider#authenticate_by_default}
   */
   readonly authenticateByDefault?: boolean | cdktf.IResolvable;
   /**
   * Base URL for the GitHub instance, defaults to https://github.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#base_url OidcGithubIdentityProvider#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#base_url OidcGithubIdentityProvider#base_url}
   */
   readonly baseUrl?: string;
   /**
   * Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#client_id OidcGithubIdentityProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#client_id OidcGithubIdentityProvider#client_id}
   */
   readonly clientId: string;
   /**
   * Client Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#client_secret OidcGithubIdentityProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#client_secret OidcGithubIdentityProvider#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The scopes to be sent when asking for authorization. See the documentation for possible values, separator and default value'. Default to 'user:email'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#default_scopes OidcGithubIdentityProvider#default_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#default_scopes OidcGithubIdentityProvider#default_scopes}
   */
   readonly defaultScopes?: string;
   /**
   * The human-friendly name of the identity provider, used in the log in form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#display_name OidcGithubIdentityProvider#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#display_name OidcGithubIdentityProvider#display_name}
   */
   readonly displayName?: string;
   /**
   * Enable/disable this identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#enabled OidcGithubIdentityProvider#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#enabled OidcGithubIdentityProvider#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#extra_config OidcGithubIdentityProvider#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#extra_config OidcGithubIdentityProvider#extra_config}
   */
   readonly extraConfig?: { [key: string]: string };
   /**
   * Alias of authentication flow, which is triggered after first login with this identity provider. Term 'First Login' means that there is not yet existing Keycloak account linked with the authenticated identity provider account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#first_broker_login_flow_alias OidcGithubIdentityProvider#first_broker_login_flow_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#first_broker_login_flow_alias OidcGithubIdentityProvider#first_broker_login_flow_alias}
   */
   readonly firstBrokerLoginFlowAlias?: string;
   /**
   * Whether GitHub API shoulds accept JSON explicitly during token authentication requests, defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#github_json_format OidcGithubIdentityProvider#github_json_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#github_json_format OidcGithubIdentityProvider#github_json_format}
   */
   readonly githubJsonFormat?: boolean | cdktf.IResolvable;
   /**
   * GUI Order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#gui_order OidcGithubIdentityProvider#gui_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#gui_order OidcGithubIdentityProvider#gui_order}
   */
   readonly guiOrder?: string;
   /**
   * Hide On Login Page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#hide_on_login_page OidcGithubIdentityProvider#hide_on_login_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#hide_on_login_page OidcGithubIdentityProvider#hide_on_login_page}
   */
   readonly hideOnLoginPage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#id OidcGithubIdentityProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#id OidcGithubIdentityProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,63 +105,63 @@ export interface OidcGithubIdentityProviderConfig extends cdktf.TerraformMetaArg
   /**
   * If true, users cannot log in through this provider.  They can only link to this provider.  This is useful if you don't want to allow login from the provider, but want to integrate with a provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#link_only OidcGithubIdentityProvider#link_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#link_only OidcGithubIdentityProvider#link_only}
   */
   readonly linkOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#org_domain OidcGithubIdentityProvider#org_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#org_domain OidcGithubIdentityProvider#org_domain}
   */
   readonly orgDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#org_redirect_mode_email_matches OidcGithubIdentityProvider#org_redirect_mode_email_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#org_redirect_mode_email_matches OidcGithubIdentityProvider#org_redirect_mode_email_matches}
   */
   readonly orgRedirectModeEmailMatches?: boolean | cdktf.IResolvable;
   /**
   * ID of organization with which this identity is linked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#organization_id OidcGithubIdentityProvider#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#organization_id OidcGithubIdentityProvider#organization_id}
   */
   readonly organizationId?: string;
   /**
   * Alias of authentication flow, which is triggered after each login with this identity provider. Useful if you want additional verification of each user authenticated with this identity provider (for example OTP). Leave this empty if you don't want any additional authenticators to be triggered after login with this identity provider. Also note, that authenticator implementations must assume that user is already set in ClientSession as identity provider already set it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#post_broker_login_flow_alias OidcGithubIdentityProvider#post_broker_login_flow_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#post_broker_login_flow_alias OidcGithubIdentityProvider#post_broker_login_flow_alias}
   */
   readonly postBrokerLoginFlowAlias?: string;
   /**
   * provider id, is always github, unless you have a extended custom implementation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#provider_id OidcGithubIdentityProvider#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#provider_id OidcGithubIdentityProvider#provider_id}
   */
   readonly providerId?: string;
   /**
   * Realm Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#realm OidcGithubIdentityProvider#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#realm OidcGithubIdentityProvider#realm}
   */
   readonly realm: string;
   /**
   * Enable/disable if tokens must be stored after authenticating users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#store_token OidcGithubIdentityProvider#store_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#store_token OidcGithubIdentityProvider#store_token}
   */
   readonly storeToken?: boolean | cdktf.IResolvable;
   /**
   * Sync Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#sync_mode OidcGithubIdentityProvider#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#sync_mode OidcGithubIdentityProvider#sync_mode}
   */
   readonly syncMode?: string;
   /**
   * If enabled then email provided by this provider is not verified even if verification is enabled for the realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#trust_email OidcGithubIdentityProvider#trust_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#trust_email OidcGithubIdentityProvider#trust_email}
   */
   readonly trustEmail?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider keycloak_oidc_github_identity_provider}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider keycloak_oidc_github_identity_provider}
 */
 export class OidcGithubIdentityProvider extends cdktf.TerraformResource {
 
@@ -177,7 +177,7 @@ export class OidcGithubIdentityProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OidcGithubIdentityProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OidcGithubIdentityProvider to import
-  * @param importFromId The id of the existing OidcGithubIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OidcGithubIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OidcGithubIdentityProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class OidcGithubIdentityProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_github_identity_provider keycloak_oidc_github_identity_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_github_identity_provider keycloak_oidc_github_identity_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class OidcGithubIdentityProvider extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_oidc_github_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

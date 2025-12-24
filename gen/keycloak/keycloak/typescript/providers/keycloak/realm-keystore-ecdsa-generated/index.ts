@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_ecdsa_generated
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_ecdsa_generated
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RealmKeystoreEcdsaGeneratedConfig extends cdktf.TerraformMetaAr
   /**
   * Set if the keys can be used for signing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_ecdsa_generated#active RealmKeystoreEcdsaGenerated#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_ecdsa_generated#active RealmKeystoreEcdsaGenerated#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Elliptic Curve used in ECDSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_ecdsa_generated#elliptic_curve_key RealmKeystoreEcdsaGenerated#elliptic_curve_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_ecdsa_generated#elliptic_curve_key RealmKeystoreEcdsaGenerated#elliptic_curve_key}
   */
   readonly ellipticCurveKey?: string;
   /**
   * Set if the keys are enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_ecdsa_generated#enabled RealmKeystoreEcdsaGenerated#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_ecdsa_generated#enabled RealmKeystoreEcdsaGenerated#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_ecdsa_generated#id RealmKeystoreEcdsaGenerated#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_ecdsa_generated#id RealmKeystoreEcdsaGenerated#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,23 +35,23 @@ export interface RealmKeystoreEcdsaGeneratedConfig extends cdktf.TerraformMetaAr
   /**
   * Display name of provider when linked in admin console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_ecdsa_generated#name RealmKeystoreEcdsaGenerated#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_ecdsa_generated#name RealmKeystoreEcdsaGenerated#name}
   */
   readonly name: string;
   /**
   * Priority for the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_ecdsa_generated#priority RealmKeystoreEcdsaGenerated#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_ecdsa_generated#priority RealmKeystoreEcdsaGenerated#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_ecdsa_generated#realm_id RealmKeystoreEcdsaGenerated#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_ecdsa_generated#realm_id RealmKeystoreEcdsaGenerated#realm_id}
   */
   readonly realmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_ecdsa_generated keycloak_realm_keystore_ecdsa_generated}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_ecdsa_generated keycloak_realm_keystore_ecdsa_generated}
 */
 export class RealmKeystoreEcdsaGenerated extends cdktf.TerraformResource {
 
@@ -67,7 +67,7 @@ export class RealmKeystoreEcdsaGenerated extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RealmKeystoreEcdsaGenerated resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RealmKeystoreEcdsaGenerated to import
-  * @param importFromId The id of the existing RealmKeystoreEcdsaGenerated that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_ecdsa_generated#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RealmKeystoreEcdsaGenerated that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_ecdsa_generated#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RealmKeystoreEcdsaGenerated to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class RealmKeystoreEcdsaGenerated extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_ecdsa_generated keycloak_realm_keystore_ecdsa_generated} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_ecdsa_generated keycloak_realm_keystore_ecdsa_generated} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class RealmKeystoreEcdsaGenerated extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_realm_keystore_ecdsa_generated',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

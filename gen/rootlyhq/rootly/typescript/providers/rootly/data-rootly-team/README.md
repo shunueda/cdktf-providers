@@ -1,3 +1,3 @@
 # `data_rootly_team`
 
-Refer to the Terraform Registry for docs: [`data_rootly_team`](https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/team).
+Refer to the Terraform Registry for docs: [`data_rootly_team`](https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/team).

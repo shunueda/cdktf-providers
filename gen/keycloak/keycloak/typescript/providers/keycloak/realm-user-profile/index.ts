@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface RealmUserProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#id RealmUserProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#id RealmUserProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#realm_id RealmUserProfile#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#realm_id RealmUserProfile#realm_id}
   */
   readonly realmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#unmanaged_attribute_policy RealmUserProfile#unmanaged_attribute_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#unmanaged_attribute_policy RealmUserProfile#unmanaged_attribute_policy}
   */
   readonly unmanagedAttributePolicy?: string;
   /**
   * attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#attribute RealmUserProfile#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#attribute RealmUserProfile#attribute}
   */
   readonly attribute?: RealmUserProfileAttribute[] | cdktf.IResolvable;
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#group RealmUserProfile#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#group RealmUserProfile#group}
   */
   readonly group?: RealmUserProfileGroup[] | cdktf.IResolvable;
 }
 export interface RealmUserProfileAttributePermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#edit RealmUserProfile#edit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#edit RealmUserProfile#edit}
   */
   readonly edit: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#view RealmUserProfile#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#view RealmUserProfile#view}
   */
   readonly view: string[];
 }
@@ -148,11 +148,11 @@ export class RealmUserProfileAttributePermissionsOutputReference extends cdktf.C
 }
 export interface RealmUserProfileAttributeValidator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#config RealmUserProfile#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#config RealmUserProfile#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#name RealmUserProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#name RealmUserProfile#name}
   */
   readonly name: string;
 }
@@ -294,47 +294,47 @@ export class RealmUserProfileAttributeValidatorList extends cdktf.ComplexList {
 }
 export interface RealmUserProfileAttribute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#annotations RealmUserProfile#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#annotations RealmUserProfile#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#display_name RealmUserProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#display_name RealmUserProfile#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#enabled_when_scope RealmUserProfile#enabled_when_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#enabled_when_scope RealmUserProfile#enabled_when_scope}
   */
   readonly enabledWhenScope?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#group RealmUserProfile#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#group RealmUserProfile#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#multi_valued RealmUserProfile#multi_valued}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#multi_valued RealmUserProfile#multi_valued}
   */
   readonly multiValued?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#name RealmUserProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#name RealmUserProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#required_for_roles RealmUserProfile#required_for_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#required_for_roles RealmUserProfile#required_for_roles}
   */
   readonly requiredForRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#required_for_scopes RealmUserProfile#required_for_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#required_for_scopes RealmUserProfile#required_for_scopes}
   */
   readonly requiredForScopes?: string[];
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#permissions RealmUserProfile#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#permissions RealmUserProfile#permissions}
   */
   readonly permissions?: RealmUserProfileAttributePermissions;
   /**
   * validator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#validator RealmUserProfile#validator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#validator RealmUserProfile#validator}
   */
   readonly validator?: RealmUserProfileAttributeValidator[] | cdktf.IResolvable;
 }
@@ -708,19 +708,19 @@ export class RealmUserProfileAttributeList extends cdktf.ComplexList {
 }
 export interface RealmUserProfileGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#annotations RealmUserProfile#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#annotations RealmUserProfile#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#display_description RealmUserProfile#display_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#display_description RealmUserProfile#display_description}
   */
   readonly displayDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#display_header RealmUserProfile#display_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#display_header RealmUserProfile#display_header}
   */
   readonly displayHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#name RealmUserProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#name RealmUserProfile#name}
   */
   readonly name: string;
 }
@@ -920,7 +920,7 @@ export class RealmUserProfileGroupList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile keycloak_realm_user_profile}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile keycloak_realm_user_profile}
 */
 export class RealmUserProfile extends cdktf.TerraformResource {
 
@@ -936,7 +936,7 @@ export class RealmUserProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RealmUserProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RealmUserProfile to import
-  * @param importFromId The id of the existing RealmUserProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RealmUserProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RealmUserProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -948,7 +948,7 @@ export class RealmUserProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_user_profile keycloak_realm_user_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_user_profile keycloak_realm_user_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -959,8 +959,8 @@ export class RealmUserProfile extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_realm_user_profile',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

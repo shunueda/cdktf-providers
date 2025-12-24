@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ScheduleRotationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Schedule rotation active all week?. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#active_all_week ScheduleRotation#active_all_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#active_all_week ScheduleRotation#active_all_week}
   */
   readonly activeAllWeek?: boolean | cdktf.IResolvable;
   /**
   * Value must be one of `S`, `M`, `T`, `W`, `R`, `F`, `U`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#active_days ScheduleRotation#active_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#active_days ScheduleRotation#active_days}
   */
   readonly activeDays?: string[];
   /**
   * Value must be one of `all_day`, `same_time`, or `custom`. The value chosen will override `active_time_attributes` in any `rootly_schedule_rotation_active_day` resources linked to this `rootly_schedule_rotation`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#active_time_type ScheduleRotation#active_time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#active_time_type ScheduleRotation#active_time_type}
   */
   readonly activeTimeType?: string;
   /**
   * ISO8601 date and time when rotation ends. Shifts will only be created before this time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#end_time ScheduleRotation#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#end_time ScheduleRotation#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#id ScheduleRotation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#id ScheduleRotation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface ScheduleRotationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the schedule rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#name ScheduleRotation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#name ScheduleRotation#name}
   */
   readonly name: string;
   /**
   * Position of the schedule rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#position ScheduleRotation#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#position ScheduleRotation#position}
   */
   readonly position?: number;
   /**
   * The ID of parent schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#schedule_id ScheduleRotation#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#schedule_id ScheduleRotation#schedule_id}
   */
   readonly scheduleId: string;
   /**
   * handoff_time and/or handoff_day may be required, depending on schedule_rotationable_type. Please see API docs for options based on schedule_rotationable_type: https://docs.rootly.com/api-reference/schedulerotations/creates-a-schedule-rotation#response-data-attributes-schedule-rotationable-attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#schedule_rotationable_attributes ScheduleRotation#schedule_rotationable_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#schedule_rotationable_attributes ScheduleRotation#schedule_rotationable_attributes}
   */
   readonly scheduleRotationableAttributes: { [key: string]: string };
   /**
   * Schedule rotation type. Value must be one of `ScheduleDailyRotation`, `ScheduleWeeklyRotation`, `ScheduleBiweeklyRotation`, `ScheduleMonthlyRotation`, `ScheduleCustomRotation`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#schedule_rotationable_type ScheduleRotation#schedule_rotationable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#schedule_rotationable_type ScheduleRotation#schedule_rotationable_type}
   */
   readonly scheduleRotationableType?: string;
   /**
   * ISO8601 date and time when rotation starts. Shifts will only be created after this time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#start_time ScheduleRotation#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#start_time ScheduleRotation#start_time}
   */
   readonly startTime?: string;
   /**
   * A valid IANA time zone name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#time_zone ScheduleRotation#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#time_zone ScheduleRotation#time_zone}
   */
   readonly timeZone?: string;
   /**
   * active_time_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#active_time_attributes ScheduleRotation#active_time_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#active_time_attributes ScheduleRotation#active_time_attributes}
   */
   readonly activeTimeAttributes?: ScheduleRotationActiveTimeAttributes[] | cdktf.IResolvable;
   /**
   * schedule_rotation_members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#schedule_rotation_members ScheduleRotation#schedule_rotation_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#schedule_rotation_members ScheduleRotation#schedule_rotation_members}
   */
   readonly scheduleRotationMembers?: ScheduleRotationScheduleRotationMembers[] | cdktf.IResolvable;
 }
@@ -97,13 +97,13 @@ export interface ScheduleRotationActiveTimeAttributes {
   /**
   * End time for schedule rotation active time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#end_time ScheduleRotation#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#end_time ScheduleRotation#end_time}
   */
   readonly endTime?: string;
   /**
   * Start time for schedule rotation active time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#start_time ScheduleRotation#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#start_time ScheduleRotation#start_time}
   */
   readonly startTime?: string;
 }
@@ -250,19 +250,19 @@ export interface ScheduleRotationScheduleRotationMembers {
   /**
   * ID of the member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#member_id ScheduleRotation#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#member_id ScheduleRotation#member_id}
   */
   readonly memberId?: string;
   /**
   * Type of member. Value must be one of `Schedule` or `User`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#member_type ScheduleRotation#member_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#member_type ScheduleRotation#member_type}
   */
   readonly memberType?: string;
   /**
   * Position of the member in rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#position ScheduleRotation#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#position ScheduleRotation#position}
   */
   readonly position?: number;
 }
@@ -436,7 +436,7 @@ export class ScheduleRotationScheduleRotationMembersList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation rootly_schedule_rotation}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation rootly_schedule_rotation}
 */
 export class ScheduleRotation extends cdktf.TerraformResource {
 
@@ -452,7 +452,7 @@ export class ScheduleRotation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScheduleRotation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScheduleRotation to import
-  * @param importFromId The id of the existing ScheduleRotation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScheduleRotation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScheduleRotation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -464,7 +464,7 @@ export class ScheduleRotation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule_rotation rootly_schedule_rotation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule_rotation rootly_schedule_rotation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -475,8 +475,8 @@ export class ScheduleRotation extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_schedule_rotation',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

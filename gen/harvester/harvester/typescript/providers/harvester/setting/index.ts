@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting
+// https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,60 @@ export interface SettingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Any text you want that better describes this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting#description Setting#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#description Setting#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting#id Setting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#id Setting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#labels Setting#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
   * A unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting#name Setting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#name Setting#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting#tags Setting#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#tags Setting#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting#value Setting#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#value Setting#value}
   */
   readonly value?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting#timeouts Setting#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#timeouts Setting#timeouts}
   */
   readonly timeouts?: SettingTimeouts;
 }
 export interface SettingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting#create Setting#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#create Setting#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting#default Setting#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#default Setting#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting#delete Setting#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#delete Setting#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting#read Setting#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#read Setting#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting#update Setting#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#update Setting#update}
   */
   readonly update?: string;
 }
@@ -269,7 +273,7 @@ export class SettingTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting harvester_setting}
+* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting harvester_setting}
 */
 export class Setting extends cdktf.TerraformResource {
 
@@ -285,7 +289,7 @@ export class Setting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Setting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Setting to import
-  * @param importFromId The id of the existing Setting that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Setting that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Setting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -297,7 +301,7 @@ export class Setting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/setting harvester_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/setting harvester_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -308,8 +312,8 @@ export class Setting extends cdktf.TerraformResource {
       terraformResourceType: 'harvester_setting',
       terraformGeneratorMetadata: {
         providerName: 'harvester',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -321,6 +325,7 @@ export class Setting extends cdktf.TerraformResource {
     });
     this._description = config.description;
     this._id = config.id;
+    this._labels = config.labels;
     this._name = config.name;
     this._tags = config.tags;
     this._value = config.value;
@@ -361,6 +366,22 @@ export class Setting extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
   }
 
   // message - computed: true, optional: false, required: false
@@ -442,6 +463,7 @@ export class Setting extends cdktf.TerraformResource {
     return {
       description: cdktf.stringToTerraform(this._description),
       id: cdktf.stringToTerraform(this._id),
+      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
       name: cdktf.stringToTerraform(this._name),
       tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
       value: cdktf.stringToTerraform(this._value),
@@ -462,6 +484,12 @@ export class Setting extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      labels: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

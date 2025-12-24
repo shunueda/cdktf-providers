@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/workflow_group
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/workflow_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface DataRootlyWorkflowGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/workflow_group#expanded DataRootlyWorkflowGroup#expanded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/workflow_group#expanded DataRootlyWorkflowGroup#expanded}
   */
   readonly expanded?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/workflow_group#kind DataRootlyWorkflowGroup#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/workflow_group#kind DataRootlyWorkflowGroup#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/workflow_group#name DataRootlyWorkflowGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/workflow_group#name DataRootlyWorkflowGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/workflow_group#position DataRootlyWorkflowGroup#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/workflow_group#position DataRootlyWorkflowGroup#position}
   */
   readonly position?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/workflow_group#slug DataRootlyWorkflowGroup#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/workflow_group#slug DataRootlyWorkflowGroup#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/workflow_group rootly_workflow_group}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/workflow_group rootly_workflow_group}
 */
 export class DataRootlyWorkflowGroup extends cdktf.TerraformDataSource {
 
@@ -46,7 +46,7 @@ export class DataRootlyWorkflowGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyWorkflowGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyWorkflowGroup to import
-  * @param importFromId The id of the existing DataRootlyWorkflowGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/workflow_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyWorkflowGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/workflow_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyWorkflowGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class DataRootlyWorkflowGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/workflow_group rootly_workflow_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/workflow_group rootly_workflow_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class DataRootlyWorkflowGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_workflow_group',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

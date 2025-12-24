@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,33 @@ export interface RealmKeystoreRsaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set if the keys can be used for signing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa#active RealmKeystoreRsa#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa#active RealmKeystoreRsa#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Intended algorithm for the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa#algorithm RealmKeystoreRsa#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa#algorithm RealmKeystoreRsa#algorithm}
   */
   readonly algorithm?: string;
   /**
   * X509 Certificate encoded in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa#certificate RealmKeystoreRsa#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa#certificate RealmKeystoreRsa#certificate}
   */
   readonly certificate: string;
   /**
   * Set if the keys are enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa#enabled RealmKeystoreRsa#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa#enabled RealmKeystoreRsa#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa#id RealmKeystoreRsa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa#extra_config RealmKeystoreRsa#extra_config}
+  */
+  readonly extraConfig?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa#id RealmKeystoreRsa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,35 +45,35 @@ export interface RealmKeystoreRsaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Display name of provider when linked in admin console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa#name RealmKeystoreRsa#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa#name RealmKeystoreRsa#name}
   */
   readonly name: string;
   /**
   * Priority for the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa#priority RealmKeystoreRsa#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa#priority RealmKeystoreRsa#priority}
   */
   readonly priority?: number;
   /**
   * Private RSA Key encoded in PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa#private_key RealmKeystoreRsa#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa#private_key RealmKeystoreRsa#private_key}
   */
   readonly privateKey: string;
   /**
   * RSA key provider id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa#provider_id RealmKeystoreRsa#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa#provider_id RealmKeystoreRsa#provider_id}
   */
   readonly providerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa#realm_id RealmKeystoreRsa#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa#realm_id RealmKeystoreRsa#realm_id}
   */
   readonly realmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa keycloak_realm_keystore_rsa}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa keycloak_realm_keystore_rsa}
 */
 export class RealmKeystoreRsa extends cdktf.TerraformResource {
 
@@ -85,7 +89,7 @@ export class RealmKeystoreRsa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RealmKeystoreRsa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RealmKeystoreRsa to import
-  * @param importFromId The id of the existing RealmKeystoreRsa that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RealmKeystoreRsa that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RealmKeystoreRsa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +101,7 @@ export class RealmKeystoreRsa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_rsa keycloak_realm_keystore_rsa} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_rsa keycloak_realm_keystore_rsa} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +112,8 @@ export class RealmKeystoreRsa extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_realm_keystore_rsa',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -123,6 +127,7 @@ export class RealmKeystoreRsa extends cdktf.TerraformResource {
     this._algorithm = config.algorithm;
     this._certificate = config.certificate;
     this._enabled = config.enabled;
+    this._extraConfig = config.extraConfig;
     this._id = config.id;
     this._name = config.name;
     this._priority = config.priority;
@@ -194,6 +199,22 @@ export class RealmKeystoreRsa extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get enabledInput() {
     return this._enabled;
+  }
+
+  // extra_config - computed: false, optional: true, required: false
+  private _extraConfig?: { [key: string]: string }; 
+  public get extraConfig() {
+    return this.getStringMapAttribute('extra_config');
+  }
+  public set extraConfig(value: { [key: string]: string }) {
+    this._extraConfig = value;
+  }
+  public resetExtraConfig() {
+    this._extraConfig = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get extraConfigInput() {
+    return this._extraConfig;
   }
 
   // id - computed: true, optional: true, required: false
@@ -293,6 +314,7 @@ export class RealmKeystoreRsa extends cdktf.TerraformResource {
       algorithm: cdktf.stringToTerraform(this._algorithm),
       certificate: cdktf.stringToTerraform(this._certificate),
       enabled: cdktf.booleanToTerraform(this._enabled),
+      extra_config: cdktf.hashMapper(cdktf.stringToTerraform)(this._extraConfig),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       priority: cdktf.numberToTerraform(this._priority),
@@ -327,6 +349,12 @@ export class RealmKeystoreRsa extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      extra_config: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._extraConfig),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface TwcLbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Algorithm for balancing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#algo TwcLb#algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#algo TwcLb#algo}
   */
   readonly algo?: string;
   /**
   * Availability zone for load balancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#availability_zone TwcLb#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#availability_zone TwcLb#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Client timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#client_timeout TwcLb#client_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#client_timeout TwcLb#client_timeout}
   */
   readonly clientTimeout?: number;
   /**
   * Connection timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#connect_timeout TwcLb#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#connect_timeout TwcLb#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * Floating IP ID for server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#floating_ip_id TwcLb#floating_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#floating_ip_id TwcLb#floating_ip_id}
   */
   readonly floatingIpId?: string;
   /**
   * Http request timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#httprequest_timeout TwcLb#httprequest_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#httprequest_timeout TwcLb#httprequest_timeout}
   */
   readonly httprequestTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#id TwcLb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#id TwcLb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,73 +53,73 @@ export interface TwcLbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Backends IPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#ips TwcLb#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#ips TwcLb#ips}
   */
   readonly ips?: string[];
   /**
   * Keep alive connection from balancer to backend server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#is_keepalive TwcLb#is_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#is_keepalive TwcLb#is_keepalive}
   */
   readonly isKeepalive?: boolean | cdktf.IResolvable;
   /**
   * Automatic redirect HTTP to HTTPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#is_ssl TwcLb#is_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#is_ssl TwcLb#is_ssl}
   */
   readonly isSsl?: boolean | cdktf.IResolvable;
   /**
   * Save user session for balancing to same backend server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#is_sticky TwcLb#is_sticky}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#is_sticky TwcLb#is_sticky}
   */
   readonly isSticky?: boolean | cdktf.IResolvable;
   /**
   * Use PROXY-protocol for communicating with backend server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#is_use_proxy TwcLb#is_use_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#is_use_proxy TwcLb#is_use_proxy}
   */
   readonly isUseProxy?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of connections to backend server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#maxconn TwcLb#maxconn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#maxconn TwcLb#maxconn}
   */
   readonly maxconn?: number;
   /**
   * Name for balancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#name TwcLb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#name TwcLb#name}
   */
   readonly name: string;
   /**
   * Preset ID for balancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#preset_id TwcLb#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#preset_id TwcLb#preset_id}
   */
   readonly presetId: number;
   /**
   * Project ID for created balancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#project_id TwcLb#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#project_id TwcLb#project_id}
   */
   readonly projectId?: number;
   /**
   * Server timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#server_timeout TwcLb#server_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#server_timeout TwcLb#server_timeout}
   */
   readonly serverTimeout?: number;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#health_check TwcLb#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#health_check TwcLb#health_check}
   */
   readonly healthCheck?: TwcLbHealthCheck;
   /**
   * local_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#local_network TwcLb#local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#local_network TwcLb#local_network}
   */
   readonly localNetwork?: TwcLbLocalNetwork;
 }
@@ -127,43 +127,43 @@ export interface TwcLbHealthCheck {
   /**
   * Error requests count threshold for active backend health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#fall TwcLb#fall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#fall TwcLb#fall}
   */
   readonly fall?: number;
   /**
   * Interval in seconds for active backend health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#inter TwcLb#inter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#inter TwcLb#inter}
   */
   readonly inter?: number;
   /**
   * Path for active backend health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#path TwcLb#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#path TwcLb#path}
   */
   readonly path?: string;
   /**
   * TCP port for active backend health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#port TwcLb#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#port TwcLb#port}
   */
   readonly port?: number;
   /**
   * Protocol for active backend health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#proto TwcLb#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#proto TwcLb#proto}
   */
   readonly proto?: string;
   /**
   * Success requests count threshold for active backend health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#rise TwcLb#rise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#rise TwcLb#rise}
   */
   readonly rise?: number;
   /**
   * Timeout for active backend health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#timeout TwcLb#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#timeout TwcLb#timeout}
   */
   readonly timeout?: number;
 }
@@ -423,7 +423,7 @@ export interface TwcLbLocalNetwork {
   /**
   * ID of VPC for assign address from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#id TwcLb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#id TwcLb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -432,7 +432,7 @@ export interface TwcLbLocalNetwork {
   /**
   * Address in VPC subnetwork for manual assign
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#ip TwcLb#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#ip TwcLb#ip}
   */
   readonly ip?: string;
 }
@@ -542,7 +542,7 @@ export class TwcLbLocalNetworkOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb twc_lb}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb twc_lb}
 */
 export class TwcLb extends cdktf.TerraformResource {
 
@@ -558,7 +558,7 @@ export class TwcLb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcLb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcLb to import
-  * @param importFromId The id of the existing TwcLb that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcLb that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcLb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -570,7 +570,7 @@ export class TwcLb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_lb twc_lb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_lb twc_lb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -581,8 +581,8 @@ export class TwcLb extends cdktf.TerraformResource {
       terraformResourceType: 'twc_lb',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

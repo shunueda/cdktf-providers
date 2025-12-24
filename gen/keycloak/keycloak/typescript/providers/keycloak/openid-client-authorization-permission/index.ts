@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface OpenidClientAuthorizationPermissionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission#decision_strategy OpenidClientAuthorizationPermission#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission#decision_strategy OpenidClientAuthorizationPermission#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission#description OpenidClientAuthorizationPermission#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission#description OpenidClientAuthorizationPermission#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission#id OpenidClientAuthorizationPermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission#id OpenidClientAuthorizationPermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission#name OpenidClientAuthorizationPermission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission#name OpenidClientAuthorizationPermission#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission#policies OpenidClientAuthorizationPermission#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission#policies OpenidClientAuthorizationPermission#policies}
   */
   readonly policies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission#realm_id OpenidClientAuthorizationPermission#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission#realm_id OpenidClientAuthorizationPermission#realm_id}
   */
   readonly realmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission#resource_server_id OpenidClientAuthorizationPermission#resource_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission#resource_server_id OpenidClientAuthorizationPermission#resource_server_id}
   */
   readonly resourceServerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission#resource_type OpenidClientAuthorizationPermission#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission#resource_type OpenidClientAuthorizationPermission#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission#resources OpenidClientAuthorizationPermission#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission#resources OpenidClientAuthorizationPermission#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission#scopes OpenidClientAuthorizationPermission#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission#scopes OpenidClientAuthorizationPermission#scopes}
   */
   readonly scopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission#type OpenidClientAuthorizationPermission#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission#type OpenidClientAuthorizationPermission#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission keycloak_openid_client_authorization_permission}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission keycloak_openid_client_authorization_permission}
 */
 export class OpenidClientAuthorizationPermission extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class OpenidClientAuthorizationPermission extends cdktf.TerraformResource
   * Generates CDKTF code for importing a OpenidClientAuthorizationPermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenidClientAuthorizationPermission to import
-  * @param importFromId The id of the existing OpenidClientAuthorizationPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenidClientAuthorizationPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenidClientAuthorizationPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class OpenidClientAuthorizationPermission extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_authorization_permission keycloak_openid_client_authorization_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_authorization_permission keycloak_openid_client_authorization_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class OpenidClientAuthorizationPermission extends cdktf.TerraformResource
       terraformResourceType: 'keycloak_openid_client_authorization_permission',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

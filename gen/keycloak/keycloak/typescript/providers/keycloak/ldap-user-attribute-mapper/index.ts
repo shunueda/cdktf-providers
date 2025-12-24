@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LdapUserAttributeMapperConfig extends cdktf.TerraformMetaArgume
   /**
   * When true, the value fetched from LDAP will override the value stored in Keycloak.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#always_read_value_from_ldap LdapUserAttributeMapper#always_read_value_from_ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#always_read_value_from_ldap LdapUserAttributeMapper#always_read_value_from_ldap}
   */
   readonly alwaysReadValueFromLdap?: boolean | cdktf.IResolvable;
   /**
   * Default value to set in LDAP if is_mandatory_in_ldap and the value is empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#attribute_default_value LdapUserAttributeMapper#attribute_default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#attribute_default_value LdapUserAttributeMapper#attribute_default_value}
   */
   readonly attributeDefaultValue?: string;
   /**
   * When true, an empty default value is forced for mandatory attributes even when a default value is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#attribute_force_default LdapUserAttributeMapper#attribute_force_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#attribute_force_default LdapUserAttributeMapper#attribute_force_default}
   */
   readonly attributeForceDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#id LdapUserAttributeMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#id LdapUserAttributeMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface LdapUserAttributeMapperConfig extends cdktf.TerraformMetaArgume
   /**
   * Should be true for binary LDAP attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#is_binary_attribute LdapUserAttributeMapper#is_binary_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#is_binary_attribute LdapUserAttributeMapper#is_binary_attribute}
   */
   readonly isBinaryAttribute?: boolean | cdktf.IResolvable;
   /**
   * When true, this attribute must exist in LDAP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#is_mandatory_in_ldap LdapUserAttributeMapper#is_mandatory_in_ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#is_mandatory_in_ldap LdapUserAttributeMapper#is_mandatory_in_ldap}
   */
   readonly isMandatoryInLdap?: boolean | cdktf.IResolvable;
   /**
   * Name of the mapped attribute on LDAP object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#ldap_attribute LdapUserAttributeMapper#ldap_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#ldap_attribute LdapUserAttributeMapper#ldap_attribute}
   */
   readonly ldapAttribute: string;
   /**
   * The ldap user federation provider to attach this mapper to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#ldap_user_federation_id LdapUserAttributeMapper#ldap_user_federation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#ldap_user_federation_id LdapUserAttributeMapper#ldap_user_federation_id}
   */
   readonly ldapUserFederationId: string;
   /**
   * Display name of the mapper when displayed in the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#name LdapUserAttributeMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#name LdapUserAttributeMapper#name}
   */
   readonly name: string;
   /**
   * When true, this attribute is not saved back to LDAP when the user attribute is updated in Keycloak.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#read_only LdapUserAttributeMapper#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#read_only LdapUserAttributeMapper#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * The realm in which the ldap user federation provider exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#realm_id LdapUserAttributeMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#realm_id LdapUserAttributeMapper#realm_id}
   */
   readonly realmId: string;
   /**
   * Name of the UserModel property or attribute you want to map the LDAP attribute into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#user_model_attribute LdapUserAttributeMapper#user_model_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#user_model_attribute LdapUserAttributeMapper#user_model_attribute}
   */
   readonly userModelAttribute: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper keycloak_ldap_user_attribute_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper keycloak_ldap_user_attribute_mapper}
 */
 export class LdapUserAttributeMapper extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class LdapUserAttributeMapper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LdapUserAttributeMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LdapUserAttributeMapper to import
-  * @param importFromId The id of the existing LdapUserAttributeMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LdapUserAttributeMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LdapUserAttributeMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class LdapUserAttributeMapper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_attribute_mapper keycloak_ldap_user_attribute_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_attribute_mapper keycloak_ldap_user_attribute_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class LdapUserAttributeMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_ldap_user_attribute_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

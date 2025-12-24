@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer
+// https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LoadbalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Any text you want that better describes this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#description Loadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#description Loadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#id Loadbalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#id Loadbalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,71 @@ export interface LoadbalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Where the load balancer gets its IP address from. Can be `dhcp` or `pool`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#ipam Loadbalancer#ipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#ipam Loadbalancer#ipam}
   */
   readonly ipam?: string;
   /**
   * Which IP pool to get the IP address from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#ippool Loadbalancer#ippool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#ippool Loadbalancer#ippool}
   */
   readonly ippool?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#labels Loadbalancer#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
   * A unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#name Loadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#name Loadbalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#namespace Loadbalancer#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#namespace Loadbalancer#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#tags Loadbalancer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#tags Loadbalancer#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Can be `vm` or `cluster`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#workload_type Loadbalancer#workload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#workload_type Loadbalancer#workload_type}
   */
   readonly workloadType?: string;
   /**
   * backend_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#backend_selector Loadbalancer#backend_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#backend_selector Loadbalancer#backend_selector}
   */
   readonly backendSelector?: LoadbalancerBackendSelector[] | cdktf.IResolvable;
   /**
   * healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#healthcheck Loadbalancer#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#healthcheck Loadbalancer#healthcheck}
   */
   readonly healthcheck?: LoadbalancerHealthcheck;
   /**
   * listener block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#listener Loadbalancer#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#listener Loadbalancer#listener}
   */
   readonly listener: LoadbalancerListener[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#timeouts Loadbalancer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#timeouts Loadbalancer#timeouts}
   */
   readonly timeouts?: LoadbalancerTimeouts;
 }
 export interface LoadbalancerBackendSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#key Loadbalancer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#key Loadbalancer#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#values Loadbalancer#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#values Loadbalancer#values}
   */
   readonly values: string[];
 }
@@ -222,23 +226,23 @@ export class LoadbalancerBackendSelectorList extends cdktf.ComplexList {
 }
 export interface LoadbalancerHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#failure_threshold Loadbalancer#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#failure_threshold Loadbalancer#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#period_seconds Loadbalancer#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#period_seconds Loadbalancer#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#port Loadbalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#port Loadbalancer#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#success_threshold Loadbalancer#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#success_threshold Loadbalancer#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#timeout_seconds Loadbalancer#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#timeout_seconds Loadbalancer#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -435,19 +439,19 @@ export class LoadbalancerHealthcheckOutputReference extends cdktf.ComplexObject 
 }
 export interface LoadbalancerListener {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#backend_port Loadbalancer#backend_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#backend_port Loadbalancer#backend_port}
   */
   readonly backendPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#name Loadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#name Loadbalancer#name}
   */
-  readonly name?: string;
+  readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#port Loadbalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#port Loadbalancer#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#protocol Loadbalancer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#protocol Loadbalancer#protocol}
   */
   readonly protocol: string;
 }
@@ -577,16 +581,13 @@ export class LoadbalancerListenerOutputReference extends cdktf.ComplexObject {
     return this._backendPort;
   }
 
-  // name - computed: false, optional: true, required: false
+  // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
   public set name(value: string) {
     this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
@@ -641,23 +642,23 @@ export class LoadbalancerListenerList extends cdktf.ComplexList {
 }
 export interface LoadbalancerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#create Loadbalancer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#create Loadbalancer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#default Loadbalancer#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#default Loadbalancer#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#delete Loadbalancer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#delete Loadbalancer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#read Loadbalancer#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#read Loadbalancer#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#update Loadbalancer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#update Loadbalancer#update}
   */
   readonly update?: string;
 }
@@ -867,7 +868,7 @@ export class LoadbalancerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer harvester_loadbalancer}
+* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer harvester_loadbalancer}
 */
 export class Loadbalancer extends cdktf.TerraformResource {
 
@@ -883,7 +884,7 @@ export class Loadbalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Loadbalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Loadbalancer to import
-  * @param importFromId The id of the existing Loadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Loadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Loadbalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -895,7 +896,7 @@ export class Loadbalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/loadbalancer harvester_loadbalancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/loadbalancer harvester_loadbalancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -906,8 +907,8 @@ export class Loadbalancer extends cdktf.TerraformResource {
       terraformResourceType: 'harvester_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'harvester',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -921,6 +922,7 @@ export class Loadbalancer extends cdktf.TerraformResource {
     this._id = config.id;
     this._ipam = config.ipam;
     this._ippool = config.ippool;
+    this._labels = config.labels;
     this._name = config.name;
     this._namespace = config.namespace;
     this._tags = config.tags;
@@ -967,6 +969,11 @@ export class Loadbalancer extends cdktf.TerraformResource {
     return this._id;
   }
 
+  // ip_address - computed: true, optional: false, required: false
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+
   // ipam - computed: false, optional: true, required: false
   private _ipam?: string; 
   public get ipam() {
@@ -997,6 +1004,22 @@ export class Loadbalancer extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ippoolInput() {
     return this._ippool;
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
   }
 
   // message - computed: true, optional: false, required: false
@@ -1141,6 +1164,7 @@ export class Loadbalancer extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       ipam: cdktf.stringToTerraform(this._ipam),
       ippool: cdktf.stringToTerraform(this._ippool),
+      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
       name: cdktf.stringToTerraform(this._name),
       namespace: cdktf.stringToTerraform(this._namespace),
       tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
@@ -1177,6 +1201,12 @@ export class Loadbalancer extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      labels: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

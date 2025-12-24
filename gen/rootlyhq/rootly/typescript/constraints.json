@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "rootly": "5.2.0"
+    "rootly": "5.2.1"
   }
 }

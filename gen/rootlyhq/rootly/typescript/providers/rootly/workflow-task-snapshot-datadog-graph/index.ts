@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskSnapshotDatadogGraphConfig extends cdktf.TerraformM
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#enabled WorkflowTaskSnapshotDatadogGraph#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#enabled WorkflowTaskSnapshotDatadogGraph#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#id WorkflowTaskSnapshotDatadogGraph#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#id WorkflowTaskSnapshotDatadogGraph#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskSnapshotDatadogGraphConfig extends cdktf.TerraformM
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#name WorkflowTaskSnapshotDatadogGraph#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#name WorkflowTaskSnapshotDatadogGraph#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#position WorkflowTaskSnapshotDatadogGraph#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#position WorkflowTaskSnapshotDatadogGraph#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#skip_on_failure WorkflowTaskSnapshotDatadogGraph#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#skip_on_failure WorkflowTaskSnapshotDatadogGraph#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#workflow_id WorkflowTaskSnapshotDatadogGraph#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#workflow_id WorkflowTaskSnapshotDatadogGraph#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#task_params WorkflowTaskSnapshotDatadogGraph#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#task_params WorkflowTaskSnapshotDatadogGraph#task_params}
   */
   readonly taskParams: WorkflowTaskSnapshotDatadogGraphTaskParams;
 }
 export interface WorkflowTaskSnapshotDatadogGraphTaskParamsDashboards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#id WorkflowTaskSnapshotDatadogGraph#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#id WorkflowTaskSnapshotDatadogGraph#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#name WorkflowTaskSnapshotDatadogGraph#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#name WorkflowTaskSnapshotDatadogGraph#name}
   */
   readonly name: string;
 }
@@ -199,14 +199,14 @@ export class WorkflowTaskSnapshotDatadogGraphTaskParamsDashboardsList extends cd
 }
 export interface WorkflowTaskSnapshotDatadogGraphTaskParamsPostToSlackChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#id WorkflowTaskSnapshotDatadogGraph#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#id WorkflowTaskSnapshotDatadogGraph#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#name WorkflowTaskSnapshotDatadogGraph#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#name WorkflowTaskSnapshotDatadogGraph#name}
   */
   readonly name: string;
 }
@@ -345,35 +345,35 @@ export class WorkflowTaskSnapshotDatadogGraphTaskParamsPostToSlackChannelsList e
 }
 export interface WorkflowTaskSnapshotDatadogGraphTaskParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#metric_queries WorkflowTaskSnapshotDatadogGraph#metric_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#metric_queries WorkflowTaskSnapshotDatadogGraph#metric_queries}
   */
   readonly metricQueries?: string[];
   /**
   * in format '1 minute', '30 days', '3 months', etc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#past_duration WorkflowTaskSnapshotDatadogGraph#past_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#past_duration WorkflowTaskSnapshotDatadogGraph#past_duration}
   */
   readonly pastDuration: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#post_to_incident_timeline WorkflowTaskSnapshotDatadogGraph#post_to_incident_timeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#post_to_incident_timeline WorkflowTaskSnapshotDatadogGraph#post_to_incident_timeline}
   */
   readonly postToIncidentTimeline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#task_type WorkflowTaskSnapshotDatadogGraph#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#task_type WorkflowTaskSnapshotDatadogGraph#task_type}
   */
   readonly taskType?: string;
   /**
   * dashboards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#dashboards WorkflowTaskSnapshotDatadogGraph#dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#dashboards WorkflowTaskSnapshotDatadogGraph#dashboards}
   */
   readonly dashboards?: WorkflowTaskSnapshotDatadogGraphTaskParamsDashboards[] | cdktf.IResolvable;
   /**
   * post_to_slack_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#post_to_slack_channels WorkflowTaskSnapshotDatadogGraph#post_to_slack_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#post_to_slack_channels WorkflowTaskSnapshotDatadogGraph#post_to_slack_channels}
   */
   readonly postToSlackChannels?: WorkflowTaskSnapshotDatadogGraphTaskParamsPostToSlackChannels[] | cdktf.IResolvable;
 }
@@ -599,7 +599,7 @@ export class WorkflowTaskSnapshotDatadogGraphTaskParamsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph rootly_workflow_task_snapshot_datadog_graph}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph rootly_workflow_task_snapshot_datadog_graph}
 */
 export class WorkflowTaskSnapshotDatadogGraph extends cdktf.TerraformResource {
 
@@ -615,7 +615,7 @@ export class WorkflowTaskSnapshotDatadogGraph extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskSnapshotDatadogGraph resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskSnapshotDatadogGraph to import
-  * @param importFromId The id of the existing WorkflowTaskSnapshotDatadogGraph that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskSnapshotDatadogGraph that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskSnapshotDatadogGraph to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -627,7 +627,7 @@ export class WorkflowTaskSnapshotDatadogGraph extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_snapshot_datadog_graph rootly_workflow_task_snapshot_datadog_graph} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_snapshot_datadog_graph rootly_workflow_task_snapshot_datadog_graph} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -638,8 +638,8 @@ export class WorkflowTaskSnapshotDatadogGraph extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_snapshot_datadog_graph',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,57 +10,57 @@ export interface OpenidUserClientRoleProtocolMapperConfig extends cdktf.Terrafor
   /**
   * Indicates if the attribute should be a claim in the access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#add_to_access_token OpenidUserClientRoleProtocolMapper#add_to_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#add_to_access_token OpenidUserClientRoleProtocolMapper#add_to_access_token}
   */
   readonly addToAccessToken?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the attribute should be a claim in the id token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#add_to_id_token OpenidUserClientRoleProtocolMapper#add_to_id_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#add_to_id_token OpenidUserClientRoleProtocolMapper#add_to_id_token}
   */
   readonly addToIdToken?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the attribute should appear in the userinfo response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#add_to_userinfo OpenidUserClientRoleProtocolMapper#add_to_userinfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#add_to_userinfo OpenidUserClientRoleProtocolMapper#add_to_userinfo}
   */
   readonly addToUserinfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#claim_name OpenidUserClientRoleProtocolMapper#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#claim_name OpenidUserClientRoleProtocolMapper#claim_name}
   */
   readonly claimName: string;
   /**
   * Claim type used when serializing tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#claim_value_type OpenidUserClientRoleProtocolMapper#claim_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#claim_value_type OpenidUserClientRoleProtocolMapper#claim_value_type}
   */
   readonly claimValueType?: string;
   /**
   * The mapper's associated client. Cannot be used at the same time as client_scope_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#client_id OpenidUserClientRoleProtocolMapper#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#client_id OpenidUserClientRoleProtocolMapper#client_id}
   */
   readonly clientId?: string;
   /**
   * Client ID for role mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#client_id_for_role_mappings OpenidUserClientRoleProtocolMapper#client_id_for_role_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#client_id_for_role_mappings OpenidUserClientRoleProtocolMapper#client_id_for_role_mappings}
   */
   readonly clientIdForRoleMappings?: string;
   /**
   * Prefix that will be added to each client role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#client_role_prefix OpenidUserClientRoleProtocolMapper#client_role_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#client_role_prefix OpenidUserClientRoleProtocolMapper#client_role_prefix}
   */
   readonly clientRolePrefix?: string;
   /**
   * The mapper's associated client scope. Cannot be used at the same time as client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#client_scope_id OpenidUserClientRoleProtocolMapper#client_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#client_scope_id OpenidUserClientRoleProtocolMapper#client_scope_id}
   */
   readonly clientScopeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#id OpenidUserClientRoleProtocolMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#id OpenidUserClientRoleProtocolMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,25 +69,25 @@ export interface OpenidUserClientRoleProtocolMapperConfig extends cdktf.Terrafor
   /**
   * Indicates whether this attribute is a single value or an array of values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#multivalued OpenidUserClientRoleProtocolMapper#multivalued}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#multivalued OpenidUserClientRoleProtocolMapper#multivalued}
   */
   readonly multivalued?: boolean | cdktf.IResolvable;
   /**
   * A human-friendly name that will appear in the Keycloak console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#name OpenidUserClientRoleProtocolMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#name OpenidUserClientRoleProtocolMapper#name}
   */
   readonly name: string;
   /**
   * The realm id where the associated client or client scope exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#realm_id OpenidUserClientRoleProtocolMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#realm_id OpenidUserClientRoleProtocolMapper#realm_id}
   */
   readonly realmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper keycloak_openid_user_client_role_protocol_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper keycloak_openid_user_client_role_protocol_mapper}
 */
 export class OpenidUserClientRoleProtocolMapper extends cdktf.TerraformResource {
 
@@ -103,7 +103,7 @@ export class OpenidUserClientRoleProtocolMapper extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a OpenidUserClientRoleProtocolMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenidUserClientRoleProtocolMapper to import
-  * @param importFromId The id of the existing OpenidUserClientRoleProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenidUserClientRoleProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenidUserClientRoleProtocolMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -115,7 +115,7 @@ export class OpenidUserClientRoleProtocolMapper extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_client_role_protocol_mapper keycloak_openid_user_client_role_protocol_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_client_role_protocol_mapper keycloak_openid_user_client_role_protocol_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -126,8 +126,8 @@ export class OpenidUserClientRoleProtocolMapper extends cdktf.TerraformResource 
       terraformResourceType: 'keycloak_openid_user_client_role_protocol_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

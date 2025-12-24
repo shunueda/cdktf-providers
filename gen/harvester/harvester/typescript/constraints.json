@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "harvester": "1.6.0"
+    "harvester": "1.7.0"
   }
 }

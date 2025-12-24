@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CommunicationsGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * The communication type ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#communication_type_id CommunicationsGroup#communication_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#communication_type_id CommunicationsGroup#communication_type_id}
   */
   readonly communicationTypeId: string;
   /**
   * Condition type. Value must be one of `any`, `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#condition_type CommunicationsGroup#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#condition_type CommunicationsGroup#condition_type}
   */
   readonly conditionType?: string;
   /**
   * The description of the communications group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#description CommunicationsGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#description CommunicationsGroup#description}
   */
   readonly description?: string;
   /**
   * Email channel enabled. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#email_channel CommunicationsGroup#email_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#email_channel CommunicationsGroup#email_channel}
   */
   readonly emailChannel?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#id CommunicationsGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#id CommunicationsGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface CommunicationsGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * Whether the group is private. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#is_private CommunicationsGroup#is_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#is_private CommunicationsGroup#is_private}
   */
   readonly isPrivate?: boolean | cdktf.IResolvable;
   /**
   * The name of the communications group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#name CommunicationsGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#name CommunicationsGroup#name}
   */
   readonly name: string;
   /**
   * The slug of the communications group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#slug CommunicationsGroup#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#slug CommunicationsGroup#slug}
   */
   readonly slug?: string;
   /**
   * SMS channel enabled. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#sms_channel CommunicationsGroup#sms_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#sms_channel CommunicationsGroup#sms_channel}
   */
   readonly smsChannel?: boolean | cdktf.IResolvable;
   /**
   * communication_external_group_members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#communication_external_group_members CommunicationsGroup#communication_external_group_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#communication_external_group_members CommunicationsGroup#communication_external_group_members}
   */
   readonly communicationExternalGroupMembers?: CommunicationsGroupCommunicationExternalGroupMembers[] | cdktf.IResolvable;
   /**
   * communication_group_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#communication_group_conditions CommunicationsGroup#communication_group_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#communication_group_conditions CommunicationsGroup#communication_group_conditions}
   */
   readonly communicationGroupConditions?: CommunicationsGroupCommunicationGroupConditions[] | cdktf.IResolvable;
   /**
   * communication_group_members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#communication_group_members CommunicationsGroup#communication_group_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#communication_group_members CommunicationsGroup#communication_group_members}
   */
   readonly communicationGroupMembers?: CommunicationsGroupCommunicationGroupMembers[] | cdktf.IResolvable;
 }
@@ -85,13 +85,13 @@ export interface CommunicationsGroupCommunicationExternalGroupMembers {
   /**
   * Email of the external member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#email CommunicationsGroup#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#email CommunicationsGroup#email}
   */
   readonly email?: string;
   /**
   * ID of the external group member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#id CommunicationsGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#id CommunicationsGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -100,13 +100,13 @@ export interface CommunicationsGroupCommunicationExternalGroupMembers {
   /**
   * Name of the external member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#name CommunicationsGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#name CommunicationsGroup#name}
   */
   readonly name?: string;
   /**
   * Phone number of the external member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#phone_number CommunicationsGroup#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#phone_number CommunicationsGroup#phone_number}
   */
   readonly phoneNumber?: string;
 }
@@ -309,14 +309,14 @@ export class CommunicationsGroupCommunicationExternalGroupMembersList extends cd
 }
 export interface CommunicationsGroupCommunicationGroupConditionsProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#id CommunicationsGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#id CommunicationsGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#name CommunicationsGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#name CommunicationsGroup#name}
   */
   readonly name?: string;
 }
@@ -463,13 +463,13 @@ export interface CommunicationsGroupCommunicationGroupConditions {
   /**
   * Condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#condition CommunicationsGroup#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#condition CommunicationsGroup#condition}
   */
   readonly condition?: string;
   /**
   * ID of the condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#id CommunicationsGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#id CommunicationsGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -478,13 +478,13 @@ export interface CommunicationsGroupCommunicationGroupConditions {
   /**
   * Property type. Value must be one of `service`, `severity`, `functionality`, `group`, `incident_type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#property_type CommunicationsGroup#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#property_type CommunicationsGroup#property_type}
   */
   readonly propertyType?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#properties CommunicationsGroup#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#properties CommunicationsGroup#properties}
   */
   readonly properties?: CommunicationsGroupCommunicationGroupConditionsProperties[] | cdktf.IResolvable;
 }
@@ -689,7 +689,7 @@ export interface CommunicationsGroupCommunicationGroupMembers {
   /**
   * ID of the group member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#id CommunicationsGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#id CommunicationsGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -698,7 +698,7 @@ export interface CommunicationsGroupCommunicationGroupMembers {
   /**
   * User ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#user_id CommunicationsGroup#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#user_id CommunicationsGroup#user_id}
   */
   readonly userId?: number;
 }
@@ -843,7 +843,7 @@ export class CommunicationsGroupCommunicationGroupMembersList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group rootly_communications_group}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group rootly_communications_group}
 */
 export class CommunicationsGroup extends cdktf.TerraformResource {
 
@@ -859,7 +859,7 @@ export class CommunicationsGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CommunicationsGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CommunicationsGroup to import
-  * @param importFromId The id of the existing CommunicationsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CommunicationsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CommunicationsGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -871,7 +871,7 @@ export class CommunicationsGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/communications_group rootly_communications_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/communications_group rootly_communications_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -882,8 +882,8 @@ export class CommunicationsGroup extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_communications_group',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

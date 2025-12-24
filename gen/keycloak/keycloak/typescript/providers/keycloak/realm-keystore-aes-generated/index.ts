@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_aes_generated
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_aes_generated
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RealmKeystoreAesGeneratedConfig extends cdktf.TerraformMetaArgu
   /**
   * Set if the keys can be used for signing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_aes_generated#active RealmKeystoreAesGenerated#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_aes_generated#active RealmKeystoreAesGenerated#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Set if the keys are enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_aes_generated#enabled RealmKeystoreAesGenerated#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_aes_generated#enabled RealmKeystoreAesGenerated#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_aes_generated#id RealmKeystoreAesGenerated#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_aes_generated#id RealmKeystoreAesGenerated#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,29 +29,29 @@ export interface RealmKeystoreAesGeneratedConfig extends cdktf.TerraformMetaArgu
   /**
   * Display name of provider when linked in admin console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_aes_generated#name RealmKeystoreAesGenerated#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_aes_generated#name RealmKeystoreAesGenerated#name}
   */
   readonly name: string;
   /**
   * Priority for the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_aes_generated#priority RealmKeystoreAesGenerated#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_aes_generated#priority RealmKeystoreAesGenerated#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_aes_generated#realm_id RealmKeystoreAesGenerated#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_aes_generated#realm_id RealmKeystoreAesGenerated#realm_id}
   */
   readonly realmId: string;
   /**
   * Size in bytes for the generated AES Key. Size 16 is for AES-128, Size 24 for AES-192 and Size 32 for AES-256. WARN: Bigger keys then 128 bits are not allowed on some JDK implementations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_aes_generated#secret_size RealmKeystoreAesGenerated#secret_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_aes_generated#secret_size RealmKeystoreAesGenerated#secret_size}
   */
   readonly secretSize?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_aes_generated keycloak_realm_keystore_aes_generated}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_aes_generated keycloak_realm_keystore_aes_generated}
 */
 export class RealmKeystoreAesGenerated extends cdktf.TerraformResource {
 
@@ -67,7 +67,7 @@ export class RealmKeystoreAesGenerated extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RealmKeystoreAesGenerated resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RealmKeystoreAesGenerated to import
-  * @param importFromId The id of the existing RealmKeystoreAesGenerated that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_aes_generated#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RealmKeystoreAesGenerated that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_aes_generated#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RealmKeystoreAesGenerated to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class RealmKeystoreAesGenerated extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_aes_generated keycloak_realm_keystore_aes_generated} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_aes_generated keycloak_realm_keystore_aes_generated} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class RealmKeystoreAesGenerated extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_realm_keystore_aes_generated',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

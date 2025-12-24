@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_configurator
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_s3_configurator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTwcS3ConfiguratorConfig extends cdktf.TerraformMetaArgument
   /**
   * Disk type of the S3 configurator (`nvme`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_configurator#disk_type DataTwcS3Configurator#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_s3_configurator#disk_type DataTwcS3Configurator#disk_type}
   */
   readonly diskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_configurator#id DataTwcS3Configurator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_s3_configurator#id DataTwcS3Configurator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTwcS3ConfiguratorConfig extends cdktf.TerraformMetaArgument
   /**
   * Location of the S3 configurator (`ru-1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_configurator#location DataTwcS3Configurator#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_s3_configurator#location DataTwcS3Configurator#location}
   */
   readonly location?: string;
   /**
   * Storage class of the S3 configurator (`cold`, `hot`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_configurator#storage_class DataTwcS3Configurator#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_s3_configurator#storage_class DataTwcS3Configurator#storage_class}
   */
   readonly storageClass?: string;
   /**
   * requirements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_configurator#requirements DataTwcS3Configurator#requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_s3_configurator#requirements DataTwcS3Configurator#requirements}
   */
   readonly requirements?: DataTwcS3ConfiguratorRequirements[] | cdktf.IResolvable;
 }
@@ -137,7 +137,7 @@ export class DataTwcS3ConfiguratorRequirementsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_configurator twc_s3_configurator}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_s3_configurator twc_s3_configurator}
 */
 export class DataTwcS3Configurator extends cdktf.TerraformDataSource {
 
@@ -153,7 +153,7 @@ export class DataTwcS3Configurator extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwcS3Configurator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwcS3Configurator to import
-  * @param importFromId The id of the existing DataTwcS3Configurator that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_configurator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwcS3Configurator that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_s3_configurator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwcS3Configurator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class DataTwcS3Configurator extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_s3_configurator twc_s3_configurator} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_s3_configurator twc_s3_configurator} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class DataTwcS3Configurator extends cdktf.TerraformDataSource {
       terraformResourceType: 'twc_s3_configurator',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

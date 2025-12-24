@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,94 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface LdapGroupMapperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#drop_non_existing_groups_during_sync LdapGroupMapper#drop_non_existing_groups_during_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#drop_non_existing_groups_during_sync LdapGroupMapper#drop_non_existing_groups_during_sync}
   */
   readonly dropNonExistingGroupsDuringSync?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#group_name_ldap_attribute LdapGroupMapper#group_name_ldap_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#group_name_ldap_attribute LdapGroupMapper#group_name_ldap_attribute}
   */
   readonly groupNameLdapAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#group_object_classes LdapGroupMapper#group_object_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#group_object_classes LdapGroupMapper#group_object_classes}
   */
   readonly groupObjectClasses: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#groups_ldap_filter LdapGroupMapper#groups_ldap_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#groups_ldap_filter LdapGroupMapper#groups_ldap_filter}
   */
   readonly groupsLdapFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#groups_path LdapGroupMapper#groups_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#groups_path LdapGroupMapper#groups_path}
   */
   readonly groupsPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#id LdapGroupMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#id LdapGroupMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#ignore_missing_groups LdapGroupMapper#ignore_missing_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#ignore_missing_groups LdapGroupMapper#ignore_missing_groups}
   */
   readonly ignoreMissingGroups?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#ldap_groups_dn LdapGroupMapper#ldap_groups_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#ldap_groups_dn LdapGroupMapper#ldap_groups_dn}
   */
   readonly ldapGroupsDn: string;
   /**
   * The ldap user federation provider to attach this mapper to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#ldap_user_federation_id LdapGroupMapper#ldap_user_federation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#ldap_user_federation_id LdapGroupMapper#ldap_user_federation_id}
   */
   readonly ldapUserFederationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#mapped_group_attributes LdapGroupMapper#mapped_group_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#mapped_group_attributes LdapGroupMapper#mapped_group_attributes}
   */
   readonly mappedGroupAttributes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#memberof_ldap_attribute LdapGroupMapper#memberof_ldap_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#memberof_ldap_attribute LdapGroupMapper#memberof_ldap_attribute}
   */
   readonly memberofLdapAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#membership_attribute_type LdapGroupMapper#membership_attribute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#membership_attribute_type LdapGroupMapper#membership_attribute_type}
   */
   readonly membershipAttributeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#membership_ldap_attribute LdapGroupMapper#membership_ldap_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#membership_ldap_attribute LdapGroupMapper#membership_ldap_attribute}
   */
   readonly membershipLdapAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#membership_user_ldap_attribute LdapGroupMapper#membership_user_ldap_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#membership_user_ldap_attribute LdapGroupMapper#membership_user_ldap_attribute}
   */
   readonly membershipUserLdapAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#mode LdapGroupMapper#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#mode LdapGroupMapper#mode}
   */
   readonly mode?: string;
   /**
   * Display name of the mapper when displayed in the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#name LdapGroupMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#name LdapGroupMapper#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#preserve_group_inheritance LdapGroupMapper#preserve_group_inheritance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#preserve_group_inheritance LdapGroupMapper#preserve_group_inheritance}
   */
   readonly preserveGroupInheritance?: boolean | cdktf.IResolvable;
   /**
   * The realm in which the ldap user federation provider exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#realm_id LdapGroupMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#realm_id LdapGroupMapper#realm_id}
   */
   readonly realmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#user_roles_retrieve_strategy LdapGroupMapper#user_roles_retrieve_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#user_roles_retrieve_strategy LdapGroupMapper#user_roles_retrieve_strategy}
   */
   readonly userRolesRetrieveStrategy?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper keycloak_ldap_group_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper keycloak_ldap_group_mapper}
 */
 export class LdapGroupMapper extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class LdapGroupMapper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LdapGroupMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LdapGroupMapper to import
-  * @param importFromId The id of the existing LdapGroupMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LdapGroupMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LdapGroupMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class LdapGroupMapper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_group_mapper keycloak_ldap_group_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_group_mapper keycloak_ldap_group_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class LdapGroupMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_ldap_group_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

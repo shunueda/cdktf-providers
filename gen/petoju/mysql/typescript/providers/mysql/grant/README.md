@@ -1,3 +1,3 @@
 # `mysql_grant`
 
-Refer to the Terraform Registry for docs: [`mysql_grant`](https://registry.terraform.io/providers/petoju/mysql/3.0.87/docs/resources/grant).
+Refer to the Terraform Registry for docs: [`mysql_grant`](https://registry.terraform.io/providers/petoju/mysql/3.0.88/docs/resources/grant).

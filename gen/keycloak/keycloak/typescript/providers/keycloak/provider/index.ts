@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,113 +8,113 @@ import * as cdktf from 'cdktf';
 
 export interface KeycloakProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#access_token KeycloakProvider#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#access_token KeycloakProvider#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#additional_headers KeycloakProvider#additional_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#additional_headers KeycloakProvider#additional_headers}
   */
   readonly additionalHeaders?: { [key: string]: string };
   /**
   * The admin URL of the Keycloak instance if different from the main URL, before `/auth`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#admin_url KeycloakProvider#admin_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#admin_url KeycloakProvider#admin_url}
   */
   readonly adminUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#base_path KeycloakProvider#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#base_path KeycloakProvider#base_path}
   */
   readonly basePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#client_id KeycloakProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#client_id KeycloakProvider#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#client_secret KeycloakProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#client_secret KeycloakProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Timeout (in seconds) of the Keycloak client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#client_timeout KeycloakProvider#client_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#client_timeout KeycloakProvider#client_timeout}
   */
   readonly clientTimeout?: number;
   /**
   * Whether or not to login to Keycloak instance on provider initialization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#initial_login KeycloakProvider#initial_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#initial_login KeycloakProvider#initial_login}
   */
   readonly initialLogin?: boolean | cdktf.IResolvable;
   /**
   * The algorithm used to sign the JWT when client-jwt is used. Defaults to RS256.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#jwt_signing_alg KeycloakProvider#jwt_signing_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#jwt_signing_alg KeycloakProvider#jwt_signing_alg}
   */
   readonly jwtSigningAlg?: string;
   /**
   * The PEM-formatted private key used to sign the JWT when client-jwt is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#jwt_signing_key KeycloakProvider#jwt_signing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#jwt_signing_key KeycloakProvider#jwt_signing_key}
   */
   readonly jwtSigningKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#password KeycloakProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#password KeycloakProvider#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#realm KeycloakProvider#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#realm KeycloakProvider#realm}
   */
   readonly realm?: string;
   /**
   * When true, the provider will treat the Keycloak instance as a Red Hat SSO server, specifically when parsing the version returned from the /serverinfo API endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#red_hat_sso KeycloakProvider#red_hat_sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#red_hat_sso KeycloakProvider#red_hat_sso}
   */
   readonly redHatSso?: boolean | cdktf.IResolvable;
   /**
   * Allows x509 calls using an unknown CA certificate (for development purposes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#root_ca_certificate KeycloakProvider#root_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#root_ca_certificate KeycloakProvider#root_ca_certificate}
   */
   readonly rootCaCertificate?: string;
   /**
   * TLS client certificate as PEM string for mutual authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#tls_client_certificate KeycloakProvider#tls_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#tls_client_certificate KeycloakProvider#tls_client_certificate}
   */
   readonly tlsClientCertificate?: string;
   /**
   * TLS client private key as PEM string for mutual authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#tls_client_private_key KeycloakProvider#tls_client_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#tls_client_private_key KeycloakProvider#tls_client_private_key}
   */
   readonly tlsClientPrivateKey?: string;
   /**
   * Allows ignoring insecure certificates when set to true. Defaults to false. Disabling security check is dangerous and should be avoided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#tls_insecure_skip_verify KeycloakProvider#tls_insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#tls_insecure_skip_verify KeycloakProvider#tls_insecure_skip_verify}
   */
   readonly tlsInsecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * The base URL of the Keycloak instance, before `/auth`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#url KeycloakProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#url KeycloakProvider#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#username KeycloakProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#username KeycloakProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#alias KeycloakProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#alias KeycloakProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs keycloak}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs keycloak}
 */
 export class KeycloakProvider extends cdktf.TerraformProvider {
 
@@ -130,7 +130,7 @@ export class KeycloakProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a KeycloakProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeycloakProvider to import
-  * @param importFromId The id of the existing KeycloakProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeycloakProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeycloakProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class KeycloakProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs keycloak} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs keycloak} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class KeycloakProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'keycloak',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       terraformProviderSource: 'keycloak/keycloak'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktf from 'cdktf';
 
 export interface CustomUserFederationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation#cache_policy CustomUserFederation#cache_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation#cache_policy CustomUserFederation#cache_policy}
   */
   readonly cachePolicy?: string;
   /**
   * How frequently Keycloak should sync changed users, in seconds. Omit this property to disable periodic changed users sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation#changed_sync_period CustomUserFederation#changed_sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation#changed_sync_period CustomUserFederation#changed_sync_period}
   */
   readonly changedSyncPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation#config CustomUserFederation#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation#config CustomUserFederation#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * When false, this provider will not be used when performing queries for users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation#enabled CustomUserFederation#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation#enabled CustomUserFederation#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * How frequently Keycloak should sync all users, in seconds. Omit this property to disable periodic full sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation#full_sync_period CustomUserFederation#full_sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation#full_sync_period CustomUserFederation#full_sync_period}
   */
   readonly fullSyncPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation#id CustomUserFederation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation#id CustomUserFederation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,37 +43,37 @@ export interface CustomUserFederationConfig extends cdktf.TerraformMetaArguments
   /**
   * Display name of the provider when displayed in the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation#name CustomUserFederation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation#name CustomUserFederation#name}
   */
   readonly name: string;
   /**
   * The parent_id of the generated component. will use realm_id if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation#parent_id CustomUserFederation#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation#parent_id CustomUserFederation#parent_id}
   */
   readonly parentId?: string;
   /**
   * Priority of this provider when looking up users. Lower values are first.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation#priority CustomUserFederation#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation#priority CustomUserFederation#priority}
   */
   readonly priority?: number;
   /**
   * The unique ID of the custom provider, specified in the `getId` implementation for the UserStorageProviderFactory interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation#provider_id CustomUserFederation#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation#provider_id CustomUserFederation#provider_id}
   */
   readonly providerId: string;
   /**
   * The realm (name) this provider will provide user federation for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation#realm_id CustomUserFederation#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation#realm_id CustomUserFederation#realm_id}
   */
   readonly realmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation keycloak_custom_user_federation}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation keycloak_custom_user_federation}
 */
 export class CustomUserFederation extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class CustomUserFederation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomUserFederation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomUserFederation to import
-  * @param importFromId The id of the existing CustomUserFederation that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomUserFederation that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomUserFederation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class CustomUserFederation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/custom_user_federation keycloak_custom_user_federation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/custom_user_federation keycloak_custom_user_federation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class CustomUserFederation extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_custom_user_federation',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

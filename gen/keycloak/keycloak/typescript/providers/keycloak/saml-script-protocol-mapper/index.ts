@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface SamlScriptProtocolMapperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper#client_id SamlScriptProtocolMapper#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper#client_id SamlScriptProtocolMapper#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper#client_scope_id SamlScriptProtocolMapper#client_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper#client_scope_id SamlScriptProtocolMapper#client_scope_id}
   */
   readonly clientScopeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper#friendly_name SamlScriptProtocolMapper#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper#friendly_name SamlScriptProtocolMapper#friendly_name}
   */
   readonly friendlyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper#id SamlScriptProtocolMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper#id SamlScriptProtocolMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper#name SamlScriptProtocolMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper#name SamlScriptProtocolMapper#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper#realm_id SamlScriptProtocolMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper#realm_id SamlScriptProtocolMapper#realm_id}
   */
   readonly realmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper#saml_attribute_name SamlScriptProtocolMapper#saml_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper#saml_attribute_name SamlScriptProtocolMapper#saml_attribute_name}
   */
   readonly samlAttributeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper#saml_attribute_name_format SamlScriptProtocolMapper#saml_attribute_name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper#saml_attribute_name_format SamlScriptProtocolMapper#saml_attribute_name_format}
   */
   readonly samlAttributeNameFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper#script SamlScriptProtocolMapper#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper#script SamlScriptProtocolMapper#script}
   */
   readonly script: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper#single_value_attribute SamlScriptProtocolMapper#single_value_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper#single_value_attribute SamlScriptProtocolMapper#single_value_attribute}
   */
   readonly singleValueAttribute?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper keycloak_saml_script_protocol_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper keycloak_saml_script_protocol_mapper}
 */
 export class SamlScriptProtocolMapper extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class SamlScriptProtocolMapper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SamlScriptProtocolMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SamlScriptProtocolMapper to import
-  * @param importFromId The id of the existing SamlScriptProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SamlScriptProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SamlScriptProtocolMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class SamlScriptProtocolMapper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_script_protocol_mapper keycloak_saml_script_protocol_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_script_protocol_mapper keycloak_saml_script_protocol_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class SamlScriptProtocolMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_saml_script_protocol_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

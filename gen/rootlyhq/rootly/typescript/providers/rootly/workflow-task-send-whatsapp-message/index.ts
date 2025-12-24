@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskSendWhatsappMessageConfig extends cdktf.TerraformMe
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message#enabled WorkflowTaskSendWhatsappMessage#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message#enabled WorkflowTaskSendWhatsappMessage#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message#id WorkflowTaskSendWhatsappMessage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message#id WorkflowTaskSendWhatsappMessage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskSendWhatsappMessageConfig extends cdktf.TerraformMe
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message#name WorkflowTaskSendWhatsappMessage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message#name WorkflowTaskSendWhatsappMessage#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message#position WorkflowTaskSendWhatsappMessage#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message#position WorkflowTaskSendWhatsappMessage#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message#skip_on_failure WorkflowTaskSendWhatsappMessage#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message#skip_on_failure WorkflowTaskSendWhatsappMessage#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message#workflow_id WorkflowTaskSendWhatsappMessage#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message#workflow_id WorkflowTaskSendWhatsappMessage#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message#task_params WorkflowTaskSendWhatsappMessage#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message#task_params WorkflowTaskSendWhatsappMessage#task_params}
   */
   readonly taskParams: WorkflowTaskSendWhatsappMessageTaskParams;
 }
@@ -55,21 +55,21 @@ export interface WorkflowTaskSendWhatsappMessageTaskParams {
   /**
   * The WhatsApp message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message#content WorkflowTaskSendWhatsappMessage#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message#content WorkflowTaskSendWhatsappMessage#content}
   */
   readonly content: string;
   /**
   * The name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message#name WorkflowTaskSendWhatsappMessage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message#name WorkflowTaskSendWhatsappMessage#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message#phone_numbers WorkflowTaskSendWhatsappMessage#phone_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message#phone_numbers WorkflowTaskSendWhatsappMessage#phone_numbers}
   */
   readonly phoneNumbers: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message#task_type WorkflowTaskSendWhatsappMessage#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message#task_type WorkflowTaskSendWhatsappMessage#task_type}
   */
   readonly taskType?: string;
 }
@@ -231,7 +231,7 @@ export class WorkflowTaskSendWhatsappMessageTaskParamsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message rootly_workflow_task_send_whatsapp_message}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message rootly_workflow_task_send_whatsapp_message}
 */
 export class WorkflowTaskSendWhatsappMessage extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class WorkflowTaskSendWhatsappMessage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskSendWhatsappMessage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskSendWhatsappMessage to import
-  * @param importFromId The id of the existing WorkflowTaskSendWhatsappMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskSendWhatsappMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskSendWhatsappMessage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class WorkflowTaskSendWhatsappMessage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_whatsapp_message rootly_workflow_task_send_whatsapp_message} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_whatsapp_message rootly_workflow_task_send_whatsapp_message} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class WorkflowTaskSendWhatsappMessage extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_send_whatsapp_message',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RealmKeystoreJavaKeystoreConfig extends cdktf.TerraformMetaArgu
   /**
   * Set if the keys can be used for signing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore#active RealmKeystoreJavaKeystore#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore#active RealmKeystoreJavaKeystore#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Intended algorithm for the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore#algorithm RealmKeystoreJavaKeystore#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore#algorithm RealmKeystoreJavaKeystore#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Set if the keys are enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore#enabled RealmKeystoreJavaKeystore#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore#enabled RealmKeystoreJavaKeystore#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore#id RealmKeystoreJavaKeystore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore#id RealmKeystoreJavaKeystore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,47 +35,47 @@ export interface RealmKeystoreJavaKeystoreConfig extends cdktf.TerraformMetaArgu
   /**
   * Alias for the private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore#key_alias RealmKeystoreJavaKeystore#key_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore#key_alias RealmKeystoreJavaKeystore#key_alias}
   */
   readonly keyAlias: string;
   /**
   * Password for the private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore#key_password RealmKeystoreJavaKeystore#key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore#key_password RealmKeystoreJavaKeystore#key_password}
   */
   readonly keyPassword: string;
   /**
   * Path to keys file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore#keystore RealmKeystoreJavaKeystore#keystore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore#keystore RealmKeystoreJavaKeystore#keystore}
   */
   readonly keystore: string;
   /**
   * Password for the keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore#keystore_password RealmKeystoreJavaKeystore#keystore_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore#keystore_password RealmKeystoreJavaKeystore#keystore_password}
   */
   readonly keystorePassword: string;
   /**
   * Display name of provider when linked in admin console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore#name RealmKeystoreJavaKeystore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore#name RealmKeystoreJavaKeystore#name}
   */
   readonly name: string;
   /**
   * Priority for the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore#priority RealmKeystoreJavaKeystore#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore#priority RealmKeystoreJavaKeystore#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore#realm_id RealmKeystoreJavaKeystore#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore#realm_id RealmKeystoreJavaKeystore#realm_id}
   */
   readonly realmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore keycloak_realm_keystore_java_keystore}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore keycloak_realm_keystore_java_keystore}
 */
 export class RealmKeystoreJavaKeystore extends cdktf.TerraformResource {
 
@@ -91,7 +91,7 @@ export class RealmKeystoreJavaKeystore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RealmKeystoreJavaKeystore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RealmKeystoreJavaKeystore to import
-  * @param importFromId The id of the existing RealmKeystoreJavaKeystore that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RealmKeystoreJavaKeystore that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RealmKeystoreJavaKeystore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -103,7 +103,7 @@ export class RealmKeystoreJavaKeystore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_keystore_java_keystore keycloak_realm_keystore_java_keystore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_keystore_java_keystore keycloak_realm_keystore_java_keystore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,8 +114,8 @@ export class RealmKeystoreJavaKeystore extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_realm_keystore_java_keystore',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

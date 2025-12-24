@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskRemoveGoogleDocsPermissionsConfig extends cdktf.Ter
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions#enabled WorkflowTaskRemoveGoogleDocsPermissions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions#enabled WorkflowTaskRemoveGoogleDocsPermissions#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions#id WorkflowTaskRemoveGoogleDocsPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions#id WorkflowTaskRemoveGoogleDocsPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskRemoveGoogleDocsPermissionsConfig extends cdktf.Ter
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions#name WorkflowTaskRemoveGoogleDocsPermissions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions#name WorkflowTaskRemoveGoogleDocsPermissions#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions#position WorkflowTaskRemoveGoogleDocsPermissions#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions#position WorkflowTaskRemoveGoogleDocsPermissions#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions#skip_on_failure WorkflowTaskRemoveGoogleDocsPermissions#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions#skip_on_failure WorkflowTaskRemoveGoogleDocsPermissions#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions#workflow_id WorkflowTaskRemoveGoogleDocsPermissions#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions#workflow_id WorkflowTaskRemoveGoogleDocsPermissions#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions#task_params WorkflowTaskRemoveGoogleDocsPermissions#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions#task_params WorkflowTaskRemoveGoogleDocsPermissions#task_params}
   */
   readonly taskParams: WorkflowTaskRemoveGoogleDocsPermissionsTaskParams;
 }
@@ -55,21 +55,21 @@ export interface WorkflowTaskRemoveGoogleDocsPermissionsTaskParams {
   /**
   * Value must be one of `type`, `role`, `email_address`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions#attribute_to_query_by WorkflowTaskRemoveGoogleDocsPermissions#attribute_to_query_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions#attribute_to_query_by WorkflowTaskRemoveGoogleDocsPermissions#attribute_to_query_by}
   */
   readonly attributeToQueryBy: string;
   /**
   * The Google Doc file ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions#file_id WorkflowTaskRemoveGoogleDocsPermissions#file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions#file_id WorkflowTaskRemoveGoogleDocsPermissions#file_id}
   */
   readonly fileId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions#task_type WorkflowTaskRemoveGoogleDocsPermissions#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions#task_type WorkflowTaskRemoveGoogleDocsPermissions#task_type}
   */
   readonly taskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions#value WorkflowTaskRemoveGoogleDocsPermissions#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions#value WorkflowTaskRemoveGoogleDocsPermissions#value}
   */
   readonly value: string;
 }
@@ -231,7 +231,7 @@ export class WorkflowTaskRemoveGoogleDocsPermissionsTaskParamsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions rootly_workflow_task_remove_google_docs_permissions}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions rootly_workflow_task_remove_google_docs_permissions}
 */
 export class WorkflowTaskRemoveGoogleDocsPermissions extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class WorkflowTaskRemoveGoogleDocsPermissions extends cdktf.TerraformReso
   * Generates CDKTF code for importing a WorkflowTaskRemoveGoogleDocsPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskRemoveGoogleDocsPermissions to import
-  * @param importFromId The id of the existing WorkflowTaskRemoveGoogleDocsPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskRemoveGoogleDocsPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskRemoveGoogleDocsPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class WorkflowTaskRemoveGoogleDocsPermissions extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_remove_google_docs_permissions rootly_workflow_task_remove_google_docs_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_remove_google_docs_permissions rootly_workflow_task_remove_google_docs_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class WorkflowTaskRemoveGoogleDocsPermissions extends cdktf.TerraformReso
       terraformResourceType: 'rootly_workflow_task_remove_google_docs_permissions',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

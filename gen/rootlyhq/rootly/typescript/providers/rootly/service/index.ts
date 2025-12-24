@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,95 +10,95 @@ export interface ServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable alerts to be broadcasted to a specific channel. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#alert_broadcast_enabled Service#alert_broadcast_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#alert_broadcast_enabled Service#alert_broadcast_enabled}
   */
   readonly alertBroadcastEnabled?: boolean | cdktf.IResolvable;
   /**
   * The alert urgency id of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#alert_urgency_id Service#alert_urgency_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#alert_urgency_id Service#alert_urgency_id}
   */
   readonly alertUrgencyId?: string;
   /**
   * Email generated to send alerts to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#alerts_email_address Service#alerts_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#alerts_email_address Service#alerts_email_address}
   */
   readonly alertsEmailAddress?: string;
   /**
   * Enable alerts through email. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#alerts_email_enabled Service#alerts_email_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#alerts_email_enabled Service#alerts_email_enabled}
   */
   readonly alertsEmailEnabled?: boolean | cdktf.IResolvable;
   /**
   * The Backstage entity id associated to this service. eg: :namespace/:kind/:entity_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#backstage_id Service#backstage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#backstage_id Service#backstage_id}
   */
   readonly backstageId?: string;
   /**
   * The hex color of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#color Service#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#color Service#color}
   */
   readonly color?: string;
   /**
   * The Cortex group id associated to this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#cortex_id Service#cortex_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#cortex_id Service#cortex_id}
   */
   readonly cortexId?: string;
   /**
   * The description of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#description Service#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#description Service#description}
   */
   readonly description?: string;
   /**
   * Environments associated with this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#environment_ids Service#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#environment_ids Service#environment_ids}
   */
   readonly environmentIds?: string[];
   /**
   * The escalation policy id of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#escalation_policy_id Service#escalation_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#escalation_policy_id Service#escalation_policy_id}
   */
   readonly escalationPolicyId?: string;
   /**
   * The external id associated to this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#external_id Service#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#external_id Service#external_id}
   */
   readonly externalId?: string;
   /**
   * The GitHub repository branch associated to this service. eg: main
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#github_repository_branch Service#github_repository_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#github_repository_branch Service#github_repository_branch}
   */
   readonly githubRepositoryBranch?: string;
   /**
   * The GitHub repository name associated to this service. eg: rootlyhq/my-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#github_repository_name Service#github_repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#github_repository_name Service#github_repository_name}
   */
   readonly githubRepositoryName?: string;
   /**
   * The GitLab repository branch associated to this service. eg: main
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#gitlab_repository_branch Service#gitlab_repository_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#gitlab_repository_branch Service#gitlab_repository_branch}
   */
   readonly gitlabRepositoryBranch?: string;
   /**
   * The GitLab repository name associated to this service. eg: rootlyhq/my-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#gitlab_repository_name Service#gitlab_repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#gitlab_repository_name Service#gitlab_repository_name}
   */
   readonly gitlabRepositoryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#id Service#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#id Service#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,97 +107,103 @@ export interface ServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable incidents to be broadcasted to a specific channel. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#incident_broadcast_enabled Service#incident_broadcast_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#incident_broadcast_enabled Service#incident_broadcast_enabled}
   */
   readonly incidentBroadcastEnabled?: boolean | cdktf.IResolvable;
   /**
+  * The Kubernetes deployment name associated to this service. eg: namespace/deployment-name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#kubernetes_deployment_name Service#kubernetes_deployment_name}
+  */
+  readonly kubernetesDeploymentName?: string;
+  /**
   * The name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#name Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#name Service#name}
   */
   readonly name: string;
   /**
   * Emails attached to the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#notify_emails Service#notify_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#notify_emails Service#notify_emails}
   */
   readonly notifyEmails?: string[];
   /**
   * The Opsgenie service id associated to this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#opsgenie_id Service#opsgenie_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#opsgenie_id Service#opsgenie_id}
   */
   readonly opsgenieId?: string;
   /**
   * Owner Teams associated with this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#owner_group_ids Service#owner_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#owner_group_ids Service#owner_group_ids}
   */
   readonly ownerGroupIds?: string[];
   /**
   * Owner Users associated with this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#owner_user_ids Service#owner_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#owner_user_ids Service#owner_user_ids}
   */
   readonly ownerUserIds?: number[];
   /**
   * The PagerDuty service id associated to this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#pagerduty_id Service#pagerduty_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#pagerduty_id Service#pagerduty_id}
   */
   readonly pagerdutyId?: string;
   /**
   * Position of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#position Service#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#position Service#position}
   */
   readonly position?: number;
   /**
   * The public description of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#public_description Service#public_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#public_description Service#public_description}
   */
   readonly publicDescription?: string;
   /**
   * Services dependent on this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#service_ids Service#service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#service_ids Service#service_ids}
   */
   readonly serviceIds?: string[];
   /**
   * The Service Now CI sys id associated to this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#service_now_ci_sys_id Service#service_now_ci_sys_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#service_now_ci_sys_id Service#service_now_ci_sys_id}
   */
   readonly serviceNowCiSysId?: string;
   /**
   * The slug of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#slug Service#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#slug Service#slug}
   */
   readonly slug?: string;
   /**
   * alert_broadcast_channel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#alert_broadcast_channel Service#alert_broadcast_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#alert_broadcast_channel Service#alert_broadcast_channel}
   */
   readonly alertBroadcastChannel?: ServiceAlertBroadcastChannel;
   /**
   * incident_broadcast_channel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#incident_broadcast_channel Service#incident_broadcast_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#incident_broadcast_channel Service#incident_broadcast_channel}
   */
   readonly incidentBroadcastChannel?: ServiceIncidentBroadcastChannel;
   /**
   * slack_aliases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#slack_aliases Service#slack_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#slack_aliases Service#slack_aliases}
   */
   readonly slackAliases?: ServiceSlackAliases[] | cdktf.IResolvable;
   /**
   * slack_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#slack_channels Service#slack_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#slack_channels Service#slack_channels}
   */
   readonly slackChannels?: ServiceSlackChannels[] | cdktf.IResolvable;
 }
@@ -205,7 +211,7 @@ export interface ServiceAlertBroadcastChannel {
   /**
   * Slack channel ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#id Service#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#id Service#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -214,7 +220,7 @@ export interface ServiceAlertBroadcastChannel {
   /**
   * Slack channel name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#name Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#name Service#name}
   */
   readonly name?: string;
 }
@@ -329,7 +335,7 @@ export interface ServiceIncidentBroadcastChannel {
   /**
   * Slack channel ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#id Service#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#id Service#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -338,7 +344,7 @@ export interface ServiceIncidentBroadcastChannel {
   /**
   * Slack channel name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#name Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#name Service#name}
   */
   readonly name?: string;
 }
@@ -453,7 +459,7 @@ export interface ServiceSlackAliases {
   /**
   * Slack alias ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#id Service#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#id Service#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -462,7 +468,7 @@ export interface ServiceSlackAliases {
   /**
   * Slack alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#name Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#name Service#name}
   */
   readonly name?: string;
 }
@@ -609,7 +615,7 @@ export interface ServiceSlackChannels {
   /**
   * Slack channel ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#id Service#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#id Service#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -618,7 +624,7 @@ export interface ServiceSlackChannels {
   /**
   * Slack channel name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#name Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#name Service#name}
   */
   readonly name?: string;
 }
@@ -763,7 +769,7 @@ export class ServiceSlackChannelsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service rootly_service}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service rootly_service}
 */
 export class Service extends cdktf.TerraformResource {
 
@@ -779,7 +785,7 @@ export class Service extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Service resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Service to import
-  * @param importFromId The id of the existing Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Service to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -791,7 +797,7 @@ export class Service extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/service rootly_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/service rootly_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -802,8 +808,8 @@ export class Service extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_service',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -830,6 +836,7 @@ export class Service extends cdktf.TerraformResource {
     this._gitlabRepositoryName = config.gitlabRepositoryName;
     this._id = config.id;
     this._incidentBroadcastEnabled = config.incidentBroadcastEnabled;
+    this._kubernetesDeploymentName = config.kubernetesDeploymentName;
     this._name = config.name;
     this._notifyEmails = config.notifyEmails;
     this._opsgenieId = config.opsgenieId;
@@ -1123,6 +1130,22 @@ export class Service extends cdktf.TerraformResource {
     return this._incidentBroadcastEnabled;
   }
 
+  // kubernetes_deployment_name - computed: true, optional: true, required: false
+  private _kubernetesDeploymentName?: string; 
+  public get kubernetesDeploymentName() {
+    return this.getStringAttribute('kubernetes_deployment_name');
+  }
+  public set kubernetesDeploymentName(value: string) {
+    this._kubernetesDeploymentName = value;
+  }
+  public resetKubernetesDeploymentName() {
+    this._kubernetesDeploymentName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kubernetesDeploymentNameInput() {
+    return this._kubernetesDeploymentName;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -1383,6 +1406,7 @@ export class Service extends cdktf.TerraformResource {
       gitlab_repository_name: cdktf.stringToTerraform(this._gitlabRepositoryName),
       id: cdktf.stringToTerraform(this._id),
       incident_broadcast_enabled: cdktf.booleanToTerraform(this._incidentBroadcastEnabled),
+      kubernetes_deployment_name: cdktf.stringToTerraform(this._kubernetesDeploymentName),
       name: cdktf.stringToTerraform(this._name),
       notify_emails: cdktf.listMapper(cdktf.stringToTerraform, false)(this._notifyEmails),
       opsgenie_id: cdktf.stringToTerraform(this._opsgenieId),
@@ -1504,6 +1528,12 @@ export class Service extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      kubernetes_deployment_name: {
+        value: cdktf.stringToHclTerraform(this._kubernetesDeploymentName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_msad_user_account_control_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_msad_user_account_control_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface LdapMsadUserAccountControlMapperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_msad_user_account_control_mapper#id LdapMsadUserAccountControlMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_msad_user_account_control_mapper#id LdapMsadUserAccountControlMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_msad_user_account_control_mapper#ldap_password_policy_hints_enabled LdapMsadUserAccountControlMapper#ldap_password_policy_hints_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_msad_user_account_control_mapper#ldap_password_policy_hints_enabled LdapMsadUserAccountControlMapper#ldap_password_policy_hints_enabled}
   */
   readonly ldapPasswordPolicyHintsEnabled?: boolean | cdktf.IResolvable;
   /**
   * The ldap user federation provider to attach this mapper to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_msad_user_account_control_mapper#ldap_user_federation_id LdapMsadUserAccountControlMapper#ldap_user_federation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_msad_user_account_control_mapper#ldap_user_federation_id LdapMsadUserAccountControlMapper#ldap_user_federation_id}
   */
   readonly ldapUserFederationId: string;
   /**
   * Display name of the mapper when displayed in the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_msad_user_account_control_mapper#name LdapMsadUserAccountControlMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_msad_user_account_control_mapper#name LdapMsadUserAccountControlMapper#name}
   */
   readonly name: string;
   /**
   * The realm in which the ldap user federation provider exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_msad_user_account_control_mapper#realm_id LdapMsadUserAccountControlMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_msad_user_account_control_mapper#realm_id LdapMsadUserAccountControlMapper#realm_id}
   */
   readonly realmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_msad_user_account_control_mapper keycloak_ldap_msad_user_account_control_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_msad_user_account_control_mapper keycloak_ldap_msad_user_account_control_mapper}
 */
 export class LdapMsadUserAccountControlMapper extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class LdapMsadUserAccountControlMapper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LdapMsadUserAccountControlMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LdapMsadUserAccountControlMapper to import
-  * @param importFromId The id of the existing LdapMsadUserAccountControlMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_msad_user_account_control_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LdapMsadUserAccountControlMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_msad_user_account_control_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LdapMsadUserAccountControlMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class LdapMsadUserAccountControlMapper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_msad_user_account_control_mapper keycloak_ldap_msad_user_account_control_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_msad_user_account_control_mapper keycloak_ldap_msad_user_account_control_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class LdapMsadUserAccountControlMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_ldap_msad_user_account_control_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

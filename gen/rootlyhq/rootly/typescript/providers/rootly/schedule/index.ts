@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * 24/7 coverage of the schedule. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule#all_time_coverage Schedule#all_time_coverage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule#all_time_coverage Schedule#all_time_coverage}
   */
   readonly allTimeCoverage?: boolean | cdktf.IResolvable;
   /**
   * The description of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule#description Schedule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule#description Schedule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule#id Schedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule#id Schedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface ScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule#name Schedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule#name Schedule#name}
   */
   readonly name: string;
   /**
   * The owning teams for this schedules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule#owner_group_ids Schedule#owner_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule#owner_group_ids Schedule#owner_group_ids}
   */
   readonly ownerGroupIds?: string[];
   /**
   * ID of user assigned as owner of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule#owner_user_id Schedule#owner_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule#owner_user_id Schedule#owner_user_id}
   */
   readonly ownerUserId?: number;
   /**
   * Map must contain two fields, `id` and `name`. Synced slack channel of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule#slack_channel Schedule#slack_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule#slack_channel Schedule#slack_channel}
   */
   readonly slackChannel?: { [key: string]: string };
   /**
   * Map must contain two fields, `id` and `name`. Synced slack group of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule#slack_user_group Schedule#slack_user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule#slack_user_group Schedule#slack_user_group}
   */
   readonly slackUserGroup?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule rootly_schedule}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule rootly_schedule}
 */
 export class Schedule extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class Schedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Schedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Schedule to import
-  * @param importFromId The id of the existing Schedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Schedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Schedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class Schedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/schedule rootly_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/schedule rootly_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class Schedule extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_schedule',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

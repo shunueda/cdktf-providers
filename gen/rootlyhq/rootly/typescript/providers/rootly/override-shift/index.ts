@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/override_shift
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/override_shift
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OverrideShiftConfig extends cdktf.TerraformMetaArguments {
   /**
   * End datetime of shift
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/override_shift#ends_at OverrideShift#ends_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/override_shift#ends_at OverrideShift#ends_at}
   */
   readonly endsAt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/override_shift#id OverrideShift#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/override_shift#id OverrideShift#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface OverrideShiftConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/override_shift#rotation_id OverrideShift#rotation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/override_shift#rotation_id OverrideShift#rotation_id}
   */
   readonly rotationId?: string;
   /**
   * ID of schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/override_shift#schedule_id OverrideShift#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/override_shift#schedule_id OverrideShift#schedule_id}
   */
   readonly scheduleId?: string;
   /**
   * Start datetime of shift
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/override_shift#starts_at OverrideShift#starts_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/override_shift#starts_at OverrideShift#starts_at}
   */
   readonly startsAt: string;
   /**
   * Override shift user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/override_shift#user_id OverrideShift#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/override_shift#user_id OverrideShift#user_id}
   */
   readonly userId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/override_shift rootly_override_shift}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/override_shift rootly_override_shift}
 */
 export class OverrideShift extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class OverrideShift extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OverrideShift resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OverrideShift to import
-  * @param importFromId The id of the existing OverrideShift that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/override_shift#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OverrideShift that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/override_shift#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OverrideShift to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class OverrideShift extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/override_shift rootly_override_shift} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/override_shift rootly_override_shift} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class OverrideShift extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_override_shift',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

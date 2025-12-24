@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTwcLbPresetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Network bandwidth capacity of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset#bandwidth DataTwcLbPreset#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset#bandwidth DataTwcLbPreset#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Short description of specified preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset#description_short DataTwcLbPreset#description_short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset#description_short DataTwcLbPreset#description_short}
   */
   readonly descriptionShort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset#id DataTwcLbPreset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset#id DataTwcLbPreset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataTwcLbPresetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Location for the created storage (`ru-1`, `ru-2`, `pl-1`, `kz-1`). When storage was created all new presets or configuration may be only chosen from same location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset#location DataTwcLbPreset#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset#location DataTwcLbPreset#location}
   */
   readonly location?: string;
   /**
   * Replicas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset#replica_count DataTwcLbPreset#replica_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset#replica_count DataTwcLbPreset#replica_count}
   */
   readonly replicaCount?: number;
   /**
   * Maximum load that balancer may perform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset#requests_per_second DataTwcLbPreset#requests_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset#requests_per_second DataTwcLbPreset#requests_per_second}
   */
   readonly requestsPerSecond?: string;
   /**
   * price_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset#price_filter DataTwcLbPreset#price_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset#price_filter DataTwcLbPreset#price_filter}
   */
   readonly priceFilter?: DataTwcLbPresetPriceFilter;
 }
@@ -55,13 +55,13 @@ export interface DataTwcLbPresetPriceFilter {
   /**
   * Minimum price (inclusive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset#from DataTwcLbPreset#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset#from DataTwcLbPreset#from}
   */
   readonly from: number;
   /**
   * Maximum price (inclusive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset#to DataTwcLbPreset#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset#to DataTwcLbPreset#to}
   */
   readonly to: number;
 }
@@ -168,7 +168,7 @@ export class DataTwcLbPresetPriceFilterOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset twc_lb_preset}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset twc_lb_preset}
 */
 export class DataTwcLbPreset extends cdktf.TerraformDataSource {
 
@@ -184,7 +184,7 @@ export class DataTwcLbPreset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwcLbPreset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwcLbPreset to import
-  * @param importFromId The id of the existing DataTwcLbPreset that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwcLbPreset that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwcLbPreset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class DataTwcLbPreset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_lb_preset twc_lb_preset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_lb_preset twc_lb_preset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class DataTwcLbPreset extends cdktf.TerraformDataSource {
       terraformResourceType: 'twc_lb_preset',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface LdapRoleMapperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#client_id LdapRoleMapper#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#client_id LdapRoleMapper#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#id LdapRoleMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#id LdapRoleMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#ldap_roles_dn LdapRoleMapper#ldap_roles_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#ldap_roles_dn LdapRoleMapper#ldap_roles_dn}
   */
   readonly ldapRolesDn: string;
   /**
   * The ldap user federation provider to attach this mapper to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#ldap_user_federation_id LdapRoleMapper#ldap_user_federation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#ldap_user_federation_id LdapRoleMapper#ldap_user_federation_id}
   */
   readonly ldapUserFederationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#memberof_ldap_attribute LdapRoleMapper#memberof_ldap_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#memberof_ldap_attribute LdapRoleMapper#memberof_ldap_attribute}
   */
   readonly memberofLdapAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#membership_attribute_type LdapRoleMapper#membership_attribute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#membership_attribute_type LdapRoleMapper#membership_attribute_type}
   */
   readonly membershipAttributeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#membership_ldap_attribute LdapRoleMapper#membership_ldap_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#membership_ldap_attribute LdapRoleMapper#membership_ldap_attribute}
   */
   readonly membershipLdapAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#membership_user_ldap_attribute LdapRoleMapper#membership_user_ldap_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#membership_user_ldap_attribute LdapRoleMapper#membership_user_ldap_attribute}
   */
   readonly membershipUserLdapAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#mode LdapRoleMapper#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#mode LdapRoleMapper#mode}
   */
   readonly mode?: string;
   /**
   * Display name of the mapper when displayed in the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#name LdapRoleMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#name LdapRoleMapper#name}
   */
   readonly name: string;
   /**
   * The realm in which the ldap user federation provider exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#realm_id LdapRoleMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#realm_id LdapRoleMapper#realm_id}
   */
   readonly realmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#role_name_ldap_attribute LdapRoleMapper#role_name_ldap_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#role_name_ldap_attribute LdapRoleMapper#role_name_ldap_attribute}
   */
   readonly roleNameLdapAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#role_object_classes LdapRoleMapper#role_object_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#role_object_classes LdapRoleMapper#role_object_classes}
   */
   readonly roleObjectClasses: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#roles_ldap_filter LdapRoleMapper#roles_ldap_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#roles_ldap_filter LdapRoleMapper#roles_ldap_filter}
   */
   readonly rolesLdapFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#use_realm_roles_mapping LdapRoleMapper#use_realm_roles_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#use_realm_roles_mapping LdapRoleMapper#use_realm_roles_mapping}
   */
   readonly useRealmRolesMapping?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#user_roles_retrieve_strategy LdapRoleMapper#user_roles_retrieve_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#user_roles_retrieve_strategy LdapRoleMapper#user_roles_retrieve_strategy}
   */
   readonly userRolesRetrieveStrategy?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper keycloak_ldap_role_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper keycloak_ldap_role_mapper}
 */
 export class LdapRoleMapper extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class LdapRoleMapper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LdapRoleMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LdapRoleMapper to import
-  * @param importFromId The id of the existing LdapRoleMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LdapRoleMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LdapRoleMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class LdapRoleMapper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_role_mapper keycloak_ldap_role_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_role_mapper keycloak_ldap_role_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class LdapRoleMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_ldap_role_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

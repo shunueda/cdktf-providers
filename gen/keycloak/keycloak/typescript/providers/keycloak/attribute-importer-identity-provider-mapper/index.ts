@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface AttributeImporterIdentityProviderMapperConfig extends cdktf.Ter
   /**
   * Attribute Friendly Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper#attribute_friendly_name AttributeImporterIdentityProviderMapper#attribute_friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper#attribute_friendly_name AttributeImporterIdentityProviderMapper#attribute_friendly_name}
   */
   readonly attributeFriendlyName?: string;
   /**
   * Attribute Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper#attribute_name AttributeImporterIdentityProviderMapper#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper#attribute_name AttributeImporterIdentityProviderMapper#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * Claim Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper#claim_name AttributeImporterIdentityProviderMapper#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper#claim_name AttributeImporterIdentityProviderMapper#claim_name}
   */
   readonly claimName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper#extra_config AttributeImporterIdentityProviderMapper#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper#extra_config AttributeImporterIdentityProviderMapper#extra_config}
   */
   readonly extraConfig?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper#id AttributeImporterIdentityProviderMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper#id AttributeImporterIdentityProviderMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,31 +39,31 @@ export interface AttributeImporterIdentityProviderMapperConfig extends cdktf.Ter
   /**
   * IDP Alias
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper#identity_provider_alias AttributeImporterIdentityProviderMapper#identity_provider_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper#identity_provider_alias AttributeImporterIdentityProviderMapper#identity_provider_alias}
   */
   readonly identityProviderAlias: string;
   /**
   * IDP Mapper Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper#name AttributeImporterIdentityProviderMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper#name AttributeImporterIdentityProviderMapper#name}
   */
   readonly name: string;
   /**
   * Realm Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper#realm AttributeImporterIdentityProviderMapper#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper#realm AttributeImporterIdentityProviderMapper#realm}
   */
   readonly realm: string;
   /**
   * User Attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper#user_attribute AttributeImporterIdentityProviderMapper#user_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper#user_attribute AttributeImporterIdentityProviderMapper#user_attribute}
   */
   readonly userAttribute: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper keycloak_attribute_importer_identity_provider_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper keycloak_attribute_importer_identity_provider_mapper}
 */
 export class AttributeImporterIdentityProviderMapper extends cdktf.TerraformResource {
 
@@ -79,7 +79,7 @@ export class AttributeImporterIdentityProviderMapper extends cdktf.TerraformReso
   * Generates CDKTF code for importing a AttributeImporterIdentityProviderMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AttributeImporterIdentityProviderMapper to import
-  * @param importFromId The id of the existing AttributeImporterIdentityProviderMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AttributeImporterIdentityProviderMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AttributeImporterIdentityProviderMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class AttributeImporterIdentityProviderMapper extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_importer_identity_provider_mapper keycloak_attribute_importer_identity_provider_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_importer_identity_provider_mapper keycloak_attribute_importer_identity_provider_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,8 +102,8 @@ export class AttributeImporterIdentityProviderMapper extends cdktf.TerraformReso
       terraformResourceType: 'keycloak_attribute_importer_identity_provider_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

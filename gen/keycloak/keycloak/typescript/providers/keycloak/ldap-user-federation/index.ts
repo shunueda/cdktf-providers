@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,83 @@ export interface LdapUserFederationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of users to sync within a single transaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#batch_size_for_sync LdapUserFederation#batch_size_for_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#batch_size_for_sync LdapUserFederation#batch_size_for_sync}
   */
   readonly batchSizeForSync?: number;
   /**
   * Password of LDAP admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#bind_credential LdapUserFederation#bind_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#bind_credential LdapUserFederation#bind_credential}
   */
   readonly bindCredential?: string;
   /**
   * DN of LDAP admin, which will be used by Keycloak to access LDAP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#bind_dn LdapUserFederation#bind_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#bind_dn LdapUserFederation#bind_dn}
   */
   readonly bindDn?: string;
   /**
   * How frequently Keycloak should sync changed LDAP users, in seconds. Omit this property to disable periodic changed users sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#changed_sync_period LdapUserFederation#changed_sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#changed_sync_period LdapUserFederation#changed_sync_period}
   */
   readonly changedSyncPeriod?: number;
   /**
+  * When true, Keycloak will use connection pooling when connecting to LDAP.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#connection_pooling LdapUserFederation#connection_pooling}
+  */
+  readonly connectionPooling?: boolean | cdktf.IResolvable;
+  /**
   * LDAP connection timeout (duration string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#connection_timeout LdapUserFederation#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#connection_timeout LdapUserFederation#connection_timeout}
   */
   readonly connectionTimeout?: string;
   /**
   * Connection URL to the LDAP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#connection_url LdapUserFederation#connection_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#connection_url LdapUserFederation#connection_url}
   */
   readonly connectionUrl: string;
   /**
   * Additional LDAP filter for filtering searched users. Must begin with '(' and end with ')'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#custom_user_search_filter LdapUserFederation#custom_user_search_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#custom_user_search_filter LdapUserFederation#custom_user_search_filter}
   */
   readonly customUserSearchFilter?: string;
   /**
+  * true: enables debug logging for Krb5LoginModule. false: disables debug logging for Krb5LoginModule
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#debug LdapUserFederation#debug}
+  */
+  readonly debug?: string;
+  /**
   * When true, the provider will delete the default mappers which are normally created by Keycloak when creating an LDAP user federation provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#delete_default_mappers LdapUserFederation#delete_default_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#delete_default_mappers LdapUserFederation#delete_default_mappers}
   */
   readonly deleteDefaultMappers?: boolean | cdktf.IResolvable;
   /**
   * READ_ONLY and WRITABLE are self-explanatory. UNSYNCED allows user data to be imported but not synced back to LDAP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#edit_mode LdapUserFederation#edit_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#edit_mode LdapUserFederation#edit_mode}
   */
   readonly editMode?: string;
   /**
   * When false, this provider will not be used when performing queries for users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#enabled LdapUserFederation#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#enabled LdapUserFederation#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * How frequently Keycloak should sync all LDAP users, in seconds. Omit this property to disable periodic full sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#full_sync_period LdapUserFederation#full_sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#full_sync_period LdapUserFederation#full_sync_period}
   */
   readonly fullSyncPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#id LdapUserFederation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#id LdapUserFederation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,125 +95,131 @@ export interface LdapUserFederationConfig extends cdktf.TerraformMetaArguments {
   /**
   * When true, LDAP users will be imported into the Keycloak database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#import_enabled LdapUserFederation#import_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#import_enabled LdapUserFederation#import_enabled}
   */
   readonly importEnabled?: boolean | cdktf.IResolvable;
   /**
+  * Name of the LDAP attribute, which refers to Kerberos principal. This is used to lookup appropriate LDAP user after successful Kerberos/SPNEGO authentication in Keycloak. When this is empty, the LDAP user will be looked based on LDAP username corresponding to the first part of his Kerberos principal. For instance, for principal 'john@KEYCLOAK.ORG', it will assume that LDAP username is 'john'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#krb_principal_attribute LdapUserFederation#krb_principal_attribute}
+  */
+  readonly krbPrincipalAttribute?: string;
+  /**
   * Display name of the provider when displayed in the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#name LdapUserFederation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#name LdapUserFederation#name}
   */
   readonly name: string;
   /**
   * When true, Keycloak assumes the LDAP server supports pagination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#pagination LdapUserFederation#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#pagination LdapUserFederation#pagination}
   */
   readonly pagination?: boolean | cdktf.IResolvable;
   /**
   * Priority of this provider when looking up users. Lower values are first.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#priority LdapUserFederation#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#priority LdapUserFederation#priority}
   */
   readonly priority?: number;
   /**
   * Name of the LDAP attribute to use as the relative distinguished name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#rdn_ldap_attribute LdapUserFederation#rdn_ldap_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#rdn_ldap_attribute LdapUserFederation#rdn_ldap_attribute}
   */
   readonly rdnLdapAttribute: string;
   /**
   * LDAP read timeout (duration string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#read_timeout LdapUserFederation#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#read_timeout LdapUserFederation#read_timeout}
   */
   readonly readTimeout?: string;
   /**
   * The realm this provider will provide user federation for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#realm_id LdapUserFederation#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#realm_id LdapUserFederation#realm_id}
   */
   readonly realmId: string;
   /**
   * ONE_LEVEL: only search for users in the DN specified by user_dn. SUBTREE: search entire LDAP subtree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#search_scope LdapUserFederation#search_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#search_scope LdapUserFederation#search_scope}
   */
   readonly searchScope?: string;
   /**
   * When true, Keycloak will encrypt the connection to LDAP using STARTTLS, which will disable connection pooling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#start_tls LdapUserFederation#start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#start_tls LdapUserFederation#start_tls}
   */
   readonly startTls?: boolean | cdktf.IResolvable;
   /**
   * When true, newly created users will be synced back to LDAP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#sync_registrations LdapUserFederation#sync_registrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#sync_registrations LdapUserFederation#sync_registrations}
   */
   readonly syncRegistrations?: boolean | cdktf.IResolvable;
   /**
   * If enabled, email provided by this provider is not verified even if verification is enabled for the realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#trust_email LdapUserFederation#trust_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#trust_email LdapUserFederation#trust_email}
   */
   readonly trustEmail?: boolean | cdktf.IResolvable;
   /**
   * When `true`, use the LDAPv3 Password Modify Extended Operation (RFC-3062).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#use_password_modify_extended_op LdapUserFederation#use_password_modify_extended_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#use_password_modify_extended_op LdapUserFederation#use_password_modify_extended_op}
   */
   readonly usePasswordModifyExtendedOp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#use_truststore_spi LdapUserFederation#use_truststore_spi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#use_truststore_spi LdapUserFederation#use_truststore_spi}
   */
   readonly useTruststoreSpi?: string;
   /**
   * All values of LDAP objectClass attribute for users in LDAP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#user_object_classes LdapUserFederation#user_object_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#user_object_classes LdapUserFederation#user_object_classes}
   */
   readonly userObjectClasses: string[];
   /**
   * Name of the LDAP attribute to use as the Keycloak username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#username_ldap_attribute LdapUserFederation#username_ldap_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#username_ldap_attribute LdapUserFederation#username_ldap_attribute}
   */
   readonly usernameLdapAttribute: string;
   /**
   * Full DN of LDAP tree where your users are.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#users_dn LdapUserFederation#users_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#users_dn LdapUserFederation#users_dn}
   */
   readonly usersDn: string;
   /**
   * Name of the LDAP attribute to use as a unique object identifier for objects in LDAP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#uuid_ldap_attribute LdapUserFederation#uuid_ldap_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#uuid_ldap_attribute LdapUserFederation#uuid_ldap_attribute}
   */
   readonly uuidLdapAttribute: string;
   /**
   * When true, Keycloak will validate passwords using the realm policy before updating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#validate_password_policy LdapUserFederation#validate_password_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#validate_password_policy LdapUserFederation#validate_password_policy}
   */
   readonly validatePasswordPolicy?: boolean | cdktf.IResolvable;
   /**
   * LDAP vendor. I am almost certain this field does nothing, but the UI indicates that it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#vendor LdapUserFederation#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#vendor LdapUserFederation#vendor}
   */
   readonly vendor?: string;
   /**
   * cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#cache LdapUserFederation#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#cache LdapUserFederation#cache}
   */
   readonly cache?: LdapUserFederationCache;
   /**
   * kerberos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#kerberos LdapUserFederation#kerberos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#kerberos LdapUserFederation#kerberos}
   */
   readonly kerberos?: LdapUserFederationKerberos;
 }
@@ -209,29 +227,29 @@ export interface LdapUserFederationCache {
   /**
   * Day of the week the entry will become invalid on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#eviction_day LdapUserFederation#eviction_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#eviction_day LdapUserFederation#eviction_day}
   */
   readonly evictionDay?: number;
   /**
   * Hour of day the entry will become invalid on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#eviction_hour LdapUserFederation#eviction_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#eviction_hour LdapUserFederation#eviction_hour}
   */
   readonly evictionHour?: number;
   /**
   * Minute of day the entry will become invalid on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#eviction_minute LdapUserFederation#eviction_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#eviction_minute LdapUserFederation#eviction_minute}
   */
   readonly evictionMinute?: number;
   /**
   * Max lifespan of cache entry (duration string).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#max_lifespan LdapUserFederation#max_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#max_lifespan LdapUserFederation#max_lifespan}
   */
   readonly maxLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#policy LdapUserFederation#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#policy LdapUserFederation#policy}
   */
   readonly policy?: string;
 }
@@ -433,25 +451,25 @@ export interface LdapUserFederationKerberos {
   /**
   * The name of the kerberos realm, e.g. FOO.LOCAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#kerberos_realm LdapUserFederation#kerberos_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#kerberos_realm LdapUserFederation#kerberos_realm}
   */
   readonly kerberosRealm: string;
   /**
   * Path to the kerberos keytab file on the server with credentials of the service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#key_tab LdapUserFederation#key_tab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#key_tab LdapUserFederation#key_tab}
   */
   readonly keyTab: string;
   /**
   * The kerberos server principal, e.g. 'HTTP/host.foo.com@FOO.LOCAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#server_principal LdapUserFederation#server_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#server_principal LdapUserFederation#server_principal}
   */
   readonly serverPrincipal: string;
   /**
   * Use kerberos login module instead of ldap service api. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#use_kerberos_for_password_authentication LdapUserFederation#use_kerberos_for_password_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#use_kerberos_for_password_authentication LdapUserFederation#use_kerberos_for_password_authentication}
   */
   readonly useKerberosForPasswordAuthentication?: boolean | cdktf.IResolvable;
 }
@@ -613,7 +631,7 @@ export class LdapUserFederationKerberosOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation keycloak_ldap_user_federation}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation keycloak_ldap_user_federation}
 */
 export class LdapUserFederation extends cdktf.TerraformResource {
 
@@ -629,7 +647,7 @@ export class LdapUserFederation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LdapUserFederation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LdapUserFederation to import
-  * @param importFromId The id of the existing LdapUserFederation that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LdapUserFederation that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LdapUserFederation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -641,7 +659,7 @@ export class LdapUserFederation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_user_federation keycloak_ldap_user_federation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_user_federation keycloak_ldap_user_federation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -652,8 +670,8 @@ export class LdapUserFederation extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_ldap_user_federation',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -667,15 +685,18 @@ export class LdapUserFederation extends cdktf.TerraformResource {
     this._bindCredential = config.bindCredential;
     this._bindDn = config.bindDn;
     this._changedSyncPeriod = config.changedSyncPeriod;
+    this._connectionPooling = config.connectionPooling;
     this._connectionTimeout = config.connectionTimeout;
     this._connectionUrl = config.connectionUrl;
     this._customUserSearchFilter = config.customUserSearchFilter;
+    this._debug = config.debug;
     this._deleteDefaultMappers = config.deleteDefaultMappers;
     this._editMode = config.editMode;
     this._enabled = config.enabled;
     this._fullSyncPeriod = config.fullSyncPeriod;
     this._id = config.id;
     this._importEnabled = config.importEnabled;
+    this._krbPrincipalAttribute = config.krbPrincipalAttribute;
     this._name = config.name;
     this._pagination = config.pagination;
     this._priority = config.priority;
@@ -766,6 +787,22 @@ export class LdapUserFederation extends cdktf.TerraformResource {
     return this._changedSyncPeriod;
   }
 
+  // connection_pooling - computed: false, optional: true, required: false
+  private _connectionPooling?: boolean | cdktf.IResolvable; 
+  public get connectionPooling() {
+    return this.getBooleanAttribute('connection_pooling');
+  }
+  public set connectionPooling(value: boolean | cdktf.IResolvable) {
+    this._connectionPooling = value;
+  }
+  public resetConnectionPooling() {
+    this._connectionPooling = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionPoolingInput() {
+    return this._connectionPooling;
+  }
+
   // connection_timeout - computed: false, optional: true, required: false
   private _connectionTimeout?: string; 
   public get connectionTimeout() {
@@ -809,6 +846,22 @@ export class LdapUserFederation extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get customUserSearchFilterInput() {
     return this._customUserSearchFilter;
+  }
+
+  // debug - computed: false, optional: true, required: false
+  private _debug?: string; 
+  public get debug() {
+    return this.getStringAttribute('debug');
+  }
+  public set debug(value: string) {
+    this._debug = value;
+  }
+  public resetDebug() {
+    this._debug = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get debugInput() {
+    return this._debug;
   }
 
   // delete_default_mappers - computed: false, optional: true, required: false
@@ -905,6 +958,22 @@ export class LdapUserFederation extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get importEnabledInput() {
     return this._importEnabled;
+  }
+
+  // krb_principal_attribute - computed: true, optional: true, required: false
+  private _krbPrincipalAttribute?: string; 
+  public get krbPrincipalAttribute() {
+    return this.getStringAttribute('krb_principal_attribute');
+  }
+  public set krbPrincipalAttribute(value: string) {
+    this._krbPrincipalAttribute = value;
+  }
+  public resetKrbPrincipalAttribute() {
+    this._krbPrincipalAttribute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get krbPrincipalAttributeInput() {
+    return this._krbPrincipalAttribute;
   }
 
   // name - computed: false, optional: false, required: true
@@ -1216,15 +1285,18 @@ export class LdapUserFederation extends cdktf.TerraformResource {
       bind_credential: cdktf.stringToTerraform(this._bindCredential),
       bind_dn: cdktf.stringToTerraform(this._bindDn),
       changed_sync_period: cdktf.numberToTerraform(this._changedSyncPeriod),
+      connection_pooling: cdktf.booleanToTerraform(this._connectionPooling),
       connection_timeout: cdktf.stringToTerraform(this._connectionTimeout),
       connection_url: cdktf.stringToTerraform(this._connectionUrl),
       custom_user_search_filter: cdktf.stringToTerraform(this._customUserSearchFilter),
+      debug: cdktf.stringToTerraform(this._debug),
       delete_default_mappers: cdktf.booleanToTerraform(this._deleteDefaultMappers),
       edit_mode: cdktf.stringToTerraform(this._editMode),
       enabled: cdktf.booleanToTerraform(this._enabled),
       full_sync_period: cdktf.numberToTerraform(this._fullSyncPeriod),
       id: cdktf.stringToTerraform(this._id),
       import_enabled: cdktf.booleanToTerraform(this._importEnabled),
+      krb_principal_attribute: cdktf.stringToTerraform(this._krbPrincipalAttribute),
       name: cdktf.stringToTerraform(this._name),
       pagination: cdktf.booleanToTerraform(this._pagination),
       priority: cdktf.numberToTerraform(this._priority),
@@ -1274,6 +1346,12 @@ export class LdapUserFederation extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      connection_pooling: {
+        value: cdktf.booleanToHclTerraform(this._connectionPooling),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       connection_timeout: {
         value: cdktf.stringToHclTerraform(this._connectionTimeout),
         isBlock: false,
@@ -1288,6 +1366,12 @@ export class LdapUserFederation extends cdktf.TerraformResource {
       },
       custom_user_search_filter: {
         value: cdktf.stringToHclTerraform(this._customUserSearchFilter),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      debug: {
+        value: cdktf.stringToHclTerraform(this._debug),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1327,6 +1411,12 @@ export class LdapUserFederation extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      krb_principal_attribute: {
+        value: cdktf.stringToHclTerraform(this._krbPrincipalAttribute),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

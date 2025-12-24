@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_configurator
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_configurator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTwcConfiguratorConfig extends cdktf.TerraformMetaArguments 
   /**
   * CPU frequency for the created server (`3.3`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_configurator#cpu_frequency DataTwcConfigurator#cpu_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_configurator#cpu_frequency DataTwcConfigurator#cpu_frequency}
   */
   readonly cpuFrequency?: string;
   /**
   * Disk type for the created server (`ssd`, `nvme`, `hdd`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_configurator#disk_type DataTwcConfigurator#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_configurator#disk_type DataTwcConfigurator#disk_type}
   */
   readonly diskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_configurator#id DataTwcConfigurator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_configurator#id DataTwcConfigurator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTwcConfiguratorConfig extends cdktf.TerraformMetaArguments 
   /**
   * Location for the created server (`ru-1`, `ru-2`, `pl-1`, `kz-1`). When server was created all new presets or configuration may be only chosen from same location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_configurator#location DataTwcConfigurator#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_configurator#location DataTwcConfigurator#location}
   */
   readonly location?: string;
   /**
   * Preset type for the created server (`premium`, `standard`, `gpu`, `dedicated_cpu`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_configurator#preset_type DataTwcConfigurator#preset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_configurator#preset_type DataTwcConfigurator#preset_type}
   */
   readonly presetType?: string;
   /**
   * requirements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_configurator#requirements DataTwcConfigurator#requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_configurator#requirements DataTwcConfigurator#requirements}
   */
   readonly requirements?: DataTwcConfiguratorRequirements[] | cdktf.IResolvable;
 }
@@ -203,7 +203,7 @@ export class DataTwcConfiguratorRequirementsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_configurator twc_configurator}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_configurator twc_configurator}
 */
 export class DataTwcConfigurator extends cdktf.TerraformDataSource {
 
@@ -219,7 +219,7 @@ export class DataTwcConfigurator extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwcConfigurator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwcConfigurator to import
-  * @param importFromId The id of the existing DataTwcConfigurator that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_configurator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwcConfigurator that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_configurator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwcConfigurator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class DataTwcConfigurator extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_configurator twc_configurator} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_configurator twc_configurator} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class DataTwcConfigurator extends cdktf.TerraformDataSource {
       terraformResourceType: 'twc_configurator',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

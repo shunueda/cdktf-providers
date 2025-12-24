@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface OpenidClientPermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#client_id OpenidClientPermissions#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#client_id OpenidClientPermissions#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#id OpenidClientPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#id OpenidClientPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#realm_id OpenidClientPermissions#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#realm_id OpenidClientPermissions#realm_id}
   */
   readonly realmId: string;
   /**
   * configure_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#configure_scope OpenidClientPermissions#configure_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#configure_scope OpenidClientPermissions#configure_scope}
   */
   readonly configureScope?: OpenidClientPermissionsConfigureScope;
   /**
   * manage_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#manage_scope OpenidClientPermissions#manage_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#manage_scope OpenidClientPermissions#manage_scope}
   */
   readonly manageScope?: OpenidClientPermissionsManageScope;
   /**
   * map_roles_client_scope_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#map_roles_client_scope_scope OpenidClientPermissions#map_roles_client_scope_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#map_roles_client_scope_scope OpenidClientPermissions#map_roles_client_scope_scope}
   */
   readonly mapRolesClientScopeScope?: OpenidClientPermissionsMapRolesClientScopeScope;
   /**
   * map_roles_composite_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#map_roles_composite_scope OpenidClientPermissions#map_roles_composite_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#map_roles_composite_scope OpenidClientPermissions#map_roles_composite_scope}
   */
   readonly mapRolesCompositeScope?: OpenidClientPermissionsMapRolesCompositeScope;
   /**
   * map_roles_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#map_roles_scope OpenidClientPermissions#map_roles_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#map_roles_scope OpenidClientPermissions#map_roles_scope}
   */
   readonly mapRolesScope?: OpenidClientPermissionsMapRolesScope;
   /**
   * token_exchange_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#token_exchange_scope OpenidClientPermissions#token_exchange_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#token_exchange_scope OpenidClientPermissions#token_exchange_scope}
   */
   readonly tokenExchangeScope?: OpenidClientPermissionsTokenExchangeScope;
   /**
   * view_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#view_scope OpenidClientPermissions#view_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#view_scope OpenidClientPermissions#view_scope}
   */
   readonly viewScope?: OpenidClientPermissionsViewScope;
 }
 export interface OpenidClientPermissionsConfigureScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -217,15 +217,15 @@ export class OpenidClientPermissionsConfigureScopeOutputReference extends cdktf.
 }
 export interface OpenidClientPermissionsManageScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -367,15 +367,15 @@ export class OpenidClientPermissionsManageScopeOutputReference extends cdktf.Com
 }
 export interface OpenidClientPermissionsMapRolesClientScopeScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -517,15 +517,15 @@ export class OpenidClientPermissionsMapRolesClientScopeScopeOutputReference exte
 }
 export interface OpenidClientPermissionsMapRolesCompositeScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -667,15 +667,15 @@ export class OpenidClientPermissionsMapRolesCompositeScopeOutputReference extend
 }
 export interface OpenidClientPermissionsMapRolesScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -817,15 +817,15 @@ export class OpenidClientPermissionsMapRolesScopeOutputReference extends cdktf.C
 }
 export interface OpenidClientPermissionsTokenExchangeScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -967,15 +967,15 @@ export class OpenidClientPermissionsTokenExchangeScopeOutputReference extends cd
 }
 export interface OpenidClientPermissionsViewScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#decision_strategy OpenidClientPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#description OpenidClientPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#policies OpenidClientPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -1117,7 +1117,7 @@ export class OpenidClientPermissionsViewScopeOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions keycloak_openid_client_permissions}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions keycloak_openid_client_permissions}
 */
 export class OpenidClientPermissions extends cdktf.TerraformResource {
 
@@ -1133,7 +1133,7 @@ export class OpenidClientPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenidClientPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenidClientPermissions to import
-  * @param importFromId The id of the existing OpenidClientPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenidClientPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenidClientPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1145,7 +1145,7 @@ export class OpenidClientPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client_permissions keycloak_openid_client_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client_permissions keycloak_openid_client_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1156,8 +1156,8 @@ export class OpenidClientPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_openid_client_permissions',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

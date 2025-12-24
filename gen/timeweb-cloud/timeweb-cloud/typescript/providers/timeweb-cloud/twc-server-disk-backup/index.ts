@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server_disk_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TwcServerDiskBackupConfig extends cdktf.TerraformMetaArguments 
   /**
   * Comment for backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup#comment TwcServerDiskBackup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server_disk_backup#comment TwcServerDiskBackup#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup#id TwcServerDiskBackup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server_disk_backup#id TwcServerDiskBackup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface TwcServerDiskBackupConfig extends cdktf.TerraformMetaArguments 
   /**
   * Disk ID for which backup should be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup#source_server_disk_id TwcServerDiskBackup#source_server_disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server_disk_backup#source_server_disk_id TwcServerDiskBackup#source_server_disk_id}
   */
   readonly sourceServerDiskId: number;
   /**
   * Server ID for which disk backups should be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup#source_server_id TwcServerDiskBackup#source_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server_disk_backup#source_server_id TwcServerDiskBackup#source_server_id}
   */
   readonly sourceServerId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup twc_server_disk_backup}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server_disk_backup twc_server_disk_backup}
 */
 export class TwcServerDiskBackup extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class TwcServerDiskBackup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcServerDiskBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcServerDiskBackup to import
-  * @param importFromId The id of the existing TwcServerDiskBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcServerDiskBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server_disk_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcServerDiskBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class TwcServerDiskBackup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server_disk_backup twc_server_disk_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server_disk_backup twc_server_disk_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class TwcServerDiskBackup extends cdktf.TerraformResource {
       terraformResourceType: 'twc_server_disk_backup',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,93 +10,93 @@ export interface OidcGoogleIdentityProviderConfig extends cdktf.TerraformMetaArg
   /**
   * This is just used together with Identity Provider Authenticator or when kc_idp_hint points to this identity provider. In case that client sends a request with prompt=none and user is not yet authenticated, the error will not be directly returned to client, but the request with prompt=none will be forwarded to this identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#accepts_prompt_none_forward_from_client OidcGoogleIdentityProvider#accepts_prompt_none_forward_from_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#accepts_prompt_none_forward_from_client OidcGoogleIdentityProvider#accepts_prompt_none_forward_from_client}
   */
   readonly acceptsPromptNoneForwardFromClient?: boolean | cdktf.IResolvable;
   /**
   * Enable/disable if new users can read any stored tokens. This assigns the broker.read-token role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#add_read_token_role_on_create OidcGoogleIdentityProvider#add_read_token_role_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#add_read_token_role_on_create OidcGoogleIdentityProvider#add_read_token_role_on_create}
   */
   readonly addReadTokenRoleOnCreate?: boolean | cdktf.IResolvable;
   /**
   * The alias uniquely identifies an identity provider and it is also used to build the redirect uri. In case of google this is computed and always google
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#alias OidcGoogleIdentityProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#alias OidcGoogleIdentityProvider#alias}
   */
   readonly alias?: string;
   /**
   * Enable/disable authenticate users by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#authenticate_by_default OidcGoogleIdentityProvider#authenticate_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#authenticate_by_default OidcGoogleIdentityProvider#authenticate_by_default}
   */
   readonly authenticateByDefault?: boolean | cdktf.IResolvable;
   /**
   * Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#client_id OidcGoogleIdentityProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#client_id OidcGoogleIdentityProvider#client_id}
   */
   readonly clientId: string;
   /**
   * Client Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#client_secret OidcGoogleIdentityProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#client_secret OidcGoogleIdentityProvider#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The scopes to be sent when asking for authorization. See the documentation for possible values, separator and default value'. Default: 'openid profile email'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#default_scopes OidcGoogleIdentityProvider#default_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#default_scopes OidcGoogleIdentityProvider#default_scopes}
   */
   readonly defaultScopes?: string;
   /**
   * Disable usage of User Info service to obtain additional user information?  Default is to use this OIDC service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#disable_user_info OidcGoogleIdentityProvider#disable_user_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#disable_user_info OidcGoogleIdentityProvider#disable_user_info}
   */
   readonly disableUserInfo?: boolean | cdktf.IResolvable;
   /**
   * The human-friendly name of the identity provider, used in the log in form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#display_name OidcGoogleIdentityProvider#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#display_name OidcGoogleIdentityProvider#display_name}
   */
   readonly displayName?: string;
   /**
   * Enable/disable this identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#enabled OidcGoogleIdentityProvider#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#enabled OidcGoogleIdentityProvider#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#extra_config OidcGoogleIdentityProvider#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#extra_config OidcGoogleIdentityProvider#extra_config}
   */
   readonly extraConfig?: { [key: string]: string };
   /**
   * Alias of authentication flow, which is triggered after first login with this identity provider. Term 'First Login' means that there is not yet existing Keycloak account linked with the authenticated identity provider account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#first_broker_login_flow_alias OidcGoogleIdentityProvider#first_broker_login_flow_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#first_broker_login_flow_alias OidcGoogleIdentityProvider#first_broker_login_flow_alias}
   */
   readonly firstBrokerLoginFlowAlias?: string;
   /**
   * GUI Order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#gui_order OidcGoogleIdentityProvider#gui_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#gui_order OidcGoogleIdentityProvider#gui_order}
   */
   readonly guiOrder?: string;
   /**
   * Hide On Login Page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#hide_on_login_page OidcGoogleIdentityProvider#hide_on_login_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#hide_on_login_page OidcGoogleIdentityProvider#hide_on_login_page}
   */
   readonly hideOnLoginPage?: boolean | cdktf.IResolvable;
   /**
   * Set 'hd' query parameter when logging in with Google. Google will list accounts only for this domain. Keycloak validates that the returned identity token has a claim for this domain. When '*' is entered, any hosted account can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#hosted_domain OidcGoogleIdentityProvider#hosted_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#hosted_domain OidcGoogleIdentityProvider#hosted_domain}
   */
   readonly hostedDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#id OidcGoogleIdentityProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#id OidcGoogleIdentityProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,75 +105,75 @@ export interface OidcGoogleIdentityProviderConfig extends cdktf.TerraformMetaArg
   /**
   * If true, users cannot log in through this provider.  They can only link to this provider.  This is useful if you don't want to allow login from the provider, but want to integrate with a provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#link_only OidcGoogleIdentityProvider#link_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#link_only OidcGoogleIdentityProvider#link_only}
   */
   readonly linkOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#org_domain OidcGoogleIdentityProvider#org_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#org_domain OidcGoogleIdentityProvider#org_domain}
   */
   readonly orgDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#org_redirect_mode_email_matches OidcGoogleIdentityProvider#org_redirect_mode_email_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#org_redirect_mode_email_matches OidcGoogleIdentityProvider#org_redirect_mode_email_matches}
   */
   readonly orgRedirectModeEmailMatches?: boolean | cdktf.IResolvable;
   /**
   * ID of organization with which this identity is linked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#organization_id OidcGoogleIdentityProvider#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#organization_id OidcGoogleIdentityProvider#organization_id}
   */
   readonly organizationId?: string;
   /**
   * Alias of authentication flow, which is triggered after each login with this identity provider. Useful if you want additional verification of each user authenticated with this identity provider (for example OTP). Leave this empty if you don't want any additional authenticators to be triggered after login with this identity provider. Also note, that authenticator implementations must assume that user is already set in ClientSession as identity provider already set it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#post_broker_login_flow_alias OidcGoogleIdentityProvider#post_broker_login_flow_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#post_broker_login_flow_alias OidcGoogleIdentityProvider#post_broker_login_flow_alias}
   */
   readonly postBrokerLoginFlowAlias?: string;
   /**
   * provider id, is always google, unless you have a extended custom implementation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#provider_id OidcGoogleIdentityProvider#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#provider_id OidcGoogleIdentityProvider#provider_id}
   */
   readonly providerId?: string;
   /**
   * Realm Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#realm OidcGoogleIdentityProvider#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#realm OidcGoogleIdentityProvider#realm}
   */
   readonly realm: string;
   /**
   * Set 'access_type' query parameter to 'offline' when redirecting to google authorization endpoint, to get a refresh token back. Useful if planning to use Token Exchange to retrieve Google token to access Google APIs when the user is not at the browser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#request_refresh_token OidcGoogleIdentityProvider#request_refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#request_refresh_token OidcGoogleIdentityProvider#request_refresh_token}
   */
   readonly requestRefreshToken?: boolean | cdktf.IResolvable;
   /**
   * Enable/disable if tokens must be stored after authenticating users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#store_token OidcGoogleIdentityProvider#store_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#store_token OidcGoogleIdentityProvider#store_token}
   */
   readonly storeToken?: boolean | cdktf.IResolvable;
   /**
   * Sync Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#sync_mode OidcGoogleIdentityProvider#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#sync_mode OidcGoogleIdentityProvider#sync_mode}
   */
   readonly syncMode?: string;
   /**
   * If enabled then email provided by this provider is not verified even if verification is enabled for the realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#trust_email OidcGoogleIdentityProvider#trust_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#trust_email OidcGoogleIdentityProvider#trust_email}
   */
   readonly trustEmail?: boolean | cdktf.IResolvable;
   /**
   * Set 'userIp' query parameter when invoking on Google's User Info service.  This will use the user's ip address.  Useful if Google is throttling access to the User Info service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#use_user_ip_param OidcGoogleIdentityProvider#use_user_ip_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#use_user_ip_param OidcGoogleIdentityProvider#use_user_ip_param}
   */
   readonly useUserIpParam?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider keycloak_oidc_google_identity_provider}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider keycloak_oidc_google_identity_provider}
 */
 export class OidcGoogleIdentityProvider extends cdktf.TerraformResource {
 
@@ -189,7 +189,7 @@ export class OidcGoogleIdentityProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OidcGoogleIdentityProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OidcGoogleIdentityProvider to import
-  * @param importFromId The id of the existing OidcGoogleIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OidcGoogleIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OidcGoogleIdentityProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class OidcGoogleIdentityProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_google_identity_provider keycloak_oidc_google_identity_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_google_identity_provider keycloak_oidc_google_identity_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class OidcGoogleIdentityProvider extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_oidc_google_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

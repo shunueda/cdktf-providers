@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_database_cluster
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_database_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataTwcDatabaseClusterConfig extends cdktf.TerraformMetaArgumen
   /**
   * Availability zone for database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_database_cluster#availability_zone DataTwcDatabaseCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_database_cluster#availability_zone DataTwcDatabaseCluster#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Database cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_database_cluster#id DataTwcDatabaseCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_database_cluster#id DataTwcDatabaseCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface DataTwcDatabaseClusterConfig extends cdktf.TerraformMetaArgumen
   /**
   * Location where database cluster was created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_database_cluster#location DataTwcDatabaseCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_database_cluster#location DataTwcDatabaseCluster#location}
   */
   readonly location?: string;
   /**
   * Name of specified database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_database_cluster#name DataTwcDatabaseCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_database_cluster#name DataTwcDatabaseCluster#name}
   */
   readonly name?: string;
   /**
   * Type of specified database cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_database_cluster#type DataTwcDatabaseCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_database_cluster#type DataTwcDatabaseCluster#type}
   */
   readonly type?: string;
 }
@@ -284,7 +284,7 @@ export class DataTwcDatabaseClusterNetworksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_database_cluster twc_database_cluster}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_database_cluster twc_database_cluster}
 */
 export class DataTwcDatabaseCluster extends cdktf.TerraformDataSource {
 
@@ -300,7 +300,7 @@ export class DataTwcDatabaseCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwcDatabaseCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwcDatabaseCluster to import
-  * @param importFromId The id of the existing DataTwcDatabaseCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_database_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwcDatabaseCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_database_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwcDatabaseCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class DataTwcDatabaseCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_database_cluster twc_database_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_database_cluster twc_database_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class DataTwcDatabaseCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'twc_database_cluster',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

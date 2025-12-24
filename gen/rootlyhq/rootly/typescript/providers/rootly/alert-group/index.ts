@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface AlertGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Grouping condition for the alert group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#condition_type AlertGroup#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#condition_type AlertGroup#condition_type}
   */
   readonly conditionType?: string;
   /**
   * Date or deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#deleted_at AlertGroup#deleted_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#deleted_at AlertGroup#deleted_at}
   */
   readonly deletedAt?: string;
   /**
   * The description of the alert group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#description AlertGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#description AlertGroup#description}
   */
   readonly description?: string;
   /**
   * Whether the alerts are grouped by title or not. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#group_by_alert_title AlertGroup#group_by_alert_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#group_by_alert_title AlertGroup#group_by_alert_title}
   */
   readonly groupByAlertTitle?: boolean | cdktf.IResolvable;
   /**
   * Whether the alerts are grouped by urgency or not. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#group_by_alert_urgency AlertGroup#group_by_alert_urgency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#group_by_alert_urgency AlertGroup#group_by_alert_urgency}
   */
   readonly groupByAlertUrgency?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#id AlertGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#id AlertGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface AlertGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the alert group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#name AlertGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#name AlertGroup#name}
   */
   readonly name: string;
   /**
   * The slug of the alert group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#slug AlertGroup#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#slug AlertGroup#slug}
   */
   readonly slug?: string;
   /**
   * Time window for the alert grouping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#time_window AlertGroup#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#time_window AlertGroup#time_window}
   */
   readonly timeWindow?: number;
   /**
   * attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#attributes AlertGroup#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#attributes AlertGroup#attributes}
   */
   readonly attributes?: AlertGroupAttributes[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#conditions AlertGroup#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#conditions AlertGroup#conditions}
   */
   readonly conditions?: AlertGroupConditions[] | cdktf.IResolvable;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#targets AlertGroup#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#targets AlertGroup#targets}
   */
   readonly targets?: AlertGroupTargets[] | cdktf.IResolvable;
 }
@@ -85,7 +85,7 @@ export interface AlertGroupAttributes {
   /**
   * The JSON path to the value to group by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#json_path AlertGroup#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#json_path AlertGroup#json_path}
   */
   readonly jsonPath?: string;
 }
@@ -203,13 +203,13 @@ export interface AlertGroupConditionsValues {
   /**
   * ID of the Alert Urgency to set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#record_id AlertGroup#record_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#record_id AlertGroup#record_id}
   */
   readonly recordId?: string;
   /**
   * Should be "AlertUrgency".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#record_type AlertGroup#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#record_type AlertGroup#record_type}
   */
   readonly recordType?: string;
 }
@@ -356,55 +356,55 @@ export interface AlertGroupConditions {
   /**
   * The Alert Urgency ID's to check in the condition. Only need to be set when the property field type is 'attribute', the property field name is 'alert_urgency' and the property field condition type is 'is_one_of' or 'is_not_one_of'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#alert_urgency_ids AlertGroup#alert_urgency_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#alert_urgency_ids AlertGroup#alert_urgency_ids}
   */
   readonly alertUrgencyIds?: string[];
   /**
   * The ID of the conditionable. If conditionable_type is AlertField, this is the ID of the alert field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#conditionable_id AlertGroup#conditionable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#conditionable_id AlertGroup#conditionable_id}
   */
   readonly conditionableId?: string;
   /**
   * The type of the conditionable. Value must be one of `AlertField`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#conditionable_type AlertGroup#conditionable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#conditionable_type AlertGroup#conditionable_type}
   */
   readonly conditionableType?: string;
   /**
   * The condition type of the property field. Value must be one of `is_one_of`, `is_not_one_of`, `contains`, `does_not_contain`, `starts_with`, `ends_with`, `matches_regex`, `is_empty`, `matches_existing_alert`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#property_field_condition_type AlertGroup#property_field_condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#property_field_condition_type AlertGroup#property_field_condition_type}
   */
   readonly propertyFieldConditionType?: string;
   /**
   * The name of the property field. If the property field type is selected as 'attribute', then the allowed property field names are 'summary' (for Title), 'description', 'alert_urgency' and 'external_url' (for Alert Source URL). If the property field type is selected as 'payload', then the property field name should be supplied in JSON Path syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#property_field_name AlertGroup#property_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#property_field_name AlertGroup#property_field_name}
   */
   readonly propertyFieldName?: string;
   /**
   * The type of the property field. Value must be one of `attribute`, `payload`, `alert_field`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#property_field_type AlertGroup#property_field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#property_field_type AlertGroup#property_field_type}
   */
   readonly propertyFieldType?: string;
   /**
   * The value of the property field. Can be null if the property field condition type is 'is_one_of' or 'is_not_one_of'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#property_field_value AlertGroup#property_field_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#property_field_value AlertGroup#property_field_value}
   */
   readonly propertyFieldValue?: string;
   /**
   * The values of the property field. Used if the property field condition type is 'is_one_of' or 'is_not_one_of' except for when property field name is 'alert_urgency'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#property_field_values AlertGroup#property_field_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#property_field_values AlertGroup#property_field_values}
   */
   readonly propertyFieldValues?: string[];
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#values AlertGroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#values AlertGroup#values}
   */
   readonly values?: AlertGroupConditionsValues[] | cdktf.IResolvable;
 }
@@ -754,13 +754,13 @@ export interface AlertGroupTargets {
   /**
   * id for the Group, Service or EscalationPolicy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#target_id AlertGroup#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#target_id AlertGroup#target_id}
   */
   readonly targetId?: string;
   /**
   * The type of the target.. Value must be one of `Group`, `Service`, `EscalationPolicy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#target_type AlertGroup#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#target_type AlertGroup#target_type}
   */
   readonly targetType?: string;
 }
@@ -905,7 +905,7 @@ export class AlertGroupTargetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group rootly_alert_group}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group rootly_alert_group}
 */
 export class AlertGroup extends cdktf.TerraformResource {
 
@@ -921,7 +921,7 @@ export class AlertGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertGroup to import
-  * @param importFromId The id of the existing AlertGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -933,7 +933,7 @@ export class AlertGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/alert_group rootly_alert_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/alert_group rootly_alert_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -944,8 +944,8 @@ export class AlertGroup extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_alert_group',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

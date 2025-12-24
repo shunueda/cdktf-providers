@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateShortcutStoryConfig extends cdktf.TerraformMe
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#enabled WorkflowTaskCreateShortcutStory#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#enabled WorkflowTaskCreateShortcutStory#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#id WorkflowTaskCreateShortcutStory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#id WorkflowTaskCreateShortcutStory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateShortcutStoryConfig extends cdktf.TerraformMe
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#name WorkflowTaskCreateShortcutStory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#name WorkflowTaskCreateShortcutStory#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#position WorkflowTaskCreateShortcutStory#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#position WorkflowTaskCreateShortcutStory#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#skip_on_failure WorkflowTaskCreateShortcutStory#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#skip_on_failure WorkflowTaskCreateShortcutStory#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#workflow_id WorkflowTaskCreateShortcutStory#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#workflow_id WorkflowTaskCreateShortcutStory#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#task_params WorkflowTaskCreateShortcutStory#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#task_params WorkflowTaskCreateShortcutStory#task_params}
   */
   readonly taskParams: WorkflowTaskCreateShortcutStoryTaskParams;
 }
@@ -55,59 +55,59 @@ export interface WorkflowTaskCreateShortcutStoryTaskParams {
   /**
   * Map must contain two fields, `id` and `name`. The archivation id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#archivation WorkflowTaskCreateShortcutStory#archivation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#archivation WorkflowTaskCreateShortcutStory#archivation}
   */
   readonly archivation: { [key: string]: string };
   /**
   * The incident description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#description WorkflowTaskCreateShortcutStory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#description WorkflowTaskCreateShortcutStory#description}
   */
   readonly description?: string;
   /**
   * The due date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#due_date WorkflowTaskCreateShortcutStory#due_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#due_date WorkflowTaskCreateShortcutStory#due_date}
   */
   readonly dueDate?: string;
   /**
   * Map must contain two fields, `id` and `name`. The group id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#group WorkflowTaskCreateShortcutStory#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#group WorkflowTaskCreateShortcutStory#group}
   */
   readonly group?: { [key: string]: string };
   /**
   * Value must be one of `bug`, `chore`, `feature`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#kind WorkflowTaskCreateShortcutStory#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#kind WorkflowTaskCreateShortcutStory#kind}
   */
   readonly kind: string;
   /**
   * The story labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#labels WorkflowTaskCreateShortcutStory#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#labels WorkflowTaskCreateShortcutStory#labels}
   */
   readonly labels?: string;
   /**
   * Map must contain two fields, `id` and `name`. The project id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#project WorkflowTaskCreateShortcutStory#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#project WorkflowTaskCreateShortcutStory#project}
   */
   readonly project?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#task_type WorkflowTaskCreateShortcutStory#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#task_type WorkflowTaskCreateShortcutStory#task_type}
   */
   readonly taskType?: string;
   /**
   * The incident title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#title WorkflowTaskCreateShortcutStory#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#title WorkflowTaskCreateShortcutStory#title}
   */
   readonly title: string;
   /**
   * Map must contain two fields, `id` and `name`. The workflow state id workflow state name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#workflow_state WorkflowTaskCreateShortcutStory#workflow_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#workflow_state WorkflowTaskCreateShortcutStory#workflow_state}
   */
   readonly workflowState?: { [key: string]: string };
 }
@@ -443,7 +443,7 @@ export class WorkflowTaskCreateShortcutStoryTaskParamsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story rootly_workflow_task_create_shortcut_story}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story rootly_workflow_task_create_shortcut_story}
 */
 export class WorkflowTaskCreateShortcutStory extends cdktf.TerraformResource {
 
@@ -459,7 +459,7 @@ export class WorkflowTaskCreateShortcutStory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateShortcutStory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateShortcutStory to import
-  * @param importFromId The id of the existing WorkflowTaskCreateShortcutStory that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateShortcutStory that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateShortcutStory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -471,7 +471,7 @@ export class WorkflowTaskCreateShortcutStory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_shortcut_story rootly_workflow_task_create_shortcut_story} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_create_shortcut_story rootly_workflow_task_create_shortcut_story} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -482,8 +482,8 @@ export class WorkflowTaskCreateShortcutStory extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_shortcut_story',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

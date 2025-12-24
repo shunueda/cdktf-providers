@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface OpenidUserPropertyProtocolMapperConfig extends cdktf.TerraformM
   /**
   * Indicates if the property should be a claim in the access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper#add_to_access_token OpenidUserPropertyProtocolMapper#add_to_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper#add_to_access_token OpenidUserPropertyProtocolMapper#add_to_access_token}
   */
   readonly addToAccessToken?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the property should be a claim in the id token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper#add_to_id_token OpenidUserPropertyProtocolMapper#add_to_id_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper#add_to_id_token OpenidUserPropertyProtocolMapper#add_to_id_token}
   */
   readonly addToIdToken?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the property should appear in the userinfo response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper#add_to_userinfo OpenidUserPropertyProtocolMapper#add_to_userinfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper#add_to_userinfo OpenidUserPropertyProtocolMapper#add_to_userinfo}
   */
   readonly addToUserinfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper#claim_name OpenidUserPropertyProtocolMapper#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper#claim_name OpenidUserPropertyProtocolMapper#claim_name}
   */
   readonly claimName: string;
   /**
   * Claim type used when serializing tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper#claim_value_type OpenidUserPropertyProtocolMapper#claim_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper#claim_value_type OpenidUserPropertyProtocolMapper#claim_value_type}
   */
   readonly claimValueType?: string;
   /**
   * The mapper's associated client. Cannot be used at the same time as client_scope_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper#client_id OpenidUserPropertyProtocolMapper#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper#client_id OpenidUserPropertyProtocolMapper#client_id}
   */
   readonly clientId?: string;
   /**
   * The mapper's associated client scope. Cannot be used at the same time as client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper#client_scope_id OpenidUserPropertyProtocolMapper#client_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper#client_scope_id OpenidUserPropertyProtocolMapper#client_scope_id}
   */
   readonly clientScopeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper#id OpenidUserPropertyProtocolMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper#id OpenidUserPropertyProtocolMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,23 +57,23 @@ export interface OpenidUserPropertyProtocolMapperConfig extends cdktf.TerraformM
   /**
   * A human-friendly name that will appear in the Keycloak console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper#name OpenidUserPropertyProtocolMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper#name OpenidUserPropertyProtocolMapper#name}
   */
   readonly name: string;
   /**
   * The realm id where the associated client or client scope exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper#realm_id OpenidUserPropertyProtocolMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper#realm_id OpenidUserPropertyProtocolMapper#realm_id}
   */
   readonly realmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper#user_property OpenidUserPropertyProtocolMapper#user_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper#user_property OpenidUserPropertyProtocolMapper#user_property}
   */
   readonly userProperty: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper keycloak_openid_user_property_protocol_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper keycloak_openid_user_property_protocol_mapper}
 */
 export class OpenidUserPropertyProtocolMapper extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class OpenidUserPropertyProtocolMapper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenidUserPropertyProtocolMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenidUserPropertyProtocolMapper to import
-  * @param importFromId The id of the existing OpenidUserPropertyProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenidUserPropertyProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenidUserPropertyProtocolMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class OpenidUserPropertyProtocolMapper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_user_property_protocol_mapper keycloak_openid_user_property_protocol_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_user_property_protocol_mapper keycloak_openid_user_property_protocol_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class OpenidUserPropertyProtocolMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_openid_user_property_protocol_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_custom_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_custom_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface LdapCustomMapperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_custom_mapper#config LdapCustomMapper#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_custom_mapper#config LdapCustomMapper#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_custom_mapper#id LdapCustomMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_custom_mapper#id LdapCustomMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,37 +21,37 @@ export interface LdapCustomMapperConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ldap user federation provider to attach this mapper to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_custom_mapper#ldap_user_federation_id LdapCustomMapper#ldap_user_federation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_custom_mapper#ldap_user_federation_id LdapCustomMapper#ldap_user_federation_id}
   */
   readonly ldapUserFederationId: string;
   /**
   * Display name of the mapper when displayed in the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_custom_mapper#name LdapCustomMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_custom_mapper#name LdapCustomMapper#name}
   */
   readonly name: string;
   /**
   * ID of the custom LDAP mapper.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_custom_mapper#provider_id LdapCustomMapper#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_custom_mapper#provider_id LdapCustomMapper#provider_id}
   */
   readonly providerId: string;
   /**
   * Fully-qualified name of the Java class implementing the custom LDAP mapper.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_custom_mapper#provider_type LdapCustomMapper#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_custom_mapper#provider_type LdapCustomMapper#provider_type}
   */
   readonly providerType: string;
   /**
   * The realm in which the ldap user federation provider exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_custom_mapper#realm_id LdapCustomMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_custom_mapper#realm_id LdapCustomMapper#realm_id}
   */
   readonly realmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_custom_mapper keycloak_ldap_custom_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_custom_mapper keycloak_ldap_custom_mapper}
 */
 export class LdapCustomMapper extends cdktf.TerraformResource {
 
@@ -67,7 +67,7 @@ export class LdapCustomMapper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LdapCustomMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LdapCustomMapper to import
-  * @param importFromId The id of the existing LdapCustomMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_custom_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LdapCustomMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_custom_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LdapCustomMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class LdapCustomMapper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/ldap_custom_mapper keycloak_ldap_custom_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/ldap_custom_mapper keycloak_ldap_custom_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class LdapCustomMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_ldap_custom_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

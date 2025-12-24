@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/petoju/mysql/3.0.87/docs/resources/database
+// https://registry.terraform.io/providers/petoju/mysql/3.0.88/docs/resources/database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.87/docs/resources/database#default_character_set Database#default_character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.88/docs/resources/database#default_character_set Database#default_character_set}
   */
   readonly defaultCharacterSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.87/docs/resources/database#default_collation Database#default_collation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.88/docs/resources/database#default_collation Database#default_collation}
   */
   readonly defaultCollation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.87/docs/resources/database#id Database#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.88/docs/resources/database#id Database#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.87/docs/resources/database#name Database#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/petoju/mysql/3.0.88/docs/resources/database#name Database#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/petoju/mysql/3.0.87/docs/resources/database mysql_database}
+* Represents a {@link https://registry.terraform.io/providers/petoju/mysql/3.0.88/docs/resources/database mysql_database}
 */
 export class Database extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class Database extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Database resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Database to import
-  * @param importFromId The id of the existing Database that should be imported. Refer to the {@link https://registry.terraform.io/providers/petoju/mysql/3.0.87/docs/resources/database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Database that should be imported. Refer to the {@link https://registry.terraform.io/providers/petoju/mysql/3.0.88/docs/resources/database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Database to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class Database extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/petoju/mysql/3.0.87/docs/resources/database mysql_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/petoju/mysql/3.0.88/docs/resources/database mysql_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class Database extends cdktf.TerraformResource {
       terraformResourceType: 'mysql_database',
       terraformGeneratorMetadata: {
         providerName: 'mysql',
-        providerVersion: '3.0.87',
-        providerVersionConstraint: '3.0.87'
+        providerVersion: '3.0.88',
+        providerVersionConstraint: '3.0.88'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

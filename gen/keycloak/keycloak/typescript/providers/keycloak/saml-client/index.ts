@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,166 +8,170 @@ import * as cdktf from 'cdktf';
 
 export interface SamlClientConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#always_display_in_console SamlClient#always_display_in_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#always_display_in_console SamlClient#always_display_in_console}
   */
   readonly alwaysDisplayInConsole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#assertion_consumer_post_url SamlClient#assertion_consumer_post_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#assertion_consumer_post_url SamlClient#assertion_consumer_post_url}
   */
   readonly assertionConsumerPostUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#assertion_consumer_redirect_url SamlClient#assertion_consumer_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#assertion_consumer_redirect_url SamlClient#assertion_consumer_redirect_url}
   */
   readonly assertionConsumerRedirectUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#base_url SamlClient#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#base_url SamlClient#base_url}
   */
   readonly baseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#canonicalization_method SamlClient#canonicalization_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#canonicalization_method SamlClient#canonicalization_method}
   */
   readonly canonicalizationMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#client_id SamlClient#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#client_id SamlClient#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#client_signature_required SamlClient#client_signature_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#client_signature_required SamlClient#client_signature_required}
   */
   readonly clientSignatureRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#consent_required SamlClient#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#consent_required SamlClient#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#description SamlClient#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#description SamlClient#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#enabled SamlClient#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#enabled SamlClient#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#encrypt_assertions SamlClient#encrypt_assertions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#encrypt_assertions SamlClient#encrypt_assertions}
   */
   readonly encryptAssertions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#encryption_certificate SamlClient#encryption_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#encryption_algorithm SamlClient#encryption_algorithm}
+  */
+  readonly encryptionAlgorithm?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#encryption_certificate SamlClient#encryption_certificate}
   */
   readonly encryptionCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#extra_config SamlClient#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#extra_config SamlClient#extra_config}
   */
   readonly extraConfig?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#force_name_id_format SamlClient#force_name_id_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#force_name_id_format SamlClient#force_name_id_format}
   */
   readonly forceNameIdFormat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#force_post_binding SamlClient#force_post_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#force_post_binding SamlClient#force_post_binding}
   */
   readonly forcePostBinding?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#front_channel_logout SamlClient#front_channel_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#front_channel_logout SamlClient#front_channel_logout}
   */
   readonly frontChannelLogout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#full_scope_allowed SamlClient#full_scope_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#full_scope_allowed SamlClient#full_scope_allowed}
   */
   readonly fullScopeAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#id SamlClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#id SamlClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#idp_initiated_sso_relay_state SamlClient#idp_initiated_sso_relay_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#idp_initiated_sso_relay_state SamlClient#idp_initiated_sso_relay_state}
   */
   readonly idpInitiatedSsoRelayState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#idp_initiated_sso_url_name SamlClient#idp_initiated_sso_url_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#idp_initiated_sso_url_name SamlClient#idp_initiated_sso_url_name}
   */
   readonly idpInitiatedSsoUrlName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#include_authn_statement SamlClient#include_authn_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#include_authn_statement SamlClient#include_authn_statement}
   */
   readonly includeAuthnStatement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#login_theme SamlClient#login_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#login_theme SamlClient#login_theme}
   */
   readonly loginTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#logout_service_post_binding_url SamlClient#logout_service_post_binding_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#logout_service_post_binding_url SamlClient#logout_service_post_binding_url}
   */
   readonly logoutServicePostBindingUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#logout_service_redirect_binding_url SamlClient#logout_service_redirect_binding_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#logout_service_redirect_binding_url SamlClient#logout_service_redirect_binding_url}
   */
   readonly logoutServiceRedirectBindingUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#master_saml_processing_url SamlClient#master_saml_processing_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#master_saml_processing_url SamlClient#master_saml_processing_url}
   */
   readonly masterSamlProcessingUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#name SamlClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#name SamlClient#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#name_id_format SamlClient#name_id_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#name_id_format SamlClient#name_id_format}
   */
   readonly nameIdFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#realm_id SamlClient#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#realm_id SamlClient#realm_id}
   */
   readonly realmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#root_url SamlClient#root_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#root_url SamlClient#root_url}
   */
   readonly rootUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#sign_assertions SamlClient#sign_assertions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#sign_assertions SamlClient#sign_assertions}
   */
   readonly signAssertions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#sign_documents SamlClient#sign_documents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#sign_documents SamlClient#sign_documents}
   */
   readonly signDocuments?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#signature_algorithm SamlClient#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#signature_algorithm SamlClient#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#signature_key_name SamlClient#signature_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#signature_key_name SamlClient#signature_key_name}
   */
   readonly signatureKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#signing_certificate SamlClient#signing_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#signing_certificate SamlClient#signing_certificate}
   */
   readonly signingCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#signing_private_key SamlClient#signing_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#signing_private_key SamlClient#signing_private_key}
   */
   readonly signingPrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#valid_redirect_uris SamlClient#valid_redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#valid_redirect_uris SamlClient#valid_redirect_uris}
   */
   readonly validRedirectUris?: string[];
   /**
   * authentication_flow_binding_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#authentication_flow_binding_overrides SamlClient#authentication_flow_binding_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#authentication_flow_binding_overrides SamlClient#authentication_flow_binding_overrides}
   */
   readonly authenticationFlowBindingOverrides?: SamlClientAuthenticationFlowBindingOverrides;
 }
 export interface SamlClientAuthenticationFlowBindingOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#browser_id SamlClient#browser_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#browser_id SamlClient#browser_id}
   */
   readonly browserId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#direct_grant_id SamlClient#direct_grant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#direct_grant_id SamlClient#direct_grant_id}
   */
   readonly directGrantId?: string;
 }
@@ -280,7 +284,7 @@ export class SamlClientAuthenticationFlowBindingOverridesOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client keycloak_saml_client}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client keycloak_saml_client}
 */
 export class SamlClient extends cdktf.TerraformResource {
 
@@ -296,7 +300,7 @@ export class SamlClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SamlClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SamlClient to import
-  * @param importFromId The id of the existing SamlClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SamlClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SamlClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -308,7 +312,7 @@ export class SamlClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_client keycloak_saml_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_client keycloak_saml_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -319,8 +323,8 @@ export class SamlClient extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_saml_client',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -341,6 +345,7 @@ export class SamlClient extends cdktf.TerraformResource {
     this._description = config.description;
     this._enabled = config.enabled;
     this._encryptAssertions = config.encryptAssertions;
+    this._encryptionAlgorithm = config.encryptionAlgorithm;
     this._encryptionCertificate = config.encryptionCertificate;
     this._extraConfig = config.extraConfig;
     this._forceNameIdFormat = config.forceNameIdFormat;
@@ -544,6 +549,22 @@ export class SamlClient extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get encryptAssertionsInput() {
     return this._encryptAssertions;
+  }
+
+  // encryption_algorithm - computed: false, optional: true, required: false
+  private _encryptionAlgorithm?: string; 
+  public get encryptionAlgorithm() {
+    return this.getStringAttribute('encryption_algorithm');
+  }
+  public set encryptionAlgorithm(value: string) {
+    this._encryptionAlgorithm = value;
+  }
+  public resetEncryptionAlgorithm() {
+    this._encryptionAlgorithm = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionAlgorithmInput() {
+    return this._encryptionAlgorithm;
   }
 
   // encryption_certificate - computed: true, optional: true, required: false
@@ -991,6 +1012,7 @@ export class SamlClient extends cdktf.TerraformResource {
       description: cdktf.stringToTerraform(this._description),
       enabled: cdktf.booleanToTerraform(this._enabled),
       encrypt_assertions: cdktf.booleanToTerraform(this._encryptAssertions),
+      encryption_algorithm: cdktf.stringToTerraform(this._encryptionAlgorithm),
       encryption_certificate: cdktf.stringToTerraform(this._encryptionCertificate),
       extra_config: cdktf.hashMapper(cdktf.stringToTerraform)(this._extraConfig),
       force_name_id_format: cdktf.booleanToTerraform(this._forceNameIdFormat),
@@ -1087,6 +1109,12 @@ export class SamlClient extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      encryption_algorithm: {
+        value: cdktf.stringToHclTerraform(this._encryptionAlgorithm),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       encryption_certificate: {
         value: cdktf.stringToHclTerraform(this._encryptionCertificate),

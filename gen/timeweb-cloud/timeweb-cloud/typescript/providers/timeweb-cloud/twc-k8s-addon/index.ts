@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface TwcK8SAddonConfig extends cdktf.TerraformMetaArguments {
   /**
   * K8S cluster ID for which addon should be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon#cluster_id TwcK8SAddon#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon#cluster_id TwcK8SAddon#cluster_id}
   */
   readonly clusterId: number;
   /**
   * Config type (`basic`, `custom`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon#config_type TwcK8SAddon#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon#config_type TwcK8SAddon#config_type}
   */
   readonly configType: string;
   /**
   * Type of addon (`ingress`, `kubernetes_dashboard`, `csi_s3`, `flannel`, `cilium`, `kube-prometheus-stack`, `kiali`, `capsule`, `jaeger`, `cert-manager`, `istio-ingress`, `istiod`, `istio-base`, `traefik`, `fluent-operator`, `velero`, `external-dns`, `nvidia`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon#type TwcK8SAddon#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon#type TwcK8SAddon#type}
   */
   readonly type: string;
   /**
   * Version of the config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon#version TwcK8SAddon#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon#version TwcK8SAddon#version}
   */
   readonly version?: string;
   /**
   * YAML configuration for addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon#yaml_config TwcK8SAddon#yaml_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon#yaml_config TwcK8SAddon#yaml_config}
   */
   readonly yamlConfig?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon#config TwcK8SAddon#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon#config TwcK8SAddon#config}
   */
   readonly config?: TwcK8SAddonConfigA;
 }
@@ -48,31 +48,31 @@ export interface TwcK8SAddonConfigA {
   /**
   * Access key of the config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon#access_key TwcK8SAddon#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon#access_key TwcK8SAddon#access_key}
   */
   readonly accessKey: string;
   /**
   * Endpoint of the config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon#endpoint TwcK8SAddon#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon#endpoint TwcK8SAddon#endpoint}
   */
   readonly endpoint: string;
   /**
   * Name of the config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon#name TwcK8SAddon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon#name TwcK8SAddon#name}
   */
   readonly name: string;
   /**
   * Region of the config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon#region TwcK8SAddon#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon#region TwcK8SAddon#region}
   */
   readonly region: string;
   /**
   * Secret key of the config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon#secret_key TwcK8SAddon#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon#secret_key TwcK8SAddon#secret_key}
   */
   readonly secretKey: string;
 }
@@ -257,7 +257,7 @@ export class TwcK8SAddonConfigAOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon twc_k8s_addon}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon twc_k8s_addon}
 */
 export class TwcK8SAddon extends cdktf.TerraformResource {
 
@@ -273,7 +273,7 @@ export class TwcK8SAddon extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcK8SAddon resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcK8SAddon to import
-  * @param importFromId The id of the existing TwcK8SAddon that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcK8SAddon that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcK8SAddon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class TwcK8SAddon extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_k8s_addon twc_k8s_addon} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_k8s_addon twc_k8s_addon} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +296,8 @@ export class TwcK8SAddon extends cdktf.TerraformResource {
       terraformResourceType: 'twc_k8s_addon',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

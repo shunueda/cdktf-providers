@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,234 +8,238 @@ import * as cdktf from 'cdktf';
 
 export interface OpenidClientConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#access_token_lifespan OpenidClient#access_token_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#access_token_lifespan OpenidClient#access_token_lifespan}
   */
   readonly accessTokenLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#access_type OpenidClient#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#access_type OpenidClient#access_type}
   */
   readonly accessType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#admin_url OpenidClient#admin_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#admin_url OpenidClient#admin_url}
   */
   readonly adminUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#allow_refresh_token_in_standard_token_exchange OpenidClient#allow_refresh_token_in_standard_token_exchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#allow_refresh_token_in_standard_token_exchange OpenidClient#allow_refresh_token_in_standard_token_exchange}
   */
   readonly allowRefreshTokenInStandardTokenExchange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#always_display_in_console OpenidClient#always_display_in_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#always_display_in_console OpenidClient#always_display_in_console}
   */
   readonly alwaysDisplayInConsole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#backchannel_logout_revoke_offline_sessions OpenidClient#backchannel_logout_revoke_offline_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#backchannel_logout_revoke_offline_sessions OpenidClient#backchannel_logout_revoke_offline_sessions}
   */
   readonly backchannelLogoutRevokeOfflineSessions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#backchannel_logout_session_required OpenidClient#backchannel_logout_session_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#backchannel_logout_session_required OpenidClient#backchannel_logout_session_required}
   */
   readonly backchannelLogoutSessionRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#backchannel_logout_url OpenidClient#backchannel_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#backchannel_logout_url OpenidClient#backchannel_logout_url}
   */
   readonly backchannelLogoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#base_url OpenidClient#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#base_url OpenidClient#base_url}
   */
   readonly baseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#client_authenticator_type OpenidClient#client_authenticator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#client_authenticator_type OpenidClient#client_authenticator_type}
   */
   readonly clientAuthenticatorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#client_id OpenidClient#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#client_id OpenidClient#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#client_offline_session_idle_timeout OpenidClient#client_offline_session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#client_offline_session_idle_timeout OpenidClient#client_offline_session_idle_timeout}
   */
   readonly clientOfflineSessionIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#client_offline_session_max_lifespan OpenidClient#client_offline_session_max_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#client_offline_session_max_lifespan OpenidClient#client_offline_session_max_lifespan}
   */
   readonly clientOfflineSessionMaxLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#client_secret OpenidClient#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#client_secret OpenidClient#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Arbitrary map of values that, when changed, will trigger rotation of the secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#client_secret_regenerate_when_changed OpenidClient#client_secret_regenerate_when_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#client_secret_regenerate_when_changed OpenidClient#client_secret_regenerate_when_changed}
   */
   readonly clientSecretRegenerateWhenChanged?: { [key: string]: string };
   /**
   * Client Secret as write-only argument
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#client_secret_wo OpenidClient#client_secret_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#client_secret_wo OpenidClient#client_secret_wo}
   */
   readonly clientSecretWo?: string;
   /**
   * Version of the Client secret write-only argument
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#client_secret_wo_version OpenidClient#client_secret_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#client_secret_wo_version OpenidClient#client_secret_wo_version}
   */
   readonly clientSecretWoVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#client_session_idle_timeout OpenidClient#client_session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#client_session_idle_timeout OpenidClient#client_session_idle_timeout}
   */
   readonly clientSessionIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#client_session_max_lifespan OpenidClient#client_session_max_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#client_session_max_lifespan OpenidClient#client_session_max_lifespan}
   */
   readonly clientSessionMaxLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#consent_required OpenidClient#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#consent_required OpenidClient#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#consent_screen_text OpenidClient#consent_screen_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#consent_screen_text OpenidClient#consent_screen_text}
   */
   readonly consentScreenText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#description OpenidClient#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#description OpenidClient#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#direct_access_grants_enabled OpenidClient#direct_access_grants_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#direct_access_grants_enabled OpenidClient#direct_access_grants_enabled}
   */
   readonly directAccessGrantsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#display_on_consent_screen OpenidClient#display_on_consent_screen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#display_on_consent_screen OpenidClient#display_on_consent_screen}
   */
   readonly displayOnConsentScreen?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#enabled OpenidClient#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#enabled OpenidClient#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#exclude_issuer_from_auth_response OpenidClient#exclude_issuer_from_auth_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#exclude_issuer_from_auth_response OpenidClient#exclude_issuer_from_auth_response}
   */
   readonly excludeIssuerFromAuthResponse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#exclude_session_state_from_auth_response OpenidClient#exclude_session_state_from_auth_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#exclude_session_state_from_auth_response OpenidClient#exclude_session_state_from_auth_response}
   */
   readonly excludeSessionStateFromAuthResponse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#extra_config OpenidClient#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#extra_config OpenidClient#extra_config}
   */
   readonly extraConfig?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#frontchannel_logout_enabled OpenidClient#frontchannel_logout_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#frontchannel_logout_enabled OpenidClient#frontchannel_logout_enabled}
   */
   readonly frontchannelLogoutEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#frontchannel_logout_url OpenidClient#frontchannel_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#frontchannel_logout_url OpenidClient#frontchannel_logout_url}
   */
   readonly frontchannelLogoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#full_scope_allowed OpenidClient#full_scope_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#full_scope_allowed OpenidClient#full_scope_allowed}
   */
   readonly fullScopeAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#id OpenidClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#id OpenidClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#implicit_flow_enabled OpenidClient#implicit_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#implicit_flow_enabled OpenidClient#implicit_flow_enabled}
   */
   readonly implicitFlowEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#import OpenidClient#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#import OpenidClient#import}
   */
   readonly import?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#login_theme OpenidClient#login_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#login_theme OpenidClient#login_theme}
   */
   readonly loginTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#name OpenidClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#name OpenidClient#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#oauth2_device_authorization_grant_enabled OpenidClient#oauth2_device_authorization_grant_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#oauth2_device_authorization_grant_enabled OpenidClient#oauth2_device_authorization_grant_enabled}
   */
   readonly oauth2DeviceAuthorizationGrantEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#oauth2_device_code_lifespan OpenidClient#oauth2_device_code_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#oauth2_device_code_lifespan OpenidClient#oauth2_device_code_lifespan}
   */
   readonly oauth2DeviceCodeLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#oauth2_device_polling_interval OpenidClient#oauth2_device_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#oauth2_device_polling_interval OpenidClient#oauth2_device_polling_interval}
   */
   readonly oauth2DevicePollingInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#pkce_code_challenge_method OpenidClient#pkce_code_challenge_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#pkce_code_challenge_method OpenidClient#pkce_code_challenge_method}
   */
   readonly pkceCodeChallengeMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#realm_id OpenidClient#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#realm_id OpenidClient#realm_id}
   */
   readonly realmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#root_url OpenidClient#root_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#require_dpop_bound_tokens OpenidClient#require_dpop_bound_tokens}
+  */
+  readonly requireDpopBoundTokens?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#root_url OpenidClient#root_url}
   */
   readonly rootUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#service_accounts_enabled OpenidClient#service_accounts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#service_accounts_enabled OpenidClient#service_accounts_enabled}
   */
   readonly serviceAccountsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#standard_flow_enabled OpenidClient#standard_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#standard_flow_enabled OpenidClient#standard_flow_enabled}
   */
   readonly standardFlowEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#standard_token_exchange_enabled OpenidClient#standard_token_exchange_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#standard_token_exchange_enabled OpenidClient#standard_token_exchange_enabled}
   */
   readonly standardTokenExchangeEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#use_refresh_tokens OpenidClient#use_refresh_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#use_refresh_tokens OpenidClient#use_refresh_tokens}
   */
   readonly useRefreshTokens?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#use_refresh_tokens_client_credentials OpenidClient#use_refresh_tokens_client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#use_refresh_tokens_client_credentials OpenidClient#use_refresh_tokens_client_credentials}
   */
   readonly useRefreshTokensClientCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#valid_post_logout_redirect_uris OpenidClient#valid_post_logout_redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#valid_post_logout_redirect_uris OpenidClient#valid_post_logout_redirect_uris}
   */
   readonly validPostLogoutRedirectUris?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#valid_redirect_uris OpenidClient#valid_redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#valid_redirect_uris OpenidClient#valid_redirect_uris}
   */
   readonly validRedirectUris?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#web_origins OpenidClient#web_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#web_origins OpenidClient#web_origins}
   */
   readonly webOrigins?: string[];
   /**
   * authentication_flow_binding_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#authentication_flow_binding_overrides OpenidClient#authentication_flow_binding_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#authentication_flow_binding_overrides OpenidClient#authentication_flow_binding_overrides}
   */
   readonly authenticationFlowBindingOverrides?: OpenidClientAuthenticationFlowBindingOverrides;
   /**
   * authorization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#authorization OpenidClient#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#authorization OpenidClient#authorization}
   */
   readonly authorization?: OpenidClientAuthorization;
 }
 export interface OpenidClientAuthenticationFlowBindingOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#browser_id OpenidClient#browser_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#browser_id OpenidClient#browser_id}
   */
   readonly browserId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#direct_grant_id OpenidClient#direct_grant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#direct_grant_id OpenidClient#direct_grant_id}
   */
   readonly directGrantId?: string;
 }
@@ -348,19 +352,19 @@ export class OpenidClientAuthenticationFlowBindingOverridesOutputReference exten
 }
 export interface OpenidClientAuthorization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#allow_remote_resource_management OpenidClient#allow_remote_resource_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#allow_remote_resource_management OpenidClient#allow_remote_resource_management}
   */
   readonly allowRemoteResourceManagement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#decision_strategy OpenidClient#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#decision_strategy OpenidClient#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#keep_defaults OpenidClient#keep_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#keep_defaults OpenidClient#keep_defaults}
   */
   readonly keepDefaults?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#policy_enforcement_mode OpenidClient#policy_enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#policy_enforcement_mode OpenidClient#policy_enforcement_mode}
   */
   readonly policyEnforcementMode: string;
 }
@@ -528,7 +532,7 @@ export class OpenidClientAuthorizationOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client keycloak_openid_client}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client keycloak_openid_client}
 */
 export class OpenidClient extends cdktf.TerraformResource {
 
@@ -544,7 +548,7 @@ export class OpenidClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenidClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenidClient to import
-  * @param importFromId The id of the existing OpenidClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenidClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenidClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -556,7 +560,7 @@ export class OpenidClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_client keycloak_openid_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_client keycloak_openid_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -567,8 +571,8 @@ export class OpenidClient extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_openid_client',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -619,6 +623,7 @@ export class OpenidClient extends cdktf.TerraformResource {
     this._oauth2DevicePollingInterval = config.oauth2DevicePollingInterval;
     this._pkceCodeChallengeMethod = config.pkceCodeChallengeMethod;
     this._realmId = config.realmId;
+    this._requireDpopBoundTokens = config.requireDpopBoundTokens;
     this._rootUrl = config.rootUrl;
     this._serviceAccountsEnabled = config.serviceAccountsEnabled;
     this._standardFlowEnabled = config.standardFlowEnabled;
@@ -966,7 +971,7 @@ export class OpenidClient extends cdktf.TerraformResource {
     return this._consentScreenText;
   }
 
-  // description - computed: true, optional: true, required: false
+  // description - computed: false, optional: true, required: false
   private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
@@ -1283,6 +1288,22 @@ export class OpenidClient extends cdktf.TerraformResource {
     return this._realmId;
   }
 
+  // require_dpop_bound_tokens - computed: true, optional: true, required: false
+  private _requireDpopBoundTokens?: boolean | cdktf.IResolvable; 
+  public get requireDpopBoundTokens() {
+    return this.getBooleanAttribute('require_dpop_bound_tokens');
+  }
+  public set requireDpopBoundTokens(value: boolean | cdktf.IResolvable) {
+    this._requireDpopBoundTokens = value;
+  }
+  public resetRequireDpopBoundTokens() {
+    this._requireDpopBoundTokens = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requireDpopBoundTokensInput() {
+    return this._requireDpopBoundTokens;
+  }
+
   // resource_server_id - computed: true, optional: false, required: false
   public get resourceServerId() {
     return this.getStringAttribute('resource_server_id');
@@ -1516,6 +1537,7 @@ export class OpenidClient extends cdktf.TerraformResource {
       oauth2_device_polling_interval: cdktf.stringToTerraform(this._oauth2DevicePollingInterval),
       pkce_code_challenge_method: cdktf.stringToTerraform(this._pkceCodeChallengeMethod),
       realm_id: cdktf.stringToTerraform(this._realmId),
+      require_dpop_bound_tokens: cdktf.booleanToTerraform(this._requireDpopBoundTokens),
       root_url: cdktf.stringToTerraform(this._rootUrl),
       service_accounts_enabled: cdktf.booleanToTerraform(this._serviceAccountsEnabled),
       standard_flow_enabled: cdktf.booleanToTerraform(this._standardFlowEnabled),
@@ -1777,6 +1799,12 @@ export class OpenidClient extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      require_dpop_bound_tokens: {
+        value: cdktf.booleanToHclTerraform(this._requireDpopBoundTokens),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       root_url: {
         value: cdktf.stringToHclTerraform(this._rootUrl),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_directory
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_directory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TwcS3BucketDirectoryConfig extends cdktf.TerraformMetaArguments
   /**
   * S3 Bucket ID for which directory should be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_directory#bucket_id TwcS3BucketDirectory#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_directory#bucket_id TwcS3BucketDirectory#bucket_id}
   */
   readonly bucketId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_directory#id TwcS3BucketDirectory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_directory#id TwcS3BucketDirectory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface TwcS3BucketDirectoryConfig extends cdktf.TerraformMetaArguments
   /**
   * Directory name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_directory#name TwcS3BucketDirectory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_directory#name TwcS3BucketDirectory#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_directory twc_s3_bucket_directory}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_directory twc_s3_bucket_directory}
 */
 export class TwcS3BucketDirectory extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class TwcS3BucketDirectory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcS3BucketDirectory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcS3BucketDirectory to import
-  * @param importFromId The id of the existing TwcS3BucketDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_directory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcS3BucketDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_directory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcS3BucketDirectory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class TwcS3BucketDirectory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_directory twc_s3_bucket_directory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_directory twc_s3_bucket_directory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class TwcS3BucketDirectory extends cdktf.TerraformResource {
       terraformResourceType: 'twc_s3_bucket_directory',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

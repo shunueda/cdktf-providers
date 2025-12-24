@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface RealmClientPolicyProfilePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy#description RealmClientPolicyProfilePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy#description RealmClientPolicyProfilePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy#enabled RealmClientPolicyProfilePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy#enabled RealmClientPolicyProfilePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy#id RealmClientPolicyProfilePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy#id RealmClientPolicyProfilePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy#name RealmClientPolicyProfilePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy#name RealmClientPolicyProfilePolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy#profiles RealmClientPolicyProfilePolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy#profiles RealmClientPolicyProfilePolicy#profiles}
   */
   readonly profiles: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy#realm_id RealmClientPolicyProfilePolicy#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy#realm_id RealmClientPolicyProfilePolicy#realm_id}
   */
   readonly realmId: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy#condition RealmClientPolicyProfilePolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy#condition RealmClientPolicyProfilePolicy#condition}
   */
   readonly condition?: RealmClientPolicyProfilePolicyCondition[] | cdktf.IResolvable;
 }
 export interface RealmClientPolicyProfilePolicyCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy#configuration RealmClientPolicyProfilePolicy#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy#configuration RealmClientPolicyProfilePolicy#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy#name RealmClientPolicyProfilePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy#name RealmClientPolicyProfilePolicy#name}
   */
   readonly name: string;
 }
@@ -189,7 +189,7 @@ export class RealmClientPolicyProfilePolicyConditionList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy keycloak_realm_client_policy_profile_policy}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy keycloak_realm_client_policy_profile_policy}
 */
 export class RealmClientPolicyProfilePolicy extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class RealmClientPolicyProfilePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RealmClientPolicyProfilePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RealmClientPolicyProfilePolicy to import
-  * @param importFromId The id of the existing RealmClientPolicyProfilePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RealmClientPolicyProfilePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RealmClientPolicyProfilePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class RealmClientPolicyProfilePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm_client_policy_profile_policy keycloak_realm_client_policy_profile_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm_client_policy_profile_policy keycloak_realm_client_policy_profile_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class RealmClientPolicyProfilePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_realm_client_policy_profile_policy',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

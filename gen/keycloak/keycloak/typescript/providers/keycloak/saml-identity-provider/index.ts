@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,93 +10,93 @@ export interface SamlIdentityProviderConfig extends cdktf.TerraformMetaArguments
   /**
   * Enable/disable if new users can read any stored tokens. This assigns the broker.read-token role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#add_read_token_role_on_create SamlIdentityProvider#add_read_token_role_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#add_read_token_role_on_create SamlIdentityProvider#add_read_token_role_on_create}
   */
   readonly addReadTokenRoleOnCreate?: boolean | cdktf.IResolvable;
   /**
   * The alias uniquely identifies an identity provider and it is also used to build the redirect uri.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#alias SamlIdentityProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#alias SamlIdentityProvider#alias}
   */
   readonly alias: string;
   /**
   * Enable/disable authenticate users by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#authenticate_by_default SamlIdentityProvider#authenticate_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#authenticate_by_default SamlIdentityProvider#authenticate_by_default}
   */
   readonly authenticateByDefault?: boolean | cdktf.IResolvable;
   /**
   * AuthnContext ClassRefs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#authn_context_class_refs SamlIdentityProvider#authn_context_class_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#authn_context_class_refs SamlIdentityProvider#authn_context_class_refs}
   */
   readonly authnContextClassRefs?: string[];
   /**
   * AuthnContext Comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#authn_context_comparison_type SamlIdentityProvider#authn_context_comparison_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#authn_context_comparison_type SamlIdentityProvider#authn_context_comparison_type}
   */
   readonly authnContextComparisonType?: string;
   /**
   * AuthnContext DeclRefs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#authn_context_decl_refs SamlIdentityProvider#authn_context_decl_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#authn_context_decl_refs SamlIdentityProvider#authn_context_decl_refs}
   */
   readonly authnContextDeclRefs?: string[];
   /**
   * Does the external IDP support backchannel logout?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#backchannel_supported SamlIdentityProvider#backchannel_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#backchannel_supported SamlIdentityProvider#backchannel_supported}
   */
   readonly backchannelSupported?: boolean | cdktf.IResolvable;
   /**
   * Friendly name for Identity Providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#display_name SamlIdentityProvider#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#display_name SamlIdentityProvider#display_name}
   */
   readonly displayName?: string;
   /**
   * Enable/disable this identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#enabled SamlIdentityProvider#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#enabled SamlIdentityProvider#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The Entity ID that will be used to uniquely identify this SAML Service Provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#entity_id SamlIdentityProvider#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#entity_id SamlIdentityProvider#entity_id}
   */
   readonly entityId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#extra_config SamlIdentityProvider#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#extra_config SamlIdentityProvider#extra_config}
   */
   readonly extraConfig?: { [key: string]: string };
   /**
   * Alias of authentication flow, which is triggered after first login with this identity provider. Term 'First Login' means that there is not yet existing Keycloak account linked with the authenticated identity provider account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#first_broker_login_flow_alias SamlIdentityProvider#first_broker_login_flow_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#first_broker_login_flow_alias SamlIdentityProvider#first_broker_login_flow_alias}
   */
   readonly firstBrokerLoginFlowAlias?: string;
   /**
   * Require Force Authn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#force_authn SamlIdentityProvider#force_authn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#force_authn SamlIdentityProvider#force_authn}
   */
   readonly forceAuthn?: boolean | cdktf.IResolvable;
   /**
   * GUI Order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#gui_order SamlIdentityProvider#gui_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#gui_order SamlIdentityProvider#gui_order}
   */
   readonly guiOrder?: string;
   /**
   * Hide On Login Page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#hide_on_login_page SamlIdentityProvider#hide_on_login_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#hide_on_login_page SamlIdentityProvider#hide_on_login_page}
   */
   readonly hideOnLoginPage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#id SamlIdentityProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#id SamlIdentityProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,153 +105,153 @@ export interface SamlIdentityProviderConfig extends cdktf.TerraformMetaArguments
   /**
   * If true, users cannot log in through this provider.  They can only link to this provider.  This is useful if you don't want to allow login from the provider, but want to integrate with a provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#link_only SamlIdentityProvider#link_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#link_only SamlIdentityProvider#link_only}
   */
   readonly linkOnly?: boolean | cdktf.IResolvable;
   /**
   * Login Hint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#login_hint SamlIdentityProvider#login_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#login_hint SamlIdentityProvider#login_hint}
   */
   readonly loginHint?: string;
   /**
   * Name ID Policy Format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#name_id_policy_format SamlIdentityProvider#name_id_policy_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#name_id_policy_format SamlIdentityProvider#name_id_policy_format}
   */
   readonly nameIdPolicyFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#org_domain SamlIdentityProvider#org_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#org_domain SamlIdentityProvider#org_domain}
   */
   readonly orgDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#org_redirect_mode_email_matches SamlIdentityProvider#org_redirect_mode_email_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#org_redirect_mode_email_matches SamlIdentityProvider#org_redirect_mode_email_matches}
   */
   readonly orgRedirectModeEmailMatches?: boolean | cdktf.IResolvable;
   /**
   * ID of organization with which this identity is linked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#organization_id SamlIdentityProvider#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#organization_id SamlIdentityProvider#organization_id}
   */
   readonly organizationId?: string;
   /**
   * Post Binding Authn Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#post_binding_authn_request SamlIdentityProvider#post_binding_authn_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#post_binding_authn_request SamlIdentityProvider#post_binding_authn_request}
   */
   readonly postBindingAuthnRequest?: boolean | cdktf.IResolvable;
   /**
   * Post Binding Logout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#post_binding_logout SamlIdentityProvider#post_binding_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#post_binding_logout SamlIdentityProvider#post_binding_logout}
   */
   readonly postBindingLogout?: boolean | cdktf.IResolvable;
   /**
   * Post Binding Response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#post_binding_response SamlIdentityProvider#post_binding_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#post_binding_response SamlIdentityProvider#post_binding_response}
   */
   readonly postBindingResponse?: boolean | cdktf.IResolvable;
   /**
   * Alias of authentication flow, which is triggered after each login with this identity provider. Useful if you want additional verification of each user authenticated with this identity provider (for example OTP). Leave this empty if you don't want any additional authenticators to be triggered after login with this identity provider. Also note, that authenticator implementations must assume that user is already set in ClientSession as identity provider already set it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#post_broker_login_flow_alias SamlIdentityProvider#post_broker_login_flow_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#post_broker_login_flow_alias SamlIdentityProvider#post_broker_login_flow_alias}
   */
   readonly postBrokerLoginFlowAlias?: string;
   /**
   * Principal Attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#principal_attribute SamlIdentityProvider#principal_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#principal_attribute SamlIdentityProvider#principal_attribute}
   */
   readonly principalAttribute?: string;
   /**
   * Principal Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#principal_type SamlIdentityProvider#principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#principal_type SamlIdentityProvider#principal_type}
   */
   readonly principalType?: string;
   /**
   * provider id, is always saml, unless you have a custom implementation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#provider_id SamlIdentityProvider#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#provider_id SamlIdentityProvider#provider_id}
   */
   readonly providerId?: string;
   /**
   * Realm Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#realm SamlIdentityProvider#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#realm SamlIdentityProvider#realm}
   */
   readonly realm: string;
   /**
   * Signing Algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#signature_algorithm SamlIdentityProvider#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#signature_algorithm SamlIdentityProvider#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
   * Signing Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#signing_certificate SamlIdentityProvider#signing_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#signing_certificate SamlIdentityProvider#signing_certificate}
   */
   readonly signingCertificate?: string;
   /**
   * Logout URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#single_logout_service_url SamlIdentityProvider#single_logout_service_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#single_logout_service_url SamlIdentityProvider#single_logout_service_url}
   */
   readonly singleLogoutServiceUrl?: string;
   /**
   * SSO Logout URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#single_sign_on_service_url SamlIdentityProvider#single_sign_on_service_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#single_sign_on_service_url SamlIdentityProvider#single_sign_on_service_url}
   */
   readonly singleSignOnServiceUrl: string;
   /**
   * Enable/disable if tokens must be stored after authenticating users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#store_token SamlIdentityProvider#store_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#store_token SamlIdentityProvider#store_token}
   */
   readonly storeToken?: boolean | cdktf.IResolvable;
   /**
   * Sync Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#sync_mode SamlIdentityProvider#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#sync_mode SamlIdentityProvider#sync_mode}
   */
   readonly syncMode?: string;
   /**
   * If enabled then email provided by this provider is not verified even if verification is enabled for the realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#trust_email SamlIdentityProvider#trust_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#trust_email SamlIdentityProvider#trust_email}
   */
   readonly trustEmail?: boolean | cdktf.IResolvable;
   /**
   * Enable/disable signature validation of SAML responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#validate_signature SamlIdentityProvider#validate_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#validate_signature SamlIdentityProvider#validate_signature}
   */
   readonly validateSignature?: boolean | cdktf.IResolvable;
   /**
   * Want Assertions Encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#want_assertions_encrypted SamlIdentityProvider#want_assertions_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#want_assertions_encrypted SamlIdentityProvider#want_assertions_encrypted}
   */
   readonly wantAssertionsEncrypted?: boolean | cdktf.IResolvable;
   /**
   * Want Assertions Signed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#want_assertions_signed SamlIdentityProvider#want_assertions_signed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#want_assertions_signed SamlIdentityProvider#want_assertions_signed}
   */
   readonly wantAssertionsSigned?: boolean | cdktf.IResolvable;
   /**
   * Sign Key Transformer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#xml_sign_key_info_key_name_transformer SamlIdentityProvider#xml_sign_key_info_key_name_transformer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#xml_sign_key_info_key_name_transformer SamlIdentityProvider#xml_sign_key_info_key_name_transformer}
   */
   readonly xmlSignKeyInfoKeyNameTransformer?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider keycloak_saml_identity_provider}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider keycloak_saml_identity_provider}
 */
 export class SamlIdentityProvider extends cdktf.TerraformResource {
 
@@ -267,7 +267,7 @@ export class SamlIdentityProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SamlIdentityProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SamlIdentityProvider to import
-  * @param importFromId The id of the existing SamlIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SamlIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SamlIdentityProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class SamlIdentityProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_identity_provider keycloak_saml_identity_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_identity_provider keycloak_saml_identity_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class SamlIdentityProvider extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_saml_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

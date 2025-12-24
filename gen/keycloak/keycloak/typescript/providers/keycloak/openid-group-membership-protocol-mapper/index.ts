@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface OpenidGroupMembershipProtocolMapperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper#add_to_access_token OpenidGroupMembershipProtocolMapper#add_to_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper#add_to_access_token OpenidGroupMembershipProtocolMapper#add_to_access_token}
   */
   readonly addToAccessToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper#add_to_id_token OpenidGroupMembershipProtocolMapper#add_to_id_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper#add_to_id_token OpenidGroupMembershipProtocolMapper#add_to_id_token}
   */
   readonly addToIdToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper#add_to_userinfo OpenidGroupMembershipProtocolMapper#add_to_userinfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper#add_to_userinfo OpenidGroupMembershipProtocolMapper#add_to_userinfo}
   */
   readonly addToUserinfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper#claim_name OpenidGroupMembershipProtocolMapper#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper#claim_name OpenidGroupMembershipProtocolMapper#claim_name}
   */
   readonly claimName: string;
   /**
   * The mapper's associated client. Cannot be used at the same time as client_scope_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper#client_id OpenidGroupMembershipProtocolMapper#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper#client_id OpenidGroupMembershipProtocolMapper#client_id}
   */
   readonly clientId?: string;
   /**
   * The mapper's associated client scope. Cannot be used at the same time as client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper#client_scope_id OpenidGroupMembershipProtocolMapper#client_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper#client_scope_id OpenidGroupMembershipProtocolMapper#client_scope_id}
   */
   readonly clientScopeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper#full_path OpenidGroupMembershipProtocolMapper#full_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper#full_path OpenidGroupMembershipProtocolMapper#full_path}
   */
   readonly fullPath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper#id OpenidGroupMembershipProtocolMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper#id OpenidGroupMembershipProtocolMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,19 +49,19 @@ export interface OpenidGroupMembershipProtocolMapperConfig extends cdktf.Terrafo
   /**
   * A human-friendly name that will appear in the Keycloak console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper#name OpenidGroupMembershipProtocolMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper#name OpenidGroupMembershipProtocolMapper#name}
   */
   readonly name: string;
   /**
   * The realm id where the associated client or client scope exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper#realm_id OpenidGroupMembershipProtocolMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper#realm_id OpenidGroupMembershipProtocolMapper#realm_id}
   */
   readonly realmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper keycloak_openid_group_membership_protocol_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper keycloak_openid_group_membership_protocol_mapper}
 */
 export class OpenidGroupMembershipProtocolMapper extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class OpenidGroupMembershipProtocolMapper extends cdktf.TerraformResource
   * Generates CDKTF code for importing a OpenidGroupMembershipProtocolMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenidGroupMembershipProtocolMapper to import
-  * @param importFromId The id of the existing OpenidGroupMembershipProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenidGroupMembershipProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenidGroupMembershipProtocolMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class OpenidGroupMembershipProtocolMapper extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_group_membership_protocol_mapper keycloak_openid_group_membership_protocol_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_group_membership_protocol_mapper keycloak_openid_group_membership_protocol_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class OpenidGroupMembershipProtocolMapper extends cdktf.TerraformResource
       terraformResourceType: 'keycloak_openid_group_membership_protocol_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

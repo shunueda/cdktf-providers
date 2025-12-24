@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataTwcNetworkDriveConfig extends cdktf.TerraformMetaArguments 
   /**
   * Availability zone of specified network drive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive#availability_zone DataTwcNetworkDrive#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive#availability_zone DataTwcNetworkDrive#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Comment of specified network drive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive#comment DataTwcNetworkDrive#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive#comment DataTwcNetworkDrive#comment}
   */
   readonly comment?: string;
   /**
   * Network Drive ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive#id DataTwcNetworkDrive#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive#id DataTwcNetworkDrive#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,37 +31,37 @@ export interface DataTwcNetworkDriveConfig extends cdktf.TerraformMetaArguments 
   /**
   * Location where network drive was created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive#location DataTwcNetworkDrive#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive#location DataTwcNetworkDrive#location}
   */
   readonly location?: string;
   /**
   * Name of specified network drive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive#name DataTwcNetworkDrive#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive#name DataTwcNetworkDrive#name}
   */
   readonly name?: string;
   /**
   * Preset id of network drive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive#preset_id DataTwcNetworkDrive#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive#preset_id DataTwcNetworkDrive#preset_id}
   */
   readonly presetId?: number;
   /**
   * Size of network drive in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive#size DataTwcNetworkDrive#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive#size DataTwcNetworkDrive#size}
   */
   readonly size?: number;
   /**
   * Type of network drive (hdd, nvme)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive#type DataTwcNetworkDrive#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive#type DataTwcNetworkDrive#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive twc_network_drive}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive twc_network_drive}
 */
 export class DataTwcNetworkDrive extends cdktf.TerraformDataSource {
 
@@ -77,7 +77,7 @@ export class DataTwcNetworkDrive extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwcNetworkDrive resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwcNetworkDrive to import
-  * @param importFromId The id of the existing DataTwcNetworkDrive that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwcNetworkDrive that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwcNetworkDrive to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class DataTwcNetworkDrive extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive twc_network_drive} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive twc_network_drive} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class DataTwcNetworkDrive extends cdktf.TerraformDataSource {
       terraformResourceType: 'twc_network_drive',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

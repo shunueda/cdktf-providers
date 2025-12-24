@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,282 +8,290 @@ import * as cdktf from 'cdktf';
 
 export interface RealmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#access_code_lifespan Realm#access_code_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#access_code_lifespan Realm#access_code_lifespan}
   */
   readonly accessCodeLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#access_code_lifespan_login Realm#access_code_lifespan_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#access_code_lifespan_login Realm#access_code_lifespan_login}
   */
   readonly accessCodeLifespanLogin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#access_code_lifespan_user_action Realm#access_code_lifespan_user_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#access_code_lifespan_user_action Realm#access_code_lifespan_user_action}
   */
   readonly accessCodeLifespanUserAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#access_token_lifespan Realm#access_token_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#access_token_lifespan Realm#access_token_lifespan}
   */
   readonly accessTokenLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#access_token_lifespan_for_implicit_flow Realm#access_token_lifespan_for_implicit_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#access_token_lifespan_for_implicit_flow Realm#access_token_lifespan_for_implicit_flow}
   */
   readonly accessTokenLifespanForImplicitFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#account_theme Realm#account_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#account_theme Realm#account_theme}
   */
   readonly accountTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#action_token_generated_by_admin_lifespan Realm#action_token_generated_by_admin_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#action_token_generated_by_admin_lifespan Realm#action_token_generated_by_admin_lifespan}
   */
   readonly actionTokenGeneratedByAdminLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#action_token_generated_by_user_lifespan Realm#action_token_generated_by_user_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#action_token_generated_by_user_lifespan Realm#action_token_generated_by_user_lifespan}
   */
   readonly actionTokenGeneratedByUserLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#admin_theme Realm#admin_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#admin_permissions_enabled Realm#admin_permissions_enabled}
+  */
+  readonly adminPermissionsEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#admin_theme Realm#admin_theme}
   */
   readonly adminTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#attributes Realm#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#attributes Realm#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * Which flow should be used for BrowserFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#browser_flow Realm#browser_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#browser_flow Realm#browser_flow}
   */
   readonly browserFlow?: string;
   /**
   * Which flow should be used for ClientAuthenticationFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#client_authentication_flow Realm#client_authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#client_authentication_flow Realm#client_authentication_flow}
   */
   readonly clientAuthenticationFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#client_session_idle_timeout Realm#client_session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#client_session_idle_timeout Realm#client_session_idle_timeout}
   */
   readonly clientSessionIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#client_session_max_lifespan Realm#client_session_max_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#client_session_max_lifespan Realm#client_session_max_lifespan}
   */
   readonly clientSessionMaxLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#default_default_client_scopes Realm#default_default_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#default_default_client_scopes Realm#default_default_client_scopes}
   */
   readonly defaultDefaultClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#default_optional_client_scopes Realm#default_optional_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#default_optional_client_scopes Realm#default_optional_client_scopes}
   */
   readonly defaultOptionalClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#default_signature_algorithm Realm#default_signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#default_signature_algorithm Realm#default_signature_algorithm}
   */
   readonly defaultSignatureAlgorithm?: string;
   /**
   * Which flow should be used for DirectGrantFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#direct_grant_flow Realm#direct_grant_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#direct_grant_flow Realm#direct_grant_flow}
   */
   readonly directGrantFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#display_name Realm#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#display_name Realm#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#display_name_html Realm#display_name_html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#display_name_html Realm#display_name_html}
   */
   readonly displayNameHtml?: string;
   /**
   * Which flow should be used for DockerAuthenticationFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#docker_authentication_flow Realm#docker_authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#docker_authentication_flow Realm#docker_authentication_flow}
   */
   readonly dockerAuthenticationFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#duplicate_emails_allowed Realm#duplicate_emails_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#duplicate_emails_allowed Realm#duplicate_emails_allowed}
   */
   readonly duplicateEmailsAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#edit_username_allowed Realm#edit_username_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#edit_username_allowed Realm#edit_username_allowed}
   */
   readonly editUsernameAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#email_theme Realm#email_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#email_theme Realm#email_theme}
   */
   readonly emailTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#enabled Realm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#enabled Realm#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Which flow should be used for FirstBrokerLoginFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#first_broker_login_flow Realm#first_broker_login_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#first_broker_login_flow Realm#first_broker_login_flow}
   */
   readonly firstBrokerLoginFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#id Realm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#id Realm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#internal_id Realm#internal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#internal_id Realm#internal_id}
   */
   readonly internalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#login_theme Realm#login_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#login_theme Realm#login_theme}
   */
   readonly loginTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#login_with_email_allowed Realm#login_with_email_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#login_with_email_allowed Realm#login_with_email_allowed}
   */
   readonly loginWithEmailAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#oauth2_device_code_lifespan Realm#oauth2_device_code_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#oauth2_device_code_lifespan Realm#oauth2_device_code_lifespan}
   */
   readonly oauth2DeviceCodeLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#oauth2_device_polling_interval Realm#oauth2_device_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#oauth2_device_polling_interval Realm#oauth2_device_polling_interval}
   */
   readonly oauth2DevicePollingInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#offline_session_idle_timeout Realm#offline_session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#offline_session_idle_timeout Realm#offline_session_idle_timeout}
   */
   readonly offlineSessionIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#offline_session_max_lifespan Realm#offline_session_max_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#offline_session_max_lifespan Realm#offline_session_max_lifespan}
   */
   readonly offlineSessionMaxLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#offline_session_max_lifespan_enabled Realm#offline_session_max_lifespan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#offline_session_max_lifespan_enabled Realm#offline_session_max_lifespan_enabled}
   */
   readonly offlineSessionMaxLifespanEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#organizations_enabled Realm#organizations_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#organizations_enabled Realm#organizations_enabled}
   */
   readonly organizationsEnabled?: boolean | cdktf.IResolvable;
   /**
   * String that represents the passwordPolicies that are in place. Each policy is separated with " and ". Supported policies can be found in the server-info providers page. example: "upperCase(1) and length(8) and forceExpiredPasswordChange(365) and notUsername(undefined)"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#password_policy Realm#password_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#password_policy Realm#password_policy}
   */
   readonly passwordPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#realm Realm#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#realm Realm#realm}
   */
   readonly realm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#refresh_token_max_reuse Realm#refresh_token_max_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#refresh_token_max_reuse Realm#refresh_token_max_reuse}
   */
   readonly refreshTokenMaxReuse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#registration_allowed Realm#registration_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#registration_allowed Realm#registration_allowed}
   */
   readonly registrationAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#registration_email_as_username Realm#registration_email_as_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#registration_email_as_username Realm#registration_email_as_username}
   */
   readonly registrationEmailAsUsername?: boolean | cdktf.IResolvable;
   /**
   * Which flow should be used for RegistrationFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#registration_flow Realm#registration_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#registration_flow Realm#registration_flow}
   */
   readonly registrationFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#remember_me Realm#remember_me}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#remember_me Realm#remember_me}
   */
   readonly rememberMe?: boolean | cdktf.IResolvable;
   /**
   * Which flow should be used for ResetCredentialsFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#reset_credentials_flow Realm#reset_credentials_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#reset_credentials_flow Realm#reset_credentials_flow}
   */
   readonly resetCredentialsFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#reset_password_allowed Realm#reset_password_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#reset_password_allowed Realm#reset_password_allowed}
   */
   readonly resetPasswordAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#revoke_refresh_token Realm#revoke_refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#revoke_refresh_token Realm#revoke_refresh_token}
   */
   readonly revokeRefreshToken?: boolean | cdktf.IResolvable;
   /**
   * SSL Required: Values can be 'none', 'external' or 'all'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#ssl_required Realm#ssl_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#ssl_required Realm#ssl_required}
   */
   readonly sslRequired?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#sso_session_idle_timeout Realm#sso_session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#sso_session_idle_timeout Realm#sso_session_idle_timeout}
   */
   readonly ssoSessionIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#sso_session_idle_timeout_remember_me Realm#sso_session_idle_timeout_remember_me}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#sso_session_idle_timeout_remember_me Realm#sso_session_idle_timeout_remember_me}
   */
   readonly ssoSessionIdleTimeoutRememberMe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#sso_session_max_lifespan Realm#sso_session_max_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#sso_session_max_lifespan Realm#sso_session_max_lifespan}
   */
   readonly ssoSessionMaxLifespan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#sso_session_max_lifespan_remember_me Realm#sso_session_max_lifespan_remember_me}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#sso_session_max_lifespan_remember_me Realm#sso_session_max_lifespan_remember_me}
   */
   readonly ssoSessionMaxLifespanRememberMe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#user_managed_access Realm#user_managed_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#terraform_deletion_protection Realm#terraform_deletion_protection}
+  */
+  readonly terraformDeletionProtection?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#user_managed_access Realm#user_managed_access}
   */
   readonly userManagedAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#verify_email Realm#verify_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#verify_email Realm#verify_email}
   */
   readonly verifyEmail?: boolean | cdktf.IResolvable;
   /**
   * internationalization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#internationalization Realm#internationalization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#internationalization Realm#internationalization}
   */
   readonly internationalization?: RealmInternationalization;
   /**
   * otp_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#otp_policy Realm#otp_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#otp_policy Realm#otp_policy}
   */
   readonly otpPolicy?: RealmOtpPolicy;
   /**
   * security_defenses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#security_defenses Realm#security_defenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#security_defenses Realm#security_defenses}
   */
   readonly securityDefenses?: RealmSecurityDefenses;
   /**
   * smtp_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#smtp_server Realm#smtp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#smtp_server Realm#smtp_server}
   */
   readonly smtpServer?: RealmSmtpServer;
   /**
   * web_authn_passwordless_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#web_authn_passwordless_policy Realm#web_authn_passwordless_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#web_authn_passwordless_policy Realm#web_authn_passwordless_policy}
   */
   readonly webAuthnPasswordlessPolicy?: RealmWebAuthnPasswordlessPolicy;
   /**
   * web_authn_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#web_authn_policy Realm#web_authn_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#web_authn_policy Realm#web_authn_policy}
   */
   readonly webAuthnPolicy?: RealmWebAuthnPolicy;
 }
 export interface RealmInternationalization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#default_locale Realm#default_locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#default_locale Realm#default_locale}
   */
   readonly defaultLocale: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#supported_locales Realm#supported_locales}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#supported_locales Realm#supported_locales}
   */
   readonly supportedLocales: string[];
 }
@@ -392,29 +400,29 @@ export interface RealmOtpPolicy {
   /**
   * What hashing algorithm should be used to generate the OTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#algorithm Realm#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#algorithm Realm#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#digits Realm#digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#digits Realm#digits}
   */
   readonly digits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#initial_counter Realm#initial_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#initial_counter Realm#initial_counter}
   */
   readonly initialCounter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#look_ahead_window Realm#look_ahead_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#look_ahead_window Realm#look_ahead_window}
   */
   readonly lookAheadWindow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#period Realm#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#period Realm#period}
   */
   readonly period?: number;
   /**
   * OTP Type, totp for Time-Based One Time Password or hotp for counter base one time password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#type Realm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#type Realm#type}
   */
   readonly type?: string;
 }
@@ -643,31 +651,35 @@ export class RealmOtpPolicyOutputReference extends cdktf.ComplexObject {
 }
 export interface RealmSecurityDefensesBruteForceDetection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#failure_reset_time_seconds Realm#failure_reset_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#failure_reset_time_seconds Realm#failure_reset_time_seconds}
   */
   readonly failureResetTimeSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#max_failure_wait_seconds Realm#max_failure_wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#max_failure_wait_seconds Realm#max_failure_wait_seconds}
   */
   readonly maxFailureWaitSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#max_login_failures Realm#max_login_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#max_login_failures Realm#max_login_failures}
   */
   readonly maxLoginFailures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#minimum_quick_login_wait_seconds Realm#minimum_quick_login_wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#max_temporary_lockouts Realm#max_temporary_lockouts}
+  */
+  readonly maxTemporaryLockouts?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#minimum_quick_login_wait_seconds Realm#minimum_quick_login_wait_seconds}
   */
   readonly minimumQuickLoginWaitSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#permanent_lockout Realm#permanent_lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#permanent_lockout Realm#permanent_lockout}
   */
   readonly permanentLockout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#quick_login_check_milli_seconds Realm#quick_login_check_milli_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#quick_login_check_milli_seconds Realm#quick_login_check_milli_seconds}
   */
   readonly quickLoginCheckMilliSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#wait_increment_seconds Realm#wait_increment_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#wait_increment_seconds Realm#wait_increment_seconds}
   */
   readonly waitIncrementSeconds?: number;
 }
@@ -681,6 +693,7 @@ export function realmSecurityDefensesBruteForceDetectionToTerraform(struct?: Rea
     failure_reset_time_seconds: cdktf.numberToTerraform(struct!.failureResetTimeSeconds),
     max_failure_wait_seconds: cdktf.numberToTerraform(struct!.maxFailureWaitSeconds),
     max_login_failures: cdktf.numberToTerraform(struct!.maxLoginFailures),
+    max_temporary_lockouts: cdktf.numberToTerraform(struct!.maxTemporaryLockouts),
     minimum_quick_login_wait_seconds: cdktf.numberToTerraform(struct!.minimumQuickLoginWaitSeconds),
     permanent_lockout: cdktf.booleanToTerraform(struct!.permanentLockout),
     quick_login_check_milli_seconds: cdktf.numberToTerraform(struct!.quickLoginCheckMilliSeconds),
@@ -709,6 +722,12 @@ export function realmSecurityDefensesBruteForceDetectionToHclTerraform(struct?: 
     },
     max_login_failures: {
       value: cdktf.numberToHclTerraform(struct!.maxLoginFailures),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_temporary_lockouts: {
+      value: cdktf.numberToHclTerraform(struct!.maxTemporaryLockouts),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -769,6 +788,10 @@ export class RealmSecurityDefensesBruteForceDetectionOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.maxLoginFailures = this._maxLoginFailures;
     }
+    if (this._maxTemporaryLockouts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxTemporaryLockouts = this._maxTemporaryLockouts;
+    }
     if (this._minimumQuickLoginWaitSeconds !== undefined) {
       hasAnyValues = true;
       internalValueResult.minimumQuickLoginWaitSeconds = this._minimumQuickLoginWaitSeconds;
@@ -794,6 +817,7 @@ export class RealmSecurityDefensesBruteForceDetectionOutputReference extends cdk
       this._failureResetTimeSeconds = undefined;
       this._maxFailureWaitSeconds = undefined;
       this._maxLoginFailures = undefined;
+      this._maxTemporaryLockouts = undefined;
       this._minimumQuickLoginWaitSeconds = undefined;
       this._permanentLockout = undefined;
       this._quickLoginCheckMilliSeconds = undefined;
@@ -804,6 +828,7 @@ export class RealmSecurityDefensesBruteForceDetectionOutputReference extends cdk
       this._failureResetTimeSeconds = value.failureResetTimeSeconds;
       this._maxFailureWaitSeconds = value.maxFailureWaitSeconds;
       this._maxLoginFailures = value.maxLoginFailures;
+      this._maxTemporaryLockouts = value.maxTemporaryLockouts;
       this._minimumQuickLoginWaitSeconds = value.minimumQuickLoginWaitSeconds;
       this._permanentLockout = value.permanentLockout;
       this._quickLoginCheckMilliSeconds = value.quickLoginCheckMilliSeconds;
@@ -857,6 +882,22 @@ export class RealmSecurityDefensesBruteForceDetectionOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get maxLoginFailuresInput() {
     return this._maxLoginFailures;
+  }
+
+  // max_temporary_lockouts - computed: false, optional: true, required: false
+  private _maxTemporaryLockouts?: number; 
+  public get maxTemporaryLockouts() {
+    return this.getNumberAttribute('max_temporary_lockouts');
+  }
+  public set maxTemporaryLockouts(value: number) {
+    this._maxTemporaryLockouts = value;
+  }
+  public resetMaxTemporaryLockouts() {
+    this._maxTemporaryLockouts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTemporaryLockoutsInput() {
+    return this._maxTemporaryLockouts;
   }
 
   // minimum_quick_login_wait_seconds - computed: false, optional: true, required: false
@@ -925,35 +966,35 @@ export class RealmSecurityDefensesBruteForceDetectionOutputReference extends cdk
 }
 export interface RealmSecurityDefensesHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#content_security_policy Realm#content_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#content_security_policy Realm#content_security_policy}
   */
   readonly contentSecurityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#content_security_policy_report_only Realm#content_security_policy_report_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#content_security_policy_report_only Realm#content_security_policy_report_only}
   */
   readonly contentSecurityPolicyReportOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#referrer_policy Realm#referrer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#referrer_policy Realm#referrer_policy}
   */
   readonly referrerPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#strict_transport_security Realm#strict_transport_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#strict_transport_security Realm#strict_transport_security}
   */
   readonly strictTransportSecurity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#x_content_type_options Realm#x_content_type_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#x_content_type_options Realm#x_content_type_options}
   */
   readonly xContentTypeOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#x_frame_options Realm#x_frame_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#x_frame_options Realm#x_frame_options}
   */
   readonly xFrameOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#x_robots_tag Realm#x_robots_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#x_robots_tag Realm#x_robots_tag}
   */
   readonly xRobotsTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#x_xss_protection Realm#x_xss_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#x_xss_protection Realm#x_xss_protection}
   */
   readonly xXssProtection?: string;
 }
@@ -1242,13 +1283,13 @@ export interface RealmSecurityDefenses {
   /**
   * brute_force_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#brute_force_detection Realm#brute_force_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#brute_force_detection Realm#brute_force_detection}
   */
   readonly bruteForceDetection?: RealmSecurityDefensesBruteForceDetection;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#headers Realm#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#headers Realm#headers}
   */
   readonly headers?: RealmSecurityDefensesHeaders;
 }
@@ -1361,11 +1402,11 @@ export class RealmSecurityDefensesOutputReference extends cdktf.ComplexObject {
 }
 export interface RealmSmtpServerAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#password Realm#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#password Realm#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#username Realm#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#username Realm#username}
   */
   readonly username: string;
 }
@@ -1472,23 +1513,23 @@ export class RealmSmtpServerAuthOutputReference extends cdktf.ComplexObject {
 }
 export interface RealmSmtpServerTokenAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#client_id Realm#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#client_id Realm#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#client_secret Realm#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#client_secret Realm#client_secret}
   */
   readonly clientSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#scope Realm#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#scope Realm#scope}
   */
   readonly scope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#url Realm#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#url Realm#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#username Realm#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#username Realm#username}
   */
   readonly username: string;
 }
@@ -1673,51 +1714,55 @@ export class RealmSmtpServerTokenAuthOutputReference extends cdktf.ComplexObject
 }
 export interface RealmSmtpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#envelope_from Realm#envelope_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#allow_utf8 Realm#allow_utf8}
+  */
+  readonly allowUtf8?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#envelope_from Realm#envelope_from}
   */
   readonly envelopeFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#from Realm#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#from Realm#from}
   */
   readonly from: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#from_display_name Realm#from_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#from_display_name Realm#from_display_name}
   */
   readonly fromDisplayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#host Realm#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#host Realm#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#port Realm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#port Realm#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#reply_to Realm#reply_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#reply_to Realm#reply_to}
   */
   readonly replyTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#reply_to_display_name Realm#reply_to_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#reply_to_display_name Realm#reply_to_display_name}
   */
   readonly replyToDisplayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#ssl Realm#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#ssl Realm#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#starttls Realm#starttls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#starttls Realm#starttls}
   */
   readonly starttls?: boolean | cdktf.IResolvable;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#auth Realm#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#auth Realm#auth}
   */
   readonly auth?: RealmSmtpServerAuth;
   /**
   * token_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#token_auth Realm#token_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#token_auth Realm#token_auth}
   */
   readonly tokenAuth?: RealmSmtpServerTokenAuth;
 }
@@ -1728,6 +1773,7 @@ export function realmSmtpServerToTerraform(struct?: RealmSmtpServerOutputReferen
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    allow_utf8: cdktf.booleanToTerraform(struct!.allowUtf8),
     envelope_from: cdktf.stringToTerraform(struct!.envelopeFrom),
     from: cdktf.stringToTerraform(struct!.from),
     from_display_name: cdktf.stringToTerraform(struct!.fromDisplayName),
@@ -1749,6 +1795,12 @@ export function realmSmtpServerToHclTerraform(struct?: RealmSmtpServerOutputRefe
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    allow_utf8: {
+      value: cdktf.booleanToHclTerraform(struct!.allowUtf8),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     envelope_from: {
       value: cdktf.stringToHclTerraform(struct!.envelopeFrom),
       isBlock: false,
@@ -1835,6 +1887,10 @@ export class RealmSmtpServerOutputReference extends cdktf.ComplexObject {
   public get internalValue(): RealmSmtpServer | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._allowUtf8 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowUtf8 = this._allowUtf8;
+    }
     if (this._envelopeFrom !== undefined) {
       hasAnyValues = true;
       internalValueResult.envelopeFrom = this._envelopeFrom;
@@ -1885,6 +1941,7 @@ export class RealmSmtpServerOutputReference extends cdktf.ComplexObject {
   public set internalValue(value: RealmSmtpServer | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._allowUtf8 = undefined;
       this._envelopeFrom = undefined;
       this._from = undefined;
       this._fromDisplayName = undefined;
@@ -1899,6 +1956,7 @@ export class RealmSmtpServerOutputReference extends cdktf.ComplexObject {
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._allowUtf8 = value.allowUtf8;
       this._envelopeFrom = value.envelopeFrom;
       this._from = value.from;
       this._fromDisplayName = value.fromDisplayName;
@@ -1911,6 +1969,22 @@ export class RealmSmtpServerOutputReference extends cdktf.ComplexObject {
       this._auth.internalValue = value.auth;
       this._tokenAuth.internalValue = value.tokenAuth;
     }
+  }
+
+  // allow_utf8 - computed: false, optional: true, required: false
+  private _allowUtf8?: boolean | cdktf.IResolvable; 
+  public get allowUtf8() {
+    return this.getBooleanAttribute('allow_utf8');
+  }
+  public set allowUtf8(value: boolean | cdktf.IResolvable) {
+    this._allowUtf8 = value;
+  }
+  public resetAllowUtf8() {
+    this._allowUtf8 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowUtf8Input() {
+    return this._allowUtf8;
   }
 
   // envelope_from - computed: false, optional: true, required: false
@@ -2085,57 +2159,57 @@ export class RealmSmtpServerOutputReference extends cdktf.ComplexObject {
 }
 export interface RealmWebAuthnPasswordlessPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#acceptable_aaguids Realm#acceptable_aaguids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#acceptable_aaguids Realm#acceptable_aaguids}
   */
   readonly acceptableAaguids?: string[];
   /**
   * Either none, indirect or direct
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#attestation_conveyance_preference Realm#attestation_conveyance_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#attestation_conveyance_preference Realm#attestation_conveyance_preference}
   */
   readonly attestationConveyancePreference?: string;
   /**
   * Either platform or cross-platform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#authenticator_attachment Realm#authenticator_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#authenticator_attachment Realm#authenticator_attachment}
   */
   readonly authenticatorAttachment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#avoid_same_authenticator_register Realm#avoid_same_authenticator_register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#avoid_same_authenticator_register Realm#avoid_same_authenticator_register}
   */
   readonly avoidSameAuthenticatorRegister?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#create_timeout Realm#create_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#create_timeout Realm#create_timeout}
   */
   readonly createTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#extra_origins Realm#extra_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#extra_origins Realm#extra_origins}
   */
   readonly extraOrigins?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#relying_party_entity_name Realm#relying_party_entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#relying_party_entity_name Realm#relying_party_entity_name}
   */
   readonly relyingPartyEntityName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#relying_party_id Realm#relying_party_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#relying_party_id Realm#relying_party_id}
   */
   readonly relyingPartyId?: string;
   /**
   * Either Yes or No
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#require_resident_key Realm#require_resident_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#require_resident_key Realm#require_resident_key}
   */
   readonly requireResidentKey?: string;
   /**
   * Keycloak lists ES256, ES384, ES512, RS256, RS384, RS512, RS1 at the time of writing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#signature_algorithms Realm#signature_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#signature_algorithms Realm#signature_algorithms}
   */
   readonly signatureAlgorithms?: string[];
   /**
   * Either required, preferred or discouraged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#user_verification_requirement Realm#user_verification_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#user_verification_requirement Realm#user_verification_requirement}
   */
   readonly userVerificationRequirement?: string;
 }
@@ -2509,57 +2583,57 @@ export class RealmWebAuthnPasswordlessPolicyOutputReference extends cdktf.Comple
 }
 export interface RealmWebAuthnPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#acceptable_aaguids Realm#acceptable_aaguids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#acceptable_aaguids Realm#acceptable_aaguids}
   */
   readonly acceptableAaguids?: string[];
   /**
   * Either none, indirect or direct
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#attestation_conveyance_preference Realm#attestation_conveyance_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#attestation_conveyance_preference Realm#attestation_conveyance_preference}
   */
   readonly attestationConveyancePreference?: string;
   /**
   * Either platform or cross-platform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#authenticator_attachment Realm#authenticator_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#authenticator_attachment Realm#authenticator_attachment}
   */
   readonly authenticatorAttachment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#avoid_same_authenticator_register Realm#avoid_same_authenticator_register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#avoid_same_authenticator_register Realm#avoid_same_authenticator_register}
   */
   readonly avoidSameAuthenticatorRegister?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#create_timeout Realm#create_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#create_timeout Realm#create_timeout}
   */
   readonly createTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#extra_origins Realm#extra_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#extra_origins Realm#extra_origins}
   */
   readonly extraOrigins?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#relying_party_entity_name Realm#relying_party_entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#relying_party_entity_name Realm#relying_party_entity_name}
   */
   readonly relyingPartyEntityName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#relying_party_id Realm#relying_party_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#relying_party_id Realm#relying_party_id}
   */
   readonly relyingPartyId?: string;
   /**
   * Either Yes or No
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#require_resident_key Realm#require_resident_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#require_resident_key Realm#require_resident_key}
   */
   readonly requireResidentKey?: string;
   /**
   * Keycloak lists ES256, ES384, ES512, RS256, RS384, RS512, RS1 at the time of writing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#signature_algorithms Realm#signature_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#signature_algorithms Realm#signature_algorithms}
   */
   readonly signatureAlgorithms?: string[];
   /**
   * Either required, preferred or discouraged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#user_verification_requirement Realm#user_verification_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#user_verification_requirement Realm#user_verification_requirement}
   */
   readonly userVerificationRequirement?: string;
 }
@@ -2933,7 +3007,7 @@ export class RealmWebAuthnPolicyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm keycloak_realm}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm keycloak_realm}
 */
 export class Realm extends cdktf.TerraformResource {
 
@@ -2949,7 +3023,7 @@ export class Realm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Realm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Realm to import
-  * @param importFromId The id of the existing Realm that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Realm that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Realm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2961,7 +3035,7 @@ export class Realm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/realm keycloak_realm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/realm keycloak_realm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2972,8 +3046,8 @@ export class Realm extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_realm',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2991,6 +3065,7 @@ export class Realm extends cdktf.TerraformResource {
     this._accountTheme = config.accountTheme;
     this._actionTokenGeneratedByAdminLifespan = config.actionTokenGeneratedByAdminLifespan;
     this._actionTokenGeneratedByUserLifespan = config.actionTokenGeneratedByUserLifespan;
+    this._adminPermissionsEnabled = config.adminPermissionsEnabled;
     this._adminTheme = config.adminTheme;
     this._attributes = config.attributes;
     this._browserFlow = config.browserFlow;
@@ -3034,6 +3109,7 @@ export class Realm extends cdktf.TerraformResource {
     this._ssoSessionIdleTimeoutRememberMe = config.ssoSessionIdleTimeoutRememberMe;
     this._ssoSessionMaxLifespan = config.ssoSessionMaxLifespan;
     this._ssoSessionMaxLifespanRememberMe = config.ssoSessionMaxLifespanRememberMe;
+    this._terraformDeletionProtection = config.terraformDeletionProtection;
     this._userManagedAccess = config.userManagedAccess;
     this._verifyEmail = config.verifyEmail;
     this._internationalization.internalValue = config.internationalization;
@@ -3174,6 +3250,22 @@ export class Realm extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get actionTokenGeneratedByUserLifespanInput() {
     return this._actionTokenGeneratedByUserLifespan;
+  }
+
+  // admin_permissions_enabled - computed: false, optional: true, required: false
+  private _adminPermissionsEnabled?: boolean | cdktf.IResolvable; 
+  public get adminPermissionsEnabled() {
+    return this.getBooleanAttribute('admin_permissions_enabled');
+  }
+  public set adminPermissionsEnabled(value: boolean | cdktf.IResolvable) {
+    this._adminPermissionsEnabled = value;
+  }
+  public resetAdminPermissionsEnabled() {
+    this._adminPermissionsEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adminPermissionsEnabledInput() {
+    return this._adminPermissionsEnabled;
   }
 
   // admin_theme - computed: false, optional: true, required: false
@@ -3861,6 +3953,22 @@ export class Realm extends cdktf.TerraformResource {
     return this._ssoSessionMaxLifespanRememberMe;
   }
 
+  // terraform_deletion_protection - computed: false, optional: true, required: false
+  private _terraformDeletionProtection?: boolean | cdktf.IResolvable; 
+  public get terraformDeletionProtection() {
+    return this.getBooleanAttribute('terraform_deletion_protection');
+  }
+  public set terraformDeletionProtection(value: boolean | cdktf.IResolvable) {
+    this._terraformDeletionProtection = value;
+  }
+  public resetTerraformDeletionProtection() {
+    this._terraformDeletionProtection = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get terraformDeletionProtectionInput() {
+    return this._terraformDeletionProtection;
+  }
+
   // user_managed_access - computed: false, optional: true, required: false
   private _userManagedAccess?: boolean | cdktf.IResolvable; 
   public get userManagedAccess() {
@@ -4003,6 +4111,7 @@ export class Realm extends cdktf.TerraformResource {
       account_theme: cdktf.stringToTerraform(this._accountTheme),
       action_token_generated_by_admin_lifespan: cdktf.stringToTerraform(this._actionTokenGeneratedByAdminLifespan),
       action_token_generated_by_user_lifespan: cdktf.stringToTerraform(this._actionTokenGeneratedByUserLifespan),
+      admin_permissions_enabled: cdktf.booleanToTerraform(this._adminPermissionsEnabled),
       admin_theme: cdktf.stringToTerraform(this._adminTheme),
       attributes: cdktf.hashMapper(cdktf.stringToTerraform)(this._attributes),
       browser_flow: cdktf.stringToTerraform(this._browserFlow),
@@ -4046,6 +4155,7 @@ export class Realm extends cdktf.TerraformResource {
       sso_session_idle_timeout_remember_me: cdktf.stringToTerraform(this._ssoSessionIdleTimeoutRememberMe),
       sso_session_max_lifespan: cdktf.stringToTerraform(this._ssoSessionMaxLifespan),
       sso_session_max_lifespan_remember_me: cdktf.stringToTerraform(this._ssoSessionMaxLifespanRememberMe),
+      terraform_deletion_protection: cdktf.booleanToTerraform(this._terraformDeletionProtection),
       user_managed_access: cdktf.booleanToTerraform(this._userManagedAccess),
       verify_email: cdktf.booleanToTerraform(this._verifyEmail),
       internationalization: realmInternationalizationToTerraform(this._internationalization.internalValue),
@@ -4106,6 +4216,12 @@ export class Realm extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      admin_permissions_enabled: {
+        value: cdktf.booleanToHclTerraform(this._adminPermissionsEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       admin_theme: {
         value: cdktf.stringToHclTerraform(this._adminTheme),
@@ -4364,6 +4480,12 @@ export class Realm extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      terraform_deletion_protection: {
+        value: cdktf.booleanToHclTerraform(this._terraformDeletionProtection),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       user_managed_access: {
         value: cdktf.booleanToHclTerraform(this._userManagedAccess),

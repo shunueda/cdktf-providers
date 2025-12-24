@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface TeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The user ids of the admins of this team. These users must also be present in user_ids attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#admin_ids Team#admin_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#admin_ids Team#admin_ids}
   */
   readonly adminIds?: number[];
   /**
   * Enable alerts to be broadcasted to a specific channel. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#alert_broadcast_enabled Team#alert_broadcast_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#alert_broadcast_enabled Team#alert_broadcast_enabled}
   */
   readonly alertBroadcastEnabled?: boolean | cdktf.IResolvable;
   /**
   * The alert urgency id of the team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#alert_urgency_id Team#alert_urgency_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#alert_urgency_id Team#alert_urgency_id}
   */
   readonly alertUrgencyId?: string;
   /**
   * Email generated to send alerts to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#alerts_email_address Team#alerts_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#alerts_email_address Team#alerts_email_address}
   */
   readonly alertsEmailAddress?: string;
   /**
   * Enable alerts through email. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#alerts_email_enabled Team#alerts_email_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#alerts_email_enabled Team#alerts_email_enabled}
   */
   readonly alertsEmailEnabled?: boolean | cdktf.IResolvable;
   /**
   * Auto add members to incident channel when team is attached. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#auto_add_members_when_attached Team#auto_add_members_when_attached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#auto_add_members_when_attached Team#auto_add_members_when_attached}
   */
   readonly autoAddMembersWhenAttached?: boolean | cdktf.IResolvable;
   /**
   * The Backstage entity id associated to this team. eg: :namespace/:kind/:entity_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#backstage_id Team#backstage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#backstage_id Team#backstage_id}
   */
   readonly backstageId?: string;
   /**
   * The hex color of the team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#color Team#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#color Team#color}
   */
   readonly color?: string;
   /**
   * The Cortex group id associated to this team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#cortex_id Team#cortex_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#cortex_id Team#cortex_id}
   */
   readonly cortexId?: string;
   /**
   * The description of the team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#description Team#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#description Team#description}
   */
   readonly description?: string;
   /**
   * The external id associated to this team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#external_id Team#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#external_id Team#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#id Team#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#id Team#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,95 +83,95 @@ export interface TeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable incidents to be broadcasted to a specific channel. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#incident_broadcast_enabled Team#incident_broadcast_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#incident_broadcast_enabled Team#incident_broadcast_enabled}
   */
   readonly incidentBroadcastEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#name Team#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#name Team#name}
   */
   readonly name: string;
   /**
   * Emails to attach to the team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#notify_emails Team#notify_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#notify_emails Team#notify_emails}
   */
   readonly notifyEmails?: string[];
   /**
   * The Opsgenie group id associated to this team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#opsgenie_id Team#opsgenie_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#opsgenie_id Team#opsgenie_id}
   */
   readonly opsgenieId?: string;
   /**
   * The PagerDuty group id associated to this team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#pagerduty_id Team#pagerduty_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#pagerduty_id Team#pagerduty_id}
   */
   readonly pagerdutyId?: string;
   /**
   * The PagerDuty service id associated to this team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#pagerduty_service_id Team#pagerduty_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#pagerduty_service_id Team#pagerduty_service_id}
   */
   readonly pagerdutyServiceId?: string;
   /**
   * The PagerTree group id associated to this team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#pagertree_id Team#pagertree_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#pagertree_id Team#pagertree_id}
   */
   readonly pagertreeId?: string;
   /**
   * Position of the team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#position Team#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#position Team#position}
   */
   readonly position?: number;
   /**
   * The Service Now CI sys id associated to this team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#service_now_ci_sys_id Team#service_now_ci_sys_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#service_now_ci_sys_id Team#service_now_ci_sys_id}
   */
   readonly serviceNowCiSysId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#slug Team#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#slug Team#slug}
   */
   readonly slug?: string;
   /**
   * The user ids of the members of this team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#user_ids Team#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#user_ids Team#user_ids}
   */
   readonly userIds?: number[];
   /**
   * The VictorOps group id associated to this team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#victor_ops_id Team#victor_ops_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#victor_ops_id Team#victor_ops_id}
   */
   readonly victorOpsId?: string;
   /**
   * alert_broadcast_channel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#alert_broadcast_channel Team#alert_broadcast_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#alert_broadcast_channel Team#alert_broadcast_channel}
   */
   readonly alertBroadcastChannel?: TeamAlertBroadcastChannel;
   /**
   * incident_broadcast_channel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#incident_broadcast_channel Team#incident_broadcast_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#incident_broadcast_channel Team#incident_broadcast_channel}
   */
   readonly incidentBroadcastChannel?: TeamIncidentBroadcastChannel;
   /**
   * slack_aliases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#slack_aliases Team#slack_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#slack_aliases Team#slack_aliases}
   */
   readonly slackAliases?: TeamSlackAliases[] | cdktf.IResolvable;
   /**
   * slack_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#slack_channels Team#slack_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#slack_channels Team#slack_channels}
   */
   readonly slackChannels?: TeamSlackChannels[] | cdktf.IResolvable;
 }
@@ -179,7 +179,7 @@ export interface TeamAlertBroadcastChannel {
   /**
   * Slack channel ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#id Team#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#id Team#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -188,7 +188,7 @@ export interface TeamAlertBroadcastChannel {
   /**
   * Slack channel name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#name Team#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#name Team#name}
   */
   readonly name?: string;
 }
@@ -303,7 +303,7 @@ export interface TeamIncidentBroadcastChannel {
   /**
   * Slack channel ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#id Team#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#id Team#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -312,7 +312,7 @@ export interface TeamIncidentBroadcastChannel {
   /**
   * Slack channel name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#name Team#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#name Team#name}
   */
   readonly name?: string;
 }
@@ -427,7 +427,7 @@ export interface TeamSlackAliases {
   /**
   * Slack alias ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#id Team#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#id Team#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -436,7 +436,7 @@ export interface TeamSlackAliases {
   /**
   * Slack alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#name Team#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#name Team#name}
   */
   readonly name?: string;
 }
@@ -583,7 +583,7 @@ export interface TeamSlackChannels {
   /**
   * Slack channel ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#id Team#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#id Team#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -592,7 +592,7 @@ export interface TeamSlackChannels {
   /**
   * Slack channel name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#name Team#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#name Team#name}
   */
   readonly name?: string;
 }
@@ -737,7 +737,7 @@ export class TeamSlackChannelsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team rootly_team}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team rootly_team}
 */
 export class Team extends cdktf.TerraformResource {
 
@@ -753,7 +753,7 @@ export class Team extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Team resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Team to import
-  * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Team to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -765,7 +765,7 @@ export class Team extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/team rootly_team} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/team rootly_team} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -776,8 +776,8 @@ export class Team extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_team',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

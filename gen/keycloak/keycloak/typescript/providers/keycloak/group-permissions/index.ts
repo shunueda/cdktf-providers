@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface GroupPermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#group_id GroupPermissions#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#group_id GroupPermissions#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#id GroupPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#id GroupPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#realm_id GroupPermissions#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#realm_id GroupPermissions#realm_id}
   */
   readonly realmId: string;
   /**
   * manage_members_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#manage_members_scope GroupPermissions#manage_members_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#manage_members_scope GroupPermissions#manage_members_scope}
   */
   readonly manageMembersScope?: GroupPermissionsManageMembersScope;
   /**
   * manage_membership_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#manage_membership_scope GroupPermissions#manage_membership_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#manage_membership_scope GroupPermissions#manage_membership_scope}
   */
   readonly manageMembershipScope?: GroupPermissionsManageMembershipScope;
   /**
   * manage_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#manage_scope GroupPermissions#manage_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#manage_scope GroupPermissions#manage_scope}
   */
   readonly manageScope?: GroupPermissionsManageScope;
   /**
   * view_members_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#view_members_scope GroupPermissions#view_members_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#view_members_scope GroupPermissions#view_members_scope}
   */
   readonly viewMembersScope?: GroupPermissionsViewMembersScope;
   /**
   * view_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#view_scope GroupPermissions#view_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#view_scope GroupPermissions#view_scope}
   */
   readonly viewScope?: GroupPermissionsViewScope;
 }
 export interface GroupPermissionsManageMembersScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#decision_strategy GroupPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#decision_strategy GroupPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#description GroupPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#description GroupPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#policies GroupPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#policies GroupPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -205,15 +205,15 @@ export class GroupPermissionsManageMembersScopeOutputReference extends cdktf.Com
 }
 export interface GroupPermissionsManageMembershipScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#decision_strategy GroupPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#decision_strategy GroupPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#description GroupPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#description GroupPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#policies GroupPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#policies GroupPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -355,15 +355,15 @@ export class GroupPermissionsManageMembershipScopeOutputReference extends cdktf.
 }
 export interface GroupPermissionsManageScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#decision_strategy GroupPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#decision_strategy GroupPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#description GroupPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#description GroupPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#policies GroupPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#policies GroupPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -505,15 +505,15 @@ export class GroupPermissionsManageScopeOutputReference extends cdktf.ComplexObj
 }
 export interface GroupPermissionsViewMembersScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#decision_strategy GroupPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#decision_strategy GroupPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#description GroupPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#description GroupPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#policies GroupPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#policies GroupPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -655,15 +655,15 @@ export class GroupPermissionsViewMembersScopeOutputReference extends cdktf.Compl
 }
 export interface GroupPermissionsViewScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#decision_strategy GroupPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#decision_strategy GroupPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#description GroupPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#description GroupPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#policies GroupPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#policies GroupPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -805,7 +805,7 @@ export class GroupPermissionsViewScopeOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions keycloak_group_permissions}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions keycloak_group_permissions}
 */
 export class GroupPermissions extends cdktf.TerraformResource {
 
@@ -821,7 +821,7 @@ export class GroupPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupPermissions to import
-  * @param importFromId The id of the existing GroupPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -833,7 +833,7 @@ export class GroupPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/group_permissions keycloak_group_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/group_permissions keycloak_group_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -844,8 +844,8 @@ export class GroupPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_group_permissions',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

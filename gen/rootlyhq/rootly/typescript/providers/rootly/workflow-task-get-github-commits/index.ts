@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskGetGithubCommitsConfig extends cdktf.TerraformMetaA
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#enabled WorkflowTaskGetGithubCommits#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#enabled WorkflowTaskGetGithubCommits#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#id WorkflowTaskGetGithubCommits#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#id WorkflowTaskGetGithubCommits#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskGetGithubCommitsConfig extends cdktf.TerraformMetaA
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#name WorkflowTaskGetGithubCommits#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#name WorkflowTaskGetGithubCommits#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#position WorkflowTaskGetGithubCommits#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#position WorkflowTaskGetGithubCommits#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#skip_on_failure WorkflowTaskGetGithubCommits#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#skip_on_failure WorkflowTaskGetGithubCommits#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#workflow_id WorkflowTaskGetGithubCommits#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#workflow_id WorkflowTaskGetGithubCommits#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#task_params WorkflowTaskGetGithubCommits#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#task_params WorkflowTaskGetGithubCommits#task_params}
   */
   readonly taskParams: WorkflowTaskGetGithubCommitsTaskParams;
 }
 export interface WorkflowTaskGetGithubCommitsTaskParamsPostToSlackChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#id WorkflowTaskGetGithubCommits#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#id WorkflowTaskGetGithubCommits#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#name WorkflowTaskGetGithubCommits#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#name WorkflowTaskGetGithubCommits#name}
   */
   readonly name: string;
 }
@@ -201,43 +201,43 @@ export interface WorkflowTaskGetGithubCommitsTaskParams {
   /**
   * The branch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#branch WorkflowTaskGetGithubCommits#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#branch WorkflowTaskGetGithubCommits#branch}
   */
   readonly branch: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#github_repository_names WorkflowTaskGetGithubCommits#github_repository_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#github_repository_names WorkflowTaskGetGithubCommits#github_repository_names}
   */
   readonly githubRepositoryNames?: string[];
   /**
   * How far back to fetch commits (in format '1 minute', '30 days', '3 months', etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#past_duration WorkflowTaskGetGithubCommits#past_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#past_duration WorkflowTaskGetGithubCommits#past_duration}
   */
   readonly pastDuration: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#post_to_incident_timeline WorkflowTaskGetGithubCommits#post_to_incident_timeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#post_to_incident_timeline WorkflowTaskGetGithubCommits#post_to_incident_timeline}
   */
   readonly postToIncidentTimeline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#service_ids WorkflowTaskGetGithubCommits#service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#service_ids WorkflowTaskGetGithubCommits#service_ids}
   */
   readonly serviceIds?: string[];
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#services_impacted_by_incident WorkflowTaskGetGithubCommits#services_impacted_by_incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#services_impacted_by_incident WorkflowTaskGetGithubCommits#services_impacted_by_incident}
   */
   readonly servicesImpactedByIncident?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#task_type WorkflowTaskGetGithubCommits#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#task_type WorkflowTaskGetGithubCommits#task_type}
   */
   readonly taskType?: string;
   /**
   * post_to_slack_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#post_to_slack_channels WorkflowTaskGetGithubCommits#post_to_slack_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#post_to_slack_channels WorkflowTaskGetGithubCommits#post_to_slack_channels}
   */
   readonly postToSlackChannels?: WorkflowTaskGetGithubCommitsTaskParamsPostToSlackChannels[] | cdktf.IResolvable;
 }
@@ -518,7 +518,7 @@ export class WorkflowTaskGetGithubCommitsTaskParamsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits rootly_workflow_task_get_github_commits}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits rootly_workflow_task_get_github_commits}
 */
 export class WorkflowTaskGetGithubCommits extends cdktf.TerraformResource {
 
@@ -534,7 +534,7 @@ export class WorkflowTaskGetGithubCommits extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskGetGithubCommits resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskGetGithubCommits to import
-  * @param importFromId The id of the existing WorkflowTaskGetGithubCommits that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskGetGithubCommits that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskGetGithubCommits to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -546,7 +546,7 @@ export class WorkflowTaskGetGithubCommits extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_github_commits rootly_workflow_task_get_github_commits} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_get_github_commits rootly_workflow_task_get_github_commits} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -557,8 +557,8 @@ export class WorkflowTaskGetGithubCommits extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_get_github_commits',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

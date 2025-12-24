@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/public_key
+// https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/public_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface PublicKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of key to generate.  One of rsa, dsa, ecdsa, ed25519. Used for the generation of the key. Will be ignored if `generate_keypair` is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/public_key#generate_algorithm PublicKey#generate_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/public_key#generate_algorithm PublicKey#generate_algorithm}
   */
   readonly generateAlgorithm?: string;
   /**
   * If true, generate a new SSH key pair. Can not be used with `public_key`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/public_key#generate_keypair PublicKey#generate_keypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/public_key#generate_keypair PublicKey#generate_keypair}
   */
   readonly generateKeypair?: boolean | cdktf.IResolvable;
   /**
   * Length of key to generate. If algorithm is ecdsa, this is the signature size. Used for the generation of the key. Will be ignored if `generate_keypair` is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/public_key#generate_length PublicKey#generate_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/public_key#generate_length PublicKey#generate_length}
   */
   readonly generateLength?: number;
   /**
   * Password for the private key. Used for the generation of the key. Will be ignored if `generate_keypair` is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/public_key#generate_private_key_password PublicKey#generate_private_key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/public_key#generate_private_key_password PublicKey#generate_private_key_password}
   */
   readonly generatePrivateKeyPassword?: string;
   /**
   * Actual contents of SSH key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/public_key#public_key PublicKey#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/public_key#public_key PublicKey#public_key}
   */
   readonly publicKey?: string;
   /**
   * Public key title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/public_key#title PublicKey#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/public_key#title PublicKey#title}
   */
   readonly title: string;
   /**
   * User ID this public key is associated with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/public_key#user_id PublicKey#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/public_key#user_id PublicKey#user_id}
   */
   readonly userId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/public_key files_public_key}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/public_key files_public_key}
 */
 export class PublicKey extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class PublicKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PublicKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PublicKey to import
-  * @param importFromId The id of the existing PublicKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/public_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PublicKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/public_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PublicKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class PublicKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/public_key files_public_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/public_key files_public_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class PublicKey extends cdktf.TerraformResource {
       terraformResourceType: 'files_public_key',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.419',
-        providerVersionConstraint: '0.1.419'
+        providerVersion: '0.1.420',
+        providerVersionConstraint: '0.1.420'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

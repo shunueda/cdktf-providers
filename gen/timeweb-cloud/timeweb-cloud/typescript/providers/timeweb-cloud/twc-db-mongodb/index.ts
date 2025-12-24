@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TwcDbMongodbConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb#id TwcDbMongodb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb#id TwcDbMongodb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface TwcDbMongodbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flag that shows allowability database only by external IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb#is_external_ip TwcDbMongodb#is_external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb#is_external_ip TwcDbMongodb#is_external_ip}
   */
   readonly isExternalIp?: boolean | cdktf.IResolvable;
   /**
   * Login for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb#login TwcDbMongodb#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb#login TwcDbMongodb#login}
   */
   readonly login?: string;
   /**
   * Name for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb#name TwcDbMongodb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb#name TwcDbMongodb#name}
   */
   readonly name: string;
   /**
   * Password for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb#password TwcDbMongodb#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb#password TwcDbMongodb#password}
   */
   readonly password: string;
   /**
   * Preset ID for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb#preset_id TwcDbMongodb#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb#preset_id TwcDbMongodb#preset_id}
   */
   readonly presetId: number;
   /**
   * Project ID for created DB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb#project_id TwcDbMongodb#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb#project_id TwcDbMongodb#project_id}
   */
   readonly projectId?: number;
   /**
   * local_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb#local_network TwcDbMongodb#local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb#local_network TwcDbMongodb#local_network}
   */
   readonly localNetwork?: TwcDbMongodbLocalNetwork;
 }
@@ -141,7 +141,7 @@ export interface TwcDbMongodbLocalNetwork {
   /**
   * ID of VPC for assign address from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb#id TwcDbMongodb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb#id TwcDbMongodb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -150,7 +150,7 @@ export interface TwcDbMongodbLocalNetwork {
   /**
   * Address in VPC subnetwork for manual assign
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb#ip TwcDbMongodb#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb#ip TwcDbMongodb#ip}
   */
   readonly ip?: string;
 }
@@ -260,7 +260,7 @@ export class TwcDbMongodbLocalNetworkOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb twc_db_mongodb}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb twc_db_mongodb}
 */
 export class TwcDbMongodb extends cdktf.TerraformResource {
 
@@ -276,7 +276,7 @@ export class TwcDbMongodb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcDbMongodb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcDbMongodb to import
-  * @param importFromId The id of the existing TwcDbMongodb that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcDbMongodb that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcDbMongodb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -288,7 +288,7 @@ export class TwcDbMongodb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_db_mongodb twc_db_mongodb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_db_mongodb twc_db_mongodb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -299,8 +299,8 @@ export class TwcDbMongodb extends cdktf.TerraformResource {
       terraformResourceType: 'twc_db_mongodb',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

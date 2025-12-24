@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskSendMicrosoftTeamsBlocksConfig extends cdktf.Terraf
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks#enabled WorkflowTaskSendMicrosoftTeamsBlocks#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks#enabled WorkflowTaskSendMicrosoftTeamsBlocks#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks#id WorkflowTaskSendMicrosoftTeamsBlocks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks#id WorkflowTaskSendMicrosoftTeamsBlocks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskSendMicrosoftTeamsBlocksConfig extends cdktf.Terraf
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks#name WorkflowTaskSendMicrosoftTeamsBlocks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks#name WorkflowTaskSendMicrosoftTeamsBlocks#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks#position WorkflowTaskSendMicrosoftTeamsBlocks#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks#position WorkflowTaskSendMicrosoftTeamsBlocks#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks#skip_on_failure WorkflowTaskSendMicrosoftTeamsBlocks#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks#skip_on_failure WorkflowTaskSendMicrosoftTeamsBlocks#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks#workflow_id WorkflowTaskSendMicrosoftTeamsBlocks#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks#workflow_id WorkflowTaskSendMicrosoftTeamsBlocks#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks#task_params WorkflowTaskSendMicrosoftTeamsBlocks#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks#task_params WorkflowTaskSendMicrosoftTeamsBlocks#task_params}
   */
   readonly taskParams: WorkflowTaskSendMicrosoftTeamsBlocksTaskParams;
 }
@@ -55,11 +55,11 @@ export interface WorkflowTaskSendMicrosoftTeamsBlocksTaskParams {
   /**
   * Support liquid markup. Needs to be a valid JSON string after liquid is parsed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks#attachments WorkflowTaskSendMicrosoftTeamsBlocks#attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks#attachments WorkflowTaskSendMicrosoftTeamsBlocks#attachments}
   */
   readonly attachments: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks#task_type WorkflowTaskSendMicrosoftTeamsBlocks#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks#task_type WorkflowTaskSendMicrosoftTeamsBlocks#task_type}
   */
   readonly taskType?: string;
 }
@@ -169,7 +169,7 @@ export class WorkflowTaskSendMicrosoftTeamsBlocksTaskParamsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks rootly_workflow_task_send_microsoft_teams_blocks}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks rootly_workflow_task_send_microsoft_teams_blocks}
 */
 export class WorkflowTaskSendMicrosoftTeamsBlocks extends cdktf.TerraformResource {
 
@@ -185,7 +185,7 @@ export class WorkflowTaskSendMicrosoftTeamsBlocks extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a WorkflowTaskSendMicrosoftTeamsBlocks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskSendMicrosoftTeamsBlocks to import
-  * @param importFromId The id of the existing WorkflowTaskSendMicrosoftTeamsBlocks that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskSendMicrosoftTeamsBlocks that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskSendMicrosoftTeamsBlocks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class WorkflowTaskSendMicrosoftTeamsBlocks extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_send_microsoft_teams_blocks rootly_workflow_task_send_microsoft_teams_blocks} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_send_microsoft_teams_blocks rootly_workflow_task_send_microsoft_teams_blocks} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class WorkflowTaskSendMicrosoftTeamsBlocks extends cdktf.TerraformResourc
       terraformResourceType: 'rootly_workflow_task_send_microsoft_teams_blocks',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

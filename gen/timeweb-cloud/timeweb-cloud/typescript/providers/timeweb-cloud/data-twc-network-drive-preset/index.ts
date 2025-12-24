@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive_preset
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive_preset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTwcNetworkDrivePresetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive_preset#id DataTwcNetworkDrivePreset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive_preset#id DataTwcNetworkDrivePreset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTwcNetworkDrivePresetConfig extends cdktf.TerraformMetaArgu
   /**
   * Type of the network drive for preset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive_preset#type DataTwcNetworkDrivePreset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive_preset#type DataTwcNetworkDrivePreset#type}
   */
   readonly type?: string;
   /**
   * price_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive_preset#price_filter DataTwcNetworkDrivePreset#price_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive_preset#price_filter DataTwcNetworkDrivePreset#price_filter}
   */
   readonly priceFilter?: DataTwcNetworkDrivePresetPriceFilter;
 }
@@ -31,13 +31,13 @@ export interface DataTwcNetworkDrivePresetPriceFilter {
   /**
   * Minimum price (inclusive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive_preset#from DataTwcNetworkDrivePreset#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive_preset#from DataTwcNetworkDrivePreset#from}
   */
   readonly from: number;
   /**
   * Maximum price (inclusive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive_preset#to DataTwcNetworkDrivePreset#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive_preset#to DataTwcNetworkDrivePreset#to}
   */
   readonly to: number;
 }
@@ -144,7 +144,7 @@ export class DataTwcNetworkDrivePresetPriceFilterOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive_preset twc_network_drive_preset}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive_preset twc_network_drive_preset}
 */
 export class DataTwcNetworkDrivePreset extends cdktf.TerraformDataSource {
 
@@ -160,7 +160,7 @@ export class DataTwcNetworkDrivePreset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTwcNetworkDrivePreset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTwcNetworkDrivePreset to import
-  * @param importFromId The id of the existing DataTwcNetworkDrivePreset that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive_preset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTwcNetworkDrivePreset that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive_preset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTwcNetworkDrivePreset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class DataTwcNetworkDrivePreset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/data-sources/twc_network_drive_preset twc_network_drive_preset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/data-sources/twc_network_drive_preset twc_network_drive_preset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class DataTwcNetworkDrivePreset extends cdktf.TerraformDataSource {
       terraformResourceType: 'twc_network_drive_preset',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/identity_provider_token_exchange_scope_permission
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/identity_provider_token_exchange_scope_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IdentityProviderTokenExchangeScopePermissionConfig extends cdkt
   /**
   * Ids of the clients for which a policy will be created and set on scope based token exchange permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/identity_provider_token_exchange_scope_permission#clients IdentityProviderTokenExchangeScopePermission#clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/identity_provider_token_exchange_scope_permission#clients IdentityProviderTokenExchangeScopePermission#clients}
   */
   readonly clients: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/identity_provider_token_exchange_scope_permission#id IdentityProviderTokenExchangeScopePermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/identity_provider_token_exchange_scope_permission#id IdentityProviderTokenExchangeScopePermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,21 +23,21 @@ export interface IdentityProviderTokenExchangeScopePermissionConfig extends cdkt
   /**
   * Type of policy that is created. At the moment only 'client' type is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/identity_provider_token_exchange_scope_permission#policy_type IdentityProviderTokenExchangeScopePermission#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/identity_provider_token_exchange_scope_permission#policy_type IdentityProviderTokenExchangeScopePermission#policy_type}
   */
   readonly policyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/identity_provider_token_exchange_scope_permission#provider_alias IdentityProviderTokenExchangeScopePermission#provider_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/identity_provider_token_exchange_scope_permission#provider_alias IdentityProviderTokenExchangeScopePermission#provider_alias}
   */
   readonly providerAlias: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/identity_provider_token_exchange_scope_permission#realm_id IdentityProviderTokenExchangeScopePermission#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/identity_provider_token_exchange_scope_permission#realm_id IdentityProviderTokenExchangeScopePermission#realm_id}
   */
   readonly realmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/identity_provider_token_exchange_scope_permission keycloak_identity_provider_token_exchange_scope_permission}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/identity_provider_token_exchange_scope_permission keycloak_identity_provider_token_exchange_scope_permission}
 */
 export class IdentityProviderTokenExchangeScopePermission extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class IdentityProviderTokenExchangeScopePermission extends cdktf.Terrafor
   * Generates CDKTF code for importing a IdentityProviderTokenExchangeScopePermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityProviderTokenExchangeScopePermission to import
-  * @param importFromId The id of the existing IdentityProviderTokenExchangeScopePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/identity_provider_token_exchange_scope_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityProviderTokenExchangeScopePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/identity_provider_token_exchange_scope_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityProviderTokenExchangeScopePermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class IdentityProviderTokenExchangeScopePermission extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/identity_provider_token_exchange_scope_permission keycloak_identity_provider_token_exchange_scope_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/identity_provider_token_exchange_scope_permission keycloak_identity_provider_token_exchange_scope_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class IdentityProviderTokenExchangeScopePermission extends cdktf.Terrafor
       terraformResourceType: 'keycloak_identity_provider_token_exchange_scope_permission',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

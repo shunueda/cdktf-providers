@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine
+// https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface VirtualmachineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#cpu Virtualmachine#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#cpu Virtualmachine#cpu}
   */
   readonly cpu?: number;
   /**
   * To enable VM CPU pinning, ensure that at least one node has the CPU manager enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#cpu_pinning Virtualmachine#cpu_pinning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#cpu_pinning Virtualmachine#cpu_pinning}
   */
   readonly cpuPinning?: boolean | cdktf.IResolvable;
   /**
   * Any text you want that better describes this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#description Virtualmachine#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#description Virtualmachine#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#efi Virtualmachine#efi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#efi Virtualmachine#efi}
   */
   readonly efi?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#hostname Virtualmachine#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#hostname Virtualmachine#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#id Virtualmachine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#id Virtualmachine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,47 +41,57 @@ export interface VirtualmachineConfig extends cdktf.TerraformMetaArguments {
   /**
   * To enable isolate emulator thread, ensure that at least one node has the CPU manager enabled, also VM CPU pinning must be enabled. Note that enable option will allocate an additional dedicated CPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#isolate_emulator_thread Virtualmachine#isolate_emulator_thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#isolate_emulator_thread Virtualmachine#isolate_emulator_thread}
   */
   readonly isolateEmulatorThread?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#machine_type Virtualmachine#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#labels Virtualmachine#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#machine_type Virtualmachine#machine_type}
   */
   readonly machineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#memory Virtualmachine#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#memory Virtualmachine#memory}
   */
   readonly memory?: string;
   /**
   * A unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#name Virtualmachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#name Virtualmachine#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#namespace Virtualmachine#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#namespace Virtualmachine#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#reserved_memory Virtualmachine#reserved_memory}
+  * Node selector for scheduling the VM. The key is the label key and the value is the label value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#node_selector Virtualmachine#node_selector}
+  */
+  readonly nodeSelector?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#reserved_memory Virtualmachine#reserved_memory}
   */
   readonly reservedMemory?: string;
   /**
   * restart vm after the vm is updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#restart_after_update Virtualmachine#restart_after_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#restart_after_update Virtualmachine#restart_after_update}
   */
   readonly restartAfterUpdate?: boolean | cdktf.IResolvable;
   /**
   * more info: https://kubevirt.io/user-guide/virtual_machines/run_strategies/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#run_strategy Virtualmachine#run_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#run_strategy Virtualmachine#run_strategy}
   */
   readonly runStrategy?: string;
   /**
   * EFI must be enabled to use this feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#secure_boot Virtualmachine#secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#secure_boot Virtualmachine#secure_boot}
   */
   readonly secureBoot?: boolean | cdktf.IResolvable;
   /**
@@ -89,11 +99,11 @@ export interface VirtualmachineConfig extends cdktf.TerraformMetaArguments {
   * 1. Both `cloudinit.user_data_base64` and `cloudinit.user_data_secret_name` are empty.
   * 2. There is no `ssh_authorized_keys` field in `cloudinit.user_data`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#ssh_keys Virtualmachine#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#ssh_keys Virtualmachine#ssh_keys}
   */
   readonly sshKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#start Virtualmachine#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#start Virtualmachine#start}
   */
   readonly start?: boolean | cdktf.IResolvable;
   /**
@@ -104,73 +114,73 @@ export interface VirtualmachineConfig extends cdktf.TerraformMetaArguments {
   * 2. There is no `user` field in `cloudinit.user_data`.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#tags Virtualmachine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#tags Virtualmachine#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * cloudinit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#cloudinit Virtualmachine#cloudinit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#cloudinit Virtualmachine#cloudinit}
   */
   readonly cloudinit?: VirtualmachineCloudinit;
   /**
   * disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#disk Virtualmachine#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#disk Virtualmachine#disk}
   */
   readonly disk: VirtualmachineDisk[] | cdktf.IResolvable;
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#input Virtualmachine#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#input Virtualmachine#input}
   */
   readonly input?: VirtualmachineInput[] | cdktf.IResolvable;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#network_interface Virtualmachine#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#network_interface Virtualmachine#network_interface}
   */
   readonly networkInterface: VirtualmachineNetworkInterface[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#timeouts Virtualmachine#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#timeouts Virtualmachine#timeouts}
   */
   readonly timeouts?: VirtualmachineTimeouts;
   /**
   * tpm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#tpm Virtualmachine#tpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#tpm Virtualmachine#tpm}
   */
   readonly tpm?: VirtualmachineTpm;
 }
 export interface VirtualmachineCloudinit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#network_data Virtualmachine#network_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#network_data Virtualmachine#network_data}
   */
   readonly networkData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#network_data_base64 Virtualmachine#network_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#network_data_base64 Virtualmachine#network_data_base64}
   */
   readonly networkDataBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#network_data_secret_name Virtualmachine#network_data_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#network_data_secret_name Virtualmachine#network_data_secret_name}
   */
   readonly networkDataSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#type Virtualmachine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#type Virtualmachine#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#user_data Virtualmachine#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#user_data Virtualmachine#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#user_data_base64 Virtualmachine#user_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#user_data_base64 Virtualmachine#user_data_base64}
   */
   readonly userDataBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#user_data_secret_name Virtualmachine#user_data_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#user_data_secret_name Virtualmachine#user_data_secret_name}
   */
   readonly userDataSecretName?: string;
 }
@@ -428,59 +438,59 @@ export class VirtualmachineCloudinitOutputReference extends cdktf.ComplexObject 
 }
 export interface VirtualmachineDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#access_mode Virtualmachine#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#access_mode Virtualmachine#access_mode}
   */
   readonly accessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#auto_delete Virtualmachine#auto_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#auto_delete Virtualmachine#auto_delete}
   */
   readonly autoDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#boot_order Virtualmachine#boot_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#boot_order Virtualmachine#boot_order}
   */
   readonly bootOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#bus Virtualmachine#bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#bus Virtualmachine#bus}
   */
   readonly bus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#container_image_name Virtualmachine#container_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#container_image_name Virtualmachine#container_image_name}
   */
   readonly containerImageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#existing_volume_name Virtualmachine#existing_volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#existing_volume_name Virtualmachine#existing_volume_name}
   */
   readonly existingVolumeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#hot_plug Virtualmachine#hot_plug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#hot_plug Virtualmachine#hot_plug}
   */
   readonly hotPlug?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#image Virtualmachine#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#image Virtualmachine#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#name Virtualmachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#name Virtualmachine#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#size Virtualmachine#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#size Virtualmachine#size}
   */
   readonly size?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#storage_class_name Virtualmachine#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#storage_class_name Virtualmachine#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#type Virtualmachine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#type Virtualmachine#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#volume_mode Virtualmachine#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#volume_mode Virtualmachine#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#volume_name Virtualmachine#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#volume_name Virtualmachine#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -970,15 +980,15 @@ export class VirtualmachineDiskList extends cdktf.ComplexList {
 }
 export interface VirtualmachineInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#bus Virtualmachine#bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#bus Virtualmachine#bus}
   */
   readonly bus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#name Virtualmachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#name Virtualmachine#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#type Virtualmachine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#type Virtualmachine#type}
   */
   readonly type?: string;
 }
@@ -1151,35 +1161,35 @@ export interface VirtualmachineNetworkInterface {
   /**
   * Boot order priority of this network interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#boot_order Virtualmachine#boot_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#boot_order Virtualmachine#boot_order}
   */
   readonly bootOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#mac_address Virtualmachine#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#mac_address Virtualmachine#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#model Virtualmachine#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#model Virtualmachine#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#name Virtualmachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#name Virtualmachine#name}
   */
   readonly name: string;
   /**
   * if the value is empty, management network is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#network_name Virtualmachine#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#network_name Virtualmachine#network_name}
   */
   readonly networkName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#type Virtualmachine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#type Virtualmachine#type}
   */
   readonly type?: string;
   /**
   * wait for this network interface to obtain an IP address. If a non-management network is used, this feature requires qemu-guest-agent installed and started in the VM, otherwise, VM creation will stuck until timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#wait_for_lease Virtualmachine#wait_for_lease}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#wait_for_lease Virtualmachine#wait_for_lease}
   */
   readonly waitForLease?: boolean | cdktf.IResolvable;
 }
@@ -1476,23 +1486,23 @@ export class VirtualmachineNetworkInterfaceList extends cdktf.ComplexList {
 }
 export interface VirtualmachineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#create Virtualmachine#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#create Virtualmachine#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#default Virtualmachine#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#default Virtualmachine#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#delete Virtualmachine#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#delete Virtualmachine#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#read Virtualmachine#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#read Virtualmachine#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#update Virtualmachine#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#update Virtualmachine#update}
   */
   readonly update?: string;
 }
@@ -1704,7 +1714,7 @@ export interface VirtualmachineTpm {
   /**
   * just add this field for doc generation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#name Virtualmachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#name Virtualmachine#name}
   */
   readonly name?: string;
 }
@@ -1788,7 +1798,7 @@ export class VirtualmachineTpmOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine harvester_virtualmachine}
+* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine harvester_virtualmachine}
 */
 export class Virtualmachine extends cdktf.TerraformResource {
 
@@ -1804,7 +1814,7 @@ export class Virtualmachine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Virtualmachine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Virtualmachine to import
-  * @param importFromId The id of the existing Virtualmachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Virtualmachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Virtualmachine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1816,7 +1826,7 @@ export class Virtualmachine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/resources/virtualmachine harvester_virtualmachine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/resources/virtualmachine harvester_virtualmachine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1827,8 +1837,8 @@ export class Virtualmachine extends cdktf.TerraformResource {
       terraformResourceType: 'harvester_virtualmachine',
       terraformGeneratorMetadata: {
         providerName: 'harvester',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1845,10 +1855,12 @@ export class Virtualmachine extends cdktf.TerraformResource {
     this._hostname = config.hostname;
     this._id = config.id;
     this._isolateEmulatorThread = config.isolateEmulatorThread;
+    this._labels = config.labels;
     this._machineType = config.machineType;
     this._memory = config.memory;
     this._name = config.name;
     this._namespace = config.namespace;
+    this._nodeSelector = config.nodeSelector;
     this._reservedMemory = config.reservedMemory;
     this._restartAfterUpdate = config.restartAfterUpdate;
     this._runStrategy = config.runStrategy;
@@ -1980,6 +1992,22 @@ export class Virtualmachine extends cdktf.TerraformResource {
     return this._isolateEmulatorThread;
   }
 
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
   // machine_type - computed: true, optional: true, required: false
   private _machineType?: string; 
   public get machineType() {
@@ -2049,6 +2077,22 @@ export class Virtualmachine extends cdktf.TerraformResource {
   // node_name - computed: true, optional: false, required: false
   public get nodeName() {
     return this.getStringAttribute('node_name');
+  }
+
+  // node_selector - computed: false, optional: true, required: false
+  private _nodeSelector?: { [key: string]: string }; 
+  public get nodeSelector() {
+    return this.getStringMapAttribute('node_selector');
+  }
+  public set nodeSelector(value: { [key: string]: string }) {
+    this._nodeSelector = value;
+  }
+  public resetNodeSelector() {
+    this._nodeSelector = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeSelectorInput() {
+    return this._nodeSelector;
   }
 
   // reserved_memory - computed: false, optional: true, required: false
@@ -2271,10 +2315,12 @@ export class Virtualmachine extends cdktf.TerraformResource {
       hostname: cdktf.stringToTerraform(this._hostname),
       id: cdktf.stringToTerraform(this._id),
       isolate_emulator_thread: cdktf.booleanToTerraform(this._isolateEmulatorThread),
+      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
       machine_type: cdktf.stringToTerraform(this._machineType),
       memory: cdktf.stringToTerraform(this._memory),
       name: cdktf.stringToTerraform(this._name),
       namespace: cdktf.stringToTerraform(this._namespace),
+      node_selector: cdktf.hashMapper(cdktf.stringToTerraform)(this._nodeSelector),
       reserved_memory: cdktf.stringToTerraform(this._reservedMemory),
       restart_after_update: cdktf.booleanToTerraform(this._restartAfterUpdate),
       run_strategy: cdktf.stringToTerraform(this._runStrategy),
@@ -2335,6 +2381,12 @@ export class Virtualmachine extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      labels: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
       machine_type: {
         value: cdktf.stringToHclTerraform(this._machineType),
         isBlock: false,
@@ -2358,6 +2410,12 @@ export class Virtualmachine extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      node_selector: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._nodeSelector),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       reserved_memory: {
         value: cdktf.stringToHclTerraform(this._reservedMemory),

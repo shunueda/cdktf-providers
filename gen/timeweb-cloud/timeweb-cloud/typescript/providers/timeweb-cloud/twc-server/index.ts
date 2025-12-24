@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,41 @@ export interface TwcServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Availability zone for server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#availability_zone TwcServer#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#availability_zone TwcServer#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Bandwidth for server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#bandwidth TwcServer#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#bandwidth TwcServer#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Cloud-init script. If script requires external network you should use floating_ip_id field instead of twc_floating_ip.resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#cloud_init TwcServer#cloud_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#cloud_init TwcServer#cloud_init}
   */
   readonly cloudInit?: string;
   /**
   * Comment for server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#comment TwcServer#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#comment TwcServer#comment}
   */
   readonly comment?: string;
   /**
   * Floating IP ID for server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#floating_ip_id TwcServer#floating_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#floating_ip_id TwcServer#floating_ip_id}
   */
   readonly floatingIpId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#id TwcServer#id}
+  * Hostname of the server
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#hostname TwcServer#hostname}
+  */
+  readonly hostname?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#id TwcServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,67 +53,67 @@ export interface TwcServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image ID for servers (not supported for cloned servers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#image_id TwcServer#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#image_id TwcServer#image_id}
   */
   readonly imageId?: string;
   /**
   * Is root password required for server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#is_root_password_required TwcServer#is_root_password_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#is_root_password_required TwcServer#is_root_password_required}
   */
   readonly isRootPasswordRequired?: boolean | cdktf.IResolvable;
   /**
   * Name for server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#name TwcServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#name TwcServer#name}
   */
   readonly name: string;
   /**
   * OS ID for server (not supported for cloned servers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#os_id TwcServer#os_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#os_id TwcServer#os_id}
   */
   readonly osId?: number;
   /**
   * Preset ID for server (conflicts with configuration)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#preset_id TwcServer#preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#preset_id TwcServer#preset_id}
   */
   readonly presetId?: number;
   /**
   * Project ID for created server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#project_id TwcServer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#project_id TwcServer#project_id}
   */
   readonly projectId?: number;
   /**
   * Software ID for server (not supported for cloned servers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#software_id TwcServer#software_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#software_id TwcServer#software_id}
   */
   readonly softwareId?: number;
   /**
   * Server ID for which clone should be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#source_server_id TwcServer#source_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#source_server_id TwcServer#source_server_id}
   */
   readonly sourceServerId?: number;
   /**
   * List of SSH keys IDs for server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#ssh_keys_ids TwcServer#ssh_keys_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#ssh_keys_ids TwcServer#ssh_keys_ids}
   */
   readonly sshKeysIds?: number[];
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#configuration TwcServer#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#configuration TwcServer#configuration}
   */
   readonly configuration?: TwcServerConfiguration;
   /**
   * local_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#local_network TwcServer#local_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#local_network TwcServer#local_network}
   */
   readonly localNetwork?: TwcServerLocalNetwork;
 }
@@ -576,31 +582,31 @@ export interface TwcServerConfiguration {
   /**
   * Configurator ID for created server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#configurator_id TwcServer#configurator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#configurator_id TwcServer#configurator_id}
   */
   readonly configuratorId: number;
   /**
   * CPU count for created server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#cpu TwcServer#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#cpu TwcServer#cpu}
   */
   readonly cpu: number;
   /**
   * Disk size for created server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#disk TwcServer#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#disk TwcServer#disk}
   */
   readonly disk: number;
   /**
   * GPU count for created server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#gpu TwcServer#gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#gpu TwcServer#gpu}
   */
   readonly gpu?: number;
   /**
   * RAM size for created server (must be divisible by 1024 and corresponds OS, software and configurator requirements)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#ram TwcServer#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#ram TwcServer#ram}
   */
   readonly ram: number;
 }
@@ -790,7 +796,7 @@ export interface TwcServerLocalNetwork {
   /**
   * ID of VPC for assign address from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#id TwcServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#id TwcServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -799,13 +805,13 @@ export interface TwcServerLocalNetwork {
   /**
   * Address in VPC subnetwork for manual assign
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#ip TwcServer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#ip TwcServer#ip}
   */
   readonly ip?: string;
   /**
   * NAT mode for created servers (`dnat_and_snat` - egress and ingress traffic allowed, `snat` - only egress traffic allowed, `no_nat` - only local network traffic allowed)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#mode TwcServer#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#mode TwcServer#mode}
   */
   readonly mode?: string;
 }
@@ -947,7 +953,7 @@ export class TwcServerLocalNetworkOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server twc_server}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server twc_server}
 */
 export class TwcServer extends cdktf.TerraformResource {
 
@@ -963,7 +969,7 @@ export class TwcServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcServer to import
-  * @param importFromId The id of the existing TwcServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -975,7 +981,7 @@ export class TwcServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_server twc_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_server twc_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -986,8 +992,8 @@ export class TwcServer extends cdktf.TerraformResource {
       terraformResourceType: 'twc_server',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1002,6 +1008,7 @@ export class TwcServer extends cdktf.TerraformResource {
     this._cloudInit = config.cloudInit;
     this._comment = config.comment;
     this._floatingIpId = config.floatingIpId;
+    this._hostname = config.hostname;
     this._id = config.id;
     this._imageId = config.imageId;
     this._isRootPasswordRequired = config.isRootPasswordRequired;
@@ -1129,6 +1136,22 @@ export class TwcServer extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get floatingIpIdInput() {
     return this._floatingIpId;
+  }
+
+  // hostname - computed: false, optional: true, required: false
+  private _hostname?: string; 
+  public get hostname() {
+    return this.getStringAttribute('hostname');
+  }
+  public set hostname(value: string) {
+    this._hostname = value;
+  }
+  public resetHostname() {
+    this._hostname = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostnameInput() {
+    return this._hostname;
   }
 
   // id - computed: true, optional: true, required: false
@@ -1389,6 +1412,7 @@ export class TwcServer extends cdktf.TerraformResource {
       cloud_init: cdktf.stringToTerraform(this._cloudInit),
       comment: cdktf.stringToTerraform(this._comment),
       floating_ip_id: cdktf.stringToTerraform(this._floatingIpId),
+      hostname: cdktf.stringToTerraform(this._hostname),
       id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
       is_root_password_required: cdktf.booleanToTerraform(this._isRootPasswordRequired),
@@ -1432,6 +1456,12 @@ export class TwcServer extends cdktf.TerraformResource {
       },
       floating_ip_id: {
         value: cdktf.stringToHclTerraform(this._floatingIpId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      hostname: {
+        value: cdktf.stringToHclTerraform(this._hostname),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

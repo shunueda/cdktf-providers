@@ -34,6 +34,7 @@ Object.defineProperty(exports, 'ldapMsadUserAccountControlMapper', { get: functi
 Object.defineProperty(exports, 'ldapRoleMapper', { get: function () { return require('./ldap-role-mapper'); } });
 Object.defineProperty(exports, 'ldapUserAttributeMapper', { get: function () { return require('./ldap-user-attribute-mapper'); } });
 Object.defineProperty(exports, 'ldapUserFederation', { get: function () { return require('./ldap-user-federation'); } });
+Object.defineProperty(exports, 'oidcFacebookIdentityProvider', { get: function () { return require('./oidc-facebook-identity-provider'); } });
 Object.defineProperty(exports, 'oidcGithubIdentityProvider', { get: function () { return require('./oidc-github-identity-provider'); } });
 Object.defineProperty(exports, 'oidcGoogleIdentityProvider', { get: function () { return require('./oidc-google-identity-provider'); } });
 Object.defineProperty(exports, 'oidcIdentityProvider', { get: function () { return require('./oidc-identity-provider'); } });
@@ -99,6 +100,7 @@ Object.defineProperty(exports, 'userTemplateImporterIdentityProviderMapper', { g
 Object.defineProperty(exports, 'usersPermissions', { get: function () { return require('./users-permissions'); } });
 Object.defineProperty(exports, 'dataKeycloakAuthenticationExecution', { get: function () { return require('./data-keycloak-authentication-execution'); } });
 Object.defineProperty(exports, 'dataKeycloakAuthenticationFlow', { get: function () { return require('./data-keycloak-authentication-flow'); } });
+Object.defineProperty(exports, 'dataKeycloakAuthenticationSubflow', { get: function () { return require('./data-keycloak-authentication-subflow'); } });
 Object.defineProperty(exports, 'dataKeycloakClientDescriptionConverter', { get: function () { return require('./data-keycloak-client-description-converter'); } });
 Object.defineProperty(exports, 'dataKeycloakGroup', { get: function () { return require('./data-keycloak-group'); } });
 Object.defineProperty(exports, 'dataKeycloakOpenidClient', { get: function () { return require('./data-keycloak-openid-client'); } });

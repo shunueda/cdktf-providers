@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_subdomain
+// https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_subdomain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TwcS3BucketSubdomainConfig extends cdktf.TerraformMetaArguments
   /**
   * S3 Bucket ID for which file should be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_subdomain#bucket_id TwcS3BucketSubdomain#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_subdomain#bucket_id TwcS3BucketSubdomain#bucket_id}
   */
   readonly bucketId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_subdomain#id TwcS3BucketSubdomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_subdomain#id TwcS3BucketSubdomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface TwcS3BucketSubdomainConfig extends cdktf.TerraformMetaArguments
   /**
   * Flag that ensures releasing SSL certificate for subdomain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_subdomain#release_cert TwcS3BucketSubdomain#release_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_subdomain#release_cert TwcS3BucketSubdomain#release_cert}
   */
   readonly releaseCert?: boolean | cdktf.IResolvable;
   /**
   * Subdomain for serving files from S3 bucket. Subdomain should be valid domain name (and unique between buckets) with CNAME record that pointing to `s3.timeweb.com`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_subdomain#subdomain TwcS3BucketSubdomain#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_subdomain#subdomain TwcS3BucketSubdomain#subdomain}
   */
   readonly subdomain: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_subdomain twc_s3_bucket_subdomain}
+* Represents a {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_subdomain twc_s3_bucket_subdomain}
 */
 export class TwcS3BucketSubdomain extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class TwcS3BucketSubdomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TwcS3BucketSubdomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TwcS3BucketSubdomain to import
-  * @param importFromId The id of the existing TwcS3BucketSubdomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_subdomain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TwcS3BucketSubdomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_subdomain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TwcS3BucketSubdomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class TwcS3BucketSubdomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.7/docs/resources/twc_s3_bucket_subdomain twc_s3_bucket_subdomain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeweb-cloud/timeweb-cloud/1.6.8/docs/resources/twc_s3_bucket_subdomain twc_s3_bucket_subdomain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class TwcS3BucketSubdomain extends cdktf.TerraformResource {
       terraformResourceType: 'twc_s3_bucket_subdomain',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.7',
-        providerVersionConstraint: '1.6.7'
+        providerVersion: '1.6.8',
+        providerVersionConstraint: '1.6.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

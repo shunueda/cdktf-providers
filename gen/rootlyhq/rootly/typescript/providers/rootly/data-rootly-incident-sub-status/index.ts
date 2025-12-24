@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/incident_sub_status
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/incident_sub_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataRootlyIncidentSubStatusConfig extends cdktf.TerraformMetaAr
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/incident_sub_status#assigned_at DataRootlyIncidentSubStatus#assigned_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/incident_sub_status#assigned_at DataRootlyIncidentSubStatus#assigned_at}
   */
   readonly assignedAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/incident_sub_status#sub_status_id DataRootlyIncidentSubStatus#sub_status_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/incident_sub_status#sub_status_id DataRootlyIncidentSubStatus#sub_status_id}
   */
   readonly subStatusId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/incident_sub_status rootly_incident_sub_status}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/incident_sub_status rootly_incident_sub_status}
 */
 export class DataRootlyIncidentSubStatus extends cdktf.TerraformDataSource {
 
@@ -36,7 +36,7 @@ export class DataRootlyIncidentSubStatus extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyIncidentSubStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyIncidentSubStatus to import
-  * @param importFromId The id of the existing DataRootlyIncidentSubStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/incident_sub_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyIncidentSubStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/incident_sub_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyIncidentSubStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class DataRootlyIncidentSubStatus extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/incident_sub_status rootly_incident_sub_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/data-sources/incident_sub_status rootly_incident_sub_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,8 +59,8 @@ export class DataRootlyIncidentSubStatus extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_incident_sub_status',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/key_lifecycle_rule
+// https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/key_lifecycle_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface KeyLifecycleRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Number of days of inactivity before the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/key_lifecycle_rule#inactivity_days KeyLifecycleRule#inactivity_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/key_lifecycle_rule#inactivity_days KeyLifecycleRule#inactivity_days}
   */
   readonly inactivityDays?: number;
   /**
   * Key type for which the rule will apply (gpg or ssh).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/key_lifecycle_rule#key_type KeyLifecycleRule#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/key_lifecycle_rule#key_type KeyLifecycleRule#key_type}
   */
   readonly keyType?: string;
   /**
   * Key Lifecycle Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/key_lifecycle_rule#name KeyLifecycleRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/key_lifecycle_rule#name KeyLifecycleRule#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/key_lifecycle_rule files_key_lifecycle_rule}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/key_lifecycle_rule files_key_lifecycle_rule}
 */
 export class KeyLifecycleRule extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class KeyLifecycleRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KeyLifecycleRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeyLifecycleRule to import
-  * @param importFromId The id of the existing KeyLifecycleRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/key_lifecycle_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeyLifecycleRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/key_lifecycle_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeyLifecycleRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class KeyLifecycleRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/key_lifecycle_rule files_key_lifecycle_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/resources/key_lifecycle_rule files_key_lifecycle_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class KeyLifecycleRule extends cdktf.TerraformResource {
       terraformResourceType: 'files_key_lifecycle_rule',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.419',
-        providerVersionConstraint: '0.1.419'
+        providerVersion: '0.1.420',
+        providerVersionConstraint: '0.1.420'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

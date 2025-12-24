@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_custom_field_selection
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_custom_field_selection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowCustomFieldSelectionConfig extends cdktf.TerraformMetaA
   /**
   * The custom field for this selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_custom_field_selection#custom_field_id WorkflowCustomFieldSelection#custom_field_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_custom_field_selection#custom_field_id WorkflowCustomFieldSelection#custom_field_id}
   */
   readonly customFieldId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_custom_field_selection#id WorkflowCustomFieldSelection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_custom_field_selection#id WorkflowCustomFieldSelection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,27 +23,27 @@ export interface WorkflowCustomFieldSelectionConfig extends cdktf.TerraformMetaA
   /**
   * The trigger condition. Value must be one of `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_custom_field_selection#incident_condition WorkflowCustomFieldSelection#incident_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_custom_field_selection#incident_condition WorkflowCustomFieldSelection#incident_condition}
   */
   readonly incidentCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_custom_field_selection#selected_option_ids WorkflowCustomFieldSelection#selected_option_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_custom_field_selection#selected_option_ids WorkflowCustomFieldSelection#selected_option_ids}
   */
   readonly selectedOptionIds?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_custom_field_selection#values WorkflowCustomFieldSelection#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_custom_field_selection#values WorkflowCustomFieldSelection#values}
   */
   readonly values?: string[];
   /**
   * The workflow for this selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_custom_field_selection#workflow_id WorkflowCustomFieldSelection#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_custom_field_selection#workflow_id WorkflowCustomFieldSelection#workflow_id}
   */
   readonly workflowId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_custom_field_selection rootly_workflow_custom_field_selection}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_custom_field_selection rootly_workflow_custom_field_selection}
 */
 export class WorkflowCustomFieldSelection extends cdktf.TerraformResource {
 
@@ -59,7 +59,7 @@ export class WorkflowCustomFieldSelection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowCustomFieldSelection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowCustomFieldSelection to import
-  * @param importFromId The id of the existing WorkflowCustomFieldSelection that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_custom_field_selection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowCustomFieldSelection that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_custom_field_selection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowCustomFieldSelection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class WorkflowCustomFieldSelection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_custom_field_selection rootly_workflow_custom_field_selection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_custom_field_selection rootly_workflow_custom_field_selection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class WorkflowCustomFieldSelection extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_custom_field_selection',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

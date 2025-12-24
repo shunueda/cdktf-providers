@@ -34,6 +34,7 @@ export * as ldapMsadUserAccountControlMapper from './ldap-msad-user-account-cont
 export * as ldapRoleMapper from './ldap-role-mapper';
 export * as ldapUserAttributeMapper from './ldap-user-attribute-mapper';
 export * as ldapUserFederation from './ldap-user-federation';
+export * as oidcFacebookIdentityProvider from './oidc-facebook-identity-provider';
 export * as oidcGithubIdentityProvider from './oidc-github-identity-provider';
 export * as oidcGoogleIdentityProvider from './oidc-google-identity-provider';
 export * as oidcIdentityProvider from './oidc-identity-provider';
@@ -99,6 +100,7 @@ export * as userTemplateImporterIdentityProviderMapper from './user-template-imp
 export * as usersPermissions from './users-permissions';
 export * as dataKeycloakAuthenticationExecution from './data-keycloak-authentication-execution';
 export * as dataKeycloakAuthenticationFlow from './data-keycloak-authentication-flow';
+export * as dataKeycloakAuthenticationSubflow from './data-keycloak-authentication-subflow';
 export * as dataKeycloakClientDescriptionConverter from './data-keycloak-client-description-converter';
 export * as dataKeycloakGroup from './data-keycloak-group';
 export * as dataKeycloakOpenidClient from './data-keycloak-openid-client';

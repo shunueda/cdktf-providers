@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskInviteToSlackChannelConfig extends cdktf.TerraformM
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#enabled WorkflowTaskInviteToSlackChannel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#enabled WorkflowTaskInviteToSlackChannel#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#id WorkflowTaskInviteToSlackChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#id WorkflowTaskInviteToSlackChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskInviteToSlackChannelConfig extends cdktf.TerraformM
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#name WorkflowTaskInviteToSlackChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#name WorkflowTaskInviteToSlackChannel#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#position WorkflowTaskInviteToSlackChannel#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#position WorkflowTaskInviteToSlackChannel#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#skip_on_failure WorkflowTaskInviteToSlackChannel#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#skip_on_failure WorkflowTaskInviteToSlackChannel#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#workflow_id WorkflowTaskInviteToSlackChannel#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#workflow_id WorkflowTaskInviteToSlackChannel#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#task_params WorkflowTaskInviteToSlackChannel#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#task_params WorkflowTaskInviteToSlackChannel#task_params}
   */
   readonly taskParams: WorkflowTaskInviteToSlackChannelTaskParams;
 }
 export interface WorkflowTaskInviteToSlackChannelTaskParamsSlackUserGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#id WorkflowTaskInviteToSlackChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#id WorkflowTaskInviteToSlackChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#name WorkflowTaskInviteToSlackChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#name WorkflowTaskInviteToSlackChannel#name}
   */
   readonly name: string;
 }
@@ -199,14 +199,14 @@ export class WorkflowTaskInviteToSlackChannelTaskParamsSlackUserGroupsList exten
 }
 export interface WorkflowTaskInviteToSlackChannelTaskParamsSlackUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#id WorkflowTaskInviteToSlackChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#id WorkflowTaskInviteToSlackChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#name WorkflowTaskInviteToSlackChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#name WorkflowTaskInviteToSlackChannel#name}
   */
   readonly name: string;
 }
@@ -347,29 +347,29 @@ export interface WorkflowTaskInviteToSlackChannelTaskParams {
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#channel WorkflowTaskInviteToSlackChannel#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#channel WorkflowTaskInviteToSlackChannel#channel}
   */
   readonly channel: { [key: string]: string };
   /**
   * Comma separated list of emails to invite to the channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#slack_emails WorkflowTaskInviteToSlackChannel#slack_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#slack_emails WorkflowTaskInviteToSlackChannel#slack_emails}
   */
   readonly slackEmails?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#task_type WorkflowTaskInviteToSlackChannel#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#task_type WorkflowTaskInviteToSlackChannel#task_type}
   */
   readonly taskType?: string;
   /**
   * slack_user_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#slack_user_groups WorkflowTaskInviteToSlackChannel#slack_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#slack_user_groups WorkflowTaskInviteToSlackChannel#slack_user_groups}
   */
   readonly slackUserGroups?: WorkflowTaskInviteToSlackChannelTaskParamsSlackUserGroups[] | cdktf.IResolvable;
   /**
   * slack_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#slack_users WorkflowTaskInviteToSlackChannel#slack_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#slack_users WorkflowTaskInviteToSlackChannel#slack_users}
   */
   readonly slackUsers?: WorkflowTaskInviteToSlackChannelTaskParamsSlackUsers[] | cdktf.IResolvable;
 }
@@ -566,7 +566,7 @@ export class WorkflowTaskInviteToSlackChannelTaskParamsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel rootly_workflow_task_invite_to_slack_channel}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel rootly_workflow_task_invite_to_slack_channel}
 */
 export class WorkflowTaskInviteToSlackChannel extends cdktf.TerraformResource {
 
@@ -582,7 +582,7 @@ export class WorkflowTaskInviteToSlackChannel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskInviteToSlackChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskInviteToSlackChannel to import
-  * @param importFromId The id of the existing WorkflowTaskInviteToSlackChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskInviteToSlackChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskInviteToSlackChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -594,7 +594,7 @@ export class WorkflowTaskInviteToSlackChannel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_invite_to_slack_channel rootly_workflow_task_invite_to_slack_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.1/docs/resources/workflow_task_invite_to_slack_channel rootly_workflow_task_invite_to_slack_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -605,8 +605,8 @@ export class WorkflowTaskInviteToSlackChannel extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_invite_to_slack_channel',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

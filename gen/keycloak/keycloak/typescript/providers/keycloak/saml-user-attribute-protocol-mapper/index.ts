@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,52 +10,52 @@ export interface SamlUserAttributeProtocolMapperConfig extends cdktf.TerraformMe
   /**
   * Indicates if attribute values should be aggregated within the group attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper#aggregate_attributes SamlUserAttributeProtocolMapper#aggregate_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper#aggregate_attributes SamlUserAttributeProtocolMapper#aggregate_attributes}
   */
   readonly aggregateAttributes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper#client_id SamlUserAttributeProtocolMapper#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper#client_id SamlUserAttributeProtocolMapper#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper#client_scope_id SamlUserAttributeProtocolMapper#client_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper#client_scope_id SamlUserAttributeProtocolMapper#client_scope_id}
   */
   readonly clientScopeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper#friendly_name SamlUserAttributeProtocolMapper#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper#friendly_name SamlUserAttributeProtocolMapper#friendly_name}
   */
   readonly friendlyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper#id SamlUserAttributeProtocolMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper#id SamlUserAttributeProtocolMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper#name SamlUserAttributeProtocolMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper#name SamlUserAttributeProtocolMapper#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper#realm_id SamlUserAttributeProtocolMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper#realm_id SamlUserAttributeProtocolMapper#realm_id}
   */
   readonly realmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper#saml_attribute_name SamlUserAttributeProtocolMapper#saml_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper#saml_attribute_name SamlUserAttributeProtocolMapper#saml_attribute_name}
   */
   readonly samlAttributeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper#saml_attribute_name_format SamlUserAttributeProtocolMapper#saml_attribute_name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper#saml_attribute_name_format SamlUserAttributeProtocolMapper#saml_attribute_name_format}
   */
   readonly samlAttributeNameFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper#user_attribute SamlUserAttributeProtocolMapper#user_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper#user_attribute SamlUserAttributeProtocolMapper#user_attribute}
   */
   readonly userAttribute: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper keycloak_saml_user_attribute_protocol_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper keycloak_saml_user_attribute_protocol_mapper}
 */
 export class SamlUserAttributeProtocolMapper extends cdktf.TerraformResource {
 
@@ -71,7 +71,7 @@ export class SamlUserAttributeProtocolMapper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SamlUserAttributeProtocolMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SamlUserAttributeProtocolMapper to import
-  * @param importFromId The id of the existing SamlUserAttributeProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SamlUserAttributeProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SamlUserAttributeProtocolMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class SamlUserAttributeProtocolMapper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/saml_user_attribute_protocol_mapper keycloak_saml_user_attribute_protocol_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/saml_user_attribute_protocol_mapper keycloak_saml_user_attribute_protocol_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,8 +94,8 @@ export class SamlUserAttributeProtocolMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_saml_user_attribute_protocol_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

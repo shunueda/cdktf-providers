@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface DataKeycloakRealmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#attributes DataKeycloakRealm#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#attributes DataKeycloakRealm#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#default_default_client_scopes DataKeycloakRealm#default_default_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#default_default_client_scopes DataKeycloakRealm#default_default_client_scopes}
   */
   readonly defaultDefaultClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#default_optional_client_scopes DataKeycloakRealm#default_optional_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#default_optional_client_scopes DataKeycloakRealm#default_optional_client_scopes}
   */
   readonly defaultOptionalClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#display_name_html DataKeycloakRealm#display_name_html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#display_name_html DataKeycloakRealm#display_name_html}
   */
   readonly displayNameHtml?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#id DataKeycloakRealm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#id DataKeycloakRealm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#realm DataKeycloakRealm#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#realm DataKeycloakRealm#realm}
   */
   readonly realm: string;
   /**
   * internationalization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#internationalization DataKeycloakRealm#internationalization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#internationalization DataKeycloakRealm#internationalization}
   */
   readonly internationalization?: DataKeycloakRealmInternationalization[] | cdktf.IResolvable;
   /**
   * otp_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#otp_policy DataKeycloakRealm#otp_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#otp_policy DataKeycloakRealm#otp_policy}
   */
   readonly otpPolicy?: DataKeycloakRealmOtpPolicy;
   /**
   * security_defenses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#security_defenses DataKeycloakRealm#security_defenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#security_defenses DataKeycloakRealm#security_defenses}
   */
   readonly securityDefenses?: DataKeycloakRealmSecurityDefenses[] | cdktf.IResolvable;
   /**
   * smtp_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#smtp_server DataKeycloakRealm#smtp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#smtp_server DataKeycloakRealm#smtp_server}
   */
   readonly smtpServer?: DataKeycloakRealmSmtpServer[] | cdktf.IResolvable;
   /**
   * web_authn_passwordless_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#web_authn_passwordless_policy DataKeycloakRealm#web_authn_passwordless_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#web_authn_passwordless_policy DataKeycloakRealm#web_authn_passwordless_policy}
   */
   readonly webAuthnPasswordlessPolicy?: DataKeycloakRealmWebAuthnPasswordlessPolicy;
   /**
   * web_authn_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#web_authn_policy DataKeycloakRealm#web_authn_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#web_authn_policy DataKeycloakRealm#web_authn_policy}
   */
   readonly webAuthnPolicy?: DataKeycloakRealmWebAuthnPolicy;
 }
@@ -317,6 +317,11 @@ export class DataKeycloakRealmSecurityDefensesBruteForceDetectionOutputReference
     return this.getNumberAttribute('max_login_failures');
   }
 
+  // max_temporary_lockouts - computed: true, optional: false, required: false
+  public get maxTemporaryLockouts() {
+    return this.getNumberAttribute('max_temporary_lockouts');
+  }
+
   // minimum_quick_login_wait_seconds - computed: true, optional: false, required: false
   public get minimumQuickLoginWaitSeconds() {
     return this.getNumberAttribute('minimum_quick_login_wait_seconds');
@@ -482,13 +487,13 @@ export interface DataKeycloakRealmSecurityDefenses {
   /**
   * brute_force_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#brute_force_detection DataKeycloakRealm#brute_force_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#brute_force_detection DataKeycloakRealm#brute_force_detection}
   */
   readonly bruteForceDetection?: DataKeycloakRealmSecurityDefensesBruteForceDetection[] | cdktf.IResolvable;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#headers DataKeycloakRealm#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#headers DataKeycloakRealm#headers}
   */
   readonly headers?: DataKeycloakRealmSecurityDefensesHeaders[] | cdktf.IResolvable;
 }
@@ -832,13 +837,13 @@ export interface DataKeycloakRealmSmtpServer {
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#auth DataKeycloakRealm#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#auth DataKeycloakRealm#auth}
   */
   readonly auth?: DataKeycloakRealmSmtpServerAuth[] | cdktf.IResolvable;
   /**
   * token_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#token_auth DataKeycloakRealm#token_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#token_auth DataKeycloakRealm#token_auth}
   */
   readonly tokenAuth?: DataKeycloakRealmSmtpServerTokenAuth[] | cdktf.IResolvable;
 }
@@ -1236,7 +1241,7 @@ export class DataKeycloakRealmWebAuthnPolicyOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm keycloak_realm}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm keycloak_realm}
 */
 export class DataKeycloakRealm extends cdktf.TerraformDataSource {
 
@@ -1252,7 +1257,7 @@ export class DataKeycloakRealm extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeycloakRealm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeycloakRealm to import
-  * @param importFromId The id of the existing DataKeycloakRealm that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeycloakRealm that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeycloakRealm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1264,7 +1269,7 @@ export class DataKeycloakRealm extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/data-sources/realm keycloak_realm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/data-sources/realm keycloak_realm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1275,8 +1280,8 @@ export class DataKeycloakRealm extends cdktf.TerraformDataSource {
       terraformResourceType: 'keycloak_realm',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1342,6 +1347,11 @@ export class DataKeycloakRealm extends cdktf.TerraformDataSource {
   // action_token_generated_by_user_lifespan - computed: true, optional: false, required: false
   public get actionTokenGeneratedByUserLifespan() {
     return this.getStringAttribute('action_token_generated_by_user_lifespan');
+  }
+
+  // admin_permissions_enabled - computed: true, optional: false, required: false
+  public get adminPermissionsEnabled() {
+    return this.getBooleanAttribute('admin_permissions_enabled');
   }
 
   // admin_theme - computed: true, optional: false, required: false

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,60 +10,60 @@ export interface AuthenticationBindingsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Which flow should be used for BrowserFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings#browser_flow AuthenticationBindings#browser_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings#browser_flow AuthenticationBindings#browser_flow}
   */
   readonly browserFlow?: string;
   /**
   * Which flow should be used for ClientAuthenticationFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings#client_authentication_flow AuthenticationBindings#client_authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings#client_authentication_flow AuthenticationBindings#client_authentication_flow}
   */
   readonly clientAuthenticationFlow?: string;
   /**
   * Which flow should be used for DirectGrantFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings#direct_grant_flow AuthenticationBindings#direct_grant_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings#direct_grant_flow AuthenticationBindings#direct_grant_flow}
   */
   readonly directGrantFlow?: string;
   /**
   * Which flow should be used for DockerAuthenticationFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings#docker_authentication_flow AuthenticationBindings#docker_authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings#docker_authentication_flow AuthenticationBindings#docker_authentication_flow}
   */
   readonly dockerAuthenticationFlow?: string;
   /**
   * Which flow should be used for FirstBrokerLoginFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings#first_broker_login_flow AuthenticationBindings#first_broker_login_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings#first_broker_login_flow AuthenticationBindings#first_broker_login_flow}
   */
   readonly firstBrokerLoginFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings#id AuthenticationBindings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings#id AuthenticationBindings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings#realm_id AuthenticationBindings#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings#realm_id AuthenticationBindings#realm_id}
   */
   readonly realmId: string;
   /**
   * Which flow should be used for RegistrationFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings#registration_flow AuthenticationBindings#registration_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings#registration_flow AuthenticationBindings#registration_flow}
   */
   readonly registrationFlow?: string;
   /**
   * Which flow should be used for ResetCredentialsFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings#reset_credentials_flow AuthenticationBindings#reset_credentials_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings#reset_credentials_flow AuthenticationBindings#reset_credentials_flow}
   */
   readonly resetCredentialsFlow?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings keycloak_authentication_bindings}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings keycloak_authentication_bindings}
 */
 export class AuthenticationBindings extends cdktf.TerraformResource {
 
@@ -79,7 +79,7 @@ export class AuthenticationBindings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthenticationBindings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthenticationBindings to import
-  * @param importFromId The id of the existing AuthenticationBindings that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthenticationBindings that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthenticationBindings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class AuthenticationBindings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/authentication_bindings keycloak_authentication_bindings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/authentication_bindings keycloak_authentication_bindings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,8 +102,8 @@ export class AuthenticationBindings extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_authentication_bindings',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

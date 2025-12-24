@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface AttributeToRoleIdentityProviderMapperConfig extends cdktf.Terra
   /**
   * Attribute Friendly Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper#attribute_friendly_name AttributeToRoleIdentityProviderMapper#attribute_friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper#attribute_friendly_name AttributeToRoleIdentityProviderMapper#attribute_friendly_name}
   */
   readonly attributeFriendlyName?: string;
   /**
   * Attribute Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper#attribute_name AttributeToRoleIdentityProviderMapper#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper#attribute_name AttributeToRoleIdentityProviderMapper#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * Attribute Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper#attribute_value AttributeToRoleIdentityProviderMapper#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper#attribute_value AttributeToRoleIdentityProviderMapper#attribute_value}
   */
   readonly attributeValue?: string;
   /**
   * OIDC Claim Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper#claim_name AttributeToRoleIdentityProviderMapper#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper#claim_name AttributeToRoleIdentityProviderMapper#claim_name}
   */
   readonly claimName?: string;
   /**
   * OIDC Claim Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper#claim_value AttributeToRoleIdentityProviderMapper#claim_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper#claim_value AttributeToRoleIdentityProviderMapper#claim_value}
   */
   readonly claimValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper#extra_config AttributeToRoleIdentityProviderMapper#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper#extra_config AttributeToRoleIdentityProviderMapper#extra_config}
   */
   readonly extraConfig?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper#id AttributeToRoleIdentityProviderMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper#id AttributeToRoleIdentityProviderMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,31 +51,31 @@ export interface AttributeToRoleIdentityProviderMapperConfig extends cdktf.Terra
   /**
   * IDP Alias
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper#identity_provider_alias AttributeToRoleIdentityProviderMapper#identity_provider_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper#identity_provider_alias AttributeToRoleIdentityProviderMapper#identity_provider_alias}
   */
   readonly identityProviderAlias: string;
   /**
   * IDP Mapper Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper#name AttributeToRoleIdentityProviderMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper#name AttributeToRoleIdentityProviderMapper#name}
   */
   readonly name: string;
   /**
   * Realm Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper#realm AttributeToRoleIdentityProviderMapper#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper#realm AttributeToRoleIdentityProviderMapper#realm}
   */
   readonly realm: string;
   /**
   * Role Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper#role AttributeToRoleIdentityProviderMapper#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper#role AttributeToRoleIdentityProviderMapper#role}
   */
   readonly role: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper keycloak_attribute_to_role_identity_provider_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper keycloak_attribute_to_role_identity_provider_mapper}
 */
 export class AttributeToRoleIdentityProviderMapper extends cdktf.TerraformResource {
 
@@ -91,7 +91,7 @@ export class AttributeToRoleIdentityProviderMapper extends cdktf.TerraformResour
   * Generates CDKTF code for importing a AttributeToRoleIdentityProviderMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AttributeToRoleIdentityProviderMapper to import
-  * @param importFromId The id of the existing AttributeToRoleIdentityProviderMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AttributeToRoleIdentityProviderMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AttributeToRoleIdentityProviderMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -103,7 +103,7 @@ export class AttributeToRoleIdentityProviderMapper extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/attribute_to_role_identity_provider_mapper keycloak_attribute_to_role_identity_provider_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/attribute_to_role_identity_provider_mapper keycloak_attribute_to_role_identity_provider_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,8 +114,8 @@ export class AttributeToRoleIdentityProviderMapper extends cdktf.TerraformResour
       terraformResourceType: 'keycloak_attribute_to_role_identity_provider_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

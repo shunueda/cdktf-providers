@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.419/docs/data-sources/file
+// https://registry.terraform.io/providers/files-com/files/0.1.420/docs/data-sources/file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataFilesFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * File/Folder path. This must be slash-delimited, but it must neither start nor end with a slash. Maximum of 5000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/data-sources/file#path DataFilesFile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/data-sources/file#path DataFilesFile#path}
   */
   readonly path: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/data-sources/file files_file}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/data-sources/file files_file}
 */
 export class DataFilesFile extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataFilesFile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFilesFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFilesFile to import
-  * @param importFromId The id of the existing DataFilesFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/data-sources/file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFilesFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/data-sources/file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFilesFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataFilesFile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/data-sources/file files_file} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.420/docs/data-sources/file files_file} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataFilesFile extends cdktf.TerraformDataSource {
       terraformResourceType: 'files_file',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.419',
-        providerVersionConstraint: '0.1.419'
+        providerVersion: '0.1.420',
+        providerVersionConstraint: '0.1.420'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

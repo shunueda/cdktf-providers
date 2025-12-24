@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface UsersPermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#id UsersPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#id UsersPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#realm_id UsersPermissions#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#realm_id UsersPermissions#realm_id}
   */
   readonly realmId: string;
   /**
   * impersonate_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#impersonate_scope UsersPermissions#impersonate_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#impersonate_scope UsersPermissions#impersonate_scope}
   */
   readonly impersonateScope?: UsersPermissionsImpersonateScope;
   /**
   * manage_group_membership_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#manage_group_membership_scope UsersPermissions#manage_group_membership_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#manage_group_membership_scope UsersPermissions#manage_group_membership_scope}
   */
   readonly manageGroupMembershipScope?: UsersPermissionsManageGroupMembershipScope;
   /**
   * manage_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#manage_scope UsersPermissions#manage_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#manage_scope UsersPermissions#manage_scope}
   */
   readonly manageScope?: UsersPermissionsManageScope;
   /**
   * map_roles_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#map_roles_scope UsersPermissions#map_roles_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#map_roles_scope UsersPermissions#map_roles_scope}
   */
   readonly mapRolesScope?: UsersPermissionsMapRolesScope;
   /**
   * user_impersonated_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#user_impersonated_scope UsersPermissions#user_impersonated_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#user_impersonated_scope UsersPermissions#user_impersonated_scope}
   */
   readonly userImpersonatedScope?: UsersPermissionsUserImpersonatedScope;
   /**
   * view_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#view_scope UsersPermissions#view_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#view_scope UsersPermissions#view_scope}
   */
   readonly viewScope?: UsersPermissionsViewScope;
 }
 export interface UsersPermissionsImpersonateScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#decision_strategy UsersPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#decision_strategy UsersPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#description UsersPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#description UsersPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#policies UsersPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#policies UsersPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -207,15 +207,15 @@ export class UsersPermissionsImpersonateScopeOutputReference extends cdktf.Compl
 }
 export interface UsersPermissionsManageGroupMembershipScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#decision_strategy UsersPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#decision_strategy UsersPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#description UsersPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#description UsersPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#policies UsersPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#policies UsersPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -357,15 +357,15 @@ export class UsersPermissionsManageGroupMembershipScopeOutputReference extends c
 }
 export interface UsersPermissionsManageScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#decision_strategy UsersPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#decision_strategy UsersPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#description UsersPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#description UsersPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#policies UsersPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#policies UsersPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -507,15 +507,15 @@ export class UsersPermissionsManageScopeOutputReference extends cdktf.ComplexObj
 }
 export interface UsersPermissionsMapRolesScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#decision_strategy UsersPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#decision_strategy UsersPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#description UsersPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#description UsersPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#policies UsersPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#policies UsersPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -657,15 +657,15 @@ export class UsersPermissionsMapRolesScopeOutputReference extends cdktf.ComplexO
 }
 export interface UsersPermissionsUserImpersonatedScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#decision_strategy UsersPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#decision_strategy UsersPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#description UsersPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#description UsersPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#policies UsersPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#policies UsersPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -807,15 +807,15 @@ export class UsersPermissionsUserImpersonatedScopeOutputReference extends cdktf.
 }
 export interface UsersPermissionsViewScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#decision_strategy UsersPermissions#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#decision_strategy UsersPermissions#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#description UsersPermissions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#description UsersPermissions#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#policies UsersPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#policies UsersPermissions#policies}
   */
   readonly policies?: string[];
 }
@@ -957,7 +957,7 @@ export class UsersPermissionsViewScopeOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions keycloak_users_permissions}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions keycloak_users_permissions}
 */
 export class UsersPermissions extends cdktf.TerraformResource {
 
@@ -973,7 +973,7 @@ export class UsersPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UsersPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UsersPermissions to import
-  * @param importFromId The id of the existing UsersPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UsersPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UsersPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -985,7 +985,7 @@ export class UsersPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/users_permissions keycloak_users_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/users_permissions keycloak_users_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -996,8 +996,8 @@ export class UsersPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_users_permissions',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

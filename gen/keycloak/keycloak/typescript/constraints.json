@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "keycloak": "5.5.0"
+    "keycloak": "5.6.0"
   }
 }

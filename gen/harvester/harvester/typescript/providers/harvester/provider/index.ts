@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs
+// https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface HarvesterProviderConfig {
   /**
   * bootstrap harvester server, it will write content to kubeconfig file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs#bootstrap HarvesterProvider#bootstrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs#bootstrap HarvesterProvider#bootstrap}
   */
   readonly bootstrap?: boolean | cdktf.IResolvable;
   /**
   * kubeconfig file path or content of the kubeconfig file as base64 encoded string, users can use the KUBECONFIG environment variable instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs#kubeconfig HarvesterProvider#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs#kubeconfig HarvesterProvider#kubeconfig}
   */
   readonly kubeconfig?: string;
   /**
   * name of the kubernetes context to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs#kubecontext HarvesterProvider#kubecontext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs#kubecontext HarvesterProvider#kubecontext}
   */
   readonly kubecontext?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs#alias HarvesterProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs#alias HarvesterProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs harvester}
+* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs harvester}
 */
 export class HarvesterProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class HarvesterProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a HarvesterProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HarvesterProvider to import
-  * @param importFromId The id of the existing HarvesterProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HarvesterProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HarvesterProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class HarvesterProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs harvester} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs harvester} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class HarvesterProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'harvester',
       terraformGeneratorMetadata: {
         providerName: 'harvester',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       terraformProviderSource: 'harvester/harvester'
     });

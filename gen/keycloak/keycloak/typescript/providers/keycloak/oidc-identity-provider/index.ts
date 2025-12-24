@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,117 +10,117 @@ export interface OidcIdentityProviderConfig extends cdktf.TerraformMetaArguments
   /**
   * This is just used together with Identity Provider Authenticator or when kc_idp_hint points to this identity provider. In case that client sends a request with prompt=none and user is not yet authenticated, the error will not be directly returned to client, but the request with prompt=none will be forwarded to this identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#accepts_prompt_none_forward_from_client OidcIdentityProvider#accepts_prompt_none_forward_from_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#accepts_prompt_none_forward_from_client OidcIdentityProvider#accepts_prompt_none_forward_from_client}
   */
   readonly acceptsPromptNoneForwardFromClient?: boolean | cdktf.IResolvable;
   /**
   * Enable/disable if new users can read any stored tokens. This assigns the broker.read-token role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#add_read_token_role_on_create OidcIdentityProvider#add_read_token_role_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#add_read_token_role_on_create OidcIdentityProvider#add_read_token_role_on_create}
   */
   readonly addReadTokenRoleOnCreate?: boolean | cdktf.IResolvable;
   /**
   * The alias uniquely identifies an identity provider and it is also used to build the redirect uri.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#alias OidcIdentityProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#alias OidcIdentityProvider#alias}
   */
   readonly alias: string;
   /**
   * Enable/disable authenticate users by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#authenticate_by_default OidcIdentityProvider#authenticate_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#authenticate_by_default OidcIdentityProvider#authenticate_by_default}
   */
   readonly authenticateByDefault?: boolean | cdktf.IResolvable;
   /**
   * OIDC authorization URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#authorization_url OidcIdentityProvider#authorization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#authorization_url OidcIdentityProvider#authorization_url}
   */
   readonly authorizationUrl: string;
   /**
   * Does the external IDP support backchannel logout?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#backchannel_supported OidcIdentityProvider#backchannel_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#backchannel_supported OidcIdentityProvider#backchannel_supported}
   */
   readonly backchannelSupported?: boolean | cdktf.IResolvable;
   /**
   * Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#client_id OidcIdentityProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#client_id OidcIdentityProvider#client_id}
   */
   readonly clientId: string;
   /**
   * Client Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#client_secret OidcIdentityProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#client_secret OidcIdentityProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Client Secret as write-only argument
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#client_secret_wo OidcIdentityProvider#client_secret_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#client_secret_wo OidcIdentityProvider#client_secret_wo}
   */
   readonly clientSecretWo?: string;
   /**
   * Version of the Client secret write-only argument
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#client_secret_wo_version OidcIdentityProvider#client_secret_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#client_secret_wo_version OidcIdentityProvider#client_secret_wo_version}
   */
   readonly clientSecretWoVersion?: number;
   /**
   * The scopes to be sent when asking for authorization. It can be a space-separated list of scopes. Defaults to 'openid'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#default_scopes OidcIdentityProvider#default_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#default_scopes OidcIdentityProvider#default_scopes}
   */
   readonly defaultScopes?: string;
   /**
   * Disables the validation of the `typ` claim of tokens received from the Identity Provider. If this is `off` the type claim is validated (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#disable_type_claim_check OidcIdentityProvider#disable_type_claim_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#disable_type_claim_check OidcIdentityProvider#disable_type_claim_check}
   */
   readonly disableTypeClaimCheck?: boolean | cdktf.IResolvable;
   /**
   * Disable usage of User Info service to obtain additional user information?  Default is to use this OIDC service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#disable_user_info OidcIdentityProvider#disable_user_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#disable_user_info OidcIdentityProvider#disable_user_info}
   */
   readonly disableUserInfo?: boolean | cdktf.IResolvable;
   /**
   * The human-friendly name of the identity provider, used in the log in form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#display_name OidcIdentityProvider#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#display_name OidcIdentityProvider#display_name}
   */
   readonly displayName?: string;
   /**
   * Enable/disable this identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#enabled OidcIdentityProvider#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#enabled OidcIdentityProvider#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#extra_config OidcIdentityProvider#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#extra_config OidcIdentityProvider#extra_config}
   */
   readonly extraConfig?: { [key: string]: string };
   /**
   * Alias of authentication flow, which is triggered after first login with this identity provider. Term 'First Login' means that there is not yet existing Keycloak account linked with the authenticated identity provider account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#first_broker_login_flow_alias OidcIdentityProvider#first_broker_login_flow_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#first_broker_login_flow_alias OidcIdentityProvider#first_broker_login_flow_alias}
   */
   readonly firstBrokerLoginFlowAlias?: string;
   /**
   * GUI Order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#gui_order OidcIdentityProvider#gui_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#gui_order OidcIdentityProvider#gui_order}
   */
   readonly guiOrder?: string;
   /**
   * Hide On Login Page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#hide_on_login_page OidcIdentityProvider#hide_on_login_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#hide_on_login_page OidcIdentityProvider#hide_on_login_page}
   */
   readonly hideOnLoginPage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#id OidcIdentityProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#id OidcIdentityProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -129,111 +129,111 @@ export interface OidcIdentityProviderConfig extends cdktf.TerraformMetaArguments
   /**
   * The issuer identifier for the issuer of the response. If not provided, no validation will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#issuer OidcIdentityProvider#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#issuer OidcIdentityProvider#issuer}
   */
   readonly issuer?: string;
   /**
   * JSON Web Key Set URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#jwks_url OidcIdentityProvider#jwks_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#jwks_url OidcIdentityProvider#jwks_url}
   */
   readonly jwksUrl?: string;
   /**
   * If true, users cannot log in through this provider.  They can only link to this provider.  This is useful if you don't want to allow login from the provider, but want to integrate with a provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#link_only OidcIdentityProvider#link_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#link_only OidcIdentityProvider#link_only}
   */
   readonly linkOnly?: boolean | cdktf.IResolvable;
   /**
   * Login Hint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#login_hint OidcIdentityProvider#login_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#login_hint OidcIdentityProvider#login_hint}
   */
   readonly loginHint?: string;
   /**
   * Logout URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#logout_url OidcIdentityProvider#logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#logout_url OidcIdentityProvider#logout_url}
   */
   readonly logoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#org_domain OidcIdentityProvider#org_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#org_domain OidcIdentityProvider#org_domain}
   */
   readonly orgDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#org_redirect_mode_email_matches OidcIdentityProvider#org_redirect_mode_email_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#org_redirect_mode_email_matches OidcIdentityProvider#org_redirect_mode_email_matches}
   */
   readonly orgRedirectModeEmailMatches?: boolean | cdktf.IResolvable;
   /**
   * ID of organization with which this identity is linked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#organization_id OidcIdentityProvider#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#organization_id OidcIdentityProvider#organization_id}
   */
   readonly organizationId?: string;
   /**
   * Alias of authentication flow, which is triggered after each login with this identity provider. Useful if you want additional verification of each user authenticated with this identity provider (for example OTP). Leave this empty if you don't want any additional authenticators to be triggered after login with this identity provider. Also note, that authenticator implementations must assume that user is already set in ClientSession as identity provider already set it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#post_broker_login_flow_alias OidcIdentityProvider#post_broker_login_flow_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#post_broker_login_flow_alias OidcIdentityProvider#post_broker_login_flow_alias}
   */
   readonly postBrokerLoginFlowAlias?: string;
   /**
   * provider id, is always oidc, unless you have a custom implementation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#provider_id OidcIdentityProvider#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#provider_id OidcIdentityProvider#provider_id}
   */
   readonly providerId?: string;
   /**
   * Realm Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#realm OidcIdentityProvider#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#realm OidcIdentityProvider#realm}
   */
   readonly realm: string;
   /**
   * Enable/disable if tokens must be stored after authenticating users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#store_token OidcIdentityProvider#store_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#store_token OidcIdentityProvider#store_token}
   */
   readonly storeToken?: boolean | cdktf.IResolvable;
   /**
   * Sync Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#sync_mode OidcIdentityProvider#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#sync_mode OidcIdentityProvider#sync_mode}
   */
   readonly syncMode?: string;
   /**
   * Token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#token_url OidcIdentityProvider#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#token_url OidcIdentityProvider#token_url}
   */
   readonly tokenUrl: string;
   /**
   * If enabled then email provided by this provider is not verified even if verification is enabled for the realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#trust_email OidcIdentityProvider#trust_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#trust_email OidcIdentityProvider#trust_email}
   */
   readonly trustEmail?: boolean | cdktf.IResolvable;
   /**
   * Pass current locale to identity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#ui_locales OidcIdentityProvider#ui_locales}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#ui_locales OidcIdentityProvider#ui_locales}
   */
   readonly uiLocales?: boolean | cdktf.IResolvable;
   /**
   * User Info URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#user_info_url OidcIdentityProvider#user_info_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#user_info_url OidcIdentityProvider#user_info_url}
   */
   readonly userInfoUrl?: string;
   /**
   * Enable/disable signature validation of external IDP signatures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#validate_signature OidcIdentityProvider#validate_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#validate_signature OidcIdentityProvider#validate_signature}
   */
   readonly validateSignature?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider keycloak_oidc_identity_provider}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider keycloak_oidc_identity_provider}
 */
 export class OidcIdentityProvider extends cdktf.TerraformResource {
 
@@ -249,7 +249,7 @@ export class OidcIdentityProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OidcIdentityProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OidcIdentityProvider to import
-  * @param importFromId The id of the existing OidcIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OidcIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OidcIdentityProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class OidcIdentityProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/oidc_identity_provider keycloak_oidc_identity_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/oidc_identity_provider keycloak_oidc_identity_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class OidcIdentityProvider extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_oidc_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

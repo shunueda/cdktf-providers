@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/volume
+// https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarvesterVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/volume#id DataHarvesterVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/volume#id DataHarvesterVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataHarvesterVolumeConfig extends cdktf.TerraformMetaArguments 
   /**
   * A unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/volume#name DataHarvesterVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/volume#name DataHarvesterVolume#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/volume#namespace DataHarvesterVolume#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/volume#namespace DataHarvesterVolume#namespace}
   */
   readonly namespace?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/volume harvester_volume}
+* Represents a {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/volume harvester_volume}
 */
 export class DataHarvesterVolume extends cdktf.TerraformDataSource {
 
@@ -43,7 +43,7 @@ export class DataHarvesterVolume extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarvesterVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarvesterVolume to import
-  * @param importFromId The id of the existing DataHarvesterVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarvesterVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarvesterVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -55,7 +55,7 @@ export class DataHarvesterVolume extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.6.0/docs/data-sources/volume harvester_volume} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harvester/harvester/1.7.0/docs/data-sources/volume harvester_volume} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,8 +66,8 @@ export class DataHarvesterVolume extends cdktf.TerraformDataSource {
       terraformResourceType: 'harvester_volume',
       terraformGeneratorMetadata: {
         providerName: 'harvester',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -120,6 +120,12 @@ export class DataHarvesterVolume extends cdktf.TerraformDataSource {
   // image - computed: true, optional: false, required: false
   public get image() {
     return this.getStringAttribute('image');
+  }
+
+  // labels - computed: true, optional: false, required: false
+  private _labels = new cdktf.StringMap(this, "labels");
+  public get labels() {
+    return this._labels;
   }
 
   // message - computed: true, optional: false, required: false

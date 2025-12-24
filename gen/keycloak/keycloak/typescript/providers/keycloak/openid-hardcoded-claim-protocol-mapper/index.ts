@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper
+// https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface OpenidHardcodedClaimProtocolMapperConfig extends cdktf.Terrafor
   /**
   * Indicates if the attribute should be a claim in the access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper#add_to_access_token OpenidHardcodedClaimProtocolMapper#add_to_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper#add_to_access_token OpenidHardcodedClaimProtocolMapper#add_to_access_token}
   */
   readonly addToAccessToken?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the attribute should be a claim in the id token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper#add_to_id_token OpenidHardcodedClaimProtocolMapper#add_to_id_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper#add_to_id_token OpenidHardcodedClaimProtocolMapper#add_to_id_token}
   */
   readonly addToIdToken?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the attribute should appear in the userinfo response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper#add_to_userinfo OpenidHardcodedClaimProtocolMapper#add_to_userinfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper#add_to_userinfo OpenidHardcodedClaimProtocolMapper#add_to_userinfo}
   */
   readonly addToUserinfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper#claim_name OpenidHardcodedClaimProtocolMapper#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper#claim_name OpenidHardcodedClaimProtocolMapper#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper#claim_value OpenidHardcodedClaimProtocolMapper#claim_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper#claim_value OpenidHardcodedClaimProtocolMapper#claim_value}
   */
   readonly claimValue: string;
   /**
   * Claim type used when serializing tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper#claim_value_type OpenidHardcodedClaimProtocolMapper#claim_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper#claim_value_type OpenidHardcodedClaimProtocolMapper#claim_value_type}
   */
   readonly claimValueType?: string;
   /**
   * The mapper's associated client. Cannot be used at the same time as client_scope_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper#client_id OpenidHardcodedClaimProtocolMapper#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper#client_id OpenidHardcodedClaimProtocolMapper#client_id}
   */
   readonly clientId?: string;
   /**
   * The mapper's associated client scope. Cannot be used at the same time as client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper#client_scope_id OpenidHardcodedClaimProtocolMapper#client_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper#client_scope_id OpenidHardcodedClaimProtocolMapper#client_scope_id}
   */
   readonly clientScopeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper#id OpenidHardcodedClaimProtocolMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper#id OpenidHardcodedClaimProtocolMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,19 +61,19 @@ export interface OpenidHardcodedClaimProtocolMapperConfig extends cdktf.Terrafor
   /**
   * A human-friendly name that will appear in the Keycloak console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper#name OpenidHardcodedClaimProtocolMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper#name OpenidHardcodedClaimProtocolMapper#name}
   */
   readonly name: string;
   /**
   * The realm id where the associated client or client scope exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper#realm_id OpenidHardcodedClaimProtocolMapper#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper#realm_id OpenidHardcodedClaimProtocolMapper#realm_id}
   */
   readonly realmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper keycloak_openid_hardcoded_claim_protocol_mapper}
+* Represents a {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper keycloak_openid_hardcoded_claim_protocol_mapper}
 */
 export class OpenidHardcodedClaimProtocolMapper extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class OpenidHardcodedClaimProtocolMapper extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a OpenidHardcodedClaimProtocolMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenidHardcodedClaimProtocolMapper to import
-  * @param importFromId The id of the existing OpenidHardcodedClaimProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenidHardcodedClaimProtocolMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenidHardcodedClaimProtocolMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class OpenidHardcodedClaimProtocolMapper extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.5.0/docs/resources/openid_hardcoded_claim_protocol_mapper keycloak_openid_hardcoded_claim_protocol_mapper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keycloak/keycloak/5.6.0/docs/resources/openid_hardcoded_claim_protocol_mapper keycloak_openid_hardcoded_claim_protocol_mapper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class OpenidHardcodedClaimProtocolMapper extends cdktf.TerraformResource 
       terraformResourceType: 'keycloak_openid_hardcoded_claim_protocol_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0',
-        providerVersionConstraint: '5.5.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
