@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config
+// https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface DataIgnitionConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#arrays DataIgnitionConfig#arrays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#arrays DataIgnitionConfig#arrays}
   */
   readonly arrays?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#directories DataIgnitionConfig#directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#directories DataIgnitionConfig#directories}
   */
   readonly directories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#disks DataIgnitionConfig#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#disks DataIgnitionConfig#disks}
   */
   readonly disks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#files DataIgnitionConfig#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#files DataIgnitionConfig#files}
   */
   readonly files?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#filesystems DataIgnitionConfig#filesystems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#filesystems DataIgnitionConfig#filesystems}
   */
   readonly filesystems?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#groups DataIgnitionConfig#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#groups DataIgnitionConfig#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#id DataIgnitionConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#id DataIgnitionConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#kernel_arguments DataIgnitionConfig#kernel_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#kernel_arguments DataIgnitionConfig#kernel_arguments}
   */
   readonly kernelArguments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#links DataIgnitionConfig#links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#links DataIgnitionConfig#links}
   */
   readonly links?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#luks DataIgnitionConfig#luks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#luks DataIgnitionConfig#luks}
   */
   readonly luks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#systemd DataIgnitionConfig#systemd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#systemd DataIgnitionConfig#systemd}
   */
   readonly systemd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#users DataIgnitionConfig#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#users DataIgnitionConfig#users}
   */
   readonly users?: string[];
   /**
   * merge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#merge DataIgnitionConfig#merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#merge DataIgnitionConfig#merge}
   */
   readonly merge?: DataIgnitionConfigMerge[] | cdktf.IResolvable;
   /**
   * replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#replace DataIgnitionConfig#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#replace DataIgnitionConfig#replace}
   */
   readonly replace?: DataIgnitionConfigReplace;
   /**
   * tls_ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#tls_ca DataIgnitionConfig#tls_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#tls_ca DataIgnitionConfig#tls_ca}
   */
   readonly tlsCa?: DataIgnitionConfigTlsCa[] | cdktf.IResolvable;
 }
 export interface DataIgnitionConfigMergeHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#name DataIgnitionConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#name DataIgnitionConfig#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#value DataIgnitionConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#value DataIgnitionConfig#value}
   */
   readonly value: string;
 }
@@ -222,21 +222,21 @@ export class DataIgnitionConfigMergeHttpHeadersList extends cdktf.ComplexList {
 }
 export interface DataIgnitionConfigMerge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#compression DataIgnitionConfig#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#compression DataIgnitionConfig#compression}
   */
   readonly compression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#source DataIgnitionConfig#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#source DataIgnitionConfig#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#verification DataIgnitionConfig#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#verification DataIgnitionConfig#verification}
   */
   readonly verification?: string;
   /**
   * http_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#http_headers DataIgnitionConfig#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#http_headers DataIgnitionConfig#http_headers}
   */
   readonly httpHeaders?: DataIgnitionConfigMergeHttpHeaders[] | cdktf.IResolvable;
 }
@@ -436,11 +436,11 @@ export class DataIgnitionConfigMergeList extends cdktf.ComplexList {
 }
 export interface DataIgnitionConfigReplaceHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#name DataIgnitionConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#name DataIgnitionConfig#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#value DataIgnitionConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#value DataIgnitionConfig#value}
   */
   readonly value: string;
 }
@@ -579,21 +579,21 @@ export class DataIgnitionConfigReplaceHttpHeadersList extends cdktf.ComplexList 
 }
 export interface DataIgnitionConfigReplace {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#compression DataIgnitionConfig#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#compression DataIgnitionConfig#compression}
   */
   readonly compression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#source DataIgnitionConfig#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#source DataIgnitionConfig#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#verification DataIgnitionConfig#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#verification DataIgnitionConfig#verification}
   */
   readonly verification?: string;
   /**
   * http_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#http_headers DataIgnitionConfig#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#http_headers DataIgnitionConfig#http_headers}
   */
   readonly httpHeaders?: DataIgnitionConfigReplaceHttpHeaders[] | cdktf.IResolvable;
 }
@@ -761,11 +761,11 @@ export class DataIgnitionConfigReplaceOutputReference extends cdktf.ComplexObjec
 }
 export interface DataIgnitionConfigTlsCaHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#name DataIgnitionConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#name DataIgnitionConfig#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#value DataIgnitionConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#value DataIgnitionConfig#value}
   */
   readonly value: string;
 }
@@ -904,21 +904,21 @@ export class DataIgnitionConfigTlsCaHttpHeadersList extends cdktf.ComplexList {
 }
 export interface DataIgnitionConfigTlsCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#compression DataIgnitionConfig#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#compression DataIgnitionConfig#compression}
   */
   readonly compression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#source DataIgnitionConfig#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#source DataIgnitionConfig#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#verification DataIgnitionConfig#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#verification DataIgnitionConfig#verification}
   */
   readonly verification?: string;
   /**
   * http_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#http_headers DataIgnitionConfig#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#http_headers DataIgnitionConfig#http_headers}
   */
   readonly httpHeaders?: DataIgnitionConfigTlsCaHttpHeaders[] | cdktf.IResolvable;
 }
@@ -1118,7 +1118,7 @@ export class DataIgnitionConfigTlsCaList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config ignition_config}
+* Represents a {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config ignition_config}
 */
 export class DataIgnitionConfig extends cdktf.TerraformDataSource {
 
@@ -1134,7 +1134,7 @@ export class DataIgnitionConfig extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIgnitionConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIgnitionConfig to import
-  * @param importFromId The id of the existing DataIgnitionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIgnitionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIgnitionConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1146,7 +1146,7 @@ export class DataIgnitionConfig extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/config ignition_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/config ignition_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1157,8 +1157,8 @@ export class DataIgnitionConfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'ignition_config',
       terraformGeneratorMetadata: {
         providerName: 'ignition',
-        providerVersion: '2.5.1',
-        providerVersionConstraint: '2.5.1'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

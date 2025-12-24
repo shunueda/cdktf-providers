@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_user_token
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_user_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface VirtualEnvironmentUserTokenConfig extends cdktf.TerraformMetaAr
   /**
   * Comment for the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_user_token#comment VirtualEnvironmentUserToken#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_user_token#comment VirtualEnvironmentUserToken#comment}
   */
   readonly comment?: string;
   /**
   * Expiration date for the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_user_token#expiration_date VirtualEnvironmentUserToken#expiration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_user_token#expiration_date VirtualEnvironmentUserToken#expiration_date}
   */
   readonly expirationDate?: string;
   /**
   * Restrict API token privileges with separate ACLs (default), or give full privileges of corresponding user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_user_token#privileges_separation VirtualEnvironmentUserToken#privileges_separation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_user_token#privileges_separation VirtualEnvironmentUserToken#privileges_separation}
   */
   readonly privilegesSeparation?: boolean | cdktf.IResolvable;
   /**
   * User-specific token identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_user_token#token_name VirtualEnvironmentUserToken#token_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_user_token#token_name VirtualEnvironmentUserToken#token_name}
   */
   readonly tokenName: string;
   /**
   * User identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_user_token#user_id VirtualEnvironmentUserToken#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_user_token#user_id VirtualEnvironmentUserToken#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_user_token proxmox_virtual_environment_user_token}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_user_token proxmox_virtual_environment_user_token}
 */
 export class VirtualEnvironmentUserToken extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class VirtualEnvironmentUserToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentUserToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentUserToken to import
-  * @param importFromId The id of the existing VirtualEnvironmentUserToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_user_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentUserToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_user_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentUserToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class VirtualEnvironmentUserToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_user_token proxmox_virtual_environment_user_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_user_token proxmox_virtual_environment_user_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class VirtualEnvironmentUserToken extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_user_token',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

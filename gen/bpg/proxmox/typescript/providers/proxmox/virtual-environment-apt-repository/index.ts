@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_repository
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface VirtualEnvironmentAptRepositoryConfig extends cdktf.TerraformMe
   /**
   * Indicates the activation status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_repository#enabled VirtualEnvironmentAptRepository#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_repository#enabled VirtualEnvironmentAptRepository#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The absolute path of the source list file that contains this repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_repository#file_path VirtualEnvironmentAptRepository#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_repository#file_path VirtualEnvironmentAptRepository#file_path}
   */
   readonly filePath: string;
   /**
   * The index within the defining source list file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_repository#index VirtualEnvironmentAptRepository#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_repository#index VirtualEnvironmentAptRepository#index}
   */
   readonly index: number;
   /**
   * The name of the target Proxmox VE node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_repository#node VirtualEnvironmentAptRepository#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_repository#node VirtualEnvironmentAptRepository#node}
   */
   readonly nodeAttribute: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_repository proxmox_virtual_environment_apt_repository}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_repository proxmox_virtual_environment_apt_repository}
 */
 export class VirtualEnvironmentAptRepository extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class VirtualEnvironmentAptRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentAptRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentAptRepository to import
-  * @param importFromId The id of the existing VirtualEnvironmentAptRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentAptRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentAptRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class VirtualEnvironmentAptRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_repository proxmox_virtual_environment_apt_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_repository proxmox_virtual_environment_apt_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class VirtualEnvironmentAptRepository extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_apt_repository',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

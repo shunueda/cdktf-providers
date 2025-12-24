@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_haresource
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_haresource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataProxmoxVirtualEnvironmentHaresourceConfig extends cdktf.Ter
   /**
   * The identifier of the Proxmox HA resource to read.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_haresource#resource_id DataProxmoxVirtualEnvironmentHaresource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_haresource#resource_id DataProxmoxVirtualEnvironmentHaresource#resource_id}
   */
   readonly resourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_haresource proxmox_virtual_environment_haresource}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_haresource proxmox_virtual_environment_haresource}
 */
 export class DataProxmoxVirtualEnvironmentHaresource extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataProxmoxVirtualEnvironmentHaresource extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataProxmoxVirtualEnvironmentHaresource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProxmoxVirtualEnvironmentHaresource to import
-  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentHaresource that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_haresource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentHaresource that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_haresource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProxmoxVirtualEnvironmentHaresource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataProxmoxVirtualEnvironmentHaresource extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_haresource proxmox_virtual_environment_haresource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_haresource proxmox_virtual_environment_haresource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataProxmoxVirtualEnvironmentHaresource extends cdktf.TerraformData
       terraformResourceType: 'proxmox_virtual_environment_haresource',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

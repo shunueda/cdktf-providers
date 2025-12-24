@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_applier
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_applier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VirtualEnvironmentSdnApplierConfig extends cdktf.TerraformMetaA
   /**
   * Whether to apply SDN configuration on resource creation. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_applier#on_create VirtualEnvironmentSdnApplier#on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_applier#on_create VirtualEnvironmentSdnApplier#on_create}
   */
   readonly onCreate?: boolean | cdktf.IResolvable;
   /**
   * Whether to apply SDN configuration on resource destruction. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_applier#on_destroy VirtualEnvironmentSdnApplier#on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_applier#on_destroy VirtualEnvironmentSdnApplier#on_destroy}
   */
   readonly onDestroy?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_applier proxmox_virtual_environment_sdn_applier}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_applier proxmox_virtual_environment_sdn_applier}
 */
 export class VirtualEnvironmentSdnApplier extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class VirtualEnvironmentSdnApplier extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentSdnApplier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentSdnApplier to import
-  * @param importFromId The id of the existing VirtualEnvironmentSdnApplier that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_applier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentSdnApplier that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_applier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentSdnApplier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class VirtualEnvironmentSdnApplier extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_applier proxmox_virtual_environment_sdn_applier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_applier proxmox_virtual_environment_sdn_applier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class VirtualEnvironmentSdnApplier extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_sdn_applier',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

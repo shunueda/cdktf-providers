@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile
+// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,66 +10,68 @@ export interface InextEmbeddedProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * Controls the settings of the connected agents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile#additional_settings InextEmbeddedProfile#additional_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile#additional_settings InextEmbeddedProfile#additional_settings}
   */
   readonly additionalSettings?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile#defined_applications_only InextEmbeddedProfile#defined_applications_only}
+  * Sets whether reverse proxy will block undefined applications or not
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile#defined_applications_only InextEmbeddedProfile#defined_applications_only}
   */
   readonly definedApplicationsOnly?: boolean | cdktf.IResolvable;
   /**
   * Sets the maximum number of agents that can be connected to this profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile#max_number_of_agents InextEmbeddedProfile#max_number_of_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile#max_number_of_agents InextEmbeddedProfile#max_number_of_agents}
   */
   readonly maxNumberOfAgents?: number;
   /**
   * The name of the resource, also acts as its unique ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile#name InextEmbeddedProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile#name InextEmbeddedProfile#name}
   */
   readonly name: string;
   /**
   * The upgrade mode of the profile: Automatic, Manual or Scheduled.
   * The default is Automatic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile#upgrade_mode InextEmbeddedProfile#upgrade_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile#upgrade_mode InextEmbeddedProfile#upgrade_mode}
   */
   readonly upgradeMode?: string;
   /**
   * The days of the month of the upgrade time schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile#upgrade_time_days InextEmbeddedProfile#upgrade_time_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile#upgrade_time_days InextEmbeddedProfile#upgrade_time_days}
   */
   readonly upgradeTimeDays?: number[];
   /**
   * The duration of the upgrade in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile#upgrade_time_duration InextEmbeddedProfile#upgrade_time_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile#upgrade_time_duration InextEmbeddedProfile#upgrade_time_duration}
   */
   readonly upgradeTimeDuration?: number;
   /**
   * The hour of the upgrade time start, for example: 10:00 or 20:00
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile#upgrade_time_hour InextEmbeddedProfile#upgrade_time_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile#upgrade_time_hour InextEmbeddedProfile#upgrade_time_hour}
   */
   readonly upgradeTimeHour?: string;
   /**
   * The schedule type in case upgrade mode is scheduled: DaysInWeek, DaysInMonth or Daily
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile#upgrade_time_schedule_type InextEmbeddedProfile#upgrade_time_schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile#upgrade_time_schedule_type InextEmbeddedProfile#upgrade_time_schedule_type}
   */
   readonly upgradeTimeScheduleType?: string;
   /**
   * The week days of the upgrade time schedule: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile#upgrade_time_week_days InextEmbeddedProfile#upgrade_time_week_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile#upgrade_time_week_days InextEmbeddedProfile#upgrade_time_week_days}
   */
   readonly upgradeTimeWeekDays?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile inext_embedded_profile}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile inext_embedded_profile}
 */
 export class InextEmbeddedProfile extends cdktf.TerraformResource {
 
@@ -85,7 +87,7 @@ export class InextEmbeddedProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InextEmbeddedProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InextEmbeddedProfile to import
-  * @param importFromId The id of the existing InextEmbeddedProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InextEmbeddedProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InextEmbeddedProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +99,7 @@ export class InextEmbeddedProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_embedded_profile inext_embedded_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_embedded_profile inext_embedded_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +110,8 @@ export class InextEmbeddedProfile extends cdktf.TerraformResource {
       terraformResourceType: 'inext_embedded_profile',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.3.2',
-        providerVersionConstraint: '1.3.2'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -161,7 +163,7 @@ export class InextEmbeddedProfile extends cdktf.TerraformResource {
     return this.getStringAttribute('authentication_token');
   }
 
-  // defined_applications_only - computed: true, optional: true, required: false
+  // defined_applications_only - computed: false, optional: true, required: false
   private _definedApplicationsOnly?: boolean | cdktf.IResolvable; 
   public get definedApplicationsOnly() {
     return this.getBooleanAttribute('defined_applications_only');

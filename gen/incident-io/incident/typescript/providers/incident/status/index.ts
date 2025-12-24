@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/status
+// https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface StatusConfig extends cdktf.TerraformMetaArguments {
   /**
   * What category of status it is. All statuses apart from live (renamed in the app to Active) and learning (renamed in the app to Post-incident) are managed by incident.io and cannot be configured. Possible values are: `triage`, `declined`, `merged`, `canceled`, `live`, `learning`, `closed`, `paused`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/status#category Status#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/status#category Status#category}
   */
   readonly category: string;
   /**
   * Rich text description of the incident status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/status#description Status#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/status#description Status#description}
   */
   readonly description: string;
   /**
   * Unique name of this status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/status#name Status#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/status#name Status#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/status incident_status}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/status incident_status}
 */
 export class Status extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Status extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Status resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Status to import
-  * @param importFromId The id of the existing Status that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Status that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Status to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Status extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/status incident_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/status incident_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Status extends cdktf.TerraformResource {
       terraformResourceType: 'incident_status',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.24.0',
-        providerVersionConstraint: '5.24.0'
+        providerVersion: '5.24.1',
+        providerVersionConstraint: '5.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

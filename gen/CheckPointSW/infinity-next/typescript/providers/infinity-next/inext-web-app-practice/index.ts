@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice
+// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface InextWebAppPracticeConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the resource, also acts as its unique ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#name InextWebAppPractice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#name InextWebAppPractice#name}
   */
   readonly name: string;
   /**
   * The visibility of the resource, Shared or Local
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#visibility InextWebAppPractice#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#visibility InextWebAppPractice#visibility}
   */
   readonly visibility?: string;
   /**
   * file_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#file_security InextWebAppPractice#file_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#file_security InextWebAppPractice#file_security}
   */
   readonly fileSecurity?: InextWebAppPracticeFileSecurity;
   /**
   * ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#ips InextWebAppPractice#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#ips InextWebAppPractice#ips}
   */
   readonly ips?: InextWebAppPracticeIps;
   /**
   * web_attacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#web_attacks InextWebAppPractice#web_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#web_attacks InextWebAppPractice#web_attacks}
   */
   readonly webAttacks?: InextWebAppPracticeWebAttacks;
   /**
   * web_bot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#web_bot InextWebAppPractice#web_bot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#web_bot InextWebAppPractice#web_bot}
   */
   readonly webBot?: InextWebAppPracticeWebBot;
 }
@@ -48,81 +48,81 @@ export interface InextWebAppPracticeFileSecurity {
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#allow_an_unopened_archive InextWebAppPractice#allow_an_unopened_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#allow_an_unopened_archive InextWebAppPractice#allow_an_unopened_archive}
   */
   readonly allowAnUnopenedArchive?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#allow_archive_within_archive InextWebAppPractice#allow_archive_within_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#allow_archive_within_archive InextWebAppPractice#allow_archive_within_archive}
   */
   readonly allowArchiveWithinArchive?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#allow_file_size_limit InextWebAppPractice#allow_file_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#allow_file_size_limit InextWebAppPractice#allow_file_size_limit}
   */
   readonly allowFileSizeLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#allow_file_type InextWebAppPractice#allow_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#allow_file_type InextWebAppPractice#allow_file_type}
   */
   readonly allowFileType?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#archive_file_size_limit InextWebAppPractice#archive_file_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#archive_file_size_limit InextWebAppPractice#archive_file_size_limit}
   */
   readonly archiveFileSizeLimit?: number;
   /**
   * Bytes, KB, MB or GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#archive_file_size_limit_unit InextWebAppPractice#archive_file_size_limit_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#archive_file_size_limit_unit InextWebAppPractice#archive_file_size_limit_unit}
   */
   readonly archiveFileSizeLimitUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#file_size_limit InextWebAppPractice#file_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#file_size_limit InextWebAppPractice#file_size_limit}
   */
   readonly fileSizeLimit?: number;
   /**
   * Bytes, KB, MB or GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#file_size_limit_unit InextWebAppPractice#file_size_limit_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#file_size_limit_unit InextWebAppPractice#file_size_limit_unit}
   */
   readonly fileSizeLimitUnit?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#files_without_name InextWebAppPractice#files_without_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#files_without_name InextWebAppPractice#files_without_name}
   */
   readonly filesWithoutName?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#high_confidence InextWebAppPractice#high_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#high_confidence InextWebAppPractice#high_confidence}
   */
   readonly highConfidence?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#low_confidence InextWebAppPractice#low_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#low_confidence InextWebAppPractice#low_confidence}
   */
   readonly lowConfidence?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#medium_confidence InextWebAppPractice#medium_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#medium_confidence InextWebAppPractice#medium_confidence}
   */
   readonly mediumConfidence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#required_archive_extraction InextWebAppPractice#required_archive_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#required_archive_extraction InextWebAppPractice#required_archive_extraction}
   */
   readonly requiredArchiveExtraction?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#required_threat_emulation InextWebAppPractice#required_threat_emulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#required_threat_emulation InextWebAppPractice#required_threat_emulation}
   */
   readonly requiredThreatEmulation?: boolean | cdktf.IResolvable;
   /**
   * LowOrAbove, MediumOrAbove, HighOrAbove or Critical
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#severity_level InextWebAppPractice#severity_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#severity_level InextWebAppPractice#severity_level}
   */
   readonly severityLevel?: string;
 }
@@ -619,11 +619,11 @@ export interface InextWebAppPracticeIps {
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#high_confidence InextWebAppPractice#high_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#high_confidence InextWebAppPractice#high_confidence}
   */
   readonly highConfidence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#id InextWebAppPractice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#id InextWebAppPractice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -632,31 +632,31 @@ export interface InextWebAppPracticeIps {
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#low_confidence InextWebAppPractice#low_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#low_confidence InextWebAppPractice#low_confidence}
   */
   readonly lowConfidence?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#medium_confidence InextWebAppPractice#medium_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#medium_confidence InextWebAppPractice#medium_confidence}
   */
   readonly mediumConfidence?: string;
   /**
   * The performance impact: VeryLow, LowOrLower, MediumOrLower or HighOrLower
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#performance_impact InextWebAppPractice#performance_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#performance_impact InextWebAppPractice#performance_impact}
   */
   readonly performanceImpact?: string;
   /**
   * The year to apply protections from: 1999, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#protections_from_year InextWebAppPractice#protections_from_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#protections_from_year InextWebAppPractice#protections_from_year}
   */
   readonly protectionsFromYear?: string;
   /**
   * The severity level: LowOrAbove, MediumOrAbove, HighOrAbove or Critical
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#severity_level InextWebAppPractice#severity_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#severity_level InextWebAppPractice#severity_level}
   */
   readonly severityLevel?: string;
 }
@@ -914,41 +914,41 @@ export class InextWebAppPracticeIpsOutputReference extends cdktf.ComplexObject {
 }
 export interface InextWebAppPracticeWebAttacksAdvancedSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#body_size InextWebAppPractice#body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#body_size InextWebAppPractice#body_size}
   */
   readonly bodySize?: number;
   /**
   * Prevent, AccordingToPractice, Disabled or Learn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#csrf_protection InextWebAppPractice#csrf_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#csrf_protection InextWebAppPractice#csrf_protection}
   */
   readonly csrfProtection?: string;
   /**
   * Prevent, AccordingToPractice, Disabled or Learn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#error_disclosure InextWebAppPractice#error_disclosure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#error_disclosure InextWebAppPractice#error_disclosure}
   */
   readonly errorDisclosure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#header_size InextWebAppPractice#header_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#header_size InextWebAppPractice#header_size}
   */
   readonly headerSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#illegal_http_methods InextWebAppPractice#illegal_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#illegal_http_methods InextWebAppPractice#illegal_http_methods}
   */
   readonly illegalHttpMethods?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#max_object_depth InextWebAppPractice#max_object_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#max_object_depth InextWebAppPractice#max_object_depth}
   */
   readonly maxObjectDepth?: number;
   /**
   * Prevent, AccordingToPractice, Disabled or Learn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#open_redirect InextWebAppPractice#open_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#open_redirect InextWebAppPractice#open_redirect}
   */
   readonly openRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#url_size InextWebAppPractice#url_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#url_size InextWebAppPractice#url_size}
   */
   readonly urlSize?: number;
 }
@@ -1242,13 +1242,13 @@ export interface InextWebAppPracticeWebAttacks {
   /**
   * Medium, High or Critical
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#minimum_severity InextWebAppPractice#minimum_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#minimum_severity InextWebAppPractice#minimum_severity}
   */
   readonly minimumSeverity?: string;
   /**
   * advanced_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#advanced_setting InextWebAppPractice#advanced_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#advanced_setting InextWebAppPractice#advanced_setting}
   */
   readonly advancedSetting?: InextWebAppPracticeWebAttacksAdvancedSetting;
 }
@@ -1368,14 +1368,14 @@ export interface InextWebAppPracticeWebBot {
   /**
   * Defines where to inject the Anti-Bot script. The input is the path of the URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#inject_uris InextWebAppPractice#inject_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#inject_uris InextWebAppPractice#inject_uris}
   */
   readonly injectUris?: string[];
   /**
   * Defines which requests must be validated after the script is injected into a specific URI.
   * The input is the path of the URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#valid_uris InextWebAppPractice#valid_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#valid_uris InextWebAppPractice#valid_uris}
   */
   readonly validUris?: string[];
 }
@@ -1503,7 +1503,7 @@ export class InextWebAppPracticeWebBotOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice inext_web_app_practice}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice inext_web_app_practice}
 */
 export class InextWebAppPractice extends cdktf.TerraformResource {
 
@@ -1519,7 +1519,7 @@ export class InextWebAppPractice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InextWebAppPractice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InextWebAppPractice to import
-  * @param importFromId The id of the existing InextWebAppPractice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InextWebAppPractice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InextWebAppPractice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1531,7 +1531,7 @@ export class InextWebAppPractice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_app_practice inext_web_app_practice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_web_app_practice inext_web_app_practice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1542,8 +1542,8 @@ export class InextWebAppPractice extends cdktf.TerraformResource {
       terraformResourceType: 'inext_web_app_practice',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.3.2',
-        providerVersionConstraint: '1.3.2'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

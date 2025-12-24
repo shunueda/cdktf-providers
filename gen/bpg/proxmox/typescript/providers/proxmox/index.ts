@@ -5,6 +5,7 @@ export * as virtualEnvironmentAcmeDnsPlugin from './virtual-environment-acme-dns
 export * as virtualEnvironmentAptRepository from './virtual-environment-apt-repository';
 export * as virtualEnvironmentAptStandardRepository from './virtual-environment-apt-standard-repository';
 export * as virtualEnvironmentCertificate from './virtual-environment-certificate';
+export * as virtualEnvironmentClonedVm from './virtual-environment-cloned-vm';
 export * as virtualEnvironmentClusterFirewall from './virtual-environment-cluster-firewall';
 export * as virtualEnvironmentClusterFirewallSecurityGroup from './virtual-environment-cluster-firewall-security-group';
 export * as virtualEnvironmentClusterOptions from './virtual-environment-cluster-options';

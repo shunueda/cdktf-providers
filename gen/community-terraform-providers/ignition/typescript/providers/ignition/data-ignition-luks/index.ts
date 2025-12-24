@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks
+// https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface DataIgnitionLuksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#device DataIgnitionLuks#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#device DataIgnitionLuks#device}
   */
   readonly device: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#discard DataIgnitionLuks#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#discard DataIgnitionLuks#discard}
   */
   readonly discard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#id DataIgnitionLuks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#id DataIgnitionLuks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#label DataIgnitionLuks#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#label DataIgnitionLuks#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#name DataIgnitionLuks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#name DataIgnitionLuks#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#open_options DataIgnitionLuks#open_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#open_options DataIgnitionLuks#open_options}
   */
   readonly openOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#options DataIgnitionLuks#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#options DataIgnitionLuks#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#uuid DataIgnitionLuks#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#uuid DataIgnitionLuks#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#wipe_volume DataIgnitionLuks#wipe_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#wipe_volume DataIgnitionLuks#wipe_volume}
   */
   readonly wipeVolume?: boolean | cdktf.IResolvable;
   /**
   * clevis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#clevis DataIgnitionLuks#clevis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#clevis DataIgnitionLuks#clevis}
   */
   readonly clevis?: DataIgnitionLuksClevis;
   /**
   * key_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#key_file DataIgnitionLuks#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#key_file DataIgnitionLuks#key_file}
   */
   readonly keyFile?: DataIgnitionLuksKeyFile;
 }
 export interface DataIgnitionLuksClevisCustom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#config DataIgnitionLuks#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#config DataIgnitionLuks#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#needs_network DataIgnitionLuks#needs_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#needs_network DataIgnitionLuks#needs_network}
   */
   readonly needsNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#pin DataIgnitionLuks#pin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#pin DataIgnitionLuks#pin}
   */
   readonly pin?: string;
 }
@@ -211,15 +211,15 @@ export class DataIgnitionLuksClevisCustomOutputReference extends cdktf.ComplexOb
 }
 export interface DataIgnitionLuksClevisTang {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#advertisement DataIgnitionLuks#advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#advertisement DataIgnitionLuks#advertisement}
   */
   readonly advertisement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#thumbprint DataIgnitionLuks#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#thumbprint DataIgnitionLuks#thumbprint}
   */
   readonly thumbprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#url DataIgnitionLuks#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#url DataIgnitionLuks#url}
   */
   readonly url: string;
 }
@@ -390,23 +390,23 @@ export class DataIgnitionLuksClevisTangList extends cdktf.ComplexList {
 }
 export interface DataIgnitionLuksClevis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#threshold DataIgnitionLuks#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#threshold DataIgnitionLuks#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#tpm2 DataIgnitionLuks#tpm2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#tpm2 DataIgnitionLuks#tpm2}
   */
   readonly tpm2?: boolean | cdktf.IResolvable;
   /**
   * custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#custom DataIgnitionLuks#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#custom DataIgnitionLuks#custom}
   */
   readonly custom?: DataIgnitionLuksClevisCustom;
   /**
   * tang block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#tang DataIgnitionLuks#tang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#tang DataIgnitionLuks#tang}
   */
   readonly tang?: DataIgnitionLuksClevisTang[] | cdktf.IResolvable;
 }
@@ -577,11 +577,11 @@ export class DataIgnitionLuksClevisOutputReference extends cdktf.ComplexObject {
 }
 export interface DataIgnitionLuksKeyFileHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#name DataIgnitionLuks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#name DataIgnitionLuks#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#value DataIgnitionLuks#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#value DataIgnitionLuks#value}
   */
   readonly value: string;
 }
@@ -720,21 +720,21 @@ export class DataIgnitionLuksKeyFileHttpHeadersList extends cdktf.ComplexList {
 }
 export interface DataIgnitionLuksKeyFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#compression DataIgnitionLuks#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#compression DataIgnitionLuks#compression}
   */
   readonly compression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#source DataIgnitionLuks#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#source DataIgnitionLuks#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#verification DataIgnitionLuks#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#verification DataIgnitionLuks#verification}
   */
   readonly verification?: string;
   /**
   * http_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#http_headers DataIgnitionLuks#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#http_headers DataIgnitionLuks#http_headers}
   */
   readonly httpHeaders?: DataIgnitionLuksKeyFileHttpHeaders[] | cdktf.IResolvable;
 }
@@ -902,7 +902,7 @@ export class DataIgnitionLuksKeyFileOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks ignition_luks}
+* Represents a {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks ignition_luks}
 */
 export class DataIgnitionLuks extends cdktf.TerraformDataSource {
 
@@ -918,7 +918,7 @@ export class DataIgnitionLuks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIgnitionLuks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIgnitionLuks to import
-  * @param importFromId The id of the existing DataIgnitionLuks that should be imported. Refer to the {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIgnitionLuks that should be imported. Refer to the {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIgnitionLuks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -930,7 +930,7 @@ export class DataIgnitionLuks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/luks ignition_luks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/luks ignition_luks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -941,8 +941,8 @@ export class DataIgnitionLuks extends cdktf.TerraformDataSource {
       terraformResourceType: 'ignition_luks',
       terraformGeneratorMetadata: {
         providerName: 'ignition',
-        providerVersion: '2.5.1',
-        providerVersionConstraint: '2.5.1'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

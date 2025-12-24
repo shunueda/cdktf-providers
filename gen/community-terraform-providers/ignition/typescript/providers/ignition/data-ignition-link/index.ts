@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/link
+// https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface DataIgnitionLinkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/link#gid DataIgnitionLink#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link#gid DataIgnitionLink#gid}
   */
   readonly gid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/link#hard DataIgnitionLink#hard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link#group DataIgnitionLink#group}
+  */
+  readonly group?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link#hard DataIgnitionLink#hard}
   */
   readonly hard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/link#id DataIgnitionLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link#id DataIgnitionLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/link#overwrite DataIgnitionLink#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link#overwrite DataIgnitionLink#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/link#path DataIgnitionLink#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link#path DataIgnitionLink#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/link#target DataIgnitionLink#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link#target DataIgnitionLink#target}
   */
   readonly target: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/link#uid DataIgnitionLink#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link#uid DataIgnitionLink#uid}
   */
   readonly uid?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link#user DataIgnitionLink#user}
+  */
+  readonly user?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/link ignition_link}
+* Represents a {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link ignition_link}
 */
 export class DataIgnitionLink extends cdktf.TerraformDataSource {
 
@@ -57,7 +65,7 @@ export class DataIgnitionLink extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIgnitionLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIgnitionLink to import
-  * @param importFromId The id of the existing DataIgnitionLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIgnitionLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIgnitionLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +77,7 @@ export class DataIgnitionLink extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/link ignition_link} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/link ignition_link} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +88,8 @@ export class DataIgnitionLink extends cdktf.TerraformDataSource {
       terraformResourceType: 'ignition_link',
       terraformGeneratorMetadata: {
         providerName: 'ignition',
-        providerVersion: '2.5.1',
-        providerVersionConstraint: '2.5.1'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -92,12 +100,14 @@ export class DataIgnitionLink extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._gid = config.gid;
+    this._group = config.group;
     this._hard = config.hard;
     this._id = config.id;
     this._overwrite = config.overwrite;
     this._path = config.path;
     this._target = config.target;
     this._uid = config.uid;
+    this._user = config.user;
   }
 
   // ==========
@@ -118,6 +128,22 @@ export class DataIgnitionLink extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get gidInput() {
     return this._gid;
+  }
+
+  // group - computed: false, optional: true, required: false
+  private _group?: string; 
+  public get group() {
+    return this.getStringAttribute('group');
+  }
+  public set group(value: string) {
+    this._group = value;
+  }
+  public resetGroup() {
+    this._group = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupInput() {
+    return this._group;
   }
 
   // hard - computed: false, optional: true, required: false
@@ -215,6 +241,22 @@ export class DataIgnitionLink extends cdktf.TerraformDataSource {
     return this._uid;
   }
 
+  // user - computed: false, optional: true, required: false
+  private _user?: string; 
+  public get user() {
+    return this.getStringAttribute('user');
+  }
+  public set user(value: string) {
+    this._user = value;
+  }
+  public resetUser() {
+    this._user = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userInput() {
+    return this._user;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -222,12 +264,14 @@ export class DataIgnitionLink extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       gid: cdktf.numberToTerraform(this._gid),
+      group: cdktf.stringToTerraform(this._group),
       hard: cdktf.booleanToTerraform(this._hard),
       id: cdktf.stringToTerraform(this._id),
       overwrite: cdktf.booleanToTerraform(this._overwrite),
       path: cdktf.stringToTerraform(this._path),
       target: cdktf.stringToTerraform(this._target),
       uid: cdktf.numberToTerraform(this._uid),
+      user: cdktf.stringToTerraform(this._user),
     };
   }
 
@@ -238,6 +282,12 @@ export class DataIgnitionLink extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      group: {
+        value: cdktf.stringToHclTerraform(this._group),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       hard: {
         value: cdktf.booleanToHclTerraform(this._hard),
@@ -274,6 +324,12 @@ export class DataIgnitionLink extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      user: {
+        value: cdktf.stringToHclTerraform(this._user),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
     };
 

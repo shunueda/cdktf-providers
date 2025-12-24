@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile
+// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,92 +10,92 @@ export interface InextAppsecGatewayProfileConfig extends cdktf.TerraformMetaArgu
   /**
   * Controls the settings of the connected agents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#additional_settings InextAppsecGatewayProfile#additional_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#additional_settings InextAppsecGatewayProfile#additional_settings}
   */
   readonly additionalSettings?: { [key: string]: string };
   /**
   * The type of the certificate used for the profile: Vault or Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#certificate_type InextAppsecGatewayProfile#certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#certificate_type InextAppsecGatewayProfile#certificate_type}
   */
   readonly certificateType?: string;
   /**
   * Allow traffic upon internal failures or high CPU utilization: true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#fail_open_inspection InextAppsecGatewayProfile#fail_open_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#fail_open_inspection InextAppsecGatewayProfile#fail_open_inspection}
   */
   readonly failOpenInspection?: boolean | cdktf.IResolvable;
   /**
   * Sets the maximum number of agents that can be connected to this profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#max_number_of_agents InextAppsecGatewayProfile#max_number_of_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#max_number_of_agents InextAppsecGatewayProfile#max_number_of_agents}
   */
   readonly maxNumberOfAgents?: number;
   /**
   * The name of the resource, also acts as its unique ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#name InextAppsecGatewayProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#name InextAppsecGatewayProfile#name}
   */
   readonly name: string;
   /**
   * The environment of deployment for the AppSec VM: Aws, Azure, VMware or HyperV
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#profile_sub_type InextAppsecGatewayProfile#profile_sub_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#profile_sub_type InextAppsecGatewayProfile#profile_sub_type}
   */
   readonly profileSubType: string;
   /**
   * Sets the reverse proxy settings of linked assets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#reverseproxy_additional_settings InextAppsecGatewayProfile#reverseproxy_additional_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#reverseproxy_additional_settings InextAppsecGatewayProfile#reverseproxy_additional_settings}
   */
   readonly reverseproxyAdditionalSettings?: { [key: string]: string };
   /**
   * Sets the reverse proxy upstream timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#reverseproxy_upstream_timeout InextAppsecGatewayProfile#reverseproxy_upstream_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#reverseproxy_upstream_timeout InextAppsecGatewayProfile#reverseproxy_upstream_timeout}
   */
   readonly reverseproxyUpstreamTimeout?: number;
   /**
   * The upgrade mode of the profile: Automatic, Manual or Scheduled.
   * The default is Automatic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#upgrade_mode InextAppsecGatewayProfile#upgrade_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#upgrade_mode InextAppsecGatewayProfile#upgrade_mode}
   */
   readonly upgradeMode?: string;
   /**
   * The days of the month of the upgrade time schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#upgrade_time_days InextAppsecGatewayProfile#upgrade_time_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#upgrade_time_days InextAppsecGatewayProfile#upgrade_time_days}
   */
   readonly upgradeTimeDays?: number[];
   /**
   * The duration of the upgrade in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#upgrade_time_duration InextAppsecGatewayProfile#upgrade_time_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#upgrade_time_duration InextAppsecGatewayProfile#upgrade_time_duration}
   */
   readonly upgradeTimeDuration?: number;
   /**
   * The hour of the upgrade time start, for example: 10:00 or 20:00
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#upgrade_time_hour InextAppsecGatewayProfile#upgrade_time_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#upgrade_time_hour InextAppsecGatewayProfile#upgrade_time_hour}
   */
   readonly upgradeTimeHour?: string;
   /**
   * The schedule type in case upgrade mode is scheduled: DaysInWeek, DaysInMonth or Daily
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#upgrade_time_schedule_type InextAppsecGatewayProfile#upgrade_time_schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#upgrade_time_schedule_type InextAppsecGatewayProfile#upgrade_time_schedule_type}
   */
   readonly upgradeTimeScheduleType?: string;
   /**
   * The week days of the upgrade time schedule: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#upgrade_time_week_days InextAppsecGatewayProfile#upgrade_time_week_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#upgrade_time_week_days InextAppsecGatewayProfile#upgrade_time_week_days}
   */
   readonly upgradeTimeWeekDays?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile inext_appsec_gateway_profile}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile inext_appsec_gateway_profile}
 */
 export class InextAppsecGatewayProfile extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class InextAppsecGatewayProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InextAppsecGatewayProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InextAppsecGatewayProfile to import
-  * @param importFromId The id of the existing InextAppsecGatewayProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InextAppsecGatewayProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InextAppsecGatewayProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class InextAppsecGatewayProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_appsec_gateway_profile inext_appsec_gateway_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_appsec_gateway_profile inext_appsec_gateway_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class InextAppsecGatewayProfile extends cdktf.TerraformResource {
       terraformResourceType: 'inext_appsec_gateway_profile',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.3.2',
-        providerVersionConstraint: '1.3.2'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

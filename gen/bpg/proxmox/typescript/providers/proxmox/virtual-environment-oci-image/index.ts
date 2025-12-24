@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_oci_image
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_oci_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface VirtualEnvironmentOciImageConfig extends cdktf.TerraformMetaArg
   /**
   * The identifier for the target datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_oci_image#datastore_id VirtualEnvironmentOciImage#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_oci_image#datastore_id VirtualEnvironmentOciImage#datastore_id}
   */
   readonly datastoreId: string;
   /**
   * The file name for the pulled OCI image. If not provided, it will be generated automatically. The file will be stored as a .tar file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_oci_image#file_name VirtualEnvironmentOciImage#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_oci_image#file_name VirtualEnvironmentOciImage#file_name}
   */
   readonly fileName?: string;
   /**
   * The node name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_oci_image#node_name VirtualEnvironmentOciImage#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_oci_image#node_name VirtualEnvironmentOciImage#node_name}
   */
   readonly nodeName: string;
   /**
   * By default `true`. If `true` and the OCI image size has changed in the datastore, it will be replaced. If `false`, there will be no check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_oci_image#overwrite VirtualEnvironmentOciImage#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_oci_image#overwrite VirtualEnvironmentOciImage#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
   * If `true` and an OCI image with the same name already exists in the datastore, it will be deleted and the new image will be pulled. If `false` and the image already exists, an error will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_oci_image#overwrite_unmanaged VirtualEnvironmentOciImage#overwrite_unmanaged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_oci_image#overwrite_unmanaged VirtualEnvironmentOciImage#overwrite_unmanaged}
   */
   readonly overwriteUnmanaged?: boolean | cdktf.IResolvable;
   /**
   * The reference to the OCI image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_oci_image#reference VirtualEnvironmentOciImage#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_oci_image#reference VirtualEnvironmentOciImage#reference}
   */
   readonly reference: string;
   /**
   * The OCI image pull timeout in seconds. Default is 600 (10min).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_oci_image#upload_timeout VirtualEnvironmentOciImage#upload_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_oci_image#upload_timeout VirtualEnvironmentOciImage#upload_timeout}
   */
   readonly uploadTimeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_oci_image proxmox_virtual_environment_oci_image}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_oci_image proxmox_virtual_environment_oci_image}
 */
 export class VirtualEnvironmentOciImage extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class VirtualEnvironmentOciImage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentOciImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentOciImage to import
-  * @param importFromId The id of the existing VirtualEnvironmentOciImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_oci_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentOciImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_oci_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentOciImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class VirtualEnvironmentOciImage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_oci_image proxmox_virtual_environment_oci_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_oci_image proxmox_virtual_environment_oci_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class VirtualEnvironmentOciImage extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_oci_image',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

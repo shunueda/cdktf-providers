@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_attribute
+// https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/alert_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AlertAttributeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether this attribute is an array
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_attribute#array AlertAttribute#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/alert_attribute#array AlertAttribute#array}
   */
   readonly array: boolean | cdktf.IResolvable;
   /**
   * Unique name of this attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_attribute#name AlertAttribute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/alert_attribute#name AlertAttribute#name}
   */
   readonly name: string;
   /**
   * Whether this attribute is required. If this field is not set, the existing setting will be preserved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_attribute#required AlertAttribute#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/alert_attribute#required AlertAttribute#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Engine resource name for this attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_attribute#type AlertAttribute#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/alert_attribute#type AlertAttribute#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_attribute incident_alert_attribute}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/alert_attribute incident_alert_attribute}
 */
 export class AlertAttribute extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class AlertAttribute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertAttribute to import
-  * @param importFromId The id of the existing AlertAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/alert_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AlertAttribute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/resources/alert_attribute incident_alert_attribute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/resources/alert_attribute incident_alert_attribute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class AlertAttribute extends cdktf.TerraformResource {
       terraformResourceType: 'incident_alert_attribute',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.24.0',
-        providerVersionConstraint: '5.24.0'
+        providerVersion: '5.24.1',
+        providerVersionConstraint: '5.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

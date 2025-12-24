@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_hardware_mappings
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_hardware_mappings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataProxmoxVirtualEnvironmentHardwareMappingsConfig extends cdk
   /**
   * The name of the node whose configurations should be checked for correctness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_hardware_mappings#check_node DataProxmoxVirtualEnvironmentHardwareMappings#check_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_hardware_mappings#check_node DataProxmoxVirtualEnvironmentHardwareMappings#check_node}
   */
   readonly checkNode?: string;
   /**
   * The type of the hardware mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_hardware_mappings#type DataProxmoxVirtualEnvironmentHardwareMappings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_hardware_mappings#type DataProxmoxVirtualEnvironmentHardwareMappings#type}
   */
   readonly type: string;
 }
@@ -107,7 +107,7 @@ export class DataProxmoxVirtualEnvironmentHardwareMappingsChecksList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_hardware_mappings proxmox_virtual_environment_hardware_mappings}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_hardware_mappings proxmox_virtual_environment_hardware_mappings}
 */
 export class DataProxmoxVirtualEnvironmentHardwareMappings extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataProxmoxVirtualEnvironmentHardwareMappings extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataProxmoxVirtualEnvironmentHardwareMappings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProxmoxVirtualEnvironmentHardwareMappings to import
-  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentHardwareMappings that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_hardware_mappings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentHardwareMappings that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_hardware_mappings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProxmoxVirtualEnvironmentHardwareMappings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataProxmoxVirtualEnvironmentHardwareMappings extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_hardware_mappings proxmox_virtual_environment_hardware_mappings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_hardware_mappings proxmox_virtual_environment_hardware_mappings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataProxmoxVirtualEnvironmentHardwareMappings extends cdktf.Terrafo
       terraformResourceType: 'proxmox_virtual_environment_hardware_mappings',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

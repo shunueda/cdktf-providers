@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,31 @@ export interface VirtualEnvironmentVm2Config extends cdktf.TerraformMetaArgument
   /**
   * The CD-ROM configuration. The key is the interface of the CD-ROM, could be one of `ideN`, `sataN`, `scsiN`, where N is the index of the interface. Note that `q35` machine type only supports `ide0` and `ide2` of IDE interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#cdrom VirtualEnvironmentVm2#cdrom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#cdrom VirtualEnvironmentVm2#cdrom}
   */
   readonly cdrom?: { [key: string]: VirtualEnvironmentVm2Cdrom } | cdktf.IResolvable;
   /**
-  * The cloning configuration.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#clone VirtualEnvironmentVm2#clone}
-  */
-  readonly clone?: VirtualEnvironmentVm2Clone;
-  /**
   * The CPU configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#cpu VirtualEnvironmentVm2#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#cpu VirtualEnvironmentVm2#cpu}
   */
   readonly cpu?: VirtualEnvironmentVm2Cpu;
   /**
   * Set to true to delete unreferenced disks on destroy (defaults to `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#delete_unreferenced_disks_on_destroy VirtualEnvironmentVm2#delete_unreferenced_disks_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#delete_unreferenced_disks_on_destroy VirtualEnvironmentVm2#delete_unreferenced_disks_on_destroy}
   */
   readonly deleteUnreferencedDisksOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * The description of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#description VirtualEnvironmentVm2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#description VirtualEnvironmentVm2#description}
   */
   readonly description?: string;
   /**
   * The unique identifier of the VM in the Proxmox cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#id VirtualEnvironmentVm2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#id VirtualEnvironmentVm2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,53 +43,53 @@ export interface VirtualEnvironmentVm2Config extends cdktf.TerraformMetaArgument
   /**
   * The name of the VM. Doesn't have to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#name VirtualEnvironmentVm2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#name VirtualEnvironmentVm2#name}
   */
   readonly name?: string;
   /**
   * The name of the node where the VM is provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#node_name VirtualEnvironmentVm2#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#node_name VirtualEnvironmentVm2#node_name}
   */
   readonly nodeName: string;
   /**
   * Set to true to purge the VM from backup configurations on destroy (defaults to `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#purge_on_destroy VirtualEnvironmentVm2#purge_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#purge_on_destroy VirtualEnvironmentVm2#purge_on_destroy}
   */
   readonly purgeOnDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Configure the RNG (Random Number Generator) device. The RNG device provides entropy to guests to ensure good quality random numbers for guest applications that require them. Can only be set by `root@pam.`See the [Proxmox documentation](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#qm_virtual_machines_settings) for more information.
+  * Configure the RNG (Random Number Generator) device. The RNG device provides entropy to guests to ensure good quality random numbers for guest applications that require them. Can only be set by `root@pam.` See the [Proxmox documentation](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#qm_virtual_machines_settings) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#rng VirtualEnvironmentVm2#rng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#rng VirtualEnvironmentVm2#rng}
   */
   readonly rng?: VirtualEnvironmentVm2Rng;
   /**
   * Set to true to stop (rather than shutdown) the VM on destroy (defaults to `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#stop_on_destroy VirtualEnvironmentVm2#stop_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#stop_on_destroy VirtualEnvironmentVm2#stop_on_destroy}
   */
   readonly stopOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * The tags assigned to the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#tags VirtualEnvironmentVm2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#tags VirtualEnvironmentVm2#tags}
   */
   readonly tags?: string[];
   /**
   * Set to true to create a VM template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#template VirtualEnvironmentVm2#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#template VirtualEnvironmentVm2#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#timeouts VirtualEnvironmentVm2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#timeouts VirtualEnvironmentVm2#timeouts}
   */
   readonly timeouts?: VirtualEnvironmentVm2Timeouts;
   /**
   * Configure the VGA Hardware. If you want to use high resolution modes (>= 1280x1024x16) you may need to increase the vga memory option. Since QEMU 2.9 the default VGA display type is `std` for all OS types besides some Windows versions (XP and older) which use `cirrus`. The `qxl` option enables the SPICE display server. For win* OS you can select how many independent displays you want, Linux guests can add displays themself. You can also run without any graphic card, using a serial device as terminal. See the [Proxmox documentation](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#qm_virtual_machines_settings) section 10.2.8 for more information and available configuration parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#vga VirtualEnvironmentVm2#vga}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#vga VirtualEnvironmentVm2#vga}
   */
   readonly vga?: VirtualEnvironmentVm2Vga;
 }
@@ -103,7 +97,7 @@ export interface VirtualEnvironmentVm2Cdrom {
   /**
   * The file ID of the CD-ROM, or `cdrom|none`. Defaults to `none` to leave the CD-ROM empty. Use `cdrom` to connect to the physical drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#file_id VirtualEnvironmentVm2#file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#file_id VirtualEnvironmentVm2#file_id}
   */
   readonly fileId?: string;
 }
@@ -215,196 +209,65 @@ export class VirtualEnvironmentVm2CdromMap extends cdktf.ComplexMap {
     return new VirtualEnvironmentVm2CdromOutputReference(this.terraformResource, this.terraformAttribute, key);
   }
 }
-export interface VirtualEnvironmentVm2Clone {
-  /**
-  * The ID of the VM to clone.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#id VirtualEnvironmentVm2#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id: number;
-  /**
-  * The number of retries to perform when cloning the VM (default: 3).
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#retries VirtualEnvironmentVm2#retries}
-  */
-  readonly retries?: number;
-}
-
-export function virtualEnvironmentVm2CloneToTerraform(struct?: VirtualEnvironmentVm2Clone | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    id: cdktf.numberToTerraform(struct!.id),
-    retries: cdktf.numberToTerraform(struct!.retries),
-  }
-}
-
-
-export function virtualEnvironmentVm2CloneToHclTerraform(struct?: VirtualEnvironmentVm2Clone | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    retries: {
-      value: cdktf.numberToHclTerraform(struct!.retries),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VirtualEnvironmentVm2CloneOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): VirtualEnvironmentVm2Clone | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    if (this._retries !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.retries = this._retries;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VirtualEnvironmentVm2Clone | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._id = undefined;
-      this._retries = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._id = value.id;
-      this._retries = value.retries;
-    }
-  }
-
-  // id - computed: false, optional: false, required: true
-  private _id?: number; 
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-  public set id(value: number) {
-    this._id = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
-
-  // retries - computed: true, optional: true, required: false
-  private _retries?: number; 
-  public get retries() {
-    return this.getNumberAttribute('retries');
-  }
-  public set retries(value: number) {
-    this._retries = value;
-  }
-  public resetRetries() {
-    this._retries = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get retriesInput() {
-    return this._retries;
-  }
-}
 export interface VirtualEnvironmentVm2Cpu {
   /**
   * The CPU cores that are used to run the VM’s vCPU. The value is a list of CPU IDs, separated by commas. The CPU IDs are zero-based.  For example, `0,1,2,3` (which also can be shortened to `0-3`) means that the VM’s vCPUs are run on the first four CPU cores. Setting `affinity` is only allowed for `root@pam` authenticated user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#affinity VirtualEnvironmentVm2#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#affinity VirtualEnvironmentVm2#affinity}
   */
   readonly affinity?: string;
   /**
-  * The CPU architecture `<aarch64 | x86_64>` (defaults to the host). Setting `affinity` is only allowed for `root@pam` authenticated user.
+  * The CPU architecture `<aarch64 | x86_64>` (defaults to the host). Setting `architecture` is only allowed for `root@pam` authenticated user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#architecture VirtualEnvironmentVm2#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#architecture VirtualEnvironmentVm2#architecture}
   */
   readonly architecture?: string;
   /**
   * The number of CPU cores per socket (defaults to `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#cores VirtualEnvironmentVm2#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#cores VirtualEnvironmentVm2#cores}
   */
   readonly cores?: number;
   /**
   * Set of additional CPU flags. Use `+FLAG` to enable, `-FLAG` to disable a flag. Custom CPU models can specify any flag supported by QEMU/KVM, VM-specific flags must be from the following set for security reasons: `pcid`, `spec-ctrl`, `ibpb`, `ssbd`, `virt-ssbd`, `amd-ssbd`, `amd-no-ssb`, `pdpe1gb`, `md-clear`, `hv-tlbflush`, `hv-evmcs`, `aes`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#flags VirtualEnvironmentVm2#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#flags VirtualEnvironmentVm2#flags}
   */
   readonly flags?: string[];
   /**
   * The number of hotplugged vCPUs (defaults to `0`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#hotplugged VirtualEnvironmentVm2#hotplugged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#hotplugged VirtualEnvironmentVm2#hotplugged}
   */
   readonly hotplugged?: number;
   /**
   * Limit of CPU usage (defaults to `0` which means no limit).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#limit VirtualEnvironmentVm2#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#limit VirtualEnvironmentVm2#limit}
   */
   readonly limit?: number;
   /**
   * Enable NUMA (defaults to `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#numa VirtualEnvironmentVm2#numa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#numa VirtualEnvironmentVm2#numa}
   */
   readonly numa?: boolean | cdktf.IResolvable;
   /**
   * The number of CPU sockets (defaults to `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#sockets VirtualEnvironmentVm2#sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#sockets VirtualEnvironmentVm2#sockets}
   */
   readonly sockets?: number;
   /**
   * Emulated CPU type, it's recommended to use `x86-64-v2-AES` or higher (defaults to `kvm64`). See https://pve.proxmox.com/pve-docs/pve-admin-guide.html#qm_virtual_machines_settings for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#type VirtualEnvironmentVm2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#type VirtualEnvironmentVm2#type}
   */
   readonly type?: string;
   /**
   * CPU weight for a VM. Argument is used in the kernel fair scheduler. The larger the number is, the more CPU time this VM gets. Number is relative to weights of all the other running VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#units VirtualEnvironmentVm2#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#units VirtualEnvironmentVm2#units}
   */
   readonly units?: number;
 }
@@ -761,19 +624,19 @@ export interface VirtualEnvironmentVm2Rng {
   /**
   * Maximum bytes of entropy allowed to get injected into the guest every period. Use 0 to disable limiting (potentially dangerous).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#max_bytes VirtualEnvironmentVm2#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#max_bytes VirtualEnvironmentVm2#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * Period in milliseconds to limit entropy injection to the guest. Use 0 to disable limiting (potentially dangerous).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#period VirtualEnvironmentVm2#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#period VirtualEnvironmentVm2#period}
   */
   readonly period?: number;
   /**
   * The file on the host to gather entropy from. In most cases, `/dev/urandom` should be preferred over `/dev/random` to avoid entropy-starvation issues on the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#source VirtualEnvironmentVm2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#source VirtualEnvironmentVm2#source}
   */
   readonly source?: string;
 }
@@ -927,25 +790,25 @@ export interface VirtualEnvironmentVm2Timeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#create VirtualEnvironmentVm2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#create VirtualEnvironmentVm2#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#delete VirtualEnvironmentVm2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#delete VirtualEnvironmentVm2#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#read VirtualEnvironmentVm2#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#read VirtualEnvironmentVm2#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#update VirtualEnvironmentVm2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#update VirtualEnvironmentVm2#update}
   */
   readonly update?: string;
 }
@@ -1128,19 +991,19 @@ export interface VirtualEnvironmentVm2Vga {
   /**
   * Enable a specific clipboard. If not set, depending on the display type the SPICE one will be added. Currently only `vnc` is available. Migration with VNC clipboard is not supported by Proxmox.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#clipboard VirtualEnvironmentVm2#clipboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#clipboard VirtualEnvironmentVm2#clipboard}
   */
   readonly clipboard?: string;
   /**
   * The VGA memory in megabytes (4-512 MB). Has no effect with serial display. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#memory VirtualEnvironmentVm2#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#memory VirtualEnvironmentVm2#memory}
   */
   readonly memory?: number;
   /**
   * The VGA type (defaults to `std`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#type VirtualEnvironmentVm2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#type VirtualEnvironmentVm2#type}
   */
   readonly type?: string;
 }
@@ -1292,7 +1155,7 @@ export class VirtualEnvironmentVm2VgaOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2 proxmox_virtual_environment_vm2}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2 proxmox_virtual_environment_vm2}
 */
 export class VirtualEnvironmentVm2 extends cdktf.TerraformResource {
 
@@ -1308,7 +1171,7 @@ export class VirtualEnvironmentVm2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentVm2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentVm2 to import
-  * @param importFromId The id of the existing VirtualEnvironmentVm2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentVm2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentVm2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1320,7 +1183,7 @@ export class VirtualEnvironmentVm2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_vm2 proxmox_virtual_environment_vm2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_vm2 proxmox_virtual_environment_vm2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1331,8 +1194,8 @@ export class VirtualEnvironmentVm2 extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_vm2',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1343,7 +1206,6 @@ export class VirtualEnvironmentVm2 extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._cdrom.internalValue = config.cdrom;
-    this._clone.internalValue = config.clone;
     this._cpu.internalValue = config.cpu;
     this._deleteUnreferencedDisksOnDestroy = config.deleteUnreferencedDisksOnDestroy;
     this._description = config.description;
@@ -1377,22 +1239,6 @@ export class VirtualEnvironmentVm2 extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get cdromInput() {
     return this._cdrom.internalValue;
-  }
-
-  // clone - computed: false, optional: true, required: false
-  private _clone = new VirtualEnvironmentVm2CloneOutputReference(this, "clone");
-  public get clone() {
-    return this._clone;
-  }
-  public putClone(value: VirtualEnvironmentVm2Clone) {
-    this._clone.internalValue = value;
-  }
-  public resetClone() {
-    this._clone.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get cloneInput() {
-    return this._clone.internalValue;
   }
 
   // cpu - computed: true, optional: true, required: false
@@ -1607,7 +1453,6 @@ export class VirtualEnvironmentVm2 extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       cdrom: cdktf.hashMapper(virtualEnvironmentVm2CdromToTerraform)(this._cdrom.internalValue),
-      clone: virtualEnvironmentVm2CloneToTerraform(this._clone.internalValue),
       cpu: virtualEnvironmentVm2CpuToTerraform(this._cpu.internalValue),
       delete_unreferenced_disks_on_destroy: cdktf.booleanToTerraform(this._deleteUnreferencedDisksOnDestroy),
       description: cdktf.stringToTerraform(this._description),
@@ -1631,12 +1476,6 @@ export class VirtualEnvironmentVm2 extends cdktf.TerraformResource {
         isBlock: true,
         type: "map",
         storageClassType: "VirtualEnvironmentVm2CdromMap",
-      },
-      clone: {
-        value: virtualEnvironmentVm2CloneToHclTerraform(this._clone.internalValue),
-        isBlock: true,
-        type: "struct",
-        storageClassType: "VirtualEnvironmentVm2Clone",
       },
       cpu: {
         value: virtualEnvironmentVm2CpuToHclTerraform(this._cpu.internalValue),

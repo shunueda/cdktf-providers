@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_standard_repository
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_standard_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VirtualEnvironmentAptStandardRepositoryConfig extends cdktf.Ter
   /**
   * The handle of the APT standard repository. Must be `ceph-quincy-enterprise` | `ceph-quincy-no-subscription` | `ceph-quincy-test` | `ceph-reef-enterprise` | `ceph-reef-no-subscription` | `ceph-reef-test` | `ceph-squid-enterprise` | `ceph-squid-no-subscription` | `ceph-squid-test` | `enterprise` | `no-subscription` | `test`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_standard_repository#handle VirtualEnvironmentAptStandardRepository#handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_standard_repository#handle VirtualEnvironmentAptStandardRepository#handle}
   */
   readonly handle: string;
   /**
   * The name of the target Proxmox VE node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_standard_repository#node VirtualEnvironmentAptStandardRepository#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_standard_repository#node VirtualEnvironmentAptStandardRepository#node}
   */
   readonly nodeAttribute: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_standard_repository proxmox_virtual_environment_apt_standard_repository}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_standard_repository proxmox_virtual_environment_apt_standard_repository}
 */
 export class VirtualEnvironmentAptStandardRepository extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class VirtualEnvironmentAptStandardRepository extends cdktf.TerraformReso
   * Generates CDKTF code for importing a VirtualEnvironmentAptStandardRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentAptStandardRepository to import
-  * @param importFromId The id of the existing VirtualEnvironmentAptStandardRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_standard_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentAptStandardRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_standard_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentAptStandardRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class VirtualEnvironmentAptStandardRepository extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_apt_standard_repository proxmox_virtual_environment_apt_standard_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_apt_standard_repository proxmox_virtual_environment_apt_standard_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class VirtualEnvironmentAptStandardRepository extends cdktf.TerraformReso
       terraformResourceType: 'proxmox_virtual_environment_apt_standard_repository',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_dir
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_dir
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VirtualEnvironmentHardwareMappingDirConfig extends cdktf.Terraf
   /**
   * The comment of this directory mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_dir#comment VirtualEnvironmentHardwareMappingDir#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_dir#comment VirtualEnvironmentHardwareMappingDir#comment}
   */
   readonly comment?: string;
   /**
   * The actual map of devices for the hardware mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_dir#map VirtualEnvironmentHardwareMappingDir#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_dir#map VirtualEnvironmentHardwareMappingDir#map}
   */
   readonly map: VirtualEnvironmentHardwareMappingDirMap[] | cdktf.IResolvable;
   /**
   * The name of this directory mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_dir#name VirtualEnvironmentHardwareMappingDir#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_dir#name VirtualEnvironmentHardwareMappingDir#name}
   */
   readonly name: string;
 }
@@ -30,13 +30,13 @@ export interface VirtualEnvironmentHardwareMappingDirMap {
   /**
   * The node this mapping applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_dir#node VirtualEnvironmentHardwareMappingDir#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_dir#node VirtualEnvironmentHardwareMappingDir#node}
   */
   readonly nodeAttribute: string;
   /**
   * The path of the map. For directory mappings the path is required and refers to the POSIX path of the directory as visible from the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_dir#path VirtualEnvironmentHardwareMappingDir#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_dir#path VirtualEnvironmentHardwareMappingDir#path}
   */
   readonly path: string;
 }
@@ -175,7 +175,7 @@ export class VirtualEnvironmentHardwareMappingDirMapList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_dir proxmox_virtual_environment_hardware_mapping_dir}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_dir proxmox_virtual_environment_hardware_mapping_dir}
 */
 export class VirtualEnvironmentHardwareMappingDir extends cdktf.TerraformResource {
 
@@ -191,7 +191,7 @@ export class VirtualEnvironmentHardwareMappingDir extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a VirtualEnvironmentHardwareMappingDir resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentHardwareMappingDir to import
-  * @param importFromId The id of the existing VirtualEnvironmentHardwareMappingDir that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_dir#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentHardwareMappingDir that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_dir#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentHardwareMappingDir to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -203,7 +203,7 @@ export class VirtualEnvironmentHardwareMappingDir extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_dir proxmox_virtual_environment_hardware_mapping_dir} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_dir proxmox_virtual_environment_hardware_mapping_dir} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,8 +214,8 @@ export class VirtualEnvironmentHardwareMappingDir extends cdktf.TerraformResourc
       terraformResourceType: 'proxmox_virtual_environment_hardware_mapping_dir',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

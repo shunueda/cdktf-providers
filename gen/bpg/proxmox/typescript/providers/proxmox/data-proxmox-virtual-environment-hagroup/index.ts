@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_hagroup
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_hagroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataProxmoxVirtualEnvironmentHagroupConfig extends cdktf.Terraf
   /**
   * The identifier of the High Availability group to read.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_hagroup#group DataProxmoxVirtualEnvironmentHagroup#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_hagroup#group DataProxmoxVirtualEnvironmentHagroup#group}
   */
   readonly group: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_hagroup proxmox_virtual_environment_hagroup}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_hagroup proxmox_virtual_environment_hagroup}
 */
 export class DataProxmoxVirtualEnvironmentHagroup extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataProxmoxVirtualEnvironmentHagroup extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataProxmoxVirtualEnvironmentHagroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProxmoxVirtualEnvironmentHagroup to import
-  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentHagroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_hagroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentHagroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_hagroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProxmoxVirtualEnvironmentHagroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataProxmoxVirtualEnvironmentHagroup extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/data-sources/virtual_environment_hagroup proxmox_virtual_environment_hagroup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/data-sources/virtual_environment_hagroup proxmox_virtual_environment_hagroup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataProxmoxVirtualEnvironmentHagroup extends cdktf.TerraformDataSou
       terraformResourceType: 'proxmox_virtual_environment_hagroup',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "ignition": "2.5.1"
+    "ignition": "2.6.0"
   }
 }

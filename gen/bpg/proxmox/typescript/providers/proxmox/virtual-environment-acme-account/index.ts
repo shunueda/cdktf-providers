@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_acme_account
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_acme_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface VirtualEnvironmentAcmeAccountConfig extends cdktf.TerraformMeta
   /**
   * The contact email addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_acme_account#contact VirtualEnvironmentAcmeAccount#contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_acme_account#contact VirtualEnvironmentAcmeAccount#contact}
   */
   readonly contact: string;
   /**
   * The URL of the ACME CA directory endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_acme_account#directory VirtualEnvironmentAcmeAccount#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_acme_account#directory VirtualEnvironmentAcmeAccount#directory}
   */
   readonly directory?: string;
   /**
   * The HMAC key for External Account Binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_acme_account#eab_hmac_key VirtualEnvironmentAcmeAccount#eab_hmac_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_acme_account#eab_hmac_key VirtualEnvironmentAcmeAccount#eab_hmac_key}
   */
   readonly eabHmacKey?: string;
   /**
   * The Key Identifier for External Account Binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_acme_account#eab_kid VirtualEnvironmentAcmeAccount#eab_kid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_acme_account#eab_kid VirtualEnvironmentAcmeAccount#eab_kid}
   */
   readonly eabKid?: string;
   /**
   * The ACME account config file name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_acme_account#name VirtualEnvironmentAcmeAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_acme_account#name VirtualEnvironmentAcmeAccount#name}
   */
   readonly name?: string;
   /**
   * The URL of CA TermsOfService - setting this indicates agreement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_acme_account#tos VirtualEnvironmentAcmeAccount#tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_acme_account#tos VirtualEnvironmentAcmeAccount#tos}
   */
   readonly tos?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_acme_account proxmox_virtual_environment_acme_account}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_acme_account proxmox_virtual_environment_acme_account}
 */
 export class VirtualEnvironmentAcmeAccount extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class VirtualEnvironmentAcmeAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentAcmeAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentAcmeAccount to import
-  * @param importFromId The id of the existing VirtualEnvironmentAcmeAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_acme_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentAcmeAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_acme_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentAcmeAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class VirtualEnvironmentAcmeAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_acme_account proxmox_virtual_environment_acme_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_acme_account proxmox_virtual_environment_acme_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class VirtualEnvironmentAcmeAccount extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_acme_account',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

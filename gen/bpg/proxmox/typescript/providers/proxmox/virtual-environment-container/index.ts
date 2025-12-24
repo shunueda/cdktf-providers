@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface VirtualEnvironmentContainerConfig extends cdktf.TerraformMetaAr
   /**
   * The description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#description VirtualEnvironmentContainer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#description VirtualEnvironmentContainer#description}
   */
   readonly description?: string;
   /**
   * The runtime environment variables for the container init process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#environment_variables VirtualEnvironmentContainer#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#environment_variables VirtualEnvironmentContainer#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
   * A hook script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#hook_script_file_id VirtualEnvironmentContainer#hook_script_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#hook_script_file_id VirtualEnvironmentContainer#hook_script_file_id}
   */
   readonly hookScriptFileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#id VirtualEnvironmentContainer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#id VirtualEnvironmentContainer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,163 +35,163 @@ export interface VirtualEnvironmentContainerConfig extends cdktf.TerraformMetaAr
   /**
   * The node name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#node_name VirtualEnvironmentContainer#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#node_name VirtualEnvironmentContainer#node_name}
   */
   readonly nodeName: string;
   /**
   * The ID of the pool to assign the container to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#pool_id VirtualEnvironmentContainer#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#pool_id VirtualEnvironmentContainer#pool_id}
   */
   readonly poolId?: string;
   /**
   * Whether to set the protection flag of the container. This will prevent the container itself and its disk for remove/update operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#protection VirtualEnvironmentContainer#protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#protection VirtualEnvironmentContainer#protection}
   */
   readonly protection?: boolean | cdktf.IResolvable;
   /**
   * Automatically start container when the host system boots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#start_on_boot VirtualEnvironmentContainer#start_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#start_on_boot VirtualEnvironmentContainer#start_on_boot}
   */
   readonly startOnBoot?: boolean | cdktf.IResolvable;
   /**
   * Whether to start the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#started VirtualEnvironmentContainer#started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#started VirtualEnvironmentContainer#started}
   */
   readonly started?: boolean | cdktf.IResolvable;
   /**
   * Tags of the container. This is only meta information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#tags VirtualEnvironmentContainer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#tags VirtualEnvironmentContainer#tags}
   */
   readonly tags?: string[];
   /**
   * Whether to create a template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#template VirtualEnvironmentContainer#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#template VirtualEnvironmentContainer#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
   * Clone container timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#timeout_clone VirtualEnvironmentContainer#timeout_clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#timeout_clone VirtualEnvironmentContainer#timeout_clone}
   */
   readonly timeoutClone?: number;
   /**
   * Create container timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#timeout_create VirtualEnvironmentContainer#timeout_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#timeout_create VirtualEnvironmentContainer#timeout_create}
   */
   readonly timeoutCreate?: number;
   /**
   * Delete container timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#timeout_delete VirtualEnvironmentContainer#timeout_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#timeout_delete VirtualEnvironmentContainer#timeout_delete}
   */
   readonly timeoutDelete?: number;
   /**
   * Start container timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#timeout_start VirtualEnvironmentContainer#timeout_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#timeout_start VirtualEnvironmentContainer#timeout_start}
   */
   readonly timeoutStart?: number;
   /**
   * Update container timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#timeout_update VirtualEnvironmentContainer#timeout_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#timeout_update VirtualEnvironmentContainer#timeout_update}
   */
   readonly timeoutUpdate?: number;
   /**
   * Whether the container runs as unprivileged on the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#unprivileged VirtualEnvironmentContainer#unprivileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#unprivileged VirtualEnvironmentContainer#unprivileged}
   */
   readonly unprivileged?: boolean | cdktf.IResolvable;
   /**
   * The VM identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#vm_id VirtualEnvironmentContainer#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#vm_id VirtualEnvironmentContainer#vm_id}
   */
   readonly vmId?: number;
   /**
   * clone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#clone VirtualEnvironmentContainer#clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#clone VirtualEnvironmentContainer#clone}
   */
   readonly clone?: VirtualEnvironmentContainerClone;
   /**
   * console block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#console VirtualEnvironmentContainer#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#console VirtualEnvironmentContainer#console}
   */
   readonly console?: VirtualEnvironmentContainerConsole;
   /**
   * cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#cpu VirtualEnvironmentContainer#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#cpu VirtualEnvironmentContainer#cpu}
   */
   readonly cpu?: VirtualEnvironmentContainerCpu;
   /**
   * device_passthrough block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#device_passthrough VirtualEnvironmentContainer#device_passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#device_passthrough VirtualEnvironmentContainer#device_passthrough}
   */
   readonly devicePassthrough?: VirtualEnvironmentContainerDevicePassthrough[] | cdktf.IResolvable;
   /**
   * disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#disk VirtualEnvironmentContainer#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#disk VirtualEnvironmentContainer#disk}
   */
   readonly disk?: VirtualEnvironmentContainerDisk;
   /**
   * features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#features VirtualEnvironmentContainer#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#features VirtualEnvironmentContainer#features}
   */
   readonly features?: VirtualEnvironmentContainerFeatures;
   /**
   * initialization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#initialization VirtualEnvironmentContainer#initialization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#initialization VirtualEnvironmentContainer#initialization}
   */
   readonly initialization?: VirtualEnvironmentContainerInitialization;
   /**
   * memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#memory VirtualEnvironmentContainer#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#memory VirtualEnvironmentContainer#memory}
   */
   readonly memory?: VirtualEnvironmentContainerMemory;
   /**
   * mount_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#mount_point VirtualEnvironmentContainer#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#mount_point VirtualEnvironmentContainer#mount_point}
   */
   readonly mountPoint?: VirtualEnvironmentContainerMountPoint[] | cdktf.IResolvable;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#network_interface VirtualEnvironmentContainer#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#network_interface VirtualEnvironmentContainer#network_interface}
   */
   readonly networkInterface?: VirtualEnvironmentContainerNetworkInterface[] | cdktf.IResolvable;
   /**
   * operating_system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#operating_system VirtualEnvironmentContainer#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#operating_system VirtualEnvironmentContainer#operating_system}
   */
   readonly operatingSystem?: VirtualEnvironmentContainerOperatingSystem;
   /**
   * startup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#startup VirtualEnvironmentContainer#startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#startup VirtualEnvironmentContainer#startup}
   */
   readonly startup?: VirtualEnvironmentContainerStartup;
   /**
   * wait_for_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#wait_for_ip VirtualEnvironmentContainer#wait_for_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#wait_for_ip VirtualEnvironmentContainer#wait_for_ip}
   */
   readonly waitForIp?: VirtualEnvironmentContainerWaitForIp;
 }
@@ -199,19 +199,19 @@ export interface VirtualEnvironmentContainerClone {
   /**
   * The ID of the target datastore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#datastore_id VirtualEnvironmentContainer#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#datastore_id VirtualEnvironmentContainer#datastore_id}
   */
   readonly datastoreId?: string;
   /**
   * The name of the source node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#node_name VirtualEnvironmentContainer#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#node_name VirtualEnvironmentContainer#node_name}
   */
   readonly nodeName?: string;
   /**
   * The ID of the source container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#vm_id VirtualEnvironmentContainer#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#vm_id VirtualEnvironmentContainer#vm_id}
   */
   readonly vmId: number;
 }
@@ -352,19 +352,19 @@ export interface VirtualEnvironmentContainerConsole {
   /**
   * Whether to enable the console device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#enabled VirtualEnvironmentContainer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#enabled VirtualEnvironmentContainer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of available TTY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#tty_count VirtualEnvironmentContainer#tty_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#tty_count VirtualEnvironmentContainer#tty_count}
   */
   readonly ttyCount?: number;
   /**
   * The console mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#type VirtualEnvironmentContainer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#type VirtualEnvironmentContainer#type}
   */
   readonly type?: string;
 }
@@ -508,19 +508,19 @@ export interface VirtualEnvironmentContainerCpu {
   /**
   * The CPU architecture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#architecture VirtualEnvironmentContainer#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#architecture VirtualEnvironmentContainer#architecture}
   */
   readonly architecture?: string;
   /**
   * The number of CPU cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#cores VirtualEnvironmentContainer#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#cores VirtualEnvironmentContainer#cores}
   */
   readonly cores?: number;
   /**
   * The CPU units
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#units VirtualEnvironmentContainer#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#units VirtualEnvironmentContainer#units}
   */
   readonly units?: number;
 }
@@ -664,31 +664,31 @@ export interface VirtualEnvironmentContainerDevicePassthrough {
   /**
   * Deny the container to write to the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#deny_write VirtualEnvironmentContainer#deny_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#deny_write VirtualEnvironmentContainer#deny_write}
   */
   readonly denyWrite?: boolean | cdktf.IResolvable;
   /**
   * Group ID to be assigned to the device node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#gid VirtualEnvironmentContainer#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#gid VirtualEnvironmentContainer#gid}
   */
   readonly gid?: number;
   /**
   * Access mode to be set on the device node (e.g. 0666)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#mode VirtualEnvironmentContainer#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#mode VirtualEnvironmentContainer#mode}
   */
   readonly mode?: string;
   /**
   * Device to pass through to the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#path VirtualEnvironmentContainer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#path VirtualEnvironmentContainer#path}
   */
   readonly path: string;
   /**
   * Device UID in the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#uid VirtualEnvironmentContainer#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#uid VirtualEnvironmentContainer#uid}
   */
   readonly uid?: number;
 }
@@ -919,37 +919,37 @@ export interface VirtualEnvironmentContainerDisk {
   /**
   * Explicitly enable or disable ACL support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#acl VirtualEnvironmentContainer#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#acl VirtualEnvironmentContainer#acl}
   */
   readonly acl?: boolean | cdktf.IResolvable;
   /**
   * The datastore id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#datastore_id VirtualEnvironmentContainer#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#datastore_id VirtualEnvironmentContainer#datastore_id}
   */
   readonly datastoreId?: string;
   /**
   * Extra mount options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#mount_options VirtualEnvironmentContainer#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#mount_options VirtualEnvironmentContainer#mount_options}
   */
   readonly mountOptions?: string[];
   /**
   * Enable user quotas for the container rootfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#quota VirtualEnvironmentContainer#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#quota VirtualEnvironmentContainer#quota}
   */
   readonly quota?: boolean | cdktf.IResolvable;
   /**
   * Will include this volume to a storage replica job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#replicate VirtualEnvironmentContainer#replicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#replicate VirtualEnvironmentContainer#replicate}
   */
   readonly replicate?: boolean | cdktf.IResolvable;
   /**
   * The rootfs size in gigabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#size VirtualEnvironmentContainer#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#size VirtualEnvironmentContainer#size}
   */
   readonly size?: number;
 }
@@ -1180,25 +1180,25 @@ export interface VirtualEnvironmentContainerFeatures {
   /**
   * Whether the container supports FUSE mounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#fuse VirtualEnvironmentContainer#fuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#fuse VirtualEnvironmentContainer#fuse}
   */
   readonly fuse?: boolean | cdktf.IResolvable;
   /**
   * Whether the container supports `keyctl()` system call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#keyctl VirtualEnvironmentContainer#keyctl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#keyctl VirtualEnvironmentContainer#keyctl}
   */
   readonly keyctl?: boolean | cdktf.IResolvable;
   /**
   * List of allowed mount types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#mount VirtualEnvironmentContainer#mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#mount VirtualEnvironmentContainer#mount}
   */
   readonly mount?: string[];
   /**
   * Whether the container runs as nested
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#nesting VirtualEnvironmentContainer#nesting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#nesting VirtualEnvironmentContainer#nesting}
   */
   readonly nesting?: boolean | cdktf.IResolvable;
 }
@@ -1371,19 +1371,19 @@ export interface VirtualEnvironmentContainerInitializationDns {
   /**
   * The DNS search domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#domain VirtualEnvironmentContainer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#domain VirtualEnvironmentContainer#domain}
   */
   readonly domain?: string;
   /**
   * The DNS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#server VirtualEnvironmentContainer#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#server VirtualEnvironmentContainer#server}
   */
   readonly server?: string;
   /**
   * The list of DNS servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#servers VirtualEnvironmentContainer#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#servers VirtualEnvironmentContainer#servers}
   */
   readonly servers?: string[];
 }
@@ -1527,13 +1527,13 @@ export interface VirtualEnvironmentContainerInitializationIpConfigIpv4 {
   /**
   * The IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#address VirtualEnvironmentContainer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#address VirtualEnvironmentContainer#address}
   */
   readonly address?: string;
   /**
   * The IPv4 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#gateway VirtualEnvironmentContainer#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#gateway VirtualEnvironmentContainer#gateway}
   */
   readonly gateway?: string;
 }
@@ -1648,13 +1648,13 @@ export interface VirtualEnvironmentContainerInitializationIpConfigIpv6 {
   /**
   * The IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#address VirtualEnvironmentContainer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#address VirtualEnvironmentContainer#address}
   */
   readonly address?: string;
   /**
   * The IPv6 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#gateway VirtualEnvironmentContainer#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#gateway VirtualEnvironmentContainer#gateway}
   */
   readonly gateway?: string;
 }
@@ -1769,13 +1769,13 @@ export interface VirtualEnvironmentContainerInitializationIpConfig {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#ipv4 VirtualEnvironmentContainer#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#ipv4 VirtualEnvironmentContainer#ipv4}
   */
   readonly ipv4?: VirtualEnvironmentContainerInitializationIpConfigIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#ipv6 VirtualEnvironmentContainer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#ipv6 VirtualEnvironmentContainer#ipv6}
   */
   readonly ipv6?: VirtualEnvironmentContainerInitializationIpConfigIpv6;
 }
@@ -1922,13 +1922,13 @@ export interface VirtualEnvironmentContainerInitializationUserAccount {
   /**
   * The SSH keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#keys VirtualEnvironmentContainer#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#keys VirtualEnvironmentContainer#keys}
   */
   readonly keys?: string[];
   /**
   * The SSH password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#password VirtualEnvironmentContainer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#password VirtualEnvironmentContainer#password}
   */
   readonly password?: string;
 }
@@ -2043,25 +2043,25 @@ export interface VirtualEnvironmentContainerInitialization {
   /**
   * The hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#hostname VirtualEnvironmentContainer#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#hostname VirtualEnvironmentContainer#hostname}
   */
   readonly hostname?: string;
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#dns VirtualEnvironmentContainer#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#dns VirtualEnvironmentContainer#dns}
   */
   readonly dns?: VirtualEnvironmentContainerInitializationDns;
   /**
   * ip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#ip_config VirtualEnvironmentContainer#ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#ip_config VirtualEnvironmentContainer#ip_config}
   */
   readonly ipConfig?: VirtualEnvironmentContainerInitializationIpConfig[] | cdktf.IResolvable;
   /**
   * user_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#user_account VirtualEnvironmentContainer#user_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#user_account VirtualEnvironmentContainer#user_account}
   */
   readonly userAccount?: VirtualEnvironmentContainerInitializationUserAccount;
 }
@@ -2234,13 +2234,13 @@ export interface VirtualEnvironmentContainerMemory {
   /**
   * The dedicated memory in megabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#dedicated VirtualEnvironmentContainer#dedicated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#dedicated VirtualEnvironmentContainer#dedicated}
   */
   readonly dedicated?: number;
   /**
   * The swap size in megabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#swap VirtualEnvironmentContainer#swap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#swap VirtualEnvironmentContainer#swap}
   */
   readonly swap?: number;
 }
@@ -2355,61 +2355,61 @@ export interface VirtualEnvironmentContainerMountPoint {
   /**
   * Explicitly enable or disable ACL support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#acl VirtualEnvironmentContainer#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#acl VirtualEnvironmentContainer#acl}
   */
   readonly acl?: boolean | cdktf.IResolvable;
   /**
   * Whether to include the mount point in backups (only used for volume mount points)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#backup VirtualEnvironmentContainer#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#backup VirtualEnvironmentContainer#backup}
   */
   readonly backup?: boolean | cdktf.IResolvable;
   /**
   * Extra mount options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#mount_options VirtualEnvironmentContainer#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#mount_options VirtualEnvironmentContainer#mount_options}
   */
   readonly mountOptions?: string[];
   /**
   * Path to the mount point as seen from inside the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#path VirtualEnvironmentContainer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#path VirtualEnvironmentContainer#path}
   */
   readonly path: string;
   /**
   * Enable user quotas inside the container (not supported with volume mounts)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#quota VirtualEnvironmentContainer#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#quota VirtualEnvironmentContainer#quota}
   */
   readonly quota?: boolean | cdktf.IResolvable;
   /**
   * Read-only mount point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#read_only VirtualEnvironmentContainer#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#read_only VirtualEnvironmentContainer#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Will include this volume to a storage replica job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#replicate VirtualEnvironmentContainer#replicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#replicate VirtualEnvironmentContainer#replicate}
   */
   readonly replicate?: boolean | cdktf.IResolvable;
   /**
   * Mark this non-volume mount point as available on all nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#shared VirtualEnvironmentContainer#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#shared VirtualEnvironmentContainer#shared}
   */
   readonly shared?: boolean | cdktf.IResolvable;
   /**
   * Volume size (only used for volume mount points)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#size VirtualEnvironmentContainer#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#size VirtualEnvironmentContainer#size}
   */
   readonly size?: string;
   /**
   * Volume, device or directory to mount into the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#volume VirtualEnvironmentContainer#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#volume VirtualEnvironmentContainer#volume}
   */
   readonly volume: string;
 }
@@ -2782,49 +2782,49 @@ export interface VirtualEnvironmentContainerNetworkInterface {
   /**
   * The bridge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#bridge VirtualEnvironmentContainer#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#bridge VirtualEnvironmentContainer#bridge}
   */
   readonly bridge?: string;
   /**
   * Whether to enable the network device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#enabled VirtualEnvironmentContainer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#enabled VirtualEnvironmentContainer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether this interface's firewall rules should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#firewall VirtualEnvironmentContainer#firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#firewall VirtualEnvironmentContainer#firewall}
   */
   readonly firewall?: boolean | cdktf.IResolvable;
   /**
   * The MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#mac_address VirtualEnvironmentContainer#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#mac_address VirtualEnvironmentContainer#mac_address}
   */
   readonly macAddress?: string;
   /**
   * Maximum transmission unit (MTU)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#mtu VirtualEnvironmentContainer#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#mtu VirtualEnvironmentContainer#mtu}
   */
   readonly mtu?: number;
   /**
   * The network interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#name VirtualEnvironmentContainer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#name VirtualEnvironmentContainer#name}
   */
   readonly name: string;
   /**
   * The rate limit in megabytes per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#rate_limit VirtualEnvironmentContainer#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#rate_limit VirtualEnvironmentContainer#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * The VLAN identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#vlan_id VirtualEnvironmentContainer#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#vlan_id VirtualEnvironmentContainer#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -3142,13 +3142,13 @@ export interface VirtualEnvironmentContainerOperatingSystem {
   /**
   * The ID of an OS template file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#template_file_id VirtualEnvironmentContainer#template_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#template_file_id VirtualEnvironmentContainer#template_file_id}
   */
   readonly templateFileId: string;
   /**
   * The type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#type VirtualEnvironmentContainer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#type VirtualEnvironmentContainer#type}
   */
   readonly type?: string;
 }
@@ -3260,19 +3260,19 @@ export interface VirtualEnvironmentContainerStartup {
   /**
   * A non-negative number defining the delay in seconds before the next container is shut down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#down_delay VirtualEnvironmentContainer#down_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#down_delay VirtualEnvironmentContainer#down_delay}
   */
   readonly downDelay?: number;
   /**
   * A non-negative number defining the general startup order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#order VirtualEnvironmentContainer#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#order VirtualEnvironmentContainer#order}
   */
   readonly order?: number;
   /**
   * A non-negative number defining the delay in seconds before the next container is started
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#up_delay VirtualEnvironmentContainer#up_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#up_delay VirtualEnvironmentContainer#up_delay}
   */
   readonly upDelay?: number;
 }
@@ -3416,13 +3416,13 @@ export interface VirtualEnvironmentContainerWaitForIp {
   /**
   * Wait for at least one IPv4 address (non-loopback, non-link-local)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#ipv4 VirtualEnvironmentContainer#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#ipv4 VirtualEnvironmentContainer#ipv4}
   */
   readonly ipv4?: boolean | cdktf.IResolvable;
   /**
   * Wait for at least one IPv6 address (non-loopback, non-link-local)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#ipv6 VirtualEnvironmentContainer#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#ipv6 VirtualEnvironmentContainer#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
 }
@@ -3535,7 +3535,7 @@ export class VirtualEnvironmentContainerWaitForIpOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container proxmox_virtual_environment_container}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container proxmox_virtual_environment_container}
 */
 export class VirtualEnvironmentContainer extends cdktf.TerraformResource {
 
@@ -3551,7 +3551,7 @@ export class VirtualEnvironmentContainer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentContainer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentContainer to import
-  * @param importFromId The id of the existing VirtualEnvironmentContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentContainer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3563,7 +3563,7 @@ export class VirtualEnvironmentContainer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_container proxmox_virtual_environment_container} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_container proxmox_virtual_environment_container} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3574,8 +3574,8 @@ export class VirtualEnvironmentContainer extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_container',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_docker_profile
+// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_docker_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,31 @@ export interface InextDockerProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Controls the settings of the connected agents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_docker_profile#additional_settings InextDockerProfile#additional_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_docker_profile#additional_settings InextDockerProfile#additional_settings}
   */
   readonly additionalSettings?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_docker_profile#defined_applications_only InextDockerProfile#defined_applications_only}
+  * Sets whether reverse proxy will block undefined applications or not
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_docker_profile#defined_applications_only InextDockerProfile#defined_applications_only}
   */
   readonly definedApplicationsOnly?: boolean | cdktf.IResolvable;
   /**
   * Sets the maximum number of agents that can be connected to this profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_docker_profile#max_number_of_agents InextDockerProfile#max_number_of_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_docker_profile#max_number_of_agents InextDockerProfile#max_number_of_agents}
   */
   readonly maxNumberOfAgents?: number;
   /**
   * The name of the resource, also acts as its unique ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_docker_profile#name InextDockerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_docker_profile#name InextDockerProfile#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_docker_profile inext_docker_profile}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_docker_profile inext_docker_profile}
 */
 export class InextDockerProfile extends cdktf.TerraformResource {
 
@@ -48,7 +50,7 @@ export class InextDockerProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InextDockerProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InextDockerProfile to import
-  * @param importFromId The id of the existing InextDockerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_docker_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InextDockerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_docker_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InextDockerProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -60,7 +62,7 @@ export class InextDockerProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_docker_profile inext_docker_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_docker_profile inext_docker_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,8 +73,8 @@ export class InextDockerProfile extends cdktf.TerraformResource {
       terraformResourceType: 'inext_docker_profile',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.3.2',
-        providerVersionConstraint: '1.3.2'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -118,7 +120,7 @@ export class InextDockerProfile extends cdktf.TerraformResource {
     return this.getStringAttribute('authentication_token');
   }
 
-  // defined_applications_only - computed: true, optional: true, required: false
+  // defined_applications_only - computed: false, optional: true, required: false
   private _definedApplicationsOnly?: boolean | cdktf.IResolvable; 
   public get definedApplicationsOnly() {
     return this.getBooleanAttribute('defined_applications_only');

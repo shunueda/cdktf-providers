@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hagroup
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hagroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface VirtualEnvironmentHagroupConfig extends cdktf.TerraformMetaArgu
   /**
   * The comment associated with this group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hagroup#comment VirtualEnvironmentHagroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hagroup#comment VirtualEnvironmentHagroup#comment}
   */
   readonly comment?: string;
   /**
   * The identifier of the High Availability group to manage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hagroup#group VirtualEnvironmentHagroup#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hagroup#group VirtualEnvironmentHagroup#group}
   */
   readonly group: string;
   /**
   * A flag that indicates that failing back to a higher priority node is disabled for this HA group. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hagroup#no_failback VirtualEnvironmentHagroup#no_failback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hagroup#no_failback VirtualEnvironmentHagroup#no_failback}
   */
   readonly noFailback?: boolean | cdktf.IResolvable;
   /**
   * The member nodes for this group. They are provided as a map, where the keys are the node names and the values represent their priority: integers for known priorities or `null` for unset priorities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hagroup#nodes VirtualEnvironmentHagroup#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hagroup#nodes VirtualEnvironmentHagroup#nodes}
   */
   readonly nodes: { [key: string]: number };
   /**
   * A flag that indicates that other nodes may not be used to run resources associated to this HA group. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hagroup#restricted VirtualEnvironmentHagroup#restricted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hagroup#restricted VirtualEnvironmentHagroup#restricted}
   */
   readonly restricted?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hagroup proxmox_virtual_environment_hagroup}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hagroup proxmox_virtual_environment_hagroup}
 */
 export class VirtualEnvironmentHagroup extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class VirtualEnvironmentHagroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentHagroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentHagroup to import
-  * @param importFromId The id of the existing VirtualEnvironmentHagroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hagroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentHagroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hagroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentHagroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class VirtualEnvironmentHagroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hagroup proxmox_virtual_environment_hagroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hagroup proxmox_virtual_environment_hagroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class VirtualEnvironmentHagroup extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_hagroup',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

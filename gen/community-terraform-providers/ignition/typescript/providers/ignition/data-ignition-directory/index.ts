@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/directory
+// https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/directory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DataIgnitionDirectoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/directory#gid DataIgnitionDirectory#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/directory#gid DataIgnitionDirectory#gid}
   */
   readonly gid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/directory#id DataIgnitionDirectory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/directory#group DataIgnitionDirectory#group}
+  */
+  readonly group?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/directory#id DataIgnitionDirectory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/directory#mode DataIgnitionDirectory#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/directory#mode DataIgnitionDirectory#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/directory#overwrite DataIgnitionDirectory#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/directory#overwrite DataIgnitionDirectory#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/directory#path DataIgnitionDirectory#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/directory#path DataIgnitionDirectory#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/directory#uid DataIgnitionDirectory#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/directory#uid DataIgnitionDirectory#uid}
   */
   readonly uid?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/directory#user DataIgnitionDirectory#user}
+  */
+  readonly user?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/directory ignition_directory}
+* Represents a {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/directory ignition_directory}
 */
 export class DataIgnitionDirectory extends cdktf.TerraformDataSource {
 
@@ -53,7 +61,7 @@ export class DataIgnitionDirectory extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIgnitionDirectory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIgnitionDirectory to import
-  * @param importFromId The id of the existing DataIgnitionDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/directory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIgnitionDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/directory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIgnitionDirectory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +73,7 @@ export class DataIgnitionDirectory extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.5.1/docs/data-sources/directory ignition_directory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/community-terraform-providers/ignition/2.6.0/docs/data-sources/directory ignition_directory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +84,8 @@ export class DataIgnitionDirectory extends cdktf.TerraformDataSource {
       terraformResourceType: 'ignition_directory',
       terraformGeneratorMetadata: {
         providerName: 'ignition',
-        providerVersion: '2.5.1',
-        providerVersionConstraint: '2.5.1'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -88,11 +96,13 @@ export class DataIgnitionDirectory extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._gid = config.gid;
+    this._group = config.group;
     this._id = config.id;
     this._mode = config.mode;
     this._overwrite = config.overwrite;
     this._path = config.path;
     this._uid = config.uid;
+    this._user = config.user;
   }
 
   // ==========
@@ -113,6 +123,22 @@ export class DataIgnitionDirectory extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get gidInput() {
     return this._gid;
+  }
+
+  // group - computed: false, optional: true, required: false
+  private _group?: string; 
+  public get group() {
+    return this.getStringAttribute('group');
+  }
+  public set group(value: string) {
+    this._group = value;
+  }
+  public resetGroup() {
+    this._group = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupInput() {
+    return this._group;
   }
 
   // id - computed: true, optional: true, required: false
@@ -197,6 +223,22 @@ export class DataIgnitionDirectory extends cdktf.TerraformDataSource {
     return this._uid;
   }
 
+  // user - computed: false, optional: true, required: false
+  private _user?: string; 
+  public get user() {
+    return this.getStringAttribute('user');
+  }
+  public set user(value: string) {
+    this._user = value;
+  }
+  public resetUser() {
+    this._user = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userInput() {
+    return this._user;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -204,11 +246,13 @@ export class DataIgnitionDirectory extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       gid: cdktf.numberToTerraform(this._gid),
+      group: cdktf.stringToTerraform(this._group),
       id: cdktf.stringToTerraform(this._id),
       mode: cdktf.numberToTerraform(this._mode),
       overwrite: cdktf.booleanToTerraform(this._overwrite),
       path: cdktf.stringToTerraform(this._path),
       uid: cdktf.numberToTerraform(this._uid),
+      user: cdktf.stringToTerraform(this._user),
     };
   }
 
@@ -219,6 +263,12 @@ export class DataIgnitionDirectory extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      group: {
+        value: cdktf.stringToHclTerraform(this._group),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
@@ -249,6 +299,12 @@ export class DataIgnitionDirectory extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      user: {
+        value: cdktf.stringToHclTerraform(this._user),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
     };
 

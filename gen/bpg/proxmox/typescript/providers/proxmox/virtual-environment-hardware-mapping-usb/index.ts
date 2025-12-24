@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_usb
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_usb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VirtualEnvironmentHardwareMappingUsbConfig extends cdktf.Terraf
   /**
   * The comment of this USB hardware mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_usb#comment VirtualEnvironmentHardwareMappingUsb#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_usb#comment VirtualEnvironmentHardwareMappingUsb#comment}
   */
   readonly comment?: string;
   /**
   * The actual map of devices for the hardware mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_usb#map VirtualEnvironmentHardwareMappingUsb#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_usb#map VirtualEnvironmentHardwareMappingUsb#map}
   */
   readonly map: VirtualEnvironmentHardwareMappingUsbMap[] | cdktf.IResolvable;
   /**
   * The name of this hardware mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_usb#name VirtualEnvironmentHardwareMappingUsb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_usb#name VirtualEnvironmentHardwareMappingUsb#name}
   */
   readonly name: string;
 }
@@ -30,13 +30,13 @@ export interface VirtualEnvironmentHardwareMappingUsbMap {
   /**
   * The comment of the mapped USB device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_usb#comment VirtualEnvironmentHardwareMappingUsb#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_usb#comment VirtualEnvironmentHardwareMappingUsb#comment}
   */
   readonly comment?: string;
   /**
   * The ID of the map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_usb#id VirtualEnvironmentHardwareMappingUsb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_usb#id VirtualEnvironmentHardwareMappingUsb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,13 +45,13 @@ export interface VirtualEnvironmentHardwareMappingUsbMap {
   /**
   * The node name of the map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_usb#node VirtualEnvironmentHardwareMappingUsb#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_usb#node VirtualEnvironmentHardwareMappingUsb#node}
   */
   readonly nodeAttribute: string;
   /**
   * The path of the map. For hardware mappings of type USB the path is optional and indicates that the device is mapped through the device ID instead of ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_usb#path VirtualEnvironmentHardwareMappingUsb#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_usb#path VirtualEnvironmentHardwareMappingUsb#path}
   */
   readonly path?: string;
 }
@@ -248,7 +248,7 @@ export class VirtualEnvironmentHardwareMappingUsbMapList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_usb proxmox_virtual_environment_hardware_mapping_usb}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_usb proxmox_virtual_environment_hardware_mapping_usb}
 */
 export class VirtualEnvironmentHardwareMappingUsb extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class VirtualEnvironmentHardwareMappingUsb extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a VirtualEnvironmentHardwareMappingUsb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentHardwareMappingUsb to import
-  * @param importFromId The id of the existing VirtualEnvironmentHardwareMappingUsb that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_usb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentHardwareMappingUsb that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_usb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentHardwareMappingUsb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class VirtualEnvironmentHardwareMappingUsb extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_hardware_mapping_usb proxmox_virtual_environment_hardware_mapping_usb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_hardware_mapping_usb proxmox_virtual_environment_hardware_mapping_usb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class VirtualEnvironmentHardwareMappingUsb extends cdktf.TerraformResourc
       terraformResourceType: 'proxmox_virtual_environment_hardware_mapping_usb',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

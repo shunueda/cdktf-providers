@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions
+// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface InextExceptionsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the resource, also acts as its unique ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#name InextExceptions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#name InextExceptions#name}
   */
   readonly name: string;
   /**
   * The visibility of the exception: Shared or Local
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#visibility InextExceptions#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#visibility InextExceptions#visibility}
   */
   readonly visibility?: string;
   /**
   * exception block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#exception InextExceptions#exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#exception InextExceptions#exception}
   */
   readonly exception?: InextExceptionsException[] | cdktf.IResolvable;
 }
 export interface InextExceptionsExceptionMatchOperand {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#key InextExceptions#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#key InextExceptions#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#operator InextExceptions#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#operator InextExceptions#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#value InextExceptions#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#value InextExceptions#value}
   */
   readonly value?: string[];
   /**
   * operand block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#operand InextExceptions#operand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#operand InextExceptions#operand}
   */
   readonly operand?: InextExceptionsExceptionMatchOperand[] | cdktf.IResolvable;
 }
@@ -245,21 +245,21 @@ export class InextExceptionsExceptionMatchOperandList extends cdktf.ComplexList 
 }
 export interface InextExceptionsExceptionMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#key InextExceptions#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#key InextExceptions#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#operator InextExceptions#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#operator InextExceptions#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#value InextExceptions#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#value InextExceptions#value}
   */
   readonly value?: string[];
   /**
   * operand block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#operand InextExceptions#operand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#operand InextExceptions#operand}
   */
   readonly operand?: InextExceptionsExceptionMatchOperand[] | cdktf.IResolvable;
 }
@@ -464,19 +464,19 @@ export interface InextExceptionsException {
   /**
   * The action of the exception: accept, drop, skip or suppressLog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#action InextExceptions#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#action InextExceptions#action}
   */
   readonly action: string;
   /**
   * Comment for the exception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#comment InextExceptions#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#comment InextExceptions#comment}
   */
   readonly comment?: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#match InextExceptions#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#match InextExceptions#match}
   */
   readonly match: InextExceptionsExceptionMatch[] | cdktf.IResolvable;
 }
@@ -654,7 +654,7 @@ export class InextExceptionsExceptionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions inext_exceptions}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions inext_exceptions}
 */
 export class InextExceptions extends cdktf.TerraformResource {
 
@@ -670,7 +670,7 @@ export class InextExceptions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InextExceptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InextExceptions to import
-  * @param importFromId The id of the existing InextExceptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InextExceptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InextExceptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -682,7 +682,7 @@ export class InextExceptions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_exceptions inext_exceptions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.4.0/docs/resources/inext_exceptions inext_exceptions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -693,8 +693,8 @@ export class InextExceptions extends cdktf.TerraformResource {
       terraformResourceType: 'inext_exceptions',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.3.2',
-        providerVersionConstraint: '1.3.2'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

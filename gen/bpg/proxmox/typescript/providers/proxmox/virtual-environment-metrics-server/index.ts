@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface VirtualEnvironmentMetricsServerConfig extends cdktf.TerraformMe
   /**
   * Set this to `true` to disable this metric server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#disable VirtualEnvironmentMetricsServer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#disable VirtualEnvironmentMetricsServer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Root graphite path (ex: `proxmox.mycluster.mykey`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#graphite_path VirtualEnvironmentMetricsServer#graphite_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#graphite_path VirtualEnvironmentMetricsServer#graphite_path}
   */
   readonly graphitePath?: string;
   /**
   * Protocol to send graphite data. Choice is between `udp` | `tcp`. If not set, PVE default is `udp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#graphite_proto VirtualEnvironmentMetricsServer#graphite_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#graphite_proto VirtualEnvironmentMetricsServer#graphite_proto}
   */
   readonly graphiteProto?: string;
   /**
   * An API path prefix inserted between `<host>:<port>/` and `/api2/`. Can be useful if the InfluxDB service runs behind a reverse proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#influx_api_path_prefix VirtualEnvironmentMetricsServer#influx_api_path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#influx_api_path_prefix VirtualEnvironmentMetricsServer#influx_api_path_prefix}
   */
   readonly influxApiPathPrefix?: string;
   /**
   * The InfluxDB bucket/db. Only necessary when using the http v2 api.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#influx_bucket VirtualEnvironmentMetricsServer#influx_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#influx_bucket VirtualEnvironmentMetricsServer#influx_bucket}
   */
   readonly influxBucket?: string;
   /**
   * Protocol for InfluxDB. Choice is between `udp` | `http` | `https`. If not set, PVE default is `udp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#influx_db_proto VirtualEnvironmentMetricsServer#influx_db_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#influx_db_proto VirtualEnvironmentMetricsServer#influx_db_proto}
   */
   readonly influxDbProto?: string;
   /**
   * InfluxDB max-body-size in bytes. Requests are batched up to this size. If not set, PVE default is `25000000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#influx_max_body_size VirtualEnvironmentMetricsServer#influx_max_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#influx_max_body_size VirtualEnvironmentMetricsServer#influx_max_body_size}
   */
   readonly influxMaxBodySize?: number;
   /**
   * The InfluxDB organization. Only necessary when using the http v2 api. Has no meaning when using v2 compatibility api.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#influx_organization VirtualEnvironmentMetricsServer#influx_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#influx_organization VirtualEnvironmentMetricsServer#influx_organization}
   */
   readonly influxOrganization?: string;
   /**
   * The InfluxDB access token. Only necessary when using the http v2 api. If the v2 compatibility api is used, use `user:password` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#influx_token VirtualEnvironmentMetricsServer#influx_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#influx_token VirtualEnvironmentMetricsServer#influx_token}
   */
   readonly influxToken?: string;
   /**
   * Set to `false` to disable certificate verification for https endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#influx_verify VirtualEnvironmentMetricsServer#influx_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#influx_verify VirtualEnvironmentMetricsServer#influx_verify}
   */
   readonly influxVerify?: boolean | cdktf.IResolvable;
   /**
   * MTU (maximum transmission unit) for metrics transmission over UDP. If not set, PVE default is `1500` (allowed `512` - `65536`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#mtu VirtualEnvironmentMetricsServer#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#mtu VirtualEnvironmentMetricsServer#mtu}
   */
   readonly mtu?: number;
   /**
   * Unique name that will be ID of this metric server in PVE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#name VirtualEnvironmentMetricsServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#name VirtualEnvironmentMetricsServer#name}
   */
   readonly name: string;
   /**
   * OpenTelemetry endpoint path (e.g., `/v1/metrics`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#opentelemetry_path VirtualEnvironmentMetricsServer#opentelemetry_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#opentelemetry_path VirtualEnvironmentMetricsServer#opentelemetry_path}
   */
   readonly opentelemetryPath?: string;
   /**
   * Protocol for OpenTelemetry. Choice is between `http` | `https`. If not set, PVE default is `http`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#opentelemetry_proto VirtualEnvironmentMetricsServer#opentelemetry_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#opentelemetry_proto VirtualEnvironmentMetricsServer#opentelemetry_proto}
   */
   readonly opentelemetryProto?: string;
   /**
   * Server network port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#port VirtualEnvironmentMetricsServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#port VirtualEnvironmentMetricsServer#port}
   */
   readonly port: number;
   /**
   * Server dns name or IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#server VirtualEnvironmentMetricsServer#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#server VirtualEnvironmentMetricsServer#server}
   */
   readonly server: string;
   /**
   * TCP socket timeout in seconds. If not set, PVE default is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#timeout VirtualEnvironmentMetricsServer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#timeout VirtualEnvironmentMetricsServer#timeout}
   */
   readonly timeout?: number;
   /**
   * Plugin type. Choice is between `graphite` | `influxdb` | `opentelemetry`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#type VirtualEnvironmentMetricsServer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#type VirtualEnvironmentMetricsServer#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server proxmox_virtual_environment_metrics_server}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server proxmox_virtual_environment_metrics_server}
 */
 export class VirtualEnvironmentMetricsServer extends cdktf.TerraformResource {
 
@@ -134,7 +134,7 @@ export class VirtualEnvironmentMetricsServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentMetricsServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentMetricsServer to import
-  * @param importFromId The id of the existing VirtualEnvironmentMetricsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentMetricsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentMetricsServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class VirtualEnvironmentMetricsServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_metrics_server proxmox_virtual_environment_metrics_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_metrics_server proxmox_virtual_environment_metrics_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class VirtualEnvironmentMetricsServer extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_metrics_server',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

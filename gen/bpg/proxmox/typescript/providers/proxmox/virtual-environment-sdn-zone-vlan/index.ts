@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_vlan
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_zone_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface VirtualEnvironmentSdnZoneVlanConfig extends cdktf.TerraformMeta
   /**
   * The local bridge or OVS switch, already configured on _each_ node that allows node-to-node connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_vlan#bridge VirtualEnvironmentSdnZoneVlan#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_zone_vlan#bridge VirtualEnvironmentSdnZoneVlan#bridge}
   */
   readonly bridge: string;
   /**
   * DNS API server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_vlan#dns VirtualEnvironmentSdnZoneVlan#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_zone_vlan#dns VirtualEnvironmentSdnZoneVlan#dns}
   */
   readonly dns?: string;
   /**
   * DNS domain name. Used to register hostnames, such as `<hostname>.<domain>`. The DNS zone must already exist on the DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_vlan#dns_zone VirtualEnvironmentSdnZoneVlan#dns_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_zone_vlan#dns_zone VirtualEnvironmentSdnZoneVlan#dns_zone}
   */
   readonly dnsZone?: string;
   /**
   * The unique identifier of the SDN zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_vlan#id VirtualEnvironmentSdnZoneVlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_zone_vlan#id VirtualEnvironmentSdnZoneVlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,31 +37,31 @@ export interface VirtualEnvironmentSdnZoneVlanConfig extends cdktf.TerraformMeta
   /**
   * IP Address Management system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_vlan#ipam VirtualEnvironmentSdnZoneVlan#ipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_zone_vlan#ipam VirtualEnvironmentSdnZoneVlan#ipam}
   */
   readonly ipam?: string;
   /**
   * MTU value for the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_vlan#mtu VirtualEnvironmentSdnZoneVlan#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_zone_vlan#mtu VirtualEnvironmentSdnZoneVlan#mtu}
   */
   readonly mtu?: number;
   /**
   * The Proxmox nodes which the zone and associated VNets should be deployed on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_vlan#nodes VirtualEnvironmentSdnZoneVlan#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_zone_vlan#nodes VirtualEnvironmentSdnZoneVlan#nodes}
   */
   readonly nodes?: string[];
   /**
   * Reverse DNS API server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_vlan#reverse_dns VirtualEnvironmentSdnZoneVlan#reverse_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_zone_vlan#reverse_dns VirtualEnvironmentSdnZoneVlan#reverse_dns}
   */
   readonly reverseDns?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_vlan proxmox_virtual_environment_sdn_zone_vlan}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_zone_vlan proxmox_virtual_environment_sdn_zone_vlan}
 */
 export class VirtualEnvironmentSdnZoneVlan extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class VirtualEnvironmentSdnZoneVlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentSdnZoneVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentSdnZoneVlan to import
-  * @param importFromId The id of the existing VirtualEnvironmentSdnZoneVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentSdnZoneVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_zone_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentSdnZoneVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class VirtualEnvironmentSdnZoneVlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_zone_vlan proxmox_virtual_environment_sdn_zone_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_zone_vlan proxmox_virtual_environment_sdn_zone_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class VirtualEnvironmentSdnZoneVlan extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_sdn_zone_vlan',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

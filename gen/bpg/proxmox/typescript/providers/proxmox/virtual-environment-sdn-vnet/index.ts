@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_vnet
+// https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_vnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface VirtualEnvironmentSdnVnetConfig extends cdktf.TerraformMetaArgu
   /**
   * An optional alias for this VNet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_vnet#alias VirtualEnvironmentSdnVnet#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_vnet#alias VirtualEnvironmentSdnVnet#alias}
   */
   readonly alias?: string;
   /**
   * The unique identifier of the SDN VNet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_vnet#id VirtualEnvironmentSdnVnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_vnet#id VirtualEnvironmentSdnVnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,31 +25,31 @@ export interface VirtualEnvironmentSdnVnetConfig extends cdktf.TerraformMetaArgu
   /**
   * Isolate ports within this VNet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_vnet#isolate_ports VirtualEnvironmentSdnVnet#isolate_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_vnet#isolate_ports VirtualEnvironmentSdnVnet#isolate_ports}
   */
   readonly isolatePorts?: boolean | cdktf.IResolvable;
   /**
   * Tag value for VLAN/VXLAN (can't be used with other zone types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_vnet#tag VirtualEnvironmentSdnVnet#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_vnet#tag VirtualEnvironmentSdnVnet#tag}
   */
   readonly tag?: number;
   /**
   * Allow VM VLANs to pass through this VNet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_vnet#vlan_aware VirtualEnvironmentSdnVnet#vlan_aware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_vnet#vlan_aware VirtualEnvironmentSdnVnet#vlan_aware}
   */
   readonly vlanAware?: boolean | cdktf.IResolvable;
   /**
   * The zone to which this VNet belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_vnet#zone VirtualEnvironmentSdnVnet#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_vnet#zone VirtualEnvironmentSdnVnet#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_vnet proxmox_virtual_environment_sdn_vnet}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_vnet proxmox_virtual_environment_sdn_vnet}
 */
 export class VirtualEnvironmentSdnVnet extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class VirtualEnvironmentSdnVnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentSdnVnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentSdnVnet to import
-  * @param importFromId The id of the existing VirtualEnvironmentSdnVnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_vnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentSdnVnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_vnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentSdnVnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class VirtualEnvironmentSdnVnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.1/docs/resources/virtual_environment_sdn_vnet proxmox_virtual_environment_sdn_vnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.90.0/docs/resources/virtual_environment_sdn_vnet proxmox_virtual_environment_sdn_vnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class VirtualEnvironmentSdnVnet extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_sdn_vnet',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.89.1',
-        providerVersionConstraint: '0.89.1'
+        providerVersion: '0.90.0',
+        providerVersionConstraint: '0.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

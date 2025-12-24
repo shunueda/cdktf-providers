@@ -5,6 +5,7 @@ Object.defineProperty(exports, 'virtualEnvironmentAcmeDnsPlugin', { get: functio
 Object.defineProperty(exports, 'virtualEnvironmentAptRepository', { get: function () { return require('./virtual-environment-apt-repository'); } });
 Object.defineProperty(exports, 'virtualEnvironmentAptStandardRepository', { get: function () { return require('./virtual-environment-apt-standard-repository'); } });
 Object.defineProperty(exports, 'virtualEnvironmentCertificate', { get: function () { return require('./virtual-environment-certificate'); } });
+Object.defineProperty(exports, 'virtualEnvironmentClonedVm', { get: function () { return require('./virtual-environment-cloned-vm'); } });
 Object.defineProperty(exports, 'virtualEnvironmentClusterFirewall', { get: function () { return require('./virtual-environment-cluster-firewall'); } });
 Object.defineProperty(exports, 'virtualEnvironmentClusterFirewallSecurityGroup', { get: function () { return require('./virtual-environment-cluster-firewall-security-group'); } });
 Object.defineProperty(exports, 'virtualEnvironmentClusterOptions', { get: function () { return require('./virtual-environment-cluster-options'); } });

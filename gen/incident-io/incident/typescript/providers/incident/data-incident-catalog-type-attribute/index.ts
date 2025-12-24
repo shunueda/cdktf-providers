@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/data-sources/catalog_type_attribute
+// https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/data-sources/catalog_type_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataIncidentCatalogTypeAttributeConfig extends cdktf.TerraformM
   /**
   * ID of this catalog type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/data-sources/catalog_type_attribute#catalog_type_id DataIncidentCatalogTypeAttribute#catalog_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/data-sources/catalog_type_attribute#catalog_type_id DataIncidentCatalogTypeAttribute#catalog_type_id}
   */
   readonly catalogTypeId: string;
   /**
   * The name of this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/data-sources/catalog_type_attribute#name DataIncidentCatalogTypeAttribute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/data-sources/catalog_type_attribute#name DataIncidentCatalogTypeAttribute#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/data-sources/catalog_type_attribute incident_catalog_type_attribute}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/data-sources/catalog_type_attribute incident_catalog_type_attribute}
 */
 export class DataIncidentCatalogTypeAttribute extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataIncidentCatalogTypeAttribute extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIncidentCatalogTypeAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIncidentCatalogTypeAttribute to import
-  * @param importFromId The id of the existing DataIncidentCatalogTypeAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/data-sources/catalog_type_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIncidentCatalogTypeAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/data-sources/catalog_type_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIncidentCatalogTypeAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataIncidentCatalogTypeAttribute extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.24.0/docs/data-sources/catalog_type_attribute incident_catalog_type_attribute} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.24.1/docs/data-sources/catalog_type_attribute incident_catalog_type_attribute} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataIncidentCatalogTypeAttribute extends cdktf.TerraformDataSource 
       terraformResourceType: 'incident_catalog_type_attribute',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.24.0',
-        providerVersionConstraint: '5.24.0'
+        providerVersion: '5.24.1',
+        providerVersionConstraint: '5.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
