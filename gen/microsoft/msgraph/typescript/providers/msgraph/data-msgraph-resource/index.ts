@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource
+// https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataMsgraphResourceConfig extends cdktf.TerraformMetaArguments 
   /**
   * The API version of the data source. The allowed values are `v1.0` and `beta`. Defaults to `v1.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource#api_version DataMsgraphResource#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource#api_version DataMsgraphResource#api_version}
   */
   readonly apiVersion?: string;
   /**
   * A map of headers to include in the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource#headers DataMsgraphResource#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource#headers DataMsgraphResource#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * A map of query parameters to include in the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource#query_parameters DataMsgraphResource#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource#query_parameters DataMsgraphResource#query_parameters}
   */
   readonly queryParameters?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
@@ -43,25 +43,25 @@ export interface DataMsgraphResourceConfig extends cdktf.TerraformMetaArguments 
   * To learn more about JMESPath, visit [JMESPath](https://jmespath.org/).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource#response_export_values DataMsgraphResource#response_export_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource#response_export_values DataMsgraphResource#response_export_values}
   */
   readonly responseExportValues?: { [key: string]: string };
   /**
   * The retry object supports the following attributes:
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource#retry DataMsgraphResource#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource#retry DataMsgraphResource#retry}
   */
   readonly retry?: DataMsgraphResourceRetry;
   /**
   * The URL of the data source. It supports both collection URL which is used to list resources, for example `/users`, and item URL which is used to read an individual resource, for example `/users/{id}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource#url DataMsgraphResource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource#url DataMsgraphResource#url}
   */
   readonly url: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource#timeouts DataMsgraphResource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource#timeouts DataMsgraphResource#timeouts}
   */
   readonly timeouts?: DataMsgraphResourceTimeouts;
 }
@@ -69,7 +69,7 @@ export interface DataMsgraphResourceRetry {
   /**
   * A list of regular expressions to match against error messages. If any of the regular expressions match, the request will be retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource#error_message_regex DataMsgraphResource#error_message_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource#error_message_regex DataMsgraphResource#error_message_regex}
   */
   readonly errorMessageRegex: string[];
 }
@@ -162,7 +162,7 @@ export interface DataMsgraphResourceTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource#read DataMsgraphResource#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource#read DataMsgraphResource#read}
   */
   readonly read?: string;
 }
@@ -256,7 +256,7 @@ export class DataMsgraphResourceTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource msgraph_resource}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource msgraph_resource}
 */
 export class DataMsgraphResource extends cdktf.TerraformDataSource {
 
@@ -272,7 +272,7 @@ export class DataMsgraphResource extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMsgraphResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMsgraphResource to import
-  * @param importFromId The id of the existing DataMsgraphResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMsgraphResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMsgraphResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -284,7 +284,7 @@ export class DataMsgraphResource extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/data-sources/resource msgraph_resource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/data-sources/resource msgraph_resource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,8 +295,8 @@ export class DataMsgraphResource extends cdktf.TerraformDataSource {
       terraformResourceType: 'msgraph_resource',
       terraformGeneratorMetadata: {
         providerName: 'msgraph',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource
+// https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The API version of the data source. The allowed values are `v1.0` and `beta`. Defaults to `v1.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#api_version Resource#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#api_version Resource#api_version}
   */
   readonly apiVersion?: string;
   /**
   * A dynamic attribute that contains the request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#body Resource#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#body Resource#body}
   */
   readonly body?: { [key: string]: any };
   /**
   * A mapping of query parameters to be sent with the create request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#create_query_parameters Resource#create_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#create_query_parameters Resource#create_query_parameters}
   */
   readonly createQueryParameters?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * A mapping of query parameters to be sent with the delete request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#delete_query_parameters Resource#delete_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#delete_query_parameters Resource#delete_query_parameters}
   */
   readonly deleteQueryParameters?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Whether ignore not returned properties like credentials in `body` to suppress plan-diff. Defaults to `true`. It's recommend to enable this option when some sensitive properties are not returned in response body, instead of setting them in `lifecycle.ignore_changes` because it will make the sensitive fields unable to update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#ignore_missing_property Resource#ignore_missing_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#ignore_missing_property Resource#ignore_missing_property}
   */
   readonly ignoreMissingProperty?: boolean | cdktf.IResolvable;
   /**
   * A mapping of query parameters to be sent with the read request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#read_query_parameters Resource#read_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#read_query_parameters Resource#read_query_parameters}
   */
   readonly readQueryParameters?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
@@ -61,19 +61,25 @@ export interface ResourceConfig extends cdktf.TerraformMetaArguments {
   * To learn more about JMESPath, visit [JMESPath](https://jmespath.org/).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#response_export_values Resource#response_export_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#response_export_values Resource#response_export_values}
   */
   readonly responseExportValues?: { [key: string]: string };
   /**
   * The retry object supports the following attributes:
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#retry Resource#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#retry Resource#retry}
   */
   readonly retry?: ResourceRetry;
   /**
+  * The HTTP method to use for updating the resource. Allowed values are `PATCH` (default) and `PUT`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#update_method Resource#update_method}
+  */
+  readonly updateMethod?: string;
+  /**
   * A mapping of query parameters to be sent with the update request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#update_query_parameters Resource#update_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#update_query_parameters Resource#update_query_parameters}
   */
   readonly updateQueryParameters?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
@@ -91,13 +97,13 @@ export interface ResourceConfig extends cdktf.TerraformMetaArguments {
   *   And there are some [examples](https://github.com/microsoft/terraform-provider-msgraph/tree/main/examples/quickstarts) to help you get started.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#url Resource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#url Resource#url}
   */
   readonly url: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#timeouts Resource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#timeouts Resource#timeouts}
   */
   readonly timeouts?: ResourceTimeouts;
 }
@@ -105,7 +111,7 @@ export interface ResourceRetry {
   /**
   * A list of regular expressions to match against error messages. If any of the regular expressions match, the request will be retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#error_message_regex Resource#error_message_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#error_message_regex Resource#error_message_regex}
   */
   readonly errorMessageRegex: string[];
 }
@@ -198,25 +204,25 @@ export interface ResourceTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#create Resource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#create Resource#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#delete Resource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#delete Resource#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#read Resource#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#read Resource#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#update Resource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#update Resource#update}
   */
   readonly update?: string;
 }
@@ -397,7 +403,7 @@ export class ResourceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource msgraph_resource}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource msgraph_resource}
 */
 export class Resource extends cdktf.TerraformResource {
 
@@ -413,7 +419,7 @@ export class Resource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Resource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Resource to import
-  * @param importFromId The id of the existing Resource that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Resource that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Resource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -425,7 +431,7 @@ export class Resource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource msgraph_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource msgraph_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -436,8 +442,8 @@ export class Resource extends cdktf.TerraformResource {
       terraformResourceType: 'msgraph_resource',
       terraformGeneratorMetadata: {
         providerName: 'msgraph',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -455,6 +461,7 @@ export class Resource extends cdktf.TerraformResource {
     this._readQueryParameters = config.readQueryParameters;
     this._responseExportValues = config.responseExportValues;
     this._retry.internalValue = config.retry;
+    this._updateMethod = config.updateMethod;
     this._updateQueryParameters = config.updateQueryParameters;
     this._url = config.url;
     this._timeouts.internalValue = config.timeouts;
@@ -608,6 +615,22 @@ export class Resource extends cdktf.TerraformResource {
     return this._retry.internalValue;
   }
 
+  // update_method - computed: false, optional: true, required: false
+  private _updateMethod?: string; 
+  public get updateMethod() {
+    return this.getStringAttribute('update_method');
+  }
+  public set updateMethod(value: string) {
+    this._updateMethod = value;
+  }
+  public resetUpdateMethod() {
+    this._updateMethod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateMethodInput() {
+    return this._updateMethod;
+  }
+
   // update_query_parameters - computed: false, optional: true, required: false
   private _updateQueryParameters?: { [key: string]: string[] } | cdktf.IResolvable; 
   public get updateQueryParameters() {
@@ -667,6 +690,7 @@ export class Resource extends cdktf.TerraformResource {
       read_query_parameters: cdktf.hashMapper(cdktf.listMapper(cdktf.stringToTerraform, false))(this._readQueryParameters),
       response_export_values: cdktf.hashMapper(cdktf.stringToTerraform)(this._responseExportValues),
       retry: resourceRetryToTerraform(this._retry.internalValue),
+      update_method: cdktf.stringToTerraform(this._updateMethod),
       update_query_parameters: cdktf.hashMapper(cdktf.listMapper(cdktf.stringToTerraform, false))(this._updateQueryParameters),
       url: cdktf.stringToTerraform(this._url),
       timeouts: resourceTimeoutsToTerraform(this._timeouts.internalValue),
@@ -722,6 +746,12 @@ export class Resource extends cdktf.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "ResourceRetry",
+      },
+      update_method: {
+        value: cdktf.stringToHclTerraform(this._updateMethod),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       update_query_parameters: {
         value: cdktf.hashMapperHcl(cdktf.listMapperHcl(cdktf.stringToHclTerraform, false))(this._updateQueryParameters),

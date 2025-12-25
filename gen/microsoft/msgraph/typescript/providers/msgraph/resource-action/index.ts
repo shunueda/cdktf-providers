@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action
+// https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ResourceActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action to perform on the resource. This is the action path that will be appended to the resource URL, for example `addPassword`, `sendMail`, `changePassword`, or `members/$ref`. Leave empty for actions directly on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#action ResourceAction#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#action ResourceAction#action}
   */
   readonly action?: string;
   /**
   * The API version of the data source. The allowed values are `v1.0` and `beta`. Defaults to `v1.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#api_version ResourceAction#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#api_version ResourceAction#api_version}
   */
   readonly apiVersion?: string;
   /**
   * A dynamic attribute that contains the request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#body ResourceAction#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#body ResourceAction#body}
   */
   readonly body?: { [key: string]: any };
   /**
   * A mapping of HTTP headers to be sent with the action request. Note that authentication headers are automatically handled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#headers ResourceAction#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#headers ResourceAction#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * The HTTP method to use for the action. Common methods include `GET`, `POST`, `PATCH`, `DELETE`, and `PUT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#method ResourceAction#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#method ResourceAction#method}
   */
   readonly method: string;
   /**
   * A mapping of query parameters to be sent with the action request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#query_parameters ResourceAction#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#query_parameters ResourceAction#query_parameters}
   */
   readonly queryParameters?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The URL of the resource to perform the action on. This should be the full resource path, for example `applications/12345678-1234-1234-1234-123456789abc` or `users/user@example.com`. You can use the `resource_url` output from `msgraph_resource`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#resource_url ResourceAction#resource_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#resource_url ResourceAction#resource_url}
   */
   readonly resourceUrl: string;
   /**
@@ -67,19 +67,19 @@ export interface ResourceActionConfig extends cdktf.TerraformMetaArguments {
   * To learn more about JMESPath, visit [JMESPath](https://jmespath.org/).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#response_export_values ResourceAction#response_export_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#response_export_values ResourceAction#response_export_values}
   */
   readonly responseExportValues?: { [key: string]: string };
   /**
   * The retry object supports the following attributes:
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#retry ResourceAction#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#retry ResourceAction#retry}
   */
   readonly retry?: ResourceActionRetry;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#timeouts ResourceAction#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#timeouts ResourceAction#timeouts}
   */
   readonly timeouts?: ResourceActionTimeouts;
 }
@@ -87,7 +87,7 @@ export interface ResourceActionRetry {
   /**
   * A list of regular expressions to match against error messages. If any of the regular expressions match, the request will be retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#error_message_regex ResourceAction#error_message_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#error_message_regex ResourceAction#error_message_regex}
   */
   readonly errorMessageRegex: string[];
 }
@@ -180,7 +180,7 @@ export interface ResourceActionTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#create ResourceAction#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#create ResourceAction#create}
   */
   readonly create?: string;
 }
@@ -274,7 +274,7 @@ export class ResourceActionTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action msgraph_resource_action}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action msgraph_resource_action}
 */
 export class ResourceAction extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class ResourceAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceAction to import
-  * @param importFromId The id of the existing ResourceAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class ResourceAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_action msgraph_resource_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_action msgraph_resource_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class ResourceAction extends cdktf.TerraformResource {
       terraformResourceType: 'msgraph_resource_action',
       terraformGeneratorMetadata: {
         providerName: 'msgraph',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs
+// https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,139 +10,145 @@ export interface MsgraphProviderConfig {
   /**
   * A base64-encoded PKCS#12 bundle to be used as the client certificate for authentication. This can also be sourced from the `ARM_CLIENT_CERTIFICATE` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#client_certificate MsgraphProvider#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#client_certificate MsgraphProvider#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The password associated with the Client Certificate. This can also be sourced from the `ARM_CLIENT_CERTIFICATE_PASSWORD` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#client_certificate_password MsgraphProvider#client_certificate_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#client_certificate_password MsgraphProvider#client_certificate_password}
   */
   readonly clientCertificatePassword?: string;
   /**
   * The path to the Client Certificate associated with the Service Principal which should be used. This can also be sourced from the `ARM_CLIENT_CERTIFICATE_PATH` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#client_certificate_path MsgraphProvider#client_certificate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#client_certificate_path MsgraphProvider#client_certificate_path}
   */
   readonly clientCertificatePath?: string;
   /**
   * The Client ID which should be used. This can also be sourced from the `ARM_CLIENT_ID` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#client_id MsgraphProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#client_id MsgraphProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The path to a file containing the Client ID which should be used. This can also be sourced from the `ARM_CLIENT_ID_FILE_PATH` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#client_id_file_path MsgraphProvider#client_id_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#client_id_file_path MsgraphProvider#client_id_file_path}
   */
   readonly clientIdFilePath?: string;
   /**
   * The Client Secret which should be used. This can also be sourced from the `ARM_CLIENT_SECRET` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#client_secret MsgraphProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#client_secret MsgraphProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The path to a file containing the Client Secret which should be used. For use When authenticating as a Service Principal using a Client Secret. This can also be sourced from the `ARM_CLIENT_SECRET_FILE_PATH` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#client_secret_file_path MsgraphProvider#client_secret_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#client_secret_file_path MsgraphProvider#client_secret_file_path}
   */
   readonly clientSecretFilePath?: string;
   /**
   * The value of the `x-ms-correlation-request-id` header, otherwise an auto-generated UUID will be used. This can also be sourced from the `ARM_CORRELATION_REQUEST_ID` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#custom_correlation_request_id MsgraphProvider#custom_correlation_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#custom_correlation_request_id MsgraphProvider#custom_correlation_request_id}
   */
   readonly customCorrelationRequestId?: string;
   /**
   * This will disable the x-ms-correlation-request-id header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#disable_correlation_request_id MsgraphProvider#disable_correlation_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#disable_correlation_request_id MsgraphProvider#disable_correlation_request_id}
   */
   readonly disableCorrelationRequestId?: boolean | cdktf.IResolvable;
   /**
   * Disable sending the Terraform Partner ID if a custom `partner_id` isn't specified, which allows Microsoft to better understand the usage of Terraform. The Partner ID does not give HashiCorp any direct access to usage information. This can also be sourced from the `ARM_DISABLE_TERRAFORM_PARTNER_ID` environment variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#disable_terraform_partner_id MsgraphProvider#disable_terraform_partner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#disable_terraform_partner_id MsgraphProvider#disable_terraform_partner_id}
   */
   readonly disableTerraformPartnerId?: boolean | cdktf.IResolvable;
   /**
   * The Azure Pipelines Service Connection ID to use for authentication. This can also be sourced from the `ARM_OIDC_AZURE_SERVICE_CONNECTION_ID` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#oidc_azure_service_connection_id MsgraphProvider#oidc_azure_service_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#oidc_azure_service_connection_id MsgraphProvider#oidc_azure_service_connection_id}
   */
   readonly oidcAzureServiceConnectionId?: string;
   /**
   * The bearer token for the request to the OIDC provider. This can also be sourced from the `ARM_OIDC_REQUEST_TOKEN` or `ACTIONS_ID_TOKEN_REQUEST_TOKEN` Environment Variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#oidc_request_token MsgraphProvider#oidc_request_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#oidc_request_token MsgraphProvider#oidc_request_token}
   */
   readonly oidcRequestToken?: string;
   /**
   * The URL for the OIDC provider from which to request an ID token. This can also be sourced from the `ARM_OIDC_REQUEST_URL` or `ACTIONS_ID_TOKEN_REQUEST_URL` Environment Variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#oidc_request_url MsgraphProvider#oidc_request_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#oidc_request_url MsgraphProvider#oidc_request_url}
   */
   readonly oidcRequestUrl?: string;
   /**
   * The ID token when authenticating using OpenID Connect (OIDC). This can also be sourced from the `ARM_OIDC_TOKEN` environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#oidc_token MsgraphProvider#oidc_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#oidc_token MsgraphProvider#oidc_token}
   */
   readonly oidcToken?: string;
   /**
   * The path to a file containing an ID token when authenticating using OpenID Connect (OIDC). This can also be sourced from the `ARM_OIDC_TOKEN_FILE_PATH` environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#oidc_token_file_path MsgraphProvider#oidc_token_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#oidc_token_file_path MsgraphProvider#oidc_token_file_path}
   */
   readonly oidcTokenFilePath?: string;
   /**
   * A GUID/UUID that is [registered](https://docs.microsoft.com/azure/marketplace/azure-partner-customer-usage-attribution#register-guids-and-offers) with Microsoft to facilitate partner resource usage attribution. This can also be sourced from the `ARM_PARTNER_ID` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#partner_id MsgraphProvider#partner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#partner_id MsgraphProvider#partner_id}
   */
   readonly partnerId?: string;
   /**
   * The Tenant ID should be used. This can also be sourced from the `ARM_TENANT_ID` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#tenant_id MsgraphProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#tenant_id MsgraphProvider#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Should AKS Workload Identity be used for Authentication? This can also be sourced from the `ARM_USE_AKS_WORKLOAD_IDENTITY` Environment Variable. Defaults to `false`. When set, `client_id`, `tenant_id` and `oidc_token_file_path` will be detected from the environment and do not need to be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#use_aks_workload_identity MsgraphProvider#use_aks_workload_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#use_aks_workload_identity MsgraphProvider#use_aks_workload_identity}
   */
   readonly useAksWorkloadIdentity?: boolean | cdktf.IResolvable;
   /**
   * Should Azure CLI be used for authentication? This can also be sourced from the `ARM_USE_CLI` environment variable. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#use_cli MsgraphProvider#use_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#use_cli MsgraphProvider#use_cli}
   */
   readonly useCli?: boolean | cdktf.IResolvable;
   /**
   * Should Managed Identity be used for Authentication? This can also be sourced from the `ARM_USE_MSI` Environment Variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#use_msi MsgraphProvider#use_msi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#use_msi MsgraphProvider#use_msi}
   */
   readonly useMsi?: boolean | cdktf.IResolvable;
   /**
   * Should OIDC be used for Authentication? This can also be sourced from the `ARM_USE_OIDC` Environment Variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#use_oidc MsgraphProvider#use_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#use_oidc MsgraphProvider#use_oidc}
   */
   readonly useOidc?: boolean | cdktf.IResolvable;
   /**
+  * Should Azure PowerShell be used for authentication? This can also be sourced from the `ARM_USE_POWERSHELL` environment variable. Defaults to `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#use_powershell MsgraphProvider#use_powershell}
+  */
+  readonly usePowershell?: boolean | cdktf.IResolvable;
+  /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#alias MsgraphProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#alias MsgraphProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs msgraph}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs msgraph}
 */
 export class MsgraphProvider extends cdktf.TerraformProvider {
 
@@ -158,7 +164,7 @@ export class MsgraphProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a MsgraphProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsgraphProvider to import
-  * @param importFromId The id of the existing MsgraphProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsgraphProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsgraphProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -170,7 +176,7 @@ export class MsgraphProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs msgraph} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs msgraph} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -181,8 +187,8 @@ export class MsgraphProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'msgraph',
       terraformGeneratorMetadata: {
         providerName: 'msgraph',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       terraformProviderSource: 'microsoft/msgraph'
     });
@@ -207,6 +213,7 @@ export class MsgraphProvider extends cdktf.TerraformProvider {
     this._useCli = config.useCli;
     this._useMsi = config.useMsi;
     this._useOidc = config.useOidc;
+    this._usePowershell = config.usePowershell;
     this._alias = config.alias;
   }
 
@@ -550,6 +557,22 @@ export class MsgraphProvider extends cdktf.TerraformProvider {
     return this._useOidc;
   }
 
+  // use_powershell - computed: false, optional: true, required: false
+  private _usePowershell?: boolean | cdktf.IResolvable; 
+  public get usePowershell() {
+    return this._usePowershell;
+  }
+  public set usePowershell(value: boolean | cdktf.IResolvable | undefined) {
+    this._usePowershell = value;
+  }
+  public resetUsePowershell() {
+    this._usePowershell = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usePowershellInput() {
+    return this._usePowershell;
+  }
+
   // alias - computed: false, optional: true, required: false
   private _alias?: string; 
   public get alias() {
@@ -593,6 +616,7 @@ export class MsgraphProvider extends cdktf.TerraformProvider {
       use_cli: cdktf.booleanToTerraform(this._useCli),
       use_msi: cdktf.booleanToTerraform(this._useMsi),
       use_oidc: cdktf.booleanToTerraform(this._useOidc),
+      use_powershell: cdktf.booleanToTerraform(this._usePowershell),
       alias: cdktf.stringToTerraform(this._alias),
     };
   }
@@ -721,6 +745,12 @@ export class MsgraphProvider extends cdktf.TerraformProvider {
       },
       use_oidc: {
         value: cdktf.booleanToHclTerraform(this._useOidc),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      use_powershell: {
+        value: cdktf.booleanToHclTerraform(this._usePowershell),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection
+// https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ResourceCollectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The API version of the data source. The allowed values are `v1.0` and `beta`. Defaults to `v1.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#api_version ResourceCollection#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#api_version ResourceCollection#api_version}
   */
   readonly apiVersion?: string;
   /**
   * A mapping of query parameters to be sent with the read (list) requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#read_query_parameters ResourceCollection#read_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#read_query_parameters ResourceCollection#read_query_parameters}
   */
   readonly readQueryParameters?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * List of object IDs that MUST exist in this `$ref` collection. Missing IDs are added; extra remote items are removed. Order is ignored. Each value should be the GUID (or string identifier) of an existing directory object (user, group, service principal, etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#reference_ids ResourceCollection#reference_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#reference_ids ResourceCollection#reference_ids}
   */
   readonly referenceIds?: string[];
   /**
@@ -43,25 +43,25 @@ export interface ResourceCollectionConfig extends cdktf.TerraformMetaArguments {
   * To learn more about JMESPath, visit [JMESPath](https://jmespath.org/).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#response_export_values ResourceCollection#response_export_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#response_export_values ResourceCollection#response_export_values}
   */
   readonly responseExportValues?: { [key: string]: string };
   /**
   * The retry object supports the following attributes:
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#retry ResourceCollection#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#retry ResourceCollection#retry}
   */
   readonly retry?: ResourceCollectionRetry;
   /**
   * Full relative path of the target reference collection ending in '/$ref'. For example: `groups/{group-id}/members/$ref`. This must point to a $ref collection; changing this value forces a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#url ResourceCollection#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#url ResourceCollection#url}
   */
   readonly url: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#timeouts ResourceCollection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#timeouts ResourceCollection#timeouts}
   */
   readonly timeouts?: ResourceCollectionTimeouts;
 }
@@ -69,7 +69,7 @@ export interface ResourceCollectionRetry {
   /**
   * A list of regular expressions to match against error messages. If any of the regular expressions match, the request will be retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#error_message_regex ResourceCollection#error_message_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#error_message_regex ResourceCollection#error_message_regex}
   */
   readonly errorMessageRegex: string[];
 }
@@ -162,25 +162,25 @@ export interface ResourceCollectionTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#create ResourceCollection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#create ResourceCollection#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#delete ResourceCollection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#delete ResourceCollection#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#read ResourceCollection#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#read ResourceCollection#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#update ResourceCollection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#update ResourceCollection#update}
   */
   readonly update?: string;
 }
@@ -361,7 +361,7 @@ export class ResourceCollectionTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection msgraph_resource_collection}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection msgraph_resource_collection}
 */
 export class ResourceCollection extends cdktf.TerraformResource {
 
@@ -377,7 +377,7 @@ export class ResourceCollection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceCollection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceCollection to import
-  * @param importFromId The id of the existing ResourceCollection that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceCollection that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceCollection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -389,7 +389,7 @@ export class ResourceCollection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/msgraph/0.2.0/docs/resources/resource_collection msgraph_resource_collection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/msgraph/0.3.0/docs/resources/resource_collection msgraph_resource_collection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -400,8 +400,8 @@ export class ResourceCollection extends cdktf.TerraformResource {
       terraformResourceType: 'msgraph_resource_collection',
       terraformGeneratorMetadata: {
         providerName: 'msgraph',
-        providerVersion: '0.2.0',
-        providerVersionConstraint: '0.2.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
