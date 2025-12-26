@@ -1,3 +1,5 @@
+> CDKTF is [deprecated](https://github.com/hashicorp/terraform-cdk) :(
+
 # cdktf-providers
 
 This repository automatically builds and publishes prebuilt [Terraform provider](https://registry.terraform.io/browse/providers)
@@ -17,6 +19,10 @@ Prebuilt providers eliminate this friction.
 Instead of generating bindings locally, you can install a ready-made package directly from your language's package
 registry (npm, PyPI, Maven, NuGet, etc.). Official and select partner providers (e.g. [`cdktf-provider-cloudflare`](https://github.com/cdktf/cdktf-provider-cloudflare)) are already available this way, but most non-official providers are not. This repository fills that gap by automatically mirroring non-official Terraform providers into prebuilt CDKTF
 packages.
+
+## Published Packages
+
+- [npm](https://www.npmjs.com/search?q=%40cdktf-providers)
 
 ## Versioning
 
