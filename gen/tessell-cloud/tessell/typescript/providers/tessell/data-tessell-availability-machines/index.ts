@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines
+// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/availability_machines
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTessellAvailabilityMachinesConfig extends cdktf.TerraformMe
   /**
   * Availaility Machine's engine-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#engine_type DataTessellAvailabilityMachines#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/availability_machines#engine_type DataTessellAvailabilityMachines#engine_type}
   */
   readonly engineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#id DataTessellAvailabilityMachines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/availability_machines#id DataTessellAvailabilityMachines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTessellAvailabilityMachinesConfig extends cdktf.TerraformMe
   /**
   * Load ACL information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#load_acls DataTessellAvailabilityMachines#load_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/availability_machines#load_acls DataTessellAvailabilityMachines#load_acls}
   */
   readonly loadAcls?: boolean | cdktf.IResolvable;
   /**
   * Name of the Availability Machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#name DataTessellAvailabilityMachines#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/availability_machines#name DataTessellAvailabilityMachines#name}
   */
   readonly name?: string;
   /**
   * List of Email Addresses for entity or resource owners
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#owners DataTessellAvailabilityMachines#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/availability_machines#owners DataTessellAvailabilityMachines#owners}
   */
   readonly owners?: string[];
   /**
   * status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#status DataTessellAvailabilityMachines#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/availability_machines#status DataTessellAvailabilityMachines#status}
   */
   readonly status?: string;
 }
@@ -7123,7 +7123,7 @@ export class DataTessellAvailabilityMachinesAvailabilityMachinesList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines tessell_availability_machines}
+* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/availability_machines tessell_availability_machines}
 */
 export class DataTessellAvailabilityMachines extends cdktf.TerraformDataSource {
 
@@ -7139,7 +7139,7 @@ export class DataTessellAvailabilityMachines extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTessellAvailabilityMachines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTessellAvailabilityMachines to import
-  * @param importFromId The id of the existing DataTessellAvailabilityMachines that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTessellAvailabilityMachines that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/availability_machines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTessellAvailabilityMachines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7151,7 +7151,7 @@ export class DataTessellAvailabilityMachines extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/availability_machines tessell_availability_machines} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/availability_machines tessell_availability_machines} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7162,8 +7162,8 @@ export class DataTessellAvailabilityMachines extends cdktf.TerraformDataSource {
       terraformResourceType: 'tessell_availability_machines',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.28',
-        providerVersionConstraint: '0.0.28'
+        providerVersion: '0.0.29',
+        providerVersionConstraint: '0.0.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface CssPullStreamTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * push app name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#app_name CssPullStreamTask#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#app_name CssPullStreamTask#app_name}
   */
   readonly appName: string;
   /**
   * backup pull source type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#backup_source_type CssPullStreamTask#backup_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#backup_source_type CssPullStreamTask#backup_source_type}
   */
   readonly backupSourceType?: string;
   /**
   * backup pull source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#backup_source_url CssPullStreamTask#backup_source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#backup_source_url CssPullStreamTask#backup_source_url}
   */
   readonly backupSourceUrl?: string;
   /**
   * defind the callback event you need, null for all. TaskStart, TaskExit, VodSourceFileStart, VodSourceFileFinish, ResetTaskConfig, PullFileUnstable, PushStreamUnstable, PullFileFailed, PushStreamFailed, FileEndEarly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#callback_events CssPullStreamTask#callback_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#callback_events CssPullStreamTask#callback_events}
   */
   readonly callbackEvents?: string[];
   /**
   * task event callback url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#callback_url CssPullStreamTask#callback_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#callback_url CssPullStreamTask#callback_url}
   */
   readonly callbackUrl?: string;
   /**
   * desc for pull task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#comment CssPullStreamTask#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#comment CssPullStreamTask#comment}
   */
   readonly comment?: string;
   /**
   * push domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#domain_name CssPullStreamTask#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#domain_name CssPullStreamTask#domain_name}
   */
   readonly domainName: string;
   /**
   * task end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#end_time CssPullStreamTask#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#end_time CssPullStreamTask#end_time}
   */
   readonly endTime: string;
   /**
   * ignore_region for ignore the input region and reblance inside the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#extra_cmd CssPullStreamTask#extra_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#extra_cmd CssPullStreamTask#extra_cmd}
   */
   readonly extraCmd?: string;
   /**
   * task enable or disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#file_index CssPullStreamTask#file_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#file_index CssPullStreamTask#file_index}
   */
   readonly fileIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#id CssPullStreamTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#id CssPullStreamTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,73 +77,73 @@ export interface CssPullStreamTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * task enable or disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#offset_time CssPullStreamTask#offset_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#offset_time CssPullStreamTask#offset_time}
   */
   readonly offsetTime?: number;
   /**
   * desc operator user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#operator CssPullStreamTask#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#operator CssPullStreamTask#operator}
   */
   readonly operator?: string;
   /**
   * other pushing args.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#push_args CssPullStreamTask#push_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#push_args CssPullStreamTask#push_args}
   */
   readonly pushArgs?: string;
   /**
   * `PullLivePushLive`: SourceUrls live type, `PullVodPushLive`: SourceUrls vod type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#source_type CssPullStreamTask#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#source_type CssPullStreamTask#source_type}
   */
   readonly sourceType: string;
   /**
   * Pull Source media, SourceType=PullLivePushLive only 1 value, SourceType=PullLivePushLive can input multi values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#source_urls CssPullStreamTask#source_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#source_urls CssPullStreamTask#source_urls}
   */
   readonly sourceUrls: string[];
   /**
   * task begin time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#start_time CssPullStreamTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#start_time CssPullStreamTask#start_time}
   */
   readonly startTime: string;
   /**
   * task enable or disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#status CssPullStreamTask#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#status CssPullStreamTask#status}
   */
   readonly status?: string;
   /**
   * push stream name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#stream_name CssPullStreamTask#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#stream_name CssPullStreamTask#stream_name}
   */
   readonly streamName: string;
   /**
   * full target push url, DomainName, AppName, StreamName field must be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#to_url CssPullStreamTask#to_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#to_url CssPullStreamTask#to_url}
   */
   readonly toUrl?: string;
   /**
   * loop time for vod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#vod_loop_times CssPullStreamTask#vod_loop_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#vod_loop_times CssPullStreamTask#vod_loop_times}
   */
   readonly vodLoopTimes?: number;
   /**
   * vod refresh method. `ImmediateNewSource`: switch to new source at once, `ContinueBreakPoint`: switch to new source while old source finish.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#vod_refresh_type CssPullStreamTask#vod_refresh_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#vod_refresh_type CssPullStreamTask#vod_refresh_type}
   */
   readonly vodRefreshType?: string;
   /**
   * watermark_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#watermark_list CssPullStreamTask#watermark_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#watermark_list CssPullStreamTask#watermark_list}
   */
   readonly watermarkList?: CssPullStreamTaskWatermarkListStruct[] | cdktf.IResolvable;
 }
@@ -151,37 +151,37 @@ export interface CssPullStreamTaskWatermarkListStruct {
   /**
   * pic height.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#height CssPullStreamTask#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#height CssPullStreamTask#height}
   */
   readonly height: number;
   /**
   * position type, 0:left top, 1:right top, 2:right bot, 3: left bot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#location CssPullStreamTask#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#location CssPullStreamTask#location}
   */
   readonly location: number;
   /**
   * watermark picture url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#picture_url CssPullStreamTask#picture_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#picture_url CssPullStreamTask#picture_url}
   */
   readonly pictureUrl: string;
   /**
   * pic width.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#width CssPullStreamTask#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#width CssPullStreamTask#width}
   */
   readonly width: number;
   /**
   * x position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#x_position CssPullStreamTask#x_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#x_position CssPullStreamTask#x_position}
   */
   readonly xPosition: number;
   /**
   * y position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#y_position CssPullStreamTask#y_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#y_position CssPullStreamTask#y_position}
   */
   readonly yPosition: number;
 }
@@ -424,7 +424,7 @@ export class CssPullStreamTaskWatermarkListStructList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task tencentcloud_css_pull_stream_task}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task tencentcloud_css_pull_stream_task}
 */
 export class CssPullStreamTask extends cdktf.TerraformResource {
 
@@ -440,7 +440,7 @@ export class CssPullStreamTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssPullStreamTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssPullStreamTask to import
-  * @param importFromId The id of the existing CssPullStreamTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssPullStreamTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssPullStreamTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -452,7 +452,7 @@ export class CssPullStreamTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_pull_stream_task tencentcloud_css_pull_stream_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_pull_stream_task tencentcloud_css_pull_stream_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -463,8 +463,8 @@ export class CssPullStreamTask extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_pull_stream_task',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

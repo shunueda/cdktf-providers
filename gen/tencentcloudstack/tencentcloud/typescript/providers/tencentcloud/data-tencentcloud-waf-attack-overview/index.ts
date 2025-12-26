@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/waf_attack_overview
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/waf_attack_overview
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudWafAttackOverviewConfig extends cdktf.Terraform
   /**
   * App id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/waf_attack_overview#appid DataTencentcloudWafAttackOverview#appid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/waf_attack_overview#appid DataTencentcloudWafAttackOverview#appid}
   */
   readonly appid?: number;
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/waf_attack_overview#domain DataTencentcloudWafAttackOverview#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/waf_attack_overview#domain DataTencentcloudWafAttackOverview#domain}
   */
   readonly domain?: string;
   /**
   * support `sparta-waf`, `clb-waf`, otherwise not filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/waf_attack_overview#edition DataTencentcloudWafAttackOverview#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/waf_attack_overview#edition DataTencentcloudWafAttackOverview#edition}
   */
   readonly edition?: string;
   /**
   * Begin time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/waf_attack_overview#from_time DataTencentcloudWafAttackOverview#from_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/waf_attack_overview#from_time DataTencentcloudWafAttackOverview#from_time}
   */
   readonly fromTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/waf_attack_overview#id DataTencentcloudWafAttackOverview#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/waf_attack_overview#id DataTencentcloudWafAttackOverview#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface DataTencentcloudWafAttackOverviewConfig extends cdktf.Terraform
   /**
   * Waf instanceId, otherwise not filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/waf_attack_overview#instance_id DataTencentcloudWafAttackOverview#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/waf_attack_overview#instance_id DataTencentcloudWafAttackOverview#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/waf_attack_overview#result_output_file DataTencentcloudWafAttackOverview#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/waf_attack_overview#result_output_file DataTencentcloudWafAttackOverview#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * End time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/waf_attack_overview#to_time DataTencentcloudWafAttackOverview#to_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/waf_attack_overview#to_time DataTencentcloudWafAttackOverview#to_time}
   */
   readonly toTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/waf_attack_overview tencentcloud_waf_attack_overview}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/waf_attack_overview tencentcloud_waf_attack_overview}
 */
 export class DataTencentcloudWafAttackOverview extends cdktf.TerraformDataSource {
 
@@ -75,7 +75,7 @@ export class DataTencentcloudWafAttackOverview extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudWafAttackOverview resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWafAttackOverview to import
-  * @param importFromId The id of the existing DataTencentcloudWafAttackOverview that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/waf_attack_overview#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWafAttackOverview that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/waf_attack_overview#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWafAttackOverview to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DataTencentcloudWafAttackOverview extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/waf_attack_overview tencentcloud_waf_attack_overview} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/waf_attack_overview tencentcloud_waf_attack_overview} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DataTencentcloudWafAttackOverview extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_waf_attack_overview',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

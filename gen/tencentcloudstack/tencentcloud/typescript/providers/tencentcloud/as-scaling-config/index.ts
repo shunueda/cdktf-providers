@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface AsScalingConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Anti-DDoS service package ID. This is required when you want to request an AntiDDoS IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#anti_ddos_package_id AsScalingConfig#anti_ddos_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#anti_ddos_package_id AsScalingConfig#anti_ddos_package_id}
   */
   readonly antiDdosPackageId?: string;
   /**
   * Bandwidth package ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#bandwidth_package_id AsScalingConfig#bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#bandwidth_package_id AsScalingConfig#bandwidth_package_id}
   */
   readonly bandwidthPackageId?: string;
   /**
   * CAM role name authorized to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#cam_role_name AsScalingConfig#cam_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#cam_role_name AsScalingConfig#cam_role_name}
   */
   readonly camRoleName?: string;
   /**
   * Name of a launch configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#configuration_name AsScalingConfig#configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#configuration_name AsScalingConfig#configuration_name}
   */
   readonly configurationName: string;
   /**
   * Dedicated Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#dedicated_cluster_id AsScalingConfig#dedicated_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#dedicated_cluster_id AsScalingConfig#dedicated_cluster_id}
   */
   readonly dedicatedClusterId?: string;
   /**
   * Placement group ID. Only one is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#disaster_recover_group_ids AsScalingConfig#disaster_recover_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#disaster_recover_group_ids AsScalingConfig#disaster_recover_group_ids}
   */
   readonly disasterRecoverGroupIds?: string[];
   /**
   * Policy of cloud disk type. Valid values: `ORIGINAL` and `AUTOMATIC`. Default is `ORIGINAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#disk_type_policy AsScalingConfig#disk_type_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#disk_type_policy AsScalingConfig#disk_type_policy}
   */
   readonly diskTypePolicy?: string;
   /**
   * To specify whether to enable cloud automation tools service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#enhanced_automation_tools_service AsScalingConfig#enhanced_automation_tools_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#enhanced_automation_tools_service AsScalingConfig#enhanced_automation_tools_service}
   */
   readonly enhancedAutomationToolsService?: boolean | cdktf.IResolvable;
   /**
   * To specify whether to enable cloud monitor service. Default is `TRUE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#enhanced_monitor_service AsScalingConfig#enhanced_monitor_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#enhanced_monitor_service AsScalingConfig#enhanced_monitor_service}
   */
   readonly enhancedMonitorService?: boolean | cdktf.IResolvable;
   /**
   * To specify whether to enable cloud security service. Default is `TRUE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#enhanced_security_service AsScalingConfig#enhanced_security_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#enhanced_security_service AsScalingConfig#enhanced_security_service}
   */
   readonly enhancedSecurityService?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#id AsScalingConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#id AsScalingConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,157 +77,157 @@ export interface AsScalingConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image Family Name. Either Image ID or Image Family Name must be provided, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#image_family AsScalingConfig#image_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#image_family AsScalingConfig#image_family}
   */
   readonly imageFamily?: string;
   /**
   * An available image ID for a cvm instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#image_id AsScalingConfig#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#image_id AsScalingConfig#image_id}
   */
   readonly imageId?: string;
   /**
   * Charge type of instance. Valid values are `PREPAID`, `POSTPAID_BY_HOUR`, `SPOTPAID`, `CDCPAID`. The default is `POSTPAID_BY_HOUR`. NOTE: `SPOTPAID` instance must set `spot_instance_type` and `spot_max_price` at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#instance_charge_type AsScalingConfig#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#instance_charge_type AsScalingConfig#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * The tenancy (in month) of the prepaid instance, NOTE: it only works when instance_charge_type is set to `PREPAID`. Valid values are `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `24`, `36`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#instance_charge_type_prepaid_period AsScalingConfig#instance_charge_type_prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#instance_charge_type_prepaid_period AsScalingConfig#instance_charge_type_prepaid_period}
   */
   readonly instanceChargeTypePrepaidPeriod?: number;
   /**
   * Auto renewal flag. Valid values: `NOTIFY_AND_AUTO_RENEW`: notify upon expiration and renew automatically, `NOTIFY_AND_MANUAL_RENEW`: notify upon expiration but do not renew automatically, `DISABLE_NOTIFY_AND_MANUAL_RENEW`: neither notify upon expiration nor renew automatically. Default value: `NOTIFY_AND_MANUAL_RENEW`. If this parameter is specified as `NOTIFY_AND_AUTO_RENEW`, the instance will be automatically renewed on a monthly basis if the account balance is sufficient. NOTE: it only works when instance_charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#instance_charge_type_prepaid_renew_flag AsScalingConfig#instance_charge_type_prepaid_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#instance_charge_type_prepaid_renew_flag AsScalingConfig#instance_charge_type_prepaid_renew_flag}
   */
   readonly instanceChargeTypePrepaidRenewFlag?: string;
   /**
   * A list of tags used to associate different resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#instance_tags AsScalingConfig#instance_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#instance_tags AsScalingConfig#instance_tags}
   */
   readonly instanceTags?: { [key: string]: string };
   /**
   * Specified types of CVM instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#instance_types AsScalingConfig#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#instance_types AsScalingConfig#instance_types}
   */
   readonly instanceTypes: string[];
   /**
   * Charge types for network traffic. Valid values: `BANDWIDTH_PREPAID`, `TRAFFIC_POSTPAID_BY_HOUR` and `BANDWIDTH_PACKAGE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#internet_charge_type AsScalingConfig#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#internet_charge_type AsScalingConfig#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
   * Max bandwidth of Internet access in Mbps. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#internet_max_bandwidth_out AsScalingConfig#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#internet_max_bandwidth_out AsScalingConfig#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * AddressType. Default value: WanIP. For beta users of dedicated IP. the value can be: HighQualityEIP: Dedicated IP. Note that dedicated IPs are only available in partial regions. For beta users of Anti-DDoS IP, the value can be: AntiDDoSEIP: Anti-DDoS EIP. Note that Anti-DDoS IPs are only available in partial regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#ipv4_address_type AsScalingConfig#ipv4_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#ipv4_address_type AsScalingConfig#ipv4_address_type}
   */
   readonly ipv4AddressType?: string;
   /**
   * Whether to delete the bound EIP when the instance is destroyed. Range of values: True: retain the EIP; False: not retain the EIP. Note that when the IPv4AddressType field specifies the EIP type, the default behavior is not to retain the EIP. WanIP is unaffected by this field and will always be deleted with the instance. Changing this field configuration will take effect immediately for resources already bound to a scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#is_keep_eip AsScalingConfig#is_keep_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#is_keep_eip AsScalingConfig#is_keep_eip}
   */
   readonly isKeepEip?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to keep original settings of a CVM image. And it can't be used with password or key_ids together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#keep_image_login AsScalingConfig#keep_image_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#keep_image_login AsScalingConfig#keep_image_login}
   */
   readonly keepImageLogin?: boolean | cdktf.IResolvable;
   /**
   * ID list of keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#key_ids AsScalingConfig#key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#key_ids AsScalingConfig#key_ids}
   */
   readonly keyIds?: string[];
   /**
   * Password to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#password AsScalingConfig#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#password AsScalingConfig#password}
   */
   readonly password?: string;
   /**
   * Specifys to which project the configuration belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#project_id AsScalingConfig#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#project_id AsScalingConfig#project_id}
   */
   readonly projectId?: number;
   /**
   * Specify whether to assign an Internet IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#public_ip_assigned AsScalingConfig#public_ip_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#public_ip_assigned AsScalingConfig#public_ip_assigned}
   */
   readonly publicIpAssigned?: boolean | cdktf.IResolvable;
   /**
   * Security groups to which a CVM instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#security_group_ids AsScalingConfig#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#security_group_ids AsScalingConfig#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Type of spot instance, only support `one-time` now. Note: it only works when instance_charge_type is set to `SPOTPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#spot_instance_type AsScalingConfig#spot_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#spot_instance_type AsScalingConfig#spot_instance_type}
   */
   readonly spotInstanceType?: string;
   /**
   * Max price of a spot instance, is the format of decimal string, for example "0.50". Note: it only works when instance_charge_type is set to `SPOTPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#spot_max_price AsScalingConfig#spot_max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#spot_max_price AsScalingConfig#spot_max_price}
   */
   readonly spotMaxPrice?: string;
   /**
   * Volume of system disk in GB. Default is `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#system_disk_size AsScalingConfig#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#system_disk_size AsScalingConfig#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
   * Type of a CVM disk. Valid values: `CLOUD_PREMIUM` and `CLOUD_SSD`. Default is `CLOUD_PREMIUM`. valid when disk_type_policy is ORIGINAL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#system_disk_type AsScalingConfig#system_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#system_disk_type AsScalingConfig#system_disk_type}
   */
   readonly systemDiskType?: string;
   /**
   * Tags of launch configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#tags AsScalingConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#tags AsScalingConfig#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * ase64-encoded User Data text, the length limit is 16KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#user_data AsScalingConfig#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#user_data AsScalingConfig#user_data}
   */
   readonly userData?: string;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#data_disk AsScalingConfig#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#data_disk AsScalingConfig#data_disk}
   */
   readonly dataDisk?: AsScalingConfigDataDisk[] | cdktf.IResolvable;
   /**
   * host_name_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#host_name_settings AsScalingConfig#host_name_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#host_name_settings AsScalingConfig#host_name_settings}
   */
   readonly hostNameSettings?: AsScalingConfigHostNameSettings;
   /**
   * instance_name_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#instance_name_settings AsScalingConfig#instance_name_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#instance_name_settings AsScalingConfig#instance_name_settings}
   */
   readonly instanceNameSettings?: AsScalingConfigInstanceNameSettings;
 }
@@ -235,25 +235,25 @@ export interface AsScalingConfigDataDisk {
   /**
   * Indicates whether the disk remove after instance terminated. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#delete_with_instance AsScalingConfig#delete_with_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#delete_with_instance AsScalingConfig#delete_with_instance}
   */
   readonly deleteWithInstance?: boolean | cdktf.IResolvable;
   /**
   * Volume of disk in GB. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#disk_size AsScalingConfig#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#disk_size AsScalingConfig#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Types of disk. Valid values: `CLOUD_PREMIUM` and `CLOUD_SSD`. valid when disk_type_policy is ORIGINAL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#disk_type AsScalingConfig#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#disk_type AsScalingConfig#disk_type}
   */
   readonly diskType?: string;
   /**
   * Data disk snapshot ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#snapshot_id AsScalingConfig#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#snapshot_id AsScalingConfig#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -458,13 +458,13 @@ export interface AsScalingConfigHostNameSettings {
   /**
   * The host name of the cloud server; dots (.) and dashes (-) cannot be used as the first and last characters of HostName, and cannot be used consecutively; Windows instances are not supported; other types (Linux, etc.) instances: the character length is [2, 40], it is allowed to support multiple dots, and there is a paragraph between the dots, and each paragraph is allowed to consist of letters (no uppercase and lowercase restrictions), numbers and dashes (-). Pure numbers are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#host_name AsScalingConfig#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#host_name AsScalingConfig#host_name}
   */
   readonly hostName: string;
   /**
   * The style of the host name of the cloud server, the value range includes `ORIGINAL` and `UNIQUE`, the default is `ORIGINAL`; `ORIGINAL`, the AS directly passes the HostName filled in the input parameter to the CVM, and the CVM may append a sequence to the HostName number, the HostName of the instance in the scaling group will conflict; `UNIQUE`, the HostName filled in as a parameter is equivalent to the host name prefix, AS and CVM will expand it, and the HostName of the instance in the scaling group can be guaranteed to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#host_name_style AsScalingConfig#host_name_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#host_name_style AsScalingConfig#host_name_style}
   */
   readonly hostNameStyle?: string;
 }
@@ -576,13 +576,13 @@ export interface AsScalingConfigInstanceNameSettings {
   /**
   * CVM instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#instance_name AsScalingConfig#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#instance_name AsScalingConfig#instance_name}
   */
   readonly instanceName: string;
   /**
   * Type of CVM instance name. Valid values: `ORIGINAL` and `UNIQUE`. Default is `ORIGINAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#instance_name_style AsScalingConfig#instance_name_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#instance_name_style AsScalingConfig#instance_name_style}
   */
   readonly instanceNameStyle?: string;
 }
@@ -692,7 +692,7 @@ export class AsScalingConfigInstanceNameSettingsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config tencentcloud_as_scaling_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config tencentcloud_as_scaling_config}
 */
 export class AsScalingConfig extends cdktf.TerraformResource {
 
@@ -708,7 +708,7 @@ export class AsScalingConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsScalingConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsScalingConfig to import
-  * @param importFromId The id of the existing AsScalingConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsScalingConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsScalingConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -720,7 +720,7 @@ export class AsScalingConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/as_scaling_config tencentcloud_as_scaling_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/as_scaling_config tencentcloud_as_scaling_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -731,8 +731,8 @@ export class AsScalingConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_as_scaling_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

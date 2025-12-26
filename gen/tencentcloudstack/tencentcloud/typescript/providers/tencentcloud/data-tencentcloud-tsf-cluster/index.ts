@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudTsfClusterConfig extends cdktf.TerraformMetaArg
   /**
   * Cluster ID list to be queried, if not filled in or passed, all content will be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_cluster#cluster_id_list DataTencentcloudTsfCluster#cluster_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_cluster#cluster_id_list DataTencentcloudTsfCluster#cluster_id_list}
   */
   readonly clusterIdList?: string[];
   /**
   * The type of cluster to be queried, if left blank or not passed, all content will be queried. C: container, V: virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_cluster#cluster_type DataTencentcloudTsfCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_cluster#cluster_type DataTencentcloudTsfCluster#cluster_type}
   */
   readonly clusterType?: string;
   /**
   * Whether to disable dataset authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_cluster#disable_program_auth_check DataTencentcloudTsfCluster#disable_program_auth_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_cluster#disable_program_auth_check DataTencentcloudTsfCluster#disable_program_auth_check}
   */
   readonly disableProgramAuthCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_cluster#id DataTencentcloudTsfCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_cluster#id DataTencentcloudTsfCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface DataTencentcloudTsfClusterConfig extends cdktf.TerraformMetaArg
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_cluster#result_output_file DataTencentcloudTsfCluster#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_cluster#result_output_file DataTencentcloudTsfCluster#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Filter by keywords for Cluster Id or name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_cluster#search_word DataTencentcloudTsfCluster#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_cluster#search_word DataTencentcloudTsfCluster#search_word}
   */
   readonly searchWord?: string;
 }
@@ -682,7 +682,7 @@ export class DataTencentcloudTsfClusterResultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_cluster tencentcloud_tsf_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_cluster tencentcloud_tsf_cluster}
 */
 export class DataTencentcloudTsfCluster extends cdktf.TerraformDataSource {
 
@@ -698,7 +698,7 @@ export class DataTencentcloudTsfCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudTsfCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfCluster to import
-  * @param importFromId The id of the existing DataTencentcloudTsfCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -710,7 +710,7 @@ export class DataTencentcloudTsfCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_cluster tencentcloud_tsf_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_cluster tencentcloud_tsf_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -721,8 +721,8 @@ export class DataTencentcloudTsfCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_tsf_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

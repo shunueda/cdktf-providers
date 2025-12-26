@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/teo_plan
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/teo_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TeoPlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/teo_plan#id TeoPlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/teo_plan#id TeoPlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface TeoPlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * The subscription package type, the possible values are: `personal`: personal package, prepaid package; `basic`: basic package, prepaid package; `standard`: standard package, prepaid package; `enterprise`: enterprise package, postpaid package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/teo_plan#plan_type TeoPlan#plan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/teo_plan#plan_type TeoPlan#plan_type}
   */
   readonly planType: string;
   /**
   * prepaid_plan_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/teo_plan#prepaid_plan_param TeoPlan#prepaid_plan_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/teo_plan#prepaid_plan_param TeoPlan#prepaid_plan_param}
   */
   readonly prepaidPlanParam?: TeoPlanPrepaidPlanParam;
 }
@@ -31,13 +31,13 @@ export interface TeoPlanPrepaidPlanParam {
   /**
   * The subscription period of the prepaid package, in months, with possible values: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 24, 36. If not filled in, the default value 1 is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/teo_plan#period TeoPlan#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/teo_plan#period TeoPlan#period}
   */
   readonly period?: number;
   /**
   * The automatic renewal flag of the prepaid package, the values are: `on`: turn on automatic renewal; `off`: do not turn on automatic renewal. If not filled in, the default value off is used. When automatic renewal occurs, the default renewal period is 1 month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/teo_plan#renew_flag TeoPlan#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/teo_plan#renew_flag TeoPlan#renew_flag}
   */
   readonly renewFlag?: string;
 }
@@ -150,7 +150,7 @@ export class TeoPlanPrepaidPlanParamOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/teo_plan tencentcloud_teo_plan}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/teo_plan tencentcloud_teo_plan}
 */
 export class TeoPlan extends cdktf.TerraformResource {
 
@@ -166,7 +166,7 @@ export class TeoPlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoPlan to import
-  * @param importFromId The id of the existing TeoPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/teo_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/teo_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class TeoPlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/teo_plan tencentcloud_teo_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/teo_plan tencentcloud_teo_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class TeoPlan extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_plan',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

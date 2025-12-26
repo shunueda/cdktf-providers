@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClsKafkaRechargeConfig extends cdktf.TerraformMetaArguments {
   /**
   * user consumer group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#consumer_group_name ClsKafkaRecharge#consumer_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#consumer_group_name ClsKafkaRecharge#consumer_group_name}
   */
   readonly consumerGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#id ClsKafkaRecharge#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#id ClsKafkaRecharge#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,61 +23,61 @@ export interface ClsKafkaRechargeConfig extends cdktf.TerraformMetaArguments {
   /**
   * ServerAddr is encryption addr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#is_encryption_addr ClsKafkaRecharge#is_encryption_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#is_encryption_addr ClsKafkaRecharge#is_encryption_addr}
   */
   readonly isEncryptionAddr?: boolean | cdktf.IResolvable;
   /**
   * CKafka Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#kafka_instance ClsKafkaRecharge#kafka_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#kafka_instance ClsKafkaRecharge#kafka_instance}
   */
   readonly kafkaInstance?: string;
   /**
   * kafka recharge type, 0 for CKafka, 1 fro user define Kafka.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#kafka_type ClsKafkaRecharge#kafka_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#kafka_type ClsKafkaRecharge#kafka_type}
   */
   readonly kafkaType: number;
   /**
   * kafka recharge name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#name ClsKafkaRecharge#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#name ClsKafkaRecharge#name}
   */
   readonly name: string;
   /**
   * The translation is: -2: Earliest (default) -1: Latest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#offset ClsKafkaRecharge#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#offset ClsKafkaRecharge#offset}
   */
   readonly offset: number;
   /**
   * Server addr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#server_addr ClsKafkaRecharge#server_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#server_addr ClsKafkaRecharge#server_addr}
   */
   readonly serverAddr?: string;
   /**
   * recharge for cls TopicId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#topic_id ClsKafkaRecharge#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#topic_id ClsKafkaRecharge#topic_id}
   */
   readonly topicId: string;
   /**
   * user need recharge kafka topic list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#user_kafka_topics ClsKafkaRecharge#user_kafka_topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#user_kafka_topics ClsKafkaRecharge#user_kafka_topics}
   */
   readonly userKafkaTopics: string;
   /**
   * log_recharge_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#log_recharge_rule ClsKafkaRecharge#log_recharge_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#log_recharge_rule ClsKafkaRecharge#log_recharge_rule}
   */
   readonly logRechargeRule?: ClsKafkaRechargeLogRechargeRule;
   /**
   * protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#protocol ClsKafkaRecharge#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#protocol ClsKafkaRecharge#protocol}
   */
   readonly protocol?: ClsKafkaRechargeProtocol;
 }
@@ -85,85 +85,85 @@ export interface ClsKafkaRechargeLogRechargeRule {
   /**
   * default time from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#default_time_src ClsKafkaRecharge#default_time_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#default_time_src ClsKafkaRecharge#default_time_src}
   */
   readonly defaultTimeSrc?: number;
   /**
   * user default time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#default_time_switch ClsKafkaRecharge#default_time_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#default_time_switch ClsKafkaRecharge#default_time_switch}
   */
   readonly defaultTimeSwitch: boolean | cdktf.IResolvable;
   /**
   * encoding format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#encoding_format ClsKafkaRecharge#encoding_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#encoding_format ClsKafkaRecharge#encoding_format}
   */
   readonly encodingFormat: number;
   /**
   * log key list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#keys ClsKafkaRecharge#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#keys ClsKafkaRecharge#keys}
   */
   readonly keys?: string[];
   /**
   * log regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#log_regex ClsKafkaRecharge#log_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#log_regex ClsKafkaRecharge#log_regex}
   */
   readonly logRegex?: string;
   /**
   * metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#metadata ClsKafkaRecharge#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#metadata ClsKafkaRecharge#metadata}
   */
   readonly metadata?: string[];
   /**
   * recharge type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#recharge_type ClsKafkaRecharge#recharge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#recharge_type ClsKafkaRecharge#recharge_type}
   */
   readonly rechargeType: string;
   /**
   * time format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#time_format ClsKafkaRecharge#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#time_format ClsKafkaRecharge#time_format}
   */
   readonly timeFormat?: string;
   /**
   * time key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#time_key ClsKafkaRecharge#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#time_key ClsKafkaRecharge#time_key}
   */
   readonly timeKey?: string;
   /**
   * time regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#time_regex ClsKafkaRecharge#time_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#time_regex ClsKafkaRecharge#time_regex}
   */
   readonly timeRegex?: string;
   /**
   * time zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#time_zone ClsKafkaRecharge#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#time_zone ClsKafkaRecharge#time_zone}
   */
   readonly timeZone?: string;
   /**
   * parse failed log key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#un_match_log_key ClsKafkaRecharge#un_match_log_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#un_match_log_key ClsKafkaRecharge#un_match_log_key}
   */
   readonly unMatchLogKey?: string;
   /**
   * is push parse failed log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#un_match_log_switch ClsKafkaRecharge#un_match_log_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#un_match_log_switch ClsKafkaRecharge#un_match_log_switch}
   */
   readonly unMatchLogSwitch?: boolean | cdktf.IResolvable;
   /**
   * parse failed log time from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#un_match_log_time_src ClsKafkaRecharge#un_match_log_time_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#un_match_log_time_src ClsKafkaRecharge#un_match_log_time_src}
   */
   readonly unMatchLogTimeSrc?: number;
 }
@@ -617,25 +617,25 @@ export interface ClsKafkaRechargeProtocol {
   /**
   * encryption type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#mechanism ClsKafkaRecharge#mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#mechanism ClsKafkaRecharge#mechanism}
   */
   readonly mechanism?: string;
   /**
   * user password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#password ClsKafkaRecharge#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#password ClsKafkaRecharge#password}
   */
   readonly password?: string;
   /**
   * protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#protocol ClsKafkaRecharge#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#protocol ClsKafkaRecharge#protocol}
   */
   readonly protocol?: string;
   /**
   * username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#user_name ClsKafkaRecharge#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#user_name ClsKafkaRecharge#user_name}
   */
   readonly userName?: string;
 }
@@ -806,7 +806,7 @@ export class ClsKafkaRechargeProtocolOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge tencentcloud_cls_kafka_recharge}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge tencentcloud_cls_kafka_recharge}
 */
 export class ClsKafkaRecharge extends cdktf.TerraformResource {
 
@@ -822,7 +822,7 @@ export class ClsKafkaRecharge extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClsKafkaRecharge resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClsKafkaRecharge to import
-  * @param importFromId The id of the existing ClsKafkaRecharge that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClsKafkaRecharge that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClsKafkaRecharge to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -834,7 +834,7 @@ export class ClsKafkaRecharge extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_kafka_recharge tencentcloud_cls_kafka_recharge} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_kafka_recharge tencentcloud_cls_kafka_recharge} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -845,8 +845,8 @@ export class ClsKafkaRecharge extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_kafka_recharge',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface MysqlBackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Backup method. Supported values include: `physical` - physical backup; `snapshot` - snapshot backup. Multi node only support `physical`, Single node only support `snapshot`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_policy#backup_model MysqlBackupPolicy#backup_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_policy#backup_model MysqlBackupPolicy#backup_model}
   */
   readonly backupModel?: string;
   /**
   * Instance backup time, in the format of 'HH:mm-HH:mm'. Time setting interval is four hours. Default to `02:00-06:00`. The following value can be supported: `02:00-06:00`, `06:00-10:00`, `10:00-14:00`, `14:00-18:00`, `18:00-22:00`, and `22:00-02:00`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_policy#backup_time MysqlBackupPolicy#backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_policy#backup_time MysqlBackupPolicy#backup_time}
   */
   readonly backupTime?: string;
   /**
   * Binlog retention time, in days. The minimum value is 7 days and the maximum value is 1830 days. This value cannot be set greater than the backup file retention time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_policy#binlog_period MysqlBackupPolicy#binlog_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_policy#binlog_period MysqlBackupPolicy#binlog_period}
   */
   readonly binlogPeriod?: number;
   /**
   * The standard starting number of days for log backup storage. The log backup will be converted when it reaches the standard starting number of days for storage. The minimum is 30 days and must not be greater than the number of days for log backup retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_policy#binlog_standby_days MysqlBackupPolicy#binlog_standby_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_policy#binlog_standby_days MysqlBackupPolicy#binlog_standby_days}
   */
   readonly binlogStandbyDays?: number;
   /**
   * Whether to enable the log backup standard storage policy, `off` - close, `on` - open, the default is off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_policy#enable_binlog_standby MysqlBackupPolicy#enable_binlog_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_policy#enable_binlog_standby MysqlBackupPolicy#enable_binlog_standby}
   */
   readonly enableBinlogStandby?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_policy#id MysqlBackupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_policy#id MysqlBackupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,19 +47,19 @@ export interface MysqlBackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance ID to which policies will be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_policy#mysql_id MysqlBackupPolicy#mysql_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_policy#mysql_id MysqlBackupPolicy#mysql_id}
   */
   readonly mysqlId: string;
   /**
   * The retention time of backup files, in days. The minimum value is 7 days and the maximum value is 1830 days. And default value is `7`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_policy#retention_period MysqlBackupPolicy#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_policy#retention_period MysqlBackupPolicy#retention_period}
   */
   readonly retentionPeriod?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_policy tencentcloud_mysql_backup_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_policy tencentcloud_mysql_backup_policy}
 */
 export class MysqlBackupPolicy extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class MysqlBackupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlBackupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlBackupPolicy to import
-  * @param importFromId The id of the existing MysqlBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlBackupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class MysqlBackupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_policy tencentcloud_mysql_backup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_policy tencentcloud_mysql_backup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class MysqlBackupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

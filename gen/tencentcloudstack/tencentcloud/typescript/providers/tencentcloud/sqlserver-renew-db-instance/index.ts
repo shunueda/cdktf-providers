@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_renew_db_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_renew_db_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SqlserverRenewDbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_renew_db_instance#id SqlserverRenewDbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_renew_db_instance#id SqlserverRenewDbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface SqlserverRenewDbInstanceConfig extends cdktf.TerraformMetaArgum
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_renew_db_instance#instance_id SqlserverRenewDbInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_renew_db_instance#instance_id SqlserverRenewDbInstance#instance_id}
   */
   readonly instanceId: string;
   /**
   * How many months to renew, the value range is 1-48, the default is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_renew_db_instance#period SqlserverRenewDbInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_renew_db_instance#period SqlserverRenewDbInstance#period}
   */
   readonly period?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_renew_db_instance tencentcloud_sqlserver_renew_db_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_renew_db_instance tencentcloud_sqlserver_renew_db_instance}
 */
 export class SqlserverRenewDbInstance extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class SqlserverRenewDbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverRenewDbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverRenewDbInstance to import
-  * @param importFromId The id of the existing SqlserverRenewDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_renew_db_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverRenewDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_renew_db_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverRenewDbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class SqlserverRenewDbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_renew_db_instance tencentcloud_sqlserver_renew_db_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_renew_db_instance tencentcloud_sqlserver_renew_db_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class SqlserverRenewDbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_renew_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

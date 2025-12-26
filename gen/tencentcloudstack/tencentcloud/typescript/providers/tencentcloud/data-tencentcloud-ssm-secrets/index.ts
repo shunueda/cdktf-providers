@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssm_secrets
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssm_secrets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudSsmSecretsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssm_secrets#id DataTencentcloudSsmSecrets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssm_secrets#id DataTencentcloudSsmSecrets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface DataTencentcloudSsmSecretsConfig extends cdktf.TerraformMetaArg
   /**
   * The order to sort the create time of secret. `0` - desc, `1` - asc. Default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssm_secrets#order_type DataTencentcloudSsmSecrets#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssm_secrets#order_type DataTencentcloudSsmSecrets#order_type}
   */
   readonly orderType?: number;
   /**
   * This parameter only takes effect when the SecretType parameter value is 1. When the SecretType value is 1, if the Product Name value is empty, it means to query all types of cloud product credentials. If the Product Name value is MySQL, it means to query MySQL database credentials. If the Product Name value is Tdsql mysql, it means to query Tdsql (MySQL version) credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssm_secrets#product_name DataTencentcloudSsmSecrets#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssm_secrets#product_name DataTencentcloudSsmSecrets#product_name}
   */
   readonly productName?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssm_secrets#result_output_file DataTencentcloudSsmSecrets#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssm_secrets#result_output_file DataTencentcloudSsmSecrets#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Secret name used to filter result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssm_secrets#secret_name DataTencentcloudSsmSecrets#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssm_secrets#secret_name DataTencentcloudSsmSecrets#secret_name}
   */
   readonly secretName?: string;
   /**
   * 0- represents user-defined credentials, defaults to 0. 1- represents the user's cloud product credentials. 2- represents SSH key pair credentials. 3- represents cloud API key pair credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssm_secrets#secret_type DataTencentcloudSsmSecrets#secret_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssm_secrets#secret_type DataTencentcloudSsmSecrets#secret_type}
   */
   readonly secretType?: number;
   /**
   * Filter by state of secret. `0` - all secrets are queried, `1` - only Enabled secrets are queried, `2` - only Disabled secrets are queried, `3` - only PendingDelete secrets are queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssm_secrets#state DataTencentcloudSsmSecrets#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssm_secrets#state DataTencentcloudSsmSecrets#state}
   */
   readonly state?: number;
   /**
   * Tags to filter secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssm_secrets#tags DataTencentcloudSsmSecrets#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssm_secrets#tags DataTencentcloudSsmSecrets#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -224,7 +224,7 @@ export class DataTencentcloudSsmSecretsSecretListStructList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssm_secrets tencentcloud_ssm_secrets}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssm_secrets tencentcloud_ssm_secrets}
 */
 export class DataTencentcloudSsmSecrets extends cdktf.TerraformDataSource {
 
@@ -240,7 +240,7 @@ export class DataTencentcloudSsmSecrets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudSsmSecrets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSsmSecrets to import
-  * @param importFromId The id of the existing DataTencentcloudSsmSecrets that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssm_secrets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSsmSecrets that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssm_secrets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSsmSecrets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -252,7 +252,7 @@ export class DataTencentcloudSsmSecrets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssm_secrets tencentcloud_ssm_secrets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssm_secrets tencentcloud_ssm_secrets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -263,8 +263,8 @@ export class DataTencentcloudSsmSecrets extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_ssm_secrets',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

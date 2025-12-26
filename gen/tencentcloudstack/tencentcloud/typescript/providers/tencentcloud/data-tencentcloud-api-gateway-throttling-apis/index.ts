@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_throttling_apis
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/api_gateway_throttling_apis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudApiGatewayThrottlingApisConfig extends cdktf.Te
   /**
   * Environment list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_throttling_apis#environment_names DataTencentcloudApiGatewayThrottlingApis#environment_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/api_gateway_throttling_apis#environment_names DataTencentcloudApiGatewayThrottlingApis#environment_names}
   */
   readonly environmentNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_throttling_apis#id DataTencentcloudApiGatewayThrottlingApis#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/api_gateway_throttling_apis#id DataTencentcloudApiGatewayThrottlingApis#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudApiGatewayThrottlingApisConfig extends cdktf.Te
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_throttling_apis#result_output_file DataTencentcloudApiGatewayThrottlingApis#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/api_gateway_throttling_apis#result_output_file DataTencentcloudApiGatewayThrottlingApis#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Unique service ID of API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_throttling_apis#service_id DataTencentcloudApiGatewayThrottlingApis#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/api_gateway_throttling_apis#service_id DataTencentcloudApiGatewayThrottlingApis#service_id}
   */
   readonly serviceId?: string;
 }
@@ -292,7 +292,7 @@ export class DataTencentcloudApiGatewayThrottlingApisListStructList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_throttling_apis tencentcloud_api_gateway_throttling_apis}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/api_gateway_throttling_apis tencentcloud_api_gateway_throttling_apis}
 */
 export class DataTencentcloudApiGatewayThrottlingApis extends cdktf.TerraformDataSource {
 
@@ -308,7 +308,7 @@ export class DataTencentcloudApiGatewayThrottlingApis extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudApiGatewayThrottlingApis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudApiGatewayThrottlingApis to import
-  * @param importFromId The id of the existing DataTencentcloudApiGatewayThrottlingApis that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_throttling_apis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudApiGatewayThrottlingApis that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/api_gateway_throttling_apis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudApiGatewayThrottlingApis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -320,7 +320,7 @@ export class DataTencentcloudApiGatewayThrottlingApis extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/api_gateway_throttling_apis tencentcloud_api_gateway_throttling_apis} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/api_gateway_throttling_apis tencentcloud_api_gateway_throttling_apis} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -331,8 +331,8 @@ export class DataTencentcloudApiGatewayThrottlingApis extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_api_gateway_throttling_apis',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

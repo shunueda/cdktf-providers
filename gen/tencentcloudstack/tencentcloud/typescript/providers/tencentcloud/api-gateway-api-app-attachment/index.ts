@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_api_app_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_api_app_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ApiGatewayApiAppAttachmentConfig extends cdktf.TerraformMetaArg
   /**
   * The unique ID of the application to be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_api_app_attachment#api_app_id ApiGatewayApiAppAttachment#api_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_api_app_attachment#api_app_id ApiGatewayApiAppAttachment#api_app_id}
   */
   readonly apiAppId: string;
   /**
   * The unique ID of the API to be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_api_app_attachment#api_id ApiGatewayApiAppAttachment#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_api_app_attachment#api_id ApiGatewayApiAppAttachment#api_id}
   */
   readonly apiId: string;
   /**
   * The environment to be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_api_app_attachment#environment ApiGatewayApiAppAttachment#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_api_app_attachment#environment ApiGatewayApiAppAttachment#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_api_app_attachment#id ApiGatewayApiAppAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_api_app_attachment#id ApiGatewayApiAppAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface ApiGatewayApiAppAttachmentConfig extends cdktf.TerraformMetaArg
   /**
   * The unique ID of the service to be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_api_app_attachment#service_id ApiGatewayApiAppAttachment#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_api_app_attachment#service_id ApiGatewayApiAppAttachment#service_id}
   */
   readonly serviceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_api_app_attachment tencentcloud_api_gateway_api_app_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_api_app_attachment tencentcloud_api_gateway_api_app_attachment}
 */
 export class ApiGatewayApiAppAttachment extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ApiGatewayApiAppAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayApiAppAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayApiAppAttachment to import
-  * @param importFromId The id of the existing ApiGatewayApiAppAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_api_app_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayApiAppAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_api_app_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayApiAppAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ApiGatewayApiAppAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_api_app_attachment tencentcloud_api_gateway_api_app_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_api_app_attachment tencentcloud_api_gateway_api_app_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ApiGatewayApiAppAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_api_gateway_api_app_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

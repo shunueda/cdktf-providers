@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ClickhouseAccountPermissionConfig extends cdktf.TerraformMetaAr
   /**
   * Whether all database tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#all_database ClickhouseAccountPermission#all_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#all_database ClickhouseAccountPermission#all_database}
   */
   readonly allDatabase: boolean | cdktf.IResolvable;
   /**
   * Cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#cluster ClickhouseAccountPermission#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#cluster ClickhouseAccountPermission#cluster}
   */
   readonly cluster: string;
   /**
   * Global privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#global_privileges ClickhouseAccountPermission#global_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#global_privileges ClickhouseAccountPermission#global_privileges}
   */
   readonly globalPrivileges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#id ClickhouseAccountPermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#id ClickhouseAccountPermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface ClickhouseAccountPermissionConfig extends cdktf.TerraformMetaAr
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#instance_id ClickhouseAccountPermission#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#instance_id ClickhouseAccountPermission#instance_id}
   */
   readonly instanceId: string;
   /**
   * User name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#user_name ClickhouseAccountPermission#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#user_name ClickhouseAccountPermission#user_name}
   */
   readonly userName: string;
   /**
   * database_privilege_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#database_privilege_list ClickhouseAccountPermission#database_privilege_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#database_privilege_list ClickhouseAccountPermission#database_privilege_list}
   */
   readonly databasePrivilegeList?: ClickhouseAccountPermissionDatabasePrivilegeListStruct[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface ClickhouseAccountPermissionDatabasePrivilegeListTablePrivilegeL
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#table_name ClickhouseAccountPermission#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#table_name ClickhouseAccountPermission#table_name}
   */
   readonly tableName: string;
   /**
   * Table privileges. Valid values: SELECT, INSERT_ALL, ALTER, TRUNCATE, DROP_TABLE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#table_privileges ClickhouseAccountPermission#table_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#table_privileges ClickhouseAccountPermission#table_privileges}
   */
   readonly tablePrivileges: string[];
 }
@@ -202,19 +202,19 @@ export interface ClickhouseAccountPermissionDatabasePrivilegeListStruct {
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#database_name ClickhouseAccountPermission#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#database_name ClickhouseAccountPermission#database_name}
   */
   readonly databaseName: string;
   /**
   * Database privileges. Valid valuse: SELECT, INSERT_ALL, ALTER, TRUNCATE, DROP_TABLE, CREATE_TABLE, DROP_DATABASE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#database_privileges ClickhouseAccountPermission#database_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#database_privileges ClickhouseAccountPermission#database_privileges}
   */
   readonly databasePrivileges?: string[];
   /**
   * table_privilege_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#table_privilege_list ClickhouseAccountPermission#table_privilege_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#table_privilege_list ClickhouseAccountPermission#table_privilege_list}
   */
   readonly tablePrivilegeList?: ClickhouseAccountPermissionDatabasePrivilegeListTablePrivilegeListStruct[] | cdktf.IResolvable;
 }
@@ -385,7 +385,7 @@ export class ClickhouseAccountPermissionDatabasePrivilegeListStructList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission tencentcloud_clickhouse_account_permission}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission tencentcloud_clickhouse_account_permission}
 */
 export class ClickhouseAccountPermission extends cdktf.TerraformResource {
 
@@ -401,7 +401,7 @@ export class ClickhouseAccountPermission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClickhouseAccountPermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClickhouseAccountPermission to import
-  * @param importFromId The id of the existing ClickhouseAccountPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClickhouseAccountPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClickhouseAccountPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -413,7 +413,7 @@ export class ClickhouseAccountPermission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clickhouse_account_permission tencentcloud_clickhouse_account_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clickhouse_account_permission tencentcloud_clickhouse_account_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -424,8 +424,8 @@ export class ClickhouseAccountPermission extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clickhouse_account_permission',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

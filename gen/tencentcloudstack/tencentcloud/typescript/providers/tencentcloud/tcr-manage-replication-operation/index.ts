@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TcrManageReplicationOperationConfig extends cdktf.TerraformMeta
   /**
   * rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#description TcrManageReplicationOperation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#description TcrManageReplicationOperation#description}
   */
   readonly description?: string;
   /**
   * the region ID of the target instance, such as Guangzhou is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#destination_region_id TcrManageReplicationOperation#destination_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#destination_region_id TcrManageReplicationOperation#destination_region_id}
   */
   readonly destinationRegionId?: number;
   /**
   * copy destination instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#destination_registry_id TcrManageReplicationOperation#destination_registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#destination_registry_id TcrManageReplicationOperation#destination_registry_id}
   */
   readonly destinationRegistryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#id TcrManageReplicationOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#id TcrManageReplicationOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface TcrManageReplicationOperationConfig extends cdktf.TerraformMeta
   /**
   * copy source instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#source_registry_id TcrManageReplicationOperation#source_registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#source_registry_id TcrManageReplicationOperation#source_registry_id}
   */
   readonly sourceRegistryId: string;
   /**
   * peer_replication_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#peer_replication_option TcrManageReplicationOperation#peer_replication_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#peer_replication_option TcrManageReplicationOperation#peer_replication_option}
   */
   readonly peerReplicationOption?: TcrManageReplicationOperationPeerReplicationOption;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#rule TcrManageReplicationOperation#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#rule TcrManageReplicationOperation#rule}
   */
   readonly rule: TcrManageReplicationOperationRule;
 }
@@ -55,19 +55,19 @@ export interface TcrManageReplicationOperationPeerReplicationOption {
   /**
   * whether to enable cross-master account instance synchronization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#enable_peer_replication TcrManageReplicationOperation#enable_peer_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#enable_peer_replication TcrManageReplicationOperation#enable_peer_replication}
   */
   readonly enablePeerReplication: boolean | cdktf.IResolvable;
   /**
   * access permanent token of the instance to be synchronized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#peer_registry_token TcrManageReplicationOperation#peer_registry_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#peer_registry_token TcrManageReplicationOperation#peer_registry_token}
   */
   readonly peerRegistryToken: string;
   /**
   * uin of the instance to be synchronized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#peer_registry_uin TcrManageReplicationOperation#peer_registry_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#peer_registry_uin TcrManageReplicationOperation#peer_registry_uin}
   */
   readonly peerRegistryUin: string;
 }
@@ -202,13 +202,13 @@ export interface TcrManageReplicationOperationRuleFilters {
   /**
   * type (name, tag, and resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#type TcrManageReplicationOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#type TcrManageReplicationOperation#type}
   */
   readonly type: string;
   /**
   * empty by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#value TcrManageReplicationOperation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#value TcrManageReplicationOperation#value}
   */
   readonly value?: string;
 }
@@ -352,25 +352,25 @@ export interface TcrManageReplicationOperationRule {
   /**
   * target namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#dest_namespace TcrManageReplicationOperation#dest_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#dest_namespace TcrManageReplicationOperation#dest_namespace}
   */
   readonly destNamespace: string;
   /**
   * synchronization rule names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#name TcrManageReplicationOperation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#name TcrManageReplicationOperation#name}
   */
   readonly name: string;
   /**
   * whether to cover.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#override TcrManageReplicationOperation#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#override TcrManageReplicationOperation#override}
   */
   readonly override: boolean | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#filters TcrManageReplicationOperation#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#filters TcrManageReplicationOperation#filters}
   */
   readonly filters: TcrManageReplicationOperationRuleFilters[] | cdktf.IResolvable;
 }
@@ -529,7 +529,7 @@ export class TcrManageReplicationOperationRuleOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation tencentcloud_tcr_manage_replication_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation tencentcloud_tcr_manage_replication_operation}
 */
 export class TcrManageReplicationOperation extends cdktf.TerraformResource {
 
@@ -545,7 +545,7 @@ export class TcrManageReplicationOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcrManageReplicationOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcrManageReplicationOperation to import
-  * @param importFromId The id of the existing TcrManageReplicationOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcrManageReplicationOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcrManageReplicationOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -557,7 +557,7 @@ export class TcrManageReplicationOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tcr_manage_replication_operation tencentcloud_tcr_manage_replication_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tcr_manage_replication_operation tencentcloud_tcr_manage_replication_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -568,8 +568,8 @@ export class TcrManageReplicationOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcr_manage_replication_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

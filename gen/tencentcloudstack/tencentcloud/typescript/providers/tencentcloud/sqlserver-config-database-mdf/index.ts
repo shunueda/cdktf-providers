@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_config_database_mdf
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_config_database_mdf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SqlserverConfigDatabaseMdfConfig extends cdktf.TerraformMetaArg
   /**
   * Array of database names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_config_database_mdf#db_name SqlserverConfigDatabaseMdf#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_config_database_mdf#db_name SqlserverConfigDatabaseMdf#db_name}
   */
   readonly dbName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_config_database_mdf#id SqlserverConfigDatabaseMdf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_config_database_mdf#id SqlserverConfigDatabaseMdf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface SqlserverConfigDatabaseMdfConfig extends cdktf.TerraformMetaArg
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_config_database_mdf#instance_id SqlserverConfigDatabaseMdf#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_config_database_mdf#instance_id SqlserverConfigDatabaseMdf#instance_id}
   */
   readonly instanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_config_database_mdf tencentcloud_sqlserver_config_database_mdf}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_config_database_mdf tencentcloud_sqlserver_config_database_mdf}
 */
 export class SqlserverConfigDatabaseMdf extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class SqlserverConfigDatabaseMdf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverConfigDatabaseMdf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverConfigDatabaseMdf to import
-  * @param importFromId The id of the existing SqlserverConfigDatabaseMdf that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_config_database_mdf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverConfigDatabaseMdf that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_config_database_mdf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverConfigDatabaseMdf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class SqlserverConfigDatabaseMdf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_config_database_mdf tencentcloud_sqlserver_config_database_mdf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_config_database_mdf tencentcloud_sqlserver_config_database_mdf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class SqlserverConfigDatabaseMdf extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_config_database_mdf',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

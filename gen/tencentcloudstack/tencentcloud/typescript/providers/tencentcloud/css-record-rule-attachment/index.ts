@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_rule_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_record_rule_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CssRecordRuleAttachmentConfig extends cdktf.TerraformMetaArgume
   /**
   * The streaming path is consistent with the AppName in the streaming and playback addresses. The default is live.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_rule_attachment#app_name CssRecordRuleAttachment#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_record_rule_attachment#app_name CssRecordRuleAttachment#app_name}
   */
   readonly appName?: string;
   /**
   * Streaming domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_rule_attachment#domain_name CssRecordRuleAttachment#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_record_rule_attachment#domain_name CssRecordRuleAttachment#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_rule_attachment#id CssRecordRuleAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_record_rule_attachment#id CssRecordRuleAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface CssRecordRuleAttachmentConfig extends cdktf.TerraformMetaArgume
   /**
   * Stream name. Note: If this parameter is set to a non empty string, the rule will only work on this streaming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_rule_attachment#stream_name CssRecordRuleAttachment#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_record_rule_attachment#stream_name CssRecordRuleAttachment#stream_name}
   */
   readonly streamName?: string;
   /**
   * Template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_rule_attachment#template_id CssRecordRuleAttachment#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_record_rule_attachment#template_id CssRecordRuleAttachment#template_id}
   */
   readonly templateId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_rule_attachment tencentcloud_css_record_rule_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_record_rule_attachment tencentcloud_css_record_rule_attachment}
 */
 export class CssRecordRuleAttachment extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class CssRecordRuleAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssRecordRuleAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssRecordRuleAttachment to import
-  * @param importFromId The id of the existing CssRecordRuleAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_rule_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssRecordRuleAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_record_rule_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssRecordRuleAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class CssRecordRuleAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/css_record_rule_attachment tencentcloud_css_record_rule_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/css_record_rule_attachment tencentcloud_css_record_rule_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class CssRecordRuleAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_record_rule_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

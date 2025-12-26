@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_account_db_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_account_db_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SqlserverAccountDbAttachmentConfig extends cdktf.TerraformMetaA
   /**
   * SQL Server account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_account_db_attachment#account_name SqlserverAccountDbAttachment#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_account_db_attachment#account_name SqlserverAccountDbAttachment#account_name}
   */
   readonly accountName: string;
   /**
   * SQL Server DB name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_account_db_attachment#db_name SqlserverAccountDbAttachment#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_account_db_attachment#db_name SqlserverAccountDbAttachment#db_name}
   */
   readonly dbName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_account_db_attachment#id SqlserverAccountDbAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_account_db_attachment#id SqlserverAccountDbAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface SqlserverAccountDbAttachmentConfig extends cdktf.TerraformMetaA
   /**
   * SQL Server instance ID that the account belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_account_db_attachment#instance_id SqlserverAccountDbAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_account_db_attachment#instance_id SqlserverAccountDbAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
   * Privilege of the account on DB. Valid values: `ReadOnly`, `ReadWrite`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_account_db_attachment#privilege SqlserverAccountDbAttachment#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_account_db_attachment#privilege SqlserverAccountDbAttachment#privilege}
   */
   readonly privilege: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_account_db_attachment tencentcloud_sqlserver_account_db_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_account_db_attachment tencentcloud_sqlserver_account_db_attachment}
 */
 export class SqlserverAccountDbAttachment extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SqlserverAccountDbAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverAccountDbAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverAccountDbAttachment to import
-  * @param importFromId The id of the existing SqlserverAccountDbAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_account_db_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverAccountDbAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_account_db_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverAccountDbAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SqlserverAccountDbAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/sqlserver_account_db_attachment tencentcloud_sqlserver_account_db_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/sqlserver_account_db_attachment tencentcloud_sqlserver_account_db_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class SqlserverAccountDbAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_account_db_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

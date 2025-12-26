@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/oceanus_meta_table
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/oceanus_meta_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudOceanusMetaTableConfig extends cdktf.TerraformM
   /**
   * Catalog name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/oceanus_meta_table#catalog DataTencentcloudOceanusMetaTable#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/oceanus_meta_table#catalog DataTencentcloudOceanusMetaTable#catalog}
   */
   readonly catalog: string;
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/oceanus_meta_table#database DataTencentcloudOceanusMetaTable#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/oceanus_meta_table#database DataTencentcloudOceanusMetaTable#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/oceanus_meta_table#id DataTencentcloudOceanusMetaTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/oceanus_meta_table#id DataTencentcloudOceanusMetaTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataTencentcloudOceanusMetaTableConfig extends cdktf.TerraformM
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/oceanus_meta_table#result_output_file DataTencentcloudOceanusMetaTable#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/oceanus_meta_table#result_output_file DataTencentcloudOceanusMetaTable#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/oceanus_meta_table#table DataTencentcloudOceanusMetaTable#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/oceanus_meta_table#table DataTencentcloudOceanusMetaTable#table}
   */
   readonly table: string;
   /**
   * Unique identifier of the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/oceanus_meta_table#work_space_id DataTencentcloudOceanusMetaTable#work_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/oceanus_meta_table#work_space_id DataTencentcloudOceanusMetaTable#work_space_id}
   */
   readonly workSpaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/oceanus_meta_table tencentcloud_oceanus_meta_table}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/oceanus_meta_table tencentcloud_oceanus_meta_table}
 */
 export class DataTencentcloudOceanusMetaTable extends cdktf.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataTencentcloudOceanusMetaTable extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudOceanusMetaTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudOceanusMetaTable to import
-  * @param importFromId The id of the existing DataTencentcloudOceanusMetaTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/oceanus_meta_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudOceanusMetaTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/oceanus_meta_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudOceanusMetaTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataTencentcloudOceanusMetaTable extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/oceanus_meta_table tencentcloud_oceanus_meta_table} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/oceanus_meta_table tencentcloud_oceanus_meta_table} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DataTencentcloudOceanusMetaTable extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_oceanus_meta_table',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

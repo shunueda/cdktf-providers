@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MqttHttpAuthenticatorConfig extends cdktf.TerraformMetaArgument
   /**
   * Maximum concurrent connections, default 8, range: 1-20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#concurrency MqttHttpAuthenticator#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#concurrency MqttHttpAuthenticator#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Connection timeout, unit: seconds, range: 1-30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#connect_timeout MqttHttpAuthenticator#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#connect_timeout MqttHttpAuthenticator#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * JWKS endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#endpoint MqttHttpAuthenticator#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#endpoint MqttHttpAuthenticator#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#id MqttHttpAuthenticator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#id MqttHttpAuthenticator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface MqttHttpAuthenticatorConfig extends cdktf.TerraformMetaArgument
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#instance_id MqttHttpAuthenticator#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#instance_id MqttHttpAuthenticator#instance_id}
   */
   readonly instanceId: string;
   /**
   * Network request method GET or POST, default POST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#method MqttHttpAuthenticator#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#method MqttHttpAuthenticator#method}
   */
   readonly method?: string;
   /**
   * Request timeout, unit: seconds, range: 1-30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#read_timeout MqttHttpAuthenticator#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#read_timeout MqttHttpAuthenticator#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * Remark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#remark MqttHttpAuthenticator#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#remark MqttHttpAuthenticator#remark}
   */
   readonly remark?: string;
   /**
   * Is the authenticator enabled: open enable; Close close.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#status MqttHttpAuthenticator#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#status MqttHttpAuthenticator#status}
   */
   readonly status?: string;
   /**
   * body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#body MqttHttpAuthenticator#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#body MqttHttpAuthenticator#body}
   */
   readonly body?: MqttHttpAuthenticatorBody[] | cdktf.IResolvable;
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#header MqttHttpAuthenticator#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#header MqttHttpAuthenticator#header}
   */
   readonly header?: MqttHttpAuthenticatorHeader[] | cdktf.IResolvable;
 }
@@ -79,13 +79,13 @@ export interface MqttHttpAuthenticatorBody {
   /**
   * Body key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#key MqttHttpAuthenticator#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#key MqttHttpAuthenticator#key}
   */
   readonly key: string;
   /**
   * Body key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#value MqttHttpAuthenticator#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#value MqttHttpAuthenticator#value}
   */
   readonly value: string;
 }
@@ -226,13 +226,13 @@ export interface MqttHttpAuthenticatorHeader {
   /**
   * Header key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#key MqttHttpAuthenticator#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#key MqttHttpAuthenticator#key}
   */
   readonly key: string;
   /**
   * Header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#value MqttHttpAuthenticator#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#value MqttHttpAuthenticator#value}
   */
   readonly value: string;
 }
@@ -371,7 +371,7 @@ export class MqttHttpAuthenticatorHeaderList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator tencentcloud_mqtt_http_authenticator}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator tencentcloud_mqtt_http_authenticator}
 */
 export class MqttHttpAuthenticator extends cdktf.TerraformResource {
 
@@ -387,7 +387,7 @@ export class MqttHttpAuthenticator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MqttHttpAuthenticator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MqttHttpAuthenticator to import
-  * @param importFromId The id of the existing MqttHttpAuthenticator that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MqttHttpAuthenticator that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MqttHttpAuthenticator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class MqttHttpAuthenticator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_http_authenticator tencentcloud_mqtt_http_authenticator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_http_authenticator tencentcloud_mqtt_http_authenticator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class MqttHttpAuthenticator extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mqtt_http_authenticator',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

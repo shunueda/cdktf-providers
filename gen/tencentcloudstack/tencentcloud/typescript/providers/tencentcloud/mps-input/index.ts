@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MpsInputConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flow ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#flow_id MpsInput#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#flow_id MpsInput#flow_id}
   */
   readonly flowId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#id MpsInput#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#id MpsInput#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface MpsInputConfig extends cdktf.TerraformMetaArguments {
   /**
   * input_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#input_group MpsInput#input_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#input_group MpsInput#input_group}
   */
   readonly inputGroup?: MpsInputInputGroup;
 }
@@ -31,7 +31,7 @@ export interface MpsInputInputGroupHlsPullSettingsSourceAddresses {
   /**
   * The URL address of the HLS origin site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#url MpsInput#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#url MpsInput#url}
   */
   readonly url: string;
 }
@@ -146,7 +146,7 @@ export interface MpsInputInputGroupHlsPullSettings {
   /**
   * source_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#source_addresses MpsInput#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#source_addresses MpsInput#source_addresses}
   */
   readonly sourceAddresses: MpsInputInputGroupHlsPullSettingsSourceAddresses[] | cdktf.IResolvable;
 }
@@ -229,13 +229,13 @@ export interface MpsInputInputGroupResilientStream {
   /**
   * Delay time, in seconds, currently supports a range of 10 to 300 seconds. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#buffer_time MpsInput#buffer_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#buffer_time MpsInput#buffer_time}
   */
   readonly bufferTime?: number;
   /**
   * Whether to enable the delayed broadcast smooth spit stream, true is enabled, false is not enabled, and the default is not enabled. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#enable MpsInput#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#enable MpsInput#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -350,13 +350,13 @@ export interface MpsInputInputGroupRtmpPullSettingsSourceAddresses {
   /**
   * StreamKey information of the RTMP source site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#stream_key MpsInput#stream_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#stream_key MpsInput#stream_key}
   */
   readonly streamKey: string;
   /**
   * TcUrl address of the RTMP source server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#tc_url MpsInput#tc_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#tc_url MpsInput#tc_url}
   */
   readonly tcUrl: string;
 }
@@ -497,7 +497,7 @@ export interface MpsInputInputGroupRtmpPullSettings {
   /**
   * source_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#source_addresses MpsInput#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#source_addresses MpsInput#source_addresses}
   */
   readonly sourceAddresses: MpsInputInputGroupRtmpPullSettingsSourceAddresses[] | cdktf.IResolvable;
 }
@@ -580,13 +580,13 @@ export interface MpsInputInputGroupRtpSettings {
   /**
   * Defaults to &#39;none&#39;, optional values[&#39;none&#39;].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#fec MpsInput#fec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#fec MpsInput#fec}
   */
   readonly fec?: string;
   /**
   * Idle timeout, the default is 5000, the unit is ms, and the range is [1000, 10000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#idle_timeout MpsInput#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#idle_timeout MpsInput#idle_timeout}
   */
   readonly idleTimeout?: number;
 }
@@ -701,7 +701,7 @@ export interface MpsInputInputGroupRtspPullSettingsSourceAddresses {
   /**
   * The URL address of the RTSP source site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#url MpsInput#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#url MpsInput#url}
   */
   readonly url: string;
 }
@@ -816,7 +816,7 @@ export interface MpsInputInputGroupRtspPullSettings {
   /**
   * source_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#source_addresses MpsInput#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#source_addresses MpsInput#source_addresses}
   */
   readonly sourceAddresses: MpsInputInputGroupRtspPullSettingsSourceAddresses[] | cdktf.IResolvable;
 }
@@ -899,13 +899,13 @@ export interface MpsInputInputGroupSrtSettingsSourceAddresses {
   /**
   * Peer IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#ip MpsInput#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#ip MpsInput#ip}
   */
   readonly ip: string;
   /**
   * Peer port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#port MpsInput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#port MpsInput#port}
   */
   readonly port: number;
 }
@@ -1046,55 +1046,55 @@ export interface MpsInputInputGroupSrtSettings {
   /**
   * Delay, default 0, unit ms, range [0, 3000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#latency MpsInput#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#latency MpsInput#latency}
   */
   readonly latency?: number;
   /**
   * SRT mode, optional [LISTENER|CALLER], default is LISTENER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#mode MpsInput#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#mode MpsInput#mode}
   */
   readonly mode?: string;
   /**
   * The decryption key, which is empty by default, means no encryption. Only ascii code values can be filled in, and the length is [10, 79].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#passphrase MpsInput#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#passphrase MpsInput#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Key length, default is 0, optional [0|16|24|32].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#pb_key_len MpsInput#pb_key_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#pb_key_len MpsInput#pb_key_len}
   */
   readonly pbKeyLen?: number;
   /**
   * Peer timeout, default is 5000, unit ms, range is [1000, 10000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#peer_idle_timeout MpsInput#peer_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#peer_idle_timeout MpsInput#peer_idle_timeout}
   */
   readonly peerIdleTimeout?: number;
   /**
   * Peer delay, the default is 0, the unit is ms, and the range is [0, 3000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#peer_latency MpsInput#peer_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#peer_latency MpsInput#peer_latency}
   */
   readonly peerLatency?: number;
   /**
   * Receiving delay, default is 120, unit ms, range is [0, 3000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#recv_latency MpsInput#recv_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#recv_latency MpsInput#recv_latency}
   */
   readonly recvLatency?: number;
   /**
   * Stream ID, optional uppercase and lowercase letters, numbers and special characters (.#!:&amp;,=_-), length 0~512. Specific format can refer to:https://github.com/Haivision/srt/blob/master/docs/features/access-control.md#standard-keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#stream_id MpsInput#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#stream_id MpsInput#stream_id}
   */
   readonly streamId?: string;
   /**
   * source_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#source_addresses MpsInput#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#source_addresses MpsInput#source_addresses}
   */
   readonly sourceAddresses?: MpsInputInputGroupSrtSettingsSourceAddresses[] | cdktf.IResolvable;
 }
@@ -1412,67 +1412,67 @@ export interface MpsInputInputGroup {
   /**
   * The input IP whitelist, the format is CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#allow_ip_list MpsInput#allow_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#allow_ip_list MpsInput#allow_ip_list}
   */
   readonly allowIpList?: string[];
   /**
   * The input description with a length of [0, 255].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#description MpsInput#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#description MpsInput#description}
   */
   readonly description?: string;
   /**
   * The active/standby switch of the input, [OPEN|CLOSE] is optional, and the default is CLOSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#fail_over MpsInput#fail_over}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#fail_over MpsInput#fail_over}
   */
   readonly failOver?: string;
   /**
   * The input name, you can fill in uppercase and lowercase letters, numbers and underscores, and the length is [1, 32].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#input_name MpsInput#input_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#input_name MpsInput#input_name}
   */
   readonly inputName: string;
   /**
   * Input protocol, optional [SRT|RTP|RTMP|RTMP_PULL].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#protocol MpsInput#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#protocol MpsInput#protocol}
   */
   readonly protocol: string;
   /**
   * hls_pull_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#hls_pull_settings MpsInput#hls_pull_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#hls_pull_settings MpsInput#hls_pull_settings}
   */
   readonly hlsPullSettings?: MpsInputInputGroupHlsPullSettings;
   /**
   * resilient_stream block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#resilient_stream MpsInput#resilient_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#resilient_stream MpsInput#resilient_stream}
   */
   readonly resilientStream?: MpsInputInputGroupResilientStream;
   /**
   * rtmp_pull_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#rtmp_pull_settings MpsInput#rtmp_pull_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#rtmp_pull_settings MpsInput#rtmp_pull_settings}
   */
   readonly rtmpPullSettings?: MpsInputInputGroupRtmpPullSettings;
   /**
   * rtp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#rtp_settings MpsInput#rtp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#rtp_settings MpsInput#rtp_settings}
   */
   readonly rtpSettings?: MpsInputInputGroupRtpSettings;
   /**
   * rtsp_pull_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#rtsp_pull_settings MpsInput#rtsp_pull_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#rtsp_pull_settings MpsInput#rtsp_pull_settings}
   */
   readonly rtspPullSettings?: MpsInputInputGroupRtspPullSettings;
   /**
   * srt_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#srt_settings MpsInput#srt_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#srt_settings MpsInput#srt_settings}
   */
   readonly srtSettings?: MpsInputInputGroupSrtSettings;
 }
@@ -1840,7 +1840,7 @@ export class MpsInputInputGroupOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input tencentcloud_mps_input}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input tencentcloud_mps_input}
 */
 export class MpsInput extends cdktf.TerraformResource {
 
@@ -1856,7 +1856,7 @@ export class MpsInput extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsInput resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsInput to import
-  * @param importFromId The id of the existing MpsInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsInput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1868,7 +1868,7 @@ export class MpsInput extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_input tencentcloud_mps_input} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_input tencentcloud_mps_input} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1879,8 +1879,8 @@ export class MpsInput extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_input',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

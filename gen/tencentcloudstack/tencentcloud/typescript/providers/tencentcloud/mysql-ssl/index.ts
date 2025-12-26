@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_ssl
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_ssl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlSslConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_ssl#id MysqlSsl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_ssl#id MysqlSsl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface MysqlSslConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance ID. Example value: cdb-c1nl9rpv.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_ssl#instance_id MysqlSsl#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_ssl#instance_id MysqlSsl#instance_id}
   */
   readonly instanceId?: string;
   /**
   * RO group ID. Example value: cdbrg-k9a6gup3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_ssl#ro_group_id MysqlSsl#ro_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_ssl#ro_group_id MysqlSsl#ro_group_id}
   */
   readonly roGroupId?: string;
   /**
   * Whether to enable SSL. `ON` means enabled, `OFF` means not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_ssl#status MysqlSsl#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_ssl#status MysqlSsl#status}
   */
   readonly status: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_ssl tencentcloud_mysql_ssl}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_ssl tencentcloud_mysql_ssl}
 */
 export class MysqlSsl extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class MysqlSsl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlSsl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlSsl to import
-  * @param importFromId The id of the existing MysqlSsl that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_ssl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlSsl that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_ssl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlSsl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class MysqlSsl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_ssl tencentcloud_mysql_ssl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_ssl tencentcloud_mysql_ssl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class MysqlSsl extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_ssl',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

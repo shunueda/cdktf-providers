@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ccn_route_table_associate_instance_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ccn_route_table_associate_instance_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CcnRouteTableAssociateInstanceConfigConfig extends cdktf.Terraf
   /**
   * ID of the CCN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ccn_route_table_associate_instance_config#ccn_id CcnRouteTableAssociateInstanceConfig#ccn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ccn_route_table_associate_instance_config#ccn_id CcnRouteTableAssociateInstanceConfig#ccn_id}
   */
   readonly ccnId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ccn_route_table_associate_instance_config#id CcnRouteTableAssociateInstanceConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ccn_route_table_associate_instance_config#id CcnRouteTableAssociateInstanceConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CcnRouteTableAssociateInstanceConfigConfig extends cdktf.Terraf
   /**
   * Ccn instance route table ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ccn_route_table_associate_instance_config#route_table_id CcnRouteTableAssociateInstanceConfig#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ccn_route_table_associate_instance_config#route_table_id CcnRouteTableAssociateInstanceConfig#route_table_id}
   */
   readonly routeTableId: string;
   /**
   * instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ccn_route_table_associate_instance_config#instances CcnRouteTableAssociateInstanceConfig#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ccn_route_table_associate_instance_config#instances CcnRouteTableAssociateInstanceConfig#instances}
   */
   readonly instances: CcnRouteTableAssociateInstanceConfigInstances[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface CcnRouteTableAssociateInstanceConfigInstances {
   /**
   * Instances ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ccn_route_table_associate_instance_config#instance_id CcnRouteTableAssociateInstanceConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ccn_route_table_associate_instance_config#instance_id CcnRouteTableAssociateInstanceConfig#instance_id}
   */
   readonly instanceId: string;
   /**
   * Cloud networking supports instance types: VPC, DIRECTCONNECT, BMVPC, EDGE, EDGE_TUNNEL, EDGE_VPNGW, VPNGW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ccn_route_table_associate_instance_config#instance_type CcnRouteTableAssociateInstanceConfig#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ccn_route_table_associate_instance_config#instance_type CcnRouteTableAssociateInstanceConfig#instance_type}
   */
   readonly instanceType: string;
 }
@@ -182,7 +182,7 @@ export class CcnRouteTableAssociateInstanceConfigInstancesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ccn_route_table_associate_instance_config tencentcloud_ccn_route_table_associate_instance_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ccn_route_table_associate_instance_config tencentcloud_ccn_route_table_associate_instance_config}
 */
 export class CcnRouteTableAssociateInstanceConfig extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class CcnRouteTableAssociateInstanceConfig extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a CcnRouteTableAssociateInstanceConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CcnRouteTableAssociateInstanceConfig to import
-  * @param importFromId The id of the existing CcnRouteTableAssociateInstanceConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ccn_route_table_associate_instance_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CcnRouteTableAssociateInstanceConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ccn_route_table_associate_instance_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CcnRouteTableAssociateInstanceConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class CcnRouteTableAssociateInstanceConfig extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ccn_route_table_associate_instance_config tencentcloud_ccn_route_table_associate_instance_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ccn_route_table_associate_instance_config tencentcloud_ccn_route_table_associate_instance_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class CcnRouteTableAssociateInstanceConfig extends cdktf.TerraformResourc
       terraformResourceType: 'tencentcloud_ccn_route_table_associate_instance_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

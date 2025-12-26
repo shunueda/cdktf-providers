@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnspod_record_line_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dnspod_record_line_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudDnspodRecordLineListConfig extends cdktf.Terraf
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnspod_record_line_list#domain DataTencentcloudDnspodRecordLineList#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dnspod_record_line_list#domain DataTencentcloudDnspodRecordLineList#domain}
   */
   readonly domain: string;
   /**
   * Domain level. + Old packages: D_FREE, D_PLUS, D_EXTRA, D_EXPERT, D_ULTRA correspond to free package, personal luxury, enterprise 1, enterprise 2, enterprise 3. + New packages: DP_FREE, DP_PLUS, DP_EXTRA, DP_EXPERT, DP_ULTRA correspond to new free, personal professional, enterprise basic, enterprise standard, enterprise flagship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnspod_record_line_list#domain_grade DataTencentcloudDnspodRecordLineList#domain_grade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dnspod_record_line_list#domain_grade DataTencentcloudDnspodRecordLineList#domain_grade}
   */
   readonly domainGrade: string;
   /**
   * Domain ID. The parameter DomainId has a higher priority than the parameter Domain. If the parameter DomainId is passed, the parameter Domain will be ignored. You can find all Domains and DomainIds through the DescribeDomainList interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnspod_record_line_list#domain_id DataTencentcloudDnspodRecordLineList#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dnspod_record_line_list#domain_id DataTencentcloudDnspodRecordLineList#domain_id}
   */
   readonly domainId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnspod_record_line_list#id DataTencentcloudDnspodRecordLineList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dnspod_record_line_list#id DataTencentcloudDnspodRecordLineList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface DataTencentcloudDnspodRecordLineListConfig extends cdktf.Terraf
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnspod_record_line_list#result_output_file DataTencentcloudDnspodRecordLineList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dnspod_record_line_list#result_output_file DataTencentcloudDnspodRecordLineList#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -211,7 +211,7 @@ export class DataTencentcloudDnspodRecordLineListLineListStructList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnspod_record_line_list tencentcloud_dnspod_record_line_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dnspod_record_line_list tencentcloud_dnspod_record_line_list}
 */
 export class DataTencentcloudDnspodRecordLineList extends cdktf.TerraformDataSource {
 
@@ -227,7 +227,7 @@ export class DataTencentcloudDnspodRecordLineList extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudDnspodRecordLineList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDnspodRecordLineList to import
-  * @param importFromId The id of the existing DataTencentcloudDnspodRecordLineList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnspod_record_line_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDnspodRecordLineList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dnspod_record_line_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDnspodRecordLineList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class DataTencentcloudDnspodRecordLineList extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dnspod_record_line_list tencentcloud_dnspod_record_line_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dnspod_record_line_list tencentcloud_dnspod_record_line_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class DataTencentcloudDnspodRecordLineList extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_dnspod_record_line_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

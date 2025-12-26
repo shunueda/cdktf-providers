@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudDtsMigrateJobsConfig extends cdktf.TerraformMet
   /**
   * destination access type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#dst_access_type DataTencentcloudDtsMigrateJobs#dst_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#dst_access_type DataTencentcloudDtsMigrateJobs#dst_access_type}
   */
   readonly dstAccessType?: string[];
   /**
   * destination database type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#dst_database_type DataTencentcloudDtsMigrateJobs#dst_database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#dst_database_type DataTencentcloudDtsMigrateJobs#dst_database_type}
   */
   readonly dstDatabaseType?: string[];
   /**
   * source instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#dst_instance_id DataTencentcloudDtsMigrateJobs#dst_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#dst_instance_id DataTencentcloudDtsMigrateJobs#dst_instance_id}
   */
   readonly dstInstanceId?: string;
   /**
   * destination region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#dst_region DataTencentcloudDtsMigrateJobs#dst_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#dst_region DataTencentcloudDtsMigrateJobs#dst_region}
   */
   readonly dstRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#id DataTencentcloudDtsMigrateJobs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#id DataTencentcloudDtsMigrateJobs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,67 +41,67 @@ export interface DataTencentcloudDtsMigrateJobsConfig extends cdktf.TerraformMet
   /**
   * job id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#job_id DataTencentcloudDtsMigrateJobs#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#job_id DataTencentcloudDtsMigrateJobs#job_id}
   */
   readonly jobId?: string;
   /**
   * job name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#job_name DataTencentcloudDtsMigrateJobs#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#job_name DataTencentcloudDtsMigrateJobs#job_name}
   */
   readonly jobName?: string;
   /**
   * order by, default by create time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#order_seq DataTencentcloudDtsMigrateJobs#order_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#order_seq DataTencentcloudDtsMigrateJobs#order_seq}
   */
   readonly orderSeq?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#result_output_file DataTencentcloudDtsMigrateJobs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#result_output_file DataTencentcloudDtsMigrateJobs#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * run mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#run_mode DataTencentcloudDtsMigrateJobs#run_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#run_mode DataTencentcloudDtsMigrateJobs#run_mode}
   */
   readonly runMode?: string;
   /**
   * source access type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#src_access_type DataTencentcloudDtsMigrateJobs#src_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#src_access_type DataTencentcloudDtsMigrateJobs#src_access_type}
   */
   readonly srcAccessType?: string[];
   /**
   * source database type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#src_database_type DataTencentcloudDtsMigrateJobs#src_database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#src_database_type DataTencentcloudDtsMigrateJobs#src_database_type}
   */
   readonly srcDatabaseType?: string[];
   /**
   * source instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#src_instance_id DataTencentcloudDtsMigrateJobs#src_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#src_instance_id DataTencentcloudDtsMigrateJobs#src_instance_id}
   */
   readonly srcInstanceId?: string;
   /**
   * source region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#src_region DataTencentcloudDtsMigrateJobs#src_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#src_region DataTencentcloudDtsMigrateJobs#src_region}
   */
   readonly srcRegion?: string;
   /**
   * migrate status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#status DataTencentcloudDtsMigrateJobs#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#status DataTencentcloudDtsMigrateJobs#status}
   */
   readonly status?: string[];
   /**
   * tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#tag_filters DataTencentcloudDtsMigrateJobs#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#tag_filters DataTencentcloudDtsMigrateJobs#tag_filters}
   */
   readonly tagFilters?: DataTencentcloudDtsMigrateJobsTagFilters[] | cdktf.IResolvable;
 }
@@ -1632,13 +1632,13 @@ export interface DataTencentcloudDtsMigrateJobsTagFilters {
   /**
   * tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#tag_key DataTencentcloudDtsMigrateJobs#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#tag_key DataTencentcloudDtsMigrateJobs#tag_key}
   */
   readonly tagKey?: string;
   /**
   * tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#tag_value DataTencentcloudDtsMigrateJobs#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#tag_value DataTencentcloudDtsMigrateJobs#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -1783,7 +1783,7 @@ export class DataTencentcloudDtsMigrateJobsTagFiltersList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs tencentcloud_dts_migrate_jobs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs tencentcloud_dts_migrate_jobs}
 */
 export class DataTencentcloudDtsMigrateJobs extends cdktf.TerraformDataSource {
 
@@ -1799,7 +1799,7 @@ export class DataTencentcloudDtsMigrateJobs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDtsMigrateJobs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDtsMigrateJobs to import
-  * @param importFromId The id of the existing DataTencentcloudDtsMigrateJobs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDtsMigrateJobs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDtsMigrateJobs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1811,7 +1811,7 @@ export class DataTencentcloudDtsMigrateJobs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_migrate_jobs tencentcloud_dts_migrate_jobs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_migrate_jobs tencentcloud_dts_migrate_jobs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1822,8 +1822,8 @@ export class DataTencentcloudDtsMigrateJobs extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dts_migrate_jobs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -3,31 +3,31 @@ export interface CkafkaDatahubTaskSourceResourceClickHouseParamDropCls {
   /**
   * cls LogSet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_log_set CkafkaDatahubTask#drop_cls_log_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_log_set CkafkaDatahubTask#drop_cls_log_set}
   */
   readonly dropClsLogSet?: string;
   /**
   * cls account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_owneruin CkafkaDatahubTask#drop_cls_owneruin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_owneruin CkafkaDatahubTask#drop_cls_owneruin}
   */
   readonly dropClsOwneruin?: string;
   /**
   * cls region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_region CkafkaDatahubTask#drop_cls_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_region CkafkaDatahubTask#drop_cls_region}
   */
   readonly dropClsRegion?: string;
   /**
   * cls topicId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_topic_id CkafkaDatahubTask#drop_cls_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_topic_id CkafkaDatahubTask#drop_cls_topic_id}
   */
   readonly dropClsTopicId?: string;
   /**
   * Whether to deliver to cls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message_to_cls CkafkaDatahubTask#drop_invalid_message_to_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message_to_cls CkafkaDatahubTask#drop_invalid_message_to_cls}
   */
   readonly dropInvalidMessageToCls?: boolean | cdktf.IResolvable;
 }
@@ -229,25 +229,25 @@ export interface CkafkaDatahubTaskSourceResourceClickHouseParamSchema {
   /**
   * Whether the column item is allowed to be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#allow_null CkafkaDatahubTask#allow_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#allow_null CkafkaDatahubTask#allow_null}
   */
   readonly allowNull: boolean | cdktf.IResolvable;
   /**
   * column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#column_name CkafkaDatahubTask#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#column_name CkafkaDatahubTask#column_name}
   */
   readonly columnName: string;
   /**
   * The json Key name corresponding to this column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#json_key CkafkaDatahubTask#json_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#json_key CkafkaDatahubTask#json_key}
   */
   readonly jsonKey: string;
   /**
   * type of table column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
 }
@@ -440,91 +440,91 @@ export interface CkafkaDatahubTaskSourceResourceClickHouseParam {
   /**
   * ClickHouse cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#cluster CkafkaDatahubTask#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#cluster CkafkaDatahubTask#cluster}
   */
   readonly cluster: string;
   /**
   * ClickHouse database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * Whether ClickHouse discards the message that fails to parse, the default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
   */
   readonly dropInvalidMessage?: boolean | cdktf.IResolvable;
   /**
   * ClickHouse ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#ip CkafkaDatahubTask#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#ip CkafkaDatahubTask#ip}
   */
   readonly ip?: string;
   /**
   * ClickHouse passwd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#password CkafkaDatahubTask#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#password CkafkaDatahubTask#password}
   */
   readonly password?: string;
   /**
   * ClickHouse port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
   */
   readonly port?: number;
   /**
   * resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * Whether it is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt?: boolean | cdktf.IResolvable;
   /**
   * instance vip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#service_vip CkafkaDatahubTask#service_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#service_vip CkafkaDatahubTask#service_vip}
   */
   readonly serviceVip?: string;
   /**
   * ClickHouse table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
   /**
   * ClickHouse type, emr-clickhouse: emr;cdw-clickhouse: cdwch; selfBuilt: ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type?: string;
   /**
   * instance vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#uniq_vpc_id CkafkaDatahubTask#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#uniq_vpc_id CkafkaDatahubTask#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * ClickHouse user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#user_name CkafkaDatahubTask#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#user_name CkafkaDatahubTask#user_name}
   */
   readonly userName?: string;
   /**
   * drop_cls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls CkafkaDatahubTask#drop_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls CkafkaDatahubTask#drop_cls}
   */
   readonly dropCls?: CkafkaDatahubTaskSourceResourceClickHouseParamDropCls;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#schema CkafkaDatahubTask#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#schema CkafkaDatahubTask#schema}
   */
   readonly schema: CkafkaDatahubTaskSourceResourceClickHouseParamSchema[] | cdktf.IResolvable;
 }
@@ -1001,31 +1001,31 @@ export interface CkafkaDatahubTaskSourceResourceClsParam {
   /**
   * Required when Decode Json is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#content_key CkafkaDatahubTask#content_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#content_key CkafkaDatahubTask#content_key}
   */
   readonly contentKey?: string;
   /**
   * Whether the produced information is in json format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#decode_json CkafkaDatahubTask#decode_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#decode_json CkafkaDatahubTask#decode_json}
   */
   readonly decodeJson: boolean | cdktf.IResolvable;
   /**
   * LogSet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#log_set CkafkaDatahubTask#log_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#log_set CkafkaDatahubTask#log_set}
   */
   readonly logSet?: string;
   /**
   * cls id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * Specify the content of a field in the message as the time of the cls log. The format of the field content needs to be a second-level timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#time_field CkafkaDatahubTask#time_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#time_field CkafkaDatahubTask#time_field}
   */
   readonly timeField?: string;
 }
@@ -1221,49 +1221,49 @@ export interface CkafkaDatahubTaskSourceResourceCosParam {
   /**
   * The size of aggregated messages MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#aggregate_batch_size CkafkaDatahubTask#aggregate_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#aggregate_batch_size CkafkaDatahubTask#aggregate_batch_size}
   */
   readonly aggregateBatchSize?: number;
   /**
   * time interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#aggregate_interval CkafkaDatahubTask#aggregate_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#aggregate_interval CkafkaDatahubTask#aggregate_interval}
   */
   readonly aggregateInterval?: number;
   /**
   * cos bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#bucket_name CkafkaDatahubTask#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#bucket_name CkafkaDatahubTask#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Partition format formatted according to strptime time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#directory_time_format CkafkaDatahubTask#directory_time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#directory_time_format CkafkaDatahubTask#directory_time_format}
   */
   readonly directoryTimeFormat?: string;
   /**
   * The file format after message aggregation csv|json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#format_output_type CkafkaDatahubTask#format_output_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#format_output_type CkafkaDatahubTask#format_output_type}
   */
   readonly formatOutputType?: string;
   /**
   * ObjectKey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#object_key CkafkaDatahubTask#object_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#object_key CkafkaDatahubTask#object_key}
   */
   readonly objectKey?: string;
   /**
   * Dumped object directory prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#object_key_prefix CkafkaDatahubTask#object_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#object_key_prefix CkafkaDatahubTask#object_key_prefix}
   */
   readonly objectKeyPrefix?: string;
   /**
   * region code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#region CkafkaDatahubTask#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#region CkafkaDatahubTask#region}
   */
   readonly region: string;
 }
@@ -1546,13 +1546,13 @@ export interface CkafkaDatahubTaskSourceResourceCtsdbParam {
   /**
   * Ctsdb metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#ctsdb_metric CkafkaDatahubTask#ctsdb_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#ctsdb_metric CkafkaDatahubTask#ctsdb_metric}
   */
   readonly ctsdbMetric?: string;
   /**
   * resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource?: string;
 }
@@ -1667,49 +1667,49 @@ export interface CkafkaDatahubTaskSourceResourceDtsParam {
   /**
   * Dts consumer group Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#group_id CkafkaDatahubTask#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#group_id CkafkaDatahubTask#group_id}
   */
   readonly groupId?: string;
   /**
   * Dts consumer group passwd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#group_password CkafkaDatahubTask#group_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#group_password CkafkaDatahubTask#group_password}
   */
   readonly groupPassword?: string;
   /**
   * Dts account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#group_user CkafkaDatahubTask#group_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#group_user CkafkaDatahubTask#group_user}
   */
   readonly groupUser?: string;
   /**
   * Dts connection ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#ip CkafkaDatahubTask#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#ip CkafkaDatahubTask#ip}
   */
   readonly ip?: string;
   /**
   * Dts connection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
   */
   readonly port?: number;
   /**
   * Dts instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * Dts topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic?: string;
   /**
   * False to synchronize the original data, true to synchronize the parsed json format data, the default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#tran_sql CkafkaDatahubTask#tran_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#tran_sql CkafkaDatahubTask#tran_sql}
   */
   readonly tranSql?: boolean | cdktf.IResolvable;
 }
@@ -1995,31 +1995,31 @@ export interface CkafkaDatahubTaskSourceResourceEsParamDropCls {
   /**
   * cls log set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_log_set CkafkaDatahubTask#drop_cls_log_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_log_set CkafkaDatahubTask#drop_cls_log_set}
   */
   readonly dropClsLogSet?: string;
   /**
   * Delivery account of cls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_owneruin CkafkaDatahubTask#drop_cls_owneruin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_owneruin CkafkaDatahubTask#drop_cls_owneruin}
   */
   readonly dropClsOwneruin?: string;
   /**
   * The region where the cls is delivered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_region CkafkaDatahubTask#drop_cls_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_region CkafkaDatahubTask#drop_cls_region}
   */
   readonly dropClsRegion?: string;
   /**
   * topic of cls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_topic_id CkafkaDatahubTask#drop_cls_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_topic_id CkafkaDatahubTask#drop_cls_topic_id}
   */
   readonly dropClsTopicId?: string;
   /**
   * Whether to deliver to cls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message_to_cls CkafkaDatahubTask#drop_invalid_message_to_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message_to_cls CkafkaDatahubTask#drop_invalid_message_to_cls}
   */
   readonly dropInvalidMessageToCls?: boolean | cdktf.IResolvable;
 }
@@ -2221,25 +2221,25 @@ export interface CkafkaDatahubTaskSourceResourceEsParamDropDlqKafkaParamTableMap
   /**
   * database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * Table name, multiple tables, separated by (commas).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
   /**
   * Topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic: string;
   /**
   * Topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId: string;
 }
@@ -2432,97 +2432,97 @@ export interface CkafkaDatahubTaskSourceResourceEsParamDropDlqKafkaParam {
   /**
   * Whether to compress when writing to the Topic, if it is not enabled, fill in none, if it is enabled, fill in open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
   */
   readonly compressionType?: string;
   /**
   * Enable the fault-tolerant instance and enable the dead-letter queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#enable_toleration CkafkaDatahubTask#enable_toleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#enable_toleration CkafkaDatahubTask#enable_toleration}
   */
   readonly enableToleration?: boolean | cdktf.IResolvable;
   /**
   * 1 source topic message is amplified into msg Multiple and written to the target topic (this parameter is currently only applicable to ckafka flowing into ckafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
   */
   readonly msgMultiple?: number;
   /**
   * Offset type, initial position earliest, latest position latest, time point position timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
   */
   readonly offsetType?: string;
   /**
   * Partition num.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#partition_num CkafkaDatahubTask#partition_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#partition_num CkafkaDatahubTask#partition_num}
   */
   readonly partitionNum?: number;
   /**
   * Qps limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#qps_limit CkafkaDatahubTask#qps_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#qps_limit CkafkaDatahubTask#qps_limit}
   */
   readonly qpsLimit?: number;
   /**
   * resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * resource id name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource_name CkafkaDatahubTask#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource_name CkafkaDatahubTask#resource_name}
   */
   readonly resourceName?: string;
   /**
   * Whether it is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt: boolean | cdktf.IResolvable;
   /**
   * It must be passed when the Offset type is timestamp, and the time stamp is passed, accurate to the second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
   */
   readonly startTime?: number;
   /**
   * Topic name, multiple separated by `,`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic?: string;
   /**
   * Topic Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId?: string;
   /**
   * whether the used topic need to be automatically created (currently only supports SOURCE inflow tasks, if you do not use to distribute to multiple topics, you need to fill in the topic name that needs to be automatically created in the Topic field).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
   */
   readonly useAutoCreateTopic?: boolean | cdktf.IResolvable;
   /**
   * Distribute to multiple topics switch, the default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_table_mapping CkafkaDatahubTask#use_table_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_table_mapping CkafkaDatahubTask#use_table_mapping}
   */
   readonly useTableMapping?: boolean | cdktf.IResolvable;
   /**
   * Zone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#zone_id CkafkaDatahubTask#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#zone_id CkafkaDatahubTask#zone_id}
   */
   readonly zoneId?: number;
   /**
   * table_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table_mappings CkafkaDatahubTask#table_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table_mappings CkafkaDatahubTask#table_mappings}
   */
   readonly tableMappings?: CkafkaDatahubTaskSourceResourceEsParamDropDlqKafkaParamTableMappings[] | cdktf.IResolvable;
 }
@@ -3037,43 +3037,43 @@ export interface CkafkaDatahubTaskSourceResourceEsParamDropDlqTopicParam {
   /**
   * Whether to perform compression when writing a topic, if it is not enabled, fill in none, if it is enabled, you can choose one of gzip, snappy, lz4 to fill in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
   */
   readonly compressionType?: string;
   /**
   * 1 source topic message is amplified into msg Multiple and written to the target topic (this parameter is currently only applicable to ckafka flowing into ckafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
   */
   readonly msgMultiple?: number;
   /**
   * Offset type, initial position earliest, latest position latest, time point position timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
   */
   readonly offsetType?: string;
   /**
   * The topic name of the topic sold separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * It must be passed when the Offset type is timestamp, and the time stamp is passed, accurate to the second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
   */
   readonly startTime?: number;
   /**
   * TopicId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId?: string;
   /**
   * whether the used topic need to be automatically created (currently only supports SOURCE inflow tasks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
   */
   readonly useAutoCreateTopic?: boolean | cdktf.IResolvable;
 }
@@ -3330,37 +3330,37 @@ export interface CkafkaDatahubTaskSourceResourceEsParamDropDlq {
   /**
   * dlq type, CKAFKA|TOPIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#dlq_type CkafkaDatahubTask#dlq_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#dlq_type CkafkaDatahubTask#dlq_type}
   */
   readonly dlqType?: string;
   /**
   * retry times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#max_retry_attempts CkafkaDatahubTask#max_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#max_retry_attempts CkafkaDatahubTask#max_retry_attempts}
   */
   readonly maxRetryAttempts?: number;
   /**
   * retry interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#retry_interval CkafkaDatahubTask#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#retry_interval CkafkaDatahubTask#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * type, DLQ dead letter queue, IGNORE_ERROR|DROP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
   /**
   * kafka_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#kafka_param CkafkaDatahubTask#kafka_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#kafka_param CkafkaDatahubTask#kafka_param}
   */
   readonly kafkaParam?: CkafkaDatahubTaskSourceResourceEsParamDropDlqKafkaParam;
   /**
   * topic_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_param CkafkaDatahubTask#topic_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_param CkafkaDatahubTask#topic_param}
   */
   readonly topicParam?: CkafkaDatahubTaskSourceResourceEsParamDropDlqTopicParam;
 }
@@ -3588,103 +3588,103 @@ export interface CkafkaDatahubTaskSourceResourceEsParam {
   /**
   * key for data in non-json format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#content_key CkafkaDatahubTask#content_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#content_key CkafkaDatahubTask#content_key}
   */
   readonly contentKey?: string;
   /**
   * When the message dumped to ES is the binlog of Database, if you need to synchronize database operations, that is, fill in the primary key of the database table when adding, deleting, and modifying operations to ES.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database_primary_key CkafkaDatahubTask#database_primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database_primary_key CkafkaDatahubTask#database_primary_key}
   */
   readonly databasePrimaryKey?: string;
   /**
   * Es date suffix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#date_format CkafkaDatahubTask#date_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#date_format CkafkaDatahubTask#date_format}
   */
   readonly dateFormat?: string;
   /**
   * The field name of the document ID value dumped into Es.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#document_id_field CkafkaDatahubTask#document_id_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#document_id_field CkafkaDatahubTask#document_id_field}
   */
   readonly documentIdField?: string;
   /**
   * Whether Es discards messages in non-json format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_json_message CkafkaDatahubTask#drop_invalid_json_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_json_message CkafkaDatahubTask#drop_invalid_json_message}
   */
   readonly dropInvalidJsonMessage?: boolean | cdktf.IResolvable;
   /**
   * Whether Es discards the message of parsing failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
   */
   readonly dropInvalidMessage?: boolean | cdktf.IResolvable;
   /**
   * Es index name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#index CkafkaDatahubTask#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#index CkafkaDatahubTask#index}
   */
   readonly index?: string;
   /**
   * Es custom index name type, STRING, JSONPATH, the default is STRING.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#index_type CkafkaDatahubTask#index_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#index_type CkafkaDatahubTask#index_type}
   */
   readonly indexType?: string;
   /**
   * Es Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#password CkafkaDatahubTask#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#password CkafkaDatahubTask#password}
   */
   readonly password?: string;
   /**
   * Es connection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
   */
   readonly port?: number;
   /**
   * Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * Whether it is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt?: boolean | cdktf.IResolvable;
   /**
   * instance vip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#service_vip CkafkaDatahubTask#service_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#service_vip CkafkaDatahubTask#service_vip}
   */
   readonly serviceVip?: string;
   /**
   * instance vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#uniq_vpc_id CkafkaDatahubTask#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#uniq_vpc_id CkafkaDatahubTask#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * Es UserName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#user_name CkafkaDatahubTask#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#user_name CkafkaDatahubTask#user_name}
   */
   readonly userName?: string;
   /**
   * drop_cls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls CkafkaDatahubTask#drop_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls CkafkaDatahubTask#drop_cls}
   */
   readonly dropCls?: CkafkaDatahubTaskSourceResourceEsParamDropCls;
   /**
   * drop_dlq block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_dlq CkafkaDatahubTask#drop_dlq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_dlq CkafkaDatahubTask#drop_dlq}
   */
   readonly dropDlq?: CkafkaDatahubTaskSourceResourceEsParamDropDlq;
 }
@@ -4231,37 +4231,37 @@ export interface CkafkaDatahubTaskSourceResourceEventBusParam {
   /**
   * SCF function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#function_name CkafkaDatahubTask#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#function_name CkafkaDatahubTask#function_name}
   */
   readonly functionName?: string;
   /**
   * SCF namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#namespace CkafkaDatahubTask#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#namespace CkafkaDatahubTask#namespace}
   */
   readonly namespace?: string;
   /**
   * SCF version and alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#qualifier CkafkaDatahubTask#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#qualifier CkafkaDatahubTask#qualifier}
   */
   readonly qualifier?: string;
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * Whether it is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt: boolean | cdktf.IResolvable;
   /**
   * resource type, EB_COS/EB_ES/EB_CLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
 }
@@ -4483,25 +4483,25 @@ export interface CkafkaDatahubTaskSourceResourceKafkaParamTableMappings {
   /**
   * database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * table name,use, to separate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
   /**
   * Topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic: string;
   /**
   * Topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId: string;
 }
@@ -4694,97 +4694,97 @@ export interface CkafkaDatahubTaskSourceResourceKafkaParam {
   /**
   * Whether to compress when writing to the Topic, if it is not enabled, fill in none, if it is enabled, fill in open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
   */
   readonly compressionType?: string;
   /**
   * enable dead letter queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#enable_toleration CkafkaDatahubTask#enable_toleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#enable_toleration CkafkaDatahubTask#enable_toleration}
   */
   readonly enableToleration?: boolean | cdktf.IResolvable;
   /**
   * 1 source topic message is amplified into msg Multiple and written to the target topic (this parameter is currently only applicable to ckafka flowing into ckafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
   */
   readonly msgMultiple?: number;
   /**
   * Offset type, from beginning:earliest, from latest:latest, from specific time:timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
   */
   readonly offsetType?: string;
   /**
   * the partition num of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#partition_num CkafkaDatahubTask#partition_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#partition_num CkafkaDatahubTask#partition_num}
   */
   readonly partitionNum?: number;
   /**
   * Qps(query per seconds) limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#qps_limit CkafkaDatahubTask#qps_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#qps_limit CkafkaDatahubTask#qps_limit}
   */
   readonly qpsLimit?: number;
   /**
   * instance resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource_name CkafkaDatahubTask#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource_name CkafkaDatahubTask#resource_name}
   */
   readonly resourceName?: string;
   /**
   * whether the cluster is built by yourself instead of cloud product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt: boolean | cdktf.IResolvable;
   /**
   * when Offset type timestamp is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
   */
   readonly startTime?: number;
   /**
   * Topic name, use `,` when more than 1 topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic?: string;
   /**
   * Topic id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId?: string;
   /**
   * Does the used topic need to be automatically created (currently only supports SOURCE inflow tasks, if you do not use to distribute to multiple topics, you need to fill in the topic name that needs to be automatically created in the Topic field).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
   */
   readonly useAutoCreateTopic?: boolean | cdktf.IResolvable;
   /**
   * whether to use multi table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_table_mapping CkafkaDatahubTask#use_table_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_table_mapping CkafkaDatahubTask#use_table_mapping}
   */
   readonly useTableMapping?: boolean | cdktf.IResolvable;
   /**
   * Zone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#zone_id CkafkaDatahubTask#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#zone_id CkafkaDatahubTask#zone_id}
   */
   readonly zoneId?: number;
   /**
   * table_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table_mappings CkafkaDatahubTask#table_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table_mappings CkafkaDatahubTask#table_mappings}
   */
   readonly tableMappings?: CkafkaDatahubTaskSourceResourceKafkaParamTableMappings[] | cdktf.IResolvable;
 }
@@ -5299,61 +5299,61 @@ export interface CkafkaDatahubTaskSourceResourceMariaDbParam {
   /**
   * MariaDB database name, * for all database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * If the value is all, DDL data and DML data will also be written to the selected topic; if the value is dml, only DML data will be written to the selected topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#include_content_changes CkafkaDatahubTask#include_content_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#include_content_changes CkafkaDatahubTask#include_content_changes}
   */
   readonly includeContentChanges?: string;
   /**
   * If the value is true, and the value of the binlog rows query log events configuration item in My SQL is ON, the data flowing into the topic contains the original SQL statement; if the value is false, the data flowing into the topic does not contain Original SQL statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#include_query CkafkaDatahubTask#include_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#include_query CkafkaDatahubTask#include_query}
   */
   readonly includeQuery?: boolean | cdktf.IResolvable;
   /**
   * When the Table input is a prefix, the value of this item is true, otherwise it is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#is_table_prefix CkafkaDatahubTask#is_table_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#is_table_prefix CkafkaDatahubTask#is_table_prefix}
   */
   readonly isTablePrefix?: boolean | cdktf.IResolvable;
   /**
   * Format  library 1. table 1: field 1, field 2; library 2. table 2: field 2, between tables; (semicolon) separated, between fields, (comma) separated. The table that is not specified defaults to the primary key of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#key_columns CkafkaDatahubTask#key_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#key_columns CkafkaDatahubTask#key_columns}
   */
   readonly keyColumns?: string;
   /**
   * output format, DEFAULT, CANAL_1, CANAL_2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#output_format CkafkaDatahubTask#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#output_format CkafkaDatahubTask#output_format}
   */
   readonly outputFormat?: string;
   /**
   * If the value is true, the message will carry the schema corresponding to the message structure, if the value is false, it will not carry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#record_with_schema CkafkaDatahubTask#record_with_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#record_with_schema CkafkaDatahubTask#record_with_schema}
   */
   readonly recordWithSchema?: boolean | cdktf.IResolvable;
   /**
   * MariaDB connection Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * schema_only|initial, default initial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
   */
   readonly snapshotMode?: string;
   /**
   * MariaDB db name, *is the non-system table in all the monitored databases, you can use, to monitor multiple data tables, but the data table needs to be filled in the format of data database name.data table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
 }
@@ -5691,73 +5691,73 @@ export interface CkafkaDatahubTaskSourceResourceMongoDbParam {
   /**
   * MongoDB collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#collection CkafkaDatahubTask#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#collection CkafkaDatahubTask#collection}
   */
   readonly collection: string;
   /**
   * Whether to copy the stock data, the default parameter is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#copy_existing CkafkaDatahubTask#copy_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#copy_existing CkafkaDatahubTask#copy_existing}
   */
   readonly copyExisting: boolean | cdktf.IResolvable;
   /**
   * MongoDB database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * Mongo DB connection ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#ip CkafkaDatahubTask#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#ip CkafkaDatahubTask#ip}
   */
   readonly ip?: string;
   /**
   * Listening event type, if it is empty, it means select all. Values include insert, update, replace, delete, invalidate, drop, dropdatabase, rename, used between multiple types, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#listening_event CkafkaDatahubTask#listening_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#listening_event CkafkaDatahubTask#listening_event}
   */
   readonly listeningEvent?: string;
   /**
   * MongoDB database password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#password CkafkaDatahubTask#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#password CkafkaDatahubTask#password}
   */
   readonly password?: string;
   /**
   * aggregation pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#pipeline CkafkaDatahubTask#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#pipeline CkafkaDatahubTask#pipeline}
   */
   readonly pipeline?: string;
   /**
   * MongoDB connection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
   */
   readonly port?: number;
   /**
   * Master-slave priority, default master node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#read_preference CkafkaDatahubTask#read_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#read_preference CkafkaDatahubTask#read_preference}
   */
   readonly readPreference?: string;
   /**
   * resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * Whether it is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt?: boolean | cdktf.IResolvable;
   /**
   * MongoDB database user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#user_name CkafkaDatahubTask#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#user_name CkafkaDatahubTask#user_name}
   */
   readonly userName?: string;
 }
@@ -6150,55 +6150,55 @@ export interface CkafkaDatahubTaskSourceResourceMySqlParamDataTargetRecordMappin
   /**
   * Whether the message is allowed to be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#allow_null CkafkaDatahubTask#allow_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#allow_null CkafkaDatahubTask#allow_null}
   */
   readonly allowNull?: boolean | cdktf.IResolvable;
   /**
   * Whether it is an auto-increment column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#auto_increment CkafkaDatahubTask#auto_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#auto_increment CkafkaDatahubTask#auto_increment}
   */
   readonly autoIncrement?: boolean | cdktf.IResolvable;
   /**
   * Corresponding mapping column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#column_name CkafkaDatahubTask#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#column_name CkafkaDatahubTask#column_name}
   */
   readonly columnName?: string;
   /**
   * current column size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#column_size CkafkaDatahubTask#column_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#column_size CkafkaDatahubTask#column_size}
   */
   readonly columnSize?: string;
   /**
   * current column precision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#decimal_digits CkafkaDatahubTask#decimal_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#decimal_digits CkafkaDatahubTask#decimal_digits}
   */
   readonly decimalDigits?: string;
   /**
   * Database table default parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#default_value CkafkaDatahubTask#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#default_value CkafkaDatahubTask#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Database table extra fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#extra_info CkafkaDatahubTask#extra_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#extra_info CkafkaDatahubTask#extra_info}
   */
   readonly extraInfo?: string;
   /**
   * The key name of the message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#json_key CkafkaDatahubTask#json_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#json_key CkafkaDatahubTask#json_key}
   */
   readonly jsonKey?: string;
   /**
   * message type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type?: string;
 }
@@ -6548,31 +6548,31 @@ export interface CkafkaDatahubTaskSourceResourceMySqlParamDropCls {
   /**
   * cls LogSet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_log_set CkafkaDatahubTask#drop_cls_log_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_log_set CkafkaDatahubTask#drop_cls_log_set}
   */
   readonly dropClsLogSet?: string;
   /**
   * account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_owneruin CkafkaDatahubTask#drop_cls_owneruin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_owneruin CkafkaDatahubTask#drop_cls_owneruin}
   */
   readonly dropClsOwneruin?: string;
   /**
   * The region where the cls is delivered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_region CkafkaDatahubTask#drop_cls_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_region CkafkaDatahubTask#drop_cls_region}
   */
   readonly dropClsRegion?: string;
   /**
   * cls topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_topic_id CkafkaDatahubTask#drop_cls_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_topic_id CkafkaDatahubTask#drop_cls_topic_id}
   */
   readonly dropClsTopicId?: string;
   /**
   * Whether to deliver to cls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message_to_cls CkafkaDatahubTask#drop_invalid_message_to_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message_to_cls CkafkaDatahubTask#drop_invalid_message_to_cls}
   */
   readonly dropInvalidMessageToCls?: boolean | cdktf.IResolvable;
 }
@@ -6774,151 +6774,151 @@ export interface CkafkaDatahubTaskSourceResourceMySqlParam {
   /**
   * The name of the column to be monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_source_increment_column CkafkaDatahubTask#data_source_increment_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_source_increment_column CkafkaDatahubTask#data_source_increment_column}
   */
   readonly dataSourceIncrementColumn?: string;
   /**
   * TIMESTAMP indicates that the incremental column is of timestamp type, INCREMENT indicates that the incremental column is of self-incrementing id type&#39;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_source_increment_mode CkafkaDatahubTask#data_source_increment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_source_increment_mode CkafkaDatahubTask#data_source_increment_mode}
   */
   readonly dataSourceIncrementMode?: string;
   /**
   * TABLE indicates that the read item is a table, QUERY indicates that the read item is a query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_source_monitor_mode CkafkaDatahubTask#data_source_monitor_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_source_monitor_mode CkafkaDatahubTask#data_source_monitor_mode}
   */
   readonly dataSourceMonitorMode?: string;
   /**
   * When DataMonitorMode=TABLE, pass in the Table that needs to be read; when DataMonitorMode=QUERY, pass in the query sql statement that needs to be read.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_source_monitor_resource CkafkaDatahubTask#data_source_monitor_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_source_monitor_resource CkafkaDatahubTask#data_source_monitor_resource}
   */
   readonly dataSourceMonitorResource?: string;
   /**
   * HEAD means copy stock + incremental data, TAIL means copy only incremental data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_source_start_from CkafkaDatahubTask#data_source_start_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_source_start_from CkafkaDatahubTask#data_source_start_from}
   */
   readonly dataSourceStartFrom?: string;
   /**
   * INSERT means insert using Insert mode, UPSERT means insert using Upsert mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_target_insert_mode CkafkaDatahubTask#data_target_insert_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_target_insert_mode CkafkaDatahubTask#data_target_insert_mode}
   */
   readonly dataTargetInsertMode?: string;
   /**
   * When DataInsertMode=UPSERT, pass in the primary key that the current upsert depends on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_target_primary_key_field CkafkaDatahubTask#data_target_primary_key_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_target_primary_key_field CkafkaDatahubTask#data_target_primary_key_field}
   */
   readonly dataTargetPrimaryKeyField?: string;
   /**
   * MySQL database name, * is the whole database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * The Topic that stores the Ddl information of My SQL, if it is empty, it will not be stored by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#ddl_topic CkafkaDatahubTask#ddl_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#ddl_topic CkafkaDatahubTask#ddl_topic}
   */
   readonly ddlTopic?: string;
   /**
   * Whether to discard messages that fail to parse, the default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
   */
   readonly dropInvalidMessage?: boolean | cdktf.IResolvable;
   /**
   * If the value is all, DDL data and DML data will also be written to the selected topic; if the value is dml, only DML data will be written to the selected topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#include_content_changes CkafkaDatahubTask#include_content_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#include_content_changes CkafkaDatahubTask#include_content_changes}
   */
   readonly includeContentChanges?: string;
   /**
   * If the value is true, and the value of the binlog rows query log events configuration item in My SQL is ON, the data flowing into the topic contains the original SQL statement; if the value is false, the data flowing into the topic does not contain Original SQL statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#include_query CkafkaDatahubTask#include_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#include_query CkafkaDatahubTask#include_query}
   */
   readonly includeQuery?: boolean | cdktf.IResolvable;
   /**
   * When the Table input is a prefix, the value of this item is true, otherwise it is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#is_table_prefix CkafkaDatahubTask#is_table_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#is_table_prefix CkafkaDatahubTask#is_table_prefix}
   */
   readonly isTablePrefix?: boolean | cdktf.IResolvable;
   /**
   * Whether the input table is a regular expression, if this option and Is Table Prefix are true at the same time, the judgment priority of this option is higher than Is Table Prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#is_table_regular CkafkaDatahubTask#is_table_regular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#is_table_regular CkafkaDatahubTask#is_table_regular}
   */
   readonly isTableRegular?: boolean | cdktf.IResolvable;
   /**
   * Format library1.table1 field 1,field 2;library 2.table2 field 2, between tables; (semicolon) separated, between fields, (comma) separated. The table that is not specified defaults to the primary key of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#key_columns CkafkaDatahubTask#key_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#key_columns CkafkaDatahubTask#key_columns}
   */
   readonly keyColumns?: string;
   /**
   * output format, DEFAULT, CANAL_1, CANAL_2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#output_format CkafkaDatahubTask#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#output_format CkafkaDatahubTask#output_format}
   */
   readonly outputFormat?: string;
   /**
   * If the value is true, the message will carry the schema corresponding to the message structure, if the value is false, it will not carry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#record_with_schema CkafkaDatahubTask#record_with_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#record_with_schema CkafkaDatahubTask#record_with_schema}
   */
   readonly recordWithSchema?: boolean | cdktf.IResolvable;
   /**
   * MySQL connection Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * database name of signal table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#signal_database CkafkaDatahubTask#signal_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#signal_database CkafkaDatahubTask#signal_database}
   */
   readonly signalDatabase?: string;
   /**
   * whether to Copy inventory information (schema_only does not copy, initial full amount), the default is initial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
   */
   readonly snapshotMode?: string;
   /**
   * The name of the MySQL data table,  is the non-system table in all the monitored databases, which can be separated by, to monitor multiple data tables, but the data table needs to be filled in the format of data database name.data table name, when a regular expression needs to be filled in, the format is data database name.data table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
   /**
   * Regular expression for routing events to specific topics, defaults to (.*).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_regex CkafkaDatahubTask#topic_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_regex CkafkaDatahubTask#topic_regex}
   */
   readonly topicRegex?: string;
   /**
   * TopicRegex, $1, $2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_replacement CkafkaDatahubTask#topic_replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_replacement CkafkaDatahubTask#topic_replacement}
   */
   readonly topicReplacement?: string;
   /**
   * data_target_record_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_target_record_mapping CkafkaDatahubTask#data_target_record_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_target_record_mapping CkafkaDatahubTask#data_target_record_mapping}
   */
   readonly dataTargetRecordMapping?: CkafkaDatahubTaskSourceResourceMySqlParamDataTargetRecordMapping[] | cdktf.IResolvable;
   /**
   * drop_cls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls CkafkaDatahubTask#drop_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls CkafkaDatahubTask#drop_cls}
   */
   readonly dropCls?: CkafkaDatahubTaskSourceResourceMySqlParamDropCls;
 }
@@ -7691,55 +7691,55 @@ export interface CkafkaDatahubTaskSourceResourcePostgreSqlParamDataTargetRecordM
   /**
   * Whether the message is allowed to be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#allow_null CkafkaDatahubTask#allow_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#allow_null CkafkaDatahubTask#allow_null}
   */
   readonly allowNull?: boolean | cdktf.IResolvable;
   /**
   * Whether it is an auto-increment column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#auto_increment CkafkaDatahubTask#auto_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#auto_increment CkafkaDatahubTask#auto_increment}
   */
   readonly autoIncrement?: boolean | cdktf.IResolvable;
   /**
   * Column Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#column_name CkafkaDatahubTask#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#column_name CkafkaDatahubTask#column_name}
   */
   readonly columnName?: string;
   /**
   * current ColumnSize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#column_size CkafkaDatahubTask#column_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#column_size CkafkaDatahubTask#column_size}
   */
   readonly columnSize?: string;
   /**
   * current Column DecimalDigits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#decimal_digits CkafkaDatahubTask#decimal_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#decimal_digits CkafkaDatahubTask#decimal_digits}
   */
   readonly decimalDigits?: string;
   /**
   * Database table default parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#default_value CkafkaDatahubTask#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#default_value CkafkaDatahubTask#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Database table extra fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#extra_info CkafkaDatahubTask#extra_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#extra_info CkafkaDatahubTask#extra_info}
   */
   readonly extraInfo?: string;
   /**
   * The key name of the message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#json_key CkafkaDatahubTask#json_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#json_key CkafkaDatahubTask#json_key}
   */
   readonly jsonKey?: string;
   /**
   * message type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type?: string;
 }
@@ -8089,79 +8089,79 @@ export interface CkafkaDatahubTaskSourceResourcePostgreSqlParam {
   /**
   * Upstream data format (JSON|Debezium), required when the database synchronization mode matches the default field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_format CkafkaDatahubTask#data_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_format CkafkaDatahubTask#data_format}
   */
   readonly dataFormat?: string;
   /**
   * INSERT means insert using Insert mode, UPSERT means insert using Upsert mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_target_insert_mode CkafkaDatahubTask#data_target_insert_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_target_insert_mode CkafkaDatahubTask#data_target_insert_mode}
   */
   readonly dataTargetInsertMode?: string;
   /**
   * When DataInsertMode=UPSERT, pass in the primary key that the current upsert depends on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_target_primary_key_field CkafkaDatahubTask#data_target_primary_key_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_target_primary_key_field CkafkaDatahubTask#data_target_primary_key_field}
   */
   readonly dataTargetPrimaryKeyField?: string;
   /**
   * PostgreSQL database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * Whether to discard messages that fail to parse, the default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
   */
   readonly dropInvalidMessage?: boolean | cdktf.IResolvable;
   /**
   * Whether the input table is a regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#is_table_regular CkafkaDatahubTask#is_table_regular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#is_table_regular CkafkaDatahubTask#is_table_regular}
   */
   readonly isTableRegular?: boolean | cdktf.IResolvable;
   /**
   * Format  library1.table1:field 1,field2;library2.table2:field2, between tables; (semicolon) separated, between fields, (comma) separated. The table that is not specified defaults to the primary key of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#key_columns CkafkaDatahubTask#key_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#key_columns CkafkaDatahubTask#key_columns}
   */
   readonly keyColumns?: string;
   /**
   * (decoderbufs/pgoutput), default decoderbufs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#plugin_name CkafkaDatahubTask#plugin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#plugin_name CkafkaDatahubTask#plugin_name}
   */
   readonly pluginName: string;
   /**
   * If the value is true, the message will carry the schema corresponding to the message structure, if the value is false, it will not carry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#record_with_schema CkafkaDatahubTask#record_with_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#record_with_schema CkafkaDatahubTask#record_with_schema}
   */
   readonly recordWithSchema?: boolean | cdktf.IResolvable;
   /**
   * PostgreSQL connection Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * never|initial, default initial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
   */
   readonly snapshotMode?: string;
   /**
   * PostgreSQL tableName, * is the non-system table in all the monitored databases, you can use, to monitor multiple data tables, but the data table needs to be filled in the format of Schema name.Data table name, and you need to fill in a regular expression When, the format is Schema name.data table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
   /**
   * data_target_record_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_target_record_mapping CkafkaDatahubTask#data_target_record_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_target_record_mapping CkafkaDatahubTask#data_target_record_mapping}
   */
   readonly dataTargetRecordMapping?: CkafkaDatahubTaskSourceResourcePostgreSqlParamDataTargetRecordMapping[] | cdktf.IResolvable;
 }
@@ -8583,31 +8583,31 @@ export interface CkafkaDatahubTaskSourceResourceScfParam {
   /**
   * The maximum number of messages sent in each batch, the default is 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#batch_size CkafkaDatahubTask#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#batch_size CkafkaDatahubTask#batch_size}
   */
   readonly batchSize?: number;
   /**
   * SCF function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#function_name CkafkaDatahubTask#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#function_name CkafkaDatahubTask#function_name}
   */
   readonly functionName: string;
   /**
   * The number of retries after the SCF call fails, the default is 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#max_retries CkafkaDatahubTask#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#max_retries CkafkaDatahubTask#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * SCF cloud function namespace, the default is default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#namespace CkafkaDatahubTask#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#namespace CkafkaDatahubTask#namespace}
   */
   readonly namespace?: string;
   /**
   * SCF cloud function version and alias, the default is DEFAULT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#qualifier CkafkaDatahubTask#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#qualifier CkafkaDatahubTask#qualifier}
   */
   readonly qualifier?: string;
 }
@@ -8806,25 +8806,25 @@ export interface CkafkaDatahubTaskSourceResourceSqlServerParam {
   /**
   * SQLServer database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * SQLServer connection Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * schema_only|initial default initial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
   */
   readonly snapshotMode?: string;
   /**
   * SQLServer table, *is the non-system table in all the monitored databases, you can use, to monitor multiple data tables, but the data table needs to be filled in the format of data database name.data table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
 }
@@ -8988,31 +8988,31 @@ export interface CkafkaDatahubTaskSourceResourceTdwParam {
   /**
   * Tdw bid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#bid CkafkaDatahubTask#bid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#bid CkafkaDatahubTask#bid}
   */
   readonly bid: string;
   /**
   * default true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#is_domestic CkafkaDatahubTask#is_domestic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#is_domestic CkafkaDatahubTask#is_domestic}
   */
   readonly isDomestic?: boolean | cdktf.IResolvable;
   /**
   * TDW address, defalt tl-tdbank-tdmanager.tencent-distribute.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#tdw_host CkafkaDatahubTask#tdw_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#tdw_host CkafkaDatahubTask#tdw_host}
   */
   readonly tdwHost?: string;
   /**
   * TDW port, default 8099.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#tdw_port CkafkaDatahubTask#tdw_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#tdw_port CkafkaDatahubTask#tdw_port}
   */
   readonly tdwPort?: number;
   /**
   * Tdw tid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#tid CkafkaDatahubTask#tid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#tid CkafkaDatahubTask#tid}
   */
   readonly tid: string;
 }
@@ -9208,43 +9208,43 @@ export interface CkafkaDatahubTaskSourceResourceTopicParam {
   /**
   * Whether to perform compression when writing a topic, if it is not enabled, fill in none, if it is enabled, you can choose one of gzip, snappy, lz4 to fill in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
   */
   readonly compressionType?: string;
   /**
   * 1 source topic message is amplified into msg Multiple and written to the target topic (this parameter is currently only applicable to ckafka flowing into ckafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
   */
   readonly msgMultiple?: number;
   /**
   * Offset type, initial position earliest, latest position latest, time point position timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
   */
   readonly offsetType?: string;
   /**
   * The topic name of the topic sold separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * It must be passed when the Offset type is timestamp, and the time stamp is passed, accurate to the second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
   */
   readonly startTime?: number;
   /**
   * Topic TopicId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId?: string;
   /**
   * whether the used topic need to be automatically created (currently only supports SOURCE inflow tasks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
   */
   readonly useAutoCreateTopic?: boolean | cdktf.IResolvable;
 }
@@ -9501,103 +9501,103 @@ export interface CkafkaDatahubTaskSourceResource {
   /**
   * resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
   /**
   * click_house_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#click_house_param CkafkaDatahubTask#click_house_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#click_house_param CkafkaDatahubTask#click_house_param}
   */
   readonly clickHouseParam?: CkafkaDatahubTaskSourceResourceClickHouseParam;
   /**
   * cls_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#cls_param CkafkaDatahubTask#cls_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#cls_param CkafkaDatahubTask#cls_param}
   */
   readonly clsParam?: CkafkaDatahubTaskSourceResourceClsParam;
   /**
   * cos_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#cos_param CkafkaDatahubTask#cos_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#cos_param CkafkaDatahubTask#cos_param}
   */
   readonly cosParam?: CkafkaDatahubTaskSourceResourceCosParam;
   /**
   * ctsdb_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#ctsdb_param CkafkaDatahubTask#ctsdb_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#ctsdb_param CkafkaDatahubTask#ctsdb_param}
   */
   readonly ctsdbParam?: CkafkaDatahubTaskSourceResourceCtsdbParam;
   /**
   * dts_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#dts_param CkafkaDatahubTask#dts_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#dts_param CkafkaDatahubTask#dts_param}
   */
   readonly dtsParam?: CkafkaDatahubTaskSourceResourceDtsParam;
   /**
   * es_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#es_param CkafkaDatahubTask#es_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#es_param CkafkaDatahubTask#es_param}
   */
   readonly esParam?: CkafkaDatahubTaskSourceResourceEsParam;
   /**
   * event_bus_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#event_bus_param CkafkaDatahubTask#event_bus_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#event_bus_param CkafkaDatahubTask#event_bus_param}
   */
   readonly eventBusParam?: CkafkaDatahubTaskSourceResourceEventBusParam;
   /**
   * kafka_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#kafka_param CkafkaDatahubTask#kafka_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#kafka_param CkafkaDatahubTask#kafka_param}
   */
   readonly kafkaParam?: CkafkaDatahubTaskSourceResourceKafkaParam;
   /**
   * maria_db_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#maria_db_param CkafkaDatahubTask#maria_db_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#maria_db_param CkafkaDatahubTask#maria_db_param}
   */
   readonly mariaDbParam?: CkafkaDatahubTaskSourceResourceMariaDbParam;
   /**
   * mongo_db_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#mongo_db_param CkafkaDatahubTask#mongo_db_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#mongo_db_param CkafkaDatahubTask#mongo_db_param}
   */
   readonly mongoDbParam?: CkafkaDatahubTaskSourceResourceMongoDbParam;
   /**
   * my_sql_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#my_sql_param CkafkaDatahubTask#my_sql_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#my_sql_param CkafkaDatahubTask#my_sql_param}
   */
   readonly mySqlParam?: CkafkaDatahubTaskSourceResourceMySqlParam;
   /**
   * postgre_sql_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#postgre_sql_param CkafkaDatahubTask#postgre_sql_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#postgre_sql_param CkafkaDatahubTask#postgre_sql_param}
   */
   readonly postgreSqlParam?: CkafkaDatahubTaskSourceResourcePostgreSqlParam;
   /**
   * scf_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#scf_param CkafkaDatahubTask#scf_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#scf_param CkafkaDatahubTask#scf_param}
   */
   readonly scfParam?: CkafkaDatahubTaskSourceResourceScfParam;
   /**
   * sql_server_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#sql_server_param CkafkaDatahubTask#sql_server_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#sql_server_param CkafkaDatahubTask#sql_server_param}
   */
   readonly sqlServerParam?: CkafkaDatahubTaskSourceResourceSqlServerParam;
   /**
   * tdw_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#tdw_param CkafkaDatahubTask#tdw_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#tdw_param CkafkaDatahubTask#tdw_param}
   */
   readonly tdwParam?: CkafkaDatahubTaskSourceResourceTdwParam;
   /**
   * topic_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_param CkafkaDatahubTask#topic_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_param CkafkaDatahubTask#topic_param}
   */
   readonly topicParam?: CkafkaDatahubTaskSourceResourceTopicParam;
 }
@@ -10144,31 +10144,31 @@ export interface CkafkaDatahubTaskTargetResourceClickHouseParamDropCls {
   /**
   * cls LogSet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_log_set CkafkaDatahubTask#drop_cls_log_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_log_set CkafkaDatahubTask#drop_cls_log_set}
   */
   readonly dropClsLogSet?: string;
   /**
   * cls account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_owneruin CkafkaDatahubTask#drop_cls_owneruin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_owneruin CkafkaDatahubTask#drop_cls_owneruin}
   */
   readonly dropClsOwneruin?: string;
   /**
   * cls region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_region CkafkaDatahubTask#drop_cls_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_region CkafkaDatahubTask#drop_cls_region}
   */
   readonly dropClsRegion?: string;
   /**
   * cls topicId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_topic_id CkafkaDatahubTask#drop_cls_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_topic_id CkafkaDatahubTask#drop_cls_topic_id}
   */
   readonly dropClsTopicId?: string;
   /**
   * Whether to deliver to cls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message_to_cls CkafkaDatahubTask#drop_invalid_message_to_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message_to_cls CkafkaDatahubTask#drop_invalid_message_to_cls}
   */
   readonly dropInvalidMessageToCls?: boolean | cdktf.IResolvable;
 }
@@ -10370,25 +10370,25 @@ export interface CkafkaDatahubTaskTargetResourceClickHouseParamSchema {
   /**
   * Whether the column item is allowed to be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#allow_null CkafkaDatahubTask#allow_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#allow_null CkafkaDatahubTask#allow_null}
   */
   readonly allowNull: boolean | cdktf.IResolvable;
   /**
   * column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#column_name CkafkaDatahubTask#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#column_name CkafkaDatahubTask#column_name}
   */
   readonly columnName: string;
   /**
   * The json Key name corresponding to this column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#json_key CkafkaDatahubTask#json_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#json_key CkafkaDatahubTask#json_key}
   */
   readonly jsonKey: string;
   /**
   * type of table column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
 }
@@ -10581,91 +10581,91 @@ export interface CkafkaDatahubTaskTargetResourceClickHouseParam {
   /**
   * ClickHouse cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#cluster CkafkaDatahubTask#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#cluster CkafkaDatahubTask#cluster}
   */
   readonly cluster: string;
   /**
   * ClickHouse database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * Whether ClickHouse discards the message that fails to parse, the default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
   */
   readonly dropInvalidMessage?: boolean | cdktf.IResolvable;
   /**
   * ClickHouse ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#ip CkafkaDatahubTask#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#ip CkafkaDatahubTask#ip}
   */
   readonly ip?: string;
   /**
   * ClickHouse passwd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#password CkafkaDatahubTask#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#password CkafkaDatahubTask#password}
   */
   readonly password?: string;
   /**
   * ClickHouse port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
   */
   readonly port?: number;
   /**
   * resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * Whether it is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt?: boolean | cdktf.IResolvable;
   /**
   * instance vip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#service_vip CkafkaDatahubTask#service_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#service_vip CkafkaDatahubTask#service_vip}
   */
   readonly serviceVip?: string;
   /**
   * ClickHouse table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
   /**
   * ClickHouse type, emr-clickhouse: emr;cdw-clickhouse: cdwch;selfBuilt: ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type?: string;
   /**
   * instance vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#uniq_vpc_id CkafkaDatahubTask#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#uniq_vpc_id CkafkaDatahubTask#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * ClickHouse user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#user_name CkafkaDatahubTask#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#user_name CkafkaDatahubTask#user_name}
   */
   readonly userName?: string;
   /**
   * drop_cls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls CkafkaDatahubTask#drop_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls CkafkaDatahubTask#drop_cls}
   */
   readonly dropCls?: CkafkaDatahubTaskTargetResourceClickHouseParamDropCls;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#schema CkafkaDatahubTask#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#schema CkafkaDatahubTask#schema}
   */
   readonly schema: CkafkaDatahubTaskTargetResourceClickHouseParamSchema[] | cdktf.IResolvable;
 }
@@ -11142,31 +11142,31 @@ export interface CkafkaDatahubTaskTargetResourceClsParam {
   /**
   * Required when Decode Json is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#content_key CkafkaDatahubTask#content_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#content_key CkafkaDatahubTask#content_key}
   */
   readonly contentKey?: string;
   /**
   * Whether the produced information is in json format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#decode_json CkafkaDatahubTask#decode_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#decode_json CkafkaDatahubTask#decode_json}
   */
   readonly decodeJson: boolean | cdktf.IResolvable;
   /**
   * LogSet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#log_set CkafkaDatahubTask#log_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#log_set CkafkaDatahubTask#log_set}
   */
   readonly logSet?: string;
   /**
   * cls id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * Specify the content of a field in the message as the time of the cls log. The format of the field content needs to be a second-level timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#time_field CkafkaDatahubTask#time_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#time_field CkafkaDatahubTask#time_field}
   */
   readonly timeField?: string;
 }
@@ -11362,49 +11362,49 @@ export interface CkafkaDatahubTaskTargetResourceCosParam {
   /**
   * The size of aggregated messages MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#aggregate_batch_size CkafkaDatahubTask#aggregate_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#aggregate_batch_size CkafkaDatahubTask#aggregate_batch_size}
   */
   readonly aggregateBatchSize?: number;
   /**
   * time interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#aggregate_interval CkafkaDatahubTask#aggregate_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#aggregate_interval CkafkaDatahubTask#aggregate_interval}
   */
   readonly aggregateInterval?: number;
   /**
   * cos bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#bucket_name CkafkaDatahubTask#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#bucket_name CkafkaDatahubTask#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Partition format formatted according to strptime time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#directory_time_format CkafkaDatahubTask#directory_time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#directory_time_format CkafkaDatahubTask#directory_time_format}
   */
   readonly directoryTimeFormat?: string;
   /**
   * The file format after message aggregation csv|json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#format_output_type CkafkaDatahubTask#format_output_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#format_output_type CkafkaDatahubTask#format_output_type}
   */
   readonly formatOutputType?: string;
   /**
   * ObjectKey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#object_key CkafkaDatahubTask#object_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#object_key CkafkaDatahubTask#object_key}
   */
   readonly objectKey?: string;
   /**
   * Dumped object directory prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#object_key_prefix CkafkaDatahubTask#object_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#object_key_prefix CkafkaDatahubTask#object_key_prefix}
   */
   readonly objectKeyPrefix?: string;
   /**
   * region code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#region CkafkaDatahubTask#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#region CkafkaDatahubTask#region}
   */
   readonly region: string;
 }
@@ -11687,13 +11687,13 @@ export interface CkafkaDatahubTaskTargetResourceCtsdbParam {
   /**
   * Ctsdb metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#ctsdb_metric CkafkaDatahubTask#ctsdb_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#ctsdb_metric CkafkaDatahubTask#ctsdb_metric}
   */
   readonly ctsdbMetric?: string;
   /**
   * resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource?: string;
 }
@@ -11808,49 +11808,49 @@ export interface CkafkaDatahubTaskTargetResourceDtsParam {
   /**
   * Dts consumer group Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#group_id CkafkaDatahubTask#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#group_id CkafkaDatahubTask#group_id}
   */
   readonly groupId?: string;
   /**
   * Dts consumer group passwd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#group_password CkafkaDatahubTask#group_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#group_password CkafkaDatahubTask#group_password}
   */
   readonly groupPassword?: string;
   /**
   * Dts account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#group_user CkafkaDatahubTask#group_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#group_user CkafkaDatahubTask#group_user}
   */
   readonly groupUser?: string;
   /**
   * Dts connection ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#ip CkafkaDatahubTask#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#ip CkafkaDatahubTask#ip}
   */
   readonly ip?: string;
   /**
   * Dts connection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
   */
   readonly port?: number;
   /**
   * Dts instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * Dts topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic?: string;
   /**
   * False to synchronize the original data, true to synchronize the parsed json format data, the default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#tran_sql CkafkaDatahubTask#tran_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#tran_sql CkafkaDatahubTask#tran_sql}
   */
   readonly tranSql?: boolean | cdktf.IResolvable;
 }
@@ -12136,31 +12136,31 @@ export interface CkafkaDatahubTaskTargetResourceEsParamDropCls {
   /**
   * cls log set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_log_set CkafkaDatahubTask#drop_cls_log_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_log_set CkafkaDatahubTask#drop_cls_log_set}
   */
   readonly dropClsLogSet?: string;
   /**
   * Delivery account of cls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_owneruin CkafkaDatahubTask#drop_cls_owneruin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_owneruin CkafkaDatahubTask#drop_cls_owneruin}
   */
   readonly dropClsOwneruin?: string;
   /**
   * The region where the cls is delivered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_region CkafkaDatahubTask#drop_cls_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_region CkafkaDatahubTask#drop_cls_region}
   */
   readonly dropClsRegion?: string;
   /**
   * topic of cls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_topic_id CkafkaDatahubTask#drop_cls_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_topic_id CkafkaDatahubTask#drop_cls_topic_id}
   */
   readonly dropClsTopicId?: string;
   /**
   * Whether to deliver to cls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message_to_cls CkafkaDatahubTask#drop_invalid_message_to_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message_to_cls CkafkaDatahubTask#drop_invalid_message_to_cls}
   */
   readonly dropInvalidMessageToCls?: boolean | cdktf.IResolvable;
 }
@@ -12362,25 +12362,25 @@ export interface CkafkaDatahubTaskTargetResourceEsParamDropDlqKafkaParamTableMap
   /**
   * database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * Table name, multiple tables, separated by (commas).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
   /**
   * Topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic: string;
   /**
   * Topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId: string;
 }
@@ -12573,97 +12573,97 @@ export interface CkafkaDatahubTaskTargetResourceEsParamDropDlqKafkaParam {
   /**
   * Whether to compress when writing to the Topic, if it is not enabled, fill in none, if it is enabled, fill in open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
   */
   readonly compressionType?: string;
   /**
   * Enable the fault-tolerant instance and enable the dead-letter queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#enable_toleration CkafkaDatahubTask#enable_toleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#enable_toleration CkafkaDatahubTask#enable_toleration}
   */
   readonly enableToleration?: boolean | cdktf.IResolvable;
   /**
   * 1 source topic message is amplified into msg Multiple and written to the target topic (this parameter is currently only applicable to ckafka flowing into ckafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
   */
   readonly msgMultiple?: number;
   /**
   * Offset type, initial position earliest, latest position latest, time point position timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
   */
   readonly offsetType?: string;
   /**
   * Partition num.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#partition_num CkafkaDatahubTask#partition_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#partition_num CkafkaDatahubTask#partition_num}
   */
   readonly partitionNum?: number;
   /**
   * Qps limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#qps_limit CkafkaDatahubTask#qps_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#qps_limit CkafkaDatahubTask#qps_limit}
   */
   readonly qpsLimit?: number;
   /**
   * resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * resource id name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource_name CkafkaDatahubTask#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource_name CkafkaDatahubTask#resource_name}
   */
   readonly resourceName?: string;
   /**
   * Whether it is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt: boolean | cdktf.IResolvable;
   /**
   * It must be passed when the Offset type is timestamp, and the time stamp is passed, accurate to the second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
   */
   readonly startTime?: number;
   /**
   * Topic name, multiple separated by,.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic?: string;
   /**
   * Topic Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId?: string;
   /**
   * whether the used topic need to be automatically created (currently only supports SOURCE inflow tasks, if you do not use to distribute to multiple topics, you need to fill in the topic name that needs to be automatically created in the Topic field).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
   */
   readonly useAutoCreateTopic?: boolean | cdktf.IResolvable;
   /**
   * Distribute to multiple topics switch, the default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_table_mapping CkafkaDatahubTask#use_table_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_table_mapping CkafkaDatahubTask#use_table_mapping}
   */
   readonly useTableMapping?: boolean | cdktf.IResolvable;
   /**
   * Zone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#zone_id CkafkaDatahubTask#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#zone_id CkafkaDatahubTask#zone_id}
   */
   readonly zoneId?: number;
   /**
   * table_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table_mappings CkafkaDatahubTask#table_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table_mappings CkafkaDatahubTask#table_mappings}
   */
   readonly tableMappings?: CkafkaDatahubTaskTargetResourceEsParamDropDlqKafkaParamTableMappings[] | cdktf.IResolvable;
 }
@@ -13178,43 +13178,43 @@ export interface CkafkaDatahubTaskTargetResourceEsParamDropDlqTopicParam {
   /**
   * Whether to perform compression when writing a topic, if it is not enabled, fill in none, if it is enabled, you can choose one of gzip, snappy, lz4 to fill in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
   */
   readonly compressionType?: string;
   /**
   * 1 source topic message is amplified into msg Multiple and written to the target topic (this parameter is currently only applicable to ckafka flowing into ckafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
   */
   readonly msgMultiple?: number;
   /**
   * Offset type, initial position earliest, latest position latest, time point position timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
   */
   readonly offsetType?: string;
   /**
   * The topic name of the topic sold separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * It must be passed when the Offset type is timestamp, and the time stamp is passed, accurate to the second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
   */
   readonly startTime?: number;
   /**
   * TopicId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId?: string;
   /**
   * whether the used topic need to be automatically created (currently only supports SOURCE inflow tasks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
   */
   readonly useAutoCreateTopic?: boolean | cdktf.IResolvable;
 }
@@ -13471,37 +13471,37 @@ export interface CkafkaDatahubTaskTargetResourceEsParamDropDlq {
   /**
   * dlq type, CKAFKA|TOPIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#dlq_type CkafkaDatahubTask#dlq_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#dlq_type CkafkaDatahubTask#dlq_type}
   */
   readonly dlqType?: string;
   /**
   * retry times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#max_retry_attempts CkafkaDatahubTask#max_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#max_retry_attempts CkafkaDatahubTask#max_retry_attempts}
   */
   readonly maxRetryAttempts?: number;
   /**
   * retry interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#retry_interval CkafkaDatahubTask#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#retry_interval CkafkaDatahubTask#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * type, DLQ dead letter queue, IGNORE_ERROR|DROP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
   /**
   * kafka_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#kafka_param CkafkaDatahubTask#kafka_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#kafka_param CkafkaDatahubTask#kafka_param}
   */
   readonly kafkaParam?: CkafkaDatahubTaskTargetResourceEsParamDropDlqKafkaParam;
   /**
   * topic_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_param CkafkaDatahubTask#topic_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_param CkafkaDatahubTask#topic_param}
   */
   readonly topicParam?: CkafkaDatahubTaskTargetResourceEsParamDropDlqTopicParam;
 }
@@ -13729,103 +13729,103 @@ export interface CkafkaDatahubTaskTargetResourceEsParam {
   /**
   * key for data in non-json format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#content_key CkafkaDatahubTask#content_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#content_key CkafkaDatahubTask#content_key}
   */
   readonly contentKey?: string;
   /**
   * When the message dumped to ES is the binlog of Database, if you need to synchronize database operations, that is, fill in the primary key of the database table when adding, deleting, and modifying operations to ES.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database_primary_key CkafkaDatahubTask#database_primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database_primary_key CkafkaDatahubTask#database_primary_key}
   */
   readonly databasePrimaryKey?: string;
   /**
   * Es date suffix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#date_format CkafkaDatahubTask#date_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#date_format CkafkaDatahubTask#date_format}
   */
   readonly dateFormat?: string;
   /**
   * The field name of the document ID value dumped into Es.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#document_id_field CkafkaDatahubTask#document_id_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#document_id_field CkafkaDatahubTask#document_id_field}
   */
   readonly documentIdField?: string;
   /**
   * Whether Es discards messages in non-json format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_json_message CkafkaDatahubTask#drop_invalid_json_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_json_message CkafkaDatahubTask#drop_invalid_json_message}
   */
   readonly dropInvalidJsonMessage?: boolean | cdktf.IResolvable;
   /**
   * Whether Es discards the message of parsing failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
   */
   readonly dropInvalidMessage?: boolean | cdktf.IResolvable;
   /**
   * Es index name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#index CkafkaDatahubTask#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#index CkafkaDatahubTask#index}
   */
   readonly index?: string;
   /**
   * Es custom index name type, STRING, JSONPATH, the default is STRING.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#index_type CkafkaDatahubTask#index_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#index_type CkafkaDatahubTask#index_type}
   */
   readonly indexType?: string;
   /**
   * Es Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#password CkafkaDatahubTask#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#password CkafkaDatahubTask#password}
   */
   readonly password?: string;
   /**
   * Es connection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
   */
   readonly port?: number;
   /**
   * Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * Whether it is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt?: boolean | cdktf.IResolvable;
   /**
   * instance vip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#service_vip CkafkaDatahubTask#service_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#service_vip CkafkaDatahubTask#service_vip}
   */
   readonly serviceVip?: string;
   /**
   * instance vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#uniq_vpc_id CkafkaDatahubTask#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#uniq_vpc_id CkafkaDatahubTask#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * Es UserName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#user_name CkafkaDatahubTask#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#user_name CkafkaDatahubTask#user_name}
   */
   readonly userName?: string;
   /**
   * drop_cls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls CkafkaDatahubTask#drop_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls CkafkaDatahubTask#drop_cls}
   */
   readonly dropCls?: CkafkaDatahubTaskTargetResourceEsParamDropCls;
   /**
   * drop_dlq block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_dlq CkafkaDatahubTask#drop_dlq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_dlq CkafkaDatahubTask#drop_dlq}
   */
   readonly dropDlq?: CkafkaDatahubTaskTargetResourceEsParamDropDlq;
 }
@@ -14372,37 +14372,37 @@ export interface CkafkaDatahubTaskTargetResourceEventBusParam {
   /**
   * SCF function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#function_name CkafkaDatahubTask#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#function_name CkafkaDatahubTask#function_name}
   */
   readonly functionName?: string;
   /**
   * SCF namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#namespace CkafkaDatahubTask#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#namespace CkafkaDatahubTask#namespace}
   */
   readonly namespace?: string;
   /**
   * SCF version and alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#qualifier CkafkaDatahubTask#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#qualifier CkafkaDatahubTask#qualifier}
   */
   readonly qualifier?: string;
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * Whether it is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt: boolean | cdktf.IResolvable;
   /**
   * resource type. EB_COS/EB_ES/EB_CLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
 }
@@ -14624,25 +14624,25 @@ export interface CkafkaDatahubTaskTargetResourceKafkaParamTableMappings {
   /**
   * database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * table name,use, to separate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
   /**
   * Topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic: string;
   /**
   * Topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId: string;
 }
@@ -14835,97 +14835,97 @@ export interface CkafkaDatahubTaskTargetResourceKafkaParam {
   /**
   * Whether to compress when writing to the Topic, if it is not enabled, fill in none, if it is enabled, fill in open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
   */
   readonly compressionType?: string;
   /**
   * enable dead letter queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#enable_toleration CkafkaDatahubTask#enable_toleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#enable_toleration CkafkaDatahubTask#enable_toleration}
   */
   readonly enableToleration?: boolean | cdktf.IResolvable;
   /**
   * 1 source topic message is amplified into msg Multiple and written to the target topic (this parameter is currently only applicable to ckafka flowing into ckafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
   */
   readonly msgMultiple?: number;
   /**
   * Offset type, from beginning:earliest, from latest:latest, from specific time:timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
   */
   readonly offsetType?: string;
   /**
   * the partition num of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#partition_num CkafkaDatahubTask#partition_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#partition_num CkafkaDatahubTask#partition_num}
   */
   readonly partitionNum?: number;
   /**
   * Qps(query per seconds) limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#qps_limit CkafkaDatahubTask#qps_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#qps_limit CkafkaDatahubTask#qps_limit}
   */
   readonly qpsLimit?: number;
   /**
   * instance resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource_name CkafkaDatahubTask#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource_name CkafkaDatahubTask#resource_name}
   */
   readonly resourceName?: string;
   /**
   * whether the cluster is built by yourself instead of cloud product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt: boolean | cdktf.IResolvable;
   /**
   * when Offset type timestamp is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
   */
   readonly startTime?: number;
   /**
   * Topic name, use `,` when more than 1 topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic?: string;
   /**
   * Topic id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId?: string;
   /**
   * Does the used topic need to be automatically created (currently only supports SOURCE inflow tasks, if you do not use to distribute to multiple topics, you need to fill in the topic name that needs to be automatically created in the Topic field).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
   */
   readonly useAutoCreateTopic?: boolean | cdktf.IResolvable;
   /**
   * whether to use multi table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_table_mapping CkafkaDatahubTask#use_table_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_table_mapping CkafkaDatahubTask#use_table_mapping}
   */
   readonly useTableMapping?: boolean | cdktf.IResolvable;
   /**
   * Zone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#zone_id CkafkaDatahubTask#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#zone_id CkafkaDatahubTask#zone_id}
   */
   readonly zoneId?: number;
   /**
   * table_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table_mappings CkafkaDatahubTask#table_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table_mappings CkafkaDatahubTask#table_mappings}
   */
   readonly tableMappings?: CkafkaDatahubTaskTargetResourceKafkaParamTableMappings[] | cdktf.IResolvable;
 }
@@ -15440,61 +15440,61 @@ export interface CkafkaDatahubTaskTargetResourceMariaDbParam {
   /**
   * MariaDB database name, * for all database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * If the value is all, DDL data and DML data will also be written to the selected topic; if the value is dml, only DML data will be written to the selected topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#include_content_changes CkafkaDatahubTask#include_content_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#include_content_changes CkafkaDatahubTask#include_content_changes}
   */
   readonly includeContentChanges?: string;
   /**
   * If the value is true, and the value of the binlog rows query log events configuration item in My SQL is ON, the data flowing into the topic contains the original SQL statement; if the value is false, the data flowing into the topic does not contain Original SQL statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#include_query CkafkaDatahubTask#include_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#include_query CkafkaDatahubTask#include_query}
   */
   readonly includeQuery?: boolean | cdktf.IResolvable;
   /**
   * When the Table input is a prefix, the value of this item is true, otherwise it is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#is_table_prefix CkafkaDatahubTask#is_table_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#is_table_prefix CkafkaDatahubTask#is_table_prefix}
   */
   readonly isTablePrefix?: boolean | cdktf.IResolvable;
   /**
   * Format  library 1. table 1: field 1, field 2; library 2. table 2: field 2, between tables; (semicolon) separated, between fields, (comma) separated. The table that is not specified defaults to the primary key of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#key_columns CkafkaDatahubTask#key_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#key_columns CkafkaDatahubTask#key_columns}
   */
   readonly keyColumns?: string;
   /**
   * output format, DEFAULT, CANAL_1, CANAL_2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#output_format CkafkaDatahubTask#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#output_format CkafkaDatahubTask#output_format}
   */
   readonly outputFormat?: string;
   /**
   * If the value is true, the message will carry the schema corresponding to the message structure, if the value is false, it will not carry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#record_with_schema CkafkaDatahubTask#record_with_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#record_with_schema CkafkaDatahubTask#record_with_schema}
   */
   readonly recordWithSchema?: boolean | cdktf.IResolvable;
   /**
   * MariaDB connection Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * schema_only|initial, default initial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
   */
   readonly snapshotMode?: string;
   /**
   * MariaDB db name, *is the non-system table in all the monitored databases, you can use, to monitor multiple data tables, but the data table needs to be filled in the format of data database name.data table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
 }
@@ -15832,73 +15832,73 @@ export interface CkafkaDatahubTaskTargetResourceMongoDbParam {
   /**
   * MongoDB collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#collection CkafkaDatahubTask#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#collection CkafkaDatahubTask#collection}
   */
   readonly collection: string;
   /**
   * Whether to copy the stock data, the default parameter is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#copy_existing CkafkaDatahubTask#copy_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#copy_existing CkafkaDatahubTask#copy_existing}
   */
   readonly copyExisting: boolean | cdktf.IResolvable;
   /**
   * MongoDB database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * Mongo DB connection ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#ip CkafkaDatahubTask#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#ip CkafkaDatahubTask#ip}
   */
   readonly ip?: string;
   /**
   * Listening event type, if it is empty, it means select all. Values include insert, update, replace, delete, invalidate, drop, dropdatabase, rename, used between multiple types, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#listening_event CkafkaDatahubTask#listening_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#listening_event CkafkaDatahubTask#listening_event}
   */
   readonly listeningEvent?: string;
   /**
   * MongoDB database password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#password CkafkaDatahubTask#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#password CkafkaDatahubTask#password}
   */
   readonly password?: string;
   /**
   * aggregation pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#pipeline CkafkaDatahubTask#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#pipeline CkafkaDatahubTask#pipeline}
   */
   readonly pipeline?: string;
   /**
   * MongoDB connection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#port CkafkaDatahubTask#port}
   */
   readonly port?: number;
   /**
   * Master-slave priority, default master node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#read_preference CkafkaDatahubTask#read_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#read_preference CkafkaDatahubTask#read_preference}
   */
   readonly readPreference?: string;
   /**
   * resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * Whether it is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt?: boolean | cdktf.IResolvable;
   /**
   * MongoDB database user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#user_name CkafkaDatahubTask#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#user_name CkafkaDatahubTask#user_name}
   */
   readonly userName?: string;
 }
@@ -16291,55 +16291,55 @@ export interface CkafkaDatahubTaskTargetResourceMySqlParamDataTargetRecordMappin
   /**
   * Whether the message is allowed to be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#allow_null CkafkaDatahubTask#allow_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#allow_null CkafkaDatahubTask#allow_null}
   */
   readonly allowNull?: boolean | cdktf.IResolvable;
   /**
   * Whether it is an auto-increment column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#auto_increment CkafkaDatahubTask#auto_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#auto_increment CkafkaDatahubTask#auto_increment}
   */
   readonly autoIncrement?: boolean | cdktf.IResolvable;
   /**
   * Corresponding mapping column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#column_name CkafkaDatahubTask#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#column_name CkafkaDatahubTask#column_name}
   */
   readonly columnName?: string;
   /**
   * current column size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#column_size CkafkaDatahubTask#column_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#column_size CkafkaDatahubTask#column_size}
   */
   readonly columnSize?: string;
   /**
   * current column precision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#decimal_digits CkafkaDatahubTask#decimal_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#decimal_digits CkafkaDatahubTask#decimal_digits}
   */
   readonly decimalDigits?: string;
   /**
   * Database table default parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#default_value CkafkaDatahubTask#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#default_value CkafkaDatahubTask#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Database table extra fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#extra_info CkafkaDatahubTask#extra_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#extra_info CkafkaDatahubTask#extra_info}
   */
   readonly extraInfo?: string;
   /**
   * The key name of the message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#json_key CkafkaDatahubTask#json_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#json_key CkafkaDatahubTask#json_key}
   */
   readonly jsonKey?: string;
   /**
   * message type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type?: string;
 }
@@ -16689,31 +16689,31 @@ export interface CkafkaDatahubTaskTargetResourceMySqlParamDropCls {
   /**
   * cls LogSet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_log_set CkafkaDatahubTask#drop_cls_log_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_log_set CkafkaDatahubTask#drop_cls_log_set}
   */
   readonly dropClsLogSet?: string;
   /**
   * account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_owneruin CkafkaDatahubTask#drop_cls_owneruin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_owneruin CkafkaDatahubTask#drop_cls_owneruin}
   */
   readonly dropClsOwneruin?: string;
   /**
   * The region where the cls is delivered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_region CkafkaDatahubTask#drop_cls_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_region CkafkaDatahubTask#drop_cls_region}
   */
   readonly dropClsRegion?: string;
   /**
   * cls topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls_topic_id CkafkaDatahubTask#drop_cls_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls_topic_id CkafkaDatahubTask#drop_cls_topic_id}
   */
   readonly dropClsTopicId?: string;
   /**
   * Whether to deliver to cls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message_to_cls CkafkaDatahubTask#drop_invalid_message_to_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message_to_cls CkafkaDatahubTask#drop_invalid_message_to_cls}
   */
   readonly dropInvalidMessageToCls?: boolean | cdktf.IResolvable;
 }
@@ -16915,151 +16915,151 @@ export interface CkafkaDatahubTaskTargetResourceMySqlParam {
   /**
   * the name of the column to be monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_source_increment_column CkafkaDatahubTask#data_source_increment_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_source_increment_column CkafkaDatahubTask#data_source_increment_column}
   */
   readonly dataSourceIncrementColumn?: string;
   /**
   * TIMESTAMP indicates that the incremental column is of timestamp type, INCREMENT indicates that the incremental column is of self-incrementing id type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_source_increment_mode CkafkaDatahubTask#data_source_increment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_source_increment_mode CkafkaDatahubTask#data_source_increment_mode}
   */
   readonly dataSourceIncrementMode?: string;
   /**
   * TABLE indicates that the read item is a table, QUERY indicates that the read item is a query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_source_monitor_mode CkafkaDatahubTask#data_source_monitor_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_source_monitor_mode CkafkaDatahubTask#data_source_monitor_mode}
   */
   readonly dataSourceMonitorMode?: string;
   /**
   * When DataMonitorMode=TABLE, pass in the Table that needs to be read; when DataMonitorMode=QUERY, pass in the query sql statement that needs to be read.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_source_monitor_resource CkafkaDatahubTask#data_source_monitor_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_source_monitor_resource CkafkaDatahubTask#data_source_monitor_resource}
   */
   readonly dataSourceMonitorResource?: string;
   /**
   * HEAD means copy stock + incremental data, TAIL means copy only incremental data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_source_start_from CkafkaDatahubTask#data_source_start_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_source_start_from CkafkaDatahubTask#data_source_start_from}
   */
   readonly dataSourceStartFrom?: string;
   /**
   * INSERT means insert using Insert mode, UPSERT means insert using Upsert mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_target_insert_mode CkafkaDatahubTask#data_target_insert_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_target_insert_mode CkafkaDatahubTask#data_target_insert_mode}
   */
   readonly dataTargetInsertMode?: string;
   /**
   * When DataInsertMode=UPSERT, pass in the primary key that the current upsert depends on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_target_primary_key_field CkafkaDatahubTask#data_target_primary_key_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_target_primary_key_field CkafkaDatahubTask#data_target_primary_key_field}
   */
   readonly dataTargetPrimaryKeyField?: string;
   /**
   * MySQL database name, * is the whole database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * The Topic that stores the Ddl information of My SQL, if it is empty, it will not be stored by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#ddl_topic CkafkaDatahubTask#ddl_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#ddl_topic CkafkaDatahubTask#ddl_topic}
   */
   readonly ddlTopic?: string;
   /**
   * Whether to discard messages that fail to parse, the default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
   */
   readonly dropInvalidMessage?: boolean | cdktf.IResolvable;
   /**
   * If the value is all, DDL data and DML data will also be written to the selected topic; if the value is dml, only DML data will be written to the selected topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#include_content_changes CkafkaDatahubTask#include_content_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#include_content_changes CkafkaDatahubTask#include_content_changes}
   */
   readonly includeContentChanges?: string;
   /**
   * If the value is true, and the value of the binlog rows query log events configuration item in My SQL is ON, the data flowing into the topic contains the original SQL statement; if the value is false, the data flowing into the topic does not contain Original SQL statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#include_query CkafkaDatahubTask#include_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#include_query CkafkaDatahubTask#include_query}
   */
   readonly includeQuery?: boolean | cdktf.IResolvable;
   /**
   * When the Table input is a prefix, the value of this item is true, otherwise it is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#is_table_prefix CkafkaDatahubTask#is_table_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#is_table_prefix CkafkaDatahubTask#is_table_prefix}
   */
   readonly isTablePrefix?: boolean | cdktf.IResolvable;
   /**
   * Whether the input table is a regular expression, if this option and Is Table Prefix are true at the same time, the judgment priority of this option is higher than Is Table Prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#is_table_regular CkafkaDatahubTask#is_table_regular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#is_table_regular CkafkaDatahubTask#is_table_regular}
   */
   readonly isTableRegular?: boolean | cdktf.IResolvable;
   /**
   * Format library1.table1 field 1,field 2;library 2.table2 field 2, between tables; (semicolon) separated, between fields, (comma) separated. The table that is not specified defaults to the primary key of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#key_columns CkafkaDatahubTask#key_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#key_columns CkafkaDatahubTask#key_columns}
   */
   readonly keyColumns?: string;
   /**
   * output format, DEFAULT, CANAL_1, CANAL_2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#output_format CkafkaDatahubTask#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#output_format CkafkaDatahubTask#output_format}
   */
   readonly outputFormat?: string;
   /**
   * If the value is true, the message will carry the schema corresponding to the message structure, if the value is false, it will not carry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#record_with_schema CkafkaDatahubTask#record_with_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#record_with_schema CkafkaDatahubTask#record_with_schema}
   */
   readonly recordWithSchema?: boolean | cdktf.IResolvable;
   /**
   * MySQL connection Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * database name of signal table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#signal_database CkafkaDatahubTask#signal_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#signal_database CkafkaDatahubTask#signal_database}
   */
   readonly signalDatabase?: string;
   /**
   * whether to Copy inventory information (schema_only does not copy, initial full amount), the default is initial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
   */
   readonly snapshotMode?: string;
   /**
   * The name of the MySQL data table,  is the non-system table in all the monitored databases, which can be separated by, to monitor multiple data tables, but the data table needs to be filled in the format of data database name.data table name, when a regular expression needs to be filled in, the format is data database name.data table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
   /**
   * Regular expression for routing events to specific topics, defaults to (.*).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_regex CkafkaDatahubTask#topic_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_regex CkafkaDatahubTask#topic_regex}
   */
   readonly topicRegex?: string;
   /**
   * TopicRegex, $1, $2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_replacement CkafkaDatahubTask#topic_replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_replacement CkafkaDatahubTask#topic_replacement}
   */
   readonly topicReplacement?: string;
   /**
   * data_target_record_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_target_record_mapping CkafkaDatahubTask#data_target_record_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_target_record_mapping CkafkaDatahubTask#data_target_record_mapping}
   */
   readonly dataTargetRecordMapping?: CkafkaDatahubTaskTargetResourceMySqlParamDataTargetRecordMapping[] | cdktf.IResolvable;
   /**
   * drop_cls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_cls CkafkaDatahubTask#drop_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_cls CkafkaDatahubTask#drop_cls}
   */
   readonly dropCls?: CkafkaDatahubTaskTargetResourceMySqlParamDropCls;
 }
@@ -17832,55 +17832,55 @@ export interface CkafkaDatahubTaskTargetResourcePostgreSqlParamDataTargetRecordM
   /**
   * Whether the message is allowed to be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#allow_null CkafkaDatahubTask#allow_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#allow_null CkafkaDatahubTask#allow_null}
   */
   readonly allowNull?: boolean | cdktf.IResolvable;
   /**
   * Whether it is an auto-increment column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#auto_increment CkafkaDatahubTask#auto_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#auto_increment CkafkaDatahubTask#auto_increment}
   */
   readonly autoIncrement?: boolean | cdktf.IResolvable;
   /**
   * Column Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#column_name CkafkaDatahubTask#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#column_name CkafkaDatahubTask#column_name}
   */
   readonly columnName?: string;
   /**
   * current ColumnSize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#column_size CkafkaDatahubTask#column_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#column_size CkafkaDatahubTask#column_size}
   */
   readonly columnSize?: string;
   /**
   * current Column DecimalDigits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#decimal_digits CkafkaDatahubTask#decimal_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#decimal_digits CkafkaDatahubTask#decimal_digits}
   */
   readonly decimalDigits?: string;
   /**
   * Database table default parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#default_value CkafkaDatahubTask#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#default_value CkafkaDatahubTask#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Database table extra fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#extra_info CkafkaDatahubTask#extra_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#extra_info CkafkaDatahubTask#extra_info}
   */
   readonly extraInfo?: string;
   /**
   * The key name of the message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#json_key CkafkaDatahubTask#json_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#json_key CkafkaDatahubTask#json_key}
   */
   readonly jsonKey?: string;
   /**
   * message type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type?: string;
 }
@@ -18230,79 +18230,79 @@ export interface CkafkaDatahubTaskTargetResourcePostgreSqlParam {
   /**
   * Upstream data format (JSON|Debezium), required when the database synchronization mode matches the default field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_format CkafkaDatahubTask#data_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_format CkafkaDatahubTask#data_format}
   */
   readonly dataFormat?: string;
   /**
   * INSERT means insert using Insert mode, UPSERT means insert using Upsert mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_target_insert_mode CkafkaDatahubTask#data_target_insert_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_target_insert_mode CkafkaDatahubTask#data_target_insert_mode}
   */
   readonly dataTargetInsertMode?: string;
   /**
   * When DataInsertMode=UPSERT, pass in the primary key that the current upsert depends on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_target_primary_key_field CkafkaDatahubTask#data_target_primary_key_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_target_primary_key_field CkafkaDatahubTask#data_target_primary_key_field}
   */
   readonly dataTargetPrimaryKeyField?: string;
   /**
   * PostgreSQL database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * Whether to discard messages that fail to parse, the default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#drop_invalid_message CkafkaDatahubTask#drop_invalid_message}
   */
   readonly dropInvalidMessage?: boolean | cdktf.IResolvable;
   /**
   * Whether the input table is a regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#is_table_regular CkafkaDatahubTask#is_table_regular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#is_table_regular CkafkaDatahubTask#is_table_regular}
   */
   readonly isTableRegular?: boolean | cdktf.IResolvable;
   /**
   * Format  library1.table1:field 1,field2;library2.table2:field2, between tables; (semicolon) separated, between fields, (comma) separated. The table that is not specified defaults to the primary key of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#key_columns CkafkaDatahubTask#key_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#key_columns CkafkaDatahubTask#key_columns}
   */
   readonly keyColumns?: string;
   /**
   * (decoderbufs/pgoutput), default decoderbufs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#plugin_name CkafkaDatahubTask#plugin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#plugin_name CkafkaDatahubTask#plugin_name}
   */
   readonly pluginName: string;
   /**
   * If the value is true, the message will carry the schema corresponding to the message structure, if the value is false, it will not carry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#record_with_schema CkafkaDatahubTask#record_with_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#record_with_schema CkafkaDatahubTask#record_with_schema}
   */
   readonly recordWithSchema?: boolean | cdktf.IResolvable;
   /**
   * PostgreSQL connection Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * never|initial, default initial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
   */
   readonly snapshotMode?: string;
   /**
   * PostgreSQL tableName, * is the non-system table in all the monitored databases, you can use, to monitor multiple data tables, but the data table needs to be filled in the format of Schema name.Data table name, and you need to fill in a regular expression When, the format is Schema name.data table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
   /**
   * data_target_record_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#data_target_record_mapping CkafkaDatahubTask#data_target_record_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#data_target_record_mapping CkafkaDatahubTask#data_target_record_mapping}
   */
   readonly dataTargetRecordMapping?: CkafkaDatahubTaskTargetResourcePostgreSqlParamDataTargetRecordMapping[] | cdktf.IResolvable;
 }
@@ -18724,31 +18724,31 @@ export interface CkafkaDatahubTaskTargetResourceScfParam {
   /**
   * The maximum number of messages sent in each batch, the default is 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#batch_size CkafkaDatahubTask#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#batch_size CkafkaDatahubTask#batch_size}
   */
   readonly batchSize?: number;
   /**
   * SCF function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#function_name CkafkaDatahubTask#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#function_name CkafkaDatahubTask#function_name}
   */
   readonly functionName: string;
   /**
   * The number of retries after the SCF call fails, the default is 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#max_retries CkafkaDatahubTask#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#max_retries CkafkaDatahubTask#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * SCF cloud function namespace, the default is default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#namespace CkafkaDatahubTask#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#namespace CkafkaDatahubTask#namespace}
   */
   readonly namespace?: string;
   /**
   * SCF cloud function version and alias, the default is DEFAULT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#qualifier CkafkaDatahubTask#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#qualifier CkafkaDatahubTask#qualifier}
   */
   readonly qualifier?: string;
 }
@@ -18947,25 +18947,25 @@ export interface CkafkaDatahubTaskTargetResourceSqlServerParam {
   /**
   * SQLServer database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * SQLServer connection Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * schema_only|initial default initial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#snapshot_mode CkafkaDatahubTask#snapshot_mode}
   */
   readonly snapshotMode?: string;
   /**
   * SQLServer table, *is the non-system table in all the monitored databases, you can use, to monitor multiple data tables, but the data table needs to be filled in the format of data database name.data table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
 }
@@ -19129,31 +19129,31 @@ export interface CkafkaDatahubTaskTargetResourceTdwParam {
   /**
   * Tdw bid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#bid CkafkaDatahubTask#bid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#bid CkafkaDatahubTask#bid}
   */
   readonly bid: string;
   /**
   * default true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#is_domestic CkafkaDatahubTask#is_domestic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#is_domestic CkafkaDatahubTask#is_domestic}
   */
   readonly isDomestic?: boolean | cdktf.IResolvable;
   /**
   * TDW address, defalt tl-tdbank-tdmanager.tencent-distribute.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#tdw_host CkafkaDatahubTask#tdw_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#tdw_host CkafkaDatahubTask#tdw_host}
   */
   readonly tdwHost?: string;
   /**
   * TDW port, default 8099.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#tdw_port CkafkaDatahubTask#tdw_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#tdw_port CkafkaDatahubTask#tdw_port}
   */
   readonly tdwPort?: number;
   /**
   * Tdw tid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#tid CkafkaDatahubTask#tid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#tid CkafkaDatahubTask#tid}
   */
   readonly tid: string;
 }
@@ -19349,43 +19349,43 @@ export interface CkafkaDatahubTaskTargetResourceTopicParam {
   /**
   * Whether to perform compression when writing a topic, if it is not enabled, fill in none, if it is enabled, you can choose one of gzip, snappy, lz4 to fill in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
   */
   readonly compressionType?: string;
   /**
   * 1 source topic message is amplified into msg Multiple and written to the target topic (this parameter is currently only applicable to ckafka flowing into ckafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
   */
   readonly msgMultiple?: number;
   /**
   * Offset type, initial position earliest, latest position latest, time point position timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
   */
   readonly offsetType?: string;
   /**
   * The topic name of the topic sold separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * It must be passed when the Offset type is timestamp, and the time stamp is passed, accurate to the second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
   */
   readonly startTime?: number;
   /**
   * Topic TopicId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId?: string;
   /**
   * whether the used topic need to be automatically created (currently only supports SOURCE inflow tasks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
   */
   readonly useAutoCreateTopic?: boolean | cdktf.IResolvable;
 }
@@ -19642,103 +19642,103 @@ export interface CkafkaDatahubTaskTargetResource {
   /**
   * Resource Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
   /**
   * click_house_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#click_house_param CkafkaDatahubTask#click_house_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#click_house_param CkafkaDatahubTask#click_house_param}
   */
   readonly clickHouseParam?: CkafkaDatahubTaskTargetResourceClickHouseParam;
   /**
   * cls_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#cls_param CkafkaDatahubTask#cls_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#cls_param CkafkaDatahubTask#cls_param}
   */
   readonly clsParam?: CkafkaDatahubTaskTargetResourceClsParam;
   /**
   * cos_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#cos_param CkafkaDatahubTask#cos_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#cos_param CkafkaDatahubTask#cos_param}
   */
   readonly cosParam?: CkafkaDatahubTaskTargetResourceCosParam;
   /**
   * ctsdb_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#ctsdb_param CkafkaDatahubTask#ctsdb_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#ctsdb_param CkafkaDatahubTask#ctsdb_param}
   */
   readonly ctsdbParam?: CkafkaDatahubTaskTargetResourceCtsdbParam;
   /**
   * dts_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#dts_param CkafkaDatahubTask#dts_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#dts_param CkafkaDatahubTask#dts_param}
   */
   readonly dtsParam?: CkafkaDatahubTaskTargetResourceDtsParam;
   /**
   * es_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#es_param CkafkaDatahubTask#es_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#es_param CkafkaDatahubTask#es_param}
   */
   readonly esParam?: CkafkaDatahubTaskTargetResourceEsParam;
   /**
   * event_bus_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#event_bus_param CkafkaDatahubTask#event_bus_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#event_bus_param CkafkaDatahubTask#event_bus_param}
   */
   readonly eventBusParam?: CkafkaDatahubTaskTargetResourceEventBusParam;
   /**
   * kafka_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#kafka_param CkafkaDatahubTask#kafka_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#kafka_param CkafkaDatahubTask#kafka_param}
   */
   readonly kafkaParam?: CkafkaDatahubTaskTargetResourceKafkaParam;
   /**
   * maria_db_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#maria_db_param CkafkaDatahubTask#maria_db_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#maria_db_param CkafkaDatahubTask#maria_db_param}
   */
   readonly mariaDbParam?: CkafkaDatahubTaskTargetResourceMariaDbParam;
   /**
   * mongo_db_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#mongo_db_param CkafkaDatahubTask#mongo_db_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#mongo_db_param CkafkaDatahubTask#mongo_db_param}
   */
   readonly mongoDbParam?: CkafkaDatahubTaskTargetResourceMongoDbParam;
   /**
   * my_sql_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#my_sql_param CkafkaDatahubTask#my_sql_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#my_sql_param CkafkaDatahubTask#my_sql_param}
   */
   readonly mySqlParam?: CkafkaDatahubTaskTargetResourceMySqlParam;
   /**
   * postgre_sql_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#postgre_sql_param CkafkaDatahubTask#postgre_sql_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#postgre_sql_param CkafkaDatahubTask#postgre_sql_param}
   */
   readonly postgreSqlParam?: CkafkaDatahubTaskTargetResourcePostgreSqlParam;
   /**
   * scf_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#scf_param CkafkaDatahubTask#scf_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#scf_param CkafkaDatahubTask#scf_param}
   */
   readonly scfParam?: CkafkaDatahubTaskTargetResourceScfParam;
   /**
   * sql_server_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#sql_server_param CkafkaDatahubTask#sql_server_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#sql_server_param CkafkaDatahubTask#sql_server_param}
   */
   readonly sqlServerParam?: CkafkaDatahubTaskTargetResourceSqlServerParam;
   /**
   * tdw_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#tdw_param CkafkaDatahubTask#tdw_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#tdw_param CkafkaDatahubTask#tdw_param}
   */
   readonly tdwParam?: CkafkaDatahubTaskTargetResourceTdwParam;
   /**
   * topic_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_param CkafkaDatahubTask#topic_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_param CkafkaDatahubTask#topic_param}
   */
   readonly topicParam?: CkafkaDatahubTaskTargetResourceTopicParam;
 }
@@ -20285,19 +20285,19 @@ export interface CkafkaDatahubTaskTransformParamAnalyseResult {
   /**
   * key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#key CkafkaDatahubTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#key CkafkaDatahubTask#key}
   */
   readonly key: string;
   /**
   * Type, DEFAULT default, DATE system default - timestamp, CUSTOMIZE custom, MAPPING mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type?: string;
   /**
   * value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#value CkafkaDatahubTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#value CkafkaDatahubTask#value}
   */
   readonly value?: string;
 }
@@ -20470,25 +20470,25 @@ export interface CkafkaDatahubTaskTransformParamFailureParamKafkaParamTableMappi
   /**
   * database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * Table name, multiple tables, separated by (commas).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
   /**
   * Topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic: string;
   /**
   * Topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId: string;
 }
@@ -20681,97 +20681,97 @@ export interface CkafkaDatahubTaskTransformParamFailureParamKafkaParam {
   /**
   * Whether to compress when writing to the Topic, if it is not enabled, fill in none, if it is enabled, fill in open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
   */
   readonly compressionType?: string;
   /**
   * Enable the fault-tolerant instance and enable the dead-letter queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#enable_toleration CkafkaDatahubTask#enable_toleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#enable_toleration CkafkaDatahubTask#enable_toleration}
   */
   readonly enableToleration?: boolean | cdktf.IResolvable;
   /**
   * 1 source topic message is amplified into msg Multiple and written to the target topic (this parameter is currently only applicable to ckafka flowing into ckafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
   */
   readonly msgMultiple?: number;
   /**
   * Offset type, initial position earliest, latest position latest, time point position timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
   */
   readonly offsetType?: string;
   /**
   * Partition num.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#partition_num CkafkaDatahubTask#partition_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#partition_num CkafkaDatahubTask#partition_num}
   */
   readonly partitionNum?: number;
   /**
   * Qps limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#qps_limit CkafkaDatahubTask#qps_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#qps_limit CkafkaDatahubTask#qps_limit}
   */
   readonly qpsLimit?: number;
   /**
   * resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * resource id name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource_name CkafkaDatahubTask#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource_name CkafkaDatahubTask#resource_name}
   */
   readonly resourceName?: string;
   /**
   * Whether it is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt: boolean | cdktf.IResolvable;
   /**
   * It must be passed when the Offset type is timestamp, and the time stamp is passed, accurate to the second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
   */
   readonly startTime?: number;
   /**
   * Topic name, multiple separated by,.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic?: string;
   /**
   * Topic Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId?: string;
   /**
   * whether the used topic need to be automatically created (currently only supports SOURCE inflow tasks, if you do not use to distribute to multiple topics, you need to fill in the topic name that needs to be automatically created in the Topic field).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
   */
   readonly useAutoCreateTopic?: boolean | cdktf.IResolvable;
   /**
   * Distribute to multiple topics switch, the default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_table_mapping CkafkaDatahubTask#use_table_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_table_mapping CkafkaDatahubTask#use_table_mapping}
   */
   readonly useTableMapping?: boolean | cdktf.IResolvable;
   /**
   * Zone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#zone_id CkafkaDatahubTask#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#zone_id CkafkaDatahubTask#zone_id}
   */
   readonly zoneId?: number;
   /**
   * table_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table_mappings CkafkaDatahubTask#table_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table_mappings CkafkaDatahubTask#table_mappings}
   */
   readonly tableMappings?: CkafkaDatahubTaskTransformParamFailureParamKafkaParamTableMappings[] | cdktf.IResolvable;
 }
@@ -21286,43 +21286,43 @@ export interface CkafkaDatahubTaskTransformParamFailureParamTopicParam {
   /**
   * Whether to perform compression when writing a topic, if it is not enabled, fill in none, if it is enabled, you can choose one of gzip, snappy, lz4 to fill in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
   */
   readonly compressionType?: string;
   /**
   * 1 source topic message is amplified into msg Multiple and written to the target topic (this parameter is currently only applicable to ckafka flowing into ckafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
   */
   readonly msgMultiple?: number;
   /**
   * Offset type, initial position earliest, latest position latest, time point position timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
   */
   readonly offsetType?: string;
   /**
   * The topic name of the topic sold separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * It must be passed when the Offset type is timestamp, and the time stamp is passed, accurate to the second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
   */
   readonly startTime?: number;
   /**
   * TopicId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId?: string;
   /**
   * whether the used topic need to be automatically created (currently only supports SOURCE inflow tasks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
   */
   readonly useAutoCreateTopic?: boolean | cdktf.IResolvable;
 }
@@ -21579,37 +21579,37 @@ export interface CkafkaDatahubTaskTransformParamFailureParam {
   /**
   * dlq type, CKAFKA|TOPIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#dlq_type CkafkaDatahubTask#dlq_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#dlq_type CkafkaDatahubTask#dlq_type}
   */
   readonly dlqType?: string;
   /**
   * retry times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#max_retry_attempts CkafkaDatahubTask#max_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#max_retry_attempts CkafkaDatahubTask#max_retry_attempts}
   */
   readonly maxRetryAttempts?: number;
   /**
   * retry interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#retry_interval CkafkaDatahubTask#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#retry_interval CkafkaDatahubTask#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * type, DLQ dead letter queue, IGNORE_ERROR|DROP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
   /**
   * kafka_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#kafka_param CkafkaDatahubTask#kafka_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#kafka_param CkafkaDatahubTask#kafka_param}
   */
   readonly kafkaParam?: CkafkaDatahubTaskTransformParamFailureParamKafkaParam;
   /**
   * topic_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_param CkafkaDatahubTask#topic_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_param CkafkaDatahubTask#topic_param}
   */
   readonly topicParam?: CkafkaDatahubTaskTransformParamFailureParamTopicParam;
 }
@@ -21837,25 +21837,25 @@ export interface CkafkaDatahubTaskTransformParamFilterParam {
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#key CkafkaDatahubTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#key CkafkaDatahubTask#key}
   */
   readonly key: string;
   /**
   * Matching mode, prefix matches PREFIX, suffix matches SUFFIX, contains matches CONTAINS, except matches EXCEPT, value matches NUMBER, IP matches IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#match_mode CkafkaDatahubTask#match_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#match_mode CkafkaDatahubTask#match_mode}
   */
   readonly matchMode: string;
   /**
   * REGULAR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type?: string;
   /**
   * Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#value CkafkaDatahubTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#value CkafkaDatahubTask#value}
   */
   readonly value: string;
 }
@@ -22051,19 +22051,19 @@ export interface CkafkaDatahubTaskTransformParamMapParam {
   /**
   * key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#key CkafkaDatahubTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#key CkafkaDatahubTask#key}
   */
   readonly key: string;
   /**
   * Type, DEFAULT default, DATE system default - timestamp, CUSTOMIZE custom, MAPPING mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type?: string;
   /**
   * value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#value CkafkaDatahubTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#value CkafkaDatahubTask#value}
   */
   readonly value?: string;
 }
@@ -22236,67 +22236,67 @@ export interface CkafkaDatahubTaskTransformParam {
   /**
   * parsing format, JSON | DELIMITER| REGULAR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#analysis_format CkafkaDatahubTask#analysis_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#analysis_format CkafkaDatahubTask#analysis_format}
   */
   readonly analysisFormat: string;
   /**
   * Raw data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#content CkafkaDatahubTask#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#content CkafkaDatahubTask#content}
   */
   readonly content: string;
   /**
   * output format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#output_format CkafkaDatahubTask#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#output_format CkafkaDatahubTask#output_format}
   */
   readonly outputFormat: string;
   /**
   * delimiter, regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex?: string;
   /**
   * Test Results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#result CkafkaDatahubTask#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#result CkafkaDatahubTask#result}
   */
   readonly result?: string;
   /**
   * Data source, TOPIC pulls from the source topic, CUSTOMIZE custom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#source_type CkafkaDatahubTask#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#source_type CkafkaDatahubTask#source_type}
   */
   readonly sourceType: string;
   /**
   * Whether the underlying engine uses eb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_event_bus CkafkaDatahubTask#use_event_bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_event_bus CkafkaDatahubTask#use_event_bus}
   */
   readonly useEventBus?: boolean | cdktf.IResolvable;
   /**
   * analyse_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#analyse_result CkafkaDatahubTask#analyse_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#analyse_result CkafkaDatahubTask#analyse_result}
   */
   readonly analyseResult?: CkafkaDatahubTaskTransformParamAnalyseResult[] | cdktf.IResolvable;
   /**
   * failure_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#failure_param CkafkaDatahubTask#failure_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#failure_param CkafkaDatahubTask#failure_param}
   */
   readonly failureParam: CkafkaDatahubTaskTransformParamFailureParam;
   /**
   * filter_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#filter_param CkafkaDatahubTask#filter_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#filter_param CkafkaDatahubTask#filter_param}
   */
   readonly filterParam?: CkafkaDatahubTaskTransformParamFilterParam[] | cdktf.IResolvable;
   /**
   * map_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#map_param CkafkaDatahubTask#map_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#map_param CkafkaDatahubTask#map_param}
   */
   readonly mapParam?: CkafkaDatahubTaskTransformParamMapParam[] | cdktf.IResolvable;
 }
@@ -22657,7 +22657,7 @@ export interface CkafkaDatahubTaskTransformsParamBatchAnalyse {
   /**
   * ONE BY ONE single output, MERGE combined output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
   */
   readonly format: string;
 }
@@ -22740,25 +22740,25 @@ export interface CkafkaDatahubTaskTransformsParamFailureParamKafkaParamTableMapp
   /**
   * database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#database CkafkaDatahubTask#database}
   */
   readonly database: string;
   /**
   * Table name, multiple tables, separated by (commas).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table CkafkaDatahubTask#table}
   */
   readonly table: string;
   /**
   * Topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic: string;
   /**
   * Topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId: string;
 }
@@ -22951,97 +22951,97 @@ export interface CkafkaDatahubTaskTransformsParamFailureParamKafkaParam {
   /**
   * Whether to compress when writing to the Topic, if it is not enabled, fill in none, if it is enabled, fill in open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
   */
   readonly compressionType?: string;
   /**
   * Enable the fault-tolerant instance and enable the dead-letter queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#enable_toleration CkafkaDatahubTask#enable_toleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#enable_toleration CkafkaDatahubTask#enable_toleration}
   */
   readonly enableToleration?: boolean | cdktf.IResolvable;
   /**
   * 1 source topic message is amplified into msg Multiple and written to the target topic (this parameter is currently only applicable to ckafka flowing into ckafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
   */
   readonly msgMultiple?: number;
   /**
   * Offset type, initial position earliest, latest position latest, time point position timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
   */
   readonly offsetType?: string;
   /**
   * Partition num.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#partition_num CkafkaDatahubTask#partition_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#partition_num CkafkaDatahubTask#partition_num}
   */
   readonly partitionNum?: number;
   /**
   * Qps limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#qps_limit CkafkaDatahubTask#qps_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#qps_limit CkafkaDatahubTask#qps_limit}
   */
   readonly qpsLimit?: number;
   /**
   * resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * resource id name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource_name CkafkaDatahubTask#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource_name CkafkaDatahubTask#resource_name}
   */
   readonly resourceName?: string;
   /**
   * Whether it is a self-built cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#self_built CkafkaDatahubTask#self_built}
   */
   readonly selfBuilt: boolean | cdktf.IResolvable;
   /**
   * It must be passed when the Offset type is timestamp, and the time stamp is passed, accurate to the second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
   */
   readonly startTime?: number;
   /**
   * Topic name, multiple separated by,.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic CkafkaDatahubTask#topic}
   */
   readonly topic?: string;
   /**
   * Topic Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId?: string;
   /**
   * whether the used topic need to be automatically created (currently only supports SOURCE inflow tasks, if you do not use to distribute to multiple topics, you need to fill in the topic name that needs to be automatically created in the Topic field).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
   */
   readonly useAutoCreateTopic?: boolean | cdktf.IResolvable;
   /**
   * Distribute to multiple topics switch, the default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_table_mapping CkafkaDatahubTask#use_table_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_table_mapping CkafkaDatahubTask#use_table_mapping}
   */
   readonly useTableMapping?: boolean | cdktf.IResolvable;
   /**
   * Zone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#zone_id CkafkaDatahubTask#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#zone_id CkafkaDatahubTask#zone_id}
   */
   readonly zoneId?: number;
   /**
   * table_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#table_mappings CkafkaDatahubTask#table_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#table_mappings CkafkaDatahubTask#table_mappings}
   */
   readonly tableMappings?: CkafkaDatahubTaskTransformsParamFailureParamKafkaParamTableMappings[] | cdktf.IResolvable;
 }
@@ -23556,43 +23556,43 @@ export interface CkafkaDatahubTaskTransformsParamFailureParamTopicParam {
   /**
   * Whether to perform compression when writing a topic, if it is not enabled, fill in none, if it is enabled, you can choose one of gzip, snappy, lz4 to fill in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#compression_type CkafkaDatahubTask#compression_type}
   */
   readonly compressionType?: string;
   /**
   * 1 source topic message is amplified into msg Multiple and written to the target topic (this parameter is currently only applicable to ckafka flowing into ckafka).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#msg_multiple CkafkaDatahubTask#msg_multiple}
   */
   readonly msgMultiple?: number;
   /**
   * Offset type, initial position earliest, latest position latest, time point position timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#offset_type CkafkaDatahubTask#offset_type}
   */
   readonly offsetType?: string;
   /**
   * The topic name of the topic sold separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#resource CkafkaDatahubTask#resource}
   */
   readonly resource: string;
   /**
   * It must be passed when the Offset type is timestamp, and the time stamp is passed, accurate to the second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start_time CkafkaDatahubTask#start_time}
   */
   readonly startTime?: number;
   /**
   * TopicId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_id CkafkaDatahubTask#topic_id}
   */
   readonly topicId?: string;
   /**
   * whether the used topic need to be automatically created (currently only supports SOURCE inflow tasks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#use_auto_create_topic CkafkaDatahubTask#use_auto_create_topic}
   */
   readonly useAutoCreateTopic?: boolean | cdktf.IResolvable;
 }
@@ -23849,37 +23849,37 @@ export interface CkafkaDatahubTaskTransformsParamFailureParam {
   /**
   * dlq type, CKAFKA|TOPIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#dlq_type CkafkaDatahubTask#dlq_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#dlq_type CkafkaDatahubTask#dlq_type}
   */
   readonly dlqType?: string;
   /**
   * retry times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#max_retry_attempts CkafkaDatahubTask#max_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#max_retry_attempts CkafkaDatahubTask#max_retry_attempts}
   */
   readonly maxRetryAttempts?: number;
   /**
   * retry interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#retry_interval CkafkaDatahubTask#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#retry_interval CkafkaDatahubTask#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * type, DLQ dead letter queue, IGNORE_ERROR|DROP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
   /**
   * kafka_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#kafka_param CkafkaDatahubTask#kafka_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#kafka_param CkafkaDatahubTask#kafka_param}
   */
   readonly kafkaParam?: CkafkaDatahubTaskTransformsParamFailureParamKafkaParam;
   /**
   * topic_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#topic_param CkafkaDatahubTask#topic_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#topic_param CkafkaDatahubTask#topic_param}
   */
   readonly topicParam?: CkafkaDatahubTaskTransformsParamFailureParamTopicParam;
 }
@@ -24107,25 +24107,25 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyse {
   /**
   * Parsing format, JSON, DELIMITER delimiter, REGULAR regular extraction, SOURCE processing all results of the upper layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
   */
   readonly format: string;
   /**
   * KEY to be processed again - KEY expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#input_value CkafkaDatahubTask#input_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#input_value CkafkaDatahubTask#input_value}
   */
   readonly inputValue?: string;
   /**
   * KEY to be processed again - mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#input_value_type CkafkaDatahubTask#input_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#input_value_type CkafkaDatahubTask#input_value_type}
   */
   readonly inputValueType?: string;
   /**
   * delimiter, regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex?: string;
 }
@@ -24295,19 +24295,19 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * Time format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
   */
   readonly format?: string;
   /**
   * input type, string|unix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#target_type CkafkaDatahubTask#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#target_type CkafkaDatahubTask#target_type}
   */
   readonly targetType?: string;
   /**
   * default GMT+8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#time_zone CkafkaDatahubTask#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#time_zone CkafkaDatahubTask#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -24451,13 +24451,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * Replacement value, Jsonpath expression or string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * Replaced value, Jsonpath expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
   */
   readonly oldValue: string;
 }
@@ -24566,19 +24566,19 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#delimiter CkafkaDatahubTask#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#delimiter CkafkaDatahubTask#delimiter}
   */
   readonly delimiter: string;
   /**
   * Keep the source Key, the default is false not to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#keep_original_key CkafkaDatahubTask#keep_original_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#keep_original_key CkafkaDatahubTask#keep_original_key}
   */
   readonly keepOriginalKey?: string;
   /**
   * Key-value secondary analysis delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -24716,13 +24716,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * Regular.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -24831,13 +24831,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * been replaced value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
   */
   readonly oldValue: string;
 }
@@ -24946,7 +24946,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -25029,13 +25029,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * cut-off position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#end CkafkaDatahubTask#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#end CkafkaDatahubTask#end}
   */
   readonly end: number;
   /**
   * interception starting position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start CkafkaDatahubTask#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start CkafkaDatahubTask#start}
   */
   readonly start: number;
 }
@@ -25144,7 +25144,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#charset_name CkafkaDatahubTask#charset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#charset_name CkafkaDatahubTask#charset_name}
   */
   readonly charsetName?: string;
 }
@@ -25230,61 +25230,61 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#result CkafkaDatahubTask#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#result CkafkaDatahubTask#result}
   */
   readonly result?: string;
   /**
   * Processing mode, REPLACE replacement, SUBSTR interception, DATE date conversion, TRIM removal of leading and trailing spaces, REGEX REPLACE regular replacement, URL DECODE, LOWERCASE conversion to lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
   /**
   * date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#date CkafkaDatahubTask#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#date CkafkaDatahubTask#date}
   */
   readonly date?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperateDate;
   /**
   * json_path_replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#json_path_replace CkafkaDatahubTask#json_path_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#json_path_replace CkafkaDatahubTask#json_path_replace}
   */
   readonly jsonPathReplace?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperateJsonPathReplace;
   /**
   * k_v block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#k_v CkafkaDatahubTask#k_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#k_v CkafkaDatahubTask#k_v}
   */
   readonly kV?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperateKV;
   /**
   * regex_replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex_replace CkafkaDatahubTask#regex_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex_replace CkafkaDatahubTask#regex_replace}
   */
   readonly regexReplace?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperateRegexReplace;
   /**
   * replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#replace CkafkaDatahubTask#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#replace CkafkaDatahubTask#replace}
   */
   readonly replace?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperateReplace;
   /**
   * split block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#split CkafkaDatahubTask#split}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#split CkafkaDatahubTask#split}
   */
   readonly split?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperateSplit;
   /**
   * substr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#substr CkafkaDatahubTask#substr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#substr CkafkaDatahubTask#substr}
   */
   readonly substr?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperateSubstr;
   /**
   * url_decode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#url_decode CkafkaDatahubTask#url_decode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#url_decode CkafkaDatahubTask#url_decode}
   */
   readonly urlDecode?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperateUrlDecode;
 }
@@ -25628,19 +25628,19 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * Time format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
   */
   readonly format?: string;
   /**
   * input type, string|unix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#target_type CkafkaDatahubTask#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#target_type CkafkaDatahubTask#target_type}
   */
   readonly targetType?: string;
   /**
   * default GMT+8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#time_zone CkafkaDatahubTask#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#time_zone CkafkaDatahubTask#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -25784,13 +25784,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * Replacement value, Jsonpath expression or string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * Replaced value, Jsonpath expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
   */
   readonly oldValue: string;
 }
@@ -25899,19 +25899,19 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#delimiter CkafkaDatahubTask#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#delimiter CkafkaDatahubTask#delimiter}
   */
   readonly delimiter: string;
   /**
   * Keep the source Key, the default is false not to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#keep_original_key CkafkaDatahubTask#keep_original_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#keep_original_key CkafkaDatahubTask#keep_original_key}
   */
   readonly keepOriginalKey?: string;
   /**
   * Key-value secondary analysis delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -26049,13 +26049,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * Regular.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -26164,13 +26164,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * been replaced value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
   */
   readonly oldValue: string;
 }
@@ -26279,7 +26279,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -26362,13 +26362,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * cut-off position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#end CkafkaDatahubTask#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#end CkafkaDatahubTask#end}
   */
   readonly end: number;
   /**
   * interception starting position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start CkafkaDatahubTask#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start CkafkaDatahubTask#start}
   */
   readonly start: number;
 }
@@ -26477,7 +26477,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#charset_name CkafkaDatahubTask#charset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#charset_name CkafkaDatahubTask#charset_name}
   */
   readonly charsetName?: string;
 }
@@ -26563,61 +26563,61 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOpe
   /**
   * result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#result CkafkaDatahubTask#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#result CkafkaDatahubTask#result}
   */
   readonly result?: string;
   /**
   * Processing mode, REPLACE replacement, SUBSTR interception, DATE date conversion, TRIM removal of leading and trailing spaces, REGEX REPLACE regular replacement, URL DECODE, LOWERCASE conversion to lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
   /**
   * date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#date CkafkaDatahubTask#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#date CkafkaDatahubTask#date}
   */
   readonly date?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperatesDate;
   /**
   * json_path_replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#json_path_replace CkafkaDatahubTask#json_path_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#json_path_replace CkafkaDatahubTask#json_path_replace}
   */
   readonly jsonPathReplace?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperatesJsonPathReplace;
   /**
   * k_v block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#k_v CkafkaDatahubTask#k_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#k_v CkafkaDatahubTask#k_v}
   */
   readonly kV?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperatesKV;
   /**
   * regex_replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex_replace CkafkaDatahubTask#regex_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex_replace CkafkaDatahubTask#regex_replace}
   */
   readonly regexReplace?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperatesRegexReplace;
   /**
   * replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#replace CkafkaDatahubTask#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#replace CkafkaDatahubTask#replace}
   */
   readonly replace?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperatesReplace;
   /**
   * split block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#split CkafkaDatahubTask#split}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#split CkafkaDatahubTask#split}
   */
   readonly split?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperatesSplit;
   /**
   * substr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#substr CkafkaDatahubTask#substr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#substr CkafkaDatahubTask#substr}
   */
   readonly substr?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperatesSubstr;
   /**
   * url_decode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#url_decode CkafkaDatahubTask#url_decode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#url_decode CkafkaDatahubTask#url_decode}
   */
   readonly urlDecode?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperatesUrlDecode;
 }
@@ -26993,43 +26993,43 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainAnalyseResult {
   /**
   * KEY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#key CkafkaDatahubTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#key CkafkaDatahubTask#key}
   */
   readonly key: string;
   /**
   * Operation, DATE system preset - timestamp, CUSTOMIZE customization, MAPPING mapping, JSONPATH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#operate CkafkaDatahubTask#operate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#operate CkafkaDatahubTask#operate}
   */
   readonly operate: string;
   /**
   * OriginalValue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#original_value CkafkaDatahubTask#original_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#original_value CkafkaDatahubTask#original_value}
   */
   readonly originalValue?: string;
   /**
   * data type, ORIGINAL, STRING, INT64, FLOAT64, BOOLEAN, MAP, ARRAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#scheme_type CkafkaDatahubTask#scheme_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#scheme_type CkafkaDatahubTask#scheme_type}
   */
   readonly schemeType: string;
   /**
   * VALUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#value CkafkaDatahubTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#value CkafkaDatahubTask#value}
   */
   readonly value?: string;
   /**
   * value_operate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#value_operate CkafkaDatahubTask#value_operate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#value_operate CkafkaDatahubTask#value_operate}
   */
   readonly valueOperate?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperate;
   /**
   * value_operates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#value_operates CkafkaDatahubTask#value_operates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#value_operates CkafkaDatahubTask#value_operates}
   */
   readonly valueOperates?: CkafkaDatahubTaskTransformsParamFieldChainAnalyseResultValueOperates[] | cdktf.IResolvable;
 }
@@ -27312,19 +27312,19 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateDate {
   /**
   * Time format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
   */
   readonly format?: string;
   /**
   * input type, string|unix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#target_type CkafkaDatahubTask#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#target_type CkafkaDatahubTask#target_type}
   */
   readonly targetType?: string;
   /**
   * default GMT+8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#time_zone CkafkaDatahubTask#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#time_zone CkafkaDatahubTask#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -27468,13 +27468,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateJsonPa
   /**
   * Replacement value, Jsonpath expression or string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * Replaced value, Jsonpath expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
   */
   readonly oldValue: string;
 }
@@ -27583,19 +27583,19 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateKV {
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#delimiter CkafkaDatahubTask#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#delimiter CkafkaDatahubTask#delimiter}
   */
   readonly delimiter: string;
   /**
   * Keep the source Key, the default is false not to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#keep_original_key CkafkaDatahubTask#keep_original_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#keep_original_key CkafkaDatahubTask#keep_original_key}
   */
   readonly keepOriginalKey?: string;
   /**
   * Key-value secondary analysis delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -27733,13 +27733,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateRegexR
   /**
   * new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * Regular.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -27848,13 +27848,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateReplac
   /**
   * new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * been replaced value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
   */
   readonly oldValue: string;
 }
@@ -27963,7 +27963,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateSplit 
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -28046,13 +28046,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateSubstr
   /**
   * cut-off position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#end CkafkaDatahubTask#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#end CkafkaDatahubTask#end}
   */
   readonly end: number;
   /**
   * interception starting position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start CkafkaDatahubTask#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start CkafkaDatahubTask#start}
   */
   readonly start: number;
 }
@@ -28161,7 +28161,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateUrlDec
   /**
   * code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#charset_name CkafkaDatahubTask#charset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#charset_name CkafkaDatahubTask#charset_name}
   */
   readonly charsetName?: string;
 }
@@ -28247,61 +28247,61 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperate {
   /**
   * result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#result CkafkaDatahubTask#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#result CkafkaDatahubTask#result}
   */
   readonly result?: string;
   /**
   * Processing mode, REPLACE replacement, SUBSTR interception, DATE date conversion, TRIM removal of leading and trailing spaces, REGEX REPLACE regular replacement, URL DECODE, LOWERCASE conversion to lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
   /**
   * date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#date CkafkaDatahubTask#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#date CkafkaDatahubTask#date}
   */
   readonly date?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateDate;
   /**
   * json_path_replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#json_path_replace CkafkaDatahubTask#json_path_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#json_path_replace CkafkaDatahubTask#json_path_replace}
   */
   readonly jsonPathReplace?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateJsonPathReplace;
   /**
   * k_v block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#k_v CkafkaDatahubTask#k_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#k_v CkafkaDatahubTask#k_v}
   */
   readonly kV?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateKV;
   /**
   * regex_replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex_replace CkafkaDatahubTask#regex_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex_replace CkafkaDatahubTask#regex_replace}
   */
   readonly regexReplace?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateRegexReplace;
   /**
   * replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#replace CkafkaDatahubTask#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#replace CkafkaDatahubTask#replace}
   */
   readonly replace?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateReplace;
   /**
   * split block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#split CkafkaDatahubTask#split}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#split CkafkaDatahubTask#split}
   */
   readonly split?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateSplit;
   /**
   * substr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#substr CkafkaDatahubTask#substr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#substr CkafkaDatahubTask#substr}
   */
   readonly substr?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateSubstr;
   /**
   * url_decode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#url_decode CkafkaDatahubTask#url_decode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#url_decode CkafkaDatahubTask#url_decode}
   */
   readonly urlDecode?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperateUrlDecode;
 }
@@ -28645,19 +28645,19 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesDate 
   /**
   * Time format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
   */
   readonly format?: string;
   /**
   * input type, string|unix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#target_type CkafkaDatahubTask#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#target_type CkafkaDatahubTask#target_type}
   */
   readonly targetType?: string;
   /**
   * default GMT+8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#time_zone CkafkaDatahubTask#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#time_zone CkafkaDatahubTask#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -28801,13 +28801,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesJsonP
   /**
   * Replacement value, Jsonpath expression or string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * Replaced value, Jsonpath expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
   */
   readonly oldValue: string;
 }
@@ -28916,19 +28916,19 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesKV {
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#delimiter CkafkaDatahubTask#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#delimiter CkafkaDatahubTask#delimiter}
   */
   readonly delimiter: string;
   /**
   * Keep the source Key, the default is false not to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#keep_original_key CkafkaDatahubTask#keep_original_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#keep_original_key CkafkaDatahubTask#keep_original_key}
   */
   readonly keepOriginalKey?: string;
   /**
   * Key-value secondary analysis delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -29066,13 +29066,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesRegex
   /**
   * new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * Regular.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -29181,13 +29181,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesRepla
   /**
   * new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * been replaced value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
   */
   readonly oldValue: string;
 }
@@ -29296,7 +29296,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesSplit
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -29379,13 +29379,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesSubst
   /**
   * cut-off position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#end CkafkaDatahubTask#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#end CkafkaDatahubTask#end}
   */
   readonly end: number;
   /**
   * interception starting position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start CkafkaDatahubTask#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start CkafkaDatahubTask#start}
   */
   readonly start: number;
 }
@@ -29494,7 +29494,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesUrlDe
   /**
   * code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#charset_name CkafkaDatahubTask#charset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#charset_name CkafkaDatahubTask#charset_name}
   */
   readonly charsetName?: string;
 }
@@ -29580,61 +29580,61 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperates {
   /**
   * result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#result CkafkaDatahubTask#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#result CkafkaDatahubTask#result}
   */
   readonly result?: string;
   /**
   * Processing mode, REPLACE replacement, SUBSTR interception, DATE date conversion, TRIM removal of leading and trailing spaces, REGEX REPLACE regular replacement, URL DECODE, LOWERCASE conversion to lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
   /**
   * date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#date CkafkaDatahubTask#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#date CkafkaDatahubTask#date}
   */
   readonly date?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesDate;
   /**
   * json_path_replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#json_path_replace CkafkaDatahubTask#json_path_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#json_path_replace CkafkaDatahubTask#json_path_replace}
   */
   readonly jsonPathReplace?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesJsonPathReplace;
   /**
   * k_v block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#k_v CkafkaDatahubTask#k_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#k_v CkafkaDatahubTask#k_v}
   */
   readonly kV?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesKV;
   /**
   * regex_replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex_replace CkafkaDatahubTask#regex_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex_replace CkafkaDatahubTask#regex_replace}
   */
   readonly regexReplace?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesRegexReplace;
   /**
   * replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#replace CkafkaDatahubTask#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#replace CkafkaDatahubTask#replace}
   */
   readonly replace?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesReplace;
   /**
   * split block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#split CkafkaDatahubTask#split}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#split CkafkaDatahubTask#split}
   */
   readonly split?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesSplit;
   /**
   * substr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#substr CkafkaDatahubTask#substr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#substr CkafkaDatahubTask#substr}
   */
   readonly substr?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesSubstr;
   /**
   * url_decode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#url_decode CkafkaDatahubTask#url_decode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#url_decode CkafkaDatahubTask#url_decode}
   */
   readonly urlDecode?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperatesUrlDecode;
 }
@@ -30010,43 +30010,43 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSMT {
   /**
   * KEY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#key CkafkaDatahubTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#key CkafkaDatahubTask#key}
   */
   readonly key: string;
   /**
   * Operation, DATE system preset - timestamp, CUSTOMIZE customization, MAPPING mapping, JSONPATH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#operate CkafkaDatahubTask#operate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#operate CkafkaDatahubTask#operate}
   */
   readonly operate: string;
   /**
   * OriginalValue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#original_value CkafkaDatahubTask#original_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#original_value CkafkaDatahubTask#original_value}
   */
   readonly originalValue?: string;
   /**
   * data type, ORIGINAL, STRING, INT64, FLOAT64, BOOLEAN, MAP, ARRAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#scheme_type CkafkaDatahubTask#scheme_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#scheme_type CkafkaDatahubTask#scheme_type}
   */
   readonly schemeType: string;
   /**
   * VALUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#value CkafkaDatahubTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#value CkafkaDatahubTask#value}
   */
   readonly value?: string;
   /**
   * value_operate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#value_operate CkafkaDatahubTask#value_operate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#value_operate CkafkaDatahubTask#value_operate}
   */
   readonly valueOperate?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperate;
   /**
   * value_operates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#value_operates CkafkaDatahubTask#value_operates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#value_operates CkafkaDatahubTask#value_operates}
   */
   readonly valueOperates?: CkafkaDatahubTaskTransformsParamFieldChainSMTValueOperates[] | cdktf.IResolvable;
 }
@@ -30329,7 +30329,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyse {
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -30412,19 +30412,19 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * Time format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
   */
   readonly format?: string;
   /**
   * input type, string|unix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#target_type CkafkaDatahubTask#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#target_type CkafkaDatahubTask#target_type}
   */
   readonly targetType?: string;
   /**
   * default GMT+8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#time_zone CkafkaDatahubTask#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#time_zone CkafkaDatahubTask#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -30568,13 +30568,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * Replacement value, Jsonpath expression or string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * Replaced value, Jsonpath expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
   */
   readonly oldValue: string;
 }
@@ -30683,19 +30683,19 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#delimiter CkafkaDatahubTask#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#delimiter CkafkaDatahubTask#delimiter}
   */
   readonly delimiter: string;
   /**
   * Keep the source Key, the default is false not to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#keep_original_key CkafkaDatahubTask#keep_original_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#keep_original_key CkafkaDatahubTask#keep_original_key}
   */
   readonly keepOriginalKey?: string;
   /**
   * Key-value secondary analysis delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -30833,13 +30833,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * Regular.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -30948,13 +30948,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * been replaced value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
   */
   readonly oldValue: string;
 }
@@ -31063,7 +31063,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -31146,13 +31146,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * cut-off position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#end CkafkaDatahubTask#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#end CkafkaDatahubTask#end}
   */
   readonly end: number;
   /**
   * interception starting position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start CkafkaDatahubTask#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start CkafkaDatahubTask#start}
   */
   readonly start: number;
 }
@@ -31261,7 +31261,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#charset_name CkafkaDatahubTask#charset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#charset_name CkafkaDatahubTask#charset_name}
   */
   readonly charsetName?: string;
 }
@@ -31347,61 +31347,61 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#result CkafkaDatahubTask#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#result CkafkaDatahubTask#result}
   */
   readonly result?: string;
   /**
   * Processing mode, REPLACE replacement, SUBSTR interception, DATE date conversion, TRIM removal of leading and trailing spaces, REGEX REPLACE regular replacement, URL DECODE, LOWERCASE conversion to lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#type CkafkaDatahubTask#type}
   */
   readonly type: string;
   /**
   * date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#date CkafkaDatahubTask#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#date CkafkaDatahubTask#date}
   */
   readonly date?: CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResultValueOperateDate;
   /**
   * json_path_replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#json_path_replace CkafkaDatahubTask#json_path_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#json_path_replace CkafkaDatahubTask#json_path_replace}
   */
   readonly jsonPathReplace?: CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResultValueOperateJsonPathReplace;
   /**
   * k_v block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#k_v CkafkaDatahubTask#k_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#k_v CkafkaDatahubTask#k_v}
   */
   readonly kV?: CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResultValueOperateKV;
   /**
   * regex_replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex_replace CkafkaDatahubTask#regex_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex_replace CkafkaDatahubTask#regex_replace}
   */
   readonly regexReplace?: CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResultValueOperateRegexReplace;
   /**
   * replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#replace CkafkaDatahubTask#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#replace CkafkaDatahubTask#replace}
   */
   readonly replace?: CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResultValueOperateReplace;
   /**
   * split block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#split CkafkaDatahubTask#split}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#split CkafkaDatahubTask#split}
   */
   readonly split?: CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResultValueOperateSplit;
   /**
   * substr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#substr CkafkaDatahubTask#substr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#substr CkafkaDatahubTask#substr}
   */
   readonly substr?: CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResultValueOperateSubstr;
   /**
   * url_decode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#url_decode CkafkaDatahubTask#url_decode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#url_decode CkafkaDatahubTask#url_decode}
   */
   readonly urlDecode?: CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResultValueOperateUrlDecode;
 }
@@ -31745,19 +31745,19 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * Time format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#format CkafkaDatahubTask#format}
   */
   readonly format?: string;
   /**
   * input type, string|unix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#target_type CkafkaDatahubTask#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#target_type CkafkaDatahubTask#target_type}
   */
   readonly targetType?: string;
   /**
   * default GMT+8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#time_zone CkafkaDatahubTask#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#time_zone CkafkaDatahubTask#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -31901,13 +31901,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * Replacement value, Jsonpath expression or string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * Replaced value, Jsonpath expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
   */
   readonly oldValue: string;
 }
@@ -32016,19 +32016,19 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#delimiter CkafkaDatahubTask#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#delimiter CkafkaDatahubTask#delimiter}
   */
   readonly delimiter: string;
   /**
   * Keep the source Key, the default is false not to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#keep_original_key CkafkaDatahubTask#keep_original_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#keep_original_key CkafkaDatahubTask#keep_original_key}
   */
   readonly keepOriginalKey?: string;
   /**
   * Key-value secondary analysis delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -32166,13 +32166,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * Regular.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -32281,13 +32281,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#new_value CkafkaDatahubTask#new_value}
   */
   readonly newValue: string;
   /**
   * been replaced value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#old_value CkafkaDatahubTask#old_value}
   */
   readonly oldValue: string;
 }
@@ -32396,7 +32396,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#regex CkafkaDatahubTask#regex}
   */
   readonly regex: string;
 }
@@ -32479,13 +32479,13 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * cut-off position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#end CkafkaDatahubTask#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#end CkafkaDatahubTask#end}
   */
   readonly end: number;
   /**
   * interception starting position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#start CkafkaDatahubTask#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#start CkafkaDatahubTask#start}
   */
   readonly start: number;
 }
@@ -32594,7 +32594,7 @@ export interface CkafkaDatahubTaskTransformsParamFieldChainSecondaryAnalyseResul
   /**
   * code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ckafka_datahub_task#charset_name CkafkaDatahubTask#charset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ckafka_datahub_task#charset_name CkafkaDatahubTask#charset_name}
   */
   readonly charsetName?: string;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mariadb_parameters
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mariadb_parameters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MariadbParametersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mariadb_parameters#id MariadbParameters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mariadb_parameters#id MariadbParameters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface MariadbParametersConfig extends cdktf.TerraformMetaArguments {
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mariadb_parameters#instance_id MariadbParameters#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mariadb_parameters#instance_id MariadbParameters#instance_id}
   */
   readonly instanceId: string;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mariadb_parameters#params MariadbParameters#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mariadb_parameters#params MariadbParameters#params}
   */
   readonly params: MariadbParametersParams[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface MariadbParametersParams {
   /**
   * parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mariadb_parameters#param MariadbParameters#param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mariadb_parameters#param MariadbParameters#param}
   */
   readonly param: string;
   /**
   * parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mariadb_parameters#value MariadbParameters#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mariadb_parameters#value MariadbParameters#value}
   */
   readonly value: string;
 }
@@ -176,7 +176,7 @@ export class MariadbParametersParamsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mariadb_parameters tencentcloud_mariadb_parameters}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mariadb_parameters tencentcloud_mariadb_parameters}
 */
 export class MariadbParameters extends cdktf.TerraformResource {
 
@@ -192,7 +192,7 @@ export class MariadbParameters extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MariadbParameters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MariadbParameters to import
-  * @param importFromId The id of the existing MariadbParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mariadb_parameters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MariadbParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mariadb_parameters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MariadbParameters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -204,7 +204,7 @@ export class MariadbParameters extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mariadb_parameters tencentcloud_mariadb_parameters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mariadb_parameters tencentcloud_mariadb_parameters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -215,8 +215,8 @@ export class MariadbParameters extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mariadb_parameters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

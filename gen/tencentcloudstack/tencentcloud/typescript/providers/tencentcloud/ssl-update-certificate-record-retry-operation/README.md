@@ -1,3 +1,3 @@
 # `tencentcloud_ssl_update_certificate_record_retry_operation`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_ssl_update_certificate_record_retry_operation`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/ssl_update_certificate_record_retry_operation).
+Refer to the Terraform Registry for docs: [`tencentcloud_ssl_update_certificate_record_retry_operation`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/ssl_update_certificate_record_retry_operation).

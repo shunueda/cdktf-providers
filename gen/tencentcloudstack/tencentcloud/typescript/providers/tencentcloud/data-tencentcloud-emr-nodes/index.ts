@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/emr_nodes
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/emr_nodes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudEmrNodesConfig extends cdktf.TerraformMetaArgum
   /**
   * Resource type: Support all/host/pod, default is all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/emr_nodes#hardware_resource_type DataTencentcloudEmrNodes#hardware_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/emr_nodes#hardware_resource_type DataTencentcloudEmrNodes#hardware_resource_type}
   */
   readonly hardwareResourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/emr_nodes#id DataTencentcloudEmrNodes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/emr_nodes#id DataTencentcloudEmrNodes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudEmrNodesConfig extends cdktf.TerraformMetaArgum
   /**
   * Cluster instance ID, the instance ID is as follows: emr-xxxxxxxx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/emr_nodes#instance_id DataTencentcloudEmrNodes#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/emr_nodes#instance_id DataTencentcloudEmrNodes#instance_id}
   */
   readonly instanceId: string;
   /**
   * The number returned per page, the default value is 100, and the maximum value is 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/emr_nodes#limit DataTencentcloudEmrNodes#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/emr_nodes#limit DataTencentcloudEmrNodes#limit}
   */
   readonly limit?: number;
   /**
@@ -46,19 +46,19 @@ export interface DataTencentcloudEmrNodesConfig extends cdktf.TerraformMetaArgum
   * 				
   * 				Note: Only the above values are now supported, entering other values will cause an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/emr_nodes#node_flag DataTencentcloudEmrNodes#node_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/emr_nodes#node_flag DataTencentcloudEmrNodes#node_flag}
   */
   readonly nodeFlag: string;
   /**
   * Page number, with a default value of 0, represents the first page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/emr_nodes#offset DataTencentcloudEmrNodes#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/emr_nodes#offset DataTencentcloudEmrNodes#offset}
   */
   readonly offset?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/emr_nodes#result_output_file DataTencentcloudEmrNodes#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/emr_nodes#result_output_file DataTencentcloudEmrNodes#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -647,7 +647,7 @@ export class DataTencentcloudEmrNodesNodesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/emr_nodes tencentcloud_emr_nodes}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/emr_nodes tencentcloud_emr_nodes}
 */
 export class DataTencentcloudEmrNodes extends cdktf.TerraformDataSource {
 
@@ -663,7 +663,7 @@ export class DataTencentcloudEmrNodes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudEmrNodes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudEmrNodes to import
-  * @param importFromId The id of the existing DataTencentcloudEmrNodes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/emr_nodes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudEmrNodes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/emr_nodes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudEmrNodes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -675,7 +675,7 @@ export class DataTencentcloudEmrNodes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/emr_nodes tencentcloud_emr_nodes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/emr_nodes tencentcloud_emr_nodes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -686,8 +686,8 @@ export class DataTencentcloudEmrNodes extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_emr_nodes',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

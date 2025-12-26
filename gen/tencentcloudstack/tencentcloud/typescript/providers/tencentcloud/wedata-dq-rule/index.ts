@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface WedataDqRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alarm trigger levels 1. Low, 2. Medium, 3. High.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#alarm_level WedataDqRule#alarm_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#alarm_level WedataDqRule#alarm_level}
   */
   readonly alarmLevel: number;
   /**
   * Condition scans WHERE condition expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#condition_expression WedataDqRule#condition_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#condition_expression WedataDqRule#condition_expression}
   */
   readonly conditionExpression?: string;
   /**
   * Detection scope 1. Full Table 2. Conditional scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#condition_type WedataDqRule#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#condition_type WedataDqRule#condition_type}
   */
   readonly conditionType: number;
   /**
   * Custom sql.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#custom_sql WedataDqRule#custom_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#custom_sql WedataDqRule#custom_sql}
   */
   readonly customSql?: string;
   /**
   * Rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#description WedataDqRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#description WedataDqRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#id WedataDqRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#id WedataDqRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,103 +47,103 @@ export interface WedataDqRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#name WedataDqRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#name WedataDqRule#name}
   */
   readonly name: string;
   /**
   * Project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#project_id WedataDqRule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#project_id WedataDqRule#project_id}
   */
   readonly projectId: string;
   /**
   * Rules belong to quality dimensions (1. accuracy, 2. uniqueness, 3. completeness, 4. consistency, 5. timeliness, 6. effectiveness).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#quality_dim WedataDqRule#quality_dim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#quality_dim WedataDqRule#quality_dim}
   */
   readonly qualityDim?: number;
   /**
   * The source field and the target field are associated with a conditional on expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#rel_condition_expr WedataDqRule#rel_condition_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#rel_condition_expr WedataDqRule#rel_condition_expr}
   */
   readonly relConditionExpr?: string;
   /**
   * Rule group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#rule_group_id WedataDqRule#rule_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#rule_group_id WedataDqRule#rule_group_id}
   */
   readonly ruleGroupId?: number;
   /**
   * Rule template id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#rule_template_id WedataDqRule#rule_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#rule_template_id WedataDqRule#rule_template_id}
   */
   readonly ruleTemplateId: number;
   /**
   * List of execution engines supported by this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#source_engine_types WedataDqRule#source_engine_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#source_engine_types WedataDqRule#source_engine_types}
   */
   readonly sourceEngineTypes?: number[];
   /**
   * Source field type. int, string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#source_object_data_type_name WedataDqRule#source_object_data_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#source_object_data_type_name WedataDqRule#source_object_data_type_name}
   */
   readonly sourceObjectDataTypeName: string;
   /**
   * Source field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#source_object_value WedataDqRule#source_object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#source_object_value WedataDqRule#source_object_value}
   */
   readonly sourceObjectValue: string;
   /**
   * Table id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#table_id WedataDqRule#table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#table_id WedataDqRule#table_id}
   */
   readonly tableId?: string;
   /**
   * Target filter condition expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#target_condition_expr WedataDqRule#target_condition_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#target_condition_expr WedataDqRule#target_condition_expr}
   */
   readonly targetConditionExpr?: string;
   /**
   * Target database id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#target_database_id WedataDqRule#target_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#target_database_id WedataDqRule#target_database_id}
   */
   readonly targetDatabaseId?: string;
   /**
   * Target field name  CITY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#target_object_value WedataDqRule#target_object_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#target_object_value WedataDqRule#target_object_value}
   */
   readonly targetObjectValue?: string;
   /**
   * Target table id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#target_table_id WedataDqRule#target_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#target_table_id WedataDqRule#target_table_id}
   */
   readonly targetTableId?: string;
   /**
   * Rule Type 1. System Template, 2. Custom Template, 3. Custom SQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#type WedataDqRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#type WedataDqRule#type}
   */
   readonly type: number;
   /**
   * compare_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#compare_rule WedataDqRule#compare_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#compare_rule WedataDqRule#compare_rule}
   */
   readonly compareRule: WedataDqRuleCompareRule;
   /**
   * field_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#field_config WedataDqRule#field_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#field_config WedataDqRule#field_config}
   */
   readonly fieldConfig?: WedataDqRuleFieldConfig;
 }
@@ -151,13 +151,13 @@ export interface WedataDqRuleCompareRuleItemsValueListStruct {
   /**
   * Threshold valueNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#value WedataDqRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#value WedataDqRule#value}
   */
   readonly value?: string;
   /**
   * Threshold type 1. Low threshold 2. High threshold 3. Common threshold 4. Enumerated valueNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#value_type WedataDqRule#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#value_type WedataDqRule#value_type}
   */
   readonly valueType?: number;
 }
@@ -304,25 +304,25 @@ export interface WedataDqRuleCompareRuleItems {
   /**
   * Comparison type 1. Fixed value 2. Fluctuating value 3. Comparison of value range 4. Enumeration range comparison 5. Do not compareNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#compare_type WedataDqRule#compare_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#compare_type WedataDqRule#compare_type}
   */
   readonly compareType?: number;
   /**
   * Comparison operation type &amp;lt; &amp;lt;= == =&amp;gt; &amp;gt;Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#operator WedataDqRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#operator WedataDqRule#operator}
   */
   readonly operator?: string;
   /**
   * Quality statistics Type 1. Absolute value 2. Increase 3. Decrease 4. C contains 5. N C does not containNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#value_compute_type WedataDqRule#value_compute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#value_compute_type WedataDqRule#value_compute_type}
   */
   readonly valueComputeType?: number;
   /**
   * value_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#value_list WedataDqRule#value_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#value_list WedataDqRule#value_list}
   */
   readonly valueList?: WedataDqRuleCompareRuleItemsValueListStruct[] | cdktf.IResolvable;
 }
@@ -527,13 +527,13 @@ export interface WedataDqRuleCompareRule {
   /**
   * Periodic Indicates the default period of a template, in secondsNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#cycle_step WedataDqRule#cycle_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#cycle_step WedataDqRule#cycle_step}
   */
   readonly cycleStep?: number;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#items WedataDqRule#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#items WedataDqRule#items}
   */
   readonly items?: WedataDqRuleCompareRuleItems[] | cdktf.IResolvable;
 }
@@ -648,19 +648,19 @@ export interface WedataDqRuleFieldConfigTableConfigFieldConfig {
   /**
   * Field typeNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#field_data_type WedataDqRule#field_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#field_data_type WedataDqRule#field_data_type}
   */
   readonly fieldDataType?: string;
   /**
   * Field keyNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#field_key WedataDqRule#field_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#field_key WedataDqRule#field_key}
   */
   readonly fieldKey?: string;
   /**
   * Field valueNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#field_value WedataDqRule#field_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#field_value WedataDqRule#field_value}
   */
   readonly fieldValue?: string;
 }
@@ -836,37 +836,37 @@ export interface WedataDqRuleFieldConfigTableConfig {
   /**
   * Database idNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#database_id WedataDqRule#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#database_id WedataDqRule#database_id}
   */
   readonly databaseId?: string;
   /**
   * Database nameNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#database_name WedataDqRule#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#database_name WedataDqRule#database_name}
   */
   readonly databaseName?: string;
   /**
   * Table idNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#table_id WedataDqRule#table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#table_id WedataDqRule#table_id}
   */
   readonly tableId?: string;
   /**
   * Table keyNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#table_key WedataDqRule#table_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#table_key WedataDqRule#table_key}
   */
   readonly tableKey?: string;
   /**
   * Table nameNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#table_name WedataDqRule#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#table_name WedataDqRule#table_name}
   */
   readonly tableName?: string;
   /**
   * field_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#field_config WedataDqRule#field_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#field_config WedataDqRule#field_config}
   */
   readonly fieldConfig?: WedataDqRuleFieldConfigTableConfigFieldConfig[] | cdktf.IResolvable;
 }
@@ -1129,19 +1129,19 @@ export interface WedataDqRuleFieldConfigWhereConfig {
   /**
   * Field typeNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#field_data_type WedataDqRule#field_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#field_data_type WedataDqRule#field_data_type}
   */
   readonly fieldDataType?: string;
   /**
   * Field keyNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#field_key WedataDqRule#field_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#field_key WedataDqRule#field_key}
   */
   readonly fieldKey?: string;
   /**
   * Field valueNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#field_value WedataDqRule#field_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#field_value WedataDqRule#field_value}
   */
   readonly fieldValue?: string;
 }
@@ -1317,13 +1317,13 @@ export interface WedataDqRuleFieldConfig {
   /**
   * table_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#table_config WedataDqRule#table_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#table_config WedataDqRule#table_config}
   */
   readonly tableConfig?: WedataDqRuleFieldConfigTableConfig[] | cdktf.IResolvable;
   /**
   * where_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#where_config WedataDqRule#where_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#where_config WedataDqRule#where_config}
   */
   readonly whereConfig?: WedataDqRuleFieldConfigWhereConfig[] | cdktf.IResolvable;
 }
@@ -1436,7 +1436,7 @@ export class WedataDqRuleFieldConfigOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule tencentcloud_wedata_dq_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule tencentcloud_wedata_dq_rule}
 */
 export class WedataDqRule extends cdktf.TerraformResource {
 
@@ -1452,7 +1452,7 @@ export class WedataDqRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataDqRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataDqRule to import
-  * @param importFromId The id of the existing WedataDqRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataDqRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataDqRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1464,7 +1464,7 @@ export class WedataDqRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_dq_rule tencentcloud_wedata_dq_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_dq_rule tencentcloud_wedata_dq_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1475,8 +1475,8 @@ export class WedataDqRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_dq_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

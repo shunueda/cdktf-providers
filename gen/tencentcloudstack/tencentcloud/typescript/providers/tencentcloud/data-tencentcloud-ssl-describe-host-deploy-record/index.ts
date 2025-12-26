@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssl_describe_host_deploy_record
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssl_describe_host_deploy_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudSslDescribeHostDeployRecordConfig extends cdktf
   /**
   * Certificate ID to be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssl_describe_host_deploy_record#certificate_id DataTencentcloudSslDescribeHostDeployRecord#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssl_describe_host_deploy_record#certificate_id DataTencentcloudSslDescribeHostDeployRecord#certificate_id}
   */
   readonly certificateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssl_describe_host_deploy_record#id DataTencentcloudSslDescribeHostDeployRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssl_describe_host_deploy_record#id DataTencentcloudSslDescribeHostDeployRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudSslDescribeHostDeployRecordConfig extends cdktf
   /**
   * Resource Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssl_describe_host_deploy_record#resource_type DataTencentcloudSslDescribeHostDeployRecord#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssl_describe_host_deploy_record#resource_type DataTencentcloudSslDescribeHostDeployRecord#resource_type}
   */
   readonly resourceType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssl_describe_host_deploy_record#result_output_file DataTencentcloudSslDescribeHostDeployRecord#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssl_describe_host_deploy_record#result_output_file DataTencentcloudSslDescribeHostDeployRecord#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -140,7 +140,7 @@ export class DataTencentcloudSslDescribeHostDeployRecordDeployRecordListStructLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssl_describe_host_deploy_record tencentcloud_ssl_describe_host_deploy_record}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssl_describe_host_deploy_record tencentcloud_ssl_describe_host_deploy_record}
 */
 export class DataTencentcloudSslDescribeHostDeployRecord extends cdktf.TerraformDataSource {
 
@@ -156,7 +156,7 @@ export class DataTencentcloudSslDescribeHostDeployRecord extends cdktf.Terraform
   * Generates CDKTF code for importing a DataTencentcloudSslDescribeHostDeployRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSslDescribeHostDeployRecord to import
-  * @param importFromId The id of the existing DataTencentcloudSslDescribeHostDeployRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssl_describe_host_deploy_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSslDescribeHostDeployRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssl_describe_host_deploy_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSslDescribeHostDeployRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -168,7 +168,7 @@ export class DataTencentcloudSslDescribeHostDeployRecord extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ssl_describe_host_deploy_record tencentcloud_ssl_describe_host_deploy_record} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ssl_describe_host_deploy_record tencentcloud_ssl_describe_host_deploy_record} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -179,8 +179,8 @@ export class DataTencentcloudSslDescribeHostDeployRecord extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_ssl_describe_host_deploy_record',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/private_dns_forward_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/private_dns_forward_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PrivateDnsForwardRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * Endpoint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/private_dns_forward_rule#end_point_id PrivateDnsForwardRule#end_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/private_dns_forward_rule#end_point_id PrivateDnsForwardRule#end_point_id}
   */
   readonly endPointId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/private_dns_forward_rule#id PrivateDnsForwardRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/private_dns_forward_rule#id PrivateDnsForwardRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface PrivateDnsForwardRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * Forwarding rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/private_dns_forward_rule#rule_name PrivateDnsForwardRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/private_dns_forward_rule#rule_name PrivateDnsForwardRule#rule_name}
   */
   readonly ruleName: string;
   /**
   * Forwarding rule type. DOWN: From cloud to off-cloud; UP: From off-cloud to cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/private_dns_forward_rule#rule_type PrivateDnsForwardRule#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/private_dns_forward_rule#rule_type PrivateDnsForwardRule#rule_type}
   */
   readonly ruleType: string;
   /**
   * Private domain ID, which can be viewed on the private domain list page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/private_dns_forward_rule#zone_id PrivateDnsForwardRule#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/private_dns_forward_rule#zone_id PrivateDnsForwardRule#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/private_dns_forward_rule tencentcloud_private_dns_forward_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/private_dns_forward_rule tencentcloud_private_dns_forward_rule}
 */
 export class PrivateDnsForwardRule extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class PrivateDnsForwardRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateDnsForwardRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateDnsForwardRule to import
-  * @param importFromId The id of the existing PrivateDnsForwardRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/private_dns_forward_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateDnsForwardRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/private_dns_forward_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateDnsForwardRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class PrivateDnsForwardRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/private_dns_forward_rule tencentcloud_private_dns_forward_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/private_dns_forward_rule tencentcloud_private_dns_forward_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class PrivateDnsForwardRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_private_dns_forward_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

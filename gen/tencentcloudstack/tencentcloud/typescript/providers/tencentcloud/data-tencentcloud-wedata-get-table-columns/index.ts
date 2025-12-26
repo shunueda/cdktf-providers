@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_get_table_columns
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/wedata_get_table_columns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudWedataGetTableColumnsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_get_table_columns#id DataTencentcloudWedataGetTableColumns#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/wedata_get_table_columns#id DataTencentcloudWedataGetTableColumns#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudWedataGetTableColumnsConfig extends cdktf.Terra
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_get_table_columns#result_output_file DataTencentcloudWedataGetTableColumns#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/wedata_get_table_columns#result_output_file DataTencentcloudWedataGetTableColumns#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Table GUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_get_table_columns#table_guid DataTencentcloudWedataGetTableColumns#table_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/wedata_get_table_columns#table_guid DataTencentcloudWedataGetTableColumns#table_guid}
   */
   readonly tableGuid: string;
 }
@@ -129,7 +129,7 @@ export class DataTencentcloudWedataGetTableColumnsDataList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_get_table_columns tencentcloud_wedata_get_table_columns}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/wedata_get_table_columns tencentcloud_wedata_get_table_columns}
 */
 export class DataTencentcloudWedataGetTableColumns extends cdktf.TerraformDataSource {
 
@@ -145,7 +145,7 @@ export class DataTencentcloudWedataGetTableColumns extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudWedataGetTableColumns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataGetTableColumns to import
-  * @param importFromId The id of the existing DataTencentcloudWedataGetTableColumns that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_get_table_columns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataGetTableColumns that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/wedata_get_table_columns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataGetTableColumns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -157,7 +157,7 @@ export class DataTencentcloudWedataGetTableColumns extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/wedata_get_table_columns tencentcloud_wedata_get_table_columns} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/wedata_get_table_columns tencentcloud_wedata_get_table_columns} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,8 +168,8 @@ export class DataTencentcloudWedataGetTableColumns extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_wedata_get_table_columns',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

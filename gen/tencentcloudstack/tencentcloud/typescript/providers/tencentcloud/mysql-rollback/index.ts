@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlRollbackConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#id MysqlRollback#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#id MysqlRollback#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface MysqlRollbackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cloud database instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#instance_id MysqlRollback#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#instance_id MysqlRollback#instance_id}
   */
   readonly instanceId: string;
   /**
   * Database rollback time, the time format is: yyyy-mm-dd hh:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#rollback_time MysqlRollback#rollback_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#rollback_time MysqlRollback#rollback_time}
   */
   readonly rollbackTime: string;
   /**
   * Rollback strategy. Available values are: table, db, full; the default value is full. table- Extremely fast rollback mode, only import the backup and binlog of the selected table level, if there is a cross-table operation, and the associated table is not selected at the same time, the rollback will fail. In this mode, the parameter Databases must be empty; db- Quick mode, only import the backup and binlog of the selected library level, if there is a cross-database operation, and the associated library is not selected at the same time, the rollback will fail; full- normal rollback mode, the backup and binlog of the entire instance will be imported, at a slower rate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#strategy MysqlRollback#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#strategy MysqlRollback#strategy}
   */
   readonly strategy: string;
   /**
   * databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#databases MysqlRollback#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#databases MysqlRollback#databases}
   */
   readonly databases?: MysqlRollbackDatabases[] | cdktf.IResolvable;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#tables MysqlRollback#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#tables MysqlRollback#tables}
   */
   readonly tables?: MysqlRollbackTables[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface MysqlRollbackDatabases {
   /**
   * The original database name before rollback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#database_name MysqlRollback#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#database_name MysqlRollback#database_name}
   */
   readonly databaseName: string;
   /**
   * The new database name after rollback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#new_database_name MysqlRollback#new_database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#new_database_name MysqlRollback#new_database_name}
   */
   readonly newDatabaseName: string;
 }
@@ -196,13 +196,13 @@ export interface MysqlRollbackTablesTable {
   /**
   * New database table name after rollback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#new_table_name MysqlRollback#new_table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#new_table_name MysqlRollback#new_table_name}
   */
   readonly newTableName: string;
   /**
   * The original database table name before rollback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#table_name MysqlRollback#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#table_name MysqlRollback#table_name}
   */
   readonly tableName: string;
 }
@@ -343,13 +343,13 @@ export interface MysqlRollbackTables {
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#database MysqlRollback#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#database MysqlRollback#database}
   */
   readonly database: string;
   /**
   * table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#table MysqlRollback#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#table MysqlRollback#table}
   */
   readonly table: MysqlRollbackTablesTable[] | cdktf.IResolvable;
 }
@@ -488,7 +488,7 @@ export class MysqlRollbackTablesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback tencentcloud_mysql_rollback}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback tencentcloud_mysql_rollback}
 */
 export class MysqlRollback extends cdktf.TerraformResource {
 
@@ -504,7 +504,7 @@ export class MysqlRollback extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlRollback resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlRollback to import
-  * @param importFromId The id of the existing MysqlRollback that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlRollback that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlRollback to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -516,7 +516,7 @@ export class MysqlRollback extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_rollback tencentcloud_mysql_rollback} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_rollback tencentcloud_mysql_rollback} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -527,8 +527,8 @@ export class MysqlRollback extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_rollback',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

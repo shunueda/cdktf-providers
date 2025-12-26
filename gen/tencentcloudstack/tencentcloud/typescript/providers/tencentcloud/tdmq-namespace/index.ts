@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_namespace
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdmq_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TdmqNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Dedicated Cluster Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_namespace#cluster_id TdmqNamespace#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdmq_namespace#cluster_id TdmqNamespace#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The name of namespace to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_namespace#environ_name TdmqNamespace#environ_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdmq_namespace#environ_name TdmqNamespace#environ_name}
   */
   readonly environName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_namespace#id TdmqNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdmq_namespace#id TdmqNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface TdmqNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The expiration time of unconsumed message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_namespace#msg_ttl TdmqNamespace#msg_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdmq_namespace#msg_ttl TdmqNamespace#msg_ttl}
   */
   readonly msgTtl: number;
   /**
   * Description of the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_namespace#remark TdmqNamespace#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdmq_namespace#remark TdmqNamespace#remark}
   */
   readonly remark?: string;
   /**
   * retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_namespace#retention_policy TdmqNamespace#retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdmq_namespace#retention_policy TdmqNamespace#retention_policy}
   */
   readonly retentionPolicy?: TdmqNamespaceRetentionPolicy;
 }
@@ -49,13 +49,13 @@ export interface TdmqNamespaceRetentionPolicy {
   /**
   * the size of message to retain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_namespace#size_in_mb TdmqNamespace#size_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdmq_namespace#size_in_mb TdmqNamespace#size_in_mb}
   */
   readonly sizeInMb?: number;
   /**
   * the time of message to retain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_namespace#time_in_minutes TdmqNamespace#time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdmq_namespace#time_in_minutes TdmqNamespace#time_in_minutes}
   */
   readonly timeInMinutes?: number;
 }
@@ -168,7 +168,7 @@ export class TdmqNamespaceRetentionPolicyOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_namespace tencentcloud_tdmq_namespace}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdmq_namespace tencentcloud_tdmq_namespace}
 */
 export class TdmqNamespace extends cdktf.TerraformResource {
 
@@ -184,7 +184,7 @@ export class TdmqNamespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqNamespace to import
-  * @param importFromId The id of the existing TdmqNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdmq_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class TdmqNamespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdmq_namespace tencentcloud_tdmq_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdmq_namespace tencentcloud_tdmq_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class TdmqNamespace extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_namespace',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

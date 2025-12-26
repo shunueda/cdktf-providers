@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_param_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/redis_param_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RedisParamTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Parameter template description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_param_template#description RedisParamTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/redis_param_template#description RedisParamTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_param_template#id RedisParamTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/redis_param_template#id RedisParamTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface RedisParamTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Parameter template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_param_template#name RedisParamTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/redis_param_template#name RedisParamTemplate#name}
   */
   readonly name: string;
   /**
   * Specify product type. Valid values: 1 (Redis 2.8 Memory Edition in cluster architecture), 2 (Redis 2.8 Memory Edition in standard architecture), 3 (CKV 3.2 Memory Edition in standard architecture), 4 (CKV 3.2 Memory Edition in cluster architecture), 5 (Redis 2.8 Memory Edition in standalone architecture), 6 (Redis 4.0 Memory Edition in standard architecture), 7 (Redis 4.0 Memory Edition in cluster architecture), 8 (Redis 5.0 Memory Edition in standard architecture), 9 (Redis 5.0 Memory Edition in cluster architecture). If `template_id` is specified, this parameter can be left blank; otherwise, it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_param_template#product_type RedisParamTemplate#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/redis_param_template#product_type RedisParamTemplate#product_type}
   */
   readonly productType?: number;
   /**
   * Specify which existed template import from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_param_template#template_id RedisParamTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/redis_param_template#template_id RedisParamTemplate#template_id}
   */
   readonly templateId?: string;
   /**
   * params_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_param_template#params_override RedisParamTemplate#params_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/redis_param_template#params_override RedisParamTemplate#params_override}
   */
   readonly paramsOverride?: RedisParamTemplateParamsOverride[] | cdktf.IResolvable;
 }
@@ -164,13 +164,13 @@ export interface RedisParamTemplateParamsOverride {
   /**
   * Parameter key e.g. `timeout`, check https://www.tencentcloud.com/document/product/239/39796 for more reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_param_template#key RedisParamTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/redis_param_template#key RedisParamTemplate#key}
   */
   readonly key: string;
   /**
   * Parameter value, check https://www.tencentcloud.com/document/product/239/39796 for more reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_param_template#value RedisParamTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/redis_param_template#value RedisParamTemplate#value}
   */
   readonly value: string;
 }
@@ -309,7 +309,7 @@ export class RedisParamTemplateParamsOverrideList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_param_template tencentcloud_redis_param_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/redis_param_template tencentcloud_redis_param_template}
 */
 export class RedisParamTemplate extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class RedisParamTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisParamTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisParamTemplate to import
-  * @param importFromId The id of the existing RedisParamTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_param_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisParamTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/redis_param_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisParamTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class RedisParamTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/redis_param_template tencentcloud_redis_param_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/redis_param_template tencentcloud_redis_param_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,8 +348,8 @@ export class RedisParamTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_redis_param_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcaplus_clusters
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcaplus_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudTcaplusClustersConfig extends cdktf.TerraformMe
   /**
   * ID of the TcaplusDB cluster to be query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcaplus_clusters#cluster_id DataTencentcloudTcaplusClusters#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcaplus_clusters#cluster_id DataTencentcloudTcaplusClusters#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Name of the TcaplusDB cluster to be query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcaplus_clusters#cluster_name DataTencentcloudTcaplusClusters#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcaplus_clusters#cluster_name DataTencentcloudTcaplusClusters#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcaplus_clusters#id DataTencentcloudTcaplusClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcaplus_clusters#id DataTencentcloudTcaplusClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DataTencentcloudTcaplusClustersConfig extends cdktf.TerraformMe
   /**
   * File for saving results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcaplus_clusters#result_output_file DataTencentcloudTcaplusClusters#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcaplus_clusters#result_output_file DataTencentcloudTcaplusClusters#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -170,7 +170,7 @@ export class DataTencentcloudTcaplusClustersListStructList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcaplus_clusters tencentcloud_tcaplus_clusters}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcaplus_clusters tencentcloud_tcaplus_clusters}
 */
 export class DataTencentcloudTcaplusClusters extends cdktf.TerraformDataSource {
 
@@ -186,7 +186,7 @@ export class DataTencentcloudTcaplusClusters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudTcaplusClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTcaplusClusters to import
-  * @param importFromId The id of the existing DataTencentcloudTcaplusClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcaplus_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTcaplusClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcaplus_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTcaplusClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class DataTencentcloudTcaplusClusters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcaplus_clusters tencentcloud_tcaplus_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcaplus_clusters tencentcloud_tcaplus_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class DataTencentcloudTcaplusClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_tcaplus_clusters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dnspod_snapshot_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dnspod_snapshot_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DnspodSnapshotConfigConfig extends cdktf.TerraformMetaArguments
   /**
   * Domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dnspod_snapshot_config#domain DnspodSnapshotConfig#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dnspod_snapshot_config#domain DnspodSnapshotConfig#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dnspod_snapshot_config#id DnspodSnapshotConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dnspod_snapshot_config#id DnspodSnapshotConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DnspodSnapshotConfigConfig extends cdktf.TerraformMetaArguments
   /**
   * Backup interval: empty string - no backup, half_hour - every half hour, hourly - every hour, daily - every day, monthly - every month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dnspod_snapshot_config#period DnspodSnapshotConfig#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dnspod_snapshot_config#period DnspodSnapshotConfig#period}
   */
   readonly period: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dnspod_snapshot_config tencentcloud_dnspod_snapshot_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dnspod_snapshot_config tencentcloud_dnspod_snapshot_config}
 */
 export class DnspodSnapshotConfig extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DnspodSnapshotConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnspodSnapshotConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnspodSnapshotConfig to import
-  * @param importFromId The id of the existing DnspodSnapshotConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dnspod_snapshot_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnspodSnapshotConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dnspod_snapshot_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnspodSnapshotConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DnspodSnapshotConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dnspod_snapshot_config tencentcloud_dnspod_snapshot_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dnspod_snapshot_config tencentcloud_dnspod_snapshot_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DnspodSnapshotConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dnspod_snapshot_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

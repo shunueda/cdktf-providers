@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AntiddosBgpInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#id AntiddosBgpInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#id AntiddosBgpInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface AntiddosBgpInstanceConfig extends cdktf.TerraformMetaArguments 
   /**
   * Payment Type: Payment Mode: PREPAID (Prepaid) / POSTPAID_BY_MONTH (Postpaid).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#instance_charge_type AntiddosBgpInstance#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#instance_charge_type AntiddosBgpInstance#instance_charge_type}
   */
   readonly instanceChargeType: string;
   /**
   * High-defense package types: Enterprise, Standard, StandardPlus (Standard Edition 2.0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#package_type AntiddosBgpInstance#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#package_type AntiddosBgpInstance#package_type}
   */
   readonly packageType: string;
   /**
   * enterprise_package_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#enterprise_package_config AntiddosBgpInstance#enterprise_package_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#enterprise_package_config AntiddosBgpInstance#enterprise_package_config}
   */
   readonly enterprisePackageConfig?: AntiddosBgpInstanceEnterprisePackageConfig;
   /**
   * instance_charge_prepaid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#instance_charge_prepaid AntiddosBgpInstance#instance_charge_prepaid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#instance_charge_prepaid AntiddosBgpInstance#instance_charge_prepaid}
   */
   readonly instanceChargePrepaid?: AntiddosBgpInstanceInstanceChargePrepaid;
   /**
   * standard_package_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#standard_package_config AntiddosBgpInstance#standard_package_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#standard_package_config AntiddosBgpInstance#standard_package_config}
   */
   readonly standardPackageConfig?: AntiddosBgpInstanceStandardPackageConfig;
   /**
   * standard_plus_package_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#standard_plus_package_config AntiddosBgpInstance#standard_plus_package_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#standard_plus_package_config AntiddosBgpInstance#standard_plus_package_config}
   */
   readonly standardPlusPackageConfig?: AntiddosBgpInstanceStandardPlusPackageConfig;
   /**
   * tag_info_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#tag_info_list AntiddosBgpInstance#tag_info_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#tag_info_list AntiddosBgpInstance#tag_info_list}
   */
   readonly tagInfoList?: AntiddosBgpInstanceTagInfoListStruct[] | cdktf.IResolvable;
 }
@@ -61,37 +61,37 @@ export interface AntiddosBgpInstanceEnterprisePackageConfig {
   /**
   * Service bandwidth scale.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#bandwidth AntiddosBgpInstance#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#bandwidth AntiddosBgpInstance#bandwidth}
   */
   readonly bandwidth: number;
   /**
   * Guaranteed protection bandwidth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#basic_protect_bandwidth AntiddosBgpInstance#basic_protect_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#basic_protect_bandwidth AntiddosBgpInstance#basic_protect_bandwidth}
   */
   readonly basicProtectBandwidth: number;
   /**
   * Whether to enable elastic service bandwidth. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#elastic_bandwidth_flag AntiddosBgpInstance#elastic_bandwidth_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#elastic_bandwidth_flag AntiddosBgpInstance#elastic_bandwidth_flag}
   */
   readonly elasticBandwidthFlag?: boolean | cdktf.IResolvable;
   /**
   * Elastic bandwidth (Gbps), selectable elastic bandwidth [0, 400, 500, 600, 800, 1000], default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#elastic_protect_bandwidth AntiddosBgpInstance#elastic_protect_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#elastic_protect_bandwidth AntiddosBgpInstance#elastic_protect_bandwidth}
   */
   readonly elasticProtectBandwidth?: number;
   /**
   * Number of protected IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#protect_ip_count AntiddosBgpInstance#protect_ip_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#protect_ip_count AntiddosBgpInstance#protect_ip_count}
   */
   readonly protectIpCount: number;
   /**
   * The region where the high-defense package was purchased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#region AntiddosBgpInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#region AntiddosBgpInstance#region}
   */
   readonly region: string;
 }
@@ -310,13 +310,13 @@ export interface AntiddosBgpInstanceInstanceChargePrepaid {
   /**
   * Purchase period in months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#period AntiddosBgpInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#period AntiddosBgpInstance#period}
   */
   readonly period?: number;
   /**
   * OTIFY_AND_MANUAL_RENEW: Notify the user of the expiration date and do not automatically renew. NOTIFY_AND_AUTO_RENEW: Notify the user of the expiration date and automatically renew. DISABLE_NOTIFY_AND_MANUAL_RENEW: Do not notify the user of the expiration date and do not automatically renew. The default is: Notify the user of the expiration date and do not automatically renew.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#renew_flag AntiddosBgpInstance#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#renew_flag AntiddosBgpInstance#renew_flag}
   */
   readonly renewFlag?: string;
 }
@@ -431,25 +431,25 @@ export interface AntiddosBgpInstanceStandardPackageConfig {
   /**
   * Protected service bandwidth 50Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#bandwidth AntiddosBgpInstance#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#bandwidth AntiddosBgpInstance#bandwidth}
   */
   readonly bandwidth: number;
   /**
   * Whether to enable elastic service bandwidth. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#elastic_bandwidth_flag AntiddosBgpInstance#elastic_bandwidth_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#elastic_bandwidth_flag AntiddosBgpInstance#elastic_bandwidth_flag}
   */
   readonly elasticBandwidthFlag?: boolean | cdktf.IResolvable;
   /**
   * Number of protected IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#protect_ip_count AntiddosBgpInstance#protect_ip_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#protect_ip_count AntiddosBgpInstance#protect_ip_count}
   */
   readonly protectIpCount: number;
   /**
   * The region where the high-defense package was purchased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#region AntiddosBgpInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#region AntiddosBgpInstance#region}
   */
   readonly region: string;
 }
@@ -613,31 +613,31 @@ export interface AntiddosBgpInstanceStandardPlusPackageConfig {
   /**
   * 50Mbps protected bandwidth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#bandwidth AntiddosBgpInstance#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#bandwidth AntiddosBgpInstance#bandwidth}
   */
   readonly bandwidth: number;
   /**
   * Whether to enable elastic service bandwidth. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#elastic_bandwidth_flag AntiddosBgpInstance#elastic_bandwidth_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#elastic_bandwidth_flag AntiddosBgpInstance#elastic_bandwidth_flag}
   */
   readonly elasticBandwidthFlag?: boolean | cdktf.IResolvable;
   /**
   * Protection Count: TWO_TIMES: Two full-power protections; UNLIMITED: Infinite protections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#protect_count AntiddosBgpInstance#protect_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#protect_count AntiddosBgpInstance#protect_count}
   */
   readonly protectCount: string;
   /**
   * Number of protected IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#protect_ip_count AntiddosBgpInstance#protect_ip_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#protect_ip_count AntiddosBgpInstance#protect_ip_count}
   */
   readonly protectIpCount: number;
   /**
   * The region where the high-defense package was purchased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#region AntiddosBgpInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#region AntiddosBgpInstance#region}
   */
   readonly region: string;
 }
@@ -827,13 +827,13 @@ export interface AntiddosBgpInstanceTagInfoListStruct {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#tag_key AntiddosBgpInstance#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#tag_key AntiddosBgpInstance#tag_key}
   */
   readonly tagKey: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#tag_value AntiddosBgpInstance#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#tag_value AntiddosBgpInstance#tag_value}
   */
   readonly tagValue: string;
 }
@@ -972,7 +972,7 @@ export class AntiddosBgpInstanceTagInfoListStructList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance tencentcloud_antiddos_bgp_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance tencentcloud_antiddos_bgp_instance}
 */
 export class AntiddosBgpInstance extends cdktf.TerraformResource {
 
@@ -988,7 +988,7 @@ export class AntiddosBgpInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AntiddosBgpInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AntiddosBgpInstance to import
-  * @param importFromId The id of the existing AntiddosBgpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AntiddosBgpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AntiddosBgpInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1000,7 +1000,7 @@ export class AntiddosBgpInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/antiddos_bgp_instance tencentcloud_antiddos_bgp_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/antiddos_bgp_instance tencentcloud_antiddos_bgp_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1011,8 +1011,8 @@ export class AntiddosBgpInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_antiddos_bgp_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

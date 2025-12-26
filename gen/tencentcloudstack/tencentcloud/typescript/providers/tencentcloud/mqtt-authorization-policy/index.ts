@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MqttAuthorizationPolicyConfig extends cdktf.TerraformMetaArgume
   /**
   * Operation - connect: connect; pub: publish; sub: subscribe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#actions MqttAuthorizationPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#actions MqttAuthorizationPolicy#actions}
   */
   readonly actions: string;
   /**
   * Condition - Client ID, supports regular expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#client_id MqttAuthorizationPolicy#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#client_id MqttAuthorizationPolicy#client_id}
   */
   readonly clientId?: string;
   /**
   * Decision: allow/deny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#effect MqttAuthorizationPolicy#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#effect MqttAuthorizationPolicy#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#id MqttAuthorizationPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#id MqttAuthorizationPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface MqttAuthorizationPolicyConfig extends cdktf.TerraformMetaArgume
   /**
   * MQTT instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#instance_id MqttAuthorizationPolicy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#instance_id MqttAuthorizationPolicy#instance_id}
   */
   readonly instanceId: string;
   /**
   * Condition - Client IP address, supports IP or CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#ip MqttAuthorizationPolicy#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#ip MqttAuthorizationPolicy#ip}
   */
   readonly ip?: string;
   /**
   * Policy name, cannot be empty, 3-64 characters, supports Chinese characters, letters, numbers, "-" and "_".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#policy_name MqttAuthorizationPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#policy_name MqttAuthorizationPolicy#policy_name}
   */
   readonly policyName: string;
   /**
   * Policy version, default is 1, currently only 1 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#policy_version MqttAuthorizationPolicy#policy_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#policy_version MqttAuthorizationPolicy#policy_version}
   */
   readonly policyVersion: number;
   /**
   * The strategy priority, the smaller the higher the priority, cannot be repeated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#priority MqttAuthorizationPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#priority MqttAuthorizationPolicy#priority}
   */
   readonly priority: number;
   /**
   * Condition: Quality of Service 0: At most once 1: At least once 2: Exactly once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#qos MqttAuthorizationPolicy#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#qos MqttAuthorizationPolicy#qos}
   */
   readonly qos: string;
   /**
   * Remarks, up to 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#remark MqttAuthorizationPolicy#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#remark MqttAuthorizationPolicy#remark}
   */
   readonly remark?: string;
   /**
   * Resources, requiring matching subscriptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#resources MqttAuthorizationPolicy#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#resources MqttAuthorizationPolicy#resources}
   */
   readonly resources?: string;
   /**
   * Condition - Reserved message 1, match reserved message; 2, match unreserved message, 3. match reserved and unreserved message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#retain MqttAuthorizationPolicy#retain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#retain MqttAuthorizationPolicy#retain}
   */
   readonly retain: number;
   /**
   * Condition - Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#username MqttAuthorizationPolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#username MqttAuthorizationPolicy#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy tencentcloud_mqtt_authorization_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy tencentcloud_mqtt_authorization_policy}
 */
 export class MqttAuthorizationPolicy extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class MqttAuthorizationPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MqttAuthorizationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MqttAuthorizationPolicy to import
-  * @param importFromId The id of the existing MqttAuthorizationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MqttAuthorizationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MqttAuthorizationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class MqttAuthorizationPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mqtt_authorization_policy tencentcloud_mqtt_authorization_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mqtt_authorization_policy tencentcloud_mqtt_authorization_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class MqttAuthorizationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mqtt_authorization_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_set_success_instance_async
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_task_set_success_instance_async
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WedataTaskSetSuccessInstanceAsyncConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_set_success_instance_async#id WedataTaskSetSuccessInstanceAsync#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_task_set_success_instance_async#id WedataTaskSetSuccessInstanceAsync#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface WedataTaskSetSuccessInstanceAsyncConfig extends cdktf.Terraform
   /**
   * Instance id list, which can be obtained from ListInstances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_set_success_instance_async#instance_key_list WedataTaskSetSuccessInstanceAsync#instance_key_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_task_set_success_instance_async#instance_key_list WedataTaskSetSuccessInstanceAsync#instance_key_list}
   */
   readonly instanceKeyList: string[];
   /**
   * Project Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_set_success_instance_async#project_id WedataTaskSetSuccessInstanceAsync#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_task_set_success_instance_async#project_id WedataTaskSetSuccessInstanceAsync#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_set_success_instance_async tencentcloud_wedata_task_set_success_instance_async}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_task_set_success_instance_async tencentcloud_wedata_task_set_success_instance_async}
 */
 export class WedataTaskSetSuccessInstanceAsync extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class WedataTaskSetSuccessInstanceAsync extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataTaskSetSuccessInstanceAsync resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataTaskSetSuccessInstanceAsync to import
-  * @param importFromId The id of the existing WedataTaskSetSuccessInstanceAsync that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_set_success_instance_async#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataTaskSetSuccessInstanceAsync that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_task_set_success_instance_async#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataTaskSetSuccessInstanceAsync to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class WedataTaskSetSuccessInstanceAsync extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_task_set_success_instance_async tencentcloud_wedata_task_set_success_instance_async} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_task_set_success_instance_async tencentcloud_wedata_task_set_success_instance_async} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class WedataTaskSetSuccessInstanceAsync extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_task_set_success_instance_async',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

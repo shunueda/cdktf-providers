@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudCynosdbResourcePackageListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list#id DataTencentcloudCynosdbResourcePackageList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list#id DataTencentcloudCynosdbResourcePackageList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface DataTencentcloudCynosdbResourcePackageListConfig extends cdktf.
   /**
   * Sorting conditions supported: startTime - effective time, expireTime - expiration time, packageUsedSpec - usage capacity, and packageTotalSpec - total storage capacity. Arrange in array order;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list#order_by DataTencentcloudCynosdbResourcePackageList#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list#order_by DataTencentcloudCynosdbResourcePackageList#order_by}
   */
   readonly orderBy?: string[];
   /**
   * Sort by, DESC Descending, ASC Ascending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list#order_direction DataTencentcloudCynosdbResourcePackageList#order_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list#order_direction DataTencentcloudCynosdbResourcePackageList#order_direction}
   */
   readonly orderDirection?: string;
   /**
   * Resource Package Unique ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list#package_id DataTencentcloudCynosdbResourcePackageList#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list#package_id DataTencentcloudCynosdbResourcePackageList#package_id}
   */
   readonly packageId?: string[];
   /**
   * Resource Package Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list#package_name DataTencentcloudCynosdbResourcePackageList#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list#package_name DataTencentcloudCynosdbResourcePackageList#package_name}
   */
   readonly packageName?: string[];
   /**
   * Resource package usage region China - common in mainland China, overseas - common in Hong Kong, Macao, Taiwan, and overseas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list#package_region DataTencentcloudCynosdbResourcePackageList#package_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list#package_region DataTencentcloudCynosdbResourcePackageList#package_region}
   */
   readonly packageRegion?: string[];
   /**
   * Resource package type CCU - Compute resource package, DISK - Storage resource package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list#package_type DataTencentcloudCynosdbResourcePackageList#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list#package_type DataTencentcloudCynosdbResourcePackageList#package_type}
   */
   readonly packageType?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list#result_output_file DataTencentcloudCynosdbResourcePackageList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list#result_output_file DataTencentcloudCynosdbResourcePackageList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Resource package status creating - creating; Using - In use; Expired - has expired; Normal_ Finish - used up; Apply_ Refund - Applying for a refund; Refund - The fee has been refunded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list#status DataTencentcloudCynosdbResourcePackageList#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list#status DataTencentcloudCynosdbResourcePackageList#status}
   */
   readonly status?: string[];
 }
@@ -281,7 +281,7 @@ export class DataTencentcloudCynosdbResourcePackageListResourcePackageListStruct
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list tencentcloud_cynosdb_resource_package_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list tencentcloud_cynosdb_resource_package_list}
 */
 export class DataTencentcloudCynosdbResourcePackageList extends cdktf.TerraformDataSource {
 
@@ -297,7 +297,7 @@ export class DataTencentcloudCynosdbResourcePackageList extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataTencentcloudCynosdbResourcePackageList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCynosdbResourcePackageList to import
-  * @param importFromId The id of the existing DataTencentcloudCynosdbResourcePackageList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCynosdbResourcePackageList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCynosdbResourcePackageList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -309,7 +309,7 @@ export class DataTencentcloudCynosdbResourcePackageList extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cynosdb_resource_package_list tencentcloud_cynosdb_resource_package_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cynosdb_resource_package_list tencentcloud_cynosdb_resource_package_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -320,8 +320,8 @@ export class DataTencentcloudCynosdbResourcePackageList extends cdktf.TerraformD
       terraformResourceType: 'tencentcloud_cynosdb_resource_package_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

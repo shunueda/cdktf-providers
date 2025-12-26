@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDtsSyncJobsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#id DataTencentcloudDtsSyncJobs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#id DataTencentcloudDtsSyncJobs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,61 +17,61 @@ export interface DataTencentcloudDtsSyncJobsConfig extends cdktf.TerraformMetaAr
   /**
   * job id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#job_id DataTencentcloudDtsSyncJobs#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#job_id DataTencentcloudDtsSyncJobs#job_id}
   */
   readonly jobId?: string;
   /**
   * job name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#job_name DataTencentcloudDtsSyncJobs#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#job_name DataTencentcloudDtsSyncJobs#job_name}
   */
   readonly jobName?: string;
   /**
   * job type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#job_type DataTencentcloudDtsSyncJobs#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#job_type DataTencentcloudDtsSyncJobs#job_type}
   */
   readonly jobType?: string;
   /**
   * order field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#order DataTencentcloudDtsSyncJobs#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#order DataTencentcloudDtsSyncJobs#order}
   */
   readonly order?: string;
   /**
   * order way, optional value is DESC or ASC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#order_seq DataTencentcloudDtsSyncJobs#order_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#order_seq DataTencentcloudDtsSyncJobs#order_seq}
   */
   readonly orderSeq?: string;
   /**
   * pay mode, optional value is PrePay or PostPay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#pay_mode DataTencentcloudDtsSyncJobs#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#pay_mode DataTencentcloudDtsSyncJobs#pay_mode}
   */
   readonly payMode?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#result_output_file DataTencentcloudDtsSyncJobs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#result_output_file DataTencentcloudDtsSyncJobs#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * run mode, optional value is mmediate or Timed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#run_mode DataTencentcloudDtsSyncJobs#run_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#run_mode DataTencentcloudDtsSyncJobs#run_mode}
   */
   readonly runMode?: string;
   /**
   * status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#status DataTencentcloudDtsSyncJobs#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#status DataTencentcloudDtsSyncJobs#status}
   */
   readonly status?: string[];
   /**
   * tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#tag_filters DataTencentcloudDtsSyncJobs#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#tag_filters DataTencentcloudDtsSyncJobs#tag_filters}
   */
   readonly tagFilters?: DataTencentcloudDtsSyncJobsTagFilters[] | cdktf.IResolvable;
 }
@@ -1783,13 +1783,13 @@ export interface DataTencentcloudDtsSyncJobsTagFilters {
   /**
   * tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#tag_key DataTencentcloudDtsSyncJobs#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#tag_key DataTencentcloudDtsSyncJobs#tag_key}
   */
   readonly tagKey?: string;
   /**
   * tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#tag_value DataTencentcloudDtsSyncJobs#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#tag_value DataTencentcloudDtsSyncJobs#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -1934,7 +1934,7 @@ export class DataTencentcloudDtsSyncJobsTagFiltersList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs tencentcloud_dts_sync_jobs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs tencentcloud_dts_sync_jobs}
 */
 export class DataTencentcloudDtsSyncJobs extends cdktf.TerraformDataSource {
 
@@ -1950,7 +1950,7 @@ export class DataTencentcloudDtsSyncJobs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDtsSyncJobs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDtsSyncJobs to import
-  * @param importFromId The id of the existing DataTencentcloudDtsSyncJobs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDtsSyncJobs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDtsSyncJobs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1962,7 +1962,7 @@ export class DataTencentcloudDtsSyncJobs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/dts_sync_jobs tencentcloud_dts_sync_jobs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/dts_sync_jobs tencentcloud_dts_sync_jobs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1973,8 +1973,8 @@ export class DataTencentcloudDtsSyncJobs extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dts_sync_jobs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

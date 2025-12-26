@@ -1118,6 +1118,9 @@ export * as vpcPeerConnectRejectOperation from './vpc-peer-connect-reject-operat
 export * as vpcPrivateNatGateway from './vpc-private-nat-gateway';
 export * as vpcPrivateNatGatewayTranslationNatRule from './vpc-private-nat-gateway-translation-nat-rule';
 export * as vpcResumeSnapshotInstance from './vpc-resume-snapshot-instance';
+export * as vpcRoutePolicy from './vpc-route-policy';
+export * as vpcRoutePolicyAssociation from './vpc-route-policy-association';
+export * as vpcRoutePolicyEntries from './vpc-route-policy-entries';
 export * as vpcSnapshotPolicy from './vpc-snapshot-policy';
 export * as vpcSnapshotPolicyAttachment from './vpc-snapshot-policy-attachment';
 export * as vpcSnapshotPolicyConfig from './vpc-snapshot-policy-config';
@@ -1242,6 +1245,7 @@ export * as dataTencentcloudAvailabilityRegions from './data-tencentcloud-availa
 export * as dataTencentcloudAvailabilityZones from './data-tencentcloud-availability-zones';
 export * as dataTencentcloudAvailabilityZonesByProduct from './data-tencentcloud-availability-zones-by-product';
 export * as dataTencentcloudBhAccountGroups from './data-tencentcloud-bh-account-groups';
+export * as dataTencentcloudBhDevices from './data-tencentcloud-bh-devices';
 export * as dataTencentcloudBhSourceTypes from './data-tencentcloud-bh-source-types';
 export * as dataTencentcloudBiProject from './data-tencentcloud-bi-project';
 export * as dataTencentcloudBiUserProject from './data-tencentcloud-bi-user-project';
@@ -1376,6 +1380,7 @@ export * as dataTencentcloudCvmImageSharePermission from './data-tencentcloud-cv
 export * as dataTencentcloudCvmImportImageOs from './data-tencentcloud-cvm-import-image-os';
 export * as dataTencentcloudCvmInstanceVncUrl from './data-tencentcloud-cvm-instance-vnc-url';
 export * as dataTencentcloudCvmInstancesModification from './data-tencentcloud-cvm-instances-modification';
+export * as dataTencentcloudCwpMachines from './data-tencentcloud-cwp-machines';
 export * as dataTencentcloudCwpMachinesSimple from './data-tencentcloud-cwp-machines-simple';
 export * as dataTencentcloudCynosdbAccountAllGrantPrivileges from './data-tencentcloud-cynosdb-account-all-grant-privileges';
 export * as dataTencentcloudCynosdbAccounts from './data-tencentcloud-cynosdb-accounts';

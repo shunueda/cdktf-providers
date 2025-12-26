@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_download_restriction
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_download_restriction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlBackupDownloadRestrictionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_download_restriction#id MysqlBackupDownloadRestriction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_download_restriction#id MysqlBackupDownloadRestriction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface MysqlBackupDownloadRestrictionConfig extends cdktf.TerraformMet
   /**
   * In: The specified ip can be downloaded; NotIn: The specified ip cannot be downloaded. The default is In.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_download_restriction#ip_comparison_symbol MysqlBackupDownloadRestriction#ip_comparison_symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_download_restriction#ip_comparison_symbol MysqlBackupDownloadRestriction#ip_comparison_symbol}
   */
   readonly ipComparisonSymbol?: string;
   /**
   * ip settings to limit downloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_download_restriction#limit_ip MysqlBackupDownloadRestriction#limit_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_download_restriction#limit_ip MysqlBackupDownloadRestriction#limit_ip}
   */
   readonly limitIp?: string[];
   /**
   * NoLimit No limit, both internal and external networks can be downloaded; LimitOnlyIntranet Only intranet can be downloaded; Customize user-defined vpc:ip can be downloaded. LimitVpc and LimitIp can be set only when the value is Customize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_download_restriction#limit_type MysqlBackupDownloadRestriction#limit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_download_restriction#limit_type MysqlBackupDownloadRestriction#limit_type}
   */
   readonly limitType: string;
   /**
   * This parameter only supports In, which means that the vpc specified by LimitVpc can be downloaded. The default is In.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_download_restriction#vpc_comparison_symbol MysqlBackupDownloadRestriction#vpc_comparison_symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_download_restriction#vpc_comparison_symbol MysqlBackupDownloadRestriction#vpc_comparison_symbol}
   */
   readonly vpcComparisonSymbol?: string;
   /**
   * limit_vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_download_restriction#limit_vpc MysqlBackupDownloadRestriction#limit_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_download_restriction#limit_vpc MysqlBackupDownloadRestriction#limit_vpc}
   */
   readonly limitVpc?: MysqlBackupDownloadRestrictionLimitVpc[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface MysqlBackupDownloadRestrictionLimitVpc {
   /**
   * Restrict downloads from regions. Currently only the current region is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_download_restriction#region MysqlBackupDownloadRestriction#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_download_restriction#region MysqlBackupDownloadRestriction#region}
   */
   readonly region: string;
   /**
   * List of vpcs to limit downloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_download_restriction#vpc_list MysqlBackupDownloadRestriction#vpc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_download_restriction#vpc_list MysqlBackupDownloadRestriction#vpc_list}
   */
   readonly vpcList: string[];
 }
@@ -194,7 +194,7 @@ export class MysqlBackupDownloadRestrictionLimitVpcList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_download_restriction tencentcloud_mysql_backup_download_restriction}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_download_restriction tencentcloud_mysql_backup_download_restriction}
 */
 export class MysqlBackupDownloadRestriction extends cdktf.TerraformResource {
 
@@ -210,7 +210,7 @@ export class MysqlBackupDownloadRestriction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlBackupDownloadRestriction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlBackupDownloadRestriction to import
-  * @param importFromId The id of the existing MysqlBackupDownloadRestriction that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_download_restriction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlBackupDownloadRestriction that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_download_restriction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlBackupDownloadRestriction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class MysqlBackupDownloadRestriction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_backup_download_restriction tencentcloud_mysql_backup_download_restriction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_backup_download_restriction tencentcloud_mysql_backup_download_restriction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class MysqlBackupDownloadRestriction extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_backup_download_restriction',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

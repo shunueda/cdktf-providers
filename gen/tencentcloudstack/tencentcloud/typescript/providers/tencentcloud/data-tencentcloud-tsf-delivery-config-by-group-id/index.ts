@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_delivery_config_by_group_id
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_delivery_config_by_group_id
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTsfDeliveryConfigByGroupIdConfig extends cdktf.
   /**
   * groupId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_delivery_config_by_group_id#group_id DataTencentcloudTsfDeliveryConfigByGroupId#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_delivery_config_by_group_id#group_id DataTencentcloudTsfDeliveryConfigByGroupId#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_delivery_config_by_group_id#id DataTencentcloudTsfDeliveryConfigByGroupId#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_delivery_config_by_group_id#id DataTencentcloudTsfDeliveryConfigByGroupId#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudTsfDeliveryConfigByGroupIdConfig extends cdktf.
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_delivery_config_by_group_id#result_output_file DataTencentcloudTsfDeliveryConfigByGroupId#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_delivery_config_by_group_id#result_output_file DataTencentcloudTsfDeliveryConfigByGroupId#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -109,7 +109,7 @@ export class DataTencentcloudTsfDeliveryConfigByGroupIdResultList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_delivery_config_by_group_id tencentcloud_tsf_delivery_config_by_group_id}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_delivery_config_by_group_id tencentcloud_tsf_delivery_config_by_group_id}
 */
 export class DataTencentcloudTsfDeliveryConfigByGroupId extends cdktf.TerraformDataSource {
 
@@ -125,7 +125,7 @@ export class DataTencentcloudTsfDeliveryConfigByGroupId extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataTencentcloudTsfDeliveryConfigByGroupId resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfDeliveryConfigByGroupId to import
-  * @param importFromId The id of the existing DataTencentcloudTsfDeliveryConfigByGroupId that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_delivery_config_by_group_id#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfDeliveryConfigByGroupId that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_delivery_config_by_group_id#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfDeliveryConfigByGroupId to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class DataTencentcloudTsfDeliveryConfigByGroupId extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_delivery_config_by_group_id tencentcloud_tsf_delivery_config_by_group_id} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_delivery_config_by_group_id tencentcloud_tsf_delivery_config_by_group_id} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class DataTencentcloudTsfDeliveryConfigByGroupId extends cdktf.TerraformD
       terraformResourceType: 'tencentcloud_tsf_delivery_config_by_group_id',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

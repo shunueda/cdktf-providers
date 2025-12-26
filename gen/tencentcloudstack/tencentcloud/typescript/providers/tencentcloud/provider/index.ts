@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface TencentcloudProviderConfig {
   /**
   * List of allowed TencentCloud account IDs to prevent you from mistakenly using the wrong one (and potentially end up destroying a live environment). Conflicts with `forbidden_account_ids`, If use `assume_role_with_saml` or `assume_role_with_web_identity`, it is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#allowed_account_ids TencentcloudProvider#allowed_account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#allowed_account_ids TencentcloudProvider#allowed_account_ids}
   */
   readonly allowedAccountIds?: string[];
   /**
   * The name of the CVM instance CAM role. It can be sourced from the `TENCENTCLOUD_CAM_ROLE_NAME` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#cam_role_name TencentcloudProvider#cam_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#cam_role_name TencentcloudProvider#cam_role_name}
   */
   readonly camRoleName?: string;
   /**
   * The cos domain of the API request, Default is `https://cos.{region}.myqcloud.com`, Other Examples: `https://cluster-123456.cos-cdc.ap-guangzhou.myqcloud.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#cos_domain TencentcloudProvider#cos_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#cos_domain TencentcloudProvider#cos_domain}
   */
   readonly cosDomain?: string;
   /**
   * The root domain of the API request, Default is `tencentcloudapi.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#domain TencentcloudProvider#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#domain TencentcloudProvider#domain}
   */
   readonly domain?: string;
   /**
   * Whether to enable pod oidc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#enable_pod_oidc TencentcloudProvider#enable_pod_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#enable_pod_oidc TencentcloudProvider#enable_pod_oidc}
   */
   readonly enablePodOidc?: boolean | cdktf.IResolvable;
   /**
   * List of forbidden TencentCloud account IDs to prevent you from mistakenly using the wrong one (and potentially end up destroying a live environment). Conflicts with `allowed_account_ids`, If use `assume_role_with_saml` or `assume_role_with_web_identity`, it is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#forbidden_account_ids TencentcloudProvider#forbidden_account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#forbidden_account_ids TencentcloudProvider#forbidden_account_ids}
   */
   readonly forbiddenAccountIds?: string[];
   /**
   * The profile name as set in the shared credentials. It can also be sourced from the `TENCENTCLOUD_PROFILE` environment variable. If not set, the default profile created with `tccli configure` will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#profile TencentcloudProvider#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#profile TencentcloudProvider#profile}
   */
   readonly profile?: string;
   /**
   * The protocol of the API request. Valid values: `HTTP` and `HTTPS`. Default is `HTTPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#protocol TencentcloudProvider#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#protocol TencentcloudProvider#protocol}
   */
   readonly protocol?: string;
   /**
   * This is the TencentCloud region. It can also be sourced from the `TENCENTCLOUD_REGION` environment variables. The default input value is ap-guangzhou.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#region TencentcloudProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#region TencentcloudProvider#region}
   */
   readonly region?: string;
   /**
   * This is the TencentCloud access key. It can also be sourced from the `TENCENTCLOUD_SECRET_ID` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#secret_id TencentcloudProvider#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#secret_id TencentcloudProvider#secret_id}
   */
   readonly secretId?: string;
   /**
   * This is the TencentCloud secret key. It can also be sourced from the `TENCENTCLOUD_SECRET_KEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#secret_key TencentcloudProvider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#secret_key TencentcloudProvider#secret_key}
   */
   readonly secretKey?: string;
   /**
   * TencentCloud Security Token of temporary access credentials. It can be sourced from the `TENCENTCLOUD_SECURITY_TOKEN` environment variable. Notice: for supported products, please refer to: [temporary key supported products](https://intl.cloud.tencent.com/document/product/598/10588).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#security_token TencentcloudProvider#security_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#security_token TencentcloudProvider#security_token}
   */
   readonly securityToken?: string;
   /**
   * The directory of the shared credentials. It can also be sourced from the `TENCENTCLOUD_SHARED_CREDENTIALS_DIR` environment variable. If not set this defaults to ~/.tccli.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#shared_credentials_dir TencentcloudProvider#shared_credentials_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#shared_credentials_dir TencentcloudProvider#shared_credentials_dir}
   */
   readonly sharedCredentialsDir?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#alias TencentcloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#alias TencentcloudProvider#alias}
   */
   readonly alias?: string;
   /**
   * assume_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#assume_role TencentcloudProvider#assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#assume_role TencentcloudProvider#assume_role}
   */
   readonly assumeRole?: TencentcloudProviderAssumeRole;
   /**
   * assume_role_with_saml block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#assume_role_with_saml TencentcloudProvider#assume_role_with_saml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#assume_role_with_saml TencentcloudProvider#assume_role_with_saml}
   */
   readonly assumeRoleWithSaml?: TencentcloudProviderAssumeRoleWithSaml;
   /**
   * assume_role_with_web_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#assume_role_with_web_identity TencentcloudProvider#assume_role_with_web_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#assume_role_with_web_identity TencentcloudProvider#assume_role_with_web_identity}
   */
   readonly assumeRoleWithWebIdentity?: TencentcloudProviderAssumeRoleWithWebIdentity;
   /**
   * mfa_certification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#mfa_certification TencentcloudProvider#mfa_certification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#mfa_certification TencentcloudProvider#mfa_certification}
   */
   readonly mfaCertification?: TencentcloudProviderMfaCertification;
 }
@@ -120,49 +120,49 @@ export interface TencentcloudProviderAssumeRole {
   /**
   * External role ID, which can be obtained by clicking the role name in the CAM console. It can contain 2-128 letters, digits, and symbols (=,.@:/-). Regex: [\w+=,.@:/-]*. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_EXTERNAL_ID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#external_id TencentcloudProvider#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#external_id TencentcloudProvider#external_id}
   */
   readonly externalId?: string;
   /**
   * A more restrictive policy when making the AssumeRole call. Its content must not contains `principal` elements. Notice: more syntax references, please refer to: [policies syntax logic](https://intl.cloud.tencent.com/document/product/598/10603).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#policy TencentcloudProvider#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#policy TencentcloudProvider#policy}
   */
   readonly policy?: string;
   /**
   * The ARN of the role to assume. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_ARN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#role_arn TencentcloudProvider#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#role_arn TencentcloudProvider#role_arn}
   */
   readonly roleArn: string;
   /**
   * MFA serial number, the identification number of the MFA device associated with the calling CAM user. Format qcs: cam:uin/${ownerUin}::mfa/${mfaType}. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_SERIAL_NUMBER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#serial_number TencentcloudProvider#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#serial_number TencentcloudProvider#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * The duration of the session when making the AssumeRole call. Its value ranges from 0 to 43200(seconds), and default is 7200 seconds. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_SESSION_DURATION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#session_duration TencentcloudProvider#session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#session_duration TencentcloudProvider#session_duration}
   */
   readonly sessionDuration?: number;
   /**
   * The session name to use when making the AssumeRole call. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_SESSION_NAME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#session_name TencentcloudProvider#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#session_name TencentcloudProvider#session_name}
   */
   readonly sessionName: string;
   /**
   * Caller identity uin. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_SOURCE_IDENTITY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#source_identity TencentcloudProvider#source_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#source_identity TencentcloudProvider#source_identity}
   */
   readonly sourceIdentity?: string;
   /**
   * MFA authentication code. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_TOKEN_CODE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#token_code TencentcloudProvider#token_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#token_code TencentcloudProvider#token_code}
   */
   readonly tokenCode?: string;
 }
@@ -249,31 +249,31 @@ export interface TencentcloudProviderAssumeRoleWithSaml {
   /**
   * Player Access Description Name. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_PRINCIPAL_ARN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#principal_arn TencentcloudProvider#principal_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#principal_arn TencentcloudProvider#principal_arn}
   */
   readonly principalArn: string;
   /**
   * The ARN of the role to assume. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_ARN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#role_arn TencentcloudProvider#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#role_arn TencentcloudProvider#role_arn}
   */
   readonly roleArn: string;
   /**
   * SAML assertion information encoded in base64. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_SAML_ASSERTION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#saml_assertion TencentcloudProvider#saml_assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#saml_assertion TencentcloudProvider#saml_assertion}
   */
   readonly samlAssertion: string;
   /**
   * The duration of the session when making the AssumeRoleWithSAML call. Its value ranges from 0 to 43200(seconds), and default is 7200 seconds. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_SESSION_DURATION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#session_duration TencentcloudProvider#session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#session_duration TencentcloudProvider#session_duration}
   */
   readonly sessionDuration?: number;
   /**
   * The session name to use when making the AssumeRole call. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_SESSION_NAME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#session_name TencentcloudProvider#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#session_name TencentcloudProvider#session_name}
   */
   readonly sessionName: string;
 }
@@ -339,31 +339,31 @@ export interface TencentcloudProviderAssumeRoleWithWebIdentity {
   /**
   * Identity provider name. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_PROVIDER_ID`, Default is OIDC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#provider_id TencentcloudProvider#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#provider_id TencentcloudProvider#provider_id}
   */
   readonly providerId?: string;
   /**
   * The ARN of the role to assume. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_ARN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#role_arn TencentcloudProvider#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#role_arn TencentcloudProvider#role_arn}
   */
   readonly roleArn: string;
   /**
   * The duration of the session when making the AssumeRoleWithWebIdentity call. Its value ranges from 0 to 43200(seconds), and default is 7200 seconds. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_SESSION_DURATION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#session_duration TencentcloudProvider#session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#session_duration TencentcloudProvider#session_duration}
   */
   readonly sessionDuration?: number;
   /**
   * The session name to use when making the AssumeRole call. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_SESSION_NAME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#session_name TencentcloudProvider#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#session_name TencentcloudProvider#session_name}
   */
   readonly sessionName: string;
   /**
   * OIDC token issued by IdP. It can be sourced from the `TENCENTCLOUD_ASSUME_ROLE_WEB_IDENTITY_TOKEN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#web_identity_token TencentcloudProvider#web_identity_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#web_identity_token TencentcloudProvider#web_identity_token}
   */
   readonly webIdentityToken: string;
 }
@@ -429,19 +429,19 @@ export interface TencentcloudProviderMfaCertification {
   /**
   * Specify the validity period of the temporary certificate. The main account can be set to a maximum validity period of 7200 seconds, and the sub account can be set to a maximum validity period of 129600 seconds, and default is 1800 seconds. It can be sourced from the `TENCENTCLOUD_MFA_CERTIFICATION_DURATION_SECONDS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#duration_seconds TencentcloudProvider#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#duration_seconds TencentcloudProvider#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
   * MFA serial number, the identification number of the MFA device associated with the calling CAM user. Format qcs: cam:uin/${ownerUin}::mfa/${mfaType}. It can be sourced from the `TENCENTCLOUD_MFA_CERTIFICATION_SERIAL_NUMBER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#serial_number TencentcloudProvider#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#serial_number TencentcloudProvider#serial_number}
   */
   readonly serialNumber: string;
   /**
   * MFA authentication code. It can be sourced from the `TENCENTCLOUD_MFA_CERTIFICATION_TOKEN_CODE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#token_code TencentcloudProvider#token_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#token_code TencentcloudProvider#token_code}
   */
   readonly tokenCode: string;
 }
@@ -491,7 +491,7 @@ export function tencentcloudProviderMfaCertificationToHclTerraform(struct?: Tenc
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs tencentcloud}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs tencentcloud}
 */
 export class TencentcloudProvider extends cdktf.TerraformProvider {
 
@@ -507,7 +507,7 @@ export class TencentcloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a TencentcloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TencentcloudProvider to import
-  * @param importFromId The id of the existing TencentcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TencentcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TencentcloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -519,7 +519,7 @@ export class TencentcloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs tencentcloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs tencentcloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -530,8 +530,8 @@ export class TencentcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'tencentcloud',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       terraformProviderSource: 'tencentcloudstack/tencentcloud'
     });

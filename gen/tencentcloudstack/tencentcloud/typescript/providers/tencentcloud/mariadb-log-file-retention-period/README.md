@@ -1,3 +1,3 @@
 # `tencentcloud_mariadb_log_file_retention_period`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_mariadb_log_file_retention_period`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mariadb_log_file_retention_period).
+Refer to the Terraform Registry for docs: [`tencentcloud_mariadb_log_file_retention_period`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mariadb_log_file_retention_period).

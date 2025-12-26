@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdcpg_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdcpg_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TdcpgInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdcpg_instance#cluster_id TdcpgInstance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdcpg_instance#cluster_id TdcpgInstance#cluster_id}
   */
   readonly clusterId: string;
   /**
   * cpu cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdcpg_instance#cpu TdcpgInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdcpg_instance#cpu TdcpgInstance#cpu}
   */
   readonly cpu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdcpg_instance#id TdcpgInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdcpg_instance#id TdcpgInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface TdcpgInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdcpg_instance#instance_name TdcpgInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdcpg_instance#instance_name TdcpgInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * memory size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdcpg_instance#memory TdcpgInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdcpg_instance#memory TdcpgInstance#memory}
   */
   readonly memory: number;
   /**
   * operation timing, optional value is IMMEDIATE or MAINTAIN_PERIOD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdcpg_instance#operation_timing TdcpgInstance#operation_timing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdcpg_instance#operation_timing TdcpgInstance#operation_timing}
   */
   readonly operationTiming?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdcpg_instance tencentcloud_tdcpg_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdcpg_instance tencentcloud_tdcpg_instance}
 */
 export class TdcpgInstance extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TdcpgInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdcpgInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdcpgInstance to import
-  * @param importFromId The id of the existing TdcpgInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdcpg_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdcpgInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdcpg_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdcpgInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TdcpgInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tdcpg_instance tencentcloud_tdcpg_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tdcpg_instance tencentcloud_tdcpg_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class TdcpgInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdcpg_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

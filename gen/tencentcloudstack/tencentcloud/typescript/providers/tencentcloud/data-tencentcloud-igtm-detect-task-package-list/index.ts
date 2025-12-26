@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/igtm_detect_task_package_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/igtm_detect_task_package_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudIgtmDetectTaskPackageListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/igtm_detect_task_package_list#id DataTencentcloudIgtmDetectTaskPackageList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/igtm_detect_task_package_list#id DataTencentcloudIgtmDetectTaskPackageList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudIgtmDetectTaskPackageListConfig extends cdktf.T
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/igtm_detect_task_package_list#result_output_file DataTencentcloudIgtmDetectTaskPackageList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/igtm_detect_task_package_list#result_output_file DataTencentcloudIgtmDetectTaskPackageList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/igtm_detect_task_package_list#filters DataTencentcloudIgtmDetectTaskPackageList#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/igtm_detect_task_package_list#filters DataTencentcloudIgtmDetectTaskPackageList#filters}
   */
   readonly filters?: DataTencentcloudIgtmDetectTaskPackageListFilters[] | cdktf.IResolvable;
 }
@@ -238,7 +238,7 @@ export interface DataTencentcloudIgtmDetectTaskPackageListFilters {
   * Whether to enable fuzzy query, only supports filter field name as domain.
   * When fuzzy query is enabled, maximum Value length is 1, otherwise maximum Value length is 5. (Reserved field, not currently used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/igtm_detect_task_package_list#fuzzy DataTencentcloudIgtmDetectTaskPackageList#fuzzy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/igtm_detect_task_package_list#fuzzy DataTencentcloudIgtmDetectTaskPackageList#fuzzy}
   */
   readonly fuzzy?: boolean | cdktf.IResolvable;
   /**
@@ -247,13 +247,13 @@ export interface DataTencentcloudIgtmDetectTaskPackageListFilters {
   * - PeriodStart: minimum expiration time.
   * - PeriodEnd: maximum expiration time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/igtm_detect_task_package_list#name DataTencentcloudIgtmDetectTaskPackageList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/igtm_detect_task_package_list#name DataTencentcloudIgtmDetectTaskPackageList#name}
   */
   readonly name: string;
   /**
   * Filter field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/igtm_detect_task_package_list#value DataTencentcloudIgtmDetectTaskPackageList#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/igtm_detect_task_package_list#value DataTencentcloudIgtmDetectTaskPackageList#value}
   */
   readonly value: string[];
 }
@@ -421,7 +421,7 @@ export class DataTencentcloudIgtmDetectTaskPackageListFiltersList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/igtm_detect_task_package_list tencentcloud_igtm_detect_task_package_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/igtm_detect_task_package_list tencentcloud_igtm_detect_task_package_list}
 */
 export class DataTencentcloudIgtmDetectTaskPackageList extends cdktf.TerraformDataSource {
 
@@ -437,7 +437,7 @@ export class DataTencentcloudIgtmDetectTaskPackageList extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudIgtmDetectTaskPackageList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudIgtmDetectTaskPackageList to import
-  * @param importFromId The id of the existing DataTencentcloudIgtmDetectTaskPackageList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/igtm_detect_task_package_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudIgtmDetectTaskPackageList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/igtm_detect_task_package_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudIgtmDetectTaskPackageList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -449,7 +449,7 @@ export class DataTencentcloudIgtmDetectTaskPackageList extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/igtm_detect_task_package_list tencentcloud_igtm_detect_task_package_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/igtm_detect_task_package_list tencentcloud_igtm_detect_task_package_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -460,8 +460,8 @@ export class DataTencentcloudIgtmDetectTaskPackageList extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_igtm_detect_task_package_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/eb_event_rules
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/eb_event_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudEbEventRulesConfig extends cdktf.TerraformMetaA
   /**
   * event bus Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/eb_event_rules#event_bus_id DataTencentcloudEbEventRules#event_bus_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/eb_event_rules#event_bus_id DataTencentcloudEbEventRules#event_bus_id}
   */
   readonly eventBusId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/eb_event_rules#id DataTencentcloudEbEventRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/eb_event_rules#id DataTencentcloudEbEventRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudEbEventRulesConfig extends cdktf.TerraformMetaA
   /**
   * Return results in ascending or descending order, optional values ASC (ascending) and DESC (descending).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/eb_event_rules#order DataTencentcloudEbEventRules#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/eb_event_rules#order DataTencentcloudEbEventRules#order}
   */
   readonly order?: string;
   /**
   * According to which field to sort the returned results, the following fields are supported: AddTime (creation time), ModTime (modification time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/eb_event_rules#order_by DataTencentcloudEbEventRules#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/eb_event_rules#order_by DataTencentcloudEbEventRules#order_by}
   */
   readonly orderBy?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/eb_event_rules#result_output_file DataTencentcloudEbEventRules#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/eb_event_rules#result_output_file DataTencentcloudEbEventRules#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -404,7 +404,7 @@ export class DataTencentcloudEbEventRulesRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/eb_event_rules tencentcloud_eb_event_rules}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/eb_event_rules tencentcloud_eb_event_rules}
 */
 export class DataTencentcloudEbEventRules extends cdktf.TerraformDataSource {
 
@@ -420,7 +420,7 @@ export class DataTencentcloudEbEventRules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudEbEventRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudEbEventRules to import
-  * @param importFromId The id of the existing DataTencentcloudEbEventRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/eb_event_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudEbEventRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/eb_event_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudEbEventRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -432,7 +432,7 @@ export class DataTencentcloudEbEventRules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/eb_event_rules tencentcloud_eb_event_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/eb_event_rules tencentcloud_eb_event_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -443,8 +443,8 @@ export class DataTencentcloudEbEventRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_eb_event_rules',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

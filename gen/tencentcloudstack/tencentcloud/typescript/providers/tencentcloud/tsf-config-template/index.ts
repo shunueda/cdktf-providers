@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_config_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tsf_config_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface TsfConfigTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configuration template description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_config_template#config_template_desc TsfConfigTemplate#config_template_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tsf_config_template#config_template_desc TsfConfigTemplate#config_template_desc}
   */
   readonly configTemplateDesc?: string;
   /**
   * Configuration template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_config_template#config_template_name TsfConfigTemplate#config_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tsf_config_template#config_template_name TsfConfigTemplate#config_template_name}
   */
   readonly configTemplateName: string;
   /**
   * Configure the microservice framework corresponding to the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_config_template#config_template_type TsfConfigTemplate#config_template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tsf_config_template#config_template_type TsfConfigTemplate#config_template_type}
   */
   readonly configTemplateType: string;
   /**
   * Configure template data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_config_template#config_template_value TsfConfigTemplate#config_template_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tsf_config_template#config_template_value TsfConfigTemplate#config_template_value}
   */
   readonly configTemplateValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_config_template#id TsfConfigTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tsf_config_template#id TsfConfigTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface TsfConfigTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Program id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_config_template#program_id_list TsfConfigTemplate#program_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tsf_config_template#program_id_list TsfConfigTemplate#program_id_list}
   */
   readonly programIdList?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_config_template tencentcloud_tsf_config_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tsf_config_template tencentcloud_tsf_config_template}
 */
 export class TsfConfigTemplate extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TsfConfigTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfConfigTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfConfigTemplate to import
-  * @param importFromId The id of the existing TsfConfigTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_config_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfConfigTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tsf_config_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfConfigTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TsfConfigTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/tsf_config_template tencentcloud_tsf_config_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/tsf_config_template tencentcloud_tsf_config_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class TsfConfigTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_config_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

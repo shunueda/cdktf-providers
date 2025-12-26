@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_snapshot
+// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DbSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
   * Id of the parent AvailabilityMachine, required when creating a clone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_snapshot#availability_machine_id DbSnapshot#availability_machine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_snapshot#availability_machine_id DbSnapshot#availability_machine_id}
   */
   readonly availabilityMachineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_snapshot#backup_status DbSnapshot#backup_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_snapshot#backup_status DbSnapshot#backup_status}
   */
   readonly backupStatus?: string;
   /**
   * Description of the snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_snapshot#description DbSnapshot#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_snapshot#description DbSnapshot#description}
   */
   readonly description?: string;
   /**
   * Specifies if Database Backup's is incremental
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_snapshot#incremental DbSnapshot#incremental}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_snapshot#incremental DbSnapshot#incremental}
   */
   readonly incremental?: boolean | cdktf.IResolvable;
   /**
   * Name of the snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_snapshot#name DbSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_snapshot#name DbSnapshot#name}
   */
   readonly name: string;
   /**
   * shared_with block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_snapshot#shared_with DbSnapshot#shared_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_snapshot#shared_with DbSnapshot#shared_with}
   */
   readonly sharedWith?: DbSnapshotSharedWith;
 }
@@ -537,7 +537,7 @@ export class DbSnapshotDatabasesList extends cdktf.ComplexList {
 }
 export interface DbSnapshotSharedWith {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_snapshot#users DbSnapshot#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_snapshot#users DbSnapshot#users}
   */
   readonly users?: string[];
 }
@@ -621,7 +621,7 @@ export class DbSnapshotSharedWithOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_snapshot tessell_db_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_snapshot tessell_db_snapshot}
 */
 export class DbSnapshot extends cdktf.TerraformResource {
 
@@ -637,7 +637,7 @@ export class DbSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbSnapshot to import
-  * @param importFromId The id of the existing DbSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -649,7 +649,7 @@ export class DbSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_snapshot tessell_db_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_snapshot tessell_db_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -660,8 +660,8 @@ export class DbSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'tessell_db_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.28',
-        providerVersionConstraint: '0.0.28'
+        providerVersion: '0.0.29',
+        providerVersionConstraint: '0.0.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -184,31 +184,31 @@ export interface DbServiceServiceConnectivity {
   /**
   * The list of allowed ipv4 addresses that can connect to the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#allowed_ip_addresses DbService#allowed_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#allowed_ip_addresses DbService#allowed_ip_addresses}
   */
   readonly allowedIpAddresses?: string[];
   /**
   * DNS Prefix associated with the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dns_prefix DbService#dns_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#dns_prefix DbService#dns_prefix}
   */
   readonly dnsPrefix?: string;
   /**
   * Specify whether to enable public access to the DB Service, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_public_access DbService#enable_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#enable_public_access DbService#enable_public_access}
   */
   readonly enablePublicAccess?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to enable SSL to the DB Service, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_ssl DbService#enable_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#enable_ssl DbService#enable_ssl}
   */
   readonly enableSsl?: boolean | cdktf.IResolvable;
   /**
   * The connection port for the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#service_port DbService#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#service_port DbService#service_port}
   */
   readonly servicePort?: number;
 }
@@ -437,11 +437,11 @@ export class DbServiceServiceConnectivityOutputReference extends cdktf.ComplexOb
 }
 export interface DbServiceSharedWithUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#email_id DbService#email_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#email_id DbService#email_id}
   */
   readonly emailId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#role DbService#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#role DbService#role}
   */
   readonly role?: string;
 }
@@ -588,7 +588,7 @@ export interface DbServiceSharedWith {
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#users DbService#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#users DbService#users}
   */
   readonly users?: DbServiceSharedWithUsers[] | cdktf.IResolvable;
 }
@@ -672,11 +672,11 @@ export class DbServiceSharedWithOutputReference extends cdktf.ComplexObject {
 }
 export interface DbServiceSnapshotConfigurationFullBackupScheduleStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#hour DbService#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#hour DbService#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#minute DbService#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#minute DbService#minute}
   */
   readonly minute?: number;
 }
@@ -791,7 +791,7 @@ export interface DbServiceSnapshotConfigurationFullBackupScheduleWeeklySchedule 
   /**
   * Days in a week to retain weekly backups for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#days DbService#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#days DbService#days}
   */
   readonly days?: string[];
 }
@@ -877,13 +877,13 @@ export interface DbServiceSnapshotConfigurationFullBackupSchedule {
   /**
   * start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#start_time DbService#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#start_time DbService#start_time}
   */
   readonly startTime?: DbServiceSnapshotConfigurationFullBackupScheduleStartTime;
   /**
   * weekly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
   */
   readonly weeklySchedule?: DbServiceSnapshotConfigurationFullBackupScheduleWeeklySchedule;
 }
@@ -996,11 +996,11 @@ export class DbServiceSnapshotConfigurationFullBackupScheduleOutputReference ext
 }
 export interface DbServiceSnapshotConfigurationScheduleBackupStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#hour DbService#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#hour DbService#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#minute DbService#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#minute DbService#minute}
   */
   readonly minute?: number;
 }
@@ -1115,7 +1115,7 @@ export interface DbServiceSnapshotConfigurationScheduleDailySchedule {
   /**
   * The number of backups to be captured per day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#backups_per_day DbService#backups_per_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#backups_per_day DbService#backups_per_day}
   */
   readonly backupsPerDay?: number;
 }
@@ -1201,11 +1201,11 @@ export interface DbServiceSnapshotConfigurationScheduleMonthlyScheduleCommonSche
   /**
   * Dates in a month to retain monthly backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dates DbService#dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#dates DbService#dates}
   */
   readonly dates?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
   */
   readonly lastDayOfMonth?: boolean | cdktf.IResolvable;
 }
@@ -1320,7 +1320,7 @@ export interface DbServiceSnapshotConfigurationScheduleMonthlySchedule {
   /**
   * common_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#common_schedule DbService#common_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#common_schedule DbService#common_schedule}
   */
   readonly commonSchedule?: DbServiceSnapshotConfigurationScheduleMonthlyScheduleCommonSchedule;
 }
@@ -1406,7 +1406,7 @@ export interface DbServiceSnapshotConfigurationScheduleWeeklySchedule {
   /**
   * Days in a week to retain weekly backups for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#days DbService#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#days DbService#days}
   */
   readonly days?: string[];
 }
@@ -1492,15 +1492,15 @@ export interface DbServiceSnapshotConfigurationScheduleYearlyScheduleCommonSched
   /**
   * Dates in a month to retain monthly backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dates DbService#dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#dates DbService#dates}
   */
   readonly dates?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
   */
   readonly lastDayOfMonth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#months DbService#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#months DbService#months}
   */
   readonly months?: string[];
 }
@@ -1642,13 +1642,13 @@ export class DbServiceSnapshotConfigurationScheduleYearlyScheduleCommonScheduleO
 }
 export interface DbServiceSnapshotConfigurationScheduleYearlyScheduleMonthSpecificSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dates DbService#dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#dates DbService#dates}
   */
   readonly dates: number[];
   /**
   * Name of a month
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#month DbService#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#month DbService#month}
   */
   readonly month: string;
 }
@@ -1789,13 +1789,13 @@ export interface DbServiceSnapshotConfigurationScheduleYearlySchedule {
   /**
   * common_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#common_schedule DbService#common_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#common_schedule DbService#common_schedule}
   */
   readonly commonSchedule?: DbServiceSnapshotConfigurationScheduleYearlyScheduleCommonSchedule;
   /**
   * month_specific_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#month_specific_schedule DbService#month_specific_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#month_specific_schedule DbService#month_specific_schedule}
   */
   readonly monthSpecificSchedule?: DbServiceSnapshotConfigurationScheduleYearlyScheduleMonthSpecificSchedule[] | cdktf.IResolvable;
 }
@@ -1910,31 +1910,31 @@ export interface DbServiceSnapshotConfigurationSchedule {
   /**
   * backup_start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#backup_start_time DbService#backup_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#backup_start_time DbService#backup_start_time}
   */
   readonly backupStartTime?: DbServiceSnapshotConfigurationScheduleBackupStartTime;
   /**
   * daily_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#daily_schedule DbService#daily_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#daily_schedule DbService#daily_schedule}
   */
   readonly dailySchedule?: DbServiceSnapshotConfigurationScheduleDailySchedule;
   /**
   * monthly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#monthly_schedule DbService#monthly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#monthly_schedule DbService#monthly_schedule}
   */
   readonly monthlySchedule?: DbServiceSnapshotConfigurationScheduleMonthlySchedule;
   /**
   * weekly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
   */
   readonly weeklySchedule?: DbServiceSnapshotConfigurationScheduleWeeklySchedule;
   /**
   * yearly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#yearly_schedule DbService#yearly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#yearly_schedule DbService#yearly_schedule}
   */
   readonly yearlySchedule?: DbServiceSnapshotConfigurationScheduleYearlySchedule;
 }
@@ -2134,11 +2134,11 @@ export class DbServiceSnapshotConfigurationScheduleOutputReference extends cdktf
 }
 export interface DbServiceSnapshotConfigurationSnapshotStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#hour DbService#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#hour DbService#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#minute DbService#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#minute DbService#minute}
   */
   readonly minute?: number;
 }
@@ -2253,7 +2253,7 @@ export interface DbServiceSnapshotConfigurationSnapshotWindow {
   /**
   * Time value in (hh:mm) format. ex. '02:00'. Deprecated, please use backupStartTime in schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#time DbService#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#time DbService#time}
   */
   readonly time?: string;
 }
@@ -2339,43 +2339,43 @@ export interface DbServiceSnapshotConfiguration {
   /**
   * Flag to decide whether the transaction logs would be retained to support PITR (Point in time recoverability)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#include_transaction_logs DbService#include_transaction_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#include_transaction_logs DbService#include_transaction_logs}
   */
   readonly includeTransactionLogs?: boolean | cdktf.IResolvable;
   /**
   * Number of days for which the snapshot of DB Service would be retained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#retention_days DbService#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#retention_days DbService#retention_days}
   */
   readonly retentionDays?: number;
   /**
   * The snapshot SLA for the DB Service. If not specified, a default SLA would be associated with the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#sla DbService#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#sla DbService#sla}
   */
   readonly sla?: string;
   /**
   * full_backup_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#full_backup_schedule DbService#full_backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#full_backup_schedule DbService#full_backup_schedule}
   */
   readonly fullBackupSchedule?: DbServiceSnapshotConfigurationFullBackupSchedule;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#schedule DbService#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#schedule DbService#schedule}
   */
   readonly schedule?: DbServiceSnapshotConfigurationSchedule;
   /**
   * snapshot_start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#snapshot_start_time DbService#snapshot_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#snapshot_start_time DbService#snapshot_start_time}
   */
   readonly snapshotStartTime?: DbServiceSnapshotConfigurationSnapshotStartTime;
   /**
   * snapshot_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#snapshot_window DbService#snapshot_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#snapshot_window DbService#snapshot_window}
   */
   readonly snapshotWindow?: DbServiceSnapshotConfigurationSnapshotWindow;
 }
@@ -2635,13 +2635,13 @@ export interface DbServiceTags {
   /**
   * Case sensitive, tag name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#name DbService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#name DbService#name}
   */
   readonly name?: string;
   /**
   * Case sensitive, tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#value DbService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#value DbService#value}
   */
   readonly value?: string;
 }
@@ -2786,7 +2786,7 @@ export class DbServiceTagsList extends cdktf.ComplexList {
 }
 export interface DbServiceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#create DbService#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#create DbService#create}
   */
   readonly create?: string;
 }

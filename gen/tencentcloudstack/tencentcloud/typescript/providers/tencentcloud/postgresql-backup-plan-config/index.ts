@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_backup_plan_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/postgresql_backup_plan_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PostgresqlBackupPlanConfigConfig extends cdktf.TerraformMetaArg
   /**
   * Backup cycle, which means on which days each week the instance will be backed up. The parameter value should be the lowercase names of the days of the week.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_backup_plan_config#backup_period PostgresqlBackupPlanConfig#backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/postgresql_backup_plan_config#backup_period PostgresqlBackupPlanConfig#backup_period}
   */
   readonly backupPeriod?: string[];
   /**
   * Backup retention period in days. Value range:7-1830.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_backup_plan_config#base_backup_retention_period PostgresqlBackupPlanConfig#base_backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/postgresql_backup_plan_config#base_backup_retention_period PostgresqlBackupPlanConfig#base_backup_retention_period}
   */
   readonly baseBackupRetentionPeriod?: number;
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_backup_plan_config#db_instance_id PostgresqlBackupPlanConfig#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/postgresql_backup_plan_config#db_instance_id PostgresqlBackupPlanConfig#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_backup_plan_config#id PostgresqlBackupPlanConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/postgresql_backup_plan_config#id PostgresqlBackupPlanConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface PostgresqlBackupPlanConfigConfig extends cdktf.TerraformMetaArg
   /**
   * The latest time to start a backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_backup_plan_config#max_backup_start_time PostgresqlBackupPlanConfig#max_backup_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/postgresql_backup_plan_config#max_backup_start_time PostgresqlBackupPlanConfig#max_backup_start_time}
   */
   readonly maxBackupStartTime?: string;
   /**
   * The earliest time to start a backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_backup_plan_config#min_backup_start_time PostgresqlBackupPlanConfig#min_backup_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/postgresql_backup_plan_config#min_backup_start_time PostgresqlBackupPlanConfig#min_backup_start_time}
   */
   readonly minBackupStartTime?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_backup_plan_config tencentcloud_postgresql_backup_plan_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/postgresql_backup_plan_config tencentcloud_postgresql_backup_plan_config}
 */
 export class PostgresqlBackupPlanConfig extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class PostgresqlBackupPlanConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresqlBackupPlanConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlBackupPlanConfig to import
-  * @param importFromId The id of the existing PostgresqlBackupPlanConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_backup_plan_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlBackupPlanConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/postgresql_backup_plan_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlBackupPlanConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class PostgresqlBackupPlanConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/postgresql_backup_plan_config tencentcloud_postgresql_backup_plan_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/postgresql_backup_plan_config tencentcloud_postgresql_backup_plan_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class PostgresqlBackupPlanConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_postgresql_backup_plan_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

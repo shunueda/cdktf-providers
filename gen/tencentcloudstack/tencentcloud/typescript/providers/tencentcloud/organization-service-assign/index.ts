@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_service_assign
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/organization_service_assign
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OrganizationServiceAssignConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_service_assign#id OrganizationServiceAssign#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/organization_service_assign#id OrganizationServiceAssign#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface OrganizationServiceAssignConfig extends cdktf.TerraformMetaArgu
   /**
   * Management scope of the delegated admin. Valid values: 1 (all members), 2 (partial members). Default value: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_service_assign#management_scope OrganizationServiceAssign#management_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/organization_service_assign#management_scope OrganizationServiceAssign#management_scope}
   */
   readonly managementScope?: number;
   /**
   * ID list of the managed departments. This parameter is valid when `management_scope` is `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_service_assign#management_scope_node_ids OrganizationServiceAssign#management_scope_node_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/organization_service_assign#management_scope_node_ids OrganizationServiceAssign#management_scope_node_ids}
   */
   readonly managementScopeNodeIds?: number[];
   /**
   * Uin list of the managed members. This parameter is valid when `management_scope` is `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_service_assign#management_scope_uins OrganizationServiceAssign#management_scope_uins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/organization_service_assign#management_scope_uins OrganizationServiceAssign#management_scope_uins}
   */
   readonly managementScopeUins?: number[];
   /**
   * Uin list of the delegated admins, Including up to 20 items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_service_assign#member_uins OrganizationServiceAssign#member_uins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/organization_service_assign#member_uins OrganizationServiceAssign#member_uins}
   */
   readonly memberUins: number[];
   /**
   * Organization service ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_service_assign#service_id OrganizationServiceAssign#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/organization_service_assign#service_id OrganizationServiceAssign#service_id}
   */
   readonly serviceId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_service_assign tencentcloud_organization_service_assign}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/organization_service_assign tencentcloud_organization_service_assign}
 */
 export class OrganizationServiceAssign extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class OrganizationServiceAssign extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationServiceAssign resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationServiceAssign to import
-  * @param importFromId The id of the existing OrganizationServiceAssign that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_service_assign#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationServiceAssign that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/organization_service_assign#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationServiceAssign to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class OrganizationServiceAssign extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/organization_service_assign tencentcloud_organization_service_assign} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/organization_service_assign tencentcloud_organization_service_assign} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class OrganizationServiceAssign extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_organization_service_assign',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

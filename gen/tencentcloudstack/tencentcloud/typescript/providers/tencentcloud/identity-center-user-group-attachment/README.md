@@ -1,3 +1,3 @@
 # `tencentcloud_identity_center_user_group_attachment`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_identity_center_user_group_attachment`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/identity_center_user_group_attachment).
+Refer to the Terraform Registry for docs: [`tencentcloud_identity_center_user_group_attachment`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/identity_center_user_group_attachment).

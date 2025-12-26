@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/db_service
+// https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/db_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataTessellDbServiceConfig extends cdktf.TerraformMetaArguments
   /**
   * Tessell generated UUID for the DB Service. This is the unique identifier for the DB Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/db_service#id DataTessellDbService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/db_service#id DataTessellDbService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -111,6 +111,11 @@ export class DataTessellDbServiceClonedFromInfoOutputReference extends cdktf.Com
   // snapshot_time - computed: true, optional: false, required: false
   public get snapshotTime() {
     return this.getStringAttribute('snapshot_time');
+  }
+
+  // storage_provider - computed: true, optional: false, required: false
+  public get storageProvider() {
+    return this.getStringAttribute('storage_provider');
   }
 
   // tessell_service - computed: true, optional: false, required: false
@@ -1973,9 +1978,9 @@ export class DataTessellDbServiceEngineConfigurationPostgresqlConfigOutputRefere
     return this.getStringAttribute('option_profile_id');
   }
 
-  // options_profile - computed: true, optional: false, required: false
-  public get optionsProfile() {
-    return this.getStringAttribute('options_profile');
+  // option_profile_name - computed: true, optional: false, required: false
+  public get optionProfileName() {
+    return this.getStringAttribute('option_profile_name');
   }
 
   // parameter_profile_id - computed: true, optional: false, required: false
@@ -2146,6 +2151,11 @@ export class DataTessellDbServiceEngineConfigurationSqlServerConfigOutputReferen
   // agent_service_account_user - computed: true, optional: false, required: false
   public get agentServiceAccountUser() {
     return this.getStringAttribute('agent_service_account_user');
+  }
+
+  // instance_name - computed: true, optional: false, required: false
+  public get instanceName() {
+    return this.getStringAttribute('instance_name');
   }
 
   // parameter_profile_id - computed: true, optional: false, required: false
@@ -7285,7 +7295,7 @@ export class DataTessellDbServiceUpdatesInProgressList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/db_service tessell_db_service}
+* Represents a {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/db_service tessell_db_service}
 */
 export class DataTessellDbService extends cdktf.TerraformDataSource {
 
@@ -7301,7 +7311,7 @@ export class DataTessellDbService extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTessellDbService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTessellDbService to import
-  * @param importFromId The id of the existing DataTessellDbService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/db_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTessellDbService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/db_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTessellDbService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7313,7 +7323,7 @@ export class DataTessellDbService extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/data-sources/db_service tessell_db_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/data-sources/db_service tessell_db_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7324,8 +7334,8 @@ export class DataTessellDbService extends cdktf.TerraformDataSource {
       terraformResourceType: 'tessell_db_service',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.28',
-        providerVersionConstraint: '0.0.28'
+        providerVersion: '0.0.29',
+        providerVersionConstraint: '0.0.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

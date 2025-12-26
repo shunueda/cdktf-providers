@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ckafka_topic_sync_replica
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ckafka_topic_sync_replica
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudCkafkaTopicSyncReplicaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ckafka_topic_sync_replica#id DataTencentcloudCkafkaTopicSyncReplica#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ckafka_topic_sync_replica#id DataTencentcloudCkafkaTopicSyncReplica#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudCkafkaTopicSyncReplicaConfig extends cdktf.Terr
   /**
   * InstanceId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ckafka_topic_sync_replica#instance_id DataTencentcloudCkafkaTopicSyncReplica#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ckafka_topic_sync_replica#instance_id DataTencentcloudCkafkaTopicSyncReplica#instance_id}
   */
   readonly instanceId: string;
   /**
   * Filter only unsynced replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ckafka_topic_sync_replica#out_of_sync_replica_only DataTencentcloudCkafkaTopicSyncReplica#out_of_sync_replica_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ckafka_topic_sync_replica#out_of_sync_replica_only DataTencentcloudCkafkaTopicSyncReplica#out_of_sync_replica_only}
   */
   readonly outOfSyncReplicaOnly?: boolean | cdktf.IResolvable;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ckafka_topic_sync_replica#result_output_file DataTencentcloudCkafkaTopicSyncReplica#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ckafka_topic_sync_replica#result_output_file DataTencentcloudCkafkaTopicSyncReplica#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * TopicName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ckafka_topic_sync_replica#topic_name DataTencentcloudCkafkaTopicSyncReplica#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ckafka_topic_sync_replica#topic_name DataTencentcloudCkafkaTopicSyncReplica#topic_name}
   */
   readonly topicName: string;
 }
@@ -151,7 +151,7 @@ export class DataTencentcloudCkafkaTopicSyncReplicaTopicInSyncReplicaListStructL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ckafka_topic_sync_replica tencentcloud_ckafka_topic_sync_replica}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ckafka_topic_sync_replica tencentcloud_ckafka_topic_sync_replica}
 */
 export class DataTencentcloudCkafkaTopicSyncReplica extends cdktf.TerraformDataSource {
 
@@ -167,7 +167,7 @@ export class DataTencentcloudCkafkaTopicSyncReplica extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudCkafkaTopicSyncReplica resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCkafkaTopicSyncReplica to import
-  * @param importFromId The id of the existing DataTencentcloudCkafkaTopicSyncReplica that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ckafka_topic_sync_replica#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCkafkaTopicSyncReplica that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ckafka_topic_sync_replica#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCkafkaTopicSyncReplica to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class DataTencentcloudCkafkaTopicSyncReplica extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/ckafka_topic_sync_replica tencentcloud_ckafka_topic_sync_replica} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/ckafka_topic_sync_replica tencentcloud_ckafka_topic_sync_replica} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class DataTencentcloudCkafkaTopicSyncReplica extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_ckafka_topic_sync_replica',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

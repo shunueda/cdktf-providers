@@ -1,3 +1,3 @@
 # `data_tencentcloud_gaap_certificates`
 
-Refer to the Terraform Registry for docs: [`data_tencentcloud_gaap_certificates`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/gaap_certificates).
+Refer to the Terraform Registry for docs: [`data_tencentcloud_gaap_certificates`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/gaap_certificates).

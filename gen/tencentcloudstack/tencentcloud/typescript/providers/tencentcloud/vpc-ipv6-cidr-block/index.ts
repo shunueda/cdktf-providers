@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpc_ipv6_cidr_block
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/vpc_ipv6_cidr_block
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VpcIpv6CidrBlockConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apply for the type of IPv6 Cidr, GUA (Global Unicast Address), ULA (Unique Local Address).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpc_ipv6_cidr_block#address_type VpcIpv6CidrBlock#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/vpc_ipv6_cidr_block#address_type VpcIpv6CidrBlock#address_type}
   */
   readonly addressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpc_ipv6_cidr_block#id VpcIpv6CidrBlock#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/vpc_ipv6_cidr_block#id VpcIpv6CidrBlock#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface VpcIpv6CidrBlockConfig extends cdktf.TerraformMetaArguments {
   /**
   * `VPC` instance `ID`, in the form of `vpc-f49l6u0z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpc_ipv6_cidr_block#vpc_id VpcIpv6CidrBlock#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/vpc_ipv6_cidr_block#vpc_id VpcIpv6CidrBlock#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -114,7 +114,7 @@ export class VpcIpv6CidrBlockIpv6CidrBlockSetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpc_ipv6_cidr_block tencentcloud_vpc_ipv6_cidr_block}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/vpc_ipv6_cidr_block tencentcloud_vpc_ipv6_cidr_block}
 */
 export class VpcIpv6CidrBlock extends cdktf.TerraformResource {
 
@@ -130,7 +130,7 @@ export class VpcIpv6CidrBlock extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcIpv6CidrBlock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcIpv6CidrBlock to import
-  * @param importFromId The id of the existing VpcIpv6CidrBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpc_ipv6_cidr_block#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcIpv6CidrBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/vpc_ipv6_cidr_block#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcIpv6CidrBlock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class VpcIpv6CidrBlock extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/vpc_ipv6_cidr_block tencentcloud_vpc_ipv6_cidr_block} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/vpc_ipv6_cidr_block tencentcloud_vpc_ipv6_cidr_block} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class VpcIpv6CidrBlock extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpc_ipv6_cidr_block',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

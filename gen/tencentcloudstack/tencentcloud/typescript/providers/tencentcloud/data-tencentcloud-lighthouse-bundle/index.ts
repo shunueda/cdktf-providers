@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudLighthouseBundleConfig extends cdktf.TerraformM
   /**
   * Bundle ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle#bundle_ids DataTencentcloudLighthouseBundle#bundle_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle#bundle_ids DataTencentcloudLighthouseBundle#bundle_ids}
   */
   readonly bundleIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle#id DataTencentcloudLighthouseBundle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle#id DataTencentcloudLighthouseBundle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudLighthouseBundleConfig extends cdktf.TerraformM
   /**
   * Number of returned results. Default value is 20. Maximum value is 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle#limit DataTencentcloudLighthouseBundle#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle#limit DataTencentcloudLighthouseBundle#limit}
   */
   readonly limit?: number;
   /**
   * Offset. Default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle#offset DataTencentcloudLighthouseBundle#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle#offset DataTencentcloudLighthouseBundle#offset}
   */
   readonly offset?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle#result_output_file DataTencentcloudLighthouseBundle#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle#result_output_file DataTencentcloudLighthouseBundle#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Zone list, which contains all zones by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle#zones DataTencentcloudLighthouseBundle#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle#zones DataTencentcloudLighthouseBundle#zones}
   */
   readonly zones?: string[];
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle#filters DataTencentcloudLighthouseBundle#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle#filters DataTencentcloudLighthouseBundle#filters}
   */
   readonly filters?: DataTencentcloudLighthouseBundleFilters[] | cdktf.IResolvable;
 }
@@ -367,13 +367,13 @@ export interface DataTencentcloudLighthouseBundleFilters {
   /**
   * Field to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle#name DataTencentcloudLighthouseBundle#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle#name DataTencentcloudLighthouseBundle#name}
   */
   readonly name: string;
   /**
   * Filter value of field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle#values DataTencentcloudLighthouseBundle#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle#values DataTencentcloudLighthouseBundle#values}
   */
   readonly values: string[];
 }
@@ -512,7 +512,7 @@ export class DataTencentcloudLighthouseBundleFiltersList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle tencentcloud_lighthouse_bundle}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle tencentcloud_lighthouse_bundle}
 */
 export class DataTencentcloudLighthouseBundle extends cdktf.TerraformDataSource {
 
@@ -528,7 +528,7 @@ export class DataTencentcloudLighthouseBundle extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudLighthouseBundle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudLighthouseBundle to import
-  * @param importFromId The id of the existing DataTencentcloudLighthouseBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudLighthouseBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudLighthouseBundle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -540,7 +540,7 @@ export class DataTencentcloudLighthouseBundle extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/lighthouse_bundle tencentcloud_lighthouse_bundle} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/lighthouse_bundle tencentcloud_lighthouse_bundle} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -551,8 +551,8 @@ export class DataTencentcloudLighthouseBundle extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_lighthouse_bundle',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

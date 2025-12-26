@@ -95,6 +95,11 @@ export class DbServiceClonedFromInfoOutputReference extends cdktf.ComplexObject 
     return this.getStringAttribute('snapshot_time');
   }
 
+  // storage_provider - computed: true, optional: false, required: false
+  public get storageProvider() {
+    return this.getStringAttribute('storage_provider');
+  }
+
   // tessell_service - computed: true, optional: false, required: false
   public get tessellService() {
     return this.getStringAttribute('tessell_service');
@@ -1131,13 +1136,13 @@ export interface DbServiceCreds {
   /**
   * DB Service's master password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#master_password DbService#master_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#master_password DbService#master_password}
   */
   readonly masterPassword: string;
   /**
   * DB Service's master username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#master_user DbService#master_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#master_user DbService#master_user}
   */
   readonly masterUser: string;
 }
@@ -1411,7 +1416,7 @@ export interface DbServiceDatabasesDatabaseConfigurationMilvusConfig {
   /**
   * The parameter profile ID for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
 }
@@ -1497,7 +1502,7 @@ export interface DbServiceDatabasesDatabaseConfigurationMongodbConfig {
   /**
   * The parameter profile ID for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
 }
@@ -1583,13 +1588,13 @@ export interface DbServiceDatabasesDatabaseConfigurationMysqlConfig {
   /**
   * The options profile for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#option_profile_id DbService#option_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#option_profile_id DbService#option_profile_id}
   */
   readonly optionProfileId?: string;
   /**
   * The parameter profile ID for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
 }
@@ -1702,21 +1707,27 @@ export class DbServiceDatabasesDatabaseConfigurationMysqlConfigOutputReference e
 }
 export interface DbServiceDatabasesDatabaseConfigurationOracleConfig {
   /**
-  * The options profile for the database
+  * The option profile id for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#option_profile_id DbService#option_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#option_profile_id DbService#option_profile_id}
   */
   readonly optionProfileId?: string;
   /**
+  * The options profile for the database
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#options_profile DbService#options_profile}
+  */
+  readonly optionsProfile?: string;
+  /**
   * The parameter profile id for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
   /**
   * Username for the oracle database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#username DbService#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#username DbService#username}
   */
   readonly username?: string;
 }
@@ -1728,6 +1739,7 @@ export function dbServiceDatabasesDatabaseConfigurationOracleConfigToTerraform(s
   }
   return {
     option_profile_id: cdktf.stringToTerraform(struct!.optionProfileId),
+    options_profile: cdktf.stringToTerraform(struct!.optionsProfile),
     parameter_profile_id: cdktf.stringToTerraform(struct!.parameterProfileId),
     username: cdktf.stringToTerraform(struct!.username),
   }
@@ -1742,6 +1754,12 @@ export function dbServiceDatabasesDatabaseConfigurationOracleConfigToHclTerrafor
   const attrs = {
     option_profile_id: {
       value: cdktf.stringToHclTerraform(struct!.optionProfileId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    options_profile: {
+      value: cdktf.stringToHclTerraform(struct!.optionsProfile),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1782,6 +1800,10 @@ export class DbServiceDatabasesDatabaseConfigurationOracleConfigOutputReference 
       hasAnyValues = true;
       internalValueResult.optionProfileId = this._optionProfileId;
     }
+    if (this._optionsProfile !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.optionsProfile = this._optionsProfile;
+    }
     if (this._parameterProfileId !== undefined) {
       hasAnyValues = true;
       internalValueResult.parameterProfileId = this._parameterProfileId;
@@ -1797,12 +1819,14 @@ export class DbServiceDatabasesDatabaseConfigurationOracleConfigOutputReference 
     if (value === undefined) {
       this.isEmptyObject = false;
       this._optionProfileId = undefined;
+      this._optionsProfile = undefined;
       this._parameterProfileId = undefined;
       this._username = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._optionProfileId = value.optionProfileId;
+      this._optionsProfile = value.optionsProfile;
       this._parameterProfileId = value.parameterProfileId;
       this._username = value.username;
     }
@@ -1822,6 +1846,22 @@ export class DbServiceDatabasesDatabaseConfigurationOracleConfigOutputReference 
   // Temporarily expose input value. Use with caution.
   public get optionProfileIdInput() {
     return this._optionProfileId;
+  }
+
+  // options_profile - computed: true, optional: true, required: false
+  private _optionsProfile?: string; 
+  public get optionsProfile() {
+    return this.getStringAttribute('options_profile');
+  }
+  public set optionsProfile(value: string) {
+    this._optionsProfile = value;
+  }
+  public resetOptionsProfile() {
+    this._optionsProfile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get optionsProfileInput() {
+    return this._optionsProfile;
   }
 
   // parameter_profile_id - computed: false, optional: true, required: false
@@ -1860,13 +1900,13 @@ export interface DbServiceDatabasesDatabaseConfigurationPostgresqlConfig {
   /**
   * The options profile for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#option_profile_id DbService#option_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#option_profile_id DbService#option_profile_id}
   */
   readonly optionProfileId?: string;
   /**
   * The parameter profile ID for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
 }
@@ -1981,7 +2021,7 @@ export interface DbServiceDatabasesDatabaseConfigurationSqlServerConfig {
   /**
   * The parameter profile ID for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
 }
@@ -2067,37 +2107,37 @@ export interface DbServiceDatabasesDatabaseConfiguration {
   /**
   * milvus_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#milvus_config DbService#milvus_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#milvus_config DbService#milvus_config}
   */
   readonly milvusConfig?: DbServiceDatabasesDatabaseConfigurationMilvusConfig;
   /**
   * mongodb_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#mongodb_config DbService#mongodb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#mongodb_config DbService#mongodb_config}
   */
   readonly mongodbConfig?: DbServiceDatabasesDatabaseConfigurationMongodbConfig;
   /**
   * mysql_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#mysql_config DbService#mysql_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#mysql_config DbService#mysql_config}
   */
   readonly mysqlConfig?: DbServiceDatabasesDatabaseConfigurationMysqlConfig;
   /**
   * oracle_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#oracle_config DbService#oracle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#oracle_config DbService#oracle_config}
   */
   readonly oracleConfig?: DbServiceDatabasesDatabaseConfigurationOracleConfig;
   /**
   * postgresql_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#postgresql_config DbService#postgresql_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#postgresql_config DbService#postgresql_config}
   */
   readonly postgresqlConfig?: DbServiceDatabasesDatabaseConfigurationPostgresqlConfig;
   /**
   * sql_server_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#sql_server_config DbService#sql_server_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#sql_server_config DbService#sql_server_config}
   */
   readonly sqlServerConfig?: DbServiceDatabasesDatabaseConfigurationSqlServerConfig;
 }
@@ -2328,31 +2368,31 @@ export interface DbServiceDatabases {
   /**
   * Database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#database_name DbService#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#database_name DbService#database_name}
   */
   readonly databaseName?: string;
   /**
   * Database description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#description DbService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#description DbService#description}
   */
   readonly description?: string;
   /**
   * Required while creating a clone. It specifies the Id of the source database from which the clone is being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#source_database_id DbService#source_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#source_database_id DbService#source_database_id}
   */
   readonly sourceDatabaseId?: string;
   /**
   * Database created from Tessell platform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#tessell_created DbService#tessell_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#tessell_created DbService#tessell_created}
   */
   readonly tessellCreated?: boolean | cdktf.IResolvable;
   /**
   * database_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#database_configuration DbService#database_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#database_configuration DbService#database_configuration}
   */
   readonly databaseConfiguration?: DbServiceDatabasesDatabaseConfiguration;
 }
@@ -2623,7 +2663,7 @@ export interface DbServiceDeletionConfig {
   /**
   * If specified as true, the associated Availability Machine (snapshots, sanitized-snapshots, logs) would be retained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#retain_availability_machine DbService#retain_availability_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#retain_availability_machine DbService#retain_availability_machine}
   */
   readonly retainAvailabilityMachine?: boolean | cdktf.IResolvable;
 }
@@ -2709,7 +2749,7 @@ export interface DbServiceEngineConfigurationApacheKafkaConfig {
   /**
   * The parameter profile id for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
 }
@@ -2795,7 +2835,7 @@ export interface DbServiceEngineConfigurationCollationConfig {
   /**
   * Collation name for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#collation_name DbService#collation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#collation_name DbService#collation_name}
   */
   readonly collationName?: string;
 }
@@ -2881,7 +2921,7 @@ export interface DbServiceEngineConfigurationMilvusConfig {
   /**
   * The parameter profile ID for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
 }
@@ -2967,13 +3007,13 @@ export interface DbServiceEngineConfigurationMongodbConfig {
   /**
   * The MongoDB Cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#cluster_name DbService#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#cluster_name DbService#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * The parameter profile ID for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
 }
@@ -3088,19 +3128,19 @@ export interface DbServiceEngineConfigurationMysqlConfig {
   /**
   * Active Directory Domain ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#ad_domain_id DbService#ad_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#ad_domain_id DbService#ad_domain_id}
   */
   readonly adDomainId?: string;
   /**
   * The options profile for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#option_profile_id DbService#option_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#option_profile_id DbService#option_profile_id}
   */
   readonly optionProfileId?: string;
   /**
   * The parameter profile ID for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
 }
@@ -3244,43 +3284,49 @@ export interface DbServiceEngineConfigurationOracleConfig {
   /**
   * The character-set for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#character_set DbService#character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#character_set DbService#character_set}
   */
   readonly characterSet?: string;
   /**
   * To explicitly enable archive mode, when PITR is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_archive_mode DbService#enable_archive_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#enable_archive_mode DbService#enable_archive_mode}
   */
   readonly enableArchiveMode?: boolean | cdktf.IResolvable;
   /**
   * Specify whether the DB Service is multi-tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#multi_tenant DbService#multi_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#multi_tenant DbService#multi_tenant}
   */
   readonly multiTenant?: boolean | cdktf.IResolvable;
   /**
   * The national-character-set for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#national_character_set DbService#national_character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#national_character_set DbService#national_character_set}
   */
   readonly nationalCharacterSet?: string;
   /**
   * The options profile for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#option_profile_id DbService#option_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#option_profile_id DbService#option_profile_id}
   */
   readonly optionProfileId?: string;
   /**
+  * The options profile for the database
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#options_profile DbService#options_profile}
+  */
+  readonly optionsProfile?: string;
+  /**
   * The parameter profile id for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
   /**
   * SID for oracle database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#sid DbService#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#sid DbService#sid}
   */
   readonly sid?: string;
 }
@@ -3296,6 +3342,7 @@ export function dbServiceEngineConfigurationOracleConfigToTerraform(struct?: DbS
     multi_tenant: cdktf.booleanToTerraform(struct!.multiTenant),
     national_character_set: cdktf.stringToTerraform(struct!.nationalCharacterSet),
     option_profile_id: cdktf.stringToTerraform(struct!.optionProfileId),
+    options_profile: cdktf.stringToTerraform(struct!.optionsProfile),
     parameter_profile_id: cdktf.stringToTerraform(struct!.parameterProfileId),
     sid: cdktf.stringToTerraform(struct!.sid),
   }
@@ -3334,6 +3381,12 @@ export function dbServiceEngineConfigurationOracleConfigToHclTerraform(struct?: 
     },
     option_profile_id: {
       value: cdktf.stringToHclTerraform(struct!.optionProfileId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    options_profile: {
+      value: cdktf.stringToHclTerraform(struct!.optionsProfile),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3390,6 +3443,10 @@ export class DbServiceEngineConfigurationOracleConfigOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.optionProfileId = this._optionProfileId;
     }
+    if (this._optionsProfile !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.optionsProfile = this._optionsProfile;
+    }
     if (this._parameterProfileId !== undefined) {
       hasAnyValues = true;
       internalValueResult.parameterProfileId = this._parameterProfileId;
@@ -3409,6 +3466,7 @@ export class DbServiceEngineConfigurationOracleConfigOutputReference extends cdk
       this._multiTenant = undefined;
       this._nationalCharacterSet = undefined;
       this._optionProfileId = undefined;
+      this._optionsProfile = undefined;
       this._parameterProfileId = undefined;
       this._sid = undefined;
     }
@@ -3419,6 +3477,7 @@ export class DbServiceEngineConfigurationOracleConfigOutputReference extends cdk
       this._multiTenant = value.multiTenant;
       this._nationalCharacterSet = value.nationalCharacterSet;
       this._optionProfileId = value.optionProfileId;
+      this._optionsProfile = value.optionsProfile;
       this._parameterProfileId = value.parameterProfileId;
       this._sid = value.sid;
     }
@@ -3504,6 +3563,22 @@ export class DbServiceEngineConfigurationOracleConfigOutputReference extends cdk
     return this._optionProfileId;
   }
 
+  // options_profile - computed: true, optional: true, required: false
+  private _optionsProfile?: string; 
+  public get optionsProfile() {
+    return this.getStringAttribute('options_profile');
+  }
+  public set optionsProfile(value: string) {
+    this._optionsProfile = value;
+  }
+  public resetOptionsProfile() {
+    this._optionsProfile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get optionsProfileInput() {
+    return this._optionsProfile;
+  }
+
   // parameter_profile_id - computed: false, optional: true, required: false
   private _parameterProfileId?: string; 
   public get parameterProfileId() {
@@ -3540,13 +3615,13 @@ export interface DbServiceEngineConfigurationPostScriptInfo {
   /**
   * The Tessell Script ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#script_id DbService#script_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#script_id DbService#script_id}
   */
   readonly scriptId?: string;
   /**
   * The Tessell Script version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#script_version DbService#script_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#script_version DbService#script_version}
   */
   readonly scriptVersion?: string;
 }
@@ -3661,23 +3736,27 @@ export interface DbServiceEngineConfigurationPostgresqlConfig {
   /**
   * Active Directory Domain ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#ad_domain_id DbService#ad_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#ad_domain_id DbService#ad_domain_id}
   */
   readonly adDomainId?: string;
   /**
   * The options profile for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#option_profile_id DbService#option_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#option_profile_id DbService#option_profile_id}
   */
   readonly optionProfileId?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#option_profile_name DbService#option_profile_name}
+  */
+  readonly optionProfileName?: string;
+  /**
   * The parameter profile ID for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#proxy_port DbService#proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#proxy_port DbService#proxy_port}
   */
   readonly proxyPort?: number;
 }
@@ -3690,6 +3769,7 @@ export function dbServiceEngineConfigurationPostgresqlConfigToTerraform(struct?:
   return {
     ad_domain_id: cdktf.stringToTerraform(struct!.adDomainId),
     option_profile_id: cdktf.stringToTerraform(struct!.optionProfileId),
+    option_profile_name: cdktf.stringToTerraform(struct!.optionProfileName),
     parameter_profile_id: cdktf.stringToTerraform(struct!.parameterProfileId),
     proxy_port: cdktf.numberToTerraform(struct!.proxyPort),
   }
@@ -3710,6 +3790,12 @@ export function dbServiceEngineConfigurationPostgresqlConfigToHclTerraform(struc
     },
     option_profile_id: {
       value: cdktf.stringToHclTerraform(struct!.optionProfileId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    option_profile_name: {
+      value: cdktf.stringToHclTerraform(struct!.optionProfileName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3754,6 +3840,10 @@ export class DbServiceEngineConfigurationPostgresqlConfigOutputReference extends
       hasAnyValues = true;
       internalValueResult.optionProfileId = this._optionProfileId;
     }
+    if (this._optionProfileName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.optionProfileName = this._optionProfileName;
+    }
     if (this._parameterProfileId !== undefined) {
       hasAnyValues = true;
       internalValueResult.parameterProfileId = this._parameterProfileId;
@@ -3770,6 +3860,7 @@ export class DbServiceEngineConfigurationPostgresqlConfigOutputReference extends
       this.isEmptyObject = false;
       this._adDomainId = undefined;
       this._optionProfileId = undefined;
+      this._optionProfileName = undefined;
       this._parameterProfileId = undefined;
       this._proxyPort = undefined;
     }
@@ -3777,6 +3868,7 @@ export class DbServiceEngineConfigurationPostgresqlConfigOutputReference extends
       this.isEmptyObject = Object.keys(value).length === 0;
       this._adDomainId = value.adDomainId;
       this._optionProfileId = value.optionProfileId;
+      this._optionProfileName = value.optionProfileName;
       this._parameterProfileId = value.parameterProfileId;
       this._proxyPort = value.proxyPort;
     }
@@ -3812,6 +3904,22 @@ export class DbServiceEngineConfigurationPostgresqlConfigOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get optionProfileIdInput() {
     return this._optionProfileId;
+  }
+
+  // option_profile_name - computed: true, optional: true, required: false
+  private _optionProfileName?: string; 
+  public get optionProfileName() {
+    return this.getStringAttribute('option_profile_name');
+  }
+  public set optionProfileName(value: string) {
+    this._optionProfileName = value;
+  }
+  public resetOptionProfileName() {
+    this._optionProfileName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get optionProfileNameInput() {
+    return this._optionProfileName;
   }
 
   // parameter_profile_id - computed: false, optional: true, required: false
@@ -3850,13 +3958,13 @@ export interface DbServiceEngineConfigurationPreScriptInfo {
   /**
   * The Tessell Script ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#script_id DbService#script_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#script_id DbService#script_id}
   */
   readonly scriptId?: string;
   /**
   * The Tessell Script version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#script_version DbService#script_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#script_version DbService#script_version}
   */
   readonly scriptVersion?: string;
 }
@@ -3971,21 +4079,27 @@ export interface DbServiceEngineConfigurationSqlServerConfig {
   /**
   * Active Directory Domain ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#ad_domain_id DbService#ad_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#ad_domain_id DbService#ad_domain_id}
   */
   readonly adDomainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#agent_service_account_user DbService#agent_service_account_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#agent_service_account_user DbService#agent_service_account_user}
   */
   readonly agentServiceAccountUser?: string;
   /**
+  * The named instance for SQL Server database (max 16 characters as per SQL Server limitation)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#instance_name DbService#instance_name}
+  */
+  readonly instanceName?: string;
+  /**
   * The parameter profile ID for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#parameter_profile_id DbService#parameter_profile_id}
   */
   readonly parameterProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#service_account_user DbService#service_account_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#service_account_user DbService#service_account_user}
   */
   readonly serviceAccountUser?: string;
 }
@@ -3998,6 +4112,7 @@ export function dbServiceEngineConfigurationSqlServerConfigToTerraform(struct?: 
   return {
     ad_domain_id: cdktf.stringToTerraform(struct!.adDomainId),
     agent_service_account_user: cdktf.stringToTerraform(struct!.agentServiceAccountUser),
+    instance_name: cdktf.stringToTerraform(struct!.instanceName),
     parameter_profile_id: cdktf.stringToTerraform(struct!.parameterProfileId),
     service_account_user: cdktf.stringToTerraform(struct!.serviceAccountUser),
   }
@@ -4018,6 +4133,12 @@ export function dbServiceEngineConfigurationSqlServerConfigToHclTerraform(struct
     },
     agent_service_account_user: {
       value: cdktf.stringToHclTerraform(struct!.agentServiceAccountUser),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instance_name: {
+      value: cdktf.stringToHclTerraform(struct!.instanceName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4062,6 +4183,10 @@ export class DbServiceEngineConfigurationSqlServerConfigOutputReference extends 
       hasAnyValues = true;
       internalValueResult.agentServiceAccountUser = this._agentServiceAccountUser;
     }
+    if (this._instanceName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceName = this._instanceName;
+    }
     if (this._parameterProfileId !== undefined) {
       hasAnyValues = true;
       internalValueResult.parameterProfileId = this._parameterProfileId;
@@ -4078,6 +4203,7 @@ export class DbServiceEngineConfigurationSqlServerConfigOutputReference extends 
       this.isEmptyObject = false;
       this._adDomainId = undefined;
       this._agentServiceAccountUser = undefined;
+      this._instanceName = undefined;
       this._parameterProfileId = undefined;
       this._serviceAccountUser = undefined;
     }
@@ -4085,6 +4211,7 @@ export class DbServiceEngineConfigurationSqlServerConfigOutputReference extends 
       this.isEmptyObject = Object.keys(value).length === 0;
       this._adDomainId = value.adDomainId;
       this._agentServiceAccountUser = value.agentServiceAccountUser;
+      this._instanceName = value.instanceName;
       this._parameterProfileId = value.parameterProfileId;
       this._serviceAccountUser = value.serviceAccountUser;
     }
@@ -4120,6 +4247,22 @@ export class DbServiceEngineConfigurationSqlServerConfigOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get agentServiceAccountUserInput() {
     return this._agentServiceAccountUser;
+  }
+
+  // instance_name - computed: false, optional: true, required: false
+  private _instanceName?: string; 
+  public get instanceName() {
+    return this.getStringAttribute('instance_name');
+  }
+  public set instanceName(value: string) {
+    this._instanceName = value;
+  }
+  public resetInstanceName() {
+    this._instanceName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceNameInput() {
+    return this._instanceName;
   }
 
   // parameter_profile_id - computed: false, optional: true, required: false
@@ -4158,75 +4301,75 @@ export interface DbServiceEngineConfiguration {
   /**
   * The URL where the backup is stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#backup_url DbService#backup_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#backup_url DbService#backup_url}
   */
   readonly backupUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#ignore_post_script_failure DbService#ignore_post_script_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#ignore_post_script_failure DbService#ignore_post_script_failure}
   */
   readonly ignorePostScriptFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#ignore_pre_script_failure DbService#ignore_pre_script_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#ignore_pre_script_failure DbService#ignore_pre_script_failure}
   */
   readonly ignorePreScriptFailure?: boolean | cdktf.IResolvable;
   /**
   * apache_kafka_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#apache_kafka_config DbService#apache_kafka_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#apache_kafka_config DbService#apache_kafka_config}
   */
   readonly apacheKafkaConfig?: DbServiceEngineConfigurationApacheKafkaConfig;
   /**
   * collation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#collation_config DbService#collation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#collation_config DbService#collation_config}
   */
   readonly collationConfig?: DbServiceEngineConfigurationCollationConfig;
   /**
   * milvus_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#milvus_config DbService#milvus_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#milvus_config DbService#milvus_config}
   */
   readonly milvusConfig?: DbServiceEngineConfigurationMilvusConfig;
   /**
   * mongodb_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#mongodb_config DbService#mongodb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#mongodb_config DbService#mongodb_config}
   */
   readonly mongodbConfig?: DbServiceEngineConfigurationMongodbConfig;
   /**
   * mysql_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#mysql_config DbService#mysql_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#mysql_config DbService#mysql_config}
   */
   readonly mysqlConfig?: DbServiceEngineConfigurationMysqlConfig;
   /**
   * oracle_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#oracle_config DbService#oracle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#oracle_config DbService#oracle_config}
   */
   readonly oracleConfig?: DbServiceEngineConfigurationOracleConfig;
   /**
   * post_script_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#post_script_info DbService#post_script_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#post_script_info DbService#post_script_info}
   */
   readonly postScriptInfo?: DbServiceEngineConfigurationPostScriptInfo;
   /**
   * postgresql_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#postgresql_config DbService#postgresql_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#postgresql_config DbService#postgresql_config}
   */
   readonly postgresqlConfig?: DbServiceEngineConfigurationPostgresqlConfig;
   /**
   * pre_script_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#pre_script_info DbService#pre_script_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#pre_script_info DbService#pre_script_info}
   */
   readonly preScriptInfo?: DbServiceEngineConfigurationPreScriptInfo;
   /**
   * sql_server_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#sql_server_config DbService#sql_server_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#sql_server_config DbService#sql_server_config}
   */
   readonly sqlServerConfig?: DbServiceEngineConfigurationSqlServerConfig;
 }
@@ -5133,7 +5276,7 @@ export interface DbServiceInfrastructureAwsInfraConfigAwsCpuOptions {
   /**
   * Number of vcpus for aws cpu options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#vcpus DbService#vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#vcpus DbService#vcpus}
   */
   readonly vcpus?: number;
 }
@@ -5219,7 +5362,7 @@ export interface DbServiceInfrastructureAwsInfraConfig {
   /**
   * aws_cpu_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#aws_cpu_options DbService#aws_cpu_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#aws_cpu_options DbService#aws_cpu_options}
   */
   readonly awsCpuOptions?: DbServiceInfrastructureAwsInfraConfigAwsCpuOptions;
 }
@@ -5303,7 +5446,7 @@ export class DbServiceInfrastructureAwsInfraConfigOutputReference extends cdktf.
 }
 export interface DbServiceInfrastructureComputesArchiveStorageConfigAzureNetAppConfigConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#network_features DbService#network_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#network_features DbService#network_features}
   */
   readonly networkFeatures?: string;
 }
@@ -5389,19 +5532,19 @@ export interface DbServiceInfrastructureComputesArchiveStorageConfigAzureNetAppC
   /**
   * Azure NetApp Id registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#azure_net_app_id DbService#azure_net_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#azure_net_app_id DbService#azure_net_app_id}
   */
   readonly azureNetAppId?: string;
   /**
   * Capacity pool Id of the Azure NetApp registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#capacity_pool_id DbService#capacity_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#capacity_pool_id DbService#capacity_pool_id}
   */
   readonly capacityPoolId?: string;
   /**
   * configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#configurations DbService#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#configurations DbService#configurations}
   */
   readonly configurations?: DbServiceInfrastructureComputesArchiveStorageConfigAzureNetAppConfigConfigurations;
 }
@@ -5545,13 +5688,13 @@ export interface DbServiceInfrastructureComputesArchiveStorageConfigFsxNetAppCon
   /**
   * File System Id of the FSx NetApp registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#file_system_id DbService#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#file_system_id DbService#file_system_id}
   */
   readonly fileSystemId: string;
   /**
   * Storage Virtual Machine Id of the FSx NetApp registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#svm_id DbService#svm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#svm_id DbService#svm_id}
   */
   readonly svmId: string;
 }
@@ -5658,19 +5801,19 @@ export class DbServiceInfrastructureComputesArchiveStorageConfigFsxNetAppConfigO
 }
 export interface DbServiceInfrastructureComputesArchiveStorageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#provider DbService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#provider DbService#provider}
   */
   readonly provider: string;
   /**
   * azure_net_app_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#azure_net_app_config DbService#azure_net_app_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#azure_net_app_config DbService#azure_net_app_config}
   */
   readonly azureNetAppConfig?: DbServiceInfrastructureComputesArchiveStorageConfigAzureNetAppConfig;
   /**
   * fsx_net_app_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#fsx_net_app_config DbService#fsx_net_app_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#fsx_net_app_config DbService#fsx_net_app_config}
   */
   readonly fsxNetAppConfig?: DbServiceInfrastructureComputesArchiveStorageConfigFsxNetAppConfig;
 }
@@ -5809,15 +5952,15 @@ export class DbServiceInfrastructureComputesArchiveStorageConfigOutputReference 
 }
 export interface DbServiceInfrastructureComputesComputeConfigExadataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#compute_id DbService#compute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#compute_id DbService#compute_id}
   */
   readonly computeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#infrastructure_id DbService#infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#infrastructure_id DbService#infrastructure_id}
   */
   readonly infrastructureId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#vm_cluster_id DbService#vm_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#vm_cluster_id DbService#vm_cluster_id}
   */
   readonly vmClusterId: string;
 }
@@ -5953,13 +6096,13 @@ export class DbServiceInfrastructureComputesComputeConfigExadataConfigOutputRefe
 }
 export interface DbServiceInfrastructureComputesComputeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#provider DbService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#provider DbService#provider}
   */
   readonly provider: string;
   /**
   * exadata_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#exadata_config DbService#exadata_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#exadata_config DbService#exadata_config}
   */
   readonly exadataConfig?: DbServiceInfrastructureComputesComputeConfigExadataConfig;
 }
@@ -6069,7 +6212,7 @@ export class DbServiceInfrastructureComputesComputeConfigOutputReference extends
 }
 export interface DbServiceInfrastructureComputesStorageConfigAzureNetAppConfigConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#network_features DbService#network_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#network_features DbService#network_features}
   */
   readonly networkFeatures?: string;
 }
@@ -6155,19 +6298,19 @@ export interface DbServiceInfrastructureComputesStorageConfigAzureNetAppConfig {
   /**
   * Azure NetApp Id registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#azure_net_app_id DbService#azure_net_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#azure_net_app_id DbService#azure_net_app_id}
   */
   readonly azureNetAppId?: string;
   /**
   * Capacity pool Id of the Azure NetApp registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#capacity_pool_id DbService#capacity_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#capacity_pool_id DbService#capacity_pool_id}
   */
   readonly capacityPoolId?: string;
   /**
   * configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#configurations DbService#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#configurations DbService#configurations}
   */
   readonly configurations?: DbServiceInfrastructureComputesStorageConfigAzureNetAppConfigConfigurations;
 }
@@ -6311,13 +6454,13 @@ export interface DbServiceInfrastructureComputesStorageConfigFsxNetAppConfig {
   /**
   * File System Id of the FSx NetApp registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#file_system_id DbService#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#file_system_id DbService#file_system_id}
   */
   readonly fileSystemId: string;
   /**
   * Storage Virtual Machine Id of the FSx NetApp registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#svm_id DbService#svm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#svm_id DbService#svm_id}
   */
   readonly svmId: string;
 }
@@ -6424,19 +6567,19 @@ export class DbServiceInfrastructureComputesStorageConfigFsxNetAppConfigOutputRe
 }
 export interface DbServiceInfrastructureComputesStorageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#provider DbService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#provider DbService#provider}
   */
   readonly provider: string;
   /**
   * azure_net_app_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#azure_net_app_config DbService#azure_net_app_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#azure_net_app_config DbService#azure_net_app_config}
   */
   readonly azureNetAppConfig?: DbServiceInfrastructureComputesStorageConfigAzureNetAppConfig;
   /**
   * fsx_net_app_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#fsx_net_app_config DbService#fsx_net_app_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#fsx_net_app_config DbService#fsx_net_app_config}
   */
   readonly fsxNetAppConfig?: DbServiceInfrastructureComputesStorageConfigFsxNetAppConfig;
 }
@@ -6577,79 +6720,79 @@ export interface DbServiceInfrastructureComputes {
   /**
   * The availability-zone in which the compute is to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#availability_zone DbService#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#availability_zone DbService#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Specify the compute resource if it has to be shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#compute_id DbService#compute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#compute_id DbService#compute_id}
   */
   readonly computeId?: string;
   /**
   * The compute-name of instance provided by the User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#compute_name DbService#compute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#compute_name DbService#compute_name}
   */
   readonly computeName?: string;
   /**
   * The compute-type to be used for provisioning the compute resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#compute_type DbService#compute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#compute_type DbService#compute_type}
   */
   readonly computeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#instance_group_name DbService#instance_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#instance_group_name DbService#instance_group_name}
   */
   readonly instanceGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#name DbService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#name DbService#name}
   */
   readonly name?: string;
   /**
   * The private subnet to be used for provisioning the compute resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#private_subnet DbService#private_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#private_subnet DbService#private_subnet}
   */
   readonly privateSubnet?: string;
   /**
   * The region in which the compute is to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#region DbService#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#region DbService#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#role DbService#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#role DbService#role}
   */
   readonly role?: string;
   /**
   * The timezone detail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#timezone DbService#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#timezone DbService#timezone}
   */
   readonly timezone?: string;
   /**
   * The VPC to be used for provisioning the compute resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#vpc DbService#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#vpc DbService#vpc}
   */
   readonly vpc?: string;
   /**
   * archive_storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#archive_storage_config DbService#archive_storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#archive_storage_config DbService#archive_storage_config}
   */
   readonly archiveStorageConfig?: DbServiceInfrastructureComputesArchiveStorageConfig;
   /**
   * compute_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#compute_config DbService#compute_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#compute_config DbService#compute_config}
   */
   readonly computeConfig?: DbServiceInfrastructureComputesComputeConfig;
   /**
   * storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#storage_config DbService#storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#storage_config DbService#storage_config}
   */
   readonly storageConfig?: DbServiceInfrastructureComputesStorageConfig;
 }
@@ -7144,95 +7287,95 @@ export interface DbServiceInfrastructure {
   /**
   * Storage in bytes that is over and above the storage included with compute. This is maintained for backward compatibility and would be deprecated soon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#additional_storage DbService#additional_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#additional_storage DbService#additional_storage}
   */
   readonly additionalStorage?: number;
   /**
   * The availability-zone in which the DB Service is provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#availability_zone DbService#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#availability_zone DbService#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The cloud-type in which the DB Service is provisioned (ex. aws, azure)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#cloud DbService#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#cloud DbService#cloud}
   */
   readonly cloud?: string;
   /**
   * If not specified, it will be autogenerated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#compute_name_prefix DbService#compute_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#compute_name_prefix DbService#compute_name_prefix}
   */
   readonly computeNamePrefix?: string;
   /**
   * The compute-type to be used for provisioning the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#compute_type DbService#compute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#compute_type DbService#compute_type}
   */
   readonly computeType?: string;
   /**
   * Specify if the computes should be shared across DB Services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_compute_sharing DbService#enable_compute_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#enable_compute_sharing DbService#enable_compute_sharing}
   */
   readonly enableComputeSharing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_encryption DbService#enable_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#enable_encryption DbService#enable_encryption}
   */
   readonly enableEncryption?: boolean | cdktf.IResolvable;
   /**
   * The encryption key name which is used to encrypt the data at rest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#encryption_key DbService#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#encryption_key DbService#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
   * IOPS requested for the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#iops DbService#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#iops DbService#iops}
   */
   readonly iops?: number;
   /**
   * The private subnet to be used for provisioning the compute resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#private_subnet DbService#private_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#private_subnet DbService#private_subnet}
   */
   readonly privateSubnet?: string;
   /**
   * The region in which the DB Service provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#region DbService#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#region DbService#region}
   */
   readonly region?: string;
   /**
   * throughput requested for the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#throughput DbService#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#throughput DbService#throughput}
   */
   readonly throughput?: number;
   /**
   * The timezone detail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#timezone DbService#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#timezone DbService#timezone}
   */
   readonly timezone?: string;
   /**
   * The VPC to be used for provisioning the DB Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#vpc DbService#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#vpc DbService#vpc}
   */
   readonly vpc?: string;
   /**
   * aws_infra_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#aws_infra_config DbService#aws_infra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#aws_infra_config DbService#aws_infra_config}
   */
   readonly awsInfraConfig?: DbServiceInfrastructureAwsInfraConfig;
   /**
   * computes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#computes DbService#computes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#computes DbService#computes}
   */
   readonly computes?: DbServiceInfrastructureComputes[] | cdktf.IResolvable;
 }
@@ -8313,26 +8456,26 @@ export interface DbServiceInstancesArchiveStorageConfigAzureNetAppConfigEncrypti
   /**
   * Id of the encryption key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#id DbService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#id DbService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#key_source DbService#key_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#key_source DbService#key_source}
   */
   readonly keySource?: string;
   /**
   * name of the encryption key vault in cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#key_vault_cloud_resource_id DbService#key_vault_cloud_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#key_vault_cloud_resource_id DbService#key_vault_cloud_resource_id}
   */
   readonly keyVaultCloudResourceId?: string;
   /**
   * name of the encryption key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#name DbService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#name DbService#name}
   */
   readonly name?: string;
 }
@@ -8505,51 +8648,51 @@ export interface DbServiceInstancesArchiveStorageConfigAzureNetAppConfig {
   /**
   * Azure NetApp Id registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#azure_net_app_id DbService#azure_net_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#azure_net_app_id DbService#azure_net_app_id}
   */
   readonly azureNetAppId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#azure_net_app_name DbService#azure_net_app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#azure_net_app_name DbService#azure_net_app_name}
   */
   readonly azureNetAppName?: string;
   /**
   * Capacity Pool Id of the Azure NetApp registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#capacity_pool_id DbService#capacity_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#capacity_pool_id DbService#capacity_pool_id}
   */
   readonly capacityPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#capacity_pool_name DbService#capacity_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#capacity_pool_name DbService#capacity_pool_name}
   */
   readonly capacityPoolName?: string;
   /**
   * Delegated Subnet name registered with Tessell for the Azure NetApp volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#delegated_subnet_id DbService#delegated_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#delegated_subnet_id DbService#delegated_subnet_id}
   */
   readonly delegatedSubnetId?: string;
   /**
   * Delegated Subnet Id registered with Tessell for the Azure NetApp volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#delegated_subnet_name DbService#delegated_subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#delegated_subnet_name DbService#delegated_subnet_name}
   */
   readonly delegatedSubnetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#network_features DbService#network_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#network_features DbService#network_features}
   */
   readonly networkFeatures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#service_level DbService#service_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#service_level DbService#service_level}
   */
   readonly serviceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#volume_name DbService#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#volume_name DbService#volume_name}
   */
   readonly volumeName?: string;
   /**
   * encryption_key_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#encryption_key_info DbService#encryption_key_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#encryption_key_info DbService#encryption_key_info}
   */
   readonly encryptionKeyInfo?: DbServiceInstancesArchiveStorageConfigAzureNetAppConfigEncryptionKeyInfo;
 }
@@ -8896,25 +9039,25 @@ export interface DbServiceInstancesArchiveStorageConfigFsxNetAppConfig {
   /**
   * File System Id of the FSx NetApp registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#file_system_id DbService#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#file_system_id DbService#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#file_system_name DbService#file_system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#file_system_name DbService#file_system_name}
   */
   readonly fileSystemName?: string;
   /**
   * Storage Virtual Machine Id of the FSx NetApp registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#svm_id DbService#svm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#svm_id DbService#svm_id}
   */
   readonly svmId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#svm_name DbService#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#svm_name DbService#svm_name}
   */
   readonly svmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#volume_name DbService#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#volume_name DbService#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -9114,25 +9257,25 @@ export class DbServiceInstancesArchiveStorageConfigFsxNetAppConfigOutputReferenc
 }
 export interface DbServiceInstancesArchiveStorageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#provider DbService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#provider DbService#provider}
   */
   readonly provider?: string;
   /**
   * Data disk volume type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#volume_type DbService#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#volume_type DbService#volume_type}
   */
   readonly volumeType?: string;
   /**
   * azure_net_app_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#azure_net_app_config DbService#azure_net_app_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#azure_net_app_config DbService#azure_net_app_config}
   */
   readonly azureNetAppConfig?: DbServiceInstancesArchiveStorageConfigAzureNetAppConfig;
   /**
   * fsx_net_app_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#fsx_net_app_config DbService#fsx_net_app_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#fsx_net_app_config DbService#fsx_net_app_config}
   */
   readonly fsxNetAppConfig?: DbServiceInstancesArchiveStorageConfigFsxNetAppConfig;
 }
@@ -9337,7 +9480,7 @@ export interface DbServiceInstancesAwsInfraConfigAwsCpuOptions {
   /**
   * Number of vcpus for aws cpu options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#vcpus DbService#vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#vcpus DbService#vcpus}
   */
   readonly vcpus?: number;
 }
@@ -9455,7 +9598,7 @@ export interface DbServiceInstancesAwsInfraConfig {
   /**
   * aws_cpu_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#aws_cpu_options DbService#aws_cpu_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#aws_cpu_options DbService#aws_cpu_options}
   */
   readonly awsCpuOptions?: DbServiceInstancesAwsInfraConfigAwsCpuOptions[] | cdktf.IResolvable;
 }
@@ -9571,29 +9714,29 @@ export class DbServiceInstancesAwsInfraConfigList extends cdktf.ComplexList {
 }
 export interface DbServiceInstancesComputeConfigExadataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#infrastructure_id DbService#infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#infrastructure_id DbService#infrastructure_id}
   */
   readonly infrastructureId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#infrastructure_name DbService#infrastructure_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#infrastructure_name DbService#infrastructure_name}
   */
-  readonly infrastructureName: string;
+  readonly infrastructureName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#memory DbService#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#memory DbService#memory}
   */
-  readonly memory: number;
+  readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#vcpus DbService#vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#vcpus DbService#vcpus}
   */
-  readonly vcpus: number;
+  readonly vcpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#vm_cluster_id DbService#vm_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#vm_cluster_id DbService#vm_cluster_id}
   */
   readonly vmClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#vm_cluster_name DbService#vm_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#vm_cluster_name DbService#vm_cluster_name}
   */
-  readonly vmClusterName: string;
+  readonly vmClusterName?: string;
 }
 
 export function dbServiceInstancesComputeConfigExadataConfigToTerraform(struct?: DbServiceInstancesComputeConfigExadataConfigOutputReference | DbServiceInstancesComputeConfigExadataConfig): any {
@@ -9735,7 +9878,7 @@ export class DbServiceInstancesComputeConfigExadataConfigOutputReference extends
     return this._infrastructureId;
   }
 
-  // infrastructure_name - computed: false, optional: false, required: true
+  // infrastructure_name - computed: true, optional: true, required: false
   private _infrastructureName?: string; 
   public get infrastructureName() {
     return this.getStringAttribute('infrastructure_name');
@@ -9743,12 +9886,15 @@ export class DbServiceInstancesComputeConfigExadataConfigOutputReference extends
   public set infrastructureName(value: string) {
     this._infrastructureName = value;
   }
+  public resetInfrastructureName() {
+    this._infrastructureName = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get infrastructureNameInput() {
     return this._infrastructureName;
   }
 
-  // memory - computed: false, optional: false, required: true
+  // memory - computed: true, optional: true, required: false
   private _memory?: number; 
   public get memory() {
     return this.getNumberAttribute('memory');
@@ -9756,18 +9902,24 @@ export class DbServiceInstancesComputeConfigExadataConfigOutputReference extends
   public set memory(value: number) {
     this._memory = value;
   }
+  public resetMemory() {
+    this._memory = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get memoryInput() {
     return this._memory;
   }
 
-  // vcpus - computed: false, optional: false, required: true
+  // vcpus - computed: true, optional: true, required: false
   private _vcpus?: number; 
   public get vcpus() {
     return this.getNumberAttribute('vcpus');
   }
   public set vcpus(value: number) {
     this._vcpus = value;
+  }
+  public resetVcpus() {
+    this._vcpus = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get vcpusInput() {
@@ -9787,13 +9939,16 @@ export class DbServiceInstancesComputeConfigExadataConfigOutputReference extends
     return this._vmClusterId;
   }
 
-  // vm_cluster_name - computed: false, optional: false, required: true
+  // vm_cluster_name - computed: true, optional: true, required: false
   private _vmClusterName?: string; 
   public get vmClusterName() {
     return this.getStringAttribute('vm_cluster_name');
   }
   public set vmClusterName(value: string) {
     this._vmClusterName = value;
+  }
+  public resetVmClusterName() {
+    this._vmClusterName = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get vmClusterNameInput() {
@@ -9802,13 +9957,13 @@ export class DbServiceInstancesComputeConfigExadataConfigOutputReference extends
 }
 export interface DbServiceInstancesComputeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#provider DbService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#provider DbService#provider}
   */
   readonly provider?: string;
   /**
   * exadata_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#exadata_config DbService#exadata_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#exadata_config DbService#exadata_config}
   */
   readonly exadataConfig?: DbServiceInstancesComputeConfigExadataConfig;
 }
@@ -9921,7 +10076,7 @@ export class DbServiceInstancesComputeConfigOutputReference extends cdktf.Comple
 }
 export interface DbServiceInstancesEngineConfigurationOracleConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#access_mode DbService#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#access_mode DbService#access_mode}
   */
   readonly accessMode?: string;
 }
@@ -10039,7 +10194,7 @@ export interface DbServiceInstancesEngineConfiguration {
   /**
   * oracle_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#oracle_config DbService#oracle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#oracle_config DbService#oracle_config}
   */
   readonly oracleConfig?: DbServiceInstancesEngineConfigurationOracleConfig[] | cdktf.IResolvable;
 }
@@ -10157,11 +10312,11 @@ export interface DbServiceInstancesPrivateLinkInfo {
   /**
   * The list of Azure subscription Ids. This is only applicable for DB Services hosted on AZURE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#client_azure_subscription_ids DbService#client_azure_subscription_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#client_azure_subscription_ids DbService#client_azure_subscription_ids}
   */
   readonly clientAzureSubscriptionIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#id DbService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#id DbService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10170,17 +10325,17 @@ export interface DbServiceInstancesPrivateLinkInfo {
   /**
   * The Azure private link service alias
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#private_link_service_alias DbService#private_link_service_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#private_link_service_alias DbService#private_link_service_alias}
   */
   readonly privateLinkServiceAlias?: string;
   /**
   * The list of AWS account principals that are currently enabled. This is only applicable for DB Services hosted on AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#service_principals DbService#service_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#service_principals DbService#service_principals}
   */
   readonly servicePrincipals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#status DbService#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#status DbService#status}
   */
   readonly status?: string;
 }
@@ -10387,26 +10542,26 @@ export interface DbServiceInstancesStorageConfigAzureNetAppConfigEncryptionKeyIn
   /**
   * Id of the encryption key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#id DbService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#id DbService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#key_source DbService#key_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#key_source DbService#key_source}
   */
   readonly keySource?: string;
   /**
   * name of the encryption key vault in cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#key_vault_cloud_resource_id DbService#key_vault_cloud_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#key_vault_cloud_resource_id DbService#key_vault_cloud_resource_id}
   */
   readonly keyVaultCloudResourceId?: string;
   /**
   * name of the encryption key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#name DbService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#name DbService#name}
   */
   readonly name?: string;
 }
@@ -10579,51 +10734,51 @@ export interface DbServiceInstancesStorageConfigAzureNetAppConfig {
   /**
   * Azure NetApp Id registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#azure_net_app_id DbService#azure_net_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#azure_net_app_id DbService#azure_net_app_id}
   */
   readonly azureNetAppId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#azure_net_app_name DbService#azure_net_app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#azure_net_app_name DbService#azure_net_app_name}
   */
   readonly azureNetAppName?: string;
   /**
   * Capacity Pool Id of the Azure NetApp registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#capacity_pool_id DbService#capacity_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#capacity_pool_id DbService#capacity_pool_id}
   */
   readonly capacityPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#capacity_pool_name DbService#capacity_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#capacity_pool_name DbService#capacity_pool_name}
   */
   readonly capacityPoolName?: string;
   /**
   * Delegated Subnet name registered with Tessell for the Azure NetApp volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#delegated_subnet_id DbService#delegated_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#delegated_subnet_id DbService#delegated_subnet_id}
   */
   readonly delegatedSubnetId?: string;
   /**
   * Delegated Subnet Id registered with Tessell for the Azure NetApp volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#delegated_subnet_name DbService#delegated_subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#delegated_subnet_name DbService#delegated_subnet_name}
   */
   readonly delegatedSubnetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#network_features DbService#network_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#network_features DbService#network_features}
   */
   readonly networkFeatures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#service_level DbService#service_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#service_level DbService#service_level}
   */
   readonly serviceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#volume_name DbService#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#volume_name DbService#volume_name}
   */
   readonly volumeName?: string;
   /**
   * encryption_key_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#encryption_key_info DbService#encryption_key_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#encryption_key_info DbService#encryption_key_info}
   */
   readonly encryptionKeyInfo?: DbServiceInstancesStorageConfigAzureNetAppConfigEncryptionKeyInfo;
 }
@@ -10970,25 +11125,25 @@ export interface DbServiceInstancesStorageConfigFsxNetAppConfig {
   /**
   * File System Id of the FSx NetApp registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#file_system_id DbService#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#file_system_id DbService#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#file_system_name DbService#file_system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#file_system_name DbService#file_system_name}
   */
   readonly fileSystemName?: string;
   /**
   * Storage Virtual Machine Id of the FSx NetApp registered with Tessell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#svm_id DbService#svm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#svm_id DbService#svm_id}
   */
   readonly svmId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#svm_name DbService#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#svm_name DbService#svm_name}
   */
   readonly svmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#volume_name DbService#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#volume_name DbService#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -11220,25 +11375,25 @@ export class DbServiceInstancesStorageConfigFsxNetAppConfigList extends cdktf.Co
 }
 export interface DbServiceInstancesStorageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#provider DbService#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#provider DbService#provider}
   */
   readonly provider?: string;
   /**
   * Data disk volume type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#volume_type DbService#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#volume_type DbService#volume_type}
   */
   readonly volumeType?: string;
   /**
   * azure_net_app_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#azure_net_app_config DbService#azure_net_app_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#azure_net_app_config DbService#azure_net_app_config}
   */
   readonly azureNetAppConfig?: DbServiceInstancesStorageConfigAzureNetAppConfig;
   /**
   * fsx_net_app_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#fsx_net_app_config DbService#fsx_net_app_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#fsx_net_app_config DbService#fsx_net_app_config}
   */
   readonly fsxNetAppConfig?: DbServiceInstancesStorageConfigFsxNetAppConfig[] | cdktf.IResolvable;
 }
@@ -11443,121 +11598,121 @@ export interface DbServiceInstances {
   /**
   * DB Service Instance's cloud availability zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#availability_zone DbService#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#availability_zone DbService#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The associated compute identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#compute_id DbService#compute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#compute_id DbService#compute_id}
   */
   readonly computeId?: string;
   /**
   * The compute used for creation of the Tessell Service Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#compute_type DbService#compute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#compute_type DbService#compute_type}
   */
-  readonly computeType: string;
+  readonly computeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#data_volume_iops DbService#data_volume_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#data_volume_iops DbService#data_volume_iops}
   */
   readonly dataVolumeIops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_perf_insights DbService#enable_perf_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#enable_perf_insights DbService#enable_perf_insights}
   */
   readonly enablePerfInsights?: boolean | cdktf.IResolvable;
   /**
   * The encryption key name which is used to encrypt the data at rest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#encryption_key DbService#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#encryption_key DbService#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
   * Name of the instance group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#instance_group_name DbService#instance_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#instance_group_name DbService#instance_group_name}
   */
   readonly instanceGroupName: string;
   /**
   * Name of the DB Service Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#name DbService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#name DbService#name}
   */
   readonly name: string;
   /**
   * The private subnet used for creation of the DB Service Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#private_subnet DbService#private_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#private_subnet DbService#private_subnet}
   */
   readonly privateSubnet?: string;
   /**
   * DB Service Instance's cloud region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#region DbService#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#region DbService#region}
   */
   readonly region: string;
   /**
   * DB Service instance role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#role DbService#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#role DbService#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#sync_mode DbService#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#sync_mode DbService#sync_mode}
   */
   readonly syncMode?: string;
   /**
   * Throughput requested for this DB Service instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#throughput DbService#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#throughput DbService#throughput}
   */
   readonly throughput?: number;
   /**
   * DB Service instance type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#type DbService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#type DbService#type}
   */
   readonly type?: string;
   /**
   * The VPC used for creation of the DB Service Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#vpc DbService#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#vpc DbService#vpc}
   */
   readonly vpc: string;
   /**
   * archive_storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#archive_storage_config DbService#archive_storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#archive_storage_config DbService#archive_storage_config}
   */
   readonly archiveStorageConfig?: DbServiceInstancesArchiveStorageConfig[] | cdktf.IResolvable;
   /**
   * aws_infra_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#aws_infra_config DbService#aws_infra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#aws_infra_config DbService#aws_infra_config}
   */
   readonly awsInfraConfig?: DbServiceInstancesAwsInfraConfig[] | cdktf.IResolvable;
   /**
   * compute_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#compute_config DbService#compute_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#compute_config DbService#compute_config}
   */
   readonly computeConfig?: DbServiceInstancesComputeConfig;
   /**
   * engine_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#engine_configuration DbService#engine_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#engine_configuration DbService#engine_configuration}
   */
   readonly engineConfiguration?: DbServiceInstancesEngineConfiguration[] | cdktf.IResolvable;
   /**
   * private_link_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#private_link_info DbService#private_link_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#private_link_info DbService#private_link_info}
   */
   readonly privateLinkInfo?: DbServiceInstancesPrivateLinkInfo;
   /**
   * storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#storage_config DbService#storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#storage_config DbService#storage_config}
   */
   readonly storageConfig?: DbServiceInstancesStorageConfig[] | cdktf.IResolvable;
 }
@@ -11937,13 +12092,16 @@ export class DbServiceInstancesOutputReference extends cdktf.ComplexObject {
     return this.getStringAttribute('compute_name');
   }
 
-  // compute_type - computed: false, optional: false, required: true
+  // compute_type - computed: true, optional: true, required: false
   private _computeType?: string; 
   public get computeType() {
     return this.getStringAttribute('compute_type');
   }
   public set computeType(value: string) {
     this._computeType = value;
+  }
+  public resetComputeType() {
+    this._computeType = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get computeTypeInput() {
@@ -12330,7 +12488,7 @@ export class DbServiceInstancesList extends cdktf.ComplexList {
 }
 export interface DbServiceIntegrationsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#integrations DbService#integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#integrations DbService#integrations}
   */
   readonly integrations?: string[];
 }
@@ -12414,19 +12572,19 @@ export class DbServiceIntegrationsConfigOutputReference extends cdktf.ComplexObj
 }
 export interface DbServiceMaintenanceWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#day DbService#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#day DbService#day}
   */
   readonly day: string;
   /**
   * The duration during which the maintenance window will be allowed to trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#duration DbService#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#duration DbService#duration}
   */
   readonly duration: number;
   /**
   * Time value in (hh:mm) format. ex. '02:00'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#time DbService#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#time DbService#time}
   */
   readonly time: string;
 }
@@ -12559,11 +12717,11 @@ export class DbServiceMaintenanceWindowOutputReference extends cdktf.ComplexObje
 }
 export interface DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleBackupStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#hour DbService#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#hour DbService#hour}
   */
   readonly hour: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#minute DbService#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#minute DbService#minute}
   */
   readonly minute: number;
 }
@@ -12672,7 +12830,7 @@ export interface DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleDail
   /**
   * The number of backups to be captured per day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#backups_per_day DbService#backups_per_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#backups_per_day DbService#backups_per_day}
   */
   readonly backupsPerDay?: number;
 }
@@ -12758,11 +12916,11 @@ export interface DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleMont
   /**
   * Dates in a month to retain monthly backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dates DbService#dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#dates DbService#dates}
   */
   readonly dates?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
   */
   readonly lastDayOfMonth?: boolean | cdktf.IResolvable;
 }
@@ -12877,7 +13035,7 @@ export interface DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleMont
   /**
   * common_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#common_schedule DbService#common_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#common_schedule DbService#common_schedule}
   */
   readonly commonSchedule?: DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleMonthlyScheduleCommonSchedule;
 }
@@ -12963,7 +13121,7 @@ export interface DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleWeek
   /**
   * Days in a week to retain weekly backups for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#days DbService#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#days DbService#days}
   */
   readonly days?: string[];
 }
@@ -13049,15 +13207,15 @@ export interface DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleYear
   /**
   * Dates in a month to retain monthly backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dates DbService#dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#dates DbService#dates}
   */
   readonly dates?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
   */
   readonly lastDayOfMonth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#months DbService#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#months DbService#months}
   */
   readonly months?: string[];
 }
@@ -13199,13 +13357,13 @@ export class DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleYearlySc
 }
 export interface DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleYearlyScheduleMonthSpecificSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dates DbService#dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#dates DbService#dates}
   */
   readonly dates: number[];
   /**
   * Name of a month
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#month DbService#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#month DbService#month}
   */
   readonly month: string;
 }
@@ -13346,13 +13504,13 @@ export interface DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleYear
   /**
   * common_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#common_schedule DbService#common_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#common_schedule DbService#common_schedule}
   */
   readonly commonSchedule?: DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleYearlyScheduleCommonSchedule;
   /**
   * month_specific_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#month_specific_schedule DbService#month_specific_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#month_specific_schedule DbService#month_specific_schedule}
   */
   readonly monthSpecificSchedule?: DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleYearlyScheduleMonthSpecificSchedule[] | cdktf.IResolvable;
 }
@@ -13467,31 +13625,31 @@ export interface DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicySchedule {
   /**
   * backup_start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#backup_start_time DbService#backup_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#backup_start_time DbService#backup_start_time}
   */
   readonly backupStartTime?: DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleBackupStartTime;
   /**
   * daily_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#daily_schedule DbService#daily_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#daily_schedule DbService#daily_schedule}
   */
   readonly dailySchedule?: DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleDailySchedule;
   /**
   * monthly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#monthly_schedule DbService#monthly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#monthly_schedule DbService#monthly_schedule}
   */
   readonly monthlySchedule?: DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleMonthlySchedule;
   /**
   * weekly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
   */
   readonly weeklySchedule?: DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleWeeklySchedule;
   /**
   * yearly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#yearly_schedule DbService#yearly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#yearly_schedule DbService#yearly_schedule}
   */
   readonly yearlySchedule?: DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyScheduleYearlySchedule;
 }
@@ -13693,13 +13851,13 @@ export interface DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicy {
   /**
   * Custom RPO policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#name DbService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#name DbService#name}
   */
   readonly name: string;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#schedule DbService#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#schedule DbService#schedule}
   */
   readonly schedule: DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicySchedule;
 }
@@ -13806,11 +13964,11 @@ export class DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicyOutputReference 
 }
 export interface DbServiceRpoPolicyConfigBackupRpoConfigFullBackupScheduleStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#hour DbService#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#hour DbService#hour}
   */
   readonly hour: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#minute DbService#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#minute DbService#minute}
   */
   readonly minute: number;
 }
@@ -13919,7 +14077,7 @@ export interface DbServiceRpoPolicyConfigBackupRpoConfigFullBackupScheduleWeekly
   /**
   * Days in a week to retain weekly backups for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#days DbService#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#days DbService#days}
   */
   readonly days?: string[];
 }
@@ -14005,13 +14163,13 @@ export interface DbServiceRpoPolicyConfigBackupRpoConfigFullBackupSchedule {
   /**
   * start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#start_time DbService#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#start_time DbService#start_time}
   */
   readonly startTime?: DbServiceRpoPolicyConfigBackupRpoConfigFullBackupScheduleStartTime;
   /**
   * weekly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
   */
   readonly weeklySchedule?: DbServiceRpoPolicyConfigBackupRpoConfigFullBackupScheduleWeeklySchedule;
 }
@@ -14124,11 +14282,11 @@ export class DbServiceRpoPolicyConfigBackupRpoConfigFullBackupScheduleOutputRefe
 }
 export interface DbServiceRpoPolicyConfigBackupRpoConfigStandardPolicyBackupStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#hour DbService#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#hour DbService#hour}
   */
   readonly hour: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#minute DbService#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#minute DbService#minute}
   */
   readonly minute: number;
 }
@@ -14237,13 +14395,13 @@ export interface DbServiceRpoPolicyConfigBackupRpoConfigStandardPolicy {
   /**
   * Number of days for which the backup of DB Service would be retained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#retention_days DbService#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#retention_days DbService#retention_days}
   */
   readonly retentionDays: number;
   /**
   * backup_start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#backup_start_time DbService#backup_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#backup_start_time DbService#backup_start_time}
   */
   readonly backupStartTime?: DbServiceRpoPolicyConfigBackupRpoConfigStandardPolicyBackupStartTime;
 }
@@ -14355,19 +14513,19 @@ export interface DbServiceRpoPolicyConfigBackupRpoConfig {
   /**
   * custom_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#custom_policy DbService#custom_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#custom_policy DbService#custom_policy}
   */
   readonly customPolicy?: DbServiceRpoPolicyConfigBackupRpoConfigCustomPolicy;
   /**
   * full_backup_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#full_backup_schedule DbService#full_backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#full_backup_schedule DbService#full_backup_schedule}
   */
   readonly fullBackupSchedule?: DbServiceRpoPolicyConfigBackupRpoConfigFullBackupSchedule;
   /**
   * standard_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#standard_policy DbService#standard_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#standard_policy DbService#standard_policy}
   */
   readonly standardPolicy?: DbServiceRpoPolicyConfigBackupRpoConfigStandardPolicy;
 }
@@ -14509,11 +14667,11 @@ export class DbServiceRpoPolicyConfigBackupRpoConfigOutputReference extends cdkt
 }
 export interface DbServiceRpoPolicyConfigCustomPolicyScheduleBackupStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#hour DbService#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#hour DbService#hour}
   */
   readonly hour: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#minute DbService#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#minute DbService#minute}
   */
   readonly minute: number;
 }
@@ -14622,7 +14780,7 @@ export interface DbServiceRpoPolicyConfigCustomPolicyScheduleDailySchedule {
   /**
   * The number of backups to be captured per day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#backups_per_day DbService#backups_per_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#backups_per_day DbService#backups_per_day}
   */
   readonly backupsPerDay?: number;
 }
@@ -14708,11 +14866,11 @@ export interface DbServiceRpoPolicyConfigCustomPolicyScheduleMonthlyScheduleComm
   /**
   * Dates in a month to retain monthly backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dates DbService#dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#dates DbService#dates}
   */
   readonly dates?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
   */
   readonly lastDayOfMonth?: boolean | cdktf.IResolvable;
 }
@@ -14827,7 +14985,7 @@ export interface DbServiceRpoPolicyConfigCustomPolicyScheduleMonthlySchedule {
   /**
   * common_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#common_schedule DbService#common_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#common_schedule DbService#common_schedule}
   */
   readonly commonSchedule?: DbServiceRpoPolicyConfigCustomPolicyScheduleMonthlyScheduleCommonSchedule;
 }
@@ -14913,7 +15071,7 @@ export interface DbServiceRpoPolicyConfigCustomPolicyScheduleWeeklySchedule {
   /**
   * Days in a week to retain weekly backups for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#days DbService#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#days DbService#days}
   */
   readonly days?: string[];
 }
@@ -14999,15 +15157,15 @@ export interface DbServiceRpoPolicyConfigCustomPolicyScheduleYearlyScheduleCommo
   /**
   * Dates in a month to retain monthly backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dates DbService#dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#dates DbService#dates}
   */
   readonly dates?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#last_day_of_month DbService#last_day_of_month}
   */
   readonly lastDayOfMonth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#months DbService#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#months DbService#months}
   */
   readonly months?: string[];
 }
@@ -15149,13 +15307,13 @@ export class DbServiceRpoPolicyConfigCustomPolicyScheduleYearlyScheduleCommonSch
 }
 export interface DbServiceRpoPolicyConfigCustomPolicyScheduleYearlyScheduleMonthSpecificSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#dates DbService#dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#dates DbService#dates}
   */
   readonly dates: number[];
   /**
   * Name of a month
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#month DbService#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#month DbService#month}
   */
   readonly month: string;
 }
@@ -15296,13 +15454,13 @@ export interface DbServiceRpoPolicyConfigCustomPolicyScheduleYearlySchedule {
   /**
   * common_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#common_schedule DbService#common_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#common_schedule DbService#common_schedule}
   */
   readonly commonSchedule?: DbServiceRpoPolicyConfigCustomPolicyScheduleYearlyScheduleCommonSchedule;
   /**
   * month_specific_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#month_specific_schedule DbService#month_specific_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#month_specific_schedule DbService#month_specific_schedule}
   */
   readonly monthSpecificSchedule?: DbServiceRpoPolicyConfigCustomPolicyScheduleYearlyScheduleMonthSpecificSchedule[] | cdktf.IResolvable;
 }
@@ -15417,31 +15575,31 @@ export interface DbServiceRpoPolicyConfigCustomPolicySchedule {
   /**
   * backup_start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#backup_start_time DbService#backup_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#backup_start_time DbService#backup_start_time}
   */
   readonly backupStartTime?: DbServiceRpoPolicyConfigCustomPolicyScheduleBackupStartTime;
   /**
   * daily_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#daily_schedule DbService#daily_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#daily_schedule DbService#daily_schedule}
   */
   readonly dailySchedule?: DbServiceRpoPolicyConfigCustomPolicyScheduleDailySchedule;
   /**
   * monthly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#monthly_schedule DbService#monthly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#monthly_schedule DbService#monthly_schedule}
   */
   readonly monthlySchedule?: DbServiceRpoPolicyConfigCustomPolicyScheduleMonthlySchedule;
   /**
   * weekly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
   */
   readonly weeklySchedule?: DbServiceRpoPolicyConfigCustomPolicyScheduleWeeklySchedule;
   /**
   * yearly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#yearly_schedule DbService#yearly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#yearly_schedule DbService#yearly_schedule}
   */
   readonly yearlySchedule?: DbServiceRpoPolicyConfigCustomPolicyScheduleYearlySchedule;
 }
@@ -15643,13 +15801,13 @@ export interface DbServiceRpoPolicyConfigCustomPolicy {
   /**
   * Custom RPO policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#name DbService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#name DbService#name}
   */
   readonly name: string;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#schedule DbService#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#schedule DbService#schedule}
   */
   readonly schedule: DbServiceRpoPolicyConfigCustomPolicySchedule;
 }
@@ -15756,11 +15914,11 @@ export class DbServiceRpoPolicyConfigCustomPolicyOutputReference extends cdktf.C
 }
 export interface DbServiceRpoPolicyConfigFullBackupScheduleStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#hour DbService#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#hour DbService#hour}
   */
   readonly hour: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#minute DbService#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#minute DbService#minute}
   */
   readonly minute: number;
 }
@@ -15869,7 +16027,7 @@ export interface DbServiceRpoPolicyConfigFullBackupScheduleWeeklySchedule {
   /**
   * Days in a week to retain weekly backups for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#days DbService#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#days DbService#days}
   */
   readonly days?: string[];
 }
@@ -15955,13 +16113,13 @@ export interface DbServiceRpoPolicyConfigFullBackupSchedule {
   /**
   * start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#start_time DbService#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#start_time DbService#start_time}
   */
   readonly startTime?: DbServiceRpoPolicyConfigFullBackupScheduleStartTime;
   /**
   * weekly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#weekly_schedule DbService#weekly_schedule}
   */
   readonly weeklySchedule?: DbServiceRpoPolicyConfigFullBackupScheduleWeeklySchedule;
 }
@@ -16074,11 +16232,11 @@ export class DbServiceRpoPolicyConfigFullBackupScheduleOutputReference extends c
 }
 export interface DbServiceRpoPolicyConfigStandardPolicySnapshotStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#hour DbService#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#hour DbService#hour}
   */
   readonly hour: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#minute DbService#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#minute DbService#minute}
   */
   readonly minute: number;
 }
@@ -16187,19 +16345,19 @@ export interface DbServiceRpoPolicyConfigStandardPolicy {
   /**
   * Determines whether transaction logs should be retained to enable Point-In-Time Recovery (PITR) functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#include_transaction_logs DbService#include_transaction_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#include_transaction_logs DbService#include_transaction_logs}
   */
   readonly includeTransactionLogs?: boolean | cdktf.IResolvable;
   /**
   * Number of days for which the snapshot of DB Service would be retained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#retention_days DbService#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#retention_days DbService#retention_days}
   */
   readonly retentionDays: number;
   /**
   * snapshot_start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#snapshot_start_time DbService#snapshot_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#snapshot_start_time DbService#snapshot_start_time}
   */
   readonly snapshotStartTime: DbServiceRpoPolicyConfigStandardPolicySnapshotStartTime;
 }
@@ -16337,43 +16495,43 @@ export interface DbServiceRpoPolicyConfig {
   /**
   * Specify whether system will take automatic backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_auto_backup DbService#enable_auto_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#enable_auto_backup DbService#enable_auto_backup}
   */
   readonly enableAutoBackup?: boolean | cdktf.IResolvable;
   /**
   * Specify whether system will take automatic snapshots
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#enable_auto_snapshot DbService#enable_auto_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#enable_auto_snapshot DbService#enable_auto_snapshot}
   */
   readonly enableAutoSnapshot: boolean | cdktf.IResolvable;
   /**
   * Determines whether transaction logs should be retained to enable Point-In-Time Recovery (PITR) functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#include_transaction_logs DbService#include_transaction_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#include_transaction_logs DbService#include_transaction_logs}
   */
   readonly includeTransactionLogs?: boolean | cdktf.IResolvable;
   /**
   * backup_rpo_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#backup_rpo_config DbService#backup_rpo_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#backup_rpo_config DbService#backup_rpo_config}
   */
   readonly backupRpoConfig?: DbServiceRpoPolicyConfigBackupRpoConfig;
   /**
   * custom_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#custom_policy DbService#custom_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#custom_policy DbService#custom_policy}
   */
   readonly customPolicy?: DbServiceRpoPolicyConfigCustomPolicy;
   /**
   * full_backup_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#full_backup_schedule DbService#full_backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#full_backup_schedule DbService#full_backup_schedule}
   */
   readonly fullBackupSchedule?: DbServiceRpoPolicyConfigFullBackupSchedule;
   /**
   * standard_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.28/docs/resources/db_service#standard_policy DbService#standard_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tessell-cloud/tessell/0.0.29/docs/resources/db_service#standard_policy DbService#standard_policy}
   */
   readonly standardPolicy?: DbServiceRpoPolicyConfigStandardPolicy;
 }

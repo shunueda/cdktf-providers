@@ -1,3 +1,3 @@
 # `tencentcloud_dbbrain_db_diag_report_task`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_dbbrain_db_diag_report_task`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dbbrain_db_diag_report_task).
+Refer to the Terraform Registry for docs: [`tencentcloud_dbbrain_db_diag_report_task`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dbbrain_db_diag_report_task).

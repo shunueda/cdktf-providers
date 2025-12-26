@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcr_replication_instance_create_tasks
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcr_replication_instance_create_tasks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudTcrReplicationInstanceCreateTasksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcr_replication_instance_create_tasks#id DataTencentcloudTcrReplicationInstanceCreateTasks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcr_replication_instance_create_tasks#id DataTencentcloudTcrReplicationInstanceCreateTasks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudTcrReplicationInstanceCreateTasksConfig extends
   /**
   * synchronization instance region Id, see ReplicationRegionId in DescribeReplicationInstances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcr_replication_instance_create_tasks#replication_region_id DataTencentcloudTcrReplicationInstanceCreateTasks#replication_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcr_replication_instance_create_tasks#replication_region_id DataTencentcloudTcrReplicationInstanceCreateTasks#replication_region_id}
   */
   readonly replicationRegionId: number;
   /**
   * synchronization instance Id, see RegistryId in DescribeReplicationInstances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcr_replication_instance_create_tasks#replication_registry_id DataTencentcloudTcrReplicationInstanceCreateTasks#replication_registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcr_replication_instance_create_tasks#replication_registry_id DataTencentcloudTcrReplicationInstanceCreateTasks#replication_registry_id}
   */
   readonly replicationRegistryId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcr_replication_instance_create_tasks#result_output_file DataTencentcloudTcrReplicationInstanceCreateTasks#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcr_replication_instance_create_tasks#result_output_file DataTencentcloudTcrReplicationInstanceCreateTasks#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -135,7 +135,7 @@ export class DataTencentcloudTcrReplicationInstanceCreateTasksTaskDetailList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcr_replication_instance_create_tasks tencentcloud_tcr_replication_instance_create_tasks}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcr_replication_instance_create_tasks tencentcloud_tcr_replication_instance_create_tasks}
 */
 export class DataTencentcloudTcrReplicationInstanceCreateTasks extends cdktf.TerraformDataSource {
 
@@ -151,7 +151,7 @@ export class DataTencentcloudTcrReplicationInstanceCreateTasks extends cdktf.Ter
   * Generates CDKTF code for importing a DataTencentcloudTcrReplicationInstanceCreateTasks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTcrReplicationInstanceCreateTasks to import
-  * @param importFromId The id of the existing DataTencentcloudTcrReplicationInstanceCreateTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcr_replication_instance_create_tasks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTcrReplicationInstanceCreateTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcr_replication_instance_create_tasks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTcrReplicationInstanceCreateTasks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class DataTencentcloudTcrReplicationInstanceCreateTasks extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tcr_replication_instance_create_tasks tencentcloud_tcr_replication_instance_create_tasks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tcr_replication_instance_create_tasks tencentcloud_tcr_replication_instance_create_tasks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class DataTencentcloudTcrReplicationInstanceCreateTasks extends cdktf.Ter
       terraformResourceType: 'tencentcloud_tcr_replication_instance_create_tasks',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/kubernetes_health_check_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/kubernetes_health_check_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface KubernetesHealthCheckPolicyConfig extends cdktf.TerraformMetaAr
   /**
   * ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/kubernetes_health_check_policy#cluster_id KubernetesHealthCheckPolicy#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/kubernetes_health_check_policy#cluster_id KubernetesHealthCheckPolicy#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/kubernetes_health_check_policy#id KubernetesHealthCheckPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/kubernetes_health_check_policy#id KubernetesHealthCheckPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface KubernetesHealthCheckPolicyConfig extends cdktf.TerraformMetaAr
   /**
   * Health Check Policy Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/kubernetes_health_check_policy#name KubernetesHealthCheckPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/kubernetes_health_check_policy#name KubernetesHealthCheckPolicy#name}
   */
   readonly name: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/kubernetes_health_check_policy#rules KubernetesHealthCheckPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/kubernetes_health_check_policy#rules KubernetesHealthCheckPolicy#rules}
   */
   readonly rules: KubernetesHealthCheckPolicyRules[] | cdktf.IResolvable;
 }
@@ -37,19 +37,19 @@ export interface KubernetesHealthCheckPolicyRules {
   /**
   * Enable repair or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/kubernetes_health_check_policy#auto_repair_enabled KubernetesHealthCheckPolicy#auto_repair_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/kubernetes_health_check_policy#auto_repair_enabled KubernetesHealthCheckPolicy#auto_repair_enabled}
   */
   readonly autoRepairEnabled: boolean | cdktf.IResolvable;
   /**
   * Enable detection of this project or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/kubernetes_health_check_policy#enabled KubernetesHealthCheckPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/kubernetes_health_check_policy#enabled KubernetesHealthCheckPolicy#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Health check rule details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/kubernetes_health_check_policy#name KubernetesHealthCheckPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/kubernetes_health_check_policy#name KubernetesHealthCheckPolicy#name}
   */
   readonly name: string;
 }
@@ -214,7 +214,7 @@ export class KubernetesHealthCheckPolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/kubernetes_health_check_policy tencentcloud_kubernetes_health_check_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/kubernetes_health_check_policy tencentcloud_kubernetes_health_check_policy}
 */
 export class KubernetesHealthCheckPolicy extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class KubernetesHealthCheckPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesHealthCheckPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesHealthCheckPolicy to import
-  * @param importFromId The id of the existing KubernetesHealthCheckPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/kubernetes_health_check_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesHealthCheckPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/kubernetes_health_check_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesHealthCheckPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class KubernetesHealthCheckPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/kubernetes_health_check_policy tencentcloud_kubernetes_health_check_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/kubernetes_health_check_policy tencentcloud_kubernetes_health_check_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class KubernetesHealthCheckPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_kubernetes_health_check_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

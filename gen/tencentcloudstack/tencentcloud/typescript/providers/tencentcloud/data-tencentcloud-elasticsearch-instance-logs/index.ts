@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elasticsearch_instance_logs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/elasticsearch_instance_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudElasticsearchInstanceLogsConfig extends cdktf.T
   /**
   * End time. The format is YYYY-MM-DD HH:MM:SS, such as 2019-01-22 20:15:53.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elasticsearch_instance_logs#end_time DataTencentcloudElasticsearchInstanceLogs#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/elasticsearch_instance_logs#end_time DataTencentcloudElasticsearchInstanceLogs#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elasticsearch_instance_logs#id DataTencentcloudElasticsearchInstanceLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/elasticsearch_instance_logs#id DataTencentcloudElasticsearchInstanceLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudElasticsearchInstanceLogsConfig extends cdktf.T
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elasticsearch_instance_logs#instance_id DataTencentcloudElasticsearchInstanceLogs#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/elasticsearch_instance_logs#instance_id DataTencentcloudElasticsearchInstanceLogs#instance_id}
   */
   readonly instanceId: string;
   /**
@@ -33,7 +33,7 @@ export interface DataTencentcloudElasticsearchInstanceLogsConfig extends cdktf.T
   * - 3: Index slow log
   * - 4: GC log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elasticsearch_instance_logs#log_type DataTencentcloudElasticsearchInstanceLogs#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/elasticsearch_instance_logs#log_type DataTencentcloudElasticsearchInstanceLogs#log_type}
   */
   readonly logType?: number;
   /**
@@ -41,25 +41,25 @@ export interface DataTencentcloudElasticsearchInstanceLogsConfig extends cdktf.T
   * - 0: descending;
   * - 1: ascending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elasticsearch_instance_logs#order_by_type DataTencentcloudElasticsearchInstanceLogs#order_by_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/elasticsearch_instance_logs#order_by_type DataTencentcloudElasticsearchInstanceLogs#order_by_type}
   */
   readonly orderByType?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elasticsearch_instance_logs#result_output_file DataTencentcloudElasticsearchInstanceLogs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/elasticsearch_instance_logs#result_output_file DataTencentcloudElasticsearchInstanceLogs#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Search key. Support LUCENE syntax, such as level:WARN, ip:1.1.1.1, message:test-index, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elasticsearch_instance_logs#search_key DataTencentcloudElasticsearchInstanceLogs#search_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/elasticsearch_instance_logs#search_key DataTencentcloudElasticsearchInstanceLogs#search_key}
   */
   readonly searchKey?: string;
   /**
   * Start time. The format is YYYY-MM-DD HH:MM:SS, such as 2019-01-22 20:15:53.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elasticsearch_instance_logs#start_time DataTencentcloudElasticsearchInstanceLogs#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/elasticsearch_instance_logs#start_time DataTencentcloudElasticsearchInstanceLogs#start_time}
   */
   readonly startTime?: string;
 }
@@ -160,7 +160,7 @@ export class DataTencentcloudElasticsearchInstanceLogsInstanceLogListStructList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elasticsearch_instance_logs tencentcloud_elasticsearch_instance_logs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/elasticsearch_instance_logs tencentcloud_elasticsearch_instance_logs}
 */
 export class DataTencentcloudElasticsearchInstanceLogs extends cdktf.TerraformDataSource {
 
@@ -176,7 +176,7 @@ export class DataTencentcloudElasticsearchInstanceLogs extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudElasticsearchInstanceLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudElasticsearchInstanceLogs to import
-  * @param importFromId The id of the existing DataTencentcloudElasticsearchInstanceLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elasticsearch_instance_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudElasticsearchInstanceLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/elasticsearch_instance_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudElasticsearchInstanceLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -188,7 +188,7 @@ export class DataTencentcloudElasticsearchInstanceLogs extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/elasticsearch_instance_logs tencentcloud_elasticsearch_instance_logs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/elasticsearch_instance_logs tencentcloud_elasticsearch_instance_logs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -199,8 +199,8 @@ export class DataTencentcloudElasticsearchInstanceLogs extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_elasticsearch_instance_logs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

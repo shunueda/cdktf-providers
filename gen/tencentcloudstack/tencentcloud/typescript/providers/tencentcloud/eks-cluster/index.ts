@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface EksClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of EKS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#cluster_desc EksCluster#cluster_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#cluster_desc EksCluster#cluster_desc}
   */
   readonly clusterDesc?: string;
   /**
   * Name of EKS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#cluster_name EksCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#cluster_name EksCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Indicates whether to enable dns in user cluster, default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#enable_vpc_core_dns EksCluster#enable_vpc_core_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#enable_vpc_core_dns EksCluster#enable_vpc_core_dns}
   */
   readonly enableVpcCoreDns?: boolean | cdktf.IResolvable;
   /**
   * Extend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#extra_param EksCluster#extra_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#extra_param EksCluster#extra_param}
   */
   readonly extraParam?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#id EksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#id EksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface EksClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Kubernetes version of EKS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#k8s_version EksCluster#k8s_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#k8s_version EksCluster#k8s_version}
   */
   readonly k8SVersion: string;
   /**
   * Delete CBS after EKS cluster remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#need_delete_cbs EksCluster#need_delete_cbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#need_delete_cbs EksCluster#need_delete_cbs}
   */
   readonly needDeleteCbs?: boolean | cdktf.IResolvable;
   /**
   * Subnet id of service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#service_subnet_id EksCluster#service_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#service_subnet_id EksCluster#service_subnet_id}
   */
   readonly serviceSubnetId?: string;
   /**
   * Subnet Ids for EKS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#subnet_ids EksCluster#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#subnet_ids EksCluster#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * Tags of EKS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#tags EksCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#tags EksCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Vpc Id of EKS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#vpc_id EksCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#vpc_id EksCluster#vpc_id}
   */
   readonly vpcId: string;
   /**
   * dns_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#dns_servers EksCluster#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#dns_servers EksCluster#dns_servers}
   */
   readonly dnsServers?: EksClusterDnsServers[] | cdktf.IResolvable;
   /**
   * internal_lb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#internal_lb EksCluster#internal_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#internal_lb EksCluster#internal_lb}
   */
   readonly internalLb?: EksClusterInternalLb;
   /**
   * public_lb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#public_lb EksCluster#public_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#public_lb EksCluster#public_lb}
   */
   readonly publicLb?: EksClusterPublicLb;
 }
@@ -97,13 +97,13 @@ export interface EksClusterDnsServers {
   /**
   * DNS Server domain. Empty indicates all domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#domain EksCluster#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#domain EksCluster#domain}
   */
   readonly domain?: string;
   /**
   * List of DNS Server IP address, pattern: "ip[:port]".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#servers EksCluster#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#servers EksCluster#servers}
   */
   readonly servers?: string[];
 }
@@ -250,13 +250,13 @@ export interface EksClusterInternalLb {
   /**
   * Indicates weather the internal access LB enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#enabled EksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#enabled EksCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * ID of subnet which related to Internal LB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#subnet_id EksCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#subnet_id EksCluster#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -368,25 +368,25 @@ export interface EksClusterPublicLb {
   /**
   * List of CIDRs which allowed to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#allow_from_cidrs EksCluster#allow_from_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#allow_from_cidrs EksCluster#allow_from_cidrs}
   */
   readonly allowFromCidrs?: string[];
   /**
   * Indicates weather the public access LB enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#enabled EksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#enabled EksCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Extra param text json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#extra_param EksCluster#extra_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#extra_param EksCluster#extra_param}
   */
   readonly extraParam?: string;
   /**
   * List of security allow IP or CIDRs, default deny all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#security_policies EksCluster#security_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#security_policies EksCluster#security_policies}
   */
   readonly securityPolicies?: string[];
 }
@@ -559,7 +559,7 @@ export class EksClusterPublicLbOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster tencentcloud_eks_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster tencentcloud_eks_cluster}
 */
 export class EksCluster extends cdktf.TerraformResource {
 
@@ -575,7 +575,7 @@ export class EksCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EksCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksCluster to import
-  * @param importFromId The id of the existing EksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -587,7 +587,7 @@ export class EksCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/eks_cluster tencentcloud_eks_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/eks_cluster tencentcloud_eks_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -598,8 +598,8 @@ export class EksCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_eks_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

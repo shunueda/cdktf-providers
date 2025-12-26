@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_service_release
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_service_release
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ApiGatewayServiceReleaseConfig extends cdktf.TerraformMetaArgum
   /**
   * API gateway service environment name to be released. Valid values: `test`, `prepub`, `release`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_service_release#environment_name ApiGatewayServiceRelease#environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_service_release#environment_name ApiGatewayServiceRelease#environment_name}
   */
   readonly environmentName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_service_release#id ApiGatewayServiceRelease#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_service_release#id ApiGatewayServiceRelease#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface ApiGatewayServiceReleaseConfig extends cdktf.TerraformMetaArgum
   /**
   * This release description of the API gateway service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_service_release#release_desc ApiGatewayServiceRelease#release_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_service_release#release_desc ApiGatewayServiceRelease#release_desc}
   */
   readonly releaseDesc: string;
   /**
   * The release version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_service_release#release_version ApiGatewayServiceRelease#release_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_service_release#release_version ApiGatewayServiceRelease#release_version}
   */
   readonly releaseVersion?: string;
   /**
   * ID of API gateway service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_service_release#service_id ApiGatewayServiceRelease#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_service_release#service_id ApiGatewayServiceRelease#service_id}
   */
   readonly serviceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_service_release tencentcloud_api_gateway_service_release}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_service_release tencentcloud_api_gateway_service_release}
 */
 export class ApiGatewayServiceRelease extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ApiGatewayServiceRelease extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayServiceRelease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayServiceRelease to import
-  * @param importFromId The id of the existing ApiGatewayServiceRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_service_release#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayServiceRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_service_release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayServiceRelease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ApiGatewayServiceRelease extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/api_gateway_service_release tencentcloud_api_gateway_service_release} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/api_gateway_service_release tencentcloud_api_gateway_service_release} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ApiGatewayServiceRelease extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_api_gateway_service_release',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

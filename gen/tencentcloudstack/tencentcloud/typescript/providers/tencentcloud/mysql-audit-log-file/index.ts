@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MysqlAuditLogFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#end_time MysqlAuditLogFile#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#end_time MysqlAuditLogFile#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#id MysqlAuditLogFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#id MysqlAuditLogFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface MysqlAuditLogFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#instance_id MysqlAuditLogFile#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#instance_id MysqlAuditLogFile#instance_id}
   */
   readonly instanceId: string;
   /**
   * Sort by. supported values are: `ASC`- ascending order, `DESC`- descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#order MysqlAuditLogFile#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#order MysqlAuditLogFile#order}
   */
   readonly order?: string;
   /**
   * Sort field. supported values include:`timestamp` - timestamp; `affectRows` - affected rows; `execTime` - execution time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#order_by MysqlAuditLogFile#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#order_by MysqlAuditLogFile#order_by}
   */
   readonly orderBy?: string;
   /**
   * start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#start_time MysqlAuditLogFile#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#start_time MysqlAuditLogFile#start_time}
   */
   readonly startTime: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#filter MysqlAuditLogFile#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#filter MysqlAuditLogFile#filter}
   */
   readonly filter?: MysqlAuditLogFileFilter;
 }
@@ -55,67 +55,67 @@ export interface MysqlAuditLogFileFilter {
   /**
   * Affects the number of rows. Indicates to filter audit logs whose number of affected rows is greater than this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#affect_rows MysqlAuditLogFile#affect_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#affect_rows MysqlAuditLogFile#affect_rows}
   */
   readonly affectRows?: number;
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#db_name MysqlAuditLogFile#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#db_name MysqlAuditLogFile#db_name}
   */
   readonly dbName?: string[];
   /**
   * Execution time. The unit is: ms. Indicates to filter audit logs whose execution time is greater than this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#exec_time MysqlAuditLogFile#exec_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#exec_time MysqlAuditLogFile#exec_time}
   */
   readonly execTime?: number;
   /**
   * Client address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#host MysqlAuditLogFile#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#host MysqlAuditLogFile#host}
   */
   readonly host?: string[];
   /**
   * The name of policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#policy_name MysqlAuditLogFile#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#policy_name MysqlAuditLogFile#policy_name}
   */
   readonly policyName?: string[];
   /**
   * SQL statement. support fuzzy matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#sql MysqlAuditLogFile#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#sql MysqlAuditLogFile#sql}
   */
   readonly sql?: string;
   /**
   * SQL type. Currently supported: SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, ALTER, SET, REPLACE, EXECUTE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#sql_type MysqlAuditLogFile#sql_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#sql_type MysqlAuditLogFile#sql_type}
   */
   readonly sqlType?: string;
   /**
   * SQL type. Supports simultaneous query of multiple types. Currently supported: SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, ALTER, SET, REPLACE, EXECUTE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#sql_types MysqlAuditLogFile#sql_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#sql_types MysqlAuditLogFile#sql_types}
   */
   readonly sqlTypes?: string[];
   /**
   * SQL statement. Support passing multiple sql statements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#sqls MysqlAuditLogFile#sqls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#sqls MysqlAuditLogFile#sqls}
   */
   readonly sqls?: string[];
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#table_name MysqlAuditLogFile#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#table_name MysqlAuditLogFile#table_name}
   */
   readonly tableName?: string[];
   /**
   * User name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#user MysqlAuditLogFile#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#user MysqlAuditLogFile#user}
   */
   readonly user?: string[];
 }
@@ -489,7 +489,7 @@ export class MysqlAuditLogFileFilterOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file tencentcloud_mysql_audit_log_file}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file tencentcloud_mysql_audit_log_file}
 */
 export class MysqlAuditLogFile extends cdktf.TerraformResource {
 
@@ -505,7 +505,7 @@ export class MysqlAuditLogFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlAuditLogFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlAuditLogFile to import
-  * @param importFromId The id of the existing MysqlAuditLogFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlAuditLogFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlAuditLogFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class MysqlAuditLogFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mysql_audit_log_file tencentcloud_mysql_audit_log_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mysql_audit_log_file tencentcloud_mysql_audit_log_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class MysqlAuditLogFile extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_audit_log_file',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

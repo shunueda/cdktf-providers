@@ -1118,6 +1118,9 @@ Object.defineProperty(exports, 'vpcPeerConnectRejectOperation', { get: function 
 Object.defineProperty(exports, 'vpcPrivateNatGateway', { get: function () { return require('./vpc-private-nat-gateway'); } });
 Object.defineProperty(exports, 'vpcPrivateNatGatewayTranslationNatRule', { get: function () { return require('./vpc-private-nat-gateway-translation-nat-rule'); } });
 Object.defineProperty(exports, 'vpcResumeSnapshotInstance', { get: function () { return require('./vpc-resume-snapshot-instance'); } });
+Object.defineProperty(exports, 'vpcRoutePolicy', { get: function () { return require('./vpc-route-policy'); } });
+Object.defineProperty(exports, 'vpcRoutePolicyAssociation', { get: function () { return require('./vpc-route-policy-association'); } });
+Object.defineProperty(exports, 'vpcRoutePolicyEntries', { get: function () { return require('./vpc-route-policy-entries'); } });
 Object.defineProperty(exports, 'vpcSnapshotPolicy', { get: function () { return require('./vpc-snapshot-policy'); } });
 Object.defineProperty(exports, 'vpcSnapshotPolicyAttachment', { get: function () { return require('./vpc-snapshot-policy-attachment'); } });
 Object.defineProperty(exports, 'vpcSnapshotPolicyConfig', { get: function () { return require('./vpc-snapshot-policy-config'); } });
@@ -1242,6 +1245,7 @@ Object.defineProperty(exports, 'dataTencentcloudAvailabilityRegions', { get: fun
 Object.defineProperty(exports, 'dataTencentcloudAvailabilityZones', { get: function () { return require('./data-tencentcloud-availability-zones'); } });
 Object.defineProperty(exports, 'dataTencentcloudAvailabilityZonesByProduct', { get: function () { return require('./data-tencentcloud-availability-zones-by-product'); } });
 Object.defineProperty(exports, 'dataTencentcloudBhAccountGroups', { get: function () { return require('./data-tencentcloud-bh-account-groups'); } });
+Object.defineProperty(exports, 'dataTencentcloudBhDevices', { get: function () { return require('./data-tencentcloud-bh-devices'); } });
 Object.defineProperty(exports, 'dataTencentcloudBhSourceTypes', { get: function () { return require('./data-tencentcloud-bh-source-types'); } });
 Object.defineProperty(exports, 'dataTencentcloudBiProject', { get: function () { return require('./data-tencentcloud-bi-project'); } });
 Object.defineProperty(exports, 'dataTencentcloudBiUserProject', { get: function () { return require('./data-tencentcloud-bi-user-project'); } });
@@ -1376,6 +1380,7 @@ Object.defineProperty(exports, 'dataTencentcloudCvmImageSharePermission', { get:
 Object.defineProperty(exports, 'dataTencentcloudCvmImportImageOs', { get: function () { return require('./data-tencentcloud-cvm-import-image-os'); } });
 Object.defineProperty(exports, 'dataTencentcloudCvmInstanceVncUrl', { get: function () { return require('./data-tencentcloud-cvm-instance-vnc-url'); } });
 Object.defineProperty(exports, 'dataTencentcloudCvmInstancesModification', { get: function () { return require('./data-tencentcloud-cvm-instances-modification'); } });
+Object.defineProperty(exports, 'dataTencentcloudCwpMachines', { get: function () { return require('./data-tencentcloud-cwp-machines'); } });
 Object.defineProperty(exports, 'dataTencentcloudCwpMachinesSimple', { get: function () { return require('./data-tencentcloud-cwp-machines-simple'); } });
 Object.defineProperty(exports, 'dataTencentcloudCynosdbAccountAllGrantPrivileges', { get: function () { return require('./data-tencentcloud-cynosdb-account-all-grant-privileges'); } });
 Object.defineProperty(exports, 'dataTencentcloudCynosdbAccounts', { get: function () { return require('./data-tencentcloud-cynosdb-accounts'); } });

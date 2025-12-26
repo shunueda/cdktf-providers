@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WedataIntegrationTaskNodeConfig extends cdktf.TerraformMetaArgu
   /**
   * Data source type: MYSQL, POSTGRE, ORACLE, SQLSERVER, FTP, HIVE, HDFS, ICEBERG, KAFKA, HBASE, SPARK, TBASE, DB2, DM, GAUSSDB, GBASE, IMPALA, ES, S3_DATAINSIGHT, GREENPLUM, PHOENIX, SAP_HANA, SFTP, OCEANBASE, CLICKHOUSE, KUDU, VERTICA, REDIS, COS, DLC, DORIS, CKAFKA, DTS_KAFKA, S3, CDW, TDSQLC, TDSQL, MONGODB, SYBASE, REST_API, StarRocks, TCHOUSE_X.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#data_source_type WedataIntegrationTaskNode#data_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#data_source_type WedataIntegrationTaskNode#data_source_type}
   */
   readonly dataSourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#id WedataIntegrationTaskNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#id WedataIntegrationTaskNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface WedataIntegrationTaskNodeConfig extends cdktf.TerraformMetaArgu
   /**
   * Node Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
   */
   readonly name: string;
   /**
   * Node type: INPUT, OUTPUT, JOIN, FILTER, TRANSFORM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#node_type WedataIntegrationTaskNode#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#node_type WedataIntegrationTaskNode#node_type}
   */
   readonly nodeType: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#project_id WedataIntegrationTaskNode#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#project_id WedataIntegrationTaskNode#project_id}
   */
   readonly projectId: string;
   /**
   * The task id to which the node belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#task_id WedataIntegrationTaskNode#task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#task_id WedataIntegrationTaskNode#task_id}
   */
   readonly taskId: string;
   /**
   * Task display mode, 0: canvas mode, 1: form mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#task_mode WedataIntegrationTaskNode#task_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#task_mode WedataIntegrationTaskNode#task_mode}
   */
   readonly taskMode: number;
   /**
   * Task type, 201: real-time task, 202: offline task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#task_type WedataIntegrationTaskNode#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#task_type WedataIntegrationTaskNode#task_type}
   */
   readonly taskType: number;
   /**
   * node_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#node_info WedataIntegrationTaskNode#node_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#node_info WedataIntegrationTaskNode#node_info}
   */
   readonly nodeInfo: WedataIntegrationTaskNodeNodeInfo;
 }
@@ -67,13 +67,13 @@ export interface WedataIntegrationTaskNodeNodeInfoConfig {
   /**
   * Configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
   */
   readonly name?: string;
   /**
   * Configuration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
   */
   readonly value?: string;
 }
@@ -220,13 +220,13 @@ export interface WedataIntegrationTaskNodeNodeInfoExtConfig {
   /**
   * Configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
   */
   readonly name?: string;
   /**
   * Configuration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
   */
   readonly value?: string;
 }
@@ -373,13 +373,13 @@ export interface WedataIntegrationTaskNodeNodeInfoNodeMappingExtConfig {
   /**
   * Configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
   */
   readonly name?: string;
   /**
   * Configuration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
   */
   readonly value?: string;
 }
@@ -526,13 +526,13 @@ export interface WedataIntegrationTaskNodeNodeInfoNodeMappingSchemaMappings {
   /**
   * Schema ID from sink node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#sink_schema_id WedataIntegrationTaskNode#sink_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#sink_schema_id WedataIntegrationTaskNode#sink_schema_id}
   */
   readonly sinkSchemaId: string;
   /**
   * Schema ID from source node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#source_schema_id WedataIntegrationTaskNode#source_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#source_schema_id WedataIntegrationTaskNode#source_schema_id}
   */
   readonly sourceSchemaId: string;
 }
@@ -673,13 +673,13 @@ export interface WedataIntegrationTaskNodeNodeInfoNodeMappingSourceSchemaPropert
   /**
   * Attributes name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
   */
   readonly name?: string;
   /**
   * Attributes value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
   */
   readonly value?: string;
 }
@@ -826,19 +826,19 @@ export interface WedataIntegrationTaskNodeNodeInfoNodeMappingSourceSchema {
   /**
   * Schema alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#alias WedataIntegrationTaskNode#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#alias WedataIntegrationTaskNode#alias}
   */
   readonly alias?: string;
   /**
   * Schema comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#comment WedataIntegrationTaskNode#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#comment WedataIntegrationTaskNode#comment}
   */
   readonly comment?: string;
   /**
   * Schema ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#id WedataIntegrationTaskNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#id WedataIntegrationTaskNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -847,25 +847,25 @@ export interface WedataIntegrationTaskNodeNodeInfoNodeMappingSourceSchema {
   /**
   * Schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
   */
   readonly name: string;
   /**
   * Schema type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#type WedataIntegrationTaskNode#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#type WedataIntegrationTaskNode#type}
   */
   readonly type: string;
   /**
   * Schema value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
   */
   readonly value?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#properties WedataIntegrationTaskNode#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#properties WedataIntegrationTaskNode#properties}
   */
   readonly properties?: WedataIntegrationTaskNodeNodeInfoNodeMappingSourceSchemaProperties[] | cdktf.IResolvable;
 }
@@ -1148,31 +1148,31 @@ export interface WedataIntegrationTaskNodeNodeInfoNodeMapping {
   /**
   * Sink node ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#sink_id WedataIntegrationTaskNode#sink_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#sink_id WedataIntegrationTaskNode#sink_id}
   */
   readonly sinkId?: string;
   /**
   * Source node ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#source_id WedataIntegrationTaskNode#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#source_id WedataIntegrationTaskNode#source_id}
   */
   readonly sourceId?: string;
   /**
   * ext_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#ext_config WedataIntegrationTaskNode#ext_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#ext_config WedataIntegrationTaskNode#ext_config}
   */
   readonly extConfig?: WedataIntegrationTaskNodeNodeInfoNodeMappingExtConfig[] | cdktf.IResolvable;
   /**
   * schema_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#schema_mappings WedataIntegrationTaskNode#schema_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#schema_mappings WedataIntegrationTaskNode#schema_mappings}
   */
   readonly schemaMappings?: WedataIntegrationTaskNodeNodeInfoNodeMappingSchemaMappings[] | cdktf.IResolvable;
   /**
   * source_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#source_schema WedataIntegrationTaskNode#source_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#source_schema WedataIntegrationTaskNode#source_schema}
   */
   readonly sourceSchema?: WedataIntegrationTaskNodeNodeInfoNodeMappingSourceSchema[] | cdktf.IResolvable;
 }
@@ -1374,13 +1374,13 @@ export interface WedataIntegrationTaskNodeNodeInfoSchemaProperties {
   /**
   * Attributes name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
   */
   readonly name?: string;
   /**
   * Attributes value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
   */
   readonly value?: string;
 }
@@ -1527,19 +1527,19 @@ export interface WedataIntegrationTaskNodeNodeInfoSchema {
   /**
   * Schema alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#alias WedataIntegrationTaskNode#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#alias WedataIntegrationTaskNode#alias}
   */
   readonly alias?: string;
   /**
   * Schema comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#comment WedataIntegrationTaskNode#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#comment WedataIntegrationTaskNode#comment}
   */
   readonly comment?: string;
   /**
   * Schema ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#id WedataIntegrationTaskNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#id WedataIntegrationTaskNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1548,25 +1548,25 @@ export interface WedataIntegrationTaskNodeNodeInfoSchema {
   /**
   * Schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#name WedataIntegrationTaskNode#name}
   */
   readonly name: string;
   /**
   * Schema type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#type WedataIntegrationTaskNode#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#type WedataIntegrationTaskNode#type}
   */
   readonly type: string;
   /**
   * Schema value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#value WedataIntegrationTaskNode#value}
   */
   readonly value?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#properties WedataIntegrationTaskNode#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#properties WedataIntegrationTaskNode#properties}
   */
   readonly properties?: WedataIntegrationTaskNodeNodeInfoSchemaProperties[] | cdktf.IResolvable;
 }
@@ -1849,67 +1849,67 @@ export interface WedataIntegrationTaskNodeNodeInfo {
   /**
   * User App Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#app_id WedataIntegrationTaskNode#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#app_id WedataIntegrationTaskNode#app_id}
   */
   readonly appId?: string;
   /**
   * Create time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#create_time WedataIntegrationTaskNode#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#create_time WedataIntegrationTaskNode#create_time}
   */
   readonly createTime?: string;
   /**
   * Creator User ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#creator_uin WedataIntegrationTaskNode#creator_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#creator_uin WedataIntegrationTaskNode#creator_uin}
   */
   readonly creatorUin?: string;
   /**
   * Datasource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#datasource_id WedataIntegrationTaskNode#datasource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#datasource_id WedataIntegrationTaskNode#datasource_id}
   */
   readonly datasourceId?: string;
   /**
   * Operator User ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#operator_uin WedataIntegrationTaskNode#operator_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#operator_uin WedataIntegrationTaskNode#operator_uin}
   */
   readonly operatorUin?: string;
   /**
   * Owner User ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#owner_uin WedataIntegrationTaskNode#owner_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#owner_uin WedataIntegrationTaskNode#owner_uin}
   */
   readonly ownerUin?: string;
   /**
   * Update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#update_time WedataIntegrationTaskNode#update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#update_time WedataIntegrationTaskNode#update_time}
   */
   readonly updateTime?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#config WedataIntegrationTaskNode#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#config WedataIntegrationTaskNode#config}
   */
   readonly config?: WedataIntegrationTaskNodeNodeInfoConfig[] | cdktf.IResolvable;
   /**
   * ext_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#ext_config WedataIntegrationTaskNode#ext_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#ext_config WedataIntegrationTaskNode#ext_config}
   */
   readonly extConfig?: WedataIntegrationTaskNodeNodeInfoExtConfig[] | cdktf.IResolvable;
   /**
   * node_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#node_mapping WedataIntegrationTaskNode#node_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#node_mapping WedataIntegrationTaskNode#node_mapping}
   */
   readonly nodeMapping?: WedataIntegrationTaskNodeNodeInfoNodeMapping;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#schema WedataIntegrationTaskNode#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#schema WedataIntegrationTaskNode#schema}
   */
   readonly schema?: WedataIntegrationTaskNodeNodeInfoSchema[] | cdktf.IResolvable;
 }
@@ -2283,7 +2283,7 @@ export class WedataIntegrationTaskNodeNodeInfoOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node tencentcloud_wedata_integration_task_node}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node tencentcloud_wedata_integration_task_node}
 */
 export class WedataIntegrationTaskNode extends cdktf.TerraformResource {
 
@@ -2299,7 +2299,7 @@ export class WedataIntegrationTaskNode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataIntegrationTaskNode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataIntegrationTaskNode to import
-  * @param importFromId The id of the existing WedataIntegrationTaskNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataIntegrationTaskNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataIntegrationTaskNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2311,7 +2311,7 @@ export class WedataIntegrationTaskNode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/wedata_integration_task_node tencentcloud_wedata_integration_task_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/wedata_integration_task_node tencentcloud_wedata_integration_task_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2322,8 +2322,8 @@ export class WedataIntegrationTaskNode extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_integration_task_node',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

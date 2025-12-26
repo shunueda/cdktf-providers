@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GwlbTargetGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether "All Dead, All Alive" is supported. It is supported by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#all_dead_to_alive GwlbTargetGroup#all_dead_to_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#all_dead_to_alive GwlbTargetGroup#all_dead_to_alive}
   */
   readonly allDeadToAlive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#id GwlbTargetGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#id GwlbTargetGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface GwlbTargetGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default port of the target group, which can be used when servers are added later. Either 'Port' or 'TargetGroupInstances.N.port' must be filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#port GwlbTargetGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#port GwlbTargetGroup#port}
   */
   readonly port?: number;
   /**
@@ -31,32 +31,32 @@ export interface GwlbTargetGroupConfig extends cdktf.TerraformMetaArguments {
   * 	- TENCENT_GENEVE: GENEVE standard protocol;
   * 	- AWS_GENEVE: GENEVE compatibility protocol (a ticket is required for allowlisting).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#protocol GwlbTargetGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#protocol GwlbTargetGroup#protocol}
   */
   readonly protocol?: string;
   /**
   * Load balancing algorithm.
   * 	- IP_HASH_3_ELASTIC: elastic hashing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#schedule_algorithm GwlbTargetGroup#schedule_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#schedule_algorithm GwlbTargetGroup#schedule_algorithm}
   */
   readonly scheduleAlgorithm?: string;
   /**
   * Target group name, limited to 60 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#target_group_name GwlbTargetGroup#target_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#target_group_name GwlbTargetGroup#target_group_name}
   */
   readonly targetGroupName?: string;
   /**
   * VPCID attribute of target group. If this parameter is left blank, the default VPC will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#vpc_id GwlbTargetGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#vpc_id GwlbTargetGroup#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#health_check GwlbTargetGroup#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#health_check GwlbTargetGroup#health_check}
   */
   readonly healthCheck?: GwlbTargetGroupHealthCheck;
 }
@@ -149,25 +149,25 @@ export interface GwlbTargetGroupHealthCheck {
   /**
   * Health detection threshold. The default is 3 times. Value range: 2-10 times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#health_num GwlbTargetGroup#health_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#health_num GwlbTargetGroup#health_num}
   */
   readonly healthNum?: number;
   /**
   * Whether to enable the health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#health_switch GwlbTargetGroup#health_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#health_switch GwlbTargetGroup#health_switch}
   */
   readonly healthSwitch: boolean | cdktf.IResolvable;
   /**
   * Detection interval time. The default is 5 seconds. Value range: 2-300 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#interval_time GwlbTargetGroup#interval_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#interval_time GwlbTargetGroup#interval_time}
   */
   readonly intervalTime?: number;
   /**
   * Health check port, which is required when the probe protocol is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#port GwlbTargetGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#port GwlbTargetGroup#port}
   */
   readonly port?: number;
   /**
@@ -175,19 +175,19 @@ export interface GwlbTargetGroupHealthCheck {
   * 	- PING: icmp;
   * 	- TCP: tcp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#protocol GwlbTargetGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#protocol GwlbTargetGroup#protocol}
   */
   readonly protocol?: string;
   /**
   * Health check timeout. The default is 2 seconds. Value range: 2-30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#timeout GwlbTargetGroup#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#timeout GwlbTargetGroup#timeout}
   */
   readonly timeout?: number;
   /**
   * Unhealth detection threshold. The default is 3 times. Value range: 2-10 times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#un_health_num GwlbTargetGroup#un_health_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#un_health_num GwlbTargetGroup#un_health_num}
   */
   readonly unHealthNum?: number;
 }
@@ -442,7 +442,7 @@ export class GwlbTargetGroupHealthCheckOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group tencentcloud_gwlb_target_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group tencentcloud_gwlb_target_group}
 */
 export class GwlbTargetGroup extends cdktf.TerraformResource {
 
@@ -458,7 +458,7 @@ export class GwlbTargetGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GwlbTargetGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GwlbTargetGroup to import
-  * @param importFromId The id of the existing GwlbTargetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GwlbTargetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GwlbTargetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +470,7 @@ export class GwlbTargetGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/gwlb_target_group tencentcloud_gwlb_target_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/gwlb_target_group tencentcloud_gwlb_target_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +481,8 @@ export class GwlbTargetGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_gwlb_target_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

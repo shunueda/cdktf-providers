@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DataTencentcloudCatProbeDataConfig extends cdktf.TerraformMetaA
   /**
   * true is Ascending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#ascending DataTencentcloudCatProbeData#ascending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#ascending DataTencentcloudCatProbeData#ascending}
   */
   readonly ascending: boolean | cdktf.IResolvable;
   /**
   * Start timestamp (in milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#begin_time DataTencentcloudCatProbeData#begin_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#begin_time DataTencentcloudCatProbeData#begin_time}
   */
   readonly beginTime: number;
   /**
   * City list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#city DataTencentcloudCatProbeData#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#city DataTencentcloudCatProbeData#city}
   */
   readonly city?: string[];
   /**
   * Code list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#code DataTencentcloudCatProbeData#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#code DataTencentcloudCatProbeData#code}
   */
   readonly code?: string[];
   /**
   * Districts list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#districts DataTencentcloudCatProbeData#districts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#districts DataTencentcloudCatProbeData#districts}
   */
   readonly districts?: string[];
   /**
   * End timestamp (in milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#end_time DataTencentcloudCatProbeData#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#end_time DataTencentcloudCatProbeData#end_time}
   */
   readonly endTime: number;
   /**
   * ErrorTypes list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#error_types DataTencentcloudCatProbeData#error_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#error_types DataTencentcloudCatProbeData#error_types}
   */
   readonly errorTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#id DataTencentcloudCatProbeData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#id DataTencentcloudCatProbeData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,49 +59,49 @@ export interface DataTencentcloudCatProbeDataConfig extends cdktf.TerraformMetaA
   /**
   * Limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#limit DataTencentcloudCatProbeData#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#limit DataTencentcloudCatProbeData#limit}
   */
   readonly limit: number;
   /**
   * Offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#offset DataTencentcloudCatProbeData#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#offset DataTencentcloudCatProbeData#offset}
   */
   readonly offset: number;
   /**
   * Operators list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#operators DataTencentcloudCatProbeData#operators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#operators DataTencentcloudCatProbeData#operators}
   */
   readonly operators?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#result_output_file DataTencentcloudCatProbeData#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#result_output_file DataTencentcloudCatProbeData#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Selected Fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#selected_fields DataTencentcloudCatProbeData#selected_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#selected_fields DataTencentcloudCatProbeData#selected_fields}
   */
   readonly selectedFields: string[];
   /**
   * Fields to be sorted ProbeTime dial test time sorting can be filled in You can also fill in the selected fields in SelectedFields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#sort_field DataTencentcloudCatProbeData#sort_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#sort_field DataTencentcloudCatProbeData#sort_field}
   */
   readonly sortField: string;
   /**
   * TaskID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#task_id DataTencentcloudCatProbeData#task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#task_id DataTencentcloudCatProbeData#task_id}
   */
   readonly taskId?: string[];
   /**
   * Task Type in AnalyzeTaskType_Network,AnalyzeTaskType_Browse,AnalyzeTaskType_UploadDownload,AnalyzeTaskType_Transport,AnalyzeTaskType_MediaStream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#task_type DataTencentcloudCatProbeData#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#task_type DataTencentcloudCatProbeData#task_type}
   */
   readonly taskType: string;
 }
@@ -364,7 +364,7 @@ export class DataTencentcloudCatProbeDataDetailedSingleDataDefineList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data tencentcloud_cat_probe_data}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data tencentcloud_cat_probe_data}
 */
 export class DataTencentcloudCatProbeData extends cdktf.TerraformDataSource {
 
@@ -380,7 +380,7 @@ export class DataTencentcloudCatProbeData extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCatProbeData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCatProbeData to import
-  * @param importFromId The id of the existing DataTencentcloudCatProbeData that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCatProbeData that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCatProbeData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -392,7 +392,7 @@ export class DataTencentcloudCatProbeData extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cat_probe_data tencentcloud_cat_probe_data} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cat_probe_data tencentcloud_cat_probe_data} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -403,8 +403,8 @@ export class DataTencentcloudCatProbeData extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cat_probe_data',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

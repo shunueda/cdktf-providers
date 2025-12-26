@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reject_join_share_unit_invitation_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/reject_join_share_unit_invitation_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RejectJoinShareUnitInvitationOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reject_join_share_unit_invitation_operation#id RejectJoinShareUnitInvitationOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/reject_join_share_unit_invitation_operation#id RejectJoinShareUnitInvitationOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface RejectJoinShareUnitInvitationOperationConfig extends cdktf.Terr
   /**
   * Shared unit ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reject_join_share_unit_invitation_operation#unit_id RejectJoinShareUnitInvitationOperation#unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/reject_join_share_unit_invitation_operation#unit_id RejectJoinShareUnitInvitationOperation#unit_id}
   */
   readonly unitId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reject_join_share_unit_invitation_operation tencentcloud_reject_join_share_unit_invitation_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/reject_join_share_unit_invitation_operation tencentcloud_reject_join_share_unit_invitation_operation}
 */
 export class RejectJoinShareUnitInvitationOperation extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class RejectJoinShareUnitInvitationOperation extends cdktf.TerraformResou
   * Generates CDKTF code for importing a RejectJoinShareUnitInvitationOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RejectJoinShareUnitInvitationOperation to import
-  * @param importFromId The id of the existing RejectJoinShareUnitInvitationOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reject_join_share_unit_invitation_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RejectJoinShareUnitInvitationOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/reject_join_share_unit_invitation_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RejectJoinShareUnitInvitationOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class RejectJoinShareUnitInvitationOperation extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/reject_join_share_unit_invitation_operation tencentcloud_reject_join_share_unit_invitation_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/reject_join_share_unit_invitation_operation tencentcloud_reject_join_share_unit_invitation_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class RejectJoinShareUnitInvitationOperation extends cdktf.TerraformResou
       terraformResourceType: 'tencentcloud_reject_join_share_unit_invitation_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

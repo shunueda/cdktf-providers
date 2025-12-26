@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ElasticsearchInstanceConfig extends cdktf.TerraformMetaArgument
   /**
   * Availability zone. When create multi-az es, this parameter must be the primary availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#availability_zone ElasticsearchInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#availability_zone ElasticsearchInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Whether to enable X-Pack security authentication in Basic Edition 6.8 and above. Valid values are `1` and `2`. `1` is disabled, `2` is enabled, and default value is `1`. Notice: this parameter is only take effect on `basic` license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#basic_security_type ElasticsearchInstance#basic_security_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#basic_security_type ElasticsearchInstance#basic_security_type}
   */
   readonly basicSecurityType?: number;
   /**
   * The tenancy of the prepaid instance, and uint is month. NOTE: it only works when charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#charge_period ElasticsearchInstance#charge_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#charge_period ElasticsearchInstance#charge_period}
   */
   readonly chargePeriod?: number;
   /**
   * The charge type of instance. Valid values are `PREPAID` and `POSTPAID_BY_HOUR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#charge_type ElasticsearchInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#charge_type ElasticsearchInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Cluster deployment mode. Valid values are `0` and `1`. `0` is single-AZ deployment, and `1` is multi-AZ deployment. Default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#deploy_mode ElasticsearchInstance#deploy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#deploy_mode ElasticsearchInstance#deploy_mode}
   */
   readonly deployMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#id ElasticsearchInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#id ElasticsearchInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,109 +47,109 @@ export interface ElasticsearchInstanceConfig extends cdktf.TerraformMetaArgument
   /**
   * Name of the instance, which can contain 1 to 50 English letters, Chinese characters, digits, dashes(-), or underscores(_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#instance_name ElasticsearchInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#instance_name ElasticsearchInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Kibana private network access status. Valid values are `OPEN` and `CLOSE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#kibana_private_access ElasticsearchInstance#kibana_private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#kibana_private_access ElasticsearchInstance#kibana_private_access}
   */
   readonly kibanaPrivateAccess?: string;
   /**
   * Kibana public network access status. Valid values are `OPEN` and `CLOSE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#kibana_public_access ElasticsearchInstance#kibana_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#kibana_public_access ElasticsearchInstance#kibana_public_access}
   */
   readonly kibanaPublicAccess?: string;
   /**
   * License type. Valid values are `oss`, `basic` and `platinum`. The default value is `platinum`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#license_type ElasticsearchInstance#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#license_type ElasticsearchInstance#license_type}
   */
   readonly licenseType?: string;
   /**
   * Password to an instance, the password needs to be 8 to 16 characters, including at least two items ([a-z,A-Z], [0-9] and [-!@#$%&^*+=_:;,.?] special symbols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#password ElasticsearchInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#password ElasticsearchInstance#password}
   */
   readonly password: string;
   /**
   * Create an https cluster, default is http.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#protocol ElasticsearchInstance#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#protocol ElasticsearchInstance#protocol}
   */
   readonly protocol?: string;
   /**
   * ES cluster public network access status. Valid values are `OPEN` and `CLOSE`. Cannot be changed at the same time as `es_acl`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#public_access ElasticsearchInstance#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#public_access ElasticsearchInstance#public_access}
   */
   readonly publicAccess?: string;
   /**
   * When enabled, the instance will be renew automatically when it reach the end of the prepaid tenancy. Valid values are `RENEW_FLAG_AUTO` and `RENEW_FLAG_MANUAL`. NOTE: it only works when charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#renew_flag ElasticsearchInstance#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#renew_flag ElasticsearchInstance#renew_flag}
   */
   readonly renewFlag?: string;
   /**
   * The ID of a VPC subnetwork. When create multi-az es, this parameter must be the subnet in the primary availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#subnet_id ElasticsearchInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#subnet_id ElasticsearchInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * A mapping of tags to assign to the instance. For tag limits, please refer to [Use Limits](https://intl.cloud.tencent.com/document/product/651/13354).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#tags ElasticsearchInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#tags ElasticsearchInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Version of the instance. Valid values are `5.6.4`, `6.4.3`, `6.8.2`, `7.5.1` and `7.10.1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#version ElasticsearchInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#version ElasticsearchInstance#version}
   */
   readonly version: string;
   /**
   * The ID of a VPC network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#vpc_id ElasticsearchInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#vpc_id ElasticsearchInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * cos_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#cos_backup ElasticsearchInstance#cos_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#cos_backup ElasticsearchInstance#cos_backup}
   */
   readonly cosBackup?: ElasticsearchInstanceCosBackup;
   /**
   * es_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#es_acl ElasticsearchInstance#es_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#es_acl ElasticsearchInstance#es_acl}
   */
   readonly esAcl?: ElasticsearchInstanceEsAcl;
   /**
   * es_public_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#es_public_acl ElasticsearchInstance#es_public_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#es_public_acl ElasticsearchInstance#es_public_acl}
   */
   readonly esPublicAcl?: ElasticsearchInstanceEsPublicAcl;
   /**
   * multi_zone_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#multi_zone_infos ElasticsearchInstance#multi_zone_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#multi_zone_infos ElasticsearchInstance#multi_zone_infos}
   */
   readonly multiZoneInfos?: ElasticsearchInstanceMultiZoneInfos[] | cdktf.IResolvable;
   /**
   * node_info_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#node_info_list ElasticsearchInstance#node_info_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#node_info_list ElasticsearchInstance#node_info_list}
   */
   readonly nodeInfoList?: ElasticsearchInstanceNodeInfoListStruct[] | cdktf.IResolvable;
   /**
   * web_node_type_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#web_node_type_info ElasticsearchInstance#web_node_type_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#web_node_type_info ElasticsearchInstance#web_node_type_info}
   */
   readonly webNodeTypeInfo?: ElasticsearchInstanceWebNodeTypeInfo[] | cdktf.IResolvable;
 }
@@ -157,13 +157,13 @@ export interface ElasticsearchInstanceCosBackup {
   /**
   * Automatic backup execution time (accurate to the hour), e.g. `22:00`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#backup_time ElasticsearchInstance#backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#backup_time ElasticsearchInstance#backup_time}
   */
   readonly backupTime: string;
   /**
   * Whether to enable automatic backup of cos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#is_auto_backup ElasticsearchInstance#is_auto_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#is_auto_backup ElasticsearchInstance#is_auto_backup}
   */
   readonly isAutoBackup: boolean | cdktf.IResolvable;
 }
@@ -272,13 +272,13 @@ export interface ElasticsearchInstanceEsAcl {
   /**
   * Blacklist of kibana access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#black_list ElasticsearchInstance#black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#black_list ElasticsearchInstance#black_list}
   */
   readonly blackList?: string[];
   /**
   * Whitelist of kibana access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#white_list ElasticsearchInstance#white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#white_list ElasticsearchInstance#white_list}
   */
   readonly whiteList?: string[];
 }
@@ -393,7 +393,7 @@ export interface ElasticsearchInstanceEsPublicAcl {
   /**
   * Access Whitelist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#white_ip_list ElasticsearchInstance#white_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#white_ip_list ElasticsearchInstance#white_ip_list}
   */
   readonly whiteIpList?: string[];
 }
@@ -479,13 +479,13 @@ export interface ElasticsearchInstanceMultiZoneInfos {
   /**
   * Availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#availability_zone ElasticsearchInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#availability_zone ElasticsearchInstance#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * The ID of a VPC subnetwork.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#subnet_id ElasticsearchInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#subnet_id ElasticsearchInstance#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -626,37 +626,37 @@ export interface ElasticsearchInstanceNodeInfoListStruct {
   /**
   * Node disk size. Unit is GB, and default value is `100`. Big Data and High IO models do not support the specified disk size and have no default values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#disk_size ElasticsearchInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#disk_size ElasticsearchInstance#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Node disk type. Valid values are `CLOUD_SSD`, `CLOUD_PREMIUM`, `CLOUD_HSSD`, `CLOUD_BSSD`, `CLOUD_BIGDATA` and `CLOUD_HIGHIO`. The default value is `CLOUD_SSD`. Big Data and High IO models do not support the specified disk type and have no default values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#disk_type ElasticsearchInstance#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#disk_type ElasticsearchInstance#disk_type}
   */
   readonly diskType?: string;
   /**
   * Decides to encrypt this disk or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#encrypt ElasticsearchInstance#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#encrypt ElasticsearchInstance#encrypt}
   */
   readonly encrypt?: boolean | cdktf.IResolvable;
   /**
   * Number of nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#node_num ElasticsearchInstance#node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#node_num ElasticsearchInstance#node_num}
   */
   readonly nodeNum: number;
   /**
   * Node specification, and valid values refer to [document of tencentcloud](https://intl.cloud.tencent.com/document/product/845/18376).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#node_type ElasticsearchInstance#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#node_type ElasticsearchInstance#node_type}
   */
   readonly nodeType: string;
   /**
   * Node type. Valid values are `hotData`, `warmData` and `dedicatedMaster`. The default value is 'hotData`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#type ElasticsearchInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#type ElasticsearchInstance#type}
   */
   readonly type?: string;
 }
@@ -913,13 +913,13 @@ export interface ElasticsearchInstanceWebNodeTypeInfo {
   /**
   * Visual node number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#node_num ElasticsearchInstance#node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#node_num ElasticsearchInstance#node_num}
   */
   readonly nodeNum: number;
   /**
   * Visual node specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#node_type ElasticsearchInstance#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#node_type ElasticsearchInstance#node_type}
   */
   readonly nodeType: string;
 }
@@ -1058,7 +1058,7 @@ export class ElasticsearchInstanceWebNodeTypeInfoList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance tencentcloud_elasticsearch_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance tencentcloud_elasticsearch_instance}
 */
 export class ElasticsearchInstance extends cdktf.TerraformResource {
 
@@ -1074,7 +1074,7 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchInstance to import
-  * @param importFromId The id of the existing ElasticsearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1086,7 +1086,7 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/elasticsearch_instance tencentcloud_elasticsearch_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/elasticsearch_instance tencentcloud_elasticsearch_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1097,8 +1097,8 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_elasticsearch_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

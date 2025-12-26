@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/rum_whitelist
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/rum_whitelist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RumWhitelistConfig extends cdktf.TerraformMetaArguments {
   /**
   * Business identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/rum_whitelist#aid RumWhitelist#aid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/rum_whitelist#aid RumWhitelist#aid}
   */
   readonly aid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/rum_whitelist#id RumWhitelist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/rum_whitelist#id RumWhitelist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface RumWhitelistConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance ID, such as taw-123.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/rum_whitelist#instance_id RumWhitelist#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/rum_whitelist#instance_id RumWhitelist#instance_id}
   */
   readonly instanceId: string;
   /**
   * Remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/rum_whitelist#remark RumWhitelist#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/rum_whitelist#remark RumWhitelist#remark}
   */
   readonly remark: string;
   /**
   * uin: business identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/rum_whitelist#whitelist_uin RumWhitelist#whitelist_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/rum_whitelist#whitelist_uin RumWhitelist#whitelist_uin}
   */
   readonly whitelistUin: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/rum_whitelist tencentcloud_rum_whitelist}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/rum_whitelist tencentcloud_rum_whitelist}
 */
 export class RumWhitelist extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class RumWhitelist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RumWhitelist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RumWhitelist to import
-  * @param importFromId The id of the existing RumWhitelist that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/rum_whitelist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RumWhitelist that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/rum_whitelist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RumWhitelist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class RumWhitelist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/rum_whitelist tencentcloud_rum_whitelist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/rum_whitelist tencentcloud_rum_whitelist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class RumWhitelist extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_rum_whitelist',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

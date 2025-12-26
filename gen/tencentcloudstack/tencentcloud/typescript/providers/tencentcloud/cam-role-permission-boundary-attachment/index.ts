@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_role_permission_boundary_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cam_role_permission_boundary_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CamRolePermissionBoundaryAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_role_permission_boundary_attachment#id CamRolePermissionBoundaryAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cam_role_permission_boundary_attachment#id CamRolePermissionBoundaryAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface CamRolePermissionBoundaryAttachmentConfig extends cdktf.Terrafo
   /**
   * Role ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_role_permission_boundary_attachment#policy_id CamRolePermissionBoundaryAttachment#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cam_role_permission_boundary_attachment#policy_id CamRolePermissionBoundaryAttachment#policy_id}
   */
   readonly policyId: number;
   /**
   * Role ID (at least one should be filled in with the role name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_role_permission_boundary_attachment#role_id CamRolePermissionBoundaryAttachment#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cam_role_permission_boundary_attachment#role_id CamRolePermissionBoundaryAttachment#role_id}
   */
   readonly roleId?: string;
   /**
   * Role name (at least one should be filled in with the role ID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_role_permission_boundary_attachment#role_name CamRolePermissionBoundaryAttachment#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cam_role_permission_boundary_attachment#role_name CamRolePermissionBoundaryAttachment#role_name}
   */
   readonly roleName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_role_permission_boundary_attachment tencentcloud_cam_role_permission_boundary_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cam_role_permission_boundary_attachment tencentcloud_cam_role_permission_boundary_attachment}
 */
 export class CamRolePermissionBoundaryAttachment extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CamRolePermissionBoundaryAttachment extends cdktf.TerraformResource
   * Generates CDKTF code for importing a CamRolePermissionBoundaryAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CamRolePermissionBoundaryAttachment to import
-  * @param importFromId The id of the existing CamRolePermissionBoundaryAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_role_permission_boundary_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CamRolePermissionBoundaryAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cam_role_permission_boundary_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CamRolePermissionBoundaryAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CamRolePermissionBoundaryAttachment extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cam_role_permission_boundary_attachment tencentcloud_cam_role_permission_boundary_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cam_role_permission_boundary_attachment tencentcloud_cam_role_permission_boundary_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class CamRolePermissionBoundaryAttachment extends cdktf.TerraformResource
       terraformResourceType: 'tencentcloud_cam_role_permission_boundary_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

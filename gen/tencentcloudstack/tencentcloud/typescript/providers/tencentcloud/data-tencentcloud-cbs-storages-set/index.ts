@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudCbsStoragesSetConfig extends cdktf.TerraformMet
   /**
   * The available zone that the CBS instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#availability_zone DataTencentcloudCbsStoragesSet#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#availability_zone DataTencentcloudCbsStoragesSet#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * List filter by disk charge type (`POSTPAID_BY_HOUR` | `PREPAID` | `CDCPAID` | `DEDICATED_CLUSTER_PAID`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#charge_type DataTencentcloudCbsStoragesSet#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#charge_type DataTencentcloudCbsStoragesSet#charge_type}
   */
   readonly chargeType?: string[];
   /**
   * Exclusive cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#dedicated_cluster_id DataTencentcloudCbsStoragesSet#dedicated_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#dedicated_cluster_id DataTencentcloudCbsStoragesSet#dedicated_cluster_id}
   */
   readonly dedicatedClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#id DataTencentcloudCbsStoragesSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#id DataTencentcloudCbsStoragesSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,73 +35,73 @@ export interface DataTencentcloudCbsStoragesSetConfig extends cdktf.TerraformMet
   /**
   * List filter by attached instance public or private IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#instance_ips DataTencentcloudCbsStoragesSet#instance_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#instance_ips DataTencentcloudCbsStoragesSet#instance_ips}
   */
   readonly instanceIps?: string[];
   /**
   * List filter by attached instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#instance_name DataTencentcloudCbsStoragesSet#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#instance_name DataTencentcloudCbsStoragesSet#instance_name}
   */
   readonly instanceName?: string[];
   /**
   * Filter by whether the disk is portable (Boolean `true` or `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#portable DataTencentcloudCbsStoragesSet#portable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#portable DataTencentcloudCbsStoragesSet#portable}
   */
   readonly portable?: boolean | cdktf.IResolvable;
   /**
   * ID of the project with which the CBS is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#project_id DataTencentcloudCbsStoragesSet#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#project_id DataTencentcloudCbsStoragesSet#project_id}
   */
   readonly projectId?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#result_output_file DataTencentcloudCbsStoragesSet#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#result_output_file DataTencentcloudCbsStoragesSet#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of the CBS to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#storage_id DataTencentcloudCbsStoragesSet#storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#storage_id DataTencentcloudCbsStoragesSet#storage_id}
   */
   readonly storageId?: string;
   /**
   * Name of the CBS to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#storage_name DataTencentcloudCbsStoragesSet#storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#storage_name DataTencentcloudCbsStoragesSet#storage_name}
   */
   readonly storageName?: string;
   /**
   * List filter by disk state (`UNATTACHED` | `ATTACHING` | `ATTACHED` | `DETACHING` | `EXPANDING` | `ROLLBACKING` | `TORECYCLE`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#storage_state DataTencentcloudCbsStoragesSet#storage_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#storage_state DataTencentcloudCbsStoragesSet#storage_state}
   */
   readonly storageState?: string[];
   /**
   * Filter by cloud disk media type (`CLOUD_BASIC`: HDD cloud disk | `CLOUD_PREMIUM`: Premium Cloud Storage | `CLOUD_SSD`: SSD cloud disk).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#storage_type DataTencentcloudCbsStoragesSet#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#storage_type DataTencentcloudCbsStoragesSet#storage_type}
   */
   readonly storageType?: string;
   /**
   * Filter by cloud disk type (`SYSTEM_DISK`: system disk | `DATA_DISK`: data disk).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#storage_usage DataTencentcloudCbsStoragesSet#storage_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#storage_usage DataTencentcloudCbsStoragesSet#storage_usage}
   */
   readonly storageUsage?: string;
   /**
   * List filter by tag keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#tag_keys DataTencentcloudCbsStoragesSet#tag_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#tag_keys DataTencentcloudCbsStoragesSet#tag_keys}
   */
   readonly tagKeys?: string[];
   /**
   * List filter by tag values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#tag_values DataTencentcloudCbsStoragesSet#tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#tag_values DataTencentcloudCbsStoragesSet#tag_values}
   */
   readonly tagValues?: string[];
 }
@@ -268,7 +268,7 @@ export class DataTencentcloudCbsStoragesSetStorageListStructList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set tencentcloud_cbs_storages_set}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set tencentcloud_cbs_storages_set}
 */
 export class DataTencentcloudCbsStoragesSet extends cdktf.TerraformDataSource {
 
@@ -284,7 +284,7 @@ export class DataTencentcloudCbsStoragesSet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCbsStoragesSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCbsStoragesSet to import
-  * @param importFromId The id of the existing DataTencentcloudCbsStoragesSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCbsStoragesSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCbsStoragesSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +296,7 @@ export class DataTencentcloudCbsStoragesSet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/cbs_storages_set tencentcloud_cbs_storages_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/cbs_storages_set tencentcloud_cbs_storages_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,8 +307,8 @@ export class DataTencentcloudCbsStoragesSet extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cbs_storages_set',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

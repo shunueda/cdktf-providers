@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/postgresql_db_instance_classes
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/postgresql_db_instance_classes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudPostgresqlDbInstanceClassesConfig extends cdktf
   /**
   * Database engines. Valid values: 1. `postgresql` (TencentDB for PostgreSQL) 2. `mssql_compatible` (MSSQL compatible-TencentDB for PostgreSQL).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/postgresql_db_instance_classes#db_engine DataTencentcloudPostgresqlDbInstanceClasses#db_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/postgresql_db_instance_classes#db_engine DataTencentcloudPostgresqlDbInstanceClasses#db_engine}
   */
   readonly dbEngine: string;
   /**
   * Major version of a database, such as 12 or 13, which can be obtained through the `DescribeDBVersions` API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/postgresql_db_instance_classes#db_major_version DataTencentcloudPostgresqlDbInstanceClasses#db_major_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/postgresql_db_instance_classes#db_major_version DataTencentcloudPostgresqlDbInstanceClasses#db_major_version}
   */
   readonly dbMajorVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/postgresql_db_instance_classes#id DataTencentcloudPostgresqlDbInstanceClasses#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/postgresql_db_instance_classes#id DataTencentcloudPostgresqlDbInstanceClasses#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataTencentcloudPostgresqlDbInstanceClassesConfig extends cdktf
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/postgresql_db_instance_classes#result_output_file DataTencentcloudPostgresqlDbInstanceClasses#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/postgresql_db_instance_classes#result_output_file DataTencentcloudPostgresqlDbInstanceClasses#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * AZ ID, which can be obtained through the `DescribeZones` API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/postgresql_db_instance_classes#zone DataTencentcloudPostgresqlDbInstanceClasses#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/postgresql_db_instance_classes#zone DataTencentcloudPostgresqlDbInstanceClasses#zone}
   */
   readonly zone: string;
 }
@@ -141,7 +141,7 @@ export class DataTencentcloudPostgresqlDbInstanceClassesClassInfoSetList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/postgresql_db_instance_classes tencentcloud_postgresql_db_instance_classes}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/postgresql_db_instance_classes tencentcloud_postgresql_db_instance_classes}
 */
 export class DataTencentcloudPostgresqlDbInstanceClasses extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataTencentcloudPostgresqlDbInstanceClasses extends cdktf.Terraform
   * Generates CDKTF code for importing a DataTencentcloudPostgresqlDbInstanceClasses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudPostgresqlDbInstanceClasses to import
-  * @param importFromId The id of the existing DataTencentcloudPostgresqlDbInstanceClasses that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/postgresql_db_instance_classes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudPostgresqlDbInstanceClasses that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/postgresql_db_instance_classes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudPostgresqlDbInstanceClasses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataTencentcloudPostgresqlDbInstanceClasses extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/postgresql_db_instance_classes tencentcloud_postgresql_db_instance_classes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/postgresql_db_instance_classes tencentcloud_postgresql_db_instance_classes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataTencentcloudPostgresqlDbInstanceClasses extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_postgresql_db_instance_classes',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

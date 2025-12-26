@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClbTargetGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group#id ClbTargetGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group#id ClbTargetGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ClbTargetGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The default port of target group, add server after can use it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group#port ClbTargetGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group#port ClbTargetGroup#port}
   */
   readonly port?: number;
   /**
   * Target group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group#target_group_name ClbTargetGroup#target_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group#target_group_name ClbTargetGroup#target_group_name}
   */
   readonly targetGroupName?: string;
   /**
   * VPC ID, default is based on the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group#vpc_id ClbTargetGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group#vpc_id ClbTargetGroup#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * target_group_instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group#target_group_instances ClbTargetGroup#target_group_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group#target_group_instances ClbTargetGroup#target_group_instances}
   */
   readonly targetGroupInstances?: ClbTargetGroupTargetGroupInstances[] | cdktf.IResolvable;
 }
@@ -43,25 +43,25 @@ export interface ClbTargetGroupTargetGroupInstances {
   /**
   * The internal ip of target group instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group#bind_ip ClbTargetGroup#bind_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group#bind_ip ClbTargetGroup#bind_ip}
   */
   readonly bindIp: string;
   /**
   * The new port of target group instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group#new_port ClbTargetGroup#new_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group#new_port ClbTargetGroup#new_port}
   */
   readonly newPort?: number;
   /**
   * The port of target group instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group#port ClbTargetGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group#port ClbTargetGroup#port}
   */
   readonly port: number;
   /**
   * The weight of target group instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group#weight ClbTargetGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group#weight ClbTargetGroup#weight}
   */
   readonly weight?: number;
 }
@@ -258,7 +258,7 @@ export class ClbTargetGroupTargetGroupInstancesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group tencentcloud_clb_target_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group tencentcloud_clb_target_group}
 */
 export class ClbTargetGroup extends cdktf.TerraformResource {
 
@@ -274,7 +274,7 @@ export class ClbTargetGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClbTargetGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClbTargetGroup to import
-  * @param importFromId The id of the existing ClbTargetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClbTargetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClbTargetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -286,7 +286,7 @@ export class ClbTargetGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/clb_target_group tencentcloud_clb_target_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/clb_target_group tencentcloud_clb_target_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -297,8 +297,8 @@ export class ClbTargetGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clb_target_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

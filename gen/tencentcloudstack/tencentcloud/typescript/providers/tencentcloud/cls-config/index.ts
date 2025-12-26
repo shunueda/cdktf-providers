@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClsConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#id ClsConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#id ClsConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface ClsConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of the log to be collected. Valid values: json_log: log in JSON format; delimiter_log: log in delimited format; minimalist_log: minimalist log; multiline_log: log in multi-line format; fullregex_log: log in full regex format. Default value: minimalist_log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#log_type ClsConfig#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#log_type ClsConfig#log_type}
   */
   readonly logType?: string;
   /**
   * Collection configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#name ClsConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#name ClsConfig#name}
   */
   readonly name: string;
   /**
   * Log topic ID (TopicId) of collection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#output ClsConfig#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#output ClsConfig#output}
   */
   readonly output?: string;
   /**
   * Log collection path containing the filename. Required for document collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#path ClsConfig#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#path ClsConfig#path}
   */
   readonly path?: string;
   /**
   * Custom collection rule, which is a serialized JSON string. Required when LogType is user_define_log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#user_define_rule ClsConfig#user_define_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#user_define_rule ClsConfig#user_define_rule}
   */
   readonly userDefineRule?: string;
   /**
   * exclude_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#exclude_paths ClsConfig#exclude_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#exclude_paths ClsConfig#exclude_paths}
   */
   readonly excludePaths?: ClsConfigExcludePaths[] | cdktf.IResolvable;
   /**
   * extract_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#extract_rule ClsConfig#extract_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#extract_rule ClsConfig#extract_rule}
   */
   readonly extractRule: ClsConfigExtractRule;
 }
@@ -61,13 +61,13 @@ export interface ClsConfigExcludePaths {
   /**
   * Type. Valid values: File, Path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#type ClsConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#type ClsConfig#type}
   */
   readonly type?: string;
   /**
   * Specific content corresponding to Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#value ClsConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#value ClsConfig#value}
   */
   readonly value?: string;
 }
@@ -214,13 +214,13 @@ export interface ClsConfigExtractRuleFilterKeyRegex {
   /**
   * Log key to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#key ClsConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#key ClsConfig#key}
   */
   readonly key?: string;
   /**
   * Filter rule regex corresponding to key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#regex ClsConfig#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#regex ClsConfig#regex}
   */
   readonly regex?: string;
 }
@@ -367,13 +367,13 @@ export interface ClsConfigExtractRuleMetaTags {
   /**
   * tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#key ClsConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#key ClsConfig#key}
   */
   readonly key?: string;
   /**
   * tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#value ClsConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#value ClsConfig#value}
   */
   readonly value?: string;
 }
@@ -520,109 +520,109 @@ export interface ClsConfigExtractRule {
   /**
   * syslog system log collection specifies the address and port that the collector listens to. This parameter is only valid when LogType is service_syslog. It does not need to be filled in for other types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#address ClsConfig#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#address ClsConfig#address}
   */
   readonly address?: string;
   /**
   * Size of the data to be rewound in incremental collection mode. Default value: -1 (full collection).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#backtracking ClsConfig#backtracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#backtracking ClsConfig#backtracking}
   */
   readonly backtracking?: number;
   /**
   * First-Line matching rule, which is valid only if log_type is multiline_log or fullregex_log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#begin_regex ClsConfig#begin_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#begin_regex ClsConfig#begin_regex}
   */
   readonly beginRegex?: string;
   /**
   * Delimiter for delimited log, which is valid only if log_type is delimiter_log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#delimiter ClsConfig#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#delimiter ClsConfig#delimiter}
   */
   readonly delimiter?: string;
   /**
   * GBK encoding. Default 0. Note: - Currently, when the value is 0, it means UTF-8 encoding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#is_gbk ClsConfig#is_gbk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#is_gbk ClsConfig#is_gbk}
   */
   readonly isGbk?: number;
   /**
   * standard json. Default 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#json_standard ClsConfig#json_standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#json_standard ClsConfig#json_standard}
   */
   readonly jsonStandard?: number;
   /**
   * Key name of each extracted field. An empty key indicates to discard the field. This parameter is valid only if log_type is delimiter_log. json_log logs use the key of JSON itself.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#keys ClsConfig#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#keys ClsConfig#keys}
   */
   readonly keys?: string[];
   /**
   * Full log matching rule, which is valid only if log_type is fullregex_log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#log_regex ClsConfig#log_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#log_regex ClsConfig#log_regex}
   */
   readonly logRegex?: string;
   /**
   * metadata type. 0: Do not use metadata information; 1: Use machine group metadata; 2: Use user-defined metadata; 3: Use collection configuration path. Note: COS import does not support this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#metadata_type ClsConfig#metadata_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#metadata_type ClsConfig#metadata_type}
   */
   readonly metadataType?: number;
   /**
   * parse protocol. This parameter is only valid when LogType is service_syslog. It does not need to be filled in for other types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#parse_protocol ClsConfig#parse_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#parse_protocol ClsConfig#parse_protocol}
   */
   readonly parseProtocol?: string;
   /**
   * metadata path regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#path_regex ClsConfig#path_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#path_regex ClsConfig#path_regex}
   */
   readonly pathRegex?: string;
   /**
   * syslog protocol, tcp or udp. The value can be tcp or udp. It is effective only when LogType is service_syslog. Other types do not need to be filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#protocol ClsConfig#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#protocol ClsConfig#protocol}
   */
   readonly protocol?: string;
   /**
   * Time field format. For more information, please see the output parameters of the time format description of the strftime function in C language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#time_format ClsConfig#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#time_format ClsConfig#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Time field key name. time_key and time_format must appear in pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#time_key ClsConfig#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#time_key ClsConfig#time_key}
   */
   readonly timeKey?: string;
   /**
   * Unmatched log key. Required when UnMatchUpLoadSwitch is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#un_match_log_key ClsConfig#un_match_log_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#un_match_log_key ClsConfig#un_match_log_key}
   */
   readonly unMatchLogKey?: string;
   /**
   * Whether to upload the logs that failed to be parsed. Valid values: true: yes; false: no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#un_match_up_load_switch ClsConfig#un_match_up_load_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#un_match_up_load_switch ClsConfig#un_match_up_load_switch}
   */
   readonly unMatchUpLoadSwitch?: boolean | cdktf.IResolvable;
   /**
   * filter_key_regex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#filter_key_regex ClsConfig#filter_key_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#filter_key_regex ClsConfig#filter_key_regex}
   */
   readonly filterKeyRegex?: ClsConfigExtractRuleFilterKeyRegex[] | cdktf.IResolvable;
   /**
   * meta_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#meta_tags ClsConfig#meta_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#meta_tags ClsConfig#meta_tags}
   */
   readonly metaTags?: ClsConfigExtractRuleMetaTags[] | cdktf.IResolvable;
 }
@@ -1199,7 +1199,7 @@ export class ClsConfigExtractRuleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config tencentcloud_cls_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config tencentcloud_cls_config}
 */
 export class ClsConfig extends cdktf.TerraformResource {
 
@@ -1215,7 +1215,7 @@ export class ClsConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClsConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClsConfig to import
-  * @param importFromId The id of the existing ClsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClsConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1227,7 +1227,7 @@ export class ClsConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cls_config tencentcloud_cls_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cls_config tencentcloud_cls_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1238,8 +1238,8 @@ export class ClsConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

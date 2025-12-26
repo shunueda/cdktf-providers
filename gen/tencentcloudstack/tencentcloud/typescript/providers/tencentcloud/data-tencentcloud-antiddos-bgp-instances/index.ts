@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/antiddos_bgp_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/antiddos_bgp_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudAntiddosBgpInstancesConfig extends cdktf.Terraf
   /**
   * Instance ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/antiddos_bgp_instances#filter_instance_id_list DataTencentcloudAntiddosBgpInstances#filter_instance_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/antiddos_bgp_instances#filter_instance_id_list DataTencentcloudAntiddosBgpInstances#filter_instance_id_list}
   */
   readonly filterInstanceIdList?: string[];
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/antiddos_bgp_instances#filter_region DataTencentcloudAntiddosBgpInstances#filter_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/antiddos_bgp_instances#filter_region DataTencentcloudAntiddosBgpInstances#filter_region}
   */
   readonly filterRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/antiddos_bgp_instances#id DataTencentcloudAntiddosBgpInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/antiddos_bgp_instances#id DataTencentcloudAntiddosBgpInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataTencentcloudAntiddosBgpInstancesConfig extends cdktf.Terraf
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/antiddos_bgp_instances#result_output_file DataTencentcloudAntiddosBgpInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/antiddos_bgp_instances#result_output_file DataTencentcloudAntiddosBgpInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filter_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/antiddos_bgp_instances#filter_tag DataTencentcloudAntiddosBgpInstances#filter_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/antiddos_bgp_instances#filter_tag DataTencentcloudAntiddosBgpInstances#filter_tag}
   */
   readonly filterTag?: DataTencentcloudAntiddosBgpInstancesFilterTag[] | cdktf.IResolvable;
 }
@@ -603,13 +603,13 @@ export interface DataTencentcloudAntiddosBgpInstancesFilterTag {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/antiddos_bgp_instances#tag_key DataTencentcloudAntiddosBgpInstances#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/antiddos_bgp_instances#tag_key DataTencentcloudAntiddosBgpInstances#tag_key}
   */
   readonly tagKey: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/antiddos_bgp_instances#tag_value DataTencentcloudAntiddosBgpInstances#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/antiddos_bgp_instances#tag_value DataTencentcloudAntiddosBgpInstances#tag_value}
   */
   readonly tagValue: string;
 }
@@ -748,7 +748,7 @@ export class DataTencentcloudAntiddosBgpInstancesFilterTagList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/antiddos_bgp_instances tencentcloud_antiddos_bgp_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/antiddos_bgp_instances tencentcloud_antiddos_bgp_instances}
 */
 export class DataTencentcloudAntiddosBgpInstances extends cdktf.TerraformDataSource {
 
@@ -764,7 +764,7 @@ export class DataTencentcloudAntiddosBgpInstances extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudAntiddosBgpInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudAntiddosBgpInstances to import
-  * @param importFromId The id of the existing DataTencentcloudAntiddosBgpInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/antiddos_bgp_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudAntiddosBgpInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/antiddos_bgp_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudAntiddosBgpInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -776,7 +776,7 @@ export class DataTencentcloudAntiddosBgpInstances extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/antiddos_bgp_instances tencentcloud_antiddos_bgp_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/antiddos_bgp_instances tencentcloud_antiddos_bgp_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -787,8 +787,8 @@ export class DataTencentcloudAntiddosBgpInstances extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_antiddos_bgp_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mqtt_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mqtt_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudMqttInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mqtt_instances#id DataTencentcloudMqttInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mqtt_instances#id DataTencentcloudMqttInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudMqttInstancesConfig extends cdktf.TerraformMeta
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mqtt_instances#result_output_file DataTencentcloudMqttInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mqtt_instances#result_output_file DataTencentcloudMqttInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mqtt_instances#filters DataTencentcloudMqttInstances#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mqtt_instances#filters DataTencentcloudMqttInstances#filters}
   */
   readonly filters?: DataTencentcloudMqttInstancesFilters[] | cdktf.IResolvable;
   /**
   * tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mqtt_instances#tag_filters DataTencentcloudMqttInstances#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mqtt_instances#tag_filters DataTencentcloudMqttInstances#tag_filters}
   */
   readonly tagFilters?: DataTencentcloudMqttInstancesTagFilters[] | cdktf.IResolvable;
 }
@@ -207,13 +207,13 @@ export interface DataTencentcloudMqttInstancesFilters {
   /**
   * Filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mqtt_instances#name DataTencentcloudMqttInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mqtt_instances#name DataTencentcloudMqttInstances#name}
   */
   readonly name: string;
   /**
   * Values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mqtt_instances#values DataTencentcloudMqttInstances#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mqtt_instances#values DataTencentcloudMqttInstances#values}
   */
   readonly values: string[];
 }
@@ -354,13 +354,13 @@ export interface DataTencentcloudMqttInstancesTagFilters {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mqtt_instances#tag_key DataTencentcloudMqttInstances#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mqtt_instances#tag_key DataTencentcloudMqttInstances#tag_key}
   */
   readonly tagKey?: string;
   /**
   * Tag values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mqtt_instances#tag_values DataTencentcloudMqttInstances#tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mqtt_instances#tag_values DataTencentcloudMqttInstances#tag_values}
   */
   readonly tagValues?: string[];
 }
@@ -505,7 +505,7 @@ export class DataTencentcloudMqttInstancesTagFiltersList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mqtt_instances tencentcloud_mqtt_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mqtt_instances tencentcloud_mqtt_instances}
 */
 export class DataTencentcloudMqttInstances extends cdktf.TerraformDataSource {
 
@@ -521,7 +521,7 @@ export class DataTencentcloudMqttInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudMqttInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMqttInstances to import
-  * @param importFromId The id of the existing DataTencentcloudMqttInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mqtt_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMqttInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mqtt_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMqttInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -533,7 +533,7 @@ export class DataTencentcloudMqttInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mqtt_instances tencentcloud_mqtt_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mqtt_instances tencentcloud_mqtt_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -544,8 +544,8 @@ export class DataTencentcloudMqttInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_mqtt_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

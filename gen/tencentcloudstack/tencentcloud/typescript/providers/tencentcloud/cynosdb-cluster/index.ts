@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface CynosdbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify whether the cluster can auto-pause while `db_mode` is `SERVERLESS`. Values: `yes` (default), `no`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#auto_pause CynosdbCluster#auto_pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#auto_pause CynosdbCluster#auto_pause}
   */
   readonly autoPause?: string;
   /**
   * Specify auto-pause delay in second while `db_mode` is `SERVERLESS`. Value range: `[600, 691200]`. Default: `600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#auto_pause_delay CynosdbCluster#auto_pause_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#auto_pause_delay CynosdbCluster#auto_pause_delay}
   */
   readonly autoPauseDelay?: number;
   /**
   * Auto renew flag. Valid values are `0`(MANUAL_RENEW), `1`(AUTO_RENEW). Default value is `0`. Only works for PREPAID cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#auto_renew_flag CynosdbCluster#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#auto_renew_flag CynosdbCluster#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
   * The available zone of the CynosDB Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#available_zone CynosdbCluster#available_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#available_zone CynosdbCluster#available_zone}
   */
   readonly availableZone: string;
   /**
   * The charge type of instance. Valid values are `PREPAID` and `POSTPAID_BY_HOUR`. Default value is `POSTPAID_BY_HOUR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#charge_type CynosdbCluster#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#charge_type CynosdbCluster#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Name of CynosDB cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#cluster_name CynosdbCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#cluster_name CynosdbCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Kernel version, you can enter it when modifying.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#cynos_version CynosdbCluster#cynos_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#cynos_version CynosdbCluster#cynos_version}
   */
   readonly cynosVersion?: string;
   /**
   * Specify DB mode, only available when `db_type` is `MYSQL`. Values: `NORMAL` (Default), `SERVERLESS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#db_mode CynosdbCluster#db_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#db_mode CynosdbCluster#db_mode}
   */
   readonly dbMode?: string;
   /**
   * Type of CynosDB, and available values include `MYSQL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#db_type CynosdbCluster#db_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#db_type CynosdbCluster#db_type}
   */
   readonly dbType: string;
   /**
   * Version of CynosDB, which is related to `db_type`. For `MYSQL`, available value is `5.7`, `8.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#db_version CynosdbCluster#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#db_version CynosdbCluster#db_version}
   */
   readonly dbVersion: string;
   /**
   * Indicate whether to delete cluster instance directly or not. Default is false. If set true, the cluster and its `All RELATED INSTANCES` will be deleted instead of staying recycle bin. Note: works for both `PREPAID` and `POSTPAID_BY_HOUR` cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#force_delete CynosdbCluster#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#force_delete CynosdbCluster#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#id CynosdbCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#id CynosdbCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,157 +83,157 @@ export interface CynosdbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of instances, the range is (0,16], the default value is 2 (i.e. one RW instance + one Ro instance), the passed n means 1 RW instance + n-1 Ro instances (with the same specifications), if you need a more accurate cluster composition, please use InstanceInitInfos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#instance_count CynosdbCluster#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#instance_count CynosdbCluster#instance_count}
   */
   readonly instanceCount?: number;
   /**
   * The number of CPU cores of read-write type instance in the CynosDB cluster. Required while creating normal cluster. Note: modification of this field will take effect immediately, if want to upgrade on maintenance window, please upgrade from console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#instance_cpu_core CynosdbCluster#instance_cpu_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#instance_cpu_core CynosdbCluster#instance_cpu_core}
   */
   readonly instanceCpuCore?: number;
   /**
   * Duration time for maintenance, unit in second. `3600` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#instance_maintain_duration CynosdbCluster#instance_maintain_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#instance_maintain_duration CynosdbCluster#instance_maintain_duration}
   */
   readonly instanceMaintainDuration?: number;
   /**
   * Offset time from 00:00, unit in second. For example, 03:00am should be `10800`. `10800` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#instance_maintain_start_time CynosdbCluster#instance_maintain_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#instance_maintain_start_time CynosdbCluster#instance_maintain_start_time}
   */
   readonly instanceMaintainStartTime?: number;
   /**
   * Weekdays for maintenance. `["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#instance_maintain_weekdays CynosdbCluster#instance_maintain_weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#instance_maintain_weekdays CynosdbCluster#instance_maintain_weekdays}
   */
   readonly instanceMaintainWeekdays?: string[];
   /**
   * Memory capacity of read-write type instance, unit in GB. Required while creating normal cluster. Note: modification of this field will take effect immediately, if want to upgrade on maintenance window, please upgrade from console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#instance_memory_size CynosdbCluster#instance_memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#instance_memory_size CynosdbCluster#instance_memory_size}
   */
   readonly instanceMemorySize?: number;
   /**
   * Maximum CPU core count, required while `db_mode` is `SERVERLESS`, request DescribeServerlessInstanceSpecs for more reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#max_cpu CynosdbCluster#max_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#max_cpu CynosdbCluster#max_cpu}
   */
   readonly maxCpu?: number;
   /**
   * Minimum CPU core count, required while `db_mode` is `SERVERLESS`, request DescribeServerlessInstanceSpecs for more reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#min_cpu CynosdbCluster#min_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#min_cpu CynosdbCluster#min_cpu}
   */
   readonly minCpu?: number;
   /**
   * Recycling time of the old address, must be filled in when modifying the vpcRecycling time of the old address, must be filled in when modifying the vpc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#old_ip_reserve_hours CynosdbCluster#old_ip_reserve_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#old_ip_reserve_hours CynosdbCluster#old_ip_reserve_hours}
   */
   readonly oldIpReserveHours?: number;
   /**
   * The ID of the parameter template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#param_template_id CynosdbCluster#param_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#param_template_id CynosdbCluster#param_template_id}
   */
   readonly paramTemplateId?: number;
   /**
   * Password of `root` account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#password CynosdbCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#password CynosdbCluster#password}
   */
   readonly password: string;
   /**
   * Port of CynosDB cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#port CynosdbCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#port CynosdbCluster#port}
   */
   readonly port?: number;
   /**
   * The ID of the parameter template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#prarm_template_id CynosdbCluster#prarm_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#prarm_template_id CynosdbCluster#prarm_template_id}
   */
   readonly prarmTemplateId?: number;
   /**
   * The tenancy (time unit is month) of the prepaid instance. Valid values are `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `24`, `36`. NOTE: it only works when charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#prepaid_period CynosdbCluster#prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#prepaid_period CynosdbCluster#prepaid_period}
   */
   readonly prepaidPeriod?: number;
   /**
   * ID of the project. `0` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#project_id CynosdbCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#project_id CynosdbCluster#project_id}
   */
   readonly projectId?: number;
   /**
   * IDs of security group for `ro_group`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#ro_group_sg CynosdbCluster#ro_group_sg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#ro_group_sg CynosdbCluster#ro_group_sg}
   */
   readonly roGroupSg?: string[];
   /**
   * IDs of security group for `rw_group`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#rw_group_sg CynosdbCluster#rw_group_sg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#rw_group_sg CynosdbCluster#rw_group_sg}
   */
   readonly rwGroupSg?: string[];
   /**
   * Specify whether to pause or resume serverless cluster. values: `resume`, `pause`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#serverless_status_flag CynosdbCluster#serverless_status_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#serverless_status_flag CynosdbCluster#serverless_status_flag}
   */
   readonly serverlessStatusFlag?: string;
   /**
   * Multi zone Addresses of the CynosDB Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#slave_zone CynosdbCluster#slave_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#slave_zone CynosdbCluster#slave_zone}
   */
   readonly slaveZone?: string;
   /**
   * Storage limit of CynosDB cluster instance, unit in GB. The maximum storage of a non-serverless instance in GB. NOTE: If db_type is `MYSQL` and charge_type is `PREPAID`, the value cannot exceed the maximum storage corresponding to the CPU and memory specifications, and the transaction mode is `order and pay`. when charge_type is `POSTPAID_BY_HOUR`, this argument is unnecessary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#storage_limit CynosdbCluster#storage_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#storage_limit CynosdbCluster#storage_limit}
   */
   readonly storageLimit?: number;
   /**
   * Cluster storage billing mode, pay-as-you-go: `0`-yearly/monthly: `1`-The default is pay-as-you-go. When the DbType is MYSQL, when the cluster computing billing mode is post-paid (including DbMode is SERVERLESS), the storage billing mode can only be billing by volume; rollback and cloning do not support yearly subscriptions monthly storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#storage_pay_mode CynosdbCluster#storage_pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#storage_pay_mode CynosdbCluster#storage_pay_mode}
   */
   readonly storagePayMode?: number;
   /**
   * ID of the subnet within this VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#subnet_id CynosdbCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#subnet_id CynosdbCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * The tags of the CynosDB cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#tags CynosdbCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#tags CynosdbCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#vpc_id CynosdbCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#vpc_id CynosdbCluster#vpc_id}
   */
   readonly vpcId: string;
   /**
   * instance_init_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#instance_init_infos CynosdbCluster#instance_init_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#instance_init_infos CynosdbCluster#instance_init_infos}
   */
   readonly instanceInitInfos?: CynosdbClusterInstanceInitInfos[] | cdktf.IResolvable;
   /**
   * param_items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#param_items CynosdbCluster#param_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#param_items CynosdbCluster#param_items}
   */
   readonly paramItems?: CynosdbClusterParamItems[] | cdktf.IResolvable;
 }
@@ -561,55 +561,55 @@ export interface CynosdbClusterInstanceInitInfos {
   /**
   * CPU of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#cpu CynosdbCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#cpu CynosdbCluster#cpu}
   */
   readonly cpu: number;
   /**
   * Instance machine type. Values: `common`, `exclusive`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#device_type CynosdbCluster#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#device_type CynosdbCluster#device_type}
   */
   readonly deviceType?: string;
   /**
   * Instance count. Range: [1, 15].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#instance_count CynosdbCluster#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#instance_count CynosdbCluster#instance_count}
   */
   readonly instanceCount: number;
   /**
   * Instance type. Value: `rw`, `ro`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#instance_type CynosdbCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#instance_type CynosdbCluster#instance_type}
   */
   readonly instanceType: string;
   /**
   * Maximum number of Serverless instances. Range [1,15].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#max_ro_count CynosdbCluster#max_ro_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#max_ro_count CynosdbCluster#max_ro_count}
   */
   readonly maxRoCount?: number;
   /**
   * Maximum Serverless Instance Specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#max_ro_cpu CynosdbCluster#max_ro_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#max_ro_cpu CynosdbCluster#max_ro_cpu}
   */
   readonly maxRoCpu?: number;
   /**
   * Memory of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#memory CynosdbCluster#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#memory CynosdbCluster#memory}
   */
   readonly memory: number;
   /**
   * Minimum number of Serverless instances. Range [1,15].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#min_ro_count CynosdbCluster#min_ro_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#min_ro_count CynosdbCluster#min_ro_count}
   */
   readonly minRoCount?: number;
   /**
   * Minimum Serverless Instance Specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#min_ro_cpu CynosdbCluster#min_ro_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#min_ro_cpu CynosdbCluster#min_ro_cpu}
   */
   readonly minRoCpu?: number;
 }
@@ -947,19 +947,19 @@ export interface CynosdbClusterParamItems {
   /**
   * Param expected value to set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#current_value CynosdbCluster#current_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#current_value CynosdbCluster#current_value}
   */
   readonly currentValue: string;
   /**
   * Name of param, e.g. `character_set_server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#name CynosdbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#name CynosdbCluster#name}
   */
   readonly name: string;
   /**
   * Param old value, indicates the value which already set, this value is required when modifying current_value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#old_value CynosdbCluster#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#old_value CynosdbCluster#old_value}
   */
   readonly oldValue?: string;
 }
@@ -1127,7 +1127,7 @@ export class CynosdbClusterParamItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster tencentcloud_cynosdb_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster tencentcloud_cynosdb_cluster}
 */
 export class CynosdbCluster extends cdktf.TerraformResource {
 
@@ -1143,7 +1143,7 @@ export class CynosdbCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbCluster to import
-  * @param importFromId The id of the existing CynosdbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1155,7 +1155,7 @@ export class CynosdbCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/cynosdb_cluster tencentcloud_cynosdb_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/cynosdb_cluster tencentcloud_cynosdb_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1166,8 +1166,8 @@ export class CynosdbCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

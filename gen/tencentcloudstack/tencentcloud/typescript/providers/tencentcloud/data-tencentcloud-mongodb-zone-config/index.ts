@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mongodb_zone_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mongodb_zone_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudMongodbZoneConfigConfig extends cdktf.Terraform
   /**
   * The available zone of the Mongodb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mongodb_zone_config#available_zone DataTencentcloudMongodbZoneConfig#available_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mongodb_zone_config#available_zone DataTencentcloudMongodbZoneConfig#available_zone}
   */
   readonly availableZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mongodb_zone_config#id DataTencentcloudMongodbZoneConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mongodb_zone_config#id DataTencentcloudMongodbZoneConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudMongodbZoneConfigConfig extends cdktf.Terraform
   /**
   * Used to store results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mongodb_zone_config#result_output_file DataTencentcloudMongodbZoneConfig#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mongodb_zone_config#result_output_file DataTencentcloudMongodbZoneConfig#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -154,7 +154,7 @@ export class DataTencentcloudMongodbZoneConfigListStructList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mongodb_zone_config tencentcloud_mongodb_zone_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mongodb_zone_config tencentcloud_mongodb_zone_config}
 */
 export class DataTencentcloudMongodbZoneConfig extends cdktf.TerraformDataSource {
 
@@ -170,7 +170,7 @@ export class DataTencentcloudMongodbZoneConfig extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudMongodbZoneConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMongodbZoneConfig to import
-  * @param importFromId The id of the existing DataTencentcloudMongodbZoneConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mongodb_zone_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMongodbZoneConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mongodb_zone_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMongodbZoneConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class DataTencentcloudMongodbZoneConfig extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/mongodb_zone_config tencentcloud_mongodb_zone_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/mongodb_zone_config tencentcloud_mongodb_zone_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class DataTencentcloudMongodbZoneConfig extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_mongodb_zone_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

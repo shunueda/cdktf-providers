@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_snapshot_by_timeoffset_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_snapshot_by_timeoffset_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface MpsSnapshotByTimeoffsetTemplateConfig extends cdktf.TerraformMe
   /**
   * Template description information, length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_snapshot_by_timeoffset_template#comment MpsSnapshotByTimeoffsetTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_snapshot_by_timeoffset_template#comment MpsSnapshotByTimeoffsetTemplate#comment}
   */
   readonly comment?: string;
   /**
   * Filling type, when the aspect ratio of the video stream configuration is inconsistent with the aspect ratio of the original video, the processing method for transcoding is filling. Optional filling type:stretch: Stretching, stretching each frame to fill the entire screen, which may cause the transcoded video to be squashed or stretched.black: Leave black, keep the video aspect ratio unchanged, and fill the rest of the edge with black.white: Leave blank, keep the aspect ratio of the video, and fill the rest of the edge with white.gauss: Gaussian blur, keep the aspect ratio of the video unchanged, and use Gaussian blur for the rest of the edge.Default value: black.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_snapshot_by_timeoffset_template#fill_type MpsSnapshotByTimeoffsetTemplate#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_snapshot_by_timeoffset_template#fill_type MpsSnapshotByTimeoffsetTemplate#fill_type}
   */
   readonly fillType?: string;
   /**
   * Image format, the value can be jpg, png, webp. Default is jpg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_snapshot_by_timeoffset_template#format MpsSnapshotByTimeoffsetTemplate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_snapshot_by_timeoffset_template#format MpsSnapshotByTimeoffsetTemplate#format}
   */
   readonly format?: string;
   /**
   * The maximum value of the snapshot height (or short side), value range: 0 and [128, 4096], unit: px.When Width and Height are both 0, the resolution is the same.When Width is 0 and Height is not 0, Width is scaled proportionally.When Width is not 0 and Height is 0, Height is scaled proportionally.When both Width and Height are not 0, the resolution is specified by the user.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_snapshot_by_timeoffset_template#height MpsSnapshotByTimeoffsetTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_snapshot_by_timeoffset_template#height MpsSnapshotByTimeoffsetTemplate#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_snapshot_by_timeoffset_template#id MpsSnapshotByTimeoffsetTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_snapshot_by_timeoffset_template#id MpsSnapshotByTimeoffsetTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface MpsSnapshotByTimeoffsetTemplateConfig extends cdktf.TerraformMe
   /**
   * Snapshot by timeoffset template name, length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_snapshot_by_timeoffset_template#name MpsSnapshotByTimeoffsetTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_snapshot_by_timeoffset_template#name MpsSnapshotByTimeoffsetTemplate#name}
   */
   readonly name?: string;
   /**
   * Adaptive resolution, optional value:open: At this time, Width represents the long side of the video, Height represents the short side of the video.close: At this point, Width represents the width of the video, and Height represents the height of the video.Default value: open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_snapshot_by_timeoffset_template#resolution_adaptive MpsSnapshotByTimeoffsetTemplate#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_snapshot_by_timeoffset_template#resolution_adaptive MpsSnapshotByTimeoffsetTemplate#resolution_adaptive}
   */
   readonly resolutionAdaptive?: string;
   /**
   * The maximum value of the snapshot width (or long side), value range: 0 and [128, 4096], unit: px.When Width and Height are both 0, the resolution is the same.When Width is 0 and Height is not 0, Width is scaled proportionally.When Width is not 0 and Height is 0, Height is scaled proportionally.When both Width and Height are not 0, the resolution is specified by the user.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_snapshot_by_timeoffset_template#width MpsSnapshotByTimeoffsetTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_snapshot_by_timeoffset_template#width MpsSnapshotByTimeoffsetTemplate#width}
   */
   readonly width?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_snapshot_by_timeoffset_template tencentcloud_mps_snapshot_by_timeoffset_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_snapshot_by_timeoffset_template tencentcloud_mps_snapshot_by_timeoffset_template}
 */
 export class MpsSnapshotByTimeoffsetTemplate extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class MpsSnapshotByTimeoffsetTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsSnapshotByTimeoffsetTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsSnapshotByTimeoffsetTemplate to import
-  * @param importFromId The id of the existing MpsSnapshotByTimeoffsetTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_snapshot_by_timeoffset_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsSnapshotByTimeoffsetTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_snapshot_by_timeoffset_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsSnapshotByTimeoffsetTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class MpsSnapshotByTimeoffsetTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/mps_snapshot_by_timeoffset_template tencentcloud_mps_snapshot_by_timeoffset_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/mps_snapshot_by_timeoffset_template tencentcloud_mps_snapshot_by_timeoffset_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class MpsSnapshotByTimeoffsetTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_snapshot_by_timeoffset_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DayuDdosPolicyV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Business of resource instance. bgpip indicates anti-anti-ip ip; bgp means exclusive package; bgp-multip means shared packet; net indicates anti-anti-ip pro version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#business DayuDdosPolicyV2#business}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#business DayuDdosPolicyV2#business}
   */
   readonly business?: string;
   /**
   * AI protection switch, take the value [`on`, `off`].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#ddos_ai DayuDdosPolicyV2#ddos_ai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#ddos_ai DayuDdosPolicyV2#ddos_ai}
   */
   readonly ddosAi?: string;
   /**
   * Protection class, value [`low`, `middle`, `high`].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#ddos_level DayuDdosPolicyV2#ddos_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#ddos_level DayuDdosPolicyV2#ddos_level}
   */
   readonly ddosLevel?: string;
   /**
   * DDoS cleaning threshold, value[0, 60, 80, 100, 150, 200, 250, 300, 400, 500, 700, 1000]; When the value is set to 0, it means that the default value is adopted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#ddos_threshold DayuDdosPolicyV2#ddos_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#ddos_threshold DayuDdosPolicyV2#ddos_threshold}
   */
   readonly ddosThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#id DayuDdosPolicyV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#id DayuDdosPolicyV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface DayuDdosPolicyV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the resource instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#resource_id DayuDdosPolicyV2#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#resource_id DayuDdosPolicyV2#resource_id}
   */
   readonly resourceId: string;
   /**
   * acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#acls DayuDdosPolicyV2#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#acls DayuDdosPolicyV2#acls}
   */
   readonly acls?: DayuDdosPolicyV2Acls[] | cdktf.IResolvable;
   /**
   * black_white_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#black_white_ips DayuDdosPolicyV2#black_white_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#black_white_ips DayuDdosPolicyV2#black_white_ips}
   */
   readonly blackWhiteIps?: DayuDdosPolicyV2BlackWhiteIps[] | cdktf.IResolvable;
   /**
   * ddos_connect_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#ddos_connect_limit DayuDdosPolicyV2#ddos_connect_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#ddos_connect_limit DayuDdosPolicyV2#ddos_connect_limit}
   */
   readonly ddosConnectLimit?: DayuDdosPolicyV2DdosConnectLimit;
   /**
   * ddos_geo_ip_block_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#ddos_geo_ip_block_config DayuDdosPolicyV2#ddos_geo_ip_block_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#ddos_geo_ip_block_config DayuDdosPolicyV2#ddos_geo_ip_block_config}
   */
   readonly ddosGeoIpBlockConfig?: DayuDdosPolicyV2DdosGeoIpBlockConfig[] | cdktf.IResolvable;
   /**
   * ddos_speed_limit_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#ddos_speed_limit_config DayuDdosPolicyV2#ddos_speed_limit_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#ddos_speed_limit_config DayuDdosPolicyV2#ddos_speed_limit_config}
   */
   readonly ddosSpeedLimitConfig?: DayuDdosPolicyV2DdosSpeedLimitConfig[] | cdktf.IResolvable;
   /**
   * packet_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#packet_filters DayuDdosPolicyV2#packet_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#packet_filters DayuDdosPolicyV2#packet_filters}
   */
   readonly packetFilters?: DayuDdosPolicyV2PacketFilters[] | cdktf.IResolvable;
   /**
   * protocol_block_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#protocol_block_config DayuDdosPolicyV2#protocol_block_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#protocol_block_config DayuDdosPolicyV2#protocol_block_config}
   */
   readonly protocolBlockConfig?: DayuDdosPolicyV2ProtocolBlockConfig[] | cdktf.IResolvable;
   /**
   * water_print_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#water_print_config DayuDdosPolicyV2#water_print_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#water_print_config DayuDdosPolicyV2#water_print_config}
   */
   readonly waterPrintConfig?: DayuDdosPolicyV2WaterPrintConfig[] | cdktf.IResolvable;
 }
@@ -97,43 +97,43 @@ export interface DayuDdosPolicyV2Acls {
   /**
   * Action, optional values: drop, transmit, forward.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#action DayuDdosPolicyV2#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#action DayuDdosPolicyV2#action}
   */
   readonly action: string;
   /**
   * The destination port ends, and the value range is 0~65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#d_port_end DayuDdosPolicyV2#d_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#d_port_end DayuDdosPolicyV2#d_port_end}
   */
   readonly dPortEnd: number;
   /**
   * The destination port starts, and the value range is 0~65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#d_port_start DayuDdosPolicyV2#d_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#d_port_start DayuDdosPolicyV2#d_port_start}
   */
   readonly dPortStart: number;
   /**
   * Protocol type, desirable values tcp, udp, all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#forward_protocol DayuDdosPolicyV2#forward_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#forward_protocol DayuDdosPolicyV2#forward_protocol}
   */
   readonly forwardProtocol: string;
   /**
   * Policy priority, the lower the number, the higher the level, the higher the rule matches, taking a value of 1-1000.Note: This field may return null, indicating that a valid value could not be retrieved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#priority DayuDdosPolicyV2#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#priority DayuDdosPolicyV2#priority}
   */
   readonly priority: number;
   /**
   * The source port ends, and the acceptable value ranges from 0 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#s_port_end DayuDdosPolicyV2#s_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#s_port_end DayuDdosPolicyV2#s_port_end}
   */
   readonly sPortEnd: number;
   /**
   * The source port starts, and the value range is 0~65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#s_port_start DayuDdosPolicyV2#s_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#s_port_start DayuDdosPolicyV2#s_port_start}
   */
   readonly sPortStart: number;
 }
@@ -404,13 +404,13 @@ export interface DayuDdosPolicyV2BlackWhiteIps {
   /**
   * Ip of resource instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#ip DayuDdosPolicyV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#ip DayuDdosPolicyV2#ip}
   */
   readonly ip: string;
   /**
   * IP type, value [`black`(blacklist IP), `white` (whitelist IP)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#ip_type DayuDdosPolicyV2#ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#ip_type DayuDdosPolicyV2#ip_type}
   */
   readonly ipType: string;
 }
@@ -551,55 +551,55 @@ export interface DayuDdosPolicyV2DdosConnectLimit {
   /**
   * Based on connection suppression trigger threshold, value range [0,4294967295].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#bad_conn_threshold DayuDdosPolicyV2#bad_conn_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#bad_conn_threshold DayuDdosPolicyV2#bad_conn_threshold}
   */
   readonly badConnThreshold: number;
   /**
   * Abnormal connection detection condition, connection timeout, value range [0,65535].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#conn_timeout DayuDdosPolicyV2#conn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#conn_timeout DayuDdosPolicyV2#conn_timeout}
   */
   readonly connTimeout: number;
   /**
   * Concurrent connection control based on destination IP+ destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#dst_conn_limit DayuDdosPolicyV2#dst_conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#dst_conn_limit DayuDdosPolicyV2#dst_conn_limit}
   */
   readonly dstConnLimit: number;
   /**
   * Limit on the number of news per second based on the destination IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#dst_new_limit DayuDdosPolicyV2#dst_new_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#dst_new_limit DayuDdosPolicyV2#dst_new_limit}
   */
   readonly dstNewLimit: number;
   /**
   * Abnormal connection detection conditions, empty connection guard switch, value range[0,1].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#null_conn_enable DayuDdosPolicyV2#null_conn_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#null_conn_enable DayuDdosPolicyV2#null_conn_enable}
   */
   readonly nullConnEnable: number;
   /**
   * Concurrent connection control based on source IP + destination IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#sd_conn_limit DayuDdosPolicyV2#sd_conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#sd_conn_limit DayuDdosPolicyV2#sd_conn_limit}
   */
   readonly sdConnLimit: number;
   /**
   * The limit on the number of news per second based on source IP + destination IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#sd_new_limit DayuDdosPolicyV2#sd_new_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#sd_new_limit DayuDdosPolicyV2#sd_new_limit}
   */
   readonly sdNewLimit: number;
   /**
   * Anomaly connection detection condition, syn threshold, value range [0,100].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#syn_limit DayuDdosPolicyV2#syn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#syn_limit DayuDdosPolicyV2#syn_limit}
   */
   readonly synLimit: number;
   /**
   * Anomalous connection detection condition, percentage of syn ack, value range [0,100].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#syn_rate DayuDdosPolicyV2#syn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#syn_rate DayuDdosPolicyV2#syn_rate}
   */
   readonly synRate: number;
 }
@@ -890,19 +890,19 @@ export interface DayuDdosPolicyV2DdosGeoIpBlockConfig {
   /**
   * Block action, take the value [`drop`, `trans`].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#action DayuDdosPolicyV2#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#action DayuDdosPolicyV2#action}
   */
   readonly action: string;
   /**
   * When the RegionType is customized, the AreaList must be filled in, and a maximum of 128 must be filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#area_list DayuDdosPolicyV2#area_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#area_list DayuDdosPolicyV2#area_list}
   */
   readonly areaList: number[];
   /**
   * Zone type, value [oversea (overseas),china (domestic),customized (custom region)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#region_type DayuDdosPolicyV2#region_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#region_type DayuDdosPolicyV2#region_type}
   */
   readonly regionType: string;
 }
@@ -1069,31 +1069,31 @@ export interface DayuDdosPolicyV2DdosSpeedLimitConfig {
   /**
   * Bandwidth bps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#bandwidth DayuDdosPolicyV2#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#bandwidth DayuDdosPolicyV2#bandwidth}
   */
   readonly bandwidth: number;
   /**
   * List of port ranges, up to 8, multiple; Separated, the range is represented with -; this port range must be filled in; fill in the style 1:0-65535, style 2:80; 443; 1000-2000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#dst_port_list DayuDdosPolicyV2#dst_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#dst_port_list DayuDdosPolicyV2#dst_port_list}
   */
   readonly dstPortList: string;
   /**
   * Speed limit mode, take the value [1 (speed limit based on source IP),2 (speed limit based on destination port)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#mode DayuDdosPolicyV2#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#mode DayuDdosPolicyV2#mode}
   */
   readonly mode: number;
   /**
   * Packet rate pps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#packet_rate DayuDdosPolicyV2#packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#packet_rate DayuDdosPolicyV2#packet_rate}
   */
   readonly packetRate: number;
   /**
   * IP protocol numbers, take the value[ ALL (all protocols),TCP (tcp protocol),UDP (udp protocol),SMP (smp protocol),1; 2-100 (custom protocol number range, up to 8)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#protocol_list DayuDdosPolicyV2#protocol_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#protocol_list DayuDdosPolicyV2#protocol_list}
   */
   readonly protocolList: string;
 }
@@ -1312,127 +1312,127 @@ export interface DayuDdosPolicyV2PacketFilters {
   /**
   * Action, take the value [drop,transmit,drop_black (discard and black out),drop_rst (Interception),drop_black_rst (intercept and block),forward].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#action DayuDdosPolicyV2#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#action DayuDdosPolicyV2#action}
   */
   readonly action: string;
   /**
   * The end destination port, take the value 1~65535, which must be greater than or equal to the starting destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#d_port_end DayuDdosPolicyV2#d_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#d_port_end DayuDdosPolicyV2#d_port_end}
   */
   readonly dPortEnd: number;
   /**
   * From the destination port, take the value 0~65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#d_port_start DayuDdosPolicyV2#d_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#d_port_start DayuDdosPolicyV2#d_port_start}
   */
   readonly dPortStart: number;
   /**
   * Detection depth from the detection position, value [0,1500].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#depth DayuDdosPolicyV2#depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#depth DayuDdosPolicyV2#depth}
   */
   readonly depth: number;
   /**
   * Second detection depth starting from the second detection position, value [0,1500].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#depth2 DayuDdosPolicyV2#depth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#depth2 DayuDdosPolicyV2#depth2}
   */
   readonly depth2: number;
   /**
   * Whether to include the detected value, take the value [0 (included),1 (not included)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#is_not DayuDdosPolicyV2#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#is_not DayuDdosPolicyV2#is_not}
   */
   readonly isNot: number;
   /**
   * Whether the second detection contains the detected value, the value [0 (included),1 (not included)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#is_not2 DayuDdosPolicyV2#is_not2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#is_not2 DayuDdosPolicyV2#is_not2}
   */
   readonly isNot2: number;
   /**
   * Detect position, take the value [begin_l3 (IP header),begin_l4 (TCP/UDP header),begin_l5 (T load), no_match (mismatch)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#match_begin DayuDdosPolicyV2#match_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#match_begin DayuDdosPolicyV2#match_begin}
   */
   readonly matchBegin: string;
   /**
   * The second detection position. take the value [begin_l3 (IP header),begin_l4 (TCP/UDP header),begin_l5 (T load), no_match (mismatch)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#match_begin2 DayuDdosPolicyV2#match_begin2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#match_begin2 DayuDdosPolicyV2#match_begin2}
   */
   readonly matchBegin2: string;
   /**
   * When there is a second detection condition, the and/or relationship with the first detection condition, takes the value [And (and relationship),none (fill in this value when there is no second detection condition)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#match_logic DayuDdosPolicyV2#match_logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#match_logic DayuDdosPolicyV2#match_logic}
   */
   readonly matchLogic: string;
   /**
   * Detection type, value [sunday (keyword),pcre (regular expression)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#match_type DayuDdosPolicyV2#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#match_type DayuDdosPolicyV2#match_type}
   */
   readonly matchType: string;
   /**
   * The second type of detection, takes the value [sunday (keyword),pcre (regular expression)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#match_type2 DayuDdosPolicyV2#match_type2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#match_type2 DayuDdosPolicyV2#match_type2}
   */
   readonly matchType2: string;
   /**
   * Offset from detection position, value range [0, Depth].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#offset DayuDdosPolicyV2#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#offset DayuDdosPolicyV2#offset}
   */
   readonly offset: number;
   /**
   * Offset from the second detection position, value range [0,Depth2].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#offset2 DayuDdosPolicyV2#offset2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#offset2 DayuDdosPolicyV2#offset2}
   */
   readonly offset2: number;
   /**
   * The maximum message length, taken from 1 to 1500, must be greater than or equal to the minimum message length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#pktlen_max DayuDdosPolicyV2#pktlen_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#pktlen_max DayuDdosPolicyV2#pktlen_max}
   */
   readonly pktlenMax: number;
   /**
   * Minimum message length, 1-1500.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#pktlen_min DayuDdosPolicyV2#pktlen_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#pktlen_min DayuDdosPolicyV2#pktlen_min}
   */
   readonly pktlenMin: number;
   /**
   * Protocol, value [tcp udp icmp all].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#protocol DayuDdosPolicyV2#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#protocol DayuDdosPolicyV2#protocol}
   */
   readonly protocol: string;
   /**
   * End source port, take the value 1~65535, must be greater than or equal to the starting source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#s_port_end DayuDdosPolicyV2#s_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#s_port_end DayuDdosPolicyV2#s_port_end}
   */
   readonly sPortEnd: number;
   /**
   * Start the source port, take the value 0~65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#s_port_start DayuDdosPolicyV2#s_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#s_port_start DayuDdosPolicyV2#s_port_start}
   */
   readonly sPortStart: number;
   /**
   * Detect values, key strings or regular expressions, take the value [When the detection type is sunday, please fill in the string or hexadecimal bytecode, for example 13233 corresponds to the hexadecimal bytecode of the string `123`;When the detection type is pcre, please fill in the regular expression string;].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#str DayuDdosPolicyV2#str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#str DayuDdosPolicyV2#str}
   */
   readonly str: string;
   /**
   * The second detection value, the key string or regular expression, takes the value [When the detection type is sunday, please fill in the string or hexadecimal bytecode, for example 13233 corresponds to the hexadecimal bytecode of the string `123`;When the detection type is pcre, please fill in the regular expression string;].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#str2 DayuDdosPolicyV2#str2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#str2 DayuDdosPolicyV2#str2}
   */
   readonly str2: string;
 }
@@ -2067,25 +2067,25 @@ export interface DayuDdosPolicyV2ProtocolBlockConfig {
   /**
   * ICMP block, value [0 (block off), 1 (block on)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#drop_icmp DayuDdosPolicyV2#drop_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#drop_icmp DayuDdosPolicyV2#drop_icmp}
   */
   readonly dropIcmp: number;
   /**
   * Other block, value [0 (block off), 1 (block on)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#drop_other DayuDdosPolicyV2#drop_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#drop_other DayuDdosPolicyV2#drop_other}
   */
   readonly dropOther: number;
   /**
   * TCP block, value [0 (block off), 1 (block on)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#drop_tcp DayuDdosPolicyV2#drop_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#drop_tcp DayuDdosPolicyV2#drop_tcp}
   */
   readonly dropTcp: number;
   /**
   * UDP block, value [0 (block off), 1 (block on)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#drop_udp DayuDdosPolicyV2#drop_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#drop_udp DayuDdosPolicyV2#drop_udp}
   */
   readonly dropUdp: number;
 }
@@ -2278,19 +2278,19 @@ export interface DayuDdosPolicyV2WaterPrintConfigListeners {
   /**
   * Forwarding protocol, value [TCP, UDP].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#forward_protocol DayuDdosPolicyV2#forward_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#forward_protocol DayuDdosPolicyV2#forward_protocol}
   */
   readonly forwardProtocol: string;
   /**
   * Lower limit of forwarding listening port. Values: [1-65535].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#frontend_port DayuDdosPolicyV2#frontend_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#frontend_port DayuDdosPolicyV2#frontend_port}
   */
   readonly frontendPort: number;
   /**
   * Upper limit of forwarding listening port. Values: [1-65535].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#frontend_port_end DayuDdosPolicyV2#frontend_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#frontend_port_end DayuDdosPolicyV2#frontend_port_end}
   */
   readonly frontendPortEnd: number;
 }
@@ -2457,25 +2457,25 @@ export interface DayuDdosPolicyV2WaterPrintConfig {
   /**
   * Watermark offset, value range: [0-100].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#offset DayuDdosPolicyV2#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#offset DayuDdosPolicyV2#offset}
   */
   readonly offset: number;
   /**
   * Whether it is enabled, value [0 (manual open), 1 (immediate operation)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#open_status DayuDdosPolicyV2#open_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#open_status DayuDdosPolicyV2#open_status}
   */
   readonly openStatus: number;
   /**
   * Watermark check mode, value [`checkall`(normal mode), `shortfpcheckall`(simplified mode)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#verify DayuDdosPolicyV2#verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#verify DayuDdosPolicyV2#verify}
   */
   readonly verify: string;
   /**
   * listeners block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#listeners DayuDdosPolicyV2#listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#listeners DayuDdosPolicyV2#listeners}
   */
   readonly listeners: DayuDdosPolicyV2WaterPrintConfigListeners[] | cdktf.IResolvable;
 }
@@ -2666,7 +2666,7 @@ export class DayuDdosPolicyV2WaterPrintConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2 tencentcloud_dayu_ddos_policy_v2}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2 tencentcloud_dayu_ddos_policy_v2}
 */
 export class DayuDdosPolicyV2 extends cdktf.TerraformResource {
 
@@ -2682,7 +2682,7 @@ export class DayuDdosPolicyV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DayuDdosPolicyV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DayuDdosPolicyV2 to import
-  * @param importFromId The id of the existing DayuDdosPolicyV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DayuDdosPolicyV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DayuDdosPolicyV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2694,7 +2694,7 @@ export class DayuDdosPolicyV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/resources/dayu_ddos_policy_v2 tencentcloud_dayu_ddos_policy_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/resources/dayu_ddos_policy_v2 tencentcloud_dayu_ddos_policy_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2705,8 +2705,8 @@ export class DayuDdosPolicyV2 extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dayu_ddos_policy_v2',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

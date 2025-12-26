@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_public_config_summary
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_public_config_summary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudTsfPublicConfigSummaryConfig extends cdktf.Terr
   /**
   * Config Id List.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_public_config_summary#config_id_list DataTencentcloudTsfPublicConfigSummary#config_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_public_config_summary#config_id_list DataTencentcloudTsfPublicConfigSummary#config_id_list}
   */
   readonly configIdList?: string[];
   /**
   * config tag list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_public_config_summary#config_tag_list DataTencentcloudTsfPublicConfigSummary#config_tag_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_public_config_summary#config_tag_list DataTencentcloudTsfPublicConfigSummary#config_tag_list}
   */
   readonly configTagList?: string[];
   /**
   * Whether to disable dataset authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_public_config_summary#disable_program_auth_check DataTencentcloudTsfPublicConfigSummary#disable_program_auth_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_public_config_summary#disable_program_auth_check DataTencentcloudTsfPublicConfigSummary#disable_program_auth_check}
   */
   readonly disableProgramAuthCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_public_config_summary#id DataTencentcloudTsfPublicConfigSummary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_public_config_summary#id DataTencentcloudTsfPublicConfigSummary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface DataTencentcloudTsfPublicConfigSummaryConfig extends cdktf.Terr
   /**
   * Sort by time: creation_time; Sort by name: config_name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_public_config_summary#order_by DataTencentcloudTsfPublicConfigSummary#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_public_config_summary#order_by DataTencentcloudTsfPublicConfigSummary#order_by}
   */
   readonly orderBy?: string;
   /**
   * Pass 0 for ascending order and 1 for descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_public_config_summary#order_type DataTencentcloudTsfPublicConfigSummary#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_public_config_summary#order_type DataTencentcloudTsfPublicConfigSummary#order_type}
   */
   readonly orderType?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_public_config_summary#result_output_file DataTencentcloudTsfPublicConfigSummary#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_public_config_summary#result_output_file DataTencentcloudTsfPublicConfigSummary#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Query keyword for fuzzy search: configuration item name. If not passed in, the full set will be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_public_config_summary#search_word DataTencentcloudTsfPublicConfigSummary#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_public_config_summary#search_word DataTencentcloudTsfPublicConfigSummary#search_word}
   */
   readonly searchWord?: string;
 }
@@ -270,7 +270,7 @@ export class DataTencentcloudTsfPublicConfigSummaryResultList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_public_config_summary tencentcloud_tsf_public_config_summary}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_public_config_summary tencentcloud_tsf_public_config_summary}
 */
 export class DataTencentcloudTsfPublicConfigSummary extends cdktf.TerraformDataSource {
 
@@ -286,7 +286,7 @@ export class DataTencentcloudTsfPublicConfigSummary extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudTsfPublicConfigSummary resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfPublicConfigSummary to import
-  * @param importFromId The id of the existing DataTencentcloudTsfPublicConfigSummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_public_config_summary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfPublicConfigSummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_public_config_summary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfPublicConfigSummary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class DataTencentcloudTsfPublicConfigSummary extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.48/docs/data-sources/tsf_public_config_summary tencentcloud_tsf_public_config_summary} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.49/docs/data-sources/tsf_public_config_summary tencentcloud_tsf_public_config_summary} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class DataTencentcloudTsfPublicConfigSummary extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_tsf_public_config_summary',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.48',
-        providerVersionConstraint: '1.82.48'
+        providerVersion: '1.82.49',
+        providerVersionConstraint: '1.82.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
