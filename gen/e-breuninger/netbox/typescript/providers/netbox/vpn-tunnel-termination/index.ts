@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/vpn_tunnel_termination
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/vpn_tunnel_termination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,44 +10,44 @@ export interface VpnTunnelTerminationConfig extends cdktf.TerraformMetaArguments
   /**
   * Exactly one of `virtual_machine_interface_id` or `device_interface_id` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/vpn_tunnel_termination#device_interface_id VpnTunnelTermination#device_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/vpn_tunnel_termination#device_interface_id VpnTunnelTermination#device_interface_id}
   */
   readonly deviceInterfaceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/vpn_tunnel_termination#id VpnTunnelTermination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/vpn_tunnel_termination#id VpnTunnelTermination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/vpn_tunnel_termination#outside_ip_address_id VpnTunnelTermination#outside_ip_address_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/vpn_tunnel_termination#outside_ip_address_id VpnTunnelTermination#outside_ip_address_id}
   */
   readonly outsideIpAddressId?: number;
   /**
   * Valid values are `peer`, `hub` and `spoke`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/vpn_tunnel_termination#role VpnTunnelTermination#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/vpn_tunnel_termination#role VpnTunnelTermination#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/vpn_tunnel_termination#tags VpnTunnelTermination#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/vpn_tunnel_termination#tags VpnTunnelTermination#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/vpn_tunnel_termination#tunnel_id VpnTunnelTermination#tunnel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/vpn_tunnel_termination#tunnel_id VpnTunnelTermination#tunnel_id}
   */
   readonly tunnelId: number;
   /**
   * Exactly one of `virtual_machine_interface_id` or `device_interface_id` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/vpn_tunnel_termination#virtual_machine_interface_id VpnTunnelTermination#virtual_machine_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/vpn_tunnel_termination#virtual_machine_interface_id VpnTunnelTermination#virtual_machine_interface_id}
   */
   readonly virtualMachineInterfaceId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/vpn_tunnel_termination netbox_vpn_tunnel_termination}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/vpn_tunnel_termination netbox_vpn_tunnel_termination}
 */
 export class VpnTunnelTermination extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class VpnTunnelTermination extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnTunnelTermination resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnTunnelTermination to import
-  * @param importFromId The id of the existing VpnTunnelTermination that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/vpn_tunnel_termination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnTunnelTermination that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/vpn_tunnel_termination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnTunnelTermination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class VpnTunnelTermination extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/vpn_tunnel_termination netbox_vpn_tunnel_termination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/vpn_tunnel_termination netbox_vpn_tunnel_termination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class VpnTunnelTermination extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_vpn_tunnel_termination',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

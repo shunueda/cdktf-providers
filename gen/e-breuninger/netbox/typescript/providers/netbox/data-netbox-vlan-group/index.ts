@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vlan_group
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vlan_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNetboxVlanGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vlan_group#id DataNetboxVlanGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vlan_group#id DataNetboxVlanGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataNetboxVlanGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * At least one of `name`, `slug` or `scope_type` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vlan_group#name DataNetboxVlanGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vlan_group#name DataNetboxVlanGroup#name}
   */
   readonly name?: string;
   /**
   * Required when `scope_type` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vlan_group#scope_id DataNetboxVlanGroup#scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vlan_group#scope_id DataNetboxVlanGroup#scope_id}
   */
   readonly scopeId?: number;
   /**
   * Valid values are `dcim.location`, `dcim.site`, `dcim.sitegroup`, `dcim.region`, `dcim.rack`, `virtualization.cluster` and `virtualization.clustergroup`. At least one of `name`, `slug` or `scope_type` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vlan_group#scope_type DataNetboxVlanGroup#scope_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vlan_group#scope_type DataNetboxVlanGroup#scope_type}
   */
   readonly scopeType?: string;
   /**
   * At least one of `name`, `slug` or `scope_type` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vlan_group#slug DataNetboxVlanGroup#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vlan_group#slug DataNetboxVlanGroup#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vlan_group netbox_vlan_group}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vlan_group netbox_vlan_group}
 */
 export class DataNetboxVlanGroup extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataNetboxVlanGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetboxVlanGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetboxVlanGroup to import
-  * @param importFromId The id of the existing DataNetboxVlanGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vlan_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetboxVlanGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vlan_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetboxVlanGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataNetboxVlanGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vlan_group netbox_vlan_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vlan_group netbox_vlan_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataNetboxVlanGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_vlan_group',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

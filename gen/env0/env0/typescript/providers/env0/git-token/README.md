@@ -1,3 +1,3 @@
 # `env0_git_token`
 
-Refer to the Terraform Registry for docs: [`env0_git_token`](https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/git_token).
+Refer to the Terraform Registry for docs: [`env0_git_token`](https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/git_token).

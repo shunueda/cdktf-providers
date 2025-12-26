@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/organization_policy
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/organization_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface OrganizationPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * the default environment time-to-live allowed on deploy time. Format is <number>-<M/w/d/h> (Examples: 12-h, 3-d, 1-w, 1-M). Omit for infinite ttl. must be equal or shorter than max_ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/organization_policy#default_ttl OrganizationPolicy#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/organization_policy#default_ttl OrganizationPolicy#default_ttl}
   */
   readonly defaultTtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/organization_policy#do_not_consider_merge_commits_for_pr_plans OrganizationPolicy#do_not_consider_merge_commits_for_pr_plans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/organization_policy#do_not_consider_merge_commits_for_pr_plans OrganizationPolicy#do_not_consider_merge_commits_for_pr_plans}
   */
   readonly doNotConsiderMergeCommitsForPrPlans?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/organization_policy#do_not_report_skipped_status_checks OrganizationPolicy#do_not_report_skipped_status_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/organization_policy#do_not_report_skipped_status_checks OrganizationPolicy#do_not_report_skipped_status_checks}
   */
   readonly doNotReportSkippedStatusChecks?: boolean | cdktf.IResolvable;
   /**
   * set to 'true' to enable OIDC token (JWT) availability during env0 deployments (defaults to 'false')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/organization_policy#enable_oidc OrganizationPolicy#enable_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/organization_policy#enable_oidc OrganizationPolicy#enable_oidc}
   */
   readonly enableOidc?: boolean | cdktf.IResolvable;
   /**
   * set to 'true' to enforce PR commenter permissions during env0 deployments (defaults to 'false')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/organization_policy#enforce_pr_commenter_permissions OrganizationPolicy#enforce_pr_commenter_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/organization_policy#enforce_pr_commenter_permissions OrganizationPolicy#enforce_pr_commenter_permissions}
   */
   readonly enforcePrCommenterPermissions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/organization_policy#id OrganizationPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/organization_policy#id OrganizationPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,13 +43,13 @@ export interface OrganizationPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * the maximum environment time-to-live allowed on deploy time. Format is <number>-<M/w/d/h> (Examples: 12-h, 3-d, 1-w, 1-M). Omit for infinite ttl. must be equal or longer than default_ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/organization_policy#max_ttl OrganizationPolicy#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/organization_policy#max_ttl OrganizationPolicy#max_ttl}
   */
   readonly maxTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/organization_policy env0_organization_policy}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/organization_policy env0_organization_policy}
 */
 export class OrganizationPolicy extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class OrganizationPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationPolicy to import
-  * @param importFromId The id of the existing OrganizationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/organization_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/organization_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class OrganizationPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/organization_policy env0_organization_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/organization_policy env0_organization_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class OrganizationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'env0_organization_policy',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

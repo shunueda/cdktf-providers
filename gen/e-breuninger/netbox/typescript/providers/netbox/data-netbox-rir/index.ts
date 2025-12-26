@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/rir
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/rir
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNetboxRirConfig extends cdktf.TerraformMetaArguments {
   /**
   * At least one of `name` or `slug` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/rir#name DataNetboxRir#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/rir#name DataNetboxRir#name}
   */
   readonly name?: string;
   /**
   * At least one of `name` or `slug` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/rir#slug DataNetboxRir#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/rir#slug DataNetboxRir#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/rir netbox_rir}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/rir netbox_rir}
 */
 export class DataNetboxRir extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataNetboxRir extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetboxRir resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetboxRir to import
-  * @param importFromId The id of the existing DataNetboxRir that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/rir#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetboxRir that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/rir#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetboxRir to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataNetboxRir extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/rir netbox_rir} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/rir netbox_rir} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataNetboxRir extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_rir',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

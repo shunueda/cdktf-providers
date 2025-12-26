@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataEnv0ConfigurationVariableConfig extends cdktf.TerraformMeta
   /**
   * search for the variable under this deployment log, not globally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#deployment_log_id DataEnv0ConfigurationVariable#deployment_log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#deployment_log_id DataEnv0ConfigurationVariable#deployment_log_id}
   */
   readonly deploymentLogId?: string;
   /**
   * a description of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#description DataEnv0ConfigurationVariable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#description DataEnv0ConfigurationVariable#description}
   */
   readonly description?: string;
   /**
   * search for the variable under this environment, not globally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#environment_id DataEnv0ConfigurationVariable#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#environment_id DataEnv0ConfigurationVariable#environment_id}
   */
   readonly environmentId?: string;
   /**
   * id of the configuration variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#id DataEnv0ConfigurationVariable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#id DataEnv0ConfigurationVariable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,55 +37,55 @@ export interface DataEnv0ConfigurationVariableConfig extends cdktf.TerraformMeta
   /**
   * specifies if the value of this variable cannot be edited by lower scopes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#is_read_only DataEnv0ConfigurationVariable#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#is_read_only DataEnv0ConfigurationVariable#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktf.IResolvable;
   /**
   * specifies if the value of this variable must be set by lower scopes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#is_required DataEnv0ConfigurationVariable#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#is_required DataEnv0ConfigurationVariable#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * the name of the configuration variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#name DataEnv0ConfigurationVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#name DataEnv0ConfigurationVariable#name}
   */
   readonly name?: string;
   /**
   * search for the variable under this project, not globally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#project_id DataEnv0ConfigurationVariable#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#project_id DataEnv0ConfigurationVariable#project_id}
   */
   readonly projectId?: string;
   /**
   * specifies a regular expression to validate variable value (enforced only in env0 UI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#regex DataEnv0ConfigurationVariable#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#regex DataEnv0ConfigurationVariable#regex}
   */
   readonly regex?: string;
   /**
   * search for the variable for sub templates of a workflow. Requires template_id as well
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#sub_environment_alias DataEnv0ConfigurationVariable#sub_environment_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#sub_environment_alias DataEnv0ConfigurationVariable#sub_environment_alias}
   */
   readonly subEnvironmentAlias?: string;
   /**
   * search for the variable under this template, not globally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#template_id DataEnv0ConfigurationVariable#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#template_id DataEnv0ConfigurationVariable#template_id}
   */
   readonly templateId?: string;
   /**
   * 'terraform' or 'environment'. If specified as an argument, limits searching by variable name only to variables of this type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#type DataEnv0ConfigurationVariable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#type DataEnv0ConfigurationVariable#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable env0_configuration_variable}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable env0_configuration_variable}
 */
 export class DataEnv0ConfigurationVariable extends cdktf.TerraformDataSource {
 
@@ -101,7 +101,7 @@ export class DataEnv0ConfigurationVariable extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEnv0ConfigurationVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEnv0ConfigurationVariable to import
-  * @param importFromId The id of the existing DataEnv0ConfigurationVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEnv0ConfigurationVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEnv0ConfigurationVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class DataEnv0ConfigurationVariable extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/configuration_variable env0_configuration_variable} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/configuration_variable env0_configuration_variable} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class DataEnv0ConfigurationVariable extends cdktf.TerraformDataSource {
       terraformResourceType: 'env0_configuration_variable',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

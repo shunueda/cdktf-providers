@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface Env0ProviderConfig {
   /**
   * env0 API endpoint. This can also be set via the ENV0_API_ENDPOINT environment variable, and is usually used for testing purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs#api_endpoint Env0Provider#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs#api_endpoint Env0Provider#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
   * env0 API key. This field can be removed from the provider block; instead of the field, you can set the value via the ENV0_API_KEY environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs#api_key Env0Provider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs#api_key Env0Provider#api_key}
   */
   readonly apiKey?: string;
   /**
   * env0 API secret. This field can be removed from the provider block; instead of the field, you can set the value via the ENV0_API_SECRET environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs#api_secret Env0Provider#api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs#api_secret Env0Provider#api_secret}
   */
   readonly apiSecret?: string;
   /**
   * when the API key is associated with multiple organizations, this field is required. If an API key has one organization, this field is ignored. This can also be set via the ENV0_ORGANIZATION_ID environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs#organization_id Env0Provider#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs#organization_id Env0Provider#organization_id}
   */
   readonly organizationId?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs#alias Env0Provider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs#alias Env0Provider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs env0}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs env0}
 */
 export class Env0Provider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class Env0Provider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a Env0Provider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Env0Provider to import
-  * @param importFromId The id of the existing Env0Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Env0Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Env0Provider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Env0Provider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs env0} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs env0} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Env0Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'env0',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       terraformProviderSource: 'env0/env0'
     });

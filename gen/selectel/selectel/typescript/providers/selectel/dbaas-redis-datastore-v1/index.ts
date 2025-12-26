@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1
+// https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DbaasRedisDatastoreV1Config extends cdktf.TerraformMetaArgument
   /**
   * Number of days to retain backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#backup_retention_days DbaasRedisDatastoreV1#backup_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#backup_retention_days DbaasRedisDatastoreV1#backup_retention_days}
   */
   readonly backupRetentionDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#config DbaasRedisDatastoreV1#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#config DbaasRedisDatastoreV1#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#flavor_id DbaasRedisDatastoreV1#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#flavor_id DbaasRedisDatastoreV1#flavor_id}
   */
   readonly flavorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#id DbaasRedisDatastoreV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#id DbaasRedisDatastoreV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,63 +31,63 @@ export interface DbaasRedisDatastoreV1Config extends cdktf.TerraformMetaArgument
   /**
   * Name of Logs group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#logs DbaasRedisDatastoreV1#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#logs DbaasRedisDatastoreV1#logs}
   */
   readonly logs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#name DbaasRedisDatastoreV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#name DbaasRedisDatastoreV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#node_count DbaasRedisDatastoreV1#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#node_count DbaasRedisDatastoreV1#node_count}
   */
   readonly nodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#project_id DbaasRedisDatastoreV1#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#project_id DbaasRedisDatastoreV1#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#redis_password DbaasRedisDatastoreV1#redis_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#redis_password DbaasRedisDatastoreV1#redis_password}
   */
   readonly redisPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#region DbaasRedisDatastoreV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#region DbaasRedisDatastoreV1#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#security_groups DbaasRedisDatastoreV1#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#security_groups DbaasRedisDatastoreV1#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#subnet_id DbaasRedisDatastoreV1#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#subnet_id DbaasRedisDatastoreV1#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#type_id DbaasRedisDatastoreV1#type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#type_id DbaasRedisDatastoreV1#type_id}
   */
   readonly typeId: string;
   /**
   * firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#firewall DbaasRedisDatastoreV1#firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#firewall DbaasRedisDatastoreV1#firewall}
   */
   readonly firewall?: DbaasRedisDatastoreV1Firewall[] | cdktf.IResolvable;
   /**
   * floating_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#floating_ips DbaasRedisDatastoreV1#floating_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#floating_ips DbaasRedisDatastoreV1#floating_ips}
   */
   readonly floatingIps?: DbaasRedisDatastoreV1FloatingIps[] | cdktf.IResolvable;
   /**
   * restore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#restore DbaasRedisDatastoreV1#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#restore DbaasRedisDatastoreV1#restore}
   */
   readonly restore?: DbaasRedisDatastoreV1Restore[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#timeouts DbaasRedisDatastoreV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#timeouts DbaasRedisDatastoreV1#timeouts}
   */
   readonly timeouts?: DbaasRedisDatastoreV1Timeouts;
 }
@@ -258,7 +258,7 @@ export class DbaasRedisDatastoreV1InstancesList extends cdktf.ComplexList {
 }
 export interface DbaasRedisDatastoreV1Firewall {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#ips DbaasRedisDatastoreV1#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#ips DbaasRedisDatastoreV1#ips}
   */
   readonly ips: string[];
 }
@@ -371,11 +371,11 @@ export class DbaasRedisDatastoreV1FirewallList extends cdktf.ComplexList {
 }
 export interface DbaasRedisDatastoreV1FloatingIps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#master DbaasRedisDatastoreV1#master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#master DbaasRedisDatastoreV1#master}
   */
   readonly master: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#replica DbaasRedisDatastoreV1#replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#replica DbaasRedisDatastoreV1#replica}
   */
   readonly replica: number;
 }
@@ -514,11 +514,11 @@ export class DbaasRedisDatastoreV1FloatingIpsList extends cdktf.ComplexList {
 }
 export interface DbaasRedisDatastoreV1Restore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#datastore_id DbaasRedisDatastoreV1#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#datastore_id DbaasRedisDatastoreV1#datastore_id}
   */
   readonly datastoreId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#target_time DbaasRedisDatastoreV1#target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#target_time DbaasRedisDatastoreV1#target_time}
   */
   readonly targetTime?: string;
 }
@@ -663,15 +663,15 @@ export class DbaasRedisDatastoreV1RestoreList extends cdktf.ComplexList {
 }
 export interface DbaasRedisDatastoreV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#create DbaasRedisDatastoreV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#create DbaasRedisDatastoreV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#delete DbaasRedisDatastoreV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#delete DbaasRedisDatastoreV1#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#update DbaasRedisDatastoreV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#update DbaasRedisDatastoreV1#update}
   */
   readonly update?: string;
 }
@@ -823,7 +823,7 @@ export class DbaasRedisDatastoreV1TimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1 selectel_dbaas_redis_datastore_v1}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1 selectel_dbaas_redis_datastore_v1}
 */
 export class DbaasRedisDatastoreV1 extends cdktf.TerraformResource {
 
@@ -839,7 +839,7 @@ export class DbaasRedisDatastoreV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasRedisDatastoreV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasRedisDatastoreV1 to import
-  * @param importFromId The id of the existing DbaasRedisDatastoreV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasRedisDatastoreV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasRedisDatastoreV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -851,7 +851,7 @@ export class DbaasRedisDatastoreV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_redis_datastore_v1 selectel_dbaas_redis_datastore_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_redis_datastore_v1 selectel_dbaas_redis_datastore_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -862,8 +862,8 @@ export class DbaasRedisDatastoreV1 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_dbaas_redis_datastore_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.2.1',
-        providerVersionConstraint: '7.2.1'
+        providerVersion: '7.3.0',
+        providerVersionConstraint: '7.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

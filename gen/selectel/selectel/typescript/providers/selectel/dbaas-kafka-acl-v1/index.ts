@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1
+// https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface DbaasKafkaAclV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#allow_read DbaasKafkaAclV1#allow_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#allow_read DbaasKafkaAclV1#allow_read}
   */
   readonly allowRead: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#allow_write DbaasKafkaAclV1#allow_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#allow_write DbaasKafkaAclV1#allow_write}
   */
   readonly allowWrite: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#datastore_id DbaasKafkaAclV1#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#datastore_id DbaasKafkaAclV1#datastore_id}
   */
   readonly datastoreId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#id DbaasKafkaAclV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#id DbaasKafkaAclV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#pattern DbaasKafkaAclV1#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#pattern DbaasKafkaAclV1#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#pattern_type DbaasKafkaAclV1#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#pattern_type DbaasKafkaAclV1#pattern_type}
   */
   readonly patternType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#project_id DbaasKafkaAclV1#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#project_id DbaasKafkaAclV1#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#region DbaasKafkaAclV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#region DbaasKafkaAclV1#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#user_id DbaasKafkaAclV1#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#user_id DbaasKafkaAclV1#user_id}
   */
   readonly userId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#timeouts DbaasKafkaAclV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#timeouts DbaasKafkaAclV1#timeouts}
   */
   readonly timeouts?: DbaasKafkaAclV1Timeouts;
 }
 export interface DbaasKafkaAclV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#create DbaasKafkaAclV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#create DbaasKafkaAclV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#delete DbaasKafkaAclV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#delete DbaasKafkaAclV1#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#update DbaasKafkaAclV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#update DbaasKafkaAclV1#update}
   */
   readonly update?: string;
 }
@@ -215,7 +215,7 @@ export class DbaasKafkaAclV1TimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1 selectel_dbaas_kafka_acl_v1}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1 selectel_dbaas_kafka_acl_v1}
 */
 export class DbaasKafkaAclV1 extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class DbaasKafkaAclV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasKafkaAclV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasKafkaAclV1 to import
-  * @param importFromId The id of the existing DbaasKafkaAclV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasKafkaAclV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasKafkaAclV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class DbaasKafkaAclV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/dbaas_kafka_acl_v1 selectel_dbaas_kafka_acl_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/dbaas_kafka_acl_v1 selectel_dbaas_kafka_acl_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class DbaasKafkaAclV1 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_dbaas_kafka_acl_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.2.1',
-        providerVersionConstraint: '7.2.1'
+        providerVersion: '7.3.0',
+        providerVersionConstraint: '7.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

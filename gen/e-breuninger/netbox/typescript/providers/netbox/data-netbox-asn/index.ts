@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/asn
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/asn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataNetboxAsnConfig extends cdktf.TerraformMetaArguments {
   /**
   * At least one of `asn` or `tag` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/asn#asn DataNetboxAsn#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/asn#asn DataNetboxAsn#asn}
   */
   readonly asn?: string;
   /**
   * Tag to include in the data source filter (must match the tag's slug). At least one of `asn` or `tag` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/asn#tag DataNetboxAsn#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/asn#tag DataNetboxAsn#tag}
   */
   readonly tag?: string;
   /**
@@ -24,13 +24,13 @@ export interface DataNetboxAsnConfig extends cdktf.TerraformMetaArguments {
   * Refer to [Netbox's documentation](https://demo.netbox.dev/static/docs/rest-api/filtering/#lookup-expressions)
   * for more information on available lookup expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/asn#tag__n DataNetboxAsn#tag__n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/asn#tag__n DataNetboxAsn#tag__n}
   */
   readonly tagN?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/asn netbox_asn}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/asn netbox_asn}
 */
 export class DataNetboxAsn extends cdktf.TerraformDataSource {
 
@@ -46,7 +46,7 @@ export class DataNetboxAsn extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetboxAsn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetboxAsn to import
-  * @param importFromId The id of the existing DataNetboxAsn that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/asn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetboxAsn that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/asn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetboxAsn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class DataNetboxAsn extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/asn netbox_asn} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/asn netbox_asn} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class DataNetboxAsn extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_asn',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

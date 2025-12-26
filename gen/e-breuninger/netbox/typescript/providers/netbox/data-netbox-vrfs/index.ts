@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vrfs
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vrfs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNetboxVrfsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vrfs#id DataNetboxVrfs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vrfs#id DataNetboxVrfs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataNetboxVrfsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vrfs#limit DataNetboxVrfs#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vrfs#limit DataNetboxVrfs#limit}
   */
   readonly limit?: number;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vrfs#filter DataNetboxVrfs#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vrfs#filter DataNetboxVrfs#filter}
   */
   readonly filter?: DataNetboxVrfsFilter[] | cdktf.IResolvable;
 }
@@ -124,11 +124,11 @@ export class DataNetboxVrfsVrfsList extends cdktf.ComplexList {
 }
 export interface DataNetboxVrfsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vrfs#name DataNetboxVrfs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vrfs#name DataNetboxVrfs#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vrfs#value DataNetboxVrfs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vrfs#value DataNetboxVrfs#value}
   */
   readonly value: string;
 }
@@ -267,7 +267,7 @@ export class DataNetboxVrfsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vrfs netbox_vrfs}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vrfs netbox_vrfs}
 */
 export class DataNetboxVrfs extends cdktf.TerraformDataSource {
 
@@ -283,7 +283,7 @@ export class DataNetboxVrfs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetboxVrfs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetboxVrfs to import
-  * @param importFromId The id of the existing DataNetboxVrfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vrfs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetboxVrfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vrfs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetboxVrfs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class DataNetboxVrfs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/vrfs netbox_vrfs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/vrfs netbox_vrfs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class DataNetboxVrfs extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_vrfs',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

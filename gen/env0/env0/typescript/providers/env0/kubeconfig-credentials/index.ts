@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/kubeconfig_credentials
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/kubeconfig_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KubeconfigCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/kubeconfig_credentials#id KubeconfigCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/kubeconfig_credentials#id KubeconfigCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface KubeconfigCredentialsConfig extends cdktf.TerraformMetaArgument
   /**
   * A valid kubeconfig file content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/kubeconfig_credentials#kube_config KubeconfigCredentials#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/kubeconfig_credentials#kube_config KubeconfigCredentials#kube_config}
   */
   readonly kubeConfig: string;
   /**
   * name for the credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/kubeconfig_credentials#name KubeconfigCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/kubeconfig_credentials#name KubeconfigCredentials#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/kubeconfig_credentials env0_kubeconfig_credentials}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/kubeconfig_credentials env0_kubeconfig_credentials}
 */
 export class KubeconfigCredentials extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class KubeconfigCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubeconfigCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubeconfigCredentials to import
-  * @param importFromId The id of the existing KubeconfigCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/kubeconfig_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubeconfigCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/kubeconfig_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubeconfigCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class KubeconfigCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/kubeconfig_credentials env0_kubeconfig_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/kubeconfig_credentials env0_kubeconfig_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class KubeconfigCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'env0_kubeconfig_credentials',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

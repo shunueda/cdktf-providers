@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface AvailablePrefixConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#custom_fields AvailablePrefix#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#custom_fields AvailablePrefix#custom_fields}
   */
   readonly customFields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#description AvailablePrefix#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#description AvailablePrefix#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#id AvailablePrefix#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#id AvailablePrefix#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#is_pool AvailablePrefix#is_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#is_pool AvailablePrefix#is_pool}
   */
   readonly isPool?: boolean | cdktf.IResolvable;
   /**
   * Conflicts with `site_id`, `site_group_id` and `region_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#location_id AvailablePrefix#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#location_id AvailablePrefix#location_id}
   */
   readonly locationId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#mark_utilized AvailablePrefix#mark_utilized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#mark_utilized AvailablePrefix#mark_utilized}
   */
   readonly markUtilized?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#parent_prefix_id AvailablePrefix#parent_prefix_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#parent_prefix_id AvailablePrefix#parent_prefix_id}
   */
   readonly parentPrefixId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#prefix_length AvailablePrefix#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#prefix_length AvailablePrefix#prefix_length}
   */
   readonly prefixLength: number;
   /**
   * Conflicts with `location_id`, `site_id` and `site_group_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#region_id AvailablePrefix#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#region_id AvailablePrefix#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#role_id AvailablePrefix#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#role_id AvailablePrefix#role_id}
   */
   readonly roleId?: number;
   /**
   * Conflicts with `location_id`, `site_id` and `region_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#site_group_id AvailablePrefix#site_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#site_group_id AvailablePrefix#site_group_id}
   */
   readonly siteGroupId?: number;
   /**
   * Conflicts with `location_id`, `site_group_id` and `region_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#site_id AvailablePrefix#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#site_id AvailablePrefix#site_id}
   */
   readonly siteId?: number;
   /**
   * Valid values are `active`, `container`, `reserved` and `deprecated`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#status AvailablePrefix#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#status AvailablePrefix#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#tags AvailablePrefix#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#tags AvailablePrefix#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#tenant_id AvailablePrefix#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#tenant_id AvailablePrefix#tenant_id}
   */
   readonly tenantId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#vlan_id AvailablePrefix#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#vlan_id AvailablePrefix#vlan_id}
   */
   readonly vlanId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#vrf_id AvailablePrefix#vrf_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#vrf_id AvailablePrefix#vrf_id}
   */
   readonly vrfId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix netbox_available_prefix}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix netbox_available_prefix}
 */
 export class AvailablePrefix extends cdktf.TerraformResource {
 
@@ -107,7 +107,7 @@ export class AvailablePrefix extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AvailablePrefix resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AvailablePrefix to import
-  * @param importFromId The id of the existing AvailablePrefix that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AvailablePrefix that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AvailablePrefix to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -119,7 +119,7 @@ export class AvailablePrefix extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_prefix netbox_available_prefix} Resource
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_prefix netbox_available_prefix} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -130,8 +130,8 @@ export class AvailablePrefix extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_available_prefix',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

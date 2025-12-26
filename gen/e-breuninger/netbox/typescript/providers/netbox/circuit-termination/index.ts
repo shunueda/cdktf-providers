@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface CircuitTerminationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#circuit_id CircuitTermination#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#circuit_id CircuitTermination#circuit_id}
   */
   readonly circuitId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#custom_fields CircuitTermination#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#custom_fields CircuitTermination#custom_fields}
   */
   readonly customFields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#id CircuitTermination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#description CircuitTermination#description}
+  */
+  readonly description?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#id CircuitTermination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,55 +29,55 @@ export interface CircuitTerminationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Exactly one of `site_id`, `site_group_id`, `region_id` or `provider_network_id` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#location_id CircuitTermination#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#location_id CircuitTermination#location_id}
   */
   readonly locationId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#port_speed CircuitTermination#port_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#port_speed CircuitTermination#port_speed}
   */
   readonly portSpeed?: number;
   /**
   * Exactly one of `location_id`, `site_id`, `site_group_id` or `region_id` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#provider_network_id CircuitTermination#provider_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#provider_network_id CircuitTermination#provider_network_id}
   */
   readonly providerNetworkId?: number;
   /**
   * Exactly one of `location_id`, `site_id`, `site_group_id` or `provider_network_id` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#region_id CircuitTermination#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#region_id CircuitTermination#region_id}
   */
   readonly regionId?: number;
   /**
   * Exactly one of `location_id`, `site_id`, `region_id` or `provider_network_id` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#site_group_id CircuitTermination#site_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#site_group_id CircuitTermination#site_group_id}
   */
   readonly siteGroupId?: number;
   /**
   * Exactly one of `location_id`, `site_group_id`, `region_id` or `provider_network_id` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#site_id CircuitTermination#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#site_id CircuitTermination#site_id}
   */
   readonly siteId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#tags CircuitTermination#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#tags CircuitTermination#tags}
   */
   readonly tags?: string[];
   /**
   * Valid values are `A` and `Z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#term_side CircuitTermination#term_side}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#term_side CircuitTermination#term_side}
   */
   readonly termSide: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#upstream_speed CircuitTermination#upstream_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#upstream_speed CircuitTermination#upstream_speed}
   */
   readonly upstreamSpeed?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination netbox_circuit_termination}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination netbox_circuit_termination}
 */
 export class CircuitTermination extends cdktf.TerraformResource {
 
@@ -89,7 +93,7 @@ export class CircuitTermination extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CircuitTermination resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CircuitTermination to import
-  * @param importFromId The id of the existing CircuitTermination that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CircuitTermination that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CircuitTermination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +105,7 @@ export class CircuitTermination extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_termination netbox_circuit_termination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_termination netbox_circuit_termination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +116,8 @@ export class CircuitTermination extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_circuit_termination',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -125,6 +129,7 @@ export class CircuitTermination extends cdktf.TerraformResource {
     });
     this._circuitId = config.circuitId;
     this._customFields = config.customFields;
+    this._description = config.description;
     this._id = config.id;
     this._locationId = config.locationId;
     this._portSpeed = config.portSpeed;
@@ -168,6 +173,22 @@ export class CircuitTermination extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get customFieldsInput() {
     return this._customFields;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
   }
 
   // id - computed: true, optional: true, required: false
@@ -340,6 +361,7 @@ export class CircuitTermination extends cdktf.TerraformResource {
     return {
       circuit_id: cdktf.numberToTerraform(this._circuitId),
       custom_fields: cdktf.hashMapper(cdktf.stringToTerraform)(this._customFields),
+      description: cdktf.stringToTerraform(this._description),
       id: cdktf.stringToTerraform(this._id),
       location_id: cdktf.numberToTerraform(this._locationId),
       port_speed: cdktf.numberToTerraform(this._portSpeed),
@@ -366,6 +388,12 @@ export class CircuitTermination extends cdktf.TerraformResource {
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
+      },
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),

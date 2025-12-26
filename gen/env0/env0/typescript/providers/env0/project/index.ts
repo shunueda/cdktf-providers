@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/project
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * description of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
   * Destroy the project even when environments exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/project#force_destroy Project#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/project#force_destroy Project#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
   * name to give the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
   * If set, the project becomes a 'sub-project' of the parent project. See https://docs.env0.com/docs/sub-projects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/project#parent_project_id Project#parent_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/project#parent_project_id Project#parent_project_id}
   */
   readonly parentProjectId?: string;
   /**
   * Wait for all environments to be destroyed before destroying this project (up to 10 minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/project#wait Project#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/project#wait Project#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/project env0_project}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/project env0_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/project env0_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/project env0_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'env0_project',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

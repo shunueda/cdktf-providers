@@ -25,6 +25,12 @@ Object.defineProperty(exports, 'domainsDomainV1', { get: function () { return re
 Object.defineProperty(exports, 'domainsRecordV1', { get: function () { return require('./domains-record-v1'); } });
 Object.defineProperty(exports, 'domainsRrsetV2', { get: function () { return require('./domains-rrset-v2'); } });
 Object.defineProperty(exports, 'domainsZoneV2', { get: function () { return require('./domains-zone-v2'); } });
+Object.defineProperty(exports, 'globalRouterDedicatedNetworkV1', { get: function () { return require('./global-router-dedicated-network-v1'); } });
+Object.defineProperty(exports, 'globalRouterDedicatedSubnetV1', { get: function () { return require('./global-router-dedicated-subnet-v1'); } });
+Object.defineProperty(exports, 'globalRouterRouterV1', { get: function () { return require('./global-router-router-v1'); } });
+Object.defineProperty(exports, 'globalRouterStaticRouteV1', { get: function () { return require('./global-router-static-route-v1'); } });
+Object.defineProperty(exports, 'globalRouterVpcNetworkV1', { get: function () { return require('./global-router-vpc-network-v1'); } });
+Object.defineProperty(exports, 'globalRouterVpcSubnetV1', { get: function () { return require('./global-router-vpc-subnet-v1'); } });
 Object.defineProperty(exports, 'iamGroupMembershipV1', { get: function () { return require('./iam-group-membership-v1'); } });
 Object.defineProperty(exports, 'iamGroupV1', { get: function () { return require('./iam-group-v1'); } });
 Object.defineProperty(exports, 'iamS3CredentialsV1', { get: function () { return require('./iam-s3-credentials-v1'); } });
@@ -55,6 +61,10 @@ Object.defineProperty(exports, 'dataSelectelDedicatedPublicSubnetV1', { get: fun
 Object.defineProperty(exports, 'dataSelectelDomainsDomainV1', { get: function () { return require('./data-selectel-domains-domain-v1'); } });
 Object.defineProperty(exports, 'dataSelectelDomainsRrsetV2', { get: function () { return require('./data-selectel-domains-rrset-v2'); } });
 Object.defineProperty(exports, 'dataSelectelDomainsZoneV2', { get: function () { return require('./data-selectel-domains-zone-v2'); } });
+Object.defineProperty(exports, 'dataSelectelGlobalRouterQuotaV1', { get: function () { return require('./data-selectel-global-router-quota-v1'); } });
+Object.defineProperty(exports, 'dataSelectelGlobalRouterServiceV1', { get: function () { return require('./data-selectel-global-router-service-v1'); } });
+Object.defineProperty(exports, 'dataSelectelGlobalRouterZoneGroupV1', { get: function () { return require('./data-selectel-global-router-zone-group-v1'); } });
+Object.defineProperty(exports, 'dataSelectelGlobalRouterZoneV1', { get: function () { return require('./data-selectel-global-router-zone-v1'); } });
 Object.defineProperty(exports, 'dataSelectelMksAdmissionControllersV1', { get: function () { return require('./data-selectel-mks-admission-controllers-v1'); } });
 Object.defineProperty(exports, 'dataSelectelMksFeatureGatesV1', { get: function () { return require('./data-selectel-mks-feature-gates-v1'); } });
 Object.defineProperty(exports, 'dataSelectelMksKubeVersionsV1', { get: function () { return require('./data-selectel-mks-kube-versions-v1'); } });

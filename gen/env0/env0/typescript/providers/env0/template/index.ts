@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,193 +10,193 @@ export interface TemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * the ansible version to use (required when the template type is 'ansible'). Supported versions are 3.0.0 and above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#ansible_version Template#ansible_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#ansible_version Template#ansible_version}
   */
   readonly ansibleVersion?: string;
   /**
   * the bitbucket client key used for integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#bitbucket_client_key Template#bitbucket_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#bitbucket_client_key Template#bitbucket_client_key}
   */
   readonly bitbucketClientKey?: string;
   /**
   * description for the template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#description Template#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#description Template#description}
   */
   readonly description?: string;
   /**
   * the cloudformation file name. Required if the template type is cloudformation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#file_name Template#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#file_name Template#file_name}
   */
   readonly fileName?: string;
   /**
   * the env0 application installation id on the relevant github repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#github_installation_id Template#github_installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#github_installation_id Template#github_installation_id}
   */
   readonly githubInstallationId?: number;
   /**
   * the project id of the relevant repository (deprecated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#gitlab_project_id Template#gitlab_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#gitlab_project_id Template#gitlab_project_id}
   */
   readonly gitlabProjectId?: number;
   /**
   * the helm chart name. Required if is_helm_repository is set to 'true'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#helm_chart_name Template#helm_chart_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#helm_chart_name Template#helm_chart_name}
   */
   readonly helmChartName?: string;
   /**
   * true if this template integrates with azure dev ops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#is_azure_devops Template#is_azure_devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#is_azure_devops Template#is_azure_devops}
   */
   readonly isAzureDevops?: boolean | cdktf.IResolvable;
   /**
   * true if this template uses bitbucket server repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#is_bitbucket_server Template#is_bitbucket_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#is_bitbucket_server Template#is_bitbucket_server}
   */
   readonly isBitbucketServer?: boolean | cdktf.IResolvable;
   /**
   * true if this template uses github enterprise repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#is_github_enterprise Template#is_github_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#is_github_enterprise Template#is_github_enterprise}
   */
   readonly isGithubEnterprise?: boolean | cdktf.IResolvable;
   /**
   * set to 'true' if the repository is Gitlab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#is_gitlab Template#is_gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#is_gitlab Template#is_gitlab}
   */
   readonly isGitlab?: boolean | cdktf.IResolvable;
   /**
   * true if this template uses gitlab enterprise repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#is_gitlab_enterprise Template#is_gitlab_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#is_gitlab_enterprise Template#is_gitlab_enterprise}
   */
   readonly isGitlabEnterprise?: boolean | cdktf.IResolvable;
   /**
   * true if this template integrates with a helm repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#is_helm_repository Template#is_helm_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#is_helm_repository Template#is_helm_repository}
   */
   readonly isHelmRepository?: boolean | cdktf.IResolvable;
   /**
   * true if this template should execute run-all commands on multiple modules (check https://terragrunt.gruntwork.io/docs/features/execute-terraform-commands-on-multiple-modules-at-once/#the-run-all-command for additional details). Can only be true with 'terragrunt' template type and terragrunt version 0.28.1 and above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#is_terragrunt_run_all Template#is_terragrunt_run_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#is_terragrunt_run_all Template#is_terragrunt_run_all}
   */
   readonly isTerragruntRunAll?: boolean | cdktf.IResolvable;
   /**
   * name to give the template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#name Template#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#name Template#name}
   */
   readonly name: string;
   /**
   * the Opentofu version to use (example: 1.6.2). Setting to 'RESOLVE_FROM_CODE' extracts the version from the Opentofu code during runtime. Setting to `latest`, the version used will be the most recent one available for Opentofu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#opentofu_version Template#opentofu_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#opentofu_version Template#opentofu_version}
   */
   readonly opentofuVersion?: string;
   /**
   * terraform / terragrunt file folder inside source code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#path Template#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#path Template#path}
   */
   readonly path?: string;
   /**
   * git repository url for the template source code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#repository Template#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#repository Template#repository}
   */
   readonly repository: string;
   /**
   * number of times to retry when deploying an environment based on this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#retries_on_deploy Template#retries_on_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#retries_on_deploy Template#retries_on_deploy}
   */
   readonly retriesOnDeploy?: number;
   /**
   * number of times to retry when destroying an environment based on this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#retries_on_destroy Template#retries_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#retries_on_destroy Template#retries_on_destroy}
   */
   readonly retriesOnDestroy?: number;
   /**
   * if specified, will only retry (on deploy) if error matches specified regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#retry_on_deploy_only_when_matches_regex Template#retry_on_deploy_only_when_matches_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#retry_on_deploy_only_when_matches_regex Template#retry_on_deploy_only_when_matches_regex}
   */
   readonly retryOnDeployOnlyWhenMatchesRegex?: string;
   /**
   * if specified, will only retry (on destroy) if error matches specified regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#retry_on_destroy_only_when_matches_regex Template#retry_on_destroy_only_when_matches_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#retry_on_destroy_only_when_matches_regex Template#retry_on_destroy_only_when_matches_regex}
   */
   readonly retryOnDestroyOnlyWhenMatchesRegex?: string;
   /**
   * source code revision (branch / tag) to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#revision Template#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#revision Template#revision}
   */
   readonly revision?: string;
   /**
   * an array of references to 'data_ssh_key' to use when accessing git over ssh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#ssh_keys Template#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#ssh_keys Template#ssh_keys}
   */
   readonly sshKeys?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * the Terraform version to use (example: 0.15.1). Setting to `RESOLVE_FROM_TERRAFORM_CODE` defaults to the version of `terraform.required_version` during run-time (resolve from terraform code). Setting to `latest`, the version used will be the most recent one available for Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#terraform_version Template#terraform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#terraform_version Template#terraform_version}
   */
   readonly terraformVersion?: string;
   /**
   * the binary to use if the template type is 'terragrunt'. Valid values 'opentofu' and 'terraform'. Defaults to 'opentofu'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#terragrunt_tf_binary Template#terragrunt_tf_binary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#terragrunt_tf_binary Template#terragrunt_tf_binary}
   */
   readonly terragruntTfBinary?: string;
   /**
   * the Terragrunt version to use (example: 0.36.5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#terragrunt_version Template#terragrunt_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#terragrunt_version Template#terragrunt_version}
   */
   readonly terragruntVersion?: string;
   /**
   * the git token id to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#token_id Template#token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#token_id Template#token_id}
   */
   readonly tokenId?: string;
   /**
   * token name for Gitlab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#token_name Template#token_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#token_name Template#token_name}
   */
   readonly tokenName?: string;
   /**
   * template type (allowed values: terraform, terragrunt, pulumi, k8s, workflow, cloudformation, helm, opentofu, ansible)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#type Template#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#type Template#type}
   */
   readonly type: string;
   /**
   * the VCS connection id to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#vcs_connection_id Template#vcs_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#vcs_connection_id Template#vcs_connection_id}
   */
   readonly vcsConnectionId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template env0_template}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template env0_template}
 */
 export class Template extends cdktf.TerraformResource {
 
@@ -212,7 +212,7 @@ export class Template extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Template resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Template to import
-  * @param importFromId The id of the existing Template that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Template that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Template to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class Template extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/template env0_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/template env0_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +235,8 @@ export class Template extends cdktf.TerraformResource {
       terraformResourceType: 'env0_template',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

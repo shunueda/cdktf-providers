@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2
+// https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CloudbackupPlanV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Backup mode used for this plan. Allowed values: "full", "frequency"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#backup_mode CloudbackupPlanV2#backup_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#backup_mode CloudbackupPlanV2#backup_mode}
   */
   readonly backupMode?: string;
   /**
   * Maximum number of backups to save in a full plan or full backups in a frequency plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#full_backups_amount CloudbackupPlanV2#full_backups_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#full_backups_amount CloudbackupPlanV2#full_backups_amount}
   */
   readonly fullBackupsAmount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#id CloudbackupPlanV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#id CloudbackupPlanV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,41 +29,41 @@ export interface CloudbackupPlanV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Human-readable name of the plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#name CloudbackupPlanV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#name CloudbackupPlanV2#name}
   */
   readonly name: string;
   /**
   * Project identifier in UUID format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#project_id CloudbackupPlanV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#project_id CloudbackupPlanV2#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#region CloudbackupPlanV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#region CloudbackupPlanV2#region}
   */
   readonly region: string;
   /**
   * Backup scheduling pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#schedule_pattern CloudbackupPlanV2#schedule_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#schedule_pattern CloudbackupPlanV2#schedule_pattern}
   */
   readonly schedulePattern: string;
   /**
   * Backup scheduling type. Allowed values: "calendar", "crontab"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#schedule_type CloudbackupPlanV2#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#schedule_type CloudbackupPlanV2#schedule_type}
   */
   readonly scheduleType: string;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#resources CloudbackupPlanV2#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#resources CloudbackupPlanV2#resources}
   */
   readonly resources: CloudbackupPlanV2Resources[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#timeouts CloudbackupPlanV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#timeouts CloudbackupPlanV2#timeouts}
   */
   readonly timeouts?: CloudbackupPlanV2Timeouts;
 }
@@ -71,7 +71,7 @@ export interface CloudbackupPlanV2ResourcesResource {
   /**
   * UUID of the backed up resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#id CloudbackupPlanV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#id CloudbackupPlanV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,13 +80,13 @@ export interface CloudbackupPlanV2ResourcesResource {
   /**
   * Name of the backed up resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#name CloudbackupPlanV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#name CloudbackupPlanV2#name}
   */
   readonly name: string;
   /**
   * Type of the backed up resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#type CloudbackupPlanV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#type CloudbackupPlanV2#type}
   */
   readonly type: string;
 }
@@ -253,7 +253,7 @@ export interface CloudbackupPlanV2Resources {
   /**
   * resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#resource CloudbackupPlanV2#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#resource CloudbackupPlanV2#resource}
   */
   readonly resource?: CloudbackupPlanV2ResourcesResource[] | cdktf.IResolvable;
 }
@@ -369,15 +369,15 @@ export class CloudbackupPlanV2ResourcesList extends cdktf.ComplexList {
 }
 export interface CloudbackupPlanV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#create CloudbackupPlanV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#create CloudbackupPlanV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#delete CloudbackupPlanV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#delete CloudbackupPlanV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#update CloudbackupPlanV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#update CloudbackupPlanV2#update}
   */
   readonly update?: string;
 }
@@ -529,7 +529,7 @@ export class CloudbackupPlanV2TimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2 selectel_cloudbackup_plan_v2}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2 selectel_cloudbackup_plan_v2}
 */
 export class CloudbackupPlanV2 extends cdktf.TerraformResource {
 
@@ -545,7 +545,7 @@ export class CloudbackupPlanV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudbackupPlanV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudbackupPlanV2 to import
-  * @param importFromId The id of the existing CloudbackupPlanV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudbackupPlanV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudbackupPlanV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -557,7 +557,7 @@ export class CloudbackupPlanV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/cloudbackup_plan_v2 selectel_cloudbackup_plan_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/cloudbackup_plan_v2 selectel_cloudbackup_plan_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -568,8 +568,8 @@ export class CloudbackupPlanV2 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_cloudbackup_plan_v2',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.2.1',
-        providerVersionConstraint: '7.2.1'
+        providerVersion: '7.3.0',
+        providerVersionConstraint: '7.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

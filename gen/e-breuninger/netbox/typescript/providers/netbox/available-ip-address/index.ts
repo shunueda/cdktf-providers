@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface AvailableIpAddressConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#description AvailableIpAddress#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#description AvailableIpAddress#description}
   */
   readonly description?: string;
   /**
   * Conflicts with `interface_id` and `virtual_machine_interface_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#device_interface_id AvailableIpAddress#device_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#device_interface_id AvailableIpAddress#device_interface_id}
   */
   readonly deviceInterfaceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#dns_name AvailableIpAddress#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#dns_name AvailableIpAddress#dns_name}
   */
   readonly dnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#id AvailableIpAddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#id AvailableIpAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,61 +31,61 @@ export interface AvailableIpAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * Required when `object_type` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#interface_id AvailableIpAddress#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#interface_id AvailableIpAddress#interface_id}
   */
   readonly interfaceId?: number;
   /**
   * Exactly one of `prefix_id` or `ip_range_id` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#ip_range_id AvailableIpAddress#ip_range_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#ip_range_id AvailableIpAddress#ip_range_id}
   */
   readonly ipRangeId?: number;
   /**
   * Valid values are `virtualization.vminterface` and `dcim.interface`. Required when `interface_id` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#object_type AvailableIpAddress#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#object_type AvailableIpAddress#object_type}
   */
   readonly objectType?: string;
   /**
   * Exactly one of `prefix_id` or `ip_range_id` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#prefix_id AvailableIpAddress#prefix_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#prefix_id AvailableIpAddress#prefix_id}
   */
   readonly prefixId?: number;
   /**
   * Valid values are `loopback`, `secondary`, `anycast`, `vip`, `vrrp`, `hsrp`, `glbp` and `carp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#role AvailableIpAddress#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#role AvailableIpAddress#role}
   */
   readonly role?: string;
   /**
   * Valid values are `active`, `reserved`, `deprecated`, `dhcp` and `slaac`. Defaults to `active`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#status AvailableIpAddress#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#status AvailableIpAddress#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#tags AvailableIpAddress#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#tags AvailableIpAddress#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#tenant_id AvailableIpAddress#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#tenant_id AvailableIpAddress#tenant_id}
   */
   readonly tenantId?: number;
   /**
   * Conflicts with `interface_id` and `device_interface_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#virtual_machine_interface_id AvailableIpAddress#virtual_machine_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#virtual_machine_interface_id AvailableIpAddress#virtual_machine_interface_id}
   */
   readonly virtualMachineInterfaceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#vrf_id AvailableIpAddress#vrf_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#vrf_id AvailableIpAddress#vrf_id}
   */
   readonly vrfId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address netbox_available_ip_address}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address netbox_available_ip_address}
 */
 export class AvailableIpAddress extends cdktf.TerraformResource {
 
@@ -101,7 +101,7 @@ export class AvailableIpAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AvailableIpAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AvailableIpAddress to import
-  * @param importFromId The id of the existing AvailableIpAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AvailableIpAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AvailableIpAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class AvailableIpAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/available_ip_address netbox_available_ip_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/available_ip_address netbox_available_ip_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class AvailableIpAddress extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_available_ip_address',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

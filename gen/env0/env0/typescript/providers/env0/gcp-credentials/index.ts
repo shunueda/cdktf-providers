@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/gcp_credentials
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/gcp_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GcpCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * the env0 project id to associate the credentials with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/gcp_credentials#env0_project_id GcpCredentials#env0_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/gcp_credentials#env0_project_id GcpCredentials#env0_project_id}
   */
   readonly env0ProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/gcp_credentials#id GcpCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/gcp_credentials#id GcpCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface GcpCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * name for the credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/gcp_credentials#name GcpCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/gcp_credentials#name GcpCredentials#name}
   */
   readonly name: string;
   /**
   * the gcp project id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/gcp_credentials#project_id GcpCredentials#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/gcp_credentials#project_id GcpCredentials#project_id}
   */
   readonly projectId?: string;
   /**
   * the gcp service account key. In case your organization is self-hosted, please use a secret reference in the shape of ${gcp:<secret-id>}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/gcp_credentials#service_account_key GcpCredentials#service_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/gcp_credentials#service_account_key GcpCredentials#service_account_key}
   */
   readonly serviceAccountKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/gcp_credentials env0_gcp_credentials}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/gcp_credentials env0_gcp_credentials}
 */
 export class GcpCredentials extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class GcpCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpCredentials to import
-  * @param importFromId The id of the existing GcpCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/gcp_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/gcp_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class GcpCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/gcp_credentials env0_gcp_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/gcp_credentials env0_gcp_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class GcpCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'env0_gcp_credentials',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

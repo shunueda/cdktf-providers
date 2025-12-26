@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/domains_zone_v2
+// https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/domains_zone_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DomainsZoneV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/domains_zone_v2#comment DomainsZoneV2#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/domains_zone_v2#comment DomainsZoneV2#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/domains_zone_v2#disabled DomainsZoneV2#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/domains_zone_v2#disabled DomainsZoneV2#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/domains_zone_v2#id DomainsZoneV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/domains_zone_v2#id DomainsZoneV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/domains_zone_v2#name DomainsZoneV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/domains_zone_v2#name DomainsZoneV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/domains_zone_v2#project_id DomainsZoneV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/domains_zone_v2#project_id DomainsZoneV2#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/domains_zone_v2 selectel_domains_zone_v2}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/domains_zone_v2 selectel_domains_zone_v2}
 */
 export class DomainsZoneV2 extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class DomainsZoneV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainsZoneV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainsZoneV2 to import
-  * @param importFromId The id of the existing DomainsZoneV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/domains_zone_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainsZoneV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/domains_zone_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainsZoneV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class DomainsZoneV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/domains_zone_v2 selectel_domains_zone_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/domains_zone_v2 selectel_domains_zone_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class DomainsZoneV2 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_domains_zone_v2',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.2.1',
-        providerVersionConstraint: '7.2.1'
+        providerVersion: '7.3.0',
+        providerVersionConstraint: '7.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

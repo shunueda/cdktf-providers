@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/interfaces
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNetboxInterfacesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/interfaces#id DataNetboxInterfaces#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/interfaces#id DataNetboxInterfaces#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataNetboxInterfacesConfig extends cdktf.TerraformMetaArguments
   /**
   * The limit of objects to return from the API lookup. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/interfaces#limit DataNetboxInterfaces#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/interfaces#limit DataNetboxInterfaces#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/interfaces#name_regex DataNetboxInterfaces#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/interfaces#name_regex DataNetboxInterfaces#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/interfaces#filter DataNetboxInterfaces#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/interfaces#filter DataNetboxInterfaces#filter}
   */
   readonly filter?: DataNetboxInterfacesFilter[] | cdktf.IResolvable;
 }
@@ -331,11 +331,11 @@ export class DataNetboxInterfacesInterfacesList extends cdktf.ComplexList {
 }
 export interface DataNetboxInterfacesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/interfaces#name DataNetboxInterfaces#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/interfaces#name DataNetboxInterfaces#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/interfaces#value DataNetboxInterfaces#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/interfaces#value DataNetboxInterfaces#value}
   */
   readonly value: string;
 }
@@ -474,7 +474,7 @@ export class DataNetboxInterfacesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/interfaces netbox_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/interfaces netbox_interfaces}
 */
 export class DataNetboxInterfaces extends cdktf.TerraformDataSource {
 
@@ -490,7 +490,7 @@ export class DataNetboxInterfaces extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetboxInterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetboxInterfaces to import
-  * @param importFromId The id of the existing DataNetboxInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetboxInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetboxInterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -502,7 +502,7 @@ export class DataNetboxInterfaces extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/interfaces netbox_interfaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/interfaces netbox_interfaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -513,8 +513,8 @@ export class DataNetboxInterfaces extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

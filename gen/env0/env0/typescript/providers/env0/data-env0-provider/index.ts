@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/provider
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEnv0ProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * id of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/provider#id DataEnv0Provider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/provider#id DataEnv0Provider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataEnv0ProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * the type/name of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/provider#type DataEnv0Provider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/provider#type DataEnv0Provider#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/provider env0_provider}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/provider env0_provider}
 */
 export class DataEnv0Provider extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataEnv0Provider extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEnv0Provider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEnv0Provider to import
-  * @param importFromId The id of the existing DataEnv0Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEnv0Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEnv0Provider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataEnv0Provider extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/provider env0_provider} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/provider env0_provider} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataEnv0Provider extends cdktf.TerraformDataSource {
       terraformResourceType: 'env0_provider',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

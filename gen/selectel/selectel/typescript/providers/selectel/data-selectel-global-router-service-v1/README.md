@@ -1,0 +1,3 @@
+# `data_selectel_global_router_service_v1`
+
+Refer to the Terraform Registry for docs: [`data_selectel_global_router_service_v1`](https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/data-sources/global_router_service_v1).

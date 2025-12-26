@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/custom_role
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/custom_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CustomRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/custom_role#id CustomRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/custom_role#id CustomRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface CustomRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to 'false'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/custom_role#is_default_role CustomRole#is_default_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/custom_role#is_default_role CustomRole#is_default_role}
   */
   readonly isDefaultRole?: boolean | cdktf.IResolvable;
   /**
   * The name of the custom role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/custom_role#name CustomRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/custom_role#name CustomRole#name}
   */
   readonly name: string;
   /**
   * The list of permissions assigned to the role. The allowed values are available within the 'permissions' attribute at this URL: https://docs.env0.com/reference/roles-create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/custom_role#permissions CustomRole#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/custom_role#permissions CustomRole#permissions}
   */
   readonly permissions: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/custom_role env0_custom_role}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/custom_role env0_custom_role}
 */
 export class CustomRole extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CustomRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomRole to import
-  * @param importFromId The id of the existing CustomRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/custom_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/custom_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CustomRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/custom_role env0_custom_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/custom_role env0_custom_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class CustomRole extends cdktf.TerraformResource {
       terraformResourceType: 'env0_custom_role',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

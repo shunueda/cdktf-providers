@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface CircuitConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit#cid Circuit#cid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit#cid Circuit#cid}
   */
   readonly cid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit#id Circuit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit#description Circuit#description}
+  */
+  readonly description?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit#id Circuit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit#provider_id Circuit#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit#provider_id Circuit#provider_id}
   */
   readonly providerId: number;
   /**
   * Valid values are `planned`, `provisioning`, `active`, `offline`, `deprovisioning` and `decommissioning`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit#status Circuit#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit#status Circuit#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit#tenant_id Circuit#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit#tenant_id Circuit#tenant_id}
   */
   readonly tenantId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit#type_id Circuit#type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit#type_id Circuit#type_id}
   */
   readonly typeId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit netbox_circuit}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit netbox_circuit}
 */
 export class Circuit extends cdktf.TerraformResource {
 
@@ -55,7 +59,7 @@ export class Circuit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Circuit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Circuit to import
-  * @param importFromId The id of the existing Circuit that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Circuit that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Circuit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +71,7 @@ export class Circuit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit netbox_circuit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit netbox_circuit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +82,8 @@ export class Circuit extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_circuit',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -90,6 +94,7 @@ export class Circuit extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._cid = config.cid;
+    this._description = config.description;
     this._id = config.id;
     this._providerId = config.providerId;
     this._status = config.status;
@@ -112,6 +117,22 @@ export class Circuit extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get cidInput() {
     return this._cid;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
   }
 
   // id - computed: true, optional: true, required: false
@@ -192,6 +213,7 @@ export class Circuit extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       cid: cdktf.stringToTerraform(this._cid),
+      description: cdktf.stringToTerraform(this._description),
       id: cdktf.stringToTerraform(this._id),
       provider_id: cdktf.numberToTerraform(this._providerId),
       status: cdktf.stringToTerraform(this._status),
@@ -204,6 +226,12 @@ export class Circuit extends cdktf.TerraformResource {
     const attrs = {
       cid: {
         value: cdktf.stringToHclTerraform(this._cid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

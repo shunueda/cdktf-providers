@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/source_code_variables
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/source_code_variables
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEnv0SourceCodeVariablesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/source_code_variables#id DataEnv0SourceCodeVariables#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/source_code_variables#id DataEnv0SourceCodeVariables#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataEnv0SourceCodeVariablesConfig extends cdktf.TerraformMetaAr
   /**
   * extracts source code terraform variables from the VCS configuration of this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/source_code_variables#template_id DataEnv0SourceCodeVariables#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/source_code_variables#template_id DataEnv0SourceCodeVariables#template_id}
   */
   readonly templateId: string;
 }
@@ -113,7 +113,7 @@ export class DataEnv0SourceCodeVariablesVariablesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/source_code_variables env0_source_code_variables}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/source_code_variables env0_source_code_variables}
 */
 export class DataEnv0SourceCodeVariables extends cdktf.TerraformDataSource {
 
@@ -129,7 +129,7 @@ export class DataEnv0SourceCodeVariables extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEnv0SourceCodeVariables resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEnv0SourceCodeVariables to import
-  * @param importFromId The id of the existing DataEnv0SourceCodeVariables that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/source_code_variables#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEnv0SourceCodeVariables that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/source_code_variables#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEnv0SourceCodeVariables to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class DataEnv0SourceCodeVariables extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/source_code_variables env0_source_code_variables} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/data-sources/source_code_variables env0_source_code_variables} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class DataEnv0SourceCodeVariables extends cdktf.TerraformDataSource {
       terraformResourceType: 'env0_source_code_variables',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

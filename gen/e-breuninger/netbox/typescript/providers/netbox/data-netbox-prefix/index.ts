@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface DataNetboxPrefixConfig extends cdktf.TerraformMetaArguments {
   /**
   * At least one of `description`, `family`, `prefix`, `vlan_vid`, `vrf_id`, `vlan_id`, `tenant_id`, `site_id`, `role_id`, `cidr`, `tag` or `status` must be given. Conflicts with `prefix`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#cidr DataNetboxPrefix#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#cidr DataNetboxPrefix#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#custom_fields DataNetboxPrefix#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#custom_fields DataNetboxPrefix#custom_fields}
   */
   readonly customFields?: { [key: string]: string };
   /**
   * Description to include in the data source filter. At least one of `description`, `family`, `prefix`, `vlan_vid`, `vrf_id`, `vlan_id`, `tenant_id`, `site_id`, `role_id`, `cidr`, `tag` or `status` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#description DataNetboxPrefix#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#description DataNetboxPrefix#description}
   */
   readonly description?: string;
   /**
   * The IP family of the prefix. One of 4 or 6. At least one of `description`, `family`, `prefix`, `vlan_vid`, `vrf_id`, `vlan_id`, `tenant_id`, `site_id`, `role_id`, `cidr`, `tag` or `status` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#family DataNetboxPrefix#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#family DataNetboxPrefix#family}
   */
   readonly family?: number;
   /**
   * At least one of `description`, `family`, `prefix`, `vlan_vid`, `vrf_id`, `vlan_id`, `tenant_id`, `site_id`, `role_id`, `cidr`, `tag` or `status` must be given. Conflicts with `cidr`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#prefix DataNetboxPrefix#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#prefix DataNetboxPrefix#prefix}
   */
   readonly prefix?: string;
   /**
   * At least one of `description`, `family`, `prefix`, `vlan_vid`, `vrf_id`, `vlan_id`, `tenant_id`, `site_id`, `role_id`, `cidr`, `tag` or `status` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#role_id DataNetboxPrefix#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#role_id DataNetboxPrefix#role_id}
   */
   readonly roleId?: number;
   /**
   * At least one of `description`, `family`, `prefix`, `vlan_vid`, `vrf_id`, `vlan_id`, `tenant_id`, `site_id`, `role_id`, `cidr`, `tag` or `status` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#site_id DataNetboxPrefix#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#site_id DataNetboxPrefix#site_id}
   */
   readonly siteId?: number;
   /**
   * At least one of `description`, `family`, `prefix`, `vlan_vid`, `vrf_id`, `vlan_id`, `tenant_id`, `site_id`, `role_id`, `cidr`, `tag` or `status` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#status DataNetboxPrefix#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#status DataNetboxPrefix#status}
   */
   readonly status?: string;
   /**
   * Tag to include in the data source filter (must match the tag's slug). At least one of `description`, `family`, `prefix`, `vlan_vid`, `vrf_id`, `vlan_id`, `tenant_id`, `site_id`, `role_id`, `cidr`, `tag` or `status` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#tag DataNetboxPrefix#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#tag DataNetboxPrefix#tag}
   */
   readonly tag?: string;
   /**
@@ -64,37 +64,37 @@ export interface DataNetboxPrefixConfig extends cdktf.TerraformMetaArguments {
   * Refer to [Netbox's documentation](https://demo.netbox.dev/static/docs/rest-api/filtering/#lookup-expressions)
   * for more information on available lookup expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#tag__n DataNetboxPrefix#tag__n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#tag__n DataNetboxPrefix#tag__n}
   */
   readonly tagN?: string;
   /**
   * At least one of `description`, `family`, `prefix`, `vlan_vid`, `vrf_id`, `vlan_id`, `tenant_id`, `site_id`, `role_id`, `cidr`, `tag` or `status` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#tenant_id DataNetboxPrefix#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#tenant_id DataNetboxPrefix#tenant_id}
   */
   readonly tenantId?: number;
   /**
   * At least one of `description`, `family`, `prefix`, `vlan_vid`, `vrf_id`, `vlan_id`, `tenant_id`, `site_id`, `role_id`, `cidr`, `tag` or `status` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#vlan_id DataNetboxPrefix#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#vlan_id DataNetboxPrefix#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * At least one of `description`, `family`, `prefix`, `vlan_vid`, `vrf_id`, `vlan_id`, `tenant_id`, `site_id`, `role_id`, `cidr`, `tag` or `status` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#vlan_vid DataNetboxPrefix#vlan_vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#vlan_vid DataNetboxPrefix#vlan_vid}
   */
   readonly vlanVid?: number;
   /**
   * At least one of `description`, `family`, `prefix`, `vlan_vid`, `vrf_id`, `vlan_id`, `tenant_id`, `site_id`, `role_id`, `cidr`, `tag` or `status` must be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#vrf_id DataNetboxPrefix#vrf_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#vrf_id DataNetboxPrefix#vrf_id}
   */
   readonly vrfId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix netbox_prefix}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix netbox_prefix}
 */
 export class DataNetboxPrefix extends cdktf.TerraformDataSource {
 
@@ -110,7 +110,7 @@ export class DataNetboxPrefix extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetboxPrefix resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetboxPrefix to import
-  * @param importFromId The id of the existing DataNetboxPrefix that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetboxPrefix that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetboxPrefix to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class DataNetboxPrefix extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefix netbox_prefix} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefix netbox_prefix} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class DataNetboxPrefix extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_prefix',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

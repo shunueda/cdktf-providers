@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/virtual_disk
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/virtual_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataNetboxVirtualDiskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/virtual_disk#id DataNetboxVirtualDisk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/virtual_disk#id DataNetboxVirtualDisk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/virtual_disk#limit DataNetboxVirtualDisk#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/virtual_disk#limit DataNetboxVirtualDisk#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/virtual_disk#name_regex DataNetboxVirtualDisk#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/virtual_disk#name_regex DataNetboxVirtualDisk#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/virtual_disk#filter DataNetboxVirtualDisk#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/virtual_disk#filter DataNetboxVirtualDisk#filter}
   */
   readonly filter?: DataNetboxVirtualDiskFilter[] | cdktf.IResolvable;
 }
@@ -137,11 +137,11 @@ export class DataNetboxVirtualDiskVirtualDisksList extends cdktf.ComplexList {
 }
 export interface DataNetboxVirtualDiskFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/virtual_disk#name DataNetboxVirtualDisk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/virtual_disk#name DataNetboxVirtualDisk#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/virtual_disk#value DataNetboxVirtualDisk#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/virtual_disk#value DataNetboxVirtualDisk#value}
   */
   readonly value: string;
 }
@@ -280,7 +280,7 @@ export class DataNetboxVirtualDiskFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/virtual_disk netbox_virtual_disk}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/virtual_disk netbox_virtual_disk}
 */
 export class DataNetboxVirtualDisk extends cdktf.TerraformDataSource {
 
@@ -296,7 +296,7 @@ export class DataNetboxVirtualDisk extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetboxVirtualDisk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetboxVirtualDisk to import
-  * @param importFromId The id of the existing DataNetboxVirtualDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/virtual_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetboxVirtualDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/virtual_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetboxVirtualDisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -308,7 +308,7 @@ export class DataNetboxVirtualDisk extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/virtual_disk netbox_virtual_disk} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/virtual_disk netbox_virtual_disk} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -319,8 +319,8 @@ export class DataNetboxVirtualDisk extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_virtual_disk',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

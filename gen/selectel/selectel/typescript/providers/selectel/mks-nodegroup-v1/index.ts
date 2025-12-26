@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1
+// https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,102 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface MksNodegroupV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#affinity_policy MksNodegroupV1#affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#affinity_policy MksNodegroupV1#affinity_policy}
   */
   readonly affinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#autoscale_max_nodes MksNodegroupV1#autoscale_max_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#autoscale_max_nodes MksNodegroupV1#autoscale_max_nodes}
   */
   readonly autoscaleMaxNodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#autoscale_min_nodes MksNodegroupV1#autoscale_min_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#autoscale_min_nodes MksNodegroupV1#autoscale_min_nodes}
   */
   readonly autoscaleMinNodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#availability_zone MksNodegroupV1#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#availability_zone MksNodegroupV1#availability_zone}
   */
   readonly availabilityZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#cluster_id MksNodegroupV1#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#cluster_id MksNodegroupV1#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#cpus MksNodegroupV1#cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#cpus MksNodegroupV1#cpus}
   */
   readonly cpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#enable_autoscale MksNodegroupV1#enable_autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#enable_autoscale MksNodegroupV1#enable_autoscale}
   */
   readonly enableAutoscale?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#flavor_id MksNodegroupV1#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#flavor_id MksNodegroupV1#flavor_id}
   */
   readonly flavorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#id MksNodegroupV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#id MksNodegroupV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#install_nvidia_device_plugin MksNodegroupV1#install_nvidia_device_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#install_nvidia_device_plugin MksNodegroupV1#install_nvidia_device_plugin}
   */
   readonly installNvidiaDevicePlugin: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#keypair_name MksNodegroupV1#keypair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#keypair_name MksNodegroupV1#keypair_name}
   */
   readonly keypairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#labels MksNodegroupV1#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#labels MksNodegroupV1#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#local_volume MksNodegroupV1#local_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#local_volume MksNodegroupV1#local_volume}
   */
   readonly localVolume?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#nodes_count MksNodegroupV1#nodes_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#nodes_count MksNodegroupV1#nodes_count}
   */
   readonly nodesCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#preemptible MksNodegroupV1#preemptible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#preemptible MksNodegroupV1#preemptible}
   */
   readonly preemptible?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#project_id MksNodegroupV1#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#project_id MksNodegroupV1#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#ram_mb MksNodegroupV1#ram_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#ram_mb MksNodegroupV1#ram_mb}
   */
   readonly ramMb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#region MksNodegroupV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#region MksNodegroupV1#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#user_data MksNodegroupV1#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#user_data MksNodegroupV1#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#volume_gb MksNodegroupV1#volume_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#volume_gb MksNodegroupV1#volume_gb}
   */
   readonly volumeGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#volume_type MksNodegroupV1#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#volume_type MksNodegroupV1#volume_type}
   */
   readonly volumeType?: string;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#taints MksNodegroupV1#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#taints MksNodegroupV1#taints}
   */
   readonly taints?: MksNodegroupV1Taints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#timeouts MksNodegroupV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#timeouts MksNodegroupV1#timeouts}
   */
   readonly timeouts?: MksNodegroupV1Timeouts;
 }
@@ -194,15 +194,15 @@ export class MksNodegroupV1NodesList extends cdktf.ComplexList {
 }
 export interface MksNodegroupV1Taints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#effect MksNodegroupV1#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#effect MksNodegroupV1#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#key MksNodegroupV1#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#key MksNodegroupV1#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#value MksNodegroupV1#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#value MksNodegroupV1#value}
   */
   readonly value: string;
 }
@@ -367,15 +367,15 @@ export class MksNodegroupV1TaintsList extends cdktf.ComplexList {
 }
 export interface MksNodegroupV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#create MksNodegroupV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#create MksNodegroupV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#delete MksNodegroupV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#delete MksNodegroupV1#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#update MksNodegroupV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#update MksNodegroupV1#update}
   */
   readonly update?: string;
 }
@@ -527,7 +527,7 @@ export class MksNodegroupV1TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1 selectel_mks_nodegroup_v1}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1 selectel_mks_nodegroup_v1}
 */
 export class MksNodegroupV1 extends cdktf.TerraformResource {
 
@@ -543,7 +543,7 @@ export class MksNodegroupV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MksNodegroupV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MksNodegroupV1 to import
-  * @param importFromId The id of the existing MksNodegroupV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MksNodegroupV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MksNodegroupV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -555,7 +555,7 @@ export class MksNodegroupV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/resources/mks_nodegroup_v1 selectel_mks_nodegroup_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/resources/mks_nodegroup_v1 selectel_mks_nodegroup_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -566,8 +566,8 @@ export class MksNodegroupV1 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_mks_nodegroup_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.2.1',
-        providerVersionConstraint: '7.2.1'
+        providerVersion: '7.3.0',
+        providerVersionConstraint: '7.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

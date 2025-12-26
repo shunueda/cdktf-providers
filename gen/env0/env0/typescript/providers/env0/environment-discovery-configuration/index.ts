@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface EnvironmentDiscoveryConfigurationConfig extends cdktf.Terraform
   /**
   * If specified, deploy/plan on changes matching the given pattern (glob). Otherwise, deploy on template folder changes only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#auto_deploy_by_custom_glob EnvironmentDiscoveryConfiguration#auto_deploy_by_custom_glob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#auto_deploy_by_custom_glob EnvironmentDiscoveryConfiguration#auto_deploy_by_custom_glob}
   */
   readonly autoDeployByCustomGlob?: string;
   /**
   * bitbucket client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#bitbucket_client_key EnvironmentDiscoveryConfiguration#bitbucket_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#bitbucket_client_key EnvironmentDiscoveryConfiguration#bitbucket_client_key}
   */
   readonly bitbucketClientKey?: string;
   /**
   * create new environments from pull requests (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#create_new_environments_from_pull_requests EnvironmentDiscoveryConfiguration#create_new_environments_from_pull_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#create_new_environments_from_pull_requests EnvironmentDiscoveryConfiguration#create_new_environments_from_pull_requests}
   */
   readonly createNewEnvironmentsFromPullRequests?: boolean | cdktf.IResolvable;
   /**
   * the environment placement strategy with the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#environment_placement EnvironmentDiscoveryConfiguration#environment_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#environment_placement EnvironmentDiscoveryConfiguration#environment_placement}
   */
   readonly environmentPlacement?: string;
   /**
   * github repository id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#github_installation_id EnvironmentDiscoveryConfiguration#github_installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#github_installation_id EnvironmentDiscoveryConfiguration#github_installation_id}
   */
   readonly githubInstallationId?: number;
   /**
   * gitlab project id (deprecated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#gitlab_project_id EnvironmentDiscoveryConfiguration#gitlab_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#gitlab_project_id EnvironmentDiscoveryConfiguration#gitlab_project_id}
   */
   readonly gitlabProjectId?: number;
   /**
   * the environments glob pattern. Any match to this pattern will result in an Environment creation and plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#glob_pattern EnvironmentDiscoveryConfiguration#glob_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#glob_pattern EnvironmentDiscoveryConfiguration#glob_pattern}
   */
   readonly globPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#id EnvironmentDiscoveryConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#id EnvironmentDiscoveryConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,145 +59,145 @@ export interface EnvironmentDiscoveryConfigurationConfig extends cdktf.Terraform
   /**
   * set to true if azure devops is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#is_azure_devops EnvironmentDiscoveryConfiguration#is_azure_devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#is_azure_devops EnvironmentDiscoveryConfiguration#is_azure_devops}
   */
   readonly isAzureDevops?: boolean | cdktf.IResolvable;
   /**
   * set to true if Bitbucket Server is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#is_bitbucket_server EnvironmentDiscoveryConfiguration#is_bitbucket_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#is_bitbucket_server EnvironmentDiscoveryConfiguration#is_bitbucket_server}
   */
   readonly isBitbucketServer?: boolean | cdktf.IResolvable;
   /**
   * set to true if GitHub Enterprise is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#is_github_enterprise EnvironmentDiscoveryConfiguration#is_github_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#is_github_enterprise EnvironmentDiscoveryConfiguration#is_github_enterprise}
   */
   readonly isGithubEnterprise?: boolean | cdktf.IResolvable;
   /**
   * set to true if GitLab Enterprise is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#is_gitlab_enterprise EnvironmentDiscoveryConfiguration#is_gitlab_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#is_gitlab_enterprise EnvironmentDiscoveryConfiguration#is_gitlab_enterprise}
   */
   readonly isGitlabEnterprise?: boolean | cdktf.IResolvable;
   /**
   * If set to 'true', execute terragrunt commands with 'run all' (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#is_terragrunt_run_all EnvironmentDiscoveryConfiguration#is_terragrunt_run_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#is_terragrunt_run_all EnvironmentDiscoveryConfiguration#is_terragrunt_run_all}
   */
   readonly isTerragruntRunAll?: boolean | cdktf.IResolvable;
   /**
   * the Opentofu version to use (example: 1.6.1). Setting to `latest`, the version used will be the most recent one available for OpenTofu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#opentofu_version EnvironmentDiscoveryConfiguration#opentofu_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#opentofu_version EnvironmentDiscoveryConfiguration#opentofu_version}
   */
   readonly opentofuVersion?: string;
   /**
   * the project id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#project_id EnvironmentDiscoveryConfiguration#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#project_id EnvironmentDiscoveryConfiguration#project_id}
   */
   readonly projectId: string;
   /**
   * the repository to run discovery on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#repository EnvironmentDiscoveryConfiguration#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#repository EnvironmentDiscoveryConfiguration#repository}
   */
   readonly repository?: string;
   /**
   * Regex to select repositories for discovery-file configuration (enables discoveryFileConfiguration mode)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#repository_regex EnvironmentDiscoveryConfiguration#repository_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#repository_regex EnvironmentDiscoveryConfiguration#repository_regex}
   */
   readonly repositoryRegex?: string;
   /**
   * number of times to retry when deploy fails (between 1 and 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#retries_on_deploy EnvironmentDiscoveryConfiguration#retries_on_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#retries_on_deploy EnvironmentDiscoveryConfiguration#retries_on_deploy}
   */
   readonly retriesOnDeploy?: number;
   /**
   * number of times to retry when destroy fails (between 1 and 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#retries_on_destroy EnvironmentDiscoveryConfiguration#retries_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#retries_on_destroy EnvironmentDiscoveryConfiguration#retries_on_destroy}
   */
   readonly retriesOnDestroy?: number;
   /**
   * retry (on deploy) if error matches the specified regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#retry_on_deploy_only_when_matches_regex EnvironmentDiscoveryConfiguration#retry_on_deploy_only_when_matches_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#retry_on_deploy_only_when_matches_regex EnvironmentDiscoveryConfiguration#retry_on_deploy_only_when_matches_regex}
   */
   readonly retryOnDeployOnlyWhenMatchesRegex?: string;
   /**
   * retry (on destroy) if error matches the specified regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#retry_on_destroy_only_when_matches_regex EnvironmentDiscoveryConfiguration#retry_on_destroy_only_when_matches_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#retry_on_destroy_only_when_matches_regex EnvironmentDiscoveryConfiguration#retry_on_destroy_only_when_matches_regex}
   */
   readonly retryOnDestroyOnlyWhenMatchesRegex?: string;
   /**
   * start files Glob matching from this folder only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#root_path EnvironmentDiscoveryConfiguration#root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#root_path EnvironmentDiscoveryConfiguration#root_path}
   */
   readonly rootPath?: string;
   /**
   * The ssh key id that will be available during deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#ssh_key_id EnvironmentDiscoveryConfiguration#ssh_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#ssh_key_id EnvironmentDiscoveryConfiguration#ssh_key_id}
   */
   readonly sshKeyId?: string;
   /**
   * The ssh key name that will be available during deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#ssh_key_name EnvironmentDiscoveryConfiguration#ssh_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#ssh_key_name EnvironmentDiscoveryConfiguration#ssh_key_name}
   */
   readonly sshKeyName?: string;
   /**
   * the Terraform version to use (example: 1.7.4). Setting to `RESOLVE_FROM_TERRAFORM_CODE` defaults to the version of `terraform.required_version` during run-time (resolve from terraform code). Setting to `latest`, the version used will be the most recent one available for Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#terraform_version EnvironmentDiscoveryConfiguration#terraform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#terraform_version EnvironmentDiscoveryConfiguration#terraform_version}
   */
   readonly terraformVersion?: string;
   /**
   * The binary to use with Terragrunt. Valid values: 'opentofu' and 'terraform' (default: 'opentofu')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#terragrunt_tf_binary EnvironmentDiscoveryConfiguration#terragrunt_tf_binary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#terragrunt_tf_binary EnvironmentDiscoveryConfiguration#terragrunt_tf_binary}
   */
   readonly terragruntTfBinary?: string;
   /**
   * the Terragrunt version to use (example: 0.52.0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#terragrunt_version EnvironmentDiscoveryConfiguration#terragrunt_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#terragrunt_version EnvironmentDiscoveryConfiguration#terragrunt_version}
   */
   readonly terragruntVersion?: string;
   /**
   * a token id to be used with 'gitlab' or 'azure_devops'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#token_id EnvironmentDiscoveryConfiguration#token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#token_id EnvironmentDiscoveryConfiguration#token_id}
   */
   readonly tokenId?: string;
   /**
   * the infrastructure type use. Valid values: 'opentofu', 'terraform', 'terragrunt', 'workflow' (default: 'opentofu')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#type EnvironmentDiscoveryConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#type EnvironmentDiscoveryConfiguration#type}
   */
   readonly type?: string;
   /**
   * the VCS connection id to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#vcs_connection_id EnvironmentDiscoveryConfiguration#vcs_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#vcs_connection_id EnvironmentDiscoveryConfiguration#vcs_connection_id}
   */
   readonly vcsConnectionId?: string;
   /**
   * the Workspace namimg strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#workspace_naming EnvironmentDiscoveryConfiguration#workspace_naming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#workspace_naming EnvironmentDiscoveryConfiguration#workspace_naming}
   */
   readonly workspaceNaming?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration env0_environment_discovery_configuration}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration env0_environment_discovery_configuration}
 */
 export class EnvironmentDiscoveryConfiguration extends cdktf.TerraformResource {
 
@@ -213,7 +213,7 @@ export class EnvironmentDiscoveryConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnvironmentDiscoveryConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnvironmentDiscoveryConfiguration to import
-  * @param importFromId The id of the existing EnvironmentDiscoveryConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnvironmentDiscoveryConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnvironmentDiscoveryConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +225,7 @@ export class EnvironmentDiscoveryConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_discovery_configuration env0_environment_discovery_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_discovery_configuration env0_environment_discovery_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +236,8 @@ export class EnvironmentDiscoveryConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'env0_environment_discovery_configuration',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

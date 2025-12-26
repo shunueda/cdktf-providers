@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_provider
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface CircuitProviderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_provider#id CircuitProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_provider#description CircuitProvider#description}
+  */
+  readonly description?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_provider#id CircuitProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_provider#name CircuitProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_provider#name CircuitProvider#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_provider#slug CircuitProvider#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_provider#slug CircuitProvider#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_provider netbox_circuit_provider}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_provider netbox_circuit_provider}
 */
 export class CircuitProvider extends cdktf.TerraformResource {
 
@@ -41,7 +45,7 @@ export class CircuitProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CircuitProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CircuitProvider to import
-  * @param importFromId The id of the existing CircuitProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CircuitProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CircuitProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +57,7 @@ export class CircuitProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/circuit_provider netbox_circuit_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/circuit_provider netbox_circuit_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +68,8 @@ export class CircuitProvider extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_circuit_provider',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -75,6 +79,7 @@ export class CircuitProvider extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._description = config.description;
     this._id = config.id;
     this._name = config.name;
     this._slug = config.slug;
@@ -83,6 +88,22 @@ export class CircuitProvider extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -135,6 +156,7 @@ export class CircuitProvider extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      description: cdktf.stringToTerraform(this._description),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       slug: cdktf.stringToTerraform(this._slug),
@@ -143,6 +165,12 @@ export class CircuitProvider extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,

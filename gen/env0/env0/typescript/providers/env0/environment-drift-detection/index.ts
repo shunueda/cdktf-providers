@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_drift_detection
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_drift_detection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface EnvironmentDriftDetectionConfig extends cdktf.TerraformMetaArgu
   /**
   * Auto drift remediation strategy (DISABLED, CODE_TO_CLOUD, CLOUD_TO_CODE, SMART_REMEDIATION). Defaults to DISABLED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_drift_detection#auto_drift_remediation EnvironmentDriftDetection#auto_drift_remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_drift_detection#auto_drift_remediation EnvironmentDriftDetection#auto_drift_remediation}
   */
   readonly autoDriftRemediation?: string;
   /**
   * Cron expression for scheduled drift detection of the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_drift_detection#cron EnvironmentDriftDetection#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_drift_detection#cron EnvironmentDriftDetection#cron}
   */
   readonly cron: string;
   /**
   * The environment's id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_drift_detection#environment_id EnvironmentDriftDetection#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_drift_detection#environment_id EnvironmentDriftDetection#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_drift_detection#id EnvironmentDriftDetection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_drift_detection#id EnvironmentDriftDetection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface EnvironmentDriftDetectionConfig extends cdktf.TerraformMetaArgu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_drift_detection env0_environment_drift_detection}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_drift_detection env0_environment_drift_detection}
 */
 export class EnvironmentDriftDetection extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class EnvironmentDriftDetection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnvironmentDriftDetection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnvironmentDriftDetection to import
-  * @param importFromId The id of the existing EnvironmentDriftDetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_drift_detection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnvironmentDriftDetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_drift_detection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnvironmentDriftDetection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class EnvironmentDriftDetection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_drift_detection env0_environment_drift_detection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_drift_detection env0_environment_drift_detection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class EnvironmentDriftDetection extends cdktf.TerraformResource {
       terraformResourceType: 'env0_environment_drift_detection',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

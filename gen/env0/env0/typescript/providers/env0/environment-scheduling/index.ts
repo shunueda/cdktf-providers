@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_scheduling
+// https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_scheduling
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface EnvironmentSchedulingConfig extends cdktf.TerraformMetaArgument
   /**
   * Cron expression for scheduled deploy of the environment. Destroy and Deploy cron expressions must not be the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_scheduling#deploy_cron EnvironmentScheduling#deploy_cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_scheduling#deploy_cron EnvironmentScheduling#deploy_cron}
   */
   readonly deployCron?: string;
   /**
   * Cron expression for scheduled destroy of the environment. Destroy and Deploy cron expressions must not be the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_scheduling#destroy_cron EnvironmentScheduling#destroy_cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_scheduling#destroy_cron EnvironmentScheduling#destroy_cron}
   */
   readonly destroyCron?: string;
   /**
   * The environment's id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_scheduling#environment_id EnvironmentScheduling#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_scheduling#environment_id EnvironmentScheduling#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_scheduling#id EnvironmentScheduling#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_scheduling#id EnvironmentScheduling#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface EnvironmentSchedulingConfig extends cdktf.TerraformMetaArgument
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_scheduling env0_environment_scheduling}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_scheduling env0_environment_scheduling}
 */
 export class EnvironmentScheduling extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class EnvironmentScheduling extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnvironmentScheduling resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnvironmentScheduling to import
-  * @param importFromId The id of the existing EnvironmentScheduling that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_scheduling#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnvironmentScheduling that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_scheduling#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnvironmentScheduling to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class EnvironmentScheduling extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_scheduling env0_environment_scheduling} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.8/docs/resources/environment_scheduling env0_environment_scheduling} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class EnvironmentScheduling extends cdktf.TerraformResource {
       terraformResourceType: 'env0_environment_scheduling',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.7',
-        providerVersionConstraint: '1.29.7'
+        providerVersion: '1.29.8',
+        providerVersionConstraint: '1.29.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

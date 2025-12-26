@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/tenants
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/tenants
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNetboxTenantsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/tenants#id DataNetboxTenants#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/tenants#id DataNetboxTenants#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataNetboxTenantsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/tenants#limit DataNetboxTenants#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/tenants#limit DataNetboxTenants#limit}
   */
   readonly limit?: number;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/tenants#filter DataNetboxTenants#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/tenants#filter DataNetboxTenants#filter}
   */
   readonly filter?: DataNetboxTenantsFilter[] | cdktf.IResolvable;
 }
@@ -286,11 +286,11 @@ export class DataNetboxTenantsTenantsList extends cdktf.ComplexList {
 }
 export interface DataNetboxTenantsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/tenants#name DataNetboxTenants#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/tenants#name DataNetboxTenants#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/tenants#value DataNetboxTenants#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/tenants#value DataNetboxTenants#value}
   */
   readonly value: string;
 }
@@ -429,7 +429,7 @@ export class DataNetboxTenantsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/tenants netbox_tenants}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/tenants netbox_tenants}
 */
 export class DataNetboxTenants extends cdktf.TerraformDataSource {
 
@@ -445,7 +445,7 @@ export class DataNetboxTenants extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetboxTenants resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetboxTenants to import
-  * @param importFromId The id of the existing DataNetboxTenants that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/tenants#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetboxTenants that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/tenants#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetboxTenants to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -457,7 +457,7 @@ export class DataNetboxTenants extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/tenants netbox_tenants} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/tenants netbox_tenants} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -468,8 +468,8 @@ export class DataNetboxTenants extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_tenants',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

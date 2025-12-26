@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface NetboxProviderConfig {
   /**
   * Flag to set whether to allow https with invalid certificates. Can be set via the `NETBOX_ALLOW_INSECURE_HTTPS` environment variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs#allow_insecure_https NetboxProvider#allow_insecure_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs#allow_insecure_https NetboxProvider#allow_insecure_https}
   */
   readonly allowInsecureHttps?: boolean | cdktf.IResolvable;
   /**
   * Netbox API authentication token. Can be set via the `NETBOX_API_TOKEN` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs#api_token NetboxProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs#api_token NetboxProvider#api_token}
   */
   readonly apiToken: string;
   /**
   * Path to a PEM-encoded CA certificate for verifying the Netbox server certificate. Can be set via the `NETBOX_CA_CERT_FILE` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs#ca_cert_file NetboxProvider#ca_cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs#ca_cert_file NetboxProvider#ca_cert_file}
   */
   readonly caCertFile?: string;
   /**
   * Tags to add to every resource managed by this provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs#default_tags NetboxProvider#default_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs#default_tags NetboxProvider#default_tags}
   */
   readonly defaultTags?: string[];
   /**
   * Set these header on all requests to Netbox. Can be set via the `NETBOX_HEADERS` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs#headers NetboxProvider#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs#headers NetboxProvider#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Netbox API HTTP request timeout in seconds. Can be set via the `NETBOX_REQUEST_TIMEOUT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs#request_timeout NetboxProvider#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs#request_timeout NetboxProvider#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * Location of Netbox server including scheme (http or https) and optional port. Can be set via the `NETBOX_SERVER_URL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs#server_url NetboxProvider#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs#server_url NetboxProvider#server_url}
   */
   readonly serverUrl: string;
   /**
   * If true, do not try to determine the running Netbox version at provider startup. Disables warnings about possibly unsupported Netbox version. Also useful for local testing on terraform plans. Can be set via the `NETBOX_SKIP_VERSION_CHECK` environment variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs#skip_version_check NetboxProvider#skip_version_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs#skip_version_check NetboxProvider#skip_version_check}
   */
   readonly skipVersionCheck?: boolean | cdktf.IResolvable;
   /**
   * If true, strip trailing slashes from the `server_url` parameter and print a warning when doing so. Note that using trailing slashes in the `server_url` parameter will usually lead to errors. Can be set via the `NETBOX_STRIP_TRAILING_SLASHES_FROM_URL` environment variable. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs#strip_trailing_slashes_from_url NetboxProvider#strip_trailing_slashes_from_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs#strip_trailing_slashes_from_url NetboxProvider#strip_trailing_slashes_from_url}
   */
   readonly stripTrailingSlashesFromUrl?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs#alias NetboxProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs#alias NetboxProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs netbox}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs netbox}
 */
 export class NetboxProvider extends cdktf.TerraformProvider {
 
@@ -86,7 +86,7 @@ export class NetboxProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a NetboxProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetboxProvider to import
-  * @param importFromId The id of the existing NetboxProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetboxProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetboxProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class NetboxProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs netbox} Resource
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs netbox} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class NetboxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netbox',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       terraformProviderSource: 'e-breuninger/netbox'
     });

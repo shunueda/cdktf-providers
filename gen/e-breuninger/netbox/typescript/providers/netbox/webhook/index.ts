@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/webhook
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface WebhookConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/webhook#additional_headers Webhook#additional_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/webhook#additional_headers Webhook#additional_headers}
   */
   readonly additionalHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/webhook#body_template Webhook#body_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/webhook#body_template Webhook#body_template}
   */
   readonly bodyTemplate?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/webhook#ca_file_path Webhook#ca_file_path}
+  */
+  readonly caFilePath?: string;
+  /**
   * The complete list of official content types is available [here](https://www.iana.org/assignments/media-types/media-types.xhtml). Defaults to `application/json`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/webhook#http_content_type Webhook#http_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/webhook#http_content_type Webhook#http_content_type}
   */
   readonly httpContentType?: string;
   /**
   * Valid values are `GET`, `POST`, `PUT`, `PATCH` and `DELETE`. Defaults to `POST`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/webhook#http_method Webhook#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/webhook#http_method Webhook#http_method}
   */
   readonly httpMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/webhook#id Webhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/webhook#id Webhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/webhook#name Webhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/webhook#name Webhook#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/webhook#payload_url Webhook#payload_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/webhook#payload_url Webhook#payload_url}
   */
   readonly payloadUrl: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/webhook netbox_webhook}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/webhook netbox_webhook}
 */
 export class Webhook extends cdktf.TerraformResource {
 
@@ -61,7 +65,7 @@ export class Webhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Webhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Webhook to import
-  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Webhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +77,7 @@ export class Webhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/resources/webhook netbox_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/resources/webhook netbox_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +88,8 @@ export class Webhook extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_webhook',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -97,6 +101,7 @@ export class Webhook extends cdktf.TerraformResource {
     });
     this._additionalHeaders = config.additionalHeaders;
     this._bodyTemplate = config.bodyTemplate;
+    this._caFilePath = config.caFilePath;
     this._httpContentType = config.httpContentType;
     this._httpMethod = config.httpMethod;
     this._id = config.id;
@@ -138,6 +143,22 @@ export class Webhook extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get bodyTemplateInput() {
     return this._bodyTemplate;
+  }
+
+  // ca_file_path - computed: false, optional: true, required: false
+  private _caFilePath?: string; 
+  public get caFilePath() {
+    return this.getStringAttribute('ca_file_path');
+  }
+  public set caFilePath(value: string) {
+    this._caFilePath = value;
+  }
+  public resetCaFilePath() {
+    this._caFilePath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get caFilePathInput() {
+    return this._caFilePath;
   }
 
   // http_content_type - computed: false, optional: true, required: false
@@ -222,6 +243,7 @@ export class Webhook extends cdktf.TerraformResource {
     return {
       additional_headers: cdktf.stringToTerraform(this._additionalHeaders),
       body_template: cdktf.stringToTerraform(this._bodyTemplate),
+      ca_file_path: cdktf.stringToTerraform(this._caFilePath),
       http_content_type: cdktf.stringToTerraform(this._httpContentType),
       http_method: cdktf.stringToTerraform(this._httpMethod),
       id: cdktf.stringToTerraform(this._id),
@@ -240,6 +262,12 @@ export class Webhook extends cdktf.TerraformResource {
       },
       body_template: {
         value: cdktf.stringToHclTerraform(this._bodyTemplate),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ca_file_path: {
+        value: cdktf.stringToHclTerraform(this._caFilePath),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

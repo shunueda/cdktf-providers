@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefixes
+// https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefixes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNetboxPrefixesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefixes#id DataNetboxPrefixes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefixes#id DataNetboxPrefixes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataNetboxPrefixesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The limit of objects to return from the API lookup. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefixes#limit DataNetboxPrefixes#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefixes#limit DataNetboxPrefixes#limit}
   */
   readonly limit?: number;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefixes#filter DataNetboxPrefixes#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefixes#filter DataNetboxPrefixes#filter}
   */
   readonly filter?: DataNetboxPrefixesFilter[] | cdktf.IResolvable;
 }
@@ -76,6 +76,12 @@ export class DataNetboxPrefixesPrefixesOutputReference extends cdktf.ComplexObje
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
     }
+  }
+
+  // custom_fields - computed: true, optional: false, required: false
+  private _customFields = new cdktf.StringMap(this, "custom_fields");
+  public get customFields() {
+    return this._customFields;
   }
 
   // description - computed: true, optional: false, required: false
@@ -166,13 +172,13 @@ export interface DataNetboxPrefixesFilter {
   /**
   * The name of the field to filter on. Supported fields are: `prefix`, `contains`, `vlan_vid`, `vrf_id`, `vlan_id`, `status`, `tenant_id`, `site_id`, `description` & `tag`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefixes#name DataNetboxPrefixes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefixes#name DataNetboxPrefixes#name}
   */
   readonly name: string;
   /**
   * The value to pass to the specified filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefixes#value DataNetboxPrefixes#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefixes#value DataNetboxPrefixes#value}
   */
   readonly value: string;
 }
@@ -311,7 +317,7 @@ export class DataNetboxPrefixesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefixes netbox_prefixes}
+* Represents a {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefixes netbox_prefixes}
 */
 export class DataNetboxPrefixes extends cdktf.TerraformDataSource {
 
@@ -327,7 +333,7 @@ export class DataNetboxPrefixes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetboxPrefixes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetboxPrefixes to import
-  * @param importFromId The id of the existing DataNetboxPrefixes that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefixes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetboxPrefixes that should be imported. Refer to the {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefixes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetboxPrefixes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -339,7 +345,7 @@ export class DataNetboxPrefixes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.0/docs/data-sources/prefixes netbox_prefixes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/e-breuninger/netbox/5.0.1/docs/data-sources/prefixes netbox_prefixes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -350,8 +356,8 @@ export class DataNetboxPrefixes extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_prefixes',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.0.1',
+        providerVersionConstraint: '5.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

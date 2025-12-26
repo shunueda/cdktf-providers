@@ -1,3 +1,3 @@
 # `data_selectel_cloudbackup_checkpoint_v2`
 
-Refer to the Terraform Registry for docs: [`data_selectel_cloudbackup_checkpoint_v2`](https://registry.terraform.io/providers/selectel/selectel/7.2.1/docs/data-sources/cloudbackup_checkpoint_v2).
+Refer to the Terraform Registry for docs: [`data_selectel_cloudbackup_checkpoint_v2`](https://registry.terraform.io/providers/selectel/selectel/7.3.0/docs/data-sources/cloudbackup_checkpoint_v2).
